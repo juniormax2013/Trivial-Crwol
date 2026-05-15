@@ -1,0 +1,3376 @@
+[
+  {
+    "docId": "dq-pat-027_ht",
+    "data": {
+      "id": "dq-pat-027",
+      "questionText": "Ki valè teyolojik karaktè Jòb ak soufrans ineksplikab li a genyen?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jòb te pwouve ke soufrans se toujou yon pinisyon ki soti nan Bondye"
+        },
+        {
+          "id": "b",
+          "text": "Jòb te montre ke moun ki dwat kapab soufri san se pa yon pinisyon — souverènte Bondye depase sa moun ka konprann"
+        },
+        {
+          "id": "c",
+          "text": "Jòb te finalman abandone lafwa l poutèt soufrans li yo"
+        },
+        {
+          "id": "d",
+          "text": "Jòb te dekouvri Satan te gen kontwòl total sou lavi l"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jòb defye teyoloji rekonpans lan. Pèsonn moun pa ka eksplike soufrans li a. Bondye te reponn soti nan mitan tanpèt la: souverènte l depase entèlijans imen an (Jòb 38-42).",
+      "bibleReference": "Job 42:1-6",
+      "normalizedRef": "job42.1-6",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-027_fr",
+    "data": {
+      "id": "dq-pat-027",
+      "questionText": "Quelle est la portée théologique du personnage de Job et sa souffrance inexpliquée ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Job prouva que les souffrances sont toujours une punition divine"
+        },
+        {
+          "id": "b",
+          "text": "Job démontra que les justes peuvent souffrir sans que ce soit une punition — la souveraineté de Dieu dépasse la compréhension humaine"
+        },
+        {
+          "id": "c",
+          "text": "Job abandonna finalement sa foi face à la souffrance"
+        },
+        {
+          "id": "d",
+          "text": "Job découvrit que Satan avait le contrôle absolu de sa vie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Job défi la théologie de la rétribution. Sa souffrance est inexplicable humainement. Dieu répondit du sein de la tempête : sa souveraineté transcende l'entendement humain (Job 38-42).",
+      "bibleReference": "Job 42:1-6",
+      "normalizedRef": "job42.1-6",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-028_ht",
+    "data": {
+      "id": "dq-pat-028",
+      "questionText": "Kisa vokasyon Ezayi a ki nan chapit 6 la revele sou nati Bondye ak sou pwofèt la?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tout pouvwa Bondye fas ak feblès fizik pwofèt la"
+        },
+        {
+          "id": "b",
+          "text": "Sentete absoli Bondye a (twa fwa sen) ak eta pwofèt la ki pa t diy men ki te jwenn pirifikasyon nan chabon dife a"
+        },
+        {
+          "id": "c",
+          "text": "Eleksyon Ezayi depi anvan li te fèt"
+        },
+        {
+          "id": "d",
+          "text": "Plan delivrans pou 70 nasyon yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Vizyon twa fwa sen (Sen, Sen, Sen) revele sentete absoli YHWH la. Devan l, Ezayi di: «Mwen fini» — yon chabon dife pirifye bouch li epi l aksepte misyon l (Ezayi 6:1-8).",
+      "bibleReference": "Ésaïe 6:1-8",
+      "normalizedRef": "isa6.1-8",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-028_fr",
+    "data": {
+      "id": "dq-pat-028",
+      "questionText": "Que révèle la vocation d'Ésaïe au chapitre 6 sur la nature de Dieu et du prophète ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La toute-puissance de Dieu face à la faiblesse physique du prophète"
+        },
+        {
+          "id": "b",
+          "text": "La sainteté absolue de Dieu (trisagion) et l'indignité du prophète purifiée par la braise"
+        },
+        {
+          "id": "c",
+          "text": "L'élection d'Ésaïe dès avant sa naissance"
+        },
+        {
+          "id": "d",
+          "text": "Le plan de salut pour les 70 nations"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La vision du trisagion (Saint, Saint, Saint) révèle la sainteté absolue de YHWH. Face à elle, Ésaïe dit : « Je suis perdu » — une braise purifie ses lèvres et il accepte la mission (Ésaïe 6:1-8).",
+      "bibleReference": "Ésaïe 6:1-8",
+      "normalizedRef": "isa6.1-8",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-029_ht",
+    "data": {
+      "id": "dq-pat-029",
+      "questionText": "Kisa non «Danyèl» vle di e ki jan fidelite l montre sa vle di viv nan dyaspora a?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye fò — li te rete fidèl nan fòs fizik"
+        },
+        {
+          "id": "b",
+          "text": "Bondye se jij mwen — li te rete fidèl ak Bondye nan mitan yon kilti etranjè ak lènmi"
+        },
+        {
+          "id": "c",
+          "text": "Bondye konsole — li te konsole ekzile yo ak pwofesi l yo"
+        },
+        {
+          "id": "d",
+          "text": "Bondye beni — li te resevwa tout benediksyon Babilòn yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Danyèl (Bondye se jij mwen) se modèl pou w rete fidèl pandan w nan dyaspora a: li te refize manje vyann ki pa t pwòp, lapriyè twa fwa pa jou malgre dekrè yo, enperatif pou rete dwat devan wa Babilòn nan.",
+      "bibleReference": "Daniel 6:10",
+      "normalizedRef": "dan6.10",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-029_fr",
+    "data": {
+      "id": "dq-pat-029",
+      "questionText": "Quelle est la signification du nom « Daniel » et comment sa fidélité illustre-t-elle la vie en diaspora ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu est fort — il resta fidèle par la force physique"
+        },
+        {
+          "id": "b",
+          "text": "Dieu est mon juge — il maintint sa fidélité à Dieu dans une culture étrangère hostile"
+        },
+        {
+          "id": "c",
+          "text": "Dieu console — il consola les exilés par ses prophéties"
+        },
+        {
+          "id": "d",
+          "text": "Dieu bénit — il reçut toutes les bénédictions babyloniennes"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Daniel (Dieu est mon juge) est le modèle de la fidélité en diaspora : refus de la nourriture impure, prières trois fois par jour malgré les décrets, intégrité dans la cour de Babylone.",
+      "bibleReference": "Daniel 6:10",
+      "normalizedRef": "dan6.10",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pent-001_ht",
+    "data": {
+      "id": "dq-pent-001",
+      "questionText": "Dapre Jenèz la, nan konbyen jou Bondye te kreye lemonn?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 jou"
+        },
+        {
+          "id": "b",
+          "text": "6 jou"
+        },
+        {
+          "id": "c",
+          "text": "7 jou"
+        },
+        {
+          "id": "d",
+          "text": "40 jou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te kreye tout bagay nan sis jou epi li repoze sou setyèm jou a (Jenèz 1:1–2:3).",
+      "bibleReference": "Jenèz 1:1-2:3",
+      "normalizedRef": "gen1.1-2.3",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-001_fr",
+    "data": {
+      "id": "dq-pent-001",
+      "questionText": "Selon la Genèse, en combien de jours Dieu a-t-il créé le monde ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 jours"
+        },
+        {
+          "id": "b",
+          "text": "6 jours"
+        },
+        {
+          "id": "c",
+          "text": "7 jours"
+        },
+        {
+          "id": "d",
+          "text": "40 jours"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu a créé toutes choses en six jours et s’est reposé le septième jour (Genèse 1:1–2:3).",
+      "bibleReference": "Genèse 1:1-2:3",
+      "normalizedRef": "gen1.1-2.3",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-002_ht",
+    "data": {
+      "id": "dq-pent-002",
+      "questionText": "Ki non premye fanm Bondye te kreye a?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "Mari"
+        },
+        {
+          "id": "c",
+          "text": "Èv"
+        },
+        {
+          "id": "d",
+          "text": "Rebeka"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Adanm te rele madanm li Èv, paske li te manman tout moun k ap viv yo (Jenèz 3:20).",
+      "bibleReference": "Jenèz 3:20",
+      "normalizedRef": "gen3.20",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-002_fr",
+    "data": {
+      "id": "dq-pent-002",
+      "questionText": "Quel est le nom de la première femme créée par Dieu ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "Marie"
+        },
+        {
+          "id": "c",
+          "text": "Ève"
+        },
+        {
+          "id": "d",
+          "text": "Rébecca"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Adam appela sa femme Ève, car elle est la mère de tous les vivants (Genèse 3:20).",
+      "bibleReference": "Genèse 3:20",
+      "normalizedRef": "gen3.20",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-003_ht",
+    "data": {
+      "id": "dq-pent-003",
+      "questionText": "Ki sa Noye te bati pou li sove nanvan delij la?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon tou"
+        },
+        {
+          "id": "b",
+          "text": "Yon lach"
+        },
+        {
+          "id": "c",
+          "text": "Yon kach anba tè"
+        },
+        {
+          "id": "d",
+          "text": "Yon vil forète"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te bay Noye lòd bati yon lach bwa pou sove fanmi li ak bèt yo (Jenèz 6:14).",
+      "bibleReference": "Jenèz 6:14",
+      "normalizedRef": "gen6.14",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-003_fr",
+    "data": {
+      "id": "dq-pent-003",
+      "questionText": "Qu’est-ce que Noé a construit pour échapper au déluge ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une tour"
+        },
+        {
+          "id": "b",
+          "text": "Une arche"
+        },
+        {
+          "id": "c",
+          "text": "Un abri souterrain"
+        },
+        {
+          "id": "d",
+          "text": "Une forteresse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu ordonna à Noé de construire une arche en bois pour sauver sa famille et les animaux (Genèse 6:14).",
+      "bibleReference": "Genèse 6:14",
+      "normalizedRef": "gen6.14",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-004_ht",
+    "data": {
+      "id": "dq-pent-004",
+      "questionText": "Konbyen malediksyon Bondye te voye sou Ejip pou delivre Izrayèl?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bondye te voye 10 malediksyon sou Ejip; dènye a te lanmò tout premye pitit gason (Egzòd 7-12).",
+      "bibleReference": "Egzòd 7-12",
+      "normalizedRef": "exo7-12",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-004_fr",
+    "data": {
+      "id": "dq-pent-004",
+      "questionText": "Combien de plaies Dieu a-t-il envoyées sur l’Égypte pour délivrer Israël ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu a envoyé 10 plaies sur l’Égypte ; la dernière fut la mort des premiers-nés (Exode 7-12).",
+      "bibleReference": "Exode 7-12",
+      "normalizedRef": "exo7-12",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-005_ht",
+    "data": {
+      "id": "dq-pent-005",
+      "questionText": "Ki kote Moyiz te resevwa Dis Kòmandman yo?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Karmèl"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Olivye"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Nebo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te ban Moyiz Dis Kòmandman yo sou Mòn Sinayi (Egzòd 20).",
+      "bibleReference": "Egzòd 20:1-17",
+      "normalizedRef": "exo20.1-17",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-005_fr",
+    "data": {
+      "id": "dq-pent-005",
+      "questionText": "Où Moïse a-t-il reçu les Dix Commandements ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Carmel"
+        },
+        {
+          "id": "b",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "c",
+          "text": "Mont des Oliviers"
+        },
+        {
+          "id": "d",
+          "text": "Mont Nébo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu a donné à Moïse les Dix Commandements sur le Mont Sinaï (Exode 20).",
+      "bibleReference": "Exode 20:1-17",
+      "normalizedRef": "exo20.1-17",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-006_ht",
+    "data": {
+      "id": "dq-pent-006",
+      "questionText": "Konbyen jou ak nwit lapli te tonbe pandan delij Noye a?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "40"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lapli a te dire karant jou ak karant nwit (Jenèz 7:12).",
+      "bibleReference": "Jenèz 7:12",
+      "normalizedRef": "gen7.12",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-006_fr",
+    "data": {
+      "id": "dq-pent-006",
+      "questionText": "Pendant combien de jours et de nuits la pluie est-elle tombée lors du déluge ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "40"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La pluie tomba sur la terre pendant quarante jours et quarante nuits (Genèse 7:12).",
+      "bibleReference": "Genèse 7:12",
+      "normalizedRef": "gen7.12",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-007_ht",
+    "data": {
+      "id": "dq-pent-007",
+      "questionText": "Kilès ki te entèprete rèv Farawon yo sou bèf gra ak bèf mèg yo?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "Abraram"
+        },
+        {
+          "id": "c",
+          "text": "Jozèf"
+        },
+        {
+          "id": "d",
+          "text": "Arawon"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jozèf te entèprete rèv Farawon yo: 7 ane abondans ak 7 ane grangou (Jenèz 41).",
+      "bibleReference": "Jenèz 41:25-32",
+      "normalizedRef": "gen41.25-32",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-007_fr",
+    "data": {
+      "id": "dq-pent-007",
+      "questionText": "Qui a interprété les rêves de Pharaon concernant les vaches grasses et les vaches maigres ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Abraham"
+        },
+        {
+          "id": "c",
+          "text": "Joseph"
+        },
+        {
+          "id": "d",
+          "text": "Aaron"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Joseph interpréta les rêves de Pharaon : 7 ans d’abondance suivis de 7 ans de famine (Genèse 41).",
+      "bibleReference": "Genèse 41:25-32",
+      "normalizedRef": "gen41.25-32",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-008_ht",
+    "data": {
+      "id": "dq-pent-008",
+      "questionText": "Ki dlo Moyiz te travèse ak pèp la pou yo chape anba lame Farawon an?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rivyè Jouden"
+        },
+        {
+          "id": "b",
+          "text": "Lanmè Mediterane"
+        },
+        {
+          "id": "c",
+          "text": "Lanmè Wouj"
+        },
+        {
+          "id": "d",
+          "text": "Rivyè Nil"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bondye te fann Lanmè Wouj la pou Izrayèl pase sou tè sèk (Egzòd 14:21-28).",
+      "bibleReference": "Egzòd 14:21-28",
+      "normalizedRef": "exo14.21-28",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-008_fr",
+    "data": {
+      "id": "dq-pent-008",
+      "questionText": "Quelle mer Moïse a-t-il traversée avec le peuple pour échapper à l’armée de Pharaon ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jourdain"
+        },
+        {
+          "id": "b",
+          "text": "Mer Méditerranée"
+        },
+        {
+          "id": "c",
+          "text": "Mer Rouge"
+        },
+        {
+          "id": "d",
+          "text": "Nil"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu fendit la Mer Rouge pour qu’Israël puisse passer à sec (Exode 14:21-28).",
+      "bibleReference": "Exode 14:21-28",
+      "normalizedRef": "exo14.21-28",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-009_ht",
+    "data": {
+      "id": "dq-pent-009",
+      "questionText": "Konbyen ane pèp Izrayèl la te rete nan dezè a?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 ane"
+        },
+        {
+          "id": "b",
+          "text": "20 ane"
+        },
+        {
+          "id": "c",
+          "text": "40 ane"
+        },
+        {
+          "id": "d",
+          "text": "70 ane"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Izrayèl te pase 40 ane nan dezè a akòz enkredilite pèp la (Nonb 14:33-34).",
+      "bibleReference": "Nonb 14:33-34",
+      "normalizedRef": "num14.33-34",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-009_fr",
+    "data": {
+      "id": "dq-pent-009",
+      "questionText": "Pendant combien d’années le peuple d’Israël a-t-il erré dans le désert ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 ans"
+        },
+        {
+          "id": "b",
+          "text": "20 ans"
+        },
+        {
+          "id": "c",
+          "text": "40 ans"
+        },
+        {
+          "id": "d",
+          "text": "70 ans"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Israël a passé 40 ans dans le désert à cause de l’incrédulité du peuple (Nombres 14:33-34).",
+      "bibleReference": "Nombres 14:33-34",
+      "normalizedRef": "num14.33-34",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-010_ht",
+    "data": {
+      "id": "dq-pent-010",
+      "questionText": "Ki manje ki sot nan syèl la pèp Izrayèl te manje nan dezè a?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Manna"
+        },
+        {
+          "id": "b",
+          "text": "Siwo myèl"
+        },
+        {
+          "id": "c",
+          "text": "Pen lòj"
+        },
+        {
+          "id": "d",
+          "text": "Grenad syèl"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Bondye te voye manna sot nan syèl chak maten pou nouri Izrayèl (Egzòd 16:14-15).",
+      "bibleReference": "Egzòd 16:14-15",
+      "normalizedRef": "exo16.14-15",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-010_fr",
+    "data": {
+      "id": "dq-pent-010",
+      "questionText": "Quelle nourriture tombée du ciel le peuple d’Israël a-t-il mangé dans le désert ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Manne"
+        },
+        {
+          "id": "b",
+          "text": "Miel"
+        },
+        {
+          "id": "c",
+          "text": "Pain d’orge"
+        },
+        {
+          "id": "d",
+          "text": "Grenades célestes"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Dieu a envoyé la manne du ciel chaque matin pour nourrir Israël (Exode 16:14-15).",
+      "bibleReference": "Exode 16:14-15",
+      "normalizedRef": "exo16.14-15",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-011_ht",
+    "data": {
+      "id": "dq-pent-011",
+      "questionText": "Ki sans mo grèk \"Jenèz\" la genyen nan orijin li?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lwa Bondye"
+        },
+        {
+          "id": "b",
+          "text": "Kòmansman oswa orijin"
+        },
+        {
+          "id": "c",
+          "text": "Kreyasyon glorye"
+        },
+        {
+          "id": "d",
+          "text": "Alyans etènèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mo grèk \"genesis\" vle di \"kòmansman\", \"orijin\" oswa \"koumansman\".",
+      "bibleReference": "Jenèz 1:1",
+      "normalizedRef": "gen1.1",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-011_fr",
+    "data": {
+      "id": "dq-pent-011",
+      "questionText": "Quel est le sens du mot grec \"Genèse\" à son origine ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Loi de Dieu"
+        },
+        {
+          "id": "b",
+          "text": "Commencement ou origine"
+        },
+        {
+          "id": "c",
+          "text": "Création glorieuse"
+        },
+        {
+          "id": "d",
+          "text": "Alliance éternelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le mot grec \"genesis\" signifie \"commencement\", \"origine\" ou \"début\".",
+      "bibleReference": "Genèse 1:1",
+      "normalizedRef": "gen1.1",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-012_ht",
+    "data": {
+      "id": "dq-pent-012",
+      "questionText": "Konbyen espyon Moyiz te voye eksplore Kanaran?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "70"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Moyiz te voye 12 gason, youn chak tribi. Sèlman Kalèb ak Jozye te bay bon rapò (Nonb 13).",
+      "bibleReference": "Nonb 13:1-16",
+      "normalizedRef": "num13.1-16",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-012_fr",
+    "data": {
+      "id": "dq-pent-012",
+      "questionText": "Combien d’espions Moïse a-t-il envoyés explorer Canaan ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "70"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Moïse envoya 12 hommes, un de chaque tribu. Seuls Caleb et Josué rapportèrent un bon rapport (Nombres 13).",
+      "bibleReference": "Nombres 13:1-16",
+      "normalizedRef": "num13.1-16",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-013_ht",
+    "data": {
+      "id": "dq-pent-013",
+      "questionText": "Sou ki mòn Moyiz mouri san li pa antre nan Peyi Pwomèt la?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Èmin"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Nebo"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Pisga"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Moyiz te monte Mòn Nebo, li te wè peyi pwomèt la epi li mouri laj 120 ane (Detewonòm 34:1-5).",
+      "bibleReference": "Detewonòm 34:1-5",
+      "normalizedRef": "deu34.1-5",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-013_fr",
+    "data": {
+      "id": "dq-pent-013",
+      "questionText": "Sur quelle montagne Moïse est-il mort sans entrer dans la Terre Promise ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Hermon"
+        },
+        {
+          "id": "b",
+          "text": "Mont Nébo"
+        },
+        {
+          "id": "c",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "d",
+          "text": "Mont Pisga"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Moïse monta sur le mont Nébo, vit la terre promise et y mourut à l'âge de 120 ans (Deutéronome 34:1-5).",
+      "bibleReference": "Deutéronome 34:1-5",
+      "normalizedRef": "deu34.1-5",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-014_ht",
+    "data": {
+      "id": "dq-pent-014",
+      "questionText": "Konbyen pitit gason Jakòb te genyen ki te bay orijin 12 tribi Izrayèl yo?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "11"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "13"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jakòb te genyen 12 pitit gason: Ribèn, Simeyon, Levi, Jida, Dan, Neftali, Gad, Asè, Isakar, Zabilon, Jozèf ak Benjamen (Jenèz 49).",
+      "bibleReference": "Jenèz 49:1-28",
+      "normalizedRef": "gen49.1-28",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-014_fr",
+    "data": {
+      "id": "dq-pent-014",
+      "questionText": "Combien de fils Jacob a-t-il eus, à l'origine des 12 tribus d'Israël ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "11"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "13"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jacob eut 12 fils : Ruben, Siméon, Lévi, Juda, Dan, Nephthali, Gad, Asher, Issacar, Zabulon, Joseph et Benjamin (Genèse 49).",
+      "bibleReference": "Genèse 49:1-28",
+      "normalizedRef": "gen49.1-28",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-015_ht",
+    "data": {
+      "id": "dq-pent-015",
+      "questionText": "Ki sa mo \"Detewonòm\" vle di?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dènye liv lwa a"
+        },
+        {
+          "id": "b",
+          "text": "Dezyèm lwa"
+        },
+        {
+          "id": "c",
+          "text": "Lwa dezè a"
+        },
+        {
+          "id": "d",
+          "text": "Kòmandman Moyiz yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Detewonòm\" soti nan grèk: deutero (dezyèm) ak nomos (lwa). Li reprezante dezyèm ekspozisyon lwa a anvan antre nan Kanaran.",
+      "bibleReference": "Detewonòm 1:1",
+      "normalizedRef": "deu1.1",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-015_fr",
+    "data": {
+      "id": "dq-pent-015",
+      "questionText": "Que signifie le mot \"Deutéronome\" ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dernier livre de la loi"
+        },
+        {
+          "id": "b",
+          "text": "Seconde loi"
+        },
+        {
+          "id": "c",
+          "text": "Loi du désert"
+        },
+        {
+          "id": "d",
+          "text": "Commandements de Moïse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Deutéronome\" vient du grec : deutero (second) et nomos (loi). Il représente la seconde exposition de la loi avant l'entrée en Canaan.",
+      "bibleReference": "Deutéronome 1:1",
+      "normalizedRef": "deu1.1",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-016_ht",
+    "data": {
+      "id": "dq-pent-016",
+      "questionText": "Ki divizyon an twa pati kanon ebre a (Tanakh)?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lwa (Torah), Pwofèt (Nevi'im), Ekri yo (Ketuvim)"
+        },
+        {
+          "id": "b",
+          "text": "Liv istorik, powetik ak pwofetik"
+        },
+        {
+          "id": "c",
+          "text": "Pentatèk, Sòm ak Sajès"
+        },
+        {
+          "id": "d",
+          "text": "Lwa, Sajès ak Apokalips"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Tanakh = Torah (Pentatèk) + Nevi'im (Pwofèt) + Ketuvim (Ekri yo) — 24 liv nan sistèm ebre a.",
+      "bibleReference": "Luc 24:44",
+      "normalizedRef": "luk24.44",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-016_fr",
+    "data": {
+      "id": "dq-pent-016",
+      "questionText": "Quelle est la division tripartite du canon hébreu (Tanakh) ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Loi (Torah), Prophètes (Nevi'im), Écrits (Ketuvim)"
+        },
+        {
+          "id": "b",
+          "text": "Livres historiques, poétiques et prophétiques"
+        },
+        {
+          "id": "c",
+          "text": "Pentateuque, Psaumes et Sages"
+        },
+        {
+          "id": "d",
+          "text": "Loi, Sagesse et Apocalypse"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Le Tanakh = Torah (Pentateuque) + Nevi'im (Prophètes : premiers et derniers) + Ketuvim (Écrits : Psaumes, Proverbes, Job, etc.) — 24 livres dans le système hébreu.",
+      "bibleReference": "Luc 24:44",
+      "normalizedRef": "luk24.44",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-017_ht",
+    "data": {
+      "id": "dq-pent-017",
+      "questionText": "Ki siyifikasyon Alyans Bondye ak Noe a (Jenèz 9) ak kisa ki siy li?",
+      "categoryId": "pentateuco",
+      "categoryName": "Lwa / Pentatèk",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alyans ak kondisyon : Noe te dwe swiv lwa Moyiz yo"
+        },
+        {
+          "id": "b",
+          "text": "Alyans san kondisyon : Bondye pwomèt li p'ap janm detwi tè a ak dlo ankò — siy : lakansyèl"
+        },
+        {
+          "id": "c",
+          "text": "Alyans sèlman ak Noe ak fanmi l sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Pwomès pou beni Noe nan lajan si li obeyi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Alyans ak Noe (Jenèz 9:8-17) se pou tout kreyasyon an e li san kondisyon. Siy : lakansyèl, kòm memwa pèmanan favè Bondye.",
+      "bibleReference": "Genèse 9:8-17",
+      "normalizedRef": "gen9.8-17",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pent-017_fr",
+    "data": {
+      "id": "dq-pent-017",
+      "questionText": "Quelle est la signification de l'Alliance de Dieu avec Noé (Genèse 9) et son signe ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alliance conditionnnelle : Noé devait observer les lois mosaïques"
+        },
+        {
+          "id": "b",
+          "text": "Alliance cosmique inconditionnelle : Dieu promet de ne plus détruire la terre par le déluge — signe : l'arc-en-ciel"
+        },
+        {
+          "id": "c",
+          "text": "Alliance uniquement avec Noé et sa famille directe"
+        },
+        {
+          "id": "d",
+          "text": "Promesse de bénir Noé financièrement s'il obéit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Alliance Noahique (Genèse 9:8-17) est cosmique et inconditionnelle — Dieu s'engage envers toute créature vivante. Signe : l'arc-en-ciel, mémorial permanent de la grâce divine.",
+      "bibleReference": "Genèse 9:8-17",
+      "normalizedRef": "gen9.8-17",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pers-001_ht",
+    "data": {
+      "id": "dq-pers-001",
+      "questionText": "Ki figi Ansyen Testaman ki prezante nan Ebre kòm tip Kris pou li te wa ak prèt an menm tan?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "Arawon"
+        },
+        {
+          "id": "c",
+          "text": "Melkizedèk"
+        },
+        {
+          "id": "d",
+          "text": "Eli"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Melkizedèk, wa Salem ak prèt Bondye Trèwot Wo, prezante nan Ebre 7 kòm tip Kris: wa ak prèt etènèl, san jeneyaloji anrejistre.",
+      "bibleReference": "Ebre 7:1-3",
+      "normalizedRef": "heb7.1-3",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-001_fr",
+    "data": {
+      "id": "dq-pers-001",
+      "questionText": "Qui était Melchisédek et pourquoi est-il un type de Christ dans Hébreux 7 ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prêtre-roi de Salem sans généalogie connue — type de la prêtrise éternelle de Christ"
+        },
+        {
+          "id": "b",
+          "text": "Prophète d'Abraham devenu son disciple"
+        },
+        {
+          "id": "c",
+          "text": "Ange sous forme humaine envoyé à Abraham"
+        },
+        {
+          "id": "d",
+          "text": "Premier roi d'Israël avant Saül"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Melchisédek, roi de Salem et prêtre du Dieu Très-Haut, reçut la dîme d'Abraham. Sans père, ni mère, ni généalogie — type de la prêtrise éternelle de Christ (Hébreux 7:1-3).",
+      "bibleReference": "Hébreux 7:1-3",
+      "normalizedRef": "heb7.1-3",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-002_ht",
+    "data": {
+      "id": "dq-pers-002",
+      "questionText": "Ki non pwofetik yo bay Mesi a nan Ezayi 7:14?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Konseye Admirable"
+        },
+        {
+          "id": "b",
+          "text": "Emanizyèl"
+        },
+        {
+          "id": "c",
+          "text": "Prens Lapè"
+        },
+        {
+          "id": "d",
+          "text": "Lyon Jida"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Gade! Yon vièj ap fè yon pitit gason, epi yo pral rele l Emanizyèl\" (Ezayi 7:14). Emanizyèl vle di \"Bondye avèk nou\" (Matye 1:23).",
+      "bibleReference": "Ezayi 7:14",
+      "normalizedRef": "isa7.14",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-002_fr",
+    "data": {
+      "id": "dq-pers-002",
+      "questionText": "Que signifie le nom « Immanuel » prophétisé dans Ésaïe 7:14 et lié à la Genèse 3:15 ?",
+      "categoryId": "personajes",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu guérit"
+        },
+        {
+          "id": "b",
+          "text": "Dieu avec nous"
+        },
+        {
+          "id": "c",
+          "text": "Dieu sauve"
+        },
+        {
+          "id": "d",
+          "text": "Dieu est fort"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Immanuel (Immanu-El) signifie « Dieu avec nous » — le Messie né de la vierge, accomplissement du protévangile de Genèse 3:15 (Ésaïe 7:14; Matthieu 1:23).",
+      "bibleReference": "Ésaïe 7:14",
+      "normalizedRef": "isa7.14",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-pers-003_ht",
+    "data": {
+      "id": "dq-pers-003",
+      "questionText": "Ki sa ki espesyal nan fason David te touye Golyat?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te sèvi yon epe lò"
+        },
+        {
+          "id": "b",
+          "text": "Li te tire yon kout fenn ki frape Golyat sou fwon li epi li tonbe"
+        },
+        {
+          "id": "c",
+          "text": "Yon anjèl te vini ede David"
+        },
+        {
+          "id": "d",
+          "text": "Golyat te trebiche ak li menm tonbe"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "David te pran yon kout fenn, tire l sou Golyat sou fwon li — Golyat tonbe (1 Samyèl 17:49-50). Bondye te delivre pa mwayen ki parèt fèb.",
+      "bibleReference": "1 Samyèl 17:49-50",
+      "normalizedRef": "1sa17.49-50",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-003_fr",
+    "data": {
+      "id": "dq-pers-003",
+      "questionText": "Qui tua le géant Goliath ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Saül"
+        },
+        {
+          "id": "b",
+          "text": "Jonathan"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Abner"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le jeune berger David tua Goliath avec une fronde et une pierre (1 Samuel 17:49-50).",
+      "bibleReference": "1 Samuel 17:49-50",
+      "normalizedRef": "1sa17.49-50",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-004_ht",
+    "data": {
+      "id": "dq-pers-004",
+      "questionText": "Ki sa ki te rive Ananyas ak Safira pou sa yo te fè?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo te mete nan prizon pou trwa jou"
+        },
+        {
+          "id": "b",
+          "text": "Yo te mouri yon aprè lòt pou yo te manti nan Lespri Sen an"
+        },
+        {
+          "id": "c",
+          "text": "Yo te chase sot nan legliz la"
+        },
+        {
+          "id": "d",
+          "text": "Yo te pèdi tè yo a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 5:1-11 — Ananyas ak Safira te manti nan Lespri Sen sou pri tè yo. Tou de mouri. \"Yon gwo krentif te tonbe sou tout legliz la.\"",
+      "bibleReference": "Travay 5:1-11",
+      "normalizedRef": "act5.1-11",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-004_fr",
+    "data": {
+      "id": "dq-pers-004",
+      "questionText": "Quel couple fut frappé de mort dans l'Église primitive pour avoir menti à l'Esprit Saint ?",
+      "categoryId": "personajes",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aquila et Priscille"
+        },
+        {
+          "id": "b",
+          "text": "Ananie et Saphira"
+        },
+        {
+          "id": "c",
+          "text": "Simon et sa femme"
+        },
+        {
+          "id": "d",
+          "text": "Bar-Jésus et sa compagne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ananie et Saphira moururent pour avoir menti à l'Esprit Saint concernant le prix de leur terrain — une grande crainte saisit toute l'Église (Actes 5:1-11).",
+      "bibleReference": "Actes 5:1-11",
+      "normalizedRef": "act5.1-11",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-pers-005_ht",
+    "data": {
+      "id": "dq-pers-005",
+      "questionText": "Kilès yo rele \"zanmi Bondye\" nan Bib la?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "David"
+        },
+        {
+          "id": "c",
+          "text": "Abraram"
+        },
+        {
+          "id": "d",
+          "text": "Noye"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Abraram te kwè Bondye... epi yo te rele l zanmi Bondye\" (Jak 2:23). Ezayi 41:8 rele l tou \"zanmi mwen Abraram\".",
+      "bibleReference": "Jak 2:23",
+      "normalizedRef": "jam2.23",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-005_fr",
+    "data": {
+      "id": "dq-pers-005",
+      "questionText": "Qui est appelé 'l'ami de Dieu' dans la Bible ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "David"
+        },
+        {
+          "id": "c",
+          "text": "Abraham"
+        },
+        {
+          "id": "d",
+          "text": "Noé"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Abraham crut à Dieu... et il fut appelé ami de Dieu (Jacques 2:23). Ésaïe 41:8 l'appelle aussi 'Abraham mon ami'.",
+      "bibleReference": "Jacques 2:23",
+      "normalizedRef": "jam2.23",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-006_ht",
+    "data": {
+      "id": "dq-pers-006",
+      "questionText": "Kilès ki te bati lach la pou sovè li nan delij inivèsèl la?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraram"
+        },
+        {
+          "id": "b",
+          "text": "Noye"
+        },
+        {
+          "id": "c",
+          "text": "Moyiz"
+        },
+        {
+          "id": "d",
+          "text": "Enòk"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te enstrui Noye bati yon lach bwa gofe, pou sove li, fanmi li ak koup bèt (Jenèz 6-7).",
+      "bibleReference": "Jenèz 6:13-14",
+      "normalizedRef": "gen6.13-14",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-006_fr",
+    "data": {
+      "id": "dq-pers-006",
+      "questionText": "Qui a construit l'arche pour son salut lors du déluge universel ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Noé"
+        },
+        {
+          "id": "c",
+          "text": "Moïse"
+        },
+        {
+          "id": "d",
+          "text": "Hénoch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu instruisit Noé de construire une arche en bois de gopher, pour le sauver lui, sa famille et un couple d'animaux (Genèse 6-7).",
+      "bibleReference": "Genèse 6:13-14",
+      "normalizedRef": "gen6.13-14",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-007_ht",
+    "data": {
+      "id": "dq-pers-007",
+      "questionText": "Ki apòt ki te mache sou dlo pou al jwenn Jezi?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jan"
+        },
+        {
+          "id": "b",
+          "text": "Andre"
+        },
+        {
+          "id": "c",
+          "text": "Pyè"
+        },
+        {
+          "id": "d",
+          "text": "Jak"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pyè te desann nan bato ak mache sou dlo pou al jwenn Jezi, men li te kòmanse koule lè li te fè je sou van an (Matye 14:29-30).",
+      "bibleReference": "Matye 14:28-31",
+      "normalizedRef": "mat14.28-31",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-007_fr",
+    "data": {
+      "id": "dq-pers-007",
+      "questionText": "Quel apôtre a marché sur l'eau pour rejoindre Jésus ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jean"
+        },
+        {
+          "id": "b",
+          "text": "André"
+        },
+        {
+          "id": "c",
+          "text": "Pierre"
+        },
+        {
+          "id": "d",
+          "text": "Jacques"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pierre descendit de la barque et marcha sur l'eau pour aller vers Jésus, mais il commença à s'enfoncer quand il regarda le vent (Matthieu 14:29-30).",
+      "bibleReference": "Matthieu 14:28-31",
+      "normalizedRef": "mat14.28-31",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-008_ht",
+    "data": {
+      "id": "dq-pers-008",
+      "questionText": "Kilès yo dekri nan Bib la kòm \"moun ki dapre kè Bondye\"?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salomon"
+        },
+        {
+          "id": "b",
+          "text": "Moyiz"
+        },
+        {
+          "id": "c",
+          "text": "Abraram"
+        },
+        {
+          "id": "d",
+          "text": "David"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "\"Li retire Sayil... epi li leve David... yon moun ki dapre kè mwen, ki pral fè tout sa mwen vle\" (Travay 13:22).",
+      "bibleReference": "Travay 13:22",
+      "normalizedRef": "act13.22",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-008_fr",
+    "data": {
+      "id": "dq-pers-008",
+      "questionText": "Qui est décrit dans la Bible comme 'un homme selon le cœur de Dieu' ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salomon"
+        },
+        {
+          "id": "b",
+          "text": "Moïse"
+        },
+        {
+          "id": "c",
+          "text": "Abraham"
+        },
+        {
+          "id": "d",
+          "text": "David"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Il rejeta Saül... et il suscita David... un homme selon mon cœur, qui accomplira toutes mes volontés (Actes 13:22).",
+      "bibleReference": "Actes 13:22",
+      "normalizedRef": "act13.22",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-009_ht",
+    "data": {
+      "id": "dq-pers-009",
+      "questionText": "Ki pèsonaj biblik ki fèmyè pou kenbe lafwa ak pasyans li nan mitan soufrans ekstrèm?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeremi"
+        },
+        {
+          "id": "b",
+          "text": "Jòb"
+        },
+        {
+          "id": "c",
+          "text": "Moyiz"
+        },
+        {
+          "id": "d",
+          "text": "Eli"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jak 5:11 di: \"Nou tande pale de pasyans Jòb, epi nou wè fen Seyè a.\" Jòb te pèdi tout bagay, men li pa t nye Bondye.",
+      "bibleReference": "Jak 5:11",
+      "normalizedRef": "jam5.11",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-009_fr",
+    "data": {
+      "id": "dq-pers-009",
+      "questionText": "Quel personnage biblique est resté ferme pour garder sa foi et sa patience au milieu de souffrances extrêmes ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jérémie"
+        },
+        {
+          "id": "b",
+          "text": "Job"
+        },
+        {
+          "id": "c",
+          "text": "Moïse"
+        },
+        {
+          "id": "d",
+          "text": "Élie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacques 5:11 dit : 'Vous avez entendu parler de la patience de Job, et vous avez vu la fin que le Seigneur lui accorda.' Job a tout perdu, mais n'a pas renié Dieu.",
+      "bibleReference": "Jacques 5:11",
+      "normalizedRef": "jam5.11",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-010_ht",
+    "data": {
+      "id": "dq-pers-010",
+      "questionText": "Konbyen ane Matisalèm, pèsonaj biblik ki viv pi lontan an, te viv?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "700 ane"
+        },
+        {
+          "id": "b",
+          "text": "800 ane"
+        },
+        {
+          "id": "c",
+          "text": "969 ane"
+        },
+        {
+          "id": "d",
+          "text": "1,000 ane"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Tout jou Matisalèm yo te nèf san swasant-nèf ane; epi li mouri\" (Jenèz 5:27). Se moun ki viv pi lontan nan Bib la.",
+      "bibleReference": "Jenèz 5:27",
+      "normalizedRef": "gen5.27",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-010_fr",
+    "data": {
+      "id": "dq-pers-010",
+      "questionText": "Combien d'années a vécu Mathusalem, le personnage biblique qui a vécu le plus longtemps ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "700 ans"
+        },
+        {
+          "id": "b",
+          "text": "800 ans"
+        },
+        {
+          "id": "c",
+          "text": "969 ans"
+        },
+        {
+          "id": "d",
+          "text": "1000 ans"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Tous les jours de Mathusalem furent de neuf cent soixante-neuf ans ; puis il mourut (Genèse 5:27). C'est la personne qui a vécu le plus longtemps dans la Bible.",
+      "bibleReference": "Genèse 5:27",
+      "normalizedRef": "gen5.27",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-011_ht",
+    "data": {
+      "id": "dq-pers-011",
+      "questionText": "Ki nasyon Rit, bèlfi Noemi an, te soti?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Edomit"
+        },
+        {
+          "id": "b",
+          "text": "Amonyit"
+        },
+        {
+          "id": "c",
+          "text": "Moabit"
+        },
+        {
+          "id": "d",
+          "text": "Filistin"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Rit te Moabit. Deklarasyon fyalite li ak Noemi (\"Pèp ou a se pèp mwen...\") se yon modèl fyalite (Rit 1:16).",
+      "bibleReference": "Rit 1:4, 16",
+      "normalizedRef": "rut1.4,16",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-011_fr",
+    "data": {
+      "id": "dq-pers-011",
+      "questionText": "De quelle nation venait Ruth, la belle-fille de Naomi ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Édomite"
+        },
+        {
+          "id": "b",
+          "text": "Ammonite"
+        },
+        {
+          "id": "c",
+          "text": "Moabite"
+        },
+        {
+          "id": "d",
+          "text": "Philistine"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ruth était Moabite. Sa déclaration de fidélité à Naomi ('Ton peuple sera mon peuple...') est un modèle de fidélité (Ruth 1:16).",
+      "bibleReference": "Ruth 1:4, 16",
+      "normalizedRef": "rut1.4,16",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-012_ht",
+    "data": {
+      "id": "dq-pers-012",
+      "questionText": "Kilès ki te siksede Moyiz kòm lidè Izrayèl pou antre nan Peyi Pwomèt la?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kalèb"
+        },
+        {
+          "id": "b",
+          "text": "Arawon"
+        },
+        {
+          "id": "c",
+          "text": "Jozye"
+        },
+        {
+          "id": "d",
+          "text": "Eleaza"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Seyè te di Jozye: \"Menm jan mwen te avèk Moyiz, m ap avèk ou; mwen p ap lage ou ni abandone ou\" (Jozye 1:5).",
+      "bibleReference": "Jozye 1:1-5",
+      "normalizedRef": "jos1.1-5",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-012_fr",
+    "data": {
+      "id": "dq-pers-012",
+      "questionText": "Qui a succédé à Moïse comme chef d'Israël pour entrer dans la Terre Promise ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Caleb"
+        },
+        {
+          "id": "b",
+          "text": "Aaron"
+        },
+        {
+          "id": "c",
+          "text": "Josué"
+        },
+        {
+          "id": "d",
+          "text": "Éléazar"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Seigneur dit à Josué : 'Comme j'ai été avec Moïse, je serai avec toi ; je ne te délaisserai point, je ne t'abandonnerai point' (Josué 1:5).",
+      "bibleReference": "Josué 1:1-5",
+      "normalizedRef": "jos1.1-5",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-013_ht",
+    "data": {
+      "id": "dq-pers-013",
+      "questionText": "Ki non papa Wa Salomon an?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sayil"
+        },
+        {
+          "id": "b",
+          "text": "Jonatann"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Jeyi"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salomon te pitit wa David ak Betsabe. Bondye te pwomèt David ke pitit li ta bati tanp lan (2 Samyèl 7:12-13).",
+      "bibleReference": "1 Wa 1:13",
+      "normalizedRef": "1ki1.13",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-013_fr",
+    "data": {
+      "id": "dq-pers-013",
+      "questionText": "Quel est le nom du père du roi Salomon ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Saül"
+        },
+        {
+          "id": "b",
+          "text": "Jonathan"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Jéhu"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salomon était le fils du roi David et de Bethsabée. Dieu avait promis à David que son fils bâtirait le temple (2 Samuel 7:12-13).",
+      "bibleReference": "1 Rois 1:13",
+      "normalizedRef": "1ki1.13",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-014_ht",
+    "data": {
+      "id": "dq-pers-014",
+      "questionText": "Ki disip Jezi ki rele \"disip Jezi te renmen\" nan Levanjil Jan an?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyè"
+        },
+        {
+          "id": "b",
+          "text": "Jak"
+        },
+        {
+          "id": "c",
+          "text": "Andre"
+        },
+        {
+          "id": "d",
+          "text": "Jan"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "\"Disip Jezi te renmen\" parèt plizyè fwa nan levanjil Jan an (13:23; 19:26; 21:7) epi tradisyon idantifye l ak apòt Jan.",
+      "bibleReference": "Jan 13:23",
+      "normalizedRef": "joh13.23",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-014_fr",
+    "data": {
+      "id": "dq-pers-014",
+      "questionText": "Quel disciple de Jésus est appelé 'le disciple que Jésus aimait' dans l'Évangile de Jean ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre"
+        },
+        {
+          "id": "b",
+          "text": "Jacques"
+        },
+        {
+          "id": "c",
+          "text": "André"
+        },
+        {
+          "id": "d",
+          "text": "Jean"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "'Le disciple que Jésus aimait' apparaît plusieurs fois dans l'Évangile de Jean (13:23 ; 19:26 ; 21:7) et la tradition l'identifie à l'apôtre Jean.",
+      "bibleReference": "Jean 13:23",
+      "normalizedRef": "joh13.23",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-015_ht",
+    "data": {
+      "id": "dq-pers-015",
+      "questionText": "Konbyen ane Abraram te viv dapre Jenèz 25:7?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "120 ane"
+        },
+        {
+          "id": "b",
+          "text": "150 ane"
+        },
+        {
+          "id": "c",
+          "text": "175 ane"
+        },
+        {
+          "id": "d",
+          "text": "200 ane"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi sa yo te jou ki Abraram te viv: san swasant-kenz ane\" (Jenèz 25:7). Li mouri nan gran vyeyès, ansyen ak plen ane.",
+      "bibleReference": "Jenèz 25:7",
+      "normalizedRef": "gen25.7",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-015_fr",
+    "data": {
+      "id": "dq-pers-015",
+      "questionText": "Combien d'années Abraham a-t-il vécu selon Genèse 25:7 ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "120 ans"
+        },
+        {
+          "id": "b",
+          "text": "150 ans"
+        },
+        {
+          "id": "c",
+          "text": "175 ans"
+        },
+        {
+          "id": "d",
+          "text": "200 ans"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Voici les jours des années de la vie d'Abraham : il vécut cent soixante-quinze ans (Genèse 25:7). Il mourut dans une heureuse vieillesse, âgé et rassasié de jours.",
+      "bibleReference": "Genèse 25:7",
+      "normalizedRef": "gen25.7",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-016_ht",
+    "data": {
+      "id": "dq-pers-016",
+      "questionText": "Ki non ebre apòt Pòl anvan konvèsyon li?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Simon"
+        },
+        {
+          "id": "b",
+          "text": "Sòl"
+        },
+        {
+          "id": "c",
+          "text": "Barabas"
+        },
+        {
+          "id": "d",
+          "text": "Nikodèm"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Anvan konvèsyon li sou wout Damask la, li te rele Sòl de Tas. Non Pòl (Paulus) te non Women li yo te itilize nan misyon li yo (Travay 9:1; 13:9).",
+      "bibleReference": "Travay 13:9",
+      "normalizedRef": "act13.9",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-016_fr",
+    "data": {
+      "id": "dq-pers-016",
+      "questionText": "Quel était le nom hébreu de l'apôtre Paul avant sa conversion ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Simon"
+        },
+        {
+          "id": "b",
+          "text": "Saul"
+        },
+        {
+          "id": "c",
+          "text": "Barabbas"
+        },
+        {
+          "id": "d",
+          "text": "Nicodème"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Avant sa conversion sur le chemin de Damas, il s'appelait Saul de Tarse. Le nom Paul (Paulus) était son nom romain utilisé lors de ses missions (Actes 9:1 ; 13:9).",
+      "bibleReference": "Actes 13:9",
+      "normalizedRef": "act13.9",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-017_ht",
+    "data": {
+      "id": "dq-pers-017",
+      "questionText": "Kilès ki premye rekonèt Jezi kòm Seyè anvan yo tou de fèt?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Simeyon nan tanp lan"
+        },
+        {
+          "id": "b",
+          "text": "Jan Batèm (bebe a te sote nan vant)"
+        },
+        {
+          "id": "c",
+          "text": "Bèje Betleyèm yo"
+        },
+        {
+          "id": "d",
+          "text": "Majisyen soti lès"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Lè Elizabèt te tande bonjou Mari a, pitit nan vant li a sote; epi Elizabèt te plen Lespri Sen an\" (Lik 1:41). Jan te rekonèt Jezi depi nan vant manman.",
+      "bibleReference": "Lik 1:41-44",
+      "normalizedRef": "luk1.41-44",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-017_fr",
+    "data": {
+      "id": "dq-pers-017",
+      "questionText": "Qui a reconnu le premier Jésus comme Seigneur avant que les deux ne soient nés ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Élisabeth"
+        },
+        {
+          "id": "b",
+          "text": "Marie"
+        },
+        {
+          "id": "c",
+          "text": "Jean-Baptiste"
+        },
+        {
+          "id": "d",
+          "text": "Joseph"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jean-Baptiste tressaillit de joie dans le sein d'Élisabeth lorsqu'elle entendit la salutation de Marie (Luc 1:41-44).",
+      "bibleReference": "Luc 1:41-44",
+      "normalizedRef": "luk1.41-44",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-018_ht",
+    "data": {
+      "id": "dq-pers-018",
+      "questionText": "Ki sa Abraram te fè ki montre konfyans total li nan Bondye?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te bati yon gwo tanp"
+        },
+        {
+          "id": "b",
+          "text": "Li te ofri pitit gason l Izak kòm sakrifis sou yon mòn"
+        },
+        {
+          "id": "c",
+          "text": "Li te vann tout richès li"
+        },
+        {
+          "id": "d",
+          "text": "Li te travèse Lanmè Wouj la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 22 — Bondye te teste Abraram, li te ofri Izak. Bondye te entèvni. Epitou: \"Lafwa Abraram te konte kòm jistis\" (Women 4:3).",
+      "bibleReference": "Jenèz 22:9-14",
+      "normalizedRef": "gen22.9-14",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-018_fr",
+    "data": {
+      "id": "dq-pers-018",
+      "questionText": "Qui a été le premier martyr chrétien ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre"
+        },
+        {
+          "id": "b",
+          "text": "Jacques"
+        },
+        {
+          "id": "c",
+          "text": "Étienne"
+        },
+        {
+          "id": "d",
+          "text": "Paul"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Étienne fut lapidé pour son témoignage de Jésus, devenant le premier martyr de l'Église primitive (Actes 7).",
+      "bibleReference": "Actes 7",
+      "normalizedRef": "act7",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-019_ht",
+    "data": {
+      "id": "dq-pers-019",
+      "questionText": "Ki sa Nèomi di bèlfi li yo lè mari yo mouri?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Retounen kay paran nou epi marye lòt mari"
+        },
+        {
+          "id": "b",
+          "text": "Rete avèm pou toujou"
+        },
+        {
+          "id": "c",
+          "text": "Ale Jerizalèm avèm"
+        },
+        {
+          "id": "d",
+          "text": "Priye Bondye nou sèlman"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nèomi te libere de bèlfi li yo pou yo retounen kay paran yo. Rout te chwazi rete: \"Kote ou prale m ap ale\" (Rout 1:16) — louyalite mirak.",
+      "bibleReference": "Rout 1:8-18",
+      "normalizedRef": "rout1.8-18",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-019_fr",
+    "data": {
+      "id": "dq-pers-019",
+      "questionText": "Quel prophète a été emporté au ciel dans un tourbillon par un char de feu ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Élisée"
+        },
+        {
+          "id": "b",
+          "text": "Élie"
+        },
+        {
+          "id": "c",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "d",
+          "text": "Jérémie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Comme ils continuaient à marcher en parlant, voici, un char de feu et des chevaux de feu les séparèrent l'un de l'autre, et Élie monta au ciel dans un tourbillon (2 Rois 2:11).",
+      "bibleReference": "2 Rois 2:11",
+      "normalizedRef": "2ki2.11",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-020_ht",
+    "data": {
+      "id": "dq-pers-020",
+      "questionText": "Ki sa ki te rive Sansòn lè Dalila koupe cheve li?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te tounen jèn ankò"
+        },
+        {
+          "id": "b",
+          "text": "Li te pèdi fòs li epi lènmi yo te kaptire l"
+        },
+        {
+          "id": "c",
+          "text": "Li te mouri imedyatman"
+        },
+        {
+          "id": "d",
+          "text": "Chevè li te repouse imedyatman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jij 16:17-21 — Sansòn te kache sekrè fòs li nan chevè li. Dalila koupe l, Filisten yo kaptire li, pete je l. Pita li repanti epi fòs li retounen.",
+      "bibleReference": "Jij 16:17-21",
+      "normalizedRef": "jud16.17-21",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-020_fr",
+    "data": {
+      "id": "dq-pers-020",
+      "questionText": "Qui a interprété les rêves de Pharaon en Égypte ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Daniel"
+        },
+        {
+          "id": "c",
+          "text": "Joseph"
+        },
+        {
+          "id": "d",
+          "text": "Jacob"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Joseph a interprété les rêves des sept vaches et des sept épis comme sept années d'abondance suivies de sept années de famine (Genèse 41).",
+      "bibleReference": "Genèse 41",
+      "normalizedRef": "gen41",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-021_ht",
+    "data": {
+      "id": "dq-pers-021",
+      "questionText": "Ki sa apôt Pyè te fè ki montre imitan li pandan jou jijman Jezi a?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te kouri kite Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "Li te nye Jezi twa fwa anvan coq la chante"
+        },
+        {
+          "id": "c",
+          "text": "Li te vann Jezi pou trann pyès ajan"
+        },
+        {
+          "id": "d",
+          "text": "Li te arete epi mete an prizon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 26:69-75 — Pyè nye Jezi twa fwa. Coq la chante, li sonje pawòl Jezi a, li kriye anmèman. Pita li retounen ak repantans reyèl (Jan 21).",
+      "bibleReference": "Matye 26:69-75",
+      "normalizedRef": "mat26.69-75",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-021_fr",
+    "data": {
+      "id": "dq-pers-021",
+      "questionText": "Quel roi a demandé la sagesse à Dieu plutôt que la richesse ou la longue vie ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Saül"
+        },
+        {
+          "id": "c",
+          "text": "Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Ézéchias"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu dit à Salomon : 'Puisque c'est là ce qui est dans ton cœur... je te donne de la sagesse et de l'intelligence' (2 Chroniques 1:11-12).",
+      "bibleReference": "2 Chroniques 1:11-12",
+      "normalizedRef": "2ch1.11-12",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-022_ht",
+    "data": {
+      "id": "dq-pers-022",
+      "questionText": "Ki wòl Barnabas te jwe nan premye misyon Legliz la?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te premye anba otorite misyonè legliz Antiyòch la"
+        },
+        {
+          "id": "b",
+          "text": "Li te patisipe nan misyon premye ak dezyèm avèk Pòl, epi li te ankouraje Jan Mak"
+        },
+        {
+          "id": "c",
+          "text": "Li te fonde legliz Korent la"
+        },
+        {
+          "id": "d",
+          "text": "Li te tradui Bib la an grèk"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 13-15 — Barnabas ak Pòl premye misyon ansanm. Lè yo separe sou kesyon Jan Mak, Barnabas te pran Jan Mak avèk li — enkourajman ki restore lavi Jan Mak.",
+      "bibleReference": "Travay 15:36-41",
+      "normalizedRef": "act15.36-41",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-022_fr",
+    "data": {
+      "id": "dq-pers-022",
+      "questionText": "Quelle femme a trahi Samson en lui coupant les cheveux, le secret de sa force ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dalila"
+        },
+        {
+          "id": "b",
+          "text": "Jézabel"
+        },
+        {
+          "id": "c",
+          "text": "Ruth"
+        },
+        {
+          "id": "d",
+          "text": "Esther"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Dalila a découvert que la force de Samson résidait dans ses cheveux (consécration naziréenne) et les a fait couper pendant qu'il dormait (Juges 16).",
+      "bibleReference": "Juges 16",
+      "normalizedRef": "judg16",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-023_ht",
+    "data": {
+      "id": "dq-pers-023",
+      "questionText": "Ki sa rèv Pòl te wè nan Masedon ki chanje direksyon misyon an?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon zanj ki te envite l ale Azid"
+        },
+        {
+          "id": "b",
+          "text": "Yon gason Masedonyen ki te mande l vini ede yo"
+        },
+        {
+          "id": "c",
+          "text": "Yon fanm ki te kriye pou delivrans"
+        },
+        {
+          "id": "d",
+          "text": "Yon vizyon tanp Jerizalèm ki brile"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 16:9 — Pòl te wè yon gason Masedonyen nan rèv: \"Travèse vini ede nou!\" Senyèl divin ki dirije misyon an vè Ewòp.",
+      "bibleReference": "Travay 16:9-10",
+      "normalizedRef": "act16.9-10",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-023_fr",
+    "data": {
+      "id": "dq-pers-023",
+      "questionText": "Qui a été jeté dans la fosse aux lions pour avoir prié Dieu ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schadrac"
+        },
+        {
+          "id": "b",
+          "text": "Méschac"
+        },
+        {
+          "id": "c",
+          "text": "Abed-Nego"
+        },
+        {
+          "id": "d",
+          "text": "Daniel"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Daniel a été jeté dans la fosse aux lions parce qu'il continuait à prier Dieu malgré le décret royal l'interdisant (Daniel 6).",
+      "bibleReference": "Daniel 6",
+      "normalizedRef": "dan6",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-024_ht",
+    "data": {
+      "id": "dq-pers-024",
+      "questionText": "Ki fason Jozèf te reponn frè li yo lè li te dekouvri tèt li yo?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te pini yo pou sa yo te fè l"
+        },
+        {
+          "id": "b",
+          "text": "Li te kriye, padone yo epi di ke Bondye te vle sa pou sove lavi"
+        },
+        {
+          "id": "c",
+          "text": "Li te kouri ale pou l pa wè yo"
+        },
+        {
+          "id": "d",
+          "text": "Li te fè yo tounen esklav"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 45:1-15 — Jozèf te kriye, padone frè li yo: \"Se pa nou ki voye m isit, se Bondye — pou konsève lavi.\" Modèl padòn ak pwovîdans Bondye.",
+      "bibleReference": "Jenèz 45:5-8",
+      "normalizedRef": "gen45.5-8",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-024_fr",
+    "data": {
+      "id": "dq-pers-024",
+      "questionText": "Quel apôtre a renié Jésus trois fois avant que le coq ne chante ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Judas"
+        },
+        {
+          "id": "b",
+          "text": "Thomas"
+        },
+        {
+          "id": "c",
+          "text": "Pierre"
+        },
+        {
+          "id": "d",
+          "text": "Jean"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Comme Jésus l'avait prédit, Pierre a renié son Seigneur trois fois par peur lors de l'arrestation de Jésus (Matthieu 26:74-75).",
+      "bibleReference": "Matthieu 26:74-75",
+      "normalizedRef": "mat26.74-75",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-025_ht",
+    "data": {
+      "id": "dq-pers-025",
+      "questionText": "Ki sa Eli te fè sou Mòn Karmèl anfas 450 pwofèt Baal yo?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te bat yo nan yon konpetisyon fòs fizik"
+        },
+        {
+          "id": "b",
+          "text": "Li te rele dife sòt nan syèl ki boule sakrifis li a — Bondye te reponn li, Baal pa t reponn"
+        },
+        {
+          "id": "c",
+          "text": "Li te ekspulse yo ak lame Izrayèl la"
+        },
+        {
+          "id": "d",
+          "text": "Li te fè lapli sou yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Wa 18:38 — Bondye te reponn Eli pa dife sòt sou syèl ki boule tout sakrifis la. 450 pwofèt Baal yo te rele pandan tout jounen — anyen pa te rive. Bon Nouvèl pou pèp ki te wè.",
+      "bibleReference": "1 Wa 18:38-39",
+      "normalizedRef": "1ki18.38-39",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-025_fr",
+    "data": {
+      "id": "dq-pers-025",
+      "questionText": "Qui est le père de Jean-Baptiste ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zacharie"
+        },
+        {
+          "id": "b",
+          "text": "Joseph"
+        },
+        {
+          "id": "c",
+          "text": "Siméon"
+        },
+        {
+          "id": "d",
+          "text": "Éli"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Zacharie était un prêtre dont la femme Élisabeth était stérile, mais Dieu leur a accordé un fils dans leur vieillesse (Luc 1).",
+      "bibleReference": "Luc 1",
+      "normalizedRef": "luk1",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-026_ht",
+    "data": {
+      "id": "dq-pers-026",
+      "questionText": "Ki sa Rout te di Nèomi ki montre fidèlite li?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"M ap suiv ou jiskaske ou jwenn lòt mari\""
+        },
+        {
+          "id": "b",
+          "text": "\"Kote ou prale m ap ale, kote ou rete m ap rete, pèp ou a se pèp mwen\""
+        },
+        {
+          "id": "c",
+          "text": "\"Mwen pral retounen kay paran mwen\""
+        },
+        {
+          "id": "d",
+          "text": "\"Bondye ou a se pa Bondye mwen\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rout 1:16-17 — yon nan deklamasyon fidèlite ki pi bèl nan tout Bib la. Rout chwazi Nèomi ak Bondye Nèomi anvan enterè pèsonèl li.",
+      "bibleReference": "Rout 1:16-17",
+      "normalizedRef": "rout1.16-17",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-026_fr",
+    "data": {
+      "questionText": "Qu'est-ce que Ruth a dit à Naomi qui montre sa fidélité ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Je te suivrai jusqu'à ce que tu trouves un autre mari »"
+        },
+        {
+          "id": "b",
+          "text": "« Où tu iras j'irai, où tu demeureras je demeurerai ; ton peuple sera mon peuple »"
+        },
+        {
+          "id": "c",
+          "text": "« Je vais retourner chez mes parents »"
+        },
+        {
+          "id": "d",
+          "text": "« Ton Dieu n'est pas mon Dieu »"
+        }
+      ],
+      "explanation": "Ruth 1:16-17 — L'une des plus belles déclarations de fidélité de la Bible. Ruth choisit Naomi et son Dieu avant ses propres intérêts.",
+      "bibleReference": "Ruth 1:16-17",
+      "id": "dq-pers-026",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pers-027_ht",
+    "data": {
+      "id": "dq-pers-027",
+      "questionText": "Pou ki rezon Pòl ak Barnabas te separe?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Poutèt yon dezakò sou doktrin siyèk"
+        },
+        {
+          "id": "b",
+          "text": "Poutèt Jan Mak — Barnabas te vle pran li, Pòl te refize akòz abandone li anvan"
+        },
+        {
+          "id": "c",
+          "text": "Poutèt yon konfli sou lajan misyon an"
+        },
+        {
+          "id": "d",
+          "text": "Legliz Antiyòch te voye yo nan direksyon diferan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 15:36-41 — desak sharp sou Jan Mak ki te abandone yo (Travay 13:13). Barnabas pran Jan Mak, Pòl pran Silas. Providans: de ekip misyonè pito ke youn.",
+      "bibleReference": "Travay 15:37-40",
+      "normalizedRef": "act15.37-40",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-027_fr",
+    "data": {
+      "questionText": "Pour quelle raison Paul et Barnabas se sont-ils séparés ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "À cause d'un désaccord doctrinal majeur"
+        },
+        {
+          "id": "b",
+          "text": "À cause de Jean Marc — Barnabas voulait le prendre, Paul refusa car il les avait abandonnés auparavant"
+        },
+        {
+          "id": "c",
+          "text": "À cause d'un conflit sur l'argent de la mission"
+        },
+        {
+          "id": "d",
+          "text": "L'église d'Antioche les a envoyés dans des directions différentes"
+        }
+      ],
+      "explanation": "Actes 15:36-41 — Un vif désaccord sur Jean Marc qui les avait abandonnés (Actes 13:13). Barnabas prit Jean Marc, Paul prit Silas. Providence : deux équipes missionnaires plutôt qu'une.",
+      "bibleReference": "Actes 15:37-40",
+      "id": "dq-pers-027",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pers-028_ht",
+    "data": {
+      "id": "dq-pers-028",
+      "questionText": "Ki wòl Nikodem te jwe nan antèman Jezi?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te asiste sèlman pou obsève"
+        },
+        {
+          "id": "b",
+          "text": "Li te pote anviwon 75 liv mirra ak aloès pou antere kò Jezi avèk Jozèf d'Arimati"
+        },
+        {
+          "id": "c",
+          "text": "Li te refize asiste pou krentif Jwif yo"
+        },
+        {
+          "id": "d",
+          "text": "Li te achte tonbo a pou Jezi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 19:39-40 — Nikodem (ki te vin jwenn Jezi nan lannwit Jan 3) te parèt piblikman pou antere Jezi avèk Jozèf d'Arimati — kouraj ki te soti anba fèblès.",
+      "bibleReference": "Jan 19:39-40",
+      "normalizedRef": "joh19.39-40",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-028_fr",
+    "data": {
+      "questionText": "Quel rôle Nicodème a-t-il joué dans l'enterrement de Jésus ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il a assisté seulement pour observer"
+        },
+        {
+          "id": "b",
+          "text": "Il a apporté environ 75 livres de myrrhe et d'aloès pour ensevelir le corps de Jésus avec Joseph d'Arimathée"
+        },
+        {
+          "id": "c",
+          "text": "Il a refusé d'assister par crainte des Juifs"
+        },
+        {
+          "id": "d",
+          "text": "Il a acheté le tombeau pour Jésus"
+        }
+      ],
+      "explanation": "Jean 19:39-40 — Nicodème (qui était venu de nuit vers Jésus dans Jean 3) parut publiquement pour enterrer Jésus avec Joseph d'Arimathée — le courage né de la faiblesse.",
+      "bibleReference": "Jean 19:39-40",
+      "id": "dq-pers-028",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pers-029_ht",
+    "data": {
+      "id": "dq-pers-029",
+      "questionText": "Ki sa ki patikilye sou apèl Bondye pou Jeremi kòm pwofèt?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye te chwazi Jeremi pou richès li"
+        },
+        {
+          "id": "b",
+          "text": "Bondye te chwazi Jeremi anvan nesans li ak sanktifye li anvan soti nan vant manman l"
+        },
+        {
+          "id": "c",
+          "text": "Jeremi te deja yon chèf nan Izrayèl"
+        },
+        {
+          "id": "d",
+          "text": "Bondye te chwazi li akòz saj li"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jeremi 1:5 — \"Anvan mwen te fòme ou nan vant manman ou, mwen te deja konnen ou; anvan ou soti nan vant li, mwen te deja mete ou apa.\" — doktrin vokasyon Bondye anvan nesans.",
+      "bibleReference": "Jeremi 1:5",
+      "normalizedRef": "jer1.5",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-029_fr",
+    "data": {
+      "questionText": "Qu'y a-t-il de particulier dans l'appel de Dieu pour Jérémie comme prophète ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu a choisi Jérémie pour sa richesse"
+        },
+        {
+          "id": "b",
+          "text": "Dieu a choisi Jérémie avant sa naissance et l'a sanctifié avant qu'il ne sorte du ventre de sa mère"
+        },
+        {
+          "id": "c",
+          "text": "Jérémie était déjà un chef en Israël"
+        },
+        {
+          "id": "d",
+          "text": "Dieu l'a choisi à cause de sa sagesse"
+        }
+      ],
+      "explanation": "Jérémie 1:5 — Avant que je t'eusse formé dans le ventre de ta mère, je te connaissais, et avant que tu fusses sorti de son sein, je t'avais consacré... — la doctrine de la vocation divine pré-natale.",
+      "bibleReference": "Jérémie 1:5",
+      "id": "dq-pers-029",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pers-030_ht",
+    "data": {
+      "id": "dq-pers-030",
+      "questionText": "Ki moun ki te tounen yon poto sèl paske li te gade dèyè?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "Madanm Lòt"
+        },
+        {
+          "id": "c",
+          "text": "Rachèl"
+        },
+        {
+          "id": "d",
+          "text": "Rebeka"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Madanm Lòt pa t' koute sa zanj yo te di a, li te gade dèyè, epi li te tounen yon poto sèl (Jenèz 19:26).",
+      "bibleReference": "Genèse 19:26"
+    }
+  },
+  {
+    "docId": "dq-pers-030_fr",
+    "data": {
+      "id": "dq-pers-030",
+      "questionText": "Qui fut transformée en statue de sel pour avoir regardé en arrière ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "La femme de Lot"
+        },
+        {
+          "id": "c",
+          "text": "Rachel"
+        },
+        {
+          "id": "d",
+          "text": "Rébecca"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La femme de Lot, désobéissant à l'ordre des anges, regarda en arrière et devint une statue de sel (Genèse 19:26).",
+      "bibleReference": "Genèse 19:26",
+      "normalizedRef": "gen19.26",
+      "normalizedCat": "personajes"
+    }
+  }
+]

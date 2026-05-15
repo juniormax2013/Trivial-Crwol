@@ -1,0 +1,3313 @@
+[
+  {
+    "docId": "dq-sal-018_ht",
+    "data": {
+      "id": "dq-sal-018",
+      "questionText": "Dapre Sòm 119:105, ki sa pawòl Bondye a ye pou pye nou?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm ak Sajès",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon chosèt"
+        },
+        {
+          "id": "b",
+          "text": "Yon lanp"
+        },
+        {
+          "id": "c",
+          "text": "Yon wòch"
+        },
+        {
+          "id": "d",
+          "text": "Yon dlo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 119:105 — \"Pawòl ou se yon lanp pou pye mwen, yon limyè sou chemen mwen.\"",
+      "bibleReference": "Sòm 119:105",
+      "normalizedRef": "psa119.105",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-018_fr",
+    "data": {
+      "questionText": "D'après Psaumes 119:105, qu'est-ce que la parole de Dieu pour nos pieds ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une chaussette"
+        },
+        {
+          "id": "b",
+          "text": "Une lampe"
+        },
+        {
+          "id": "c",
+          "text": "Une pierre"
+        },
+        {
+          "id": "d",
+          "text": "Une eau"
+        }
+      ],
+      "explanation": "Psaumes 119:105 — Ta parole est une lampe à mes pieds, et une lumière sur mon sentier.",
+      "bibleReference": "Psaumes 119:105",
+      "id": "dq-sal-018",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-sal-019_ht",
+    "data": {
+      "id": "dq-sal-019",
+      "questionText": "Ki moun Bib la rele moun ki di nan kè l \"pa gen Bondye\"?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm ak Sajès",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon moun save"
+        },
+        {
+          "id": "b",
+          "text": "Yon moun fou"
+        },
+        {
+          "id": "c",
+          "text": "Yon moun rich"
+        },
+        {
+          "id": "d",
+          "text": "Yon moun vanyan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 14:1 — \"Moun fou a di nan kè li: Pa gen Bondye!\"",
+      "bibleReference": "Sòm 14:1",
+      "normalizedRef": "psa14.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-019_fr",
+    "data": {
+      "questionText": "Qui la Bible appelle-t-elle celui qui dit en son cœur : « Il n'y a point de Dieu » ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un sage"
+        },
+        {
+          "id": "b",
+          "text": "L'insensé (le fou)"
+        },
+        {
+          "id": "c",
+          "text": "Un riche"
+        },
+        {
+          "id": "d",
+          "text": "Un vaillant"
+        }
+      ],
+      "explanation": "Psaumes 14:1 — L'insensé dit en son cœur : Il n'y a point de Dieu !",
+      "id": "dq-sal-019",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-sal-020_ht",
+    "data": {
+      "id": "dq-sal-020",
+      "questionText": "Ki moun ki te ekri pifò nan Sòm yo?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm ak Sajès",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "David"
+        },
+        {
+          "id": "c",
+          "text": "Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Abram"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yo atribiye pifò nan Sòm yo bay wa David, ki te yon mizisyen ak yon powèt vanyan.",
+      "bibleReference": "Sòm",
+      "normalizedRef": "psa",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-020_fr",
+    "data": {
+      "questionText": "Qui a écrit la plupart des Psaumes ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "David"
+        },
+        {
+          "id": "c",
+          "text": "Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Abram"
+        }
+      ],
+      "explanation": "On attribue la plupart des Psaumes au roi David, qui était un musicien et un vaillant poète.",
+      "bibleReference": "Psaumes",
+      "id": "dq-sal-020",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-sal-021_ht",
+    "data": {
+      "id": "dq-sal-021",
+      "questionText": "Konbyen vèsè ki genyen nan sòm ki pi kout la (Sòm 117)?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm ak Sajès",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 vèsè"
+        },
+        {
+          "id": "b",
+          "text": "2 vèsè"
+        },
+        {
+          "id": "c",
+          "text": "5 vèsè"
+        },
+        {
+          "id": "d",
+          "text": "10 vèsè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 117 la gen sèlman de vèsè, sa ki fè l sòm ki pi kout nan tout Bib la.",
+      "bibleReference": "Sòm 117",
+      "normalizedRef": "psa117",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-021_fr",
+    "data": {
+      "questionText": "Combien de versets y a-t-il dans le plus court des psaumes (Psaume 117) ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 verset"
+        },
+        {
+          "id": "b",
+          "text": "2 versets"
+        },
+        {
+          "id": "c",
+          "text": "5 versets"
+        },
+        {
+          "id": "d",
+          "text": "10 versets"
+        }
+      ],
+      "explanation": "Le Psaume 117 ne contient que deux versets, ce qui en fait le plus court de toute la Bible.",
+      "bibleReference": "Psaume 117",
+      "id": "dq-sal-021",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-sal-022_ht",
+    "data": {
+      "id": "dq-sal-022",
+      "questionText": "Dapre Pwovèb 3:5, nan kilès nou dwe mete tout konfyans nou?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm ak Sajès",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nan pwòp entèlijans nou"
+        },
+        {
+          "id": "b",
+          "text": "Nan Seyè a ak tout kè nou"
+        },
+        {
+          "id": "c",
+          "text": "Nan zanmi nou"
+        },
+        {
+          "id": "d",
+          "text": "Nan gouvènman an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pwovèb 3:5 — \"Mete tout konfyans ou nan Seyè a ak tout kè ou. Pa apiye sou pwòp konesans ou.\"",
+      "bibleReference": "Pwovèb 3:5",
+      "normalizedRef": "pro3.5",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-022_fr",
+    "data": {
+      "questionText": "Selon Proverbes 3:5, en qui devons-nous mettre toute notre confiance ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En notre propre intelligence"
+        },
+        {
+          "id": "b",
+          "text": "En l'Éternel de tout notre cœur"
+        },
+        {
+          "id": "c",
+          "text": "En nos amis"
+        },
+        {
+          "id": "d",
+          "text": "Dans le gouvernement"
+        }
+      ],
+      "explanation": "Proverbes 3:5 — Confie-toi en l'Éternel de tout ton cœur, et ne t'appuie pas sur ta sagesse.",
+      "bibleReference": "Proverbes 3:5",
+      "id": "dq-sal-022",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-sal-023_ht",
+    "data": {
+      "id": "dq-sal-023",
+      "questionText": "Kilès yo konsidere kòm moun ki ekri pifò nan Sòm yo?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Azaf"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David se moun ki ekri pifò nan sòm yo. Men gen lòt moun tou tankou Moyiz, Salomon ak Azaf.",
+      "bibleReference": "Psaume 3:1"
+    }
+  },
+  {
+    "docId": "dq-sal-023_fr",
+    "data": {
+      "id": "dq-sal-023",
+      "questionText": "Qui est traditionnellement considéré comme l'auteur principal des Psaumes ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Asaph"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David est l'auteur de la majorité des psaumes. Le Psautier comprend aussi des psaumes de Moïse, Salomon, Asaph et des fils de Koré.",
+      "bibleReference": "Psaume 3:1",
+      "normalizedRef": "psaume3.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-024_ht",
+    "data": {
+      "id": "dq-sal-024",
+      "questionText": "Ki sòm ki kòmanse ak pawòl sa yo: « Seyè a se bèjè mwen »?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 1"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 22"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 23"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 91"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sòm 23 David la se youn nan sòm moun pi renmen: « Seyè a se bèjè mwen, mwen p'ap manke anyen. »",
+      "bibleReference": "Psaume 23:1"
+    }
+  },
+  {
+    "docId": "dq-sal-024_fr",
+    "data": {
+      "id": "dq-sal-024",
+      "questionText": "Quel psaume commence par « L'Éternel est mon berger » ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 1"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 23"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 91"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Psaume 23 de David est l'un des plus aimés : « L'Éternel est mon berger : je ne manquerai de rien. »",
+      "bibleReference": "Psaume 23:1",
+      "normalizedRef": "psaume23.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-025_ht",
+    "data": {
+      "id": "dq-sal-025",
+      "questionText": "Ki sòm ki kòmanse ak pawòl sa yo: « Bondye mwen, Bondye mwen, poukisa ou lage m' konsa? »?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 18"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 22"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 31"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 51"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 22 se yon sòm sou Mesi a — Jezi te repete premye pawòl sa yo sou kwa a (Matye 27:46).",
+      "bibleReference": "Psaume 22:1"
+    }
+  },
+  {
+    "docId": "dq-sal-025_fr",
+    "data": {
+      "id": "dq-sal-025",
+      "questionText": "Quel psaume débute par « Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné ? » ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 18"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 31"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 51"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 22 est un psaume messianique — Jésus cita ses premiers mots sur la croix (Matthieu 27:46; Psaume 22:1).",
+      "bibleReference": "Psaume 22:1",
+      "normalizedRef": "psaume22.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-026_ht",
+    "data": {
+      "id": "dq-sal-026",
+      "questionText": "Ki sòm ki pi long nan Bib la?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 18"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 91"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 119"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sòm 119 se sòm ki pi long la, li gen 176 vèsè.",
+      "bibleReference": "Psaume 119:1"
+    }
+  },
+  {
+    "docId": "dq-sal-026_fr",
+    "data": {
+      "id": "dq-sal-026",
+      "questionText": "Quel est le psaume le plus long de la Bible ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 18"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 119"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Psaume 119 est le plus long avec 176 versets — chaque section de 8 versets commence par une lettre de l'alphabet hébreu.",
+      "bibleReference": "Psaume 119:1",
+      "normalizedRef": "psaume119.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-027_ht",
+    "data": {
+      "id": "dq-sal-027",
+      "questionText": "Ak ki pawòl Sòm 1 kòmanse pou l dekri moun ki gen benediksyon Bondye a?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ala bon sa bon pou moun ki renmen Lalwa Seyè a"
+        },
+        {
+          "id": "b",
+          "text": "Ala bon sa bon pou moun ki pa koute konsèy mechan yo"
+        },
+        {
+          "id": "c",
+          "text": "Ala bon sa bon pou moun ki mete konfyans yo nan Seyè a"
+        },
+        {
+          "id": "d",
+          "text": "Ala bon sa bon pou pèp ki gen Seyè a pou Bondye yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 1 kòmanse konsa: « Ala bon sa bon pou moun ki pa koute konsèy mechan yo... men ki pran tout plezi l' nan lalwa Seyè a » (Sòm 1:1-2).",
+      "bibleReference": "Psaume 1:1-2"
+    }
+  },
+  {
+    "docId": "dq-sal-027_fr",
+    "data": {
+      "id": "dq-sal-027",
+      "questionText": "Par quelle parole commence le Psaume 1 décrivant l'homme bienheureux ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Heureux celui qui aime la Loi de l'Éternel"
+        },
+        {
+          "id": "b",
+          "text": "Heureux l'homme qui ne marche pas selon le conseil des méchants"
+        },
+        {
+          "id": "c",
+          "text": "Heureux ceux qui espèrent en l'Éternel"
+        },
+        {
+          "id": "d",
+          "text": "Heureux le peuple dont Dieu est le Seigneur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 1 s'ouvre : « Heureux l'homme qui ne marche pas selon le conseil des méchants... mais dont le plaisir est dans la loi de l'Éternel » (Psaume 1:1-2).",
+      "bibleReference": "Psaume 1:1-2",
+      "normalizedRef": "psaume1.1-2",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-028_ht",
+    "data": {
+      "id": "dq-sal-028",
+      "questionText": "Ki sòm repantans David te ekri apre peche l ak Batcheba a?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 32"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 51"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 38"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 130"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 51 se gwo konfesyon David la: «Gen pitye pou mwen, O Bondye... efase transgresyon mwen yo» — ekri apre Natan te konfwonte l (Sòm 51:1-4).",
+      "bibleReference": "Psaume 51:1-4",
+      "normalizedRef": "psaume51.1-4",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-028_fr",
+    "data": {
+      "id": "dq-sal-028",
+      "questionText": "Quel psaume de pénitence David écrivit-il après son péché avec Bethsabée ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 32"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 51"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 38"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 130"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 51 est la grande confession de David : « Aie pitié de moi, ô Dieu... efface mes transgressions » — écrit après que Nathan le confronta (Psaume 51:1-4).",
+      "bibleReference": "Psaume 51:1-4",
+      "normalizedRef": "psaume51.1-4",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-029_ht",
+    "data": {
+      "id": "dq-sal-029",
+      "questionText": "Nan ki sòm nou jwenn pwomès sa a: «L ap bay zanj li yo lòd pou yo pwoteje w nan tout wout ou»?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 34"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 46"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 91"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 103"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "«L ap bay zanj li yo lòd pou yo pwoteje w nan tout wout ou» — Sòm 91:11, yon vèsè Satan te site lè li t ap tante Jezi a (Matye 4:6).",
+      "bibleReference": "Psaume 91:11-12",
+      "normalizedRef": "psaume91.11-12",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-029_fr",
+    "data": {
+      "id": "dq-sal-029",
+      "questionText": "À quel psaume appartient la promesse « Il donnera des ordres à ses anges de te garder dans toutes tes voies » ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 34"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 46"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 103"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Il donnera des ordres à ses anges de te garder dans toutes tes voies » — Psaume 91:11, cité par Satan lors de la tentation de Jésus (Matthieu 4:6).",
+      "bibleReference": "Psaume 91:11-12",
+      "normalizedRef": "psaume91.11-12",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-030_ht",
+    "data": {
+      "id": "dq-sal-030",
+      "questionText": "Kisa Sòm 150 la, ki se dènye Sòm nan, selebre?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Repantans pèp la"
+        },
+        {
+          "id": "b",
+          "text": "Yon gwo «Alelouya» inivèsèl — tout sa ki gen souf fè lwanj Seyè a"
+        },
+        {
+          "id": "c",
+          "text": "Viktwa Izrayèl sou lènmi l yo"
+        },
+        {
+          "id": "d",
+          "text": "Glwa Tanp Salomon an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 150 se gwo doksoloji final la: li envite tout enstriman mizik ak tout kreyati pou fè lwanj Seyè a — «Se pou tout sa ki gen souf fè lwanj Seyè a!»",
+      "bibleReference": "Psaume 150:6",
+      "normalizedRef": "psaume150.6",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-030_fr",
+    "data": {
+      "id": "dq-sal-030",
+      "questionText": "Que célèbre le Psaume 150, le dernier du Psautier ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La repentance du peuple"
+        },
+        {
+          "id": "b",
+          "text": "Un grand « Hallelujah » universel — tout ce qui respire loue l'Éternel"
+        },
+        {
+          "id": "c",
+          "text": "La victoire d'Israël sur ses ennemis"
+        },
+        {
+          "id": "d",
+          "text": "La gloire du Temple de Salomon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 150 est la grande doxologie finale : il invite tout instrument musical et toute créature à louer l'Éternel — « Que tout ce qui respire loue l'Éternel ! »",
+      "bibleReference": "Psaume 150:6",
+      "normalizedRef": "psaume150.6",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-031_ht",
+    "data": {
+      "id": "dq-sal-031",
+      "questionText": "Ki pwomès mesyanik Sòm 110:1 an genyen?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mesi a pral fèt nan tribi Jida a"
+        },
+        {
+          "id": "b",
+          "text": "Seyè a pale ak Seyè m nan: Chita sou bò dwat mwen"
+        },
+        {
+          "id": "c",
+          "text": "Mesi a pral reye sot Siyon sou tout nasyon yo"
+        },
+        {
+          "id": "d",
+          "text": "Mesi a pral yon gran prèt dapre lòd Levi a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 110:1: «Seyè a pale ak Seyè m nan: Chita sou bò dwat mwen» — se vèsè Ansyen Testaman an ki pi site nan Nouvo Testaman an konsènan kouwònman Kris la.",
+      "bibleReference": "Psaume 110:1",
+      "normalizedRef": "psaume110.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-031_fr",
+    "data": {
+      "id": "dq-sal-031",
+      "questionText": "Quelle promesse messianique contient le Psaume 110:1 ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Messie naîtra de la tribu de Juda"
+        },
+        {
+          "id": "b",
+          "text": "L'Éternel dit à mon Seigneur : Assieds-toi à ma droite"
+        },
+        {
+          "id": "c",
+          "text": "Le Messie régnera de Sion sur toutes les nations"
+        },
+        {
+          "id": "d",
+          "text": "Le Messie sera un grand prêtre selon l'ordre de Lévi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Psaume 110:1 : « L'Éternel a dit à mon Seigneur : Assieds-toi à ma droite » — le verset de l'AT le plus cité dans le NT pour l'intronisation du Christ.",
+      "bibleReference": "Psaume 110:1",
+      "normalizedRef": "psaume110.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-032_ht",
+    "data": {
+      "id": "dq-sal-032",
+      "questionText": "Nan Sòm 119:105, ak kisa yo konpare Pawòl Bondye a?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon epe byen file"
+        },
+        {
+          "id": "b",
+          "text": "Yon lanp pou pye m ak yon limyè sou wout mwen"
+        },
+        {
+          "id": "c",
+          "text": "Yon sous dlo vivan"
+        },
+        {
+          "id": "d",
+          "text": "Yon boukliye ak yon zam"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "«Pawòl ou se yon lanp pou pye m ak yon limyè sou wout mwen» (Sòm 119:105) — imaj klasik Pawòl la k ap gide lavi a.",
+      "bibleReference": "Psaume 119:105",
+      "normalizedRef": "psaume119.105",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-032_fr",
+    "data": {
+      "id": "dq-sal-032",
+      "questionText": "Le Psaume 119:105 compare la Parole de Dieu à quoi ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une épée tranchante"
+        },
+        {
+          "id": "b",
+          "text": "Une lampe à mes pieds et une lumière sur mon sentier"
+        },
+        {
+          "id": "c",
+          "text": "Une source d'eau vive"
+        },
+        {
+          "id": "d",
+          "text": "Un bouclier et une armure"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Ta parole est une lampe à mes pieds et une lumière sur mon sentier » (Psaume 119:105) — image classique de la Parole guidant la vie.",
+      "bibleReference": "Psaume 119:105",
+      "normalizedRef": "psaume119.105",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-033_ht",
+    "data": {
+      "id": "dq-sal-033",
+      "questionText": "Kisa «sòm moute yo» (Sòm 120-134) vle di nan sans litijik?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm yo te konn chante pandan viktwa militè yo"
+        },
+        {
+          "id": "b",
+          "text": "Sòm pèlren yo te konn chante lè yo t ap moute Jerizalèm pou gwo fèt yo"
+        },
+        {
+          "id": "c",
+          "text": "Sòm ki te rezève pou Levit yo nan Tanp lan"
+        },
+        {
+          "id": "d",
+          "text": "Sòm yo te konn chante lè yo t ap tounen soti nan egzil Babilòn nan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "15 sòm moute yo (Shir HaMaalot) se sòm pèlren yo te konn chante pandan yo t ap moute Jerizalèm pou twa fèt anyèl yo (Pak, Pannkòt, Fèt Joupa yo).",
+      "bibleReference": "Psaume 120:1",
+      "normalizedRef": "psaume120.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-033_fr",
+    "data": {
+      "id": "dq-sal-033",
+      "questionText": "Quel est le sens liturgique des « psaumes des montées » (Psaumes 120-134) ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des psaumes chantés lors des victoires militaires"
+        },
+        {
+          "id": "b",
+          "text": "Des psaumes des pèlerins montant à Jérusalem pour les grandes fêtes"
+        },
+        {
+          "id": "c",
+          "text": "Des psaumes réservés aux Lévites dans le Temple"
+        },
+        {
+          "id": "d",
+          "text": "Des psaumes chantés lors du retour de l'exil babylonien"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les 15 psaumes des montées (Shir HaMaalot) étaient chantés par les pèlerins en montant à Jérusalem pour les trois fêtes annuelles (Pessah, Shavouot, Souccot).",
+      "bibleReference": "Psaume 120:1",
+      "normalizedRef": "psaume120.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-034_ht",
+    "data": {
+      "id": "dq-sal-034",
+      "questionText": "Ki estrikti akrostich Sòm 119 la genyen e kisa li siyifi?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chak vèsè kòmanse ak menm lèt ebre a"
+        },
+        {
+          "id": "b",
+          "text": "22 seksyon ak 8 vèsè yo chak, swiv 22 lèt alfabè ebre a"
+        },
+        {
+          "id": "c",
+          "text": "Inisyal chak vèsè fòme non David"
+        },
+        {
+          "id": "d",
+          "text": "Chak seksyon koresponn ak yon kòmandman nan Dekalòg la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 119 se yon akrostich alfabetik ebre: 22 seksyon × 8 vèsè, kote chak seksyon kòmanse ak yon lèt diferan nan alfabè a — li se yon gwo meditasyon sou Lalwa.",
+      "bibleReference": "Psaume 119:1",
+      "normalizedRef": "psaume119.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-034_fr",
+    "data": {
+      "id": "dq-sal-034",
+      "questionText": "Quelle est la structure acrostiche du Psaume 119 et sa signification ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chaque verset commence par la même lettre hébraïque"
+        },
+        {
+          "id": "b",
+          "text": "22 sections de 8 versets chacune, suivant les 22 lettres de l'alphabet hébreu"
+        },
+        {
+          "id": "c",
+          "text": "Les initiales de chaque verset forment le nom de David"
+        },
+        {
+          "id": "d",
+          "text": "Chaque section correspond à un commandement du Décalogue"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 119 est un acrostiche alphabétique hébreu : 22 sections × 8 versets, chaque section commençant par une lettre différente de l'aleph-bet — méditation encyclopédique sur la Loi.",
+      "bibleReference": "Psaume 119:1",
+      "normalizedRef": "psaume119.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-035_ht",
+    "data": {
+      "id": "dq-sal-035",
+      "questionText": "Poukisa yo konsidere Sòm 22 kòm yon pwofesi sou Pasyon Kris la?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li dekri trèt Jida a avèk presizyon"
+        },
+        {
+          "id": "b",
+          "text": "Li dekri abandone, mokri, pataje rad yo ak swaf moun ki kloure sou kwa a"
+        },
+        {
+          "id": "c",
+          "text": "Li predi rezirèksyon nan twazyèm jou a"
+        },
+        {
+          "id": "d",
+          "text": "Li anonse antre triyonfal nan Jerizalèm nan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 22 anonse krisifiksyon an: Bondye abandone l (v.1), mokri (v.7-8), men l ak pye l pèse (v.16), tiraj osò rad li yo (v.18) — tout sa te akonpli sou kwa a.",
+      "bibleReference": "Psaume 22:16-18",
+      "normalizedRef": "psaume22.16-18",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-035_fr",
+    "data": {
+      "id": "dq-sal-035",
+      "questionText": "En quoi le Psaume 22 est-il considéré comme une prophétie de la Passion du Christ ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il décrit la trahison de Judas avec précision"
+        },
+        {
+          "id": "b",
+          "text": "Il décrit l'abandon, la moquerie, le partage des vêtements et la soif du crucifié"
+        },
+        {
+          "id": "c",
+          "text": "Il prédit la résurrection au troisième jour"
+        },
+        {
+          "id": "d",
+          "text": "Il annonce l'entrée triomphale à Jérusalem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Psaume 22 préfigure la crucifixion : abandon de Dieu (v.1), moqueries (v.7-8), mains et pieds percés (v.16), tirage au sort des vêtements (v.18) — tous accomplis à la croix.",
+      "bibleReference": "Psaume 22:16-18",
+      "normalizedRef": "psaume22.16-18",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-036_ht",
+    "data": {
+      "id": "dq-sal-036",
+      "questionText": "Ki sòm ki gen gwo deklarasyon sa a «Seyè a ap reye» epi ki enpòtans teyolojik li?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 93-99 — sòm ki pale sou dominasyon Bondye yo"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 72 — rèy mesyanik Salomon an"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 2 — inogirasyon wa David la"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 24 — antre Wa glwa a"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Sòm 93-99 se sòm ki pale sou dominasyon Seyè a, ki pwoklame «YHWH reye» — souverènte cosmic li ak eskatolojik li sou tout nasyon yo.",
+      "bibleReference": "Psaume 93:1",
+      "normalizedRef": "psaume93.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-036_fr",
+    "data": {
+      "id": "dq-sal-036",
+      "questionText": "Quel psaume contient la grande affirmation « L'Éternel règne » et sa portée théologique ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaumes 93-99 — les psaumes de la royauté divine"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 72 — le règne messianique de Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 2 — l'intronisation du roi davidique"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 24 — l'entrée du Roi de gloire"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Les Psaumes 93-99 sont les psaumes de la royauté de l'Éternel, proclamant « YHWH règne » — sa souveraineté cosmique et eschatologique sur toutes les nations.",
+      "bibleReference": "Psaume 93:1",
+      "normalizedRef": "psaume93.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-037_ht",
+    "data": {
+      "id": "dq-sal-037",
+      "questionText": "Kisa mo ebre «Selah» ki souvan itilize nan Sòm yo vle di?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amèn — se pou sa fèt"
+        },
+        {
+          "id": "b",
+          "text": "Yon ti poz mizikal oswa litijik ki envite moun nan medite"
+        },
+        {
+          "id": "c",
+          "text": "Moute — envitasyon pou leve vwa a"
+        },
+        {
+          "id": "d",
+          "text": "Glwa — aklamasyon pou Bondye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Selah (ebre) parèt 71 fwa nan Sòm yo. Sans egzat li pa sèten men sanble li endike yon poz mizikal oswa yon ogmantasyon vwa pou medite.",
+      "bibleReference": "Psaume 3:2",
+      "normalizedRef": "psaume3.2",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-037_fr",
+    "data": {
+      "id": "dq-sal-037",
+      "questionText": "Que signifie le terme hébreu « Selah » fréquemment utilisé dans les Psaumes ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amen — que cela soit ainsi"
+        },
+        {
+          "id": "b",
+          "text": "Une pause musicale ou liturgique invitant à la méditation"
+        },
+        {
+          "id": "c",
+          "text": "Montez — invitation à élever les voix"
+        },
+        {
+          "id": "d",
+          "text": "Gloire — acclamation à Dieu"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Selah (hébreu) apparaît 71 fois dans les Psaumes. Son sens exact est incertain mais il semble indiquer une pause musicale ou une élévation de la voix pour la méditation.",
+      "bibleReference": "Psaume 3:2",
+      "normalizedRef": "psaume3.2",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-tab-001_ht",
+    "data": {
+      "id": "dq-tab-001",
+      "questionText": "Ki sa ki te andedan Bwat Kontra a?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèlman de ròch kòmandman yo"
+        },
+        {
+          "id": "b",
+          "text": "De ròch kòmandman yo, baton Arawon an ak yon bokal laman"
+        },
+        {
+          "id": "c",
+          "text": "Lò ak lajan"
+        },
+        {
+          "id": "d",
+          "text": "Liv lalwa Moyiz la sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ebre 9:4 — \"...andann li te gen yon bokal an lò ki te plen laman, baton Arawon ki te fleri a, ak de ròch kontra yo.\"",
+      "bibleReference": "Ebre 9:4"
+    }
+  },
+  {
+    "docId": "dq-tab-001_fr",
+    "data": {
+      "id": "dq-tab-001",
+      "questionText": "Qu'y avait-il à l'intérieur de l'Arche de l'Alliance ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle et Temple",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seulement les deux tables des commandements"
+        },
+        {
+          "id": "b",
+          "text": "Les tables de la loi, le bâton d'Aaron et un vase contenant de la manne"
+        },
+        {
+          "id": "c",
+          "text": "De l'or et de l'argent"
+        },
+        {
+          "id": "d",
+          "text": "Le livre de la loi de Moïse uniquement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hébreux 9:4 — « ...il y avait le vase d'or contenant la manne, le bâton d'Aaron qui avait fleuri, et les tables de l'alliance. »",
+      "bibleReference": "Hébreux 9:4"
+    }
+  },
+  {
+    "docId": "dq-tab-002_ht",
+    "data": {
+      "id": "dq-tab-002",
+      "questionText": "Ki non kote Bondye te mande Moyiz bati nan dezè a pou li te ka rete nan mitan pèp la?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tanp Salomon"
+        },
+        {
+          "id": "b",
+          "text": "Tabènak"
+        },
+        {
+          "id": "c",
+          "text": "Sinagòg"
+        },
+        {
+          "id": "d",
+          "text": "Legliz"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 25:8 — \"Y’a bati yon kote ki apa pou mwen, konsa m’a ka rete nan mitan yo.\"",
+      "bibleReference": "Egzòd 25:8"
+    }
+  },
+  {
+    "docId": "dq-tab-002_fr",
+    "data": {
+      "id": "dq-tab-002",
+      "questionText": "Quel est le nom du lieu que Dieu a demandé à Moïse de construire dans le désert pour qu'il puisse habiter au milieu de son peuple ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Temple de Salomon"
+        },
+        {
+          "id": "b",
+          "text": "Le Tabernacle"
+        },
+        {
+          "id": "c",
+          "text": "La Synagogue"
+        },
+        {
+          "id": "d",
+          "text": "L'Église"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 25:8 — « Ils me feront un sanctuaire, et j'habiterai au milieu d'eux. »",
+      "bibleReference": "Exode 25:8"
+    }
+  },
+  {
+    "docId": "dq-tab-003_ht",
+    "data": {
+      "id": "dq-tab-003",
+      "questionText": "Ki moun ki te gen dwa antre nan Kote ki pi Sen an?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tout moun Izrayèl"
+        },
+        {
+          "id": "b",
+          "text": "Moyiz sèlman"
+        },
+        {
+          "id": "c",
+          "text": "Granprèt la sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Tout Levit yo"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ebre 9:7 — \"Men, se sèl granprèt la ki te konn antre nan dezyèm pati a, yon sèl fwa chak ane.\"",
+      "bibleReference": "Ebre 9:7"
+    }
+  },
+  {
+    "docId": "dq-tab-003_fr",
+    "data": {
+      "id": "dq-tab-003",
+      "questionText": "Qui avait le droit d'entrer dans le Lieu Très Saint ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tout le peuple d'Israël"
+        },
+        {
+          "id": "b",
+          "text": "Moïse uniquement"
+        },
+        {
+          "id": "c",
+          "text": "Le souverain sacrificateur uniquement"
+        },
+        {
+          "id": "d",
+          "text": "Tous les Lévites"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Hébreux 9:7 — « Mais dans la seconde, le souverain sacrificateur seul entre une fois par an. »",
+      "bibleReference": "Hébreux 9:7"
+    }
+  },
+  {
+    "docId": "dq-tab-004_ht",
+    "data": {
+      "id": "dq-tab-004",
+      "questionText": "Konbyen fwa chak ane granprèt la te antre nan Kote ki pi Sen an?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chak jou"
+        },
+        {
+          "id": "b",
+          "text": "Chak jou repo"
+        },
+        {
+          "id": "c",
+          "text": "Yon fwa pa ane"
+        },
+        {
+          "id": "d",
+          "text": "Sèt fwa pa ane"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Levitik 16:34 — Sa a te fèt yon fwa pa ane nan Jou Ekspyasyon an (Yom Kippur).",
+      "bibleReference": "Levitik 16:34"
+    }
+  },
+  {
+    "docId": "dq-tab-004_fr",
+    "data": {
+      "id": "dq-tab-004",
+      "questionText": "Combien de fois par an le souverain sacrificateur entrait-il dans le Lieu Très Saint ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chaque jour"
+        },
+        {
+          "id": "b",
+          "text": "Chaque jour de sabbat"
+        },
+        {
+          "id": "c",
+          "text": "Une fois par an"
+        },
+        {
+          "id": "d",
+          "text": "Sept fois par an"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lévitique 16:34 — Cela se faisait une fois par an lors du Jour de l'Expiation (Yom Kippour).",
+      "bibleReference": "Lévitique 16:34"
+    }
+  },
+  {
+    "docId": "dq-tab-005_ht",
+    "data": {
+      "id": "dq-tab-005",
+      "questionText": "Ki objè ki te devan rido Kote ki pi Sen an e kote yo te boule lansan?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lotèl an kwiv la"
+        },
+        {
+          "id": "b",
+          "text": "Chandelye lò a"
+        },
+        {
+          "id": "c",
+          "text": "Lotèl lansan an"
+        },
+        {
+          "id": "d",
+          "text": "Tab pen yo"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Egzòd 30:6 — \"W’a mete lotèl la devan vwal ki pandye devan Bwat Kontra a.\"",
+      "bibleReference": "Egzòd 30:1-6"
+    }
+  },
+  {
+    "docId": "dq-tab-005_fr",
+    "data": {
+      "id": "dq-tab-005",
+      "questionText": "Quel objet se trouvait devant le voile du Lieu Très Saint et servait à brûler l'encens ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'autel d'airain"
+        },
+        {
+          "id": "b",
+          "text": "Le chandelier d'or"
+        },
+        {
+          "id": "c",
+          "text": "L'autel des parfums (encens)"
+        },
+        {
+          "id": "d",
+          "text": "La table des pains"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Exode 30:6 — « Tu placeras l'autel en face du voile qui est devant l'arche du témoignage. »",
+      "bibleReference": "Exode 30:1-6"
+    }
+  },
+  {
+    "docId": "dq-tab-006_ht",
+    "data": {
+      "id": "dq-tab-006",
+      "questionText": "Konbyen branch chandelye lò nan Tabènak la te genyen?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 25:31-37 — Chandelye a (Menorah) te gen sèt branch lò.",
+      "bibleReference": "Egzòd 25:37"
+    }
+  },
+  {
+    "docId": "dq-tab-006_fr",
+    "data": {
+      "id": "dq-tab-006",
+      "questionText": "Combien de branches le chandelier d'or du Tabernacle avait-il ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 25:31-37 — Le chandelier (Ménorah) avait sept branches d'or.",
+      "bibleReference": "Exode 25:37"
+    }
+  },
+  {
+    "docId": "dq-tab-007_ht",
+    "data": {
+      "id": "dq-tab-007",
+      "questionText": "Ki materyèl ki te kouvri Bwat Kontra a nèt?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lajan"
+        },
+        {
+          "id": "b",
+          "text": "An kwiv"
+        },
+        {
+          "id": "c",
+          "text": "An lò"
+        },
+        {
+          "id": "d",
+          "text": "Bwa"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Egzòd 25:11 — \"W’a kouvri l nèt ak bon lò, andedan kou deyò.\"",
+      "bibleReference": "Egzòd 25:11"
+    }
+  },
+  {
+    "docId": "dq-tab-007_fr",
+    "data": {
+      "id": "dq-tab-007",
+      "questionText": "De quel matériau l'Arche de l'Alliance était-elle entièrement recouverte ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "D'argent"
+        },
+        {
+          "id": "b",
+          "text": "D'airain (bronze)"
+        },
+        {
+          "id": "c",
+          "text": "D'or"
+        },
+        {
+          "id": "d",
+          "text": "De bois"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Exode 25:11 — « Tu la couvriras d'or pur, tu la couvriras en dedans et en dehors. »",
+      "bibleReference": "Exode 25:11"
+    }
+  },
+  {
+    "docId": "dq-tab-008_ht",
+    "data": {
+      "id": "dq-tab-008",
+      "questionText": "Nan ki branch fanmi moun ki te sèvi nan Tabènak la te soti?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jida"
+        },
+        {
+          "id": "b",
+          "text": "Levit"
+        },
+        {
+          "id": "c",
+          "text": "Benjamen"
+        },
+        {
+          "id": "d",
+          "text": "Efrayim"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Resansman 3:5-8 — Bondye te chwazi branch fanmi Levi pou yo te ka fè sèvis nan Tabènak la.",
+      "bibleReference": "Resansman 3:5-8"
+    }
+  },
+  {
+    "docId": "dq-tab-008_fr",
+    "data": {
+      "id": "dq-tab-008",
+      "questionText": "De quelle tribu provenaient ceux qui servaient dans le Tabernacle ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Juda"
+        },
+        {
+          "id": "b",
+          "text": "Lévi"
+        },
+        {
+          "id": "c",
+          "text": "Benjamin"
+        },
+        {
+          "id": "d",
+          "text": "Éphraïm"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nombres 3:5-8 — Dieu a choisi la tribu de Lévi pour assurer le service du Tabernacle.",
+      "bibleReference": "Nombres 3:5-8"
+    }
+  },
+  {
+    "docId": "dq-tab-009_ht",
+    "data": {
+      "id": "dq-tab-009",
+      "questionText": "Ki sa \"Urim ak Thummim\" yo te ye e ki kote yo te ye?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zouti pou bati"
+        },
+        {
+          "id": "b",
+          "text": "Objè sakre granprèt la te mete nan jile li pou chèche volonte Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Pati nan lotèl la"
+        },
+        {
+          "id": "d",
+          "text": "Kalite bwa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 28:30 — \"W’a mete Urim ak Thummim nan plastwon granprèt la.\"",
+      "bibleReference": "Egzòd 28:30"
+    }
+  },
+  {
+    "docId": "dq-tab-009_fr",
+    "data": {
+      "id": "dq-tab-009",
+      "questionText": "Que sont l'« Urim et le Thummim » et où se trouvaient-ils ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des outils de construction"
+        },
+        {
+          "id": "b",
+          "text": "Des objets sacrés placés dans le pectoral du souverain sacrificateur pour consulter la volonté de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Des parties de l'autel"
+        },
+        {
+          "id": "d",
+          "text": "Des types de bois"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 28:30 — « Tu joindras au pectoral du jugement l'urim et le thummim. »",
+      "bibleReference": "Exode 28:30"
+    }
+  },
+  {
+    "docId": "dq-tab-010_ht",
+    "data": {
+      "id": "dq-tab-010",
+      "questionText": "Ki koulè rido ki te separe Kote ki Sen an ak Kote ki pi Sen an?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blan sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Ble, wouj violèt, wouj fonse ak blan fen"
+        },
+        {
+          "id": "c",
+          "text": "Vè ak lò"
+        },
+        {
+          "id": "d",
+          "text": "Nwa ak gri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 26:31 — \"W’a fè yon rido ak twal ble, wouj violèt, wouj fonse ak blan fen tise byen sere.\"",
+      "bibleReference": "Egzòd 26:31"
+    }
+  },
+  {
+    "docId": "dq-tab-010_fr",
+    "data": {
+      "id": "dq-tab-010",
+      "questionText": "De quelles couleurs était le voile séparant le Lieu Saint du Lieu Très Saint ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Blanc uniquement"
+        },
+        {
+          "id": "b",
+          "text": "Bleu, pourpre, cramoisi et fin lin retors (blanc)"
+        },
+        {
+          "id": "c",
+          "text": "Vert et or"
+        },
+        {
+          "id": "d",
+          "text": "Noir et gris"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 26:31 — « Tu feras un voile de bleu, de pourpre, de cramoisi et de fin lin retors. »",
+      "bibleReference": "Exode 26:31"
+    }
+  },
+  {
+    "docId": "dq-tema-001_ht",
+    "data": {
+      "id": "dq-tema-001",
+      "questionText": "Ki sa Jan 3:16 di sou lanmou Bondye?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Bondye se lanmou ak lanmou se Bondye\""
+        },
+        {
+          "id": "b",
+          "text": "\"Se konsa Bondye te renmen mond lan ke li bay Pitit li Sèl la\""
+        },
+        {
+          "id": "c",
+          "text": "\"Renmen youn lòt jan mwen renmen nou yo\""
+        },
+        {
+          "id": "d",
+          "text": "\"Lanmou Bondye vèse nan kè nou yo\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Paske Bondye renmen mond lan sitèlman ke li ba li Pitit li Sèl la, pou tout moun ki kwè nan li pa pèdi, men pou yo gen lavi etènèl\" (Jan 3:16).",
+      "bibleReference": "Jan 3:16",
+      "normalizedRef": "joh3.16",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-001_fr",
+    "data": {
+      "id": "dq-tema-001",
+      "questionText": "Selon Jean 3:16, pourquoi Dieu a-t-il donné son Fils unique ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pour condamner le monde"
+        },
+        {
+          "id": "b",
+          "text": "Pour que quiconque croit en lui ne périsse pas mais ait la vie éternelle"
+        },
+        {
+          "id": "c",
+          "text": "Pour établir son royaume sur la terre"
+        },
+        {
+          "id": "d",
+          "text": "Pour accomplir la Loi de Moïse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Car Dieu a tant aimé le monde qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse pas » (Jean 3:16).",
+      "bibleReference": "Jean 3:16",
+      "normalizedRef": "joh3.16",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-002_ht",
+    "data": {
+      "id": "dq-tema-002",
+      "questionText": "Ki sa Efezyen 2:8-9 di sou nati sali a?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Se rezilta bon zèv akimile"
+        },
+        {
+          "id": "b",
+          "text": "Se pa gras atravè lafwa, pa pa zèv, pou pesonn pa gloria"
+        },
+        {
+          "id": "c",
+          "text": "Li garanti pa batèm nan"
+        },
+        {
+          "id": "d",
+          "text": "Yo jwenn li pa lapriyè kontinyèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Paske se pa gras nou sove pa kafou lafwa; sa pa soti nan nou menm, se yon kado Bondye bay; pa pa zèv, pou pesonn pa gloria\" (Efezyen 2:8-9).",
+      "bibleReference": "Efezyen 2:8-9",
+      "normalizedRef": "eph2.8-9",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-002_fr",
+    "data": {
+      "id": "dq-tema-002",
+      "questionText": "Que désigne la doctrine du « Salut Gratuit » (sola gratia) dans la Réforme protestante ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les œuvres et la grâce s'unissent pour sauver"
+        },
+        {
+          "id": "b",
+          "text": "Le salut est entièrement l'œuvre de Dieu, sans mérite humain"
+        },
+        {
+          "id": "c",
+          "text": "Seuls ceux qui reçoivent les sacrements sont sauvés"
+        },
+        {
+          "id": "d",
+          "text": "La grâce peut être perdue par le péché"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sola gratia : le salut vient uniquement de la grâce souveraine de Dieu, sans aucun mérite humain — « par grâce vous êtes sauvés » (Éphésiens 2:8-9).",
+      "bibleReference": "Éphésiens 2:8-9",
+      "normalizedRef": "eph2.8-9",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-003_ht",
+    "data": {
+      "id": "dq-tema-003",
+      "questionText": "Konbyen fwa Pyè ta dwe padonnen frè li dapre Jezi?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 fwa"
+        },
+        {
+          "id": "b",
+          "text": "77 fwa"
+        },
+        {
+          "id": "c",
+          "text": "70 fwa sèt"
+        },
+        {
+          "id": "d",
+          "text": "100 fwa"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Mwen pa di ou jiska sèt, men jiska swasant-dis fwa sèt\" (Matye 18:22). Jezi t ap anseye yon pèdon san limit.",
+      "bibleReference": "Matye 18:22",
+      "normalizedRef": "mat18.22",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-003_fr",
+    "data": {
+      "id": "dq-tema-003",
+      "questionText": "Combien de fois Pierre devait-il pardonner à son frère selon Jésus ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 fois"
+        },
+        {
+          "id": "b",
+          "text": "77 fois"
+        },
+        {
+          "id": "c",
+          "text": "70 fois sept fois"
+        },
+        {
+          "id": "d",
+          "text": "100 fois"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Je ne te dis pas jusqu'à sept fois, mais jusqu'à soixante-dix fois sept fois » (Matthieu 18:22). Jésus enseignait un pardon sans limite.",
+      "bibleReference": "Matthieu 18:22",
+      "normalizedRef": "mat18.22",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-004_ht",
+    "data": {
+      "id": "dq-tema-004",
+      "questionText": "Ki sa Ebre 11:1 di sou lafwa?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Se rezilta obeyisans pafèt la"
+        },
+        {
+          "id": "b",
+          "text": "Se sekirite sa nou espere, prèv sa nou pa wè"
+        },
+        {
+          "id": "c",
+          "text": "Se kwè san prèv"
+        },
+        {
+          "id": "d",
+          "text": "Se kado ki pi gran Lespri a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Lafwa se sekirite sa nou espere a, prèv sa nou pa wè\" (Ebre 11:1).",
+      "bibleReference": "Ebre 11:1",
+      "normalizedRef": "heb11.1",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-004_fr",
+    "data": {
+      "id": "dq-tema-004",
+      "questionText": "Que dit Hébreux 11:1 au sujet de la foi ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "C'est le résultat d'une obéissance parfaite"
+        },
+        {
+          "id": "b",
+          "text": "C'est l'assurance des choses qu'on espère, la démonstration de celles qu'on ne voit pas"
+        },
+        {
+          "id": "c",
+          "text": "C'est croire sans preuves"
+        },
+        {
+          "id": "d",
+          "text": "C'est le plus grand don de l'Esprit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Or la foi est une ferme assurance des choses qu'on espère, une démonstration de celles qu'on ne voit pas » (Hébreux 11:1).",
+      "bibleReference": "Hébreux 11:1",
+      "normalizedRef": "heb11.1",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-005_ht",
+    "data": {
+      "id": "dq-tema-005",
+      "questionText": "Ki sa Bondye pwomèt dapre 1 Jan 1:9 si nou konfese peche nou yo?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li pral ban nou plis eprèv"
+        },
+        {
+          "id": "b",
+          "text": "Ke nou p ap janm fè peche ankò"
+        },
+        {
+          "id": "c",
+          "text": "Li pral padonnen nou ak netwaye nou nan tout injistis"
+        },
+        {
+          "id": "d",
+          "text": "Ke nou pral pafè"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Si nou konfese peche nou yo, li fidèl ak jis pou padonnen nou peche nou yo, epi pou netwaye nou nan tout mechanste\" (1 Jan 1:9).",
+      "bibleReference": "1 Jan 1:9",
+      "normalizedRef": "1jn1.9",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-005_fr",
+    "data": {
+      "id": "dq-tema-005",
+      "questionText": "Que promet Dieu selon 1 Jean 1:9 si nous confessons nos péchés ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il nous donnera plus d'épreuves"
+        },
+        {
+          "id": "b",
+          "text": "Que nous ne pécherons plus jamais"
+        },
+        {
+          "id": "c",
+          "text": "Il est fidèle et juste pour nous les pardonner et nous purifier de toute iniquité"
+        },
+        {
+          "id": "d",
+          "text": "Que nous serons parfaits"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité » (1 Jean 1:9).",
+      "bibleReference": "1 Jean 1:9",
+      "normalizedRef": "1jn1.9",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-006_ht",
+    "data": {
+      "id": "dq-tema-006",
+      "questionText": "Ki twa vèti etènèl ki rete dapre 1 Korentyen 13:13?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lapriyè, ajèn ak sèvis"
+        },
+        {
+          "id": "b",
+          "text": "Kouraj, sajès ak pouvwa"
+        },
+        {
+          "id": "c",
+          "text": "Lafwa, espwa ak lanmou"
+        },
+        {
+          "id": "d",
+          "text": "Obeyisans, sètete ak lapè"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi kounye a rete lafwa, espwa, ak lanmou, twa sa yo; men pi gran nan yo se lanmou\" (1 Korentyen 13:13).",
+      "bibleReference": "1 Korentyen 13:13",
+      "normalizedRef": "1korentyen13.13",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-006_fr",
+    "data": {
+      "id": "dq-tema-006",
+      "questionText": "Quelles sont les trois vertus éternelles qui demeurent selon 1 Corinthiens 13:13 ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prière, jeûne et service"
+        },
+        {
+          "id": "b",
+          "text": "Courage, sagesse et puissance"
+        },
+        {
+          "id": "c",
+          "text": "La foi, l'espérance et l'amour"
+        },
+        {
+          "id": "d",
+          "text": "Obéissance, certitude et paix"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Maintenant donc ces trois choses demeurent : la foi, l'espérance, l'amour ; mais la plus grande de ces choses, c'est l'amour » (1 Corinthiens 13:13).",
+      "bibleReference": "1 Corinthiens 13:13",
+      "normalizedRef": "1korentyen13.13",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-007_ht",
+    "data": {
+      "id": "dq-tema-007",
+      "questionText": "Nan ki chapit 1 Korentyen Pòl dekri lanmou kòm \"vwa ki pi ekselant\"?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chapit 1"
+        },
+        {
+          "id": "b",
+          "text": "Chapit 10"
+        },
+        {
+          "id": "c",
+          "text": "Chapit 13"
+        },
+        {
+          "id": "d",
+          "text": "Chapit 15"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Im lanmou\" oswa \"Chapit lanmou\" se 1 Korentyen 13, kote Pòl dekri lanmou kòm siperyè a don espirityèl yo.",
+      "bibleReference": "1 Korentyen 13:1-13",
+      "normalizedRef": "1korentyen13.1-13",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-007_fr",
+    "data": {
+      "id": "dq-tema-007",
+      "questionText": "Dans quel chapitre de 1 Corinthiens Paul décrit-il l'amour comme la « voie par excellence » ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chapitre 1"
+        },
+        {
+          "id": "b",
+          "text": "Chapitre 10"
+        },
+        {
+          "id": "c",
+          "text": "Chapitre 13"
+        },
+        {
+          "id": "d",
+          "text": "Chapitre 15"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'« Hymne à l'amour » se trouve en 1 Corinthiens 13, où Paul décrit l'amour comme supérieur aux dons spirituels.",
+      "bibleReference": "1 Corinthiens 13:1-13",
+      "normalizedRef": "1korentyen13.1-13",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-008_ht",
+    "data": {
+      "id": "dq-tema-008",
+      "questionText": "Ki kòmandman Jezi rele \"premye ak pi enpòtan\" nan tout yo?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pa touye"
+        },
+        {
+          "id": "b",
+          "text": "Respecte papa ou ak manman ou"
+        },
+        {
+          "id": "c",
+          "text": "Renmen Bondye ak tout kè ou, ak vwazin ou tankou tèt ou"
+        },
+        {
+          "id": "d",
+          "text": "Pa sèvi non Bondye an anven"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Ou va renmen Seyè Bondye ou ak tout kè ou... Sa a se premye ak gwo kòmandman. Epi dezyèm la sanblabel: ou va renmen vwazin ou tankou tèt ou\" (Matye 22:37-39).",
+      "bibleReference": "Matye 22:37-39",
+      "normalizedRef": "mat22.37-39",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-008_fr",
+    "data": {
+      "id": "dq-tema-008",
+      "questionText": "Quel commandement Jésus appelle-t-il « le premier et le plus grand » de tous ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tu ne tueras point"
+        },
+        {
+          "id": "b",
+          "text": "Honore ton père et ta mère"
+        },
+        {
+          "id": "c",
+          "text": "Tu aimeras le Seigneur ton Dieu de tout ton cœur, et ton prochain comme toi-même"
+        },
+        {
+          "id": "d",
+          "text": "Tu ne prendras point le nom de Dieu en vain"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Tu aimeras le Seigneur, ton Dieu, de tout ton cœur... C'est là le premier et le plus grand commandement. Et voici le second, qui lui est semblable : Tu aimeras ton prochain comme toi-même » (Matthieu 22:37-39).",
+      "bibleReference": "Matthieu 22:37-39",
+      "normalizedRef": "mat22.37-39",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-009_ht",
+    "data": {
+      "id": "dq-tema-009",
+      "questionText": "Ki parabòl Jezi ki pi byen ilustre lanmou ak mizèrikòd Papa a pou pechè ki repanti?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parabòl dis vièj yo"
+        },
+        {
+          "id": "b",
+          "text": "Parabòl bon Samariten an"
+        },
+        {
+          "id": "c",
+          "text": "Parabòl pitit pwodige a"
+        },
+        {
+          "id": "d",
+          "text": "Parabòl semansyè a"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Parabòl pitit pwodige a (Lik 15:11-32) montre papa ki kouri pou anbrase pitit li lè li retounen repanti, senbòl lanmou Bondye pou pechè a.",
+      "bibleReference": "Lik 15:20-24",
+      "normalizedRef": "luk15.20-24",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-009_fr",
+    "data": {
+      "id": "dq-tema-009",
+      "questionText": "Quelle parabole de Jésus illustre le mieux l'amour et la miséricorde du Père pour le pécheur repentant ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parabole des dix vierges"
+        },
+        {
+          "id": "b",
+          "text": "Parabole du bon Samaritain"
+        },
+        {
+          "id": "c",
+          "text": "Parabole du fils prodigue"
+        },
+        {
+          "id": "d",
+          "text": "Parabole du semeur"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La parabole du fils prodigue (Luc 15:11-32) montre le père courant embrasser son fils à son retour repentant, symbole de l'amour de Dieu pour le pécheur.",
+      "bibleReference": "Luc 15:20-24",
+      "normalizedRef": "luk15.20-24",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-010_ht",
+    "data": {
+      "id": "dq-tema-010",
+      "questionText": "Ki fonksyon lwa Bondye genyen an relasyon ak peche dapre Women 3:20?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li sove moun ki obeyi l"
+        },
+        {
+          "id": "b",
+          "text": "Li kondannen pechè a san posibilite pèdon"
+        },
+        {
+          "id": "c",
+          "text": "Se atravè lwa a nou gen konesans peche"
+        },
+        {
+          "id": "d",
+          "text": "Li pa nesesè pou kwayan an"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Paske pa zèv lwa a pa gen lachè ki pral jistifye devan li; paske se pa lwa a nou gen konesans peche\" (Women 3:20).",
+      "bibleReference": "Women 3:20",
+      "normalizedRef": "rom3.20",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-010_fr",
+    "data": {
+      "id": "dq-tema-010",
+      "questionText": "Quelle fonction la loi de Dieu a-t-elle par rapport au péché selon Romains 3:20 ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elle sauve ceux qui lui obéissent"
+        },
+        {
+          "id": "b",
+          "text": "Elle condamne le pécheur sans possibilité de pardon"
+        },
+        {
+          "id": "c",
+          "text": "C'est par la loi que vient la connaissance du péché"
+        },
+        {
+          "id": "d",
+          "text": "Elle n'est pas nécessaire pour le croyant"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Car nul ne sera justifié devant lui par les œuvres de la loi, puisque c'est par la loi que vient la connaissance du péché » (Romains 3:20).",
+      "bibleReference": "Romains 3:20",
+      "normalizedRef": "rom3.20",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-011_ht",
+    "data": {
+      "id": "dq-tema-011",
+      "questionText": "Ki sèl peche Jezi deklare ki pa gen pèdon?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Asasina"
+        },
+        {
+          "id": "b",
+          "text": "Adiltè"
+        },
+        {
+          "id": "c",
+          "text": "Apostazi"
+        },
+        {
+          "id": "d",
+          "text": "Blasfèm kont Lespri Sen an"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "\"Tout peche ak blasfèm pral padonnen moun yo; men blasfèm kont Lespri p ap padonnen yo\" (Matye 12:31). Sa refere bay zèv Lespri yo kredi dyab la.",
+      "bibleReference": "Matye 12:31",
+      "normalizedRef": "mat12.31",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-011_fr",
+    "data": {
+      "id": "dq-tema-011",
+      "questionText": "Quel est le seul péché que Jésus déclare impardonnable ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le meurtre"
+        },
+        {
+          "id": "b",
+          "text": "L'adultère"
+        },
+        {
+          "id": "c",
+          "text": "L'apostasie"
+        },
+        {
+          "id": "d",
+          "text": "Le blasphème contre le Saint-Esprit"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "« Tout péché et tout blasphème sera pardonné aux hommes, mais le blasphème contre l'Esprit ne sera point pardonné » (Matthieu 12:31). Cela se réfère au fait d'attribuer les œuvres de l'Esprit au diable.",
+      "bibleReference": "Matthieu 12:31",
+      "normalizedRef": "mat12.31",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-012_ht",
+    "data": {
+      "id": "dq-tema-012",
+      "questionText": "Ki diferans teyolojik ant \"gras\" ak \"mizèrikòd\" nan Bib la?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo sinonim pafèt"
+        },
+        {
+          "id": "b",
+          "text": "Gras: resevwa sa nou pa merite; Mizèrikòd: pa resevwa pinisyon nou merite"
+        },
+        {
+          "id": "c",
+          "text": "Gras se pou AT ak mizèrikòd pou NT"
+        },
+        {
+          "id": "d",
+          "text": "Mizèrikòd se pou Izrayèl; gras pou pèp djanti"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "GRA (charis) se favè Bondye ba nou san nou pa merite l (resevwa sa nou pa merite: sali, lavi). MIZÈRIKÒD (eleos) se pa resevwa jijman nou merite pou peche nou yo.",
+      "bibleReference": "Efezyen 2:4-5",
+      "normalizedRef": "eph2.4-5",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-012_fr",
+    "data": {
+      "id": "dq-tema-012",
+      "questionText": "Quelle est la différence théologique entre la « grâce » et la « miséricorde » dans la Bible ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elles sont parfaitement synonymes"
+        },
+        {
+          "id": "b",
+          "text": "Grâce : recevoir ce qu'on ne mérite pas ; Miséricorde : ne pas recevoir le châtiment qu'on mérite"
+        },
+        {
+          "id": "c",
+          "text": "La grâce est pour l'AT et la miséricorde pour le NT"
+        },
+        {
+          "id": "d",
+          "text": "La miséricorde est pour Israël ; la grâce pour les païens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La GRÂCE (charis) est la faveur que Dieu nous accorde sans que nous la méritions (recevoir le salut, la vie). La MISÉRICORDE (eleos) consiste à ne pas recevoir le jugement que nous méritons pour nos péchés.",
+      "bibleReference": "Éphésiens 2:4-5",
+      "normalizedRef": "eph2.4-5",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-013_ht",
+    "data": {
+      "id": "dq-tema-013",
+      "questionText": "Ki parabòl Jezi ki ilustre ke pèdon nou pa ba ka afekte pèdon nou resevwa?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parabòl talan yo"
+        },
+        {
+          "id": "b",
+          "text": "Parabòl sèvitè ki pa padonnen an"
+        },
+        {
+          "id": "c",
+          "text": "Parabòl semansyè a"
+        },
+        {
+          "id": "d",
+          "text": "Parabòl mouton ak kabrit yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 18:23-35: wa a te padonnen yon gwo dèt sèvitè li a, men sèvitè a pa t padonnen konpay li. Wa a te livre l bay bòkliye yo. \"Se konsa Papa selès mwen an pral fè nou...si nou padonnen pa...\" (v.35).",
+      "bibleReference": "Matye 18:23-35",
+      "normalizedRef": "mat18.23-35",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-013_fr",
+    "data": {
+      "id": "dq-tema-013",
+      "questionText": "Quelle parabole de Jésus illustre que notre refus de pardonner peut affecter le pardon que nous recevons ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parabole des talents"
+        },
+        {
+          "id": "b",
+          "text": "Parabole du serviteur impitoyable"
+        },
+        {
+          "id": "c",
+          "text": "Parabole du semeur"
+        },
+        {
+          "id": "d",
+          "text": "Parabole des brebis et des boucs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 18:23-35 : le roi pardonna une immense dette à son serviteur, mais celui-ci ne pardonna pas à son compagnon. Le roi le livra aux bourreaux. « C'est ainsi que mon Père céleste vous traitera, si chacun de vous ne pardonne à son frère... » (v.35).",
+      "bibleReference": "Matthieu 18:23-35",
+      "normalizedRef": "mat18.23-35",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-014_ht",
+    "data": {
+      "id": "dq-tema-014",
+      "questionText": "Ki sa Women 5:8 di sou lanmou Bondye pou pechè yo?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ke Bondye renmen jis yo plis ke pechè yo"
+        },
+        {
+          "id": "b",
+          "text": "Ke Bondye te renmen nou toujou kòm pechè, epi Kris te mouri pou nou"
+        },
+        {
+          "id": "c",
+          "text": "Ke lanmou Bondye depann de obeyisans nou"
+        },
+        {
+          "id": "d",
+          "text": "Ke Bondye renmen tout moun egal san diferans"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Men Bondye demontre lanmou li pou nou, nan sa ke, toujou kòm pechè nou yo, Kris te mouri pou nou\" (Women 5:8). Lanmou Bondye pa t tann nou te pafè.",
+      "bibleReference": "Women 5:8",
+      "normalizedRef": "rom5.8",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-014_fr",
+    "data": {
+      "id": "dq-tema-014",
+      "questionText": "Que dit Romains 5:8 sur l'amour de Dieu pour les pécheurs ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Que Dieu aime les justes plus que les pécheurs"
+        },
+        {
+          "id": "b",
+          "text": "Que Dieu prouve son amour envers nous, en ce que, lorsque nous étions encore des pécheurs, Christ est mort pour nous"
+        },
+        {
+          "id": "c",
+          "text": "Que l'amour de Dieu dépend de notre obéissance"
+        },
+        {
+          "id": "d",
+          "text": "Que Dieu aime tout le monde de la même manière sans distinction"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Mais Dieu prouve son amour envers nous, en ce que, lorsque nous étions encore des pécheurs, Christ est mort pour nous » (Romains 5:8). L'amour de Dieu n'a pas attendu que nous soyons parfaits.",
+      "bibleReference": "Romains 5:8",
+      "normalizedRef": "rom5.8",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-015_ht",
+    "data": {
+      "id": "dq-tema-015",
+      "questionText": "Ki twa dimansyon lanmou kretyen premye lèt Jan an souliye?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Renmen Bondye, vwazin ak tèt ou"
+        },
+        {
+          "id": "b",
+          "text": "Renmen Bondye, frè nan lafwa, ak demontre l ak aksyon konkrèt"
+        },
+        {
+          "id": "c",
+          "text": "Lafwa, espwa ak lanmou pou vwazin"
+        },
+        {
+          "id": "d",
+          "text": "Lanmou familyal, lanmou pou etranje ak lanmou pou ènmi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Jan souliye: renmen Bondye (4:8), renmen frè a (4:21), ak lanmou sa dwe demontre an aksyon pa sèlman an pawòl (3:18). \"Pa renmen an pawòl ak an lang, men an aksyon ak an verite\" (3:18).",
+      "bibleReference": "1 Jan 3:18; 4:21",
+      "normalizedRef": "1jn3.18;4.21",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-015_fr",
+    "data": {
+      "id": "dq-tema-015",
+      "questionText": "Quelles sont les trois dimensions de l'amour chrétien soulignées dans la première lettre de Jean ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aimer Dieu, son prochain et soi-même"
+        },
+        {
+          "id": "b",
+          "text": "Aimer Dieu, les frères dans la foi, et le démontrer par des actes concrets"
+        },
+        {
+          "id": "c",
+          "text": "La foi, l'espérance et l'amour pour le prochain"
+        },
+        {
+          "id": "d",
+          "text": "L'amour familial, l'amour pour l'étranger et l'amour pour l'ennemi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Jean souligne : aimer Dieu (4:8), aimer son frère (4:21), et cet amour doit se démontrer en actes (3:18). « N'aimons pas en paroles et avec la langue, mais en actions et avec vérité » (3:18).",
+      "bibleReference": "1 Jean 3:18 ; 4:21",
+      "normalizedRef": "1jn3.18;4.21",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-016_ht",
+    "data": {
+      "id": "dq-tema-016",
+      "questionText": "Ki Ebreyis ki dèyè mo « shalom » nan e poukisa li depase senp lapè?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shalom vle di sèlman pa gen lagè"
+        },
+        {
+          "id": "b",
+          "text": "Shalom = entegrite/konplè nan tout dimansyon lavi a (relasyon, kò, sosyal, espirityèl) — yon eta plitid diven"
+        },
+        {
+          "id": "c",
+          "text": "Shalom se yon fason pou di bonjou san sans pwofon"
+        },
+        {
+          "id": "d",
+          "text": "Shalom vle di sèlman rekonsilyasyon ant Bondye ak moun"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Shalom (שָׁלוֹם) : plis pase pa gen lagè — se byennèt, konplè nan tout bagay. Jezi se Shalom nou (Efezyen 2:14).",
+      "bibleReference": "Éphésiens 2:14",
+      "normalizedRef": "eph2.14",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-016_fr",
+    "data": {
+      "id": "dq-tema-016",
+      "questionText": "Quel est l'Hébraïsme derrière le mot « shalom » et pourquoi dépasse-t-il la simple paix ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shalom signifie uniquement l'absence de conflit armé"
+        },
+        {
+          "id": "b",
+          "text": "Shalom = intégrité/complétude dans toutes les dimensions de la vie (relationnelle, physique, sociale, spirituelle) — la paix comme état de plénitude divine"
+        },
+        {
+          "id": "c",
+          "text": "Shalom est une formule de salutation sans sens profond"
+        },
+        {
+          "id": "d",
+          "text": "Shalom désigne uniquement la réconciliation entre Dieu et l'homme"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Shalom (שָׁלוֹם) : plus qu'absence de guerre — intégralité, bien-être, complétude dans toutes les dimensions. Projet divin de restauration totale (Nombres 6:24-26). Jésus est notre Shalom (Éphésiens 2:14).",
+      "bibleReference": "Éphésiens 2:14",
+      "normalizedRef": "eph2.14",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-017_ht",
+    "data": {
+      "id": "dq-tema-017",
+      "questionText": "Ki pi gwo kòmandman an selon Jezi nan Matye 22?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obeyi Lalwa Moyiz la"
+        },
+        {
+          "id": "b",
+          "text": "Renmen Bondye ak tout kè w epi renmen frè parèy ou tankou tèt pa w"
+        },
+        {
+          "id": "c",
+          "text": "Batize tout nasyon yo"
+        },
+        {
+          "id": "d",
+          "text": "Onore manman w ak papa w"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Se pou ou renmen Mèt la, Bondye ou... Se pou ou renmen frè parèy ou tankou ou menm. De kòmandman sa yo, se yo ki fondasyon tout lalwa Moyiz la » (Matye 22:37-40).",
+      "bibleReference": "Matthieu 22:37-40"
+    }
+  },
+  {
+    "docId": "dq-tema-017_fr",
+    "data": {
+      "id": "dq-tema-017",
+      "questionText": "Quel est le grand commandement selon Jésus dans Matthieu 22 ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obéir à la Loi de Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Aimer Dieu de tout son cœur et son prochain comme soi-même"
+        },
+        {
+          "id": "c",
+          "text": "Baptiser toutes les nations"
+        },
+        {
+          "id": "d",
+          "text": "Honorer son père et sa mère"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Tu aimeras le Seigneur ton Dieu... et ton prochain comme toi-même. De ces deux commandements dépendent la Loi et les Prophètes » (Matthieu 22:37-40).",
+      "bibleReference": "Matthieu 22:37-40",
+      "normalizedRef": "mat22.37-40",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-018_ht",
+    "data": {
+      "id": "dq-tema-018",
+      "questionText": "Selon Women 6:23, kisa peche peye?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Maladi"
+        },
+        {
+          "id": "b",
+          "text": "Soufrans"
+        },
+        {
+          "id": "c",
+          "text": "Lanmò"
+        },
+        {
+          "id": "d",
+          "text": "Pòvte"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Paske peche peye ou ak lanmò. Men, kado Bondye ban nou gratis la, se lavi ki p'ap janm fini an nan Jezikri » (Women 6:23).",
+      "bibleReference": "Romains 6:23"
+    }
+  },
+  {
+    "docId": "dq-tema-018_fr",
+    "data": {
+      "id": "dq-tema-018",
+      "questionText": "Selon Romains 6:23, quel est le salaire du péché ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La maladie"
+        },
+        {
+          "id": "b",
+          "text": "La souffrance"
+        },
+        {
+          "id": "c",
+          "text": "La mort"
+        },
+        {
+          "id": "d",
+          "text": "La pauvreté"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Le salaire du péché, c'est la mort ; mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ » (Romains 6:23).",
+      "bibleReference": "Romains 6:23",
+      "normalizedRef": "rom6.23",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-019_ht",
+    "data": {
+      "id": "dq-tema-019",
+      "questionText": "Kisa sanktifikasyon ye nan lavi yon kretyen?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lè yon moun batize"
+        },
+        {
+          "id": "b",
+          "text": "Pwosesis kwasans pou nou vin sanble ak Kris la plis chak jou"
+        },
+        {
+          "id": "c",
+          "text": "Lè yon moun priye chak jou"
+        },
+        {
+          "id": "d",
+          "text": "Lè yon moun li Bib la chak jou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sanktifikasyon se pwosesis kontini kote Sentespri a ap transfòme kwayan an pou l vin sanble ak imaj Kris la (2 Korentyen 3:18).",
+      "bibleReference": "2 Corinthiens 3:18"
+    }
+  },
+  {
+    "docId": "dq-tema-019_fr",
+    "data": {
+      "id": "dq-tema-019",
+      "questionText": "Qu'est-ce que la sanctification dans la vie chrétienne ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le moment du baptême"
+        },
+        {
+          "id": "b",
+          "text": "Le processus de croissance vers la ressemblance à Christ"
+        },
+        {
+          "id": "c",
+          "text": "L'acte de prier chaque jour"
+        },
+        {
+          "id": "d",
+          "text": "La lecture quotidienne de la Bible"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La sanctification est le processus continu par lequel le croyant est transformé à l'image de Christ par l'Esprit Saint (2 Corinthiens 3:18).",
+      "bibleReference": "2 Corinthiens 3:18",
+      "normalizedRef": "2co3.18",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-tema-020_ht",
+    "data": {
+      "id": "dq-tema-020",
+      "questionText": "Kisa konsèp biblik « kontra » a (berith nan lang ebre) vle di?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon kontra legal ant de pati ki egal"
+        },
+        {
+          "id": "b",
+          "text": "Yon angajman solanèl Bondye pran ak pèp li a ak pwomès ak kondisyon"
+        },
+        {
+          "id": "c",
+          "text": "Yon lwa oral ki pase de jenerasyon an jenerasyon"
+        },
+        {
+          "id": "d",
+          "text": "Yon seremoni relijye ki fèt chak ane"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yon kontra biblik (berith) se yon angajman solanèl Bondye pran — Noe, Abraram, Moyiz, David, Nouvo Kontra — chak gen pwomès espesifik.",
+      "bibleReference": "Jérémie 31:31-34"
+    }
+  },
+  {
+    "docId": "dq-tema-020_fr",
+    "data": {
+      "id": "dq-tema-020",
+      "questionText": "Que signifie le concept biblique d'« alliance » (berith en hébreu) ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un contrat légal entre deux partis égaux"
+        },
+        {
+          "id": "b",
+          "text": "Un engagement solennel de Dieu envers son peuple avec des promesses et des conditions"
+        },
+        {
+          "id": "c",
+          "text": "Une loi orale transmise de génération en génération"
+        },
+        {
+          "id": "d",
+          "text": "Une cérémonie religieuse annuelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'alliance biblique (berith) est un engagement solennel de Dieu — Noé, Abraham, Moïse, David, Nouvelle Alliance — chacune avec des promesses spécifiques.",
+      "bibleReference": "Jérémie 31:31-34",
+      "normalizedRef": "jer31.31-34",
+      "normalizedCat": "temas"
+    }
+  }
+]

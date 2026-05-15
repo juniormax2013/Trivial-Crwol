@@ -1,0 +1,3325 @@
+[
+  {
+    "docId": "dq-pers-031_ht",
+    "data": {
+      "id": "dq-pers-031",
+      "questionText": "Ki disip Jezi ki te trayi l pou trant pyès lajan?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyè"
+        },
+        {
+          "id": "b",
+          "text": "Tomas"
+        },
+        {
+          "id": "c",
+          "text": "Jid Iskariòt"
+        },
+        {
+          "id": "d",
+          "text": "Batèlmi"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jid Iskariòt te vann Jezi bay chèf prèt yo pou trant pyès lajan (Matye 26:15).",
+      "bibleReference": "Matthieu 26:15"
+    }
+  },
+  {
+    "docId": "dq-pers-031_fr",
+    "data": {
+      "id": "dq-pers-031",
+      "questionText": "Quel disciple de Jésus le trahit pour trente pièces d'argent ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre"
+        },
+        {
+          "id": "b",
+          "text": "Thomas"
+        },
+        {
+          "id": "c",
+          "text": "Judas Iscariote"
+        },
+        {
+          "id": "d",
+          "text": "Barthélemy"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Judas Iscariote vendit Jésus aux chefs des prêtres pour trente pièces d'argent (Matthieu 26:15).",
+      "bibleReference": "Matthieu 26:15",
+      "normalizedRef": "mat26.15",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-032_ht",
+    "data": {
+      "id": "dq-pers-032",
+      "questionText": "Ki moun ki te esplike rèv Farawon an epi ki te vin dezyèm chèf nan peyi Ejip?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "Jozèf"
+        },
+        {
+          "id": "c",
+          "text": "Arawon"
+        },
+        {
+          "id": "d",
+          "text": "Abraram"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apre Jozèf fin esplike rèv sèt vach gra ak sèt vachèg yo, li te vin dezyèm chèf nan peyi Ejip (Jenèz 41:40-41).",
+      "bibleReference": "Genèse 41:40"
+    }
+  },
+  {
+    "docId": "dq-pers-032_fr",
+    "data": {
+      "id": "dq-pers-032",
+      "questionText": "Qui interpréta les songes du Pharaon et devint vice-roi d'Égypte ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Joseph"
+        },
+        {
+          "id": "c",
+          "text": "Aaron"
+        },
+        {
+          "id": "d",
+          "text": "Abraham"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joseph, après avoir interprété les sept vaches grasses et maigres, devint le second d'Égypte (Genèse 41:40-41).",
+      "bibleReference": "Genèse 41:40",
+      "normalizedRef": "gen41.40",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-033_ht",
+    "data": {
+      "id": "dq-pers-033",
+      "questionText": "Ki madanm ki te kache espyon Izrayèl yo epi ki te sove gras ak yon kòdon wouj?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debora"
+        },
+        {
+          "id": "b",
+          "text": "Raab"
+        },
+        {
+          "id": "c",
+          "text": "Rit"
+        },
+        {
+          "id": "d",
+          "text": "Abigayèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Raab ki t'ap viv nan vil Jeriko te kache espyon Jozye yo, epi li te sove paske li te mare yon kòdon wouj nan fenèt li (Jozye 2:18-21).",
+      "bibleReference": "Josué 2:18-21"
+    }
+  },
+  {
+    "docId": "dq-pers-033_fr",
+    "data": {
+      "id": "dq-pers-033",
+      "questionText": "Quelle femme cacha les espions israélites et fut sauvée à cause d'un cordon écarlate ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Déborah"
+        },
+        {
+          "id": "b",
+          "text": "Rahab"
+        },
+        {
+          "id": "c",
+          "text": "Ruth"
+        },
+        {
+          "id": "d",
+          "text": "Abigaïl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rahab de Jéricho cacha les espions de Josué et fut sauvée grâce à un cordon écarlate à sa fenêtre (Josué 2:18-21).",
+      "bibleReference": "Josué 2:18-21",
+      "normalizedRef": "jos2.18-21",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-034_ht",
+    "data": {
+      "id": "dq-pers-034",
+      "questionText": "Ki moun ki te prepare chemen pou Jezi e ki t'ap batize moun nan larivyè Jouden an?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eli"
+        },
+        {
+          "id": "b",
+          "text": "Elize"
+        },
+        {
+          "id": "c",
+          "text": "Jan Batis"
+        },
+        {
+          "id": "d",
+          "text": "Zakarie"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jan Batis t'ap preche pou moun chanje lavi yo epi li te prepare chemen pou Jezi (Mak 1:4).",
+      "bibleReference": "Marc 1:4"
+    }
+  },
+  {
+    "docId": "dq-pers-034_fr",
+    "data": {
+      "id": "dq-pers-034",
+      "questionText": "Qui fut le précurseur de Jésus qui baptisait dans le Jourdain ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Élie"
+        },
+        {
+          "id": "b",
+          "text": "Elisée"
+        },
+        {
+          "id": "c",
+          "text": "Jean-Baptiste"
+        },
+        {
+          "id": "d",
+          "text": "Zacharie"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jean-Baptiste prêchait le baptême de repentance et prépara le chemin pour Jésus (Marc 1:4).",
+      "bibleReference": "Marc 1:4",
+      "normalizedRef": "mar1.4",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-035_ht",
+    "data": {
+      "id": "dq-pers-035",
+      "questionText": "Ki larenn etranje ki te vizite Salomon pou wè jan li te gen sajès?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Larenn Lasiri"
+        },
+        {
+          "id": "b",
+          "text": "Larenn Saba"
+        },
+        {
+          "id": "c",
+          "text": "Jezabèl"
+        },
+        {
+          "id": "d",
+          "text": "Atali"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Larenn Saba te vin ak anpil richès pou l' te poze Salomon anpil keksyon difisil pou l' wè konesans li (1 Wa 10:1-3).",
+      "bibleReference": "1 Rois 10:1"
+    }
+  },
+  {
+    "docId": "dq-pers-035_fr",
+    "data": {
+      "id": "dq-pers-035",
+      "questionText": "Quelle reine étrangère visita Salomon pour éprouver sa sagesse ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La reine d'Assyrie"
+        },
+        {
+          "id": "b",
+          "text": "La reine de Saba"
+        },
+        {
+          "id": "c",
+          "text": "Jézabel"
+        },
+        {
+          "id": "d",
+          "text": "Athalyah"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La reine de Saba vint avec beaucoup de richesses pour mettre Salomon à l'épreuve par des énigmes (1 Rois 10:1-3).",
+      "bibleReference": "1 Rois 10:1",
+      "normalizedRef": "1ki10.1",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-036_ht",
+    "data": {
+      "id": "dq-pers-036",
+      "questionText": "Ki farizyen ki te vin jwenn Jezi lannwit epi ki te aprann li fòk li fèt yon dezyèm fwa?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gamalyèl"
+        },
+        {
+          "id": "b",
+          "text": "Nikodèm"
+        },
+        {
+          "id": "c",
+          "text": "Sòl ki soti Tas"
+        },
+        {
+          "id": "d",
+          "text": "Jozèf ki soti Arimatye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nikodèm, yon chèf nan jwif yo, te vin jwenn Jezi lannwit. Jezi di l': « Si yon moun pa fèt yon dezyèm fwa, li pa kapab wè Peyi kote Bondye Wa a » (Jan 3:3-4).",
+      "bibleReference": "Jean 3:2-3"
+    }
+  },
+  {
+    "docId": "dq-pers-036_fr",
+    "data": {
+      "id": "dq-pers-036",
+      "questionText": "Quel pharisien vint trouver Jésus de nuit et apprit la nécessité de la nouvelle naissance ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gamaliel"
+        },
+        {
+          "id": "b",
+          "text": "Nicodème"
+        },
+        {
+          "id": "c",
+          "text": "Saül de Tarse"
+        },
+        {
+          "id": "d",
+          "text": "Joseph d'Arimathée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nicodème, chef des Juifs, vint trouver Jésus de nuit. Jésus lui dit : « Il faut que vous naissiez de nouveau » (Jean 3:3-4).",
+      "bibleReference": "Jean 3:2-3",
+      "normalizedRef": "joh3.2-3",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-037_ht",
+    "data": {
+      "id": "dq-pers-037",
+      "questionText": "Ki madanm ki te jij nan Izrayèl epi ki te konn bay pwofesi anba yon pye palmis ant Rama ak Betèl?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Miryam"
+        },
+        {
+          "id": "b",
+          "text": "Olda"
+        },
+        {
+          "id": "c",
+          "text": "Debora"
+        },
+        {
+          "id": "d",
+          "text": "Noadya"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Debora te pwofèt epi li te jij nan Izrayèl. Li te konn rann jistis anba pye palmis Debora a (Jij 4:4-5).",
+      "bibleReference": "Juges 4:4-5"
+    }
+  },
+  {
+    "docId": "dq-pers-037_fr",
+    "data": {
+      "id": "dq-pers-037",
+      "questionText": "Quelle femme juge dirigea Israël et prophétisa sous un palmier entre Rama et Béthel ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Miriam"
+        },
+        {
+          "id": "b",
+          "text": "Hulda"
+        },
+        {
+          "id": "c",
+          "text": "Déborah"
+        },
+        {
+          "id": "d",
+          "text": "Noadiah"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Déborah était prophétesse et juge d'Israël. Elle rendit la justice sous le palmier de Déborah (Juges 4:4-5).",
+      "bibleReference": "Juges 4:4-5",
+      "normalizedRef": "jud4.4-5",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-038_ht",
+    "data": {
+      "id": "dq-pers-038",
+      "questionText": "Ki moun Banabas te ye nan kòmansman Legliz la e ki ti non yo te ba li?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Disip Pòl, yo te rele l « pitit loraj »"
+        },
+        {
+          "id": "b",
+          "text": "Yon Levit ki soti Chip yo te rele « moun ki konn bay ankourajman »"
+        },
+        {
+          "id": "c",
+          "text": "Premye dyak nan Legliz Jerizalèm nan"
+        },
+        {
+          "id": "d",
+          "text": "Zanmi Jan lè l' te nan prizon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozèf, yon Levit ki soti Chip, apot yo te ba l ti non Banabas (ki vle di: moun ki konn bay ankourajman). Li te vwayaje anpil ak Pòl (Travay 4:36).",
+      "bibleReference": "Actes 4:36"
+    }
+  },
+  {
+    "docId": "dq-pers-038_fr",
+    "data": {
+      "id": "dq-pers-038",
+      "questionText": "Qui était Barnabas dans l'Église primitive et quel surnom lui donna-t-on ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Disciple de Paul, surnommé « fils du tonnerre »"
+        },
+        {
+          "id": "b",
+          "text": "Lévite de Chypre surnommé « fils d'encouragement »"
+        },
+        {
+          "id": "c",
+          "text": "Premier diacre de l'Église de Jérusalem"
+        },
+        {
+          "id": "d",
+          "text": "Compagnon de Jean en exil"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joseph, lévite de Chypre, fut surnommé Barnabas (= fils d'encouragement) par les apôtres. Il fut le compagnon de Paul (Actes 4:36).",
+      "bibleReference": "Actes 4:36",
+      "normalizedRef": "act4.36",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-039_ht",
+    "data": {
+      "id": "dq-pers-039",
+      "questionText": "Ki moun Akila ak Prisil te ye nan Legliz Nouvo Testaman an?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon koup ki te konn fè tant ki te travay ak Pòl epi ki te montre Apolòs verite a"
+        },
+        {
+          "id": "b",
+          "text": "De pwofèt ki t'ap vwayaje pou Legliz Antyòch la"
+        },
+        {
+          "id": "c",
+          "text": "Paran Timote yo"
+        },
+        {
+          "id": "d",
+          "text": "Dyak nan Legliz Wòm nan"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Akila ak Prisil, ki te konn fè tant, te resevwa Pòl lakay yo nan Korent epi yo te esplike Apolòs chemen Bondye a pi byen toujou (Travay 18:2-3,26).",
+      "bibleReference": "Actes 18:26"
+    }
+  },
+  {
+    "docId": "dq-pers-039_fr",
+    "data": {
+      "id": "dq-pers-039",
+      "questionText": "Qui était Aquila et Priscille dans l'Église du NT ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un couple de fabricants de tentes qui collaborèrent avec Paul et enseignèrent Apollos"
+        },
+        {
+          "id": "b",
+          "text": "Deux prophètes itinérants de l'Église d'Antioche"
+        },
+        {
+          "id": "c",
+          "text": "Les parents de Timothée"
+        },
+        {
+          "id": "d",
+          "text": "Des diacres de l'Église de Rome"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Aquila et Priscille, fabricants de tentes, accueillirent Paul à Corinthe et enseignèrent à Apollos la voie de Dieu avec exactitude (Actes 18:2-3,26).",
+      "bibleReference": "Actes 18:26",
+      "normalizedRef": "act18.26",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pers-040_ht",
+    "data": {
+      "id": "dq-pers-040",
+      "questionText": "Ki moun Apolòs te ye e ki jan Akila ak Prisil te fin montre l chemen Bondye a pi byen toujou?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon jwif ki soti Aleksandri ki te konn pale byen men ki te konnen batèm Jan sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Yon grèk ki te konvèti Pòl te fòme"
+        },
+        {
+          "id": "c",
+          "text": "Yon pwofèt Legliz Antyòch la te voye Korent"
+        },
+        {
+          "id": "d",
+          "text": "Yonn nan 70 disip Jezi te voye yo"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Apolòs te soti Aleksandri, li te konn Bib la byen epi li te konn pale byen. Men li te konnen batèm Jan sèlman. Akila ak Prisil te esplike l' chemen Bondye a pi byen toujou (Travay 18:24-26).",
+      "bibleReference": "Actes 18:24-26"
+    }
+  },
+  {
+    "docId": "dq-pers-040_fr",
+    "data": {
+      "id": "dq-pers-040",
+      "questionText": "Qui était Apollos et en quoi sa formation fut-elle complétée par Aquila et Priscille ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Juif alexandrin éloquent qui ne connaissait que le baptême de Jean"
+        },
+        {
+          "id": "b",
+          "text": "Grec converti formé à l'école de Paul"
+        },
+        {
+          "id": "c",
+          "text": "Prophète de l'Église d'Antioche envoyé à Corinthe"
+        },
+        {
+          "id": "d",
+          "text": "Disciple des 70 envoyé par Jésus"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Apollos d'Alexandrie, savant et éloquent, connaissait seulement le baptême de Jean. Aquila et Priscille lui exposèrent la voie de Dieu avec exactitude (Actes 18:24-26).",
+      "bibleReference": "Actes 18:24-26",
+      "normalizedRef": "act18.24-26",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-pmay-001_ht",
+    "data": {
+      "id": "dq-pmay-001",
+      "questionText": "Ki pwofèt ki te resevwa vizyon \"chan zo sèch\" ki te tounen viv yo?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi"
+        },
+        {
+          "id": "b",
+          "text": "Jeremi"
+        },
+        {
+          "id": "c",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "d",
+          "text": "Danyèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ezekyèl te resevwa vizyon vale zo sèch ki te tounen viv, reprezante retablisman Izrayèl (Ezekyèl 37).",
+      "bibleReference": "Ezekyèl 37:1-14",
+      "normalizedRef": "eze37.1-14",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-001_fr",
+    "data": {
+      "id": "dq-pmay-001",
+      "questionText": "Quel prophète eut la vision des ossements desséchés qui reprirent vie ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "b",
+          "text": "Jérémie"
+        },
+        {
+          "id": "c",
+          "text": "Ézéchiel"
+        },
+        {
+          "id": "d",
+          "text": "Daniel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ézéchiel vit la vallée des ossements desséchés symbolisant la restauration d'Israël (Ézéchiel 37).",
+      "bibleReference": "Ézéchiel 37:1-14",
+      "normalizedRef": "eze37.1-14",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-002_ht",
+    "data": {
+      "id": "dq-pmay-002",
+      "questionText": "Konbyen gwo pwofèt ki genyen nan Ansyen Testaman an?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Senk gwo pwofèt yo se: Ezayi, Jeremi, Lamentasyon (Jeremi), Ezekyèl ak Danyèl.",
+      "bibleReference": "Ezayi 1:1",
+      "normalizedRef": "isa1.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-002_fr",
+    "data": {
+      "id": "dq-pmay-002",
+      "questionText": "Combien de chapitres contient le livre d'Ésaïe ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "39"
+        },
+        {
+          "id": "b",
+          "text": "52"
+        },
+        {
+          "id": "c",
+          "text": "66"
+        },
+        {
+          "id": "d",
+          "text": "72"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ésaïe compte 66 chapitres, le même nombre que les 66 livres de la Bible.",
+      "bibleReference": "Ésaïe 1:1",
+      "normalizedRef": "isa1.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-003_ht",
+    "data": {
+      "id": "dq-pmay-003",
+      "questionText": "Ki sa Ezayi te predi sou nesans Mesi a nan Ezayi 7:14?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li ta fèt nan Betleyèm"
+        },
+        {
+          "id": "b",
+          "text": "Yon vièj ta fè pitit, ba li non Emanizyèl"
+        },
+        {
+          "id": "c",
+          "text": "Li ta renye soti nan Jerizalèm"
+        },
+        {
+          "id": "d",
+          "text": "Li ta mouri pou peche pèp la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Gade! Yon vièj ap ansent epi li pral fè yon pitit gason, epi yo pral rele l Emanizyèl\" (Ezayi 7:14). Site nan Matye 1:23.",
+      "bibleReference": "Ezayi 7:14",
+      "normalizedRef": "isa7.14",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-003_fr",
+    "data": {
+      "id": "dq-pmay-003",
+      "questionText": "Quelle prophétie d'Ésaïe annonce qu'une vierge concevra et enfantera un fils appelé Emmanuel ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ésaïe 7:14"
+        },
+        {
+          "id": "b",
+          "text": "Ésaïe 9:6"
+        },
+        {
+          "id": "c",
+          "text": "Ésaïe 11:1"
+        },
+        {
+          "id": "d",
+          "text": "Ésaïe 40:3"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "« La vierge sera enceinte et enfantera un fils, et tu lui donneras le nom d'Emmanuel » (Ésaïe 7:14).",
+      "bibleReference": "Ésaïe 7:14",
+      "normalizedRef": "isa7.14",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-004_ht",
+    "data": {
+      "id": "dq-pmay-004",
+      "questionText": "Nan ki chapit Ezayi yo dekri plis \"Sèvitè Soufran\" an?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi 9"
+        },
+        {
+          "id": "b",
+          "text": "Ezayi 40"
+        },
+        {
+          "id": "c",
+          "text": "Ezayi 53"
+        },
+        {
+          "id": "d",
+          "text": "Ezayi 61"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ezayi 53 dekri pwofetikman Sèvitè Soufran an: \"Li te blese pou transgresyon nou yo, kraze pou inike nou yo...\" (v.5).",
+      "bibleReference": "Ezayi 53:5",
+      "normalizedRef": "isa53.5",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-004_fr",
+    "data": {
+      "id": "dq-pmay-004",
+      "questionText": "Quel chapitre d'Ésaïe décrit le serviteur souffrant percé pour nos transgressions ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ésaïe 7"
+        },
+        {
+          "id": "b",
+          "text": "Ésaïe 40"
+        },
+        {
+          "id": "c",
+          "text": "Ésaïe 53"
+        },
+        {
+          "id": "d",
+          "text": "Ésaïe 60"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ésaïe 53 décrit le serviteur souffrant : « Il a été blessé pour nos péchés » (v.5). Les chrétiens l'appliquent à Christ.",
+      "bibleReference": "Ésaïe 53:5",
+      "normalizedRef": "isa53.5",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-005_ht",
+    "data": {
+      "id": "dq-pmay-005",
+      "questionText": "Ki pwofèt ki te ekri sou \"Nouvèl Alyans\" kote Bondye pral mete lwa li nan kè pèp la?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi"
+        },
+        {
+          "id": "b",
+          "text": "Jeremi"
+        },
+        {
+          "id": "c",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "d",
+          "text": "Amos"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jeremi 31:31-34 pwofetize \"Nouvèl Alyans\" — lwa ekri nan kè, pardon konplè, konesans dirèk de Bondye. Ebre 8:8-12 di li akompli nan Kris.",
+      "bibleReference": "Jeremi 31:31-34",
+      "normalizedRef": "jer31.31-34",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-005_fr",
+    "data": {
+      "id": "dq-pmay-005",
+      "questionText": "Quelle est la promesse centrale de la Nouvelle Alliance annoncée par Jérémie (Jérémie 31:31-34) ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Prophètes Majeurs",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Israël retrouvera sa terre et son roi davidique terrestre"
+        },
+        {
+          "id": "b",
+          "text": "Dieu inscrira sa loi dans les cœurs, pardonnera les péchés, et tous le connaîtront directement — sans intermédiaire"
+        },
+        {
+          "id": "c",
+          "text": "Le temple sera reconstruit plus grand et plus glorieux"
+        },
+        {
+          "id": "d",
+          "text": "Les sacrifices seront rétablis dans un nouveau temple parfait"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jérémie 31:31-34 : Alliance nouvelle — loi dans les cœurs (non sur des tables), relation directe (« ils me connaîtront tous »), pardon complet. Hébreux 8:8-12 y voit l'accomplissement en Christ.",
+      "bibleReference": "Jérémie 31:31-34",
+      "normalizedRef": "jer31.31-34",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-006_ht",
+    "data": {
+      "id": "dq-pmay-006",
+      "questionText": "Ki pwofèt yon zanj te mete yon chabon alimen sou reken li?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeremi"
+        },
+        {
+          "id": "b",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "c",
+          "text": "Ezayi"
+        },
+        {
+          "id": "d",
+          "text": "Danyèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nan vizyon apèl li a, yon serafin te pran yon chabon sou lotèl la epi mete l sou reken Ezayi, sa te pirifye l (Ezayi 6:6-7).",
+      "bibleReference": "Ezayi 6:6-7",
+      "normalizedRef": "isa6.6-7",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-006_fr",
+    "data": {
+      "id": "dq-pmay-006",
+      "questionText": "Quel prophète vit un ange poser un charbon ardent sur sa bouche ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jérémie"
+        },
+        {
+          "id": "b",
+          "text": "Ézéchiel"
+        },
+        {
+          "id": "c",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "d",
+          "text": "Daniel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dans sa vision d'appel, un séraphin prit un charbon sur l'autel et le posa sur la bouche d'Ésaïe, ce qui le purifia (Ésaïe 6:6-7).",
+      "bibleReference": "Ésaïe 6:6-7"
+    }
+  },
+  {
+    "docId": "dq-pmay-007_ht",
+    "data": {
+      "id": "dq-pmay-007",
+      "questionText": "Ki pwofèt biblik ki te jete nan fòs lyon yo?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi"
+        },
+        {
+          "id": "b",
+          "text": "Jeremi"
+        },
+        {
+          "id": "c",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "d",
+          "text": "Danyèl"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Danyèl te jete kote lyon yo pase ènmi li yo, men Bondye te pwoteje l nan fèmen bouch lyon yo (Danyèl 6).",
+      "bibleReference": "Danyèl 6:16-22",
+      "normalizedRef": "dan6.16-22",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-007_fr",
+    "data": {
+      "id": "dq-pmay-007",
+      "questionText": "Quel prophète biblique fut jeté dans la fosse aux lions ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "b",
+          "text": "Jérémie"
+        },
+        {
+          "id": "c",
+          "text": "Ézéchiel"
+        },
+        {
+          "id": "d",
+          "text": "Daniel"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Daniel fut jeté dans la fosse aux lions par ses ennemis, mais Dieu le protégea en fermant la gueule des lions (Daniel 6).",
+      "bibleReference": "Daniel 6:16-22"
+    }
+  },
+  {
+    "docId": "dq-pmay-008_ht",
+    "data": {
+      "id": "dq-pmay-008",
+      "questionText": "Kilès ki te ekri Liv Lamentasyon sou chit Jerizalèm nan?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi"
+        },
+        {
+          "id": "b",
+          "text": "Jeremi"
+        },
+        {
+          "id": "c",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "d",
+          "text": "Danyèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yo atribye Jeremi, \"pwofèt kriye a\", ekri Lamentasyon yo sou destriksyon Jerizalèm.",
+      "bibleReference": "Lamentasyon 1:1",
+      "normalizedRef": "lamentasyon1.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-008_fr",
+    "data": {
+      "id": "dq-pmay-008",
+      "questionText": "Qui a écrit le livre des Lamentations sur la chute de Jérusalem ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "b",
+          "text": "Jérémie"
+        },
+        {
+          "id": "c",
+          "text": "Ézéchiel"
+        },
+        {
+          "id": "d",
+          "text": "Daniel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "On attribue à Jérémie, le « prophète pleureur », l'écriture des Lamentations sur la destruction de Jérusalem.",
+      "bibleReference": "Lamentations 1:1"
+    }
+  },
+  {
+    "docId": "dq-pmay-009_ht",
+    "data": {
+      "id": "dq-pmay-009",
+      "questionText": "Konbyen chapit Liv Ezayi la genyen?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "40"
+        },
+        {
+          "id": "b",
+          "text": "52"
+        },
+        {
+          "id": "c",
+          "text": "60"
+        },
+        {
+          "id": "d",
+          "text": "66"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Ezayi gen 66 chapit, menm kantite ak liv Bib la. Premye 39 yo koresponn ak AT ak dènye 27 yo ak NT nan tèm.",
+      "bibleReference": "Ezayi 66",
+      "normalizedRef": "isa66",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-009_fr",
+    "data": {
+      "id": "dq-pmay-009",
+      "questionText": "Combien de chapitres compte le livre d'Ésaïe ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "40"
+        },
+        {
+          "id": "b",
+          "text": "52"
+        },
+        {
+          "id": "c",
+          "text": "60"
+        },
+        {
+          "id": "d",
+          "text": "66"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Ésaïe compte 66 chapitres, le même nombre que les livres de la Bible. Les 39 premiers correspondent à l'AT et les 27 derniers au NT par leurs thèmes.",
+      "bibleReference": "Ésaïe 66"
+    }
+  },
+  {
+    "docId": "dq-pmay-010_ht",
+    "data": {
+      "id": "dq-pmay-010",
+      "questionText": "Konbyen bèt Danyèl te wè nan vizyon lannwit Danyèl 7?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Danyèl te wè kat gwo bèt ki te monte soti nan lanmè: yon lyon, yon lous, yon leopar ak yon katriyèm bèt terib (Danyèl 7:3-7).",
+      "bibleReference": "Danyèl 7:3-7",
+      "normalizedRef": "dan7.3-7",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-010_fr",
+    "data": {
+      "id": "dq-pmay-010",
+      "questionText": "Combien d'animaux Daniel a-t-il vus dans sa vision nocturne de Daniel 7 ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Daniel a vu quatre grandes bêtes monter de la mer : un lion, un ours, un léopard et une quatrième bête terrible (Daniel 7:3-7).",
+      "bibleReference": "Daniel 7:3-7"
+    }
+  },
+  {
+    "docId": "dq-pmay-011_ht",
+    "data": {
+      "id": "dq-pmay-011",
+      "questionText": "Kisa vizyon chan zo sèch nan Ezekyèl 37 a te reprezante?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmò Jeremi"
+        },
+        {
+          "id": "b",
+          "text": "Destriksyon Babilòn"
+        },
+        {
+          "id": "c",
+          "text": "Retablisman pèp Izrayèl la"
+        },
+        {
+          "id": "d",
+          "text": "Jijman dènye a"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bondye eksplike Ezekyèl ke zo yo reprezante Izrayèl: \"Zo sa yo se tout kay Izrayèl... mwen pral soti yo nan tonbo yo\" (Ezek 37:11-12).",
+      "bibleReference": "Ezekyèl 37:11-12",
+      "normalizedRef": "eze37.11-12",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-011_fr",
+    "data": {
+      "id": "dq-pmay-011",
+      "questionText": "Que représentait la vision de la vallée des ossements desséchés dans Ézéchiel 37 ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mort de Jérémie"
+        },
+        {
+          "id": "b",
+          "text": "La destruction de Babylone"
+        },
+        {
+          "id": "c",
+          "text": "Le rétablissement du peuple d'Israël"
+        },
+        {
+          "id": "d",
+          "text": "Le jugement dernier"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu explique à Ézéchiel que ces os représentent Israël : « Ces os, c'est toute la maison d'Israël... je vous ferai sortir de vos sépulcres » (Ézéchiel 37:11-12).",
+      "bibleReference": "Ézéchiel 37:11-12"
+    }
+  },
+  {
+    "docId": "dq-pmay-012_ht",
+    "data": {
+      "id": "dq-pmay-012",
+      "questionText": "Ki ti non Jeremi te konnen akòz ekri li yo?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pwofèt gèrye"
+        },
+        {
+          "id": "b",
+          "text": "Pwofèt kriye"
+        },
+        {
+          "id": "c",
+          "text": "Pwofèt dife"
+        },
+        {
+          "id": "d",
+          "text": "Pwofèt lanmou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jeremi rele \"pwofèt kriye\" pou kontinyèl lamentasyon li yo sou kondisyon Izrayèl ak destriksyon Jerizalèm.",
+      "bibleReference": "Jeremi 9:1",
+      "normalizedRef": "jer9.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-012_fr",
+    "data": {
+      "id": "dq-pmay-012",
+      "questionText": "Quel surnom Jérémie était-il connu pour ses écrits ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prophète guerrier"
+        },
+        {
+          "id": "b",
+          "text": "Prophète pleureur"
+        },
+        {
+          "id": "c",
+          "text": "Prophète de feu"
+        },
+        {
+          "id": "d",
+          "text": "Prophète de l'amour"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jérémie est appelé le « prophète pleureur » pour ses lamentations continues sur la condition d'Israël et la destruction de Jérusalem.",
+      "bibleReference": "Jérémie 9:1"
+    }
+  },
+  {
+    "docId": "dq-pmay-013_ht",
+    "data": {
+      "id": "dq-pmay-013",
+      "questionText": "Poukisa Bondye te di Jeremi ke li te rele l pwofèt anvan li te fèt?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paske li te desandan David"
+        },
+        {
+          "id": "b",
+          "text": "Paske li te pi gran frè li"
+        },
+        {
+          "id": "c",
+          "text": "Paske Bondye te konnen l epi sanktifye l anvan li fòme nan vant manman"
+        },
+        {
+          "id": "d",
+          "text": "Paske li te pi saj Izrayèl la"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Anvan mwen te fòme ou nan vant ou manman, mwen te konnen ou; anvan ou te fèt, mwen te sanktifye ou, mwen te bay ou pou pwofèt pou nasyon yo\" (Jeremi 1:5).",
+      "bibleReference": "Jeremi 1:5",
+      "normalizedRef": "jer1.5",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-013_fr",
+    "data": {
+      "id": "dq-pmay-013",
+      "questionText": "Pourquoi Dieu a-t-il dit à Jérémie qu'il l'avait appelé prophète avant sa naissance ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parce qu'il était descendant de David"
+        },
+        {
+          "id": "b",
+          "text": "Parce qu'il était son frère aîné"
+        },
+        {
+          "id": "c",
+          "text": "Parce que Dieu le connaissait et l'avait sanctifié avant qu'il ne soit formé dans le ventre de sa mère"
+        },
+        {
+          "id": "d",
+          "text": "Parce qu'il était le plus sage d'Israël"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Avant que je t'eusse formé dans le ventre de ta mère, je te connaissais, et avant que tu fusses sorti de son sein, je t'avais sanctifié, je t'avais établi prophète des nations » (Jérémie 1:5).",
+      "bibleReference": "Jérémie 1:5"
+    }
+  },
+  {
+    "docId": "dq-pmay-014_ht",
+    "data": {
+      "id": "dq-pmay-014",
+      "questionText": "Ki kat kreyati ki parèt nan vizyon Ezekyèl bò rivyè Kebar la?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lyon, lous, leopar, dragon"
+        },
+        {
+          "id": "b",
+          "text": "Moun, bèf, èg, sèpan"
+        },
+        {
+          "id": "c",
+          "text": "Moun, lyon, bèf, èg"
+        },
+        {
+          "id": "d",
+          "text": "Zanj ak epe dife"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Kat kreyati vivan yo te gen figi moun, lyon, bèf ak èg (Ezekyèl 1:10). Yo sanble ak cheriben nan Revelasyon 4.",
+      "bibleReference": "Ezekyèl 1:10",
+      "normalizedRef": "eze1.10",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-014_fr",
+    "data": {
+      "id": "dq-pmay-014",
+      "questionText": "Quelles sont les quatre créatures qui apparaissent dans la vision d'Ézéchiel près du fleuve Kebar ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lion, ours, léopard, dragon"
+        },
+        {
+          "id": "b",
+          "text": "Homme, bœuf, aigle, serpent"
+        },
+        {
+          "id": "c",
+          "text": "Homme, lion, bœuf, aigle"
+        },
+        {
+          "id": "d",
+          "text": "Anges avec épées de feu"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les quatre créatures vivantes avaient des faces d'homme, de lion, de bœuf et d'aigle (Ézéchiel 1:10). Elles ressemblent aux chérubins d'Apocalypse 4.",
+      "bibleReference": "Ézéchiel 1:10"
+    }
+  },
+  {
+    "docId": "dq-pmay-015_ht",
+    "data": {
+      "id": "dq-pmay-015",
+      "questionText": "Kilès ki te konkeri Babilòn pandan fèt wa Bèlsaza ki dekri nan Danyèl 5?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Siri Gran an"
+        },
+        {
+          "id": "b",
+          "text": "Dari Mèd la"
+        },
+        {
+          "id": "c",
+          "text": "Zegzis"
+        },
+        {
+          "id": "d",
+          "text": "Artazèksès"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Danyèl 5:31 di: \"Dari Mèd la te pran wayòm nan.\" Istwa konplemantè a montre li te anba lidèchip Siri, Dari kòm gouvènè.",
+      "bibleReference": "Danyèl 5:31",
+      "normalizedRef": "dan5.31",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-015_fr",
+    "data": {
+      "id": "dq-pmay-015",
+      "questionText": "Qui a conquis Babylone pendant le festin du roi Belshatsar décrit dans Daniel 5 ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cyrus le Grand"
+        },
+        {
+          "id": "b",
+          "text": "Darius le Mède"
+        },
+        {
+          "id": "c",
+          "text": "Xerxès"
+        },
+        {
+          "id": "d",
+          "text": "Artaxerxès"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Daniel 5:31 dit : « Et Darius, le Mède, s'empara du royaume. » L'histoire montre qu'il était sous la direction de Cyrus, Darius étant gouverneur.",
+      "bibleReference": "Daniel 5:31"
+    }
+  },
+  {
+    "docId": "dq-pmay-016_ht",
+    "data": {
+      "id": "dq-pmay-016",
+      "questionText": "Ki de gwo pwofèt ki te kontenporàn pandan ekzil babilonyèn nan?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi ak Jeremi"
+        },
+        {
+          "id": "b",
+          "text": "Jeremi ak Danyèl"
+        },
+        {
+          "id": "c",
+          "text": "Ezekyèl ak Danyèl"
+        },
+        {
+          "id": "d",
+          "text": "Ezayi ak Danyèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ezekyèl ak Danyèl tou de te pwofetize pandan peryòd ekzil babilonyèn nan (6yèm syèk anvan Kris), pandan Ezayi ak Jeremi te anvan yo.",
+      "bibleReference": "Ezekyèl 1:1; Danyèl 1:1",
+      "normalizedRef": "eze1.1;dan1.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-016_fr",
+    "data": {
+      "id": "dq-pmay-016",
+      "questionText": "Quels deux grands prophètes étaient contemporains pendant l'exil babylonien ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ésaïe et Jérémie"
+        },
+        {
+          "id": "b",
+          "text": "Jérémie et Daniel"
+        },
+        {
+          "id": "c",
+          "text": "Ézéchiel et Daniel"
+        },
+        {
+          "id": "d",
+          "text": "Ésaïe et Daniel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ézéchiel et Daniel ont tous deux prophétisé pendant la période de l'exil babylonien (6ème siècle av. J.-C.), alors qu'Ésaïe et Jérémie les ont précédés.",
+      "bibleReference": "Ézéchiel 1:1 ; Daniel 1:1"
+    }
+  },
+  {
+    "docId": "dq-pmay-017_ht",
+    "data": {
+      "id": "dq-pmay-017",
+      "questionText": "Ki pwofèt ki te ekri: \"Pou sa, Seyè a menm ap ban nou yon siy: gade, yon jèn fanm pral ansent epi li pral akouche yon pitit gason\"?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "b",
+          "text": "Jeremi"
+        },
+        {
+          "id": "c",
+          "text": "Ezayi"
+        },
+        {
+          "id": "d",
+          "text": "Amos"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ezayi 7:14 pwofetize Pitit vièj la — Mèt anseye nou ke se te fèt nan Jezi Kris (Matye 1:23).",
+      "bibleReference": "Ezayi 7:14",
+      "normalizedRef": "isa7.14",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-017_fr",
+    "data": {
+      "id": "dq-pmay-017",
+      "questionText": "Quel prophète a écrit : « C'est pourquoi le Seigneur lui-même vous donnera un signe ; Voici, la jeune femme deviendra enceinte, elle enfantera un fils » ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ézéchiel"
+        },
+        {
+          "id": "b",
+          "text": "Jérémie"
+        },
+        {
+          "id": "c",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "d",
+          "text": "Amos"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ésaïe 7:14 prophétise la naissance virginale du Fils — nous apprenons que cela s'est accompli en Jésus-Christ (Matthieu 1:23).",
+      "bibleReference": "Ésaïe 7:14",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pmay-018_ht",
+    "data": {
+      "id": "dq-pmay-018",
+      "questionText": "Ki vizyon Ezekyèl te wè ki pa ka bliye sou Bondye ansanm ak chèriben yo?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon bèl kay nan syèl la"
+        },
+        {
+          "id": "b",
+          "text": "Wou ki nan wou — twon Bondye ki flanke pa bèt akèl fòm"
+        },
+        {
+          "id": "c",
+          "text": "Yon fòt-flanbo ki bwile men pa konsime"
+        },
+        {
+          "id": "d",
+          "text": "Yon rivyè lèt ak siwo myèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ezekyèl 1 dekri yon vwa (merkabah) — twon Bondye ak chèriben, wou nan wou, ak glwa Seyè a anwo yo. Se yon rèvelasyon transan de majeste Bondye.",
+      "bibleReference": "Ezekyèl 1:1-28",
+      "normalizedRef": "eze1.1-28",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-018_fr",
+    "data": {
+      "id": "dq-pmay-018",
+      "questionText": "Quelle vision inoubliable Ézéchiel a-t-il vue sur Dieu avec les chérubins ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une belle maison dans le ciel"
+        },
+        {
+          "id": "b",
+          "text": "Des roues dans les roues — le trône de Dieu flanqué de créatures aux formes variées"
+        },
+        {
+          "id": "c",
+          "text": "Un buisson ardent qui brûle mais ne se consume pas"
+        },
+        {
+          "id": "d",
+          "text": "Une rivière de lait et de miel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ézéchiel 1 décrit un char (merkabah) — le trône de Dieu et les chérubins, des roues dans les roues, et la gloire du Seigneur au-dessus d'eux. C'est une révélation transcendante de la majesté de Dieu.",
+      "bibleReference": "Ézéchiel 1:1-28",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pmay-019_ht",
+    "data": {
+      "id": "dq-pmay-019",
+      "questionText": "Nan ki liv pwofèt la nou jwenn pasaj 53 ki dekri \"Sèvitè soufran\" an?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "b",
+          "text": "Jeremi"
+        },
+        {
+          "id": "c",
+          "text": "Daniel"
+        },
+        {
+          "id": "d",
+          "text": "Ezayi"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Ezayi 53 pwofetize soufrans Sèvitè a ki te pote peche nou yo — NT idantifye sa ak Jezi (Women 10:16; Travay 8:32-35).",
+      "bibleReference": "Ezayi 53:1-12",
+      "normalizedRef": "isa53.1-12",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-019_fr",
+    "data": {
+      "id": "dq-pmay-019",
+      "questionText": "Dans quel livre prophétique trouvons-nous le chapitre 53 décrivant le « Serviteur souffrant » ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ézéchiel"
+        },
+        {
+          "id": "b",
+          "text": "Jérémie"
+        },
+        {
+          "id": "c",
+          "text": "Daniel"
+        },
+        {
+          "id": "d",
+          "text": "Ésaïe"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Ésaïe 53 prophétise les souffrances du Serviteur qui a porté nos péchés — le Nouveau Testament identifie cela à Jésus (Romains 10:16 ; Actes 8:32-35).",
+      "bibleReference": "Ésaïe 53:1-12",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pmay-020_ht",
+    "data": {
+      "id": "dq-pmay-020",
+      "questionText": "Ki pwofèt ki te anseye sou \"Pati Sèk\" ki te resisite ak lame yon pwofesi sou Israel?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi"
+        },
+        {
+          "id": "b",
+          "text": "Daniel"
+        },
+        {
+          "id": "c",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "d",
+          "text": "Jeremi"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ezekyèl 37 — vizyon pati sèk yo ki resisite: pwofesi sou restorasyion Israel. Entèpretasyon espirityèl: pèp Bondye ka \"resisite\" pa pouvwa Lespri Sen an.",
+      "bibleReference": "Ezekyèl 37:1-14",
+      "normalizedRef": "eze37.1-14",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-020_fr",
+    "data": {
+      "id": "dq-pmay-020",
+      "questionText": "Quel prophète a enseigné sur les « Ossements Desséchés » qui sont revenus à la vie como une armée dans une prophétie sur Israël ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "b",
+          "text": "Daniel"
+        },
+        {
+          "id": "c",
+          "text": "Ézéchiel"
+        },
+        {
+          "id": "d",
+          "text": "Jérémie"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ézéchiel 37 — vision des ossements desséchés qui revivent : prophétie sur la restauration d'Israël. Interprétation spirituelle : le peuple de Dieu peut « ressusciter » par la puissance du Saint-Esprit.",
+      "bibleReference": "Ézéchiel 37:1-14",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pmay-021_ht",
+    "data": {
+      "id": "dq-pmay-021",
+      "questionText": "Ki sa pwofesi \"Emanouyèl\" nan Ezayi 7:14 vle di?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye delivre"
+        },
+        {
+          "id": "b",
+          "text": "Bondye avèk nou"
+        },
+        {
+          "id": "c",
+          "text": "Bondye rekonpanse"
+        },
+        {
+          "id": "d",
+          "text": "Bondye wa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Emanouyèl\" (עִמָּנוּאֵל) = \"Bondye avèk nou\" — non ki te bay Jezi nan Matye 1:23, akompliseman pwofesi Ezayi a.",
+      "bibleReference": "Matye 1:23",
+      "normalizedRef": "mat1.23",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-021_fr",
+    "data": {
+      "id": "dq-pmay-021",
+      "questionText": "Que signifie la prophétie « Emmanuel » dans Ésaïe 7:14 ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu délivre"
+        },
+        {
+          "id": "b",
+          "text": "Dieu avec nous"
+        },
+        {
+          "id": "c",
+          "text": "Dieu récompense"
+        },
+        {
+          "id": "d",
+          "text": "Dieu roi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Emmanuel » (עִמָּנוּאֵל) = « Dieu avec nous » — nom qui fut donné à Jésus dans Matthieu 1:23, accomplissement de la prophétie d'Ésaïe.",
+      "bibleReference": "Matthieu 1:23",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pmay-022_ht",
+    "data": {
+      "id": "dq-pmay-022",
+      "questionText": "Ki pwofèt ki te kri: \"Ki jan ou tonbe sot nan syèl, O etwal maten, pitit granmaten!\"?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "b",
+          "text": "Jeremi"
+        },
+        {
+          "id": "c",
+          "text": "Ezayi"
+        },
+        {
+          "id": "d",
+          "text": "Daniel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ezayi 14:12 — paran an sou chit Babilon. Anpil teyolojyen wè nan vèsè sa a yon referans sou chit Lucifer (Satan), ki Jezi konfime (Lk 10:18).",
+      "bibleReference": "Ezayi 14:12-15",
+      "normalizedRef": "isa14.12-15",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-022_fr",
+    "data": {
+      "id": "dq-pmay-022",
+      "questionText": "Quel prophète a écrit : « Te voilà tombé du ciel, Astre brillant, fils de l'aurore ! » ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ézéchiel"
+        },
+        {
+          "id": "b",
+          "text": "Jérémie"
+        },
+        {
+          "id": "c",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "d",
+          "text": "Daniel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ésaïe 14:12 — à l'origine sur la chute de Babylone. De nombreux théologiens voient dans ce verset une référence à la chute de Lucifer (Satan), ce que Jésus confirme (Lc 10:18).",
+      "bibleReference": "Ésaïe 14:12-15",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pmay-023_ht",
+    "data": {
+      "id": "dq-pmay-023",
+      "questionText": "Ki pwofèt ki te anseye ke Bondye deklare lafen depi koumansman?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeremi"
+        },
+        {
+          "id": "b",
+          "text": "Ezayi"
+        },
+        {
+          "id": "c",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "d",
+          "text": "Jonas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Mwen deklare lafen depi koumansman, ak sa ki poko rive depi lontan\" (Ezayi 46:10) — omnisiyans ak souverènte Bondye sou istwa a.",
+      "bibleReference": "Ezayi 46:10",
+      "normalizedRef": "isa46.10",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-023_fr",
+    "data": {
+      "id": "dq-pmay-023",
+      "questionText": "Quel prophète a enseigné que Dieu annonce la fin dès le commencement ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jérémie"
+        },
+        {
+          "id": "b",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "c",
+          "text": "Ézéchiel"
+        },
+        {
+          "id": "d",
+          "text": "Jonas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« J'annonce dès le commencement ce qui doit arriver, et longtemps d'avance ce qui n'est pas encore accompli » (Ésaïe 46:10) — l'omniscience et la souveraineté de Dieu sur l'histoire.",
+      "bibleReference": "Ésaïe 46:10",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pmay-024_ht",
+    "data": {
+      "id": "dq-pmay-024",
+      "questionText": "Nan ki twou yo te jete Danyèl paske li t ap priye Bondye?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon prizon"
+        },
+        {
+          "id": "b",
+          "text": "Yon twou lyon"
+        },
+        {
+          "id": "c",
+          "text": "Yon founèz dife"
+        },
+        {
+          "id": "d",
+          "text": "Yon pi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yo te jete Danyèl nan twou lyon an paske li te refize sispann priye Bondye (Danyèl 6).",
+      "bibleReference": "Danyèl 6:16",
+      "normalizedRef": "dan6.16",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-024_fr",
+    "data": {
+      "id": "dq-pmay-024",
+      "questionText": "Dans quelle fosse Daniel fut-il jeté pour avoir prié Dieu ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une prison"
+        },
+        {
+          "id": "b",
+          "text": "Une fosse aux lions"
+        },
+        {
+          "id": "c",
+          "text": "Une fournaise ardente"
+        },
+        {
+          "id": "d",
+          "text": "Un puits"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Daniel fut jeté dans la fosse aux lions pour avoir refusé d'arrêter de prier Dieu (Daniel 6).",
+      "bibleReference": "Daniel 6:16",
+      "normalizedRef": "dan6.16",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-025_ht",
+    "data": {
+      "id": "dq-pmay-025",
+      "questionText": "Ki liv Jeremi te ekri tou anplis liv ki pote non l lan?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm yo"
+        },
+        {
+          "id": "b",
+          "text": "Lamantasyon yo"
+        },
+        {
+          "id": "c",
+          "text": "Eklezyas"
+        },
+        {
+          "id": "d",
+          "text": "Pwovèb yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tradisyon an fè konnen se Jeremi ki ekri liv Lamantasyon yo sou destriksyon Jerizalèm.",
+      "bibleReference": "Lamantasyon 1:1",
+      "normalizedRef": "lam1.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-025_fr",
+    "data": {
+      "id": "dq-pmay-025",
+      "questionText": "Quel livre Jérémie a-t-il également écrit en dehors du livre qui porte son nom ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les Psaumes"
+        },
+        {
+          "id": "b",
+          "text": "Les Lamentations"
+        },
+        {
+          "id": "c",
+          "text": "L'Ecclésiaste"
+        },
+        {
+          "id": "d",
+          "text": "Les Proverbes"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La tradition attribue à Jérémie le livre des Lamentations sur la destruction de Jérusalem.",
+      "bibleReference": "Lamentations 1:1",
+      "normalizedRef": "lam1.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-026_ht",
+    "data": {
+      "id": "dq-pmay-026",
+      "questionText": "Konbyen zanmi Chadrak, Mechak ak Abèdnego yo te jete nan founèz dife a?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Chadrak, Mechak ak Abèdnego — twa konpayon Danyèl — yo te jete yo nan founèz la (Danyèl 3:19-20).",
+      "bibleReference": "Danyèl 3:19-23",
+      "normalizedRef": "dan3.19-23",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-026_fr",
+    "data": {
+      "id": "dq-pmay-026",
+      "questionText": "Combien d'amis de Shadrach, Méschac et Abed-Nego furent jetés dans la fournaise ardente ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Shadrach, Méschac et Abed-Nego — trois compagnons de Daniel — furent jetés dans la fournaise (Daniel 3:19-20).",
+      "bibleReference": "Daniel 3:19-23",
+      "normalizedRef": "dan3.19-23",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-027_ht",
+    "data": {
+      "id": "dq-pmay-027",
+      "questionText": "Ki jan sekretè Jeremi ki te ekri sa li t ap dikte yo te rele?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esdras"
+        },
+        {
+          "id": "b",
+          "text": "Barouk"
+        },
+        {
+          "id": "c",
+          "text": "Ananyèl"
+        },
+        {
+          "id": "d",
+          "text": "Pachou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Barouk, pitit gason Nerija, te sekretè fidèl Jeremi (Jeremi 36:4).",
+      "bibleReference": "Jeremi 36:4",
+      "normalizedRef": "jer36.4",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-027_fr",
+    "data": {
+      "id": "dq-pmay-027",
+      "questionText": "Quel était le nom du scribe de Jérémie qui écrivit ses dictées ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esdras"
+        },
+        {
+          "id": "b",
+          "text": "Baruch"
+        },
+        {
+          "id": "c",
+          "text": "Hananéel"
+        },
+        {
+          "id": "d",
+          "text": "Pashur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Baruch, fils de Nériya, était le secrétaire fidèle de Jérémie (Jérémie 36:4).",
+      "bibleReference": "Jérémie 36:4",
+      "normalizedRef": "jer36.4",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-028_ht",
+    "data": {
+      "id": "dq-pmay-028",
+      "questionText": "Nan kisa vizyon popilè « cha Bondye a » nan chapit 1 Ezekyèl la te konsiste?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon cha an lò zanj yo t ap rale"
+        },
+        {
+          "id": "b",
+          "text": "Wou nan mitan wou ak bèt vivan"
+        },
+        {
+          "id": "c",
+          "text": "Yon fotèy dife nan syèl la"
+        },
+        {
+          "id": "d",
+          "text": "Yon gwo agle ki t ap pote lach la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ezekyèl te wè bèt vivan ak wou nan mitan wou (ofanim) — merkabah la (Ezekyèl 1).",
+      "bibleReference": "Ezekyèl 1:4-21",
+      "normalizedRef": "eze1.4-21",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-028_fr",
+    "data": {
+      "id": "dq-pmay-028",
+      "questionText": "En quoi consistait la célèbre vision du « char de Dieu » au chapitre 1 d'Ézéchiel ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un char d'or tiré par des anges"
+        },
+        {
+          "id": "b",
+          "text": "Des roues dans des roues avec des créatures vivantes"
+        },
+        {
+          "id": "c",
+          "text": "Un trône de feu dans le ciel"
+        },
+        {
+          "id": "d",
+          "text": "Un aigle géant portant l'arche"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ézéchiel vit des créatures vivantes et des roues dans des roues (ophanim) — la merkabah (Ézéchiel 1).",
+      "bibleReference": "Ézéchiel 1:4-21",
+      "normalizedRef": "eze1.4-21",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-029_ht",
+    "data": {
+      "id": "dq-pmay-029",
+      "questionText": "Nan estati Danyèl 2 a, ak kisa pye gwo estati a te fèt?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ajan ak bwonz"
+        },
+        {
+          "id": "b",
+          "text": "Lò ak ajan"
+        },
+        {
+          "id": "c",
+          "text": "Fè ak tè krich"
+        },
+        {
+          "id": "d",
+          "text": "Kwiv ak fè blan"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pye estati a te fèt ak fè melanje ak tè krich, sa te reprezante yon wayòm divize (Danyèl 2:33,41).",
+      "bibleReference": "Danyèl 2:33",
+      "normalizedRef": "dan2.33",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-029_fr",
+    "data": {
+      "id": "dq-pmay-029",
+      "questionText": "Dans la statue de Daniel 2, de quoi étaient faits les pieds du colosse ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "D'argent et de bronze"
+        },
+        {
+          "id": "b",
+          "text": "D'or et d'argent"
+        },
+        {
+          "id": "c",
+          "text": "De fer et d'argile"
+        },
+        {
+          "id": "d",
+          "text": "De cuivre et d'étain"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les pieds du colosse étaient de fer mêlé d'argile, représentant un royaume divisé (Daniel 2:33,41).",
+      "bibleReference": "Daniel 2:33",
+      "normalizedRef": "dan2.33",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-030_ht",
+    "data": {
+      "id": "dq-pmay-030",
+      "questionText": "Pwofesi « 70 senmenn » yo nan ki chapit nan liv Danyèl la?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Danyèl 2"
+        },
+        {
+          "id": "b",
+          "text": "Danyèl 7"
+        },
+        {
+          "id": "c",
+          "text": "Danyèl 9"
+        },
+        {
+          "id": "d",
+          "text": "Danyèl 12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Danyèl 9:24-27 genyen pwofesi 70 senmenn yo, ki se pwen santral nan kwonoloji mesyanik la.",
+      "bibleReference": "Danyèl 9:24-27",
+      "normalizedRef": "dan9.24-27",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-030_fr",
+    "data": {
+      "id": "dq-pmay-030",
+      "questionText": "La prophétie des « 70 semaines » se trouve dans quel chapitre de Daniel ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Daniel 2"
+        },
+        {
+          "id": "b",
+          "text": "Daniel 7"
+        },
+        {
+          "id": "c",
+          "text": "Daniel 9"
+        },
+        {
+          "id": "d",
+          "text": "Daniel 12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Daniel 9:24-27 contient la prophétie des 70 semaines, point central de la chronologie messianique.",
+      "bibleReference": "Daniel 9:24-27",
+      "normalizedRef": "dan9.24-27",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-031_ht",
+    "data": {
+      "id": "dq-pmay-031",
+      "questionText": "Ki tèm ebre ki deziyen seksyon Ezayi 40-55 ke kritik yo rele souvan « Dezyèm Ezayi »?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liv Konsolatè a"
+        },
+        {
+          "id": "b",
+          "text": "Liv Sèvitè a"
+        },
+        {
+          "id": "c",
+          "text": "Liv Orak yo"
+        },
+        {
+          "id": "d",
+          "text": "Liv Glwa a"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ezayi 40 kòmanse ak « Konsole, konsole pèp mwen an » — se poutèt sa yo rele chapit 40-55 yo « Liv Konsolatè a ».",
+      "bibleReference": "Ezayi 40:1",
+      "normalizedRef": "isa40.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-031_fr",
+    "data": {
+      "id": "dq-pmay-031",
+      "questionText": "Quel terme hébreu désigne la section d'Ésaïe 40-55 souvent appelée « le Deutéro-Ésaïe » par les critiques ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Livre du Consolateur"
+        },
+        {
+          "id": "b",
+          "text": "Livre du Serviteur"
+        },
+        {
+          "id": "c",
+          "text": "Livre des Oracles"
+        },
+        {
+          "id": "d",
+          "text": "Livre de la Gloire"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ésaïe 40 s'ouvre par « Consolez, consolez mon peuple » — d'où le surnom « Livre du Consolateur » pour ch.40-55.",
+      "bibleReference": "Ésaïe 40:1",
+      "normalizedRef": "isa40.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-032_ht",
+    "data": {
+      "id": "dq-pmay-032",
+      "questionText": "Ezekyèl 28 pwononse yon mesaj kont wa Tir la ke yo entèprete souvan kòm chit ki pèsonaj?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adan"
+        },
+        {
+          "id": "b",
+          "text": "Nimwòd"
+        },
+        {
+          "id": "c",
+          "text": "Satan"
+        },
+        {
+          "id": "d",
+          "text": "Antikris la"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ezekyèl 28:12-17 depase wa imen an e li dekri yon bèt selès ki te tonbe, anpil moun idantifye ak Satan.",
+      "bibleReference": "Ezekyèl 28:12-17",
+      "normalizedRef": "eze28.12-17",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-032_fr",
+    "data": {
+      "id": "dq-pmay-032",
+      "questionText": "Ézéchiel 28 prononce un oracle contre le roi de Tyr souvent interprété comme la chute de quel être ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adam"
+        },
+        {
+          "id": "b",
+          "text": "Nemrod"
+        },
+        {
+          "id": "c",
+          "text": "Satan"
+        },
+        {
+          "id": "d",
+          "text": "L'Antéchrist"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ézéchiel 28:12-17 dépasse le roi humain et décrit un être céleste déchu, que beaucoup identifient à Satan.",
+      "bibleReference": "Ézéchiel 28:12-17",
+      "normalizedRef": "eze28.12-17",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-033_ht",
+    "data": {
+      "id": "dq-pmay-033",
+      "questionText": "Yo rele Jeremi « pwofèt k ap kriye a » — ki ekspresyon ki pi byen montre imaj sa a?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te konn kriye nan chak mirak"
+        },
+        {
+          "id": "b",
+          "text": "Li te konn kriye pou pèp li a ki te rebèl ak pou Jerizalèm ki te detwi"
+        },
+        {
+          "id": "c",
+          "text": "Li te konn kriye nan vizyon l yo lannwit"
+        },
+        {
+          "id": "d",
+          "text": "Li te konn kriye akòz pwòp peche pa l"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jeremi te sipliye pèp li a, li te soufri pèsekisyon e li te kriye pou malè ki te rive Jerizalèm nan liv Lamantasyon yo (Lam 1:16).",
+      "bibleReference": "Lamantasyon 1:16",
+      "normalizedRef": "lam1.16",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-033_fr",
+    "data": {
+      "id": "dq-pmay-033",
+      "questionText": "Jérémie est surnommé le « prophète en larmes » — quelle expression illustre le mieux cette image ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il pleurait lors de chaque miracle"
+        },
+        {
+          "id": "b",
+          "text": "Il pleurait pour son peuple rebelle et Jérusalem détruite"
+        },
+        {
+          "id": "c",
+          "text": "Il pleurait dans ses visions nocturnes"
+        },
+        {
+          "id": "d",
+          "text": "Il pleurait à cause de ses propres péchés"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jérémie supplia son peuple, souffrit la persécution et pleura la ruine de Jérusalem dans les Lamentations (Lam 1:16).",
+      "bibleReference": "Lamentations 1:16",
+      "normalizedRef": "lam1.16",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-034_ht",
+    "data": {
+      "id": "dq-pmay-034",
+      "questionText": "Ki objè selès Ezekyèl dekri k ap vire bò kote twòn Bondye a nan vizyon l yo?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zetwal k ap filan"
+        },
+        {
+          "id": "b",
+          "text": "Wou ki kouvri ak je"
+        },
+        {
+          "id": "c",
+          "text": "Nwaj dife"
+        },
+        {
+          "id": "d",
+          "text": "Sfer kristal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Ofanim » yo — wou ki kouvri ak je toupatou — antoure cha glwa Bondye a (Ezekyèl 1:18; 10:12).",
+      "bibleReference": "Ezekyèl 1:18",
+      "normalizedRef": "eze1.18",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-034_fr",
+    "data": {
+      "id": "dq-pmay-034",
+      "questionText": "Quel objet céleste Ézéchiel décrit-il tournant autour du trône de Dieu dans ses visions ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des étoiles filantes"
+        },
+        {
+          "id": "b",
+          "text": "Des roues couvertes d'yeux"
+        },
+        {
+          "id": "c",
+          "text": "Des nuages de feu"
+        },
+        {
+          "id": "d",
+          "text": "Des sphères de cristal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les « ophanim » — roues couvertes d'yeux tout autour — entourent le char de la gloire divine (Ézéchiel 1:18; 10:12).",
+      "bibleReference": "Ézéchiel 1:18",
+      "normalizedRef": "eze1.18",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-035_ht",
+    "data": {
+      "id": "dq-pmay-035",
+      "questionText": "Ki distenksyon ki genyen ant « pwofesi dirèk » ak « tip pwofetik » nan Ansyen Testaman an?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pwofesi dirèk la se vre; tip la se envansyon moun"
+        },
+        {
+          "id": "b",
+          "text": "Pwofesi dirèk anonse evènman klè; tip la se yon pèsonaj oswa evènman ki montre yon reyalite ki pral fèt nan Kris la"
+        },
+        {
+          "id": "c",
+          "text": "Pa gen tip nan Ansyen Testaman an — sèlman pwofesi nan pawòl"
+        },
+        {
+          "id": "d",
+          "text": "Tip la toujou akonpli nan Ansyen Testaman an menm"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pwofesi dirèk : Ezayi 53 anonse Sèvitè k'ap soufri a. Tip : Adan se yon tip Kris la (Women 5:14), tabènak la montre travay Kris la (Hébreux 8-10).",
+      "bibleReference": "Romains 5:14",
+      "normalizedRef": "rom5.14",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmay-035_fr",
+    "data": {
+      "id": "dq-pmay-035",
+      "questionText": "Quelle est la distinction entre « prophétie directe » et « type prophétique » dans l'AT ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Prophètes Majeurs",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La prophétie directe est vraie ; le type est une invention humaine"
+        },
+        {
+          "id": "b",
+          "text": "La prophétie directe prédit explicitement des événements futurs ; le type est une personne, institution ou événement qui préfigure divinement une réalité future accomplie en Christ"
+        },
+        {
+          "id": "c",
+          "text": "Il n'y a pas de types dans l'AT — uniquement des prophéties verbales"
+        },
+        {
+          "id": "d",
+          "text": "Le type s'accomplit toujours dans l'AT lui-même"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Prophétie directe : Ésaïe 53 prédit explicitement le Serviteur souffrant. Type : Adam est un type du Christ (Romains 5:14), le tabernacle préfigure le ministère de Christ (Hébreux 8-10). Les deux sont de l'herméneutique typologique biblique.",
+      "bibleReference": "Romains 5:14",
+      "normalizedRef": "rom5.14",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "docId": "dq-pmen-001_ht",
+    "data": {
+      "id": "dq-pmen-001",
+      "questionText": "Ki vèsè pi fèb Abakik la, site nan Women, Galat ak Ebre?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Jis la va viv pa lafwa li\""
+        },
+        {
+          "id": "b",
+          "text": "\"Kouri jistis kòm dlo\""
+        },
+        {
+          "id": "c",
+          "text": "\"Jiskakilè Seyè?\""
+        },
+        {
+          "id": "d",
+          "text": "\"Byenke pye fig la pa pouse...\""
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"Jis la va viv pa lafwa li\" (Abakik 2:4) site nan Women 1:17, Galat 3:11 ak Ebre 10:38 kòm fondman sali pa lafwa.",
+      "bibleReference": "Abakik 2:4",
+      "normalizedRef": "hab2.4",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-001_fr",
+    "data": {
+      "id": "dq-pmen-001",
+      "questionText": "Habacuc 2:4 déclare que « le juste vivra par sa » quoi ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grâce"
+        },
+        {
+          "id": "b",
+          "text": "Foi"
+        },
+        {
+          "id": "c",
+          "text": "Prière"
+        },
+        {
+          "id": "d",
+          "text": "Obéissance"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Le juste vivra par sa foi » (Habacuc 2:4) — verset cité par Paul dans Romains 1:17 et Galates 3:11.",
+      "bibleReference": "Habacuc 2:4",
+      "normalizedRef": "hab2.4",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-002_ht",
+    "data": {
+      "id": "dq-pmen-002",
+      "questionText": "Ki fraz nan Liv Amos ki dekri jistis sosyal Bondye egzije?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Chèche bien, pa mal\""
+        },
+        {
+          "id": "b",
+          "text": "\"Jis la va viv pa lafwa li\""
+        },
+        {
+          "id": "c",
+          "text": "\"Kouri jijman kòm dlo, ak jistis kòm yon rivyè ki pa seche\""
+        },
+        {
+          "id": "d",
+          "text": "\"Malè pou moun ki an repozchay nan Syon!\""
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Amos 5:24: \"Men kouri jijman kòm dlo, ak jistis kòm yon rivyè ki pa janm seche.\" Se youn nan pwoklamasyon ki pi pwisan nan Bib la sou jistis.",
+      "bibleReference": "Amos 5:24",
+      "normalizedRef": "amo5.24",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-002_fr",
+    "data": {
+      "id": "dq-pmen-002",
+      "questionText": "Amos 5:24 contient une célèbre exhortation à la justice sociale — que demande-t-elle ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Que les riches donnent aux pauvres"
+        },
+        {
+          "id": "b",
+          "text": "Que la justice coule comme un fleuve puissant"
+        },
+        {
+          "id": "c",
+          "text": "Que les prêtres jugent équitablement"
+        },
+        {
+          "id": "d",
+          "text": "Que le roi respecte la Loi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Que la justice coule comme un fleuve, et la droiture comme un torrent qui ne tarit pas » (Amos 5:24).",
+      "bibleReference": "Amos 5:24",
+      "normalizedRef": "amo5.24",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-003_ht",
+    "data": {
+      "id": "dq-pmen-003",
+      "questionText": "Ki pwofèt ki te pase twa jou ak twa nwit nan vant yon gwo pwason?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Jonas"
+        },
+        {
+          "id": "c",
+          "text": "Michée"
+        },
+        {
+          "id": "d",
+          "text": "Nawoum"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jonas te kouri devan Bondye, yon gwo pwason avale li, li pase 3 jou ak 3 nwit ladan l — yon siy pwofetik nan Jezi (Jonas 1:17; Matye 12:40).",
+      "bibleReference": "Jonas 1:17",
+      "normalizedRef": "jon1.17",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-003_fr",
+    "data": {
+      "id": "dq-pmen-003",
+      "questionText": "Par quoi Jonas fut-il avalé ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un requin"
+        },
+        {
+          "id": "b",
+          "text": "Un grand poisson"
+        },
+        {
+          "id": "c",
+          "text": "Une baleine bleue"
+        },
+        {
+          "id": "d",
+          "text": "Un crocodile"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Éternel prépara un grand poisson pour avaler Jonas (Jonas 1:17).",
+      "bibleReference": "Jonas 1:17",
+      "normalizedRef": "jon1.17",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-004_ht",
+    "data": {
+      "id": "dq-pmen-004",
+      "questionText": "Ki pwofèt Bondye te voye nan Niniv pou prèche repantans?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Michée"
+        },
+        {
+          "id": "b",
+          "text": "Jonas"
+        },
+        {
+          "id": "c",
+          "text": "Amos"
+        },
+        {
+          "id": "d",
+          "text": "Malachi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te voye Jonas Niniv — gwo vil Lasiri. Lè Jonas te preche, tout vil la repanti (Jonas 3:5-10).",
+      "bibleReference": "Jonas 3:5-10",
+      "normalizedRef": "jon3.5-10",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-004_fr",
+    "data": {
+      "id": "dq-pmen-004",
+      "questionText": "Quelle fut la mission unique du prophète Jonas et pourquoi est-elle significative ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prêcher à Jérusalem pendant le siège assyrien"
+        },
+        {
+          "id": "b",
+          "text": "Être envoyé à la ville étrangère de Ninive — mission aux nations"
+        },
+        {
+          "id": "c",
+          "text": "Prophétiser la destruction de Samarie"
+        },
+        {
+          "id": "d",
+          "text": "Appeler Israël à quitter l'idolâtrie baaliste"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jonas fut envoyé à Ninive, capitale assyrienne — mission unique aux gentils. Après sa fuite et son séjour dans le grand poisson, il obéit et Ninive se repentit (Jonas 3:5).",
+      "bibleReference": "Jonas 3:5-10",
+      "normalizedRef": "jon3.5-10",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pmen-005_ht",
+    "data": {
+      "id": "dq-pmen-005",
+      "questionText": "Bondye te mande pwofèt sa a pou l marye ak yon fanm ki te yon jennès kòm senbòl enfidèl pèp Izrayèl la.",
+      "categoryId": "profetas-menores",
+      "categoryName": "Pwofèt yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oze"
+        },
+        {
+          "id": "b",
+          "text": "Joèl"
+        },
+        {
+          "id": "c",
+          "text": "Amòs"
+        },
+        {
+          "id": "d",
+          "text": "Obadya"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Oze 1:2 — \"Seyè a di Oze konsa: Ale, marye ak yon fanm ki gen move lavi... Paske peyi a lage kò l nan fè jennès...\"",
+      "bibleReference": "Oze 1:2",
+      "normalizedRef": "hos1.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-005_fr",
+    "data": {
+      "id": "dq-pmen-005",
+      "questionText": "Quel prophète parla en parabole de son mariage avec une femme infidèle pour illustrer l'amour de Dieu pour Israël ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Osée"
+        },
+        {
+          "id": "c",
+          "text": "Michée"
+        },
+        {
+          "id": "d",
+          "text": "Nahoum"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Osée épousa Gomer, femme infidèle, comme symbole de l'alliance brisée entre Dieu et Israël (Osée 1:2-3).",
+      "bibleReference": "Osée 1:2",
+      "normalizedRef": "hos1.2",
+      "normalizedCat": "profetas-menores"
+    }
+  }
+]

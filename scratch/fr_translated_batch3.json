@@ -1,0 +1,1105 @@
+[
+  {
+    "newId": "dq-cgen-015",
+    "fr": {
+      "id": "dq-cgen-015",
+      "questionText": "Quelle différence l'épître de Jude établit-elle entre l'erreur de Caïn, de Balaam et de Koré ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Idolatrie, assassinat, rébellion" },
+        { "id": "b", "text": "Jalousie (Caïn), avarice (Balaam), rébellion contre l'autorité (Koré)" },
+        { "id": "c", "text": "Mensonge, adultère, vol" },
+        { "id": "d", "text": "Impiété, rébellion, apostasie" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Malheur à eux ! car ils ont suivi la voie de Caïn [jalousie], ils se sont jetés pour un salaire dans l'égarement de Balaam [avarice], ils ont péri par la révolte de Koré [rébellion] (Jude 11).",
+      "bibleReference": "Jude 11",
+      "normalizedRef": "jud11",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "newId": "dq-apoc-007",
+    "fr": {
+      "id": "dq-apoc-007",
+      "questionText": "Combien d'églises ont reçu des lettres dans l'Apocalypse ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "3" },
+        { "id": "b", "text": "5" },
+        { "id": "c", "text": "7" },
+        { "id": "d", "text": "12" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les sept églises sont : Éphèse, Smyrne, Pergame, Thyatire, Sardes, Philadelphie et Laodicée (Apocalypse 2-3).",
+      "bibleReference": "Apocalypse 2-3",
+      "normalizedRef": "rev2-3",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-008",
+    "fr": {
+      "id": "dq-apoc-008",
+      "questionText": "Combien de trompettes sonnent dans l'Apocalypse ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "3" },
+        { "id": "b", "text": "5" },
+        { "id": "c", "text": "7" },
+        { "id": "d", "text": "12" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sept anges sonnent sept trompettes (Apocalypse 8-11). Chaque trompette annonce un jugement ou une malédiction sur la terre.",
+      "bibleReference": "Apocalypse 8:2",
+      "normalizedRef": "rev8.2",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-009",
+    "fr": {
+      "id": "dq-apoc-009",
+      "questionText": "Quel est le nom de la ville céleste qui descend du ciel dans Apocalypse 21 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La Ville Sainte" },
+        { "id": "b", "text": "Sion" },
+        { "id": "c", "text": "Nouvelle Jérusalem" },
+        { "id": "d", "text": "Paradis Éternel" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Et je vis descendre du ciel, d'auprès de Dieu, la ville sainte, la nouvelle Jérusalem, préparée comme une épouse qui s'est parée pour son époux (Apocalypse 21:2).",
+      "bibleReference": "Apocalypse 21:2",
+      "normalizedRef": "rev21.2",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-010",
+    "fr": {
+      "id": "dq-apoc-010",
+      "questionText": "À quelle église le Seigneur dit-il dans l'Apocalypse qu'elle n'est 'ni froide ni bouillante' ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Éphèse" },
+        { "id": "b", "text": "Sardes" },
+        { "id": "c", "text": "Philadelphie" },
+        { "id": "d", "text": "Laodicée" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Je connais tes œuvres. Je sais que tu n'es ni froid ni bouillant. Puisses-tu être froid ou bouillant ! (Apocalypse 3:15). Laodicée était réprochée pour sa tiédeur spirituelle.",
+      "bibleReference": "Apocalypse 3:15-16",
+      "normalizedRef": "rev3.15-16",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-011",
+    "fr": {
+      "id": "dq-apoc-011",
+      "fr": {
+        "id": "dq-apoc-011",
+        "questionText": "Quelle est la première des sept églises mentionnées dans les lettres de l'Apocalypse ?",
+        "categoryId": "apocalipsis",
+        "categoryName": "Apocalypse",
+        "difficulty": "medium",
+        "language": "fr",
+        "options": [
+          { "id": "a", "text": "Smyrne" },
+          { "id": "b", "text": "Éphèse" },
+          { "id": "c", "text": "Pergame" },
+          { "id": "d", "text": "Philadelphie" }
+        ],
+        "correctOptionId": "b",
+        "explanation": "Écris à l'ange de l'Église d'Éphèse... (Apocalypse 2:1). Éphèse est la première à recevoir sa lettre.",
+        "bibleReference": "Apocalypse 2:1",
+        "normalizedRef": "rev2.1",
+        "normalizedCat": "apocalipsis"
+      }
+    }
+  },
+  {
+    "newId": "dq-apoc-012",
+    "fr": {
+      "id": "dq-apoc-012",
+      "questionText": "Combien de chapitres compte le Livre de l'Apocalypse ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "18" },
+        { "id": "b", "text": "20" },
+        { "id": "c", "text": "22" },
+        { "id": "d", "text": "24" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'Apocalypse compte 22 chapitres. Le dernier chapitre se termine par la promesse de Jésus : 'Oui, je viens bientôt. Amen ! Viens, Seigneur Jésus !' (Apocalypse 22:20).",
+      "bibleReference": "Apocalypse 22:21",
+      "normalizedRef": "rev22.21",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-013",
+    "fr": {
+      "id": "dq-apoc-013",
+      "questionText": "Combien d'étoiles y a-t-il sur la couronne de la femme décrite dans Apocalypse 12 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "7" },
+        { "id": "b", "text": "10" },
+        { "id": "c", "text": "12" },
+        { "id": "d", "text": "24" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Une femme enveloppée du soleil, la lune sous ses pieds, et une couronne de douze étoiles sur sa tête (Apocalypse 12:1).",
+      "bibleReference": "Apocalypse 12:1",
+      "normalizedRef": "rev12.1",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-014",
+    "fr": {
+      "id": "dq-apoc-014",
+      "questionText": "Combien de portes et de fondations la Nouvelle Jérusalem possède-t-elle selon Apocalypse 21 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "7 portes et 7 fondations" },
+        { "id": "b", "text": "10 portes et 10 fondations" },
+        { "id": "c", "text": "12 portes et 12 fondations" },
+        { "id": "d", "text": "24 portes et 24 fondations" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La Nouvelle Jérusalem a 12 portes (avec les noms des 12 tribus d'Israël) et 12 fondations (avec les noms des 12 apôtres) (Apocalypse 21:12-14).",
+      "bibleReference": "Apocalypse 21:12-14",
+      "normalizedRef": "rev21.12-14",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-015",
+    "fr": {
+      "id": "dq-apoc-015",
+      "questionText": "Quel arbre apparaît au bord du fleuve d'eau de la vie dans Apocalypse 22 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Arbre de la connaissance" },
+        { "id": "b", "text": "Arbre de la vie" },
+        { "id": "c", "text": "Figuier éternel" },
+        { "id": "d", "text": "Cèdre du Liban" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Au milieu de la place de la ville et sur les deux bords du fleuve, il y avait un arbre de vie, produisant douze fois des fruits... (Apocalypse 22:2).",
+      "bibleReference": "Apocalypse 22:2",
+      "normalizedRef": "rev22.2",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-pers-005",
+    "fr": {
+      "id": "dq-pers-005",
+      "questionText": "Qui est appelé 'l'ami de Dieu' dans la Bible ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Moïse" },
+        { "id": "b", "text": "David" },
+        { "id": "c", "text": "Abraham" },
+        { "id": "d", "text": "Noé" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Abraham crut à Dieu... et il fut appelé ami de Dieu (Jacques 2:23). Ésaïe 41:8 l'appelle aussi 'Abraham mon ami'.",
+      "bibleReference": "Jacques 2:23",
+      "normalizedRef": "jam2.23",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-006",
+    "fr": {
+      "id": "dq-pers-006",
+      "questionText": "Qui a construit l'arche pour son salut lors du déluge universel ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Abraham" },
+        { "id": "b", "text": "Noé" },
+        { "id": "c", "text": "Moïse" },
+        { "id": "d", "text": "Hénoch" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu instruisit Noé de construire une arche en bois de gopher, pour le sauver lui, sa famille et un couple d'animaux (Genèse 6-7).",
+      "bibleReference": "Genèse 6:13-14",
+      "normalizedRef": "gen6.13-14",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-007",
+    "fr": {
+      "id": "dq-pers-007",
+      "questionText": "Quel apôtre a marché sur l'eau pour rejoindre Jésus ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Jean" },
+        { "id": "b", "text": "André" },
+        { "id": "c", "text": "Pierre" },
+        { "id": "d", "text": "Jacques" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pierre descendit de la barque et marcha sur l'eau pour aller vers Jésus, mais il commença à s'enfoncer quand il regarda le vent (Matthieu 14:29-30).",
+      "bibleReference": "Matthieu 14:28-31",
+      "normalizedRef": "mat14.28-31",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-008",
+    "fr": {
+      "id": "dq-pers-008",
+      "questionText": "Qui est décrit dans la Bible comme 'un homme selon le cœur de Dieu' ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Salomon" },
+        { "id": "b", "text": "Moïse" },
+        { "id": "c", "text": "Abraham" },
+        { "id": "d", "text": "David" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Il rejeta Saül... et il suscita David... un homme selon mon cœur, qui accomplira toutes mes volontés (Actes 13:22).",
+      "bibleReference": "Actes 13:22",
+      "normalizedRef": "act13.22",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-009",
+    "fr": {
+      "id": "dq-pers-009",
+      "questionText": "Quel personnage biblique est resté ferme pour garder sa foi et sa patience au milieu de souffrances extrêmes ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Jérémie" },
+        { "id": "b", "text": "Job" },
+        { "id": "c", "text": "Moïse" },
+        { "id": "d", "text": "Élie" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacques 5:11 dit : 'Vous avez entendu parler de la patience de Job, et vous avez vu la fin que le Seigneur lui accorda.' Job a tout perdu, mais n'a pas renié Dieu.",
+      "bibleReference": "Jacques 5:11",
+      "normalizedRef": "jam5.11",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-010",
+    "fr": {
+      "id": "dq-pers-010",
+      "questionText": "Combien d'années a vécu Mathusalem, le personnage biblique qui a vécu le plus longtemps ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "700 ans" },
+        { "id": "b", "text": "800 ans" },
+        { "id": "c", "text": "969 ans" },
+        { "id": "d", "text": "1000 ans" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Tous les jours de Mathusalem furent de neuf cent soixante-neuf ans ; puis il mourut (Genèse 5:27). C'est la personne qui a vécu le plus longtemps dans la Bible.",
+      "bibleReference": "Genèse 5:27",
+      "normalizedRef": "gen5.27",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-011",
+    "fr": {
+      "id": "dq-pers-011",
+      "questionText": "De quelle nation venait Ruth, la belle-fille de Naomi ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Édomite" },
+        { "id": "b", "text": "Ammonite" },
+        { "id": "c", "text": "Moabite" },
+        { "id": "d", "text": "Philistine" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ruth était Moabite. Sa déclaration de fidélité à Naomi ('Ton peuple sera mon peuple...') est un modèle de fidélité (Ruth 1:16).",
+      "bibleReference": "Ruth 1:4, 16",
+      "normalizedRef": "rut1.4,16",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-012",
+    "fr": {
+      "id": "dq-pers-012",
+      "questionText": "Qui a succédé à Moïse comme chef d'Israël pour entrer dans la Terre Promise ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Caleb" },
+        { "id": "b", "text": "Aaron" },
+        { "id": "c", "text": "Josué" },
+        { "id": "d", "text": "Éléazar" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Seigneur dit à Josué : 'Comme j'ai été avec Moïse, je serai avec toi ; je ne te délaisserai point, je ne t'abandonnerai point' (Josué 1:5).",
+      "bibleReference": "Josué 1:1-5",
+      "normalizedRef": "jos1.1-5",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-013",
+    "fr": {
+      "id": "dq-pers-013",
+      "questionText": "Quel est le nom du père du roi Salomon ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Saül" },
+        { "id": "b", "text": "Jonathan" },
+        { "id": "c", "text": "David" },
+        { "id": "d", "text": "Jéhu" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salomon était le fils du roi David et de Bethsabée. Dieu avait promis à David que son fils bâtirait le temple (2 Samuel 7:12-13).",
+      "bibleReference": "1 Rois 1:13",
+      "normalizedRef": "1ki1.13",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-014",
+    "fr": {
+      "id": "dq-pers-014",
+      "questionText": "Quel disciple de Jésus est appelé 'le disciple que Jésus aimait' dans l'Évangile de Jean ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Pierre" },
+        { "id": "b", "text": "Jacques" },
+        { "id": "c", "text": "André" },
+        { "id": "d", "text": "Jean" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "'Le disciple que Jésus aimait' apparaît plusieurs fois dans l'Évangile de Jean (13:23 ; 19:26 ; 21:7) et la tradition l'identifie à l'apôtre Jean.",
+      "bibleReference": "Jean 13:23",
+      "normalizedRef": "joh13.23",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-015",
+    "fr": {
+      "id": "dq-pers-015",
+      "questionText": "Combien d'années Abraham a-t-il vécu selon Genèse 25:7 ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "120 ans" },
+        { "id": "b", "text": "150 ans" },
+        { "id": "c", "text": "175 ans" },
+        { "id": "d", "text": "200 ans" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Voici les jours des années de la vie d'Abraham : il vécut cent soixante-quinze ans (Genèse 25:7). Il mourut dans une heureuse vieillesse, âgé et rassasié de jours.",
+      "bibleReference": "Genèse 25:7",
+      "normalizedRef": "gen25.7",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-016",
+    "fr": {
+      "id": "dq-pers-016",
+      "questionText": "Quel était le nom hébreu de l'apôtre Paul avant sa conversion ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Simon" },
+        { "id": "b", "text": "Saul" },
+        { "id": "c", "text": "Barabbas" },
+        { "id": "d", "text": "Nicodème" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Avant sa conversion sur le chemin de Damas, il s'appelait Saul de Tarse. Le nom Paul (Paulus) était son nom romain utilisé lors de ses missions (Actes 9:1 ; 13:9).",
+      "bibleReference": "Actes 13:9",
+      "normalizedRef": "act13.9",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-017",
+    "fr": {
+      "id": "dq-pers-017",
+      "questionText": "Qui a reconnu le premier Jésus comme Seigneur avant que les deux ne soient nés ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Élisabeth" },
+        { "id": "b", "text": "Marie" },
+        { "id": "c", "text": "Jean-Baptiste" },
+        { "id": "d", "text": "Joseph" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jean-Baptiste tressaillit de joie dans le sein d'Élisabeth lorsqu'elle entendit la salutation de Marie (Luc 1:41-44).",
+      "bibleReference": "Luc 1:41-44",
+      "normalizedRef": "luk1.41-44",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-018",
+    "fr": {
+      "id": "dq-pers-018",
+      "questionText": "Qui a été le premier martyr chrétien ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Pierre" },
+        { "id": "b", "text": "Jacques" },
+        { "id": "c", "text": "Étienne" },
+        { "id": "d", "text": "Paul" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Étienne fut lapidé pour son témoignage de Jésus, devenant le premier martyr de l'Église primitive (Actes 7).",
+      "bibleReference": "Actes 7",
+      "normalizedRef": "act7",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-019",
+    "fr": {
+      "id": "dq-pers-019",
+      "questionText": "Quel prophète a été emporté au ciel dans un tourbillon par un char de feu ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Élisée" },
+        { "id": "b", "text": "Élie" },
+        { "id": "c", "text": "Ésaïe" },
+        { "id": "d", "text": "Jérémie" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Comme ils continuaient à marcher en parlant, voici, un char de feu et des chevaux de feu les séparèrent l'un de l'autre, et Élie monta au ciel dans un tourbillon (2 Rois 2:11).",
+      "bibleReference": "2 Rois 2:11",
+      "normalizedRef": "2ki2.11",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-020",
+    "fr": {
+      "id": "dq-pers-020",
+      "questionText": "Qui a interprété les rêves de Pharaon en Égypte ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Moïse" },
+        { "id": "b", "text": "Daniel" },
+        { "id": "c", "text": "Joseph" },
+        { "id": "d", "text": "Jacob" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Joseph a interprété les rêves des sept vaches et des sept épis comme sept années d'abondance suivies de sept années de famine (Genèse 41).",
+      "bibleReference": "Genèse 41",
+      "normalizedRef": "gen41",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-021",
+    "fr": {
+      "id": "dq-pers-021",
+      "questionText": "Quel roi a demandé la sagesse à Dieu plutôt que la richesse ou la longue vie ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "David" },
+        { "id": "b", "text": "Saül" },
+        { "id": "c", "text": "Salomon" },
+        { "id": "d", "text": "Ézéchias" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu dit à Salomon : 'Puisque c'est là ce qui est dans ton cœur... je te donne de la sagesse et de l'intelligence' (2 Chroniques 1:11-12).",
+      "bibleReference": "2 Chroniques 1:11-12",
+      "normalizedRef": "2ch1.11-12",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-022",
+    "fr": {
+      "id": "dq-pers-022",
+      "questionText": "Quelle femme a trahi Samson en lui coupant les cheveux, le secret de sa force ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Dalila" },
+        { "id": "b", "text": "Jézabel" },
+        { "id": "c", "text": "Ruth" },
+        { "id": "d", "text": "Esther" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Dalila a découvert que la force de Samson résidait dans ses cheveux (consécration naziréenne) et les a fait couper pendant qu'il dormait (Juges 16).",
+      "bibleReference": "Juges 16",
+      "normalizedRef": "judg16",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-023",
+    "fr": {
+      "id": "dq-pers-023",
+      "questionText": "Qui a été jeté dans la fosse aux lions pour avoir prié Dieu ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Schadrac" },
+        { "id": "b", "text": "Méschac" },
+        { "id": "c", "text": "Abed-Nego" },
+        { "id": "d", "text": "Daniel" }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Daniel a été jeté dans la fosse aux lions parce qu'il continuait à prier Dieu malgré le décret royal l'interdisant (Daniel 6).",
+      "bibleReference": "Daniel 6",
+      "normalizedRef": "dan6",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-024",
+    "fr": {
+      "id": "dq-pers-024",
+      "questionText": "Quel apôtre a renié Jésus trois fois avant que le coq ne chante ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Judas" },
+        { "id": "b", "text": "Thomas" },
+        { "id": "c", "text": "Pierre" },
+        { "id": "d", "text": "Jean" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Comme Jésus l'avait prédit, Pierre a renié son Seigneur trois fois par peur lors de l'arrestation de Jésus (Matthieu 26:74-75).",
+      "bibleReference": "Matthieu 26:74-75",
+      "normalizedRef": "mat26.74-75",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-025",
+    "fr": {
+      "id": "dq-pers-025",
+      "questionText": "Qui est le père de Jean-Baptiste ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Zacharie" },
+        { "id": "b", "text": "Joseph" },
+        { "id": "c", "text": "Siméon" },
+        { "id": "d", "text": "Éli" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Zacharie était un prêtre dont la femme Élisabeth était stérile, mais Dieu leur a accordé un fils dans leur vieillesse (Luc 1).",
+      "bibleReference": "Luc 1",
+      "normalizedRef": "luk1",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-para-001",
+    "fr": {
+      "id": "dq-para-001",
+      "questionText": "Dans la parabole du bon Samaritain, quelles étaient les deux personnes qui sont passées sans aider l'homme blessé ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Un pharisien et un scribe" },
+        { "id": "b", "text": "Un sacrificateur et un Lévite" },
+        { "id": "c", "text": "Un collecteur d'impôts et un pécheur" },
+        { "id": "d", "text": "Un soldat et un marchand" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Un sacrificateur et un Lévite sont passés à côté de l'homme blessé sans s'arrêter, contrairement au Samaritain (Luc 10:31-32).",
+      "bibleReference": "Luc 10:31-32",
+      "normalizedRef": "luk10.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "newId": "dq-para-002",
+    "fr": {
+      "id": "dq-para-002",
+      "questionText": "Quelle semence Jésus a-t-il utilisée pour illustrer la croissance du Royaume de Dieu, disant qu'elle est la plus petite de toutes ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Graine de blé" },
+        { "id": "b", "text": "Graine de moutarde" },
+        { "id": "c", "text": "Graine de figue" },
+        { "id": "d", "text": "Graine de raisin" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le grain de sénevé (moutarde) est petit, mais il devient un grand arbre où les oiseaux se nichent (Matthieu 13:31-32).",
+      "bibleReference": "Matthieu 13:31-32",
+      "normalizedRef": "mat13.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "newId": "dq-para-003",
+    "fr": {
+      "id": "dq-para-003",
+      "questionText": "Dans la parabole du fils prodigue, qu'a fait le père quand il a vu son fils revenir ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Il s'est mis en colère" },
+        { "id": "b", "text": "Il a couru vers lui et l'a embrassé" },
+        { "id": "c", "text": "Il lui a demandé de rembourser l'argent" },
+        { "id": "d", "text": "Il l'a envoyé travailler aux champs" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Comme il était encore loin, son père le vit et fut ému de compassion, il courut se jeter à son cou et le baisa (Luc 15:20).",
+      "bibleReference": "Luc 15:20",
+      "normalizedRef": "luk15.20",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "newId": "dq-para-004",
+    "fr": {
+      "id": "dq-para-004",
+      "questionText": "Combien de brebis le berger a-t-il laissées pour aller chercher celle qui était perdue ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "10" },
+        { "id": "b", "text": "50" },
+        { "id": "c", "text": "99" },
+        { "id": "d", "text": "100" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Quel homme d'entre vous, s'il a cent brebis, et qu'il en perde une, ne laisse les quatre-vingt-dix-neuf dans le désert pour aller après celle qui est perdue ? (Luc 15:4).",
+      "bibleReference": "Luc 15:4",
+      "normalizedRef": "luk15.4",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "newId": "dq-para-005",
+    "fr": {
+      "id": "dq-para-005",
+      "questionText": "Dans la parabole du semeur, que représente la semence qui tombe parmi les épines ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Ceux qui n'écoutent pas" },
+        { "id": "b", "text": "Ceux qui sont étouffés par les soucis de la vie" },
+        { "id": "c", "text": "Ceux qui ont une foi superficielle" },
+        { "id": "d", "text": "Ceux qui produisent beaucoup de fruits" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La semence tombée parmi les épines représente ceux qui entendent la parole, mais les soucis du siècle et la séduction des richesses l'étouffent (Matthieu 13:22).",
+      "bibleReference": "Matthieu 13:22",
+      "normalizedRef": "mat13.22",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "newId": "dq-para-006",
+    "fr": {
+      "id": "dq-para-006",
+      "questionText": "Combien de vierges étaient prêtes avec de l'huile dans leurs lampes dans la parabole des dix vierges ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "3" },
+        { "id": "b", "text": "5" },
+        { "id": "c", "text": "7" },
+        { "id": "d", "text": "10" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Cinq d'entre elles étaient folles, et cinq sages. Les sages prirent, avec leurs lampes, de l'huile dans des vases (Matthieu 25:2-4).",
+      "bibleReference": "Matthieu 25:2-4",
+      "normalizedRef": "mat25.2-4",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "newId": "dq-para-007",
+    "fr": {
+      "id": "dq-para-007",
+      "questionText": "Dans la parabole des talents, qu'a fait le serviteur qui n'a reçu qu'un seul talent ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Il l'a investi" },
+        { "id": "b", "text": "Il l'a enterré" },
+        { "id": "c", "text": "Il l'a donné aux pauvres" },
+        { "id": "d", "text": "Il l'a perdu" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Celui qui n'en avait reçu qu'un alla faire un creux dans la terre, et cacha l'argent de son maître (Matthieu 25:18).",
+      "bibleReference": "Matthieu 25:18",
+      "normalizedRef": "mat25.18",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "newId": "dq-para-008",
+    "fr": {
+      "id": "dq-para-008",
+      "questionText": "À qui appartient le Royaume des Cieux selon la parabole de l'invitation au festin ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Aux riches" },
+        { "id": "b", "text": "À ceux qui ont été invités en premier" },
+        { "id": "c", "text": "À ceux qui acceptent l'invitation et viennent" },
+        { "id": "d", "text": "Seulement aux Juifs" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Beaucoup sont appelés, mais peu sont élus. Le festin est rempli par ceux qui acceptent l'invitation gratuite (Matthieu 22:1-14).",
+      "bibleReference": "Matthieu 22:1-14",
+      "normalizedRef": "mat22.1-14",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "newId": "dq-para-009",
+    "fr": {
+      "id": "dq-para-009",
+      "questionText": "Dans la parabole des deux maisons, sur quoi l'homme sage a-t-il bâti sa maison ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Sable" },
+        { "id": "b", "text": "Boue" },
+        { "id": "c", "text": "Roc" },
+        { "id": "d", "text": "Herbe" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Tout homme qui entend ces paroles que je dis et les met en pratique, sera semblable à un homme prudent qui a bâti sa maison sur le roc (Matthieu 7:24).",
+      "bibleReference": "Matthieu 7:24",
+      "normalizedRef": "mat7.24",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "newId": "dq-para-010",
+    "fr": {
+      "id": "dq-para-010",
+      "questionText": "Dans la parabole de la perle de grand prix, que fait le marchand quand il la trouve ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Il essaie de négocier" },
+        { "id": "b", "text": "Il l'ignore" },
+        { "id": "c", "text": "Il vend tout ce qu'il a pour l'acheter" },
+        { "id": "d", "text": "Il attend qu'elle baisse de prix" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Il est allé vendre tout ce qu'il avait, et l'a achetée (Matthieu 13:46).",
+      "bibleReference": "Matthieu 13:46",
+      "normalizedRef": "mat13.46",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "newId": "dq-hist-001",
+    "fr": {
+      "id": "dq-hist-001",
+      "questionText": "Qui a mené les enfants d'Israël hors d'Égypte ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Abraham" },
+        { "id": "b", "text": "Joseph" },
+        { "id": "c", "text": "Moïse" },
+        { "id": "d", "text": "Josué" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Moïse a été choisi par Dieu pour libérer Israël de l'esclavage égyptien (Exode 3-14).",
+      "bibleReference": "Exode 3-14",
+      "normalizedRef": "exo3-14",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "newId": "dq-hist-002",
+    "fr": {
+      "id": "dq-hist-002",
+      "questionText": "Combien de plaies Dieu a-t-il envoyées sur l'Égypte ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "3" },
+        { "id": "b", "text": "7" },
+        { "id": "c", "text": "10" },
+        { "id": "d", "text": "12" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu a envoyé 10 plaies pour forcer Pharaon à laisser partir son peuple (Exode 7-12).",
+      "bibleReference": "Exode 7-12",
+      "normalizedRef": "exo7-12",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "newId": "dq-hist-003",
+    "fr": {
+      "id": "dq-hist-003",
+      "questionText": "Quelle mer s'est ouverte pour laisser passer les Israélites ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Mer Morte" },
+        { "id": "b", "text": "Mer Méditerranée" },
+        { "id": "c", "text": "Mer Rouge" },
+        { "id": "d", "text": "Mer de Galilée" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'Éternel refoula la mer par un vent d'orient, et les enfants d'Israël entrèrent au milieu de la mer à sec (Exode 14:21-22).",
+      "bibleReference": "Exode 14:21-22",
+      "normalizedRef": "exo14.21-22",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "newId": "dq-hist-004",
+    "fr": {
+      "id": "dq-hist-004",
+      "questionText": "Combien d'années les Israélites ont-ils erré dans le désert ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "7 ans" },
+        { "id": "b", "text": "12 ans" },
+        { "id": "c", "text": "40 ans" },
+        { "id": "d", "text": "70 ans" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "À cause de leur incrédulité, la génération qui est sortie d'Égypte a dû errer 40 ans dans le désert (Nombres 14:34).",
+      "bibleReference": "Nombres 14:34",
+      "normalizedRef": "num14.34",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "newId": "dq-hist-005",
+    "fr": {
+      "id": "dq-hist-005",
+      "questionText": "Quelle ville a été conquise après que les Israélites en ont fait le tour pendant sept jours ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Babylone" },
+        { "id": "b", "text": "Jérusalem" },
+        { "id": "c", "text": "Jéricho" },
+        { "id": "d", "text": "Sodome" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le septième jour, ils firent sept fois le tour de la ville... le peuple poussa des cris, et la muraille s'écroula (Josué 6).",
+      "bibleReference": "Josué 6",
+      "normalizedRef": "jos6",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "newId": "dq-hist-006",
+    "fr": {
+      "id": "dq-hist-006",
+      "questionText": "Qui a été le premier roi d'Israël ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "David" },
+        { "id": "b", "text": "Salomon" },
+        { "id": "c", "text": "Saül" },
+        { "id": "d", "text": "Samuel" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Saül, de la tribu de Benjamin, fut oint par Samuel comme premier roi d'Israël (1 Samuel 10:1).",
+      "bibleReference": "1 Samuel 10:1",
+      "normalizedRef": "1sa10.1",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "newId": "dq-hist-007",
+    "fr": {
+      "id": "dq-hist-007",
+      "questionText": "Quel géant David a-t-il tué avec une fronde et une pierre ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Hérode" },
+        { "id": "b", "text": "Goliath" },
+        { "id": "c", "text": "Balsazar" },
+        { "id": "d", "text": "Abimelec" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "David, un jeune berger, a vaincu le champion philistin Goliath au nom de l'Éternel des armées (1 Samuel 17).",
+      "bibleReference": "1 Samuel 17",
+      "normalizedRef": "1sa17",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "newId": "dq-hist-008",
+    "fr": {
+      "id": "dq-hist-008",
+      "questionText": "Dans quelle ville Jésus est-il né ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Nazareth" },
+        { "id": "b", "text": "Jérusalem" },
+        { "id": "c", "text": "Bethléem" },
+        { "id": "d", "text": "Capernaüm" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jésus est né à Bethléem en Judée, au temps du roi Hérode, accomplissant la prophétie de Michée (Matthieu 2:1).",
+      "bibleReference": "Matthieu 2:1",
+      "normalizedRef": "mat2.1",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "newId": "dq-hist-009",
+    "fr": {
+      "id": "dq-hist-009",
+      "questionText": "Comment s'appelle le fleuve où Jésus a été baptisé par Jean-Baptiste ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Le Nil" },
+        { "id": "b", "text": "L'Euphrate" },
+        { "id": "c", "text": "Le Jourdain" },
+        { "id": "d", "text": "Le Tigre" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Alors Jésus vint de la Galilée au Jourdain vers Jean, pour être baptisé par lui (Matthieu 3:13).",
+      "bibleReference": "Matthieu 3:13",
+      "normalizedRef": "mat3.13",
+      "normalizedCat": "historia"
+    }
+  }
+]

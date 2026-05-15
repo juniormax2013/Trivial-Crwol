@@ -1,0 +1,920 @@
+[
+  {
+    "newId": "dq-cpab-036",
+    "ht": {
+      "id": "dq-cpab-036",
+      "questionText": "Ki sa \"Armèy Bondye\" nan Efezyen 6 reprezante?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon lame fizik kretyen dwe fòme"
+        },
+        {
+          "id": "b",
+          "text": "Eleman espirityèl pou goumen kont pouvwa espirityèl: verite, jistis, lapè, lafwa, sali, Pawòl, priyè"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman defansif — pa gen arèt ofansif"
+        },
+        {
+          "id": "d",
+          "text": "Senbòl nan vi legliz biwo a sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 6:10-18 — Kwayan goumen \"kont direktè, kont otorite... kont fòs espirityèl mechan nan kote selès.\" Armèy: verite, jistis, Evanjil lapè, lafwa, sali, Pawòl Bondye, priyè.",
+      "bibleReference": "Efezyen 6:12-13",
+      "normalizedRef": "eph6.12-13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-037",
+    "ht": {
+      "id": "dq-cpab-037",
+      "questionText": "Ki mesaj santral Pòl nan Filipyen?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Règ pou lidèship legliz"
+        },
+        {
+          "id": "b",
+          "text": "Kè kontan nan Kris malgre tout sikonstans — \"Remen toujou nan Seyè a\""
+        },
+        {
+          "id": "c",
+          "text": "Pwoblèm sòmasize nan Filipi"
+        },
+        {
+          "id": "d",
+          "text": "Youn apot ki kritike lòt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Filipyen 4:4 — \"Remen toujou nan Seyè a.\" Ekri pandan prizon Pòl la. Témwanyaj kè kontan nan tribikasyon, satisfaksyon nan Kris (4:11-13) — \"Mwen ka fè tout bagay nan Kris.\"",
+      "bibleReference": "Filipyen 4:4",
+      "normalizedRef": "phi4.4",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-038",
+    "ht": {
+      "id": "dq-cpab-038",
+      "questionText": "Ki sa lèt Galat debat kont?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Immoralite seksyèl"
+        },
+        {
+          "id": "b",
+          "text": "Ensèyman ke Jantil bezwen sikonsi ak Lwa Moyiz pou sove — kontradisyon Evanjil grâce"
+        },
+        {
+          "id": "c",
+          "text": "Pwoblèm legliz Galat yo nan adorasyon"
+        },
+        {
+          "id": "d",
+          "text": "Debat sou pèsonn Kris"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Galat 1:6-9 — \"Mwen sezi ke nou kite Kris... pou yon lòt Evanjil.\" Pòl denonse \"Judaïzant\" ki te di Jantil bezwen obsève Lwa Moyiz an plis de lafwa. Sali se grâce sèlman.",
+      "bibleReference": "Galat 1:6-9",
+      "normalizedRef": "gal1.6-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-039",
+    "ht": {
+      "id": "dq-cpab-039",
+      "questionText": "Ki sa Pòl anseye sou \"Nouvo Kreyasyon\" nan 2 Korentyen 5:17?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kwayan ka tounen yon nouvo moun fizikman"
+        },
+        {
+          "id": "b",
+          "text": "Moun ki nan Kris se yon nouvo kreyasyon — vye bagay yo pase, tout bagay vin nouvo"
+        },
+        {
+          "id": "c",
+          "text": "Legliz la vin tounen nouvo nasyis"
+        },
+        {
+          "id": "d",
+          "text": "Mond lan pral kreye nòv bientôt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Korentyen 5:17 — \"Si yon moun nan Kris, li se yon nouvo kreyasyon: vye bagay yo pase; gade, tout bagay vin nouvo!\" Transfòmasyon espirityèl konplè pa regenerasyon.",
+      "bibleReference": "2 Korentyen 5:17",
+      "normalizedRef": "2korentyen5.17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-040",
+    "ht": {
+      "id": "dq-cpab-040",
+      "questionText": "Ki sa Kolosyen 1:15-20 di sou Kris?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kris te kreye apre tout bagay"
+        },
+        {
+          "id": "b",
+          "text": "Kris \"imaj Bondye envizib la, premye pitit tout kreyasyon an\" — tou kreyasyon te fèt pa li epi pou li"
+        },
+        {
+          "id": "c",
+          "text": "Kris se youn nan plizyè manifes Bondye yo"
+        },
+        {
+          "id": "d",
+          "text": "Kris se premye zanj Bondye te kreye a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kolosyen 1:15-20 — \"Li se imaj Bondye envizib la... tou bagay te kreye pa li ak pou li... li se anvan tout bagay, ak tout bagay kenbe ansanm nan li.\" — Supremasi total Kris.",
+      "bibleReference": "Kolosyen 1:15-17",
+      "normalizedRef": "col1.15-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-041",
+    "ht": {
+      "id": "dq-cpab-041",
+      "questionText": "Ki pwomès sentral 1 Tesalonisyen 4 bay sou mouri nan lafwa?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo disparèt silansyèzman"
+        },
+        {
+          "id": "b",
+          "text": "Kris pral resisite yo anvan mouri vivan yo; yo tout pral rankontre Seyè a nan lè a"
+        },
+        {
+          "id": "c",
+          "text": "Mouri yo ale imédyatman pou jijman"
+        },
+        {
+          "id": "d",
+          "text": "Yo rete nan yon somèy jiskaske jijman final la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Tesalonisyen 4:13-17 — \"Mouri nan Kris pral resisite anvan. Epi nou ki vivan yo, yo pral pran ansanm avèk yo nan nwaj pou rankontre Seyè a nan lè a.\"",
+      "bibleReference": "1 Tesalonisyen 4:16-17",
+      "normalizedRef": "1th4.16-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-042",
+    "ht": {
+      "id": "dq-cpab-042",
+      "questionText": "Ki konsèy Pòl bay Timote sou konduit li kòm jèn pastè?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Evite tout moun pi gran pase ou"
+        },
+        {
+          "id": "b",
+          "text": "Pa kite pèsonn meprize jènn ou — moutre tèt ou kòm modèl nan pawòl, vi, amou, espri, lafwa, chastete"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman priye pou legliz la"
+        },
+        {
+          "id": "d",
+          "text": "Abandone ministè si presyon vin gwo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timote 4:12 — \"Pa kite pèsonn meprize jènn ou, men moutre tèt ou kòm yon modèl bay kwayan yo nan pawòl, konduit, amou, lafwa ak purte.\"",
+      "bibleReference": "1 Timote 4:12",
+      "normalizedRef": "1ti4.12",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-043",
+    "ht": {
+      "id": "dq-cpab-043",
+      "questionText": "Ki sa \"Imn Kris\" nan Filipyen 2:6-11 anseye?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kris te kreye anba Bondye ak yon volonte enferyè"
+        },
+        {
+          "id": "b",
+          "text": "Kris vide tèt li de glwa divine, vin sèvitè, mouri sou kwa — Bondye egzalte li anlè tout non"
+        },
+        {
+          "id": "c",
+          "text": "Kris pa t egziste anvan enkannasyon"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman manm yo ki obeyisan recevra yon egzaltasyon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Filipyen 2:6-11 — Kenosis: Kris te \"pa konsidere egalite avèk Bondye yon bagay pou atrape,\" li vide tèt li, pran fòm sèvitè, obeyi jouk lanmò kwa. Bondye egzalte li — \"Tout jenou pral pliye.\"",
+      "bibleReference": "Filipyen 2:9-11",
+      "normalizedRef": "phi2.9-11",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-044",
+    "ht": {
+      "id": "dq-cpab-044",
+      "questionText": "Ki avertisman Pòl bay nan 2 Timote 3 sou dènye tan yo?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tout moun pral tounen kretyen"
+        },
+        {
+          "id": "b",
+          "text": "Moun pral renmen tèt yo, avaris, èrgèy... gen fòm relijyon men refize pouvwa li"
+        },
+        {
+          "id": "c",
+          "text": "Legliz la pral tounen plin anvan Kris retounen"
+        },
+        {
+          "id": "d",
+          "text": "Pa gen pèsekisyon nan dènye tan yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Timote 3:1-5 — \"Nan dènye jou yo pral gen moman difisil: moun pral renmen tèt yo, avaris... pran plen mwèl relijyon men refize pouvwa l.\" Remèd: Ekriti Sen (v.16-17).",
+      "bibleReference": "2 Timote 3:1-5",
+      "normalizedRef": "2ti3.1-5",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-045",
+    "ht": {
+      "id": "dq-cpab-045",
+      "questionText": "Ki mesaj Pòl bay Filemòn?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon ansèyman sou lwa esklav yo"
+        },
+        {
+          "id": "b",
+          "text": "Pòl mande Filemòn pou resevwa esklav Onezim li a kòm frè nan Kris — demonstrasyon Evanjil kont esklav"
+        },
+        {
+          "id": "c",
+          "text": "Yon peyajman sou finans Legliz"
+        },
+        {
+          "id": "d",
+          "text": "Pòl mande Filemòn remèt yon prete"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Filemòn 15-16 — Pòl ekri pou Onezim (esklav ki te kouri): \"Li te separe avèk ou pou yon ti tan pou ou ka genyen li pou tout tan, pa kòm esklav ankò, men pi bon pase esklav, kòm frè cheri.\"",
+      "bibleReference": "Filemòn 15-16",
+      "normalizedRef": "filemòn15-16",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-hech-004",
+    "ht": {
+      "id": "dq-hech-004",
+      "questionText": "Ki kòmandman Jezi te bay disip yo anvan sansyon li nan Travay 1?",
+      "categoryId": "hechos",
+      "categoryName": "Travay",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ale imedyatman nan tout nasyon"
+        },
+        {
+          "id": "b",
+          "text": "Rete Jerizalèm epi tann pwomès Papa — Lespri Sen"
+        },
+        {
+          "id": "c",
+          "text": "Bati yon gran tanp nouvo"
+        },
+        {
+          "id": "d",
+          "text": "Ekri tout li te anseye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 1:4-5 — \"Pa kite Jerizalèm, men tann pwomès Papa a... nan kèk jou nou pral batize nan Lespri Sen.\" Premye pase anvan misyon an.",
+      "bibleReference": "Travay 1:4-5",
+      "normalizedRef": "act1.4-5",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-005",
+    "ht": {
+      "id": "dq-hech-005",
+      "questionText": "Konbyen moun te konvèti jou Pantekovòt la?",
+      "categoryId": "hechos",
+      "categoryName": "Travay",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "120"
+        },
+        {
+          "id": "b",
+          "text": "500"
+        },
+        {
+          "id": "c",
+          "text": "3000"
+        },
+        {
+          "id": "d",
+          "text": "5000"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Travay 2:41 — \"Moun ki te aksepte pawòl Pyè a te batize, epi jou sa a te gen anviwon twa mil âme ki te ajoute nan nomb yo.\"",
+      "bibleReference": "Travay 2:41",
+      "normalizedRef": "act2.41",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-006",
+    "ht": {
+      "id": "dq-hech-006",
+      "questionText": "Ki siyifikasyon konvèsyon Kònetiy (Travay 10)?",
+      "categoryId": "hechos",
+      "categoryName": "Travay",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Premye Jwif ki vin kretyen"
+        },
+        {
+          "id": "b",
+          "text": "Premye Jantil ki vin kretyen ofisyèlman — Bondye pa gen favoritisme ant nasyon"
+        },
+        {
+          "id": "c",
+          "text": "Premye militè ki vin kretyen"
+        },
+        {
+          "id": "d",
+          "text": "Premye batèm nan yon kay prive"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 10:34-35 — Pyè reyalize: \"Bondye pa gen favoritisme, men nan chak nasyon moun ki gen krentif pou li ak ki fè jistis akseptab ba li.\" Evanjil la pou tout nasyon.",
+      "bibleReference": "Travay 10:34-35",
+      "normalizedRef": "act10.34-35",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-007",
+    "ht": {
+      "id": "dq-hech-007",
+      "questionText": "Ki sa Pòl te di jòliye Filipi yo lè yo mande kijan pou yo sove?",
+      "categoryId": "hechos",
+      "categoryName": "Travay",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Sikonsi ou menm ak fanmi ou\""
+        },
+        {
+          "id": "b",
+          "text": "\"Kwè nan Seyè Jezi Kris epi ou pral sove — ou menm ak kay ou\""
+        },
+        {
+          "id": "c",
+          "text": "\"Jène pandan sèt jou\""
+        },
+        {
+          "id": "d",
+          "text": "\"Travay pou Seyè a\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 16:31 — Jòliye a te mande: \"Ki sa mwen dwe fè pou sove?\" Pòl ak Silas reponn: \"Kwè nan Seyè Jezi Kris epi ou pral sove — ou ak kay ou.\"",
+      "bibleReference": "Travay 16:31",
+      "normalizedRef": "act16.31",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-008",
+    "ht": {
+      "id": "dq-hech-008",
+      "questionText": "Ki sa Lk vle montre ak Travay Apòt yo?",
+      "categoryId": "hechos",
+      "categoryName": "Travay",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pwosè Pòl sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Ekspansyon Evanjil la soti Jerizalèm jiska Wòm — travay Lespri Sen nan legliz la"
+        },
+        {
+          "id": "c",
+          "text": "Istwa 12 apòt yo sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Règ ak regleman legliz premye a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 1:8 — \"Nou pral temwen mwen Jerizalèm, Jide, Samari, ak jis bout tè a.\" Lk montre pwogresyon jeyografik ak teyolojik Evanjil la, gide pa Lespri Sen.",
+      "bibleReference": "Travay 1:8",
+      "normalizedRef": "act1.8",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-doc-031",
+    "ht": {
+      "id": "dq-doc-031",
+      "questionText": "Ki sa \"Rezirèksyon korporèl\" Kris vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon senbòl espirityèl sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Jezi te resisite fizikman — menm kò a (men glorifye) — tonbo a vid, li te parèt ak manje"
+        },
+        {
+          "id": "c",
+          "text": "Disip yo te wè yon vizyon"
+        },
+        {
+          "id": "d",
+          "text": "Kris te tounen yon espri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lk 24:39-43 — Jezi montre men ak pye l, mande manje. 1 Korentyen 15:17 — \"Si Kris pa resisite, lafwa nou pa vo anyen.\" Rezirèksyon fizik = fondaman Evanjil la.",
+      "bibleReference": "1 Korentyen 15:17",
+      "normalizedRef": "1korentyen15.17",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-032",
+    "ht": {
+      "id": "dq-doc-032",
+      "questionText": "Ki sa \"Sansyon Kris\" vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kris disparèt nan yon nwaj pou toujou"
+        },
+        {
+          "id": "b",
+          "text": "Kris monte fizikman nan syèl la epi chita nan men dwat Bondye pandan ke li entèsede pou nou"
+        },
+        {
+          "id": "c",
+          "text": "Kris tounen Bondye Papa a"
+        },
+        {
+          "id": "d",
+          "text": "Kris vin zanj chèf"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 1:9-11; Ebre 7:25 — Kris monte, chita nan men dwat Bondye, entèsede pou kwayan yo. Li pral retounen menm jan li te ale (Travay 1:11).",
+      "bibleReference": "Ebre 7:25",
+      "normalizedRef": "heb7.25",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-033",
+    "ht": {
+      "id": "dq-doc-033",
+      "questionText": "Ki sa \"Egzpiasyon\" Kris vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kris bay yon bon egzanp sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Kris pran pinisyon peche nou an sou li — satisfè jistis Bondye epi rekonsile nou avèk Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Bondye sispan pini pechè yo"
+        },
+        {
+          "id": "d",
+          "text": "Kris te montre ke mouri pa terrible"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Women 3:25 — Bondye \"prezante [Kris] kòm ekspiasyon pa mwayen lafwa nan san li.\" Ezayi 53:5 — \"Li te blese pou transgresyon nou yo... pinisyon ki bay nou lapè tonbe sou li.\"",
+      "bibleReference": "Women 3:25",
+      "normalizedRef": "rom3.25",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-034",
+    "ht": {
+      "id": "dq-doc-034",
+      "questionText": "Ki sa \"Eleksyon/Prédestinasyon\" vle di nan teoloji kretyen?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye chwazi kèk pou pèdi pou tout tan"
+        },
+        {
+          "id": "b",
+          "text": "Bondye chwazi kwayan yo nan Kris anvan fondasyon mond lan — debat ant Kalminis ak Arminyenis sou baz chwa a"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman Jwif yo chwazi"
+        },
+        {
+          "id": "d",
+          "text": "Chwa depann sèlman de libè arbitre imen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 1:4-5 — \"Li te chwazi nou nan li anvan fonmasyon mond lan.\" Debat: Kalminis (Bondye chwazi souverènman), Arminyenis (Bondye prewoje lafwa imen). Tou de agnòse Bib la.",
+      "bibleReference": "Efezyen 1:4-5",
+      "normalizedRef": "eph1.4-5",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-035",
+    "ht": {
+      "id": "dq-doc-035",
+      "questionText": "Ki sa \"grâce\" vle di nan kontèks sali?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rekonpans Bondye bay pou travay bon nou"
+        },
+        {
+          "id": "b",
+          "text": "Favè Bondye bay pou moun ki pa merite l — sali kòm kado gratis"
+        },
+        {
+          "id": "c",
+          "text": "Pèmisyon Bondye bay nou fè peche"
+        },
+        {
+          "id": "d",
+          "text": "Yon santi espirityèl espesyal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 2:8 — \"Se pa grâce nou sove pa lafwa.\" Grâce = favè Bondye bay pou moun ki merite pinisyon — opoze ak jistis kòm kado moun ki merite. Se fondaman Evanjil la.",
+      "bibleReference": "Efezyen 2:8",
+      "normalizedRef": "eph2.8",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-036",
+    "ht": {
+      "id": "dq-doc-036",
+      "questionText": "Ki sa \"Lwa Natirèl\" vle di nan teoloji kretyen?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lwa fizik ak chimik sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Prensip moral Bondye grave nan konsyans imen — moun ka konnen bon ak mal natirèlman"
+        },
+        {
+          "id": "c",
+          "text": "Lwa Moyiz ki anseye pa nati"
+        },
+        {
+          "id": "d",
+          "text": "Règ sèlman kilti devlope"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Women 2:14-15 — \"Jantil ki pa gen Lwa a fè natirèlman sa Lwa a mande... yo montre egzijans Lwa a ekri nan kè yo.\" Lwa natirèl = rèvèlasyon jeneral moral Bondye.",
+      "bibleReference": "Women 2:14-15",
+      "normalizedRef": "rom2.14-15",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-037",
+    "ht": {
+      "id": "dq-doc-037",
+      "questionText": "Ki diferans \"teoloji bibliyèl\" ak \"teoloji sistematik\"?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tou de se menm bagay"
+        },
+        {
+          "id": "b",
+          "text": "Teyoloji biblik: etid pwogresif revèlasyon Bondye nan Bib la; Sistematik: òganize verite biblik yo an kategori"
+        },
+        {
+          "id": "c",
+          "text": "Sistematik pi biblik ke biblik"
+        },
+        {
+          "id": "d",
+          "text": "Biblik se tradiksyon, sistematik se orijinal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Teoloji biblik swiv revelasyon pwogresif (Ansyen Alyans → Nouvo Alyans). Teoloji sistematik òganize verite biblik an sijè (Bondye, Kris, Sali, Legliz...). Tou de nesesè.",
+      "bibleReference": "2 Timote 2:15",
+      "normalizedRef": "2ti2.15",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-gen-018",
+    "ht": {
+      "id": "dq-gen-018",
+      "questionText": "Ki premye pawòl Bib la?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Nan koumansman, Bondye te pale\""
+        },
+        {
+          "id": "b",
+          "text": "\"Nan koumansman, Bondye te kreye syèl la ak tè a\""
+        },
+        {
+          "id": "c",
+          "text": "\"Nan koumansman, te gen yon Pawòl\""
+        },
+        {
+          "id": "d",
+          "text": "\"Nan koumansman, Bondye di kite limyè la fèt\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 1:1 — \"Nan koumansman, Bondye te kreye syèl la ak tè a.\" Premye vèsè Bib la etabli: Bondye, kreyasyon, ak koumansman tan an.",
+      "bibleReference": "Jenèz 1:1",
+      "normalizedRef": "gen1.1",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-019",
+    "ht": {
+      "id": "dq-gen-019",
+      "questionText": "Ki sa Bondye te di sou chak jou kreyasyon?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Sa pa bon\""
+        },
+        {
+          "id": "b",
+          "text": "\"Li te bon\""
+        },
+        {
+          "id": "c",
+          "text": "\"Li te pafè\""
+        },
+        {
+          "id": "d",
+          "text": "\"Li te konplè\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 1 — Aprè chak jou kreyasyon, Bondye te wè ke \"li te bon.\" Aprè sizyèm jou, li te wè \"li te bon anpil\" (v.31). Kreyasyon reflete bonte Bondye.",
+      "bibleReference": "Jenèz 1:31",
+      "normalizedRef": "gen1.31",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-020",
+    "ht": {
+      "id": "dq-gen-020",
+      "questionText": "Ki pwomès Bondye te bay Abraram nan Jenèz 12?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li pral viv pou toujou"
+        },
+        {
+          "id": "b",
+          "text": "Li pral tounen yon gwo nasyon, li resevwa benediksyon, non li pral gran, tout fanmi tè a pral beni pa li"
+        },
+        {
+          "id": "c",
+          "text": "Li pral tounen wa Israel"
+        },
+        {
+          "id": "d",
+          "text": "Pitit li yo pral pa janm soufri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 12:1-3 — \"Ale... Mwen pral fè ou tounen yon gwo nasyon... Mwen pral beni moun ki beni ou... epi nan ou tout fanmi tè a pral jwenn benediksyon.\" Alyans Abraramik.",
+      "bibleReference": "Jenèz 12:1-3",
+      "normalizedRef": "gen12.1-3",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-021",
+    "ht": {
+      "id": "dq-gen-021",
+      "questionText": "Ki sa siy alyans Bondye bay Noye anvan te ye?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon sèl lune"
+        },
+        {
+          "id": "b",
+          "text": "Yon lakansyèl"
+        },
+        {
+          "id": "c",
+          "text": "Yon etwal espesyal"
+        },
+        {
+          "id": "d",
+          "text": "Yon pyebwa espesyal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 9:12-16 — Bondye bay Noye ak desandan li lakansyèl kòm siy alyans li: \"Mwen pap janm detwi tout chè ak dlo ankò.\" Pwomès étenèl mizèrikòd.",
+      "bibleReference": "Jenèz 9:13",
+      "normalizedRef": "gen9.13",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-inte-001",
+    "ht": {
+      "id": "dq-inte-001",
+      "questionText": "Konbyen tan pèp la te pase san yo pa t resevwa pwofesi ant liv Malachi ak nesans Jezi?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 ane"
+        },
+        {
+          "id": "b",
+          "text": "400 ane"
+        },
+        {
+          "id": "c",
+          "text": "1000 ane"
+        },
+        {
+          "id": "d",
+          "text": "70 ane"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yo rele peryòd sa a \"Peryòd Silans lan\", li te dire anviwon 400 ane.",
+      "bibleReference": "Malachi 4:5-6",
+      "normalizedRef": "mal4.5-6",
+      "normalizedCat": "intertestamentario"
+    }
+  }
+]

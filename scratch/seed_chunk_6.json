@@ -1,0 +1,3370 @@
+[
+  {
+    "docId": "dq-exo-001_ht",
+    "data": {
+      "id": "dq-exo-001",
+      "questionText": "Sou ki mòn Bondye te ba Moyiz Dis Kòmandman yo?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Nebo"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Karmèl"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Olivye"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bondye te rele Moyiz sou Mòn Sinayi pou li ba li de tab wòch ak Dis Kòmandman yo (Egzòd 20; 31:18).",
+      "bibleReference": "Egzòd 20:1-17",
+      "normalizedRef": "exo20.1-17",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-001_fr",
+    "data": {
+      "id": "dq-exo-001",
+      "questionText": "Combien y a-t-il de commandements dans le Décalogue donné à Moïse ?",
+      "categoryId": "exodo",
+      "categoryName": "Loi et Morale",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Décalogue (les Dix Commandements) fut donné à Moïse sur le Mont Sinaï (Exode 20:1-17; Deutéronome 5:6-21).",
+      "bibleReference": "Exode 20:1-17",
+      "normalizedRef": "exo20.1-17",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-exo-002_ht",
+    "data": {
+      "id": "dq-exo-002",
+      "questionText": "Konbyen ane Izrayèl te pase kòm esklav ann Ejip anvan delivrans lan?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 ane"
+        },
+        {
+          "id": "b",
+          "text": "200 ane"
+        },
+        {
+          "id": "c",
+          "text": "400 ane"
+        },
+        {
+          "id": "d",
+          "text": "430 ane"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "\"Tan pèp Izrayèl la te pase ann Ejip se 430 ane\" (Egzòd 12:40).",
+      "bibleReference": "Egzòd 12:40-41",
+      "normalizedRef": "exo12.40-41",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-002_fr",
+    "data": {
+      "id": "dq-exo-002",
+      "questionText": "Quel événement majeur marque le début de l'histoire d'Israël en tant que nation ?",
+      "categoryId": "exodo",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La construction du Temple"
+        },
+        {
+          "id": "b",
+          "text": "La sortie d'Égypte (l'Exode)"
+        },
+        {
+          "id": "c",
+          "text": "La conquête de Canaan"
+        },
+        {
+          "id": "d",
+          "text": "Le règne de David"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Exode — la libération d'Israël de l'esclavage en Égypte — est l'événement fondateur de la nation d'Israël (Exode 12-14).",
+      "bibleReference": "Exode 12:40-41",
+      "normalizedRef": "exo12.40-41",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-exo-003_ht",
+    "data": {
+      "id": "dq-exo-003",
+      "questionText": "Nan ki objè Bondye te parèt bay Moyiz sou Mòn Orèb?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nwaj"
+        },
+        {
+          "id": "b",
+          "text": "Yon raje k ap boule san raje a pa konsime"
+        },
+        {
+          "id": "c",
+          "text": "Yon zanj ak yon epe"
+        },
+        {
+          "id": "d",
+          "text": "Yon eskalye limyè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Zanj Seyè a te parèt bay Moyiz nan yon flanm dife ki soti nan mitan yon raje — raje a t ap boule men li pa t konsime (Egzòd 3:2).",
+      "bibleReference": "Egzòd 3:2",
+      "normalizedRef": "exo3.2",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-003_fr",
+    "data": {
+      "id": "dq-exo-003",
+      "questionText": "Sous quelle forme Dieu est-il apparu à Moïse sur le mont Horeb ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un nuage"
+        },
+        {
+          "id": "b",
+          "text": "Un buisson ardent qui ne se consumait pas"
+        },
+        {
+          "id": "c",
+          "text": "Un ange avec une épée"
+        },
+        {
+          "id": "d",
+          "text": "Un escalier de lumière"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'ange de l'Éternel apparut à Moïse dans une flamme de feu, au milieu d'un buisson — le buisson brûlait mais ne se consumait point (Exode 3:2).",
+      "bibleReference": "Exode 3:2",
+      "normalizedRef": "exo3.2",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-004_ht",
+    "data": {
+      "id": "dq-exo-004",
+      "questionText": "Ki 10yèm ak dènye malediksyon ki te pouse Farawon kite Izrayèl ale?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Krikèt"
+        },
+        {
+          "id": "b",
+          "text": "Fènwa"
+        },
+        {
+          "id": "c",
+          "text": "Lanmò premye pitit gason"
+        },
+        {
+          "id": "d",
+          "text": "Dlo vire san"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lanmò tout premye pitit gason Ejip yo te fini ak rezistans Farawon an epi li te kite pèp Izrayèl la ale (Egzòd 12:29-31).",
+      "bibleReference": "Egzòd 12:29-31",
+      "normalizedRef": "exo12.29-31",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-004_fr",
+    "data": {
+      "id": "dq-exo-004",
+      "questionText": "Quel fut le 10ème et dernier fléau qui a poussé Pharaon à laisser partir Israël ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les sauterelles"
+        },
+        {
+          "id": "b",
+          "text": "Les ténèbres"
+        },
+        {
+          "id": "c",
+          "text": "La mort des premiers-nés"
+        },
+        {
+          "id": "d",
+          "text": "L'eau changée en sang"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La mort de tous les premiers-nés d'Égypte mit fin à la résistance de Pharaon et il laissa partir le peuple d'Israël (Exode 12:29-31).",
+      "bibleReference": "Exode 12:29-31",
+      "normalizedRef": "exo12.29-31",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-005_ht",
+    "data": {
+      "id": "dq-exo-005",
+      "questionText": "Ki mirak Bondye te fè pou Izrayèl pase sou tè sèk lè Farawon t ap pouswiv yo?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te voye foudwayè"
+        },
+        {
+          "id": "b",
+          "text": "Li te fann Lanmè Wouj la"
+        },
+        {
+          "id": "c",
+          "text": "Li te voye yon gwo van"
+        },
+        {
+          "id": "d",
+          "text": "Li te fè lame a endòmi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te fann Lanmè Wouj la epi Izrayèl te pase sou tè sèk. Lame Ejip la te nwaye (Egzòd 14:21-28).",
+      "bibleReference": "Egzòd 14:21-28",
+      "normalizedRef": "exo14.21-28",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-005_fr",
+    "data": {
+      "id": "dq-exo-005",
+      "questionText": "Quel miracle Dieu a-t-il accompli pour qu'Israël traverse à sec alors que Pharaon les poursuivait ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il envoya la foudre"
+        },
+        {
+          "id": "b",
+          "text": "Il fendit la Mer Rouge"
+        },
+        {
+          "id": "c",
+          "text": "Il envoya un grand vent"
+        },
+        {
+          "id": "d",
+          "text": "Il endormit l'armée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu fendit la Mer Rouge et Israël passa sur la terre ferme. L'armée égyptienne se noya (Exode 14:21-28).",
+      "bibleReference": "Exode 14:21-28",
+      "normalizedRef": "exo14.21-28",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-006_ht",
+    "data": {
+      "id": "dq-exo-006",
+      "questionText": "Ki manje Bondye te voye sot nan syèl pou nouri Izrayèl nan dezè a?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Manna ak kayèy"
+        },
+        {
+          "id": "b",
+          "text": "Pen ak pwason"
+        },
+        {
+          "id": "c",
+          "text": "Rezen ak fig"
+        },
+        {
+          "id": "d",
+          "text": "Siwo myèl ak lèt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Bondye te voye manna chak maten ak kayèy chak swa pou nouri Izrayèl nan dezè a (Egzòd 16:13-15).",
+      "bibleReference": "Egzòd 16:13-15",
+      "normalizedRef": "exo16.13-15",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-006_fr",
+    "data": {
+      "id": "dq-exo-006",
+      "questionText": "Quelle nourriture Dieu a-t-il envoyée du ciel pour nourrir Israël dans le désert ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La manne et les cailles"
+        },
+        {
+          "id": "b",
+          "text": "Le pain et les poissons"
+        },
+        {
+          "id": "c",
+          "text": "Les raisins et les figues"
+        },
+        {
+          "id": "d",
+          "text": "Le miel et le lait"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Dieu envoyait la manne chaque matin et des cailles chaque soir pour nourrir Israël dans le désert (Exode 16:13-15).",
+      "bibleReference": "Exode 16:13-15",
+      "normalizedRef": "exo16.13-15",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-007_ht",
+    "data": {
+      "id": "dq-exo-007",
+      "questionText": "Kisa Izrayèl te fè pandan Moyiz te sou mòn a resevwa lwa yo?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo te lapriyè ak jene"
+        },
+        {
+          "id": "b",
+          "text": "Yo te bati yon vo an lò epi adore l"
+        },
+        {
+          "id": "c",
+          "text": "Yo te fèt ansanm"
+        },
+        {
+          "id": "d",
+          "text": "Yo te prepare pou goumen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pèp la te fòse Arawon fè yon vo an lò epi yo te di: \"Sa yo se bondye ou yo, Izrayèl, ki te fè ou soti ann Ejip\" (Egzòd 32:4).",
+      "bibleReference": "Egzòd 32:1-4",
+      "normalizedRef": "exo32.1-4",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-007_fr",
+    "data": {
+      "id": "dq-exo-007",
+      "questionText": "Qu'a fait Israël pendant que Moïse était sur la montagne pour recevoir les lois ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ils ont prié et jeûné"
+        },
+        {
+          "id": "b",
+          "text": "Ils ont construit un veau d'or et l'ont adoré"
+        },
+        {
+          "id": "c",
+          "text": "Ils ont fait la fête ensemble"
+        },
+        {
+          "id": "d",
+          "text": "Ils se sont préparés pour le combat"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le peuple a forcé Aaron à fabriquer un veau d'or et ils ont dit : « Israël ! voici tes dieux, qui t'ont fait sortir du pays d'Égypte » (Exode 32:4).",
+      "bibleReference": "Exode 32:1-4",
+      "normalizedRef": "exo32.1-4",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-008_ht",
+    "data": {
+      "id": "dq-exo-008",
+      "questionText": "Ki sa Fèt Pak Jwif la komemore?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pwomès Abraram"
+        },
+        {
+          "id": "b",
+          "text": "Kreyasyon mond lan"
+        },
+        {
+          "id": "c",
+          "text": "Liberasyon Izrayèl nan esklavaj Ejip"
+        },
+        {
+          "id": "d",
+          "text": "Antre nan Kanaran"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pak komemore lè zanj lanmò a \"pase\" sou kay ki te make ak san mouton ak Bondye delivre Izrayèl (Egzòd 12:13).",
+      "bibleReference": "Egzòd 12:13",
+      "normalizedRef": "exo12.13",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-008_fr",
+    "data": {
+      "id": "dq-exo-008",
+      "questionText": "Que commémore la fête de la Pâque juive ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La promesse d'Abraham"
+        },
+        {
+          "id": "b",
+          "text": "La création du monde"
+        },
+        {
+          "id": "c",
+          "text": "La libération d'Israël de l'esclavage en Égypte"
+        },
+        {
+          "id": "d",
+          "text": "L'entrée en Canaan"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La Pâque commémore le moment où l'ange de la mort est « passé par-dessus » les maisons marquées du sang de l'agneau et la délivrance d'Israël par Dieu (Exode 12:13).",
+      "bibleReference": "Exode 12:13",
+      "normalizedRef": "exo12.13",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-009_ht",
+    "data": {
+      "id": "dq-exo-009",
+      "questionText": "Ki non bò dwa Moyiz ki te ede l gouvène pèp la nan dezè a?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kalèb"
+        },
+        {
+          "id": "b",
+          "text": "Jetwo"
+        },
+        {
+          "id": "c",
+          "text": "Arawon"
+        },
+        {
+          "id": "d",
+          "text": "Arawon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jetwo, prèt Madyan ak bò dwa Moyiz, te ba li konsèy pou nonmen jij pou jije pèp la (Egzòd 18:13-24).",
+      "bibleReference": "Egzòd 18:13-24",
+      "normalizedRef": "exo18.13-24",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-009_fr",
+    "data": {
+      "id": "dq-exo-009",
+      "questionText": "Quel est le nom du beau-père de Moïse qui l'a aidé à gouverner le peuple dans le désert ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Caleb"
+        },
+        {
+          "id": "b",
+          "text": "Jethro"
+        },
+        {
+          "id": "c",
+          "text": "Aaron"
+        },
+        {
+          "id": "d",
+          "text": "Hur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jethro, prêtre de Madian et beau-père de Moïse, lui a conseillé de nommer des juges pour juger le peuple (Exode 18:13-24).",
+      "bibleReference": "Exode 18:13-24",
+      "normalizedRef": "exo18.13-24",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-010_ht",
+    "data": {
+      "id": "dq-exo-010",
+      "questionText": "Konbyen Dis Kòmandman ki pale sou relasyon moun ak Bondye (premye tab)?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kat premye kòmandman yo pale sou relasyon ak Bondye: pa gen lòt bondye, pa fè zidòl, pa pran non Bondye an anven, respekte jou repa a.",
+      "bibleReference": "Egzòd 20:1-11",
+      "normalizedRef": "exo20.1-11",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-010_fr",
+    "data": {
+      "id": "dq-exo-010",
+      "questionText": "Combien de commandements des Dix Commandements traitent de la relation de l'homme avec Dieu (première table) ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les quatre premiers commandements traitent de la relation avec Dieu : ne pas avoir d'autres dieux, ne pas faire d'idoles, ne pas prendre le nom de Dieu en vain, respecter le jour du repos.",
+      "bibleReference": "Exode 20:1-11",
+      "normalizedRef": "exo20.1-11",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-011_ht",
+    "data": {
+      "id": "dq-exo-011",
+      "questionText": "Ki non frè Moyiz ki te pòt pawòl li devan Farawon?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Miriyam"
+        },
+        {
+          "id": "b",
+          "text": "Jozye"
+        },
+        {
+          "id": "c",
+          "text": "Arawon"
+        },
+        {
+          "id": "d",
+          "text": "Kalèb"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bondye te di Moyiz: \"Arawon frè ou pral pwofèt ou\" (Egzòd 7:1). Arawon te pale bay Farawon.",
+      "bibleReference": "Egzòd 7:1",
+      "normalizedRef": "exo7.1",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-011_fr",
+    "data": {
+      "id": "dq-exo-011",
+      "questionText": "Quel était le nom du frère de Moïse qui était son porte-parole devant Pharaon ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Miriam"
+        },
+        {
+          "id": "b",
+          "text": "Josué"
+        },
+        {
+          "id": "c",
+          "text": "Aaron"
+        },
+        {
+          "id": "d",
+          "text": "Caleb"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu dit à Moïse : « Ton frère Aaron sera ton prophète » (Exode 7:1). Aaron a parlé à Pharaon.",
+      "bibleReference": "Exode 7:1",
+      "normalizedRef": "exo7.1",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-012_ht",
+    "data": {
+      "id": "dq-exo-012",
+      "questionText": "Ki mirak premye malediksyon Ejip la te ye?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grenouye"
+        },
+        {
+          "id": "b",
+          "text": "Dlo Nil la vire an san"
+        },
+        {
+          "id": "c",
+          "text": "Krikèt"
+        },
+        {
+          "id": "d",
+          "text": "Fènwa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Premye malediksyon an: Moyiz te leve baton l sou Nil la epi tout dlo Ejip te vire an san (Egzòd 7:20-21).",
+      "bibleReference": "Egzòd 7:20-21",
+      "normalizedRef": "exo7.20-21",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-012_fr",
+    "data": {
+      "id": "dq-exo-012",
+      "questionText": "Quel était le miracle de la première plaie d'Égypte ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les grenouilles"
+        },
+        {
+          "id": "b",
+          "text": "L'eau du Nil changée en sang"
+        },
+        {
+          "id": "c",
+          "text": "Les sauterelles"
+        },
+        {
+          "id": "d",
+          "text": "Les ténèbres"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Première plaie : Moïse leva son bâton sur le Nil et toutes les eaux de l'Égypte furent changées en sang (Exode 7:20-21).",
+      "bibleReference": "Exode 7:20-21",
+      "normalizedRef": "exo7.20-21",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-013_ht",
+    "data": {
+      "id": "dq-exo-013",
+      "questionText": "Ki mèb ki te pi sen nan Abri Rankont la nan dezè a?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tab pen prezantasyon an"
+        },
+        {
+          "id": "b",
+          "text": "Lotèl lansan an"
+        },
+        {
+          "id": "c",
+          "text": "Lach Alyans lan"
+        },
+        {
+          "id": "d",
+          "text": "Chandeyè lò a"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lach Alyans lan te pi sen objè a. Li te nan Kè Sen yo kote sèlman Granprèt la te ka antre yon fwa pa ane.",
+      "bibleReference": "Egzòd 25:10-22",
+      "normalizedRef": "exo25.10-22",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-013_fr",
+    "data": {
+      "id": "dq-exo-013",
+      "questionText": "Quel était le meuble le plus sacré dans le Tabernacle dans le désert ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La table des pains de proposition"
+        },
+        {
+          "id": "b",
+          "text": "L'autel des parfums"
+        },
+        {
+          "id": "c",
+          "text": "L'Arche de l'Alliance"
+        },
+        {
+          "id": "d",
+          "text": "Le chandelier d'or"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'Arche de l'Alliance était l'objet le plus sacré. Elle se trouvait dans le Lieu Très Saint où seul le Grand Prêtre pouvait entrer une fois par an.",
+      "bibleReference": "Exode 25:10-22",
+      "normalizedRef": "exo25.10-22",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-014_ht",
+    "data": {
+      "id": "dq-exo-014",
+      "questionText": "Konbyen malediksyon Bondye te voye sou Ejip anvan Farawon te kite Izrayèl ale?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dis malediksyon yo se: dlo an san, grenouye, pou, dèz bèt, maladi bèt, bouton, lagrèl, krikèt, fènwa, lanmò premye pitit gason (Egzòd 7-12).",
+      "bibleReference": "Egzòd 7-12",
+      "normalizedRef": "exo7-12",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-014_fr",
+    "data": {
+      "id": "dq-exo-014",
+      "questionText": "Combien de plaies Dieu a-t-il envoyées sur l'Égypte avant que Pharaon ne laisse partir Israël ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les dix plaies sont : l'eau en sang, les grenouilles, les poux, les mouches, la peste du bétail, les ulcères, la grêle, les sauterelles, les ténèbres, la mort des premiers-nés (Exode 7-12).",
+      "bibleReference": "Exode 7-12",
+      "normalizedRef": "exo7-12",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-015_ht",
+    "data": {
+      "id": "dq-exo-015",
+      "questionText": "Ki rezon prensipal pou Bondye pa t kite Moyiz antre nan Peyi Pwomèt la?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paske li te twò vye"
+        },
+        {
+          "id": "b",
+          "text": "Paske li te frape wòch la de fwa pito pase pale ak li jan Bondye te di"
+        },
+        {
+          "id": "c",
+          "text": "Paske li te marye ak yon etranje"
+        },
+        {
+          "id": "d",
+          "text": "Paske frè li Arawon te plis merite"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te di Moyiz: \"Akòz ou pa t kwè nan mwen pou sanktifye mwen... ou pa pral mennen asanble sa a nan tè mwen ban yo\" (Nonb 20:12).",
+      "bibleReference": "Nonb 20:12",
+      "normalizedRef": "num20.12",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-015_fr",
+    "data": {
+      "id": "dq-exo-015",
+      "questionText": "Quelle est la raison principale pour laquelle Dieu n'a pas laissé Moïse entrer dans la Terre Promise ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parce qu'il était trop vieux"
+        },
+        {
+          "id": "b",
+          "text": "Parce qu'il a frappé le rocher deux fois au lieu de lui parler comme Dieu l'avait dit"
+        },
+        {
+          "id": "c",
+          "text": "Parce qu'il s'était marié avec une étrangère"
+        },
+        {
+          "id": "d",
+          "text": "Parce que son frère Aaron le méritait davantage"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu dit à Moïse : « Parce que vous n'avez pas cru en moi pour me sanctifier... vous ne ferez point entrer cette assemblée dans le pays que je leur donne » (Nombres 20:12).",
+      "bibleReference": "Nombres 20:12",
+      "normalizedRef": "num20.12",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-016_ht",
+    "data": {
+      "id": "dq-exo-016",
+      "questionText": "Ki jan Moyiz te fè konnen li te dwe delivre pèp Izrayèl la?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nan yon rèv nan dezè a"
+        },
+        {
+          "id": "b",
+          "text": "Pa mwayen yon touf bwa ki t ap boule ak vwa Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Se granprèt Arawon ki te di l sa"
+        },
+        {
+          "id": "d",
+          "text": "Nan yon vizyon nan syèl la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te parèt devan Moyiz nan yon touf bwa ki t ap boule epi li te ba li misyon pou l libere Izrayèl (Egzòd 3:2-10).",
+      "bibleReference": "Exode 3:2-10"
+    }
+  },
+  {
+    "docId": "dq-exo-016_fr",
+    "data": {
+      "id": "dq-exo-016",
+      "questionText": "Comment Moïse apprit-il qu'il devait délivrer Israël ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Par un rêve au désert"
+        },
+        {
+          "id": "b",
+          "text": "Par un buisson ardent et la voix de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Par le grand prêtre Aaron"
+        },
+        {
+          "id": "d",
+          "text": "Par une vision dans le ciel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu apparut à Moïse dans un buisson ardent et lui révéla sa mission de libérer Israël (Exode 3:2-10).",
+      "bibleReference": "Exode 3:2-10",
+      "normalizedRef": "exo3.2-10",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-017_ht",
+    "data": {
+      "id": "dq-exo-017",
+      "questionText": "Ki dènye flewo Bondye te voye sou peyi Lejip?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fènwa"
+        },
+        {
+          "id": "b",
+          "text": "Krikèt yo (sotmèl)"
+        },
+        {
+          "id": "c",
+          "text": "Lanmò tout premye pitit yo"
+        },
+        {
+          "id": "d",
+          "text": "Lagrèl dife"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dizyèm ak dènye flewo a se te lanmò tout premye pitit nan peyi Lejip, sa ki te fòse Farawon kite Izrayèl ale (Egzòd 12:29-33).",
+      "bibleReference": "Exode 12:29-33"
+    }
+  },
+  {
+    "docId": "dq-exo-017_fr",
+    "data": {
+      "id": "dq-exo-017",
+      "questionText": "Quelle fut la dernière plaie envoyée sur l'Égypte ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les ténèbres"
+        },
+        {
+          "id": "b",
+          "text": "Les sauterelles"
+        },
+        {
+          "id": "c",
+          "text": "La mort des premiers-nés"
+        },
+        {
+          "id": "d",
+          "text": "La grêle de feu"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La dixième et dernière plaie fut la mort de tous les premiers-nés d'Égypte, ce qui poussa Pharaon à libérer Israël (Exode 12:29-33).",
+      "bibleReference": "Exode 12:29-33",
+      "normalizedRef": "exo12.29-33",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-018_ht",
+    "data": {
+      "id": "dq-exo-018",
+      "questionText": "Ki jan Bondye te parèt devan Moyiz pou premye fwa sou mòn Orèb la?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nan yon gwo loraj"
+        },
+        {
+          "id": "b",
+          "text": "Nan yon touf bwa ki t ap boule san l pa boule"
+        },
+        {
+          "id": "c",
+          "text": "Nan yon vizyon lannwit"
+        },
+        {
+          "id": "d",
+          "text": "Nan yon vwa ki soti nan syèl la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te parèt nan yon flanm dife nan mitan yon touf bwa ki t'ap boule san l' pa t' boule (Egzòd 3:2).",
+      "bibleReference": "Exode 13:21-22"
+    }
+  },
+  {
+    "docId": "dq-exo-018_fr",
+    "data": {
+      "id": "dq-exo-018",
+      "questionText": "Comment Dieu guida-t-il Israël dans le désert après l'Exode ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Par des anges visibles"
+        },
+        {
+          "id": "b",
+          "text": "Par une colonne de nuée le jour et de feu la nuit"
+        },
+        {
+          "id": "c",
+          "text": "Par les étoiles uniquement"
+        },
+        {
+          "id": "d",
+          "text": "Par la voix de Moïse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu guidait Israël par une colonne de nuée le jour et une colonne de feu la nuit (Exode 13:21-22).",
+      "bibleReference": "Exode 13:21-22",
+      "normalizedRef": "exo13.21-22",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-019_ht",
+    "data": {
+      "id": "dq-exo-019",
+      "questionText": "Ki sa Moyiz te jete nan dlo Mara a pou dlo a te ka vin dous?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Baton li a"
+        },
+        {
+          "id": "b",
+          "text": "Yon moso bwa Bondye te moutre li"
+        },
+        {
+          "id": "c",
+          "text": "Sèl"
+        },
+        {
+          "id": "d",
+          "text": "Laman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Moyiz rele Seyè a, Seyè a moutre l' yon moso bwa. Li jete moso bwa a nan dlo a, dlo a vin dous (Egzòd 15:25).",
+      "bibleReference": "Exode 16:14-15"
+    }
+  },
+  {
+    "docId": "dq-exo-019_fr",
+    "data": {
+      "id": "dq-exo-019",
+      "questionText": "Qu'est-ce que la manne que Dieu envoya dans le désert ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "De la viande miraculeuse"
+        },
+        {
+          "id": "b",
+          "text": "Une substance semblable à du pain que Dieu faisait tomber du ciel chaque matin"
+        },
+        {
+          "id": "c",
+          "text": "De l'eau transformée en nourriture"
+        },
+        {
+          "id": "d",
+          "text": "Des figues et des dattes miraculeuses"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La manne était une substance blanche comme la graine de coriandre, au goût de galette au miel, envoyée par Dieu chaque matin (Exode 16:14-15,31).",
+      "bibleReference": "Exode 16:14-15",
+      "normalizedRef": "exo16.14-15",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-020_ht",
+    "data": {
+      "id": "dq-exo-020",
+      "questionText": "Kisa pèp la te manje pandan 40 an nan dezè a?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pen ak vyann"
+        },
+        {
+          "id": "b",
+          "text": "Laman ak zòtolan"
+        },
+        {
+          "id": "c",
+          "text": "Fwi ak legim"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman sa yo te jwenn nan dezè a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te voye laman chak maten ak zòtolan nan aswè pou pèp la te ka manje (Egzòd 16:13-15).",
+      "bibleReference": "Exode 20:3"
+    }
+  },
+  {
+    "docId": "dq-exo-020_fr",
+    "data": {
+      "id": "dq-exo-020",
+      "questionText": "Quelle est la première des Dix Commandements ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tu ne tueras point"
+        },
+        {
+          "id": "b",
+          "text": "Tu n'auras pas d'autres dieux devant moi"
+        },
+        {
+          "id": "c",
+          "text": "Tu honoreras ton père et ta mère"
+        },
+        {
+          "id": "d",
+          "text": "Tu ne commettras point d'adultère"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le premier commandement affirme le monothéisme exclusif : « Tu n'auras pas d'autres dieux devant ma face » (Exode 20:3).",
+      "bibleReference": "Exode 20:3",
+      "normalizedRef": "exo20.3",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-021_ht",
+    "data": {
+      "id": "dq-exo-021",
+      "questionText": "Konbyen kòmandman Bondye te bay Moyiz sou mòn Sinayi a?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te bay dis kòmandman yo ekri sou de ròch plat (Egzòd 20:1-17).",
+      "bibleReference": "Exode 32:19-20"
+    }
+  },
+  {
+    "docId": "dq-exo-021_fr",
+    "data": {
+      "id": "dq-exo-021",
+      "questionText": "Quelle fut la réaction de Moïse en voyant le veau d'or fabriqué par Aaron ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il pria en silence pour le peuple"
+        },
+        {
+          "id": "b",
+          "text": "Il brisa les tables de la Loi et détruisit le veau d'or"
+        },
+        {
+          "id": "c",
+          "text": "Il envoya des soldats punir les coupables"
+        },
+        {
+          "id": "d",
+          "text": "Il demanda à Aaron de fondre le veau"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Moïse, en fureur, brisa les tables au pied de la montagne, brûla le veau d'or et le réduisit en poudre (Exode 32:19-20).",
+      "bibleReference": "Exode 32:19-20",
+      "normalizedRef": "exo32.19-20",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-022_ht",
+    "data": {
+      "id": "dq-exo-022",
+      "questionText": "Ki bèt Arawon te fè ak lò pèp la te bay pandan Moyiz te sou mòn lan?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon ti mouton"
+        },
+        {
+          "id": "b",
+          "text": "Yon estati yon lyon"
+        },
+        {
+          "id": "c",
+          "text": "Yon ti bèf an lò"
+        },
+        {
+          "id": "d",
+          "text": "Yon sèpan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pèp la te vin pèdi pasyans, Arawon pran bijou lò yo, li fonn yo, li fè yon estati yon ti bèf (Egzòd 32:4).",
+      "bibleReference": "1 Corinthiens 10:1-2"
+    }
+  },
+  {
+    "docId": "dq-exo-022_fr",
+    "data": {
+      "id": "dq-exo-022",
+      "questionText": "Quelle fut la signification spirituelle de la mer Rouge traversée par Israël (1 Corinthiens 10) ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un symbole de la traversée de la mort"
+        },
+        {
+          "id": "b",
+          "text": "Un baptême typologique les unissant à Moïse"
+        },
+        {
+          "id": "c",
+          "text": "La fin de l'esclavage physique uniquement"
+        },
+        {
+          "id": "d",
+          "text": "Un rite de purification avant d'entrer au désert"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul dit que les pères furent tous baptisés en Moïse dans la nuée et dans la mer — type du baptême chrétien (1 Corinthiens 10:1-2).",
+      "bibleReference": "1 Corinthiens 10:1-2",
+      "normalizedRef": "1co10.1-2",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-023_ht",
+    "data": {
+      "id": "dq-exo-023",
+      "questionText": "Kisa Moyiz te fè ak de ròch plat yo lè l te wè pèp la ap adore ti bèf an lò a?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li mete yo nan Bwat Kontra a"
+        },
+        {
+          "id": "b",
+          "text": "Li jete yo atè, yo kraze nan pye mòn lan"
+        },
+        {
+          "id": "c",
+          "text": "Li kache yo nan yon twou wòch"
+        },
+        {
+          "id": "d",
+          "text": "Li tounen moute sou mòn lan ak yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Moyiz te fache anpil, li jete de ròch plat yo atè, yo kraze nan pye mòn lan (Egzòd 32:19).",
+      "bibleReference": "Nombres 20:11-12"
+    }
+  },
+  {
+    "docId": "dq-exo-023_fr",
+    "data": {
+      "id": "dq-exo-023",
+      "questionText": "Pourquoi Moïse ne put-il pas entrer dans la Terre Promise ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il mourut de vieillesse avant d'arriver"
+        },
+        {
+          "id": "b",
+          "text": "Il frappa le rocher deux fois au lieu de lui parler, désobéissant à Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Il refusa d'entrer par humilité"
+        },
+        {
+          "id": "d",
+          "text": "Dieu punit Israël entier à cause du veau d'or"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "À Méribah, Moïse frappa le rocher deux fois au lieu de lui parler. Dieu lui dit qu'il ne ferait pas entrer le peuple dans la terre (Nombres 20:11-12).",
+      "bibleReference": "Nombres 20:11-12",
+      "normalizedRef": "num20.11-12",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-024_ht",
+    "data": {
+      "id": "dq-exo-024",
+      "questionText": "Ki premye gwo lènmi Izrayelit yo te goumen avèk yo apre yo fin travèse lanmè Wouj la?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moun peyi Lejip yo"
+        },
+        {
+          "id": "b",
+          "text": "Moun peyi Amalèk yo"
+        },
+        {
+          "id": "c",
+          "text": "Moun peyi Filisti yo"
+        },
+        {
+          "id": "d",
+          "text": "Moun peyi Mowab yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Moun Amalèk yo te vin atake moun Izrayèl yo nan Refidim (Egzòd 17:8).",
+      "bibleReference": "Exode 40:34-35"
+    }
+  },
+  {
+    "docId": "dq-exo-024_fr",
+    "data": {
+      "id": "dq-exo-024",
+      "questionText": "Quel rôle joua le Tabernacle construit dans le désert ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une école pour enseigner la Loi aux enfants"
+        },
+        {
+          "id": "b",
+          "text": "La demeure mobile de Dieu au milieu d'Israël et le lieu du culte sacré"
+        },
+        {
+          "id": "c",
+          "text": "Une forteresse militaire pour protéger le peuple"
+        },
+        {
+          "id": "d",
+          "text": "Un palais pour Moïse et les anciens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Tabernacle (mishkan) était la demeure de Dieu au milieu de son peuple — lieu du sacrifice, de la prière et de la présence divine (Exode 25:8; 40:34-35).",
+      "bibleReference": "Exode 40:34-35",
+      "normalizedRef": "exo40.34-35",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-025_ht",
+    "data": {
+      "id": "dq-exo-025",
+      "questionText": "Ki jan Moyiz te rive genyen batay la kont moun Amalèk yo?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pa yon estrateji militè"
+        },
+        {
+          "id": "b",
+          "text": "Toutotan li te kenbe men l anlè"
+        },
+        {
+          "id": "c",
+          "text": "Avèk yon gwo tranblemanntè"
+        },
+        {
+          "id": "d",
+          "text": "Lè l te frape baton li a atè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Toutotan Moyiz te kenbe men l' anlè, moun Izrayèl yo te pi fò. Men, depi li bese men l', moun Amalèk yo te vin pi fò (Egzòd 17:11).",
+      "bibleReference": "Exode 3:14"
+    }
+  },
+  {
+    "docId": "dq-exo-025_fr",
+    "data": {
+      "id": "dq-exo-025",
+      "questionText": "Quel est le nom divin révélé à Moïse dans Exode 3:14 et sa signification ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adonaï — Seigneur souverain"
+        },
+        {
+          "id": "b",
+          "text": "Ehyeh Asher Ehyeh — Je suis celui qui suis / Je serai celui qui serai"
+        },
+        {
+          "id": "c",
+          "text": "El Shaddai — Dieu tout-puissant"
+        },
+        {
+          "id": "d",
+          "text": "Elohim — Dieu créateur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ehyeh Asher Ehyeh (Je suis celui qui suis) révèle l'existence auto-suffisante, éternelle et immuable de Dieu — YHWH dérive de cette racine (Exode 3:14).",
+      "bibleReference": "Exode 3:14",
+      "normalizedRef": "exo3.14",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-026_ht",
+    "data": {
+      "id": "dq-exo-026",
+      "questionText": "Kisa ki te kouvri Tant Randevou a kòm yon siy prezans Bondye?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon bèl rido ble"
+        },
+        {
+          "id": "b",
+          "text": "Yon nwaj lajounen ak yon flanm dife lannwit"
+        },
+        {
+          "id": "c",
+          "text": "Yon gwo van"
+        },
+        {
+          "id": "d",
+          "text": "Yon zetwal byen klere"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nwaj la te kouvri Tant Randevou a, epi limyè prezans Seyè a te plen Tant lan (Egzòd 40:34).",
+      "bibleReference": "Jean 3:14-15"
+    }
+  },
+  {
+    "docId": "dq-exo-026_fr",
+    "data": {
+      "id": "dq-exo-026",
+      "questionText": "Quelle est la signification typologique du serpent d'airain de Moïse (Nombres 21:8-9) selon Jean 3:14 ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un symbole de la guérison médicale"
+        },
+        {
+          "id": "b",
+          "text": "Jésus élevé sur la croix — ceux qui le regardent par la foi sont sauvés"
+        },
+        {
+          "id": "c",
+          "text": "La puissance de Moïse sur le péché"
+        },
+        {
+          "id": "d",
+          "text": "La résurrection future d'Israël"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus lui-même dit : « De même que Moïse a élevé le serpent dans le désert, il faut que le Fils de l'homme soit élevé » (Jean 3:14) — type de la crucifixion.",
+      "bibleReference": "Jean 3:14-15",
+      "normalizedRef": "joh3.14-15",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-027_ht",
+    "data": {
+      "id": "dq-exo-027",
+      "questionText": "Ki rad espesyal granprèt la te dwe mete pou l antre nan kote ki sen an?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon senp rad blan"
+        },
+        {
+          "id": "b",
+          "text": "Efòd la ak plastwon an"
+        },
+        {
+          "id": "c",
+          "text": "Yon rad fèt ak po mouton"
+        },
+        {
+          "id": "d",
+          "text": "Yon kouwòn an lò sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te bay lòd pou fè rad espesyal pou Arawon: efòd la, plastwon an, wòb la, elatriye (Egzòd 28:4).",
+      "bibleReference": "Hébreux 9:11-12"
+    }
+  },
+  {
+    "docId": "dq-exo-027_fr",
+    "data": {
+      "id": "dq-exo-027",
+      "questionText": "Que symbolisait le grand prêtre lors de l'entrée dans le Saint des Saints le Jour des Expiations (Lévitique 16) ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le roi d'Israël intercédant pour la nation"
+        },
+        {
+          "id": "b",
+          "text": "Le médiateur unique accédant à la présence de Dieu avec le sang expiatoire — type de Christ"
+        },
+        {
+          "id": "c",
+          "text": "Le prophète recevant les commandements divins"
+        },
+        {
+          "id": "d",
+          "text": "L'intermédiaire entre les tribus pour la paix"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le grand prêtre entrait seul avec le sang dans le Saint des Saints — type de Christ, notre grand prêtre, entrant dans le ciel avec son propre sang (Hébreux 9:11-12).",
+      "bibleReference": "Hébreux 9:11-12",
+      "normalizedRef": "heb9.11-12",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-028_ht",
+    "data": {
+      "id": "dq-exo-028",
+      "questionText": "Kisa ki te ekri sou plak an lò ki te sou tèt turban granprèt la?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Non tout tribi yo"
+        },
+        {
+          "id": "b",
+          "text": "Apa pou Seyè a"
+        },
+        {
+          "id": "c",
+          "text": "Mete konfyans nan Bondye"
+        },
+        {
+          "id": "d",
+          "text": "Lalwa se lavi"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Yo te fè yon plak an lò ki di: « Apa pou Seyè a » (Egzòd 28:36).",
+      "bibleReference": "Exode 24:18"
+    }
+  },
+  {
+    "docId": "dq-exo-028_fr",
+    "data": {
+      "id": "dq-exo-028",
+      "questionText": "Combien de jours Moïse passa-t-il sur le Sinaï pour recevoir la Loi lors de sa première montée ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 jours"
+        },
+        {
+          "id": "b",
+          "text": "20 jours"
+        },
+        {
+          "id": "c",
+          "text": "40 jours"
+        },
+        {
+          "id": "d",
+          "text": "70 jours"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Moïse demeura 40 jours et 40 nuits sur la montagne pour recevoir la Loi et les instructions du Tabernacle (Exode 24:18).",
+      "bibleReference": "Exode 24:18",
+      "normalizedRef": "exo24.18",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-exo-029_ht",
+    "data": {
+      "id": "dq-exo-029",
+      "questionText": "Poukisa Moyiz te mete yon vwal sou figi l lè l te desann mòn Sinayi a?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paske li te wont"
+        },
+        {
+          "id": "b",
+          "text": "Paske figi l t ap klere tèlman li te nan prezans Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Paske pèp la pa t vle wè l"
+        },
+        {
+          "id": "d",
+          "text": "Pou l te ka kache dlo nan je l"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lè Moyiz t'ap desann mòn Sinayi a, li pa t' konnen figi l' t'ap klere tèlman li te pale ak Seyè a (Egzòd 34:29).",
+      "bibleReference": "Exode 21:24"
+    }
+  },
+  {
+    "docId": "dq-exo-029_fr",
+    "data": {
+      "id": "dq-exo-029",
+      "questionText": "Quel principe juridique de l'AT est contenu dans la formule « œil pour œil, dent pour dent » (Exode 21:24) ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une invitation à la vengeance personnelle illimitée"
+        },
+        {
+          "id": "b",
+          "text": "La loi du talion — proportionnalité de la punition à l'infraction"
+        },
+        {
+          "id": "c",
+          "text": "Un droit exclusif du roi à punir"
+        },
+        {
+          "id": "d",
+          "text": "Une loi provisoire remplacée par l'amour dans le NT"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La Lex Talionis (loi du talion) limitait la vengeance à une punition proportionnelle — révolutionnaire dans l'antiquité. Jésus l'élève au pardon (Exode 21:24; Matthieu 5:38-39).",
+      "bibleReference": "Exode 21:24",
+      "normalizedRef": "exo21.24",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "docId": "dq-gen-001_ht",
+    "data": {
+      "id": "dq-gen-001",
+      "questionText": "Ki non Bondye te ba Jakòb apre li te goumen ak zanj lan?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraram"
+        },
+        {
+          "id": "b",
+          "text": "Esayi"
+        },
+        {
+          "id": "c",
+          "text": "Izrayèl"
+        },
+        {
+          "id": "d",
+          "text": "Moyiz"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Non li te chanje vin Izrayèl, paske li te goumen ak Bondye ak ak moun, epi li te genyen.",
+      "bibleReference": "Jenèz 32:28",
+      "normalizedRef": "gen32.28",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-001_fr",
+    "data": {
+      "id": "dq-gen-001",
+      "questionText": "Pourquoi Jacob fut-il renommé Israël ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parce qu'il entra le premier en Canaan"
+        },
+        {
+          "id": "b",
+          "text": "Parce qu'il lutta toute la nuit avec Dieu (ou un ange)"
+        },
+        {
+          "id": "c",
+          "text": "Parce qu'il reçut la bénédiction d'Ismaël"
+        },
+        {
+          "id": "d",
+          "text": "Parce qu'il reconstruisit Béthel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacob lutta toute la nuit avec Dieu à Penouël. Dieu le renomma Israël : « tu as lutté avec Dieu et avec des hommes, et tu as vaincu » (Genèse 32:28).",
+      "bibleReference": "Genèse 32:28",
+      "normalizedRef": "gen32.28",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-002_ht",
+    "data": {
+      "id": "dq-gen-002",
+      "questionText": "Poukisa Bondye te detwi Tou Babèl la?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paske li te twò wo"
+        },
+        {
+          "id": "b",
+          "text": "Paske li te lèd"
+        },
+        {
+          "id": "c",
+          "text": "Pou anpeche moun ki ini nan yon sèl lang pa reyisi nenpòt bagay nanògèy"
+        },
+        {
+          "id": "d",
+          "text": "Paske yo te sakrifye bèt sou li"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bondye te konfond lang yo pou moun yo poze travay tou a epi li gaye yo sou tout tè a (Jenèz 11:7-9).",
+      "bibleReference": "Jenèz 11:7-9",
+      "normalizedRef": "gen11.7-9",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-002_fr",
+    "data": {
+      "id": "dq-gen-002",
+      "questionText": "Quel événement provoqua la confusion des langues et la dispersion des peuples ?",
+      "categoryId": "genesis",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le déluge de Noé"
+        },
+        {
+          "id": "b",
+          "text": "La destruction de Sodome"
+        },
+        {
+          "id": "c",
+          "text": "La construction de la tour de Babel"
+        },
+        {
+          "id": "d",
+          "text": "La révolte de Coré"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "À Babel, Dieu confondit le langage des bâtisseurs et les dispersa sur la terre (Genèse 11:7-9).",
+      "bibleReference": "Genèse 11:7-9",
+      "normalizedRef": "gen11.7-9",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-gen-003_ht",
+    "data": {
+      "id": "dq-gen-003",
+      "questionText": "Ki sa ki te rive sou tè a anvan Bondye kreye limyè a?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Te deja gen lavi"
+        },
+        {
+          "id": "b",
+          "text": "Tè a te vid ak san fòm, fènwa sou abîm — Lespri Bondye plantan sou dlo yo"
+        },
+        {
+          "id": "c",
+          "text": "Satan te gentan la"
+        },
+        {
+          "id": "d",
+          "text": "Yon gwo dife te kouvri tout bagay"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 1:2 — \"Tè a te vid ak san fòm; fènwa te sou figi abîm lan; Lespri Bondye te plantan sou dlo yo.\" Etat anvan kreyasyon — Bondye chanje kaos an òd.",
+      "bibleReference": "Jenèz 1:2",
+      "normalizedRef": "gen1.2",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-003_fr",
+    "data": {
+      "id": "dq-gen-003",
+      "questionText": "Qui a construit l'arche pour sauver sa famille du déluge ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Moïse"
+        },
+        {
+          "id": "c",
+          "text": "Noé"
+        },
+        {
+          "id": "d",
+          "text": "Adam"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Noé a obéi à Dieu en construisant une arche selon ses instructions pour échapper au jugement du déluge (Genèse 6:13-14).",
+      "bibleReference": "Genèse 6:13-14"
+    }
+  },
+  {
+    "docId": "dq-gen-004_ht",
+    "data": {
+      "id": "dq-gen-004",
+      "questionText": "Ki premye pèche nan Jenèz la?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Noye ki te bwè twòp"
+        },
+        {
+          "id": "b",
+          "text": "Adam ak Èv ki manje fwi entèdi pou dezobeyisans kont Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Kayis ki te touye Abèl"
+        },
+        {
+          "id": "d",
+          "text": "Tou Babèl ak ògèy moun yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 3 — Sèpan te twonpe Èv, epi Adam ak Èv manje fwi entèdi. Pèche antre nan mond lan, relasyon avèk Bondye brize (Women 5:12).",
+      "bibleReference": "Jenèz 3:6",
+      "normalizedRef": "gen3.6",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-004_fr",
+    "data": {
+      "id": "dq-gen-004",
+      "questionText": "Quel était le nom de la première femme d'après la Genèse ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "Ève"
+        },
+        {
+          "id": "c",
+          "text": "Marie"
+        },
+        {
+          "id": "d",
+          "text": "Ruth"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Adam donna à sa femme le nom d'Ève : car elle a été la mère de tous les vivants » (Genèse 3:20).",
+      "bibleReference": "Genèse 3:20"
+    }
+  },
+  {
+    "docId": "dq-gen-005_ht",
+    "data": {
+      "id": "dq-gen-005",
+      "questionText": "Nan konbyen jou Bondye te kreye lemonn epi li repoze?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 jou"
+        },
+        {
+          "id": "b",
+          "text": "6 jou epi li repoze sou setyèm jou a"
+        },
+        {
+          "id": "c",
+          "text": "7 jou epi li repoze sou yitzyèm"
+        },
+        {
+          "id": "d",
+          "text": "3 jou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te kreye tout bagay nan sis jou epi setyèm jou a li te repoze.",
+      "bibleReference": "Jenèz 2:2",
+      "normalizedRef": "gen2.2",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-005_fr",
+    "data": {
+      "id": "dq-gen-005",
+      "questionText": "En combien de jours Dieu a-t-il créé le monde avant de se reposer ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 jours"
+        },
+        {
+          "id": "b",
+          "text": "6 jours, puis il se reposa le septième jour"
+        },
+        {
+          "id": "c",
+          "text": "7 jours, puis il se reposa le huitième"
+        },
+        {
+          "id": "d",
+          "text": "3 jours"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu créa toutes choses en six jours et le septième jour il se reposa.",
+      "bibleReference": "Genèse 2:2",
+      "normalizedRef": "gen2.2",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-006_ht",
+    "data": {
+      "id": "dq-gen-006",
+      "questionText": "Ki te premye gason Bondye te kreye?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraram"
+        },
+        {
+          "id": "b",
+          "text": "Noye"
+        },
+        {
+          "id": "c",
+          "text": "Adanm"
+        },
+        {
+          "id": "d",
+          "text": "Moyiz"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Adanm te premye gason an, ki te fòme nan pousyè tè a.",
+      "bibleReference": "Jenèz 2:7",
+      "normalizedRef": "gen2.7",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-006_fr",
+    "data": {
+      "id": "dq-gen-006",
+      "questionText": "Quel fut le premier homme créé par Dieu ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Noé"
+        },
+        {
+          "id": "c",
+          "text": "Adam"
+        },
+        {
+          "id": "d",
+          "text": "Moïse"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Adam fut le premier homme, formé de la poussière de la terre.",
+      "bibleReference": "Genèse 2:7",
+      "normalizedRef": "gen2.7",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-007_ht",
+    "data": {
+      "id": "dq-gen-007",
+      "questionText": "Kilès ki te sove nan delij la, ansanm ak fanmi li, nan yon lach?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lòt"
+        },
+        {
+          "id": "b",
+          "text": "Enòk"
+        },
+        {
+          "id": "c",
+          "text": "Noye"
+        },
+        {
+          "id": "d",
+          "text": "Matisalèm"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Noye te jwenn gras epi li te bati lach la pou sove fanmi li.",
+      "bibleReference": "Jenèz 6-8",
+      "normalizedRef": "gen6-8",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-007_fr",
+    "data": {
+      "id": "dq-gen-007",
+      "questionText": "Qui a été sauvé du déluge avec sa famille dans une arche ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lot"
+        },
+        {
+          "id": "b",
+          "text": "Hénoc"
+        },
+        {
+          "id": "c",
+          "text": "Noé"
+        },
+        {
+          "id": "d",
+          "text": "Mathusalem"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Noé trouva grâce et bâtit l'arche pour sauver sa famille.",
+      "bibleReference": "Genèse 6-8",
+      "normalizedRef": "gen6-8",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-008_ht",
+    "data": {
+      "id": "dq-gen-008",
+      "questionText": "Ki senbòl alyans Bondye ak Noye pou li pa detwi tè a ak dlo ankò?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon pijon"
+        },
+        {
+          "id": "b",
+          "text": "Yon lotèl"
+        },
+        {
+          "id": "c",
+          "text": "Yon lakansyèl"
+        },
+        {
+          "id": "d",
+          "text": "Yon zetwal"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lakansyèl la te mete nan nwaj yo kòm siy alyans la.",
+      "bibleReference": "Jenèz 9:13",
+      "normalizedRef": "gen9.13",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-008_fr",
+    "data": {
+      "id": "dq-gen-008",
+      "questionText": "Quel est le symbole de l'alliance de Dieu avec Noé pour ne plus détruire la terre par les eaux ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une colombe"
+        },
+        {
+          "id": "b",
+          "text": "Un autel"
+        },
+        {
+          "id": "c",
+          "text": "Un arc-en-ciel"
+        },
+        {
+          "id": "d",
+          "text": "Une étoile"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'arc-en-ciel fut placé dans les nues comme signe de l'alliance.",
+      "bibleReference": "Genèse 9:13",
+      "normalizedRef": "gen9.13",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-009_ht",
+    "data": {
+      "id": "dq-gen-009",
+      "questionText": "Ki eprèv Bondye te mande Abraram pou pwouve lafwa li?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sakrifye pitit li Izak"
+        },
+        {
+          "id": "b",
+          "text": "Kite richès li"
+        },
+        {
+          "id": "c",
+          "text": "Jene 40 jou"
+        },
+        {
+          "id": "d",
+          "text": "Bati yon tanp"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Bondye te mande Abraram ofri pitit li sèl Izak, men li te kanpe li.",
+      "bibleReference": "Jenèz 22",
+      "normalizedRef": "gen22",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-009_fr",
+    "data": {
+      "id": "dq-gen-009",
+      "questionText": "Quelle épreuve Dieu a-t-il demandée à Abraham pour prouver sa foi ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sacrifier son fils Isaac"
+        },
+        {
+          "id": "b",
+          "text": "Quitter ses richesses"
+        },
+        {
+          "id": "c",
+          "text": "Jeûner 40 jours"
+        },
+        {
+          "id": "d",
+          "text": "Bâtir un temple"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Dieu demanda à Abraham d'offrir son fils unique Isaac, mais il l'en empêcha au dernier moment.",
+      "bibleReference": "Genèse 22",
+      "normalizedRef": "gen22",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-010_ht",
+    "data": {
+      "id": "dq-gen-010",
+      "questionText": "Kisa Jakòb te reve pandan li te dòmi sou yon wòch?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèt bèf mèg"
+        },
+        {
+          "id": "b",
+          "text": "Yon eskalye ki rive nan syèl"
+        },
+        {
+          "id": "c",
+          "text": "Zetwal k ap koube"
+        },
+        {
+          "id": "d",
+          "text": "Yon raje k ap boule"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jakòb te reve yon eskalye ki te kòmanse sou tè epi ki te rive nan syèl, ak zanj k ap monte ak desann.",
+      "bibleReference": "Jenèz 28:12",
+      "normalizedRef": "gen28.12",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-010_fr",
+    "data": {
+      "id": "dq-gen-010",
+      "questionText": "Qu'a rêvé Jacob alors qu'il dormait sur une pierre ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sept vaches maigres"
+        },
+        {
+          "id": "b",
+          "text": "Une échelle s'élevant vers le ciel"
+        },
+        {
+          "id": "c",
+          "text": "Des étoiles se prosternant"
+        },
+        {
+          "id": "d",
+          "text": "Un buisson ardent"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacob rêva d'une échelle posée sur la terre et dont le sommet touchait au ciel, avec des anges montant et descendant.",
+      "bibleReference": "Genèse 28:12",
+      "normalizedRef": "gen28.12",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-011_ht",
+    "data": {
+      "id": "dq-gen-011",
+      "questionText": "Pou konbyen moso ajan frè Jozèf yo te vann li?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "20"
+        },
+        {
+          "id": "b",
+          "text": "30"
+        },
+        {
+          "id": "c",
+          "text": "40"
+        },
+        {
+          "id": "d",
+          "text": "50"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Frè Jozèf yo te vann li bay Ismayelit yo pou ven moso ajan.",
+      "bibleReference": "Jenèz 37:28",
+      "normalizedRef": "gen37.28",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-011_fr",
+    "data": {
+      "id": "dq-gen-011",
+      "questionText": "Pour combien de pièces d'argent les frères de Joseph l'ont-ils vendu ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "20"
+        },
+        {
+          "id": "b",
+          "text": "30"
+        },
+        {
+          "id": "c",
+          "text": "40"
+        },
+        {
+          "id": "d",
+          "text": "50"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Les frères de Joseph le vendirent aux Ismaélites pour vingt pièces d'argent.",
+      "bibleReference": "Genèse 37:28",
+      "normalizedRef": "gen37.28",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-012_ht",
+    "data": {
+      "id": "dq-gen-012",
+      "questionText": "Ki madanm Jakòb te renmen plis epi pou ki moun li te travay 14 ane?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lea"
+        },
+        {
+          "id": "b",
+          "text": "Rebeka"
+        },
+        {
+          "id": "c",
+          "text": "Rakyèl"
+        },
+        {
+          "id": "d",
+          "text": "Sara"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jakòb te renmen Rakyèl epi li te sèvi sèt ane pou li, epi ankò sèt lòt ane.",
+      "bibleReference": "Jenèz 29",
+      "normalizedRef": "gen29",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-012_fr",
+    "data": {
+      "id": "dq-gen-012",
+      "questionText": "Quelle femme Jacob aimait-il le plus et pour laquelle il a travaillé 14 ans ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Léa"
+        },
+        {
+          "id": "b",
+          "text": "Rébecca"
+        },
+        {
+          "id": "c",
+          "text": "Rachel"
+        },
+        {
+          "id": "d",
+          "text": "Sara"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jacob aimait Rachel et il servit sept ans pour elle, puis encore sept autres années.",
+      "bibleReference": "Genèse 29",
+      "normalizedRef": "gen29",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-013_ht",
+    "data": {
+      "id": "dq-gen-013",
+      "questionText": "Kisa rèv Farawon an siyifi dapre entèpretasyon Jozèf?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèt ane lagè ak sèt ane lapè"
+        },
+        {
+          "id": "b",
+          "text": "Sèt ane abondans ak sèt ane grangou"
+        },
+        {
+          "id": "c",
+          "text": "Sèt malediksyon sou Ejip"
+        },
+        {
+          "id": "d",
+          "text": "Sèt wa diferan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rèv la te predi sèt ane gwo abondans swivi pa sèt ane grangou ekstrèm.",
+      "bibleReference": "Jenèz 41:29-30",
+      "normalizedRef": "gen41.29-30",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-013_fr",
+    "data": {
+      "id": "dq-gen-013",
+      "questionText": "Que signifie le rêve de Pharaon selon l'interprétation de Joseph ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sept années de guerre et sept années de paix"
+        },
+        {
+          "id": "b",
+          "text": "Sept années d'abondance et sept années de famine"
+        },
+        {
+          "id": "c",
+          "text": "Sept malédictions sur l'Égypte"
+        },
+        {
+          "id": "d",
+          "text": "Sept rois différents"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le rêve prédisait sept années de grande abondance suivies de sept années de famine extrême.",
+      "bibleReference": "Genèse 41:29-30",
+      "normalizedRef": "gen41.29-30",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-014_ht",
+    "data": {
+      "id": "dq-gen-014",
+      "questionText": "Konbyen ane Matisalèm te viv?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "365"
+        },
+        {
+          "id": "b",
+          "text": "930"
+        },
+        {
+          "id": "c",
+          "text": "969"
+        },
+        {
+          "id": "d",
+          "text": "777"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matisalèm te viv nèf san swasant nèf ane, moun ki viv pi lontan nan Bib la.",
+      "bibleReference": "Jenèz 5:27",
+      "normalizedRef": "gen5.27",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-014_fr",
+    "data": {
+      "id": "dq-gen-014",
+      "questionText": "Combien d'années Mathusalem a-t-il vécu ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "365"
+        },
+        {
+          "id": "b",
+          "text": "930"
+        },
+        {
+          "id": "c",
+          "text": "969"
+        },
+        {
+          "id": "d",
+          "text": "777"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mathusalem vécut neuf cent soixante-neuf ans, l'homme ayant vécu le plus longtemps dans la Bible.",
+      "bibleReference": "Genèse 5:27",
+      "normalizedRef": "gen5.27",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-015_ht",
+    "data": {
+      "id": "dq-gen-015",
+      "questionText": "Ki non sèvitè Abraram ki te ale chèche madanm pou Izak?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eliezer"
+        },
+        {
+          "id": "b",
+          "text": "Lot"
+        },
+        {
+          "id": "c",
+          "text": "Ismayelit"
+        },
+        {
+          "id": "d",
+          "text": "Abimelèk"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Tradisyon idantifye li kòm Eliezer, sèvitè Abraram, ki te pati pou Mesopotami pou jwenn Rebeka (Jenèz 24).",
+      "bibleReference": "Jenèz 24:2",
+      "normalizedRef": "gen24.2",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-015_fr",
+    "data": {
+      "id": "dq-gen-015",
+      "questionText": "Quel est le nom du serviteur d'Abraham qui est allé chercher une femme pour Isaac ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Éliézer"
+        },
+        {
+          "id": "b",
+          "text": "Lot"
+        },
+        {
+          "id": "c",
+          "text": "Ismaélite"
+        },
+        {
+          "id": "d",
+          "text": "Abimélec"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La tradition l'identifie comme Éliézer, le serviteur d'Abraham, qui partit pour la Mésopotamie afin de trouver Rébecca (Genèse 24).",
+      "bibleReference": "Genèse 24:2",
+      "normalizedRef": "gen24.2",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-016_ht",
+    "data": {
+      "id": "dq-gen-016",
+      "questionText": "An ki peyi Jakòb ak pitit li yo te kite pou al viv pandan grangou a?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kanaran"
+        },
+        {
+          "id": "b",
+          "text": "Mwa"
+        },
+        {
+          "id": "c",
+          "text": "Ejip"
+        },
+        {
+          "id": "d",
+          "text": "Babilòn"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jakòb ak tout fanmi l (70 moun) te desann ann Ejip kote Jozèf te gouvènè a, pou yo ta ka sove anba grangou a.",
+      "bibleReference": "Jenèz 46:6-7",
+      "normalizedRef": "gen46.6-7",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-016_fr",
+    "data": {
+      "id": "dq-gen-016",
+      "questionText": "Vers quel pays Jacob et ses fils sont-ils partis vivre durant la famine ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Canaan"
+        },
+        {
+          "id": "b",
+          "text": "Moab"
+        },
+        {
+          "id": "c",
+          "text": "Égypte"
+        },
+        {
+          "id": "d",
+          "text": "Babylone"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jacob et toute sa famille (70 personnes) descendirent en Égypte où Joseph était gouverneur, afin d'échapper à la famine.",
+      "bibleReference": "Genèse 46:6-7",
+      "normalizedRef": "gen46.6-7",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-017_ht",
+    "data": {
+      "id": "dq-gen-017",
+      "questionText": "Ki sa Bondye te di Sèpan an kòm pinisyon pou li te twonpe Èv la?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li pa pral gen pye ankò, li pral mache sou vant li"
+        },
+        {
+          "id": "b",
+          "text": "Li pral boule nan dife etènèl"
+        },
+        {
+          "id": "c",
+          "text": "Li pral vin bloke"
+        },
+        {
+          "id": "d",
+          "text": "Li pral pèdi lang li"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"Paske ou te fè sa, maudit ou pami tout bèt... sou vant ou pral mache, ak pousyè ou pral manje\" (Jenèz 3:14).",
+      "bibleReference": "Jenèz 3:14",
+      "normalizedRef": "gen3.14",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-017_fr",
+    "data": {
+      "id": "dq-gen-017",
+      "questionText": "Qu'a dit Dieu au serpent comme punition pour avoir trompé Ève ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il n'aurait plus de pieds et marcherait sur son ventre"
+        },
+        {
+          "id": "b",
+          "text": "Il brûlerait dans un feu éternel"
+        },
+        {
+          "id": "c",
+          "text": "Il resterait muet"
+        },
+        {
+          "id": "d",
+          "text": "Il perdrait sa langue"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "« Puisque tu as fait cela, tu seras maudit entre tout le bétail... tu marcheras sur ton ventre, et tu mangeras de la poussière » (Genèse 3:14).",
+      "bibleReference": "Genèse 3:14",
+      "normalizedRef": "gen3.14",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-018_ht",
+    "data": {
+      "id": "dq-gen-018",
+      "questionText": "Ki premye pawòl Bib la?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Nan koumansman, Bondye te pale\""
+        },
+        {
+          "id": "b",
+          "text": "\"Nan koumansman, Bondye te kreye syèl la ak tè a\""
+        },
+        {
+          "id": "c",
+          "text": "\"Nan koumansman, te gen yon Pawòl\""
+        },
+        {
+          "id": "d",
+          "text": "\"Nan koumansman, Bondye di kite limyè la fèt\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 1:1 — \"Nan koumansman, Bondye te kreye syèl la ak tè a.\" Premye vèsè Bib la etabli: Bondye, kreyasyon, ak koumansman tan an.",
+      "bibleReference": "Jenèz 1:1",
+      "normalizedRef": "gen1.1",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-018_fr",
+    "data": {
+      "id": "dq-gen-018",
+      "questionText": "Quelles sont les premières paroles de la Bible ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Au commencement, Dieu parla »"
+        },
+        {
+          "id": "b",
+          "text": "« Au commencement, Dieu créa les cieux et la terre »"
+        },
+        {
+          "id": "c",
+          "text": "« Au commencement était la Parole »"
+        },
+        {
+          "id": "d",
+          "text": "« Au commencement, Dieu dit : Que la lumière soit »"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 1:1 — « Au commencement, Dieu créa les cieux et la terre. » Le premier verset de la Bible établit : Dieu, la création, et le commencement du temps.",
+      "bibleReference": "Jenèz 1:1",
+      "normalizedRef": "gen1.1",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-019_ht",
+    "data": {
+      "id": "dq-gen-019",
+      "questionText": "Ki sa Bondye te di sou chak jou kreyasyon?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Sa pa bon\""
+        },
+        {
+          "id": "b",
+          "text": "\"Li te bon\""
+        },
+        {
+          "id": "c",
+          "text": "\"Li te pafè\""
+        },
+        {
+          "id": "d",
+          "text": "\"Li te konplè\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 1 — Aprè chak jou kreyasyon, Bondye te wè ke \"li te bon.\" Aprè sizyèm jou, li te wè \"li te bon anpil\" (v.31). Kreyasyon reflete bonte Bondye.",
+      "bibleReference": "Jenèz 1:31",
+      "normalizedRef": "gen1.31",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-019_fr",
+    "data": {
+      "id": "dq-gen-019",
+      "questionText": "Qu'est-ce que Dieu a dit de chaque jour de la création ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Ce n'est pas bon »"
+        },
+        {
+          "id": "b",
+          "text": "« Cela était bon »"
+        },
+        {
+          "id": "c",
+          "text": "« C'était parfait »"
+        },
+        {
+          "id": "d",
+          "text": "« C'était complet »"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 1 — Après chaque jour de création, Dieu vit que « cela était bon. » Après le sixième jour, il vit que « cela était très bon » (v.31). La création reflète la bonté de Dieu.",
+      "bibleReference": "Jenèz 1:31",
+      "normalizedRef": "gen1.31",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-020_ht",
+    "data": {
+      "id": "dq-gen-020",
+      "questionText": "Ki pwomès Bondye te bay Abraram nan Jenèz 12?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li pral viv pou toujou"
+        },
+        {
+          "id": "b",
+          "text": "Li pral tounen yon gwo nasyon, li resevwa benediksyon, non li pral gran, tout fanmi tè a pral beni pa li"
+        },
+        {
+          "id": "c",
+          "text": "Li pral tounen wa Israel"
+        },
+        {
+          "id": "d",
+          "text": "Pitit li yo pral pa janm soufri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 12:1-3 — \"Ale... Mwen pral fè ou tounen yon gwo nasyon... Mwen pral beni moun ki beni ou... epi nan ou tout fanmi tè a pral jwenn benediksyon.\" Alyans Abraramik.",
+      "bibleReference": "Jenèz 12:1-3",
+      "normalizedRef": "gen12.1-3",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-020_fr",
+    "data": {
+      "id": "dq-gen-020",
+      "questionText": "Quelle promesse Dieu a-t-il faite à Abraham dans Genèse 12 ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il vivra pour toujours"
+        },
+        {
+          "id": "b",
+          "text": "Il deviendra une grande nation, il sera béni, son nom sera grand, toutes les familles de la terre seront bénies en lui"
+        },
+        {
+          "id": "c",
+          "text": "Il deviendra le roi d'Israël"
+        },
+        {
+          "id": "d",
+          "text": "Ses enfants ne souffriront jamais"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 12:1-3 — « Va... Je ferai de toi une grande nation... Je bénirai ceux qui te béniront... et toutes les familles de la terre seront bénies en toi. » Alliance abrahamique.",
+      "bibleReference": "Jenèz 12:1-3",
+      "normalizedRef": "gen12.1-3",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-021_ht",
+    "data": {
+      "id": "dq-gen-021",
+      "questionText": "Ki sa siy alyans Bondye bay Noye anvan te ye?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon sèl lune"
+        },
+        {
+          "id": "b",
+          "text": "Yon lakansyèl"
+        },
+        {
+          "id": "c",
+          "text": "Yon etwal espesyal"
+        },
+        {
+          "id": "d",
+          "text": "Yon pyebwa espesyal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 9:12-16 — Bondye bay Noye ak desandan li lakansyèl kòm siy alyans li: \"Mwen pap janm detwi tout chè ak dlo ankò.\" Pwomès étenèl mizèrikòd.",
+      "bibleReference": "Jenèz 9:13",
+      "normalizedRef": "gen9.13",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-021_fr",
+    "data": {
+      "id": "dq-gen-021",
+      "questionText": "Quel était le signe de l'alliance que Dieu a donnée à Noé ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une seule lune"
+        },
+        {
+          "id": "b",
+          "text": "Un arc-en-ciel"
+        },
+        {
+          "id": "c",
+          "text": "Une étoile spéciale"
+        },
+        {
+          "id": "d",
+          "text": "Un arbre spécial"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 9:12-16 — Dieu donne à Noé et à ses descendants l'arc-en-ciel comme signe de son alliance : « Les eaux ne deviendront plus un déluge pour détruire toute chair. » Promesse éternelle de miséricorde.",
+      "bibleReference": "Jenèz 9:13",
+      "normalizedRef": "gen9.13",
+      "normalizedCat": "genesis"
+    }
+  }
+]

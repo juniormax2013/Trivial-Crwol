@@ -1,0 +1,1802 @@
+[
+  {
+    "newId": "dq-sabid-016",
+    "ht": null,
+    "fr": {
+      "id": "dq-sabid-016",
+      "questionText": "Combien y a-t-il de psaumes dans la Bible ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "100"
+        },
+        {
+          "id": "b",
+          "text": "120"
+        },
+        {
+          "id": "c",
+          "text": "150"
+        },
+        {
+          "id": "d",
+          "text": "180"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Psautier contient 150 psaumes, répartis en cinq livres.",
+      "bibleReference": "Psaumes 1-150",
+      "normalizedRef": "psa1-150",
+      "normalizedCat": "sabiduria"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-sabid-017",
+    "ht": null,
+    "fr": {
+      "id": "dq-sabid-017",
+      "questionText": "Qui est le personnage central du livre de Job ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un roi d'Israël"
+        },
+        {
+          "id": "b",
+          "text": "Un prophète d'Édom"
+        },
+        {
+          "id": "c",
+          "text": "Un homme juste éprouvé par la souffrance"
+        },
+        {
+          "id": "d",
+          "text": "Un prêtre du temple"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Job était un homme intègre et droit que Dieu permit à Satan d'éprouver (Job 1:1).",
+      "bibleReference": "Job 1:1",
+      "normalizedRef": "job1.1",
+      "normalizedCat": "sabiduria"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-sabid-018",
+    "ht": null,
+    "fr": {
+      "id": "dq-sabid-018",
+      "questionText": "Combien de chapitres comporte le livre des Proverbes ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "28"
+        },
+        {
+          "id": "c",
+          "text": "31"
+        },
+        {
+          "id": "d",
+          "text": "36"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le livre des Proverbes contient 31 chapitres, se terminant par l'éloge de la femme vertueuse.",
+      "bibleReference": "Proverbes 31",
+      "normalizedRef": "pro31",
+      "normalizedCat": "sabiduria"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-sabid-019",
+    "ht": null,
+    "fr": {
+      "id": "dq-sabid-019",
+      "questionText": "Quel psaume est une acrostiche complète utilisant les 22 lettres de l'alphabet hébreu ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 119"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Psaume 119 est le plus long chapitre de la Bible et une acrostiche hébraïque en 22 sections de 8 versets.",
+      "bibleReference": "Psaumes 119",
+      "normalizedRef": "psa119",
+      "normalizedCat": "sabiduria"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-sabid-020",
+    "ht": null,
+    "fr": {
+      "id": "dq-sabid-020",
+      "questionText": "Lequel de ces livres est également appelé « Cantique des Cantiques de Salomon » ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Qohélet"
+        },
+        {
+          "id": "b",
+          "text": "Shir HaShirim"
+        },
+        {
+          "id": "c",
+          "text": "Tehillim"
+        },
+        {
+          "id": "d",
+          "text": "Mishlei"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Shir HaShirim » est le nom hébreu du Cantique des Cantiques (Cantique 1:1).",
+      "bibleReference": "Cantique 1:1",
+      "normalizedRef": "sng1.1",
+      "normalizedCat": "sabiduria"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-sabid-021",
+    "ht": null,
+    "fr": {
+      "id": "dq-sabid-021",
+      "questionText": "Dans quel psaume David confesse-t-il son péché avec Bath-Schéba ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 51"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 73"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 88"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 51 (Miserere) est la prière de repentir de David après que Nathan lui eut dénoncé son péché.",
+      "bibleReference": "Psaumes 51:1",
+      "normalizedRef": "psa51.1",
+      "normalizedCat": "sabiduria"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-sabid-022",
+    "ht": null,
+    "fr": {
+      "id": "dq-sabid-022",
+      "questionText": "Quelle créature gigantesque est décrite aux chapitres 40-41 de Job ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Béhémoth et Léviathan"
+        },
+        {
+          "id": "b",
+          "text": "Dragon et Serpent"
+        },
+        {
+          "id": "c",
+          "text": "Aigle et Lion"
+        },
+        {
+          "id": "d",
+          "text": "Taureau et Ours"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Béhémoth (ch.40) et Léviathan (ch.41) illustrent la puissance souveraine de Dieu dans la création (Job 40-41).",
+      "bibleReference": "Job 40-41",
+      "normalizedRef": "job40-41",
+      "normalizedCat": "sabiduria"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-sabid-023",
+    "ht": null,
+    "fr": {
+      "id": "dq-sabid-023",
+      "questionText": "Proverbes 31 se termine par la description d'une femme vertueuse. Quel terme hébreu la désigne ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Isha Qadosha"
+        },
+        {
+          "id": "b",
+          "text": "Éshet Hayil"
+        },
+        {
+          "id": "c",
+          "text": "Almah Tovah"
+        },
+        {
+          "id": "d",
+          "text": "Geveret Shalom"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Éshet Hayil » (femme de valeur/vaillante) est l'expression hébraïque de Proverbes 31:10.",
+      "bibleReference": "Proverbes 31:10",
+      "normalizedRef": "pro31.10",
+      "normalizedCat": "sabiduria"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-pmay-024",
+    "ht": null,
+    "fr": {
+      "id": "dq-pmay-024",
+      "questionText": "Dans quelle fosse Daniel fut-il jeté pour avoir prié Dieu ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une prison"
+        },
+        {
+          "id": "b",
+          "text": "Une fosse aux lions"
+        },
+        {
+          "id": "c",
+          "text": "Une fournaise ardente"
+        },
+        {
+          "id": "d",
+          "text": "Un puits"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Daniel fut jeté dans la fosse aux lions pour avoir refusé d'arrêter de prier Dieu (Daniel 6).",
+      "bibleReference": "Daniel 6:16",
+      "normalizedRef": "dan6.16",
+      "normalizedCat": "profetas-mayores"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-pmay-025",
+    "ht": null,
+    "fr": {
+      "id": "dq-pmay-025",
+      "questionText": "Quel livre Jérémie a-t-il également écrit en dehors du livre qui porte son nom ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les Psaumes"
+        },
+        {
+          "id": "b",
+          "text": "Les Lamentations"
+        },
+        {
+          "id": "c",
+          "text": "L'Ecclésiaste"
+        },
+        {
+          "id": "d",
+          "text": "Les Proverbes"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La tradition attribue à Jérémie le livre des Lamentations sur la destruction de Jérusalem.",
+      "bibleReference": "Lamentations 1:1",
+      "normalizedRef": "lam1.1",
+      "normalizedCat": "profetas-mayores"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-pmay-026",
+    "ht": null,
+    "fr": {
+      "id": "dq-pmay-026",
+      "questionText": "Combien d'amis de Shadrach, Méschac et Abed-Nego furent jetés dans la fournaise ardente ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Shadrach, Méschac et Abed-Nego — trois compagnons de Daniel — furent jetés dans la fournaise (Daniel 3:19-20).",
+      "bibleReference": "Daniel 3:19-23",
+      "normalizedRef": "dan3.19-23",
+      "normalizedCat": "profetas-mayores"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-pmay-027",
+    "ht": null,
+    "fr": {
+      "id": "dq-pmay-027",
+      "questionText": "Quel était le nom du scribe de Jérémie qui écrivit ses dictées ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esdras"
+        },
+        {
+          "id": "b",
+          "text": "Baruch"
+        },
+        {
+          "id": "c",
+          "text": "Hananéel"
+        },
+        {
+          "id": "d",
+          "text": "Pashur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Baruch, fils de Nériya, était le secrétaire fidèle de Jérémie (Jérémie 36:4).",
+      "bibleReference": "Jérémie 36:4",
+      "normalizedRef": "jer36.4",
+      "normalizedCat": "profetas-mayores"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-pmay-028",
+    "ht": null,
+    "fr": {
+      "id": "dq-pmay-028",
+      "questionText": "En quoi consistait la célèbre vision du « char de Dieu » au chapitre 1 d'Ézéchiel ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un char d'or tiré par des anges"
+        },
+        {
+          "id": "b",
+          "text": "Des roues dans des roues avec des créatures vivantes"
+        },
+        {
+          "id": "c",
+          "text": "Un trône de feu dans le ciel"
+        },
+        {
+          "id": "d",
+          "text": "Un aigle géant portant l'arche"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ézéchiel vit des créatures vivantes et des roues dans des roues (ophanim) — la merkabah (Ézéchiel 1).",
+      "bibleReference": "Ézéchiel 1:4-21",
+      "normalizedRef": "eze1.4-21",
+      "normalizedCat": "profetas-mayores"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-pmay-029",
+    "ht": null,
+    "fr": {
+      "id": "dq-pmay-029",
+      "questionText": "Dans la statue de Daniel 2, de quoi étaient faits les pieds du colosse ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "D'argent et de bronze"
+        },
+        {
+          "id": "b",
+          "text": "D'or et d'argent"
+        },
+        {
+          "id": "c",
+          "text": "De fer et d'argile"
+        },
+        {
+          "id": "d",
+          "text": "De cuivre et d'étain"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les pieds du colosse étaient de fer mêlé d'argile, représentant un royaume divisé (Daniel 2:33,41).",
+      "bibleReference": "Daniel 2:33",
+      "normalizedRef": "dan2.33",
+      "normalizedCat": "profetas-mayores"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-pmay-030",
+    "ht": null,
+    "fr": {
+      "id": "dq-pmay-030",
+      "questionText": "La prophétie des « 70 semaines » se trouve dans quel chapitre de Daniel ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Daniel 2"
+        },
+        {
+          "id": "b",
+          "text": "Daniel 7"
+        },
+        {
+          "id": "c",
+          "text": "Daniel 9"
+        },
+        {
+          "id": "d",
+          "text": "Daniel 12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Daniel 9:24-27 contient la prophétie des 70 semaines, point central de la chronologie messianique.",
+      "bibleReference": "Daniel 9:24-27",
+      "normalizedRef": "dan9.24-27",
+      "normalizedCat": "profetas-mayores"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-pmay-031",
+    "ht": null,
+    "fr": {
+      "id": "dq-pmay-031",
+      "questionText": "Quel terme hébreu désigne la section d'Ésaïe 40-55 souvent appelée « le Deutéro-Ésaïe » par les critiques ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Livre du Consolateur"
+        },
+        {
+          "id": "b",
+          "text": "Livre du Serviteur"
+        },
+        {
+          "id": "c",
+          "text": "Livre des Oracles"
+        },
+        {
+          "id": "d",
+          "text": "Livre de la Gloire"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ésaïe 40 s'ouvre par « Consolez, consolez mon peuple » — d'où le surnom « Livre du Consolateur » pour ch.40-55.",
+      "bibleReference": "Ésaïe 40:1",
+      "normalizedRef": "isa40.1",
+      "normalizedCat": "profetas-mayores"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-pmay-032",
+    "ht": null,
+    "fr": {
+      "id": "dq-pmay-032",
+      "questionText": "Ézéchiel 28 prononce un oracle contre le roi de Tyr souvent interprété comme la chute de quel être ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adam"
+        },
+        {
+          "id": "b",
+          "text": "Nemrod"
+        },
+        {
+          "id": "c",
+          "text": "Satan"
+        },
+        {
+          "id": "d",
+          "text": "L'Antéchrist"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ézéchiel 28:12-17 dépasse le roi humain et décrit un être céleste déchu, que beaucoup identifient à Satan.",
+      "bibleReference": "Ézéchiel 28:12-17",
+      "normalizedRef": "eze28.12-17",
+      "normalizedCat": "profetas-mayores"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-pmay-033",
+    "ht": null,
+    "fr": {
+      "id": "dq-pmay-033",
+      "questionText": "Jérémie est surnommé le « prophète en larmes » — quelle expression illustre le mieux cette image ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il pleurait lors de chaque miracle"
+        },
+        {
+          "id": "b",
+          "text": "Il pleurait pour son peuple rebelle et Jérusalem détruite"
+        },
+        {
+          "id": "c",
+          "text": "Il pleurait dans ses visions nocturnes"
+        },
+        {
+          "id": "d",
+          "text": "Il pleurait à cause de ses propres péchés"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jérémie supplia son peuple, souffrit la persécution et pleura la ruine de Jérusalem dans les Lamentations (Lam 1:16).",
+      "bibleReference": "Lamentations 1:16",
+      "normalizedRef": "lam1.16",
+      "normalizedCat": "profetas-mayores"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-pmay-034",
+    "ht": null,
+    "fr": {
+      "id": "dq-pmay-034",
+      "questionText": "Quel objet céleste Ézéchiel décrit-il tournant autour du trône de Dieu dans ses visions ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Grands Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des étoiles filantes"
+        },
+        {
+          "id": "b",
+          "text": "Des roues couvertes d'yeux"
+        },
+        {
+          "id": "c",
+          "text": "Des nuages de feu"
+        },
+        {
+          "id": "d",
+          "text": "Des sphères de cristal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les « ophanim » — roues couvertes d'yeux tout autour — entourent le char de la gloire divine (Ézéchiel 1:18; 10:12).",
+      "bibleReference": "Ézéchiel 1:18",
+      "normalizedRef": "eze1.18",
+      "normalizedCat": "profetas-mayores"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-hech-009",
+    "ht": null,
+    "fr": {
+      "id": "dq-hech-009",
+      "questionText": "Qui écrivit le livre des Actes des Apôtres ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paul"
+        },
+        {
+          "id": "b",
+          "text": "Pierre"
+        },
+        {
+          "id": "c",
+          "text": "Luc"
+        },
+        {
+          "id": "d",
+          "text": "Jean"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le livre des Actes est le second volume de Luc — adressé à Théophile comme l'Évangile de Luc (Actes 1:1; Luc 1:3).",
+      "bibleReference": "Actes 1:1",
+      "normalizedRef": "act1.1",
+      "normalizedCat": "hechos"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-hech-010",
+    "ht": null,
+    "fr": {
+      "id": "dq-hech-010",
+      "questionText": "Quel miracle accomplit Pierre à la Belle Porte du Temple (Actes 3) ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il guérit un aveugle de naissance"
+        },
+        {
+          "id": "b",
+          "text": "Il ressuscita un mort"
+        },
+        {
+          "id": "c",
+          "text": "Il guérit un boiteux de naissance qui marchait, sautait et louait Dieu"
+        },
+        {
+          "id": "d",
+          "text": "Il nourrit une multitude affamée"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pierre et Jean guérirent au nom de Jésus un homme boiteux de naissance devant la Belle Porte du Temple. Il bondit, marcha et loua Dieu (Actes 3:6-8).",
+      "bibleReference": "Actes 3:6-8",
+      "normalizedRef": "act3.6-8",
+      "normalizedCat": "hechos"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-hech-011",
+    "ht": null,
+    "fr": {
+      "id": "dq-hech-011",
+      "questionText": "Qu'est-ce que la conversion de Paul sur le chemin de Damas démontre sur la mission de l'Église ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Que Dieu n'appelle que des gens parfaits"
+        },
+        {
+          "id": "b",
+          "text": "Que Dieu peut transformer les pires persécuteurs en apôtres — sa grâce est souveraine"
+        },
+        {
+          "id": "c",
+          "text": "Que la persécution est nécessaire pour la croissance de l'Église"
+        },
+        {
+          "id": "d",
+          "text": "Que Jérusalem reste le centre de la mission mondiale"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul, grand persécuteur de l'Église, fut transformé par une rencontre avec le Christ ressuscité — devenant l'apôtre des nations, démontrant la souveraineté de la grâce (Actes 9:1-20; Galates 1:13-16).",
+      "bibleReference": "Actes 9:1-20",
+      "normalizedRef": "act9.1-20",
+      "normalizedCat": "hechos"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-hech-012",
+    "ht": null,
+    "fr": {
+      "id": "dq-hech-012",
+      "questionText": "Quelle fut la décision du concile de Jérusalem concernant les gentils croyants (Actes 15) ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les gentils devaient se circoncire et garder toute la Loi"
+        },
+        {
+          "id": "b",
+          "text": "Les gentils n'étaient pas obligés de se circoncire — seulement s'abstenir de certaines pratiques idolâtres"
+        },
+        {
+          "id": "c",
+          "text": "Les gentils devaient d'abord devenir prosélytes juifs"
+        },
+        {
+          "id": "d",
+          "text": "La circoncision était recommandée mais pas obligatoire"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le concile décida : les gentils ne doivent pas se circoncire, mais s'abstenir des viandes sacrifiées aux idoles, du sang, des bêtes étouffées et de l'immoralité (Actes 15:19-20).",
+      "bibleReference": "Actes 15:19-20",
+      "normalizedRef": "act15.19-20",
+      "normalizedCat": "hechos"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-hech-013",
+    "ht": null,
+    "fr": {
+      "id": "dq-hech-013",
+      "questionText": "Quel miracle se produisit lors de l'emprisonnement de Paul et Silas à Philippes ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un ange leur apporta de la nourriture"
+        },
+        {
+          "id": "b",
+          "text": "Un tremblement de terre ouvrit les portes et délia leurs chaînes — le geôlier se convertit"
+        },
+        {
+          "id": "c",
+          "text": "Ils furent rendus invisibles et s'échappèrent"
+        },
+        {
+          "id": "d",
+          "text": "La foule se retourna en leur faveur et les libéra"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Un grand tremblement de terre ouvrit les portes. Le geôlier, prêt à se tuer, se convertit avec sa maison après la réponse de Paul : « Crois au Seigneur Jésus » (Actes 16:26-34).",
+      "bibleReference": "Actes 16:26-34",
+      "normalizedRef": "act16.26-34",
+      "normalizedCat": "hechos"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-hech-014",
+    "ht": null,
+    "fr": {
+      "id": "dq-hech-014",
+      "questionText": "Comment se termina le livre des Actes et quelle est sa signification théologique ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Avec la mort de Paul à Rome"
+        },
+        {
+          "id": "b",
+          "text": "Avec Paul prêchant librement à Rome — l'Évangile non enchaîné atteignant la capitale de l'Empire"
+        },
+        {
+          "id": "c",
+          "text": "Avec le retour des apôtres à Jérusalem"
+        },
+        {
+          "id": "d",
+          "text": "Avec la destruction de Jérusalem en 70 ap. J.-C."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les Actes s'ouvrent à Jérusalem et se ferment à Rome — Paul prêche sans entrave dans la capitale de l'Empire : « La Parole de Dieu n'est pas enchaînée » (Actes 28:30-31; 2 Timothée 2:9).",
+      "bibleReference": "Actes 28:30-31",
+      "normalizedRef": "act28.30-31",
+      "normalizedCat": "hechos"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-hech-015",
+    "ht": null,
+    "fr": {
+      "id": "dq-hech-015",
+      "questionText": "Quel conflit théologique entre Pierre et Paul à Antioche (Galates 2) illustre la nécessité du concile de Jérusalem ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre refusait de baptiser les gentils"
+        },
+        {
+          "id": "b",
+          "text": "Pierre se sépara des gentils quand des gens de Jacques arrivèrent — Paul le reprit publiquement pour son manque d'intégrité évangélique"
+        },
+        {
+          "id": "c",
+          "text": "Pierre insistait pour que Paul se circoncise"
+        },
+        {
+          "id": "d",
+          "text": "Pierre refusait de reconnaître l'apostolat de Paul"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pierre mangeait avec les gentils puis s'en sépara par crainte des circoncis. Paul le reprit publiquement : sa conduite ne correspondait pas à la vérité de l'Évangile — la justification par la foi (Galates 2:11-14).",
+      "bibleReference": "Galates 2:11-14",
+      "normalizedRef": "gal2.11-14",
+      "normalizedCat": "hechos"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-hech-016",
+    "ht": null,
+    "fr": {
+      "id": "dq-hech-016",
+      "questionText": "Comment l'expansion missionnaire dans les Actes illustre-t-elle le rôle du Saint-Esprit ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Esprit valida seulement les miracles apostoliques"
+        },
+        {
+          "id": "b",
+          "text": "L'Esprit est l'agent actif de l'expansion : il envoie, dirige, ouvre des portes et habilite les témoins"
+        },
+        {
+          "id": "c",
+          "text": "L'Esprit limitait la mission aux frontières d'Israël"
+        },
+        {
+          "id": "d",
+          "text": "L'Esprit agissait uniquement à travers les Douze"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Esprit Saint est le protagoniste des Actes : il envoie Philippe (8:29), appelle Paul et Barnabas (13:2), guide les voyages (16:6-7), tombe sur les maisons (10:44) — « Actes de l'Esprit Saint ».",
+      "bibleReference": "Actes 13:2",
+      "normalizedRef": "act13.2",
+      "normalizedCat": "hechos"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-hech-017",
+    "ht": null,
+    "fr": {
+      "id": "dq-hech-017",
+      "questionText": "Quel est le lien entre les Actes 2 (Pentecôte) et Lévitique 23 (Shavouot) ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aucun — la Pentecôte chrétienne est une fête entièrement nouvelle"
+        },
+        {
+          "id": "b",
+          "text": "Shavouot (Pentecôte juive) célébrait le don de la Loi au Sinaï — la Pentecôte chrétienne est le don de l'Esprit qui l'écrit dans les cœurs (Jérémie 31:33)"
+        },
+        {
+          "id": "c",
+          "text": "Les deux fêtes sont célébrées le même jour par hasard calendaire"
+        },
+        {
+          "id": "d",
+          "text": "Shavouot était la fête des prémices ; la Pentecôte annonce la fin des sacrifices"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Shavouot (50 jours après Pessah) célébrait le don de la Torah au Sinaï. La Pentecôte chrétienne, 50 jours après Pâques, est le don de l'Esprit — loi écrite dans les cœurs selon Jérémie 31:33.",
+      "bibleReference": "Jérémie 31:33",
+      "normalizedRef": "jer31.33",
+      "normalizedCat": "hechos"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-vida-016",
+    "ht": null,
+    "fr": {
+      "id": "dq-vida-016",
+      "questionText": "Selon Matthieu 6:33, quelle doit être la priorité absolue du croyant ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prier chaque matin"
+        },
+        {
+          "id": "b",
+          "text": "Chercher premièrement le Royaume de Dieu et sa justice"
+        },
+        {
+          "id": "c",
+          "text": "Lire la Bible chaque jour"
+        },
+        {
+          "id": "d",
+          "text": "Aller à l'Église chaque dimanche"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Cherchez premièrement le Royaume de Dieu et sa justice, et toutes ces choses vous seront données par-dessus » (Matthieu 6:33).",
+      "bibleReference": "Matthieu 6:33",
+      "normalizedRef": "mat6.33",
+      "normalizedCat": "vida-cristiana"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-vida-017",
+    "ht": null,
+    "fr": {
+      "id": "dq-vida-017",
+      "questionText": "Comment Paul décrit-il l'amour dans 1 Corinthiens 13 ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le sentiment le plus puissant de l'homme"
+        },
+        {
+          "id": "b",
+          "text": "Patient, bienveillant, ne cherchant pas son propre intérêt"
+        },
+        {
+          "id": "c",
+          "text": "Une émotion divine réservée aux saints"
+        },
+        {
+          "id": "d",
+          "text": "Le premier don de l'Esprit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 13:4-5 : « L'amour est patient, il est plein de bonté ; l'amour n'est pas envieux... il ne cherche pas son intérêt. »",
+      "bibleReference": "1 Corinthiens 13:4-5",
+      "normalizedRef": "1co13.4-5",
+      "normalizedCat": "vida-cristiana"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-vida-018",
+    "ht": null,
+    "fr": {
+      "id": "dq-vida-018",
+      "questionText": "Que signifie « porter sa croix » selon Luc 9:23 ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Souffrir physiquement pour Dieu"
+        },
+        {
+          "id": "b",
+          "text": "Renoncer à soi-même chaque jour pour suivre Christ"
+        },
+        {
+          "id": "c",
+          "text": "Porter un crucifix comme symbole de foi"
+        },
+        {
+          "id": "d",
+          "text": "Accomplir des actes de pénitence"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Si quelqu'un veut venir après moi, qu'il renonce à lui-même, qu'il se charge chaque jour de sa croix, et qu'il me suive » (Luc 9:23).",
+      "bibleReference": "Luc 9:23",
+      "normalizedRef": "luk9.23",
+      "normalizedCat": "vida-cristiana"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-vida-019",
+    "ht": null,
+    "fr": {
+      "id": "dq-vida-019",
+      "questionText": "Selon Proverbes 3:5-6, comment l'homme doit-il prendre ses décisions ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "En consultant les sages de la communauté"
+        },
+        {
+          "id": "b",
+          "text": "En faisant confiance à l'Éternel de tout son cœur sans s'appuyer sur sa propre intelligence"
+        },
+        {
+          "id": "c",
+          "text": "En jeûnant et en priant avant chaque décision"
+        },
+        {
+          "id": "d",
+          "text": "En lisant les prophètes pour obtenir une direction"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Confie-toi en l'Éternel de tout ton cœur, et ne t'appuie pas sur ta sagesse... il aplanira tes sentiers » (Proverbes 3:5-6).",
+      "bibleReference": "Proverbes 3:5-6",
+      "normalizedRef": "pro3.5-6",
+      "normalizedCat": "vida-cristiana"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-vida-020",
+    "ht": null,
+    "fr": {
+      "id": "dq-vida-020",
+      "questionText": "Que promets Philippiens 4:13 au croyant ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La richesse pour ceux qui croient"
+        },
+        {
+          "id": "b",
+          "text": "Je puis tout par celui qui me fortifie"
+        },
+        {
+          "id": "c",
+          "text": "Dieu exaucera toutes les prières"
+        },
+        {
+          "id": "d",
+          "text": "La guérison est pour tous les croyants"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Je puis tout par celui qui me fortifie » (Philippiens 4:13) — affirmation de la suffisance de Christ dans toute circonstance.",
+      "bibleReference": "Philippiens 4:13",
+      "normalizedRef": "phi4.13",
+      "normalizedCat": "vida-cristiana"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-vida-021",
+    "ht": null,
+    "fr": {
+      "id": "dq-vida-021",
+      "questionText": "Que signifie l'expression « être dans le monde sans être du monde » (Jean 17:15-16) ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le croyant doit s'isoler de la société"
+        },
+        {
+          "id": "b",
+          "text": "Le croyant vit dans la société mais ses valeurs, identité et loyauté sont enracinées dans le Royaume de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Le croyant ne participe à aucune activité culturelle"
+        },
+        {
+          "id": "d",
+          "text": "Le croyant attend passivement le retour de Christ"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus ne demande pas de retirer ses disciples du monde mais de les garder du malin — ils restent missionnaires dans le monde sans adopter ses valeurs (Jean 17:15-18).",
+      "bibleReference": "Jean 17:15-18",
+      "normalizedRef": "joh17.15-18",
+      "normalizedCat": "vida-cristiana"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-vida-022",
+    "ht": null,
+    "fr": {
+      "id": "dq-vida-022",
+      "questionText": "Que signifie la « communion des saints » dans la vie chrétienne quotidienne ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La prière aux saints décédés pour leur intercession"
+        },
+        {
+          "id": "b",
+          "text": "Le partage de vie, de foi et de ressources entre croyants — koinonia"
+        },
+        {
+          "id": "c",
+          "text": "La célébration de la messe chaque dimanche"
+        },
+        {
+          "id": "d",
+          "text": "La reconnaissance officielle des saints par l'Église"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La communion des saints (koinonia) : partage de la vie en Christ — prière mutuelle, soutien matériel, encouragement — comme pratiqué dans l'Église primitive (Actes 2:42-47).",
+      "bibleReference": "Actes 2:42-47",
+      "normalizedRef": "act2.42-47",
+      "normalizedCat": "vida-cristiana"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-vida-023",
+    "ht": null,
+    "fr": {
+      "id": "dq-vida-023",
+      "questionText": "Comment le croyant doit-il répondre à la souffrance selon Romains 5:3-5 ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "En demandant immédiatement la délivrance divine"
+        },
+        {
+          "id": "b",
+          "text": "Se glorifier dans les tribulations — elles produisent patience, caractère éprouvé et espérance"
+        },
+        {
+          "id": "c",
+          "text": "En acceptant stoïquement sans émotion"
+        },
+        {
+          "id": "d",
+          "text": "En cherchant à comprendre le péché qui causa la souffrance"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Nous nous glorifions même dans les tribulations, sachant que la tribulation produit la patience, la patience la vertu éprouvée... et l'espérance ne trompe pas » (Romains 5:3-5).",
+      "bibleReference": "Romains 5:3-5",
+      "normalizedRef": "rom5.3-5",
+      "normalizedCat": "vida-cristiana"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-vida-024",
+    "ht": null,
+    "fr": {
+      "id": "dq-vida-024",
+      "questionText": "Qu'est-ce que la « guerre spirituelle » selon Éphésiens 6:12 ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un conflit physique entre croyants et non-croyants"
+        },
+        {
+          "id": "b",
+          "text": "Un combat spirituel contre les dominations, autorités et puissances spirituelles mauvaises"
+        },
+        {
+          "id": "c",
+          "text": "Une métaphore pour les conflits internes du péché"
+        },
+        {
+          "id": "d",
+          "text": "La lutte contre les persécuteurs de l'Église"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Notre combat n'est pas contre la chair et le sang, mais contre les dominations, les autorités, contre les princes des ténèbres » (Éphésiens 6:12) — réalité de la sphère spirituelle.",
+      "bibleReference": "Éphésiens 6:12",
+      "normalizedRef": "eph6.12",
+      "normalizedCat": "vida-cristiana"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-vida-025",
+    "ht": null,
+    "fr": {
+      "id": "dq-vida-025",
+      "questionText": "Quelle est la relation entre la grâce divine et l'effort humain dans la sanctification ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La grâce remplace totalement l'effort humain"
+        },
+        {
+          "id": "b",
+          "text": "Dieu œuvre en nous vouloir et agir — le croyant coopère en travaillant à son salut avec crainte"
+        },
+        {
+          "id": "c",
+          "text": "L'effort humain seul détermine la croissance spirituelle"
+        },
+        {
+          "id": "d",
+          "text": "La grâce et l'effort sont en opposition irréductible"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Travaillez à votre salut avec crainte et tremblement ; car c'est Dieu qui produit en vous le vouloir et le faire » (Philippiens 2:12-13) — synergie entre la grâce divine et l'effort humain.",
+      "bibleReference": "Philippiens 2:12-13",
+      "normalizedRef": "phi2.12-13",
+      "normalizedCat": "vida-cristiana"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-vida-026",
+    "ht": null,
+    "fr": {
+      "id": "dq-vida-026",
+      "questionText": "Comment Hébreux 10:25 encourage-t-il le croyant concernant la vie d'Église ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Église n'est pas indispensable si tu pries chez toi"
+        },
+        {
+          "id": "b",
+          "text": "Ne pas abandonner le rassemblement des croyants mais s'exhorter mutuellement"
+        },
+        {
+          "id": "c",
+          "text": "Assister à l'Église uniquement pour les grandes fêtes"
+        },
+        {
+          "id": "d",
+          "text": "La communauté virtuelle remplace valablement la communauté physique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« N'abandonnons pas notre réunion, comme quelques-uns en ont l'habitude ; mais exhortons-nous mutuellement, et cela d'autant plus que vous voyez s'approcher le jour » (Hébreux 10:25).",
+      "bibleReference": "Hébreux 10:25",
+      "normalizedRef": "heb10.25",
+      "normalizedCat": "vida-cristiana"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-ley-006",
+    "ht": null,
+    "fr": {
+      "id": "dq-ley-006",
+      "questionText": "Quel est le seul commandement accompagné d'une promesse selon Éphésiens 6:2-3 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tu ne tueras point"
+        },
+        {
+          "id": "b",
+          "text": "Tu n'auras pas d'autres dieux"
+        },
+        {
+          "id": "c",
+          "text": "Honore ton père et ta mère"
+        },
+        {
+          "id": "d",
+          "text": "Tu ne commettras pas d'adultère"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Honore ton père et ta mère — c'est le premier commandement avec une promesse — afin que tu sois heureux et que tu vives longtemps » (Éphésiens 6:2-3).",
+      "bibleReference": "Éphésiens 6:2-3",
+      "normalizedRef": "eph6.2-3",
+      "normalizedCat": "ley-moral"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-ley-007",
+    "ht": null,
+    "fr": {
+      "id": "dq-ley-007",
+      "questionText": "Que dit Jésus dans le Sermon sur la Montagne concernant la colère (Matthieu 5:22) ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La colère n'est un péché que si elle mène à la violence"
+        },
+        {
+          "id": "b",
+          "text": "Celui qui se met en colère contre son frère sans motif est passible de jugement"
+        },
+        {
+          "id": "c",
+          "text": "La colère juste est toujours permise"
+        },
+        {
+          "id": "d",
+          "text": "La colère n'est pas mentionnée dans ce contexte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus approfondit le commandement « Tu ne tueras point » : la colère sans motif est déjà un péché méritant jugement (Matthieu 5:22).",
+      "bibleReference": "Matthieu 5:22",
+      "normalizedRef": "mat5.22",
+      "normalizedCat": "ley-moral"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-ley-008",
+    "ht": null,
+    "fr": {
+      "id": "dq-ley-008",
+      "questionText": "Comment Paul résume-t-il toute la Loi dans Romains 13:10 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Loi est un fardeau inutile pour les gentils"
+        },
+        {
+          "id": "b",
+          "text": "L'amour est l'accomplissement de la Loi"
+        },
+        {
+          "id": "c",
+          "text": "La Loi s'accomplit par la foi seule"
+        },
+        {
+          "id": "d",
+          "text": "La Loi est remplacée par la grâce"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« L'amour ne fait point de mal au prochain. L'amour est donc l'accomplissement de la Loi » (Romains 13:10).",
+      "bibleReference": "Romains 13:10",
+      "normalizedRef": "rom13.10",
+      "normalizedCat": "ley-moral"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-ley-009",
+    "ht": null,
+    "fr": {
+      "id": "dq-ley-009",
+      "questionText": "Que dit la Bible sur le mensonge dans Proverbes 12:22 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un petit mensonge est parfois nécessaire"
+        },
+        {
+          "id": "b",
+          "text": "Les lèvres mensongères sont en abomination à l'Éternel"
+        },
+        {
+          "id": "c",
+          "text": "Dieu pardonne facilement les mensonges involontaires"
+        },
+        {
+          "id": "d",
+          "text": "Le mensonge n'est péché que s'il blesse quelqu'un"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Les lèvres mensongères sont en abomination à l'Éternel, mais ceux qui agissent fidèlement lui sont agréables » (Proverbes 12:22).",
+      "bibleReference": "Proverbes 12:22",
+      "normalizedRef": "pro12.22",
+      "normalizedCat": "ley-moral"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-ley-010",
+    "ht": null,
+    "fr": {
+      "id": "dq-ley-010",
+      "questionText": "Selon Matthieu 5:27-28, Jésus élargit le 7e commandement à quoi ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'adultère incluant aussi le divorce"
+        },
+        {
+          "id": "b",
+          "text": "Quiconque regarde une femme avec convoitise a déjà commis l'adultère dans son cœur"
+        },
+        {
+          "id": "c",
+          "text": "Toute relation hors mariage est proscrite"
+        },
+        {
+          "id": "d",
+          "text": "L'adultère inclut aussi les pensées d'argent"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus internalise le commandement : « Quiconque regarde une femme pour la convoiter a déjà commis un adultère avec elle dans son cœur » (Matthieu 5:28).",
+      "bibleReference": "Matthieu 5:27-28",
+      "normalizedRef": "mat5.27-28",
+      "normalizedCat": "ley-moral"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-ley-011",
+    "ht": null,
+    "fr": {
+      "id": "dq-ley-011",
+      "questionText": "Quel est l'usage théologique de la Loi selon Luther (usus elenchticus) ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Loi sauve ceux qui l'observent parfaitement"
+        },
+        {
+          "id": "b",
+          "text": "La Loi révèle le péché et conduit à Christ pour la grâce"
+        },
+        {
+          "id": "c",
+          "text": "La Loi n'est utile qu'aux Juifs"
+        },
+        {
+          "id": "d",
+          "text": "La Loi est remplacée entièrement par l'amour du NT"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul dit : « Par la Loi vient la connaissance du péché » (Romains 3:20) et « La Loi a été notre pédagogue pour nous conduire à Christ » (Galates 3:24).",
+      "bibleReference": "Galates 3:24",
+      "normalizedRef": "gal3.24",
+      "normalizedCat": "ley-moral"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-ley-012",
+    "ht": null,
+    "fr": {
+      "id": "dq-ley-012",
+      "questionText": "Comment Jésus réinterprète-t-il la Loi du talion dans Matthieu 5:38-39 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il la confirme comme juste et applicable aujourd'hui"
+        },
+        {
+          "id": "b",
+          "text": "Il l'élève au non-résistance — tendre l'autre joue et aller au-delà des exigences"
+        },
+        {
+          "id": "c",
+          "text": "Il la remplace par un système de compensations financières"
+        },
+        {
+          "id": "d",
+          "text": "Il dit que la vengeance appartient aux magistrats seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus : « Moi, je vous dis de ne pas résister au méchant... si quelqu'un te frappe sur la joue droite, présente-lui aussi l'autre » (Matthieu 5:39) — radicalité de l'amour.",
+      "bibleReference": "Matthieu 5:38-39",
+      "normalizedRef": "mat5.38-39",
+      "normalizedCat": "ley-moral"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-ley-013",
+    "ht": null,
+    "fr": {
+      "id": "dq-ley-013",
+      "questionText": "Que dit Lévitique 19:18 sur le rapport au prochain et comment Jésus le reprend-il ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aime ton prochain juif mais méfie-toi de l'étranger"
+        },
+        {
+          "id": "b",
+          "text": "Tu aimeras ton prochain comme toi-même — Jésus l'étend aux ennemis et aux étrangers"
+        },
+        {
+          "id": "c",
+          "text": "Ne te venge pas et garde ta rancœur en silence"
+        },
+        {
+          "id": "d",
+          "text": "Aide ton prochain en échange d'aide réciproque"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lévitique 19:18 : « Tu aimeras ton prochain comme toi-même. » Jésus l'élargit : « Aimez vos ennemis » (Matthieu 5:44) et définit le prochain dans la parabole du Bon Samaritain (Luc 10:29-37).",
+      "bibleReference": "Lévitique 19:18",
+      "normalizedRef": "lev19.18",
+      "normalizedCat": "ley-moral"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-ley-014",
+    "ht": null,
+    "fr": {
+      "id": "dq-ley-014",
+      "questionText": "Quelle est la distinction entre loi cérémonielle, civile et morale dans la théologie réformée ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Toutes les lois sont permanentes pour les chrétiens"
+        },
+        {
+          "id": "b",
+          "text": "La loi cérémonielle (sacrifices, purifications) est accomplie en Christ ; la loi civile concernait Israël ; la loi morale reste universellement valide"
+        },
+        {
+          "id": "c",
+          "text": "Aucune loi de l'AT n'est applicable aux chrétiens"
+        },
+        {
+          "id": "d",
+          "text": "Seule la loi civile a été abolie à la croix"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Théologie réformée : (1) Loi cérémonielle accomplie en Christ (Hébreux 10:1). (2) Loi civile d'Israël ne lie pas les nations. (3) Loi morale (Décalogue) reflète le caractère de Dieu — permanente.",
+      "bibleReference": "Matthieu 5:17",
+      "normalizedRef": "mat5.17",
+      "normalizedCat": "ley-moral"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-ley-015",
+    "ht": null,
+    "fr": {
+      "id": "dq-ley-015",
+      "questionText": "Comment Jacques 2:10 décrit-il la transgression de la Loi ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les péchés sont classés par gravité"
+        },
+        {
+          "id": "b",
+          "text": "Celui qui observe toute la Loi mais pèche en un seul point est coupable envers toute la Loi"
+        },
+        {
+          "id": "c",
+          "text": "La Loi peut être partiellement observée pour plaire à Dieu"
+        },
+        {
+          "id": "d",
+          "text": "Les péchés d'ignorance ne comptent pas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Celui qui observe toute la loi, mais qui pèche contre un seul commandement, devient coupable à l'égard de tous » (Jacques 2:10) — la Loi est une unité indivisible.",
+      "bibleReference": "Jacques 2:10",
+      "normalizedRef": "jam2.10",
+      "normalizedCat": "ley-moral"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-ley-016",
+    "ht": null,
+    "fr": {
+      "id": "dq-ley-016",
+      "questionText": "Que signifie le concept biblique de « conscience » (syneidesis en grec) dans la prise de décision morale ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un organe physique du cerveau qui détecte le péché"
+        },
+        {
+          "id": "b",
+          "text": "La conscience morale interne qui témoigne du bien et du mal — Paul dit que même les gentils ont la loi inscrite dans leur cœur"
+        },
+        {
+          "id": "c",
+          "text": "Uniquement la voix du Saint-Esprit dans les croyants"
+        },
+        {
+          "id": "d",
+          "text": "L'opinion collective de la communauté chrétienne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul : les gentils « montrent que l'œuvre de la loi est écrite dans leur cœur, leur conscience en témoignant » (Romains 2:15). La conscience peut être éduquée ou callée selon l'exposition à la vérité.",
+      "bibleReference": "Romains 2:15",
+      "normalizedRef": "rom2.15",
+      "normalizedCat": "ley-moral"
+    },
+    "matchType": "fr_only"
+  }
+]

@@ -1,0 +1,427 @@
+[
+  {
+    "id": "dq-lug-008",
+    "questionText": "Dans quel pays Joseph (fils de Jacob) a-t-il servi comme gouverneur ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Canaan" },
+      { "id": "b", "text": "Égypte" },
+      { "id": "c", "text": "Babylone" },
+      { "id": "d", "text": "Syrie" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Joseph fut vendu comme esclave en Égypte, et grâce à l'interprétation des rêves de Pharaon, il devint gouverneur de l'Égypte (Genèse 41:40-41).",
+    "bibleReference": "Genèse 41:40-41"
+  },
+  {
+    "id": "dq-lug-009",
+    "questionText": "Quelle était la ville d'origine d'Abraham avant son départ pour Canaan ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Babylone" },
+      { "id": "b", "text": "Ninive" },
+      { "id": "c", "text": "Our des Chaldéens" },
+      { "id": "d", "text": "Damas" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "\"Térach prit Abram, son fils... et ils sortirent d'Our des Chaldéens pour aller au pays de Canaan\" (Genèse 11:31). Dieu appela Abraham d'Our.",
+    "bibleReference": "Genèse 11:31"
+  },
+  {
+    "id": "dq-lug-010",
+    "questionText": "Dans quelle mer l'armée de Pharaon s'est-elle noyée en poursuivant Israël ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Mer Méditerranée" },
+      { "id": "b", "text": "Mer Morte" },
+      { "id": "c", "text": "Mer de Galilée" },
+      { "id": "d", "text": "Mer Rouge" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Dieu fendit la Mer Rouge pour Israël, puis les eaux se refermèrent sur l'armée de Pharaon (Exode 14:26-28).",
+    "bibleReference": "Exode 14:26-28"
+  },
+  {
+    "id": "dq-lug-011",
+    "questionText": "Dans quelle ville Jésus a-t-il été crucifié ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Capernaüm" },
+      { "id": "b", "text": "Bethléem" },
+      { "id": "c", "text": "Nazareth" },
+      { "id": "d", "text": "Jérusalem" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Jésus fut crucifié hors des portes de Jérusalem, en un lieu appelé Golgotha ou \"Lieu du Crâne\" (Jean 19:17-20).",
+    "bibleReference": "Jean 19:17-20"
+  },
+  {
+    "id": "dq-lug-012",
+    "questionText": "Au bord de quelle mer Pierre, André, Jacques et Jean pêchaient-ils ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Mer Méditerranée" },
+      { "id": "b", "text": "Mer Morte" },
+      { "id": "c", "text": "Mer de Galilée" },
+      { "id": "d", "text": "Mer Rouge" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Jésus appela ses premiers disciples alors qu'ils pêchaient sur la Mer de Galilée (aussi appelée lac de Génésareth ou lac de Tibériade) (Matthieu 4:18).",
+    "bibleReference": "Matthieu 4:18"
+  },
+  {
+    "id": "dq-lug-013",
+    "questionText": "Sur quelle montagne Moïse a-t-il reçu les Dix Commandements de Dieu ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Mont Nébo" },
+      { "id": "b", "text": "Mont Carmel" },
+      { "id": "c", "text": "Mont Sinaï" },
+      { "id": "d", "text": "Mont Hermon" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Dieu appela Moïse sur le mont Sinaï (aussi appelé Horeb) où il lui donna la loi sur des tables de pierre (Exode 19:20 ; 31:18).",
+    "bibleReference": "Exode 19:20"
+  },
+  {
+    "id": "dq-lug-014",
+    "questionText": "Sur quelle montagne Salomon a-t-il bâti le temple de Dieu ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Mont Sinaï" },
+      { "id": "b", "text": "Mont des Oliviers" },
+      { "id": "c", "text": "Mont Morija / Sion" },
+      { "id": "d", "text": "Mont Carmel" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Salomon bâtit le temple sur le mont Morija, à Jérusalem, là même où Abraham avait failli sacrifier Isaac (2 Chroniques 3:1).",
+    "bibleReference": "2 Chroniques 3:1"
+  },
+  {
+    "id": "dq-lug-015",
+    "questionText": "Sur quelle montagne Dieu a-t-il commandé à Abraham de sacrifier son fils Isaac ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Mont Sinaï" },
+      { "id": "b", "text": "Mont Morija" },
+      { "id": "c", "text": "Mont Hermon" },
+      { "id": "d", "text": "Mont Nébo" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "\"Va-t'en au pays de Morija, et là offre-le en holocauste\" (Genèse 22:2). Ce mont est identifié comme le lieu où Salomon bâtit le temple (2 Chroniques 3:1).",
+    "bibleReference": "Genèse 22:2"
+  },
+  {
+    "id": "dq-lug-016",
+    "questionText": "Où la première communauté chrétienne s'est-elle établie selon le livre des Actes ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Antioche" },
+      { "id": "b", "text": "Rome" },
+      { "id": "c", "text": "Éphèse" },
+      { "id": "d", "text": "Jérusalem" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "La première église naquit à Jérusalem le jour de la Pentecôte, lorsque le Saint-Esprit descendit et environ 3 000 personnes furent converties (Actes 2:1-47).",
+    "bibleReference": "Actes 2:47"
+  },
+  {
+    "id": "dq-lug-017",
+    "questionText": "Quelle ville dans le livre de l'Apocalypse représente symboliquement le pouvoir oppresseur de Rome ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Sodome" },
+      { "id": "b", "text": "Babylone" },
+      { "id": "c", "text": "Ninive" },
+      { "id": "d", "text": "Tyr" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Dans Apocalypse 17-18, \"Babylone la Grande\" est présentée comme le symbole de la ville oppressive (interprétée comme Rome) qui persécutait les saints.",
+    "bibleReference": "Apocalypse 17:5"
+  },
+  {
+    "id": "dq-lug-018",
+    "questionText": "Dans quel désert le peuple d'Israël a-t-il séjourné pendant 40 ans avant d'entrer en Canaan ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Désert de Judée" },
+      { "id": "b", "text": "Désert du Sinaï et de Paran" },
+      { "id": "c", "text": "Désert d'Arabie" },
+      { "id": "d", "text": "Désert du Néguev" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Israël erra dans le désert du Sinaï et les plaines de Paran pendant 40 ans. Ils traversèrent aussi les déserts de Tsin et de Kadès-Barnéa (Nombres 33).",
+    "bibleReference": "Nombres 33:1-49"
+  },
+  {
+    "id": "dq-evnt-006",
+    "questionText": "Pendant combien de jours et de nuits la pluie est-elle tombée lors du déluge de Noé ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "7" },
+      { "id": "b", "text": "20" },
+      { "id": "c", "text": "40" },
+      { "id": "d", "text": "100" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "La pluie du déluge dura quarante jours et quarante nuits (Genèse 7:12). Les eaux dominèrent sur la terre pendant 150 jours.",
+    "bibleReference": "Genèse 7:12"
+  },
+  {
+    "id": "dq-evnt-007",
+    "questionText": "Quand Jésus est-il ressuscité après sa mort ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Le premier jour" },
+      { "id": "b", "text": "Le deuxième jour" },
+      { "id": "c", "text": "Le troisième jour" },
+      { "id": "d", "text": "Une semaine après" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Jésus ressuscita le troisième jour, comme il l'avait annoncé et comme l'Écriture l'avait prophétisé (1 Corinthiens 15:4).",
+    "bibleReference": "1 Corinthiens 15:4"
+  },
+  {
+    "id": "dq-evnt-008",
+    "questionText": "Que s'est-il passé dans le ciel et sur la terre quand Jésus a été baptisé dans le Jourdain ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Un tremblement de terre a secoué la région" },
+      { "id": "b", "text": "L'Esprit est descendu comme une colombe et le Père a parlé du ciel" },
+      { "id": "c", "text": "Des anges sont apparus sur la rivière" },
+      { "id": "d", "text": "Les eaux du Jourdain se sont divisées" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "\"Le ciel s'ouvrit, et il vit l'Esprit de Dieu descendre comme une colombe et venir sur lui. Et voici, une voix fit entendre du ciel ces paroles : Celui-ci est mon Fils bien-aimé\" (Matthieu 3:16-17).",
+    "bibleReference": "Matthieu 3:16-17"
+  },
+  {
+    "id": "dq-evnt-009",
+    "questionText": "Combien de jours après sa résurrection Jésus est-il monté au ciel ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "3 jours" },
+      { "id": "b", "text": "7 jours" },
+      { "id": "c", "text": "40 jours" },
+      { "id": "d", "text": "50 jours" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "\"Après qu'il eut souffert, il leur apparut vivant, et leur en donna plusieurs preuves, se montrant à eux pendant quarante jours\" (Actes 1:3).",
+    "bibleReference": "Actes 1:3"
+  },
+  {
+    "id": "dq-evnt-010",
+    "questionText": "Quel événement a divisé le royaume unifié d'Israël en deux royaumes séparés ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "La mort du roi David" },
+      { "id": "b", "text": "La défaite contre les Philistins" },
+      { "id": "c", "text": "La mort de Salomon et la rébellion des 10 tribus sous Roboam" },
+      { "id": "d", "text": "L'invasion babylonienne" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Après la mort de Salomon, Roboam augmenta les impôts. 10 tribus du nord se révoltèrent et suivirent Jéroboam, divisant le royaume en Israël (nord) et Juda (sud) (1 Rois 12).",
+    "bibleReference": "1 Rois 12:16-19"
+  },
+  {
+    "id": "dq-evnt-011",
+    "questionText": "Quel événement a eu lieu 50 jours après la résurrection de Jésus (la Pâque) ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "L'Ascension de Jésus" },
+      { "id": "b", "text": "La conversion de Paul" },
+      { "id": "c", "text": "La Pentecôte : descente du Saint-Esprit" },
+      { "id": "d", "text": "La première mission de Paul" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "La Pentecôte (Shavuot) eut lieu 50 jours après Pâques. Ce jour-là, le Saint-Esprit fut répandu sur l'église naissante (Actes 2:1-4).",
+    "bibleReference": "Actes 2:1-4"
+  },
+  {
+    "id": "dq-evnt-012",
+    "questionText": "Quels signes surnaturels ont accompagné la mort de Jésus sur la croix ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Seulement des ténèbres pendant 3 heures" },
+      { "id": "b", "text": "Ténèbres, tremblement de terre, voile du temple déchiré et morts ressuscités" },
+      { "id": "c", "text": "Pluie de feu et tonnerre" },
+      { "id": "d", "text": "Le soleil brilla avec une intensité inhabituelle" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "À la mort de Jésus : le voile du temple se déchira du haut en bas, la terre trembla, les rochers se fendirent, et des sépulcres s'ouvrirent (Matthieu 27:50-53).",
+    "bibleReference": "Matthieu 27:50-53"
+  },
+  {
+    "id": "dq-evnt-013",
+    "questionText": "En quelle année environ Jérusalem est-elle tombée aux mains de Babylone sous Nebucadnetsar ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "722 av. J.-C." },
+      { "id": "b", "text": "612 av. J.-C." },
+      { "id": "c", "text": "586 av. J.-C." },
+      { "id": "d", "text": "550 av. J.-C." }
+    ],
+    "correctOptionId": "c",
+    "explanation": "En 586 av. J.-C., Nebucadnetsar détruisit le temple de Salomon, brûla Jérusalem et emmena le peuple captif à Babylone (2 Rois 25:8-11).",
+    "bibleReference": "2 Rois 25:8-11"
+  },
+  {
+    "id": "dq-evnt-014",
+    "questionText": "En quelle année le royaume du nord d'Israël est-il tombé sous l'invasion assyrienne ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "850 av. J.-C." },
+      { "id": "b", "text": "722 av. J.-C." },
+      { "id": "c", "text": "612 av. J.-C." },
+      { "id": "d", "text": "586 av. J.-C." }
+    ],
+    "correctOptionId": "b",
+    "explanation": "En 722 av. J.-C., le roi d'Assyrie Salmanasar V (puis Sargon II) conquit Samarie, la capitale du royaume du nord, et déporta les 10 tribus (2 Rois 17:6).",
+    "bibleReference": "2 Rois 17:6"
+  },
+  {
+    "id": "dq-evnt-015",
+    "questionText": "Combien d'années après la mort de Jésus le Second Temple de Jérusalem a-t-il été détruit par les Romains ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "10 ans (40 ap. J.-C.)" },
+      { "id": "b", "text": "~40 ans (70 ap. J.-C.)" },
+      { "id": "c", "text": "100 ans (130 ap. J.-C.)" },
+      { "id": "d", "text": "200 ans (230 ap. J.-C.)" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Le temple fut détruit par le général romain Titus en l'an 70 ap. J.-C., environ 40 ans après la crucifixion de Jésus (~30 ap. J.-C.), accomplissant la prophétie de Jésus (Matthieu 24:2).",
+    "bibleReference": "Matthieu 24:2"
+  },
+  {
+    "id": "dq-tema-003",
+    "questionText": "Combien de fois Pierre devrait-il pardonner à son frère selon Jésus ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "7 fois" },
+      { "id": "b", "text": "77 fois" },
+      { "id": "c", "text": "70 fois sept fois" },
+      { "id": "d", "text": "100 fois" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "\"Je ne te dis pas jusqu'à sept fois, mais jusqu'à soixante-dix fois sept fois\" (Matthieu 18:22). Jésus enseignait un pardon illimité.",
+    "bibleReference": "Matthieu 18:22"
+  },
+  {
+    "id": "dq-tema-004",
+    "questionText": "Que dit Hébreux 11:1 sur la foi ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "C'est le résultat d'une obéissance parfaite" },
+      { "id": "b", "text": "C'est une ferme assurance des choses qu'on espère, une démonstration de celles qu'on ne voit pas" },
+      { "id": "c", "text": "C'est croire sans preuves" },
+      { "id": "d", "text": "C'est le plus grand don de l'Esprit" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "\"Or la foi est une ferme assurance des choses qu'on espère, une démonstration de celles qu'on ne voit pas\" (Hébreux 11:1).",
+    "bibleReference": "Hébreux 11:1"
+  },
+  {
+    "id": "dq-tema-005",
+    "questionText": "Que promet Dieu selon 1 Jean 1:9 si nous confessons nos péchés ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Il nous donnera plus d'épreuves" },
+      { "id": "b", "text": "Que nous ne pécherons plus jamais" },
+      { "id": "c", "text": "Il nous pardonnera et nous purifiera de toute iniquité" },
+      { "id": "d", "text": "Que nous serons parfaits" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "\"Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité\" (1 Jean 1:9).",
+    "bibleReference": "1 Jean 1:9"
+  },
+  {
+    "id": "dq-tema-006",
+    "questionText": "Quelles sont les trois vertus éternelles qui demeurent selon 1 Corinthiens 13:13 ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "La prière, le jeûne et le service" },
+      { "id": "b", "text": "Le courage, la sagesse et la puissance" },
+      { "id": "c", "text": "La foi, l'espérance et l'amour" },
+      { "id": "d", "text": "L'obéissance, la certitude et la paix" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "\"Maintenant donc ces trois choses demeurent : la foi, l'espérance, l'amour ; mais la plus grande de ces choses, c'est l'amour\" (1 Corinthiens 13:13).",
+    "bibleReference": "1 Corinthiens 13:13"
+  }
+]

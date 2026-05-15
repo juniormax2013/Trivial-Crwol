@@ -1,0 +1,326 @@
+[
+  {
+    "newId": "dq-evg-029",
+    "ht": null,
+    "fr": {
+      "id": "dq-evg-029",
+      "questionText": "Quel évangile présente Jésus principalement comme « Roi des Juifs » et cite le plus l'AT ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matthieu"
+        },
+        {
+          "id": "b",
+          "text": "Marc"
+        },
+        {
+          "id": "c",
+          "text": "Luc"
+        },
+        {
+          "id": "d",
+          "text": "Jean"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Matthieu écrit pour un public juif, présentant Jésus comme le Messie davidique. Il cite l'AT constamment avec la formule « afin que s'accomplisse » (Matthieu 1:22).",
+      "bibleReference": "Matthieu 1:22",
+      "normalizedRef": "mat1.22",
+      "normalizedCat": "evangelios"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-evg-030",
+    "ht": null,
+    "fr": {
+      "id": "dq-evg-030",
+      "questionText": "Quel est le sens du « Discours du Pain de Vie » de Jésus en Jean 6 ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus enseigne une meilleure alimentation physique"
+        },
+        {
+          "id": "b",
+          "text": "Jésus se présente comme la nourriture spirituelle — croire en lui c'est « manger » sa chair et « boire » son sang"
+        },
+        {
+          "id": "c",
+          "text": "Il annonce l'institution de la Cène"
+        },
+        {
+          "id": "d",
+          "text": "Il enseigne le jeûne comme discipline spirituelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Je suis le pain de vie ; celui qui vient à moi n'aura jamais faim » (Jean 6:35). Manger sa chair et boire son sang = foi en son sacrifice — ce discours choqua et beaucoup le quittèrent.",
+      "bibleReference": "Jean 6:35,53-56",
+      "normalizedRef": "joh6.35,53-56",
+      "normalizedCat": "evangelios"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-evg-031",
+    "ht": null,
+    "fr": {
+      "id": "dq-evg-031",
+      "questionText": "Quelle est la signification du baptême de Jésus par Jean-Baptiste si Jésus était sans péché ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus avait besoin de se purifier symboliquement"
+        },
+        {
+          "id": "b",
+          "text": "Pour accomplir toute justice — s'identifier à l'humanité pécheresse qu'il venait sauver"
+        },
+        {
+          "id": "c",
+          "text": "Pour recevoir le Saint-Esprit qui ne pouvait descendre qu'au baptême"
+        },
+        {
+          "id": "d",
+          "text": "Pour satisfaire la demande de Jean qui ne voulait pas baptiser sans raison"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus dit : « Laisse faire maintenant ; c'est ainsi qu'il nous convient d'accomplir toute justice » (Matthieu 3:15) — il s'identifiait aux pécheurs qu'il venait racheter.",
+      "bibleReference": "Matthieu 3:15",
+      "normalizedRef": "mat3.15",
+      "normalizedCat": "evangelios"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-evg-032",
+    "ht": null,
+    "fr": {
+      "id": "dq-evg-032",
+      "questionText": "Quelle est la portée de la Grande Commission de Matthieu 28:19-20 pour l'Église ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une mission uniquement pour les apôtres du premier siècle"
+        },
+        {
+          "id": "b",
+          "text": "Le mandat permanent de l'Église de faire des disciples de toutes les nations"
+        },
+        {
+          "id": "c",
+          "text": "Une promesse de victoire militaire pour Israël"
+        },
+        {
+          "id": "d",
+          "text": "Un commandement uniquement pour les évangélistes professionnels"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Allez, faites de toutes les nations des disciples... Je suis avec vous tous les jours jusqu'à la fin du monde » — mandat missionnaire universel et perpétuel de l'Église (Matthieu 28:19-20).",
+      "bibleReference": "Matthieu 28:19-20",
+      "normalizedRef": "mat28.19-20",
+      "normalizedCat": "evangelios"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-evg-033",
+    "ht": null,
+    "fr": {
+      "id": "dq-evg-033",
+      "questionText": "En quoi les Évangiles synoptiques diffèrent-ils de l'Évangile de Jean ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les synoptiques sont écrits en grec, Jean en araméen"
+        },
+        {
+          "id": "b",
+          "text": "Matthieu, Marc et Luc partagent beaucoup de matière commune ; Jean est indépendant avec un accent théologique et christologique différent"
+        },
+        {
+          "id": "c",
+          "text": "Jean est antérieur aux trois autres évangiles"
+        },
+        {
+          "id": "d",
+          "text": "Les synoptiques sont destinés aux Juifs, Jean aux Romains"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les synoptiques (Matthieu, Marc, Luc) partagent ~80% de matière. Jean est unique : prologue christologique, discours longs, signe des noces, résurrection de Lazare, chapitres 14-17.",
+      "bibleReference": "Jean 20:30-31",
+      "normalizedRef": "joh20.30-31",
+      "normalizedCat": "evangelios"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-evg-034",
+    "ht": null,
+    "fr": {
+      "id": "dq-evg-034",
+      "questionText": "Quelle est la théorie de la priorité marcienne dans l'étude synoptique ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marc fut écrit après Matthieu et dépend de lui"
+        },
+        {
+          "id": "b",
+          "text": "Marc fut écrit en premier et fut utilisé par Matthieu et Luc comme source principale"
+        },
+        {
+          "id": "c",
+          "text": "Marc est une synthèse de Matthieu et Luc"
+        },
+        {
+          "id": "d",
+          "text": "Marc fut écrit par Pierre et non par Marc"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La théorie dominante en critique biblique : Marc écrit en premier (~65 ap. J.-C.), Matthieu et Luc s'en servent et y ajoutent Q (une source de paroles communes) et leurs propres sources.",
+      "bibleReference": "Marc 1:1",
+      "normalizedRef": "mar1.1",
+      "normalizedCat": "evangelios"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-evg-035",
+    "ht": null,
+    "fr": {
+      "id": "dq-evg-035",
+      "questionText": "Que signifie la « Kénose » dans le contexte de l'Incarnation (Philippiens 2:7) ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus abandonna sa divinité en s'incarnant"
+        },
+        {
+          "id": "b",
+          "text": "Le Fils de Dieu « se vida » volontairement de l'exercice indépendant de ses attributs divins pour se faire serviteur"
+        },
+        {
+          "id": "c",
+          "text": "Christ redevint Dieu pleinement seulement à la résurrection"
+        },
+        {
+          "id": "d",
+          "text": "La divinité de Christ était cachée dans un corps humain comme dans un costume"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kénose (Philippiens 2:7 — « il se dépouilla lui-même ») : Christ vécut dans une dépendance volontaire envers le Père, sans exercer indépendamment ses attributs divins — vrais Dieu et vrai homme.",
+      "bibleReference": "Philippiens 2:7",
+      "normalizedRef": "phi2.7",
+      "normalizedCat": "evangelios"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-evg-036",
+    "ht": null,
+    "fr": {
+      "id": "dq-evg-036",
+      "questionText": "Quel est le sens théologique des sept signes de Jean et leur structure narrative ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des preuves scientifiques de la divinité de Jésus"
+        },
+        {
+          "id": "b",
+          "text": "Sept actes révélant la gloire de Jésus — chacun évoquant une dimension de son identité — culminant en la résurrection de Lazare"
+        },
+        {
+          "id": "c",
+          "text": "Des miracles réservés à la guérison physique"
+        },
+        {
+          "id": "d",
+          "text": "Des signes prophétiques annonçant la destruction du Temple"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean sélectionne 7 signes (eau en vin, guérison du fils du fonctionnaire, paralytique, 5000 nourris, marche sur eau, aveugle-né, Lazare) pour révéler la gloire de Christ et susciter la foi (Jean 20:30-31).",
+      "bibleReference": "Jean 20:30-31",
+      "normalizedRef": "joh20.30-31",
+      "normalizedCat": "evangelios"
+    },
+    "matchType": "fr_only"
+  },
+  {
+    "newId": "dq-evg-037",
+    "ht": null,
+    "fr": {
+      "id": "dq-evg-037",
+      "questionText": "Comment le Discours Eschatologique de Jésus en Matthieu 24-25 est-il interprété théologiquement ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il ne concerne que la destruction de Jérusalem en 70 ap. J.-C."
+        },
+        {
+          "id": "b",
+          "text": "Il parle à la fois de la destruction du Temple (70 ap. J.-C.) et du retour final de Christ — double accomplissement prophétique"
+        },
+        {
+          "id": "c",
+          "text": "Il est purement symbolique et ne prédit aucun événement historique"
+        },
+        {
+          "id": "d",
+          "text": "Il concerne uniquement la période tribulation future"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 24-25 combine la destruction imminente de Jérusalem (70 ap. J.-C.) et la Parousie finale — prophétie à double horizon typique de l'AT.",
+      "bibleReference": "Matthieu 24:1-44",
+      "normalizedRef": "mat24.1-44",
+      "normalizedCat": "evangelios"
+    },
+    "matchType": "fr_only"
+  }
+]

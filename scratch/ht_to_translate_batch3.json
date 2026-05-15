@@ -1,0 +1,1802 @@
+[
+  {
+    "newId": "dq-cgen-015",
+    "ht": {
+      "id": "dq-cgen-015",
+      "questionText": "Ki diferans lèt Jid la etabli ant erè Kayen, Balayam ak Kore?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Idolatri, asasina, rèbèlyon"
+        },
+        {
+          "id": "b",
+          "text": "Jalouzi (Kayen), avarIs (Balayam), rèbèlyon kont otorite (Kore)"
+        },
+        {
+          "id": "c",
+          "text": "Manti, adiltè, vòl"
+        },
+        {
+          "id": "d",
+          "text": "Enpyete, rèbèlyon, apostazi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Malè pou yo! paske yo swiv chemen Kayen [jalouzi], yo pati pou pwòp avantaj yo nan erè Balayam [avaritis], epi yo peri nan kontrah Kore a [rèbèlyon]\" (Jid 11).",
+      "bibleReference": "Jid 11",
+      "normalizedRef": "jud11",
+      "normalizedCat": "cartas-generales"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-apoc-007",
+    "ht": {
+      "id": "dq-apoc-007",
+      "questionText": "Konbyen legliz ki te resevwa lèt nan Revelasyon an?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sèt legliz yo se: Efèz, Esmirn, Pègam, Tyatir, Sard, Filadelfi ak Lawodise (Revelasyon 2-3).",
+      "bibleReference": "Revelasyon 2-3",
+      "normalizedRef": "rev2-3",
+      "normalizedCat": "apocalipsis"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-apoc-008",
+    "ht": {
+      "id": "dq-apoc-008",
+      "questionText": "Konbyen twonpèt ki sonnen nan Revelasyon an?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sèt zanj sonnen sèt twonpèt (Revelasyon 8-11). Chak twonpèt anonse yon jijman oswa yon malediksyon sou tè a.",
+      "bibleReference": "Revelasyon 8:2",
+      "normalizedRef": "rev8.2",
+      "normalizedCat": "apocalipsis"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-apoc-009",
+    "ht": {
+      "id": "dq-apoc-009",
+      "questionText": "Ki non vil selès ki desann sot nan syèl la nan Revelasyon 21?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vil Sen An"
+        },
+        {
+          "id": "b",
+          "text": "Siyon"
+        },
+        {
+          "id": "c",
+          "text": "Nouvo Jerizalèm"
+        },
+        {
+          "id": "d",
+          "text": "Paradi Etènèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi mwen Jan te wè lavil sen an, Nouvo Jerizalèm, desann sot nan syèl, nan Bondye, prepare tankou yon marye ornnen pou mari li\" (Revelasyon 21:2).",
+      "bibleReference": "Revelasyon 21:2",
+      "normalizedRef": "rev21.2",
+      "normalizedCat": "apocalipsis"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-apoc-010",
+    "ht": {
+      "id": "dq-apoc-010",
+      "questionText": "A ki legliz Seyè a di nan Revelasyon an ke li \"ni frèt ni cho\"?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Efèz"
+        },
+        {
+          "id": "b",
+          "text": "Sard"
+        },
+        {
+          "id": "c",
+          "text": "Filadelfi"
+        },
+        {
+          "id": "d",
+          "text": "Lawodise"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "\"Mwen konnen travay ou yo, ou pa ni frèt ni cho. Si sèlman ou te frèt oswa cho!\" (Revelasyon 3:15). Lawodise te repwoche pou tyèdè espirityèl li.",
+      "bibleReference": "Revelasyon 3:15-16",
+      "normalizedRef": "rev3.15-16",
+      "normalizedCat": "apocalipsis"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-apoc-011",
+    "ht": {
+      "id": "dq-apoc-011",
+      "questionText": "Ki se premye nan sèt legliz ki mansyone nan lèt Revelasyon yo?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esmirn"
+        },
+        {
+          "id": "b",
+          "text": "Efèz"
+        },
+        {
+          "id": "c",
+          "text": "Pègam"
+        },
+        {
+          "id": "d",
+          "text": "Filadelfi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Ekri a zanj legliz Efèz la...\" (Revelasyon 2:1). Efèz se premye ki resevwa lèt li a.",
+      "bibleReference": "Revelasyon 2:1",
+      "normalizedRef": "rev2.1",
+      "normalizedCat": "apocalipsis"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-apoc-012",
+    "ht": {
+      "id": "dq-apoc-012",
+      "questionText": "Konbyen chapit Liv Revelasyon an genyen?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "18"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "22"
+        },
+        {
+          "id": "d",
+          "text": "24"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Revelasyon an gen 22 chapit. Dènye chapit la fèmen ak pwomès Jezi: \"Wi, mwen vini byento. Amèn; wi, vini, Seyè Jezi\" (Revelasyon 22:20).",
+      "bibleReference": "Revelasyon 22:21",
+      "normalizedRef": "rev22.21",
+      "normalizedCat": "apocalipsis"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-apoc-013",
+    "ht": {
+      "id": "dq-apoc-013",
+      "questionText": "Konbyen zetwal ki sou kowonn fanm ki dekri nan Revelasyon 12?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "24"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Yon fanm revi ak solèy la, ak lalin anba pye l yo, epi sou tèt li yon kowonn douz zetwal\" (Revelasyon 12:1).",
+      "bibleReference": "Revelasyon 12:1",
+      "normalizedRef": "rev12.1",
+      "normalizedCat": "apocalipsis"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-apoc-014",
+    "ht": {
+      "id": "dq-apoc-014",
+      "questionText": "Konbyen pòt ak fondasyon Nouvo Jerizalèm nan genyen dapre Revelasyon 21?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 pòt ak 7 fondasyon"
+        },
+        {
+          "id": "b",
+          "text": "10 pòt ak 10 fondasyon"
+        },
+        {
+          "id": "c",
+          "text": "12 pòt ak 12 fondasyon"
+        },
+        {
+          "id": "d",
+          "text": "24 pòt ak 24 fondasyon"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nouvo Jerizalèm nan gen 12 pòt (ak non 12 tribi Izrayèl) ak 12 fondasyon (ak non 12 apòt) (Revelasyon 21:12-14).",
+      "bibleReference": "Revelasyon 21:12-14",
+      "normalizedRef": "rev21.12-14",
+      "normalizedCat": "apocalipsis"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-apoc-015",
+    "ht": {
+      "id": "dq-apoc-015",
+      "questionText": "Ki pye bwa ki parèt bò rivyè dlo lavi a nan Revelasyon 22?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pye bwa konesans"
+        },
+        {
+          "id": "b",
+          "text": "Pye bwa lavi"
+        },
+        {
+          "id": "c",
+          "text": "Figuye etènèl"
+        },
+        {
+          "id": "d",
+          "text": "Sèd Liban"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Nan mitan lari lavil la, ak sou de bò rivyè a, te gen pye bwa lavi a, ki bay douz fwi...\" (Revelasyon 22:2).",
+      "bibleReference": "Revelasyon 22:2",
+      "normalizedRef": "rev22.2",
+      "normalizedCat": "apocalipsis"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-pers-005",
+    "ht": {
+      "id": "dq-pers-005",
+      "questionText": "Kilès yo rele \"zanmi Bondye\" nan Bib la?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "David"
+        },
+        {
+          "id": "c",
+          "text": "Abraram"
+        },
+        {
+          "id": "d",
+          "text": "Noye"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Abraram te kwè Bondye... epi yo te rele l zanmi Bondye\" (Jak 2:23). Ezayi 41:8 rele l tou \"zanmi mwen Abraram\".",
+      "bibleReference": "Jak 2:23",
+      "normalizedRef": "jam2.23",
+      "normalizedCat": "personajes"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-pers-006",
+    "ht": {
+      "id": "dq-pers-006",
+      "questionText": "Kilès ki te bati lach la pou sovè li nan delij inivèsèl la?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraram"
+        },
+        {
+          "id": "b",
+          "text": "Noye"
+        },
+        {
+          "id": "c",
+          "text": "Moyiz"
+        },
+        {
+          "id": "d",
+          "text": "Enòk"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te enstrui Noye bati yon lach bwa gofe, pou sove li, fanmi li ak koup bèt (Jenèz 6-7).",
+      "bibleReference": "Jenèz 6:13-14",
+      "normalizedRef": "gen6.13-14",
+      "normalizedCat": "personajes"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-pers-007",
+    "ht": {
+      "id": "dq-pers-007",
+      "questionText": "Ki apòt ki te mache sou dlo pou al jwenn Jezi?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jan"
+        },
+        {
+          "id": "b",
+          "text": "Andre"
+        },
+        {
+          "id": "c",
+          "text": "Pyè"
+        },
+        {
+          "id": "d",
+          "text": "Jak"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pyè te desann nan bato ak mache sou dlo pou al jwenn Jezi, men li te kòmanse koule lè li te fè je sou van an (Matye 14:29-30).",
+      "bibleReference": "Matye 14:28-31",
+      "normalizedRef": "mat14.28-31",
+      "normalizedCat": "personajes"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-pers-008",
+    "ht": {
+      "id": "dq-pers-008",
+      "questionText": "Kilès yo dekri nan Bib la kòm \"moun ki dapre kè Bondye\"?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salomon"
+        },
+        {
+          "id": "b",
+          "text": "Moyiz"
+        },
+        {
+          "id": "c",
+          "text": "Abraram"
+        },
+        {
+          "id": "d",
+          "text": "David"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "\"Li retire Sayil... epi li leve David... yon moun ki dapre kè mwen, ki pral fè tout sa mwen vle\" (Travay 13:22).",
+      "bibleReference": "Travay 13:22",
+      "normalizedRef": "act13.22",
+      "normalizedCat": "personajes"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-pers-009",
+    "ht": {
+      "id": "dq-pers-009",
+      "questionText": "Ki pèsonaj biblik ki fèmyè pou kenbe lafwa ak pasyans li nan mitan soufrans ekstrèm?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeremi"
+        },
+        {
+          "id": "b",
+          "text": "Jòb"
+        },
+        {
+          "id": "c",
+          "text": "Moyiz"
+        },
+        {
+          "id": "d",
+          "text": "Eli"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jak 5:11 di: \"Nou tande pale de pasyans Jòb, epi nou wè fen Seyè a.\" Jòb te pèdi tout bagay, men li pa t nye Bondye.",
+      "bibleReference": "Jak 5:11",
+      "normalizedRef": "jam5.11",
+      "normalizedCat": "personajes"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-pers-010",
+    "ht": {
+      "id": "dq-pers-010",
+      "questionText": "Konbyen ane Matisalèm, pèsonaj biblik ki viv pi lontan an, te viv?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "700 ane"
+        },
+        {
+          "id": "b",
+          "text": "800 ane"
+        },
+        {
+          "id": "c",
+          "text": "969 ane"
+        },
+        {
+          "id": "d",
+          "text": "1,000 ane"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Tout jou Matisalèm yo te nèf san swasant-nèf ane; epi li mouri\" (Jenèz 5:27). Se moun ki viv pi lontan nan Bib la.",
+      "bibleReference": "Jenèz 5:27",
+      "normalizedRef": "gen5.27",
+      "normalizedCat": "personajes"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-pers-011",
+    "ht": {
+      "id": "dq-pers-011",
+      "questionText": "Ki nasyon Rit, bèlfi Noemi an, te soti?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Edomit"
+        },
+        {
+          "id": "b",
+          "text": "Amonyit"
+        },
+        {
+          "id": "c",
+          "text": "Moabit"
+        },
+        {
+          "id": "d",
+          "text": "Filistin"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Rit te Moabit. Deklarasyon fyalite li ak Noemi (\"Pèp ou a se pèp mwen...\") se yon modèl fyalite (Rit 1:16).",
+      "bibleReference": "Rit 1:4, 16",
+      "normalizedRef": "rut1.4,16",
+      "normalizedCat": "personajes"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-pers-012",
+    "ht": {
+      "id": "dq-pers-012",
+      "questionText": "Kilès ki te siksede Moyiz kòm lidè Izrayèl pou antre nan Peyi Pwomèt la?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kalèb"
+        },
+        {
+          "id": "b",
+          "text": "Arawon"
+        },
+        {
+          "id": "c",
+          "text": "Jozye"
+        },
+        {
+          "id": "d",
+          "text": "Eleaza"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Seyè te di Jozye: \"Menm jan mwen te avèk Moyiz, m ap avèk ou; mwen p ap lage ou ni abandone ou\" (Jozye 1:5).",
+      "bibleReference": "Jozye 1:1-5",
+      "normalizedRef": "jos1.1-5",
+      "normalizedCat": "personajes"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-pers-013",
+    "ht": {
+      "id": "dq-pers-013",
+      "questionText": "Ki non papa Wa Salomon an?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sayil"
+        },
+        {
+          "id": "b",
+          "text": "Jonatann"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Jeyi"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salomon te pitit wa David ak Betsabe. Bondye te pwomèt David ke pitit li ta bati tanp lan (2 Samyèl 7:12-13).",
+      "bibleReference": "1 Wa 1:13",
+      "normalizedRef": "1ki1.13",
+      "normalizedCat": "personajes"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-pers-014",
+    "ht": {
+      "id": "dq-pers-014",
+      "questionText": "Ki disip Jezi ki rele \"disip Jezi te renmen\" nan Levanjil Jan an?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyè"
+        },
+        {
+          "id": "b",
+          "text": "Jak"
+        },
+        {
+          "id": "c",
+          "text": "Andre"
+        },
+        {
+          "id": "d",
+          "text": "Jan"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "\"Disip Jezi te renmen\" parèt plizyè fwa nan levanjil Jan an (13:23; 19:26; 21:7) epi tradisyon idantifye l ak apòt Jan.",
+      "bibleReference": "Jan 13:23",
+      "normalizedRef": "joh13.23",
+      "normalizedCat": "personajes"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-pers-015",
+    "ht": {
+      "id": "dq-pers-015",
+      "questionText": "Konbyen ane Abraram te viv dapre Jenèz 25:7?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "120 ane"
+        },
+        {
+          "id": "b",
+          "text": "150 ane"
+        },
+        {
+          "id": "c",
+          "text": "175 ane"
+        },
+        {
+          "id": "d",
+          "text": "200 ane"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi sa yo te jou ki Abraram te viv: san swasant-kenz ane\" (Jenèz 25:7). Li mouri nan gran vyeyès, ansyen ak plen ane.",
+      "bibleReference": "Jenèz 25:7",
+      "normalizedRef": "gen25.7",
+      "normalizedCat": "personajes"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-pers-016",
+    "ht": {
+      "id": "dq-pers-016",
+      "questionText": "Ki non ebre apòt Pòl anvan konvèsyon li?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Simon"
+        },
+        {
+          "id": "b",
+          "text": "Sòl"
+        },
+        {
+          "id": "c",
+          "text": "Barabas"
+        },
+        {
+          "id": "d",
+          "text": "Nikodèm"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Anvan konvèsyon li sou wout Damask la, li te rele Sòl de Tas. Non Pòl (Paulus) te non Women li yo te itilize nan misyon li yo (Travay 9:1; 13:9).",
+      "bibleReference": "Travay 13:9",
+      "normalizedRef": "act13.9",
+      "normalizedCat": "personajes"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-pers-017",
+    "ht": {
+      "id": "dq-pers-017",
+      "questionText": "Kilès ki premye rekonèt Jezi kòm Seyè anvan yo tou de fèt?",
+      "categoryId": "personajes",
+      "categoryName": "Pèsonaj Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Simeyon nan tanp lan"
+        },
+        {
+          "id": "b",
+          "text": "Jan Batèm (bebe a te sote nan vant)"
+        },
+        {
+          "id": "c",
+          "text": "Bèje Betleyèm yo"
+        },
+        {
+          "id": "d",
+          "text": "Majisyen soti lès"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Lè Elizabèt te tande bonjou Mari a, pitit nan vant li a sote; epi Elizabèt te plen Lespri Sen an\" (Lik 1:41). Jan te rekonèt Jezi depi nan vant manman.",
+      "bibleReference": "Lik 1:41-44",
+      "normalizedRef": "luk1.41-44",
+      "normalizedCat": "personajes"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-008",
+    "ht": {
+      "id": "dq-lug-008",
+      "questionText": "Nan ki peyi Jozèf (pitit Jakòb) te sèvi kòm gouvènè?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kanaran"
+        },
+        {
+          "id": "b",
+          "text": "Ejip"
+        },
+        {
+          "id": "c",
+          "text": "Babilòn"
+        },
+        {
+          "id": "d",
+          "text": "Siri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozèf te vann kòm esklav ann Ejip, epi gras a entèpretasyon rèv Farawon yo, li te vin gouvènè Ejip (Jenèz 41:40-41).",
+      "bibleReference": "Jenèz 41:40-41",
+      "normalizedRef": "gen41.40-41",
+      "normalizedCat": "lugares"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-009",
+    "ht": {
+      "id": "dq-lug-009",
+      "questionText": "Ki te vil orijin Abraram anvan li pati pou Kanaran?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babilòn"
+        },
+        {
+          "id": "b",
+          "text": "Niniv"
+        },
+        {
+          "id": "c",
+          "text": "Ow des Kaldeyèn"
+        },
+        {
+          "id": "d",
+          "text": "Damask"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi Taré te soti nan Ow des Kaldeyèn ak Abram pitit li... pou yo al nan peyi Kanaran\" (Jenèz 11:31). Bondye te rele Abraram soti Ow.",
+      "bibleReference": "Jenèz 11:31",
+      "normalizedRef": "gen11.31",
+      "normalizedCat": "lugares"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-010",
+    "ht": {
+      "id": "dq-lug-010",
+      "questionText": "Nan ki lanmè lame Farawon an te nwaye lè li t ap pousui Izrayèl?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmè Mediterane"
+        },
+        {
+          "id": "b",
+          "text": "Lanmè Mò"
+        },
+        {
+          "id": "c",
+          "text": "Lanmè Galile"
+        },
+        {
+          "id": "d",
+          "text": "Lanmè Wouj"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Bondye te fann Lanmè Wouj la pou Izrayèl pase epi dlo yo te tounen kouvri lame Farawon an (Egzòd 14:26-28).",
+      "bibleReference": "Egzòd 14:26-28",
+      "normalizedRef": "exo14.26-28",
+      "normalizedCat": "lugares"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-011",
+    "ht": {
+      "id": "dq-lug-011",
+      "questionText": "Nan ki vil yo te krisifye Jezi?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kafanawoum"
+        },
+        {
+          "id": "b",
+          "text": "Betleyèm"
+        },
+        {
+          "id": "c",
+          "text": "Nazarèt"
+        },
+        {
+          "id": "d",
+          "text": "Jerizalèm"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Yo te krisifye Jezi deyò pòt Jerizalèm, nan yon kote yo rele Golgotha oswa \"Kràn\" (Jan 19:17-20).",
+      "bibleReference": "Jan 19:17-20",
+      "normalizedRef": "joh19.17-20",
+      "normalizedCat": "lugares"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-012",
+    "ht": {
+      "id": "dq-lug-012",
+      "questionText": "Nan bò ki lanmè Pyè, Andre, Jak ak Jan t ap pèche?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmè Mediterane"
+        },
+        {
+          "id": "b",
+          "text": "Lanmè Mò"
+        },
+        {
+          "id": "c",
+          "text": "Lanmè Galile"
+        },
+        {
+          "id": "d",
+          "text": "Lanmè Wouj"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jezi te rele premye disip li yo pandan yo t ap pèche nan Lanmè Galile (yo rele l tou lak Jenezarèt oswa lak Tiberyad) (Matye 4:18).",
+      "bibleReference": "Matye 4:18",
+      "normalizedRef": "mat4.18",
+      "normalizedCat": "lugares"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-013",
+    "ht": {
+      "id": "dq-lug-013",
+      "questionText": "Sou ki mòn Moyiz te resevwa Dis Kòmandman yo nan men Bondye?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Nebo"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Karmèl"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Èmin"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bondye te rele Moyiz nan Mòn Sinayi (yo rele l tou Orèb) kote li te ba li lwa a sou tab wòch (Egzòd 19:20; 31:18).",
+      "bibleReference": "Egzòd 19:20",
+      "normalizedRef": "exo19.20",
+      "normalizedCat": "lugares"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-014",
+    "ht": {
+      "id": "dq-lug-014",
+      "questionText": "Sou ki mòn Salomon te bati tanp Bondye a?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Olivye"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Moria / Siyon"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Karmèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salomon te bati tanp lan sou Mòn Moria, nan Jerizalèm, menm kote Abraram te pral sakrifye Izak (2 Kwonik 3:1).",
+      "bibleReference": "2 Kwonik 3:1",
+      "normalizedRef": "2kwonik3.1",
+      "normalizedCat": "lugares"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-015",
+    "ht": {
+      "id": "dq-lug-015",
+      "questionText": "Sou ki mòn Bondye te kòmande Abraram sakrifye pitit li Izak?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Moria"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Èmin"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Nebo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Al nan peyi Moria, epi ofri l la kòm yon olokost\" (Jenèz 22:2). Mòn sa idantifye ak kote Salomon te bati tanp lan (2 Kwonik 3:1).",
+      "bibleReference": "Jenèz 22:2",
+      "normalizedRef": "gen22.2",
+      "normalizedCat": "lugares"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-016",
+    "ht": {
+      "id": "dq-lug-016",
+      "questionText": "Ki kote premye kominote kretyen an te tabli dapre Liv Travay yo?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antiosh"
+        },
+        {
+          "id": "b",
+          "text": "Wòm"
+        },
+        {
+          "id": "c",
+          "text": "Efèz"
+        },
+        {
+          "id": "d",
+          "text": "Jerizalèm"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Premye legliz la te fèt nan Jerizalèm jou Pannkòt, lè Lespri Sen an te desann epi anviwon 3,000 moun te konvèti (Travay 2:1-47).",
+      "bibleReference": "Travay 2:47",
+      "normalizedRef": "act2.47",
+      "normalizedCat": "lugares"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-017",
+    "ht": {
+      "id": "dq-lug-017",
+      "questionText": "Ki vil nan Liv Revelasyon an ki reprezante simbolikman pouvwa opresè Wòm?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sodòm"
+        },
+        {
+          "id": "b",
+          "text": "Babilòn"
+        },
+        {
+          "id": "c",
+          "text": "Niniv"
+        },
+        {
+          "id": "d",
+          "text": "Tir"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nan Revelasyon 17-18, \"Babilòn Gran\" prezante kòm senbòl vil opresè (entèprete kòm Wòm) ki t ap pèsekite sen yo.",
+      "bibleReference": "Revelasyon 17:5",
+      "normalizedRef": "rev17.5",
+      "normalizedCat": "lugares"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-018",
+    "ht": {
+      "id": "dq-lug-018",
+      "questionText": "Nan ki dezè pèp Izrayèl la te rete pandan 40 ane anvan antre nan Kanaran?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dezè Jide"
+        },
+        {
+          "id": "b",
+          "text": "Dezè Sinayi ak Paran"
+        },
+        {
+          "id": "c",
+          "text": "Dezè Arabi"
+        },
+        {
+          "id": "d",
+          "text": "Dezè Negev"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Izrayèl te vire nan dezè Sinayi ak plenn Paran pandan 40 ane. Yo te travèse dezè Zen ak Kadès-Barnea tou (Nonb 33).",
+      "bibleReference": "Nonb 33:1-49",
+      "normalizedRef": "num33.1-49",
+      "normalizedCat": "lugares"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-006",
+    "ht": {
+      "id": "dq-evnt-006",
+      "questionText": "Konbyen jou ak nwit lapli te tonbe pandan delij Noye a?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "40"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lapli delij la te dire karant jou ak karant nwit (Jenèz 7:12). Dlo yo te domine sou tè a pandan 150 jou.",
+      "bibleReference": "Jenèz 7:12",
+      "normalizedRef": "gen7.12",
+      "normalizedCat": "eventos"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-007",
+    "ht": {
+      "id": "dq-evnt-007",
+      "questionText": "Ki lè Jezi te resisite apre lanmò li?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Premye jou"
+        },
+        {
+          "id": "b",
+          "text": "Dezyèm jou"
+        },
+        {
+          "id": "c",
+          "text": "Twazyèm jou"
+        },
+        {
+          "id": "d",
+          "text": "Yon semèn apre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jezi te resisite nan twazyèm jou a, jan li te anonse ak jan Bib la te pwofetize (1 Korentyen 15:4).",
+      "bibleReference": "1 Korentyen 15:4",
+      "normalizedRef": "1korentyen15.4",
+      "normalizedCat": "eventos"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-008",
+    "ht": {
+      "id": "dq-evnt-008",
+      "questionText": "Ki sa ki te pase nan syèl ak sou tè lè Jezi te batize nan Jouden?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon tranblemanntè te souke rejyon an"
+        },
+        {
+          "id": "b",
+          "text": "Lespri a desann tankou pijon ak Papa a te pale sot nan syèl"
+        },
+        {
+          "id": "c",
+          "text": "Zanj yo te parèt sou rivyè a"
+        },
+        {
+          "id": "d",
+          "text": "Dlo Jouden an te divize"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Syèl la louvri, epi Jan te wè Lespri Bondye desann tankou yon pijon, epi poze sou li. Epi yon vwa soti nan syèl di: Sa a se Pitit mwen renmen an\" (Matye 3:16-17).",
+      "bibleReference": "Matye 3:16-17",
+      "normalizedRef": "mat3.16-17",
+      "normalizedCat": "eventos"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-009",
+    "ht": {
+      "id": "dq-evnt-009",
+      "questionText": "Konbyen jou apre rezirèksyon li Jezi te monte nan syèl la?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 jou"
+        },
+        {
+          "id": "b",
+          "text": "7 jou"
+        },
+        {
+          "id": "c",
+          "text": "40 jou"
+        },
+        {
+          "id": "d",
+          "text": "50 jou"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"A sa yo tou, apre li te soufri, li te prezante tèt li vivan ak anpil prèv ki pa ka doute, parèt devan yo pou karant jou\" (Travay 1:3).",
+      "bibleReference": "Travay 1:3",
+      "normalizedRef": "act1.3",
+      "normalizedCat": "eventos"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-010",
+    "ht": {
+      "id": "dq-evnt-010",
+      "questionText": "Ki evènman ki te divize wayòm inifye Izrayèl an de wayòm separe?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmò wa David"
+        },
+        {
+          "id": "b",
+          "text": "Defèt kont Filistin yo"
+        },
+        {
+          "id": "c",
+          "text": "Lanmò Salomon ak rèbèlyon 10 tribi anba Roboam"
+        },
+        {
+          "id": "d",
+          "text": "Envazyon babilonyèn"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Apre lanmò Salomon, Roboam te ogmante taks. 10 tribi nò yo te rebèle epi swiv Jeroboam, divize wayòm nan ann Izrayèl (nò) ak Jida (sid) (1 Wa 12).",
+      "bibleReference": "1 Wa 12:16-19",
+      "normalizedRef": "1ki12.16-19",
+      "normalizedCat": "eventos"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-011",
+    "ht": {
+      "id": "dq-evnt-011",
+      "questionText": "Ki evènman ki te pase 50 jou apre rezirèksyon Jezi (Pak la)?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Asenksyon Jezi"
+        },
+        {
+          "id": "b",
+          "text": "Konvèsyon Pòl"
+        },
+        {
+          "id": "c",
+          "text": "Pannkòt: dècha Lespri Sen an"
+        },
+        {
+          "id": "d",
+          "text": "Premye misyon Pòl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pannkòt (Shavuot) te pase 50 jou apre Pak. Jou sa a, Lespri Sen an te vèse sou legliz la ki t ap fèt la (Travay 2:1-4).",
+      "bibleReference": "Travay 2:1-4",
+      "normalizedRef": "act2.1-4",
+      "normalizedCat": "eventos"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-012",
+    "ht": {
+      "id": "dq-evnt-012",
+      "questionText": "Ki siy sounnatirèl ki te akonpanye lanmò Jezi sou kwa a?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèlman fènwa pandan 3 èdtan"
+        },
+        {
+          "id": "b",
+          "text": "Fènwa, tranblemanntè, vwal tanp la chire ak mò yo resisite"
+        },
+        {
+          "id": "c",
+          "text": "Lapli dife ak loraj"
+        },
+        {
+          "id": "d",
+          "text": "Solèy la te klere ak entansite ki pa òdinè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lè Jezi te mouri: vwal tanp lan te chire soti anwo rive an ba, te gen tranblemanntè, wòch yo te fann, epi tonbo yo te louvri (Matye 27:50-53).",
+      "bibleReference": "Matye 27:50-53",
+      "normalizedRef": "mat27.50-53",
+      "normalizedCat": "eventos"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-013",
+    "ht": {
+      "id": "dq-evnt-013",
+      "questionText": "Nan ki ane anviwon Jerizalèm te tonbe anba Babilòn pou Nebikadneza?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "722 anvan Kris"
+        },
+        {
+          "id": "b",
+          "text": "612 anvan Kris"
+        },
+        {
+          "id": "c",
+          "text": "586 anvan Kris"
+        },
+        {
+          "id": "d",
+          "text": "550 anvan Kris"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "An 586 anvan Kris Nebikadneza te detwi tanp Salomon an, boule Jerizalèm epi pote pèp la kaptif ann Babilòn (2 Wa 25:8-11).",
+      "bibleReference": "2 Wa 25:8-11",
+      "normalizedRef": "2ki25.8-11",
+      "normalizedCat": "eventos"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-014",
+    "ht": {
+      "id": "dq-evnt-014",
+      "questionText": "Nan ki ane wayòm nò Izrayèl te tonbe anba envazyon Asiri?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "850 anvan Kris"
+        },
+        {
+          "id": "b",
+          "text": "722 anvan Kris"
+        },
+        {
+          "id": "c",
+          "text": "612 anvan Kris"
+        },
+        {
+          "id": "d",
+          "text": "586 anvan Kris"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "An 722 anvan Kris, wa Asiri Salmanasè V (apre Sargon II) te konkeri Samari, kapital wayòm nò a, deporte 10 tribi yo (2 Wa 17:6).",
+      "bibleReference": "2 Wa 17:6",
+      "normalizedRef": "2ki17.6",
+      "normalizedCat": "eventos"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-015",
+    "ht": {
+      "id": "dq-evnt-015",
+      "questionText": "Konbyen ane apre lanmò Jezi Ewòdyen an te detwi sou Jerizalèm pa Wòmyen yo?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 ane (40 apre Kris)"
+        },
+        {
+          "id": "b",
+          "text": "~40 ane (70 apre Kris)"
+        },
+        {
+          "id": "c",
+          "text": "100 ane (130 apre Kris)"
+        },
+        {
+          "id": "d",
+          "text": "200 ane (230 apre Kris)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tanp lan te detwi pa jeneral Women Tit nan ane 70 apre Kris, anviwon 40 ane apre krisifiksyon Jezi (~30 apre Kris), reyalize pwofesi Jezi (Matye 24:2).",
+      "bibleReference": "Matye 24:2",
+      "normalizedRef": "mat24.2",
+      "normalizedCat": "eventos"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-003",
+    "ht": {
+      "id": "dq-tema-003",
+      "questionText": "Konbyen fwa Pyè ta dwe padonnen frè li dapre Jezi?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 fwa"
+        },
+        {
+          "id": "b",
+          "text": "77 fwa"
+        },
+        {
+          "id": "c",
+          "text": "70 fwa sèt"
+        },
+        {
+          "id": "d",
+          "text": "100 fwa"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Mwen pa di ou jiska sèt, men jiska swasant-dis fwa sèt\" (Matye 18:22). Jezi t ap anseye yon pèdon san limit.",
+      "bibleReference": "Matye 18:22",
+      "normalizedRef": "mat18.22",
+      "normalizedCat": "temas"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-004",
+    "ht": {
+      "id": "dq-tema-004",
+      "questionText": "Ki sa Ebre 11:1 di sou lafwa?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Se rezilta obeyisans pafèt la"
+        },
+        {
+          "id": "b",
+          "text": "Se sekirite sa nou espere, prèv sa nou pa wè"
+        },
+        {
+          "id": "c",
+          "text": "Se kwè san prèv"
+        },
+        {
+          "id": "d",
+          "text": "Se kado ki pi gran Lespri a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Lafwa se sekirite sa nou espere a, prèv sa nou pa wè\" (Ebre 11:1).",
+      "bibleReference": "Ebre 11:1",
+      "normalizedRef": "heb11.1",
+      "normalizedCat": "temas"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-005",
+    "ht": {
+      "id": "dq-tema-005",
+      "questionText": "Ki sa Bondye pwomèt dapre 1 Jan 1:9 si nou konfese peche nou yo?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li pral ban nou plis eprèv"
+        },
+        {
+          "id": "b",
+          "text": "Ke nou p ap janm fè peche ankò"
+        },
+        {
+          "id": "c",
+          "text": "Li pral padonnen nou ak netwaye nou nan tout injistis"
+        },
+        {
+          "id": "d",
+          "text": "Ke nou pral pafè"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Si nou konfese peche nou yo, li fidèl ak jis pou padonnen nou peche nou yo, epi pou netwaye nou nan tout mechanste\" (1 Jan 1:9).",
+      "bibleReference": "1 Jan 1:9",
+      "normalizedRef": "1jn1.9",
+      "normalizedCat": "temas"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-006",
+    "ht": {
+      "id": "dq-tema-006",
+      "questionText": "Ki twa vèti etènèl ki rete dapre 1 Korentyen 13:13?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lapriyè, ajèn ak sèvis"
+        },
+        {
+          "id": "b",
+          "text": "Kouraj, sajès ak pouvwa"
+        },
+        {
+          "id": "c",
+          "text": "Lafwa, espwa ak lanmou"
+        },
+        {
+          "id": "d",
+          "text": "Obeyisans, sètete ak lapè"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi kounye a rete lafwa, espwa, ak lanmou, twa sa yo; men pi gran nan yo se lanmou\" (1 Korentyen 13:13).",
+      "bibleReference": "1 Korentyen 13:13",
+      "normalizedRef": "1korentyen13.13",
+      "normalizedCat": "temas"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-007",
+    "ht": {
+      "id": "dq-tema-007",
+      "questionText": "Nan ki chapit 1 Korentyen Pòl dekri lanmou kòm \"vwa ki pi ekselant\"?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chapit 1"
+        },
+        {
+          "id": "b",
+          "text": "Chapit 10"
+        },
+        {
+          "id": "c",
+          "text": "Chapit 13"
+        },
+        {
+          "id": "d",
+          "text": "Chapit 15"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Im lanmou\" oswa \"Chapit lanmou\" se 1 Korentyen 13, kote Pòl dekri lanmou kòm siperyè a don espirityèl yo.",
+      "bibleReference": "1 Korentyen 13:1-13",
+      "normalizedRef": "1korentyen13.1-13",
+      "normalizedCat": "temas"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-008",
+    "ht": {
+      "id": "dq-tema-008",
+      "questionText": "Ki kòmandman Jezi rele \"premye ak pi enpòtan\" nan tout yo?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pa touye"
+        },
+        {
+          "id": "b",
+          "text": "Respecte papa ou ak manman ou"
+        },
+        {
+          "id": "c",
+          "text": "Renmen Bondye ak tout kè ou, ak vwazin ou tankou tèt ou"
+        },
+        {
+          "id": "d",
+          "text": "Pa sèvi non Bondye an anven"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Ou va renmen Seyè Bondye ou ak tout kè ou... Sa a se premye ak gwo kòmandman. Epi dezyèm la sanblabel: ou va renmen vwazin ou tankou tèt ou\" (Matye 22:37-39).",
+      "bibleReference": "Matye 22:37-39",
+      "normalizedRef": "mat22.37-39",
+      "normalizedCat": "temas"
+    },
+    "fr": null,
+    "matchType": "ht_only"
+  }
+]

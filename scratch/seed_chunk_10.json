@@ -1,0 +1,3384 @@
+[
+  {
+    "docId": "dq-lug-012_ht",
+    "data": {
+      "id": "dq-lug-012",
+      "questionText": "Nan bò ki lanmè Pyè, Andre, Jak ak Jan t ap pèche?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmè Mediterane"
+        },
+        {
+          "id": "b",
+          "text": "Lanmè Mò"
+        },
+        {
+          "id": "c",
+          "text": "Lanmè Galile"
+        },
+        {
+          "id": "d",
+          "text": "Lanmè Wouj"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jezi te rele premye disip li yo pandan yo t ap pèche nan Lanmè Galile (yo rele l tou lak Jenezarèt oswa lak Tiberyad) (Matye 4:18).",
+      "bibleReference": "Matye 4:18",
+      "normalizedRef": "mat4.18",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-012_fr",
+    "data": {
+      "id": "dq-lug-012",
+      "questionText": "Au bord de quelle mer Pierre, André, Jacques et Jean pêchaient-ils ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mer Méditerranée"
+        },
+        {
+          "id": "b",
+          "text": "Mer Morte"
+        },
+        {
+          "id": "c",
+          "text": "Mer de Galilée"
+        },
+        {
+          "id": "d",
+          "text": "Mer Rouge"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jésus appela ses premiers disciples alors qu'ils pêchaient dans la mer de Galilée (aussi appelée lac de Génésareth ou lac de Tibériade) (Matthieu 4:18).",
+      "bibleReference": "Matthieu 4:18",
+      "normalizedRef": "mat4.18",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-013_ht",
+    "data": {
+      "id": "dq-lug-013",
+      "questionText": "Sou ki mòn Moyiz te resevwa Dis Kòmandman yo nan men Bondye?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Nebo"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Karmèl"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Èmin"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bondye te rele Moyiz nan Mòn Sinayi (yo rele l tou Orèb) kote li te ba li lwa a sou tab wòch (Egzòd 19:20; 31:18).",
+      "bibleReference": "Egzòd 19:20",
+      "normalizedRef": "exo19.20",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-013_fr",
+    "data": {
+      "id": "dq-lug-013",
+      "questionText": "Sur quelle montagne Moïse a-t-il reçu les Dix Commandements de la part de Dieu ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Nébo"
+        },
+        {
+          "id": "b",
+          "text": "Mont Carmel"
+        },
+        {
+          "id": "c",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "d",
+          "text": "Mont Hermon"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu appela Moïse sur le mont Sinaï (aussi appelé Horeb) où il lui donna la loi sur des tables de pierre (Exode 19:20 ; 31:18).",
+      "bibleReference": "Exode 19:20",
+      "normalizedRef": "exo19.20",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-014_ht",
+    "data": {
+      "id": "dq-lug-014",
+      "questionText": "Sou ki mòn Salomon te bati tanp Bondye a?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Olivye"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Moria / Siyon"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Karmèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salomon te bati tanp lan sou Mòn Moria, nan Jerizalèm, menm kote Abraram te pral sakrifye Izak (2 Kwonik 3:1).",
+      "bibleReference": "2 Kwonik 3:1",
+      "normalizedRef": "2kwonik3.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-014_fr",
+    "data": {
+      "id": "dq-lug-014",
+      "questionText": "Sur quelle montagne Salomon a-t-il bâti le temple de Dieu ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "b",
+          "text": "Mont des Oliviers"
+        },
+        {
+          "id": "c",
+          "text": "Mont Morija / Sion"
+        },
+        {
+          "id": "d",
+          "text": "Mont Carmel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salomon bâtit le temple sur le mont Morija, à Jérusalem, là même où Abraham avait failli sacrifier Isaac (2 Chroniques 3:1).",
+      "bibleReference": "2 Chroniques 3:1",
+      "normalizedRef": "2kwonik3.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-015_ht",
+    "data": {
+      "id": "dq-lug-015",
+      "questionText": "Sou ki mòn Bondye te kòmande Abraram sakrifye pitit li Izak?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Moria"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Èmin"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Nebo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Al nan peyi Moria, epi ofri l la kòm yon olokost\" (Jenèz 22:2). Mòn sa idantifye ak kote Salomon te bati tanp lan (2 Kwonik 3:1).",
+      "bibleReference": "Jenèz 22:2",
+      "normalizedRef": "gen22.2",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-015_fr",
+    "data": {
+      "id": "dq-lug-015",
+      "questionText": "Sur quelle montagne Dieu a-t-il commandé à Abraham de sacrifier son fils Isaac ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "b",
+          "text": "Mont Morija"
+        },
+        {
+          "id": "c",
+          "text": "Mont Hermon"
+        },
+        {
+          "id": "d",
+          "text": "Mont Nébo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Va au pays de Morija, et là offre-le en holocauste » (Genèse 22:2). Ce mont est identifié au lieu où Salomon bâtit le temple (2 Chroniques 3:1).",
+      "bibleReference": "Genèse 22:2",
+      "normalizedRef": "gen22.2",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-016_ht",
+    "data": {
+      "id": "dq-lug-016",
+      "questionText": "Ki kote premye kominote kretyen an te tabli dapre Liv Travay yo?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antiosh"
+        },
+        {
+          "id": "b",
+          "text": "Wòm"
+        },
+        {
+          "id": "c",
+          "text": "Efèz"
+        },
+        {
+          "id": "d",
+          "text": "Jerizalèm"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Premye legliz la te fèt nan Jerizalèm jou Pannkòt, lè Lespri Sen an te desann epi anviwon 3,000 moun te konvèti (Travay 2:1-47).",
+      "bibleReference": "Travay 2:47",
+      "normalizedRef": "act2.47",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-016_fr",
+    "data": {
+      "id": "dq-lug-016",
+      "questionText": "Où la première communauté chrétienne s'est-elle établie selon le livre des Actes ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antioche"
+        },
+        {
+          "id": "b",
+          "text": "Rome"
+        },
+        {
+          "id": "c",
+          "text": "Éphèse"
+        },
+        {
+          "id": "d",
+          "text": "Jérusalem"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La première église naquit à Jérusalem le jour de la Pentecôte, quand le Saint-Esprit descendit et qu'environ 3 000 personnes se convertirent (Actes 2:1-47).",
+      "bibleReference": "Actes 2:47",
+      "normalizedRef": "act2.47",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-017_ht",
+    "data": {
+      "id": "dq-lug-017",
+      "questionText": "Ki vil nan Liv Revelasyon an ki reprezante simbolikman pouvwa opresè Wòm?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sodòm"
+        },
+        {
+          "id": "b",
+          "text": "Babilòn"
+        },
+        {
+          "id": "c",
+          "text": "Niniv"
+        },
+        {
+          "id": "d",
+          "text": "Tir"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nan Revelasyon 17-18, \"Babilòn Gran\" prezante kòm senbòl vil opresè (entèprete kòm Wòm) ki t ap pèsekite sen yo.",
+      "bibleReference": "Revelasyon 17:5",
+      "normalizedRef": "rev17.5",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-017_fr",
+    "data": {
+      "id": "dq-lug-017",
+      "questionText": "Quelle ville, dans le livre de l'Apocalypse, représente symboliquement le pouvoir oppresseur de Rome ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sodome"
+        },
+        {
+          "id": "b",
+          "text": "Babylone"
+        },
+        {
+          "id": "c",
+          "text": "Ninive"
+        },
+        {
+          "id": "d",
+          "text": "Tyr"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dans l'Apocalypse 17-18, « Babylone la Grande » est présentée comme le symbole de la ville oppressante (interprétée comme Rome) qui persécutait les saints.",
+      "bibleReference": "Apocalypse 17:5",
+      "normalizedRef": "rev17.5",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-018_ht",
+    "data": {
+      "id": "dq-lug-018",
+      "questionText": "Nan ki dezè pèp Izrayèl la te rete pandan 40 ane anvan antre nan Kanaran?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dezè Jide"
+        },
+        {
+          "id": "b",
+          "text": "Dezè Sinayi ak Paran"
+        },
+        {
+          "id": "c",
+          "text": "Dezè Arabi"
+        },
+        {
+          "id": "d",
+          "text": "Dezè Negev"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Izrayèl te vire nan dezè Sinayi ak plenn Paran pandan 40 ane. Yo te travèse dezè Zen ak Kadès-Barnea tou (Nonb 33).",
+      "bibleReference": "Nonb 33:1-49",
+      "normalizedRef": "num33.1-49",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-018_fr",
+    "data": {
+      "id": "dq-lug-018",
+      "questionText": "Dans quel désert le peuple d'Israël a-t-il séjourné pendant 40 ans avant d'entrer en Canaan ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Désert de Judée"
+        },
+        {
+          "id": "b",
+          "text": "Déserts de Sinaï et de Paran"
+        },
+        {
+          "id": "c",
+          "text": "Désert d'Arabie"
+        },
+        {
+          "id": "d",
+          "text": "Désert du Néguev"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Israël erra dans le désert du Sinaï et les plaines de Paran pendant 40 ans. Ils traversèrent aussi les déserts de Tsin et de Kadès-Barnéa (Nombres 33).",
+      "bibleReference": "Nombres 33:1-49",
+      "normalizedRef": "num33.1-49",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-019_ht",
+    "data": {
+      "id": "dq-lug-019",
+      "questionText": "Ki rivyè kote Jan Batis te konn batize moun e kote Jezi te batize tou?",
+      "categoryId": "lugares",
+      "categoryName": "Jewografi Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rivyè Nil"
+        },
+        {
+          "id": "b",
+          "text": "Rivyè Jouden"
+        },
+        {
+          "id": "c",
+          "text": "Rivyè Efrat"
+        },
+        {
+          "id": "d",
+          "text": "Rivyè Tig"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 3:13 — \"Lè sa a, Jezi soti nan peyi Galile, li vin bò larivyè Jouden bò kote Jan, pou Jan te batize li.\"",
+      "bibleReference": "Matye 3:13",
+      "normalizedRef": "mat3.13",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-019_fr",
+    "data": {
+      "id": "dq-lug-019",
+      "questionText": "Dans quel fleuve Jean-Baptiste baptisait-il les gens et où Jésus fut-il également baptisé ?",
+      "categoryId": "lugares",
+      "categoryName": "Géographie Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Nil"
+        },
+        {
+          "id": "b",
+          "text": "Le Jourdain"
+        },
+        {
+          "id": "c",
+          "text": "L'Euphrate"
+        },
+        {
+          "id": "d",
+          "text": "Le Tigre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 3:13 — « Alors Jésus vint de la Galilée au Jourdain vers Jean, pour être baptisé par lui. »",
+      "bibleReference": "Matthieu 3:13",
+      "normalizedRef": "mat3.13",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-020_ht",
+    "data": {
+      "id": "dq-lug-020",
+      "questionText": "Nan ki peyi pèp Izrayèl te esklav pandan plis pase 400 lanne?",
+      "categoryId": "lugares",
+      "categoryName": "Jewografi Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pès"
+        },
+        {
+          "id": "b",
+          "text": "Lejip"
+        },
+        {
+          "id": "c",
+          "text": "Lasiri"
+        },
+        {
+          "id": "d",
+          "text": "Wòm"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 12:40 — \"Moun Izrayèl yo te pase katsantrant lanne nan peyi Lejip.\"",
+      "bibleReference": "Egzòd 12:40",
+      "normalizedRef": "exo12.40",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-020_fr",
+    "data": {
+      "id": "dq-lug-020",
+      "questionText": "Dans quel pays le peuple d'Israël a-t-il été esclave pendant plus de 400 ans ?",
+      "categoryId": "lugares",
+      "categoryName": "Géographie Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Perse"
+        },
+        {
+          "id": "b",
+          "text": "Égypte"
+        },
+        {
+          "id": "c",
+          "text": "Assyrie"
+        },
+        {
+          "id": "d",
+          "text": "Rome"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 12:40 — « Le séjour des enfants d'Israël en Égypte fut de quatre cent trente ans. »",
+      "bibleReference": "Exode 12:40",
+      "normalizedRef": "exo12.40",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-021_ht",
+    "data": {
+      "id": "dq-lug-021",
+      "questionText": "Ki mòn kote Moyiz te resevwa Dis Kòmandman yo nan men Bondye?",
+      "categoryId": "lugares",
+      "categoryName": "Jewografi Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Nebo"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Sinayi (Horeb)"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Tabor"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Èmon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 19:20 — \"Seyè a desann sou mòn Sinayi a... li rele Moyiz sou tèt mòn lan.\"",
+      "bibleReference": "Egzòd 19:20",
+      "normalizedRef": "exo19.20",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-021_fr",
+    "data": {
+      "id": "dq-lug-021",
+      "questionText": "Sur quelle montagne Moïse a-t-il reçu les Dix Commandements de la part de Dieu ?",
+      "categoryId": "lugares",
+      "categoryName": "Géographie Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Nébo"
+        },
+        {
+          "id": "b",
+          "text": "Mont Sinaï (Horeb)"
+        },
+        {
+          "id": "c",
+          "text": "Mont Thabor"
+        },
+        {
+          "id": "d",
+          "text": "Mont Hermon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 19:20 — « L'Éternel descendit sur la montagne de Sinaï... et Moïse monta. »",
+      "bibleReference": "Exode 19:20",
+      "normalizedRef": "exo19.20",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-022_ht",
+    "data": {
+      "id": "dq-lug-022",
+      "questionText": "Ki lanmè Bondye te fann an de pou pèp Izrayèl la te ka pase a pye sèch lè yo t ap kouri pou moun Lejip yo?",
+      "categoryId": "lugares",
+      "categoryName": "Jewografi Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmè Mouri"
+        },
+        {
+          "id": "b",
+          "text": "Lanmè Wouj"
+        },
+        {
+          "id": "c",
+          "text": "Lanmè Mediterane"
+        },
+        {
+          "id": "d",
+          "text": "Lanmè Galile"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 14:21 — \"Moyiz lonje men l sou lanmè a... Seyè a fè yon gwo van nò deklanche... li fann dlo a an de.\"",
+      "bibleReference": "Egzòd 14:21",
+      "normalizedRef": "exo14.21",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-022_fr",
+    "data": {
+      "id": "dq-lug-022",
+      "questionText": "Quelle mer Dieu a-t-il fendue en deux pour que le peuple d'Israël puisse passer à pied sec en fuyant les Égyptiens ?",
+      "categoryId": "lugares",
+      "categoryName": "Géographie Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mer Morte"
+        },
+        {
+          "id": "b",
+          "text": "La mer Rouge"
+        },
+        {
+          "id": "c",
+          "text": "La mer Méditerranée"
+        },
+        {
+          "id": "d",
+          "text": "La mer de Galilée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 14:21 — « Moïse étendit sa main sur la mer. Et l'Éternel refoula la mer par un vent d'orient... et les eaux se fendirent. »",
+      "bibleReference": "Exode 14:21",
+      "normalizedRef": "exo14.21",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-023_ht",
+    "data": {
+      "id": "dq-lug-023",
+      "questionText": "Ki vil yo te rele \"Lavi David\" e kote Jezi te fèt la?",
+      "categoryId": "lugares",
+      "categoryName": "Jewografi Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nazarèt"
+        },
+        {
+          "id": "b",
+          "text": "Betleyèm"
+        },
+        {
+          "id": "c",
+          "text": "Jerizalèm"
+        },
+        {
+          "id": "d",
+          "text": "Hebron"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lik 2:4 — \"Jozèf pati tou... li moute lavil Betleyèm, nan peyi Jide, kote wa David te fèt la.\"",
+      "bibleReference": "Lik 2:4",
+      "normalizedRef": "luk2.4",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-023_fr",
+    "data": {
+      "id": "dq-lug-023",
+      "questionText": "Quelle ville était appelée la « ville de David » et est le lieu où Jésus est né ?",
+      "categoryId": "lugares",
+      "categoryName": "Géographie Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nazareth"
+        },
+        {
+          "id": "b",
+          "text": "Bethléem"
+        },
+        {
+          "id": "c",
+          "text": "Jérusalem"
+        },
+        {
+          "id": "d",
+          "text": "Hébron"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Luc 2:4 — « Joseph aussi monta... à la ville de David, appelée Bethléem, parce qu'il était de la maison et de la famille de David. »",
+      "bibleReference": "Luc 2:4",
+      "normalizedRef": "luk2.4",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-024_ht",
+    "data": {
+      "id": "dq-lug-024",
+      "questionText": "Nan ki vil Jezi te grandi e kote moun te konn di: \"Eske anyen bon ka soti la?\"",
+      "categoryId": "lugares",
+      "categoryName": "Jewografi Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kapènawòm"
+        },
+        {
+          "id": "b",
+          "text": "Nazarèt"
+        },
+        {
+          "id": "c",
+          "text": "Tyè"
+        },
+        {
+          "id": "d",
+          "text": "Sidon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 1:46 — \"Natanaèl di li: Eske anyen bon ka soti Nazarèt? Filip reponn li: Vini, w’a wè.\"",
+      "bibleReference": "Jan 1:46",
+      "normalizedRef": "joh1.46",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-024_fr",
+    "data": {
+      "id": "dq-lug-024",
+      "questionText": "Dans quelle ville Jésus a-t-il grandi et d'où les gens disaient : « Peut-il venir de là quelque chose de bon ? »",
+      "categoryId": "lugares",
+      "categoryName": "Géographie Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Capernaüm"
+        },
+        {
+          "id": "b",
+          "text": "Nazareth"
+        },
+        {
+          "id": "c",
+          "text": "Tyr"
+        },
+        {
+          "id": "d",
+          "text": "Sidon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean 1:46 — « Nathanaël lui dit : Peut-il venir de Nazareth quelque chose de bon ? Philippe lui répondit : Viens, et vois. »",
+      "bibleReference": "Jean 1:46",
+      "normalizedRef": "joh1.46",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-025_ht",
+    "data": {
+      "id": "dq-lug-025",
+      "questionText": "Ki rivyè ki fè limit nan jaden Edenn lan ansanm ak Pichon, Giyon, ak Tig?",
+      "categoryId": "lugares",
+      "categoryName": "Jewografi Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jouden"
+        },
+        {
+          "id": "b",
+          "text": "Efrat"
+        },
+        {
+          "id": "c",
+          "text": "Nil"
+        },
+        {
+          "id": "d",
+          "text": "Jabòk"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 2:14 — \"Katriyèm rivyè a, se te rivyè Efrat la.\"",
+      "bibleReference": "Jenèz 2:14",
+      "normalizedRef": "gen2.14",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-025_fr",
+    "data": {
+      "id": "dq-lug-025",
+      "questionText": "Quel fleuve délimite le jardin d'Éden avec le Pishon, le Guihon et le Tigre ?",
+      "categoryId": "lugares",
+      "categoryName": "Géographie Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Jourdain"
+        },
+        {
+          "id": "b",
+          "text": "L'Euphrate"
+        },
+        {
+          "id": "c",
+          "text": "Le Nil"
+        },
+        {
+          "id": "d",
+          "text": "Le Jabbok"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 2:14 — « Le quatrième fleuve, c'est l'Euphrate. »",
+      "bibleReference": "Genèse 2:14",
+      "normalizedRef": "gen2.14",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-026_ht",
+    "data": {
+      "id": "dq-lug-026",
+      "questionText": "Ki mòn kote Abraham te ale pou l te ofri Izarak kòm sakrifis anvan Bondye te bay yon belye pou ranplase l?",
+      "categoryId": "lugares",
+      "categoryName": "Jewografi Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Morija"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Èmon"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Olivye"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jenèz 22:2 — \"Pran Izarak... ale nan peyi Morija, w’a touye l sou mòn mwen va moutre ou la.\"",
+      "bibleReference": "Jenèz 22:2",
+      "normalizedRef": "gen22.2",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-026_fr",
+    "data": {
+      "id": "dq-lug-026",
+      "questionText": "Sur quelle montagne Abraham est-il allé pour offrir Isaac en sacrifice avant que Dieu ne fournisse un bélier pour le remplacer ?",
+      "categoryId": "lugares",
+      "categoryName": "Géographie Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Morija"
+        },
+        {
+          "id": "b",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "c",
+          "text": "Mont Hermon"
+        },
+        {
+          "id": "d",
+          "text": "Mont des Oliviers"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Genèse 22:2 — « Prends ton fils... et va-t'en au pays de Morija, et là offre-le en holocauste sur l'une des montagnes que je te dirai. »",
+      "bibleReference": "Genèse 22:2",
+      "normalizedRef": "gen22.2",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-027_ht",
+    "data": {
+      "id": "dq-lug-027",
+      "questionText": "Ki vil yo te konsidere kòm kapital spirityèl Izrayèl la?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Samari"
+        },
+        {
+          "id": "b",
+          "text": "Betleyèm"
+        },
+        {
+          "id": "c",
+          "text": "Jerizalèm"
+        },
+        {
+          "id": "d",
+          "text": "Nasarèt"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jerizalèm — \"Vil Lapè\" — se kapital politik ak spirityèl Izrayèl: Tanp Salomon, kote Jezi te mouri ak resisite, kote legliz la te kòmanse.",
+      "bibleReference": "Sòm 48:1-2",
+      "normalizedRef": "psa48.1-2",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-027_fr",
+    "data": {
+      "id": "dq-lug-027",
+      "questionText": "Quelle ville était considérée comme la capitale spirituelle d'Israël ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Samarie"
+        },
+        {
+          "id": "b",
+          "text": "Bethléem"
+        },
+        {
+          "id": "c",
+          "text": "Jérusalem"
+        },
+        {
+          "id": "d",
+          "text": "Nazareth"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jérusalem — la « Ville de la Paix » — est la capitale politique et spirituelle d'Israël : le Temple de Salomon, lieu où Jésus est mort et ressuscité, et où l'Église a commencé.",
+      "bibleReference": "Psaume 48:1-2",
+      "normalizedRef": "psa48.1-2",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-028_ht",
+    "data": {
+      "id": "dq-lug-028",
+      "questionText": "Ki peyi Abraham te kite lè Bondye te rele l?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ejip"
+        },
+        {
+          "id": "b",
+          "text": "Ur an Kalede"
+        },
+        {
+          "id": "c",
+          "text": "Kanaran"
+        },
+        {
+          "id": "d",
+          "text": "Babilon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 11:31 — Abraham te kite Ur an Kalede (Irak jounen jodi a) avèk papa l Tera. Bondye te rele l Kanaran (Jenèz 12:1).",
+      "bibleReference": "Jenèz 12:1",
+      "normalizedRef": "gen12.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-028_fr",
+    "data": {
+      "id": "dq-lug-028",
+      "questionText": "Quel pays Abraham a-t-il quitté lorsque Dieu l'a appelé ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Égypte"
+        },
+        {
+          "id": "b",
+          "text": "Ur en Chaldée"
+        },
+        {
+          "id": "c",
+          "text": "Canaan"
+        },
+        {
+          "id": "d",
+          "text": "Babylone"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 11:31 — Abraham a quitté Ur en Chaldée (l'Irak actuel) avec son père Terah. Dieu l'a appelé vers Canaan (Genèse 12:1).",
+      "bibleReference": "Genèse 12:1",
+      "normalizedRef": "gen12.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-029_ht",
+    "data": {
+      "id": "dq-lug-029",
+      "questionText": "Ki rivyè Jezi te batize ladan l?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rivyè Nil"
+        },
+        {
+          "id": "b",
+          "text": "Rivyè Efirat"
+        },
+        {
+          "id": "c",
+          "text": "Rivyè Jouden"
+        },
+        {
+          "id": "d",
+          "text": "Rivyè Tigris"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matye 3:13 — Jezi te batize nan Rivyè Jouden pa Jan Batis. Lespri Sen te desann tankou pijon, vwa Bondye te pale.",
+      "bibleReference": "Matye 3:13-17",
+      "normalizedRef": "mat3.13-17",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-029_fr",
+    "data": {
+      "id": "dq-lug-029",
+      "questionText": "Dans quel fleuve Jésus a-t-il été baptisé ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Nil"
+        },
+        {
+          "id": "b",
+          "text": "L'Euphrate"
+        },
+        {
+          "id": "c",
+          "text": "Le Jourdain"
+        },
+        {
+          "id": "d",
+          "text": "Le Tigre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matthieu 3:13 — Jésus a été baptisé dans le Jourdain par Jean-Baptiste. L'Esprit Saint est descendu comme une colombe et la voix de Dieu a parlé.",
+      "bibleReference": "Matthieu 3:13-17",
+      "normalizedRef": "mat3.13-17",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-030_ht",
+    "data": {
+      "id": "dq-lug-030",
+      "questionText": "Ki kote Jezi te fèt dapre Evanjil yo?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nasarèt"
+        },
+        {
+          "id": "b",
+          "text": "Betleyèm"
+        },
+        {
+          "id": "c",
+          "text": "Kapernam"
+        },
+        {
+          "id": "d",
+          "text": "Jerizalèm"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 2:1 — Jezi te fèt Betleyèm an Jide, kote pwofesi Michée 5:2 te predi. Li grandi Nasarèt (Lk 2:39).",
+      "bibleReference": "Matye 2:1; Michée 5:2",
+      "normalizedRef": "mat2.1;mic5.2",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-030_fr",
+    "data": {
+      "id": "dq-lug-030",
+      "questionText": "Où Jésus est-il né selon les Évangiles ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nazareth"
+        },
+        {
+          "id": "b",
+          "text": "Bethléem"
+        },
+        {
+          "id": "c",
+          "text": "Capernaüm"
+        },
+        {
+          "id": "d",
+          "text": "Jérusalem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 2:1 — Jésus est né à Bethléem en Judée, comme la prophétie de Michée 5:2 l'avait prédit. Il a grandi à Nazareth (Luc 2:39).",
+      "bibleReference": "Matthieu 2:1; Michée 5:2",
+      "normalizedRef": "mat2.1;mic5.2",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-031_ht",
+    "data": {
+      "id": "dq-lug-031",
+      "questionText": "Ki mòn ki kote Jezi te ban Diskou li sou Mòn nan?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Zion"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Galile (Mòn Béatitudes)"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Olivye"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matye 5:1 — Jezi te monte sou yon mòn nan Galile epi li te preche Diskou Sou Mòn nan (Matye 5-7). Tradisyon idantifye sa a Kòn Hattin tou pre.",
+      "bibleReference": "Matye 5:1",
+      "normalizedRef": "mat5.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-031_fr",
+    "data": {
+      "id": "dq-lug-031",
+      "questionText": "Sur quelle montagne Jésus a-t-il prononcé son Discours sur la montagne ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "b",
+          "text": "Mont Sion"
+        },
+        {
+          "id": "c",
+          "text": "Une montagne en Galilée (Mont des Béatitudes)"
+        },
+        {
+          "id": "d",
+          "text": "Mont des Oliviers"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matthieu 5:1 — Jésus est monté sur une montagne en Galilée et a prêché le Discours sur la Montagne (Matthieu 5-7). La tradition identifie ce lieu comme étant proche des Cornes de Hattin.",
+      "bibleReference": "Matthieu 5:1",
+      "normalizedRef": "mat5.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-032_ht",
+    "data": {
+      "id": "dq-lug-032",
+      "questionText": "Ki siyifikasyon vil Babòl genyen nan Bib la?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Senbòl pouvwa Bondye sou tè a"
+        },
+        {
+          "id": "b",
+          "text": "Senbòl ògèy imen, rebelyion kont Bondye ak pèsekisyon — kont Jerizalèm nan Revelasyon"
+        },
+        {
+          "id": "c",
+          "text": "Vil ki reprezante pwomès Abraram yo"
+        },
+        {
+          "id": "d",
+          "text": "Kote premye legliz la te fonde"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Babòl (Jenèz 11 — Tou Babèl, ògèy imen) ak Babilon nan Revelasyon 17-18 (sistèm mond ki kont Bondye) — senbòl pèmanan rebelyion kont souverènte Bondye.",
+      "bibleReference": "Revelasyon 17:5",
+      "normalizedRef": "rev17.5",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-032_fr",
+    "data": {
+      "id": "dq-lug-032",
+      "questionText": "Quelle est la signification de la ville de Babylone dans la Bible ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Symbole de la puissance de Dieu sur terre"
+        },
+        {
+          "id": "b",
+          "text": "Symbole de l'orgueil humain, de la rébellion contre Dieu et de la persécution"
+        },
+        {
+          "id": "c",
+          "text": "Ville représentant les promesses d'Abraham"
+        },
+        {
+          "id": "d",
+          "text": "Lieu où la première église a été fondée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Babel (Genèse 11 — Tour de Babel, orgueil humain) et Babylone dans l'Apocalypse 17-18 (le système mondial contre Dieu) sont des symboles permanents de rébellion contre la souveraineté de Dieu.",
+      "bibleReference": "Apocalypse 17:5",
+      "normalizedRef": "rev17.5",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-033_ht",
+    "data": {
+      "id": "dq-lug-033",
+      "questionText": "Ki kote Pòl te resevwa vizyon pou ale Masedon nan?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Korent"
+        },
+        {
+          "id": "b",
+          "text": "Trwas"
+        },
+        {
+          "id": "c",
+          "text": "Efèz"
+        },
+        {
+          "id": "d",
+          "text": "Antiyòch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 16:8-10 — Nan Trwas (Troad, Tiki jounen jodi a), Pòl te wè vizyon gason Masedonyen an. Ekip la konkli Bondye te rele yo Ewòp.",
+      "bibleReference": "Travay 16:8-10",
+      "normalizedRef": "act16.8-10",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-033_fr",
+    "data": {
+      "id": "dq-lug-033",
+      "questionText": "Où Paul a-t-il reçu la vision d'aller en Macédoine ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Corinthe"
+        },
+        {
+          "id": "b",
+          "text": "Troas"
+        },
+        {
+          "id": "c",
+          "text": "Éphèse"
+        },
+        {
+          "id": "d",
+          "text": "Antioche"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 16:8-10 — À Troas (en Turquie actuelle), Paul a vu la vision de l'homme macédonien. L'équipe a conclu que Dieu les appelait en Europe.",
+      "bibleReference": "Actes 16:8-10",
+      "normalizedRef": "act16.8-10",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-034_ht",
+    "data": {
+      "id": "dq-lug-034",
+      "questionText": "Ki siyifikasyon Jaden Jetsemane nan pasyon Kris la?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kote Jezi te fè dènyè Sòp la"
+        },
+        {
+          "id": "b",
+          "text": "Kote Jezi te priye avèk anmètèm epi kote yo te arete l"
+        },
+        {
+          "id": "c",
+          "text": "Kote disip yo te kouche dènyè nwit anvan krisifiksyon"
+        },
+        {
+          "id": "d",
+          "text": "Kote Jezi te resevwa Lespri Sen an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 26:36-56 — Getsemani = \"moulen oliv\". Jezi te priye ak gran angwas: \"Ke volonte pa mwen pa fèt, men pa ou.\" Kote soumisyon epi arestasyon li.",
+      "bibleReference": "Matye 26:36-46",
+      "normalizedRef": "mat26.36-46",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-034_fr",
+    "data": {
+      "id": "dq-lug-034",
+      "questionText": "Quelle est la signification du jardin de Gethsémané dans la passion du Christ ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lieu où Jésus a pris la dernière Cène"
+        },
+        {
+          "id": "b",
+          "text": "Lieu où Jésus a prié avec agonie et où il a été arrêté"
+        },
+        {
+          "id": "c",
+          "text": "Lieu où les disciples ont dormi la dernière nuit avant la crucifixion"
+        },
+        {
+          "id": "d",
+          "text": "Lieu où Jésus a reçu le Saint-Esprit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 26:36-56 — Gethsémané = « pressoir à huile ». Jésus y a prié avec une grande angoisse : « Que ma volonté ne se fasse pas, mais la tienne. » Lieu de sa soumission et de son arrestation.",
+      "bibleReference": "Matthieu 26:36-46",
+      "normalizedRef": "mat26.36-46",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-035_ht",
+    "data": {
+      "id": "dq-lug-035",
+      "questionText": "Ki sa Mòn Sinai reprezante nan istwa sali a?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kote Izrayèl te fin venkè lènmi yo"
+        },
+        {
+          "id": "b",
+          "text": "Kote Bondye revele tèt li epi bay Dis Kòmandman yo — pwen pivotal alyans Mwaïk la"
+        },
+        {
+          "id": "c",
+          "text": "Kote premye tanp Izrayèl la te bati"
+        },
+        {
+          "id": "d",
+          "text": "Kote Abraram te ofri Izak"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 19-20 — Mòn Sinayi kote Bondye te desann nan dife ak gwo son kòn. Dis Kòmandman yo bay — alyans ant Bondye ak Izrayèl. Ebre 12:18-24 konpare l ak Mòn Sion.",
+      "bibleReference": "Egzòd 19:20",
+      "normalizedRef": "exo19.20",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-035_fr",
+    "data": {
+      "id": "dq-lug-035",
+      "questionText": "Que représente le mont Sinaï dans l'histoire du salut ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le lieu où Israël a vaincu ses ennemis"
+        },
+        {
+          "id": "b",
+          "text": "Le lieu où Dieu s'est révélé et a donné les Dix Commandements"
+        },
+        {
+          "id": "c",
+          "text": "Le lieu où le premier temple d'Israël a été bâti"
+        },
+        {
+          "id": "d",
+          "text": "Le lieu où Abraham a offert Isaac"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 19-20 — Le mont Sinaï est l'endroit où Dieu est descendu dans le feu. Les Dix Commandements y ont été donnés, établissant l'alliance entre Dieu et Israël. Hébreux 12:18-24 le compare au mont Sion.",
+      "bibleReference": "Exode 19:20",
+      "normalizedRef": "exo19.20",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-036_ht",
+    "data": {
+      "id": "dq-lug-036",
+      "questionText": "Ki vil ki te centre premye misyon Pòl nan legliz yo nan Azid?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antiyòch Siryen"
+        },
+        {
+          "id": "b",
+          "text": "Efèz"
+        },
+        {
+          "id": "c",
+          "text": "Kolosy"
+        },
+        {
+          "id": "d",
+          "text": "Filipi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 19 — Pòl te pase twa lane Efèz nan twazyèm vwayaj misyonè l. \"Tout moun ki te rete Azid te tande pawòl Seyè a\" (Travay 19:10). Efèz te vin sant radyasyon Evanjil la.",
+      "bibleReference": "Travay 19:10",
+      "normalizedRef": "act19.10",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-036_fr",
+    "data": {
+      "id": "dq-lug-036",
+      "questionText": "Quelle ville a été le centre de la mission de Paul parmi les églises d'Asie ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antioche de Syrie"
+        },
+        {
+          "id": "b",
+          "text": "Éphèse"
+        },
+        {
+          "id": "c",
+          "text": "Colosses"
+        },
+        {
+          "id": "d",
+          "text": "Philippes"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 19 — Paul a passé trois ans à Éphèse lors de son troisième voyage missionnaire. « Tous ceux qui habitaient l'Asie entendirent la parole du Seigneur » (Actes 19:10). Éphèse est devenue le centre de rayonnement de l'Évangile.",
+      "bibleReference": "Actes 19:10",
+      "normalizedRef": "act19.10",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-037_ht",
+    "data": {
+      "id": "dq-lug-037",
+      "questionText": "Ki kote Jezi te fè premye mirak li — tounen dlo an diven?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kapernam"
+        },
+        {
+          "id": "b",
+          "text": "Nasarèt"
+        },
+        {
+          "id": "c",
+          "text": "Kana an Galile"
+        },
+        {
+          "id": "d",
+          "text": "Betleyèm"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jan 2:1-11 — Maryaj nan Kana an Galile kote Jezi te tounen dlo an diven. Premye \"siy\" ki revele glwa li.",
+      "bibleReference": "Jan 2:11",
+      "normalizedRef": "joh2.11",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-037_fr",
+    "data": {
+      "id": "dq-lug-037",
+      "questionText": "Où Jésus a-t-il accompli son premier miracle — changer l'eau en vin ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Capernaüm"
+        },
+        {
+          "id": "b",
+          "text": "Nazareth"
+        },
+        {
+          "id": "c",
+          "text": "Cana en Galilée"
+        },
+        {
+          "id": "d",
+          "text": "Bethléem"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jean 2:1-11 — Mariage à Cana en Galilée où Jésus a changé l'eau en vin. C'est le premier « signe » qui a révélé sa gloire.",
+      "bibleReference": "Jean 2:11",
+      "normalizedRef": "joh2.11",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-038_ht",
+    "data": {
+      "id": "dq-lug-038",
+      "questionText": "Ki siyifikasyon kote Kalvè a (Gòlgota) nan sijè krisifiksyon an?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kote ki pi bèl nan Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "\"Kote tèt tò\" — lye krisifiksyon Jezi, deyò pòt Jerizalèm"
+        },
+        {
+          "id": "c",
+          "text": "Kote Tanp Salomon an te ye"
+        },
+        {
+          "id": "d",
+          "text": "Mòn kote Abraram te ofri Izak"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gòlgota (ebre) = \"kote tèt\" — kote kriminel yo te krisifye deyò miray Jerizalèm. Matye 27:33, Jan 19:17. Lye sakrifis final Kris la deyò vil la (Ebre 13:12).",
+      "bibleReference": "Matye 27:33",
+      "normalizedRef": "mat27.33",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-038_fr",
+    "data": {
+      "id": "dq-lug-038",
+      "questionText": "Quelle est la signification du lieu du Calvaire (Golgotha) ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le plus bel endroit de Jérusalem"
+        },
+        {
+          "id": "b",
+          "text": "« Lieu du crâne » — lieu de la crucifixion de Jésus, hors des portes de Jérusalem"
+        },
+        {
+          "id": "c",
+          "text": "Lieu où se trouvait le temple de Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Montagne où Abraham a offert Isaac"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Golgotha (hébreu) = « lieu du crâne » — endroit où les criminels étaient crucifiés hors des murs de Jérusalem. Matthieu 27:33, Jean 19:17. Lieu du sacrifice final du Christ (Hébreux 13:12).",
+      "bibleReference": "Matthieu 27:33",
+      "normalizedRef": "mat27.33",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-039_ht",
+    "data": {
+      "id": "dq-lug-039",
+      "questionText": "Ki pwovèn Samaritèn yo ak poukisa Jwif ak Samaritèn pa te ka antann yo?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Samaritèn yo te Romen — pa de pèp Bondye a"
+        },
+        {
+          "id": "b",
+          "text": "Samaritèn yo te melanjman pèp ki rete aprè egzil Asiri — Jwif yo te konsidere yo enpè epi refize maryaj entèkominote"
+        },
+        {
+          "id": "c",
+          "text": "Samaritèn yo te kretyen anvan Jwif yo"
+        },
+        {
+          "id": "d",
+          "text": "Pa te gen konfli — istwa a egzajere sa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Aprè egzil Asiri (722 av J-C), pèp etranje yo te melanje ak Izrayèl. Jwif yo konsidere Samaritèn kòm enpè (Jan 4:9). Parabòl Bon Samaritèn an Jezi ranvèse prejije sa a.",
+      "bibleReference": "Jan 4:9",
+      "normalizedRef": "joh4.9",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-039_fr",
+    "data": {
+      "id": "dq-lug-039",
+      "questionText": "Qui étaient les Samaritains et pourquoi y avait-il un conflit avec les Juifs ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les Samaritains étaient des Romains"
+        },
+        {
+          "id": "b",
+          "text": "Un peuple mixte issu de l'exil assyrien — les Juifs les considéraient comme impurs"
+        },
+        {
+          "id": "c",
+          "text": "Les Samaritains étaient chrétiens avant les Juifs"
+        },
+        {
+          "id": "d",
+          "text": "Il n'y avait pas de conflit réel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Après l'exil assyrien (722 av. J.-C.), des populations étrangères se sont mélangées à Israël. Les Juifs considéraient les Samaritains comme impurs (Jean 4:9). La parabole du Bon Samaritain renverse ce préjugé.",
+      "bibleReference": "Jean 4:9",
+      "normalizedRef": "joh4.9",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-040_ht",
+    "data": {
+      "id": "dq-lug-040",
+      "questionText": "Ki siyifikasyon Patmos kote Jan te ekri Revelasyon an?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon vil rich kote Jan te viv an retrèt"
+        },
+        {
+          "id": "b",
+          "text": "Yon ti zile Lanmè Ejeyèn kote Jan te egzile kòm prizonye pou lafwa l"
+        },
+        {
+          "id": "c",
+          "text": "Kote Jan te fonde premye legliz li a"
+        },
+        {
+          "id": "d",
+          "text": "Vil natal Jan ki prè Jerizalèm"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 1:9 — Jan te sou zile Patmos \"akòz Pawòl Bondye ak temwayaj Jezi Kris\" — egzil Romen. Se kote Bondye te ban li tout vizyon Revelasyon an.",
+      "bibleReference": "Revelasyon 1:9",
+      "normalizedRef": "rev1.9",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-040_fr",
+    "data": {
+      "id": "dq-lug-040",
+      "questionText": "Quelle est la signification de Patmos où Jean a écrit l'Apocalypse ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une ville riche où Jean vivait en retraite"
+        },
+        {
+          "id": "b",
+          "text": "Une petite île de la mer Égée où Jean était exilé pour sa foi"
+        },
+        {
+          "id": "c",
+          "text": "Lieu où Jean a fondé sa première église"
+        },
+        {
+          "id": "d",
+          "text": "Ville natale de Jean près de Jérusalem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apocalypse 1:9 — Jean était sur l'île de Patmos « à cause de la parole de Dieu et du témoignage de Jésus ». C'est là que Dieu lui a donné les visions de l'Apocalypse.",
+      "bibleReference": "Apocalypse 1:9",
+      "normalizedRef": "rev1.9",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-041_ht",
+    "data": {
+      "id": "dq-lug-041",
+      "questionText": "Nan ki vil Jezi te fèt?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nazarèt"
+        },
+        {
+          "id": "b",
+          "text": "Jerizalèm"
+        },
+        {
+          "id": "c",
+          "text": "Betleyèm"
+        },
+        {
+          "id": "d",
+          "text": "Jeriko"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jezi te fèt Betleyèm nan peyi Jide, jan pwofèt Miche te di sa (Lik 2:4-7).",
+      "bibleReference": "Luc 2:4-7"
+    }
+  },
+  {
+    "docId": "dq-lug-041_fr",
+    "data": {
+      "id": "dq-lug-041",
+      "questionText": "Dans quelle ville Jésus est-il né ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nazareth"
+        },
+        {
+          "id": "b",
+          "text": "Jérusalem"
+        },
+        {
+          "id": "c",
+          "text": "Bethléhem"
+        },
+        {
+          "id": "d",
+          "text": "Jéricho"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jésus naquit à Bethléhem de Judée, conformément à la prophétie de Michée 5:1 (Luc 2:4-7).",
+      "bibleReference": "Luc 2:4-7",
+      "normalizedRef": "luk2.4-7",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-042_ht",
+    "data": {
+      "id": "dq-lug-042",
+      "questionText": "Sou ki mòn Moyiz te resevwa Dis Kòmandman yo?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Kamèl"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Nebo"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Siyon"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bondye te bay Moyiz Dis Kòmandman yo sou mòn Sinayi (Egzòd 20:1-17).",
+      "bibleReference": "Exode 20:1"
+    }
+  },
+  {
+    "docId": "dq-lug-042_fr",
+    "data": {
+      "id": "dq-lug-042",
+      "questionText": "Sur quelle montagne Moïse reçut-il les Dix Commandements ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Carmel"
+        },
+        {
+          "id": "b",
+          "text": "Mont Nébo"
+        },
+        {
+          "id": "c",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "d",
+          "text": "Mont Sion"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu donna les Dix Commandements à Moïse sur le Mont Sinaï (Exode 20:1-17).",
+      "bibleReference": "Exode 20:1",
+      "normalizedRef": "exo20.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-043_ht",
+    "data": {
+      "id": "dq-lug-043",
+      "questionText": "Nan ki jaden Jezi te priye ak anpil kè sere anvan yo te arete l?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jaden Edèn"
+        },
+        {
+          "id": "b",
+          "text": "Jaden Jesemane"
+        },
+        {
+          "id": "c",
+          "text": "Jaden Tonbo a"
+        },
+        {
+          "id": "d",
+          "text": "Jaden Tanp lan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jezi te priye ak anpil kè sere nan jaden Jesemane a, nan pye mòn Oliv la (Lik 22:39-44).",
+      "bibleReference": "Luc 22:39-44"
+    }
+  },
+  {
+    "docId": "dq-lug-043_fr",
+    "data": {
+      "id": "dq-lug-043",
+      "questionText": "Dans quel jardin Jésus pria-t-il en agonie avant son arrestation ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le jardin d'Éden"
+        },
+        {
+          "id": "b",
+          "text": "Le jardin de Gethsémané"
+        },
+        {
+          "id": "c",
+          "text": "Le jardin du Sépulcre"
+        },
+        {
+          "id": "d",
+          "text": "Le jardin du Temple"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus pria en agonie au jardin de Gethsémané, au pied du mont des Oliviers (Luc 22:39-44).",
+      "bibleReference": "Luc 22:39-44",
+      "normalizedRef": "luk22.39-44",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-044_ht",
+    "data": {
+      "id": "dq-lug-044",
+      "questionText": "Ki vil nan Dekapòl la kote Jezi te geri yon nonm ki te gen move lespri sou li?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gadara / Geraza"
+        },
+        {
+          "id": "b",
+          "text": "Kapènawòm"
+        },
+        {
+          "id": "c",
+          "text": "Bètsayda"
+        },
+        {
+          "id": "d",
+          "text": "Magdala"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jezi te geri nonm ki te gen move lespri a nan peyi Gadarenyen yo (oswa Gerazenyen yo), bò solèy leve lanmè Galile a (Mak 5:1).",
+      "bibleReference": "Marc 5:1"
+    }
+  },
+  {
+    "docId": "dq-lug-044_fr",
+    "data": {
+      "id": "dq-lug-044",
+      "questionText": "Quelle ville de la Décapole fut le théâtre de la guérison du démoniaque ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gadara / Gérasa"
+        },
+        {
+          "id": "b",
+          "text": "Capharnaüm"
+        },
+        {
+          "id": "c",
+          "text": "Bethsaïde"
+        },
+        {
+          "id": "d",
+          "text": "Magdala"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jésus guérit le démoniaque dans la région des Gadaréniens (ou Géraséniens), côté est de la mer de Galilée (Marc 5:1).",
+      "bibleReference": "Marc 5:1",
+      "normalizedRef": "mar5.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-045_ht",
+    "data": {
+      "id": "dq-lug-045",
+      "questionText": "Nan ki vil premye reyinyon (konsil) apot yo te fèt nan kòmansman Legliz la?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antyòch"
+        },
+        {
+          "id": "b",
+          "text": "Wòm"
+        },
+        {
+          "id": "c",
+          "text": "Efèz"
+        },
+        {
+          "id": "d",
+          "text": "Jerizalèm"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Konsil Jerizalèm nan (Travay 15) te regle keksyon sikonsizyon pou moun ki pa jwif yo — se te premye gwo reyinyon Legliz la.",
+      "bibleReference": "Actes 15:1-2"
+    }
+  },
+  {
+    "docId": "dq-lug-045_fr",
+    "data": {
+      "id": "dq-lug-045",
+      "questionText": "Dans quelle ville l'Église primitive se réunit-elle lors du premier concile apostolique ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antioche"
+        },
+        {
+          "id": "b",
+          "text": "Rome"
+        },
+        {
+          "id": "c",
+          "text": "Éphèse"
+        },
+        {
+          "id": "d",
+          "text": "Jérusalem"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Le concile de Jérusalem (Actes 15) résolu la question de la circoncision des gentils — premier concile de l'Église.",
+      "bibleReference": "Actes 15:1-2",
+      "normalizedRef": "act15.1-2",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-046_ht",
+    "data": {
+      "id": "dq-lug-046",
+      "questionText": "Sou ki ti mòn yo te kloure Jezi sou kwa a?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Siyon"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Oliv"
+        },
+        {
+          "id": "c",
+          "text": "Golgota"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Kamèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Yo te kloure Jezi sou kwa a sou ti mòn Golgota a (ki vle di « kote zo tèt ») ki te andeyò miray lavil Jerizalèm (Jan 19:17).",
+      "bibleReference": "Jean 19:17"
+    }
+  },
+  {
+    "docId": "dq-lug-046_fr",
+    "data": {
+      "id": "dq-lug-046",
+      "questionText": "Sur quelle colline Jésus fut-il crucifié ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le mont Sion"
+        },
+        {
+          "id": "b",
+          "text": "Le mont des Oliviers"
+        },
+        {
+          "id": "c",
+          "text": "Le Golgotha"
+        },
+        {
+          "id": "d",
+          "text": "Le mont Carmel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jésus fut crucifié au Golgotha (« lieu du crâne ») en dehors des murs de Jérusalem (Jean 19:17).",
+      "bibleReference": "Jean 19:17",
+      "normalizedRef": "joh19.17",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-047_ht",
+    "data": {
+      "id": "dq-lug-047",
+      "questionText": "Ki vil nan Bib la ki makonnen ak premye mirak Jezi te fè nan yon nòs?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kapènawòm"
+        },
+        {
+          "id": "b",
+          "text": "Kana nan Galile"
+        },
+        {
+          "id": "c",
+          "text": "Nazarèt"
+        },
+        {
+          "id": "d",
+          "text": "Betani"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jezi te chanje dlo tounen diven nan yon nòs nan vil Kana — se te premye mirak li te fè (Jan 2:1-11).",
+      "bibleReference": "Jean 2:1-11"
+    }
+  },
+  {
+    "docId": "dq-lug-047_fr",
+    "data": {
+      "id": "dq-lug-047",
+      "questionText": "Quelle ville biblique est associée au premier miracle de Jésus lors d'un mariage ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Capharnaüm"
+        },
+        {
+          "id": "b",
+          "text": "Cana de Galilée"
+        },
+        {
+          "id": "c",
+          "text": "Nazareth"
+        },
+        {
+          "id": "d",
+          "text": "Bethanie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus changea l'eau en vin lors des noces de Cana — son premier signe miraculeux (Jean 2:1-11).",
+      "bibleReference": "Jean 2:1-11",
+      "normalizedRef": "joh2.1-11",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-048_ht",
+    "data": {
+      "id": "dq-lug-048",
+      "questionText": "Kisa non « Betleyèm » nan vle di an ebre?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kay pen"
+        },
+        {
+          "id": "b",
+          "text": "Lavil David"
+        },
+        {
+          "id": "c",
+          "text": "Kote pwomès la"
+        },
+        {
+          "id": "d",
+          "text": "Fò won pouvwa a"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Betleyèm (Beit Lehem) vle di « kay pen » an ebre — se la David ak Jezi te fèt.",
+      "bibleReference": "Michée 5:1"
+    }
+  },
+  {
+    "docId": "dq-lug-048_fr",
+    "data": {
+      "id": "dq-lug-048",
+      "questionText": "Quelle est la signification du nom « Bethléhem » en hébreu ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Maison du pain"
+        },
+        {
+          "id": "b",
+          "text": "Cité de David"
+        },
+        {
+          "id": "c",
+          "text": "Lieu de la promesse"
+        },
+        {
+          "id": "d",
+          "text": "Tour de la puissance"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Bethléhem (Beit Lehem) signifie « maison du pain » en hébreu — lieu de naissance de David et de Jésus.",
+      "bibleReference": "Michée 5:1",
+      "normalizedRef": "mic5.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-049_ht",
+    "data": {
+      "id": "dq-lug-049",
+      "questionText": "Ki lanmè ki te nan mitan travay Jezi t'ap fè nan Galile?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmè Mouri"
+        },
+        {
+          "id": "b",
+          "text": "Lanmè Galile (lak Tiberid)"
+        },
+        {
+          "id": "c",
+          "text": "Lanmè Mediterane"
+        },
+        {
+          "id": "d",
+          "text": "Gòlf Akaba"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lanmè Galile a (yo rele l lak Tiberid oswa lak Jenezarèt tou) se la Jezi te pase plis tan nan travay li epi se la li te rele premye disip li yo (Mak 1:16).",
+      "bibleReference": "Marc 1:16"
+    }
+  },
+  {
+    "docId": "dq-lug-049_fr",
+    "data": {
+      "id": "dq-lug-049",
+      "questionText": "Quelle mer intérieure est au cœur du ministère de Jésus en Galilée ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mer Morte"
+        },
+        {
+          "id": "b",
+          "text": "La mer de Galilée (lac de Tibériade)"
+        },
+        {
+          "id": "c",
+          "text": "La Méditerranée"
+        },
+        {
+          "id": "d",
+          "text": "Le golfe d'Aqaba"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La mer de Galilée (lac de Tibériade / lac de Génésareth) fut le centre du ministère de Jésus et de la vocation des premiers disciples (Marc 1:16).",
+      "bibleReference": "Marc 1:16",
+      "normalizedRef": "mar1.16",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-mil-001_ht",
+    "data": {
+      "id": "dq-mil-001",
+      "questionText": "Ki te premye mirak Jezi fè dapre Levanjil Jan an?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geri yon avèg"
+        },
+        {
+          "id": "b",
+          "text": "Vire dlo an diven nan Kana"
+        },
+        {
+          "id": "c",
+          "text": "Mache sou dlo"
+        },
+        {
+          "id": "d",
+          "text": "Leve Laza"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nan yon nòs maryaj nan Kana Galile, Jezi te vire dlo an diven kòm premye siy li (Jan 2:1-11).",
+      "bibleReference": "Jan 2:1-11",
+      "normalizedRef": "joh2.1-11",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-001_fr",
+    "data": {
+      "id": "dq-mil-001",
+      "questionText": "Quel fut le premier miracle de Jésus selon l'Évangile de Jean ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guérir un aveugle"
+        },
+        {
+          "id": "b",
+          "text": "Changer l'eau en vin à Cana"
+        },
+        {
+          "id": "c",
+          "text": "Marcher sur l'eau"
+        },
+        {
+          "id": "d",
+          "text": "Ressusciter Lazare"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lors d'un mariage à Cana en Galilée, Jésus changea l'eau en vin, manifestant ainsi sa gloire (Jean 2:1-11).",
+      "bibleReference": "Jean 2:1-11",
+      "normalizedRef": "joh2.1-11",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-002_ht",
+    "data": {
+      "id": "dq-mil-002",
+      "questionText": "Konbyen moun Jezi te nouri ak senk pen ak de pwason?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "500"
+        },
+        {
+          "id": "b",
+          "text": "1000"
+        },
+        {
+          "id": "c",
+          "text": "3000"
+        },
+        {
+          "id": "d",
+          "text": "5000 gason, san konte fanm ak timoun"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Apre nouri tout moun, te genyen 12 panyen rès. Mirak sa rapòte nan kat levanjil yo (Matye 14:17-21).",
+      "bibleReference": "Matye 14:17-21",
+      "normalizedRef": "mat14.17-21",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-002_fr",
+    "data": {
+      "id": "dq-mil-002",
+      "questionText": "Combien de personnes Jésus a-t-il nourries avec cinq pains et deux poissons ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "500"
+        },
+        {
+          "id": "b",
+          "text": "1000"
+        },
+        {
+          "id": "c",
+          "text": "3000"
+        },
+        {
+          "id": "d",
+          "text": "5000 hommes, sans compter les femmes et les enfants"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Après avoir nourri la foule, il resta 12 paniers pleins de morceaux. Ce miracle est rapporté dans les quatre évangiles (Matthieu 14:17-21).",
+      "bibleReference": "Matthieu 14:17-21",
+      "normalizedRef": "mat14.17-21",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-003_ht",
+    "data": {
+      "id": "dq-mil-003",
+      "questionText": "Ki moun mouri Jezi te leve nan Betani apre li te mouri 4 jou?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tabita"
+        },
+        {
+          "id": "b",
+          "text": "Pitit Va Jairus"
+        },
+        {
+          "id": "c",
+          "text": "Laza"
+        },
+        {
+          "id": "d",
+          "text": "Pitit vèv Nayin an"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Laza, frè Mari ak Marta, te mouri epi Jezi te leve l apre 4 jou nan kavo (Jan 11:43-44).",
+      "bibleReference": "Jan 11:43-44",
+      "normalizedRef": "joh11.43-44",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-003_fr",
+    "data": {
+      "id": "dq-mil-003",
+      "questionText": "Qui Jésus a-t-il ressuscité à Béthanie après quatre jours dans le tombeau ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tabitha"
+        },
+        {
+          "id": "b",
+          "text": "La fille de Jaïrus"
+        },
+        {
+          "id": "c",
+          "text": "Lazare"
+        },
+        {
+          "id": "d",
+          "text": "Le fils de la veuve de Naïn"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lazare, frère de Marie et Marthe, était mort depuis quatre jours quand Jésus l'appela hors du tombeau (Jean 11:43-44).",
+      "bibleReference": "Jean 11:43-44",
+      "normalizedRef": "joh11.43-44",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-004_ht",
+    "data": {
+      "id": "dq-mil-004",
+      "questionText": "Kijan Jezi te geri yon avèg nan Jan 9?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te di l ale benyen nan Pisinn Siloe"
+        },
+        {
+          "id": "b",
+          "text": "Li te touche je l epi jou a te louvri"
+        },
+        {
+          "id": "c",
+          "text": "Li te fè labou ak saliv, mete l sou je l, epi di l ale benyen nan Siloe"
+        },
+        {
+          "id": "d",
+          "text": "Li te lapriyè sèlman epi je l te louvri"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jezi te fè labou ak te frete sou je avèg lan, epi di l: \"Ale benyen nan Pisinn Siloe.\" Lè li te ale benyen, li te vini wè (Jan 9:6-7).",
+      "bibleReference": "Jan 9:6-7",
+      "normalizedRef": "joh9.6-7",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-004_fr",
+    "data": {
+      "id": "dq-mil-004",
+      "questionText": "Comment Jésus a-t-il guéri un aveugle dans Jean 9 ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il lui dit d'aller se laver au réservoir de Siloé"
+        },
+        {
+          "id": "b",
+          "text": "Il toucha ses yeux et ils s'ouvrirent"
+        },
+        {
+          "id": "c",
+          "text": "Il fit de la boue avec sa salive, l'appliqua sur ses yeux et lui dit d'aller se laver à Siloé"
+        },
+        {
+          "id": "d",
+          "text": "Il pria simplement et l'aveugle vit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jésus fit de la boue, l'étala sur les yeux de l'aveugle et lui dit : \"Va, et lave-toi au réservoir de Siloé.\" Il y alla, se lava, et s'en retourna voyant (Jean 9:6-7).",
+      "bibleReference": "Jean 9:6-7",
+      "normalizedRef": "joh9.6-7",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-005_ht",
+    "data": {
+      "id": "dq-mil-005",
+      "questionText": "Ki maladi dis gason Jezi te geri pandan li t ap pwoche Jerizalèm?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pèdisyon"
+        },
+        {
+          "id": "b",
+          "text": "Lèp"
+        },
+        {
+          "id": "c",
+          "text": "Avègman"
+        },
+        {
+          "id": "d",
+          "text": "Paralize"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dis granmoun lèp yo te rele Jezi sot nan lwen. Li te di yo ale monte bay prèt yo. Pandan yo t al, yo te geri (Lik 17:12-14).",
+      "bibleReference": "Lik 17:12-14",
+      "normalizedRef": "luk17.12-14",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-005_fr",
+    "data": {
+      "id": "dq-mil-005",
+      "questionText": "Quelle maladie Jésus a-t-il guérie chez dix hommes alors qu'il approchait de Jérusalem ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La peste"
+        },
+        {
+          "id": "b",
+          "text": "La lèpre"
+        },
+        {
+          "id": "c",
+          "text": "La cécité"
+        },
+        {
+          "id": "d",
+          "text": "La paralysie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dix lépreux crièrent à Jésus de loin. Il leur dit d'aller se montrer aux prêtres, et pendant qu'ils y allaient, ils furent guéris (Luc 17:12-14).",
+      "bibleReference": "Luc 17:12-14",
+      "normalizedRef": "luk17.12-14",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-006_ht",
+    "data": {
+      "id": "dq-mil-006",
+      "questionText": "Ki mirak Jezi ki te montre pouvwa li sou natirèl fizik lè li te mache sou lanmè?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geri pitit Kafarnawoum nan"
+        },
+        {
+          "id": "b",
+          "text": "Mache sou dlo Lanmè Galile"
+        },
+        {
+          "id": "c",
+          "text": "Fè 5000 moun"
+        },
+        {
+          "id": "d",
+          "text": "Revèy tanpèt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pandan disip yo t ap travèse lak nan lannwit, yo te wè Jezi k ap mache sou dlo. Pyè te eseye mache ba l tou (Matye 14:25-29).",
+      "bibleReference": "Matye 14:25-29",
+      "normalizedRef": "mat14.25-29",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-006_fr",
+    "data": {
+      "id": "dq-mil-006",
+      "questionText": "Quel miracle de Jésus a montré son pouvoir sur la nature physique lorsqu'il a marché sur la mer ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Guérir le serviteur du centurion"
+        },
+        {
+          "id": "b",
+          "text": "Marcher sur l'eau de la mer de Galilée"
+        },
+        {
+          "id": "c",
+          "text": "Multiplier les pains"
+        },
+        {
+          "id": "d",
+          "text": "Calmer la tempête"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pendant que les disciples traversaient le lac de nuit, ils virent Jésus marcher sur l'eau. Pierre essaya aussi de venir à lui (Matthieu 14:25-29).",
+      "bibleReference": "Matthieu 14:25-29",
+      "normalizedRef": "mat14.25-29",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-007_ht",
+    "data": {
+      "id": "dq-mil-007",
+      "questionText": "Konbyen ane yon fanm ki t ap soufri emoraji te malad anvan li te touche rad Jezi?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 ane"
+        },
+        {
+          "id": "b",
+          "text": "7 ane"
+        },
+        {
+          "id": "c",
+          "text": "12 ane"
+        },
+        {
+          "id": "d",
+          "text": "20 ane"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Li te soufri pandan 12 ane. Lè l te touche bò rad Jezi, li te santi tousuit ke li te geri (Mak 5:25-29).",
+      "bibleReference": "Mak 5:25-29",
+      "normalizedRef": "mar5.25-29",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-007_fr",
+    "data": {
+      "id": "dq-mil-007",
+      "questionText": "Pendant combien d'années une femme souffrant d'hémorragies était-elle malade avant de toucher le vêtement de Jésus ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 ans"
+        },
+        {
+          "id": "b",
+          "text": "7 ans"
+        },
+        {
+          "id": "c",
+          "text": "12 ans"
+        },
+        {
+          "id": "d",
+          "text": "20 ans"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Elle souffrait depuis 12 ans. Dès qu'elle toucha le bord du vêtement de Jésus, elle sentit qu'elle était guérie (Marc 5:25-29).",
+      "bibleReference": "Marc 5:25-29",
+      "normalizedRef": "mar5.25-29",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-008_ht",
+    "data": {
+      "id": "dq-mil-008",
+      "questionText": "Ki disip Jezi ki te mande pou mache sou dlo tou epi kòmanse koule?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jan"
+        },
+        {
+          "id": "b",
+          "text": "Jake"
+        },
+        {
+          "id": "c",
+          "text": "Pyè"
+        },
+        {
+          "id": "d",
+          "text": "Toma"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pyè te mande Jezi: \"Seyè, si se ou, kòmande mwen vini bò ou sou dlo a.\" Men li te kòmanse koule lè l te pè (Matye 14:28-30).",
+      "bibleReference": "Matye 14:28-30",
+      "normalizedRef": "mat14.28-30",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-008_fr",
+    "data": {
+      "id": "dq-mil-008",
+      "questionText": "Quel disciple de Jésus a demandé à marcher sur l'eau également mais a commencé à s'enfoncer ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jean"
+        },
+        {
+          "id": "b",
+          "text": "Jacques"
+        },
+        {
+          "id": "c",
+          "text": "Pierre"
+        },
+        {
+          "id": "d",
+          "text": "Thomas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pierre dit à Jésus : \"Seigneur, si c'est toi, ordonne que j'aille vers toi sur les eaux.\" Mais il commença à s'enfoncer par peur (Matthieu 14:28-30).",
+      "bibleReference": "Matthieu 14:28-30",
+      "normalizedRef": "mat14.28-30",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-009_ht",
+    "data": {
+      "id": "dq-mil-009",
+      "questionText": "Kijan yo te mennen yon paralitik jwenn Jezi nan Kafarnawoum?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nan pòt tèmit"
+        },
+        {
+          "id": "b",
+          "text": "Yo te desann li pa twou nan do kay kote Jezi te ye"
+        },
+        {
+          "id": "c",
+          "text": "Yo te mete l bò pisinn Betezda"
+        },
+        {
+          "id": "d",
+          "text": "Yo te ba l pase nan foul la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kat gason te pote paralitik la men yo pa t ka antre poutèt foul la. Yo te monte sou do kay la epi desann li sou rad li devan Jezi (Mak 2:4).",
+      "bibleReference": "Mak 2:4",
+      "normalizedRef": "mar2.4",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-009_fr",
+    "data": {
+      "id": "dq-mil-009",
+      "questionText": "Comment a-t-on amené un paralytique auprès de Jésus à Capernaüm ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Par la porte principale"
+        },
+        {
+          "id": "b",
+          "text": "On l'a descendu par une ouverture dans le toit"
+        },
+        {
+          "id": "c",
+          "text": "On l'a placé au bord de la piscine de Béthesda"
+        },
+        {
+          "id": "d",
+          "text": "On l'a porté à travers la foule"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Quatre hommes portaient le paralytique mais ne pouvaient entrer à cause de la foule. Ils montèrent sur le toit et le descendirent par une ouverture (Marc 2:4).",
+      "bibleReference": "Marc 2:4",
+      "normalizedRef": "mar2.4",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-010_ht",
+    "data": {
+      "id": "dq-mil-010",
+      "questionText": "Ki pwofesi Ezayi te Jezi akonpli lè li te geri avèg, bwete ak soud?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pwomès Jeremi pou yon pwofèt nòd"
+        },
+        {
+          "id": "b",
+          "text": "Ezayi 35:5-6 sou Mesi a"
+        },
+        {
+          "id": "c",
+          "text": "Pwomès Moyiz pou yon pwofèt menm jan ak li"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 22 sou soufrans Mesi a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ezayi 35:5-6 te pwofetize: \"Lè sa a je avèg yo pral louvri... bwete a pral sote tankou yon sèf.\" Jezi te montre Jan sa k te akonpli.",
+      "bibleReference": "Ezayi 35:5-6",
+      "normalizedRef": "isa35.5-6",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-010_fr",
+    "data": {
+      "id": "dq-mil-010",
+      "questionText": "Quelle prophétie d'Ésaïe Jésus a-t-il accomplie en guérissant les aveugles, les boiteux et les sourds ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La promesse d'un prophète comme Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Ésaïe 35:5-6 sur le Messie"
+        },
+        {
+          "id": "c",
+          "text": "Le psaume 22 sur les souffrances du Messie"
+        },
+        {
+          "id": "d",
+          "text": "La promesse de Jérémie pour une nouvelle alliance"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ésaïe 35:5-6 prophétisait : \"Alors s'ouvriront les yeux des aveugles... le boiteux sautera comme un cerf.\" Jésus montra à Jean que cela s'accomplissait.",
+      "bibleReference": "Ésaïe 35:5-6",
+      "normalizedRef": "isa35.5-6",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-011_ht",
+    "data": {
+      "id": "dq-mil-011",
+      "questionText": "Ki diferans ant leve Laza ak leve pitit vèv Nayin an?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Laza te yon zanmi; pitit la te yon enkoni"
+        },
+        {
+          "id": "b",
+          "text": "Laza te mouri 4 jou; pitit la te yo pote l pou antere jou sa a"
+        },
+        {
+          "id": "c",
+          "text": "Laza te nan kavo; pitit la te nan kabann"
+        },
+        {
+          "id": "d",
+          "text": "A ak B tou de kòrèk"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Laza te mouri 4 jou e te nan kavo (Jan 11:17,38). Pitit vèv Nayin an te pote pou antere jou sa a menm (Lik 7:12). De ka, de siy diferan de pouvwa Jezi.",
+      "bibleReference": "Jan 11:17; Lik 7:12",
+      "normalizedRef": "joh11.17;luk7.12",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-011_fr",
+    "data": {
+      "id": "dq-mil-011",
+      "questionText": "Quelle est la différence entre la résurrection de Lazare et celle du fils de la veuve de Naïn ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lazare était un ami, le fils était un inconnu"
+        },
+        {
+          "id": "b",
+          "text": "Lazare était mort depuis 4 jours, le fils allait être enterré le jour même"
+        },
+        {
+          "id": "c",
+          "text": "Lazare était dans un tombeau, le fils était sur une civière"
+        },
+        {
+          "id": "d",
+          "text": "Les réponses B et C sont correctes"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Lazare était mort depuis 4 jours et déjà dans le sépulcre (Jean 11:17,38). Le fils de la veuve de Naïn était porté pour être enterré (Luc 7:12).",
+      "bibleReference": "Jean 11:17; Luc 7:12",
+      "normalizedRef": "joh11.17;luk7.12",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-012_ht",
+    "data": {
+      "id": "dq-mil-012",
+      "questionText": "Ki mirak Jezi te fè nan nòs maryaj Kana ki montre \"glwa li\"?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te geri yon malad"
+        },
+        {
+          "id": "b",
+          "text": "Li te vire dlo an diven"
+        },
+        {
+          "id": "c",
+          "text": "Li te fè pen soti nan syèl"
+        },
+        {
+          "id": "d",
+          "text": "Li te leve mouri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 2:11 di: \"Sa a se premye siy lan Jezi te fè... li te montre glwa li, epi disip li yo te kwè nan li.\"",
+      "bibleReference": "Jan 2:11",
+      "normalizedRef": "joh2.11",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-012_fr",
+    "data": {
+      "id": "dq-mil-012",
+      "questionText": "Quel miracle Jésus a-t-il accompli aux noces de Cana qui a manifesté \"sa gloire\" ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il a guéri un malade"
+        },
+        {
+          "id": "b",
+          "text": "Il a changé l'eau en vin"
+        },
+        {
+          "id": "c",
+          "text": "Il a multiplié les pains"
+        },
+        {
+          "id": "d",
+          "text": "Il a ressuscité un mort"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean 2:11 dit : \"Tel fut, à Cana en Galilée, le premier des miracles que fit Jésus. Il manifesta sa gloire, et ses disciples crurent en lui.\"",
+      "bibleReference": "Jean 2:11",
+      "normalizedRef": "joh2.11",
+      "normalizedCat": "milagros"
+    }
+  }
+]

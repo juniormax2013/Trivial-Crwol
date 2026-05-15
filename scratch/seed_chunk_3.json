@@ -1,0 +1,3298 @@
+[
+  {
+    "docId": "dq-doc-002_ht",
+    "data": {
+      "id": "dq-doc-002",
+      "questionText": "Ki sa \"lapriyè\" se dapre ansèyman biblik la?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon maji pou kontròle destin"
+        },
+        {
+          "id": "b",
+          "text": "Kominikasyon pèsonèl ak Bondye atravè lapriyè, konfesyon ak aksyon de gras"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman yon resitatif fòmèl"
+        },
+        {
+          "id": "d",
+          "text": "Lapriyè se pou sèl prèt yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bib la ankouraje yon lapriyè kontinyèl ak pèsonèl: \"Priye san seize\" (1 Tesalonisyen 5:17) ak kominikasyon dirèk ak Papa.",
+      "bibleReference": "1 Tesalonisyen 5:17",
+      "normalizedRef": "1th5.17",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-002_fr",
+    "data": {
+      "id": "dq-doc-002",
+      "questionText": "Que dit 1 Thessaloniciens 5:17 sur la fréquence de la prière ?",
+      "categoryId": "doctrina",
+      "categoryName": "Prière",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prier trois fois par jour comme Daniel"
+        },
+        {
+          "id": "b",
+          "text": "Prier sans cesse"
+        },
+        {
+          "id": "c",
+          "text": "Prier chaque matin et chaque soir"
+        },
+        {
+          "id": "d",
+          "text": "Prier avant chaque repas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Priez sans cesse » (1 Thessaloniciens 5:17) — une posture constante de communion avec Dieu à travers toutes les circonstances de la vie.",
+      "bibleReference": "1 Thessaloniciens 5:17",
+      "normalizedRef": "1th5.17",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-doc-003_ht",
+    "data": {
+      "id": "dq-doc-003",
+      "questionText": "Ki doktrin ki anseye ke tout moun fèt nan yon kondisyon peche ereditè depi Adanm?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Doktrin gras"
+        },
+        {
+          "id": "b",
+          "text": "Peche orijinèl"
+        },
+        {
+          "id": "c",
+          "text": "Doktrin sali"
+        },
+        {
+          "id": "d",
+          "text": "Predestinasyon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Doktrin peche orijinèl anseye ke atravè Adanm, peche (ak konsekans li yo) antre nan limanite (Women 5:12).",
+      "bibleReference": "Women 5:12",
+      "normalizedRef": "rom5.12",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-003_fr",
+    "data": {
+      "id": "dq-doc-003",
+      "questionText": "Selon la doctrine du péché originel, quelle est la condition naturelle de l'humanité ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Neutre moralement — capable de choisir le bien ou le mal"
+        },
+        {
+          "id": "b",
+          "text": "Fondamentalement bonne avec des tendances pécheresses"
+        },
+        {
+          "id": "c",
+          "text": "Corrompue dans sa nature par la chute d'Adam — inclinée vers le péché"
+        },
+        {
+          "id": "d",
+          "text": "Esclave du diable jusqu'au baptême"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le péché originel : suite à la chute d'Adam, toute l'humanité est née dans une nature corrompue — « par un seul homme le péché est entré dans le monde » (Romains 5:12).",
+      "bibleReference": "Romains 5:12",
+      "normalizedRef": "rom5.12",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-004_ht",
+    "data": {
+      "id": "dq-doc-004",
+      "questionText": "Ki sa \"gras\" vle di nan teyoloji kretyen?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Favè merite atravè bon zèv"
+        },
+        {
+          "id": "b",
+          "text": "Favè Bondye bay san merite"
+        },
+        {
+          "id": "c",
+          "text": "Yon pwisans espirityèl espesyal"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman yon mo pwetik"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gras (charis) se favè Bondye bay san merite. \"Pa gras nou sove atravè lafwa... se yon kado Bondye bay\" (Efezyen 2:8).",
+      "bibleReference": "Efezyen 2:8",
+      "normalizedRef": "eph2.8",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-004_fr",
+    "data": {
+      "id": "dq-doc-004",
+      "questionText": "Qu'est-ce que la grâce de Dieu selon la Bible ?",
+      "categoryId": "doctrina",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La récompense des bonnes œuvres"
+        },
+        {
+          "id": "b",
+          "text": "La faveur imméritée de Dieu accordée par miséricorde"
+        },
+        {
+          "id": "c",
+          "text": "La loi divine pour les nations"
+        },
+        {
+          "id": "d",
+          "text": "La puissance de faire des miracles"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La grâce est la faveur imméritée de Dieu. « C'est par la grâce que vous êtes sauvés, par le moyen de la foi » (Éphésiens 2:8).",
+      "bibleReference": "Éphésiens 2:8",
+      "normalizedRef": "eph2.8",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "docId": "dq-doc-005_ht",
+    "data": {
+      "id": "dq-doc-005",
+      "questionText": "Ki twa eleman fondamantal konvèsyon dapre Travay 2:38?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lapriyè, ajèn ak batèm"
+        },
+        {
+          "id": "b",
+          "text": "Repantans, batèm, resevwa Lespri Sen"
+        },
+        {
+          "id": "c",
+          "text": "Konfesyon, absòlisyon, sèvis"
+        },
+        {
+          "id": "d",
+          "text": "Etid Bib, lapriyè, sèvis"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pyè te prèche: \"Repanti... epi batize... nan non Jezi Kris pou remisyon peche ou yo, epi ou pral resevwa Lespri Sen an\" (Travay 2:38).",
+      "bibleReference": "Travay 2:38",
+      "normalizedRef": "act2.38",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-005_fr",
+    "data": {
+      "id": "dq-doc-005",
+      "questionText": "Quelle est la signification de l'expression « baptisé au nom de Jésus » dans les Actes par rapport à Matthieu 28:19 ?",
+      "categoryId": "doctrina",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une contradiction entre Luc et Matthieu sur la formule baptismale"
+        },
+        {
+          "id": "b",
+          "text": "Les deux formules indiquent l'autorité de Christ dans le baptême — pas des formules magiques opposées"
+        },
+        {
+          "id": "c",
+          "text": "Le baptême dans les Actes était un baptême différent du baptême trinitaire"
+        },
+        {
+          "id": "d",
+          "text": "Matthieu ajouta la formule trinitaire après les Actes"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Au nom du Père, du Fils et du Saint-Esprit » (Mt 28:19) et « au nom de Jésus-Christ » (Actes 2:38) ne sont pas contradictoires — les deux expressions indiquent que le baptême se fait sous l'autorité de Christ, qui est l'expression du Père et envoie l'Esprit.",
+      "bibleReference": "Actes 2:38",
+      "normalizedRef": "act2.38",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-doc-006_ht",
+    "data": {
+      "id": "dq-doc-006",
+      "questionText": "Ki sa \"eskatoloji\" etidye nan teoloji biblik?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kreyasyon mond lan"
+        },
+        {
+          "id": "b",
+          "text": "Dènye bagay yo: lanmò, jijman, syèl, lanfè, retou Kris"
+        },
+        {
+          "id": "c",
+          "text": "Istwa Legliz la"
+        },
+        {
+          "id": "d",
+          "text": "Ekritir Sen yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Eskatoloji (grèk: \"eschatos\" = dènye) se etid evènman final: lanmò, rezirèksyon, jijman, retou Kris, etènite (Revelasyon 20-22).",
+      "bibleReference": "Revelasyon 20:11-15",
+      "normalizedRef": "rev20.11-15",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-006_fr",
+    "data": {
+      "id": "dq-doc-006",
+      "questionText": "Que signifie le terme 'Inspiration' de la Bible ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Que les auteurs ont écrit de belles poésies"
+        },
+        {
+          "id": "b",
+          "text": "Que Dieu a guidé les auteurs humains par le Saint-Esprit"
+        },
+        {
+          "id": "c",
+          "text": "Que la Bible est un livre de légendes inspirantes"
+        },
+        {
+          "id": "d",
+          "text": "Que les auteurs ont dicté mécaniquement chaque mot"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Toute Écriture est inspirée de Dieu » (2 Timothée 3:16). Le mot grec 'theopneustos' signifie 'insufflée par Dieu'.",
+      "bibleReference": "2 Timothée 3:16"
+    }
+  },
+  {
+    "docId": "dq-doc-007_ht",
+    "data": {
+      "id": "dq-doc-007",
+      "questionText": "Ki doktrin ki anseye ke Bondye te chwazi pèp li yo anvan fondasyon mond lan?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Òminyans"
+        },
+        {
+          "id": "b",
+          "text": "Predestinasyon / eleksyon"
+        },
+        {
+          "id": "c",
+          "text": "Libè arbitre"
+        },
+        {
+          "id": "d",
+          "text": "Sali inivèsèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"...li te chwazi nou nan li anvan fonmasyon mond lan\" (Efezyen 1:4). Doktrin eleksyon an diskite ant Calminis ak Arminyenis.",
+      "bibleReference": "Efezyen 1:4-5",
+      "normalizedRef": "eph1.4-5",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-007_fr",
+    "data": {
+      "id": "dq-doc-007",
+      "questionText": "Qu'est-ce que la 'Justification par la foi' ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Être déclaré juste par ses bonnes actions"
+        },
+        {
+          "id": "b",
+          "text": "Le fait d'être déclaré juste devant Dieu par la foi en Christ"
+        },
+        {
+          "id": "c",
+          "text": "Être juste aux yeux des hommes"
+        },
+        {
+          "id": "d",
+          "text": "Suivre toutes les lois de l'Ancien Testament"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La justification est un acte légal par lequel Dieu déclare le pécheur juste à cause de la justice de Christ imputée par la foi.",
+      "bibleReference": "Romains 5:1"
+    }
+  },
+  {
+    "docId": "dq-doc-008_ht",
+    "data": {
+      "id": "dq-doc-008",
+      "questionText": "Ki sa \"Inspirasyon\" Ekritir la vle di biblikman?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bib la se yon kopi pafèt sot nan syèl"
+        },
+        {
+          "id": "b",
+          "text": "Bondye te dirije otè imen yo pou ekri pawòl li ak efikasite san erè"
+        },
+        {
+          "id": "c",
+          "text": "Chak mo te dikte pa yon zanj"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman tèks ebre yo enpire"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Tout Ekriti yo enspire pa Bondye...\" (2 Timote 3:16). Mo \"theopneustos\" vle di \"soufle Bondye\". Bondye te pale atravè pèsonalite imen yo.",
+      "bibleReference": "2 Timote 3:16",
+      "normalizedRef": "2ti3.16",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-008_fr",
+    "data": {
+      "id": "dq-doc-008",
+      "questionText": "Que signifie le dogme de la 'Trinité' ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Qu'il y a trois Dieux différents"
+        },
+        {
+          "id": "b",
+          "text": "Un seul Dieu en trois personnes : Père, Fils et Saint-Esprit"
+        },
+        {
+          "id": "c",
+          "text": "Que Jésus est devenu Dieu après sa mort"
+        },
+        {
+          "id": "d",
+          "text": "Que le Père et le Fils sont la même personne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La Bible présente Dieu comme unique, mais se manifestant en trois personnes distinctes et co-éternelles.",
+      "bibleReference": "Matthieu 28:19"
+    }
+  },
+  {
+    "docId": "dq-doc-009_ht",
+    "data": {
+      "id": "dq-doc-009",
+      "questionText": "Konbyen fwi lespri a genyen dapre Galat 5:22-23?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Kretyen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "9"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "3"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Galat 5:22-23 bay nèf kalite ki fòme fwi lespri a: renmen, kè kontan, lapè, pasyans, bon kè, seriye, fidelite, dousè, kontwòl tèt nou.",
+      "bibleReference": "Galat 5:22-23",
+      "normalizedRef": "gal5.22-23",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-009_fr",
+    "data": {
+      "id": "dq-doc-009",
+      "questionText": "Qu'est-ce que la 'Sanctification' ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le processus par lequel le croyant est transformé à l'image de Christ"
+        },
+        {
+          "id": "b",
+          "text": "Le moment de la nouvelle naissance"
+        },
+        {
+          "id": "c",
+          "text": "L'entrée au ciel après la mort"
+        },
+        {
+          "id": "d",
+          "text": "Le fait de ne jamais faire d'erreur"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La sanctification est l'œuvre progressive du Saint-Esprit dans la vie du croyant pour le séparer du péché et le consacrer à Dieu.",
+      "bibleReference": "1 Thessaloniciens 4:3"
+    }
+  },
+  {
+    "docId": "dq-doc-010_ht",
+    "data": {
+      "id": "dq-doc-010",
+      "questionText": "Ki sa nou dwe fè pou nou jwenn padon pou peche nou yo dapre 1 Jan 1:9?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Kretyen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kache yo pou moun pa wè"
+        },
+        {
+          "id": "b",
+          "text": "Konfese yo bay Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Peye yon amann nan legliz"
+        },
+        {
+          "id": "d",
+          "text": "Mete rad nwa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Jan 1:9 — \"Men, si nou rekonèt peche nou yo devan Bondye, li va padone nou...\"",
+      "bibleReference": "1 Jan 1:9",
+      "normalizedRef": "1jn1.9",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-010_fr",
+    "data": {
+      "id": "dq-doc-010",
+      "questionText": "Que signifie le terme 'Rédemption' ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le rachat de l'humanité du péché par le sacrifice de Jésus"
+        },
+        {
+          "id": "b",
+          "text": "L'étude des prophéties"
+        },
+        {
+          "id": "c",
+          "text": "Le châtiment pour les péchés"
+        },
+        {
+          "id": "d",
+          "text": "La connaissance intellectuelle de Dieu"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La rédemption évoque le paiement d'une rançon pour libérer un captif. Jésus a payé de sa vie pour nous libérer de l'esclavage du péché.",
+      "bibleReference": "Éphésiens 1:7"
+    }
+  },
+  {
+    "docId": "dq-doc-011_ht",
+    "data": {
+      "id": "dq-doc-011",
+      "questionText": "Ki sa \"Enkarnasyon\" Kris vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye vin parèt kòm fanto"
+        },
+        {
+          "id": "b",
+          "text": "Pitit Bondye etènèl pran vrè nati imen — vrai Bondye ak vrai moun nan yon sèl pèsòn"
+        },
+        {
+          "id": "c",
+          "text": "Yon moun esepsyonèl ki adopte pa Bondye"
+        },
+        {
+          "id": "d",
+          "text": "Bondye antre nan yon kò tanporèman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 1:14 — \"Pawòl la te tounen chè epi li te rete pami nou.\" Konsilta Chalsedon (451 AD): Kris de nati (divine ak imen) nan yon sèl pèsòn, san melanje ni separasyon.",
+      "bibleReference": "Jan 1:14",
+      "normalizedRef": "joh1.14",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-011_fr",
+    "data": {
+      "id": "dq-doc-011",
+      "questionText": "Qu'est-ce que la 'Souveraineté de Dieu' ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu n'intervient jamais sur terre"
+        },
+        {
+          "id": "b",
+          "text": "Le contrôle absolu et l'autorité de Dieu sur toute la création"
+        },
+        {
+          "id": "c",
+          "text": "L'homme a plus de pouvoir que Dieu sur son destin"
+        },
+        {
+          "id": "d",
+          "text": "Dieu ne connaît pas le futur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La souveraineté signifie que rien n'échappe au contrôle de Dieu et qu'il accomplit tout selon le conseil de sa volonté.",
+      "bibleReference": "Psaume 115:3"
+    }
+  },
+  {
+    "docId": "dq-doc-012_ht",
+    "data": {
+      "id": "dq-doc-012",
+      "questionText": "Ki sa \"Kanon\" Bib la vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Règ gram Ebre ak Grèk"
+        },
+        {
+          "id": "b",
+          "text": "Koleksyon liv ki rekonèt kòm enspire ak otorite — mezi ki mezire tout bagay"
+        },
+        {
+          "id": "c",
+          "text": "Tradiksyon pikiyas Bib la"
+        },
+        {
+          "id": "d",
+          "text": "Chapiteman ak vèsè yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Kanon\" (grèk kanon = règ, mezi) — Bib la = Kanon: liv ki rekonèt pa Legliz kòm enspire Bondye. AT kanon ebre: 39 liv. NT kanon: 27 liv. Tradiksyon ka ajoute deutewokanonisèl.",
+      "bibleReference": "2 Timote 3:16",
+      "normalizedRef": "2ti3.16",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-012_fr",
+    "data": {
+      "id": "dq-doc-012",
+      "questionText": "Que signifie 'L'Incarnation' ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'entrée de l'âme dans un nouveau corps après la mort"
+        },
+        {
+          "id": "b",
+          "text": "Le Fils de Dieu devenant homme en la personne de Jésus"
+        },
+        {
+          "id": "c",
+          "text": "La création de l'univers"
+        },
+        {
+          "id": "d",
+          "text": "La résurrection de Lazare"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Et la parole a été faite chair, et elle a habité parmi nous » (Jean 1:14). C'est le mystère de Dieu se faisant homme.",
+      "bibleReference": "Jean 1:14"
+    }
+  },
+  {
+    "docId": "dq-doc-013_ht",
+    "data": {
+      "id": "dq-doc-013",
+      "questionText": "Ki sa \"Providans Bondye\" vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye sèlman bay siy pou gide nou"
+        },
+        {
+          "id": "b",
+          "text": "Bondye gouvène ak dirije tout evènman istwa ak kreyasyon pou akompli entansyon li yo"
+        },
+        {
+          "id": "c",
+          "text": "Bondye interveni sèlman nan moman kriz"
+        },
+        {
+          "id": "d",
+          "text": "Mond lan ale sou chans ak kalamite"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Women 8:28 — \"Nou konnen ke tout bagay travay ansanm pou byenfèt pou moun ki renmen Bondye.\" Providans: kontròl souverèn Bondye, enkli kapasite Bondye itilize menm mal pou akompli byenfèt.",
+      "bibleReference": "Women 8:28",
+      "normalizedRef": "rom8.28",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-013_fr",
+    "data": {
+      "id": "dq-doc-013",
+      "questionText": "Qu'est-ce que la 'Grâce Commune' ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La grâce de salut pour tous les hommes"
+        },
+        {
+          "id": "b",
+          "text": "La bonté de Dieu manifestée à tous les hommes (pluie, soleil, etc.)"
+        },
+        {
+          "id": "c",
+          "text": "Une grâce qui ne dure pas"
+        },
+        {
+          "id": "d",
+          "text": "Le pardon des péchés véniels"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La grâce commune est la bienveillance par laquelle Dieu maintient l'ordre du monde et dispense des bienfaits temporels à toute l'humanité.",
+      "bibleReference": "Matthieu 5:45"
+    }
+  },
+  {
+    "docId": "dq-doc-014_ht",
+    "data": {
+      "id": "dq-doc-014",
+      "questionText": "Ki sa \"Enfayibilite Bib la\" vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tout tradiksyon Bib la san erè"
+        },
+        {
+          "id": "b",
+          "text": "Bib la nan orijinal li (otograf yo) pa gen erè — li vrèman fidèl nan tout sa li afime"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman chèf legliz ka entèprete Bib la"
+        },
+        {
+          "id": "d",
+          "text": "Bib la pa ka lire anba direksyon imen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Timote 3:16 — \"Tout Ekriti yo enspire pa Bondye\" (theopneustos). Enfayibilite: Bib la nan orijinal li vrai, san erè nan tout sa li afime — enfayibilite diferan de omnisyans (tout sijè).",
+      "bibleReference": "2 Timote 3:16",
+      "normalizedRef": "2ti3.16",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-014_fr",
+    "data": {
+      "id": "dq-doc-014",
+      "questionText": "Que signifie le terme 'Eschatologie' ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'étude de l'histoire ancienne"
+        },
+        {
+          "id": "b",
+          "text": "L'étude des choses de la fin ou des derniers temps"
+        },
+        {
+          "id": "c",
+          "text": "L'étude des langues bibliques"
+        },
+        {
+          "id": "d",
+          "text": "L'étude de l'Église locale"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'eschatologie traite du retour de Christ, du jugement dernier, de la résurrection et de l'état éternel.",
+      "bibleReference": "1 Thessaloniciens 4:16-17"
+    }
+  },
+  {
+    "docId": "dq-doc-015_ht",
+    "data": {
+      "id": "dq-doc-015",
+      "questionText": "Ki sa \"sali\" vle di nan kontèks biblik la?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fè bon aksyon sosyal"
+        },
+        {
+          "id": "b",
+          "text": "Delivrans peche, jijman ak lavi etènèl atravè lafwa nan Kris"
+        },
+        {
+          "id": "c",
+          "text": "Reenkarnasyon lespri a"
+        },
+        {
+          "id": "d",
+          "text": "Akonplisman lwa Moyiz la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sali se delivrans pechè nan lalwa peche ak lanmò, jwenn travè gras Bondye pa lafwa nan Kris (Efezyen 2:8-9).",
+      "bibleReference": "Efezyen 2:8-9",
+      "normalizedRef": "eph2.8-9",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-015_fr",
+    "data": {
+      "id": "dq-doc-015",
+      "questionText": "Qu'est-ce que 'L'Alliance' (Covenant) dans la Bible ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un simple contrat humain"
+        },
+        {
+          "id": "b",
+          "text": "Un engagement solennel entre Dieu et son peuple"
+        },
+        {
+          "id": "c",
+          "text": "Une promesse que l'on peut briser sans conséquence"
+        },
+        {
+          "id": "d",
+          "text": "Une alliance de mariage uniquement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu a établi diverses alliances (Noé, Abraham, Moïse, David, Nouvelle Alliance) pour révéler son plan de salut.",
+      "bibleReference": "Hébreux 8:10"
+    }
+  },
+  {
+    "docId": "dq-doc-016_ht",
+    "data": {
+      "id": "dq-doc-016",
+      "questionText": "Ki sa \"batèm\" reprezante nan teoloji kretyen?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rituèl pou netwaye peche"
+        },
+        {
+          "id": "b",
+          "text": "Siy piblik konvèsyon ak idantifikasyon ak Kris nan lanmò ak rezirèksyon li"
+        },
+        {
+          "id": "c",
+          "text": "Nesesite absolye pou sali"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman yon tradisyon kiltirèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Batèm reprezante lanmò ak rezirèksyon ak Kris (Women 6:4). Se yon konfesyon piblik lafwa, pa sèlman yon ritièl.",
+      "bibleReference": "Women 6:4",
+      "normalizedRef": "rom6.4",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-016_fr",
+    "data": {
+      "id": "dq-doc-016",
+      "questionText": "Que représente le « baptême » dans la théologie chrétienne ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un rituel pour nettoyer les péchés"
+        },
+        {
+          "id": "b",
+          "text": "Un signe public de conversion et d'identification avec Christ dans sa mort et sa résurrection"
+        },
+        {
+          "id": "c",
+          "text": "Une nécessité absolue pour le salut"
+        },
+        {
+          "id": "d",
+          "text": "Seulement una tradition culturelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le baptême représente la mort et la résurrection avec Christ (Romains 6:4). C'est une confession publique de foi, pas seulement un rituel.",
+      "bibleReference": "Romains 6:4",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-017_ht",
+    "data": {
+      "id": "dq-doc-017",
+      "questionText": "Ki sa \"pèdon\" vle di biblikman?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inyore peche"
+        },
+        {
+          "id": "b",
+          "text": "Efase dèt peche epi restore relasyon"
+        },
+        {
+          "id": "c",
+          "text": "Egzije pinisyon anvan pèdon"
+        },
+        {
+          "id": "d",
+          "text": "Yon santiman imen san fondman divin"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pèdon biblik vle di efase dèt. \"Epi padonnen nou dèt nou yo, menm jan nou padonnen dèbitè nou yo\" (Matye 6:12).",
+      "bibleReference": "Matye 6:12",
+      "normalizedRef": "mat6.12",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-017_fr",
+    "data": {
+      "id": "dq-doc-017",
+      "questionText": "Que signifie bibliquement le « pardon » ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ignorer le péché"
+        },
+        {
+          "id": "b",
+          "text": "Effacer la dette du péché et restaurer la relation"
+        },
+        {
+          "id": "c",
+          "text": "Exiger une punition avant le pardon"
+        },
+        {
+          "id": "d",
+          "text": "Un sentiment humain sans fondement divin"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le pardon biblique signifie effacer la dette. « Pardonne-nous nos offenses, comme nous aussi nous pardonnons à ceux qui nous ont offensés » (Matthieu 6:12).",
+      "bibleReference": "Matthieu 6:12",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-018_ht",
+    "data": {
+      "id": "dq-doc-018",
+      "questionText": "Ki sa \"Legliz\" (eklezia) vle di literalman nan grèk?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon bilding relijye"
+        },
+        {
+          "id": "b",
+          "text": "Asanble moun ki rele deyò"
+        },
+        {
+          "id": "c",
+          "text": "Òganizasyon relijye"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman moun ki batize"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Ekklesia\" vle di literalman \"asanble\" oswa \"moun ki rele deyò\". Se kominote kwayan, pa bilding (1 Korentyen 12:27).",
+      "bibleReference": "1 Korentyen 12:27",
+      "normalizedRef": "1korentyen12.27",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-018_fr",
+    "data": {
+      "id": "dq-doc-018",
+      "questionText": "Que signifie littéralement « Église » (ekklesia) en grec ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un bâtiment religieux"
+        },
+        {
+          "id": "b",
+          "text": "Une assemblée de ceux qui sont appelés hors de"
+        },
+        {
+          "id": "c",
+          "text": "Une organisation religieuse"
+        },
+        {
+          "id": "d",
+          "text": "Seulement les personnes baptisées"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Ekklesia » signifie littéralement « assemblée » ou « ceux qui sont appelés hors de ». C'est la communauté des croyants, pas le bâtiment (1 Corinthiens 12:27).",
+      "bibleReference": "1 Corinthiens 12:27",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-019_ht",
+    "data": {
+      "id": "dq-doc-019",
+      "questionText": "Ki diferans ant \"justifikasyon\" ak \"sanktifikasyon\" nan teyoloji paulinyen?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tou de se menm bagay"
+        },
+        {
+          "id": "b",
+          "text": "Justifikasyon: deklare jis yon fwa; Sanktifikasyon: pwosesis vin plis tankou Kris pandan lavi a"
+        },
+        {
+          "id": "c",
+          "text": "Justifikasyon se sèlman AT, sanktifikasyon se NT"
+        },
+        {
+          "id": "d",
+          "text": "Sanktifikasyon vini anvan justifikasyon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Justifikasyon se yon zak jiridik imedya: Bondye deklare pechè \"pa koupab\" (Women 5:1). Sanktifikasyon se pwosesis pwogresif ki transfòme karaktè kwayan an (1 Tesalonisyen 4:3).",
+      "bibleReference": "Women 5:1; 1 Tesalonisyen 4:3",
+      "normalizedRef": "rom5.1;1th4.3",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-019_fr",
+    "data": {
+      "id": "dq-doc-019",
+      "questionText": "Quelle est la différence entre « justification » et « sanctification » dans la théologie paulinienne ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les deux sont la même chose"
+        },
+        {
+          "id": "b",
+          "text": "Justification : déclaré juste une fois ; Sanctification : processus pour devenir plus comme Christ pendant la vie"
+        },
+        {
+          "id": "c",
+          "text": "La justification est seulement dans l'AT, la sanctification dans le NT"
+        },
+        {
+          "id": "d",
+          "text": "La sanctification vient avant la justification"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La justification est un acte juridique immédiat : Dieu déclare le pécheur « non coupable » (Romains 5:1). La sanctification est le processus progressif qui transforme le caractère du croyant (1 Thessaloniciens 4:3).",
+      "bibleReference": "Romains 5:1 ; 1 Thessaloniciens 4:3",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-020_ht",
+    "data": {
+      "id": "dq-doc-020",
+      "questionText": "Ki twa konpozant egzistans imen dapre teyoloji trikotomi?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kò, lespri, nanm"
+        },
+        {
+          "id": "b",
+          "text": "Syèl, lanfè, piwgatwa"
+        },
+        {
+          "id": "c",
+          "text": "Jijman, rezirèksyon, glwa"
+        },
+        {
+          "id": "d",
+          "text": "Lanmou, espwa, lafwa"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Teyoloji tribotomis anseye moun gen twa pati: kò (fizik), lespri (soufle Bondye) ak nanm (pèsonalite). 1 Tesalonisyen 5:23 site twa pati sa yo.",
+      "bibleReference": "1 Tesalonisyen 5:23",
+      "normalizedRef": "1th5.23",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-020_fr",
+    "data": {
+      "id": "dq-doc-020",
+      "questionText": "Quelles sont les trois composantes de l'existence humaine selon la théologie de la trichotomie ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Corps, esprit, âme"
+        },
+        {
+          "id": "b",
+          "text": "Ciel, enfer, purgatoire"
+        },
+        {
+          "id": "c",
+          "text": "Jugement, résurrection, gloire"
+        },
+        {
+          "id": "d",
+          "text": "Amour, espoir, foi"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La théologie trichotomiste enseigne que l'homme a trois parties : le corps (physique), l'esprit (souffle de Dieu) et l'âme (personnalité). 1 Thessaloniciens 5:23 cite ces trois parties.",
+      "bibleReference": "1 Thessaloniciens 5:23",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-021_ht",
+    "data": {
+      "id": "dq-doc-021",
+      "questionText": "Ki sa doktrin \"Nòv Nesans\" (Jan 3) egzije?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon dezyèm nesans fizik"
+        },
+        {
+          "id": "b",
+          "text": "Yon transfòmasyon espirityèl sounnatirèl, nesesè pou wè wayòm Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Batèm k ap repetitif"
+        },
+        {
+          "id": "d",
+          "text": "Yon eksperyans emosyonèl entans"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jezi di Nikodèm: \"Vrèman vrèman mwen di ou, si yon moun pa fèt nòv, li pa ka wè wayòm Bondye\" (Jan 3:3). Se yon travay Lespri Sen ki transfòme natirèl moun nan.",
+      "bibleReference": "Jan 3:3-7",
+      "normalizedRef": "joh3.3-7",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-021_fr",
+    "data": {
+      "id": "dq-doc-021",
+      "questionText": "Qu'exige la doctrine de la « Nouvelle Naissance » (Jean 3) ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une deuxième naissance physique"
+        },
+        {
+          "id": "b",
+          "text": "Une transformation spirituelle surnaturelle, nécessaire pour voir le royaume de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Un baptême répétitif"
+        },
+        {
+          "id": "d",
+          "text": "Une expérience émotionnelle intense"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus dit à Nicodème : « En vérité, en vérité, je te le dis, si un homme ne naît de nouveau, il ne peut voir le royaume de Dieu » (Jean 3:3). C'est une œuvre du Saint-Esprit qui transforme la nature de l'homme.",
+      "bibleReference": "Jean 3:3-7",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-022_ht",
+    "data": {
+      "id": "dq-doc-022",
+      "questionText": "Dapre Efezyen 2:8, kòman nou sove?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Kretyen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pa mwayen bon zèv nou yo"
+        },
+        {
+          "id": "b",
+          "text": "Pa gras, pa mwayen lafwa"
+        },
+        {
+          "id": "c",
+          "text": "Paske nou fèt nan yon fanmi kretyen"
+        },
+        {
+          "id": "d",
+          "text": "Lè nou bay anpil ofrann"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 2:8 — \"Paske, se gras Bondye ki sove nou pa mwayen lafwa nou nan li. Sa pa soti nan nou menm...\"",
+      "bibleReference": "Efezyen 2:8",
+      "normalizedRef": "eph2.8",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-022_fr",
+    "data": {
+      "questionText": "Selon Éphésiens 2:8, comment sommes-nous sauvés ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Par nos bonnes œuvres"
+        },
+        {
+          "id": "b",
+          "text": "Par la grâce, par le moyen de la foi"
+        },
+        {
+          "id": "c",
+          "text": "Par la famille"
+        },
+        {
+          "id": "d",
+          "text": "Par les offrandes"
+        }
+      ],
+      "explanation": "Éphésiens 2:8 — « Car c'est par la grâce que vous êtes sauvés, par le moyen de la foi. »",
+      "bibleReference": "Éphésiens 2:8",
+      "id": "dq-doc-022",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-023_ht",
+    "data": {
+      "id": "dq-doc-023",
+      "questionText": "Ki sa Bib la di ki se \"rasin tout kalite sa ki mal\"?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Kretyen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lajan"
+        },
+        {
+          "id": "b",
+          "text": "Lanmou pou lajan"
+        },
+        {
+          "id": "c",
+          "text": "Kòlè"
+        },
+        {
+          "id": "d",
+          "text": "Manti"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timote 6:10 — \"Paske, lanmou pou lajan se rasin tout kalite sa ki mal.\"",
+      "bibleReference": "1 Timote 6:10",
+      "normalizedRef": "1ti6.10",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-023_fr",
+    "data": {
+      "questionText": "Que dit la Bible qu'est « la racine de tous les maux » ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'argent"
+        },
+        {
+          "id": "b",
+          "text": "L'amour de l'argent"
+        },
+        {
+          "id": "c",
+          "text": "La pauvreté"
+        },
+        {
+          "id": "d",
+          "text": "Le travail"
+        }
+      ],
+      "explanation": "1 Timothée 6:10 — « Car l'amour de l'argent est une racine de tous les maux... »",
+      "bibleReference": "1 Timothée 6:10",
+      "id": "dq-doc-023",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-024_ht",
+    "data": {
+      "id": "dq-doc-024",
+      "questionText": "Ki sa nou dwe fè pou nou gen lavi ki p’ap janm fini an dapre Jan 3:16?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Kretyen",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mete konfyans nou nan Pitit Bondye a (Jezi)"
+        },
+        {
+          "id": "b",
+          "text": "Travay di chak jou"
+        },
+        {
+          "id": "c",
+          "text": "Konnen tout Bib la pakè"
+        },
+        {
+          "id": "d",
+          "text": "Pa janm fè peche"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jan 3:16 — \"...pou tout moun ki mete konfyans yo nan li pa pèdi, men pou yo gen lavi ki p’ap janm fini an.\"",
+      "bibleReference": "Jan 3:16",
+      "normalizedRef": "joh3.16",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-024_fr",
+    "data": {
+      "questionText": "Quel est le « premier et le grand commandement » selon Jésus ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tu ne tueras point"
+        },
+        {
+          "id": "b",
+          "text": "Tu aimeras le Seigneur, ton Dieu, de tout ton cœur..."
+        },
+        {
+          "id": "c",
+          "text": "Tu aimeras ton prochain comme toi-même"
+        },
+        {
+          "id": "d",
+          "text": "Tu ne déroberas point"
+        }
+      ],
+      "explanation": "Matthieu 22:37-38 — « Tu aimeras le Seigneur, ton Dieu... C'est là le premier et le grand commandement. »",
+      "bibleReference": "Matthieu 22:37-38",
+      "id": "dq-doc-024",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-025_ht",
+    "data": {
+      "id": "dq-doc-025",
+      "questionText": "Kote premye kòmandman ki gen yon pwomès ladan l?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Kretyen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pa touye moun"
+        },
+        {
+          "id": "b",
+          "text": "Respekte manman ou ak papa ou"
+        },
+        {
+          "id": "c",
+          "text": "Pa adore lòt bondye"
+        },
+        {
+          "id": "d",
+          "text": "Respekte jou repo a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 6:2 — \"Respekte manman ou ak papa ou. Sa se premye kòmandman ki gen yon pwomès dèyè l.\"",
+      "bibleReference": "Efezyen 6:2",
+      "normalizedRef": "eph6.2",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-025_fr",
+    "data": {
+      "questionText": "Selon Jean 3:3, que doit faire un homme pour « voir le royaume de Dieu » ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Être baptisé d'eau"
+        },
+        {
+          "id": "b",
+          "text": "Naître de nouveau"
+        },
+        {
+          "id": "c",
+          "text": "Donner aux pauvres"
+        },
+        {
+          "id": "d",
+          "text": "Lire la Bible"
+        }
+      ],
+      "explanation": "Jean 3:3 — « si un homme ne naît de nouveau, il ne peut voir le royaume de Dieu. »",
+      "bibleReference": "Jean 3:3",
+      "id": "dq-doc-025",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-026_ht",
+    "data": {
+      "id": "dq-doc-026",
+      "questionText": "Ki sa \"Lafwa\" ye dapre Ebre 11:1?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Kretyen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon santiman pasajè"
+        },
+        {
+          "id": "b",
+          "text": "Yon asirans fèm sou sa nou espere a"
+        },
+        {
+          "id": "c",
+          "text": "Lè nou wè yon mirak"
+        },
+        {
+          "id": "d",
+          "text": "Yon bagay nou ka touche"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ebre 11:1 — \"Lafwa se yon asirans fèm sou sa nou espere a...\"",
+      "bibleReference": "Ebre 11:1",
+      "normalizedRef": "heb11.1",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-026_fr",
+    "data": {
+      "questionText": "Qu'est-ce que « la foi » selon Hébreux 11:1 ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un sentiment passager"
+        },
+        {
+          "id": "b",
+          "text": "Une ferme assurance des choses qu'on espère"
+        },
+        {
+          "id": "c",
+          "text": "Croire sans preuve"
+        },
+        {
+          "id": "d",
+          "text": "Une tradition"
+        }
+      ],
+      "explanation": "Hébreux 11:1 — « Or la foi est une ferme assurance des choses qu'on espère... »",
+      "bibleReference": "Hébreux 11:1",
+      "id": "dq-doc-026",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-027_ht",
+    "data": {
+      "id": "dq-doc-027",
+      "questionText": "Ki sa Bib la di de pawòl Bondye a nan Sòm 119:105?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Kretyen",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li se yon nepe"
+        },
+        {
+          "id": "b",
+          "text": "Li se yon lanp pou pye nou ak yon limyè sou chemen nou"
+        },
+        {
+          "id": "c",
+          "text": "Li se yon dlo ki fre"
+        },
+        {
+          "id": "d",
+          "text": "Li se yon gwo mòn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 119:105 — \"Pawòl ou se yon lanp pou pye mwen, yon limyè sou chemen mwen.\"",
+      "bibleReference": "Sòm 119:105",
+      "normalizedRef": "psa119.105",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-027_fr",
+    "data": {
+      "questionText": "Qui est « le chemin, la vérité, et la vie » ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Jésus-Christ"
+        },
+        {
+          "id": "c",
+          "text": "Paul"
+        },
+        {
+          "id": "d",
+          "text": "Pierre"
+        }
+      ],
+      "explanation": "Jean 14:6 — « Jésus lui dit : Je suis le chemin, la vérité, et la vie. »",
+      "bibleReference": "Jean 14:6",
+      "id": "dq-doc-027",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-028_ht",
+    "data": {
+      "id": "dq-doc-028",
+      "questionText": "Ki sa \"peche\" ye dapre 1 Jan 3:4?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Kretyen",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dezobeyisans lwa Bondye a"
+        },
+        {
+          "id": "b",
+          "text": "Lè nou fè yon erè"
+        },
+        {
+          "id": "c",
+          "text": "Lè nou pa renmen yon moun"
+        },
+        {
+          "id": "d",
+          "text": "Lè nou pa al legliz"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "1 Jan 3:4 — \"Tout moun k’ap fè peche, y’ap dezobeyi lwa Bondye a...\"",
+      "bibleReference": "1 Jan 3:4",
+      "normalizedRef": "1jn3.4",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-028_fr",
+    "data": {
+      "questionText": "Combien de Dieu(x) y a-t-il selon Éphésiens 4:6 ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plusieurs"
+        },
+        {
+          "id": "b",
+          "text": "Un seul Dieu et Père de tous"
+        },
+        {
+          "id": "c",
+          "text": "Trois Dieux"
+        },
+        {
+          "id": "d",
+          "text": "Douze"
+        }
+      ],
+      "explanation": "Éphésiens 4:6 — « un seul Dieu et Père de tous... »",
+      "bibleReference": "Éphésiens 4:6",
+      "id": "dq-doc-028",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-029_ht",
+    "data": {
+      "id": "dq-doc-029",
+      "questionText": "Ki pi gwo kòmandman an dapre Jezi?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Kretyen",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Renmen Bondye ak tout kè ou, tout nanm ou ak tout lespri ou"
+        },
+        {
+          "id": "b",
+          "text": "Pa vòlè"
+        },
+        {
+          "id": "c",
+          "text": "Ale nan legliz chak dimanch"
+        },
+        {
+          "id": "d",
+          "text": "Bati yon gwo tanp"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Matye 22:37-38 — \"Se pou ou renmen Seyè a, Bondye ou... Sa se premye kòmandman an...\"",
+      "bibleReference": "Matye 22:37-38",
+      "normalizedRef": "mat22.37-38",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-029_fr",
+    "data": {
+      "questionText": "Qu'est-ce que « le salaire du péché » selon Romains 6:23 ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "La richesse"
+        },
+        {
+          "id": "b",
+          "text": "La mort"
+        },
+        {
+          "id": "c",
+          "text": "La maladie"
+        },
+        {
+          "id": "d",
+          "text": "La tristesse"
+        }
+      ],
+      "explanation": "Romains 6:23 — « Car le salaire du péché, c'est la mort... »",
+      "bibleReference": "Romains 6:23",
+      "id": "dq-doc-029",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-030_ht",
+    "data": {
+      "id": "dq-doc-030",
+      "questionText": "Ki sa \"Trinite\" vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Twa Bondye diferan"
+        },
+        {
+          "id": "b",
+          "text": "Yon Bondye nan twa pèsòn — Papa, Pitit, Lespri Sen"
+        },
+        {
+          "id": "c",
+          "text": "Bondye ki chanje fòm li twa fwa"
+        },
+        {
+          "id": "d",
+          "text": "Yon konsèp filozofik grèk sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 28:19 — \"Batize yo nan non Papa, Pitit ak Lespri Sen.\" 2 Kor 13:14 — Grâce Jezi Kris, amou Bondye, kominyon Lespri Sen. Yon Bondye, twa pèsòn distèng.",
+      "bibleReference": "Matye 28:19",
+      "normalizedRef": "mat28.19",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-030_fr",
+    "data": {
+      "questionText": "Comment la Bible décrit-elle « la Parole de Dieu » dans Hébreux 4:12 ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Comme un livre d'histoire"
+        },
+        {
+          "id": "b",
+          "text": "Comme une épée quelconque"
+        },
+        {
+          "id": "c",
+          "text": "Comme vivante et efficace, plus tranchante qu'une épée à deux tranchants"
+        },
+        {
+          "id": "d",
+          "text": "Comme une simple philosophie"
+        }
+      ],
+      "explanation": "Hébreux 4:12 — « Car la parole de Dieu est vivante et efficace, plus tranchante qu'une épée quelconque à deux tranchants... »",
+      "bibleReference": "Hébreux 4:12",
+      "id": "dq-doc-030",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-doc-031_ht",
+    "data": {
+      "id": "dq-doc-031",
+      "questionText": "Ki sa \"Rezirèksyon korporèl\" Kris vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon senbòl espirityèl sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Jezi te resisite fizikman — menm kò a (men glorifye) — tonbo a vid, li te parèt ak manje"
+        },
+        {
+          "id": "c",
+          "text": "Disip yo te wè yon vizyon"
+        },
+        {
+          "id": "d",
+          "text": "Kris te tounen yon espri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lk 24:39-43 — Jezi montre men ak pye l, mande manje. 1 Korentyen 15:17 — \"Si Kris pa resisite, lafwa nou pa vo anyen.\" Rezirèksyon fizik = fondaman Evanjil la.",
+      "bibleReference": "1 Korentyen 15:17",
+      "normalizedRef": "1korentyen15.17",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-031_fr",
+    "data": {
+      "id": "dq-doc-031",
+      "questionText": "Que signifie la « résurrection corporelle » du Christ ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un symbole spirituel seulement"
+        },
+        {
+          "id": "b",
+          "text": "Jésus est ressuscité physiquement — le même corps (mais glorifié) — le tombeau est vide, il est apparu en mangeant"
+        },
+        {
+          "id": "c",
+          "text": "Les disciples ont eu une vision"
+        },
+        {
+          "id": "d",
+          "text": "Le Christ est devenu un esprit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Luc 24:39-43 — Jésus montre ses mains et ses pieds, demande à manger. 1 Corinthiens 15:17 — « Si Christ n'est pas ressuscité, votre foi est vaine. » La résurrection physique = fondement de l'Évangile.",
+      "bibleReference": "1 Korentyen 15:17",
+      "normalizedRef": "1korentyen15.17",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-032_ht",
+    "data": {
+      "id": "dq-doc-032",
+      "questionText": "Ki sa \"Sansyon Kris\" vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kris disparèt nan yon nwaj pou toujou"
+        },
+        {
+          "id": "b",
+          "text": "Kris monte fizikman nan syèl la epi chita nan men dwat Bondye pandan ke li entèsede pou nou"
+        },
+        {
+          "id": "c",
+          "text": "Kris tounen Bondye Papa a"
+        },
+        {
+          "id": "d",
+          "text": "Kris vin zanj chèf"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 1:9-11; Ebre 7:25 — Kris monte, chita nan men dwat Bondye, entèsede pou kwayan yo. Li pral retounen menm jan li te ale (Travay 1:11).",
+      "bibleReference": "Ebre 7:25",
+      "normalizedRef": "heb7.25",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-032_fr",
+    "data": {
+      "id": "dq-doc-032",
+      "questionText": "Que signifie « l'ascension du Christ » ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Christ disparaît dans un nuage pour toujours"
+        },
+        {
+          "id": "b",
+          "text": "Le Christ est monté physiquement au ciel et s'est assis à la droite de Dieu où il intercède pour nous"
+        },
+        {
+          "id": "c",
+          "text": "Le Christ est devenu Dieu le Père"
+        },
+        {
+          "id": "d",
+          "text": "Le Christ est devenu le chef des anges"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 1:9-11 ; Hébreux 7:25 — Le Christ est monté, s'est assis à la droite de Dieu, intercède pour les croyants. Il reviendra de la même manière qu'il est parti (Actes 1:11).",
+      "bibleReference": "Ebre 7:25",
+      "normalizedRef": "heb7.25",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-033_ht",
+    "data": {
+      "id": "dq-doc-033",
+      "questionText": "Ki sa \"Egzpiasyon\" Kris vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kris bay yon bon egzanp sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Kris pran pinisyon peche nou an sou li — satisfè jistis Bondye epi rekonsile nou avèk Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Bondye sispan pini pechè yo"
+        },
+        {
+          "id": "d",
+          "text": "Kris te montre ke mouri pa terrible"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Women 3:25 — Bondye \"prezante [Kris] kòm ekspiasyon pa mwayen lafwa nan san li.\" Ezayi 53:5 — \"Li te blese pou transgresyon nou yo... pinisyon ki bay nou lapè tonbe sou li.\"",
+      "bibleReference": "Women 3:25",
+      "normalizedRef": "rom3.25",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-033_fr",
+    "data": {
+      "id": "dq-doc-033",
+      "questionText": "Que signifie « l'expiation » du Christ ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Christ a seulement donné un bon exemple"
+        },
+        {
+          "id": "b",
+          "text": "Le Christ a pris sur lui la punition de nos péchés — satisfaisant la justice de Dieu et nous réconciliant avec Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Dieu a cessé de punir les pécheurs"
+        },
+        {
+          "id": "d",
+          "text": "Le Christ a montré que mourir n'est pas terrible"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Romains 3:25 — Dieu l'a « exposé comme moyen d'expiation par la foi en son sang. » Ésaïe 53:5 — « Il était blessé pour nos péchés... le châtiment qui nous donne la paix est tombé sur lui. »",
+      "bibleReference": "Women 3:25",
+      "normalizedRef": "rom3.25",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-034_ht",
+    "data": {
+      "id": "dq-doc-034",
+      "questionText": "Ki sa \"Eleksyon/Prédestinasyon\" vle di nan teoloji kretyen?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye chwazi kèk pou pèdi pou tout tan"
+        },
+        {
+          "id": "b",
+          "text": "Bondye chwazi kwayan yo nan Kris anvan fondasyon mond lan — debat ant Kalminis ak Arminyenis sou baz chwa a"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman Jwif yo chwazi"
+        },
+        {
+          "id": "d",
+          "text": "Chwa depann sèlman de libè arbitre imen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 1:4-5 — \"Li te chwazi nou nan li anvan fonmasyon mond lan.\" Debat: Kalminis (Bondye chwazi souverènman), Arminyenis (Bondye prewoje lafwa imen). Tou de agnòse Bib la.",
+      "bibleReference": "Efezyen 1:4-5",
+      "normalizedRef": "eph1.4-5",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-034_fr",
+    "data": {
+      "id": "dq-doc-034",
+      "questionText": "Que signifie « élection/prédestination » dans la théologie chrétienne ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu choisit certains pour être perdus pour toujours"
+        },
+        {
+          "id": "b",
+          "text": "Dieu a choisi les croyants en Christ avant la fondation du monde — débat entre calvinistes et arminiens sur la base du choix"
+        },
+        {
+          "id": "c",
+          "text": "Seuls les Juifs sont choisis"
+        },
+        {
+          "id": "d",
+          "text": "Le choix dépend uniquement du libre arbitre humain"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Éphésiens 1:4-5 — « Il nous a élus en lui avant la fondation du monde. » Débat : Calvinisme (Dieu choisit souverainement), Arminianisme (Dieu prévoit la foi humaine). Tous deux reconnaissent la Bible.",
+      "bibleReference": "Efezyen 1:4-5",
+      "normalizedRef": "eph1.4-5",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-035_ht",
+    "data": {
+      "id": "dq-doc-035",
+      "questionText": "Ki sa \"grâce\" vle di nan kontèks sali?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rekonpans Bondye bay pou travay bon nou"
+        },
+        {
+          "id": "b",
+          "text": "Favè Bondye bay pou moun ki pa merite l — sali kòm kado gratis"
+        },
+        {
+          "id": "c",
+          "text": "Pèmisyon Bondye bay nou fè peche"
+        },
+        {
+          "id": "d",
+          "text": "Yon santi espirityèl espesyal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 2:8 — \"Se pa grâce nou sove pa lafwa.\" Grâce = favè Bondye bay pou moun ki merite pinisyon — opoze ak jistis kòm kado moun ki merite. Se fondaman Evanjil la.",
+      "bibleReference": "Efezyen 2:8",
+      "normalizedRef": "eph2.8",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-035_fr",
+    "data": {
+      "id": "dq-doc-035",
+      "questionText": "Que signifie la « grâce » dans le contexte du salut ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La récompense que Dieu donne pour nos bonnes œuvres"
+        },
+        {
+          "id": "b",
+          "text": "La faveur de Dieu accordée à ceux qui ne la méritent pas — le salut comme don gratuit"
+        },
+        {
+          "id": "c",
+          "text": "La permission que Dieu nous donne de pécher"
+        },
+        {
+          "id": "d",
+          "text": "Un sentiment spirituel spécial"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Éphésiens 2:8 — « C'est par la grâce que vous êtes sauvés, par le moyen de la foi. » Grâce = faveur de Dieu envers ceux qui méritent la punition — opposée à la justice comme cadeau à celui qui mérite. C'est le fondement de l'Évangile.",
+      "bibleReference": "Efezyen 2:8",
+      "normalizedRef": "eph2.8",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-036_ht",
+    "data": {
+      "id": "dq-doc-036",
+      "questionText": "Ki sa \"Lwa Natirèl\" vle di nan teoloji kretyen?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lwa fizik ak chimik sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Prensip moral Bondye grave nan konsyans imen — moun ka konnen bon ak mal natirèlman"
+        },
+        {
+          "id": "c",
+          "text": "Lwa Moyiz ki anseye pa nati"
+        },
+        {
+          "id": "d",
+          "text": "Règ sèlman kilti devlope"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Women 2:14-15 — \"Jantil ki pa gen Lwa a fè natirèlman sa Lwa a mande... yo montre egzijans Lwa a ekri nan kè yo.\" Lwa natirèl = rèvèlasyon jeneral moral Bondye.",
+      "bibleReference": "Women 2:14-15",
+      "normalizedRef": "rom2.14-15",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-036_fr",
+    "data": {
+      "id": "dq-doc-036",
+      "questionText": "Que signifie la « Loi naturelle » dans la théologie chrétienne ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les lois physiques et chimiques seulement"
+        },
+        {
+          "id": "b",
+          "text": "Les principes moraux que Dieu a gravés dans la conscience humaine — l'homme peut connaître le bien et le mal naturellement"
+        },
+        {
+          "id": "c",
+          "text": "La loi de Moïse enseignée par la nature"
+        },
+        {
+          "id": "d",
+          "text": "Seulement des règles développées par la culture"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Romains 2:14-15 — « Quand les païens, qui n'ont point la loi, font naturellement ce que prescrit la loi... ils montrent que l'œuvre de la loi est écrite dans leurs cœurs. » Loi naturelle = révélation générale morale de Dieu.",
+      "bibleReference": "Women 2:14-15",
+      "normalizedRef": "rom2.14-15",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-037_ht",
+    "data": {
+      "id": "dq-doc-037",
+      "questionText": "Ki diferans \"teoloji bibliyèl\" ak \"teoloji sistematik\"?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tou de se menm bagay"
+        },
+        {
+          "id": "b",
+          "text": "Teyoloji biblik: etid pwogresif revèlasyon Bondye nan Bib la; Sistematik: òganize verite biblik yo an kategori"
+        },
+        {
+          "id": "c",
+          "text": "Sistematik pi biblik ke biblik"
+        },
+        {
+          "id": "d",
+          "text": "Biblik se tradiksyon, sistematik se orijinal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Teoloji biblik swiv revelasyon pwogresif (Ansyen Alyans → Nouvo Alyans). Teoloji sistematik òganize verite biblik an sijè (Bondye, Kris, Sali, Legliz...). Tou de nesesè.",
+      "bibleReference": "2 Timote 2:15",
+      "normalizedRef": "2ti2.15",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-037_fr",
+    "data": {
+      "id": "dq-doc-037",
+      "questionText": "Quelle est la différence entre la « théologie biblique » et la « théologie systématique » ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les deux sont la même chose"
+        },
+        {
+          "id": "b",
+          "text": "Théologie biblique : étude progressive de la révélation de Dieu dans la Bible ; Systématique : organise les vérités bibliques par catégories"
+        },
+        {
+          "id": "c",
+          "text": "La systématique est plus biblique que la biblique"
+        },
+        {
+          "id": "d",
+          "text": "La biblique est la traduction, la systématique est l'original"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La théologie biblique suit la révélation progressive (Ancienne Alliance → Nouvelle Alliance). La théologie systématique organise les vérités bibliques par sujets (Dieu, Christ, Salut, Église...). Les deux sont nécessaires.",
+      "bibleReference": "2 Timote 2:15",
+      "normalizedRef": "2ti2.15",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-038_ht",
+    "data": {
+      "id": "dq-doc-038",
+      "questionText": "Kisa doktrin « pèseverans sen yo » (oswa « sekirite etènèl ») ye?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nenpòt moun ki fè lapriyè pechè a sove nèt pou tout tan"
+        },
+        {
+          "id": "b",
+          "text": "Moun Bondye vrèman chanje yo ap pèsevere jouk sa kaba — sekirite a baze sou gras Bondye, pa sou travay moun"
+        },
+        {
+          "id": "c",
+          "text": "Kwayan an ka pèdi salitasyon l e li ka jwenn li ankò selon sa l fè"
+        },
+        {
+          "id": "d",
+          "text": "Se sèlman moun ki mouri pou lafwa ki asire salitasyon etènèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pèseverans sen yo : moun Bondye chwazi yo pèsevere nan lafwa non pa pa pwòp fòs yo, men pa gras Bondye k'ap kenbe yo (Jan 10:28-29; Filipyen 1:6).",
+      "bibleReference": "Jean 10:28-29",
+      "normalizedRef": "joh10.28-29",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-038_fr",
+    "data": {
+      "id": "dq-doc-038",
+      "questionText": "Quelle est la doctrine de la « persévérance des saints » (ou « sécurité éternelle ») ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tout croyant qui a prié la prière du pécheur est automatiquement sauvé pour toujours"
+        },
+        {
+          "id": "b",
+          "text": "Ceux que Dieu a vraiment régénérés persévèreront jusqu'à la fin — la sécurité est garantie par la grâce divine, non la performance humaine"
+        },
+        {
+          "id": "c",
+          "text": "Le croyant peut perdre et regagner son salut selon ses œuvres"
+        },
+        {
+          "id": "d",
+          "text": "Seuls les martyrs sont garantis du salut éternel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La persévérance des saints (Confession de Westminster) : les élus vrais persévèrent dans la foi non par force personnelle mais par la grâce préservante de Dieu (Jean 10:28-29; Philippiens 1:6).",
+      "bibleReference": "Jean 10:28-29",
+      "normalizedRef": "joh10.28-29",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-039_ht",
+    "data": {
+      "id": "dq-doc-039",
+      "questionText": "Kisa doktrin « pre-egzistans Kris la » ye e kijan li fonde nan Nouvo Testaman an?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jezi te egziste an lespri anvan li te fèt men yo te kreye li"
+        },
+        {
+          "id": "b",
+          "text": "Pitit la egziste pou tout tan anvan li te vin moun — Jan 1:1, 8:58, Filipyen 2:6-7, Kolosyen 1:17"
+        },
+        {
+          "id": "c",
+          "text": "Pre-egzistans se yon doktrin katolik sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Jezi te egziste kòm yon zanj anvan li te vin moun"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pre-egzistans etènèl Pitit la : « Nan konmansman te gen Pawòl la » (Jan 1:1), « Anvan Abraram te fèt, mwen la » (Jan 8:58).",
+      "bibleReference": "Jean 8:58",
+      "normalizedRef": "joh8.58",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-039_fr",
+    "data": {
+      "id": "dq-doc-039",
+      "questionText": "Qu'est-ce que la doctrine de la « préexistence de Christ » et comment est-elle fondée dans le NT ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus a existé spirituellement avant sa naissance physique mais a été créé"
+        },
+        {
+          "id": "b",
+          "text": "Le Fils existe éternellement avant l'incarnation — Jean 1:1, 8:58, Philippiens 2:6-7, Colossiens 1:17"
+        },
+        {
+          "id": "c",
+          "text": "La préexistence est une doctrine uniquement catholique"
+        },
+        {
+          "id": "d",
+          "text": "Jésus a existé comme ange avant de devenir homme"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Préexistence éternelle du Fils : « Au commencement était la Parole » (Jean 1:1), « Avant qu'Abraham fût, Je suis » (Jean 8:58), « Il est avant toutes choses » (Colossiens 1:17) — non pas créé mais éternellement Dieu.",
+      "bibleReference": "Jean 8:58",
+      "normalizedRef": "joh8.58",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-040_ht",
+    "data": {
+      "id": "dq-doc-040",
+      "questionText": "Kisa doktrin « Inpasibilite divin » nan afime e èske li ka defann sou plan biblik?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye pa santi anyen — doktrin san deba"
+        },
+        {
+          "id": "b",
+          "text": "Bondye pa soufri tankou kreyati yo men Bib la pale de kòlè, renmen ak tristès Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Bondye soufri menm jan ak moun nan tout emosyon l"
+        },
+        {
+          "id": "d",
+          "text": "Inpasibilite montre Bondye pa okipe soufrans moun"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Inpasibilite (Augustin, Aquinas) : Bondye pa sibi emosyon tankou kreyati yo. Men Ekriti yo pale de « renmen Bondye », « kòlè Bondye » — tansyon ant Bondye ki depase nou ak Bondye ki toupre nou.",
+      "bibleReference": "Genèse 6:6",
+      "normalizedRef": "gen6.6",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-040_fr",
+    "data": {
+      "id": "dq-doc-040",
+      "questionText": "Qu'affirme la doctrine de l'« Impassibilité divine » et est-elle bibliquement défendable ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu ne ressent aucune émotion — doctrine sans débat"
+        },
+        {
+          "id": "b",
+          "text": "Dieu ne souffre pas comme les créatures (impassibilité) mais les Écritures attribuent à Dieu colère, amour et tristesse — tension productive pour la théologie"
+        },
+        {
+          "id": "c",
+          "text": "Dieu souffre identiquement aux humains dans toutes ses passions"
+        },
+        {
+          "id": "d",
+          "text": "L'impassibilité divine prouve que Dieu est indifférent à la souffrance humaine"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'impassibilité classique (Augustin, Aquinas) : Dieu ne subit pas des passions comme les créatures. Mais l'Écriture parle de « l'amour de Dieu », « la colère de Dieu », « il s'est repenti » — tension entre transcendance et proximité divine.",
+      "bibleReference": "Genèse 6:6",
+      "normalizedRef": "gen6.6",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-041_ht",
+    "data": {
+      "id": "dq-doc-041",
+      "questionText": "Ki siyifikasyon Asansyon Kris la (Akt 1:9-11) nan teyoloji kretyen an?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jezi kite tè a pou l pa janm aji sou li ankò"
+        },
+        {
+          "id": "b",
+          "text": "Asansyon an se lè Jezi monte chita sou fòtèy li bò dwat Papa a — li rènye, li lapriyè pou nou e li voye Lespri a"
+        },
+        {
+          "id": "c",
+          "text": "Jezi tounen nan eta li te ye anvan an kòm lespri sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Asansyon an pwouve rezirèksyon an te espirityèl sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Asansyon : Kris la monte bò dwat Papa a (Efezyen 1:20-21), li vin chèf (Filipyen 2:9-11), Gran Prèt k'ap lapriyè pou nou (Ebre 7:25).",
+      "bibleReference": "Éphésiens 1:20-21",
+      "normalizedRef": "eph1.20-21",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-041_fr",
+    "data": {
+      "id": "dq-doc-041",
+      "questionText": "Quelle est la signification de l'Ascension de Christ (Actes 1:9-11) dans la théologie chrétienne ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus a quitté la terre pour ne plus interagir avec elle"
+        },
+        {
+          "id": "b",
+          "text": "L'Ascension est l'intronisation royale du Ressuscité à la droite du Père — il règne, intercède et enverra l'Esprit"
+        },
+        {
+          "id": "c",
+          "text": "Jésus est retourné à son état pré-incarné purement spirituel"
+        },
+        {
+          "id": "d",
+          "text": "L'Ascension prouve que la résurrection était spirituelle et non physique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Ascension : Christ monté à la droite du Père (Éphésiens 1:20-21), intronisé comme Seigneur (Philippiens 2:9-11), grand Souverain Sacrificateur intercédant (Hébreux 7:25), envoie l'Esprit (Jean 16:7).",
+      "bibleReference": "Éphésiens 1:20-21",
+      "normalizedRef": "eph1.20-21",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-042_ht",
+    "data": {
+      "id": "dq-doc-042",
+      "questionText": "Kisa teyoloji Alyans lan (teyoloji federal) di sou estrikti istwa salitasyon an?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chak epòk nan Bib la diferan nèt — pa gen okenn lyen"
+        },
+        {
+          "id": "b",
+          "text": "Istwa a baze sou alyans diven (Kreyasyon, Gras) k'ap akonpli tikras pa tikras nan Kris la"
+        },
+        {
+          "id": "c",
+          "text": "Alyans nan Ansyen Testaman yo se pou pèp sèlman e yo pa gen enpòtans pou kretyen"
+        },
+        {
+          "id": "d",
+          "text": "Teyoloji federal di Kris la pa t bezwen mouri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Teyoloji federal : de alyans fondamantal — Alyans Travay (Adan) ak Alyans Gras (Kris la dezyèm Adan). Tout alyans yo ini nan Alyans Gras ki akonpli nan Kris la.",
+      "bibleReference": "Romains 5:12-19",
+      "normalizedRef": "rom5.12-19",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-042_fr",
+    "data": {
+      "id": "dq-doc-042",
+      "questionText": "Que dit la théologie du Pacte (théologie fédérale) sur la structure de l'histoire du salut ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chaque époque biblique est totalement différente — pas de continuité"
+        },
+        {
+          "id": "b",
+          "text": "L'histoire est structurée par des alliances divines (Création, Grâce) qui s'accomplissent progressivement en Christ"
+        },
+        {
+          "id": "c",
+          "text": "Les alliances de l'AT sont purement ethniques et n'ont pas de portée pour les chrétiens"
+        },
+        {
+          "id": "d",
+          "text": "La théologie fédérale nie la nécessité de l'expiation de Christ"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La théologie fédérale (Cocceius, Westminster) : deux pactes fondamentaux — le Pacte des Œuvres (Adam) et le Pacte de Grâce (Christ second Adam). Toutes les alliances s'unifient dans le Pacte de Grâce accompli en Christ.",
+      "bibleReference": "Romains 5:12-19",
+      "normalizedRef": "rom5.12-19",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-043_ht",
+    "data": {
+      "id": "dq-doc-043",
+      "questionText": "Kisa doktrin « rezirèksyon kòporèl » la ye e poukisa li esansyèl pou Levanjil la?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kwayan yo ap resisite ak yon kò espirityèl sèlman san chè"
+        },
+        {
+          "id": "b",
+          "text": "Kwayan yo ap resisite ak yon kò fizik glorye — menm jan ak Kris ki te gen mak kloure yo"
+        },
+        {
+          "id": "c",
+          "text": "Rezirèksyon an se yon imaj pou lavi espirityèl kounye a"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman nanm nan k'ap viv apre lanmò"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 15 : rezirèksyon kòporèl tout bon — kò glorye. Kris resisite te manje, yo te manyen l (Lik 24:39-43) — modèl rezirèksyon pa nou.",
+      "bibleReference": "1 Corinthiens 15:42-44",
+      "normalizedRef": "1co15.42-44",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-043_fr",
+    "data": {
+      "id": "dq-doc-043",
+      "questionText": "Qu'est-ce que la doctrine de la « résurrection corporelle » et pourquoi est-elle essentielle à l'Évangile ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les croyants ressusciteront en corps purement spirituels sans chair"
+        },
+        {
+          "id": "b",
+          "text": "Les croyants ressusciteront en corps glorieux physiques — continuité transformée avec le corps actuel, comme Christ ressuscité avec les cicatrices glorifiées"
+        },
+        {
+          "id": "c",
+          "text": "La résurrection est une métaphore pour la vie spirituelle actuelle"
+        },
+        {
+          "id": "d",
+          "text": "Seule l'âme survit après la mort"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 15 : résurrection corporelle réelle — « corps spirituel » (v.44) non = immatériel mais glorifié. Christ ressuscité a mangé, a été touché, avait des cicatrices (Luc 24:39-43) — modèle de notre résurrection.",
+      "bibleReference": "1 Corinthiens 15:42-44",
+      "normalizedRef": "1co15.42-44",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-044_ht",
+    "data": {
+      "id": "dq-doc-044",
+      "questionText": "Kisa konsèp ebre « berith » (alyans) vle di parapò ak yon kontra modèn?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon kontra kote de bò yo gen menm obligasyon"
+        },
+        {
+          "id": "b",
+          "text": "Yon lyen pèsonèl solid ki fèt ak sèman e pafwa ak san — li plis pase yon kontra : li angaje moun nan yon relasyon fidelite"
+        },
+        {
+          "id": "c",
+          "text": "Yon akò komèsyal ant de pèp"
+        },
+        {
+          "id": "d",
+          "text": "Yon pwomès ak kondisyon Bondye ka retire"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Berith (בְּרִית) : alyans — pa yon kontra biznis men yon angajman pèsonèl, pafwa sele ak san (Jenèz 15). Kreye yon relasyon fidelite (hesed) ki pèmanan.",
+      "bibleReference": "Genèse 15:17-18",
+      "normalizedRef": "gen15.17-18",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-044_fr",
+    "data": {
+      "id": "dq-doc-044",
+      "questionText": "Que signifie le concept hébraïque de « berith » (alliance) par rapport au contrat moderne ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un contrat bilatéral où les deux parties ont des obligations égales"
+        },
+        {
+          "id": "b",
+          "text": "Un lien personnel solennel établi par serment et parfois sang — plus profond qu'un contrat : il engage des personnes dans une relation de loyauté"
+        },
+        {
+          "id": "c",
+          "text": "Un accord commercial entre deux peuples"
+        },
+        {
+          "id": "d",
+          "text": "Une promesse conditionnelle que Dieu peut retirer"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Berith (בְּרִית) : alliance — non un contrat d'affaires mais un engagement personnel solennel, parfois scellé par le sang (Genèse 15, l'alliance de Dieu avec Abraham). Crée une relation de loyauté (hesed) permanente.",
+      "bibleReference": "Genèse 15:17-18",
+      "normalizedRef": "gen15.17-18",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-045_ht",
+    "data": {
+      "id": "dq-doc-045",
+      "questionText": "Kisa doktrin « inyon ak Kris la » (unio mystica) ye ak ki dimansyon li genyen?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon melanj kote kwayan an vin Bondye tou"
+        },
+        {
+          "id": "b",
+          "text": "Relasyon lavi ant kwayan an ak Kris la : reprezantasyon (nan Adan/nan Kris), espirityèl (Lespri a rete nan nou), reyèl"
+        },
+        {
+          "id": "c",
+          "text": "Yon inyon sèlman nan Sen Sèn nan"
+        },
+        {
+          "id": "d",
+          "text": "Yon eksperyans mistik pou moun espesyal sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Inyon ak Kris : reprezantasyon (Women 5 — tout kwayan « nan Kris »), lavi (Jan 15:1-8 — pye rezen an), espirityèl (1 Korentyen 6:17). Se pa panteyis.",
+      "bibleReference": "Galates 2:20",
+      "normalizedRef": "gal2.20",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-045_fr",
+    "data": {
+      "id": "dq-doc-045",
+      "questionText": "Quelle est la doctrine de l'« union avec Christ » (unio mystica) et ses dimensions ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une fusion panthéiste où le croyant devient Dieu"
+        },
+        {
+          "id": "b",
+          "text": "La relation vitale entre le croyant et Christ : représentative (en Adam/en Christ), spirituelle (habitée par l'Esprit), réelle mais non mélange d'essences"
+        },
+        {
+          "id": "c",
+          "text": "Une union uniquement sacramentelle visible dans la Cène"
+        },
+        {
+          "id": "d",
+          "text": "Une expérience mystique réservée aux contemplatifs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Union avec Christ : représentative (Romains 5 — tous les croyants « en Christ »), vitale (Jean 15:1-8 — le Cep et les sarments), pneumatique (1 Corinthiens 6:17 — « uni au Seigneur est un seul esprit »). Non pas panthéisme.",
+      "bibleReference": "Galates 2:20",
+      "normalizedRef": "gal2.20",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-046_ht",
+    "data": {
+      "id": "dq-doc-046",
+      "questionText": "Kisa doktrin ki di Bib la pa gen erè a anseye?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bib la pa gen okenn enfòmasyon syantifik ladan l"
+        },
+        {
+          "id": "b",
+          "text": "Bib la, nan tèks orijinal li yo, pa gen okenn erè nan tout sa li deklare"
+        },
+        {
+          "id": "c",
+          "text": "Se sèlman liv pwofetik yo ki gen enspirasyon nan men Bondye"
+        },
+        {
+          "id": "d",
+          "text": "Apot yo pa t ka fè okenn erè nan lèt yo t ap ekri yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bib la pa gen erè: tèks orijinal yo pa gen erè paske se Bondye li menm ki enspire yo — «Se Lespri Bondye ki enspire tout Ekriti yo» (2 Timote 3:16).",
+      "bibleReference": "2 Timothée 3:16-17",
+      "normalizedRef": "2ti3.16-17",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-046_fr",
+    "data": {
+      "id": "dq-doc-046",
+      "questionText": "Qu'enseigne la doctrine de l'inerrancy (infaillibilité) de la Bible ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Bible ne contient aucune information scientifique"
+        },
+        {
+          "id": "b",
+          "text": "La Bible, dans ses autographes originaux, est exempte d'erreur dans tout ce qu'elle affirme"
+        },
+        {
+          "id": "c",
+          "text": "Seuls les livres prophétiques sont inspirés"
+        },
+        {
+          "id": "d",
+          "text": "Les apôtres ne pouvaient pas se tromper dans leurs lettres"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'inerrancy : la Bible originale est sans erreur car inspirée par Dieu lui-même — « toute Écriture est inspirée de Dieu » (2 Timothée 3:16).",
+      "bibleReference": "2 Timothée 3:16-17",
+      "normalizedRef": "2ti3.16-17",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-047_ht",
+    "data": {
+      "id": "dq-doc-047",
+      "questionText": "Kisa doktrin «rezirèksyon fizik» kwayan yo vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nanm yo pral monte nan syèl la san yon kò"
+        },
+        {
+          "id": "b",
+          "text": "Kwayan yo pral resisite avèk yon kò glorifye menm jan ak Kris la"
+        },
+        {
+          "id": "c",
+          "text": "Se sèlman mati yo ki resisite"
+        },
+        {
+          "id": "d",
+          "text": "Rezirèksyon an fèt sèlman sou plan espirityèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kwayan yo pral resisite avèk yon kò ki glorifye e ki pa ka pouri, nan imaj rezirèksyon Kris la (1 Korentyen 15:42-44; Filipyen 3:21).",
+      "bibleReference": "1 Corinthiens 15:42-44",
+      "normalizedRef": "1co15.42-44",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-047_fr",
+    "data": {
+      "id": "dq-doc-047",
+      "questionText": "Que signifie la doctrine de la « résurrection corporelle » des croyants ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les âmes montent au ciel sans corps"
+        },
+        {
+          "id": "b",
+          "text": "Les croyants ressusciteront avec un corps glorifié comme Christ"
+        },
+        {
+          "id": "c",
+          "text": "Seuls les martyrs ressuscitent"
+        },
+        {
+          "id": "d",
+          "text": "La résurrection est uniquement spirituelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les croyants ressusciteront avec un corps glorifié et incorruptible, à l'image de la résurrection de Christ (1 Corinthiens 15:42-44; Philippiens 3:21).",
+      "bibleReference": "1 Corinthiens 15:42-44",
+      "normalizedRef": "1co15.42-44",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-048_ht",
+    "data": {
+      "id": "dq-doc-048",
+      "questionText": "Ki diferans ki genyen ant doktrin ki di Bondye konnen tout bagay ak sa k di Bondye gen tout pouvwa a?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Se de non pou menm kalite Bondye genyen an"
+        },
+        {
+          "id": "b",
+          "text": "Konnen tout bagay = Bondye konnen tout bagay; Tout pouvwa = Bondye ka fè tout bagay dapre nati li"
+        },
+        {
+          "id": "c",
+          "text": "Konnen tout bagay se pou lepase; Tout pouvwa se pou lavni"
+        },
+        {
+          "id": "d",
+          "text": "Tout pouvwa a aplike sèlman nan sa k gen rapò ak kreyasyon an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Konnen tout bagay = Bondye konnen tou (Sòm 139:1-4). Tout pouvwa = Bondye gen tout pouvwa sou tout sa k posib dapre nati li (Jeremi 32:17). Kalite sa yo diferan men ou pa ka separe yo.",
+      "bibleReference": "Psaume 139:1-4",
+      "normalizedRef": "psaume139.1-4",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-048_fr",
+    "data": {
+      "id": "dq-doc-048",
+      "questionText": "Quelle est la différence entre la doctrine de l'omniscience et de l'omnipotence de Dieu ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ce sont deux noms du même attribut divin"
+        },
+        {
+          "id": "b",
+          "text": "Omniscience = Dieu sait tout ; Omnipotence = Dieu peut tout faire selon sa nature"
+        },
+        {
+          "id": "c",
+          "text": "Omniscience concerne le passé ; Omnipotence le futur"
+        },
+        {
+          "id": "d",
+          "text": "L'omnipotence s'applique uniquement à la création"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Omniscience = Dieu connaît tout (Psaume 139:1-4). Omnipotence = Dieu peut tout ce qui est possible selon sa nature (Jérémie 32:17). Ses attributs sont distincts mais inséparables.",
+      "bibleReference": "Psaume 139:1-4",
+      "normalizedRef": "psaume139.1-4",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-049_ht",
+    "data": {
+      "id": "dq-doc-049",
+      "questionText": "Kisa doktrin «pre-egzistans Kris la» vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jezi te egziste sèlman nan panse Bondye depi anvan l te fèt"
+        },
+        {
+          "id": "b",
+          "text": "Pitit Bondye a te egziste depi toujou, anvan li te vin tounen moun nan Betleyèm"
+        },
+        {
+          "id": "c",
+          "text": "Jezi te yon zanj anvan li te vin tounen moun"
+        },
+        {
+          "id": "d",
+          "text": "Pre-egzistans la konsène Sentespri a sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kris la te la pou tout tan: «Nan kòmansman, Pawòl la te la» (Jan 1:1); «Anvan Abraram te fèt la, mwen la» (Jan 8:58); «Glwa mwen te genyen ansanm ak ou anvan menm lemonn te egziste a» (Jan 17:5).",
+      "bibleReference": "Jean 1:1-2",
+      "normalizedRef": "joh1.1-2",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-049_fr",
+    "data": {
+      "id": "dq-doc-049",
+      "questionText": "Que désigne la doctrine de la « préexistence de Christ » ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus existait seulement dans la pensée de Dieu avant sa naissance"
+        },
+        {
+          "id": "b",
+          "text": "Le Fils de Dieu existait éternellement avant son incarnation à Bethléhem"
+        },
+        {
+          "id": "c",
+          "text": "Jésus existait comme ange avant de s'incarner"
+        },
+        {
+          "id": "d",
+          "text": "La préexistence ne concerne que l'Esprit Saint"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Christ est éternellement préexistant : « Au commencement était la Parole » (Jean 1:1) ; « Avant qu'Abraham fût, je suis » (Jean 8:58) ; « Gloire que j'avais auprès de toi avant la fondation du monde » (Jean 17:5).",
+      "bibleReference": "Jean 1:1-2",
+      "normalizedRef": "joh1.1-2",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-050_ht",
+    "data": {
+      "id": "dq-doc-050",
+      "questionText": "Ki diferans ki genyen ant «Jijman pou zèv yo» ak «Jijman gwo fòtèy blan an» nan etid sou lafen tan yo?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Se de non pou menm evènman an"
+        },
+        {
+          "id": "b",
+          "text": "Tribinal Kris la (Bema) jije sa kwayan yo te fè; Gwo fòtèy blan an jije moun ki pa kwayan yo"
+        },
+        {
+          "id": "c",
+          "text": "Jijman pou zèv yo fèt 100 an anvan Gwo fòtèy blan an"
+        },
+        {
+          "id": "d",
+          "text": "Se sèl moun ki mouri k ap jije devan Gwo fòtèy blan an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tribinal Kris la (Bema) (2 Korentyen 5:10) evalye travay kwayan yo pou ba yo rekonpans. Gwo fòtèy blan an (Apokalips 20:11-15) se jijman final la pou moun ki pa t kwè yo.",
+      "bibleReference": "2 Corinthiens 5:10",
+      "normalizedRef": "2co5.10",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-050_fr",
+    "data": {
+      "id": "dq-doc-050",
+      "questionText": "Quelle est la distinction entre le « Jugement des œuvres » et le « Jugement du trône blanc » en eschatologie ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ce sont deux noms pour le même événement"
+        },
+        {
+          "id": "b",
+          "text": "Le tribunal de Christ (bêma) évalue les œuvres des croyants ; le Trône blanc juge les non-croyants"
+        },
+        {
+          "id": "c",
+          "text": "Le jugement des œuvres précède le Trône blanc de 100 ans"
+        },
+        {
+          "id": "d",
+          "text": "Seuls les morts sont jugés au Trône blanc"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Bêma de Christ (2 Corinthiens 5:10) évalue les œuvres des croyants pour les récompenses. Le Grand Trône Blanc (Apocalypse 20:11-15) est le jugement final des non-croyants.",
+      "bibleReference": "2 Corinthiens 5:10",
+      "normalizedRef": "2co5.10",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-051_ht",
+    "data": {
+      "id": "dq-doc-051",
+      "questionText": "Kisa doktrin «kominikasyon kalite yo» (communicatio idiomatum) vle di?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye pataje kalite li yo ak kwayan yo grasa Sentespri a"
+        },
+        {
+          "id": "b",
+          "text": "Kalite yo nan de nati Kris yo (Bondye epi Moun) kapab atribiye ak yon sèl pèsonn, ki se Kris la"
+        },
+        {
+          "id": "c",
+          "text": "Apot yo te resevwa kalite ki soti nan Bondye pou yo ka fè mirak"
+        },
+        {
+          "id": "d",
+          "text": "La Trinite pataje sèten kalite ant twa pèsonn yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Communicatio idiomatum: piske Kris la se yon sèl pèsonn, nou ka di «Pitit Bondye a te soufri» oswa «Mari se Manman Bondye» — lè n atribiye bay pèsonn sa ki pou youn oubyen pou lòt nati a.",
+      "bibleReference": "Actes 20:28",
+      "normalizedRef": "act20.28",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-051_fr",
+    "data": {
+      "id": "dq-doc-051",
+      "questionText": "Qu'est-ce que la doctrine de la « communication des attributs » (communicatio idiomatum) ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu partage ses attributs avec les croyants par l'Esprit"
+        },
+        {
+          "id": "b",
+          "text": "Les attributs des deux natures de Christ peuvent être attribués à la personne unique de Christ"
+        },
+        {
+          "id": "c",
+          "text": "Les apôtres reçurent les attributs divins pour accomplir les miracles"
+        },
+        {
+          "id": "d",
+          "text": "La Trinité partage certains attributs entre les trois personnes"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Communicatio idiomatum : parce que Christ est une seule personne, on peut dire « le Fils de Dieu a souffert » ou « Marie est la Mère de Dieu » — attribuant à la personne ce qui appartient à l'une ou l'autre nature.",
+      "bibleReference": "Actes 20:28",
+      "normalizedRef": "act20.28",
+      "normalizedCat": "doctrina"
+    }
+  }
+]

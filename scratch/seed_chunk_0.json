@@ -1,0 +1,3262 @@
+[
+  {
+    "docId": "dq-apoc-001_ht",
+    "data": {
+      "id": "dq-apoc-001",
+      "questionText": "Kilès ki te ekri Liv Revelasyon an?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pòl"
+        },
+        {
+          "id": "b",
+          "text": "Pyè"
+        },
+        {
+          "id": "c",
+          "text": "Jan"
+        },
+        {
+          "id": "d",
+          "text": "Mak"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Revelasyon Jezi Kris la... li te fè l konnen nan voye l pa mwayen zanj li a a sèvitè li Jan\" (Revelasyon 1:1).",
+      "bibleReference": "Revelasyon 1:1",
+      "normalizedRef": "rev1.1",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-001_fr",
+    "data": {
+      "id": "dq-apoc-001",
+      "questionText": "À qui le livre de l'Apocalypse fut-il révélé ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paul"
+        },
+        {
+          "id": "b",
+          "text": "Pierre"
+        },
+        {
+          "id": "c",
+          "text": "Jean"
+        },
+        {
+          "id": "d",
+          "text": "Jacques"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La révélation fut donnée à Jean exilé sur l'île de Patmos (Apocalypse 1:1,9).",
+      "bibleReference": "Apocalypse 1:1",
+      "normalizedRef": "rev1.1",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-002_ht",
+    "data": {
+      "id": "dq-apoc-002",
+      "questionText": "Konbyen kavalyè Revelasyon yo mansyone nan liv la?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kat kavalyè Revelasyon yo monte sou chwal blan (konkèt), wouj (lagè), nwa (grangou) ak jòn pàl (lanmò) (Revelasyon 6:1-8).",
+      "bibleReference": "Revelasyon 6:1-8",
+      "normalizedRef": "rev6.1-8",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-002_fr",
+    "data": {
+      "id": "dq-apoc-002",
+      "questionText": "Que symbolisent les quatre cavaliers d'Apocalypse 6 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quatre anges gardiens des nations"
+        },
+        {
+          "id": "b",
+          "text": "Conquête, guerre, famine et mort"
+        },
+        {
+          "id": "c",
+          "text": "Les quatre évangiles"
+        },
+        {
+          "id": "d",
+          "text": "Quatre dynasties historiques"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le cheval blanc (conquête), rouge (guerre), noir (famine) et pâle (mort) ouvrent les quatre premiers sceaux (Apoc 6:1-8).",
+      "bibleReference": "Apocalypse 6:1-8",
+      "normalizedRef": "rev6.1-8",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-003_ht",
+    "data": {
+      "id": "dq-apoc-003",
+      "questionText": "Ki se \"nimewo bèt la\" nan Revelasyon an?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "444"
+        },
+        {
+          "id": "b",
+          "text": "555"
+        },
+        {
+          "id": "c",
+          "text": "666"
+        },
+        {
+          "id": "d",
+          "text": "777"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Men gen yon sajès isit la. Moun ki gen konpreyansyon, konte nimewo bèt la, paske se nimewo yon moun. Nimewo li se sis-san-swasant-sis\" (Revelasyon 13:18).",
+      "bibleReference": "Revelasyon 13:18",
+      "normalizedRef": "rev13.18",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-003_fr",
+    "data": {
+      "id": "dq-apoc-003",
+      "questionText": "Quelle est la bête dont le nombre est 666 dans l'Apocalypse ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La bête de la mer"
+        },
+        {
+          "id": "b",
+          "text": "La bête de la terre"
+        },
+        {
+          "id": "c",
+          "text": "Le dragon rouge"
+        },
+        {
+          "id": "d",
+          "text": "La grande prostituée"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "666 est le nombre de la bête montant de la mer (Apocalypse 13:1,18).",
+      "bibleReference": "Apocalypse 13:18",
+      "normalizedRef": "rev13.18",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-004_ht",
+    "data": {
+      "id": "dq-apoc-004",
+      "questionText": "Sou ki zile apòt Jan te ye lè li te resevwa vizyon Revelasyon an?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chip"
+        },
+        {
+          "id": "b",
+          "text": "Krèt"
+        },
+        {
+          "id": "c",
+          "text": "Malt"
+        },
+        {
+          "id": "d",
+          "text": "Patmos"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "\"Mwen Jan... mwen te sou zile yo rele Patmos, poutèt pawòl Bondye ak temwayaj Jezi Kris\" (Revelasyon 1:9).",
+      "bibleReference": "Revelasyon 1:9",
+      "normalizedRef": "rev1.9",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-004_fr",
+    "data": {
+      "id": "dq-apoc-004",
+      "questionText": "Où se trouvait Patmos, l'île d'exil de l'apôtre Jean ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dans la mer Adriatique"
+        },
+        {
+          "id": "b",
+          "text": "Dans la mer Égée, au large des côtes de l'Asie Mineure"
+        },
+        {
+          "id": "c",
+          "text": "Dans la mer Méditerranée, au large de l'Égypte"
+        },
+        {
+          "id": "d",
+          "text": "Dans la mer Noire"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Patmos est une île rocheuse de la mer Égée, au large de la côte ouest de l'Asie Mineure (actuelle Turquie) — Jean y fut exilé sous Domitien (Apoc 1:9).",
+      "bibleReference": "Apocalypse 1:9",
+      "normalizedRef": "rev1.9",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-apoc-005_ht",
+    "data": {
+      "id": "dq-apoc-005",
+      "questionText": "Konbyen sele Mouton an ouvri nan Revelasyon an?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mouton an ouvri sèt sele yo sou woulo a (Revelasyon 6-8). Setyèm sele a kòmanse sèt twonpèt yo.",
+      "bibleReference": "Revelasyon 6:1",
+      "normalizedRef": "rev6.1",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-005_fr",
+    "data": {
+      "id": "dq-apoc-005",
+      "questionText": "Dans l'Apocalypse, combien de sceaux l'Agneau ouvre-t-il ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'Agneau ouvre sept sceaux sur le rouleau (Apocalypse 5:1; 6:1-8:1).",
+      "bibleReference": "Apocalypse 6:1",
+      "normalizedRef": "rev6.1",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-006_ht",
+    "data": {
+      "id": "dq-apoc-006",
+      "questionText": "Ki sa non \"Armagedòn\" vle di nan Revelasyon an?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn batay final la"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Megido"
+        },
+        {
+          "id": "c",
+          "text": "Vale lanmò a"
+        },
+        {
+          "id": "d",
+          "text": "Plenn jijman an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Yo rasanble yo nan kote yo rele an ebre Armagedòn\" (Revelasyon 16:16). Non an vle di \"Mòn Megido\", yon kote istwa biblik li fèmye.",
+      "bibleReference": "Revelasyon 16:16",
+      "normalizedRef": "rev16.16",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-006_fr",
+    "data": {
+      "id": "dq-apoc-006",
+      "questionText": "Quelle est la signification du terme « Armageddon » en Apocalypse 16:16 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fin du monde"
+        },
+        {
+          "id": "b",
+          "text": "Montagne de Megiddo en hébreu"
+        },
+        {
+          "id": "c",
+          "text": "Vallée du jugement"
+        },
+        {
+          "id": "d",
+          "text": "Lieu de la grande bataille céleste"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Armageddon » vient de l'hébreu Har Megiddo (montagne de Megiddo), lieu symbolique du rassemblement des nations (Apoc 16:16).",
+      "bibleReference": "Apocalypse 16:16",
+      "normalizedRef": "rev16.16",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-007_ht",
+    "data": {
+      "id": "dq-apoc-007",
+      "questionText": "Konbyen legliz ki te resevwa lèt nan Revelasyon an?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sèt legliz yo se: Efèz, Esmirn, Pègam, Tyatir, Sard, Filadelfi ak Lawodise (Revelasyon 2-3).",
+      "bibleReference": "Revelasyon 2-3",
+      "normalizedRef": "rev2-3",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-007_fr",
+    "data": {
+      "id": "dq-apoc-007",
+      "questionText": "Combien d'églises ont reçu des lettres dans l'Apocalypse ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les sept églises sont : Éphèse, Smyrne, Pergame, Thyatire, Sardes, Philadelphie et Laodicée (Apocalypse 2-3).",
+      "bibleReference": "Apocalypse 2-3",
+      "normalizedRef": "rev2-3",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-008_ht",
+    "data": {
+      "id": "dq-apoc-008",
+      "questionText": "Konbyen twonpèt ki sonnen nan Revelasyon an?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sèt zanj sonnen sèt twonpèt (Revelasyon 8-11). Chak twonpèt anonse yon jijman oswa yon malediksyon sou tè a.",
+      "bibleReference": "Revelasyon 8:2",
+      "normalizedRef": "rev8.2",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-008_fr",
+    "data": {
+      "id": "dq-apoc-008",
+      "questionText": "Combien de trompettes sonnent dans l'Apocalypse ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sept anges sonnent sept trompettes (Apocalypse 8-11). Chaque trompette annonce un jugement ou une malédiction sur la terre.",
+      "bibleReference": "Apocalypse 8:2",
+      "normalizedRef": "rev8.2",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-009_ht",
+    "data": {
+      "id": "dq-apoc-009",
+      "questionText": "Ki non vil selès ki desann sot nan syèl la nan Revelasyon 21?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vil Sen An"
+        },
+        {
+          "id": "b",
+          "text": "Siyon"
+        },
+        {
+          "id": "c",
+          "text": "Nouvo Jerizalèm"
+        },
+        {
+          "id": "d",
+          "text": "Paradi Etènèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi mwen Jan te wè lavil sen an, Nouvo Jerizalèm, desann sot nan syèl, nan Bondye, prepare tankou yon marye ornnen pou mari li\" (Revelasyon 21:2).",
+      "bibleReference": "Revelasyon 21:2",
+      "normalizedRef": "rev21.2",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-009_fr",
+    "data": {
+      "id": "dq-apoc-009",
+      "questionText": "Quel est le nom de la ville céleste qui descend du ciel dans Apocalypse 21 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Ville Sainte"
+        },
+        {
+          "id": "b",
+          "text": "Sion"
+        },
+        {
+          "id": "c",
+          "text": "Nouvelle Jérusalem"
+        },
+        {
+          "id": "d",
+          "text": "Paradis Éternel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Et je vis descendre du ciel, d'auprès de Dieu, la ville sainte, la nouvelle Jérusalem, préparée comme une épouse qui s'est parée pour son époux (Apocalypse 21:2).",
+      "bibleReference": "Apocalypse 21:2",
+      "normalizedRef": "rev21.2",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-010_ht",
+    "data": {
+      "id": "dq-apoc-010",
+      "questionText": "A ki legliz Seyè a di nan Revelasyon an ke li \"ni frèt ni cho\"?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Efèz"
+        },
+        {
+          "id": "b",
+          "text": "Sard"
+        },
+        {
+          "id": "c",
+          "text": "Filadelfi"
+        },
+        {
+          "id": "d",
+          "text": "Lawodise"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "\"Mwen konnen travay ou yo, ou pa ni frèt ni cho. Si sèlman ou te frèt oswa cho!\" (Revelasyon 3:15). Lawodise te repwoche pou tyèdè espirityèl li.",
+      "bibleReference": "Revelasyon 3:15-16",
+      "normalizedRef": "rev3.15-16",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-010_fr",
+    "data": {
+      "id": "dq-apoc-010",
+      "questionText": "À quelle église le Seigneur dit-il dans l'Apocalypse qu'elle n'est 'ni froide ni bouillante' ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Éphèse"
+        },
+        {
+          "id": "b",
+          "text": "Sardes"
+        },
+        {
+          "id": "c",
+          "text": "Philadelphie"
+        },
+        {
+          "id": "d",
+          "text": "Laodicée"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Je connais tes œuvres. Je sais que tu n'es ni froid ni bouillant. Puisses-tu être froid ou bouillant ! (Apocalypse 3:15). Laodicée était réprochée pour sa tiédeur spirituelle.",
+      "bibleReference": "Apocalypse 3:15-16",
+      "normalizedRef": "rev3.15-16",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-011_ht",
+    "data": {
+      "id": "dq-apoc-011",
+      "questionText": "Ki se premye nan sèt legliz ki mansyone nan lèt Revelasyon yo?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esmirn"
+        },
+        {
+          "id": "b",
+          "text": "Efèz"
+        },
+        {
+          "id": "c",
+          "text": "Pègam"
+        },
+        {
+          "id": "d",
+          "text": "Filadelfi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Ekri a zanj legliz Efèz la...\" (Revelasyon 2:1). Efèz se premye ki resevwa lèt li a.",
+      "bibleReference": "Revelasyon 2:1",
+      "normalizedRef": "rev2.1",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-011_fr",
+    "data": {
+      "id": "dq-apoc-011",
+      "questionText": "Quelle est la première des sept églises mentionnées dans les lettres de l'Apocalypse ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Smyrne"
+        },
+        {
+          "id": "b",
+          "text": "Éphèse"
+        },
+        {
+          "id": "c",
+          "text": "Pergame"
+        },
+        {
+          "id": "d",
+          "text": "Philadelphie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Écris à l'ange de l'Église d'Éphèse... (Apocalypse 2:1). Éphèse est la première à recevoir sa lettre.",
+      "bibleReference": "Apocalypse 2:1",
+      "normalizedRef": "rev2.1",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-012_ht",
+    "data": {
+      "id": "dq-apoc-012",
+      "questionText": "Konbyen chapit Liv Revelasyon an genyen?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "18"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "22"
+        },
+        {
+          "id": "d",
+          "text": "24"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Revelasyon an gen 22 chapit. Dènye chapit la fèmen ak pwomès Jezi: \"Wi, mwen vini byento. Amèn; wi, vini, Seyè Jezi\" (Revelasyon 22:20).",
+      "bibleReference": "Revelasyon 22:21",
+      "normalizedRef": "rev22.21",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-012_fr",
+    "data": {
+      "id": "dq-apoc-012",
+      "questionText": "Combien de chapitres compte le Livre de l'Apocalypse ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "18"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "22"
+        },
+        {
+          "id": "d",
+          "text": "24"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'Apocalypse compte 22 chapitres. Le dernier chapitre se termine par la promesse de Jésus : 'Oui, je viens bientôt. Amen ! Viens, Seigneur Jésus !' (Apocalypse 22:20).",
+      "bibleReference": "Apocalypse 22:21",
+      "normalizedRef": "rev22.21",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-013_ht",
+    "data": {
+      "id": "dq-apoc-013",
+      "questionText": "Konbyen zetwal ki sou kowonn fanm ki dekri nan Revelasyon 12?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "24"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Yon fanm revi ak solèy la, ak lalin anba pye l yo, epi sou tèt li yon kowonn douz zetwal\" (Revelasyon 12:1).",
+      "bibleReference": "Revelasyon 12:1",
+      "normalizedRef": "rev12.1",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-013_fr",
+    "data": {
+      "id": "dq-apoc-013",
+      "questionText": "Combien d'étoiles y a-t-il sur la couronne de la femme décrite dans Apocalypse 12 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "24"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Une femme enveloppée du soleil, la lune sous ses pieds, et une couronne de douze étoiles sur sa tête (Apocalypse 12:1).",
+      "bibleReference": "Apocalypse 12:1",
+      "normalizedRef": "rev12.1",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-014_ht",
+    "data": {
+      "id": "dq-apoc-014",
+      "questionText": "Konbyen pòt ak fondasyon Nouvo Jerizalèm nan genyen dapre Revelasyon 21?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 pòt ak 7 fondasyon"
+        },
+        {
+          "id": "b",
+          "text": "10 pòt ak 10 fondasyon"
+        },
+        {
+          "id": "c",
+          "text": "12 pòt ak 12 fondasyon"
+        },
+        {
+          "id": "d",
+          "text": "24 pòt ak 24 fondasyon"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nouvo Jerizalèm nan gen 12 pòt (ak non 12 tribi Izrayèl) ak 12 fondasyon (ak non 12 apòt) (Revelasyon 21:12-14).",
+      "bibleReference": "Revelasyon 21:12-14",
+      "normalizedRef": "rev21.12-14",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-014_fr",
+    "data": {
+      "id": "dq-apoc-014",
+      "questionText": "Combien de portes et de fondations la Nouvelle Jérusalem possède-t-elle selon Apocalypse 21 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 portes et 7 fondations"
+        },
+        {
+          "id": "b",
+          "text": "10 portes et 10 fondations"
+        },
+        {
+          "id": "c",
+          "text": "12 portes et 12 fondations"
+        },
+        {
+          "id": "d",
+          "text": "24 portes et 24 fondations"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La Nouvelle Jérusalem a 12 portes (avec les noms des 12 tribus d'Israël) et 12 fondations (avec les noms des 12 apôtres) (Apocalypse 21:12-14).",
+      "bibleReference": "Apocalypse 21:12-14",
+      "normalizedRef": "rev21.12-14",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-015_ht",
+    "data": {
+      "id": "dq-apoc-015",
+      "questionText": "Ki pye bwa ki parèt bò rivyè dlo lavi a nan Revelasyon 22?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pye bwa konesans"
+        },
+        {
+          "id": "b",
+          "text": "Pye bwa lavi"
+        },
+        {
+          "id": "c",
+          "text": "Figuye etènèl"
+        },
+        {
+          "id": "d",
+          "text": "Sèd Liban"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Nan mitan lari lavil la, ak sou de bò rivyè a, te gen pye bwa lavi a, ki bay douz fwi...\" (Revelasyon 22:2).",
+      "bibleReference": "Revelasyon 22:2",
+      "normalizedRef": "rev22.2",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-015_fr",
+    "data": {
+      "id": "dq-apoc-015",
+      "questionText": "Quel arbre apparaît au bord du fleuve d'eau de la vie dans Apocalypse 22 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arbre de la connaissance"
+        },
+        {
+          "id": "b",
+          "text": "Arbre de la vie"
+        },
+        {
+          "id": "c",
+          "text": "Figuier éternel"
+        },
+        {
+          "id": "d",
+          "text": "Cèdre du Liban"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Au milieu de la place de la ville et sur les deux bords du fleuve, il y avait un arbre de vie, produisant douze fois des fruits... (Apocalypse 22:2).",
+      "bibleReference": "Apocalypse 22:2",
+      "normalizedRef": "rev22.2",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-016_ht",
+    "data": {
+      "id": "dq-apoc-016",
+      "questionText": "Ki moun ki te ekri Liv Revelasyon an (Apokalips) pandan li te sou zile Patmòs?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pòl"
+        },
+        {
+          "id": "b",
+          "text": "Jan"
+        },
+        {
+          "id": "c",
+          "text": "Pyè"
+        },
+        {
+          "id": "d",
+          "text": "Lik"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 1:9 — \"Mwen menm Jan... mwen te nan zile yo rele Patmòs la poutèt pawòl Bondye a.\"",
+      "bibleReference": "Revelasyon 1:9",
+      "normalizedRef": "rev1.9",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-016_fr",
+    "data": {
+      "questionText": "Qui a écrit le livre de l'Apocalypse pendant qu'il était sur l'île de Patmos ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paul"
+        },
+        {
+          "id": "b",
+          "text": "Jean"
+        },
+        {
+          "id": "c",
+          "text": "Pierre"
+        },
+        {
+          "id": "d",
+          "text": "Luc"
+        }
+      ],
+      "explanation": "Apocalypse 1:9 — « Moi Jean... j'étais dans l'île appelée Patmos, à cause de la parole de Dieu. »",
+      "bibleReference": "Apocalypse 1:9",
+      "id": "dq-apoc-016",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-apoc-017_ht",
+    "data": {
+      "id": "dq-apoc-017",
+      "questionText": "Konbyen legliz nan peyi Lazi ki te resevwa lèt nan kòmansman Liv Revelasyon an?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 1:4 — \"Jan ap ekri sèt legliz ki nan peyi Lazi yo.\"",
+      "bibleReference": "Revelasyon 1:4",
+      "normalizedRef": "rev1.4",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-017_fr",
+    "data": {
+      "questionText": "Combien d'églises en Asie ont reçu des lettres au début du livre de l'Apocalypse ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "explanation": "Apocalypse 1:4 — « Jean aux sept Églises qui sont en Asie. »",
+      "bibleReference": "Apocalypse 1:4",
+      "id": "dq-apoc-017",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-apoc-018_ht",
+    "data": {
+      "id": "dq-apoc-018",
+      "questionText": "Ki sa Jezi di de tèt li nan kòmansman ak nan fen Liv Revelasyon an (mwen se premye ak dènye)?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "A ak B"
+        },
+        {
+          "id": "b",
+          "text": "Alfa ak Omega"
+        },
+        {
+          "id": "c",
+          "text": "Kòmansman ak lafen"
+        },
+        {
+          "id": "d",
+          "text": "Wa ak Seyè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 1:8 — \"Mwen se Alfa ak Omega, se Seyè a, Bondye ki gen tout pouvwa a, ki di sa.\"",
+      "bibleReference": "Revelasyon 1:8",
+      "normalizedRef": "rev1.8",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-018_fr",
+    "data": {
+      "questionText": "Comment Jésus se décrit-il au début et à la fin du livre de l'Apocalypse ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A et B"
+        },
+        {
+          "id": "b",
+          "text": "L'Alpha et l'Oméga"
+        },
+        {
+          "id": "c",
+          "text": "Le commencement et la fin"
+        },
+        {
+          "id": "d",
+          "text": "Roi et Seigneur"
+        }
+      ],
+      "explanation": "Apocalypse 1:8 — « Je suis l'alpha et l'oméga, dit le Seigneur Dieu, celui qui est, qui était, et qui vient, le Tout-Puissant. »",
+      "bibleReference": "Apocalypse 1:8",
+      "id": "dq-apoc-018",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-apoc-019_ht",
+    "data": {
+      "id": "dq-apoc-019",
+      "questionText": "Konbyen sele ki te genyen sou woulo liv la ki te nan men dwat moun ki te chita sou fotèy la?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "24"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 5:1 — \"Mwen wè yon woulo liv... li te sele ak sèt sele.\"",
+      "bibleReference": "Revelasyon 5:1",
+      "normalizedRef": "rev5.1",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-019_fr",
+    "data": {
+      "questionText": "Combien de sceaux y avait-il sur le livre qui était dans la main droite de celui qui était assis sur le trône ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "24"
+        }
+      ],
+      "explanation": "Apocalypse 5:1 — « Puis je vis dans la main droite de celui qui était assis sur le trône un livre... scellé de sept sceaux. »",
+      "bibleReference": "Apocalypse 5:1",
+      "id": "dq-apoc-019",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-apoc-020_ht",
+    "data": {
+      "id": "dq-apoc-020",
+      "questionText": "Ki bèt ki te parèt lè premye sele a te louvri e ki te gen yon kavalye ak yon banza?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon chwal wouj"
+        },
+        {
+          "id": "b",
+          "text": "Yon chwal blan"
+        },
+        {
+          "id": "c",
+          "text": "Yon chwal nwa"
+        },
+        {
+          "id": "d",
+          "text": "Yon chwal pal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 6:2 — \"Mwen gade, mwen wè yon chwal blan. Moun ki te moute l la te gen yon banza nan men l.\"",
+      "bibleReference": "Revelasyon 6:2",
+      "normalizedRef": "rev6.2",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-020_fr",
+    "data": {
+      "questionText": "Quel animal est apparu quand le premier sceau a été ouvert, avec un cavalier tenant un arc ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un cheval rouge"
+        },
+        {
+          "id": "b",
+          "text": "Un cheval blanc"
+        },
+        {
+          "id": "c",
+          "text": "Un cheval noir"
+        },
+        {
+          "id": "d",
+          "text": "Un cheval pâle"
+        }
+      ],
+      "explanation": "Apocalypse 6:2 — « Je regardai, et voici, parut un cheval blanc. Celui qui le montait avait un arc. »",
+      "bibleReference": "Apocalypse 6:2",
+      "id": "dq-apoc-020",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-apoc-021_ht",
+    "data": {
+      "id": "dq-apoc-021",
+      "questionText": "Ki non lavil selès k ap desann soti nan syèl la, bò kote Bondye, nan fen Revelasyon an?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babilòn"
+        },
+        {
+          "id": "b",
+          "text": "Nouvèl Jerizalèm"
+        },
+        {
+          "id": "c",
+          "text": "Lavil David"
+        },
+        {
+          "id": "d",
+          "text": "Zyon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 21:2 — \"Mwen wè lavil sen an, nouvèl Jerizalèm lan, ki t’ap desann soti nan syèl la...\"",
+      "bibleReference": "Revelasyon 21:2",
+      "normalizedRef": "rev21.2",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-021_fr",
+    "data": {
+      "questionText": "Quel est le nom de la ville céleste qui descend du ciel à la fin de l'Apocalypse ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babylone"
+        },
+        {
+          "id": "b",
+          "text": "La nouvelle Jérusalem"
+        },
+        {
+          "id": "c",
+          "text": "La cité de David"
+        },
+        {
+          "id": "d",
+          "text": "Sion"
+        }
+      ],
+      "explanation": "Apocalypse 21:2 — « Et je vis descendre du ciel, d'auprès de Dieu, la ville sainte, la nouvelle Jérusalem... »",
+      "bibleReference": "Apocalypse 21:2",
+      "id": "dq-apoc-021",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-apoc-022_ht",
+    "data": {
+      "id": "dq-apoc-022",
+      "questionText": "Ki sa k p ap egziste ankò nan nouvèl Jerizalèm lan, paske ansyen bagay yo pase?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Solèy la"
+        },
+        {
+          "id": "b",
+          "text": "Lanmò, dèy ak soufrans"
+        },
+        {
+          "id": "c",
+          "text": "Lalin nan"
+        },
+        {
+          "id": "d",
+          "text": "Zetwal yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 21:4 — \"Li va siye tout dlo nan je yo. p’ap gen lanmò ankò, p’ap gen ni dèy, ni kriye, ni doulè.\"",
+      "bibleReference": "Revelasyon 21:4",
+      "normalizedRef": "rev21.4",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-022_fr",
+    "data": {
+      "questionText": "Qu'est-ce qui n'existera plus dans la nouvelle Jérusalem ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le soleil"
+        },
+        {
+          "id": "b",
+          "text": "La mort, le deuil et la souffrance"
+        },
+        {
+          "id": "c",
+          "text": "La lune"
+        },
+        {
+          "id": "d",
+          "text": "Les étoiles"
+        }
+      ],
+      "explanation": "Apocalypse 21:4 — « Il essuiera toute larme de leurs yeux, et la mort ne sera plus, et il n'y aura plus ni deuil, ni cri, ni douleur. »",
+      "bibleReference": "Apocalypse 21:4",
+      "id": "dq-apoc-022",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-apoc-023_ht",
+    "data": {
+      "id": "dq-apoc-023",
+      "questionText": "Konbyen granmoun (ansyen) ki te chita sou fotèy yo toutotou fotèy Bondye a?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "12"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "144"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 4:4 — \"Toutotou fotèy la te gen vennkat lòt fotèy... vennkat granmoun te chita sou yo.\"",
+      "bibleReference": "Revelasyon 4:4",
+      "normalizedRef": "rev4.4",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-023_fr",
+    "data": {
+      "questionText": "Combien de vieillards étaient assis sur des trônes tout autour du trône de Dieu ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "12"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "144"
+        }
+      ],
+      "explanation": "Apocalypse 4:4 — « Autour du trône je vis vingt-quatre trônes, et sur ces trônes vingt-quatre vieillards assis. »",
+      "bibleReference": "Apocalypse 4:4",
+      "id": "dq-apoc-023",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-apoc-024_ht",
+    "data": {
+      "id": "dq-apoc-024",
+      "questionText": "Ki non \"zetwal\" ki te tonbe nan dlo yo e ki te rann yo anmè apre twazyèm zanj lan te fin sonnen twonpèt li?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Luzifè"
+        },
+        {
+          "id": "b",
+          "text": "Absint (Wormwood)"
+        },
+        {
+          "id": "c",
+          "text": "Oryon"
+        },
+        {
+          "id": "d",
+          "text": "Siris"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 8:11 — \"Yo te rele zetwal sa a Absint. Yon tyè nan dlo yo vin anmè tankou absint.\"",
+      "bibleReference": "Revelasyon 8:11",
+      "normalizedRef": "rev8.11",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-024_fr",
+    "data": {
+      "questionText": "Quel est le nom de l'« étoile » qui est tombée dans les eaux et les a rendues amères ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lucifer"
+        },
+        {
+          "id": "b",
+          "text": "Absinthe"
+        },
+        {
+          "id": "c",
+          "text": "Orion"
+        },
+        {
+          "id": "d",
+          "text": "Sirius"
+        }
+      ],
+      "explanation": "Apocalypse 8:11 — « Le nom de cette étoile est Absinthe ; et le tiers des eaux fut changé en absinthe. »",
+      "bibleReference": "Apocalypse 8:11",
+      "id": "dq-apoc-024",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-apoc-025_ht",
+    "data": {
+      "id": "dq-apoc-025",
+      "questionText": "Ki \"Ti Mouton\" ki te sèl moun ki te merite louvri woulo liv la epi kase sèt sele yo?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Revelasyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "Jezi Kris"
+        },
+        {
+          "id": "c",
+          "text": "Jan Batis"
+        },
+        {
+          "id": "d",
+          "text": "David"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 5:5-6 — \"Lyon ki soti nan branch fanmi Jida a... li kapab louvri liv la... Mwen wè yon Ti Mouton ki te kanpe...\"",
+      "bibleReference": "Revelasyon 5:5-6",
+      "normalizedRef": "rev5.5-6",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-025_fr",
+    "data": {
+      "questionText": "Qui est l'« Agneau » qui était seul digne d'ouvrir le livre ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Jésus-Christ"
+        },
+        {
+          "id": "c",
+          "text": "Jean-Baptiste"
+        },
+        {
+          "id": "d",
+          "text": "David"
+        }
+      ],
+      "explanation": "Apocalypse 5:5-6 — « Voici, le lion de la tribu de Juda... a vaincu pour ouvrir le livre... Et je vis... un Agneau qui était là comme immolé. »",
+      "bibleReference": "Apocalypse 5:5-6",
+      "id": "dq-apoc-025",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-apoc-026_ht",
+    "data": {
+      "id": "dq-apoc-026",
+      "questionText": "Nan konbyen Legliz liv Revelasyon an te voye nan kòmansman an?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Yo te voye sèt lèt yo bay Legliz ki te nan vil sa yo: Efèz, Smid, Pègam, Tyati, Sad, Filadèlfi ak Lawodise (Rev 1:11).",
+      "bibleReference": "Apocalypse 1:11"
+    }
+  },
+  {
+    "docId": "dq-apoc-026_fr",
+    "data": {
+      "id": "dq-apoc-026",
+      "questionText": "À combien d'Églises l'Apocalypse est-elle adressée au début ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les sept lettres sont adressées aux Églises d'Éphèse, Smyrne, Pergame, Thyatire, Sardes, Philadelphie et Laodicée (Apoc 1:11).",
+      "bibleReference": "Apocalypse 1:11",
+      "normalizedRef": "rev1.11",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-027_ht",
+    "data": {
+      "id": "dq-apoc-027",
+      "questionText": "Ki bèt ki reprezante Jezi nan Revelasyon chapit 5?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon lyon"
+        },
+        {
+          "id": "b",
+          "text": "Yon ti mouton"
+        },
+        {
+          "id": "c",
+          "text": "Yon malfini"
+        },
+        {
+          "id": "d",
+          "text": "Yon towo bèf"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jezi se « Ti Mouton yo te touye a » — se li menm sèl ki gen dwa louvri woulo liv la (Revelasyon 5:6,12).",
+      "bibleReference": "Apocalypse 5:6"
+    }
+  },
+  {
+    "docId": "dq-apoc-027_fr",
+    "data": {
+      "id": "dq-apoc-027",
+      "questionText": "Quel animal représente Jésus au chapitre 5 de l'Apocalypse ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un lion"
+        },
+        {
+          "id": "b",
+          "text": "Un agneau"
+        },
+        {
+          "id": "c",
+          "text": "Un aigle"
+        },
+        {
+          "id": "d",
+          "text": "Un taureau"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus est « l'Agneau qui a été immolé » — seul digne d'ouvrir le rouleau (Apocalypse 5:6,12).",
+      "bibleReference": "Apocalypse 5:6",
+      "normalizedRef": "rev5.6",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-028_ht",
+    "data": {
+      "id": "dq-apoc-028",
+      "questionText": "Kisa Nouvo Jerizalèm nan ye nan Revelasyon 21?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Peyi Izrayèl yo refè sou tè a"
+        },
+        {
+          "id": "b",
+          "text": "Vil sen an k'ap desann soti nan syèl la — kote Bondye ap rete ak moun"
+        },
+        {
+          "id": "c",
+          "text": "Paradi nan syèl la kote nanm moun ale apre yo mouri"
+        },
+        {
+          "id": "d",
+          "text": "Tanp Salomon an yo rebati"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nouvo Jerizalèm nan desann soti nan syèl la — Bondye pral rete ak moun, l'ap siye tout dlo nan je yo (Revelasyon 21:2-3).",
+      "bibleReference": "Apocalypse 21:2-3"
+    }
+  },
+  {
+    "docId": "dq-apoc-028_fr",
+    "data": {
+      "id": "dq-apoc-028",
+      "questionText": "Qu'est-ce que la Nouvelle Jérusalem dans Apocalypse 21 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Israël restauré sur la terre actuelle"
+        },
+        {
+          "id": "b",
+          "text": "La cité sainte descendant du ciel — demeure de Dieu avec les hommes"
+        },
+        {
+          "id": "c",
+          "text": "Le paradis céleste où vont les âmes après la mort"
+        },
+        {
+          "id": "d",
+          "text": "Le temple de Salomon reconstruit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La Nouvelle Jérusalem descend du ciel — Dieu habitera avec les hommes, il essuiera toute larme (Apocalypse 21:2-3).",
+      "bibleReference": "Apocalypse 21:2-3",
+      "normalizedRef": "rev21.2-3",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-029_ht",
+    "data": {
+      "id": "dq-apoc-029",
+      "questionText": "Nan Revelasyon 20, konbyen ane rèy yo mansyone anvan jijman final la dire?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 ane"
+        },
+        {
+          "id": "b",
+          "text": "500 ane"
+        },
+        {
+          "id": "c",
+          "text": "1000 ane"
+        },
+        {
+          "id": "d",
+          "text": "7 ane"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bib la pale de yon rèy « mil (1000) ane » (milenyòm) nan Revelasyon 20:1-6.",
+      "bibleReference": "Apocalypse 20:2-4"
+    }
+  },
+  {
+    "docId": "dq-apoc-029_fr",
+    "data": {
+      "id": "dq-apoc-029",
+      "questionText": "Dans Apocalypse 20, combien d'années dure le règne mentionné avant le jugement final ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 ans"
+        },
+        {
+          "id": "b",
+          "text": "500 ans"
+        },
+        {
+          "id": "c",
+          "text": "1000 ans"
+        },
+        {
+          "id": "d",
+          "text": "7 ans"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le « règne de mille ans » (millénium) est décrit en Apocalypse 20:1-6.",
+      "bibleReference": "Apocalypse 20:2-4",
+      "normalizedRef": "rev20.2-4",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-030_ht",
+    "data": {
+      "id": "dq-apoc-030",
+      "questionText": "Ki pwomès Bondye te fè Legliz Filadèlfi a nan Revelasyon 3?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Richès ak glwa"
+        },
+        {
+          "id": "b",
+          "text": "Yon pòt louvri pèsonn pa ka fèmen"
+        },
+        {
+          "id": "c",
+          "text": "Viktwa sou tout nasyon yo"
+        },
+        {
+          "id": "d",
+          "text": "Rezirèksyon touswit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Mwen mete yon pòt louvri devan ou, pèsonn pa ka fèmen l' » — se pwomès pou Filadèlfi (Revelasyon 3:8).",
+      "bibleReference": "Apocalypse 3:8"
+    }
+  },
+  {
+    "docId": "dq-apoc-030_fr",
+    "data": {
+      "id": "dq-apoc-030",
+      "questionText": "Quelle est la promesse faite à l'Église de Philadelphie dans Apocalypse 3 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Richesse et gloire"
+        },
+        {
+          "id": "b",
+          "text": "Une porte ouverte qu'aucun homme ne peut fermer"
+        },
+        {
+          "id": "c",
+          "text": "Victoire sur toutes les nations"
+        },
+        {
+          "id": "d",
+          "text": "La résurrection immédiate"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« J'ai mis devant toi une porte ouverte qu'aucun homme ne peut fermer » — promesse à Philadelphie (Apocalypse 3:8).",
+      "bibleReference": "Apocalypse 3:8",
+      "normalizedRef": "rev3.8",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-031_ht",
+    "data": {
+      "id": "dq-apoc-031",
+      "questionText": "Ak ki gwo envitasyon Lespri a ak Lamarye a liv Revelasyon an fini?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adore Bondye sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Vini non, Seyè Jezi"
+        },
+        {
+          "id": "c",
+          "text": "Se pou gras li la ak nou tout"
+        },
+        {
+          "id": "d",
+          "text": "Vini resevwa lavi etènèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Lespri a ak lamarye a di: Vini non! » epi Jan fini: « Vini non, Seyè Jezi » (Revelasyon 22:17,20).",
+      "bibleReference": "Apocalypse 22:20"
+    }
+  },
+  {
+    "docId": "dq-apoc-031_fr",
+    "data": {
+      "id": "dq-apoc-031",
+      "questionText": "L'Apocalypse se termine avec quelle grande invitation de l'Esprit et de l'Épouse ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adorez Dieu seul"
+        },
+        {
+          "id": "b",
+          "text": "Viens, Seigneur Jésus"
+        },
+        {
+          "id": "c",
+          "text": "Que ta grâce soit avec tous"
+        },
+        {
+          "id": "d",
+          "text": "Venez recevoir la vie éternelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« L'Esprit et l'Épouse disent : Viens ! » et Jean conclut : « Viens, Seigneur Jésus » (Apocalypse 22:17,20).",
+      "bibleReference": "Apocalypse 22:20",
+      "normalizedRef": "rev22.20",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-032_ht",
+    "data": {
+      "id": "dq-apoc-032",
+      "questionText": "Ki non zanj gwo twou san fon an an ebre nan Revelasyon 9:11?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apoliyon / Abadon"
+        },
+        {
+          "id": "b",
+          "text": "Michèl"
+        },
+        {
+          "id": "c",
+          "text": "Lisifè"
+        },
+        {
+          "id": "d",
+          "text": "Bèlzeboul"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Zanj gwo twou san fon an rele Abadon an ebre ak Apoliyon an grèk — tou de non sa yo vle di « moun k'ap detwi a » (Revelasyon 9:11).",
+      "bibleReference": "Apocalypse 9:11"
+    }
+  },
+  {
+    "docId": "dq-apoc-032_fr",
+    "data": {
+      "id": "dq-apoc-032",
+      "questionText": "Quel est le nom de l'ange de l'abîme en hébreu dans Apocalypse 9:11 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apollyon / Abaddon"
+        },
+        {
+          "id": "b",
+          "text": "Michel"
+        },
+        {
+          "id": "c",
+          "text": "Lucifer"
+        },
+        {
+          "id": "d",
+          "text": "Béelzéboul"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "L'ange de l'abîme s'appelle Abaddon en hébreu et Apollyon en grec — tous deux signifient « destructeur » (Apocalypse 9:11).",
+      "bibleReference": "Apocalypse 9:11",
+      "normalizedRef": "rev9.11",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-033_ht",
+    "data": {
+      "id": "dq-apoc-033",
+      "questionText": "Nan Revelasyon 12, kisa madanm ki te vlope ak solèy la reprezante nòmalman?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mari, manman Jezi"
+        },
+        {
+          "id": "b",
+          "text": "Legliz la oswa Izrayèl k'ap pote Mesi a"
+        },
+        {
+          "id": "c",
+          "text": "Gwo Babilòn nan"
+        },
+        {
+          "id": "d",
+          "text": "Madanm Ti Mouton an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Madanm nan ki gen yon kouwòn ak 12 zetwal (Izrayèl/Legliz la) fè pitit ki se Mesi a pandan dragon an ap kouri dèyè l' (Rev 12:1-5).",
+      "bibleReference": "Apocalypse 12:1-5"
+    }
+  },
+  {
+    "docId": "dq-apoc-033_fr",
+    "data": {
+      "id": "dq-apoc-033",
+      "questionText": "Dans Apocalypse 12, la femme vêtue du soleil représente traditionnellement qui ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marie, mère de Jésus"
+        },
+        {
+          "id": "b",
+          "text": "L'Église ou Israël portant le Messie"
+        },
+        {
+          "id": "c",
+          "text": "Babylone la Grande"
+        },
+        {
+          "id": "d",
+          "text": "L'Épouse de l'Agneau"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La femme couronnée de 12 étoiles (Israël/l'Église) enfante le Messie poursuivi par le dragon — symbole du combat spirituel (Apoc 12:1-5).",
+      "bibleReference": "Apocalypse 12:1-5",
+      "normalizedRef": "rev12.1-5",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-034_ht",
+    "data": {
+      "id": "dq-apoc-034",
+      "questionText": "Kisa ki genyen nan « liv lavi Ti Mouton an » yo mansyone nan Revelasyon 21:27?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Non moun ki pral antre nan Nouvo Jerizalèm nan"
+        },
+        {
+          "id": "b",
+          "text": "Peche tout limanite"
+        },
+        {
+          "id": "c",
+          "text": "Pwofesi ki reyalize yo"
+        },
+        {
+          "id": "d",
+          "text": "Non zanj gadyen yo"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Se sèlman moun ki gen non yo ekri nan liv lavi Ti Mouton an k'ap ka antre nan Nouvo Jerizalèm nan (Rev 21:27).",
+      "bibleReference": "Apocalypse 21:27"
+    }
+  },
+  {
+    "docId": "dq-apoc-034_fr",
+    "data": {
+      "id": "dq-apoc-034",
+      "questionText": "Que contient le « livre de vie de l'Agneau » mentionné en Apocalypse 21:27 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les noms de ceux qui héritent la Nouvelle Jérusalem"
+        },
+        {
+          "id": "b",
+          "text": "Les péchés de l'humanité"
+        },
+        {
+          "id": "c",
+          "text": "Les prophéties accomplies"
+        },
+        {
+          "id": "d",
+          "text": "Les noms des anges gardiens"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Seuls ceux dont les noms sont inscrits dans le livre de vie de l'Agneau peuvent entrer dans la Nouvelle Jérusalem (Apoc 21:27).",
+      "bibleReference": "Apocalypse 21:27",
+      "normalizedRef": "rev21.27",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-apoc-035_ht",
+    "data": {
+      "id": "dq-apoc-035",
+      "questionText": "Revelasyon dekri yon « letan dife » kòm « dezyèm lanmò » — kilès yo jete ladan l an premye?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nasyon k'ap fè rebèl yo"
+        },
+        {
+          "id": "b",
+          "text": "Lanmò ak kote mò yo ye a (Adès)"
+        },
+        {
+          "id": "c",
+          "text": "Gwo fanm movèz vi a"
+        },
+        {
+          "id": "d",
+          "text": "Fo pwofèt yo sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Yo jete lanmò ak kote mò yo ye a nan letan dife a. Se letan dife sa a ki dezyèm lanmò a » (Revelasyon 20:14).",
+      "bibleReference": "Apocalypse 20:14"
+    }
+  },
+  {
+    "docId": "dq-apoc-035_fr",
+    "data": {
+      "id": "dq-apoc-035",
+      "questionText": "L'Apocalypse décrit un « lac de feu » comme la « seconde mort » — qui y est jeté en premier ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les nations rebelles"
+        },
+        {
+          "id": "b",
+          "text": "La mort et le séjour des morts (Hadès)"
+        },
+        {
+          "id": "c",
+          "text": "La grande prostituée"
+        },
+        {
+          "id": "d",
+          "text": "Les faux prophètes uniquement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« La mort et le séjour des morts furent jetés dans l'étang de feu. C'est la seconde mort » (Apocalypse 20:14).",
+      "bibleReference": "Apocalypse 20:14",
+      "normalizedRef": "rev20.14",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "docId": "dq-atg-001_ht",
+    "data": {
+      "id": "dq-atg-001",
+      "questionText": "Konbyen liv nan AT?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "27"
+        },
+        {
+          "id": "b",
+          "text": "33"
+        },
+        {
+          "id": "c",
+          "text": "39"
+        },
+        {
+          "id": "d",
+          "text": "46"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bib pwotestan gen 39 liv nan AT (Bib Katolik gen 46 ak deutewokanonisèl). Yo divize en Lwa (5), Istwa (12), Poyezi (5), Pwofèt (17).",
+      "bibleReference": "Jenèz 1:1"
+    }
+  },
+  {
+    "docId": "dq-atg-001_fr",
+    "data": {
+      "id": "dq-atg-001",
+      "questionText": "Combien de livres y a-t-il dans l'Ancien Testament ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "27"
+        },
+        {
+          "id": "b",
+          "text": "33"
+        },
+        {
+          "id": "c",
+          "text": "39"
+        },
+        {
+          "id": "d",
+          "text": "46"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La Bible protestante compte 39 livres dans l'AT (la Bible catholique en compte 46 avec les deutérocanoniques). Ils sont divisés en Loi (5), Histoire (12), Poésie (5), Prophètes (17).",
+      "bibleReference": "Genèse 1:1"
+    }
+  },
+  {
+    "docId": "dq-atg-002_ht",
+    "data": {
+      "id": "dq-atg-002",
+      "questionText": "Ki sa \"Shema\" an isra yèl (Detewonòm 6:4) pwoklamasyon?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Renmen vwazen ou tankou tèt ou\""
+        },
+        {
+          "id": "b",
+          "text": "\"Seyè Bondye nou an se yon sèl Seyè — renmen li ak tout kè ou\""
+        },
+        {
+          "id": "c",
+          "text": "\"Gade tout kòmandman mwen yo\""
+        },
+        {
+          "id": "d",
+          "text": "\"Pa janm abandone pèp mwen an\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Detwonòm 6:4-5 — \"Shema Yisrael Adonai Eloheinu Adonai Ehad\" = \"Tande, O Izrayèl: Seyè Bondye nou se yon sèl Seyè.\" Fondaman monoteism biblik.",
+      "bibleReference": "Detewonòm 6:4-5"
+    }
+  },
+  {
+    "docId": "dq-atg-002_fr",
+    "data": {
+      "id": "dq-atg-002",
+      "questionText": "Que proclame le « Shema » d'Israël (Deutéronome 6:4) ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Tu aimeras ton prochain comme toi-même »"
+        },
+        {
+          "id": "b",
+          "text": "« L'Éternel, notre Dieu, est le seul Éternel — tu l'aimeras de tout ton cœur »"
+        },
+        {
+          "id": "c",
+          "text": "« Gardez tous mes commandements »"
+        },
+        {
+          "id": "d",
+          "text": "« N'abandonne jamais mon peuple »"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Deutéronome 6:4-5 — « Écoute, Israël ! L'Éternel, notre Dieu, est le seul Éternel. » Fondement du monothéisme biblique.",
+      "bibleReference": "Deutéronome 6:4-5"
+    }
+  },
+  {
+    "docId": "dq-atg-003_ht",
+    "data": {
+      "id": "dq-atg-003",
+      "questionText": "Ki sa \"Lwa Lente\" nan AT vle di?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lwa pou manje sèlman manje k ap vole"
+        },
+        {
+          "id": "b",
+          "text": "Règ AT sou manje pè ak enpè — pò, kribich, kochon entèdi"
+        },
+        {
+          "id": "c",
+          "text": "Lwa sou jeun ak priyè obligatwa"
+        },
+        {
+          "id": "d",
+          "text": "Règ sou kijan pou prepare manje pou sakrifis"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Levitik 11; Detewonòm 14 — Lwa Lente (kashrut): bèt ak pye pann epi rimen manje, pwason ak zèkèy ak ekay akseptab, zwazo pèdisi entèdi. Pòk ak kribich entèdi.",
+      "bibleReference": "Levitik 11:1-47"
+    }
+  },
+  {
+    "docId": "dq-atg-003_fr",
+    "data": {
+      "id": "dq-atg-003",
+      "questionText": "Que signifie la « Loi alimentaire » (lois de pureté) dans l'Ancien Testament ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Loi pour manger uniquement de la nourriture volante"
+        },
+        {
+          "id": "b",
+          "text": "Règles de l'AT sur les aliments purs et impurs — porc, crevettes, cochon interdits"
+        },
+        {
+          "id": "c",
+          "text": "Lois sur le jeûne et la prière obligatoire"
+        },
+        {
+          "id": "d",
+          "text": "Règles sur la façon de préparer la nourriture pour les sacrifices"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lévitique 11 ; Deutéronome 14 — Lois alimentaires (cacherout) : animaux aux sabots fendus et qui ruminent acceptables, poissons avec nageoires et écailles acceptables, oiseaux de proie interdits. Porc et crevettes interdits.",
+      "bibleReference": "Lévitique 11:1-47"
+    }
+  },
+  {
+    "docId": "dq-atg-004_ht",
+    "data": {
+      "id": "dq-atg-004",
+      "questionText": "Ki fèt AT ki komemorave delivrans nan Ejip?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pantekovòt"
+        },
+        {
+          "id": "b",
+          "text": "Pak (Passo)"
+        },
+        {
+          "id": "c",
+          "text": "Fèt Tabènnak yo"
+        },
+        {
+          "id": "d",
+          "text": "Jou Ekspyasyon an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 12 — Pak (Passo): jou memoryèl delivrans Izrayèl soti Ejip. Mouton sakrifye, san sou poto pòt, zanj lanmò \"pase\" kay ki gen san an. Kris se Mouton Pak nou (1 Kor 5:7).",
+      "bibleReference": "Egzòd 12:13"
+    }
+  },
+  {
+    "docId": "dq-atg-004_fr",
+    "data": {
+      "id": "dq-atg-004",
+      "questionText": "Quelle fête de l'AT commémore la délivrance d'Égypte ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Pentecôte"
+        },
+        {
+          "id": "b",
+          "text": "La Pâque (Pessah)"
+        },
+        {
+          "id": "c",
+          "text": "La fête des Tabernacles"
+        },
+        {
+          "id": "d",
+          "text": "Le jour de l'Expiation"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 12 — La Pâque (Pessah) : jour mémorial de la délivrance d'Israël hors d'Égypte. Agneau sacrifié, sang sur les poteaux des portes, l'ange de la mort « passe » par-dessus les maisons marquées du sang. Christ est notre Agneau pascal (1 Cor 5:7).",
+      "bibleReference": "Exode 12:13"
+    }
+  },
+  {
+    "docId": "dq-atg-005_ht",
+    "data": {
+      "id": "dq-atg-005",
+      "questionText": "Ki sa \"Yom Kippur\" (Jou Ekspyasyon) reprezante?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Selebrasyon récolte a"
+        },
+        {
+          "id": "b",
+          "text": "Jou anlè chak ane kote gran prêt antre nan Plas Sen yo pou ekspye peche pèp la"
+        },
+        {
+          "id": "c",
+          "text": "Premye jou ane Jwif la"
+        },
+        {
+          "id": "d",
+          "text": "Fèt delivrans Izrayèl soti Babilon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Levitik 16 — Yom Kippur: gran prêt ofri sakrifis pou tèt li ak pèp la. Yon kabri pote peche yo nan dezè (chivo emisario). Ebre 9-10 montre Jezi akompli sa définitivman.",
+      "bibleReference": "Levitik 16:34"
+    }
+  },
+  {
+    "docId": "dq-atg-005_fr",
+    "data": {
+      "id": "dq-atg-005",
+      "questionText": "Que représente « Yom Kippour » (Jour de l'Expiation) ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La célébration de la récolte"
+        },
+        {
+          "id": "b",
+          "text": "Le jour annuel où le souverain sacrificateur entre dans le Lieu Très Saint pour expier les péchés du peuple"
+        },
+        {
+          "id": "c",
+          "text": "Le premier jour de l'année juive"
+        },
+        {
+          "id": "d",
+          "text": "La fête de la délivrance d'Israël hors de Babylone"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lévitique 16 — Yom Kippour : le souverain sacrificateur offre des sacrifices pour lui-même et pour le peuple. Un bouc porte les péchés dans le désert (bouc émissaire). Hébreux 9-10 montre que Jésus a accompli cela définitivement.",
+      "bibleReference": "Lévitique 16:34"
+    }
+  },
+  {
+    "docId": "dq-atg-006_ht",
+    "data": {
+      "id": "dq-atg-006",
+      "questionText": "Ki pouvwa espesyal Sansòn te genyen?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sajès ak konesans sipèrnaturèl"
+        },
+        {
+          "id": "b",
+          "text": "Fòs fizik sennaturèl lye ak vòt nazireyèn li — espeialeman chevè li"
+        },
+        {
+          "id": "c",
+          "text": "Kapasite geri malad"
+        },
+        {
+          "id": "d",
+          "text": "Vitès kouri sipèn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jij 13-16 — Sansòn te yon nazireyèn. Fòs li te lye ak chevè li kòm senbòl vòt li bay Bondye. Lè Dalila koupe chevè l, fòs la kite l (Jij 16:17).",
+      "bibleReference": "Jij 16:17"
+    }
+  },
+  {
+    "docId": "dq-atg-006_fr",
+    "data": {
+      "id": "dq-atg-006",
+      "questionText": "Quel pouvoir spécial Samson possédait-il ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sagesse et connaissances surnaturelles"
+        },
+        {
+          "id": "b",
+          "text": "Force physique surnaturelle liée à son vœu de naziréat — particulièrement ses cheveux"
+        },
+        {
+          "id": "c",
+          "text": "Capacité de guérir les malades"
+        },
+        {
+          "id": "d",
+          "text": "Vitesse de course surhumaine"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Juges 13-16 — Samson était un naziréen. Sa force était liée à ses cheveux comme symbole de son vœu à Dieu. Lorsque Dalila lui coupe les cheveux, sa force le quitte (Juges 16:17).",
+      "bibleReference": "Juges 16:17"
+    }
+  },
+  {
+    "docId": "dq-atg-007_ht",
+    "data": {
+      "id": "dq-atg-007",
+      "questionText": "Ki sa \"Alyans Davidi\" (2 Samyèl 7) pwomèt?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "David pral viv étenèlman"
+        },
+        {
+          "id": "b",
+          "text": "Yon desandan David pral gen yon wayòm étenèl — akompli nan Jezi Kris"
+        },
+        {
+          "id": "c",
+          "text": "Izrayèl pral toujou venkè lènmi yo"
+        },
+        {
+          "id": "d",
+          "text": "Tanp Salomon pral étenèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Samyèl 7:12-16 — Bondye pwomèt David: \"Pitit ou pral bati yon kay pou non mwen epi mwen pral etabli twon wayòm li pou tout tan.\" Akompli nan Jezi (Lk 1:32-33).",
+      "bibleReference": "2 Samyèl 7:12-16"
+    }
+  },
+  {
+    "docId": "dq-atg-007_fr",
+    "data": {
+      "id": "dq-atg-007",
+      "questionText": "Que promet l'« Alliance Davidique » (2 Samuel 7) ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "David vivra éternellement"
+        },
+        {
+          "id": "b",
+          "text": "Un descendant de David aura un règne éternel — accompli en Jésus-Christ"
+        },
+        {
+          "id": "c",
+          "text": "Israël sera toujours vainqueur de ses ennemis"
+        },
+        {
+          "id": "d",
+          "text": "Le temple de Salomon sera éternel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Samuel 7:12-16 — Dieu promet à David : « Je susciterai ta postérité après toi... et j'affermirai pour toujours le trône de son royaume. » Accompli en Jésus (Luc 1:32-33).",
+      "bibleReference": "2 Samuel 7:12-16"
+    }
+  },
+  {
+    "docId": "dq-atg-008_ht",
+    "data": {
+      "id": "dq-atg-008",
+      "questionText": "Ki sa \"Liv Jòb\" anseye sou soufrans?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Soufrans toujou se pinisyon peche"
+        },
+        {
+          "id": "b",
+          "text": "Moun jis ka soufri pou rezon misterye — Bondye souverèn, fidelit pito ke eksplikasyon"
+        },
+        {
+          "id": "c",
+          "text": "Soufrans pa reyèl pou moun ki gen lafwa"
+        },
+        {
+          "id": "d",
+          "text": "Peche zanmi Jòb yo te koz soufrans li"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jòb 1-2 — Jòb te jis men soufri. Zanmi l yo te fèt erè: \"Ou soufri paske ou te peche.\" Bondye reponn Jòb soti nan toubiyon (ch.38-41) — souverènte depase konprehansyon.",
+      "bibleReference": "Jòb 38:4"
+    }
+  },
+  {
+    "docId": "dq-atg-008_fr",
+    "data": {
+      "id": "dq-atg-008",
+      "questionText": "Qu'enseigne le « Livre de Job » sur la souffrance ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La souffrance est toujours une punition du péché"
+        },
+        {
+          "id": "b",
+          "text": "Les justes peuvent souffrir pour des raisons mystérieuses — Dieu est souverain, la fidélité importe plus que les explications"
+        },
+        {
+          "id": "c",
+          "text": "La souffrance n'est pas réelle pour ceux qui ont la foi"
+        },
+        {
+          "id": "d",
+          "text": "Le péché des amis de Job a causé sa souffrance"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Job 1-2 — Job était juste mais a souffert. Ses amis ont fait l'erreur de dire : « Tu souffres parce que tu as péché. » Dieu répond à Job du milieu de la tempête (ch. 38-41) — sa souveraineté dépasse notre compréhension.",
+      "bibleReference": "Job 38:4"
+    }
+  },
+  {
+    "docId": "dq-atg-009_ht",
+    "data": {
+      "id": "dq-atg-009",
+      "questionText": "Ki sa \"Proverbs\" (Pwovèb) anseye kòm baz sajès biblik?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Richès garanti siksè"
+        },
+        {
+          "id": "b",
+          "text": "\"Kòmansman sajès se krentif Seyè a\" — relasyon kòrèk avèk Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Sajès se sèlman konnesans filozofik"
+        },
+        {
+          "id": "d",
+          "text": "Senp bon konpòtman sifizan pou bon lavi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pwovèb 1:7 — \"Krentif Seyè a se koumansman sajès.\" Tout 31 chapit baze sou premis sa a: sajès vre kòmanse avèk relasyon kòrèk Bondye.",
+      "bibleReference": "Pwovèb 1:7"
+    }
+  },
+  {
+    "docId": "dq-atg-009_fr",
+    "data": {
+      "id": "dq-atg-009",
+      "questionText": "Qu'enseigne le livre des « Proverbes » comme base de la sagesse biblique ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La richesse garantit le succès"
+        },
+        {
+          "id": "b",
+          "text": "« Le commencement de la sagesse, c'est la crainte de l'Éternel » — une relation juste avec Dieu"
+        },
+        {
+          "id": "c",
+          "text": "La sagesse est seulement une connaissance philosophique"
+        },
+        {
+          "id": "d",
+          "text": "Un simple bon comportement suffit pour une vie réussie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Proverbes 1:7 — « La crainte de l'Éternel est le commencement de la science. » Tous les 31 chapitres reposent sur ce principe : la vraie sagesse commence par une relation juste avec Dieu.",
+      "bibleReference": "Proverbes 1:7"
+    }
+  },
+  {
+    "docId": "dq-atg-010_ht",
+    "data": {
+      "id": "dq-atg-010",
+      "questionText": "Ki mesaj santral Liv Ozè a?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jijman pou lènmi Izrayèl yo"
+        },
+        {
+          "id": "b",
+          "text": "Amou fidèl Bondye (hesed) pou Izrayèl enkonstans — li toujou rele pèp li a tounen"
+        },
+        {
+          "id": "c",
+          "text": "Prensip lwa pou sosyete jis"
+        },
+        {
+          "id": "d",
+          "text": "Pwofesi sou vansman Babilon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ozè 11:8-9 — \"Kijan mwen ka abandone ou, O Efrayim?... Kè mwen vire sou mwen... mwen pa pral egzekite chalè koulè mwen.\" Amou Bondye depase enfidelite pèp la.",
+      "bibleReference": "Ozè 11:8-9"
+    }
+  },
+  {
+    "docId": "dq-atg-010_fr",
+    "data": {
+      "id": "dq-atg-010",
+      "questionText": "Quel est le message central du livre d'Osée ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le jugement des ennemis d'Israël"
+        },
+        {
+          "id": "b",
+          "text": "L'amour fidèle de Dieu (hesed) pour un Israël inconstant — il rappelle toujours son peuple"
+        },
+        {
+          "id": "c",
+          "text": "Des principes de loi pour une société juste"
+        },
+        {
+          "id": "d",
+          "text": "Des prophéties sur l'avancement de Babylone"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Osée 11:8-9 — « Que ferai-je de toi, Éphraïm ?... Mon cœur s'agite au-dedans de moi... Je n'exécuterai point l'ardeur de ma colère. » L'amour de Dieu l'emporte sur l'infidélité de son peuple.",
+      "bibleReference": "Osée 11:8-9"
+    }
+  },
+  {
+    "docId": "dq-atg-011_ht",
+    "data": {
+      "id": "dq-atg-011",
+      "questionText": "Ki pwofesi Michée 5:2 bay?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jerizalèm pral fin detwi"
+        },
+        {
+          "id": "b",
+          "text": "Soti nan Betleyèm pral soti yon chèf ki pral gouvène Izrayèl — orijin li depi tan lontan"
+        },
+        {
+          "id": "c",
+          "text": "Izrayèl pral tounen nan tè pwomèt la"
+        },
+        {
+          "id": "d",
+          "text": "Yon nouvo prêt pral parèt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Michée 5:2 — \"Ou, Betleyèm Efratha... soti nan ou pral soti yon moun ki pral gouvène Izrayèl pou mwen.\" Akompli nan nesans Jezi (Matye 2:1-6).",
+      "bibleReference": "Michée 5:2"
+    }
+  },
+  {
+    "docId": "dq-atg-011_fr",
+    "data": {
+      "id": "dq-atg-011",
+      "questionText": "Quelle prophétie contient Michée 5:2 ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jérusalem sera totalement détruite"
+        },
+        {
+          "id": "b",
+          "text": "De Bethléem sortira un chef qui dominera sur Israël — ses origines remontent aux temps anciens"
+        },
+        {
+          "id": "c",
+          "text": "Israël retournera en terre promise"
+        },
+        {
+          "id": "d",
+          "text": "Un nouveau sacrificateur apparaîtra"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Michée 5:2 — « Et toi, Bethléhem Éphrata... de toi sortira pour moi celui qui doit dominer sur Israël. » Accompli lors de la naissance de Jésus (Matthieu 2:1-6).",
+      "bibleReference": "Michée 5:2"
+    }
+  },
+  {
+    "docId": "dq-atg-012_ht",
+    "data": {
+      "id": "dq-atg-012",
+      "questionText": "Ki sa \"Sòm 23\" anseye sou karaktè Bondye?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye jij sevè"
+        },
+        {
+          "id": "b",
+          "text": "Bondye kòm Bèjè ki pran swen ak gide, pourvoi, pwoteje ak konpaye"
+        },
+        {
+          "id": "c",
+          "text": "Bondye ki lwen moun ki soufri"
+        },
+        {
+          "id": "d",
+          "text": "Bondye ki bay richès sèlman a bon moun"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 23 — David: \"Seyè se bèjè mwen... li fè mwen repoze nan patiraj vèt... mwen pa bezwen anyen.\" Portway Bondye kòm Bèjè ki pran swen tout bezwen mouton li yo.",
+      "bibleReference": "Sòm 23:1"
+    }
+  },
+  {
+    "docId": "dq-atg-012_fr",
+    "data": {
+      "id": "dq-atg-012",
+      "questionText": "Qu'enseigne le « Psaume 23 » sur le caractère de Dieu ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu est un juge sévère"
+        },
+        {
+          "id": "b",
+          "text": "Dieu comme le Berger qui prend soin, guide, pourvoit, protège et accompagne"
+        },
+        {
+          "id": "c",
+          "text": "Dieu est éloigné de ceux qui souffrent"
+        },
+        {
+          "id": "d",
+          "text": "Dieu ne donne de la richesse qu'aux gens de bien"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Psaume 23 — David : « L'Éternel est mon berger : je ne manquerai de rien... Il me fait reposer dans de verts pâturages. » Illustration de Dieu comme le Berger qui prend soin de tous les besoins de ses brebis.",
+      "bibleReference": "Psaume 23:1"
+    }
+  },
+  {
+    "docId": "dq-atg-013_ht",
+    "data": {
+      "id": "dq-atg-013",
+      "questionText": "Ki konba espirityèl Elijàh te konbat sou Mòn Karmèl?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kont lame Asiri"
+        },
+        {
+          "id": "b",
+          "text": "450 pwofèt Baal ak 400 pwofèt Ashera — dife Bondye kont silans Baal"
+        },
+        {
+          "id": "c",
+          "text": "Kont Farawon Ejip"
+        },
+        {
+          "id": "d",
+          "text": "Kont wa Achab sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Wa 18:19-40 — Eli kont 850 fo pwofèt. Bondye reponn pa dife soti syèl. Pèp la tonbe sou figi yo: \"Seyè a se Bondye!\"",
+      "bibleReference": "1 Wa 18:38-39"
+    }
+  },
+  {
+    "docId": "dq-atg-013_fr",
+    "data": {
+      "id": "dq-atg-013",
+      "questionText": "Quel combat spirituel Élie a-t-il mené sur le mont Carmel ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Contre l'armée assyrienne"
+        },
+        {
+          "id": "b",
+          "text": "450 prophètes de Baal et 400 prophètes d'Astarté — le feu de Dieu contre le silence de Baal"
+        },
+        {
+          "id": "c",
+          "text": "Contre le Pharaon d'Égypte"
+        },
+        {
+          "id": "d",
+          "text": "Uniquement contre le roi Achab"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Rois 18:19-40 — Élie contre 850 faux prophètes. Dieu répond par le feu descendu du ciel. Le peuple tombe sur sa face : « C'est l'Éternel qui est Dieu ! »",
+      "bibleReference": "1 Rois 18:38-39"
+    }
+  },
+  {
+    "docId": "dq-atg-014_ht",
+    "data": {
+      "id": "dq-atg-014",
+      "questionText": "Ki mesaj Amos pote bay Izrayèl pandan pwosperite?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jijman pral vini akòz enjistis sosyal ak abandonman pòv yo"
+        },
+        {
+          "id": "b",
+          "text": "Izrayèl pral toujou prospere"
+        },
+        {
+          "id": "c",
+          "text": "Tanp la pral détrui"
+        },
+        {
+          "id": "d",
+          "text": "Wa pral tounen jis"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Amos 5:21-24 — Bondye rayi fèt relijye yo paske yo oprime pòv yo. \"Kite jistis koule tankou dlo.\" Amos = pwofèt jistis sosyal.",
+      "bibleReference": "Amos 5:24"
+    }
+  },
+  {
+    "docId": "dq-atg-014_fr",
+    "data": {
+      "id": "dq-atg-014",
+      "questionText": "Quel message Amos a-t-il apporté à Israël pendant sa période de prospérité ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le jugement viendra à cause de l'injustice sociale et de l'abandon des pauvres"
+        },
+        {
+          "id": "b",
+          "text": "Israël prospérera toujours"
+        },
+        {
+          "id": "c",
+          "text": "Le temple sera détruit"
+        },
+        {
+          "id": "d",
+          "text": "Le roi deviendra juste"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Amos 5:21-24 — Dieu déteste les fêtes religieuses alors que les pauvres sont opprimés. « Mais que la droiture soit comme un courant d'eau. » Amos est le prophète de la justice sociale.",
+      "bibleReference": "Amos 5:24"
+    }
+  },
+  {
+    "docId": "dq-atg-015_ht",
+    "data": {
+      "id": "dq-atg-015",
+      "questionText": "Ki sa egzil Babilon vle di pou teoloji Izrayèl?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye te abandone pèp li a pou toujou"
+        },
+        {
+          "id": "b",
+          "text": "Konsekans enfidelite pèp la men Bondye pwomèt restorasyion — pwofèt yo anseye pandan egzil"
+        },
+        {
+          "id": "c",
+          "text": "Pèp la te pini pou erè paran yo sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Siy ke Bondye te pi fèb pase Marduk"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jeremi, Ezekyèl, Daniel ekri pandan/aprè egzil. Egzil = disiplin, pa abandòn. Jeremi 29:11 — \"Mwen konnen plan mwen gen pou ou... espwa ak yon avni.\"",
+      "bibleReference": "Jeremi 29:11"
+    }
+  },
+  {
+    "docId": "dq-atg-015_fr",
+    "data": {
+      "id": "dq-atg-015",
+      "questionText": "Que signifie l'exil à Babylone pour la théologie d'Israël ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu avait abandonné son peuple pour toujours"
+        },
+        {
+          "id": "b",
+          "text": "Une conséquence de l'infidélité du peuple, mais Dieu promet la restauration — les prophètes enseignent pendant l'exil"
+        },
+        {
+          "id": "c",
+          "text": "Le peuple était puni uniquement pour les erreurs des parents"
+        },
+        {
+          "id": "d",
+          "text": "Un signe que Dieu était plus faible que Mardouk"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jérémie, Ézéchiel et Daniel écrivent pendant ou après l'exil. L'exil est une discipline, pas un abandon. Jérémie 29:11 — « Car je connais les projets que j'ai formés sur vous... projets de paix et non de malheur. »",
+      "bibleReference": "Jérémie 29:11"
+    }
+  }
+]

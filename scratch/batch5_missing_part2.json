@@ -1,0 +1,682 @@
+[
+  {
+    "newId": "dq-gen-033",
+    "fr": {
+      "id": "dq-gen-033",
+      "questionText": "Comment le récit de Joseph en Égypte illustre-t-il la providence divine malgré le péché humain ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu punit les frères de Joseph immédiatement"
+        },
+        {
+          "id": "b",
+          "text": "Joseph dit à ses frères : ce que vous avez voulu me faire du mal, Dieu l'a voulu pour le bien"
+        },
+        {
+          "id": "c",
+          "text": "Dieu efface le péché des frères sans conséquences"
+        },
+        {
+          "id": "d",
+          "text": "Joseph refusa de pardonner jusqu'à la mort de son père"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joseph révèle la providence divine : « Vous aviez pensé me faire du mal, mais Dieu a pensé le tourner en bien » (Genèse 50:20) — type du don de Christ pour le salut.",
+      "bibleReference": "Genèse 50:20",
+      "normalizedRef": "gen50.20",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-exo-016",
+    "fr": {
+      "id": "dq-exo-016",
+      "questionText": "Comment Moïse apprit-il qu'il devait délivrer Israël ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Par un rêve au désert"
+        },
+        {
+          "id": "b",
+          "text": "Par un buisson ardent et la voix de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Par le grand prêtre Aaron"
+        },
+        {
+          "id": "d",
+          "text": "Par une vision dans le ciel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu apparut à Moïse dans un buisson ardent et lui révéla sa mission de libérer Israël (Exode 3:2-10).",
+      "bibleReference": "Exode 3:2-10",
+      "normalizedRef": "exo3.2-10",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-017",
+    "fr": {
+      "id": "dq-exo-017",
+      "questionText": "Quelle fut la dernière plaie envoyée sur l'Égypte ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les ténèbres"
+        },
+        {
+          "id": "b",
+          "text": "Les sauterelles"
+        },
+        {
+          "id": "c",
+          "text": "La mort des premiers-nés"
+        },
+        {
+          "id": "d",
+          "text": "La grêle de feu"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La dixième et dernière plaie fut la mort de tous les premiers-nés d'Égypte, ce qui poussa Pharaon à libérer Israël (Exode 12:29-33).",
+      "bibleReference": "Exode 12:29-33",
+      "normalizedRef": "exo12.29-33",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-rey-016",
+    "fr": {
+      "id": "dq-rey-016",
+      "questionText": "Quel roi David tua-t-il après l'avoir envoyé au front pour cacher son adultère avec Bethsabée ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abner"
+        },
+        {
+          "id": "b",
+          "text": "Urie le Hittite"
+        },
+        {
+          "id": "c",
+          "text": "Amnon"
+        },
+        {
+          "id": "d",
+          "text": "Joab"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "David ordonna de placer Urie le Hittite, mari de Bethsabée, en première ligne de combat pour le faire tuer (2 Samuel 11:14-17).",
+      "bibleReference": "2 Samuel 11:14-17",
+      "normalizedRef": "2sa11.14-17",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-017",
+    "fr": {
+      "id": "dq-rey-017",
+      "questionText": "Quel roi d'Israël fit construire des veaux d'or à Béthel et à Dan après la division du royaume ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Achab"
+        },
+        {
+          "id": "b",
+          "text": "Jéhu"
+        },
+        {
+          "id": "c",
+          "text": "Jéroboam"
+        },
+        {
+          "id": "d",
+          "text": "Baésha"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jéroboam Ier fit forger deux veaux d'or pour empêcher le peuple d'aller sacrifier à Jérusalem (1 Rois 12:28-29).",
+      "bibleReference": "1 Rois 12:28-29",
+      "normalizedRef": "1ki12.28-29",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-018",
+    "fr": {
+      "id": "dq-rey-018",
+      "questionText": "Quel roi judéen trouva le Livre de la Loi et fit une grande réforme religieuse ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ézéchias"
+        },
+        {
+          "id": "b",
+          "text": "Josias"
+        },
+        {
+          "id": "c",
+          "text": "Manassé"
+        },
+        {
+          "id": "d",
+          "text": "Asa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le roi Josias fit une réforme profonde après la découverte du Livre de la Loi dans le Temple (2 Rois 22-23).",
+      "bibleReference": "2 Rois 22:8-13",
+      "normalizedRef": "2ki22.8-13",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-019",
+    "fr": {
+      "id": "dq-rey-019",
+      "questionText": "Comment la reine Jézabel mourut-elle ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elle fut brûlée par un feu du ciel"
+        },
+        {
+          "id": "b",
+          "text": "Elle fut jetée d'une fenêtre par ses propres serviteurs"
+        },
+        {
+          "id": "c",
+          "text": "Elle mourut de maladie"
+        },
+        {
+          "id": "d",
+          "text": "Elle fut exécutée par le prophète Élie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jézabel fut jetée d'une fenêtre sur l'ordre de Jéhu. Les chevaux la piétinèrent et les chiens mangèrent son corps, accomplissant la prophétie d'Élie (2 Rois 9:33-36).",
+      "bibleReference": "2 Rois 9:33-36",
+      "normalizedRef": "2ki9.33-36",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-020",
+    "fr": {
+      "id": "dq-rey-020",
+      "questionText": "Quel roi d'Israël est connu pour avoir le plus de femmes et de concubines ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Achab"
+        },
+        {
+          "id": "d",
+          "text": "Roboam"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Salomon eut 700 femmes de haut rang et 300 concubines — qui détournèrent son cœur vers d'autres dieux (1 Rois 11:3).",
+      "bibleReference": "1 Rois 11:3",
+      "normalizedRef": "1ki11.3",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-021",
+    "fr": {
+      "id": "dq-rey-021",
+      "questionText": "Que demanda Salomon à Dieu lorsque Dieu lui dit de choisir ce qu'il voulait ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Richesse et honneur"
+        },
+        {
+          "id": "b",
+          "text": "La longue vie"
+        },
+        {
+          "id": "c",
+          "text": "Un cœur plein de sagesse pour gouverner le peuple"
+        },
+        {
+          "id": "d",
+          "text": "La victoire sur ses ennemis"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salomon demanda un cœur écoutant pour gouverner le peuple et discerner le bien du mal. Dieu lui accorda sagesse, richesse et gloire (1 Rois 3:9-13).",
+      "bibleReference": "1 Rois 3:9-13",
+      "normalizedRef": "1ki3.9-13",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-022",
+    "fr": {
+      "id": "dq-rey-022",
+      "questionText": "Quel roi d'Assyrie détruisit le royaume d'Israël du Nord et déporta ses habitants ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nabuchodonosor"
+        },
+        {
+          "id": "b",
+          "text": "Salmanasar V / Sargon II"
+        },
+        {
+          "id": "c",
+          "text": "Sanchérib"
+        },
+        {
+          "id": "d",
+          "text": "Darius"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Salmanasar V assiégea Samarie ; Sargon II la prit en 722 av. J.-C. et déporta les 10 tribus du Nord (2 Rois 17:5-6).",
+      "bibleReference": "2 Rois 17:5-6",
+      "normalizedRef": "2ki17.5-6",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-023",
+    "fr": {
+      "id": "dq-rey-023",
+      "questionText": "Pourquoi David ne fut-il pas autorisé à construire le Temple lui-même ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il était trop vieux"
+        },
+        {
+          "id": "b",
+          "text": "Il était un homme de guerre qui avait versé le sang"
+        },
+        {
+          "id": "c",
+          "text": "Il n'avait pas les ressources financières"
+        },
+        {
+          "id": "d",
+          "text": "Dieu avait choisi Jérusalem comme lieu seulement après sa mort"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu dit à David : « Tu as versé beaucoup de sang... tu ne bâtiras pas une maison à mon nom. » Ce serait Salomon, son fils, un homme de paix (1 Chroniques 22:8).",
+      "bibleReference": "1 Chroniques 22:8",
+      "normalizedRef": "1ch22.8",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-024",
+    "fr": {
+      "id": "dq-rey-024",
+      "questionText": "Comment Ézéchias résista-t-il à l'invasion assyrienne de Sanchérib sans combattre ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il paya un tribut immense"
+        },
+        {
+          "id": "b",
+          "text": "Il pria et l'ange du Seigneur tua 185 000 soldats assyriens"
+        },
+        {
+          "id": "c",
+          "text": "Il forma une alliance avec l'Égypte"
+        },
+        {
+          "id": "d",
+          "text": "Il cacha le peuple dans des grottes souterraines"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ézéchias pria et Ésaïe prophétisa. L'ange du Seigneur frappa 185 000 Assyriens dans la nuit — Sanchérib rentra et fut assassiné (2 Rois 19:35-37).",
+      "bibleReference": "2 Rois 19:35-37",
+      "normalizedRef": "2ki19.35-37",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-025",
+    "fr": {
+      "id": "dq-rey-025",
+      "questionText": "Quelle était la faute principale de Roboam qui provoqua la division du royaume ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il introduisit l'idolâtrie dans le Temple"
+        },
+        {
+          "id": "b",
+          "text": "Il refusa d'alléger le joug imposé par Salomon, suivant les conseils des jeunes"
+        },
+        {
+          "id": "c",
+          "text": "Il exila les anciens conseillers du royaume"
+        },
+        {
+          "id": "d",
+          "text": "Il taxa les tribus du nord deux fois plus"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Roboam rejeta les conseils des anciens et suivit les jeunes — il promit d'alourdir le joug. Les 10 tribus se révoltèrent sous Jéroboam (1 Rois 12:13-14).",
+      "bibleReference": "1 Rois 12:13-14",
+      "normalizedRef": "1ki12.13-14",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-026",
+    "fr": {
+      "id": "dq-rey-026",
+      "questionText": "Quel est le bilan final du roi Manassé selon 2 Rois 21 et sa postérité dans 2 Chroniques 33 ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il fut le roi le plus juste après David"
+        },
+        {
+          "id": "b",
+          "text": "Il fut le roi le plus mauvais, mais il se repentit en captivité et Dieu le restaura"
+        },
+        {
+          "id": "c",
+          "text": "Il mourut dans l'iniquité sans jamais se repentir"
+        },
+        {
+          "id": "d",
+          "text": "Il fut épargné grâce aux prières d'Ésaïe"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Manassé fut le pire roi — il pratiqua toutes les abominations. Mais en captivité à Babylone il se humilia. Dieu le restaura à Jérusalem (2 Chroniques 33:12-13).",
+      "bibleReference": "2 Chroniques 33:12-13",
+      "normalizedRef": "2ch33.12-13",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-027",
+    "fr": {
+      "id": "dq-rey-027",
+      "questionText": "Quel roi d'Israël fut le seul des rois du Nord à maintenir quelques éléments de fidélité à Dieu selon 2 Rois 10 ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jéroboam II"
+        },
+        {
+          "id": "b",
+          "text": "Jéhu"
+        },
+        {
+          "id": "c",
+          "text": "Omri"
+        },
+        {
+          "id": "d",
+          "text": "Péqah"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jéhu exécuta la maison d'Achab et extermina Baal d'Israël. Mais il ne s'éloigna pas des péchés de Jéroboam (2 Rois 10:28-31).",
+      "bibleReference": "2 Rois 10:28-31",
+      "normalizedRef": "2ki10.28-31",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-sal-023",
+    "fr": {
+      "id": "dq-sal-023",
+      "questionText": "Qui est traditionnellement considéré comme l'auteur principal des Psaumes ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Asaph"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David est l'auteur de la majorité des psaumes. Le Psautier comprend aussi des psaumes de Moïse, Salomon, Asaph et des fils de Koré.",
+      "bibleReference": "Psaume 3:1",
+      "normalizedRef": "psaume3.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "newId": "dq-sal-024",
+    "fr": {
+      "id": "dq-sal-024",
+      "questionText": "Quel psaume commence par « L'Éternel est mon berger » ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 1"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 23"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 91"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Psaume 23 de David est l'un des plus aimés : « L'Éternel est mon berger : je ne manquerai de rien. »",
+      "bibleReference": "Psaume 23:1",
+      "normalizedRef": "psaume23.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "newId": "dq-sal-025",
+    "fr": {
+      "id": "dq-sal-025",
+      "questionText": "Quel psaume débute par « Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné ? » ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 18"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 31"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 51"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 22 est un psaume messianique — Jésus cita ses premiers mots sur la croix (Matthieu 27:46; Psaume 22:1).",
+      "bibleReference": "Psaume 22:1",
+      "normalizedRef": "psaume22.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "newId": "dq-sal-026",
+    "fr": {
+      "id": "dq-sal-026",
+      "questionText": "Quel est le psaume le plus long de la Bible ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 18"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 119"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Psaume 119 est le plus long avec 176 versets — chaque section de 8 versets commence par une lettre de l'alphabet hébreu.",
+      "bibleReference": "Psaume 119:1",
+      "normalizedRef": "psaume119.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "newId": "dq-sal-027",
+    "fr": {
+      "id": "dq-sal-027",
+      "questionText": "Par quelle parole commence le Psaume 1 décrivant l'homme bienheureux ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Heureux celui qui aime la Loi de l'Éternel"
+        },
+        {
+          "id": "b",
+          "text": "Heureux l'homme qui ne marche pas selon le conseil des méchants"
+        },
+        {
+          "id": "c",
+          "text": "Heureux ceux qui espèrent en l'Éternel"
+        },
+        {
+          "id": "d",
+          "text": "Heureux le peuple dont Dieu est le Seigneur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 1 s'ouvre : « Heureux l'homme qui ne marche pas selon le conseil des méchants... mais dont le plaisir est dans la loi de l'Éternel » (Psaume 1:1-2).",
+      "bibleReference": "Psaume 1:1-2",
+      "normalizedRef": "psaume1.1-2",
+      "normalizedCat": "salmos"
+    }
+  }
+]

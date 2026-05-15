@@ -1,0 +1,1365 @@
+[
+  {
+    "newId": "dq-lug-027",
+    "fr": {
+      "id": "dq-lug-027",
+      "questionText": "Quelle ville était considérée comme la capitale spirituelle d'Israël ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Samarie"
+        },
+        {
+          "id": "b",
+          "text": "Bethléem"
+        },
+        {
+          "id": "c",
+          "text": "Jérusalem"
+        },
+        {
+          "id": "d",
+          "text": "Nazareth"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jérusalem — la « Ville de la Paix » — est la capitale politique et spirituelle d'Israël : le Temple de Salomon, lieu où Jésus est mort et ressuscité, et où l'Église a commencé.",
+      "bibleReference": "Psaume 48:1-2",
+      "normalizedRef": "psa48.1-2",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-028",
+    "fr": {
+      "id": "dq-lug-028",
+      "questionText": "Quel pays Abraham a-t-il quitté lorsque Dieu l'a appelé ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Égypte"
+        },
+        {
+          "id": "b",
+          "text": "Ur en Chaldée"
+        },
+        {
+          "id": "c",
+          "text": "Canaan"
+        },
+        {
+          "id": "d",
+          "text": "Babylone"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 11:31 — Abraham a quitté Ur en Chaldée (l'Irak actuel) avec son père Terah. Dieu l'a appelé vers Canaan (Genèse 12:1).",
+      "bibleReference": "Genèse 12:1",
+      "normalizedRef": "gen12.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-029",
+    "fr": {
+      "id": "dq-lug-029",
+      "questionText": "Dans quel fleuve Jésus a-t-il été baptisé ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Nil"
+        },
+        {
+          "id": "b",
+          "text": "L'Euphrate"
+        },
+        {
+          "id": "c",
+          "text": "Le Jourdain"
+        },
+        {
+          "id": "d",
+          "text": "Le Tigre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matthieu 3:13 — Jésus a été baptisé dans le Jourdain par Jean-Baptiste. L'Esprit Saint est descendu comme une colombe et la voix de Dieu a parlé.",
+      "bibleReference": "Matthieu 3:13-17",
+      "normalizedRef": "mat3.13-17",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-030",
+    "fr": {
+      "id": "dq-lug-030",
+      "questionText": "Où Jésus est-il né selon les Évangiles ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nazareth"
+        },
+        {
+          "id": "b",
+          "text": "Bethléem"
+        },
+        {
+          "id": "c",
+          "text": "Capernaüm"
+        },
+        {
+          "id": "d",
+          "text": "Jérusalem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 2:1 — Jésus est né à Bethléem en Judée, comme la prophétie de Michée 5:2 l'avait prédit. Il a grandi à Nazareth (Luc 2:39).",
+      "bibleReference": "Matthieu 2:1; Michée 5:2",
+      "normalizedRef": "mat2.1;mic5.2",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-031",
+    "fr": {
+      "id": "dq-lug-031",
+      "questionText": "Sur quelle montagne Jésus a-t-il prononcé son Discours sur la montagne ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "b",
+          "text": "Mont Sion"
+        },
+        {
+          "id": "c",
+          "text": "Une montagne en Galilée (Mont des Béatitudes)"
+        },
+        {
+          "id": "d",
+          "text": "Mont des Oliviers"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matthieu 5:1 — Jésus est monté sur une montagne en Galilée et a prêché le Discours sur la Montagne (Matthieu 5-7). La tradition identifie ce lieu comme étant proche des Cornes de Hattin.",
+      "bibleReference": "Matthieu 5:1",
+      "normalizedRef": "mat5.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-032",
+    "fr": {
+      "id": "dq-lug-032",
+      "questionText": "Quelle est la signification de la ville de Babylone dans la Bible ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Symbole de la puissance de Dieu sur terre"
+        },
+        {
+          "id": "b",
+          "text": "Symbole de l'orgueil humain, de la rébellion contre Dieu et de la persécution"
+        },
+        {
+          "id": "c",
+          "text": "Ville représentant les promesses d'Abraham"
+        },
+        {
+          "id": "d",
+          "text": "Lieu où la première église a été fondée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Babel (Genèse 11 — Tour de Babel, orgueil humain) et Babylone dans l'Apocalypse 17-18 (le système mondial contre Dieu) sont des symboles permanents de rébellion contre la souveraineté de Dieu.",
+      "bibleReference": "Apocalypse 17:5",
+      "normalizedRef": "rev17.5",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-033",
+    "fr": {
+      "id": "dq-lug-033",
+      "questionText": "Où Paul a-t-il reçu la vision d'aller en Macédoine ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Corinthe"
+        },
+        {
+          "id": "b",
+          "text": "Troas"
+        },
+        {
+          "id": "c",
+          "text": "Éphèse"
+        },
+        {
+          "id": "d",
+          "text": "Antioche"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 16:8-10 — À Troas (en Turquie actuelle), Paul a vu la vision de l'homme macédonien. L'équipe a conclu que Dieu les appelait en Europe.",
+      "bibleReference": "Actes 16:8-10",
+      "normalizedRef": "act16.8-10",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-034",
+    "fr": {
+      "id": "dq-lug-034",
+      "fr": {
+        "id": "dq-lug-034",
+        "questionText": "Quelle est la signification du jardin de Gethsémané dans la passion du Christ ?",
+        "categoryId": "lugares",
+        "categoryName": "Lieux Bibliques",
+        "difficulty": "medium",
+        "language": "fr",
+        "options": [
+          {
+            "id": "a",
+            "text": "Lieu où Jésus a pris la dernière Cène"
+          },
+          {
+            "id": "b",
+            "text": "Lieu où Jésus a prié avec agonie et où il a été arrêté"
+          },
+          {
+            "id": "c",
+            "text": "Lieu où les disciples ont dormi la dernière nuit avant la crucifixion"
+          },
+          {
+            "id": "d",
+            "text": "Lieu où Jésus a reçu le Saint-Esprit"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "Matthieu 26:36-56 — Gethsémané = « pressoir à huile ». Jésus y a prié avec une grande angoisse : « Que ma volonté ne se fasse pas, mais la tienne. » Lieu de sa soumission et de son arrestation.",
+        "bibleReference": "Matthieu 26:36-46",
+        "normalizedRef": "mat26.36-46",
+        "normalizedCat": "lugares"
+      }
+    }
+  },
+  {
+    "newId": "dq-lug-035",
+    "fr": {
+      "id": "dq-lug-035",
+      "questionText": "Que représente le mont Sinaï dans l'histoire du salut ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le lieu où Israël a vaincu ses ennemis"
+        },
+        {
+          "id": "b",
+          "text": "Le lieu où Dieu s'est révélé et a donné les Dix Commandements"
+        },
+        {
+          "id": "c",
+          "text": "Le lieu où le premier temple d'Israël a été bâti"
+        },
+        {
+          "id": "d",
+          "text": "Le lieu où Abraham a offert Isaac"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 19-20 — Le mont Sinaï est l'endroit où Dieu est descendu dans le feu. Les Dix Commandements y ont été donnés, établissant l'alliance entre Dieu et Israël. Hébreux 12:18-24 le compare au mont Sion.",
+      "bibleReference": "Exode 19:20",
+      "normalizedRef": "exo19.20",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-036",
+    "fr": {
+      "id": "dq-lug-036",
+      "questionText": "Quelle ville a été le centre de la mission de Paul parmi les églises d'Asie ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antioche de Syrie"
+        },
+        {
+          "id": "b",
+          "text": "Éphèse"
+        },
+        {
+          "id": "c",
+          "text": "Colosses"
+        },
+        {
+          "id": "d",
+          "text": "Philippes"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 19 — Paul a passé trois ans à Éphèse lors de son troisième voyage missionnaire. « Tous ceux qui habitaient l'Asie entendirent la parole du Seigneur » (Actes 19:10). Éphèse est devenue le centre de rayonnement de l'Évangile.",
+      "bibleReference": "Actes 19:10",
+      "normalizedRef": "act19.10",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-037",
+    "fr": {
+      "id": "dq-lug-037",
+      "questionText": "Où Jésus a-t-il accompli son premier miracle — changer l'eau en vin ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Capernaüm"
+        },
+        {
+          "id": "b",
+          "text": "Nazareth"
+        },
+        {
+          "id": "c",
+          "text": "Cana en Galilée"
+        },
+        {
+          "id": "d",
+          "text": "Bethléem"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jean 2:1-11 — Mariage à Cana en Galilée où Jésus a changé l'eau en vin. C'est le premier « signe » qui a révélé sa gloire.",
+      "bibleReference": "Jean 2:11",
+      "normalizedRef": "joh2.11",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-038",
+    "fr": {
+      "id": "dq-lug-038",
+      "questionText": "Quelle est la signification du lieu du Calvaire (Golgotha) ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le plus bel endroit de Jérusalem"
+        },
+        {
+          "id": "b",
+          "text": "« Lieu du crâne » — lieu de la crucifixion de Jésus, hors des portes de Jérusalem"
+        },
+        {
+          "id": "c",
+          "text": "Lieu où se trouvait le temple de Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Montagne où Abraham a offert Isaac"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Golgotha (hébreu) = « lieu du crâne » — endroit où les criminels étaient crucifiés hors des murs de Jérusalem. Matthieu 27:33, Jean 19:17. Lieu du sacrifice final du Christ (Hébreux 13:12).",
+      "bibleReference": "Matthieu 27:33",
+      "normalizedRef": "mat27.33",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-039",
+    "fr": {
+      "id": "dq-lug-039",
+      "questionText": "Qui étaient les Samaritains et pourquoi y avait-il un conflit avec les Juifs ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les Samaritains étaient des Romains"
+        },
+        {
+          "id": "b",
+          "text": "Un peuple mixte issu de l'exil assyrien — les Juifs les considéraient comme impurs"
+        },
+        {
+          "id": "c",
+          "text": "Les Samaritains étaient chrétiens avant les Juifs"
+        },
+        {
+          "id": "d",
+          "text": "Il n'y avait pas de conflit réel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Après l'exil assyrien (722 av. J.-C.), des populations étrangères se sont mélangées à Israël. Les Juifs considéraient les Samaritains comme impurs (Jean 4:9). La parabole du Bon Samaritain renverse ce préjugé.",
+      "bibleReference": "Jean 4:9",
+      "normalizedRef": "joh4.9",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-040",
+    "fr": {
+      "id": "dq-lug-040",
+      "questionText": "Quelle est la signification de Patmos où Jean a écrit l'Apocalypse ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une ville riche où Jean vivait en retraite"
+        },
+        {
+          "id": "b",
+          "text": "Une petite île de la mer Égée où Jean était exilé pour sa foi"
+        },
+        {
+          "id": "c",
+          "text": "Lieu où Jean a fondé sa première église"
+        },
+        {
+          "id": "d",
+          "text": "Ville natale de Jean près de Jérusalem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apocalypse 1:9 — Jean était sur l'île de Patmos « à cause de la parole de Dieu et du témoignage de Jésus ». C'est là que Dieu lui a donné les visions de l'Apocalypse.",
+      "bibleReference": "Apocalypse 1:9",
+      "normalizedRef": "rev1.9",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-vida-007",
+    "fr": {
+      "id": "dq-vida-007",
+      "questionText": "Que signifie « porter sa croix » selon Jésus ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Porter une croix en métal"
+        },
+        {
+          "id": "b",
+          "text": "Suivre Jésus avec sacrifice et renoncement à soi-même"
+        },
+        {
+          "id": "c",
+          "text": "Aller à l'église chaque dimanche"
+        },
+        {
+          "id": "d",
+          "text": "Faire beaucoup de bonnes œuvres"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Luc 9:23 — « Si quelqu'un veut venir après moi, qu'il renonce à lui-même, qu'il se charge chaque jour de sa croix, et qu'il me suive. »",
+      "bibleReference": "Luc 9:23",
+      "normalizedRef": "lk9.23",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-008",
+    "fr": {
+      "id": "dq-vida-008",
+      "questionText": "Quel est le premier et le plus grand commandement selon Jésus ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tu ne tueras point"
+        },
+        {
+          "id": "b",
+          "text": "Aimer Dieu de tout son cœur, de toute son âme et de toute sa pensée"
+        },
+        {
+          "id": "c",
+          "text": "Respecter le jour du repos"
+        },
+        {
+          "id": "d",
+          "text": "Tu ne préciseras point"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 22:37-38 — Jésus répondit : « Tu aimeras le Seigneur, ton Dieu, de tout ton cœur, de toute ton âme, et de toute ta pensée. C'est le premier et le plus grand commandement. »",
+      "bibleReference": "Matthieu 22:37-38",
+      "normalizedRef": "mat22.37-38",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-009",
+    "fr": {
+      "id": "dq-vida-009",
+      "questionText": "Quels sont les « fruits de l'Esprit » cités par Paul dans Galates 5 ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Miracles, guérisons et prophéties"
+        },
+        {
+          "id": "b",
+          "text": "Amour, joie, paix, patience, bonté, bienveillance, foi, douceur, maîtrise de soi"
+        },
+        {
+          "id": "c",
+          "text": "Prière, jeûne et adoration"
+        },
+        {
+          "id": "d",
+          "text": "Richesse, santé et succès"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Galates 5:22-23 — Le fruit de l'Esprit est l'amour, la joie, la paix, la patience, la bonté, la bienveillance, la foi, la douceur, la maîtrise de soi. Résultat naturel d'une vie guidée par l'Esprit.",
+      "bibleReference": "Galates 5:22-23",
+      "normalizedRef": "gal5.22-23",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-010",
+    "fr": {
+      "id": "dq-vida-010",
+      "questionText": "Que signifie le mot « sanctification » dans la vie chrétienne ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un événement unique de conversion"
+        },
+        {
+          "id": "b",
+          "text": "Le processus progressif de ressembler davantage à Christ après le salut"
+        },
+        {
+          "id": "c",
+          "text": "Le baptême d'eau"
+        },
+        {
+          "id": "d",
+          "text": "Faire de bonnes œuvres pour Dieu"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Thess. 4:3 — « Ce que Dieu veut, c'est votre sanctification. » Processus continu où le Saint-Esprit transforme le croyant pour ressembler à Christ (Romains 8:29).",
+      "bibleReference": "1 Thessaloniciens 4:3",
+      "normalizedRef": "1th4.3",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-011",
+    "fr": {
+      "id": "dq-vida-011",
+      "questionText": "Que signifie la « repentance » dans un sens biblique ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ressentir seulement du regret"
+        },
+        {
+          "id": "b",
+          "text": "Changement de pensée (metanoia) — se détourner du péché et se tourner vers Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Faire une pénitence physique"
+        },
+        {
+          "id": "d",
+          "text": "Confesser son péché publiquement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Metanoia (grec) = changement d'esprit et de direction. Actes 3:19 — « Repentez-vous donc et convertissez-vous, pour que vos péchés soient effacés. » Plus que du regret, c'est un changement complet de direction.",
+      "bibleReference": "Actes 3:19",
+      "normalizedRef": "act3.19",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-012",
+    "fr": {
+      "id": "dq-vida-012",
+      "questionText": "Qu'enseigne la Bible sur le service (ministère) chrétien ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "C'est seulement pour les pasteurs et les chefs d'église"
+        },
+        {
+          "id": "b",
+          "text": "Tous les croyants ont des dons pour servir le corps de Christ"
+        },
+        {
+          "id": "c",
+          "text": "Le service est fait pour obtenir des récompenses matérielles"
+        },
+        {
+          "id": "d",
+          "text": "Seulement dans les activités officielles de l'église"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Pierre 4:10 — « Comme de bons dispensateurs des diverses grâces de Dieu, que chacun de vous mette au service des autres le don qu'il a reçu. » Tous les croyants sont des serviteurs.",
+      "bibleReference": "1 Pierre 4:10",
+      "normalizedRef": "1pe4.10",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-013",
+    "fr": {
+      "id": "dq-vida-013",
+      "questionText": "Que signifie « la foi sans les œuvres » selon Jacques ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une foi incomplète mais toujours valide"
+        },
+        {
+          "id": "b",
+          "text": "Une foi morte — pas réelle — car les œuvres montrent que la foi est vivante"
+        },
+        {
+          "id": "c",
+          "text": "Jacques est en désaccord avec Paul sur le salut"
+        },
+        {
+          "id": "d",
+          "text": "Le salut vient par les œuvres et non par la foi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacques 2:17 — « Il en est ainsi de la foi : si elle n'a pas les œuvres, elle est morte en elle-même. » Jacques ne contredit pas Paul ; il parle de la preuve de la foi. La foi vivante produit naturellement des œuvres.",
+      "bibleReference": "Jacques 2:17-18",
+      "normalizedRef": "jam2.17-18",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-014",
+    "fr": {
+      "id": "dq-vida-014",
+      "questionText": "Que dit la Bible sur l'amour (agapé) chrétien ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un sentiment émotionnel qui va et vient"
+        },
+        {
+          "id": "b",
+          "text": "Un amour de choix, sacrificiel et inconditionnel — comme Dieu nous aime"
+        },
+        {
+          "id": "c",
+          "text": "Seulement pour la famille et les amis"
+        },
+        {
+          "id": "d",
+          "text": "Plus important que la foi et l'espérance mais impossible à atteindre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 13:4-7 — L'amour Agapé est patient, plein de bonté, il n'est point envieux, ne se vante point. Il excuse tout, croit tout, espère tout. Jean 3:16 en est le modèle.",
+      "bibleReference": "1 Corinthiens 13:4-7",
+      "normalizedRef": "1korentyen13.4-7",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-015",
+    "fr": {
+      "id": "dq-vida-015",
+      "questionText": "Que représente le « baptême du Saint-Esprit » dans la vie chrétienne ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La même chose que le baptême d'eau"
+        },
+        {
+          "id": "b",
+          "text": "L'expérience où le Saint-Esprit vient habiter et sceller le croyant en Christ"
+        },
+        {
+          "id": "c",
+          "text": "Seulement une expérience pour les apôtres"
+        },
+        {
+          "id": "d",
+          "text": "Une deuxième bénédiction après la conversion"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 3:11 — Jean a dit que Christ « vous baptisera du Saint-Esprit et de feu ». Le baptême de l'Esprit est l'acte par lequel l'Esprit Saint vient habiter dans le croyant (1 Corinthiens 12:13).",
+      "bibleReference": "Matthieu 3:11",
+      "normalizedRef": "mat3.11",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-igl-008",
+    "fr": {
+      "id": "dq-igl-008",
+      "questionText": "Que sont les « dons spirituels » (charismes) selon Paul ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le talent naturel de chaque personne"
+        },
+        {
+          "id": "b",
+          "text": "Des dons donnés par le Saint-Esprit pour édifier l'église et servir le corps de Christ"
+        },
+        {
+          "id": "c",
+          "text": "Des récompenses pour un service fidèle"
+        },
+        {
+          "id": "d",
+          "text": "Des pouvoirs spéciaux réservés aux premiers chrétiens seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 12 — Le Saint-Esprit distribue les dons comme il veut pour l'utilité commune. Autres listes : Romains 12:6-8 ; Éphésiens 4:11. Tout croyant a au moins un don.",
+      "bibleReference": "1 Corinthiens 12:7",
+      "normalizedRef": "1korentyen12.7",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-009",
+    "fr": {
+      "id": "dq-igl-009",
+      "questionText": "Quel rôle les anciens (presbytres) ont-ils dans l'église du NT ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seulement l'administration des finances de l'église"
+        },
+        {
+          "id": "b",
+          "text": "Direction spirituelle, enseignement, soin de la congrégation et prière pour les malades"
+        },
+        {
+          "id": "c",
+          "text": "Seulement accomplir les baptêmes"
+        },
+        {
+          "id": "d",
+          "text": "Juger les différentes communautés d'églises"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timothée 3:1-7 ; Jacques 5:14 — Les anciens (pasteurs/évêques) dirigent, enseignent, prennent soin et prient pour les malades. Tite 1:5-9 donne les critères requis pour être ancien.",
+      "bibleReference": "1 Timothée 3:1-7",
+      "normalizedRef": "1ti3.1-7",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-010",
+    "fr": {
+      "id": "dq-igl-010",
+      "questionText": "Que signifie la discipline de l'église bibliquement ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Punir publiquement ceux qui pèchent"
+        },
+        {
+          "id": "b",
+          "text": "Un processus de restauration et de correction pour ceux qui pèchent — l'objectif est la restauration"
+        },
+        {
+          "id": "c",
+          "text": "Expulser tous ceux qui commettent un péché"
+        },
+        {
+          "id": "d",
+          "text": "La critique publique des pasteurs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 18:15-17 — Trois étapes : en privé, avec des témoins, devant l'église. L'objectif est de « gagner ton frère » (v.15). Galates 6:1 parle de restauration avec un esprit de douceur.",
+      "bibleReference": "Matthieu 18:15-17",
+      "normalizedRef": "mat18.15-17",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-011",
+    "fr": {
+      "id": "dq-igl-011",
+      "questionText": "Que dit la « Grande Commission » sur la mission de l'église ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rester à Jérusalem et attendre le retour de Jésus"
+        },
+        {
+          "id": "b",
+          "text": "Faire de toutes les nations des disciples, les baptiser et les enseigner"
+        },
+        {
+          "id": "c",
+          "text": "Bâtir de nombreux bâtiments d'églises dans le monde"
+        },
+        {
+          "id": "d",
+          "text": "Demander à toutes les nations de venir à Jérusalem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 28:18-20 — La Grande Mission : le pouvoir de Jésus, le commandement de faire des disciples et la promesse de sa présence. L'Église existe pour la mission.",
+      "bibleReference": "Matthieu 28:18-20",
+      "normalizedRef": "mat28.18-20",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-012",
+    "fr": {
+      "id": "dq-igl-012",
+      "questionText": "Quelle est l'une des tâches principales des diacres dans l'église du NT ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enseigner et diriger l'église"
+        },
+        {
+          "id": "b",
+          "text": "Service pratique : servir aux tables, prendre soin des besoins physiques"
+        },
+        {
+          "id": "c",
+          "text": "Gérer toutes les finances de l'église"
+        },
+        {
+          "id": "d",
+          "text": "Ordonner les pasteurs et les anciens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 6:1-6 — Les apôtres ont choisi sept hommes pour servir aux tables (besoins des veuves) afin que les apôtres puissent se consacrer à la prière et à l'enseignement. Modèle de diaconie.",
+      "bibleReference": "Actes 6:1-6",
+      "normalizedRef": "act6.1-6",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-013",
+    "fr": {
+      "id": "dq-igl-013",
+      "questionText": "Qu'enseigne la Bible sur l'unité de l'église ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'unité signifie que tous les chrétiens sont dans une seule organisation"
+        },
+        {
+          "id": "b",
+          "text": "Un seul corps, un seul Esprit, une seule espérance, un seul Seigneur, une seule foi, un seul baptême"
+        },
+        {
+          "id": "c",
+          "text": "L'unité signifie qu'il ne peut y avoir de dénominations"
+        },
+        {
+          "id": "d",
+          "text": "L'unité n'est possible que si tous sont d'accord sur chaque doctrine"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Éphésiens 4:4-6 — Paul cite les 7 « un » : un corps, un Esprit, une espérance, un Seigneur, une foi, un baptême, un Dieu. Unité spirituelle profonde malgré la diversité.",
+      "bibleReference": "Éphésiens 4:4-6",
+      "normalizedRef": "eph4.4-6",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-014",
+    "fr": {
+      "id": "dq-igl-014",
+      "questionText": "Comment l'église primitive a-t-elle géré les différends sur la circoncision ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ils se sont immédiatement séparés en groupes différents"
+        },
+        {
+          "id": "b",
+          "text": "Le Concile de Jérusalem (Actes 15) a réuni les apôtres et les anciens pour décider ensemble"
+        },
+        {
+          "id": "c",
+          "text": "Pierre a décidé seul pour tout le monde"
+        },
+        {
+          "id": "d",
+          "text": "Chaque église a décidé seule sans consulter les autres"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 15 — Concile de Jérusalem : premier concile des églises. Les apôtres et anciens ont discuté et pris une décision collective sur la circoncision des Gentils. Modèle de gouvernement collégial.",
+      "bibleReference": "Actes 15:6-29",
+      "normalizedRef": "act15.6-29",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-015",
+    "fr": {
+      "id": "dq-igl-015",
+      "questionText": "Que dit la Bible sur l'église comme « maison de Dieu » ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un temple physique où Dieu habite"
+        },
+        {
+          "id": "b",
+          "text": "Le peuple de Dieu — les croyants habités par le Saint-Esprit comme temple vivant"
+        },
+        {
+          "id": "c",
+          "text": "Seulement les bâtiments d'églises consacrés"
+        },
+        {
+          "id": "d",
+          "text": "L'ancienne Jérusalem seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 3:16 — « Ne savez-vous pas que vous êtes le temple de Dieu, et que l'Esprit de Dieu habite en vous ? » Les croyants sont ensemble l'habitation de Dieu.",
+      "bibleReference": "1 Corinthiens 3:16",
+      "normalizedRef": "1korentyen3.16",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-ley-002",
+    "fr": {
+      "id": "dq-ley-002",
+      "questionText": "Quelles sont les trois divisions traditionnelles de la Loi Mosaïque ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Loi, les Prophètes et les Psaumes"
+        },
+        {
+          "id": "b",
+          "text": "Les lois morales, cérémonielles et civiles"
+        },
+        {
+          "id": "c",
+          "text": "Les Dix Commandements, les Sacrifices et les Droits Sociaux"
+        },
+        {
+          "id": "d",
+          "text": "La Loi d'Abraham, de David et de Moïse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La théologie classique divise la loi mosaïque en : morale (Dix Commandements — toujours valide), cérémonielle (sacrifices, fêtes — accomplis en Christ), civile (gouvernement d'Israël — ne s'applique pas à l'église).",
+      "bibleReference": "Exode 20:1-17",
+      "normalizedRef": "exo20.1-17",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-003",
+    "fr": {
+      "id": "dq-ley-003",
+      "questionText": "Que dit Jésus sur la Loi dans le Sermon sur la montagne ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il est venu pour abolir toute la Loi de l'AT"
+        },
+        {
+          "id": "b",
+          "text": "Il n'est pas venu pour abolir la Loi mais pour l'accomplir"
+        },
+        {
+          "id": "c",
+          "text": "La Loi de l'AT n'est pas applicable aux chrétiens"
+        },
+        {
+          "id": "d",
+          "text": "Il a ajouté de nouvelles lois plus sévères"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 5:17-18 — « Ne croyez pas que je sois venu pour abolir la loi ou les prophètes ; je suis venu non pour abolir, mais pour accomplir. » Christ accomplit la loi cérémonielle et prophétique ; la loi morale reste.",
+      "bibleReference": "Matthieu 5:17-18",
+      "normalizedRef": "mat5.17-18",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-004",
+    "fr": {
+      "id": "dq-ley-004",
+      "questionText": "Que signifie la « Loi de Christ » dans Galates 6:2 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Revenir à l'observation de la Loi Mosaïque"
+        },
+        {
+          "id": "b",
+          "text": "Porter les fardeaux les uns des autres — principe d'amour et de service"
+        },
+        {
+          "id": "c",
+          "text": "Un nouveau code écrit par Paul"
+        },
+        {
+          "id": "d",
+          "text": "Seulement pour les Gentils"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Galates 6:2 — « Portez les fardeaux les uns des autres, et vous accomplirez ainsi la loi de Christ. » La Loi de Christ est le principe d'amour (Jean 13:34) qui accomplit tous les commandements.",
+      "bibleReference": "Galates 6:2",
+      "normalizedRef": "gal6.2",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-005",
+    "fr": {
+      "id": "dq-ley-005",
+      "questionText": "Qu'enseigne Paul sur la relation entre le chrétien et la Loi ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les chrétiens ne sont plus obligés d'observer aucune loi"
+        },
+        {
+          "id": "b",
+          "text": "Les chrétiens sont libres de la Loi comme moyen de salut — mais l'Esprit leur fait accomplir la justice de la Loi"
+        },
+        {
+          "id": "c",
+          "text": "La Loi de Moïse est toujours complètement obligatoire"
+        },
+        {
+          "id": "d",
+          "text": "La Loi est seulement un problème pour les Juifs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Romains 8:3-4 — Dieu a condamné le péché dans la chair afin que « la justice de la loi fût accomplie en nous, qui marchons selon l'Esprit ». Le Saint-Esprit écrit désormais la loi dans nos cœurs.",
+      "bibleReference": "Romains 8:3-4",
+      "normalizedRef": "rom8.3-4",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-cpab-031",
+    "fr": {
+      "id": "dq-cpab-031",
+      "questionText": "Quel est le message central de la lettre aux Romains ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Comment organiser l'église"
+        },
+        {
+          "id": "b",
+          "text": "L'Évangile comme puissance de Dieu pour le salut — la justification par la foi"
+        },
+        {
+          "id": "c",
+          "text": "Les dons spirituels"
+        },
+        {
+          "id": "d",
+          "text": "Règles pour le mariage chrétien"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Romains 1:16-17 — « Car je n'ai point honte de l'Évangile : c'est une puissance de Dieu pour le salut de quiconque croit... parce qu'en lui est révélée la justice de Dieu par la foi. »",
+      "bibleReference": "Romains 1:16-17",
+      "normalizedRef": "rom1.16-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-032",
+    "fr": {
+      "id": "dq-cpab-032",
+      "questionText": "Quel était le problème principal dans l'église de Corinthe ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La persécution du gouvernement"
+        },
+        {
+          "id": "b",
+          "text": "Divisions, immoralité, problèmes sur la Cène, débats sur la résurrection et les dons"
+        },
+        {
+          "id": "c",
+          "text": "Erreurs sur la Trinité"
+        },
+        {
+          "id": "d",
+          "text": "Refus de payer les taxes du Temple"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens — L'église de Corinthe avait des divisions (1:10-12), de l'immoralité sexuelle (ch.5), des litiges (ch.6), de l'idolatrie (ch.8-10) et du désordre dans l'adoration (ch.11-14).",
+      "bibleReference": "1 Corinthiens 1:10-13",
+      "normalizedRef": "1korentyen1.10-13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-033",
+    "fr": {
+      "id": "dq-cpab-033",
+      "questionText": "Que signifie la « Justification » dans la lettre aux Romains ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prouver que vous méritez la grâce de Dieu"
+        },
+        {
+          "id": "b",
+          "text": "Dieu déclare le pécheur « juste » par la justice de Christ — pas par ses propres mérites"
+        },
+        {
+          "id": "c",
+          "text": "Le processus de commettre moins de péchés chaque jour"
+        },
+        {
+          "id": "d",
+          "text": "Le baptême public comme déclaration"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Romains 4:5 — « Et à celui qui ne fait point d'œuvre, mais qui croit en celui qui justifie l'impie, sa foi lui est imputée à justice. » La justification est une déclaration juridique.",
+      "bibleReference": "Romains 4:5",
+      "normalizedRef": "rom4.5",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-034",
+    "fr": {
+      "id": "dq-cpab-034",
+      "questionText": "Que dit Paul sur l'amour dans 1 Corinthiens 13 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'amour est un sentiment passager"
+        },
+        {
+          "id": "b",
+          "text": "L'amour est plus grand que tous les dons — patience, bonté, pas d'envie, supporte tout"
+        },
+        {
+          "id": "c",
+          "text": "L'amour romantique est le modèle chrétien"
+        },
+        {
+          "id": "d",
+          "text": "L'amour n'est possible qu'avec une foi parfaite"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 13:4-13 — « L'amour est patient, il est plein de bonté... l'amour ne périt jamais. » Sans l'amour, tous les dons spirituels ne sont rien.",
+      "bibleReference": "1 Corinthiens 13:13",
+      "normalizedRef": "1korentyen13.13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-035",
+    "fr": {
+      "id": "dq-cpab-035",
+      "questionText": "Quelle est la déclaration centrale de Paul dans Éphésiens 2:8-9 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le salut ne vient pas des œuvres mais de la foi"
+        },
+        {
+          "id": "b",
+          "text": "C'est par la grâce que vous êtes sauvés, par le moyen de la foi — c'est le don de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Les œuvres et la foi sont nécessaires ensemble pour le salut"
+        },
+        {
+          "id": "d",
+          "text": "Seuls ceux qui paient la dîme sont sauvés"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Éphésiens 2:8-9 — « Car c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie. »",
+      "bibleReference": "Éphésiens 2:8-9",
+      "normalizedRef": "eph2.8-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  }
+]

@@ -1,0 +1,3320 @@
+[
+  {
+    "docId": "dq-evg-016_ht",
+    "data": {
+      "id": "dq-evg-016",
+      "questionText": "Nan ki vil Jezi te fèt?",
+      "categoryId": "evangelios",
+      "categoryName": "Lavi Jezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "Nazarèt"
+        },
+        {
+          "id": "c",
+          "text": "Betleyèm"
+        },
+        {
+          "id": "d",
+          "text": "Jeriko"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matye 2:1 — \"Jezi te fèt lavil Betleyèm, nan peyi Jide...\"",
+      "bibleReference": "Matye 2:1",
+      "normalizedRef": "mat2.1",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-016_fr",
+    "data": {
+      "questionText": "Dans quelle ville Jésus est-il né ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jérusalem"
+        },
+        {
+          "id": "b",
+          "text": "Nazareth"
+        },
+        {
+          "id": "c",
+          "text": "Bethléhem"
+        },
+        {
+          "id": "d",
+          "text": "Jéricho"
+        }
+      ],
+      "explanation": "Matthieu 2:1 — « Jésus étant né à Bethléhem en Judée... »",
+      "bibleReference": "Matthieu 2:1",
+      "id": "dq-evg-016",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-evg-017_ht",
+    "data": {
+      "id": "dq-evg-017",
+      "questionText": "Konbyen tan Jezi te pase ap jene nan dezè a anvan li te kòmanse ministè l?",
+      "categoryId": "evangelios",
+      "categoryName": "Lavi Jezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 jou"
+        },
+        {
+          "id": "b",
+          "text": "12 jou"
+        },
+        {
+          "id": "c",
+          "text": "40 jou ak 40 nwit"
+        },
+        {
+          "id": "d",
+          "text": "1 lanne"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matye 4:2 — \"Li pase karant jou ak karant nwit san l pa manje anyen. Apre sa, li vin grangou.\"",
+      "bibleReference": "Matye 4:2",
+      "normalizedRef": "mat4.2",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-017_fr",
+    "data": {
+      "questionText": "Combien de temps Jésus a-t-il jeûné dans le désert ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 jours"
+        },
+        {
+          "id": "b",
+          "text": "12 jours"
+        },
+        {
+          "id": "c",
+          "text": "40 jours et 40 nuits"
+        },
+        {
+          "id": "d",
+          "text": "1 an"
+        }
+      ],
+      "explanation": "Matthieu 4:2 — « Après avoir jeûné quarante jours et quarante nuits, il eut faim. »",
+      "bibleReference": "Matthieu 4:2",
+      "id": "dq-evg-017",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-evg-018_ht",
+    "data": {
+      "id": "dq-evg-018",
+      "questionText": "Ki sa k te metye Jozèf, papa Jezi sou latè?",
+      "categoryId": "evangelios",
+      "categoryName": "Lavi Jezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pechè pwason"
+        },
+        {
+          "id": "b",
+          "text": "Bòs chapant"
+        },
+        {
+          "id": "c",
+          "text": "Bèje"
+        },
+        {
+          "id": "d",
+          "text": "Sòlda"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 13:55 — \"Eske se pa pitit bòs chapant lan?\"",
+      "bibleReference": "Matye 13:55",
+      "normalizedRef": "mat13.55",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-018_fr",
+    "data": {
+      "questionText": "Quel était le métier de Joseph, le père terrestre de Jésus ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pêcheur"
+        },
+        {
+          "id": "b",
+          "text": "Charpentier"
+        },
+        {
+          "id": "c",
+          "text": "Berger"
+        },
+        {
+          "id": "d",
+          "text": "Soldat"
+        }
+      ],
+      "explanation": "Matthieu 13:55 — « N'est-ce pas le fils du charpentier ? »",
+      "bibleReference": "Matthieu 13:55",
+      "id": "dq-evg-018",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-evg-019_ht",
+    "data": {
+      "id": "dq-evg-019",
+      "questionText": "Kilès ki te batize Jezi nan rivyè Jouden an?",
+      "categoryId": "evangelios",
+      "categoryName": "Lavi Jezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyè"
+        },
+        {
+          "id": "b",
+          "text": "Jan Batis"
+        },
+        {
+          "id": "c",
+          "text": "Jak"
+        },
+        {
+          "id": "d",
+          "text": "Pòl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 3:13 — \"Jezi soti nan peyi Galile, li vin bò larivyè Jouden bò kote Jan, pou Jan te batize li.\"",
+      "bibleReference": "Matye 3:13",
+      "normalizedRef": "mat3.13",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-019_fr",
+    "data": {
+      "questionText": "Qui a baptisé Jésus dans le Jourdain ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre"
+        },
+        {
+          "id": "b",
+          "text": "Jean-Baptiste"
+        },
+        {
+          "id": "c",
+          "text": "Jacques"
+        },
+        {
+          "id": "d",
+          "text": "Paul"
+        }
+      ],
+      "explanation": "Matthieu 3:13 — « Alors Jésus vint de la Galilée au Jourdain vers Jean, pour être baptisé par lui. »",
+      "bibleReference": "Matthieu 3:13",
+      "id": "dq-evg-019",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-evg-020_ht",
+    "data": {
+      "id": "dq-evg-020",
+      "questionText": "Ki disip ki te trayi Jezi pou 30 pyès lajan?",
+      "categoryId": "evangelios",
+      "categoryName": "Lavi Jezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyè"
+        },
+        {
+          "id": "b",
+          "text": "Jida Iskariòt"
+        },
+        {
+          "id": "c",
+          "text": "Tomas"
+        },
+        {
+          "id": "d",
+          "text": "Andre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 26:14-15 — \"Yonn nan douz disip yo... Jida Iskariòt... di yo: Kisa n’a ban mwen si m’ livre Jezi ban nou? Yo ba li trant pyès lajan.\"",
+      "bibleReference": "Matye 26:14-15",
+      "normalizedRef": "mat26.14-15",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-020_fr",
+    "data": {
+      "questionText": "Quel disciple a trahi Jésus pour 30 pièces d'argent ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre"
+        },
+        {
+          "id": "b",
+          "text": "Judas Iscariot"
+        },
+        {
+          "id": "c",
+          "text": "Thomas"
+        },
+        {
+          "id": "d",
+          "text": "André"
+        }
+      ],
+      "explanation": "Matthieu 26:14-15 — « Alors l'un des douze, appelé Judas Iscariot... ils lui pesèrent trente pièces d'argent. »",
+      "bibleReference": "Matthieu 26:14-15",
+      "id": "dq-evg-020",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-evg-021_ht",
+    "data": {
+      "id": "dq-evg-021",
+      "questionText": "Ki kote Jezi te ale pou l te priye anvan yo te arete l?",
+      "categoryId": "evangelios",
+      "categoryName": "Lavi Jezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nan tanp lan"
+        },
+        {
+          "id": "b",
+          "text": "Nan jaden Jetsemane a"
+        },
+        {
+          "id": "c",
+          "text": "Sou mòn Sinayi"
+        },
+        {
+          "id": "d",
+          "text": "Nan dezè a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 26:36 — \"Apre sa, Jezi ale ak disip li yo yon kote yo rele Jetsemane. Li di yo: Chita la, mwen pral priye lòt bò a.\"",
+      "bibleReference": "Matye 26:36",
+      "normalizedRef": "mat26.36",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-021_fr",
+    "data": {
+      "questionText": "Où Jésus est-il allé prier avant d'être arrêté ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Au temple"
+        },
+        {
+          "id": "b",
+          "text": "Au jardin de Gethsémané"
+        },
+        {
+          "id": "c",
+          "text": "Sur le mont Sinaï"
+        },
+        {
+          "id": "d",
+          "text": "Dans le désert"
+        }
+      ],
+      "explanation": "Matthieu 26:36 — « Là-dessus, Jésus alla avec eux dans un lieu appelé Gethsémané... »",
+      "bibleReference": "Matthieu 26:36",
+      "id": "dq-evg-021",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-evg-022_ht",
+    "data": {
+      "id": "dq-evg-022",
+      "questionText": "Konbyen fwa Pyè te nye Jezi anvan kòk te chante?",
+      "categoryId": "evangelios",
+      "categoryName": "Lavi Jezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon sèl fwa"
+        },
+        {
+          "id": "b",
+          "text": "De fwa"
+        },
+        {
+          "id": "c",
+          "text": "Twa fwa"
+        },
+        {
+          "id": "d",
+          "text": "Sèt fwa"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matye 26:75 — \"Anvan kòk la chante, ou va di twa fwa ou pa janm konnen mwen.\"",
+      "bibleReference": "Matye 26:75",
+      "normalizedRef": "mat26.75",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-022_fr",
+    "data": {
+      "questionText": "Combien de fois Pierre a-t-il renié Jésus avant que le coq ne chante ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une seule fois"
+        },
+        {
+          "id": "b",
+          "text": "Deux fois"
+        },
+        {
+          "id": "c",
+          "text": "Trois fois"
+        },
+        {
+          "id": "d",
+          "text": "Sept fois"
+        }
+      ],
+      "explanation": "Matthieu 26:75 — « Avant que le coq chante, tu me renieras trois fois. »",
+      "bibleReference": "Matthieu 26:75",
+      "id": "dq-evg-022",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-evg-023_ht",
+    "data": {
+      "id": "dq-evg-023",
+      "questionText": "Kilès ki te gouvènè ki te kondane Jezi pou yo kloure l sou yon kwa a?",
+      "categoryId": "evangelios",
+      "categoryName": "Lavi Jezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ewòd"
+        },
+        {
+          "id": "b",
+          "text": "Pons Pilat"
+        },
+        {
+          "id": "c",
+          "text": "Seza"
+        },
+        {
+          "id": "d",
+          "text": "Kayif"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 27:26 — \"Pilat... apre li fin fè yo bat Jezi, li renmèt li ba yo pou yo kloure l sou yon kwa.\"",
+      "bibleReference": "Matye 27:26",
+      "normalizedRef": "mat27.26",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-023_fr",
+    "data": {
+      "questionText": "Qui était le gouverneur qui a condamné Jésus à la crucifixion ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hérode"
+        },
+        {
+          "id": "b",
+          "text": "Ponce Pilate"
+        },
+        {
+          "id": "c",
+          "text": "César"
+        },
+        {
+          "id": "d",
+          "text": "Caïphe"
+        }
+      ],
+      "explanation": "Matthieu 27:26 — « Alors Pilate... après avoir fait battre de verges Jésus, le livra pour être crucifié. »",
+      "bibleReference": "Matthieu 27:26",
+      "id": "dq-evg-023",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-evg-024_ht",
+    "data": {
+      "id": "dq-evg-024",
+      "questionText": "Ki sa ki te ekri sou tèt kwa Jezi a?",
+      "categoryId": "evangelios",
+      "categoryName": "Lavi Jezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wa Mond lan"
+        },
+        {
+          "id": "b",
+          "text": "Jezi, moun Nazarèt, Wa Jwif yo"
+        },
+        {
+          "id": "c",
+          "text": "Pitit Bondye a"
+        },
+        {
+          "id": "d",
+          "text": "Mesi a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 19:19 — \"Pilat te fè ekri yon pankat... men sa ki te ekri sou li: Jezi, moun Nazarèt, wa jwif yo.\"",
+      "bibleReference": "Jan 19:19",
+      "normalizedRef": "joh19.19",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-024_fr",
+    "data": {
+      "questionText": "Qu'était-il écrit au-dessus de la croix de Jésus ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Roi du Monde"
+        },
+        {
+          "id": "b",
+          "text": "Jésus de Nazareth, Roi des Juifs"
+        },
+        {
+          "id": "c",
+          "text": "Fils de Dieu"
+        },
+        {
+          "id": "d",
+          "text": "Le Messie"
+        }
+      ],
+      "explanation": "Jean 19:19 — « Pilate fit aussi une inscription... Jésus de Nazareth, roi des Juifs. »",
+      "bibleReference": "Jean 19:19",
+      "id": "dq-evg-024",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-evg-025_ht",
+    "data": {
+      "id": "dq-evg-025",
+      "questionText": "Apre konbyen jou Jezi te resisite soti vivan nan lanmò?",
+      "categoryId": "evangelios",
+      "categoryName": "Lavi Jezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nan premye jou a"
+        },
+        {
+          "id": "b",
+          "text": "Apre sèt jou"
+        },
+        {
+          "id": "c",
+          "text": "Sou twazyèm jou a"
+        },
+        {
+          "id": "d",
+          "text": "Apre karant jou"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Korentyen 15:4 — \"...li te resisite sou twazyèm jou a, jan sa te ekri nan Liv la.\"",
+      "bibleReference": "1 Korentyen 15:4",
+      "normalizedRef": "1korentyen15.4",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-025_fr",
+    "data": {
+      "questionText": "Après combien de jours Jésus est-il ressuscité ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le premier jour"
+        },
+        {
+          "id": "b",
+          "text": "Après sept jours"
+        },
+        {
+          "id": "c",
+          "text": "Le troisième jour"
+        },
+        {
+          "id": "d",
+          "text": "Après quarante jours"
+        }
+      ],
+      "explanation": "1 Corinthiens 15:4 — « qu'il est ressuscité le troisième jour, selon les Écritures. »",
+      "bibleReference": "1 Corinthiens 15:4",
+      "id": "dq-evg-025",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-evg-026_ht",
+    "data": {
+      "id": "dq-evg-026",
+      "questionText": "Ki levanjil ki kòmanse avèk deklarasyon sa a «Nan kòmansman, Pawòl la te la»?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matye"
+        },
+        {
+          "id": "b",
+          "text": "Mak"
+        },
+        {
+          "id": "c",
+          "text": "Lik"
+        },
+        {
+          "id": "d",
+          "text": "Jan"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Levanjil Jan an kòmanse konsa: «Nan kòmansman, Pawòl la te la. Pawòl la te avèk Bondye. Sa Pawòl la te ye a, se sa Bondye ye tou» (Jan 1:1).",
+      "bibleReference": "Jean 1:1",
+      "normalizedRef": "joh1.1",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-026_fr",
+    "data": {
+      "id": "dq-evg-026",
+      "questionText": "Quel évangile commence par « Au commencement était la Parole » ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matthieu"
+        },
+        {
+          "id": "b",
+          "text": "Marc"
+        },
+        {
+          "id": "c",
+          "text": "Luc"
+        },
+        {
+          "id": "d",
+          "text": "Jean"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "L'Évangile de Jean commence : « Au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu » (Jean 1:1).",
+      "bibleReference": "Jean 1:1",
+      "normalizedRef": "joh1.1",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-027_ht",
+    "data": {
+      "id": "dq-evg-027",
+      "questionText": "Nan kat levanjil yo, kiyès ki pi kout la?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matye"
+        },
+        {
+          "id": "b",
+          "text": "Mak"
+        },
+        {
+          "id": "c",
+          "text": "Lik"
+        },
+        {
+          "id": "d",
+          "text": "Jan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Levanjil Mak la se sa k pi kout la avèk 16 chapit — yo konnen l pou fason l ekri ki rapid e dinamik (mo «menm lè a» vrèman itilize anpil ladan l).",
+      "bibleReference": "Marc 1:1",
+      "normalizedRef": "mar1.1",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-027_fr",
+    "data": {
+      "id": "dq-evg-027",
+      "questionText": "Quel est le plus court des quatre Évangiles ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matthieu"
+        },
+        {
+          "id": "b",
+          "text": "Marc"
+        },
+        {
+          "id": "c",
+          "text": "Luc"
+        },
+        {
+          "id": "d",
+          "text": "Jean"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Évangile de Marc est le plus court avec 16 chapitres — réputé pour son style rapide et dynamique (le mot « aussitôt » y est très fréquent).",
+      "bibleReference": "Marc 1:1",
+      "normalizedRef": "mar1.1",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-028_ht",
+    "data": {
+      "id": "dq-evg-028",
+      "questionText": "Ki levanjil ki gen parabòl Bon Samariten an ansanm ak Pitit Gason Pwodig la?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matye"
+        },
+        {
+          "id": "b",
+          "text": "Mak"
+        },
+        {
+          "id": "c",
+          "text": "Lik"
+        },
+        {
+          "id": "d",
+          "text": "Jan"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "De (2) parabòl sa yo ki tèlman enpòtan se nan Lik sèlman nou jwenn yo (Lik 10:25-37; Lik 15:11-32) — evanjelis la ki konsantre l sou favè pou moun yo rejte yo.",
+      "bibleReference": "Luc 15:11",
+      "normalizedRef": "luk15.11",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-028_fr",
+    "data": {
+      "id": "dq-evg-028",
+      "questionText": "Quel évangile contient la parabole du Bon Samaritain et du Fils Prodigue ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matthieu"
+        },
+        {
+          "id": "b",
+          "text": "Marc"
+        },
+        {
+          "id": "c",
+          "text": "Luc"
+        },
+        {
+          "id": "d",
+          "text": "Jean"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ces deux paraboles emblématiques se trouvent uniquement chez Luc (Luc 10:25-37 ; Luc 15:11-32) — l'évangéliste de la grâce pour les marginaux.",
+      "bibleReference": "Luc 15:11",
+      "normalizedRef": "luk15.11",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-029_ht",
+    "data": {
+      "id": "dq-evg-029",
+      "questionText": "Ki levanjil ki prezante Jezi sitou kòm «Wa Juif yo» epi ki site Ansyen Testaman an pi plis?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matye"
+        },
+        {
+          "id": "b",
+          "text": "Mak"
+        },
+        {
+          "id": "c",
+          "text": "Lik"
+        },
+        {
+          "id": "d",
+          "text": "Jan"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Matye te ekri l sitou pou Jwif yo, pou l ka prezante Jezi kòm Mesi David la. Li pa sispann site Ansyen Testaman an avèk fraz sa a «pou pawòl sa a te ka rive vre» (Matye 1:22).",
+      "bibleReference": "Matthieu 1:22",
+      "normalizedRef": "mat1.22",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-029_fr",
+    "data": {
+      "id": "dq-evg-029",
+      "questionText": "Quel évangile présente Jésus principalement comme « Roi des Juifs » et cite le plus l'AT ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matthieu"
+        },
+        {
+          "id": "b",
+          "text": "Marc"
+        },
+        {
+          "id": "c",
+          "text": "Luc"
+        },
+        {
+          "id": "d",
+          "text": "Jean"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Matthieu écrit pour un public juif, présentant Jésus comme le Messie davidique. Il cite l'AT constamment avec la formule « afin que s'accomplisse » (Matthieu 1:22).",
+      "bibleReference": "Matthieu 1:22",
+      "normalizedRef": "mat1.22",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-030_ht",
+    "data": {
+      "id": "dq-evg-030",
+      "questionText": "Kisa diskou Jezi ki pale de «Pen lavi a» nan Jan 6 la vle di?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jezi t ap bay anseyman sou fason pou n gen yon pi bon alimantasyon fizik"
+        },
+        {
+          "id": "b",
+          "text": "Jezi t ap prezante tèt li kòm manje espirityèl la — kwè nan li, se «manje» kò li epi «bwè» san li"
+        },
+        {
+          "id": "c",
+          "text": "Li te anonse kijan pou yo fè fèt Sentsèn nan"
+        },
+        {
+          "id": "d",
+          "text": "Li t ap anseye fason yo fè jèn kòm yon disiplin nan lavi espirityèl yon moun"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "«Mwen se pen ki bay lavi a; moun ki vin jwenn mwen p ap janm grangou» (Jan 6:35). Manje kò l epi bwè san l = kwè nan sakrifis li a — diskou sa a te choke anpil moun e anpil nan yo te vire do ba li.",
+      "bibleReference": "Jean 6:35,53-56",
+      "normalizedRef": "joh6.35,53-56",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-030_fr",
+    "data": {
+      "id": "dq-evg-030",
+      "questionText": "Quel est le sens du « Discours du Pain de Vie » de Jésus en Jean 6 ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus enseigne une meilleure alimentation physique"
+        },
+        {
+          "id": "b",
+          "text": "Jésus se présente comme la nourriture spirituelle — croire en lui c'est « manger » sa chair et « boire » son sang"
+        },
+        {
+          "id": "c",
+          "text": "Il annonce l'institution de la Cène"
+        },
+        {
+          "id": "d",
+          "text": "Il enseigne le jeûne comme discipline spirituelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Je suis le pain de vie ; celui qui vient à moi n'aura jamais faim » (Jean 6:35). Manger sa chair et boire son sang = foi en son sacrifice — ce discours choqua et beaucoup le quittèrent.",
+      "bibleReference": "Jean 6:35,53-56",
+      "normalizedRef": "joh6.35,53-56",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-031_ht",
+    "data": {
+      "id": "dq-evg-031",
+      "questionText": "Ki enpòtans batèm Jezi te pran nan men Jan Batis la si Jezi pa t janm fè peche?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jezi te bezwen pou yo pirifye l kòm senbòl"
+        },
+        {
+          "id": "b",
+          "text": "Pou l te kapab akonpli tout sa ki jis — idantifye l ansanm ak ras imen an ki te pechè e l t ap vin sove yo a"
+        },
+        {
+          "id": "c",
+          "text": "Pou l te kapab resevwa Sentespri a ki pa t ap desann sou li si l pa t batize"
+        },
+        {
+          "id": "d",
+          "text": "Pou l te fè Jan Batis plezi, paske Jan pa t vle batize l san pa gen yon bon rezon pou sa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jezi di: «Kite sa fèt konsa koulye a; se konsa pou nou fè tou sa Bondye mande» (Matye 3:15) — li te idantifye l ak tout pechè li te vin sove yo.",
+      "bibleReference": "Matthieu 3:15",
+      "normalizedRef": "mat3.15",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-031_fr",
+    "data": {
+      "id": "dq-evg-031",
+      "questionText": "Quelle est la signification du baptême de Jésus par Jean-Baptiste si Jésus était sans péché ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus avait besoin de se purifier symboliquement"
+        },
+        {
+          "id": "b",
+          "text": "Pour accomplir toute justice — s'identifier à l'humanité pécheresse qu'il venait sauver"
+        },
+        {
+          "id": "c",
+          "text": "Pour recevoir le Saint-Esprit qui ne pouvait descendre qu'au baptême"
+        },
+        {
+          "id": "d",
+          "text": "Pour satisfaire la demande de Jean qui ne voulait pas baptiser sans raison"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus dit : « Laisse faire maintenant ; c'est ainsi qu'il nous convient d'accomplir toute justice » (Matthieu 3:15) — il s'identifiait aux pécheurs qu'il venait racheter.",
+      "bibleReference": "Matthieu 3:15",
+      "normalizedRef": "mat3.15",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-032_ht",
+    "data": {
+      "id": "dq-evg-032",
+      "questionText": "Ki pwa Gran Misyon nan Matye 28:19-20 an genyen pou Legliz la?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon misyon sèlman pou apot premye syèk yo"
+        },
+        {
+          "id": "b",
+          "text": "Misyon pèmanan Legliz la genyen pou l fè disip nan tout nasyon yo"
+        },
+        {
+          "id": "c",
+          "text": "Yon pwomès konsènan yon gwo viktwa militè pou Izrayèl"
+        },
+        {
+          "id": "d",
+          "text": "Yon lòd yo bay pou moun ki se evanjelis pwofesyonèl yo sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "«Ale fè disip nan tout nasyon yo... Mwen avèk nou toulejou, jouk sa kaba» — yon misyon inivèsèl epi k ap dire tout tan pou Legliz la (Matye 28:19-20).",
+      "bibleReference": "Matthieu 28:19-20",
+      "normalizedRef": "mat28.19-20",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-032_fr",
+    "data": {
+      "id": "dq-evg-032",
+      "questionText": "Quelle est la portée de la Grande Commission de Matthieu 28:19-20 pour l'Église ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une mission uniquement pour les apôtres du premier siècle"
+        },
+        {
+          "id": "b",
+          "text": "Le mandat permanent de l'Église de faire des disciples de toutes les nations"
+        },
+        {
+          "id": "c",
+          "text": "Une promesse de victoire militaire pour Israël"
+        },
+        {
+          "id": "d",
+          "text": "Un commandement uniquement pour les évangélistes professionnels"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Allez, faites de toutes les nations des disciples... Je suis avec vous tous les jours jusqu'à la fin du monde » — mandat missionnaire universel et perpétuel de l'Église (Matthieu 28:19-20).",
+      "bibleReference": "Matthieu 28:19-20",
+      "normalizedRef": "mat28.19-20",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-033_ht",
+    "data": {
+      "id": "dq-evg-033",
+      "questionText": "Ki diferans ki genyen ant levanjil sinoptik yo (Matye, Mak, Lik) ak Levanjil Jan an?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sinoptik yo ekri an grèk, tandiske Jan ekri an arameyen"
+        },
+        {
+          "id": "b",
+          "text": "Matye, Mak ak Lik gen anpil istwa komen ansanm; Jan vrèman diferan avèk detay teyolojik e avèk yon etid sou Kris la ki trè diferan"
+        },
+        {
+          "id": "c",
+          "text": "Levanjil Jan an te ekri anvan tou le twa lòt yo"
+        },
+        {
+          "id": "d",
+          "text": "Levanjil sinoptik yo te destine pou Juif yo, Levanjil Jan an pou Women yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sinoptik yo (Matye, Mak, Lik) pataje environ 80% enfòmasyon ki menm yo. Levanjil Jan an vrèman diferan: nan kòmansman li pale sou divinite Kris la, diskou yo pi long, premye mirak ki fèt nan nòs Kana a, Laza ki resisite a, chapit 14 rive 17.",
+      "bibleReference": "Jean 20:30-31",
+      "normalizedRef": "joh20.30-31",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-033_fr",
+    "data": {
+      "id": "dq-evg-033",
+      "questionText": "En quoi les Évangiles synoptiques diffèrent-ils de l'Évangile de Jean ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les synoptiques sont écrits en grec, Jean en araméen"
+        },
+        {
+          "id": "b",
+          "text": "Matthieu, Marc et Luc partagent beaucoup de matière commune ; Jean est indépendant avec un accent théologique et christologique différent"
+        },
+        {
+          "id": "c",
+          "text": "Jean est antérieur aux trois autres évangiles"
+        },
+        {
+          "id": "d",
+          "text": "Les synoptiques sont destinés aux Juifs, Jean aux Romains"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les synoptiques (Matthieu, Marc, Luc) partagent ~80% de matière. Jean est unique : prologue christologique, discours longs, signe des noces, résurrection de Lazare, chapitres 14-17.",
+      "bibleReference": "Jean 20:30-31",
+      "normalizedRef": "joh20.30-31",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-034_ht",
+    "data": {
+      "id": "dq-evg-034",
+      "questionText": "Kisa teyori ki di levanjil Mak la te premye a vle di nan etid sinoptik yo?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mak te ekri aprè Matye e li te depann de levanjil Matye a"
+        },
+        {
+          "id": "b",
+          "text": "Mak te premye ki te ekri epi Matye ansanm ak Lik te itilize l kòm sous prensipal yo"
+        },
+        {
+          "id": "c",
+          "text": "Levanjil Mak la se rezime levanjil Matye ak Lik la"
+        },
+        {
+          "id": "d",
+          "text": "Se Pyè ki te ekri levanjil Mak la, se pa t Mak ki te ekri l"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Teyori ki pi gaye nan etid biblik: Mak te premye ekri (~anviwon ane 65 apre Jezikri), Matye ak Lik te itilize l e yo te ajoute kèk nan eleman pawòl ki rele «Q» ansanm ak pa yo.",
+      "bibleReference": "Marc 1:1",
+      "normalizedRef": "mar1.1",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-034_fr",
+    "data": {
+      "id": "dq-evg-034",
+      "questionText": "Quelle est la théorie de la priorité marcienne dans l'étude synoptique ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marc fut écrit après Matthieu et dépend de lui"
+        },
+        {
+          "id": "b",
+          "text": "Marc fut écrit en premier et fut utilisé par Matthieu et Luc comme source principale"
+        },
+        {
+          "id": "c",
+          "text": "Marc est une synthèse de Matthieu et Luc"
+        },
+        {
+          "id": "d",
+          "text": "Marc fut écrit par Pierre et non par Marc"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La théorie dominante en critique biblique : Marc écrit en premier (~65 ap. J.-C.), Matthieu et Luc s'en servent et y ajoutent Q (une source de paroles communes) et leurs propres sources.",
+      "bibleReference": "Marc 1:1",
+      "normalizedRef": "mar1.1",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-035_ht",
+    "data": {
+      "id": "dq-evg-035",
+      "questionText": "Kisa «Kenòz» vle di lè n ap pale de enkanasyon Kris la (Filipyen 2:7)?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jezi te abandone divinite l lè l t ap fèt tankou yon moun"
+        },
+        {
+          "id": "b",
+          "text": "Pitit Bondye a «te bese tèt li» volontèman epi li te aksepte wete tout dwa ki te pou li pou l vin tounen yon sèvitè"
+        },
+        {
+          "id": "c",
+          "text": "Kris la te rejwenn pozisyon Bondye l la nèt sèlman lè l te resisite a"
+        },
+        {
+          "id": "d",
+          "text": "Divinite Kris la te sèlman kache andedan yon kò moun menm jan moun mete yon rad"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kenòz (Filipyen 2:7 — «li te dezabiye tèt li»): Kris la te viv anba depandans Papa a san li pa t chèche sèvi ak pwòp dwa li nan kò moun lan — vrèman Bondye epi vrèman moun.",
+      "bibleReference": "Philippiens 2:7",
+      "normalizedRef": "phi2.7",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-035_fr",
+    "data": {
+      "id": "dq-evg-035",
+      "questionText": "Que signifie la « Kénose » dans le contexte de l'Incarnation (Philippiens 2:7) ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus abandonna sa divinité en s'incarnant"
+        },
+        {
+          "id": "b",
+          "text": "Le Fils de Dieu « se vida » volontairement de l'exercice indépendant de ses attributs divins pour se faire serviteur"
+        },
+        {
+          "id": "c",
+          "text": "Christ redevint Dieu pleinement seulement à la résurrection"
+        },
+        {
+          "id": "d",
+          "text": "La divinité de Christ était cachée dans un corps humain comme dans un costume"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kénose (Philippiens 2:7 — « il se dépouilla lui-même ») : Christ vécut dans une dépendance volontaire envers le Père, sans exercer indépendamment ses attributs divins — vrais Dieu et vrai homme.",
+      "bibleReference": "Philippiens 2:7",
+      "normalizedRef": "phi2.7",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-036_ht",
+    "data": {
+      "id": "dq-evg-036",
+      "questionText": "Ki sans teyolojik 7 siy nan Jan yo ansanm ak estrikti naratif li a genyen?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gen prèv syantifik sou divinite Jezi"
+        },
+        {
+          "id": "b",
+          "text": "7 aksyon ki revele glwa Jezi — yo chak siyifi idantite l — tout sa abouti nan rezirèksyon Laza a"
+        },
+        {
+          "id": "c",
+          "text": "Se mirak li te fè ki te konsantre sou gerizon fizik sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Siy pwofetik ki t ap anonse jan yo ta pral detwi Tanp lan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan chwazi 7 siy (dlo a ki tounen diven, pitit ofisye l te geri a, moun ki paralize a, mirak 5000 moun nan, mache sou dlo a, avèg la, Laza) pou kapab montre glwa Jezi a epi ede moun kwè (Jan 20:30-31).",
+      "bibleReference": "Jean 20:30-31",
+      "normalizedRef": "joh20.30-31",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-036_fr",
+    "data": {
+      "id": "dq-evg-036",
+      "questionText": "Quel est le sens théologique des sept signes de Jean et leur structure narrative ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des preuves scientifiques de la divinité de Jésus"
+        },
+        {
+          "id": "b",
+          "text": "Sept actes révélant la gloire de Jésus — chacun évoquant une dimension de son identité — culminant en la résurrection de Lazare"
+        },
+        {
+          "id": "c",
+          "text": "Des miracles réservés à la guérison physique"
+        },
+        {
+          "id": "d",
+          "text": "Des signes prophétiques annonçant la destruction du Temple"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean sélectionne 7 signes (eau en vin, guérison du fils du fonctionnaire, paralytique, 5000 nourris, marche sur eau, aveugle-né, Lazare) pour révéler la gloire de Christ et susciter la foi (Jean 20:30-31).",
+      "bibleReference": "Jean 20:30-31",
+      "normalizedRef": "joh20.30-31",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-037_ht",
+    "data": {
+      "id": "dq-evg-037",
+      "questionText": "Kouman yo entèprete diskou Jezi te fè nan Matye 24-25 la (eskatolojik la) kòm teyoloji?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li pale de destriksyon Jerizalèm ki t ap fèt nan lane 70 aprè Jezi sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Li pale de tou de, kit sou destriksyon Tanp lan (70 aprè Jezikri) epi sou lè Kris la ap retounen finalman an — yon akonplisman pwofetik an de (2) fwa"
+        },
+        {
+          "id": "c",
+          "text": "Se jis senbòl sèlman e li pa t anonse okenn gwo evènman istorik"
+        },
+        {
+          "id": "d",
+          "text": "Li konsène sèlman epòk gwo tribilasyon k ap genyen pi devan yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 24-25 pale alafwa de destriksyon vil Jerizalèm ki te tou pre fèt la (70 apre Jezikri) ansanm ak peryòd Parousi final la (retou Jezi) — sa se yon gwo modèl pwofesi nan Ansyen Testaman an kote pawòl la gen enpòtans pou de (2) epòk yo.",
+      "bibleReference": "Matthieu 24:1-44",
+      "normalizedRef": "mat24.1-44",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evg-037_fr",
+    "data": {
+      "id": "dq-evg-037",
+      "questionText": "Comment le Discours Eschatologique de Jésus en Matthieu 24-25 est-il interprété théologiquement ?",
+      "categoryId": "evangelios",
+      "categoryName": "Les Évangiles",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il ne concerne que la destruction de Jérusalem en 70 ap. J.-C."
+        },
+        {
+          "id": "b",
+          "text": "Il parle à la fois de la destruction du Temple (70 ap. J.-C.) et du retour final de Christ — double accomplissement prophétique"
+        },
+        {
+          "id": "c",
+          "text": "Il est purement symbolique et ne prédit aucun événement historique"
+        },
+        {
+          "id": "d",
+          "text": "Il concerne uniquement la période tribulation future"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 24-25 combine la destruction imminente de Jérusalem (70 ap. J.-C.) et la Parousie finale — prophétie à double horizon typique de l'AT.",
+      "bibleReference": "Matthieu 24:1-44",
+      "normalizedRef": "mat24.1-44",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-evnt-001_ht",
+    "data": {
+      "id": "dq-evnt-001",
+      "questionText": "Ki sa ki te pase jou Pannkòt dapre Travay chapit 2?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jezi monte nan syèl"
+        },
+        {
+          "id": "b",
+          "text": "Lespri Sen an desann sou apòt yo"
+        },
+        {
+          "id": "c",
+          "text": "Pòl te konvèti"
+        },
+        {
+          "id": "d",
+          "text": "Legliz la te pèsekite"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nan Pannkòt, Lespri Sen an te desann tankou lang dife sou 120 disip yo ki te rasanble, epi Pyè te preche; 3,000 moun te konvèti (Travay 2:1-41).",
+      "bibleReference": "Travay 2:1-4",
+      "normalizedRef": "act2.1-4",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-001_fr",
+    "data": {
+      "id": "dq-evnt-001",
+      "questionText": "Quel événement marqua la Pentecôte dans le Nouveau Testament ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La résurrection de Jésus"
+        },
+        {
+          "id": "b",
+          "text": "La descente du Saint-Esprit sur les disciples"
+        },
+        {
+          "id": "c",
+          "text": "La première cène"
+        },
+        {
+          "id": "d",
+          "text": "L'ascension de Jésus"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "À la Pentecôte, le Saint-Esprit descendit comme un vent violent ; des langues de feu se posèrent sur chacun (Actes 2:1-4).",
+      "bibleReference": "Actes 2:1-4",
+      "normalizedRef": "act2.1-4",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-002_ht",
+    "data": {
+      "id": "dq-evnt-002",
+      "questionText": "Ki evènman istorik fèt Pak jwif la komemore?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pwomès Abraram"
+        },
+        {
+          "id": "b",
+          "text": "Kreyasyon mond lan"
+        },
+        {
+          "id": "c",
+          "text": "Liberasyon Izrayèl nan esklavaj Ejip"
+        },
+        {
+          "id": "d",
+          "text": "Konkèt Kanaran"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pak komemore lè zanj lanmò a \"pase\" sou kay ki te make ak san mouton ak Bondye te delivre Izrayèl nan Ejip (Egzòd 12).",
+      "bibleReference": "Egzòd 12:13",
+      "normalizedRef": "exo12.13",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-002_fr",
+    "data": {
+      "id": "dq-evnt-002",
+      "questionText": "Quelle fut la signification de la Pâque originelle en Égypte (Exode 12) ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un repas de remerciement pour la moisson"
+        },
+        {
+          "id": "b",
+          "text": "Le sang de l'agneau sur les poteaux protégeait les premiers-nés de la mort"
+        },
+        {
+          "id": "c",
+          "text": "Un rituel de purification annuel"
+        },
+        {
+          "id": "d",
+          "text": "La commémoration de l'alliance avec Abraham"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le sang de l'agneau pascal sur les linteaux protégeait les premiers-nés israélites de l'ange de la mort — figure de Christ, notre Pâque (Exode 12:13; 1 Corinthiens 5:7).",
+      "bibleReference": "Exode 12:13",
+      "normalizedRef": "exo12.13",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-003_ht",
+    "data": {
+      "id": "dq-evnt-003",
+      "questionText": "Ki sa ki te pase sou Mòn Karmèl ant pwofèt Eli ak 450 pwofèt Baal yo?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eli te konvenk yo abandone Baal"
+        },
+        {
+          "id": "b",
+          "text": "Bondye te voye dife sot nan syèl sou sakrifis Eli ak pa sakrifis Baal"
+        },
+        {
+          "id": "c",
+          "text": "Eli te genyen yon deba teyolojik"
+        },
+        {
+          "id": "d",
+          "text": "Pwofèt Baal yo te kouri san lite"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Eli te prepare sakrifis li epi priye; lè sa a \"dife Seyè a te tonbe, epi li te boule olokost la\", demontre ke Bondye Izrayèl te sèl vrè Bondye (1 Wa 18:38).",
+      "bibleReference": "1 Wa 18:38",
+      "normalizedRef": "1ki18.38",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-003_fr",
+    "data": {
+      "id": "dq-evnt-003",
+      "questionText": "Quel prophète défia 450 prophètes de Baal au Mont Carmel sous le règne d'Achab ?",
+      "categoryId": "eventos",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elisée"
+        },
+        {
+          "id": "b",
+          "text": "Élie"
+        },
+        {
+          "id": "c",
+          "text": "Michée"
+        },
+        {
+          "id": "d",
+          "text": "Abdias"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Élie défia les 450 prophètes de Baal sur le Mont Carmel. Le feu du Seigneur tomba et consuma l'holocauste (1 Rois 18:20-38).",
+      "bibleReference": "1 Rois 18:38",
+      "normalizedRef": "1ki18.38",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "docId": "dq-evnt-004_ht",
+    "data": {
+      "id": "dq-evnt-004",
+      "questionText": "Konbyen ane konstriksyon premye tanp Salomon an te dire?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 ane"
+        },
+        {
+          "id": "b",
+          "text": "7 ane"
+        },
+        {
+          "id": "c",
+          "text": "14 ane"
+        },
+        {
+          "id": "d",
+          "text": "20 ane"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Se konsa Salomon te fini bati kay Seyè a nan sèt ane\" (1 Wa 6:38). Men li te pran 13 ane pou bati palè pwòp li a (1 Wa 7:1).",
+      "bibleReference": "1 Wa 6:38",
+      "normalizedRef": "1ki6.38",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-004_fr",
+    "data": {
+      "id": "dq-evnt-004",
+      "questionText": "Quel roi d'Israël construisit le premier Temple à Jérusalem ?",
+      "categoryId": "eventos",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Saül"
+        },
+        {
+          "id": "c",
+          "text": "Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Roboam"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salomon construisit le Temple de Jérusalem en sept ans (1 Rois 6:1,38).",
+      "bibleReference": "1 Rois 6:38",
+      "normalizedRef": "1ki6.38",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "docId": "dq-evnt-005_ht",
+    "data": {
+      "id": "dq-evnt-005",
+      "questionText": "Ki dekrè ki wa payèn ki te pèmèt Jwif yo retounen nan ekzil babilonyèn nan?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dekrè Dari Mèd"
+        },
+        {
+          "id": "b",
+          "text": "Edik Siri Gran Pès la"
+        },
+        {
+          "id": "c",
+          "text": "Dekrè Artazèksès"
+        },
+        {
+          "id": "d",
+          "text": "Lòd Nebikadneza"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Nan premye ane Siri wa Pès... Seyè te leve lespri Siri wa Pès ... ki te di... yo retounen nan Jerizalèm\" (Esdras 1:1-3). Sa te reyalize pwofesi Jeremi.",
+      "bibleReference": "Esdras 1:1-3",
+      "normalizedRef": "ezr1.1-3",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-005_fr",
+    "data": {
+      "id": "dq-evnt-005",
+      "questionText": "Quel roi de Perse permit aux exilés juifs de retourner à Jérusalem pour reconstruire le Temple ?",
+      "categoryId": "eventos",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Darius Ier"
+        },
+        {
+          "id": "b",
+          "text": "Artaxerxès"
+        },
+        {
+          "id": "c",
+          "text": "Cyrus II (le Grand)"
+        },
+        {
+          "id": "d",
+          "text": "Xerxès"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Cyrus le Grand, en 538 av. J.-C., publia le décret permettant aux Juifs de rentrer et de reconstruire le Temple — accomplissant la prophétie d'Ésaïe 44:28 (Esdras 1:1-3).",
+      "bibleReference": "Esdras 1:1-3",
+      "normalizedRef": "ezr1.1-3",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "docId": "dq-evnt-006_ht",
+    "data": {
+      "id": "dq-evnt-006",
+      "questionText": "Konbyen jou ak nwit lapli te tonbe pandan delij Noye a?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "40"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lapli delij la te dire karant jou ak karant nwit (Jenèz 7:12). Dlo yo te domine sou tè a pandan 150 jou.",
+      "bibleReference": "Jenèz 7:12",
+      "normalizedRef": "gen7.12",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-006_fr",
+    "data": {
+      "id": "dq-evnt-006",
+      "questionText": "Pendant combien de jours et de nuits la pluie est-elle tombée durant le déluge de Noé ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "40"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La pluie du déluge tomba pendant quarante jours et quarante nuits (Genèse 7:12). Les eaux dominèrent la terre pendant 150 jours.",
+      "bibleReference": "Genèse 7:12",
+      "normalizedRef": "gen7.12",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-007_ht",
+    "data": {
+      "id": "dq-evnt-007",
+      "questionText": "Ki lè Jezi te resisite apre lanmò li?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Premye jou"
+        },
+        {
+          "id": "b",
+          "text": "Dezyèm jou"
+        },
+        {
+          "id": "c",
+          "text": "Twazyèm jou"
+        },
+        {
+          "id": "d",
+          "text": "Yon semèn apre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jezi te resisite nan twazyèm jou a, jan li te anonse ak jan Bib la te pwofetize (1 Korentyen 15:4).",
+      "bibleReference": "1 Korentyen 15:4",
+      "normalizedRef": "1korentyen15.4",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-007_fr",
+    "data": {
+      "id": "dq-evnt-007",
+      "questionText": "Quand Jésus est-il ressuscité après sa mort ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le premier jour"
+        },
+        {
+          "id": "b",
+          "text": "Le deuxième jour"
+        },
+        {
+          "id": "c",
+          "text": "Le troisième jour"
+        },
+        {
+          "id": "d",
+          "text": "Une semaine après"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jésus ressuscita le troisième jour, comme il l'avait annoncé et selon les Écritures (1 Corinthiens 15:4).",
+      "bibleReference": "1 Corinthiens 15:4",
+      "normalizedRef": "1korentyen15.4",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-008_ht",
+    "data": {
+      "id": "dq-evnt-008",
+      "questionText": "Ki sa ki te pase nan syèl ak sou tè lè Jezi te batize nan Jouden?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon tranblemanntè te souke rejyon an"
+        },
+        {
+          "id": "b",
+          "text": "Lespri a desann tankou pijon ak Papa a te pale sot nan syèl"
+        },
+        {
+          "id": "c",
+          "text": "Zanj yo te parèt sou rivyè a"
+        },
+        {
+          "id": "d",
+          "text": "Dlo Jouden an te divize"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Syèl la louvri, epi Jan te wè Lespri Bondye desann tankou yon pijon, epi poze sou li. Epi yon vwa soti nan syèl di: Sa a se Pitit mwen renmen an\" (Matye 3:16-17).",
+      "bibleReference": "Matye 3:16-17",
+      "normalizedRef": "mat3.16-17",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-008_fr",
+    "data": {
+      "id": "dq-evnt-008",
+      "questionText": "Que s'est-il passé au ciel et sur la terre quand Jésus fut baptisé dans le Jourdain ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un tremblement de terre secoua la région"
+        },
+        {
+          "id": "b",
+          "text": "L'Esprit descendit comme une colombe et le Père parla du ciel"
+        },
+        {
+          "id": "c",
+          "text": "Des anges apparurent sur la rivière"
+        },
+        {
+          "id": "d",
+          "text": "L'eau du Jourdain se divisa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Les cieux s'ouvrirent, et il vit l'Esprit de Dieu descendre comme une colombe et venir sur lui. Et voici, une voix fit entendre des cieux ces paroles : Celui-ci est mon Fils bien-aimé » (Matthieu 3:16-17).",
+      "bibleReference": "Matthieu 3:16-17",
+      "normalizedRef": "mat3.16-17",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-009_ht",
+    "data": {
+      "id": "dq-evnt-009",
+      "questionText": "Konbyen jou apre rezirèksyon li Jezi te monte nan syèl la?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 jou"
+        },
+        {
+          "id": "b",
+          "text": "7 jou"
+        },
+        {
+          "id": "c",
+          "text": "40 jou"
+        },
+        {
+          "id": "d",
+          "text": "50 jou"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"A sa yo tou, apre li te soufri, li te prezante tèt li vivan ak anpil prèv ki pa ka doute, parèt devan yo pou karant jou\" (Travay 1:3).",
+      "bibleReference": "Travay 1:3",
+      "normalizedRef": "act1.3",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-009_fr",
+    "data": {
+      "id": "dq-evnt-009",
+      "questionText": "Combien de jours après sa résurrection Jésus est-il monté au ciel ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 jours"
+        },
+        {
+          "id": "b",
+          "text": "7 jours"
+        },
+        {
+          "id": "c",
+          "text": "40 jours"
+        },
+        {
+          "id": "d",
+          "text": "50 jours"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Après qu'il eut souffert, il leur apparut vivant, et leur en donna plusieurs preuves, se montrant à eux pendant quarante jours » (Actes 1:3).",
+      "bibleReference": "Actes 1:3",
+      "normalizedRef": "act1.3",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-010_ht",
+    "data": {
+      "id": "dq-evnt-010",
+      "questionText": "Ki evènman ki te divize wayòm inifye Izrayèl an de wayòm separe?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmò wa David"
+        },
+        {
+          "id": "b",
+          "text": "Defèt kont Filistin yo"
+        },
+        {
+          "id": "c",
+          "text": "Lanmò Salomon ak rèbèlyon 10 tribi anba Roboam"
+        },
+        {
+          "id": "d",
+          "text": "Envazyon babilonyèn"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Apre lanmò Salomon, Roboam te ogmante taks. 10 tribi nò yo te rebèle epi swiv Jeroboam, divize wayòm nan ann Izrayèl (nò) ak Jida (sid) (1 Wa 12).",
+      "bibleReference": "1 Wa 12:16-19",
+      "normalizedRef": "1ki12.16-19",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-010_fr",
+    "data": {
+      "id": "dq-evnt-010",
+      "questionText": "Quel événement a divisé le royaume unifié d'Israël en deux royaumes séparés ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mort du roi David"
+        },
+        {
+          "id": "b",
+          "text": "La défaite contre les Philistins"
+        },
+        {
+          "id": "c",
+          "text": "La mort de Salomon et la rébellion des 10 tribus sous Roboam"
+        },
+        {
+          "id": "d",
+          "text": "L'invasion babylonienne"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Après la mort de Salomon, Roboam augmenta les taxes. Les 10 tribus du nord se révoltèrent et suivirent Jéroboam, divisant le royaume en Israël (nord) et Juda (sud) (1 Rois 12).",
+      "bibleReference": "1 Rois 12:16-19",
+      "normalizedRef": "1ki12.16-19",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-011_ht",
+    "data": {
+      "id": "dq-evnt-011",
+      "questionText": "Ki evènman ki te pase 50 jou apre rezirèksyon Jezi (Pak la)?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Asenksyon Jezi"
+        },
+        {
+          "id": "b",
+          "text": "Konvèsyon Pòl"
+        },
+        {
+          "id": "c",
+          "text": "Pannkòt: dècha Lespri Sen an"
+        },
+        {
+          "id": "d",
+          "text": "Premye misyon Pòl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pannkòt (Shavuot) te pase 50 jou apre Pak. Jou sa a, Lespri Sen an te vèse sou legliz la ki t ap fèt la (Travay 2:1-4).",
+      "bibleReference": "Travay 2:1-4",
+      "normalizedRef": "act2.1-4",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-011_fr",
+    "data": {
+      "id": "dq-evnt-011",
+      "questionText": "Quel événement a eu lieu 50 jours après la résurrection de Jésus (la Pâque) ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Ascension de Jésus"
+        },
+        {
+          "id": "b",
+          "text": "La conversion de Paul"
+        },
+        {
+          "id": "c",
+          "text": "La Pentecôte : la descente du Saint-Esprit"
+        },
+        {
+          "id": "d",
+          "text": "La première mission de Paul"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La Pentecôte (Shavuot) eut lieu 50 jours après la Pâque. Ce jour-là, le Saint-Esprit fut répandu sur l'église naissante (Actes 2:1-4).",
+      "bibleReference": "Actes 2:1-4",
+      "normalizedRef": "act2.1-4",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-012_ht",
+    "data": {
+      "id": "dq-evnt-012",
+      "questionText": "Ki siy sounnatirèl ki te akonpanye lanmò Jezi sou kwa a?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèlman fènwa pandan 3 èdtan"
+        },
+        {
+          "id": "b",
+          "text": "Fènwa, tranblemanntè, vwal tanp la chire ak mò yo resisite"
+        },
+        {
+          "id": "c",
+          "text": "Lapli dife ak loraj"
+        },
+        {
+          "id": "d",
+          "text": "Solèy la te klere ak entansite ki pa òdinè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lè Jezi te mouri: vwal tanp lan te chire soti anwo rive an ba, te gen tranblemanntè, wòch yo te fann, epi tonbo yo te louvri (Matye 27:50-53).",
+      "bibleReference": "Matye 27:50-53",
+      "normalizedRef": "mat27.50-53",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-012_fr",
+    "data": {
+      "id": "dq-evnt-012",
+      "questionText": "Quels signes surnaturels ont accompagné la mort de Jésus sur la croix ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seulement des ténèbres pendant 3 heures"
+        },
+        {
+          "id": "b",
+          "text": "Ténèbres, tremblement de terre, voile du temple déchiré et résurrection de saints"
+        },
+        {
+          "id": "c",
+          "text": "Pluie de feu et tonnerre"
+        },
+        {
+          "id": "d",
+          "text": "Le soleil brilla avec une intensité inhabituelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "À la mort de Jésus : le voile du temple se déchira du haut en bas, la terre trembla, les rochers se fendirent et des sépulcres s'ouvrirent (Matthieu 27:50-53).",
+      "bibleReference": "Matthieu 27:50-53",
+      "normalizedRef": "mat27.50-53",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-013_ht",
+    "data": {
+      "id": "dq-evnt-013",
+      "questionText": "Nan ki ane anviwon Jerizalèm te tonbe anba Babilòn pou Nebikadneza?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "722 anvan Kris"
+        },
+        {
+          "id": "b",
+          "text": "612 anvan Kris"
+        },
+        {
+          "id": "c",
+          "text": "586 anvan Kris"
+        },
+        {
+          "id": "d",
+          "text": "550 anvan Kris"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "An 586 anvan Kris Nebikadneza te detwi tanp Salomon an, boule Jerizalèm epi pote pèp la kaptif ann Babilòn (2 Wa 25:8-11).",
+      "bibleReference": "2 Wa 25:8-11",
+      "normalizedRef": "2ki25.8-11",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-013_fr",
+    "data": {
+      "id": "dq-evnt-013",
+      "questionText": "En quelle année environ Jérusalem est-elle tombée aux mains de Babylone sous Nebucadnetsar ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "722 av. J.-C."
+        },
+        {
+          "id": "b",
+          "text": "612 av. J.-C."
+        },
+        {
+          "id": "c",
+          "text": "586 av. J.-C."
+        },
+        {
+          "id": "d",
+          "text": "550 av. J.-C."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "En 586 av. J.-C., Nebucadnetsar détruisit le temple de Salomon, brûla Jérusalem et emmena le peuple captif à Babylone (2 Rois 25:8-11).",
+      "bibleReference": "2 Rois 25:8-11",
+      "normalizedRef": "2ki25.8-11",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-014_ht",
+    "data": {
+      "id": "dq-evnt-014",
+      "questionText": "Nan ki ane wayòm nò Izrayèl te tonbe anba envazyon Asiri?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "850 anvan Kris"
+        },
+        {
+          "id": "b",
+          "text": "722 anvan Kris"
+        },
+        {
+          "id": "c",
+          "text": "612 anvan Kris"
+        },
+        {
+          "id": "d",
+          "text": "586 anvan Kris"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "An 722 anvan Kris, wa Asiri Salmanasè V (apre Sargon II) te konkeri Samari, kapital wayòm nò a, deporte 10 tribi yo (2 Wa 17:6).",
+      "bibleReference": "2 Wa 17:6",
+      "normalizedRef": "2ki17.6",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-014_fr",
+    "data": {
+      "id": "dq-evnt-014",
+      "questionText": "En quelle année le royaume du nord d'Israël est-il tombé sous l'invasion assyrienne ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "850 av. J.-C."
+        },
+        {
+          "id": "b",
+          "text": "722 av. J.-C."
+        },
+        {
+          "id": "c",
+          "text": "612 av. J.-C."
+        },
+        {
+          "id": "d",
+          "text": "586 av. J.-C."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "En 722 av. J.-C., le roi d'Assyrie Salmanasar V (puis Sargon II) conquit Samarie, capitale du royaume du nord, et déporta les 10 tribus (2 Rois 17:6).",
+      "bibleReference": "2 Rois 17:6",
+      "normalizedRef": "2ki17.6",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-015_ht",
+    "data": {
+      "id": "dq-evnt-015",
+      "questionText": "Konbyen ane apre lanmò Jezi Ewòdyen an te detwi sou Jerizalèm pa Wòmyen yo?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 ane (40 apre Kris)"
+        },
+        {
+          "id": "b",
+          "text": "~40 ane (70 apre Kris)"
+        },
+        {
+          "id": "c",
+          "text": "100 ane (130 apre Kris)"
+        },
+        {
+          "id": "d",
+          "text": "200 ane (230 apre Kris)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tanp lan te detwi pa jeneral Women Tit nan ane 70 apre Kris, anviwon 40 ane apre krisifiksyon Jezi (~30 apre Kris), reyalize pwofesi Jezi (Matye 24:2).",
+      "bibleReference": "Matye 24:2",
+      "normalizedRef": "mat24.2",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-015_fr",
+    "data": {
+      "id": "dq-evnt-015",
+      "questionText": "Combien d'années après la mort de Jésus le temple d'Hérode à Jérusalem fut-il détruit par les Romains ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 ans (an 40)"
+        },
+        {
+          "id": "b",
+          "text": "~40 ans (an 70)"
+        },
+        {
+          "id": "c",
+          "text": "100 ans (an 130)"
+        },
+        {
+          "id": "d",
+          "text": "200 ans (an 230)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le temple fut détruit par le général romain Titus en l'an 70 apr. J.-C., environ 40 ans après la crucifixion de Jésus (~an 30), réalisant la prophétie de Jésus (Matthieu 24:2).",
+      "bibleReference": "Matthieu 24:2",
+      "normalizedRef": "mat24.2",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-016_ht",
+    "data": {
+      "id": "dq-evnt-016",
+      "questionText": "Kisa sèpan an kwiv Moyiz la (Nonb 21) anonse nan fòm tipoloji?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Biblik yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gerizon ak remèd fèy"
+        },
+        {
+          "id": "b",
+          "text": "Kwa Kris la — Jan 3:14 : « Menm jan Moyiz te leve sèpan an nan dezè a, se konsa tou yo gen pou yo leve Pitit moun nan »"
+        },
+        {
+          "id": "c",
+          "text": "Peche orijinal la k'ap kontinye mòde moun"
+        },
+        {
+          "id": "d",
+          "text": "Kilt idòl Izrayèl t'ap fè nan dezè a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sèpan an kwiv yo te leve a (Nonb 21:8-9) se yon imaj Jezi sèvi ak pou montre jan yo t'ap gen pou yo leve l sou kwa a — gade = kwè pou sove (Jan 3:14-15).",
+      "bibleReference": "Jean 3:14-15",
+      "normalizedRef": "joh3.14-15",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-016_fr",
+    "data": {
+      "id": "dq-evnt-016",
+      "questionText": "Que préfigure typologiquement le serpent d'airain de Moïse (Nombres 21) ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La guérison médicale par les herbes naturelles"
+        },
+        {
+          "id": "b",
+          "text": "La croix de Christ — Jean 3:14 : « Comme Moïse éleva le serpent dans le désert, il faut de même que le Fils de l'homme soit élevé »"
+        },
+        {
+          "id": "c",
+          "text": "Le péché originel qui continue de morsurer l'humanité"
+        },
+        {
+          "id": "d",
+          "text": "Le culte idolâtrique d'Israël dans le désert"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le serpent d'airain élevé sur une perche (Nombres 21:8-9) est explicitement interprété par Jésus comme typique de son élévation sur la croix — regarder = croire pour être sauvé (Jean 3:14-15).",
+      "bibleReference": "Jean 3:14-15",
+      "normalizedRef": "joh3.14-15",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-017_ht",
+    "data": {
+      "id": "dq-evnt-017",
+      "questionText": "Ki siyifikasyon fèt Pak la (Pesak) ak akonplisman li nan Kris la?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Biblik yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Komemorasyon travèse larivyè Jouden an"
+        },
+        {
+          "id": "b",
+          "text": "Mémorial liberasyon soti nan peyi Ejip — ti mouton Pak la se imaj Kris la, Ti Mouton Bondye a"
+        },
+        {
+          "id": "c",
+          "text": "Selebre Lalwa nan mòn Sinayi"
+        },
+        {
+          "id": "d",
+          "text": "Fèt rekòt yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pesak komemore Egzòd la — san ti mouton an sou pòt yo (Egzòd 12) se imaj san Kris la. Pòl di : « Kris la, Pak nou an, te ofri tèt li pou nou » (1 Korentyen 5:7).",
+      "bibleReference": "1 Corinthiens 5:7",
+      "normalizedRef": "1co5.7",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-017_fr",
+    "data": {
+      "id": "dq-evnt-017",
+      "questionText": "Quelle est la signification de la fête de Pâque (Pessah) et son accomplissement en Christ ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Commémoration de la traversée du Jourdain"
+        },
+        {
+          "id": "b",
+          "text": "Mémorial de la libération d'Égypte — l'agneau pascal préfigure Christ, l'Agneau de Dieu qui ôte le péché du monde"
+        },
+        {
+          "id": "c",
+          "text": "Célébration annuelle de la Loi au Sinaï"
+        },
+        {
+          "id": "d",
+          "text": "Fête de la moisson des prémices"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pessah commémore l'Exode — le sang de l'agneau sur les portes (Exode 12) préfigure le sang de Christ. Paul : « Christ, notre Pâque, a été sacrifié » (1 Corinthiens 5:7). Jean : « l'Agneau de Dieu » (Jean 1:29).",
+      "bibleReference": "1 Corinthiens 5:7",
+      "normalizedRef": "1co5.7",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-018_ht",
+    "data": {
+      "id": "dq-evnt-018",
+      "questionText": "Ki evènman ki te pèmèt Izrayèl travèse Jouden an pou yo antre Kanaran?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon pont mirak parèt"
+        },
+        {
+          "id": "b",
+          "text": "Dlo Jouden an te sispann koule"
+        },
+        {
+          "id": "c",
+          "text": "Yo te travèse nan bato"
+        },
+        {
+          "id": "d",
+          "text": "Bondye te fè yon van soufle pou seche dlo a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te fè dlo Jouden an sispann koule pou tout moun Izrayèl yo te ka pase sou tè sèch, menm jan sa te fèt nan Lanmè Wouj la (Jozye 3:15-17).",
+      "bibleReference": "Josué 3:15-17"
+    }
+  },
+  {
+    "docId": "dq-evnt-018_fr",
+    "data": {
+      "id": "dq-evnt-018",
+      "questionText": "Quel événement permit à Israël de traverser le Jourdain pour entrer en Canaan ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un pont miraculeux apparu"
+        },
+        {
+          "id": "b",
+          "text": "Les eaux du Jourdain s'arrêtèrent"
+        },
+        {
+          "id": "c",
+          "text": "Ils traversèrent en barques"
+        },
+        {
+          "id": "d",
+          "text": "Dieu assécha le fleuve avec un vent fort"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu arrêta les eaux du Jourdain pour que tout Israël passe sur terre sèche, comme à la mer Rouge (Josué 3:15-17).",
+      "bibleReference": "Josué 3:15-17",
+      "normalizedRef": "jos3.15-17",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-019_ht",
+    "data": {
+      "id": "dq-evnt-019",
+      "questionText": "Ki evènman ki te lakòz moun Izrayèl yo te pati kòm prizonye nan Babilòn?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lè moun Lasiri yo te bat yo"
+        },
+        {
+          "id": "b",
+          "text": "Lè Nabikodonosò te detwi Tanp lan"
+        },
+        {
+          "id": "c",
+          "text": "Lè wa Jozyas te mouri"
+        },
+        {
+          "id": "d",
+          "text": "Lè Samson te trayi pèp la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nabikodonosò te detwi Tanp Salomon te bati a epi li te depòte moun peyi Jida yo nan Babilòn nan lanne 586 anvan Jezi (2 Wa 25:8-12).",
+      "bibleReference": "2 Rois 25:8-12"
+    }
+  },
+  {
+    "docId": "dq-evnt-019_fr",
+    "data": {
+      "id": "dq-evnt-019",
+      "questionText": "Quel événement déclencha la captivité babylonienne d'Israël ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La défaite d'Israël par les Assyriens"
+        },
+        {
+          "id": "b",
+          "text": "La destruction du Temple par Nabuchodonosor"
+        },
+        {
+          "id": "c",
+          "text": "La mort du roi Josias"
+        },
+        {
+          "id": "d",
+          "text": "La trahison de Samson"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nabuchodonosor détruisit le Temple de Salomon et déporta Juda à Babylone en 586 av. J.-C. (2 Rois 25:8-12).",
+      "bibleReference": "2 Rois 25:8-12",
+      "normalizedRef": "2ki25.8-12",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-020_ht",
+    "data": {
+      "id": "dq-evnt-020",
+      "questionText": "Kisa ki te pase lè figi Jezi te chanje (transfigirasyon)?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jezi te mache sou dlo"
+        },
+        {
+          "id": "b",
+          "text": "Figi l' te klere epi Moyiz ak Eli te parèt bò kote l'"
+        },
+        {
+          "id": "c",
+          "text": "Li te bay 5000 moun manje ak kèk pen"
+        },
+        {
+          "id": "d",
+          "text": "Li te fè Laza leve soti vivan nan lanmò"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lè Jezi te sou mòn lan, figi l' te chanje, li te klere tankou solèy la, Moyiz ak Eli te parèt, epi Papa a te pale soti nan syèl la (Matye 17:1-5).",
+      "bibleReference": "Matthieu 17:1-5"
+    }
+  },
+  {
+    "docId": "dq-evnt-020_fr",
+    "data": {
+      "id": "dq-evnt-020",
+      "questionText": "Que se passa-t-il lors de la transfiguration de Jésus ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus marcha sur les eaux du lac"
+        },
+        {
+          "id": "b",
+          "text": "Son visage resplendit et Moïse et Élie lui apparurent"
+        },
+        {
+          "id": "c",
+          "text": "Il multiplia les pains pour 5000 personnes"
+        },
+        {
+          "id": "d",
+          "text": "Il ressuscita Lazare"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus fut transfiguré sur la montagne : son visage brilla, Moïse et Élie apparurent, et la voix du Père se fit entendre (Matthieu 17:1-5).",
+      "bibleReference": "Matthieu 17:1-5",
+      "normalizedRef": "mat17.1-5",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-021_ht",
+    "data": {
+      "id": "dq-evnt-021",
+      "questionText": "Ki evènman ki te kòmanse refòm relijye anba wa Jozyas?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vizyon Ezayi te gen nan Tanp lan"
+        },
+        {
+          "id": "b",
+          "text": "Lè yo te jwenn Liv Lalwa a nan Tanp lan"
+        },
+        {
+          "id": "c",
+          "text": "Prèch Jeremi te fè devan pòt Tanp lan"
+        },
+        {
+          "id": "d",
+          "text": "Lè moun yo te tounen soti nan prizon Babilòn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Granprèt Ilkija te jwenn Liv Lalwa a nan Tanp lan. Lè sa a, wa Jozyas te kòmanse yon gwo refòm pou pèp la tounen vin jwenn Bondye (2 Wa 22:8-11).",
+      "bibleReference": "2 Rois 22:8-13"
+    }
+  },
+  {
+    "docId": "dq-evnt-021_fr",
+    "data": {
+      "id": "dq-evnt-021",
+      "questionText": "Quel événement marqua le début de la réforme religieuse sous le roi Josias ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La vision d'Ésaïe au Temple"
+        },
+        {
+          "id": "b",
+          "text": "La découverte du Livre de la Loi dans le Temple"
+        },
+        {
+          "id": "c",
+          "text": "La prédication de Jérémie à la porte du Temple"
+        },
+        {
+          "id": "d",
+          "text": "Le retour des exilés de Babylone"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le grand prêtre Hilqija trouva le Livre de la Loi dans le Temple. Josias entreprit alors une grande réforme religieuse (2 Rois 22:8-11).",
+      "bibleReference": "2 Rois 22:8-13",
+      "normalizedRef": "2ki22.8-13",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-022_ht",
+    "data": {
+      "id": "dq-evnt-022",
+      "questionText": "Kisa vwal Tanp lan ki te chire a te vle di lè Jezi te mouri?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sakrifis bèt yo fini"
+        },
+        {
+          "id": "b",
+          "text": "Tout kwayan ka antre devan Bondye san entèmedyè"
+        },
+        {
+          "id": "c",
+          "text": "Tanp lan pral detwi talè konsa"
+        },
+        {
+          "id": "d",
+          "text": "Jou Saba a kòmanse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Vwal ki te separe kote ki sen anpil la te chire de bout an bout — sa vle di tout moun ka pwoche bò kote Bondye gras ak Jezi (Matye 27:51; Ebre 10:19-20).",
+      "bibleReference": "Matthieu 27:51"
+    }
+  },
+  {
+    "docId": "dq-evnt-022_fr",
+    "data": {
+      "id": "dq-evnt-022",
+      "questionText": "Que symbolisa la déchirure du voile du Temple lors de la mort de Jésus ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La fin du sacrifice animal"
+        },
+        {
+          "id": "b",
+          "text": "L'accès direct de tous les croyants à Dieu"
+        },
+        {
+          "id": "c",
+          "text": "La destruction prochaine du Temple"
+        },
+        {
+          "id": "d",
+          "text": "Le commencement du Sabbat"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le voile séparant le Saint des Saints s'est déchiré de haut en bas — symbolisant l'accès direct à Dieu par Christ (Matthieu 27:51; Hébreux 10:19-20).",
+      "bibleReference": "Matthieu 27:51",
+      "normalizedRef": "mat27.51",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-023_ht",
+    "data": {
+      "id": "dq-evnt-023",
+      "questionText": "Ki premye konsil Legliz la ki te deside ke moun ki pa Jwif yo pa t bezwen sikonsi?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Konsil Antiyòch la"
+        },
+        {
+          "id": "b",
+          "text": "Konsil Jerizalèm nan"
+        },
+        {
+          "id": "c",
+          "text": "Konsil Nikeya a"
+        },
+        {
+          "id": "d",
+          "text": "Konsil Efèz la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Konsil Jerizalèm nan (Travay 15) te deside ke kwayan ki pa Jwif yo pa t oblije swiv lalwa sikonsizyon an ak Lalwa Moyiz la.",
+      "bibleReference": "Actes 15:19-20"
+    }
+  },
+  {
+    "docId": "dq-evnt-023_fr",
+    "data": {
+      "id": "dq-evnt-023",
+      "questionText": "Quel premier concile de l'Église décida que les gentils n'avaient pas à se circoncire ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le concile d'Antioche"
+        },
+        {
+          "id": "b",
+          "text": "Le concile de Jérusalem"
+        },
+        {
+          "id": "c",
+          "text": "Le concile de Nicée"
+        },
+        {
+          "id": "d",
+          "text": "Le concile d'Éphèse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le concile de Jérusalem (Actes 15) décida que les gentils croyants n'étaient pas obligés d'observer la circoncision et la Loi de Moïse.",
+      "bibleReference": "Actes 15:19-20",
+      "normalizedRef": "act15.19-20",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-024_ht",
+    "data": {
+      "id": "dq-evnt-024",
+      "questionText": "Ki evènman ki te make tonbe miray Jeriko yo pandan konkèt Kanaran an?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon tranblemanntè"
+        },
+        {
+          "id": "b",
+          "text": "Yon atak sipriz lannwit"
+        },
+        {
+          "id": "c",
+          "text": "Mache Izrayelit yo pandan 7 jou ak son twonpèt yo"
+        },
+        {
+          "id": "d",
+          "text": "Yon inondasyon nan rivyè Jouden an"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Izrayelit yo te mache pandan 7 jou toutotou Jeriko. Sou setyèm jou a, apre yo fin fè 7 tou epi sonnen twonpèt yo, miray yo te tonbe (Jozye 6:15-20).",
+      "bibleReference": "Josué 6:15-20"
+    }
+  },
+  {
+    "docId": "dq-evnt-024_fr",
+    "data": {
+      "id": "dq-evnt-024",
+      "questionText": "Quel événement marqua la chute de Jéricho lors de la conquête de Canaan ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un tremblement de terre"
+        },
+        {
+          "id": "b",
+          "text": "Une attaque surprise de nuit"
+        },
+        {
+          "id": "c",
+          "text": "La marche des Israélites pendant 7 jours et les trompettes"
+        },
+        {
+          "id": "d",
+          "text": "Une inondation du Jourdain"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les Israélites marchèrent 7 jours autour de Jéricho. Au septième jour, après 7 tours et le son des trompettes, les murailles s'effondrèrent (Josué 6:15-20).",
+      "bibleReference": "Josué 6:15-20",
+      "normalizedRef": "jos6.15-20",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-025_ht",
+    "data": {
+      "id": "dq-evnt-025",
+      "questionText": "Ki evènman nan Travay 10 ki te make yon gwo chanjman nan misyon pou moun ki pa Jwif yo?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Konvèsyon Sòl sou wout Damas la"
+        },
+        {
+          "id": "b",
+          "text": "Vizyon Pyè sou tèt kay la ak konvèsyon Kònèy"
+        },
+        {
+          "id": "c",
+          "text": "Premye vwayaj misyonè Pòl la"
+        },
+        {
+          "id": "d",
+          "text": "Pannkot Jerizalèm nan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Vizyon gwo dra a (Travay 10:9-16) ak konvèsyon ofisye Kònèy te make ouvèti ofisyèl Levanjil la pou moun ki pa Jwif yo.",
+      "bibleReference": "Actes 10:44-48"
+    }
+  },
+  {
+    "docId": "dq-evnt-025_fr",
+    "data": {
+      "id": "dq-evnt-025",
+      "questionText": "Quel événement dans Actes 10 marqua une percée majeure dans la mission aux gentils ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La conversion de Saül sur le chemin de Damas"
+        },
+        {
+          "id": "b",
+          "text": "La vision de Pierre sur la toiture et la conversion de Corneille"
+        },
+        {
+          "id": "c",
+          "text": "Le premier voyage missionnaire de Paul"
+        },
+        {
+          "id": "d",
+          "text": "La Pentecôte de Jérusalem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La vision de la nappe (Actes 10:9-16) et la conversion du centurion Corneille marquèrent l'ouverture officielle de l'Évangile aux non-Juifs.",
+      "bibleReference": "Actes 10:44-48",
+      "normalizedRef": "act10.44-48",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-026_ht",
+    "data": {
+      "id": "dq-evnt-026",
+      "questionText": "Kisa sakrifis Izarak Abraram te fè a (Akeda) nan Jenèz 22 reprezante nan pwen de vi teyolojik?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Siperyorite Abraram sou Noe"
+        },
+        {
+          "id": "b",
+          "text": "Yon senbòl sakrifis Papa a ki voye sèl Pitit li a"
+        },
+        {
+          "id": "c",
+          "text": "Lafen sakrifis moun nan relijyon ansyen yo"
+        },
+        {
+          "id": "d",
+          "text": "Kontra Bondye ak tribi Levi a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ofrann Izarak la se yon imaj sakrifis Kris la: Abraram ofri sèl pitit li renmen anpil la; Bondye te bay yon belye pou ranplase l (Jenèz 22:13-14).",
+      "bibleReference": "Genèse 22:1-14"
+    }
+  },
+  {
+    "docId": "dq-evnt-026_fr",
+    "data": {
+      "id": "dq-evnt-026",
+      "questionText": "Que représente théologiquement le sacrifice d'Isaac par Abraham (l'Akeda) en Genèse 22 ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La supériorité d'Abraham sur Noé"
+        },
+        {
+          "id": "b",
+          "text": "Un type du sacrifice du Père envoyant son Fils unique"
+        },
+        {
+          "id": "c",
+          "text": "La fin des sacrifices humains dans les religions du Proche-Orient"
+        },
+        {
+          "id": "d",
+          "text": "L'alliance de Dieu avec la tribu de Lévi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'offrande d'Isaac est un type du sacrifice de Christ : Abraham offre son fils unique bien-aimé ; Dieu substitua un bélier (Genèse 22:13-14).",
+      "bibleReference": "Genèse 22:1-14",
+      "normalizedRef": "gen22.1-14",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-027_ht",
+    "data": {
+      "id": "dq-evnt-027",
+      "questionText": "Ki evènman ki te separe wayòm Izrayèl la an de pati apre lanmò Salomon?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmò Sayil nan Gilboa"
+        },
+        {
+          "id": "b",
+          "text": "Lè tribi nan nò yo te rejte Roboam nan Sichèm"
+        },
+        {
+          "id": "c",
+          "text": "Rebelion Absalon kont David"
+        },
+        {
+          "id": "d",
+          "text": "Defèt Izrayèl devan Filisten yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Roboam te refize aleje chay Salomon te mete sou pèp la. 10 tribi nan nò yo te separe anba direksyon Jewoboram nan Sichèm (1 Wa 12:16-20).",
+      "bibleReference": "1 Rois 12:16-20"
+    }
+  },
+  {
+    "docId": "dq-evnt-027_fr",
+    "data": {
+      "id": "dq-evnt-027",
+      "questionText": "Quel événement sépara définitivement le royaume d'Israël en deux après Salomon ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mort de Saül à Guilboa"
+        },
+        {
+          "id": "b",
+          "text": "Le rejet de Roboam par les tribus du nord à Sichem"
+        },
+        {
+          "id": "c",
+          "text": "La rébellion de Absalom contre David"
+        },
+        {
+          "id": "d",
+          "text": "La défaite d'Israël par les Philistins"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Roboam refusa d'alléger le joug imposé par Salomon. Les 10 tribus du nord se séparèrent sous Jéroboam à Sichem (1 Rois 12:16-20).",
+      "bibleReference": "1 Rois 12:16-20",
+      "normalizedRef": "1ki12.16-20",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "docId": "dq-evnt-028_ht",
+    "data": {
+      "id": "dq-evnt-028",
+      "questionText": "Ki evènman apokalips ki make lafen milenè a nan Revelasyon 20?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lagè Gòg ak Magòg"
+        },
+        {
+          "id": "b",
+          "text": "Parèt Nouvo Jerizalèm nan"
+        },
+        {
+          "id": "c",
+          "text": "Rezirèksyon tout moun mouri yo"
+        },
+        {
+          "id": "d",
+          "text": "Jijman gwo fotèy blan an"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nan lafen milenè a, Satan ap lage epi l ap rasanble nasyon yo (Gòg ak Magòg) pou batay final la, anvan Gwo Jijman an (Revelasyon 20:7-10).",
+      "bibleReference": "Apocalypse 20:7-10"
+    }
+  },
+  {
+    "docId": "dq-evnt-028_fr",
+    "data": {
+      "id": "dq-evnt-028",
+      "questionText": "Quel événement apocalyptique marque la fin du millénium en Apocalypse 20 ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La guerre de Gog et Magog"
+        },
+        {
+          "id": "b",
+          "text": "L'apparition de la Nouvelle Jérusalem"
+        },
+        {
+          "id": "c",
+          "text": "La résurrection de tous les morts"
+        },
+        {
+          "id": "d",
+          "text": "Le jugement du Grand Trône blanc"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "À la fin du millénium, Satan est relâché et rassemble les nations (Gog et Magog) pour la bataille finale, avant le Grand Jugement (Apocalypse 20:7-10).",
+      "bibleReference": "Apocalypse 20:7-10",
+      "normalizedRef": "rev20.7-10",
+      "normalizedCat": "eventos"
+    }
+  }
+]

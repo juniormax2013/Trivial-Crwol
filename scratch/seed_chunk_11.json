@@ -1,0 +1,3354 @@
+[
+  {
+    "docId": "dq-mil-013_ht",
+    "data": {
+      "id": "dq-mil-013",
+      "questionText": "Ki mirak Jezi ki rapòte sèlman nan Levanjil Jan epi ki se pi dramatik?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geri avèg nan Bet-Saida"
+        },
+        {
+          "id": "b",
+          "text": "Revèy tanpèt"
+        },
+        {
+          "id": "c",
+          "text": "Leve Laza apre 4 jou"
+        },
+        {
+          "id": "d",
+          "text": "Diven Kana"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Leve Laza (Jan 11) rapòte sèlman nan Levanjil Jan an. Li kòm siy klimaks ki pwovokte desizyon lidè Jwif yo touye Jezi.",
+      "bibleReference": "Jan 11:53",
+      "normalizedRef": "joh11.53",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-013_fr",
+    "data": {
+      "id": "dq-mil-013",
+      "questionText": "Quel miracle de Jésus n'est rapporté que dans l'Évangile de Jean et est considéré comme le plus dramatique ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La guérison de l'aveugle de Bethsaïda"
+        },
+        {
+          "id": "b",
+          "text": "Calmer la tempête"
+        },
+        {
+          "id": "c",
+          "text": "La résurrection de Lazare après 4 jours"
+        },
+        {
+          "id": "d",
+          "text": "Le vin à Cana"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La résurrection de Lazare (Jean 11) n'est rapportée que par Jean. C'est le miracle culminant qui provoqua la décision des chefs juifs de tuer Jésus.",
+      "bibleReference": "Jean 11:53",
+      "normalizedRef": "joh11.53",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-014_ht",
+    "data": {
+      "id": "dq-mil-014",
+      "questionText": "Konbyen mirak yo konte nan Levanjil Jan kòm \"siy\" (semeia) kle?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Levanjil Jan gen 7 siy prensipal: diven Kana, geri pitit ofisyèl, paralitik Betezda, nouri 5000, mache sou dlo, geri avèg, leve Laza.",
+      "bibleReference": "Jan 20:30-31",
+      "normalizedRef": "joh20.30-31",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-014_fr",
+    "data": {
+      "id": "dq-mil-014",
+      "questionText": "Combien de miracles sont comptés dans l'Évangile de Jean comme des \"signes\" (semeia) clés ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Évangile de Jean contient 7 signes principaux : le vin à Cana, la guérison du fils de l'officier, le paralytique de Béthesda, nourrir les 5000, marcher sur l'eau, l'aveugle-né, et Lazare.",
+      "bibleReference": "Jean 20:30-31",
+      "normalizedRef": "joh20.30-31",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-015_ht",
+    "data": {
+      "id": "dq-mil-015",
+      "questionText": "Ki mirak Jezi ki te fèt nan lannwit epi anpil disip yo te pran l pou yon fantom?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Transfigriasyon"
+        },
+        {
+          "id": "b",
+          "text": "Mache sou dlo Lanmè Galile"
+        },
+        {
+          "id": "c",
+          "text": "Aparisyon apre rezirèksyon"
+        },
+        {
+          "id": "d",
+          "text": "Disparèt nan mitan foul la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nan kat èdtan di maten, Jezi te vini bò bato a k ap mache sou dlo. Disip yo te rele: \"Se yon fantom!\" ak yo te pè (Matye 14:25-26).",
+      "bibleReference": "Matye 14:25-26",
+      "normalizedRef": "mat14.25-26",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-015_fr",
+    "data": {
+      "id": "dq-mil-015",
+      "questionText": "Quel miracle de Jésus a eu lieu de nuit et a fait peur aux disciples qui l'ont pris pour un fantôme ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles de Jésus",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Transfiguration"
+        },
+        {
+          "id": "b",
+          "text": "Marcher sur l'eau de la mer de Galilée"
+        },
+        {
+          "id": "c",
+          "text": "L'apparition après la résurrection"
+        },
+        {
+          "id": "d",
+          "text": "Sa disparition au milieu de la foule"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "À la quatrième veille de la nuit, Jésus alla vers eux, marchant sur la mer. Les disciples crièrent de peur : \"C'est un fantôme !\" (Matthieu 14:25-26).",
+      "bibleReference": "Matthieu 14:25-26",
+      "normalizedRef": "mat14.25-26",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-016_ht",
+    "data": {
+      "id": "dq-mil-016",
+      "questionText": "Ki premye mirak Jezi te fè nan yon maryaj nan vil Kana?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li geri yon moun avèg"
+        },
+        {
+          "id": "b",
+          "text": "Li chanje dlo fè diven"
+        },
+        {
+          "id": "c",
+          "text": "Li mache sou dlo"
+        },
+        {
+          "id": "d",
+          "text": "Li miltipliye pen yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 2:1-11 — Jezi te chanje dlo ki te nan sis gwo krich an diven nan yon nòs nan lavil Kana.",
+      "bibleReference": "Jan 2:11",
+      "normalizedRef": "joh2.11",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-016_fr",
+    "data": {
+      "id": "dq-mil-016",
+      "questionText": "Quel fut le premier miracle de Jésus lors d'un mariage à Cana ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il guérit un aveugle"
+        },
+        {
+          "id": "b",
+          "text": "Il chanya l'eau en vin"
+        },
+        {
+          "id": "c",
+          "text": "Il marcha sur l'eau"
+        },
+        {
+          "id": "d",
+          "text": "Il multiplia les pains"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean 2:1-11 — Jésus changea l'eau contenue dans six jarres de pierre en vin lors d'une noce à Cana de Galilée.",
+      "bibleReference": "Jean 2:11",
+      "normalizedRef": "joh2.11",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-017_ht",
+    "data": {
+      "id": "dq-mil-017",
+      "questionText": "Ki zanmi Jezi li te fè leve soti vivan nan lanmò apre li te gen kat jou antere?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Laza"
+        },
+        {
+          "id": "b",
+          "text": "Jairis"
+        },
+        {
+          "id": "c",
+          "text": "Pyè"
+        },
+        {
+          "id": "d",
+          "text": "Jan"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jan 11:43-44 — Jezi rele byen fò: Laza, soti deyò! Epi moun ki te mouri a soti.",
+      "bibleReference": "Jan 11:43-44",
+      "normalizedRef": "joh11.43-44",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-017_fr",
+    "data": {
+      "id": "dq-mil-017",
+      "questionText": "Quel ami de Jésus ressuscita-t-il après qu'il eut été enterré pendant quatre jours ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lazare"
+        },
+        {
+          "id": "b",
+          "text": "Jaïrus"
+        },
+        {
+          "id": "c",
+          "text": "Pierre"
+        },
+        {
+          "id": "d",
+          "text": "Jean"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jan 11:43-44 — Jezi rele byen fò: Laza, soti deyò! Epi moun ki te mouri a soti.",
+      "bibleReference": "Jan 11:43-44",
+      "normalizedRef": "joh11.43-44",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-018_ht",
+    "data": {
+      "id": "dq-mil-018",
+      "questionText": "Konbyen pen ak pwason Jezi te itilize pou li bay plis pase 5000 moun manje?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 pen ak 5 pwason"
+        },
+        {
+          "id": "b",
+          "text": "5 pen ak 2 pwason"
+        },
+        {
+          "id": "c",
+          "text": "7 pen ak kèk ti pwason"
+        },
+        {
+          "id": "d",
+          "text": "12 pen ak 12 pwason"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 14:17-19 — \"Nou pa gen isit la pase senk pen ak de pwason... li beni yo, li kase pen yo, li bay disip yo...\"",
+      "bibleReference": "Matye 14:17-19",
+      "normalizedRef": "mat14.17-19",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-018_fr",
+    "data": {
+      "id": "dq-mil-018",
+      "questionText": "Combien de pains et de poissons Jésus a-t-il utilisés pour nourrir plus de 5000 personnes ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "2 pains et 5 poissons"
+        },
+        {
+          "id": "b",
+          "text": "5 pains et 2 poissons"
+        },
+        {
+          "id": "c",
+          "text": "7 pains et quelques petits poissons"
+        },
+        {
+          "id": "d",
+          "text": "12 pains et 12 poissons"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 14:17-19 — « Nous n'avons ici que cinq pains et deux poissons... il leva les yeux vers le ciel, et rendit grâces. Puis, il rompit les pains et les donna aux disciples... »",
+      "bibleReference": "Matthieu 14:17-19",
+      "normalizedRef": "mat14.17-19",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-019_ht",
+    "data": {
+      "id": "dq-mil-019",
+      "questionText": "Ki sa k te rive lè disip yo te nan yon kannòt nan mitan yon gwo tanpèt epi yo te pè anpil?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bato a te koule"
+        },
+        {
+          "id": "b",
+          "text": "Jezi te dòmi, men li leve li kòmande van an ak lanmè a"
+        },
+        {
+          "id": "c",
+          "text": "Yo te naje al bò rivaj la"
+        },
+        {
+          "id": "d",
+          "text": "Zanj te vin pote yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mak 4:39 — \"Jezi leve, li pale byen fò ak van an, li di lanmè a: Pe! Rete trankil! Van an sispann, epi yon gwo kalmi fèt.\"",
+      "bibleReference": "Mak 4:39",
+      "normalizedRef": "mar4.39",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-019_fr",
+    "data": {
+      "id": "dq-mil-019",
+      "questionText": "Que se passa-t-il lorsque les disciples étaient dans une barque au milieu d'une grande tempête et qu'ils eurent très peur ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le bateau a coulé"
+        },
+        {
+          "id": "b",
+          "text": "Jésus dormait, mais il se leva et commanda au vent et à la mer"
+        },
+        {
+          "id": "c",
+          "text": "Ils ont nagé jusqu'au rivage"
+        },
+        {
+          "id": "d",
+          "text": "Des anges sont venus les porter"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Marc 4:39 — « S'étant réveillé, il menaça le vent, et dit à la mer : Silence ! tais-toi ! Et le vent cessa, et il y eut un grand calme. »",
+      "bibleReference": "Marc 4:39",
+      "normalizedRef": "mar4.39",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-020_ht",
+    "data": {
+      "id": "dq-mil-020",
+      "questionText": "Ki disip ki te eseye mache sou dlo pou l al jwenn Jezi, men li te kòmanse koule paske li te pè?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jan"
+        },
+        {
+          "id": "b",
+          "text": "Andre"
+        },
+        {
+          "id": "c",
+          "text": "Pyè"
+        },
+        {
+          "id": "d",
+          "text": "Jak"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matye 14:29-30 — \"Pyè desann soti nan kannòt la, li kòmanse mache sou dlo a... men lè li wè van an fò, li pè. Li kòmanse koule...\"",
+      "bibleReference": "Matye 14:29-30",
+      "normalizedRef": "mat14.29-30",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-020_fr",
+    "data": {
+      "id": "dq-mil-020",
+      "questionText": "Quel disciple essaya de marcher sur l'eau pour rejoindre Jésus, mais commença à s'enfoncer parce qu'il eut peur ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jean"
+        },
+        {
+          "id": "b",
+          "text": "André"
+        },
+        {
+          "id": "c",
+          "text": "Pierre"
+        },
+        {
+          "id": "d",
+          "text": "Jacques"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matthieu 14:29-30 — « Et Pierre descendit de la barque, et marcha sur les eaux... Mais, voyant que le vent était fort, il eut peur ; et, comme il commençait à s'enfoncer... »",
+      "bibleReference": "Matthieu 14:29-30",
+      "normalizedRef": "mat14.29-30",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-021_ht",
+    "data": {
+      "id": "dq-mil-021",
+      "questionText": "Konbyen gason ki te gen maladi lèp Jezi te geri, men se yon sèl ki te tounen vin di l mèsi?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lik 17:12-17 — \"Dis moun ki te gen lalèp... yo geri... Youn ladan yo tounen... Jezi di: Eske se pa nou dis yo ki geri?\"",
+      "bibleReference": "Lik 17:12-17",
+      "normalizedRef": "luk17.12-17",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-021_fr",
+    "data": {
+      "id": "dq-mil-021",
+      "questionText": "Combien de lépreux Jésus a-t-il guéris, mais un seul revint pour lui dire merci ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Luc 17:12-17 — « Dix lépreux... furent guéris... L'un d'eux... revint... Jésus, prenant la parole, dit : Les dix n'ont-ils pas été guéris ? »",
+      "bibleReference": "Luc 17:12-17",
+      "normalizedRef": "luk17.12-17",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-022_ht",
+    "data": {
+      "id": "dq-mil-022",
+      "questionText": "Ki jan Jezi te geri nonm avèg ki te fèt avèg la nan liv Jan an?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li annik di yon pawòl"
+        },
+        {
+          "id": "b",
+          "text": "Li krache atè, li fè labou ak krache a, li mete l sou je nonm lan"
+        },
+        {
+          "id": "c",
+          "text": "Li mete dlo nan je l"
+        },
+        {
+          "id": "d",
+          "text": "Li mande l pou l al lave figi l nan lanmè a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 9:6 — \"Lè l fin di sa, li krache atè, li fè yon ti labou ak krache a, li mete labou a sou je nonm lan.\"",
+      "bibleReference": "Jan 9:6",
+      "normalizedRef": "joh9.6",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-022_fr",
+    "data": {
+      "id": "dq-mil-022",
+      "questionText": "Comment Jésus a-t-il guéri l'homme né aveugle dans l'Évangile de Jean ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il a simplement dit une parole"
+        },
+        {
+          "id": "b",
+          "text": "Il cracha à terre, fit de la boue avec sa salive, et appliqua cette boue sur ses yeux"
+        },
+        {
+          "id": "c",
+          "text": "Il mit de l'eau dans ses yeux"
+        },
+        {
+          "id": "d",
+          "text": "Il lui demanda d'aller se laver le visage dans la mer"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean 9:6 — « Après avoir dit cela, il cracha à terre, et fit de la boue avec sa salive. Puis il appliqua cette boue sur les yeux de l'aveugle. »",
+      "bibleReference": "Jean 9:6",
+      "normalizedRef": "joh9.6",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-023_ht",
+    "data": {
+      "id": "dq-mil-023",
+      "questionText": "Ki sa ki te rive fanm ki te gen pèdisyon pandan 12 lane a lè li te manyen rad Jezi?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te vin pi malad"
+        },
+        {
+          "id": "b",
+          "text": "Li te geri menm kote a"
+        },
+        {
+          "id": "c",
+          "text": "Sòlda yo te arete l"
+        },
+        {
+          "id": "d",
+          "text": "Li pa t rive manyen l"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mak 5:28-29 — \"Li t’ap di nan kè l: Si m’ ka manyen rad li sèlman, m’a geri. Menm lè a, san an sispann koule...\"",
+      "bibleReference": "Mak 5:28-29",
+      "normalizedRef": "mar5.28-29",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-023_fr",
+    "data": {
+      "id": "dq-mil-023",
+      "questionText": "Qu'arriva-t-il à la femme qui souffrait d'une perte de sang depuis 12 ans lorsqu'elle toucha le vêtement de Jésus ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elle devint plus malade"
+        },
+        {
+          "id": "b",
+          "text": "Elle fut guérie à l'instant même"
+        },
+        {
+          "id": "c",
+          "text": "Les soldats l'ont arrêtée"
+        },
+        {
+          "id": "d",
+          "text": "Elle n'arriva pas à le toucher"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Marc 5:28-29 — « Car elle disait : Si je puis seulement toucher ses vêtements, je serai guérie. Au même instant la perte de sang s'arrêta... »",
+      "bibleReference": "Marc 5:28-29",
+      "normalizedRef": "mar5.28-29",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-024_ht",
+    "data": {
+      "id": "dq-mil-024",
+      "questionText": "Ki mirak Jezi te fè pou ede Pyè peye taks tanp lan?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li fè lajan tonbe soti nan syèl la"
+        },
+        {
+          "id": "b",
+          "text": "Li di l al lapèch, premye pwason li pran an t ap gen yon pyès lajan nan bouch li"
+        },
+        {
+          "id": "c",
+          "text": "Li miltipliye lajan Pyè te genyen an"
+        },
+        {
+          "id": "d",
+          "text": "Li te fè wa a pa mande yo taks"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 17:27 — \"Ale bò lanmè a, jete yon zen... premye pwason ki va mòde a, pran l. Louvri bouch li, w’a jwenn yon pyès lajan...\"",
+      "bibleReference": "Matye 17:27",
+      "normalizedRef": "mat17.27",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-024_fr",
+    "data": {
+      "id": "dq-mil-024",
+      "questionText": "Quel miracle Jésus fit-il pour aider Pierre à payer l'impôt du temple ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il fit tomber de l'argent du ciel"
+        },
+        {
+          "id": "b",
+          "text": "Il lui dit d'aller pêcher, et le premier poisson qu'il tirerait aurait une pièce d'argent dans la bouche"
+        },
+        {
+          "id": "c",
+          "text": "Il multiplia l'argent que Pierre avait déjà"
+        },
+        {
+          "id": "d",
+          "text": "Il fit en sorte que le roi ne leur demande pas d'impôt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 17:27 — « ... va à la mer, jette l'hameçon... le premier poisson qui viendra, prends-le ; ouvre-lui la bouche, et tu trouveras un statère... »",
+      "bibleReference": "Matthieu 17:27",
+      "normalizedRef": "mat17.27",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-025_ht",
+    "data": {
+      "id": "dq-mil-025",
+      "questionText": "Ki nonm Jezi te fè desann soti nan syèl la (prizon) nan tonbo a apre 4 jou?",
+      "categoryId": "milagros",
+      "categoryName": "Mirak Jezi yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Laza"
+        },
+        {
+          "id": "b",
+          "text": "Barabas"
+        },
+        {
+          "id": "c",
+          "text": "Etiyis"
+        },
+        {
+          "id": "d",
+          "text": "Jak"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jan 11:43-44 — Jezi te fè mirak pou resisite Laza nan lavil Betani.",
+      "bibleReference": "Jan 11:43-44",
+      "normalizedRef": "joh11.43-44",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mil-025_fr",
+    "data": {
+      "id": "dq-mil-025",
+      "questionText": "Quel homme Jésus a-t-il ressuscité de la tombe après quatre jours ?",
+      "categoryId": "milagros",
+      "categoryName": "Miracles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lazare"
+        },
+        {
+          "id": "b",
+          "text": "Barabbas"
+        },
+        {
+          "id": "c",
+          "text": "Eutychus"
+        },
+        {
+          "id": "d",
+          "text": "Jacques"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jean 11:43-44 — Jésus fit un miracle pour ressusciter Lazare à Béthanie.",
+      "bibleReference": "Jean 11:43-44",
+      "normalizedRef": "joh11.43-44",
+      "normalizedCat": "milagros"
+    }
+  },
+  {
+    "docId": "dq-mis-001_ht",
+    "data": {
+      "id": "dq-mis-001",
+      "questionText": "Ki kontribisyon fondamantal Antiyòch te bay misyon premye legliz la?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Se premye kote Bib la te ekri"
+        },
+        {
+          "id": "b",
+          "text": "Premye kote kwayan yo te rele \"kretyen\" ak kote yo voye premye misyonè yo"
+        },
+        {
+          "id": "c",
+          "text": "Kote Pòl te fonde premye legliz li a"
+        },
+        {
+          "id": "d",
+          "text": "Kote Konsilta Nikeya a te fèt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 11:26 — Antiyòch: premye fwa kwayan yo rele \"kretyen.\" Travay 13:1-3 — legliz voye Pòl ak Barnabas nan premye vwayaj misyonè yo. Bèso misyon kretyen an.",
+      "bibleReference": "Travay 13:1-3"
+    }
+  },
+  {
+    "docId": "dq-mis-001_fr",
+    "data": {
+      "id": "dq-mis-001",
+      "questionText": "Quelle contribution fondamentale Antioche a-t-elle apportée à la mission de l'église primitive ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "C'est le premier endroit où la Bible a été écrite"
+        },
+        {
+          "id": "b",
+          "text": "C'est là que les croyants furent appelés « chrétiens » et d'où les premiers missionnaires furent envoyés"
+        },
+        {
+          "id": "c",
+          "text": "C'est là que Paul a fondé sa première église"
+        },
+        {
+          "id": "d",
+          "text": "C'est là que s'est tenu le Concile de Nicée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 11:26 — À Antioche, les disciples furent appelés chrétiens pour la première fois. Actes 13:1-3 — L'église y envoya Paul et Barnabas en mission.",
+      "bibleReference": "Actes 13:1-3"
+    }
+  },
+  {
+    "docId": "dq-mis-002_ht",
+    "data": {
+      "id": "dq-mis-002",
+      "questionText": "Ki sa \"misyon Dei\" (Misyon Bondye) vle di?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Misyon legliz sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Bondye li menm se misyonè prensipal — legliz patisipe nan misyon Bondye a"
+        },
+        {
+          "id": "c",
+          "text": "Voye moun etranje sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Travay espesyalman pou ONG kretyen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Teoloji kontenporèn: \"Misyon Dei\" — misyon pati nan Bondye Trinite a. Jan 17:18 — \"Menm jan ou voye mwen, mwen tou voye yo.\" Legliz se enstriman Bondye, pa sous misyon an.",
+      "bibleReference": "Jan 17:18"
+    }
+  },
+  {
+    "docId": "dq-mis-002_fr",
+    "data": {
+      "id": "dq-mis-002",
+      "questionText": "Que signifie « missio Dei » (Mission de Dieu) ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mission de l'église uniquement"
+        },
+        {
+          "id": "b",
+          "text": "Dieu lui-même est le missionnaire principal — l'église participe à la mission de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Envoyer uniquement des étrangers"
+        },
+        {
+          "id": "d",
+          "text": "Travailler spécifiquement pour des ONG chrétiennes"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Théologie contemporaine : « Missio Dei » — la mission émane de Dieu Trinité. Jean 17:18 — « Comme tu m'as envoyé dans le monde, je les ai aussi envoyés dans le monde. » L'Église est l'instrument de Dieu, non la source de la mission.",
+      "bibleReference": "Jean 17:18"
+    }
+  },
+  {
+    "docId": "dq-mis-003_ht",
+    "data": {
+      "id": "dq-mis-003",
+      "questionText": "Ki premye misyonè ki mansyone nan liv Travay yo?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pòl ak Barnabas"
+        },
+        {
+          "id": "b",
+          "text": "Filip ak Pyè"
+        },
+        {
+          "id": "c",
+          "text": "Etyen ak Jan"
+        },
+        {
+          "id": "d",
+          "text": "Niklas ak Timon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 8 — Filip pote Evanjil Samari epi evanjelize yon etyopyen. Pyè te ale Kapadòs ak Lis. Premye misyon deyò Jerizalèm anvan Pòl.",
+      "bibleReference": "Travay 8:4-8"
+    }
+  },
+  {
+    "docId": "dq-mis-003_fr",
+    "data": {
+      "id": "dq-mis-003",
+      "questionText": "Quels sont les premiers missionnaires mentionnés dans le livre des Actes ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paul et Barnabas"
+        },
+        {
+          "id": "b",
+          "text": "Philippe et Pierre"
+        },
+        {
+          "id": "c",
+          "text": "Étienne et Jean"
+        },
+        {
+          "id": "d",
+          "text": "Nicolas et Timon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 8 — Philippe apporte l'Évangile en Samarie et évangélise un Éthiopien. Pierre est allé à Capadoce et Lystre. Premières missions hors de Jérusalem avant Paul.",
+      "bibleReference": "Actes 8:4-8"
+    }
+  },
+  {
+    "docId": "dq-mis-004_ht",
+    "data": {
+      "id": "dq-mis-004",
+      "questionText": "Ki diferans ant \"evangjelizasyon\" ak \"misyon entegral\"?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo menm — sèlman pawòl diferan"
+        },
+        {
+          "id": "b",
+          "text": "Evanjilizasyon = pwoklamasyon verbal; misyon entegral = adrese tout bezwen imen (espirityèl, sosyal, fizik)"
+        },
+        {
+          "id": "c",
+          "text": "Misyon entegral pa gen espirityèl"
+        },
+        {
+          "id": "d",
+          "text": "Evanjilizasyon pi enpòtan ke sosyal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lk 4:18-19 — Jezi te preche ak geri, delivre ak libere. Misyon entegral: kò, lespri, sosyete. Lozàn Konvenant (1974) note tou de dimansyon yo enpòtan.",
+      "bibleReference": "Lk 4:18-19"
+    }
+  },
+  {
+    "docId": "dq-mis-004_fr",
+    "data": {
+      "id": "dq-mis-004",
+      "questionText": "Quelle est la différence entre « évangélisation » et « mission intégrale » ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "C'est la même chose — seuls les mots changent"
+        },
+        {
+          "id": "b",
+          "text": "Évangélisation = proclamation verbale ; mission intégrale = répondre à tous les besoins humains (spirituels, sociaux, physiques)"
+        },
+        {
+          "id": "c",
+          "text": "La mission intégrale n'inclut pas le volet spirituel"
+        },
+        {
+          "id": "d",
+          "text": "L'évangélisation est plus importante que l'aspect social"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Luc 4:18-19 — Jésus prêchait et guérissait, délivrait et libérait. Mission intégrale : corps, esprit, société. Le Pacte de Lausanne (1974) note que les deux dimensions sont importantes.",
+      "bibleReference": "Luc 4:18-19"
+    }
+  },
+  {
+    "docId": "dq-mis-005_ht",
+    "data": {
+      "id": "dq-mis-005",
+      "questionText": "Ki sa \"10/40 Finèt\" vle di nan diskisyon misyon?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dat yon konferans misyonè"
+        },
+        {
+          "id": "b",
+          "text": "Zòn jeyografik 10-40° Nò kote pifò moun ki pa jwenn Evanjil la rete"
+        },
+        {
+          "id": "c",
+          "text": "Yon pwogram pou Afrik sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Kantite ak kalite misyonè yo bezwen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Konsèp Luis Bush (1990) — Finèt 10/40: zòn ant latitid 10 ak 40 Nò (Afrik Nò, Mwayen Oryan, Azi) kote majorite pèp \"enkonsidere\" yo ak pi gwo rezistans pou Evanjil.",
+      "bibleReference": "Matye 28:19"
+    }
+  },
+  {
+    "docId": "dq-mis-005_fr",
+    "data": {
+      "id": "dq-mis-005",
+      "questionText": "Que signifie la « Fenêtre 10/40 » dans les discussions sur la mission ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La date d'une conférence missionnaire"
+        },
+        {
+          "id": "b",
+          "text": "Une zone géographique située entre 10 et 40 degrés de latitude Nord où vivent la plupart des peuples non atteints par l'Évangile"
+        },
+        {
+          "id": "c",
+          "text": "Un programme uniquement pour l'Afrique"
+        },
+        {
+          "id": "d",
+          "text": "La quantité et la qualité des missionnaires nécessaires"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Concept de Luis Bush (1990) — La Fenêtre 10/40 : zone située entre les latitudes 10 et 40 Nord (Afrique du Nord, Moyen-Orient, Asie) regroupant la majorité des peuples non atteints et les plus grandes résistances à l'Évangile.",
+      "bibleReference": "Matthieu 28:19"
+    }
+  },
+  {
+    "docId": "dq-mis-006_ht",
+    "data": {
+      "id": "dq-mis-006",
+      "questionText": "Kisa « missio Dei » (misyon Bondye) ye nan teyoloji misyonè jodi a?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Misyon nou bay Bondye nan lapriyè nou"
+        },
+        {
+          "id": "b",
+          "text": "Misyon an se pou Bondye li menm — Legliz la patisipe nan aksyon misyonè Bondye nan mond lan"
+        },
+        {
+          "id": "c",
+          "text": "Misyon an se pou misyonè pwofesyonèl yo sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Pwogram evanjelizasyon Legliz la òganize"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Missio Dei (Hartenstein, 1952) : misyon an se pa premye pwogram Legliz la — li se pou Trinite a. Yo voye Legliz la kòm enstriman misyon diven an (Jan 20:21).",
+      "bibleReference": "Jean 20:21",
+      "normalizedRef": "joh20.21",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "docId": "dq-mis-006_fr",
+    "data": {
+      "id": "dq-mis-006",
+      "questionText": "Qu'est-ce que la « missio Dei » (mission de Dieu) dans la théologie missionnnaire contemporaine ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mission que nous donnons à Dieu dans nos prières"
+        },
+        {
+          "id": "b",
+          "text": "La mission appartient à Dieu lui-même — l'Église participe à l'action missionnaire de Dieu dans le monde"
+        },
+        {
+          "id": "c",
+          "text": "La mission n'appartient qu'aux missionnaires professionnels"
+        },
+        {
+          "id": "d",
+          "text": "Les programmes d'évangélisation organisés par l'Église"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Missio Dei (Hartenstein, 1952) : la mission n'est pas d'abord un programme de l'Église — elle appartient à la Trinité. L'Église est envoyée comme instrument de la mission divine (Jean 20:21).",
+      "bibleReference": "Jean 20:21",
+      "normalizedRef": "joh20.21",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "docId": "dq-mis-007_ht",
+    "data": {
+      "id": "dq-mis-007",
+      "questionText": "Dapre Women 10:13-15, kisa ki nesesè pou moun yo kwè?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mirak pou pwouve mesaj la"
+        },
+        {
+          "id": "b",
+          "text": "Predikatè yo voye — lafwa vini lè yo tande e yo tande Pawòl Bondye a"
+        },
+        {
+          "id": "c",
+          "text": "Distribisyon Bib san esplikasyon"
+        },
+        {
+          "id": "d",
+          "text": "Gras la sèlman san mwayen imen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Kijan y'a fè kwè nan moun yo pa tande pale de li ?... Kijan y'a fè preche si yo pa voye yo ?... lafwa vini nan sa yo tande » (Women 10:14-17).",
+      "bibleReference": "Romains 10:14-17",
+      "normalizedRef": "rom10.14-17",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "docId": "dq-mis-007_fr",
+    "data": {
+      "id": "dq-mis-007",
+      "questionText": "Selon Romains 10:13-15, qu'est-ce qui est nécessaire pour que les gens croient ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des miracles spectaculaires pour prouver le message"
+        },
+        {
+          "id": "b",
+          "text": "Des prédicateurs envoyés — la foi vient par l'ouïe et l'ouïe par la Parole de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "La distribution de Bibles sans explication"
+        },
+        {
+          "id": "d",
+          "text": "La grâce seule sans moyen humain"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Comment croiront-ils en celui dont ils n'ont pas entendu parler ?... Comment prêcheront-ils, s'ils ne sont envoyés ?... la foi vient de ce qu'on entend » (Romains 10:14-17).",
+      "bibleReference": "Romains 10:14-17",
+      "normalizedRef": "rom10.14-17",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "docId": "dq-mis-008_ht",
+    "data": {
+      "id": "dq-mis-008",
+      "questionText": "Ki pèsonaj biblik yo konsidere kòm premye « misyonè » trans-kiltirèl sou yon gwo echèl?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Pyè"
+        },
+        {
+          "id": "c",
+          "text": "Pòl"
+        },
+        {
+          "id": "d",
+          "text": "Barnabas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pòl se premye moun ki te kòmanse yon misyon sistematik bò kote janti yo nan diferan kilti — « apòt nasyon yo » (Women 11:13).",
+      "bibleReference": "Romains 11:13",
+      "normalizedRef": "rom11.13",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "docId": "dq-mis-008_fr",
+    "data": {
+      "id": "dq-mis-008",
+      "questionText": "Quel personnage biblique est considéré comme le premier « missionnaire » cross-culturel à grande échelle ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Pierre"
+        },
+        {
+          "id": "c",
+          "text": "Paul"
+        },
+        {
+          "id": "d",
+          "text": "Barnabas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Paul est le premier à entreprendre une mission délibérée et systématique vers les gentils à travers différentes cultures grecques, lyciennes, macédoniennes et romaines — « apôtre des nations » (Romains 11:13).",
+      "bibleReference": "Romains 11:13",
+      "normalizedRef": "rom11.13",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "docId": "dq-mis-009_ht",
+    "data": {
+      "id": "dq-mis-009",
+      "questionText": "Kisa tèm « pèp ki pa atenn » (Unreached People Groups) vle di nan misyoloji?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moun ki pa janm tande Levanjil la pèsonèlman"
+        },
+        {
+          "id": "b",
+          "text": "Gwoup kote pa gen ase kwayan nan mitan yo pou evanjelize pwòp gwoup yo san èd deyò"
+        },
+        {
+          "id": "c",
+          "text": "Nasyon antye san Bib"
+        },
+        {
+          "id": "d",
+          "text": "Rejyon jeyografik san Legliz"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pèp ki pa atenn (UPG) = gwoup kote pwopòsyon kretyen yo pi ba pase 2% e ki pa gen yon kominote evanjelik ki kapab evanjelize tèt li.",
+      "bibleReference": "Apocalypse 7:9",
+      "normalizedRef": "rev7.9",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "docId": "dq-mis-009_fr",
+    "data": {
+      "id": "dq-mis-009",
+      "questionText": "Que signifie le terme « peuples non atteints » (Unreached People Groups) en missiologie ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des individus qui n'ont jamais entendu l'Évangile personnellement"
+        },
+        {
+          "id": "b",
+          "text": "Des groupes ethnolinguistiques où il n'y a pas assez de croyants indigènes pour évangéliser leur propre groupe sans aide extérieure"
+        },
+        {
+          "id": "c",
+          "text": "Des nations entières sans Bibles"
+        },
+        {
+          "id": "d",
+          "text": "Des régions géographiques sans Église physique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Un peuple non atteint (UPG) = groupe ethno-linguistique où la proportion de chrétiens est inférieure à 2% et sans communauté évangélique viable capable d'autoévangélisation interne.",
+      "bibleReference": "Apocalypse 7:9",
+      "normalizedRef": "rev7.9",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "docId": "dq-mis-010_ht",
+    "data": {
+      "id": "dq-mis-010",
+      "questionText": "Kijan Revelasyon 7:9 motive misyon mondyal la?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li montre se Izrayèl sèlman k'ap sove nan lafen an"
+        },
+        {
+          "id": "b",
+          "text": "Li revele vizyon final la : yon gwo foul moun tout nasyon, tout tribi, tout pèp ak tout lang — objektif final misyon an"
+        },
+        {
+          "id": "c",
+          "text": "Li pwouve misyon inivèsèl la deja fini"
+        },
+        {
+          "id": "d",
+          "text": "Li dekri Jerizalèm selès la kòm objektif jeyografik"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 7:9 revele objektif misyon an : « yon gwo foul moun pèsonn pa t ka konte, ki soti nan tout nasyon, tout tribi, tout pèp, ak tout lang. » Motivasyon eskatolojik misyon an.",
+      "bibleReference": "Apocalypse 7:9",
+      "normalizedRef": "rev7.9",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "docId": "dq-mis-010_fr",
+    "data": {
+      "id": "dq-mis-010",
+      "questionText": "Comment Apocalypse 7:9 motive-t-il la mission mondiale ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il montre que seul Israël sera sauvé à la fin"
+        },
+        {
+          "id": "b",
+          "text": "Il révèle la vision finale : une foule innombrable de toute nation, tribu, peuple et langue — but ultime de la mission"
+        },
+        {
+          "id": "c",
+          "text": "Il prouve que la mission universelle est déjà accomplie"
+        },
+        {
+          "id": "d",
+          "text": "Il décrit la Jérusalem céleste comme but géographique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apocalypse 7:9 révèle le but de la mission : « une grande foule que personne ne pouvait compter, de toute nation, de toute tribu, de tout peuple, et de toute langue. » Motivation eschatologique de la mission.",
+      "bibleReference": "Apocalypse 7:9",
+      "normalizedRef": "rev7.9",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "docId": "dq-mis-011_ht",
+    "data": {
+      "id": "dq-mis-011",
+      "questionText": "Ki kontribisyon Gustavo Gutiérrez ak teyoloji liberasyon an te pote nan deba misyolojik la?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo te pwouve sosyalis se fòm Levanjil ki pi fidèl la"
+        },
+        {
+          "id": "b",
+          "text": "Yo te mete an avant chwa pou pòv yo ak dimansyon sosyal Levanjil la — sa te fòse Legliz la repanse jistis sosyal"
+        },
+        {
+          "id": "c",
+          "text": "Yo te refize Ansyen Testaman an kòm yon bagay ki pa enpòtan"
+        },
+        {
+          "id": "d",
+          "text": "Yo te di misyon an sèlman nan pale Levanjil la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gutiérrez (Teyoloji liberasyon, 1971) : « chwa pou pòv yo » — mouvman sa a te fòse yon deba sou misyon holistik (Lausanne 1974).",
+      "bibleReference": "Luc 4:18",
+      "normalizedRef": "luk4.18",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "docId": "dq-mis-011_fr",
+    "data": {
+      "id": "dq-mis-011",
+      "questionText": "Quelle contribution Gustavo Gutiérrez et la théologie de la libération ont-ils apportée au débat missiologique ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elles ont prouvé que le socialisme est la forme d'Évangile la plus fidèle"
+        },
+        {
+          "id": "b",
+          "text": "Elles ont mis en avant l'option préférentielle pour les pauvres et la dimension sociale de l'Évangile — même si controversées, elles ont forcé l'Église à reconsidérer la justice sociale"
+        },
+        {
+          "id": "c",
+          "text": "Elles ont rejeté l'AT comme non pertinent pour la mission"
+        },
+        {
+          "id": "d",
+          "text": "Elles ont affirmé que la mission se limite à l'évangélisation verbale"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gutiérrez (Théologie de la libération, 1971) : « option préférentielle pour les pauvres » — en tension avec la théologie évangélique, ce mouvement a forcé un débat productif sur la mission holistique (Lausanne 1974).",
+      "bibleReference": "Luc 4:18",
+      "normalizedRef": "luk4.18",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "docId": "dq-muj-001_ht",
+    "data": {
+      "id": "dq-muj-001",
+      "questionText": "Ki fanm biblik ki di bèlmè li: \"Kote ou ale, mwen pral ale; pèp ou a se pèp mwen\"?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Estè"
+        },
+        {
+          "id": "b",
+          "text": "Rit"
+        },
+        {
+          "id": "c",
+          "text": "Debora"
+        },
+        {
+          "id": "d",
+          "text": "Anna"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rit te di sa bay Noemi bèlmè li (Rit 1:16). Fidelite li a te tounen san seleksyon nan jeneyoloji Jezi.",
+      "bibleReference": "Rit 1:16",
+      "normalizedRef": "rut1.16",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-001_fr",
+    "data": {
+      "id": "dq-muj-001",
+      "questionText": "Quelle femme biblique a dit à sa belle-mère : \"Où tu iras, j'irai ; ton peuple sera mon peuple\" ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esther"
+        },
+        {
+          "id": "b",
+          "text": "Ruth"
+        },
+        {
+          "id": "c",
+          "text": "Débora"
+        },
+        {
+          "id": "d",
+          "text": "Anne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ruth dit cela à Noémie, montrant une fidélité exemplaire qui l'amena dans la lignée du Messie (Ruth 1:16).",
+      "bibleReference": "Ruth 1:16",
+      "normalizedRef": "rut1.16",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-002_ht",
+    "data": {
+      "id": "dq-muj-002",
+      "questionText": "Ki fanm biblik ki te sove pèp Jwif yo nan yon tou asasina nan peryòd Pès?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debora"
+        },
+        {
+          "id": "b",
+          "text": "Rit"
+        },
+        {
+          "id": "c",
+          "text": "Estè"
+        },
+        {
+          "id": "d",
+          "text": "Anna"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Estè te riske lavi li pou prezante devan wa Azyèris (Ksèsès) san envitasyon ak demann li pou sove pèp Jwif yo (Estè 4:14).",
+      "bibleReference": "Estè 4:14",
+      "normalizedRef": "est4.14",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-002_fr",
+    "data": {
+      "id": "dq-muj-002",
+      "questionText": "Qui était la femme de Lot qui s'est changée en statue de sel ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "Rébecca"
+        },
+        {
+          "id": "c",
+          "text": "La femme de Lot (non nommée)"
+        },
+        {
+          "id": "d",
+          "text": "Élisabeth"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« La femme de Lot regarda en arrière, et elle devint une statue de sel » (Genèse 19:26) lors de la destruction de Sodome.",
+      "bibleReference": "Genèse 19:26"
+    }
+  },
+  {
+    "docId": "dq-muj-003_ht",
+    "data": {
+      "id": "dq-muj-003",
+      "questionText": "Ki fanm biblik ki te jij ak pwofetès Izrayèl anvan wa yo?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debora"
+        },
+        {
+          "id": "b",
+          "text": "Miriyam"
+        },
+        {
+          "id": "c",
+          "text": "Rit"
+        },
+        {
+          "id": "d",
+          "text": "Anna"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Debora te jij ak pwofetès. Li te jwenn ak Barac epi dirije ansanm Izrayèl kont Jeneral Sisèra (Jij 4-5).",
+      "bibleReference": "Jij 4:4-5",
+      "normalizedRef": "jud4.4-5",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-003_fr",
+    "data": {
+      "id": "dq-muj-003",
+      "questionText": "Qui était la prophétesse et juge d'Israël qui a aidé Barac à vaincre Sisera ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Débora"
+        },
+        {
+          "id": "b",
+          "text": "Jaël"
+        },
+        {
+          "id": "c",
+          "text": "Miriam"
+        },
+        {
+          "id": "d",
+          "text": "Esther"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Débora est la seule femme citée comme juge d'Israël. Elle encouragea Barac à mener le combat contre les Cananéens.",
+      "bibleReference": "Juges 4:4-9"
+    }
+  },
+  {
+    "docId": "dq-muj-004_ht",
+    "data": {
+      "id": "dq-muj-004",
+      "questionText": "Ki te manman Jezi, ki te byen vini pou Seyè fè l ansent?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elizabèt"
+        },
+        {
+          "id": "b",
+          "text": "Anna"
+        },
+        {
+          "id": "c",
+          "text": "Mari"
+        },
+        {
+          "id": "d",
+          "text": "Marta"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Zanj Gabriyèl te anonse Mari ke li te jwenn gras nan je Bondye, epi li te pral fè yon pitit gason (Lik 1:30-31).",
+      "bibleReference": "Lik 1:30-31",
+      "normalizedRef": "luk1.30-31",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-004_fr",
+    "data": {
+      "id": "dq-muj-004",
+      "questionText": "Qui était la belle-fille fidèle de Naomi, ancêtre du roi David ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Orpa"
+        },
+        {
+          "id": "b",
+          "text": "Ruth"
+        },
+        {
+          "id": "c",
+          "text": "Abigaïl"
+        },
+        {
+          "id": "d",
+          "text": "Rachab"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ruth la Moabite resta fidèle à sa belle-mère Naomi et dit : « Ton peuple sera mon peuple, et ton Dieu sera mon Dieu ».",
+      "bibleReference": "Ruth 1:16"
+    }
+  },
+  {
+    "docId": "dq-muj-005_ht",
+    "data": {
+      "id": "dq-muj-005",
+      "questionText": "Ki fanm nan Nouvo Testaman ki te premye temwen rezirèksyon Jezi a?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mari manman Jezi"
+        },
+        {
+          "id": "b",
+          "text": "Marta"
+        },
+        {
+          "id": "c",
+          "text": "Mari Magdalen"
+        },
+        {
+          "id": "d",
+          "text": "Salom"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mari Magdalen te premye moun ki te wè Jezi apre rezirèksyon li epi te resevwa misyon an pou anonse nouvèl la bay disip yo (Jan 20:14-17).",
+      "bibleReference": "Jan 20:14-17",
+      "normalizedRef": "joh20.14-17",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-005_fr",
+    "data": {
+      "id": "dq-muj-005",
+      "questionText": "Qui était la reine juive qui a sauvé son peuple du massacre en Perse ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vasthi"
+        },
+        {
+          "id": "b",
+          "text": "Esther"
+        },
+        {
+          "id": "c",
+          "text": "Athalie"
+        },
+        {
+          "id": "d",
+          "text": "Jézabel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Esther risqua sa vie en se présentant devant le roi Assuérus pour intercéder en faveur des Juifs contre le complot d'Haman.",
+      "bibleReference": "Esther 7:3-4"
+    }
+  },
+  {
+    "docId": "dq-muj-006_ht",
+    "data": {
+      "id": "dq-muj-006",
+      "questionText": "Ki fanm biblik ki te kache de espyon Izrayèl yo nan Jeriko epi te mare yon kòd wouj nan fenèt li?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debora"
+        },
+        {
+          "id": "b",
+          "text": "Rahab"
+        },
+        {
+          "id": "c",
+          "text": "Dina"
+        },
+        {
+          "id": "d",
+          "text": "Abigayil"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rahab te kache espyon Jozye yo. Nan echanj, kòd wouj nan fenèt la te sèvi pou pwoteje kay li (Jozye 2:1-21).",
+      "bibleReference": "Jozye 2:1-21",
+      "normalizedRef": "jos2.1-21",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-006_fr",
+    "data": {
+      "id": "dq-muj-006",
+      "questionText": "Qui était la mère de Jean-Baptiste ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marie"
+        },
+        {
+          "id": "b",
+          "text": "Élisabeth"
+        },
+        {
+          "id": "c",
+          "text": "Anne"
+        },
+        {
+          "id": "d",
+          "text": "Marthe"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Élisabeth, parente de Marie, était stérile mais Dieu lui permit de concevoir Jean-Baptiste dans sa vieillesse.",
+      "bibleReference": "Luc 1:13"
+    }
+  },
+  {
+    "docId": "dq-muj-007_ht",
+    "data": {
+      "id": "dq-muj-007",
+      "questionText": "Ki fanm biblik ki te touye Jeneral Sisèra ki t ap dòmi nan tant li?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debora"
+        },
+        {
+          "id": "b",
+          "text": "Rit"
+        },
+        {
+          "id": "c",
+          "text": "Yaèl"
+        },
+        {
+          "id": "d",
+          "text": "Jezabèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Yaèl te envite Sisèra nan tant li, li te ba l lèt pou bwè, epi lè li t ap dòmi li te kloure yon pye tant nan tèt li (Jij 4:21).",
+      "bibleReference": "Jij 4:21",
+      "normalizedRef": "jud4.21",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-007_fr",
+    "data": {
+      "id": "dq-muj-007",
+      "questionText": "Qui était la première personne à voir Jésus ressuscité ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'apôtre Pierre"
+        },
+        {
+          "id": "b",
+          "text": "Marie de Magdala"
+        },
+        {
+          "id": "c",
+          "text": "La mère de Jésus"
+        },
+        {
+          "id": "d",
+          "text": "L'apôtre Jean"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus apparut d'abord à Marie de Magdala au matin de la résurrection près du tombeau vide (Jean 20:14-16).",
+      "bibleReference": "Jean 20:14-16"
+    }
+  },
+  {
+    "docId": "dq-muj-008_ht",
+    "data": {
+      "id": "dq-muj-008",
+      "questionText": "Ki fanm biblik ki te priye nan tanp pou Bondye ba l yon pitit, epi Eli te panse li te sou?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "Elizabèt"
+        },
+        {
+          "id": "c",
+          "text": "Debora"
+        },
+        {
+          "id": "d",
+          "text": "Anna"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Anna te priye ak kè brizan ak bò li te mouvman. Eli te panse li te sou, men se te yon lapriyè pwofon. Bondye te ba li Samyèl (1 Samyèl 1:12-17).",
+      "bibleReference": "1 Samyèl 1:12-17",
+      "normalizedRef": "1sa1.12-17",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-008_fr",
+    "data": {
+      "id": "dq-muj-008",
+      "questionText": "Quelle femme biblique pria dans le temple pour avoir un fils, au point qu'Éli pensa qu'elle était ivre ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "Élisabeth"
+        },
+        {
+          "id": "c",
+          "text": "Débora"
+        },
+        {
+          "id": "d",
+          "text": "Anne"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Anne pria avec amertume et remuait seulement les lèvres. Éli la crut ivre, mais c'était une prière profonde. Dieu lui donna Samuel (1 Samuel 1:12-17).",
+      "bibleReference": "1 Samuel 1:12-17",
+      "normalizedRef": "1sa1.12-17",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-009_ht",
+    "data": {
+      "id": "dq-muj-009",
+      "questionText": "Ki fanm nan Nouvo Testaman ki te senbòl sèvis ak reyalisme pandan sè li te selebre Jezi?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mari Magdalen"
+        },
+        {
+          "id": "b",
+          "text": "Marta"
+        },
+        {
+          "id": "c",
+          "text": "Priskil"
+        },
+        {
+          "id": "d",
+          "text": "Lyidi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Marta te okipe ak sèvis pandan Mari te chita nan pye Jezi tande l. Jezi te di: \"Marta, Marta... Mari chwazi bon pòsyon\" (Lik 10:41-42).",
+      "bibleReference": "Lik 10:41-42",
+      "normalizedRef": "luk10.41-42",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-009_fr",
+    "data": {
+      "id": "dq-muj-009",
+      "questionText": "Quelle femme du Nouveau Testament est un symbole de service et d'activité alors que sa sœur écoutait Jésus ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marie de Magdala"
+        },
+        {
+          "id": "b",
+          "text": "Marthe"
+        },
+        {
+          "id": "c",
+          "text": "Priscille"
+        },
+        {
+          "id": "d",
+          "text": "Lydie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Marthe s'occupait du service pendant que Marie écoutait Jésus. Jésus dit : \"Marthe, Marthe... Marie a choisi la bonne part\" (Luc 10:41-42).",
+      "bibleReference": "Luc 10:41-42",
+      "normalizedRef": "luk10.41-42",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-010_ht",
+    "data": {
+      "id": "dq-muj-010",
+      "questionText": "Ki fanm Ansyen Testaman yo nonmen nan jeneyoloji Jezi dapre Matye 1?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara, Lea, Rakyèl, Miriyam"
+        },
+        {
+          "id": "b",
+          "text": "Tamar, Rahab, Rit, fanm Ouri (Betsabe)"
+        },
+        {
+          "id": "c",
+          "text": "Debora, Estè, Anna, Mari"
+        },
+        {
+          "id": "d",
+          "text": "Abigayil, Dina, Estè, Yaèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 1 nonmen kat fanm AT: Tamar (v.3), Rahab (v.5), Rit (v.5), ak \"fanm Ouri\" (Betsabe, v.6). Chak te yon pèsonaj remakab.",
+      "bibleReference": "Matye 1:3-6",
+      "normalizedRef": "mat1.3-6",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-010_fr",
+    "data": {
+      "id": "dq-muj-010",
+      "questionText": "Quelles femmes de l'Ancien Testament sont nommées dans la généalogie de Jésus selon Matthieu 1 ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara, Léa, Rachel, Miriam"
+        },
+        {
+          "id": "b",
+          "text": "Tamar, Rahab, Ruth, la femme d'Urie (Bethsabée)"
+        },
+        {
+          "id": "c",
+          "text": "Débora, Esther, Anne, Marie"
+        },
+        {
+          "id": "d",
+          "text": "Abigaïl, Dina, Esther, Jaël"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 1 mentionne quatre femmes de l'AT : Tamar (v.3), Rahab (v.5), Ruth (v.5), et \"la femme d'Urie\" (Bethsabée, v.6). Chacune a eu un rôle marquant.",
+      "bibleReference": "Matthieu 1:3-6",
+      "normalizedRef": "mat1.3-6",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-011_ht",
+    "data": {
+      "id": "dq-muj-011",
+      "questionText": "Ki fanm NT ki te travay ansanm ak Pòl, Akila, epi ki te eksplike wout Bondye pi konplètman bay Apollòs?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lyidi"
+        },
+        {
+          "id": "b",
+          "text": "Febe"
+        },
+        {
+          "id": "c",
+          "text": "Priskil"
+        },
+        {
+          "id": "d",
+          "text": "Trifozis"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Priskil (ak mari li Akila) te tande Apollòs preche ak plis egzaktitid epi \"yo te eksplike l wout Bondye pi egzak\" (Travay 18:26).",
+      "bibleReference": "Travay 18:26",
+      "normalizedRef": "act18.26",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-011_fr",
+    "data": {
+      "id": "dq-muj-011",
+      "questionText": "Quelle femme du NT travaillait avec Paul et Aquila, et expliqua plus exactement la voie de Dieu à Apollos ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lydie"
+        },
+        {
+          "id": "b",
+          "text": "Phébé"
+        },
+        {
+          "id": "c",
+          "text": "Priscille"
+        },
+        {
+          "id": "d",
+          "text": "Tryphose"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Priscille (avec son mari Aquila) entendit Apollos prêcher et \"lui exposèrent plus exactement la voie de Dieu\" (Actes 18:26).",
+      "bibleReference": "Actes 18:26",
+      "normalizedRef": "act18.26",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-012_ht",
+    "data": {
+      "id": "dq-muj-012",
+      "questionText": "Ki te premye kretyen konvèti ann Ewòp dapre Travay 16?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Priskil"
+        },
+        {
+          "id": "b",
+          "text": "Febe"
+        },
+        {
+          "id": "c",
+          "text": "Lyidi vendè pèpò"
+        },
+        {
+          "id": "d",
+          "text": "Damaris"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lyidi, yon vendè pèpò nan Tyatir, te tande Pòl sou bò rivyè a. \"Seyè a te louvri kè l\" epi li te batize ak tout kay li (Travay 16:14-15).",
+      "bibleReference": "Travay 16:14-15",
+      "normalizedRef": "act16.14-15",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-012_fr",
+    "data": {
+      "id": "dq-muj-012",
+      "questionText": "Qui fut la première chrétienne convertie en Europe selon Actes 16 ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Priscille"
+        },
+        {
+          "id": "b",
+          "text": "Phébé"
+        },
+        {
+          "id": "c",
+          "text": "Lydie, marchande de pourpre"
+        },
+        {
+          "id": "d",
+          "text": "Damaris"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lydie, marchande de pourpre de Thyatire, écouta Paul au bord d'une rivière. \"Le Seigneur lui ouvrit le cœur\" et elle fut baptisée avec sa maison (Actes 16:14-15).",
+      "bibleReference": "Actes 16:14-15",
+      "normalizedRef": "act16.14-15",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-013_ht",
+    "data": {
+      "id": "dq-muj-013",
+      "questionText": "Ki fanm biblik ki te sove frè li Moyiz nan lè ti bebe lè li t ap flote nan rivyè Nil?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yosebèd (manman Moyiz)"
+        },
+        {
+          "id": "b",
+          "text": "Sipra (sajfanm)"
+        },
+        {
+          "id": "c",
+          "text": "Miriyam (sè Moyiz)"
+        },
+        {
+          "id": "d",
+          "text": "Fiya Farawon"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sè Moyiz la (Miriyam) te veye panya a ak dòmi l. Lè fiya Farawon an te jwenn li, Miriyam te ofri pou chèche yon fanm pou ba li tete (Egzòd 2:4-7).",
+      "bibleReference": "Egzòd 2:4-7",
+      "normalizedRef": "exo2.4-7",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-013_fr",
+    "data": {
+      "id": "dq-muj-013",
+      "questionText": "Quelle femme biblique sauva son frère Moïse bébé alors qu'il flottait sur le Nil ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jokébed (mère de Moïse)"
+        },
+        {
+          "id": "b",
+          "text": "Schiphra (sage-femme)"
+        },
+        {
+          "id": "c",
+          "text": "Miriam (sœur de Moïse)"
+        },
+        {
+          "id": "d",
+          "text": "La fille de Pharaon"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La sœur de Moïse (Miriam) surveillait le panier. Quand la fille de Pharaon le trouva, Miriam proposa de chercher une nourrice (Exode 2:4-7).",
+      "bibleReference": "Exode 2:4-7",
+      "normalizedRef": "exo2.4-7",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-014_ht",
+    "data": {
+      "id": "dq-muj-014",
+      "questionText": "Ki fanm biblik yo dekri kòm modèl \"fanm vayan\" nan Pwovèb 31?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "Rit"
+        },
+        {
+          "id": "c",
+          "text": "Yon fanm ideyalize ki san non espesifik"
+        },
+        {
+          "id": "d",
+          "text": "Rakyèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Fanm vayan\" nan Pwovèb 31 pa gen yon non. Li se yon deskripyon ideyalize ak pwetik fanm ki gen karaktè, saj ak fòsè.",
+      "bibleReference": "Pwovèb 31:10-31",
+      "normalizedRef": "pro31.10-31",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-014_fr",
+    "data": {
+      "id": "dq-muj-014",
+      "questionText": "Quelle femme biblique est décrite comme le modèle de la \"femme vertueuse\" dans Proverbes 31 ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "Ruth"
+        },
+        {
+          "id": "c",
+          "text": "Une femme idéalisée sans nom spécifique"
+        },
+        {
+          "id": "d",
+          "text": "Rachel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La \"femme vertueuse\" de Proverbes 31 n'a pas de nom. C'est une description poétique et idéalisée de la femme de caractère, sage et courageuse.",
+      "bibleReference": "Proverbes 31:10-31",
+      "normalizedRef": "pro31.10-31",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-015_ht",
+    "data": {
+      "id": "dq-muj-015",
+      "questionText": "Ki non fanm ki te di: \"Tout jenerasyon pral rele m beni\" nan chante lwanj li bay Bondye?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Estè"
+        },
+        {
+          "id": "b",
+          "text": "Elizabèt"
+        },
+        {
+          "id": "c",
+          "text": "Mari manman Jezi"
+        },
+        {
+          "id": "d",
+          "text": "Miriyam"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nan chante Magnificat la, Mari te di: \"Kounye a tout jenerasyon pral rele m beni\" (Lik 1:48).",
+      "bibleReference": "Lik 1:46-48",
+      "normalizedRef": "luk1.46-48",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-015_fr",
+    "data": {
+      "id": "dq-muj-015",
+      "questionText": "Quel est le nom de la femme qui a dit : « Toutes les générations me diront bienheureuse » dans son chant de louange à Dieu ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes de la Bible",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esther"
+        },
+        {
+          "id": "b",
+          "text": "Élisabeth"
+        },
+        {
+          "id": "c",
+          "text": "Marie, mère de Jésus"
+        },
+        {
+          "id": "d",
+          "text": "Miriam"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dans le chant du Magnificat, Marie a dit : « Car voici, désormais toutes les générations me diront bienheureuse » (Luc 1:48).",
+      "bibleReference": "Luc 1:46-48",
+      "normalizedRef": "luk1.46-48",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-016_ht",
+    "data": {
+      "id": "dq-muj-016",
+      "questionText": "Kilès ki te premye fanm Bondye te kreye nan jaden Edenn lan?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "Èv"
+        },
+        {
+          "id": "c",
+          "text": "Ada"
+        },
+        {
+          "id": "d",
+          "text": "Rout"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 3:20 — \"Adan rele madanm li Èv, paske se li ki manman tout moun k’ap viv sou latè.\"",
+      "bibleReference": "Jenèz 3:20",
+      "normalizedRef": "gen3.20",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-016_fr",
+    "data": {
+      "id": "dq-muj-016",
+      "questionText": "Quelle fut la première femme que Dieu créa dans le jardin d'Éden ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes dans la Bible",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "Ève"
+        },
+        {
+          "id": "c",
+          "text": "Ada"
+        },
+        {
+          "id": "d",
+          "text": "Ruth"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 3:20 — « Adam donna à sa femme le nom d'Ève : car elle a été la mère de tous les vivants. »",
+      "bibleReference": "Genèse 3:20",
+      "normalizedRef": "gen3.20",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-017_ht",
+    "data": {
+      "id": "dq-muj-017",
+      "questionText": "Ki fanm ki te vin rèn nan peyi Pès e ki te sove pèp jwif la anba lanmò?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Izabèl"
+        },
+        {
+          "id": "b",
+          "text": "Estè"
+        },
+        {
+          "id": "c",
+          "text": "Vachti"
+        },
+        {
+          "id": "d",
+          "text": "Atali"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Liv Estè a rakonte kòman Estè te itilize pozisyon l kòm rèn pou l defann pèp li a devan wa Asyeris.",
+      "bibleReference": "Estè 7",
+      "normalizedRef": "est7",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-017_fr",
+    "data": {
+      "id": "dq-muj-017",
+      "questionText": "Quelle femme devint reine en Perse et sauva le peuple juif de la mort ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes dans la Bible",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jézabel"
+        },
+        {
+          "id": "b",
+          "text": "Esther"
+        },
+        {
+          "id": "c",
+          "text": "Vasthi"
+        },
+        {
+          "id": "d",
+          "text": "Athalie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le livre d'Esther raconte comment Esther utilisa sa position de reine pour défendre son peuple devant le roi Assuérus.",
+      "bibleReference": "Esther 7",
+      "normalizedRef": "est7",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-018_ht",
+    "data": {
+      "id": "dq-muj-018",
+      "questionText": "Ki madanm Abraram ki te fè Izarak lè l te gen 90 lanne?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Agar"
+        },
+        {
+          "id": "b",
+          "text": "Sara"
+        },
+        {
+          "id": "c",
+          "text": "Rebeka"
+        },
+        {
+          "id": "d",
+          "text": "Rachèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 21:1-2 — \"Sara vin ansent, li fè yon pitit gason pou Abraram nan vye jou l...\"",
+      "bibleReference": "Jenèz 21:1-2",
+      "normalizedRef": "gen21.1-2",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-018_fr",
+    "data": {
+      "id": "dq-muj-018",
+      "questionText": "Quelle épouse d'Abraham enfanta Isaac lorsqu'elle avait 90 ans ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes dans la Bible",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Agar"
+        },
+        {
+          "id": "b",
+          "text": "Sara"
+        },
+        {
+          "id": "c",
+          "text": "Rébecca"
+        },
+        {
+          "id": "d",
+          "text": "Rachel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 21:1-2 — « L'Éternel se souvint de ce qu'il avait dit à Sara... Sara devint enceinte, et elle enfanta un fils à Abraham dans sa vieillesse... »",
+      "bibleReference": "Genèse 21:1-2",
+      "normalizedRef": "gen21.1-2",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-019_ht",
+    "data": {
+      "id": "dq-muj-019",
+      "questionText": "Ki fanm ki te soti nan peyi Mowab e ki te di bèlmè li, Naomi: \"Pèp ou va pèp mwen, Bondye ou va Bondye mwen\"?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rout"
+        },
+        {
+          "id": "b",
+          "text": "Opa"
+        },
+        {
+          "id": "c",
+          "text": "Rarak"
+        },
+        {
+          "id": "d",
+          "text": "Debora"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Rout 1:16 — \"Kote ou ale, m’ap ale... Pèp ou va pèp mwen, Bondye ou va Bondye mwen.\"",
+      "bibleReference": "Rout 1:16",
+      "normalizedRef": "rout1.16",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-019_fr",
+    "data": {
+      "id": "dq-muj-019",
+      "questionText": "Quelle femme venait du pays de Moab et dit à sa belle-mère Naomi : « Ton peuple sera mon peuple, et ton Dieu sera mon Dieu » ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes dans la Bible",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ruth"
+        },
+        {
+          "id": "b",
+          "text": "Orpa"
+        },
+        {
+          "id": "c",
+          "text": "Rahab"
+        },
+        {
+          "id": "d",
+          "text": "Débora"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ruth 1:16 — « ... où tu iras j'irai... Ton peuple sera mon peuple, et ton Dieu sera mon Dieu. »",
+      "bibleReference": "Ruth 1:16",
+      "normalizedRef": "rout1.16",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-020_ht",
+    "data": {
+      "id": "dq-muj-020",
+      "questionText": "Ki fanm ki te yon jij ak yon pwofèt nan peyi Izrayèl?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jèl"
+        },
+        {
+          "id": "b",
+          "text": "Debora"
+        },
+        {
+          "id": "c",
+          "text": "Miryam"
+        },
+        {
+          "id": "d",
+          "text": "Ana"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jij 4:4 — \"Lè sa a, se yon fanm yo te rele Debora... ki te chèf nan peyi Izrayèl la.\"",
+      "bibleReference": "Jij 4:4",
+      "normalizedRef": "jud4.4",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-020_fr",
+    "data": {
+      "id": "dq-muj-020",
+      "questionText": "Quelle femme fut à la fois juge et prophétesse en Israël ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes dans la Bible",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jaël"
+        },
+        {
+          "id": "b",
+          "text": "Débora"
+        },
+        {
+          "id": "c",
+          "text": "Marie (Miriame)"
+        },
+        {
+          "id": "d",
+          "text": "Anne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Juges 4:4 — « Dans ce temps-là, Débora, prophétesse, femme de Lappidoth, était juge en Israël. »",
+      "bibleReference": "Juges 4:4",
+      "normalizedRef": "jud4.4",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-021_ht",
+    "data": {
+      "id": "dq-muj-021",
+      "questionText": "Ki sè Moyiz ak Arawon ki te konn jwe tanbou e ki te chante chante viktwa a apre yo te fin travèse Lanmè Wouj la?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zipora"
+        },
+        {
+          "id": "b",
+          "text": "Miryam"
+        },
+        {
+          "id": "c",
+          "text": "Elisabèt"
+        },
+        {
+          "id": "d",
+          "text": "Lòis"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 15:20 — \"Miryam, sè Arawon an, ki te yon pwofèt, pran yon tanbou nan men l... li t’ap chante...\"",
+      "bibleReference": "Egzòd 15:20",
+      "normalizedRef": "exo15.20",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-021_fr",
+    "data": {
+      "id": "dq-muj-021",
+      "questionText": "Quelle sœur de Moïse et d'Aaron jouait du tambourin et chanta le chant de la victoire après la traversée de la mer Rouge ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes dans la Bible",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Séphora"
+        },
+        {
+          "id": "b",
+          "text": "Marie (Miriame)"
+        },
+        {
+          "id": "c",
+          "text": "Élisabeth"
+        },
+        {
+          "id": "d",
+          "text": "Loïs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 15:20 — « Marie, la prophétesse, sœur d'Aaron, prit à sa main un tambourin... »",
+      "bibleReference": "Exode 15:20",
+      "normalizedRef": "exo15.20",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-022_ht",
+    "data": {
+      "id": "dq-muj-022",
+      "questionText": "Ki manman Samyèl ki te fè yon ve bay Bondye paske li pa t ka fè pitit, epi li te mennen pitit la nan tanp lan?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Penina"
+        },
+        {
+          "id": "b",
+          "text": "Ana"
+        },
+        {
+          "id": "c",
+          "text": "Rachèl"
+        },
+        {
+          "id": "d",
+          "text": "Mikal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Samyèl 1:10-11 — Ana te gen gwo lapenn, li t’ap kriye... li fè yon ve: Seyè... si ou ban m’ yon pitit gason, m’ap ba ou li pou l sèvi ou.\"",
+      "bibleReference": "1 Samyèl 1:11",
+      "normalizedRef": "1sa1.11",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-022_fr",
+    "data": {
+      "id": "dq-muj-022",
+      "questionText": "Quelle mère de Samuel fit un vœu à Dieu parce qu'elle était stérile, puis amena l'enfant au temple ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes dans la Bible",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Peninna"
+        },
+        {
+          "id": "b",
+          "text": "Anne"
+        },
+        {
+          "id": "c",
+          "text": "Rachel"
+        },
+        {
+          "id": "d",
+          "text": "Mical"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Samuel 1:10-11 — Anne avait l'amertume dans l'âme... Elle fit un vœu, en disant : Éternel... si tu donnes à ta servante un enfant mâle, je le consacrerai à l'Éternel... »",
+      "bibleReference": "1 Samuel 1:11",
+      "normalizedRef": "1sa1.11",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-023_ht",
+    "data": {
+      "id": "dq-muj-023",
+      "questionText": "Ki moun ki te premye moun ki te wè Jezi apre li te fin resisite?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mari, manman Jezi"
+        },
+        {
+          "id": "b",
+          "text": "Mari, moun lavil Magdala a"
+        },
+        {
+          "id": "c",
+          "text": "Mati"
+        },
+        {
+          "id": "d",
+          "text": "Mari, sè Laza a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 20:14-16 — Mari Madlèn te wè Jezi kanpe, men li pa t konnen se li... Jezi di li: Mari! Li tounen, li di: Rabouni!\"",
+      "bibleReference": "Jan 20:16",
+      "normalizedRef": "joh20.16",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-023_fr",
+    "data": {
+      "id": "dq-muj-023",
+      "questionText": "Quelle fut la première personne à voir Jésus après sa résurrection ?",
+      "categoryId": "mujeres",
+      "categoryName": "Femmes dans la Bible",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marie, mère de Jésus"
+        },
+        {
+          "id": "b",
+          "text": "Marie de Magdala"
+        },
+        {
+          "id": "c",
+          "text": "Marthe"
+        },
+        {
+          "id": "d",
+          "text": "Marie, sœur de Lazare"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean 20:14-16 — Marie de Magdala vit Jésus debout ; mais elle ne savait pas que c'était Jésus... Jésus lui dit : Marie ! Elle se retourna, et lui dit en hébreu : Rabbouni ! »",
+      "bibleReference": "Jean 20:16",
+      "normalizedRef": "joh20.16",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-024_ht",
+    "data": {
+      "id": "dq-muj-024",
+      "questionText": "Ki fanm ki te fè tout mwayen pou l te ka touche rad Jezi epi li te geri anba yon pèdisyon san?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lidi"
+        },
+        {
+          "id": "b",
+          "text": "Fanm ki te gen pèdisyon an"
+        },
+        {
+          "id": "c",
+          "text": "Tabita"
+        },
+        {
+          "id": "d",
+          "text": "Prisil"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mak 5:25-34 rakonte istwa fanm sa a ki te malad pandan douz lanne epi ki te geri lè li touche rad Jezi.",
+      "bibleReference": "Mak 5:34",
+      "normalizedRef": "mar5.34",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-024_fr",
+    "data": {
+      "questionText": "Quelle femme a tout fait pour toucher le vêtement de Jésus afin d'être guérie d'une perte de sang ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lydie"
+        },
+        {
+          "id": "b",
+          "text": "La femme à la perte de sang"
+        },
+        {
+          "id": "c",
+          "text": "Tabitha"
+        },
+        {
+          "id": "d",
+          "text": "Priscille"
+        }
+      ],
+      "explanation": "Marc 5:25-34 raconte l'histoire de cette femme qui était malade depuis douze ans et fut guérie en touchant le vêtement de Jésus.",
+      "bibleReference": "Marc 5:34",
+      "id": "dq-muj-024",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-muj-025_ht",
+    "data": {
+      "id": "dq-muj-025",
+      "questionText": "Ki madanm wa Akab ki te mechan anpil e ki te vle touye pwofèt Eli?",
+      "categoryId": "mujeres",
+      "categoryName": "Fanm nan Bib la",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Atali"
+        },
+        {
+          "id": "b",
+          "text": "Izabèl"
+        },
+        {
+          "id": "c",
+          "text": "Erodyad"
+        },
+        {
+          "id": "d",
+          "text": "Saphira"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Wa 19:1-2 — \"Izabèl voye yon mesaje bò kote Eli pou di li: Se pou bondye yo ban m’ pi gwo pinisyon... si m’ pa fè ou mouri... tankou ou te fè pwofèt Baal yo.\"",
+      "bibleReference": "1 Wa 19:2",
+      "normalizedRef": "1ki19.2",
+      "normalizedCat": "mujeres"
+    }
+  },
+  {
+    "docId": "dq-muj-025_fr",
+    "data": {
+      "questionText": "Quelle épouse du roi Achab était très méchante et voulait tuer le prophète Élie ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Athalie"
+        },
+        {
+          "id": "b",
+          "text": "Jézabel"
+        },
+        {
+          "id": "c",
+          "text": "Hérodias"
+        },
+        {
+          "id": "d",
+          "text": "Saphira"
+        }
+      ],
+      "explanation": "1 Rois 19:1-2 — « Jézabel envoya un messager à Élie, pour lui dire : Que les dieux me traitent dans toute leur rigueur... si je ne fais de ta vie... ce que tu as fait de la vie de chacun d'eux. »",
+      "bibleReference": "1 Rois 19:2",
+      "id": "dq-muj-025",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-nt-001_ht",
+    "data": {
+      "id": "dq-nt-001",
+      "questionText": "Ki sa \"Doktrin Justifikasyon pa Lafwa\" vle di?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Travay bon fè nou jis devan Bondye"
+        },
+        {
+          "id": "b",
+          "text": "Bondye deklare moun jis pa mwayen lafwa nan Jezi Kris — pa travay"
+        },
+        {
+          "id": "c",
+          "text": "Lafwa ak travay ansanm nesesè"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman Jwif ka jistifye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Women 3:28 — \"Nou konkli ke moun ka jistifye pa lafwa, san travay Lwa a.\" Efezyen 2:8-9 — \"Se pa nan travay... pou pèsonn pa ka vante tèt yo.\"",
+      "bibleReference": "Women 3:28"
+    }
+  },
+  {
+    "docId": "dq-nt-001_fr",
+    "data": {
+      "id": "dq-nt-001",
+      "questionText": "Que signifie la « doctrine de la justification par la foi » ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament (Général)",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les bonnes œuvres nous rendent justes devant Dieu"
+        },
+        {
+          "id": "b",
+          "text": "Dieu déclare l'homme juste par la foi en Jésus-Christ — non par les œuvres"
+        },
+        {
+          "id": "c",
+          "text": "La foi et les œuvres ensemble sont nécessaires"
+        },
+        {
+          "id": "d",
+          "text": "Seuls les Juifs peuvent être justifiés"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Romains 3:28 — « Nous concluons que l'homme est justifié par la foi, sans les œuvres de la loi. » Éphésiens 2:8-9 confirme que c'est un don de Dieu.",
+      "bibleReference": "Romains 3:28"
+    }
+  }
+]

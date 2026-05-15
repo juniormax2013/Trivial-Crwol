@@ -1,0 +1,1862 @@
+[
+  {
+    "id": "dq-igle-014",
+    "categoryId": "iglesia",
+    "categoryName": "Legliz",
+    "difficulty": "hard",
+    "bibleReference": "Travay 15:6-29",
+    "ht": {
+      "questionText": "Ki jan legliz prenmitin te jere diferans sou sòmasize?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo te separe imedyatman an gwoup diferan"
+        },
+        {
+          "id": "b",
+          "text": "Konsèy Jerizalèm (Travay 15) te rasanble ansyen yo pou disipline ansanm — prèsidans kolèktif"
+        },
+        {
+          "id": "c",
+          "text": "Pyè te deside pou kont li"
+        },
+        {
+          "id": "d",
+          "text": "Chak legliz te deside pou kont li san konsilte lòt yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 15 — Konsèy Jerizalèm: premye konsèy legliz yo. Apòt ak ansyen yo diskite, pran desizyon kolèktif sou sòmasize pou Jentil yo. Modèl gouvènman kolegiyal."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-igle-015",
+    "categoryId": "iglesia",
+    "categoryName": "Legliz",
+    "difficulty": "medium",
+    "bibleReference": "1 Korentyen 3:16",
+    "ht": {
+      "questionText": "Ki sa Bib la di sou legliz kòm \"kay Bondye\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tanp fizik kote Bondye abite"
+        },
+        {
+          "id": "b",
+          "text": "Pèp Bondye a — kwayan yo ki Lespri Sen abite ladan yo kòm tanp vivan"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman bilding legliz konsake yo"
+        },
+        {
+          "id": "d",
+          "text": "Jerizalèm ansyen an sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 3:16 — \"Nou pa konnen ke nou se tanp Bondye epi Lespri Bondye abite nan nou?\" Efezyen 2:21-22 — kwayan yo ansanm bati kòm yon abitasyon Bondye nan Lespri."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-es-s-004",
+    "categoryId": "espiritu-santo",
+    "categoryName": "Lespri Sen",
+    "difficulty": "easy",
+    "bibleReference": "Travay 2:1-4",
+    "ht": {
+      "questionText": "Ki premye demonstrasyon Lespri Sen an nan Travay 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon flanbo ki parèt nan syèl la"
+        },
+        {
+          "id": "b",
+          "text": "Bri tankou van, lang dife, kwayan pale lòt lang"
+        },
+        {
+          "id": "c",
+          "text": "Yon tranblemann tè"
+        },
+        {
+          "id": "d",
+          "text": "Apèl vwa Bondye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 2:1-4 — Pantekovòt: bri tankou van veyolan, lang ki tankou dife, yo tout plen Lespri Sen ak kòmanse pale lòt lang. Akompliseman pwomès Jezi (Travay 1:8)."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-es-s-005",
+    "categoryId": "espiritu-santo",
+    "categoryName": "Lespri Sen",
+    "difficulty": "easy",
+    "bibleReference": "Jan 16:8",
+    "ht": {
+      "questionText": "Ki wòl santral Lespri Sen an genyen nan konvèsyon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li padone peche yo dirèkteman"
+        },
+        {
+          "id": "b",
+          "text": "Li konvenk kè a sou peche, jistis ak jijman — epi fè nòv nesans"
+        },
+        {
+          "id": "c",
+          "text": "Li ba moun yo lang espesyal sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Li se sèlman yon enfliyans moral"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 16:8 — \"Lè li vini li pral konvenk mond lan de peche, jistis ak jijman.\" Jan 3:5-6 — \"Si yon moun pa fèt nan dlo ak Lespri, li pa ka antre nan wayòm Bondye.\""
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-es-s-006",
+    "categoryId": "espiritu-santo",
+    "categoryName": "Lespri Sen",
+    "difficulty": "medium",
+    "bibleReference": "Women 8:15-16",
+    "ht": {
+      "questionText": "Ki sa Lespri Sen fè nan kwayan an dapre Women 8?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèlman ba yo don lang yo"
+        },
+        {
+          "id": "b",
+          "text": "Abite nan yo, resisite kò mòtèl yo, priye pou yo, temwaye avèk lespri yo ke yo pitit Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Fèmen yo nan yon sèl legliz"
+        },
+        {
+          "id": "d",
+          "text": "Delivre yo de tout soufrans fizik"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Women 8:9-16,26-27 — Lespri: abite, resisite, adopte kòm pitit, temwaye avèk lespri nou, entèsede avèk grèman ki pa eksprime."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-es-s-007",
+    "categoryId": "espiritu-santo",
+    "categoryName": "Lespri Sen",
+    "difficulty": "hard",
+    "bibleReference": "1 Korentyen 14:5",
+    "ht": {
+      "questionText": "Ki sa \"don lang\" (glossolalie) reprezante nan 1 Korentyen 12-14?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Siy prensipal tout kwayan dwe genyen"
+        },
+        {
+          "id": "b",
+          "text": "Yon don espirityèl pou priyè ak adorasyon — ki bezwen entèpretasyon nan legliz pou bati lòt yo"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman lang imen etranje ke nou aprann senaturèlman"
+        },
+        {
+          "id": "d",
+          "text": "Don ki pa valid ankò jodi a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 14:2-5 — Lang edifye moun k ap pale li. Nan legliz, li bezwen entèpretasyon pou lòt yo ka bati (v.5). Pa tout moun pale lang (1 Kor 12:30)."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-es-s-008",
+    "categoryId": "espiritu-santo",
+    "categoryName": "Lespri Sen",
+    "difficulty": "medium",
+    "bibleReference": "1 Korentyen 14:3",
+    "ht": {
+      "questionText": "Ki sa \"pwofesi\" kòm don espirityèl vle di?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Predi lavni sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Pale pou konsolasyon, egzòtasyon ak edifikasyon — pawòl ki soti nan Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Egalite avèk Ekriti a"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman kòm don grann pwofèt AT yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 14:3 — \"Men moun ki pwofetize pale bay moun pou edifikasyon, egzòtasyon ak konsolasyon.\" Pwofesi NT ka gen eleman prediksyon men objetif prensipal li se bati."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-es-s-009",
+    "categoryId": "espiritu-santo",
+    "categoryName": "Lespri Sen",
+    "difficulty": "medium",
+    "bibleReference": "1 Jan 4:1-3",
+    "ht": {
+      "questionText": "Ki sa \"tès espri yo\" vle di dapre 1 Jan 4?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Teste pwofèt yo pa kote yo soti"
+        },
+        {
+          "id": "b",
+          "text": "Evalye si yon ansèyman soti nan Bondye — tès: konfese Jezi vini nan chè"
+        },
+        {
+          "id": "c",
+          "text": "Obsève mirak kòm prèv"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman tès ki reze pou ansyen yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Jan 4:1-3 — \"Teste espri yo.\" Tès: espri ki konfese Jezi Kris ki vini nan chè = Lespri Bondye. Espri ki refize konfese sa = espri Antichristo. Tès doktrin Enkannasyon."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-es-s-010",
+    "categoryId": "espiritu-santo",
+    "categoryName": "Lespri Sen",
+    "difficulty": "hard",
+    "bibleReference": "Travay 10:44-46",
+    "ht": {
+      "questionText": "Konbyen fwa Lespri Sen te desann vizibleman nan Travay?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon sèl fwa nan Pantekovòt"
+        },
+        {
+          "id": "b",
+          "text": "Plizyè fwa: Jerizalèm (ch.2), Samari (ch.8), Kay Kònetiy (ch.10), Efèz (ch.19)"
+        },
+        {
+          "id": "c",
+          "text": "Twa fwa sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Chak fwa yon moun te batize"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay montre plizyè \"Pantekovòt\": Jwif (2), Samaritèn (8), Jantil (10), disip Jan (19). Èlman teolojik: ekspansyon prog Evanjil la atravè diferan gwoup."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-es-s-011",
+    "categoryId": "espiritu-santo",
+    "categoryName": "Lespri Sen",
+    "difficulty": "medium",
+    "bibleReference": "1 Korentyen 12:9",
+    "ht": {
+      "questionText": "Ki sa \"don gerizon\" reprezante bibliyèlman?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kapasite tounen doktè medikal"
+        },
+        {
+          "id": "b",
+          "text": "Don bay pa Lespri pou resisite moun malad sinnaturèlman, pou temwaye pouvwa Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Pran medikaman kòm priyè"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman pou apòt yo nan 1ye syèk la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 12:9,28 — Don gerizon nan lis don Lespri yo. NT montre Jezi, apòt, epi lòt kwayan geri (Jak 5:14-15). Bondye ka geri atravè priyè ak don espirityèl."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-es-s-012",
+    "categoryId": "espiritu-santo",
+    "categoryName": "Lespri Sen",
+    "difficulty": "hard",
+    "bibleReference": "Efezyen 4:30",
+    "ht": {
+      "questionText": "Ki diferans ant \"Lespri Sen\" kòm pèsòn ak yon \"senp fòs\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pa gen diferans — yo se menm bagay"
+        },
+        {
+          "id": "b",
+          "text": "Bib la deskriye Lespri Sen kòm yon pèsòn: li anseye, priye, temwaye, ka atris, gen volonte — pa yon senp enfliyans"
+        },
+        {
+          "id": "c",
+          "text": "Lespri Sen se sèlman yon fòs moral"
+        },
+        {
+          "id": "d",
+          "text": "Lespri Sen se yon zanj espesyal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 14:26; Women 8:26-27; Efezyen 4:30 — Lespri Sen anseye (pèsonalite), priye (pèsonalite), ka \"atris\" (pèsonalite). Li gen volonte (1 Kor 12:11). Twazyèm pèsòn Trinite a."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-es-s-013",
+    "categoryId": "espiritu-santo",
+    "categoryName": "Lespri Sen",
+    "difficulty": "hard",
+    "bibleReference": "Efezyen 1:13-14",
+    "ht": {
+      "questionText": "Ki sa \"sele pa Lespri Sen\" vle di nan Efezyen 1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon mak fizik sou kò kwayan an"
+        },
+        {
+          "id": "b",
+          "text": "Garansyon divèn sou sali kwayan an — Lespri Sen kòm depozit ki pwomèt eritaj konplè a"
+        },
+        {
+          "id": "c",
+          "text": "Yon sèman piblik pou reste fidèl"
+        },
+        {
+          "id": "d",
+          "text": "Batèm pa dlo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 1:13-14 — \"Nou te sele nan Lespri Sen pwomès la... ki se garansyon eritaj nou an.\" Sele = mak pwopriyete Bondye + pwoteksyon. Lespri kòm arès sou sali a."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-es-s-014",
+    "categoryId": "espiritu-santo",
+    "categoryName": "Lespri Sen",
+    "difficulty": "hard",
+    "bibleReference": "1 Tesalonisyen 5:19",
+    "ht": {
+      "questionText": "Ki sa Bib la anseye sou \"etenn Lespri\" (1 Tes 5:19)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pèdi Lespri Sen nèt"
+        },
+        {
+          "id": "b",
+          "text": "Sofoke ak reziste travay ak mouvman Lespri Sen an pa peche ak dezobeyisans"
+        },
+        {
+          "id": "c",
+          "text": "Pale kont legliz la"
+        },
+        {
+          "id": "d",
+          "text": "Pa ale adorasyon pandan plis de semèn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Tesalonisyen 5:19-20 — \"Pa etenn Lespri Sen an, pa meprize pwofesi.\" Etenn = reziste, bloke inisyativ Lespri a pa peche volontèm, dezobeyisans oswa mank de soumisyon."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-es-s-015",
+    "categoryId": "espiritu-santo",
+    "categoryName": "Lespri Sen",
+    "difficulty": "medium",
+    "bibleReference": "Travay 1:8",
+    "ht": {
+      "questionText": "Ki sa pwomès Jezi sou Lespri Sen vle di pou misyon legliz la jounen jodi a?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèlman pou premye disip yo — pwomès la fini"
+        },
+        {
+          "id": "b",
+          "text": "Lespri Sen rete avèk legliz la pou tout tan pou pouvwa misyon, ansèyman ak temwayaj"
+        },
+        {
+          "id": "c",
+          "text": "Lespri Sen kounye a pa bay don piblik yo"
+        },
+        {
+          "id": "d",
+          "text": "Legliz bezwen yon nouvo Pantekovòt chak jenerasyon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 1:8 — \"Nou pral resevwa pouvwa lè Lespri Sen vini sou nou, epi nou pral temwen mwen... jis bout tè a.\" Pwomès la pou tout jenerasyon kwayan (Travay 2:39)."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-esca-003",
+    "categoryId": "escatologia",
+    "categoryName": "Eskatoloji",
+    "difficulty": "medium",
+    "bibleReference": "Matye 24:6-14",
+    "ht": {
+      "questionText": "Ki siy Jezi bay ki endike retou li a ap pwoche (Matye 24)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lapè mond lan ak bon nouvèl sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Gè, grangou, tranblemann tè, pèsekisyon, fo kris, refwadisman amou, Evanjil prèche nan tout mond lan"
+        },
+        {
+          "id": "c",
+          "text": "Yon gwo révèy espirityèl mondial"
+        },
+        {
+          "id": "d",
+          "text": "Disparisyon tout kriminalite"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 24:6-14 — Jezi site: gè, grangou, tranblemann tè (doulè akouchman), pèsekisyon, fo pwofèt, refwadisman amou, Evanjil prèche — epi lafen an vini."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-esca-004",
+    "categoryId": "escatologia",
+    "categoryName": "Eskatoloji",
+    "difficulty": "hard",
+    "bibleReference": "Revelasyon 7:14",
+    "ht": {
+      "questionText": "Ki sa \"Gwo Tribikasyon\" vle di dapre Revelasyon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Soufrans legliz nan tout istwa"
+        },
+        {
+          "id": "b",
+          "text": "Yon peryòd final soufrans entans anvan retou Kris — kèk wè 7 ane, kèk wè soufrans legliz la an jeneral"
+        },
+        {
+          "id": "c",
+          "text": "Gè 1e Mond la ak 2e Mond la"
+        },
+        {
+          "id": "d",
+          "text": "Pèsekisyon Neron sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 7:14; Matye 24:21 — \"Gwo Tribikasyon\" = soufrans ki pa janm te wè anvan. Debat: Preterism (1ye syèk), Futurism (lafen tan yo), Historic (tout istwa legliz)."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-esca-005",
+    "categoryId": "escatologia",
+    "categoryName": "Eskatoloji",
+    "difficulty": "medium",
+    "bibleReference": "Revelasyon 21:1-4",
+    "ht": {
+      "questionText": "Ki sa \"Nouvèl Jerizalèm\" nan Revelasyon 21 reprezante?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vil Jerizalèm modèn agrandi"
+        },
+        {
+          "id": "b",
+          "text": "Eta final pèp Bondye — kominyon konplè Bondye ak moun, bèl ak pafè"
+        },
+        {
+          "id": "c",
+          "text": "Yon rèv apwopatik sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Tanp Salomon ki rebati"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 21:1-4 — \"Bondye pral rete avèk yo... pa pral gen dèy, kriye ni doulè ankò.\" Nouvèl Jerizalèm = tabènak Bondye nan mitan moun, resti relasyon Edenn ak plis."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-esca-006",
+    "categoryId": "escatologia",
+    "categoryName": "Eskatoloji",
+    "difficulty": "hard",
+    "bibleReference": "Revelasyon 20:11-15",
+    "ht": {
+      "questionText": "Ki sa \"jijman tron blan\" (Revelasyon 20:11) reprezante?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jijman kwayan yo sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Jijman final tout moun mouri yo dapre travay yo — ki nan liv yo"
+        },
+        {
+          "id": "c",
+          "text": "Jijman Satan ak demon yo"
+        },
+        {
+          "id": "d",
+          "text": "Jijman nasyon yo pandan Milenyòm nan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 20:11-15 — Tron blan: tout mouri resisite, jije dapre travay yo. Moun ki pa nan \"Liv Lavi Mouton an\" — lak dife a. Jijman final ak definitif."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-esca-008",
+    "categoryId": "escatologia",
+    "categoryName": "Eskatoloji",
+    "difficulty": "easy",
+    "bibleReference": "1 Korentyen 15:20-22",
+    "ht": {
+      "questionText": "Ki sa espwa kretyen an sou lanmò genyen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmò se lafen tout bagay"
+        },
+        {
+          "id": "b",
+          "text": "Rezirèksyon kò pou etènite — Kris premye fwi rezirèksyon an"
+        },
+        {
+          "id": "c",
+          "text": "Âme yo rete kòm fantom"
+        },
+        {
+          "id": "d",
+          "text": "Reyenkarnasyon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 15:20-22 — \"Kris resisite kòm premye fwi moun ki mouri yo.\" Rezirèksyon Kris = garantid rezirèksyon kwayan yo. Espwa konkrè, pa sèlman imòtalite âme."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-misi-002",
+    "categoryId": "mision",
+    "categoryName": "Misyon",
+    "difficulty": "medium",
+    "bibleReference": "Jan 17:18",
+    "ht": {
+      "questionText": "Ki sa \"misyon Dei\" (Misyon Bondye) vle di?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Misyon legliz sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Bondye li menm se misyonè prensipal — legliz patisipe nan misyon Bondye a"
+        },
+        {
+          "id": "c",
+          "text": "Voye moun etranje sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Travay espesyalman pou ONG kretyen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Teoloji kontenporèn: \"Misyon Dei\" — misyon pati nan Bondye Trinite a. Jan 17:18 — \"Menm jan ou voye mwen, mwen tou voye yo.\" Legliz se enstriman Bondye, pa sous misyon an."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-misi-003",
+    "categoryId": "mision",
+    "categoryName": "Misyon",
+    "difficulty": "easy",
+    "bibleReference": "Travay 8:4-8",
+    "ht": {
+      "questionText": "Ki premye misyonè ki mansyone nan liv Travay yo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pòl ak Barnabas"
+        },
+        {
+          "id": "b",
+          "text": "Filip ak Pyè"
+        },
+        {
+          "id": "c",
+          "text": "Etyen ak Jan"
+        },
+        {
+          "id": "d",
+          "text": "Niklas ak Timon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 8 — Filip pote Evanjil Samari epi evanjelize yon etyopyen. Pyè te ale Kapadòs ak Lis. Premye misyon deyò Jerizalèm anvan Pòl."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-misi-004",
+    "categoryId": "mision",
+    "categoryName": "Misyon",
+    "difficulty": "hard",
+    "bibleReference": "Lk 4:18-19",
+    "ht": {
+      "questionText": "Ki diferans ant \"evangjelizasyon\" ak \"misyon entegral\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo menm — sèlman pawòl diferan"
+        },
+        {
+          "id": "b",
+          "text": "Evanjilizasyon = pwoklamasyon verbal; misyon entegral = adrese tout bezwen imen (espirityèl, sosyal, fizik)"
+        },
+        {
+          "id": "c",
+          "text": "Misyon entegral pa gen espirityèl"
+        },
+        {
+          "id": "d",
+          "text": "Evanjilizasyon pi enpòtan ke sosyal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lk 4:18-19 — Jezi te preche ak geri, delivre ak libere. Misyon entegral: kò, lespri, sosyete. Lozàn Konvenant (1974) note tou de dimansyon yo enpòtan."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-misi-005",
+    "categoryId": "mision",
+    "categoryName": "Misyon",
+    "difficulty": "hard",
+    "bibleReference": "Matye 28:19",
+    "ht": {
+      "questionText": "Ki sa \"10/40 Finèt\" vle di nan diskisyon misyon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dat yon konferans misyonè"
+        },
+        {
+          "id": "b",
+          "text": "Zòn jeyografik 10-40° Nò kote pifò moun ki pa jwenn Evanjil la rete"
+        },
+        {
+          "id": "c",
+          "text": "Yon pwogram pou Afrik sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Kantite ak kalite misyonè yo bezwen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Konsèp Luis Bush (1990) — Finèt 10/40: zòn ant latitid 10 ak 40 Nò (Afrik Nò, Mwayen Oryan, Azi) kote majorite pèp \"enkonsidere\" yo ak pi gwo rezistans pou Evanjil."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-orac-001",
+    "categoryId": "oracion",
+    "categoryName": "Priyè",
+    "difficulty": "easy",
+    "bibleReference": "Matye 6:9-13",
+    "ht": {
+      "questionText": "Ki eleman prensipal ki nan Priyè Seyè a?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèlman demand pèsonèl"
+        },
+        {
+          "id": "b",
+          "text": "Adoresyon, volonte Bondye, bezwen chak jou, padon, delivrans"
+        },
+        {
+          "id": "c",
+          "text": "Lwanj espirityèl sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Konfesyon ak penitans"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 6:9-13 — Priyè Seyè a: adoresyon (\"Papa nou...\"), wayòm Bondye, bezwen kotidyen (\"pen nou chak jou\"), padon (resevwa ak bay), delivrans mal."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-orac-002",
+    "categoryId": "oracion",
+    "categoryName": "Priyè",
+    "difficulty": "medium",
+    "bibleReference": "1 Tesalonisyen 5:17",
+    "ht": {
+      "questionText": "Ki sa Bib la anseye sou priyè \"san sispann\" (1 Tes 5:17)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Priye 24 èdtan san janm kanpe"
+        },
+        {
+          "id": "b",
+          "text": "Yon atitid kontinu kominikasyon ak Bondye nan tout aktivite yo"
+        },
+        {
+          "id": "c",
+          "text": "Resitatif priyè ki repete plizyè fwa pa jou"
+        },
+        {
+          "id": "d",
+          "text": "Jèn pandan priyè a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Tesalonisyen 5:17 — \"Priye san sispann.\" Kontèks la: pa yon priyè literal nonstop men yon atitid kè ki rele sou Bondye nan tout sikonstans (Efezyen 6:18)."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-orac-003",
+    "categoryId": "oracion",
+    "categoryName": "Priyè",
+    "difficulty": "medium",
+    "bibleReference": "Lk 18:1-8",
+    "ht": {
+      "questionText": "Ki sa Jezi anseye sou pèsistans nan priyè (Lk 18)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Priye yon sèl fwa sèlman pou montre konfyans"
+        },
+        {
+          "id": "b",
+          "text": "Pèsiste nan priyè kòm jij enjis la — Bondye reponn fidèl li yo ki priye san pèdi kouraj"
+        },
+        {
+          "id": "c",
+          "text": "Anpil priyè garanti repons imedyat"
+        },
+        {
+          "id": "d",
+          "text": "Priyè an gwoup sèlman efikas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lk 18:1-8 — Parabòl vèv ki pèsiste ak jij enjis la. Jezi ensiste: \"Pa janm pèdi kouraj nan priyè.\" Si jij enjis reponn, Bondye pral reponn fidèl li yo plis vit."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-orac-004",
+    "categoryId": "oracion",
+    "categoryName": "Priyè",
+    "difficulty": "medium",
+    "bibleReference": "1 Timote 2:1",
+    "ht": {
+      "questionText": "Ki sa entèsesyon genyen kòm karakteristik espesyal?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Priyè pèsonèl sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Priyè pou lòt moun — kanpe kòm meditatè devan Bondye pou bezwen lòt yo"
+        },
+        {
+          "id": "c",
+          "text": "Priyè ak jèn obligatwa"
+        },
+        {
+          "id": "d",
+          "text": "Priyè piblik nan legliz"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timote 2:1 — \"Mwen egzòte anvan tout bagay ke yo fè siplikasyon, priyè, entèsesyon, ak aksyon de gras pou tout moun.\" Abraram (Jen 18), Moyiz (Egz 32), Jezi (Jan 17) kòm modèl entèsesè."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-orac-005",
+    "categoryId": "oracion",
+    "categoryName": "Priyè",
+    "difficulty": "medium",
+    "bibleReference": "Jak 5:14-15",
+    "ht": {
+      "questionText": "Ki sa Jakòb anseye sou priyè lafwa pou malad yo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Malad yo dwe priye pou tèt yo sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Ansyen legliz la dwe priye sou malad yo ak lwil — priyè lafwa pral sove malad la"
+        },
+        {
+          "id": "c",
+          "text": "Priyè pou malad yo pa nesesè si yo gen bon doktè"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman pastè yo ka priye pou malad"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jak 5:14-15 — \"Si yon moun malad pami nou, li rele ansyen legliz yo... priye sou li ak lwil... priyè lafwa pral delivre moun malad la.\" Sèvis kolèktif pou gerizon."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-l-mo-002",
+    "categoryId": "ley-moral",
+    "categoryName": "Lwa Moral",
+    "difficulty": "medium",
+    "bibleReference": "Egzòd 20:1-17",
+    "ht": {
+      "questionText": "Ki twa division tradisyonèl Lwa Mosaïk la?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lwa, Pwofèt ak Sòm yo"
+        },
+        {
+          "id": "b",
+          "text": "Lwa moral, seremonyèl ak sivil"
+        },
+        {
+          "id": "c",
+          "text": "Dis Kòmandman, Sakrifis ak Dwa Sosyal"
+        },
+        {
+          "id": "d",
+          "text": "Lwa Abraram, Lwa David ak Lwa Moyiz"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Teyoloji klasik divize lwa Mosaïk an: moral (Dis Kòmandman — toujou valid), seremonyèl (sakrifis, fèt — akompli nan Kris), sivil (gouvènman Izrayèl — pa anplike pou legliz)."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-l-mo-003",
+    "categoryId": "ley-moral",
+    "categoryName": "Lwa Moral",
+    "difficulty": "medium",
+    "bibleReference": "Matye 5:17-18",
+    "ht": {
+      "questionText": "Ki sa Jezi di sou Lwa a nan Semon sou Mòn nan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te soti pou abroge tout Lwa AT la"
+        },
+        {
+          "id": "b",
+          "text": "Li pa soti pou abroge Lwa a men pou akompli li — pifò piti nan Lwa a toujou valid"
+        },
+        {
+          "id": "c",
+          "text": "Lwa AT la pa aplikab pou kretyen yo"
+        },
+        {
+          "id": "d",
+          "text": "Li te ajoute nouvo lwa ki pi sevè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 5:17-18 — \"Pa panse mwen te vini pou abroge Lwa ak Pwofèt yo. Mwen pa vini pou abroge yo, men pou akompli yo.\" Kris akompli lwa seremonyèl ak pwofetik; lwa moral toujou valid."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-l-mo-004",
+    "categoryId": "ley-moral",
+    "categoryName": "Lwa Moral",
+    "difficulty": "hard",
+    "bibleReference": "Galat 6:2",
+    "ht": {
+      "questionText": "Ki sa \"Lwa Kris\" vle di nan Galat 6:2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tounen pou obsève Lwa Mosaïk la"
+        },
+        {
+          "id": "b",
+          "text": "Pote chaj youn lòt — prensip amou ak sèvis ki se akompliseman Lwa a"
+        },
+        {
+          "id": "c",
+          "text": "Yon nouvèl kouman Pòl ekri"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman pou Jantil yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Galat 6:2 — \"Pote chaj youn lòt, epi konsa ou pral akompli lwa Kris la.\" Kontèks: restorasyion moun ki tonbe nan peche ak dousè. Lwa Kris = prensip amou (Jan 13:34) ki akompli tout kòmandman."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-l-mo-005",
+    "categoryId": "ley-moral",
+    "categoryName": "Lwa Moral",
+    "difficulty": "hard",
+    "bibleReference": "Women 8:3-4",
+    "ht": {
+      "questionText": "Ki sa Pòl anseye sou relasyon Krisyanis ak Lwa a?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kretyen yo dezòm pa oblije obsève okenn lwa"
+        },
+        {
+          "id": "b",
+          "text": "Kretyen lib de Lwa kòm mwayen sali — men Lespri Sen fè yo akompli egzijans jistis Lwa a"
+        },
+        {
+          "id": "c",
+          "text": "Lwa Moyiz la toujou konplètman obligatwa pou kretyen"
+        },
+        {
+          "id": "d",
+          "text": "Lwa se sèlman yon pwoblèm Jwif"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Women 8:3-4 — Bondye kondane peche nan chè \"pou egzijans Lwa a akompli nan nou ki mache pa Lespri.\" Gal 3:24 — Lwa te \"gad\" nou rive jwenn Kris. Kounye a Lespri Sen ekri lwa a nan kè nou."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-n-te-002",
+    "categoryId": "nuevo-testamento",
+    "categoryName": "Nouvo Testaman",
+    "difficulty": "easy",
+    "bibleReference": "Revelasyon 22:18",
+    "ht": {
+      "questionText": "Konbyen liv NT genyen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "27"
+        },
+        {
+          "id": "c",
+          "text": "39"
+        },
+        {
+          "id": "d",
+          "text": "66"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "NT gen 27 liv: 4 Evanjil, Travay, 21 lèt, Revelasyon."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-n-te-003",
+    "categoryId": "nuevo-testamento",
+    "categoryName": "Nouvo Testaman",
+    "difficulty": "easy",
+    "bibleReference": "Women 1:1",
+    "ht": {
+      "questionText": "Ki moun ki te ekri plis liv NT?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyè"
+        },
+        {
+          "id": "b",
+          "text": "Jan"
+        },
+        {
+          "id": "c",
+          "text": "Pòl"
+        },
+        {
+          "id": "d",
+          "text": "Lk"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pòl te ekri 13 (oswa 14 si Ebre) liv NT: Women, Korentyen, Galat, Efezyen, Filipyen, Kolosyen, Tesalonisyen, Timote, Tit, Filemòn."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-n-te-005",
+    "categoryId": "nuevo-testamento",
+    "categoryName": "Nouvo Testaman",
+    "difficulty": "medium",
+    "bibleReference": "Matye 1:1",
+    "ht": {
+      "questionText": "Ki sa \"Sinoptik\" vle di nan etid Evanjil yo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Evanjil ki gen plis mirak"
+        },
+        {
+          "id": "b",
+          "text": "Matye, Mak ak Lk ki pataje anpil materyèl paralèl"
+        },
+        {
+          "id": "c",
+          "text": "Evanjil ki pi ansyen yo"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman Evanjil Mak la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sinoptik (grèk: \"wè ansanm\") = Matye, Mak, Lk. Yo pataje anpil pasaj paralèl kontrèman ak Jan ki endepandan majoritèman."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-n-te-006",
+    "categoryId": "nuevo-testamento",
+    "categoryName": "Nouvo Testaman",
+    "difficulty": "hard",
+    "bibleReference": "Jak 1:1",
+    "ht": {
+      "questionText": "Ki liv NT ki ekri anvan lèt Pòl yo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matye"
+        },
+        {
+          "id": "b",
+          "text": "Jan"
+        },
+        {
+          "id": "c",
+          "text": "Jak"
+        },
+        {
+          "id": "d",
+          "text": "Ebre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Majorite espè date Jak nan ~45-50 AD — anvan lèt Pòl yo (pi bonè ~48 AD pou Galat). Jak ka youn nan premye ekrit NT."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-n-te-007",
+    "categoryId": "nuevo-testamento",
+    "categoryName": "Nouvo Testaman",
+    "difficulty": "hard",
+    "bibleReference": "Lk 1:1-4",
+    "ht": {
+      "questionText": "Ki sa \"Pwoblèm Sinoptik\" etidyan NT yo analize?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diferans ant Jwif ak Jantil nan NT"
+        },
+        {
+          "id": "b",
+          "text": "Kijan Matye, Mak ak Lk gen anpil materyèl komen — ki sous yo te pataje?"
+        },
+        {
+          "id": "c",
+          "text": "Erè nan tradiksyon NT"
+        },
+        {
+          "id": "d",
+          "text": "Kont enpòtans diferan apòt yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pwoblèm Sinoptik: poukisa Matye, Mak, Lk resanble anpil? Teyori prensipal: Pryorite Mak (Mak ekri anvan, Matye/Lk itilize li + yon sous \"Q\")."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-n-te-008",
+    "categoryId": "nuevo-testamento",
+    "categoryName": "Nouvo Testaman",
+    "difficulty": "easy",
+    "bibleReference": "1 Korentyen 11:26",
+    "ht": {
+      "questionText": "Ki sa \"Repa Seyè a\" reprezante?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon senp diné kretyen"
+        },
+        {
+          "id": "b",
+          "text": "Selebrasyon kò ak san Kris, pwoklamasyon lanmò li jiska retou l"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman pou pastè yo"
+        },
+        {
+          "id": "d",
+          "text": "Ranplasman sakrifis AT yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 11:23-26 — \"Chak fwa nou manje pen sa a ak bwè tas la, nou pwoklamasyon lanmò Seyè a jiskaske li vini.\""
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-n-te-009",
+    "categoryId": "nuevo-testamento",
+    "categoryName": "Nouvo Testaman",
+    "difficulty": "medium",
+    "bibleReference": "1 Timote 3:1-7",
+    "ht": {
+      "questionText": "Ki sa \"Lèt Pastoral\" yo vle di?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lèt pou pèp jeneral la"
+        },
+        {
+          "id": "b",
+          "text": "1 Timote, 2 Timote, Tit — lèt Pòl bay lidè legliz pou pran swen kongregasyon"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman Ebre"
+        },
+        {
+          "id": "d",
+          "text": "Lèt Pyè yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timote, 2 Timote ak Tit rele \"Pastoral\" paske yo adrese dirije legliz (pastè) ak enstriksyon pou lidèship espirityèl, karaktè ak ansèyman sèn."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-n-te-010",
+    "categoryId": "nuevo-testamento",
+    "categoryName": "Nouvo Testaman",
+    "difficulty": "medium",
+    "bibleReference": "Jak 1:1",
+    "ht": {
+      "questionText": "Ki sa \"Lèt Jeneral\" yo nan NT?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lèt pou yon sèl legliz"
+        },
+        {
+          "id": "b",
+          "text": "Jak, Pyè, Jan, Jid — lèt adrese a plizyè legliz oswa a legliz jeneral la"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman lèt Pòl yo"
+        },
+        {
+          "id": "d",
+          "text": "Ebre ak Revelasyon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lèt Jeneral (Katolik): Jak, 1-2 Pyè, 1-2-3 Jan, Jid. Pa adrese a yon legliz espesifik men a kominote kretyen pi laj la."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-n-te-011",
+    "categoryId": "nuevo-testamento",
+    "categoryName": "Nouvo Testaman",
+    "difficulty": "easy",
+    "bibleReference": "Jan 20:31",
+    "ht": {
+      "questionText": "Ki mesaj santral Evanjil Jan an?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jezi kòm Wa Izrayèl"
+        },
+        {
+          "id": "b",
+          "text": "Jezi kòm Pitit Bondye étenèl — kwè pou jwenn lavi étenèl"
+        },
+        {
+          "id": "c",
+          "text": "Jezi kòm pwofèt sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Istwa Legliz premye a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 20:31 — \"Bagay sa yo ekri pou nou ka kwè ke Jezi se Kris la, Pitit Bondye, epi pa lafwa nou pral gen lavi nan non l.\""
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-n-te-012",
+    "categoryId": "nuevo-testamento",
+    "categoryName": "Nouvo Testaman",
+    "difficulty": "hard",
+    "bibleReference": "Jan 10:30",
+    "ht": {
+      "questionText": "Ki sa \"Pitit Bondye\" vle di nan kontèks NT?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon pitit adopsyon Bondye kreye"
+        },
+        {
+          "id": "b",
+          "text": "Pèsòn dezyèm Trinite a — ko-égal ak ko-étenèl ak Bondye — vrai Bondye ak vrai moun"
+        },
+        {
+          "id": "c",
+          "text": "Yon tit onoraryik bay gwo lidè"
+        },
+        {
+          "id": "d",
+          "text": "Yon zanj espesyal Bondye kreye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 1:1,18; 10:30 — \"Pawòl la te Bondye,\" \"Mwen ak Papa a nou se youn.\" Konsilta Nikaya (325 AD) konfime: Jezi homoousios (menm sibstans) ak Bondye."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-n-te-013",
+    "categoryId": "nuevo-testamento",
+    "categoryName": "Nouvo Testaman",
+    "difficulty": "hard",
+    "bibleReference": "Ebre 7:24-27",
+    "ht": {
+      "questionText": "Ki sa lèt Ebre anseye sou Jezi kòm \"Gran Prêt\"?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jezi te travay kòm prêt nan Tanp Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "Jezi se Gran Prêt étenèl selon lòd Melkisédèk — sakrifis li fin tout sakrifis"
+        },
+        {
+          "id": "c",
+          "text": "Yon tit senbòlik san aplikasyon reyèl"
+        },
+        {
+          "id": "d",
+          "text": "Jezi pral tounen kòm prêt nan Milenyòm nan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ebre 4:14-15; 7:24-27 — Jezi \"Gran Prêt ki travèse syèl yo,\" prêt étenèl selon Melkisédèk, ofri tèt li yon sèl fwa pou tout moun — pa bezwen repete sakrifis."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-n-te-014",
+    "categoryId": "nuevo-testamento",
+    "categoryName": "Nouvo Testaman",
+    "difficulty": "medium",
+    "bibleReference": "Travay 15:11",
+    "ht": {
+      "questionText": "Ki sa \"Konsilye Jerizalèm\" (Travay 15) rezoud?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debate sou batèm"
+        },
+        {
+          "id": "b",
+          "text": "Sòmasizasyon — Jantil pa bezwen sikonsi pou sove"
+        },
+        {
+          "id": "c",
+          "text": "Chwa suksesè Pyè"
+        },
+        {
+          "id": "d",
+          "text": "Distribisyon travay misyonè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 15:1-29 — Konsilye Jerizalèm debat si Jantil dwe sikonsi pou sove. Desizyon: Non — Jantil sove pa lafwa nan Kris, pa Lwa. Baz teyoloji Pòl."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-n-te-015",
+    "categoryId": "nuevo-testamento",
+    "categoryName": "Nouvo Testaman",
+    "difficulty": "medium",
+    "bibleReference": "Revelasyon 1:8",
+    "ht": {
+      "questionText": "Ki sa Revelasyon 1:8 di sou Kris?",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"M ap vini byento\""
+        },
+        {
+          "id": "b",
+          "text": "\"Mwen se Alfa ak Omega, ki te la, ki la, ak ki pral vini — Toupisan\""
+        },
+        {
+          "id": "c",
+          "text": "\"Kase sèl yo epi ouvri liv la\""
+        },
+        {
+          "id": "d",
+          "text": "\"Siksè sou yo tout\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 1:8 — Seyè Bondye di: \"Mwen se Alfa ak Omega... ki te la, ki la, ak ki pral vini, Toupisan.\" Deklarasyon souverènte étenèl Bondye/Kris."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-001",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "easy",
+    "bibleReference": "Jenèz 1:1",
+    "ht": {
+      "questionText": "Konbyen liv nan AT?",
+      "options": [
+        {
+          "id": "a",
+          "text": "27"
+        },
+        {
+          "id": "b",
+          "text": "33"
+        },
+        {
+          "id": "c",
+          "text": "39"
+        },
+        {
+          "id": "d",
+          "text": "46"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bib pwotestan gen 39 liv nan AT (Bib Katolik gen 46 ak deutewokanonisèl). Yo divize en Lwa (5), Istwa (12), Poyezi (5), Pwofèt (17)."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-002",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "medium",
+    "bibleReference": "Detewonòm 6:4-5",
+    "ht": {
+      "questionText": "Ki sa \"Shema\" an isra yèl (Detewonòm 6:4) pwoklamasyon?",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Renmen vwazen ou tankou tèt ou\""
+        },
+        {
+          "id": "b",
+          "text": "\"Seyè Bondye nou an se yon sèl Seyè — renmen li ak tout kè ou\""
+        },
+        {
+          "id": "c",
+          "text": "\"Gade tout kòmandman mwen yo\""
+        },
+        {
+          "id": "d",
+          "text": "\"Pa janm abandone pèp mwen an\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Detwonòm 6:4-5 — \"Shema Yisrael Adonai Eloheinu Adonai Ehad\" = \"Tande, O Izrayèl: Seyè Bondye nou se yon sèl Seyè.\" Fondaman monoteism biblik."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-003",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "hard",
+    "bibleReference": "Levitik 11:1-47",
+    "ht": {
+      "questionText": "Ki sa \"Lwa Lente\" nan AT vle di?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lwa pou manje sèlman manje k ap vole"
+        },
+        {
+          "id": "b",
+          "text": "Règ AT sou manje pè ak enpè — pò, kribich, kochon entèdi"
+        },
+        {
+          "id": "c",
+          "text": "Lwa sou jeun ak priyè obligatwa"
+        },
+        {
+          "id": "d",
+          "text": "Règ sou kijan pou prepare manje pou sakrifis"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Levitik 11; Detewonòm 14 — Lwa Lente (kashrut): bèt ak pye pann epi rimen manje, pwason ak zèkèy ak ekay akseptab, zwazo pèdisi entèdi. Pòk ak kribich entèdi."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-004",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "easy",
+    "bibleReference": "Egzòd 12:13",
+    "ht": {
+      "questionText": "Ki fèt AT ki komemorave delivrans nan Ejip?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pantekovòt"
+        },
+        {
+          "id": "b",
+          "text": "Pak (Passo)"
+        },
+        {
+          "id": "c",
+          "text": "Fèt Tabènnak yo"
+        },
+        {
+          "id": "d",
+          "text": "Jou Ekspyasyon an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 12 — Pak (Passo): jou memoryèl delivrans Izrayèl soti Ejip. Mouton sakrifye, san sou poto pòt, zanj lanmò \"pase\" kay ki gen san an. Kris se Mouton Pak nou (1 Kor 5:7)."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-005",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "medium",
+    "bibleReference": "Levitik 16:34",
+    "ht": {
+      "questionText": "Ki sa \"Yom Kippur\" (Jou Ekspyasyon) reprezante?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Selebrasyon récolte a"
+        },
+        {
+          "id": "b",
+          "text": "Jou anlè chak ane kote gran prêt antre nan Plas Sen yo pou ekspye peche pèp la"
+        },
+        {
+          "id": "c",
+          "text": "Premye jou ane Jwif la"
+        },
+        {
+          "id": "d",
+          "text": "Fèt delivrans Izrayèl soti Babilon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Levitik 16 — Yom Kippur: gran prêt ofri sakrifis pou tèt li ak pèp la. Yon kabri pote peche yo nan dezè (chivo emisario). Ebre 9-10 montre Jezi akompli sa définitivman."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-006",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "easy",
+    "bibleReference": "Jij 16:17",
+    "ht": {
+      "questionText": "Ki pouvwa espesyal Sansòn te genyen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sajès ak konesans sipèrnaturèl"
+        },
+        {
+          "id": "b",
+          "text": "Fòs fizik sennaturèl lye ak vòt nazireyèn li — espeialeman chevè li"
+        },
+        {
+          "id": "c",
+          "text": "Kapasite geri malad"
+        },
+        {
+          "id": "d",
+          "text": "Vitès kouri sipèn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jij 13-16 — Sansòn te yon nazireyèn. Fòs li te lye ak chevè li kòm senbòl vòt li bay Bondye. Lè Dalila koupe chevè l, fòs la kite l (Jij 16:17)."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-007",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "medium",
+    "bibleReference": "2 Samyèl 7:12-16",
+    "ht": {
+      "questionText": "Ki sa \"Alyans Davidi\" (2 Samyèl 7) pwomèt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "David pral viv étenèlman"
+        },
+        {
+          "id": "b",
+          "text": "Yon desandan David pral gen yon wayòm étenèl — akompli nan Jezi Kris"
+        },
+        {
+          "id": "c",
+          "text": "Izrayèl pral toujou venkè lènmi yo"
+        },
+        {
+          "id": "d",
+          "text": "Tanp Salomon pral étenèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Samyèl 7:12-16 — Bondye pwomèt David: \"Pitit ou pral bati yon kay pou non mwen epi mwen pral etabli twon wayòm li pou tout tan.\" Akompli nan Jezi (Lk 1:32-33)."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-008",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "medium",
+    "bibleReference": "Jòb 38:4",
+    "ht": {
+      "questionText": "Ki sa \"Liv Jòb\" anseye sou soufrans?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Soufrans toujou se pinisyon peche"
+        },
+        {
+          "id": "b",
+          "text": "Moun jis ka soufri pou rezon misterye — Bondye souverèn, fidelit pito ke eksplikasyon"
+        },
+        {
+          "id": "c",
+          "text": "Soufrans pa reyèl pou moun ki gen lafwa"
+        },
+        {
+          "id": "d",
+          "text": "Peche zanmi Jòb yo te koz soufrans li"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jòb 1-2 — Jòb te jis men soufri. Zanmi l yo te fèt erè: \"Ou soufri paske ou te peche.\" Bondye reponn Jòb soti nan toubiyon (ch.38-41) — souverènte depase konprehansyon."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-009",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "easy",
+    "bibleReference": "Pwovèb 1:7",
+    "ht": {
+      "questionText": "Ki sa \"Proverbs\" (Pwovèb) anseye kòm baz sajès biblik?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Richès garanti siksè"
+        },
+        {
+          "id": "b",
+          "text": "\"Kòmansman sajès se krentif Seyè a\" — relasyon kòrèk avèk Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Sajès se sèlman konnesans filozofik"
+        },
+        {
+          "id": "d",
+          "text": "Senp bon konpòtman sifizan pou bon lavi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pwovèb 1:7 — \"Krentif Seyè a se koumansman sajès.\" Tout 31 chapit baze sou premis sa a: sajès vre kòmanse avèk relasyon kòrèk Bondye."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-010",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "medium",
+    "bibleReference": "Ozè 11:8-9",
+    "ht": {
+      "questionText": "Ki mesaj santral Liv Ozè a?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jijman pou lènmi Izrayèl yo"
+        },
+        {
+          "id": "b",
+          "text": "Amou fidèl Bondye (hesed) pou Izrayèl enkonstans — li toujou rele pèp li a tounen"
+        },
+        {
+          "id": "c",
+          "text": "Prensip lwa pou sosyete jis"
+        },
+        {
+          "id": "d",
+          "text": "Pwofesi sou vansman Babilon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ozè 11:8-9 — \"Kijan mwen ka abandone ou, O Efrayim?... Kè mwen vire sou mwen... mwen pa pral egzekite chalè koulè mwen.\" Amou Bondye depase enfidelite pèp la."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-011",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "medium",
+    "bibleReference": "Michée 5:2",
+    "ht": {
+      "questionText": "Ki pwofesi Michée 5:2 bay?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jerizalèm pral fin detwi"
+        },
+        {
+          "id": "b",
+          "text": "Soti nan Betleyèm pral soti yon chèf ki pral gouvène Izrayèl — orijin li depi tan lontan"
+        },
+        {
+          "id": "c",
+          "text": "Izrayèl pral tounen nan tè pwomèt la"
+        },
+        {
+          "id": "d",
+          "text": "Yon nouvo prêt pral parèt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Michée 5:2 — \"Ou, Betleyèm Efratha... soti nan ou pral soti yon moun ki pral gouvène Izrayèl pou mwen.\" Akompli nan nesans Jezi (Matye 2:1-6)."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-012",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "easy",
+    "bibleReference": "Sòm 23:1",
+    "ht": {
+      "questionText": "Ki sa \"Sòm 23\" anseye sou karaktè Bondye?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye jij sevè"
+        },
+        {
+          "id": "b",
+          "text": "Bondye kòm Bèjè ki pran swen ak gide, pourvoi, pwoteje ak konpaye"
+        },
+        {
+          "id": "c",
+          "text": "Bondye ki lwen moun ki soufri"
+        },
+        {
+          "id": "d",
+          "text": "Bondye ki bay richès sèlman a bon moun"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 23 — David: \"Seyè se bèjè mwen... li fè mwen repoze nan patiraj vèt... mwen pa bezwen anyen.\" Portway Bondye kòm Bèjè ki pran swen tout bezwen mouton li yo."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-013",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "medium",
+    "bibleReference": "1 Wa 18:38-39",
+    "ht": {
+      "questionText": "Ki konba espirityèl Elijàh te konbat sou Mòn Karmèl?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kont lame Asiri"
+        },
+        {
+          "id": "b",
+          "text": "450 pwofèt Baal ak 400 pwofèt Ashera — dife Bondye kont silans Baal"
+        },
+        {
+          "id": "c",
+          "text": "Kont Farawon Ejip"
+        },
+        {
+          "id": "d",
+          "text": "Kont wa Achab sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Wa 18:19-40 — Eli kont 850 fo pwofèt. Bondye reponn pa dife soti syèl. Pèp la tonbe sou figi yo: \"Seyè a se Bondye!\""
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-014",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "medium",
+    "bibleReference": "Amos 5:24",
+    "ht": {
+      "questionText": "Ki mesaj Amos pote bay Izrayèl pandan pwosperite?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jijman pral vini akòz enjistis sosyal ak abandonman pòv yo"
+        },
+        {
+          "id": "b",
+          "text": "Izrayèl pral toujou prospere"
+        },
+        {
+          "id": "c",
+          "text": "Tanp la pral détrui"
+        },
+        {
+          "id": "d",
+          "text": "Wa pral tounen jis"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Amos 5:21-24 — Bondye rayi fèt relijye yo paske yo oprime pòv yo. \"Kite jistis koule tankou dlo.\" Amos = pwofèt jistis sosyal."
+    },
+    "fr": null
+  },
+  {
+    "id": "dq-at-g-015",
+    "categoryId": "at-general",
+    "categoryName": "Ansyen Testaman",
+    "difficulty": "hard",
+    "bibleReference": "Jeremi 29:11",
+    "ht": {
+      "questionText": "Ki sa egzil Babilon vle di pou teoloji Izrayèl?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye te abandone pèp li a pou toujou"
+        },
+        {
+          "id": "b",
+          "text": "Konsekans enfidelite pèp la men Bondye pwomèt restorasyion — pwofèt yo anseye pandan egzil"
+        },
+        {
+          "id": "c",
+          "text": "Pèp la te pini pou erè paran yo sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Siy ke Bondye te pi fèb pase Marduk"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jeremi, Ezekyèl, Daniel ekri pandan/aprè egzil. Egzil = disiplin, pa abandòn. Jeremi 29:11 — \"Mwen konnen plan mwen gen pou ou... espwa ak yon avni.\""
+    },
+    "fr": null
+  }
+]

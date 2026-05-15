@@ -1,0 +1,762 @@
+[
+  {
+    "newId": "dq-esp-009",
+    "ht": {
+      "id": "dq-esp-009",
+      "questionText": "Ki sa \"tès espri yo\" vle di dapre 1 Jan 4?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Lespri Sen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Teste pwofèt yo pa kote yo soti" },
+        { "id": "b", "text": "Evalye si yon ansèyman soti nan Bondye — tès: konfese Jezi vini nan chè" },
+        { "id": "c", "text": "Obsève mirak kòm prèv" },
+        { "id": "d", "text": "Sèlman tès ki reze pou ansyen yo" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Jan 4:1-3 — \"Teste espri yo.\" Tès: espri ki konfese Jezi Kris ki vini nan chè = Lespri Bondye. Espri ki refize konfese sa = espri Antichristo. Tès doktrin Enkannasyon.",
+      "bibleReference": "1 Jan 4:1-3"
+    },
+    "fr": {
+      "id": "dq-esp-009",
+      "questionText": "Que signifie « l'épreuve des esprits » selon 1 Jean 4 ?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Saint-Esprit",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Tester les prophètes selon leur origine" },
+        { "id": "b", "text": "Évaluer si un enseignement vient de Dieu — test : confesser que Jésus est venu en chair" },
+        { "id": "c", "text": "Observer les miracles comme preuves" },
+        { "id": "d", "text": "Un test réservé uniquement aux anciens" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Jean 4:1-3 — « Éprouvez les esprits. » Le test : l'esprit qui confesse Jésus-Christ venu en chair est de Dieu. L'esprit qui ne le confesse pas est l'esprit de l'Antéchrist. Test de la doctrine de l'Incarnation.",
+      "bibleReference": "1 Jean 4:1-3"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-esp-010",
+    "ht": {
+      "id": "dq-esp-010",
+      "questionText": "Konbyen fwa Lespri Sen te desann vizibleman nan Travay?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Lespri Sen",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Yon sèl fwa nan Pantekovòt" },
+        { "id": "b", "text": "Plizyè fwa: Jerizalèm (ch.2), Samari (ch.8), Kay Kònetiy (ch.10), Efèz (ch.19)" },
+        { "id": "c", "text": "Twa fwa sèlman" },
+        { "id": "d", "text": "Chak fwa yon moun te batize" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay montre plizyè \"Pantekovòt\": Jwif (2), Samaritèn (8), Jantil (10), disip Jan (19). Èlman teolojik: ekspansyon prog Evanjil la atravè diferan gwoup.",
+      "bibleReference": "Travay 10:44-46"
+    },
+    "fr": {
+      "id": "dq-esp-010",
+      "questionText": "Combien de fois le Saint-Esprit est-il descendu de manière visible dans les Actes ?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Saint-Esprit",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Une seule fois à la Pentecôte" },
+        { "id": "b", "text": "Plusieurs fois : Jérusalem (ch.2), Samarie (ch.8), maison de Corneille (ch.10), Éphèse (ch.19)" },
+        { "id": "c", "text": "Trois fois seulement" },
+        { "id": "d", "text": "Chaque fois qu'une personne était baptisée" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les Actes montrent plusieurs « Pentecôtes » : Juifs (2), Samaritains (8), Gentils (10), disciples de Jean (19). Élément théologique : expansion progressive de l'Évangile à travers différents groupes.",
+      "bibleReference": "Actes 10:44-46"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-esp-011",
+    "ht": {
+      "id": "dq-esp-011",
+      "questionText": "Ki sa \"don gerizon\" reprezante bibliyèlman?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Lespri Sen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Kapasite tounen doktè medikal" },
+        { "id": "b", "text": "Don bay pa Lespri pou resisite moun malad sinnaturèlman, pou temwayay pouvwa Bondye" },
+        { "id": "c", "text": "Pran medikaman kòm priyè" },
+        { "id": "d", "text": "Sèlman pou apòt yo nan 1ye syèk la" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 12:9,28 — Don gerizon nan lis don Lespri yo. NT montre Jezi, apòt, epi lòt kwayan geri (Jak 5:14-15). Bondye ka geri atravè priyè ak don espirityèl.",
+      "bibleReference": "1 Korentyen 12:9"
+    },
+    "fr": {
+      "id": "dq-esp-011",
+      "questionText": "Que représente bibliquement le « don de guérison » ?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Saint-Esprit",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La capacité de devenir médecin" },
+        { "id": "b", "text": "Un don accordé par l'Esprit pour guérir les malades surnaturellement, pour témoigner de la puissance de Dieu" },
+        { "id": "c", "text": "Prendre des médicaments comme une forme de prière" },
+        { "id": "d", "text": "Uniquement pour les apôtres au 1er siècle" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 12:9, 28 — Le don de guérison figure dans la liste des dons de l'Esprit. Le NT montre Jésus, les apôtres et d'autres croyants guérissant (Jacques 5:14-15). Dieu peut guérir par la prière et les dons spirituels.",
+      "bibleReference": "1 Corinthiens 12:9"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-esp-012",
+    "ht": {
+      "id": "dq-esp-012",
+      "questionText": "Ki diferans ant \"Lespri Sen\" kòm pèsòn ak yon \"senp fòs\"?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Lespri Sen",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Pa gen diferans — yo se menm bagay" },
+        { "id": "b", "text": "Bib la deskriye Lespri Sen kòm yon pèsòn: li anseye, priye, temwaye, ka atris, gen volonte — pa yon senp enfliyans" },
+        { "id": "c", "text": "Lespri Sen se sèlman yon fòs moral" },
+        { "id": "d", "text": "Lespri Sen se yon zanj espesyal" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 14:26; Women 8:26-27; Efezyen 4:30 — Lespri Sen anseye (pèsonalite), priye (pèsonalite), ka \"atris\" (pèsonalite). Li gen volonte (1 Kor 12:11). Twazyèm pèsòn Trinite a.",
+      "bibleReference": "Efezyen 4:30"
+    },
+    "fr": {
+      "id": "dq-esp-012",
+      "questionText": "Quelle est la différence entre le « Saint-Esprit » en tant que personne et une « simple force » ?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Saint-Esprit",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Il n'y a pas de différence — c'est la même chose" },
+        { "id": "b", "text": "La Bible décrit le Saint-Esprit comme une personne : il enseigne, prie, témoigne, peut être attristé, a une volonté — pas une simple influence" },
+        { "id": "c", "text": "Le Saint-Esprit est seulement une force morale" },
+        { "id": "d", "text": "Le Saint-Esprit est un ange spécial" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean 14:26 ; Romains 8:26-27 ; Éphésiens 4:30 — Le Saint-Esprit enseigne (personnalité), prie (personnalité), peut être « attristé » (personnalité). Il a une volonté (1 Cor 12:11). Troisième personne de la Trinité.",
+      "bibleReference": "Éphésiens 4:30"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-esp-013",
+    "ht": {
+      "id": "dq-esp-013",
+      "questionText": "Ki sa \"sele pa Lespri Sen\" vle di nan Efezyen 1?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Lespri Sen",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Yon mak fizik sou kò kwayan an" },
+        { "id": "b", "text": "Garansyon divèn sou sali kwayan an — Lespri Sen kòm depozit ki pwomèt eritaj konplè a" },
+        { "id": "c", "text": "Yon sèman piblik pou reste fidèl" },
+        { "id": "d", "text": "Batèm pa dlo" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 1:13-14 — \"Nou te sele nan Lespri Sen pwomès la... ki se garansyon eritaj nou an.\" Sele = mak pwopriyete Bondye + pwoteksyon. Lespri kòm arès sou sali a.",
+      "bibleReference": "Efezyen 1:13-14"
+    },
+    "fr": {
+      "id": "dq-esp-013",
+      "questionText": "Que signifie « scellé par le Saint-Esprit » dans Éphésiens 1 ?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Saint-Esprit",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Une marque physique sur le corps du croyant" },
+        { "id": "b", "text": "Une garantie divine sur le salut du croyant — le Saint-Esprit comme un acompte qui promet l'héritage complet" },
+        { "id": "c", "text": "Un serment public de rester fidèle" },
+        { "id": "d", "text": "Le baptême d'eau" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Éphésiens 1:13-14 — « Vous avez été scellés du Saint-Esprit de la promesse... lequel est un gage de notre héritage. » Sceau = marque de propriété de Dieu + protection. L'Esprit comme arrhes du salut.",
+      "bibleReference": "Éphésiens 1:13-14"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-esp-014",
+    "ht": {
+      "id": "dq-esp-014",
+      "questionText": "Ki sa Bib la anseye sou \"etenn Lespri\" (1 Tes 5:19)?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Lespri Sen",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Pèdi Lespri Sen nèt" },
+        { "id": "b", "text": "Sofoke ak reziste travay ak mouvman Lespri Sen an pa peche ak dezobeyisans" },
+        { "id": "c", "text": "Pale kont legliz la" },
+        { "id": "d", "text": "Pa ale adorasyon pandan plis de semèn" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Tesalonisyen 5:19-20 — \"Pa etenn Lespri Sen an, pa meprize pwofesi.\" Etenn = reziste, bloke inisyativ Lespri a pa peche volontèm, dezobeyisans oswa mank de soumisyon.",
+      "bibleReference": "1 Tesalonisyen 5:19"
+    },
+    "fr": {
+      "id": "dq-esp-014",
+      "questionText": "Que nous enseigne la Bible sur le fait d'« éteindre l'Esprit » (1 Thess 5:19) ?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Saint-Esprit",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Perdre complètement le Saint-Esprit" },
+        { "id": "b", "text": "Étouffer et résister à l'œuvre et au mouvement du Saint-Esprit par le péché et la désobéissance" },
+        { "id": "c", "text": "Parler contre l'église" },
+        { "id": "d", "text": "Ne pas aller à l'adoration pendant plus de deux semaines" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Thessaloniciens 5:19-20 — « N'éteignez pas l'Esprit, ne méprisez pas les prophéties. » Éteindre = résister, bloquer l'initiative de l'Esprit par le péché volontaire, la désobéissance ou le manque de soumission.",
+      "bibleReference": "1 Thessaloniciens 5:19"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-esp-015",
+    "ht": {
+      "id": "dq-esp-015",
+      "questionText": "Ki sa pwomès Jezi sou Lespri Sen vle di pou misyon legliz la jounen jodi a?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Lespri Sen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Sèlman pou premye disip yo — pwomès la fini" },
+        { "id": "b", "text": "Lespri Sen rete avèk legliz la pou tout tan pou pouvwa misyon, ansèyman ak temwayaj" },
+        { "id": "c", "text": "Lespri Sen kounye a pa bay don piblik yo" },
+        { "id": "d", "text": "Legliz bezwen yon nouvo Pantekovòt chak jenerasyon" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 1:8 — \"Nou pral resevwa pouvwa lè Lespri Sen vini sou nou, epi nou pral temwen mwen... jis bout tè a.\" Pwomès la pou tout jenerasyon kwayan (Travay 2:39).",
+      "bibleReference": "Travay 1:8"
+    },
+    "fr": {
+      "id": "dq-esp-015",
+      "questionText": "Que signifie la promesse de Jésus sur le Saint-Esprit pour la mission de l'Église aujourd'hui ?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Saint-Esprit",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Uniquement pour les premiers disciples — la promesse a pris fin" },
+        { "id": "b", "text": "Le Saint-Esprit reste avec l'Église pour toujours pour la puissance de la mission, l'enseignement et le témoignage" },
+        { "id": "c", "text": "Le Saint-Esprit n'accorde plus de dons publics aujourd'hui" },
+        { "id": "d", "text": "L'Église a besoin d'une nouvelle Pentecôte à chaque génération" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 1:8 — « Mais vous recevrez une puissance, le Saint-Esprit survenant sur vous, et vous serez mes témoins... jusqu'aux extrémités de la terre. » La promesse est pour toutes les générations de croyants (Actes 2:39).",
+      "bibleReference": "Actes 1:8"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-esc-003",
+    "ht": {
+      "id": "dq-esc-003",
+      "questionText": "Ki siy Jezi bay ki endike retou li a ap pwoche (Matye 24)?",
+      "categoryId": "escatologia",
+      "categoryName": "Eskatoloji",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Lapè mond lan ak bon nouvèl sèlman" },
+        { "id": "b", "text": "Gè, grangou, tranblemann tè, pèsekisyon, fo kris, refwadisman amou, Evanjil prèche nan tout mond lan" },
+        { "id": "c", "text": "Yon gwo révèy espirityèl mondial" },
+        { "id": "d", "text": "Disparisyon tout kriminalite" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 24:6-14 — Jezi site: gè, grangou, tranblemann tè (doulè akouchman), pèsekisyon, fo pwofèt, refwadisman amou, Evanjil prèche — epi lafen an vini.",
+      "bibleReference": "Matye 24:6-14"
+    },
+    "fr": {
+      "id": "dq-esc-003",
+      "questionText": "Quels signes Jésus donne-t-il pour indiquer que son retour approche (Matthieu 24) ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La paix mondiale et la bonne nouvelle uniquement" },
+        { "id": "b", "text": "Guerres, famines, tremblements de terre, persécutions, faux christs, refroidissement de l'amour, Évangile prêché dans le monde entier" },
+        { "id": "c", "text": "Un grand réveil spirituel mondial" },
+        { "id": "d", "text": "La disparition de toute criminalité" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 24:6-14 — Jésus cite : guerres, famines, tremblements de terre (commencement des douleurs), persécutions, faux prophètes, refroidissement de l'amour, Évangile prêché — puis viendra la fin.",
+      "bibleReference": "Matthieu 24:6-14"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-esc-004",
+    "ht": {
+      "id": "dq-esc-004",
+      "questionText": "Ki sa \"Gwo Tribikasyon\" vle di dapre Revelasyon?",
+      "categoryId": "escatologia",
+      "categoryName": "Eskatoloji",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Soufrans legliz nan tout istwa" },
+        { "id": "b", "text": "Yon peryòd final soufrans entans anvan retou Kris — kèk wè 7 ane, kèk wè soufrans legliz la an jeneral" },
+        { "id": "c", "text": "Gè 1e Mond la ak 2e Mond la" },
+        { "id": "d", "text": "Pèsekisyon Neron sèlman" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 7:14; Matye 24:21 — \"Gwo Tribikasyon\" = soufrans ki pa janm te wè anvan. Debat: Preterism (1ye syèk), Futurism (lafen tan yo), Historic (tout istwa legliz).",
+      "bibleReference": "Revelasyon 7:14"
+    },
+    "fr": {
+      "id": "dq-esc-004",
+      "questionText": "Que signifie la « Grande Tribulation » selon l'Apocalypse ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La souffrance de l'église tout au long de l'histoire" },
+        { "id": "b", "text": "Une période finale de souffrance intense avant le retour du Christ — certains y voient 7 ans, d'autres la souffrance générale de l'église" },
+        { "id": "c", "text": "La Première et la Seconde Guerre mondiale" },
+        { "id": "d", "text": "Uniquement la persécution de Néron" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apocalypse 7:14 ; Matthieu 24:21 — « Grande Tribulation » = une détresse telle qu'il n'y en a point eu de semblable. Débats : Prétérisme (1er siècle), Futurisme (fin des temps), Historique (toute l'histoire de l'église).",
+      "bibleReference": "Apocalypse 7:14"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-esc-005",
+    "ht": {
+      "id": "dq-esc-005",
+      "questionText": "Ki sa \"Nouvèl Jerizalèm\" nan Revelasyon 21 reprezante?",
+      "categoryId": "escatologia",
+      "categoryName": "Eskatoloji",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Vil Jerizalèm modèn agrandi" },
+        { "id": "b", "text": "Eta final pèp Bondye — kominyon konplè Bondye ak moun, bèl ak pafè" },
+        { "id": "c", "text": "Yon rèv apwopatik sèlman" },
+        { "id": "d", "text": "Tanp Salomon ki rebati" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 21:1-4 — \"Bondye pral rete avèk yo... pa pral gen dèy, kriye ni doulè ankò.\" Nouvèl Jerizalèm = tabènak Bondye nan mitan moun, resti relasyon Edenn ak plis.",
+      "bibleReference": "Revelasyon 21:1-4"
+    },
+    "fr": {
+      "id": "dq-esc-005",
+      "questionText": "Que représente la « Nouvelle Jérusalem » dans Apocalypse 21 ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La ville moderne de Jérusalem agrandie" },
+        { "id": "b", "text": "L'état final du peuple de Dieu — communion complète entre Dieu et les hommes, belle et parfaite" },
+        { "id": "c", "text": "Uniquement un rêve apocalyptique" },
+        { "id": "d", "text": "La reconstruction du temple de Salomon" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apocalypse 21:1-4 — « Il habitera avec eux... il n'y aura plus ni deuil, ni cri, ni douleur. » La Nouvelle Jérusalem = le tabernacle de Dieu parmi les hommes, rétablissement de la relation d'Éden et plus encore.",
+      "bibleReference": "Apocalypse 21:1-4"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-esc-006",
+    "ht": {
+      "id": "dq-esc-006",
+      "questionText": "Ki sa \"jijman tron blan\" (Revelasyon 20:11) reprezante?",
+      "categoryId": "escatologia",
+      "categoryName": "Eskatoloji",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Jijman kwayan yo sèlman" },
+        { "id": "b", "text": "Jijman final tout moun mouri yo dapre travay yo — ki nan liv yo" },
+        { "id": "c", "text": "Jijman Satan ak demon yo" },
+        { "id": "d", "text": "Jijman nasyon yo pandan Milenyòm nan" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 20:11-15 — Tron blan: tout mouri resisite, jije dapre travay yo. Moun ki pa nan \"Liv Lavi Mouton an\" — lak dife a. Jijman final ak definitif.",
+      "bibleReference": "Revelasyon 20:11-15"
+    },
+    "fr": {
+      "id": "dq-esc-006",
+      "questionText": "Que représente le « jugement du grand trône blanc » (Apocalypse 20:11) ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Le jugement des croyants uniquement" },
+        { "id": "b", "text": "Le jugement final de tous les morts selon leurs œuvres — écrites dans les livres" },
+        { "id": "c", "text": "Le jugement de Satan et des démons" },
+        { "id": "d", "text": "Le jugement des nations pendant le Millénium" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apocalypse 20:11-15 — Le Trône blanc : tous les morts ressuscitent et sont jugés selon leurs œuvres. Ceux qui ne sont pas dans le « Livre de Vie de l'Agneau » sont jetés dans l'étang de feu. Jugement final et définitif.",
+      "bibleReference": "Apocalypse 20:11-15"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-esc-007",
+    "ht": {
+      "id": "dq-esc-007",
+      "questionText": "Ki sa \"kò rezirèksyon\" pral tankou dapre Pòl?",
+      "categoryId": "escatologia",
+      "categoryName": "Eskatoloji",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Menm kò fizik ak tout defèt li yo" },
+        { "id": "b", "text": "Yon kò espirityèl — pisan, glorye, enkoripsib — tankou kò gloriye Kris la" },
+        { "id": "c", "text": "Nou pral egziste kòm espri ki pa gen kò" },
+        { "id": "d", "text": "Chak moun pral gen yon fòm diferan" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 15:42-44 — \"Semans nan kòripsyon, resisite nan inkòripsyon; semans nan opwòb, resisite nan glwa; semans nan feblès, resisite nan pouvwa; kò natirèl, resisite espirityèl.\"",
+      "bibleReference": "1 Korentyen 15:42-44"
+    },
+    "fr": {
+      "id": "dq-esc-007",
+      "questionText": "À quoi ressemblera le « corps de la résurrection » selon Paul ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Le même corps physique avec tous ses défauts" },
+        { "id": "b", "text": "Un corps spirituel — puissant, glorieux, incorruptible — comme le corps glorieux du Christ" },
+        { "id": "c", "text": "Nous existerons en tant qu'esprits sans corps" },
+        { "id": "d", "text": "Chaque personne aura une forme différente" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 15:42-44 — « Le corps est semé corruptible, il ressuscite incorruptible ; il est semé méprisable, il ressuscite glorieux ; il est semé infirme, il ressuscite plein de force ; il est semé corps naturel, il ressuscite corps spirituel. »",
+      "bibleReference": "1 Corinthiens 15:42-44"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-esc-008",
+    "ht": {
+      "id": "dq-esc-008",
+      "questionText": "Ki sa espwa kretyen an sou lanmò genyen?",
+      "categoryId": "escatologia",
+      "categoryName": "Eskatoloji",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Lanmò se lafen tout bagay" },
+        { "id": "b", "text": "Rezirèksyon kò pou etènite — Kris premye fwi rezirèksyon an" },
+        { "id": "c", "text": "Âme yo rete kòm fantom" },
+        { "id": "d", "text": "Reyenkarnasyon" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 15:20-22 — \"Kris resisite kòm premye fwi moun ki mouri yo.\" Rezirèksyon Kris = garantid rezirèksyon kwayan yo. Espwa konkrè, pa sèlman imòtalite âme.",
+      "bibleReference": "1 Korentyen 15:20-22"
+    },
+    "fr": {
+      "id": "dq-esc-008",
+      "questionText": "Que contient l'espérance chrétienne concernant la mort ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La mort est la fin de tout" },
+        { "id": "b", "text": "La résurrection du corps pour l'éternité — Christ étant les prémices de la résurrection" },
+        { "id": "c", "text": "Les âmes restent comme des fantômes" },
+        { "id": "d", "text": "La réincarnation" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 15:20-22 — « Christ est ressuscité des morts, il est les prémices de ceux qui sont morts. » La résurrection de Christ est la garantie de la résurrection des croyants. Une espérance concrète, pas seulement l'immortalité de l'âme.",
+      "bibleReference": "1 Corinthiens 15:20-22"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-mis-002",
+    "ht": {
+      "id": "dq-mis-002",
+      "questionText": "Ki sa \"misyon Dei\" (Misyon Bondye) vle di?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Misyon legliz sèlman" },
+        { "id": "b", "text": "Bondye li menm se misyonè prensipal — legliz patisipe nan misyon Bondye a" },
+        { "id": "c", "text": "Voye moun etranje sèlman" },
+        { "id": "d", "text": "Travay espesyalman pou ONG kretyen" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Teoloji kontenporèn: \"Misyon Dei\" — misyon pati nan Bondye Trinite a. Jan 17:18 — \"Menm jan ou voye mwen, mwen tou voye yo.\" Legliz se enstriman Bondye, pa sous misyon an.",
+      "bibleReference": "Jan 17:18"
+    },
+    "fr": {
+      "id": "dq-mis-002",
+      "questionText": "Que signifie « missio Dei » (Mission de Dieu) ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La mission de l'église uniquement" },
+        { "id": "b", "text": "Dieu lui-même est le missionnaire principal — l'église participe à la mission de Dieu" },
+        { "id": "c", "text": "Envoyer uniquement des étrangers" },
+        { "id": "d", "text": "Travailler spécifiquement pour des ONG chrétiennes" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Théologie contemporaine : « Missio Dei » — la mission émane de Dieu Trinité. Jean 17:18 — « Comme tu m'as envoyé dans le monde, je les ai aussi envoyés dans le monde. » L'Église est l'instrument de Dieu, non la source de la mission.",
+      "bibleReference": "Jean 17:18"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-mis-003",
+    "ht": {
+      "id": "dq-mis-003",
+      "questionText": "Ki premye misyonè ki mansyone nan liv Travay yo?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Pòl ak Barnabas" },
+        { "id": "b", "text": "Filip ak Pyè" },
+        { "id": "c", "text": "Etyen ak Jan" },
+        { "id": "d", "text": "Niklas ak Timon" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 8 — Filip pote Evanjil Samari epi evanjelize yon etyopyen. Pyè te ale Kapadòs ak Lis. Premye misyon deyò Jerizalèm anvan Pòl.",
+      "bibleReference": "Travay 8:4-8"
+    },
+    "fr": {
+      "id": "dq-mis-003",
+      "questionText": "Quels sont les premiers missionnaires mentionnés dans le livre des Actes ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Paul et Barnabas" },
+        { "id": "b", "text": "Philippe et Pierre" },
+        { "id": "c", "text": "Étienne et Jean" },
+        { "id": "d", "text": "Nicolas et Timon" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 8 — Philippe apporte l'Évangile en Samarie et évangélise un Éthiopien. Pierre est allé à Capadoce et Lystre. Premières missions hors de Jérusalem avant Paul.",
+      "bibleReference": "Actes 8:4-8"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-mis-004",
+    "ht": {
+      "id": "dq-mis-004",
+      "questionText": "Ki diferans ant \"evangjelizasyon\" ak \"misyon entegral\"?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Yo menm — sèlman pawòl diferan" },
+        { "id": "b", "text": "Evanjilizasyon = pwoklamasyon verbal; misyon entegral = adrese tout bezwen imen (espirityèl, sosyal, fizik)" },
+        { "id": "c", "text": "Misyon entegral pa gen espirityèl" },
+        { "id": "d", "text": "Evanjilizasyon pi enpòtan ke sosyal" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lk 4:18-19 — Jezi te preche ak geri, delivre ak libere. Misyon entegral: kò, lespri, sosyete. Lozàn Konvenant (1974) note tou de dimansyon yo enpòtan.",
+      "bibleReference": "Lk 4:18-19"
+    },
+    "fr": {
+      "id": "dq-mis-004",
+      "questionText": "Quelle est la différence entre « évangélisation » et « mission intégrale » ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "C'est la même chose — seuls les mots changent" },
+        { "id": "b", "text": "Évangélisation = proclamation verbale ; mission intégrale = répondre à tous les besoins humains (spirituels, sociaux, physiques)" },
+        { "id": "c", "text": "La mission intégrale n'inclut pas le volet spirituel" },
+        { "id": "d", "text": "L'évangélisation est plus importante que l'aspect social" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Luc 4:18-19 — Jésus prêchait et guérissait, délivrait et libérait. Mission intégrale : corps, esprit, société. Le Pacte de Lausanne (1974) note que les deux dimensions sont importantes.",
+      "bibleReference": "Luc 4:18-19"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-mis-005",
+    "ht": {
+      "id": "dq-mis-005",
+      "questionText": "Ki sa \"10/40 Finèt\" vle di nan diskisyon misyon?",
+      "categoryId": "mision",
+      "categoryName": "Misyon",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Dat yon konferans misyonè" },
+        { "id": "b", "text": "Zòn jeyografik 10-40° Nò kote pifò moun ki pa jwenn Evanjil la rete" },
+        { "id": "c", "text": "Yon pwogram pou Afrik sèlman" },
+        { "id": "d", "text": "Kantite ak kalite misyonè yo bezwen" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Konsèp Luis Bush (1990) — Finèt 10/40: zòn ant latitid 10 ak 40 Nò (Afrik Nò, Mwayen Oryan, Azi) kote majorite pèp \"enkonsidere\" yo ak pi gwo rezistans pou Evanjil.",
+      "bibleReference": "Matye 28:19"
+    },
+    "fr": {
+      "id": "dq-mis-005",
+      "questionText": "Que signifie la « Fenêtre 10/40 » dans les discussions sur la mission ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La date d'une conférence missionnaire" },
+        { "id": "b", "text": "Une zone géographique située entre 10 et 40 degrés de latitude Nord où vivent la plupart des peuples non atteints par l'Évangile" },
+        { "id": "c", "text": "Un programme uniquement pour l'Afrique" },
+        { "id": "d", "text": "La quantité et la qualité des missionnaires nécessaires" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Concept de Luis Bush (1990) — La Fenêtre 10/40 : zone située entre les latitudes 10 et 40 Nord (Afrique du Nord, Moyen-Orient, Asie) regroupant la majorité des peuples non atteints et les plus grandes résistances à l'Évangile.",
+      "bibleReference": "Matthieu 28:19"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-ora-001",
+    "ht": {
+      "id": "dq-ora-001",
+      "questionText": "Ki eleman prensipal ki nan Priyè Seyè a?",
+      "categoryId": "oracion",
+      "categoryName": "Priyè",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Sèlman demand pèsonèl" },
+        { "id": "b", "text": "Adoresyon, volonte Bondye, bezwen chak jou, padon, delivrans" },
+        { "id": "c", "text": "Lwanj espirityèl sèlman" },
+        { "id": "d", "text": "Konfesyon ak penitans" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 6:9-13 — Priyè Seyè a: adoresyon (\"Papa nou...\"), wayòm Bondye, bezwen kotidyen (\"pen nou chak jou\"), padon (resevwa ak bay), delivrans mal.",
+      "bibleReference": "Matye 6:9-13"
+    },
+    "fr": {
+      "id": "dq-ora-001",
+      "questionText": "Quels sont les principaux éléments de la Prière du Seigneur ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Uniquement des demandes personnelles" },
+        { "id": "b", "text": "Adoration, volonté de Dieu, besoins quotidiens, pardon, délivrance" },
+        { "id": "c", "text": "Uniquement des louanges spirituelles" },
+        { "id": "d", "text": "Confession et pénitence" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 6:9-13 — La Prière du Seigneur : adoration (« Notre Père... »), règne de Dieu, besoins quotidiens (« notre pain de ce jour »), pardon (reçu et donné), délivrance du mal.",
+      "bibleReference": "Matthieu 6:9-13"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-ora-002",
+    "ht": {
+      "id": "dq-ora-002",
+      "questionText": "Ki sa Bib la anseye sou priyè \"san sispann\" (1 Tes 5:17)?",
+      "categoryId": "oracion",
+      "categoryName": "Priyè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Priye 24 èdtan san janm kanpe" },
+        { "id": "b", "text": "Yon atitid kontinu kominikasyon ak Bondye nan tout aktivite yo" },
+        { "id": "c", "text": "Resitatif priyè ki repete plizyè fwa pa jou" },
+        { "id": "d", "text": "Jèn pandan priyè a" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Tesalonisyen 5:17 — \"Priye san sispann.\" Kontèks la: pa yon priyè literal nonstop men yon atitid kè ki rele sou Bondye nan tout sikonstans (Efezyen 6:18).",
+      "bibleReference": "1 Tesalonisyen 5:17"
+    },
+    "fr": {
+      "id": "dq-ora-002",
+      "questionText": "Que nous enseigne la Bible sur le fait de prier « sans cesse » (1 Thess 5:17) ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Prier 24 heures sur 24 sans jamais s'arrêter" },
+        { "id": "b", "text": "Une attitude de communication continue avec Dieu dans toutes les activités" },
+        { "id": "c", "text": "Réciter des prières répétitives plusieurs fois par jour" },
+        { "id": "d", "text": "Jeûner pendant la prière" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Thessaloniciens 5:17 — « Priez sans cesse. » Le contexte n'indique pas une prière littérale ininterrompue, mais une attitude de cœur tournée vers Dieu en toutes circonstances (Éphésiens 6:18).",
+      "bibleReference": "1 Thessaloniciens 5:17"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-ora-003",
+    "ht": {
+      "id": "dq-ora-003",
+      "questionText": "Ki sa Jezi anseye sou pèsistans nan priyè (Lk 18)?",
+      "categoryId": "oracion",
+      "categoryName": "Priyè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Priye yon sèl fwa sèlman pou montre konfyans" },
+        { "id": "b", "text": "Pèsiste nan priyè kòm jij enjis la — Bondye reponn fidèl li yo ki priye san pèdi kouraj" },
+        { "id": "c", "text": "Anpil priyè garanti repons imedyat" },
+        { "id": "d", "text": "Priyè an gwoup sèlman efikas" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lk 18:1-8 — Parabòl vèv ki pèsiste ak jij enjis la. Jezi ensiste: \"Pa janm pèdi kouraj nan priyè.\" Si jij enjis reponn, Bondye pral reponn fidèl li yo plis vit.",
+      "bibleReference": "Lk 18:1-8"
+    },
+    "fr": {
+      "id": "dq-ora-003",
+      "questionText": "Qu'enseigne Jésus sur la persévérance dans la prière (Luc 18) ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Prier une seule fois pour montrer sa confiance" },
+        { "id": "b", "text": "Persévérer dans la prière comme la veuve face au juge inique — Dieu exauce ses fidèles qui prient sans se décourager" },
+        { "id": "c", "text": "Multiplier les prières garantit une réponse immédiate" },
+        { "id": "d", "text": "Seule la prière en groupe est efficace" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Luc 18:1-8 — Parabole de la veuve qui persiste auprès du juge inique. Jésus insiste : « Il faut toujours prier et ne point se relâcher. » Si un juge inique répond, à plus forte raison Dieu répondra à ses élus.",
+      "bibleReference": "Luc 18:1-8"
+    },
+    "matchType": "full"
+  }
+]

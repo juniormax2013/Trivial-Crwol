@@ -1,0 +1,3332 @@
+[
+  {
+    "docId": "dq-cpab-019_ht",
+    "data": {
+      "id": "dq-cpab-019",
+      "questionText": "Nan lèt ki vil Pòl dekri \"im lanmou\" ki fèmyè chapit 13?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wòm"
+        },
+        {
+          "id": "b",
+          "text": "Efèz"
+        },
+        {
+          "id": "c",
+          "text": "Korent"
+        },
+        {
+          "id": "d",
+          "text": "Filipos"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Korentyen 13 gen im fèmyè a: \"Lanmou pasyans, lanmou bon...\" Pòl te ekri l pou legliz Korent la.",
+      "bibleReference": "1 Korentyen 13:4-7",
+      "normalizedRef": "1korentyen13.4-7",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-019_fr",
+    "data": {
+      "id": "dq-cpab-019",
+      "questionText": "Dans quelle lettre Paul décrit-il « l'hymne à l'amour » au chapitre 13 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rome"
+        },
+        {
+          "id": "b",
+          "text": "Éphèse"
+        },
+        {
+          "id": "c",
+          "text": "Corinthe"
+        },
+        {
+          "id": "d",
+          "text": "Philippes"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Corinthiens 13 contient l'hymne célèbre : « L'amour est patient, l'amour est plein de bonté... » Paul l'a écrit pour l'église de Corinthe.",
+      "bibleReference": "1 Corinthiens 13:4-7"
+    }
+  },
+  {
+    "docId": "dq-cpab-020_ht",
+    "data": {
+      "id": "dq-cpab-020",
+      "questionText": "Nan ki lèt Pòl dekri li te \"enpote jis nan twazyèm syèl la\"?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 Korentyen"
+        },
+        {
+          "id": "b",
+          "text": "2 Korentyen"
+        },
+        {
+          "id": "c",
+          "text": "Galat"
+        },
+        {
+          "id": "d",
+          "text": "Efezyen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Mwen konnen yon moun nan Kris ki... te enpote jis nan twazyèm syèl... te enpote nan paradi epi li tande pawòl ki pa ka eksprime\" (2 Korentyen 12:2-4).",
+      "bibleReference": "2 Korentyen 12:2-4",
+      "normalizedRef": "2korentyen12.2-4",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-020_fr",
+    "data": {
+      "id": "dq-cpab-020",
+      "questionText": "Dans quelle lettre Paul décrit-il avoir été « ravi jusqu'au troisième ciel » ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 Corinthiens"
+        },
+        {
+          "id": "b",
+          "text": "2 Corinthiens"
+        },
+        {
+          "id": "c",
+          "text": "Galates"
+        },
+        {
+          "id": "d",
+          "text": "Éphésiens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Je connais un homme en Christ qui... fut ravi jusqu'au troisième ciel... fut ravi dans le paradis, et entendit des paroles ineffables » (2 Corinthiens 12:2-4).",
+      "bibleReference": "2 Corinthiens 12:2-4"
+    }
+  },
+  {
+    "docId": "dq-cpab-021_ht",
+    "data": {
+      "id": "dq-cpab-021",
+      "questionText": "Konbyen lèt yo atribye Pòl nan Nouvo Testaman an?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "13"
+        },
+        {
+          "id": "d",
+          "text": "15"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pòl te ekri 13 lèt NT: Women, 1-2 Korentyen, Galat, Efezyen, Filipyen, Kolosyen, 1-2 Tesalonisyen, 1-2 Timote, Tit ak Filemon.",
+      "bibleReference": "Women 1:1",
+      "normalizedRef": "rom1.1",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-021_fr",
+    "data": {
+      "id": "dq-cpab-021",
+      "questionText": "Combien de lettres sont attribuées à Paul dans le Nouveau Testament ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres Pauliniennes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "13"
+        },
+        {
+          "id": "d",
+          "text": "15"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Paul a écrit 13 épîtres du NT : Romains, 1-2 Corinthiens, Galates, Éphésiens, Philippiens, Colossiens, 1-2 Thessaloniciens, 1-2 Timothée, Tite et Philémon.",
+      "bibleReference": "Romains 1:1",
+      "normalizedRef": "rom1.1",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-022_ht",
+    "data": {
+      "id": "dq-cpab-022",
+      "questionText": "Ki sa Efezyen 2:8-9 anseye sou sali a?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Se fwi zèv ak lapriyè"
+        },
+        {
+          "id": "b",
+          "text": "Se pa gras atravè lafwa, pa pa zèv"
+        },
+        {
+          "id": "c",
+          "text": "Se rezilta batèm nan"
+        },
+        {
+          "id": "d",
+          "text": "Yo jwenn li ak pèseverans"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Paske se pa gras nou sove pa mwayen lafwa; sa pa soti nan nou menm, se yon kado Bondye bay; pa pa zèv, pou pesonn pa gloria\" (Efezyen 2:8-9).",
+      "bibleReference": "Efezyen 2:8-9",
+      "normalizedRef": "eph2.8-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-022_fr",
+    "data": {
+      "id": "dq-cpab-022",
+      "questionText": "Qu'enseigne Éphésiens 2:8-9 sur le salut ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres Pauliniennes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "C'est le fruit des œuvres et de la prière"
+        },
+        {
+          "id": "b",
+          "text": "C'est par grâce, par le moyen de la foi, et non par les œuvres"
+        },
+        {
+          "id": "c",
+          "text": "C'est le résultat du baptême"
+        },
+        {
+          "id": "d",
+          "text": "On l'obtient avec persévérance"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Car c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie » (Éphésiens 2:8-9).",
+      "bibleReference": "Éphésiens 2:8-9",
+      "normalizedRef": "eph2.8-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-023_ht",
+    "data": {
+      "id": "dq-cpab-023",
+      "questionText": "Kilès Pòl te ekri pou mande li resevwa esklav Onezim kòm yon frè?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Timote"
+        },
+        {
+          "id": "b",
+          "text": "Tit"
+        },
+        {
+          "id": "c",
+          "text": "Filemon"
+        },
+        {
+          "id": "d",
+          "text": "Akilas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pòl te ekri Filemon mande l resevwa esklav Onezim \"pa kòm yon esklav ankò, men kòm... frè byeneme\" (Filemon 1:16).",
+      "bibleReference": "Filemon 1:16",
+      "normalizedRef": "phm1.16",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-023_fr",
+    "data": {
+      "id": "dq-cpab-023",
+      "questionText": "À qui Paul a-t-il écrit pour lui demander de recevoir l'esclave Onésime comme un frère ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres Pauliniennes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Timothée"
+        },
+        {
+          "id": "b",
+          "text": "Tite"
+        },
+        {
+          "id": "c",
+          "text": "Philémon"
+        },
+        {
+          "id": "d",
+          "text": "Aquilas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Paul a écrit à Philémon en lui demandant de recevoir l'esclave Onésime « non plus comme un esclave, mais comme... un frère bien-aimé » (Philémon 1:16).",
+      "bibleReference": "Philémon 1:16",
+      "normalizedRef": "phm1.16",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-024_ht",
+    "data": {
+      "id": "dq-cpab-024",
+      "questionText": "Depi ki vil Pòl te ekri lèt prizon yo (Efezyen, Filipyen, Kolosyen, Filemon)?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "Efèz"
+        },
+        {
+          "id": "c",
+          "text": "Wòm"
+        },
+        {
+          "id": "d",
+          "text": "Korent"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lèt prizon yo te voye pandan Pòl te anprizonnen nan Wòm, tann jijman devan Seza (Travay 28:16-31).",
+      "bibleReference": "Efezyen 3:1",
+      "normalizedRef": "eph3.1",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-024_fr",
+    "data": {
+      "id": "dq-cpab-024",
+      "questionText": "Depuis quelle ville Paul a-t-il écrit les épîtres de la captivité (Éphésiens, Philippiens, Colossiens, Philémon) ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres Pauliniennes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jérusalem"
+        },
+        {
+          "id": "b",
+          "text": "Éphèse"
+        },
+        {
+          "id": "c",
+          "text": "Rome"
+        },
+        {
+          "id": "d",
+          "text": "Corinthe"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les épîtres de la captivité ont été envoyées alors que Paul était emprisonné à Rome, en attendant son jugement devant César (Actes 28:16-31).",
+      "bibleReference": "Éphésiens 3:1",
+      "normalizedRef": "eph3.1",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-025_ht",
+    "data": {
+      "id": "dq-cpab-025",
+      "questionText": "Poukisa Pòl te ekri lèt a Galat yo ak ijans?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paske yo t ap soufri pèsekisyon"
+        },
+        {
+          "id": "b",
+          "text": "Paske Judaïzan yo t ap anseye sikonsiyon kòm kondisyon sali"
+        },
+        {
+          "id": "c",
+          "text": "Paske te gen imoralite nan legliz"
+        },
+        {
+          "id": "d",
+          "text": "Paske yo pa t rekonèt otorite Pòl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pòl reprimande Galatyen yo pou swiv \"yon lòt levanjil\": Judaïzan yo te ajoute sikonsiyon kòm kondisyon sali (Galat 1:6-9).",
+      "bibleReference": "Galat 1:6-9",
+      "normalizedRef": "gal1.6-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-025_fr",
+    "data": {
+      "id": "dq-cpab-025",
+      "questionText": "Pourquoi Paul a-t-il écrit l'épître aux Galates avec urgence ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres Pauliniennes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parce qu'ils souffraient de persécution"
+        },
+        {
+          "id": "b",
+          "text": "Parce que des judaïsants enseignaient la circoncision comme condition au salut"
+        },
+        {
+          "id": "c",
+          "text": "Parce qu'il y avait de l'immoralité dans l'église"
+        },
+        {
+          "id": "d",
+          "text": "Parce qu'ils ne reconnaissaient pas l'autorité de Paul"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul réprimande les Galates pour avoir suivi « un autre évangile » : les judaïsants ajoutaient la circoncision comme condition au salut (Galates 1:6-9).",
+      "bibleReference": "Galates 1:6-9",
+      "normalizedRef": "gal1.6-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-026_ht",
+    "data": {
+      "id": "dq-cpab-026",
+      "questionText": "Konbyen chapit lèt a Women an genyen?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "14"
+        },
+        {
+          "id": "c",
+          "text": "16"
+        },
+        {
+          "id": "d",
+          "text": "18"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lèt a Women an gen 16 chapit epi se ekspozisyon ki pi konplè nan teoloji Pòl la sou peche, gras ak sali.",
+      "bibleReference": "Women 16:27",
+      "normalizedRef": "rom16.27",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-026_fr",
+    "data": {
+      "id": "dq-cpab-026",
+      "questionText": "Combien de chapitres compte l'épître aux Romains ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres Pauliniennes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "14"
+        },
+        {
+          "id": "c",
+          "text": "16"
+        },
+        {
+          "id": "d",
+          "text": "18"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'épître aux Romains compte 16 chapitres et constitue l'exposition la plus complète de la théologie de Paul sur le péché, la grâce et le salut.",
+      "bibleReference": "Romains 16:27",
+      "normalizedRef": "rom16.27",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-027_ht",
+    "data": {
+      "id": "dq-cpab-027",
+      "questionText": "Ki se pi kout lèt Pòl nan Nouvo Testaman an?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tit"
+        },
+        {
+          "id": "b",
+          "text": "Filemon"
+        },
+        {
+          "id": "c",
+          "text": "2 Tesalonisyen"
+        },
+        {
+          "id": "d",
+          "text": "Kolosyen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Filemon gen yon sèl chapit ak 25 vèsè. Se yon lèt pèsonèl Pòl entèsede pou esklav Onezim.",
+      "bibleReference": "Filemon 1:1-25",
+      "normalizedRef": "phm1.1-25",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-027_fr",
+    "data": {
+      "id": "dq-cpab-027",
+      "questionText": "Quelle est la plus courte épître de Paul dans le Nouveau Testament ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres Pauliniennes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tite"
+        },
+        {
+          "id": "b",
+          "text": "Philémon"
+        },
+        {
+          "id": "c",
+          "text": "2 Thessaloniciens"
+        },
+        {
+          "id": "d",
+          "text": "Colossiens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Philémon ne compte qu'un seul chapitre et 25 versets. C'est une lettre personnelle où Paul intercède pour l'esclave Onésime.",
+      "bibleReference": "Philémon 1:1-25",
+      "normalizedRef": "phm1.1-25",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-028_ht",
+    "data": {
+      "id": "dq-cpab-028",
+      "questionText": "Konbyen nan 13 lèt Pòl yo konsidere kòm \"lèt pastorèl\"?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Twa lèt pastorèl yo se 1 Timote, 2 Timote ak Tit. Yo anseye sou lidèchip ak vi legliz lokal yo.",
+      "bibleReference": "1 Timote 3:1-7",
+      "normalizedRef": "1ti3.1-7",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-028_fr",
+    "data": {
+      "id": "dq-cpab-028",
+      "questionText": "Combien des 13 épîtres de Paul sont considérées comme des « épîtres pastorales » ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres Pauliniennes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les trois épîtres pastorales sont 1 Timothée, 2 Timothée et Tite. Elles traitent du leadership et de la vie des églises locales.",
+      "bibleReference": "1 Timothée 3:1-7",
+      "normalizedRef": "1ti3.1-7",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-029_ht",
+    "data": {
+      "id": "dq-cpab-029",
+      "questionText": "Nan ki chapit Efezyen Pòl dekri \"tout zam Bondye yo\"?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Efezyen 2"
+        },
+        {
+          "id": "b",
+          "text": "Efezyen 4"
+        },
+        {
+          "id": "c",
+          "text": "Efezyen 6"
+        },
+        {
+          "id": "d",
+          "text": "Efezyen 8"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Efezyen 6:13-17 dekri amè Bondye a: senti verite a, kiras jistis, soulye levanjil, boukliye lafwa, kazk sali ak epe Lespri a.",
+      "bibleReference": "Efezyen 6:13-17",
+      "normalizedRef": "eph6.13-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-029_fr",
+    "data": {
+      "id": "dq-cpab-029",
+      "questionText": "Dans quel chapitre d'Éphésiens Paul décrit-il « toutes les armes de Dieu » ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres Pauliniennes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Éphésiens 2"
+        },
+        {
+          "id": "b",
+          "text": "Éphésiens 4"
+        },
+        {
+          "id": "c",
+          "text": "Éphésiens 6"
+        },
+        {
+          "id": "d",
+          "text": "Éphésiens 8"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Éphésiens 6:13-17 décrit l'armure de Dieu : la ceinture de la vérité, la cuirasse de la justice, les chaussures de l'Évangile, le bouclier de la foi, le casque du salut et l'épée de l'Esprit.",
+      "bibleReference": "Éphésiens 6:13-17",
+      "normalizedRef": "eph6.13-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-030_ht",
+    "data": {
+      "id": "dq-cpab-030",
+      "questionText": "Ki figi AT Pòl itilize nan Women 4 kòm egzanp justifikasyon pa lafwa?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "Abraram"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Noye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Abraram te kwè Bondye, epi sa te konte pou li kòm jistis\" (Women 4:3). Abraram jistifye pa lafwa, pa pa zèv ni sikonsiyon.",
+      "bibleReference": "Women 4:3",
+      "normalizedRef": "rom4.3",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-030_fr",
+    "data": {
+      "id": "dq-cpab-030",
+      "questionText": "Quelle figure de l'Ancien Testament Paul utilise-t-il dans Romains 4 comme exemple de justification par la foi ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres Pauliniennes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Abraham"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Noé"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Abraham crut à Dieu, et cela lui fut imputé à justice » (Romains 4:3). Abraham est justifié par la foi, et non par les œuvres ou la circoncision.",
+      "bibleReference": "Romains 4:3",
+      "normalizedRef": "rom4.3",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-031_ht",
+    "data": {
+      "id": "dq-cpab-031",
+      "questionText": "Ki mesaj santral lèt Pòl bay Women an?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kijan pou òganize legliz la"
+        },
+        {
+          "id": "b",
+          "text": "Evanjil kòm pouvwa Bondye pou sali — jistifikasyon pa lafwa"
+        },
+        {
+          "id": "c",
+          "text": "Don espirityèl yo"
+        },
+        {
+          "id": "d",
+          "text": "Règ pou maryaj kretyen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Women 1:16-17 — \"Mwen pa wont Evanjil la paske li se pouvwa Bondye pou sali tout moun ki kwè... paske ladann jistis Bondye revele, pa lafwa a lafwa.\"",
+      "bibleReference": "Women 1:16-17",
+      "normalizedRef": "rom1.16-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-031_fr",
+    "data": {
+      "id": "dq-cpab-031",
+      "questionText": "Quel est le message central de la lettre aux Romains ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Comment organiser l'église"
+        },
+        {
+          "id": "b",
+          "text": "L'Évangile comme puissance de Dieu pour le salut — la justification par la foi"
+        },
+        {
+          "id": "c",
+          "text": "Les dons spirituels"
+        },
+        {
+          "id": "d",
+          "text": "Règles pour le mariage chrétien"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Romains 1:16-17 — « Car je n'ai point honte de l'Évangile : c'est une puissance de Dieu pour le salut de quiconque croit... parce qu'en lui est révélée la justice de Dieu par la foi. »",
+      "bibleReference": "Romains 1:16-17",
+      "normalizedRef": "rom1.16-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-032_ht",
+    "data": {
+      "id": "dq-cpab-032",
+      "questionText": "Ki pwoblèm prensipal nan legliz Korent ki te poze Pòl pou ekri?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pèsekisyon gouvènman"
+        },
+        {
+          "id": "b",
+          "text": "Divizyon, imoralite, pwoblèm Repa Seyè, debate sou rezirèksyon ak don espirityèl"
+        },
+        {
+          "id": "c",
+          "text": "Erè sou Trinite"
+        },
+        {
+          "id": "d",
+          "text": "Refize peye egzijans Tanp la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen — Legliz Korent te gen: pati (1:10-12), imoralite seksyèl (ch.5), litij (ch.6), idolatri (ch.8-10), dezòd nan adorasyon (ch.11-14), ni erè sou rezirèksyon (ch.15).",
+      "bibleReference": "1 Korentyen 1:10-13",
+      "normalizedRef": "1korentyen1.10-13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-032_fr",
+    "data": {
+      "id": "dq-cpab-032",
+      "questionText": "Quel était le problème principal dans l'église de Corinthe ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La persécution du gouvernement"
+        },
+        {
+          "id": "b",
+          "text": "Divisions, immoralité, problèmes sur la Cène, débats sur la résurrection et les dons"
+        },
+        {
+          "id": "c",
+          "text": "Erreurs sur la Trinité"
+        },
+        {
+          "id": "d",
+          "text": "Refus de payer les taxes du Temple"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens — L'église de Corinthe avait des divisions (1:10-12), de l'immoralité sexuelle (ch.5), des litiges (ch.6), de l'idolatrie (ch.8-10) et du désordre dans l'adoration (ch.11-14).",
+      "bibleReference": "1 Corinthiens 1:10-13",
+      "normalizedRef": "1korentyen1.10-13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-033_ht",
+    "data": {
+      "id": "dq-cpab-033",
+      "questionText": "Ki sa \"Jistifikasyon\" vle di nan lèt Women an?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pwouve ou merite gras Bondye"
+        },
+        {
+          "id": "b",
+          "text": "Bondye deklare pechè \"jis\" pa jistis Kris — pa peche yo yo menm"
+        },
+        {
+          "id": "c",
+          "text": "Pwosesis vin pi piti peche chak jou"
+        },
+        {
+          "id": "d",
+          "text": "Batèm piblik kòm deklarasyon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Women 4:5 — \"Bay moun ki pa travay men ki kwè nan Bondye ki jistifye mechan an, lafwa li konte kòm jistis.\" Jistifikasyon = deklarasyon jiridik.",
+      "bibleReference": "Women 4:5",
+      "normalizedRef": "rom4.5",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-033_fr",
+    "data": {
+      "id": "dq-cpab-033",
+      "questionText": "Que signifie la « Justification » dans la lettre aux Romains ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prouver que vous méritez la grâce de Dieu"
+        },
+        {
+          "id": "b",
+          "text": "Dieu déclare le pécheur « juste » par la justice de Christ — pas par ses propres mérites"
+        },
+        {
+          "id": "c",
+          "text": "Le processus de commettre moins de péchés chaque jour"
+        },
+        {
+          "id": "d",
+          "text": "Le baptême public comme déclaration"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Romains 4:5 — « Et à celui qui ne fait point d'œuvre, mais qui croit en celui qui justifie l'impie, sa foi lui est imputée à justice. » La justification est une déclaration juridique.",
+      "bibleReference": "Romains 4:5",
+      "normalizedRef": "rom4.5",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-034_ht",
+    "data": {
+      "id": "dq-cpab-034",
+      "questionText": "Ki sa Pòl di sou amou nan 1 Korentyen 13?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amou se yon santi"
+        },
+        {
+          "id": "b",
+          "text": "Amou pi gran pase don yo tout — pasyans, jantiyès, pa jalouzi, soufri tout bagay"
+        },
+        {
+          "id": "c",
+          "text": "Amou romantik se modèl kretyen an"
+        },
+        {
+          "id": "d",
+          "text": "Amou sèlman posib avèk lafwa perfèt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 13:4-13 — \"Amou pasyan, amou janti... amou pa janm fini.\" San amou, tout don espirityèl yo vin anyen.",
+      "bibleReference": "1 Korentyen 13:13",
+      "normalizedRef": "1korentyen13.13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-034_fr",
+    "data": {
+      "id": "dq-cpab-034",
+      "questionText": "Que dit Paul sur l'amour dans 1 Corinthiens 13 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'amour est un sentiment passager"
+        },
+        {
+          "id": "b",
+          "text": "L'amour est plus grand que tous les dons — patience, bonté, pas d'envie, supporte tout"
+        },
+        {
+          "id": "c",
+          "text": "L'amour romantique est le modèle chrétien"
+        },
+        {
+          "id": "d",
+          "text": "L'amour n'est possible qu'avec une foi parfaite"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 13:4-13 — « L'amour est patient, il est plein de bonté... l'amour ne périt jamais. » Sans l'amour, tous les dons spirituels ne sont rien.",
+      "bibleReference": "1 Corinthiens 13:13",
+      "normalizedRef": "1korentyen13.13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-035_ht",
+    "data": {
+      "id": "dq-cpab-035",
+      "questionText": "Ki deklarasyon santral Pòl nan Efezyen 2:8-9?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Sali pa travay, pa grâce, pa lafwa\""
+        },
+        {
+          "id": "b",
+          "text": "\"Se pa nan travay nou sove — se pa grâce pa lafwa, kado Bondye, pou pèsonn pa vante\""
+        },
+        {
+          "id": "c",
+          "text": "\"Travay ak lafwa ansanm nesesè pou sali\""
+        },
+        {
+          "id": "d",
+          "text": "\"Sèlman ki peye ladîm sove\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 2:8-9 — \"Paske se pa travay ki sove nou, se pa grâce pa mwayen lafwa, epi sa se pa soti nan nou menm, se kado Bondye. Pa nan travay, pou pèsonn pa ka vante tèt yo.\"",
+      "bibleReference": "Efezyen 2:8-9",
+      "normalizedRef": "eph2.8-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-035_fr",
+    "data": {
+      "id": "dq-cpab-035",
+      "questionText": "Quelle est la déclaration centrale de Paul dans Éphésiens 2:8-9 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le salut ne vient pas des œuvres mais de la foi"
+        },
+        {
+          "id": "b",
+          "text": "C'est par la grâce que vous êtes sauvés, par le moyen de la foi — c'est le don de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Les œuvres et la foi sont nécessaires ensemble pour le salut"
+        },
+        {
+          "id": "d",
+          "text": "Seuls ceux qui paient la dîme sont sauvés"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Éphésiens 2:8-9 — « Car c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie. »",
+      "bibleReference": "Éphésiens 2:8-9",
+      "normalizedRef": "eph2.8-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-036_ht",
+    "data": {
+      "id": "dq-cpab-036",
+      "questionText": "Ki sa \"Armèy Bondye\" nan Efezyen 6 reprezante?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon lame fizik kretyen dwe fòme"
+        },
+        {
+          "id": "b",
+          "text": "Eleman espirityèl pou goumen kont pouvwa espirityèl: verite, jistis, lapè, lafwa, sali, Pawòl, priyè"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman defansif — pa gen arèt ofansif"
+        },
+        {
+          "id": "d",
+          "text": "Senbòl nan vi legliz biwo a sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 6:10-18 — Kwayan goumen \"kont direktè, kont otorite... kont fòs espirityèl mechan nan kote selès.\" Armèy: verite, jistis, Evanjil lapè, lafwa, sali, Pawòl Bondye, priyè.",
+      "bibleReference": "Efezyen 6:12-13",
+      "normalizedRef": "eph6.12-13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-036_fr",
+    "data": {
+      "id": "dq-cpab-036",
+      "questionText": "Que représente « l'armure de Dieu » dans Éphésiens 6 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une armée physique que les chrétiens doivent former"
+        },
+        {
+          "id": "b",
+          "text": "Des éléments spirituels pour lutter contre les puissances spirituelles : vérité, justice, paix, foi, salut, Parole, prière"
+        },
+        {
+          "id": "c",
+          "text": "Seulement défensif — pas d'armes offensives"
+        },
+        {
+          "id": "d",
+          "text": "Un symbole de la vie de bureau de l'église seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Éphésiens 6:10-18 — Les croyants luttent « contre les dominations, contre les autorités... contre les esprits méchants dans les lieux célestes. » L'armure : vérité, justice, Évangile de paix, foi, salut, Parole de Dieu, prière.",
+      "bibleReference": "Éphésiens 6:12-13",
+      "normalizedRef": "eph6.12-13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-037_ht",
+    "data": {
+      "id": "dq-cpab-037",
+      "questionText": "Ki mesaj santral Pòl nan Filipyen?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Règ pou lidèship legliz"
+        },
+        {
+          "id": "b",
+          "text": "Kè kontan nan Kris malgre tout sikonstans — \"Remen toujou nan Seyè a\""
+        },
+        {
+          "id": "c",
+          "text": "Pwoblèm sòmasize nan Filipi"
+        },
+        {
+          "id": "d",
+          "text": "Youn apot ki kritike lòt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Filipyen 4:4 — \"Remen toujou nan Seyè a.\" Ekri pandan prizon Pòl la. Témwanyaj kè kontan nan tribikasyon, satisfaksyon nan Kris (4:11-13) — \"Mwen ka fè tout bagay nan Kris.\"",
+      "bibleReference": "Filipyen 4:4",
+      "normalizedRef": "phi4.4",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-037_fr",
+    "data": {
+      "id": "dq-cpab-037",
+      "questionText": "Quel est le message central de Paul aux Philippiens ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Règles pour le leadership de l'église"
+        },
+        {
+          "id": "b",
+          "text": "La joie en Christ malgré toutes les circonstances — « Réjouissez-vous toujours dans le Seigneur »"
+        },
+        {
+          "id": "c",
+          "text": "Le problème de la circoncision à Philippes"
+        },
+        {
+          "id": "d",
+          "text": "Un apôtre qui en critique un autre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Philippiens 4:4 — « Réjouissez-vous toujours dans le Seigneur. » Écrit pendant l'emprisonnement de Paul. Témoignage de joie dans les tribulations, contentement en Christ (4:11-13) — « Je puis tout par Christ. »",
+      "bibleReference": "Philippiens 4:4",
+      "normalizedRef": "phi4.4",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-038_ht",
+    "data": {
+      "id": "dq-cpab-038",
+      "questionText": "Ki sa lèt Galat debat kont?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Immoralite seksyèl"
+        },
+        {
+          "id": "b",
+          "text": "Ensèyman ke Jantil bezwen sikonsi ak Lwa Moyiz pou sove — kontradisyon Evanjil grâce"
+        },
+        {
+          "id": "c",
+          "text": "Pwoblèm legliz Galat yo nan adorasyon"
+        },
+        {
+          "id": "d",
+          "text": "Debat sou pèsonn Kris"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Galat 1:6-9 — \"Mwen sezi ke nou kite Kris... pou yon lòt Evanjil.\" Pòl denonse \"Judaïzant\" ki te di Jantil bezwen obsève Lwa Moyiz an plis de lafwa. Sali se grâce sèlman.",
+      "bibleReference": "Galat 1:6-9",
+      "normalizedRef": "gal1.6-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-038_fr",
+    "data": {
+      "id": "dq-cpab-038",
+      "questionText": "Contre quoi la lettre aux Galates débat-elle ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'immoralité sexuelle"
+        },
+        {
+          "id": "b",
+          "text": "L'enseignement selon lequel les Gentils doivent être circoncis et suivre la Loi de Moïse pour être sauvés — contradiction de l'Évangile de la grâce"
+        },
+        {
+          "id": "c",
+          "text": "Les problèmes des églises de Galatie dans l'adoration"
+        },
+        {
+          "id": "d",
+          "text": "Un débat sur la personne du Christ"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Galates 1:6-9 — « Je m'étonne que vous vous détourniez si vite... pour un autre Évangile. » Paul dénonce les « judaïsants » qui disaient que les Gentils devaient observer la Loi de Moïse en plus de la foi. Le salut est par la grâce seule.",
+      "bibleReference": "Galates 1:6-9",
+      "normalizedRef": "gal1.6-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-039_ht",
+    "data": {
+      "id": "dq-cpab-039",
+      "questionText": "Ki sa Pòl anseye sou \"Nouvo Kreyasyon\" nan 2 Korentyen 5:17?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kwayan ka tounen yon nouvo moun fizikman"
+        },
+        {
+          "id": "b",
+          "text": "Moun ki nan Kris se yon nouvo kreyasyon — vye bagay yo pase, tout bagay vin nouvo"
+        },
+        {
+          "id": "c",
+          "text": "Legliz la vin tounen nouvo nasyis"
+        },
+        {
+          "id": "d",
+          "text": "Mond lan pral kreye nòv bientôt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Korentyen 5:17 — \"Si yon moun nan Kris, li se yon nouvo kreyasyon: vye bagay yo pase; gade, tout bagay vin nouvo!\" Transfòmasyon espirityèl konplè pa regenerasyon.",
+      "bibleReference": "2 Korentyen 5:17",
+      "normalizedRef": "2korentyen5.17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-039_fr",
+    "data": {
+      "id": "dq-cpab-039",
+      "questionText": "Qu'enseigne Paul sur la « nouvelle création » dans 2 Corinthiens 5:17 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le croyant peut devenir une nouvelle personne physiquement"
+        },
+        {
+          "id": "b",
+          "text": "Celui qui est en Christ est une nouvelle création — les choses anciennes sont passées, toutes choses sont devenues nouvelles"
+        },
+        {
+          "id": "c",
+          "text": "L'église devient une nouvelle nation"
+        },
+        {
+          "id": "d",
+          "text": "Le monde sera créé à neuf bientôt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Corinthiens 5:17 — « Si quelqu'un est en Christ, il est une nouvelle créature : les choses anciennes sont passées ; voici, toutes choses sont devenues nouvelles ! » Transformation spirituelle complète par la régénération.",
+      "bibleReference": "2 Corinthiens 5:17",
+      "normalizedRef": "2korentyen5.17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-040_ht",
+    "data": {
+      "id": "dq-cpab-040",
+      "questionText": "Ki sa Kolosyen 1:15-20 di sou Kris?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kris te kreye apre tout bagay"
+        },
+        {
+          "id": "b",
+          "text": "Kris \"imaj Bondye envizib la, premye pitit tout kreyasyon an\" — tou kreyasyon te fèt pa li epi pou li"
+        },
+        {
+          "id": "c",
+          "text": "Kris se youn nan plizyè manifes Bondye yo"
+        },
+        {
+          "id": "d",
+          "text": "Kris se premye zanj Bondye te kreye a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kolosyen 1:15-20 — \"Li se imaj Bondye envizib la... tou bagay te kreye pa li ak pou li... li se anvan tout bagay, ak tout bagay kenbe ansanm nan li.\" — Supremasi total Kris.",
+      "bibleReference": "Kolosyen 1:15-17",
+      "normalizedRef": "col1.15-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-040_fr",
+    "data": {
+      "id": "dq-cpab-040",
+      "questionText": "Que dit Colossiens 1:15-20 sur le Christ ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Christ a été créé après toutes choses"
+        },
+        {
+          "id": "b",
+          "text": "Le Christ est « l'image du Dieu invisible, le premier-né de toute la création » — toute la création a été faite par lui et pour lui"
+        },
+        {
+          "id": "c",
+          "text": "Le Christ est l'une des nombreuses manifestations de Dieu"
+        },
+        {
+          "id": "d",
+          "text": "Le Christ est le premier ange que Dieu a créé"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Colossiens 1:15-20 — « Il est l'image du Dieu invisible... tout a été créé par lui et pour lui... il est avant toutes choses, et toutes choses subsistent en lui. » — Suprématie totale du Christ.",
+      "bibleReference": "Colossiens 1:15-17",
+      "normalizedRef": "col1.15-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-041_ht",
+    "data": {
+      "id": "dq-cpab-041",
+      "questionText": "Ki pwomès sentral 1 Tesalonisyen 4 bay sou mouri nan lafwa?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo disparèt silansyèzman"
+        },
+        {
+          "id": "b",
+          "text": "Kris pral resisite yo anvan mouri vivan yo; yo tout pral rankontre Seyè a nan lè a"
+        },
+        {
+          "id": "c",
+          "text": "Mouri yo ale imédyatman pou jijman"
+        },
+        {
+          "id": "d",
+          "text": "Yo rete nan yon somèy jiskaske jijman final la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Tesalonisyen 4:13-17 — \"Mouri nan Kris pral resisite anvan. Epi nou ki vivan yo, yo pral pran ansanm avèk yo nan nwaj pou rankontre Seyè a nan lè a.\"",
+      "bibleReference": "1 Tesalonisyen 4:16-17",
+      "normalizedRef": "1th4.16-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-041_fr",
+    "data": {
+      "id": "dq-cpab-041",
+      "questionText": "Quelle promesse centrale 1 Thessaloniciens 4 donne-t-il sur ceux qui meurent dans la foi ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ils disparaissent silencieusement"
+        },
+        {
+          "id": "b",
+          "text": "Le Christ les ressuscitera avant les vivants ; ils se rencontreront tous avec le Seigneur dans les airs"
+        },
+        {
+          "id": "c",
+          "text": "Les morts partent immédiatement pour le jugement"
+        },
+        {
+          "id": "d",
+          "text": "Ils restent dans un sommeil jusqu'au jugement final"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Thessaloniciens 4:13-17 — « Les morts en Christ ressusciteront premièrement. Ensuite, nous les vivants, nous serons tous ensemble enlevés avec eux sur des nuées, à la rencontre du Seigneur dans les airs. »",
+      "bibleReference": "1 Thessalonisyen 4:16-17",
+      "normalizedRef": "1th4.16-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-042_ht",
+    "data": {
+      "id": "dq-cpab-042",
+      "questionText": "Ki konsèy Pòl bay Timote sou konduit li kòm jèn pastè?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Evite tout moun pi gran pase ou"
+        },
+        {
+          "id": "b",
+          "text": "Pa kite pèsonn meprize jènn ou — moutre tèt ou kòm modèl nan pawòl, vi, amou, espri, lafwa, chastete"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman priye pou legliz la"
+        },
+        {
+          "id": "d",
+          "text": "Abandone ministè si presyon vin gwo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timote 4:12 — \"Pa kite pèsonn meprize jènn ou, men moutre tèt ou kòm yon modèl bay kwayan yo nan pawòl, konduit, amou, lafwa ak purte.\"",
+      "bibleReference": "1 Timote 4:12",
+      "normalizedRef": "1ti4.12",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-042_fr",
+    "data": {
+      "id": "dq-cpab-042",
+      "questionText": "Quel conseil Paul donne-t-il à Timothée sur sa conduite en tant que jeune pasteur ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Évitez toutes les personnes plus âgées que vous"
+        },
+        {
+          "id": "b",
+          "text": "Que personne ne méprise ta jeunesse — montre-toi comme un modèle en parole, en conduite, en amour, en esprit, en foi, en pureté"
+        },
+        {
+          "id": "c",
+          "text": "Prie seulement pour l'église"
+        },
+        {
+          "id": "d",
+          "text": "Abandonne le ministère si la pression devient trop forte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timothée 4:12 — « Que personne ne méprise ta jeunesse ; mais sois un modèle pour les fidèles, en parole, en conduite, en charité, en foi, en pureté. »",
+      "bibleReference": "1 Timote 4:12",
+      "normalizedRef": "1ti4.12",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-043_ht",
+    "data": {
+      "id": "dq-cpab-043",
+      "questionText": "Ki sa \"Imn Kris\" nan Filipyen 2:6-11 anseye?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kris te kreye anba Bondye ak yon volonte enferyè"
+        },
+        {
+          "id": "b",
+          "text": "Kris vide tèt li de glwa divine, vin sèvitè, mouri sou kwa — Bondye egzalte li anlè tout non"
+        },
+        {
+          "id": "c",
+          "text": "Kris pa t egziste anvan enkannasyon"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman manm yo ki obeyisan recevra yon egzaltasyon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Filipyen 2:6-11 — Kenosis: Kris te \"pa konsidere egalite avèk Bondye yon bagay pou atrape,\" li vide tèt li, pran fòm sèvitè, obeyi jouk lanmò kwa. Bondye egzalte li — \"Tout jenou pral pliye.\"",
+      "bibleReference": "Filipyen 2:9-11",
+      "normalizedRef": "phi2.9-11",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-043_fr",
+    "data": {
+      "id": "dq-cpab-043",
+      "questionText": "Qu'enseigne « l'hymne au Christ » dans Philippiens 2:6-11 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Christ a été créé sous Dieu avec une volonté inférieure"
+        },
+        {
+          "id": "b",
+          "text": "Le Christ s'est dépouillé de sa gloire divine, est devenu serviteur, est mort sur la croix — Dieu l'a souverainement élevé au-dessus de tout nom"
+        },
+        {
+          "id": "c",
+          "text": "Le Christ n'existait pas avant l'incarnation"
+        },
+        {
+          "id": "d",
+          "text": "Seulement les membres qui sont obéissants recevront une exaltation"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Philippiens 2:6-11 — Kénose : le Christ « n'a point regardé comme une proie à arracher d'être égal avec Dieu, » il s'est dépouillé lui-même, a pris une forme de serviteur, a obéi jusqu'à la mort de la croix. Dieu l'a élevé — « Tout genou fléchira. »",
+      "bibleReference": "Filipyen 2:9-11",
+      "normalizedRef": "phi2.9-11",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-044_ht",
+    "data": {
+      "id": "dq-cpab-044",
+      "questionText": "Ki avertisman Pòl bay nan 2 Timote 3 sou dènye tan yo?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tout moun pral tounen kretyen"
+        },
+        {
+          "id": "b",
+          "text": "Moun pral renmen tèt yo, avaris, èrgèy... gen fòm relijyon men refize pouvwa li"
+        },
+        {
+          "id": "c",
+          "text": "Legliz la pral tounen plin anvan Kris retounen"
+        },
+        {
+          "id": "d",
+          "text": "Pa gen pèsekisyon nan dènye tan yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Timote 3:1-5 — \"Nan dènye jou yo pral gen moman difisil: moun pral renmen tèt yo, avaris... pran plen mwèl relijyon men refize pouvwa l.\" Remèd: Ekriti Sen (v.16-17).",
+      "bibleReference": "2 Timote 3:1-5",
+      "normalizedRef": "2ti3.1-5",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-044_fr",
+    "data": {
+      "id": "dq-cpab-044",
+      "questionText": "Quel avertissement Paul donne-t-il dans 2 Timothée 3 sur les derniers temps ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tout le monde deviendra chrétien"
+        },
+        {
+          "id": "b",
+          "text": "Les hommes seront égoïstes, amis de l'argent, fanfarons... ayant l'apparence de la piété, mais reniant ce qui en fait la force"
+        },
+        {
+          "id": "c",
+          "text": "L'église sera pleine avant que le Christ ne revienne"
+        },
+        {
+          "id": "d",
+          "text": "Il n'y aura pas de persécution dans les derniers temps"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Timothée 3:1-5 — « Dans les derniers jours, il y aura des temps difficiles : car les hommes seront égoïstes, amis de l'argent... ayant l'apparence de la piété, mais reniant ce qui en fait la force. » Remède : les Saintes Écritures (v.16-17).",
+      "bibleReference": "2 Timote 3:1-5",
+      "normalizedRef": "2ti3.1-5",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-045_ht",
+    "data": {
+      "id": "dq-cpab-045",
+      "questionText": "Ki mesaj Pòl bay Filemòn?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon ansèyman sou lwa esklav yo"
+        },
+        {
+          "id": "b",
+          "text": "Pòl mande Filemòn pou resevwa esklav Onezim li a kòm frè nan Kris — demonstrasyon Evanjil kont esklav"
+        },
+        {
+          "id": "c",
+          "text": "Yon peyajman sou finans Legliz"
+        },
+        {
+          "id": "d",
+          "text": "Pòl mande Filemòn remèt yon prete"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Filemòn 15-16 — Pòl ekri pou Onezim (esklav ki te kouri): \"Li te separe avèk ou pou yon ti tan pou ou ka genyen li pou tout tan, pa kòm esklav ankò, men pi bon pase esklav, kòm frè cheri.\"",
+      "bibleReference": "Filemòn 15-16",
+      "normalizedRef": "filemòn15-16",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-045_fr",
+    "data": {
+      "id": "dq-cpab-045",
+      "questionText": "Quel message Paul donne-t-il à Philémon ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un enseignement sur les lois des esclaves"
+        },
+        {
+          "id": "b",
+          "text": "Paul demande à Philémon de recevoir son esclave Onésime comme un frère en Christ — démonstration de l'Évangile contre l'esclavage"
+        },
+        {
+          "id": "c",
+          "text": "Un enseignement sur les finances de l'Église"
+        },
+        {
+          "id": "d",
+          "text": "Paul demande à Philémon de rembourser un prêt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Philémon 15-16 — Paul écrit pour Onésime (l'esclave qui s'était enfui) : « Il a été séparé de toi pour un peu de temps, afin que tu le recouvres pour l'éternité, non plus comme un esclave, mais comme bien plus qu'un esclave, comme un frère bien-aimé. »",
+      "bibleReference": "Filemòn 15-16",
+      "normalizedRef": "filemòn15-16",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-046_ht",
+    "data": {
+      "id": "dq-cpab-046",
+      "questionText": "Nan ki vil Pòl te ekri yon lèt sou jistifikasyon pa lafwa?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Efèz"
+        },
+        {
+          "id": "b",
+          "text": "Korent"
+        },
+        {
+          "id": "c",
+          "text": "Wòm"
+        },
+        {
+          "id": "d",
+          "text": "Filipi"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lèt pou moun Wòm yo devlope doktrin santral jistifikasyon pa lafwa sèlman (Women 1:17).",
+      "bibleReference": "Romains 1:17"
+    }
+  },
+  {
+    "docId": "dq-cpab-046_fr",
+    "data": {
+      "id": "dq-cpab-046",
+      "questionText": "À quelle ville Paul écrit-il une lettre sur la justification par la foi ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Éphèse"
+        },
+        {
+          "id": "b",
+          "text": "Corinthe"
+        },
+        {
+          "id": "c",
+          "text": "Rome"
+        },
+        {
+          "id": "d",
+          "text": "Philippes"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'Épître aux Romains développe la doctrine centrale de la justification par la foi seule (Romains 1:17).",
+      "bibleReference": "Romains 1:17",
+      "normalizedRef": "rom1.17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-047_ht",
+    "data": {
+      "id": "dq-cpab-047",
+      "questionText": "Konbyen lèt Pòl te ekri pou moun Korent yo?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kanon Nouvo Testaman an gen de lèt Pòl pou moun Korent yo: 1 Korentyen ak 2 Korentyen.",
+      "bibleReference": "1 Corinthiens 1:1"
+    }
+  },
+  {
+    "docId": "dq-cpab-047_fr",
+    "data": {
+      "id": "dq-cpab-047",
+      "questionText": "Combien de lettres Paul a-t-il écrites aux Corinthiens ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le canon du NT inclut deux lettres de Paul aux Corinthiens : 1 Corinthiens et 2 Corinthiens.",
+      "bibleReference": "1 Corinthiens 1:1",
+      "normalizedRef": "1co1.1",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-048_ht",
+    "data": {
+      "id": "dq-cpab-048",
+      "questionText": "Ki lèt Pòl yo rele souvan « Magna Carta » libète kretyen an?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Women"
+        },
+        {
+          "id": "b",
+          "text": "Galat"
+        },
+        {
+          "id": "c",
+          "text": "Efezyen"
+        },
+        {
+          "id": "d",
+          "text": "Kolosyen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lèt Galat la defann libète kont Lalwa Moyiz la pa mwayen gras la: « Se pou nou te ka lib kifè Kris la delivre nou » (Galat 5:1).",
+      "bibleReference": "Galates 5:1"
+    }
+  },
+  {
+    "docId": "dq-cpab-048_fr",
+    "data": {
+      "id": "dq-cpab-048",
+      "questionText": "Quelle épître de Paul est souvent appelée la « Magna Carta » de la liberté chrétienne ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Romains"
+        },
+        {
+          "id": "b",
+          "text": "Galates"
+        },
+        {
+          "id": "c",
+          "text": "Éphésiens"
+        },
+        {
+          "id": "d",
+          "text": "Colossiens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Galates défend la liberté de la Loi mosaïque par la grâce : « C'est pour la liberté que Christ nous a affranchis » (Galates 5:1).",
+      "bibleReference": "Galates 5:1",
+      "normalizedRef": "gal5.1",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-049_ht",
+    "data": {
+      "id": "dq-cpab-049",
+      "questionText": "Ki chapit yo rele « chapit lanmou » nan lèt Pòl yo?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Women 8"
+        },
+        {
+          "id": "b",
+          "text": "Efezyen 6"
+        },
+        {
+          "id": "c",
+          "text": "1 Korentyen 13"
+        },
+        {
+          "id": "d",
+          "text": "Filipyen 4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Korentyen 13 se bèl « im lanmou » Pòl la: « Si m pa gen lanmou, mwen pa anyen. »",
+      "bibleReference": "1 Corinthiens 13:1"
+    }
+  },
+  {
+    "docId": "dq-cpab-049_fr",
+    "data": {
+      "id": "dq-cpab-049",
+      "questionText": "Quel est le « chapitre de la charité/amour » dans les épîtres pauliniennes ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Romains 8"
+        },
+        {
+          "id": "b",
+          "text": "Éphésiens 6"
+        },
+        {
+          "id": "c",
+          "text": "1 Corinthiens 13"
+        },
+        {
+          "id": "d",
+          "text": "Philippiens 4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Corinthiens 13 est le célèbre « hymne à l'amour » de Paul : « Si je n'ai pas la charité, je ne suis rien. »",
+      "bibleReference": "1 Corinthiens 13:1",
+      "normalizedRef": "1co13.1",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-050_ht",
+    "data": {
+      "id": "dq-cpab-050",
+      "questionText": "Nan Efezyen 6, Pòl dekri zam espirityèl kretyen an. Ki sèl zam ofansif li site?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bwakliye lafwa a"
+        },
+        {
+          "id": "b",
+          "text": "Nepe Lespri a — ki se Pawòl Bondye a"
+        },
+        {
+          "id": "c",
+          "text": "Plastwon jistis la"
+        },
+        {
+          "id": "d",
+          "text": "Kas delivrans lan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Nepe Lespri a, ki se pawòl Bondye a » se sèl zam ofansif nan tout zam yo (Efezyen 6:17).",
+      "bibleReference": "Éphésiens 6:17"
+    }
+  },
+  {
+    "docId": "dq-cpab-050_fr",
+    "data": {
+      "id": "dq-cpab-050",
+      "questionText": "Dans Éphésiens 6, Paul décrit l'armure spirituelle du chrétien. Quelle est la seule arme offensive citée ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le bouclier de la foi"
+        },
+        {
+          "id": "b",
+          "text": "L'épée de l'Esprit — la Parole de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "La cuirasse de la justice"
+        },
+        {
+          "id": "d",
+          "text": "Le casque du salut"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« L'épée de l'Esprit, qui est la parole de Dieu » est la seule arme offensive dans l'armure complète (Éphésiens 6:17).",
+      "bibleReference": "Éphésiens 6:17",
+      "normalizedRef": "eph6.17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-051_ht",
+    "data": {
+      "id": "dq-cpab-051",
+      "questionText": "Nan 1 Korentyen 15, Pòl bay lis kote moun te wè Jezi apre l fin resisite. Konbyen moun ki te wè l ansanm yon sèl fwa?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "12"
+        },
+        {
+          "id": "b",
+          "text": "120"
+        },
+        {
+          "id": "c",
+          "text": "500"
+        },
+        {
+          "id": "d",
+          "text": "3000"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Apre sa, li te parèt devan plis pase senksan (500) frè ansanm » (1 Korentyen 15:6).",
+      "bibleReference": "1 Corinthiens 15:6"
+    }
+  },
+  {
+    "docId": "dq-cpab-051_fr",
+    "data": {
+      "id": "dq-cpab-051",
+      "questionText": "Dans 1 Corinthiens 15, Paul liste les apparitions du Ressuscité. À combien de personnes à la fois apparut-il une fois ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "12"
+        },
+        {
+          "id": "b",
+          "text": "120"
+        },
+        {
+          "id": "c",
+          "text": "500"
+        },
+        {
+          "id": "d",
+          "text": "3000"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Il est apparu à plus de cinq cents frères à la fois » (1 Corinthiens 15:6).",
+      "bibleReference": "1 Corinthiens 15:6",
+      "normalizedRef": "1co15.6",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-052_ht",
+    "data": {
+      "id": "dq-cpab-052",
+      "questionText": "Ki tèm santral lèt pou Kolosyen yo konsènan Kris?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rezirèksyon k ap vini an"
+        },
+        {
+          "id": "b",
+          "text": "Siperyorite ak plenitid Kris la"
+        },
+        {
+          "id": "c",
+          "text": "Jistifikasyon pa lafwa"
+        },
+        {
+          "id": "d",
+          "text": "Don espirityèl yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kolosyen 1:15-20 prezante Kris kòm premye pitit nan tout kreyasyon an, e se nan li tout plenitid Bondye a rete.",
+      "bibleReference": "Colossiens 1:18-19"
+    }
+  },
+  {
+    "docId": "dq-cpab-052_fr",
+    "data": {
+      "id": "dq-cpab-052",
+      "questionText": "Quel est le thème central de l'épître aux Colossiens concernant Christ ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La résurrection future"
+        },
+        {
+          "id": "b",
+          "text": "La prééminence et la plénitude de Christ"
+        },
+        {
+          "id": "c",
+          "text": "La justification par la foi"
+        },
+        {
+          "id": "d",
+          "text": "Les dons spirituels"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Colossiens 1:15-20 présente Christ comme premier-né de toute création, en qui habite corporellement toute la plénitude.",
+      "bibleReference": "Colossiens 1:18-19",
+      "normalizedRef": "col1.18-19",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-053_ht",
+    "data": {
+      "id": "dq-cpab-053",
+      "questionText": "Nan ki sans Pòl sèvi ak mo « kenoz » (kenosis) pou dekri Kris nan Filipyen 2?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kris te raba tèt li lè l te pran fòm yon sèvitè"
+        },
+        {
+          "id": "b",
+          "text": "Kris te abandone divinite li"
+        },
+        {
+          "id": "c",
+          "text": "Kris te sispann egziste pandan twa jou"
+        },
+        {
+          "id": "d",
+          "text": "Kris te chwazi inyorans total"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "« Li te raba tèt li (ekenosen), li te pran fòm yon domestik » (Filipyen 2:7). Kris te kenbe divinite li pandan l te vin moun nan.",
+      "bibleReference": "Philippiens 2:7"
+    }
+  },
+  {
+    "docId": "dq-cpab-053_fr",
+    "data": {
+      "id": "dq-cpab-053",
+      "questionText": "En quel sens Paul utilise-t-il le terme « kénose » pour décrire Christ en Philippiens 2 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Christ s'est anéanti lui-même en prenant la forme d'un serviteur"
+        },
+        {
+          "id": "b",
+          "text": "Christ a abandonné sa divinité"
+        },
+        {
+          "id": "c",
+          "text": "Christ a cessé d'exister pendant trois jours"
+        },
+        {
+          "id": "d",
+          "text": "Christ a choisi l'ignorance totale"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "« Il s'est dépouillé lui-même (ekenosen) en prenant une nature de serviteur » (Philippiens 2:7). Christ a gardé sa divinité en s'incarnant.",
+      "bibleReference": "Philippiens 2:7",
+      "normalizedRef": "phi2.7",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-054_ht",
+    "data": {
+      "id": "dq-cpab-054",
+      "questionText": "Kisa doktrin Pòl la sou « jistifikasyon pa lafwa » vle di nan Women 5:1?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Travay nou fè rann nou jis devan Bondye"
+        },
+        {
+          "id": "b",
+          "text": "Bondye deklare nou jis gras ak lafwa nan Kris la"
+        },
+        {
+          "id": "c",
+          "text": "Lafwa ak travay ansanm sove nou"
+        },
+        {
+          "id": "d",
+          "text": "Se batèm sèlman ki jistifye nou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Koulye a, paske nou gen lafwa, Bondye fè nou gras, nou gen lapè ak Bondye gremesi Seyè nou an, Jezikri » (Women 5:1).",
+      "bibleReference": "Romains 5:1"
+    }
+  },
+  {
+    "docId": "dq-cpab-054_fr",
+    "data": {
+      "id": "dq-cpab-054",
+      "questionText": "Que signifie la doctrine paulinienne de la « justification par la foi » dans Romains 5:1 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nos œuvres nous rendent justes devant Dieu"
+        },
+        {
+          "id": "b",
+          "text": "Dieu nous déclare justes grâce à la foi en Christ"
+        },
+        {
+          "id": "c",
+          "text": "La foi et les œuvres ensemble nous sauvent"
+        },
+        {
+          "id": "d",
+          "text": "Seul le baptême nous justifie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Étant donc justifiés par la foi, nous avons la paix avec Dieu par notre Seigneur Jésus-Christ » (Romains 5:1).",
+      "bibleReference": "Romains 5:1",
+      "normalizedRef": "rom5.1",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-055_ht",
+    "data": {
+      "id": "dq-cpab-055",
+      "questionText": "Nan Galat 5, ki « fwi Lespri a » ki kòmanse lis Pòl la?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lafwa, espwa, charite"
+        },
+        {
+          "id": "b",
+          "text": "Lanmou, kè kontan, lapè"
+        },
+        {
+          "id": "c",
+          "text": "Sajès, konesans, lafwa"
+        },
+        {
+          "id": "d",
+          "text": "Imilite, pasyans, dousè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Galat 5:22 bay lis sa a: lanmou, kè kontan, lapè, pasyans, jantiyès, bon kè, lafwa, dousè, kontwòl tèt nou.",
+      "bibleReference": "Galates 5:22"
+    }
+  },
+  {
+    "docId": "dq-cpab-055_fr",
+    "data": {
+      "id": "dq-cpab-055",
+      "questionText": "Dans Galates 5, quels sont les « fruits de l'Esprit » qui commencent la liste de Paul ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Foi, espérance, charité"
+        },
+        {
+          "id": "b",
+          "text": "Amour, joie, paix"
+        },
+        {
+          "id": "c",
+          "text": "Sagesse, connaissance, foi"
+        },
+        {
+          "id": "d",
+          "text": "Humilité, patience, douceur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Galates 5:22 liste : amour, joie, paix, patience, bonté, bienveillance, fidélité, douceur, maîtrise de soi.",
+      "bibleReference": "Galates 5:22",
+      "normalizedRef": "gal5.22",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-056_ht",
+    "data": {
+      "id": "dq-cpab-056",
+      "questionText": "Nan 2 Korentyen 12, ki « pikan nan kò » Pòl mansyone?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon peche k ap repete"
+        },
+        {
+          "id": "b",
+          "text": "Yon soufrans oswa feblès fizik pou l pa t gonfle ak lògèy"
+        },
+        {
+          "id": "c",
+          "text": "Yon lènmi ki t ap pèsekite l"
+        },
+        {
+          "id": "d",
+          "text": "Yon move doktrin nan legliz li a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pòl pale de yon « pikan » (yon feblès li pa t presize) Bondye te refize wete — « fòs mwen parèt pi byen lè ou fèb » (2 Ko 12:9).",
+      "bibleReference": "2 Corinthiens 12:7-9"
+    }
+  },
+  {
+    "docId": "dq-cpab-056_fr",
+    "data": {
+      "id": "dq-cpab-056",
+      "questionText": "Dans 2 Corinthiens 12, quel « écharde dans la chair » Paul mentionne-t-il ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un péché persistant"
+        },
+        {
+          "id": "b",
+          "text": "Une souffrance ou faiblesse physique envoyée pour l'humilier"
+        },
+        {
+          "id": "c",
+          "text": "Un ennemi qui le persécutait"
+        },
+        {
+          "id": "d",
+          "text": "Une doctrine hérétique dans son église"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul parle d'une « écharde » (faiblesse non spécifiée) que Dieu refusa d'ôter — « ma puissance s'accomplit dans la faiblesse » (2 Co 12:9).",
+      "bibleReference": "2 Corinthiens 12:7-9",
+      "normalizedRef": "2co12.7-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cult-001_ht",
+    "data": {
+      "id": "dq-cult-001",
+      "questionText": "Ki pye bwa ki se yon senbòl lapè nan Bib la?",
+      "categoryId": "cultura",
+      "categoryName": "Bib la ak Kilti",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pye pye bwa sèd"
+        },
+        {
+          "id": "b",
+          "text": "Pye oliv"
+        },
+        {
+          "id": "c",
+          "text": "Pye fig"
+        },
+        {
+          "id": "d",
+          "text": "Pye chenn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pye oliv la, ak branch li, se yon senbòl lapè depi epòk Noye a lè pijon an te pote yon branch oliv.",
+      "bibleReference": "Jenèz 8:11"
+    }
+  },
+  {
+    "docId": "dq-cult-001_fr",
+    "data": {
+      "id": "dq-cult-001",
+      "questionText": "Quel arbre est un symbole de paix dans la Bible ?",
+      "categoryId": "cultura",
+      "categoryName": "Culture et Société",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le cèdre"
+        },
+        {
+          "id": "b",
+          "text": "L'olivier"
+        },
+        {
+          "id": "c",
+          "text": "Le figuier"
+        },
+        {
+          "id": "d",
+          "text": "Le chêne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'olivier et son rameau sont des symboles de paix depuis l'époque de Noé, quand la colombe rapporta une feuille d'olivier.",
+      "bibleReference": "Genèse 8:11"
+    }
+  },
+  {
+    "docId": "dq-cult-002_ht",
+    "data": {
+      "id": "dq-cult-002",
+      "questionText": "Ki sa \"Màn\" nan te ye pou pèp Izrayèl la nan dezè a?",
+      "categoryId": "cultura",
+      "categoryName": "Bib la ak Kilti",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon kalite rad"
+        },
+        {
+          "id": "b",
+          "text": "Manje ki te soti nan syèl la"
+        },
+        {
+          "id": "c",
+          "text": "Yon bèt nan dezè a"
+        },
+        {
+          "id": "d",
+          "text": "Yon dlo anmè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 16:15 — \"Moun Izrayèl yo wè sa, yo yonn di lòt: Sa sa ye sa? Paske yo pa t konnen sa l te ye. Moyiz di yo: Sa se pen Seyè a ban nou pou nou manje.\"",
+      "bibleReference": "Egzòd 16:15"
+    }
+  },
+  {
+    "docId": "dq-cult-002_fr",
+    "data": {
+      "id": "dq-cult-002",
+      "questionText": "Qu'était la « manne » pour le peuple d'Israël dans le désert ?",
+      "categoryId": "cultura",
+      "categoryName": "Culture et Société",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un vêtement"
+        },
+        {
+          "id": "b",
+          "text": "Une nourriture tombée du ciel"
+        },
+        {
+          "id": "c",
+          "text": "Un animal du désert"
+        },
+        {
+          "id": "d",
+          "text": "Une eau amère"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 16:15 — Les enfants d'Israël dirent : Qu'est-ce que cela ? Moïse leur dit : C'est le pain que l'Éternel vous donne pour nourriture.",
+      "bibleReference": "Exode 16:15"
+    }
+  },
+  {
+    "docId": "dq-cult-003_ht",
+    "data": {
+      "id": "dq-cult-003",
+      "questionText": "Ki fwi Izrayèl te pote soti nan peyi Kanaran ki te tèlman gwo li te bezwen de moun pou pote l?",
+      "categoryId": "cultura",
+      "categoryName": "Bib la ak Kilti",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon gwo grenad"
+        },
+        {
+          "id": "b",
+          "text": "Yon grap rezen"
+        },
+        {
+          "id": "c",
+          "text": "Yon gwo fig frans"
+        },
+        {
+          "id": "d",
+          "text": "Yon melon dlo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Resansman 13:23 — \"Yo rive nan Fon Echkòl la, yo koupe yon branch rezen ki te gen yon sèl grap rezen ladan l. De nan mesye yo pote l sou yon bwa...\"",
+      "bibleReference": "Resansman 13:23"
+    }
+  },
+  {
+    "docId": "dq-cult-003_fr",
+    "data": {
+      "id": "dq-cult-003",
+      "questionText": "Quel fruit d'Israël rapporté de Canaan était si gros qu'il fallait deux hommes pour le porter ?",
+      "categoryId": "cultura",
+      "categoryName": "Culture et Société",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une grenade"
+        },
+        {
+          "id": "b",
+          "text": "Une grappe de raisin"
+        },
+        {
+          "id": "c",
+          "text": "Une figue"
+        },
+        {
+          "id": "d",
+          "text": "Une pastèque"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nombres 13:23 — Ils coupèrent un rameau avec une grappe de raisin, qu'ils portèrent à deux au moyen d'une perche.",
+      "bibleReference": "Nombres 13:23"
+    }
+  },
+  {
+    "docId": "dq-cult-004_ht",
+    "data": {
+      "id": "dq-cult-004",
+      "questionText": "Ki bèt ki te senbòl \"Mouton Bondye\" a nan Bib la?",
+      "categoryId": "cultura",
+      "categoryName": "Bib la ak Kilti",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon lyon"
+        },
+        {
+          "id": "b",
+          "text": "Yon ti mouton"
+        },
+        {
+          "id": "c",
+          "text": "Yon kabrit"
+        },
+        {
+          "id": "d",
+          "text": "Yon pijon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 1:29 — \"Jan wè Jezi ki t’ap vin bò kote l, li di: Men ti mouton Bondye a k’ap wete peche moun sou latè.\"",
+      "bibleReference": "Jan 1:29"
+    }
+  },
+  {
+    "docId": "dq-cult-004_fr",
+    "data": {
+      "id": "dq-cult-004",
+      "questionText": "Quel animal était le symbole de l'« Agneau de Dieu » dans la Bible ?",
+      "categoryId": "cultura",
+      "categoryName": "Culture et Société",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un lion"
+        },
+        {
+          "id": "b",
+          "text": "Un agneau"
+        },
+        {
+          "id": "c",
+          "text": "Un bouc"
+        },
+        {
+          "id": "d",
+          "text": "Une colombe"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean 1:29 — Jean vit Jésus venant à lui, et dit : Voici l'Agneau de Dieu, qui ôte le péché du monde.",
+      "bibleReference": "Jean 1:29"
+    }
+  },
+  {
+    "docId": "dq-cult-005_ht",
+    "data": {
+      "id": "dq-cult-005",
+      "questionText": "Nan ki lang Ansyen Testaman an te ekri orijinal?",
+      "categoryId": "cultura",
+      "categoryName": "Bib la ak Kilti",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grèk"
+        },
+        {
+          "id": "b",
+          "text": "Ebre"
+        },
+        {
+          "id": "c",
+          "text": "Laten"
+        },
+        {
+          "id": "d",
+          "text": "Franse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ansyen Testaman an te ekri prèske nèt nan lang Ebre (ak kèk ti pati nan Arameyen).",
+      "bibleReference": "Lk 24:44"
+    }
+  },
+  {
+    "docId": "dq-cult-005_fr",
+    "data": {
+      "id": "dq-cult-005",
+      "questionText": "Dans quelle langue l'Ancien Testament a-t-il été écrit à l'origine ?",
+      "categoryId": "cultura",
+      "categoryName": "Culture et Société",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grec"
+        },
+        {
+          "id": "b",
+          "text": "Hébreu"
+        },
+        {
+          "id": "c",
+          "text": "Latin"
+        },
+        {
+          "id": "d",
+          "text": "Français"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Ancien Testament a été écrit presque entièrement en hébreu, avec quelques portions en araméen.",
+      "bibleReference": "Luc 24:44"
+    }
+  },
+  {
+    "docId": "dq-cult-006_ht",
+    "data": {
+      "id": "dq-cult-006",
+      "questionText": "Ki fèt jwif kote yo manje pen san ledven?",
+      "categoryId": "cultura",
+      "categoryName": "Bib la ak Kilti",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pantekovòt"
+        },
+        {
+          "id": "b",
+          "text": "Pak (Pèsak)"
+        },
+        {
+          "id": "c",
+          "text": "Fèt Tabènnak yo"
+        },
+        {
+          "id": "d",
+          "text": "Fèt Limyè a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 12:15 — \"Pandan sèt jou n’a manje pen ki fèt san ledven.\"",
+      "bibleReference": "Egzòd 12:15"
+    }
+  },
+  {
+    "docId": "dq-cult-006_fr",
+    "data": {
+      "id": "dq-cult-006",
+      "questionText": "Quelle fête juive commémore la sortie d'Égypte avec du pain sans levain ?",
+      "categoryId": "cultura",
+      "categoryName": "Culture et Société",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Pentecôte"
+        },
+        {
+          "id": "b",
+          "text": "La Pâque (Pessah)"
+        },
+        {
+          "id": "c",
+          "text": "La fête des Tabernacles"
+        },
+        {
+          "id": "d",
+          "text": "La fête des Lumières"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 12:15 — Pendant sept jours, vous mangerez des pains sans levain. La Pâque célèbre la délivrance d'Égypte.",
+      "bibleReference": "Exode 12:15"
+    }
+  },
+  {
+    "docId": "dq-cult-007_ht",
+    "data": {
+      "id": "dq-cult-007",
+      "questionText": "Ki ti bèt \"pi piti nan tout grenn\" Jezi te itilize pou l pale de Wayòm syèl la?",
+      "categoryId": "cultura",
+      "categoryName": "Bib la ak Kilti",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grenn ble"
+        },
+        {
+          "id": "b",
+          "text": "Grenn moutad"
+        },
+        {
+          "id": "c",
+          "text": "Grenn pwa"
+        },
+        {
+          "id": "d",
+          "text": "Grenn rezen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 13:31-32 — \"Wayòm syèl la tankou yon grenn moutad... li se pi piti nan tout grenn...\"",
+      "bibleReference": "Matye 13:31-32"
+    }
+  },
+  {
+    "docId": "dq-cult-007_fr",
+    "data": {
+      "id": "dq-cult-007",
+      "questionText": "Quelle petite graine Jésus a-t-il utilisée pour parler du Royaume des cieux ?",
+      "categoryId": "cultura",
+      "categoryName": "Culture et Société",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le grain de blé"
+        },
+        {
+          "id": "b",
+          "text": "Le grain de sénevé (moutarde)"
+        },
+        {
+          "id": "c",
+          "text": "Le grain de pois"
+        },
+        {
+          "id": "d",
+          "text": "Le pépin de raisin"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 13:31-32 — Le royaume des cieux est semblable à un grain de sénevé... c'est la plus petite de toutes les semences.",
+      "bibleReference": "Matthieu 13:31-32"
+    }
+  },
+  {
+    "docId": "dq-cult-008_ht",
+    "data": {
+      "id": "dq-cult-008",
+      "questionText": "Ki enstriman mizik David te konn jwe pou wa Sayil?",
+      "categoryId": "cultura",
+      "categoryName": "Bib la ak Kilti",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Twonpèt"
+        },
+        {
+          "id": "b",
+          "text": "Tenpan (Arp)"
+        },
+        {
+          "id": "c",
+          "text": "Flit"
+        },
+        {
+          "id": "d",
+          "text": "Tanbou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Samyèl 16:23 — \"David pran tenpan li, li jwe... lespri mal la kite Sayil.\"",
+      "bibleReference": "1 Samyèl 16:23"
+    }
+  },
+  {
+    "docId": "dq-cult-008_fr",
+    "data": {
+      "id": "dq-cult-008",
+      "questionText": "De quel instrument de musique David jouait-il pour le roi Saül ?",
+      "categoryId": "cultura",
+      "categoryName": "Culture et Société",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La trompette"
+        },
+        {
+          "id": "b",
+          "text": "La harpe"
+        },
+        {
+          "id": "c",
+          "text": "La flûte"
+        },
+        {
+          "id": "d",
+          "text": "Le tambour"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Samuel 16:23 — David prenait sa harpe et jouait... Saül se calmait et l'esprit mauvais le quittait.",
+      "bibleReference": "1 Samuel 16:23"
+    }
+  },
+  {
+    "docId": "dq-cult-009_ht",
+    "data": {
+      "id": "dq-cult-009",
+      "questionText": "Ki metal ki te senbòl richès ak glwa nan bati Tanp lan?",
+      "categoryId": "cultura",
+      "categoryName": "Bib la ak Kilti",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fè"
+        },
+        {
+          "id": "b",
+          "text": "An lò"
+        },
+        {
+          "id": "c",
+          "text": "An kwiv"
+        },
+        {
+          "id": "d",
+          "text": "Lajan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Wa 6 — Salomon te kouvri tout andedan Tanp lan ak bon lò.",
+      "bibleReference": "1 Wa 6:22"
+    }
+  },
+  {
+    "docId": "dq-cult-009_fr",
+    "data": {
+      "id": "dq-cult-009",
+      "questionText": "Quel métal était le symbole de richesse et de gloire dans la construction du Temple ?",
+      "categoryId": "cultura",
+      "categoryName": "Culture et Société",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le fer"
+        },
+        {
+          "id": "b",
+          "text": "L'or"
+        },
+        {
+          "id": "c",
+          "text": "Le cuivre"
+        },
+        {
+          "id": "d",
+          "text": "L'argent"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Rois 6:22 — Salomon couvrit d'or tout l'intérieur de la maison de Dieu.",
+      "bibleReference": "1 Rois 6:22"
+    }
+  },
+  {
+    "docId": "dq-cult-010_ht",
+    "data": {
+      "id": "dq-cult-010",
+      "questionText": "Ki kote yo te konn mete lwil pou limen chandelye yo nan epòk biblik la?",
+      "categoryId": "cultura",
+      "categoryName": "Bib la ak Kilti",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nan bokal vè"
+        },
+        {
+          "id": "b",
+          "text": "Nan lanp tè (seramik)"
+        },
+        {
+          "id": "c",
+          "text": "Nan krich an fè"
+        },
+        {
+          "id": "d",
+          "text": "Nan barik bwa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lanp tè (seramik) te mwayen prensipal moun te konn itilize pou limyè nan kay yo.",
+      "bibleReference": "Matye 25:4"
+    }
+  },
+  {
+    "docId": "dq-cult-010_fr",
+    "data": {
+      "id": "dq-cult-010",
+      "questionText": "Où mettait-on l'huile pour éclairer les maisons à l'époque biblique ?",
+      "categoryId": "cultura",
+      "categoryName": "Culture et Société",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dans des bocaux en verre"
+        },
+        {
+          "id": "b",
+          "text": "Dans des lampes en terre cuite"
+        },
+        {
+          "id": "c",
+          "text": "Dans des cruches en fer"
+        },
+        {
+          "id": "d",
+          "text": "Dans des barils en bois"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les lampes à huile en terre cuite étaient le principal moyen d'éclairage domestique.",
+      "bibleReference": "Matthieu 25:4"
+    }
+  },
+  {
+    "docId": "dq-cult-011_ht",
+    "data": {
+      "id": "dq-cult-011",
+      "questionText": "Ki kalite rad moun nan epòk biblik la te konn mete pou montre yo nan gwo tristès oswa repantans?",
+      "categoryId": "cultura",
+      "categoryName": "Bib la ak Kilti",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rad swa blan"
+        },
+        {
+          "id": "b",
+          "text": "Twal sak ak sann"
+        },
+        {
+          "id": "c",
+          "text": "Rad violèt"
+        },
+        {
+          "id": "d",
+          "text": "Manto lenn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jonan 3:6 — \"Wa lavil Niniv la... mete yon rad sak sou li, li chita nan sann dife.\"",
+      "bibleReference": "Jonas 3:6"
+    }
+  },
+  {
+    "docId": "dq-cult-011_fr",
+    "data": {
+      "id": "dq-cult-011",
+      "questionText": "Quel type de vêtement portait-on à l'époque biblique pour montrer une grande tristesse ou la repentance ?",
+      "categoryId": "cultura",
+      "categoryName": "Culture et Société",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "De la soie blanche"
+        },
+        {
+          "id": "b",
+          "text": "Le sac et la cendre"
+        },
+        {
+          "id": "c",
+          "text": "Des vêtements de pourpre"
+        },
+        {
+          "id": "d",
+          "text": "Un manteau de laine"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jonas 3:6 — Le roi de Ninive... se couvrit d'un sac et s'assit sur la cendre.",
+      "bibleReference": "Jonas 3:6"
+    }
+  },
+  {
+    "docId": "dq-doc-001_ht",
+    "data": {
+      "id": "dq-doc-001",
+      "questionText": "Ki doktrin biblik ki anseye ke Bondye egziste nan twa pèsonn?",
+      "categoryId": "doctrina",
+      "categoryName": "Doktrin Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Doktrin sali a"
+        },
+        {
+          "id": "b",
+          "text": "Trinite a"
+        },
+        {
+          "id": "c",
+          "text": "Eklezyoloji"
+        },
+        {
+          "id": "d",
+          "text": "Eskatoloji"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Trinite a anseye yon sèl Bondye ki egziste nan twa ko-etènèl, ko-egal pèsonn: Papa, Pitit ak Lespri Sen (Matye 28:19).",
+      "bibleReference": "Matye 28:19",
+      "normalizedRef": "mat28.19",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "docId": "dq-doc-001_fr",
+    "data": {
+      "id": "dq-doc-001",
+      "questionText": "Qu'est-ce que la Trinité selon la doctrine chrétienne ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trois dieux différents"
+        },
+        {
+          "id": "b",
+          "text": "Un Dieu en trois personnes : Père, Fils et Saint-Esprit"
+        },
+        {
+          "id": "c",
+          "text": "Trois manifestations successives du même Dieu"
+        },
+        {
+          "id": "d",
+          "text": "Une hiérarchie divine avec le Père au sommet"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La Trinité : un seul Dieu existant en trois personnes distinctes — Père, Fils, Saint-Esprit — coégaux et coéternels (Matthieu 28:19; 2 Corinthiens 13:13).",
+      "bibleReference": "Matthieu 28:19",
+      "normalizedRef": "mat28.19",
+      "normalizedCat": "doctrina"
+    }
+  }
+]

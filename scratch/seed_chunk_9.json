@@ -1,0 +1,3322 @@
+[
+  {
+    "docId": "dq-inte-006_ht",
+    "data": {
+      "id": "dq-inte-006",
+      "questionText": "Ki wa ki te okipe Jide pandan nesans Jezi e ki te re-bati Tanp lan?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seza Ogis"
+        },
+        {
+          "id": "b",
+          "text": "Ewòd Legran"
+        },
+        {
+          "id": "c",
+          "text": "Pons Pilat"
+        },
+        {
+          "id": "d",
+          "text": "Tiberiyis"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 2:1 — \"Jezi te fèt Betleyèm... nan epòk wa Ewòd.\"",
+      "bibleReference": "Matye 2:1"
+    }
+  },
+  {
+    "docId": "dq-inte-006_fr",
+    "data": {
+      "id": "dq-inte-006",
+      "questionText": "Quel roi régnait sur la Judée à la naissance de Jésus et a reconstruit le Temple ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "César Auguste"
+        },
+        {
+          "id": "b",
+          "text": "Hérode le Grand"
+        },
+        {
+          "id": "c",
+          "text": "Ponce Pilate"
+        },
+        {
+          "id": "d",
+          "text": "Tibère"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 2:1 — « Jésus étant né à Bethléhem... au temps du roi Hérode. »",
+      "bibleReference": "Matthieu 2:1"
+    }
+  },
+  {
+    "docId": "dq-inte-007_ht",
+    "data": {
+      "id": "dq-inte-007",
+      "questionText": "Kijan yo rele liv ki te ekri nan peryòd sa a men ki pa nan kanon Jwif la oswa Pwotestan an?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lwa yo"
+        },
+        {
+          "id": "b",
+          "text": "Apokrif oswa Deutewokanonisèl"
+        },
+        {
+          "id": "c",
+          "text": "Pwofèt yo"
+        },
+        {
+          "id": "d",
+          "text": "Evanjil yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Liv sa yo tankou Makabe, Tobit, ak Jidit te ekri pandan peryòd ant testaman yo.",
+      "bibleReference": "Jan 10:22"
+    }
+  },
+  {
+    "docId": "dq-inte-007_fr",
+    "data": {
+      "id": "dq-inte-007",
+      "questionText": "Comment appelle-t-on les livres écrits durant cette période mais qui ne sont pas dans le canon juif ou protestant ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les Lois"
+        },
+        {
+          "id": "b",
+          "text": "Les Apocryphes ou Deutérocanoniques"
+        },
+        {
+          "id": "c",
+          "text": "Les Prophètes"
+        },
+        {
+          "id": "d",
+          "text": "Les Évangiles"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ces livres comme les Maccabées, Tobie et Judith ont été écrits durant la période intertestamentaire.",
+      "bibleReference": "Jean 10:22"
+    }
+  },
+  {
+    "docId": "dq-inte-008_ht",
+    "data": {
+      "id": "dq-inte-008",
+      "questionText": "Ki lang pifò Jwif te pale nan lavi chak jou nan epòk Jezi a?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ebre"
+        },
+        {
+          "id": "b",
+          "text": "Laten"
+        },
+        {
+          "id": "c",
+          "text": "Arameyen"
+        },
+        {
+          "id": "d",
+          "text": "Grèk"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Malgre grèk te lang entènasyonal la, arameyen te lang pèp Jwif la te pale lakay yo.",
+      "bibleReference": "Mak 5:41"
+    }
+  },
+  {
+    "docId": "dq-inte-008_fr",
+    "data": {
+      "id": "dq-inte-008",
+      "questionText": "Quelle langue la plupart des Juifs parlaient-ils dans la vie de tous les jours à l'époque de Jésus ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hébreu"
+        },
+        {
+          "id": "b",
+          "text": "Latin"
+        },
+        {
+          "id": "c",
+          "text": "Araméen"
+        },
+        {
+          "id": "d",
+          "text": "Grec"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bien que le grec fût la langue internationale, l'araméen était la langue parlée par le peuple juif dans sa vie quotidienne.",
+      "bibleReference": "Marc 5:41"
+    }
+  },
+  {
+    "docId": "dq-inte-009_ht",
+    "data": {
+      "id": "dq-inte-009",
+      "questionText": "Ki gwoup Jwif ki te rete nan dezè e ki ta ka ekri woulo Lanmè Mòt yo?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esenyen yo"
+        },
+        {
+          "id": "b",
+          "text": "Sadiseyen yo"
+        },
+        {
+          "id": "c",
+          "text": "Zelòt yo"
+        },
+        {
+          "id": "d",
+          "text": "Ewodyen yo"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Esenyen yo te yon gwoup ki te viv nan dezè Qumran nan yon lavi apa pou Bondye.",
+      "bibleReference": "Matye 3:1"
+    }
+  },
+  {
+    "docId": "dq-inte-009_fr",
+    "data": {
+      "id": "dq-inte-009",
+      "questionText": "Quel groupe juif vivait dans le désert et aurait écrit les manuscrits de la mer Morte ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les Esséniens"
+        },
+        {
+          "id": "b",
+          "text": "Les Sadducéens"
+        },
+        {
+          "id": "c",
+          "text": "Les Zélotes"
+        },
+        {
+          "id": "d",
+          "text": "Les Hérodiens"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Les Esséniens étaient un groupe qui vivait à Qumrân dans le désert, menant une vie consacrée à Dieu.",
+      "bibleReference": "Matthieu 3:1"
+    }
+  },
+  {
+    "docId": "dq-inte-010_ht",
+    "data": {
+      "id": "dq-inte-010",
+      "questionText": "Ki imperi ki te kontwole Izrayèl jis anvan imperi Women an?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babilòn"
+        },
+        {
+          "id": "b",
+          "text": "Grès"
+        },
+        {
+          "id": "c",
+          "text": "Pès"
+        },
+        {
+          "id": "d",
+          "text": "Ejip"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apre konkèt Aleksann Legran yo, Izrayèl te anba kontwòl Grèk yo (Ptolemée ak Seleyisid).",
+      "bibleReference": "Daniel 8:21"
+    }
+  },
+  {
+    "docId": "dq-inte-010_fr",
+    "data": {
+      "id": "dq-inte-010",
+      "questionText": "Quel empire contrôlait Israël juste avant l'empire romain ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babylone"
+        },
+        {
+          "id": "b",
+          "text": "La Grèce"
+        },
+        {
+          "id": "c",
+          "text": "La Perse"
+        },
+        {
+          "id": "d",
+          "text": "L'Égypte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Après les conquêtes d'Alexandre le Grand, Israël était sous le contrôle des Grecs (Ptolémées et Séleucides).",
+      "bibleReference": "Daniel 8:21"
+    }
+  },
+  {
+    "docId": "dq-ley-001_ht",
+    "data": {
+      "id": "dq-ley-001",
+      "questionText": "Ki sa \"Règ Lò a\" Jezi anseye ki rezime lwa moral la?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa Moral",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Pa fè sa ou pa vle lòt yo fè ou\""
+        },
+        {
+          "id": "b",
+          "text": "\"Fè lòt moun sa ou ta vle yo fè ou — sa se Lwa ak Pwofèt yo\""
+        },
+        {
+          "id": "c",
+          "text": "\"Renmen Bondye sèlman ak tout kè ou\""
+        },
+        {
+          "id": "d",
+          "text": "\"Respekte lwa peyi ou\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 7:12 — \"Tout sa ou ta vle moun fè ou, fè li menm bagay ba yo — paske se sa ki rezime Lwa ak Pwofèt yo.\" Pòsitif, aktif — pa sèlman evite mal.",
+      "bibleReference": "Matye 7:12",
+      "normalizedRef": "mat7.12",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-001_fr",
+    "data": {
+      "id": "dq-ley-001",
+      "questionText": "Quelle est la « règle d'or » donnée par Jésus et où la trouve-t-on ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aime ton prochain comme toi-même (Marc 12:31)"
+        },
+        {
+          "id": "b",
+          "text": "Tout ce que vous voulez que les hommes vous fassent, faites-le leur (Matthieu 7:12)"
+        },
+        {
+          "id": "c",
+          "text": "Ne fais pas à autrui ce que tu ne voudrais pas qu'il te fasse (Tobie 4:15)"
+        },
+        {
+          "id": "d",
+          "text": "Traite l'étranger comme ton semblable (Lévitique 19:34)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La Règle d'Or : « Tout ce que vous voulez que les hommes fassent pour vous, faites-le aussi pour eux ; car c'est la Loi et les Prophètes » (Matthieu 7:12).",
+      "bibleReference": "Matthieu 7:12",
+      "normalizedRef": "mat7.12",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-002_ht",
+    "data": {
+      "id": "dq-ley-002",
+      "questionText": "Ki twa division tradisyonèl Lwa Mosaïk la?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa Moral",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lwa, Pwofèt ak Sòm yo"
+        },
+        {
+          "id": "b",
+          "text": "Lwa moral, seremonyèl ak sivil"
+        },
+        {
+          "id": "c",
+          "text": "Dis Kòmandman, Sakrifis ak Dwa Sosyal"
+        },
+        {
+          "id": "d",
+          "text": "Lwa Abraram, Lwa David ak Lwa Moyiz"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Teyoloji klasik divize lwa Mosaïk an: moral (Dis Kòmandman — toujou valid), seremonyèl (sakrifis, fèt — akompli nan Kris), sivil (gouvènman Izrayèl — pa anplike pou legliz).",
+      "bibleReference": "Egzòd 20:1-17",
+      "normalizedRef": "exo20.1-17",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-002_fr",
+    "data": {
+      "id": "dq-ley-002",
+      "questionText": "Quelles sont les trois divisions traditionnelles de la Loi Mosaïque ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Loi, les Prophètes et les Psaumes"
+        },
+        {
+          "id": "b",
+          "text": "Les lois morales, cérémonielles et civiles"
+        },
+        {
+          "id": "c",
+          "text": "Les Dix Commandements, les Sacrifices et les Droits Sociaux"
+        },
+        {
+          "id": "d",
+          "text": "La Loi d'Abraham, de David et de Moïse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La théologie classique divise la loi mosaïque en : morale (Dix Commandements — toujours valide), cérémonielle (sacrifices, fêtes — accomplis en Christ), civile (gouvernement d'Israël — ne s'applique pas à l'église).",
+      "bibleReference": "Exode 20:1-17",
+      "normalizedRef": "exo20.1-17",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-003_ht",
+    "data": {
+      "id": "dq-ley-003",
+      "questionText": "Ki sa Jezi di sou Lwa a nan Semon sou Mòn nan?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa Moral",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te soti pou abroge tout Lwa AT la"
+        },
+        {
+          "id": "b",
+          "text": "Li pa soti pou abroge Lwa a men pou akompli li — pifò piti nan Lwa a toujou valid"
+        },
+        {
+          "id": "c",
+          "text": "Lwa AT la pa aplikab pou kretyen yo"
+        },
+        {
+          "id": "d",
+          "text": "Li te ajoute nouvo lwa ki pi sevè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 5:17-18 — \"Pa panse mwen te vini pou abroge Lwa ak Pwofèt yo. Mwen pa vini pou abroge yo, men pou akompli yo.\" Kris akompli lwa seremonyèl ak pwofetik; lwa moral toujou valid.",
+      "bibleReference": "Matye 5:17-18",
+      "normalizedRef": "mat5.17-18",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-003_fr",
+    "data": {
+      "id": "dq-ley-003",
+      "questionText": "Que dit Jésus sur la Loi dans le Sermon sur la montagne ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il est venu pour abolir toute la Loi de l'AT"
+        },
+        {
+          "id": "b",
+          "text": "Il n'est pas venu pour abolir la Loi mais pour l'accomplir"
+        },
+        {
+          "id": "c",
+          "text": "La Loi de l'AT n'est pas applicable aux chrétiens"
+        },
+        {
+          "id": "d",
+          "text": "Il a ajouté de nouvelles lois plus sévères"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 5:17-18 — « Ne croyez pas que je sois venu pour abolir la loi ou les prophètes ; je suis venu non pour abolir, mais pour accomplir. » Christ accomplit la loi cérémonielle et prophétique ; la loi morale reste.",
+      "bibleReference": "Matthieu 5:17-18",
+      "normalizedRef": "mat5.17-18",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-004_ht",
+    "data": {
+      "id": "dq-ley-004",
+      "questionText": "Ki sa \"Lwa Kris\" vle di nan Galat 6:2?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa Moral",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tounen pou obsève Lwa Mosaïk la"
+        },
+        {
+          "id": "b",
+          "text": "Pote chaj youn lòt — prensip amou ak sèvis ki se akompliseman Lwa a"
+        },
+        {
+          "id": "c",
+          "text": "Yon nouvèl kouman Pòl ekri"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman pou Jantil yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Galat 6:2 — \"Pote chaj youn lòt, epi konsa ou pral akompli lwa Kris la.\" Kontèks: restorasyion moun ki tonbe nan peche ak dousè. Lwa Kris = prensip amou (Jan 13:34) ki akompli tout kòmandman.",
+      "bibleReference": "Galat 6:2",
+      "normalizedRef": "gal6.2",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-004_fr",
+    "data": {
+      "id": "dq-ley-004",
+      "questionText": "Que signifie la « Loi de Christ » dans Galates 6:2 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Revenir à l'observation de la Loi Mosaïque"
+        },
+        {
+          "id": "b",
+          "text": "Porter les fardeaux les uns des autres — principe d'amour et de service"
+        },
+        {
+          "id": "c",
+          "text": "Un nouveau code écrit par Paul"
+        },
+        {
+          "id": "d",
+          "text": "Seulement pour les Gentils"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Galates 6:2 — « Portez les fardeaux les uns des autres, et vous accomplirez ainsi la loi de Christ. » La Loi de Christ est le principe d'amour (Jean 13:34) qui accomplit tous les commandements.",
+      "bibleReference": "Galates 6:2",
+      "normalizedRef": "gal6.2",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-005_ht",
+    "data": {
+      "id": "dq-ley-005",
+      "questionText": "Ki sa Pòl anseye sou relasyon Krisyanis ak Lwa a?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa Moral",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kretyen yo dezòm pa oblije obsève okenn lwa"
+        },
+        {
+          "id": "b",
+          "text": "Kretyen lib de Lwa kòm mwayen sali — men Lespri Sen fè yo akompli egzijans jistis Lwa a"
+        },
+        {
+          "id": "c",
+          "text": "Lwa Moyiz la toujou konplètman obligatwa pou kretyen"
+        },
+        {
+          "id": "d",
+          "text": "Lwa se sèlman yon pwoblèm Jwif"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Women 8:3-4 — Bondye kondane peche nan chè \"pou egzijans Lwa a akompli nan nou ki mache pa Lespri.\" Gal 3:24 — Lwa te \"gad\" nou rive jwenn Kris. Kounye a Lespri Sen ekri lwa a nan kè nou.",
+      "bibleReference": "Women 8:3-4",
+      "normalizedRef": "rom8.3-4",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-005_fr",
+    "data": {
+      "id": "dq-ley-005",
+      "questionText": "Qu'enseigne Paul sur la relation entre le chrétien et la Loi ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les chrétiens ne sont plus obligés d'observer aucune loi"
+        },
+        {
+          "id": "b",
+          "text": "Les chrétiens sont libres de la Loi comme moyen de salut — mais l'Esprit leur fait accomplir la justice de la Loi"
+        },
+        {
+          "id": "c",
+          "text": "La Loi de Moïse est toujours complètement obligatoire"
+        },
+        {
+          "id": "d",
+          "text": "La Loi est seulement un problème pour les Juifs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Romains 8:3-4 — Dieu a condamné le péché dans la chair afin que « la justice de la loi fût accomplie en nous, qui marchons selon l'Esprit ». Le Saint-Esprit écrit désormais la loi dans nos cœurs.",
+      "bibleReference": "Romains 8:3-4",
+      "normalizedRef": "rom8.3-4",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-006_ht",
+    "data": {
+      "id": "dq-ley-006",
+      "questionText": "Ki sèl kòmandman ki gen yon pwomès ansanm avè l selon Efezyen 6:2-3?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ou pa gen dwa touye moun"
+        },
+        {
+          "id": "b",
+          "text": "Ou pa gen dwa gen lòt bondye"
+        },
+        {
+          "id": "c",
+          "text": "Respekte manman ou ak papa ou"
+        },
+        {
+          "id": "d",
+          "text": "Ou pa gen dwa fè adiltè"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Respekte manman ou ak papa ou. Sa se premye kòmandman ki gen yon pwomès dèyè l: Pou ou ka viv lontan ak kè kontan sou latè » (Efezyen 6:2-3).",
+      "bibleReference": "Efezyen 6:2-3",
+      "normalizedRef": "eph6.2-3",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-006_fr",
+    "data": {
+      "id": "dq-ley-006",
+      "questionText": "Quel est le seul commandement accompagné d'une promesse selon Éphésiens 6:2-3 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tu ne tueras point"
+        },
+        {
+          "id": "b",
+          "text": "Tu n'auras pas d'autres dieux"
+        },
+        {
+          "id": "c",
+          "text": "Honore ton père et ta mère"
+        },
+        {
+          "id": "d",
+          "text": "Tu ne commettras pas d'adultère"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Honore ton père et ta mère — c'est le premier commandement avec une promesse — afin que tu sois heureux et que tu vives longtemps » (Éphésiens 6:2-3).",
+      "bibleReference": "Éphésiens 6:2-3",
+      "normalizedRef": "eph6.2-3",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-007_ht",
+    "data": {
+      "id": "dq-ley-007",
+      "questionText": "Kisa Jezi di nan Prèch sou Mòn nan konsènan kòlè (Matye 5:22)?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kòlè se yon peche sèlman si li mennen nan vyolans"
+        },
+        {
+          "id": "b",
+          "text": "Nenpòt moun ki fache sou frè l san rezon merite pou yo jije l"
+        },
+        {
+          "id": "c",
+          "text": "Kòlè ki jis toujou pèmèt"
+        },
+        {
+          "id": "d",
+          "text": "Kòlè pa mansyone nan kontèks sa a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jezi rann kòmandman « Ou pa gen dwa touye moun » lan pi fon: menm kòlè san rezon se yon peche ki merite jijman (Matye 5:22).",
+      "bibleReference": "Matye 5:22",
+      "normalizedRef": "mat5.22",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-007_fr",
+    "data": {
+      "id": "dq-ley-007",
+      "questionText": "Que dit Jésus dans le Sermon sur la Montagne concernant la colère (Matthieu 5:22) ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La colère n'est un péché que si elle mène à la violence"
+        },
+        {
+          "id": "b",
+          "text": "Celui qui se met en colère contre son frère sans motif est passible de jugement"
+        },
+        {
+          "id": "c",
+          "text": "La colère juste est toujours permise"
+        },
+        {
+          "id": "d",
+          "text": "La colère n'est pas mentionnée dans ce contexte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus approfondit le commandement « Tu ne tueras point » : la colère sans motif est déjà un péché méritant jugement (Matthieu 5:22).",
+      "bibleReference": "Matthieu 5:22",
+      "normalizedRef": "mat5.22",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-008_ht",
+    "data": {
+      "id": "dq-ley-008",
+      "questionText": "Ki jan Pòl rezime tout Lalwa a nan Romen 13:10?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lalwa se yon chay ki pa sèvi anyen pou payen yo"
+        },
+        {
+          "id": "b",
+          "text": "Lè nou gen renmen nan kè nou, nou fè tou sa lalwa mande nou fè"
+        },
+        {
+          "id": "c",
+          "text": "Lalwa soti nan lafwa sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Gras la ranplase Lalwa a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Moun ki gen renmen nan kè yo pa fè okenn moun mal: se sak fè, lè nou gen renmen nan kè nou, nou fè tou sa lalwa mande nou fè » (Romen 13:10).",
+      "bibleReference": "Romen 13:10",
+      "normalizedRef": "rom13.10",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-008_fr",
+    "data": {
+      "id": "dq-ley-008",
+      "questionText": "Comment Paul résume-t-il toute la Loi dans Romains 13:10 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Loi est un fardeau inutile pour les gentils"
+        },
+        {
+          "id": "b",
+          "text": "L'amour est l'accomplissement de la Loi"
+        },
+        {
+          "id": "c",
+          "text": "La Loi s'accomplit par la foi seule"
+        },
+        {
+          "id": "d",
+          "text": "La Loi est remplacée par la grâce"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« L'amour ne fait point de mal au prochain. L'amour est donc l'accomplissement de la Loi » (Romains 13:10).",
+      "bibleReference": "Romains 13:10",
+      "normalizedRef": "rom13.10",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-009_ht",
+    "data": {
+      "id": "dq-ley-009",
+      "questionText": "Kisa Bib la di sou bay manti nan Pwovèb 12:22?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon ti manti nesesè pafwa"
+        },
+        {
+          "id": "b",
+          "text": "Seyè a pa vle wè moun k'ap bay manti"
+        },
+        {
+          "id": "c",
+          "text": "Bondye padone manti ki pa fè espre yo fasil"
+        },
+        {
+          "id": "d",
+          "text": "Manti se peche sèlman si li fè yon moun mal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Seyè a pa vle wè moun k'ap bay manti. Men, li kontan ak moun ki kenbe pawòl yo » (Pwovèb 12:22).",
+      "bibleReference": "Pwovèb 12:22",
+      "normalizedRef": "pro12.22",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-009_fr",
+    "data": {
+      "id": "dq-ley-009",
+      "questionText": "Que dit la Bible sur le mensonge dans Proverbes 12:22 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un petit mensonge est parfois nécessaire"
+        },
+        {
+          "id": "b",
+          "text": "Les lèvres mensongères sont en abomination à l'Éternel"
+        },
+        {
+          "id": "c",
+          "text": "Dieu pardonne facilement les mensonges involontaires"
+        },
+        {
+          "id": "d",
+          "text": "Le mensonge n'est péché que s'il blesse quelqu'un"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Les lèvres mensongères sont en abomination à l'Éternel, mais ceux qui agissent fidèlement lui sont agréables » (Proverbes 12:22).",
+      "bibleReference": "Proverbes 12:22",
+      "normalizedRef": "pro12.22",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-010_ht",
+    "data": {
+      "id": "dq-ley-010",
+      "questionText": "Selon Matye 5:27-28, ki lòt bagay Jezi mete nan 7yèm kòmandman an?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adiltè a gen ladan l divòs tou"
+        },
+        {
+          "id": "b",
+          "text": "Nenpòt moun ki gade yon fanm avèk lanvi, li deja fè adiltè avè l nan kè l"
+        },
+        {
+          "id": "c",
+          "text": "Tout relasyon andeyò maryaj entèdi"
+        },
+        {
+          "id": "d",
+          "text": "Adiltè gen ladan l tou lide sou lajan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jezi fè kòmandman an vin pi fon nan kè a: « Si yon nonm gade yon fanm avèk lanvi, li deja fè adiltè avè l' nan kè l' » (Matye 5:28).",
+      "bibleReference": "Matye 5:27-28",
+      "normalizedRef": "mat5.27-28",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-010_fr",
+    "data": {
+      "id": "dq-ley-010",
+      "questionText": "Selon Matthieu 5:27-28, Jésus élargit le 7e commandement à quoi ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'adultère incluant aussi le divorce"
+        },
+        {
+          "id": "b",
+          "text": "Quiconque regarde une femme avec convoitise a déjà commis l'adultère dans son cœur"
+        },
+        {
+          "id": "c",
+          "text": "Toute relation hors mariage est proscrite"
+        },
+        {
+          "id": "d",
+          "text": "L'adultère inclut aussi les pensées d'argent"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus internalise le commandement : « Quiconque regarde une femme pour la convoiter a déjà commis un adultère avec elle dans son cœur » (Matthieu 5:28).",
+      "bibleReference": "Matthieu 5:27-28",
+      "normalizedRef": "mat5.27-28",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-011_ht",
+    "data": {
+      "id": "dq-ley-011",
+      "questionText": "Ki sèvis teyolojik Lalwa rann selon Loutè (usus elenchticus)?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lalwa sove moun ki swiv li nèt ale"
+        },
+        {
+          "id": "b",
+          "text": "Lalwa fè nou konnen peche nou epi li mennen nou jwenn Kris la pou gras li"
+        },
+        {
+          "id": "c",
+          "text": "Lalwa itil sèlman pou Jwif yo"
+        },
+        {
+          "id": "d",
+          "text": "Renmen nan Nouvo Testaman an ranplase Lalwa nèt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pòl di: « Se lalwa a ki fè nou konnen sa ki peche » (Romen 3:20) epi « Lalwa te tankou yon gad k'ap veye nou... pou l' te ka mennen nou bay Kris la » (Galat 3:24).",
+      "bibleReference": "Galat 3:24",
+      "normalizedRef": "gal3.24",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-011_fr",
+    "data": {
+      "id": "dq-ley-011",
+      "questionText": "Quel est l'usage théologique de la Loi selon Luther (usus elenchticus) ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Loi sauve ceux qui l'observent parfaitement"
+        },
+        {
+          "id": "b",
+          "text": "La Loi révèle le péché et conduit à Christ pour la grâce"
+        },
+        {
+          "id": "c",
+          "text": "La Loi n'est utile qu'aux Juifs"
+        },
+        {
+          "id": "d",
+          "text": "La Loi est remplacée entièrement par l'amour du NT"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul dit : « Par la Loi vient la connaissance du péché » (Romains 3:20) et « La Loi a été notre pédagogue pour nous conduire à Christ » (Galates 3:24).",
+      "bibleReference": "Galates 3:24",
+      "normalizedRef": "gal3.24",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-012_ht",
+    "data": {
+      "id": "dq-ley-012",
+      "questionText": "Ki jan Jezi re-entèprete « yon je pou yon je » nan Matye 5:38-39?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li konfime l kòm yon bagay ki jis e ki ka aplike jodi a"
+        },
+        {
+          "id": "b",
+          "text": "Li monte l nan nivo pou nou pa kenbe tèt ak moun ki fè nou mal — bay lòt bò figi a"
+        },
+        {
+          "id": "c",
+          "text": "Li ranplase l pa yon sistèm konpansasyon lajan"
+        },
+        {
+          "id": "d",
+          "text": "Li di se majistra yo sèlman ki gen dwa tire revanj"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jezi di: « Men mwen menm, men sa m'ap di nou: Pa kenbe tèt ak moun ki fè nou mal. Si yon moun ba ou yon souflèt sou bò dwat, ba li lòt bò a tou » (Matye 5:39) — sa montre jan renmen an dwe radikal.",
+      "bibleReference": "Matye 5:38-39",
+      "normalizedRef": "mat5.38-39",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-012_fr",
+    "data": {
+      "id": "dq-ley-012",
+      "questionText": "Comment Jésus réinterprète-t-il la Loi du talion dans Matthieu 5:38-39 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il la confirme comme juste et applicable aujourd'hui"
+        },
+        {
+          "id": "b",
+          "text": "Il l'élève au non-résistance — tendre l'autre joue et aller au-delà des exigences"
+        },
+        {
+          "id": "c",
+          "text": "Il la remplace par un système de compensations financières"
+        },
+        {
+          "id": "d",
+          "text": "Il dit que la vengeance appartient aux magistrats seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus : « Moi, je vous dis de ne pas résister au méchant... si quelqu'un te frappe sur la joue droite, présente-lui aussi l'autre » (Matthieu 5:39) — radicalité de l'amour.",
+      "bibleReference": "Matthieu 5:38-39",
+      "normalizedRef": "mat5.38-39",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-013_ht",
+    "data": {
+      "id": "dq-ley-013",
+      "questionText": "Kisa Levitik 19:18 di sou jan pou nou aji ak frè parèy nou epi ki jan Jezi reprann sa?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Renmen frè parèy ou ki jwif men pran prekosyon ak etranje"
+        },
+        {
+          "id": "b",
+          "text": "Se pou ou renmen frè parèy ou tankou ou renmen pwòp tèt pa ou — Jezi mete lènmi ak etranje ladan l tou"
+        },
+        {
+          "id": "c",
+          "text": "Pa tire revanj epi kenbe rann-an-kè ou an silans"
+        },
+        {
+          "id": "d",
+          "text": "Ede frè parèy ou pou li ka ede ou tou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Levitik 19:18 : « Se pou ou renmen frè parèy ou tankou ou renmen pwòp tèt pa ou. » Jezi elaji li: « Se pou nou renmen lènmi nou yo » (Matye 5:44) epi li defini frè parèy la nan parabòl bon Samariten an (Lik 10:29-37).",
+      "bibleReference": "Levitik 19:18",
+      "normalizedRef": "lev19.18",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-013_fr",
+    "data": {
+      "id": "dq-ley-013",
+      "questionText": "Que dit Lévitique 19:18 sur le rapport au prochain et comment Jésus le reprend-il ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aime ton prochain juif mais méfie-toi de l'étranger"
+        },
+        {
+          "id": "b",
+          "text": "Tu aimeras ton prochain comme toi-même — Jésus l'étend aux ennemis et aux étrangers"
+        },
+        {
+          "id": "c",
+          "text": "Ne te venge pas et garde ta rancœur en silence"
+        },
+        {
+          "id": "d",
+          "text": "Aide ton prochain en échange d'aide réciproque"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lévitique 19:18 : « Tu aimeras ton prochain comme toi-même. » Jésus l'élargit : « Aimez vos ennemis » (Matthieu 5:44) et définit le prochain dans la parabole du Bon Samaritain (Luc 10:29-37).",
+      "bibleReference": "Lévitique 19:18",
+      "normalizedRef": "lev19.18",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-014_ht",
+    "data": {
+      "id": "dq-ley-014",
+      "questionText": "Ki diferans ki genyen ant lalwa seremonyèl, sivil ak moral nan teyoloji refòme?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tout lalwa yo rete nèt pou kretyen yo"
+        },
+        {
+          "id": "b",
+          "text": "Lalwa seremonyèl (sakrifis, pirifikasyon) akonpli nan Kris la; lalwa sivil te pou Izrayèl; lalwa moral rete valab pou tout moun"
+        },
+        {
+          "id": "c",
+          "text": "Okenn lalwa nan Ansyen Testaman an pa aplikab pou kretyen yo"
+        },
+        {
+          "id": "d",
+          "text": "Se lalwa sivil la sèlman ki te aboli sou kwa a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Teyoloji refòme: (1) Lalwa seremonyèl akonpli nan Kris la (Ebre 10:1). (2) Lalwa sivil Izrayèl la pa mare lòt nasyon yo. (3) Lalwa moral (10 Kòmandman yo) montre karaktè Bondye — li la pou tout tan.",
+      "bibleReference": "Matye 5:17",
+      "normalizedRef": "mat5.17",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-014_fr",
+    "data": {
+      "id": "dq-ley-014",
+      "questionText": "Quelle est la distinction entre loi cérémonielle, civile et morale dans la théologie réformée ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Toutes les lois sont permanentes pour les chrétiens"
+        },
+        {
+          "id": "b",
+          "text": "La loi cérémonielle (sacrifices, purifications) est accomplie en Christ ; la loi civile concernait Israël ; la loi morale reste universellement valide"
+        },
+        {
+          "id": "c",
+          "text": "Aucune loi de l'AT n'est applicable aux chrétiens"
+        },
+        {
+          "id": "d",
+          "text": "Seule la loi civile a été abolie à la croix"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Théologie réformée : (1) Loi cérémonielle accomplie en Christ (Hébreux 10:1). (2) Loi civile d'Israël ne lie pas les nations. (3) Loi morale (Décalogue) reflète le caractère de Dieu — permanente.",
+      "bibleReference": "Matthieu 5:17",
+      "normalizedRef": "mat5.17",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-015_ht",
+    "data": {
+      "id": "dq-ley-015",
+      "questionText": "Ki jan Jak 2:10 dekri dezobeyisans ak Lalwa a?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Peche yo klase selon jan yo grav"
+        },
+        {
+          "id": "b",
+          "text": "Moun ki obeyi tout lalwa a, men ki dezobeyi yon sèl kòmandman, li koupab devan tout lalwa a nèt"
+        },
+        {
+          "id": "c",
+          "text": "Ou ka swiv Lalwa a an pati pou fè Bondye plezi"
+        },
+        {
+          "id": "d",
+          "text": "Peche ki fèt san fè espre pa konte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Paske, moun ki obeyi tout lalwa a, men ki dezobeyi yon sèl kòmandman, se tankou si l' te dezobeyi tout lalwa a nèt » (Jak 2:10) — Lalwa se yon sèl inite ki pa ka divize.",
+      "bibleReference": "Jak 2:10",
+      "normalizedRef": "jam2.10",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-015_fr",
+    "data": {
+      "id": "dq-ley-015",
+      "questionText": "Comment Jacques 2:10 décrit-il la transgression de la Loi ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les péchés sont classés par gravité"
+        },
+        {
+          "id": "b",
+          "text": "Celui qui observe toute la Loi mais pèche en un seul point est coupable envers toute la Loi"
+        },
+        {
+          "id": "c",
+          "text": "La Loi peut être partiellement observée pour plaire à Dieu"
+        },
+        {
+          "id": "d",
+          "text": "Les péchés d'ignorance ne comptent pas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Celui qui observe toute la loi, mais qui pèche contre un seul commandement, devient coupable à l'égard de tous » (Jacques 2:10) — la Loi est une unité indivisible.",
+      "bibleReference": "Jacques 2:10",
+      "normalizedRef": "jam2.10",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-016_ht",
+    "data": {
+      "id": "dq-ley-016",
+      "questionText": "Kisa konsèp biblik « konsyans » (syneidesis nan lang grèk) vle di nan pran desizyon moral?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon ògann fizik nan sèvo a ki detekte peche"
+        },
+        {
+          "id": "b",
+          "text": "Konsyans moral entèn ki temwaye sa ki byen ak sa ki mal — Pòl di menm payen yo gen lalwa a ekri nan kè yo"
+        },
+        {
+          "id": "c",
+          "text": "Se vwa Sentespri a sèlman nan kwayan yo"
+        },
+        {
+          "id": "d",
+          "text": "Opinyon kolektif kominite kretyen an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pòl: payen yo « moutre sa lalwa mande a ekri nan kè yo. Konsyans yo moutre sa tou... » (Romen 2:15). Konsyans la ka edike oswa li ka vin pa santi anyen ankò selon jan li ekspoze ak verite a.",
+      "bibleReference": "Romen 2:15",
+      "normalizedRef": "rom2.15",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-016_fr",
+    "data": {
+      "id": "dq-ley-016",
+      "questionText": "Que signifie le concept biblique de « conscience » (syneidesis en grec) dans la prise de décision morale ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un organe physique du cerveau qui détecte le péché"
+        },
+        {
+          "id": "b",
+          "text": "La conscience morale interne qui témoigne du bien et du mal — Paul dit que même les gentils ont la loi inscrite dans leur cœur"
+        },
+        {
+          "id": "c",
+          "text": "Uniquement la voix du Saint-Esprit dans les croyants"
+        },
+        {
+          "id": "d",
+          "text": "L'opinion collective de la communauté chrétienne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul : les gentils « montrent que l'œuvre de la loi est écrite dans leur cœur, leur conscience en témoignant » (Romains 2:15). La conscience peut être éduquée ou callée selon l'exposition à la vérité.",
+      "bibleReference": "Romains 2:15",
+      "normalizedRef": "rom2.15",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-017_ht",
+    "data": {
+      "id": "dq-ley-017",
+      "questionText": "Ki jan etik kretyen an wè konsèp « lagè jis » nan limyè Bib la?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bib la entèdi nenpòt kalite lagè nèt"
+        },
+        {
+          "id": "b",
+          "text": "Yon lagè ka jis si li respekte kritè strik (kòz jis, dènye opsyon, pwopòsyon) — baze sou Romen 13 ak teyoloji natirèl"
+        },
+        {
+          "id": "c",
+          "text": "Leta toujou gen rezon nan lagè li yo selon Romen 13"
+        },
+        {
+          "id": "d",
+          "text": "Sèl lagè Izrayèl nan Ansyen Testaman an te jis"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Teyori lagè jis la (Augustin, Aquinas): yon lagè ka jis si kòz la jis, otorite a lejitim, se dènye espwa, entansyon an kòrèk epi li mezire. Romen 13 rekonèt dwa Leta pou sèvi ak fòs.",
+      "bibleReference": "Romen 13:4",
+      "normalizedRef": "rom13.4",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-017_fr",
+    "data": {
+      "id": "dq-ley-017",
+      "questionText": "Comment l'éthique chrétienne aborde-t-elle le concept de « guerre juste » à la lumière des Écritures ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Bible interdit absolument toute guerre"
+        },
+        {
+          "id": "b",
+          "text": "La guerre peut être juste si elle remplit des critères stricts (cause juste, dernière option, proportionnalité) — basés sur Romains 13 et la théologie naturelle"
+        },
+        {
+          "id": "c",
+          "text": "L'État a toujours raison dans ses guerres selon Romains 13"
+        },
+        {
+          "id": "d",
+          "text": "Seule la guerre d'Israël dans l'AT était juste"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La théorie de la guerre juste (Augustin, Aquinas) : une guerre peut être juste si la cause est juste, autorité légitime, dernier recours, intention correcte et proportionnelle. Romains 13 reconnaît le droit de l'État à user de la force.",
+      "bibleReference": "Romains 13:4",
+      "normalizedRef": "rom13.4",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-018_ht",
+    "data": {
+      "id": "dq-ley-018",
+      "questionText": "Kisa « efè doub » vle di nan etik kretyen an e ki jan yo aplike li?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon aksyon ka gen de rezilta espirityèl an menm tan"
+        },
+        {
+          "id": "b",
+          "text": "Yon aksyon ki bon moralman ka gen yon move efè nou te ka prevwa men nou pa t vle l — sa akseptab si bon efè a pi gran"
+        },
+        {
+          "id": "c",
+          "text": "Yon kwayan dwe toujou gen de plan pou cada desizyon"
+        },
+        {
+          "id": "d",
+          "text": "Se efè ki rive de fwa nan lavi yon moun"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Prensip efè doub la: yon aksyon ki gen de efè (youn bon ak youn move) ka akseptab si aksyon an li menm bon, move efè a pa t vize dirèkteman, epi gen yon rezon grav pou sa (egzanp: sove lavi manman an nan yon ijans medikal).",
+      "bibleReference": "Romen 3:8",
+      "normalizedRef": "rom3.8",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-018_fr",
+    "data": {
+      "id": "dq-ley-018",
+      "questionText": "Qu'est-ce que le « double effet » en éthique chrétienne et comment s'applique-t-il ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une action peut avoir deux résultats spirituels simultanés"
+        },
+        {
+          "id": "b",
+          "text": "Une action moralement bonne peut avoir un effet négatif prévisible mais non intentionnel — acceptable si l'effet positif est proportionnel"
+        },
+        {
+          "id": "c",
+          "text": "Toute action a une conséquence bonne et mauvaise — il faut choisir la moins mauvaise"
+        },
+        {
+          "id": "d",
+          "text": "La bonne intention suffit à justifier n'importe quelle action"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le principe du double effet : une action bonne (ex. traitement médical) peut avoir un effet négatif prévisible (ex. réduire la vie). Acceptable si l'effet positif l'emporte et l'effet négatif n'est pas intentionnel.",
+      "bibleReference": "Romains 3:8",
+      "normalizedRef": "rom3.8",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-019_ht",
+    "data": {
+      "id": "dq-ley-019",
+      "questionText": "Ki jan Jak 4:17 defini peche?",
+      "categoryId": "ley-moral",
+      "categoryName": "Lwa ak Moral",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèlman move zak nou fè yo"
+        },
+        {
+          "id": "b",
+          "text": "Moun ki konnen sa ki byen pou l fè epi ki pa fè l, li fè peche"
+        },
+        {
+          "id": "c",
+          "text": "Yon santiman kilpabilite"
+        },
+        {
+          "id": "d",
+          "text": "Dezobeyi chèf legliz yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Konsa, moun ki konnen sa ki byen pou l' fè epi ki pa fè l', li fè peche » (Jak 4:17) — sa yo rele peche pa omisyon.",
+      "bibleReference": "Jak 4:17",
+      "normalizedRef": "jam4.17",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "docId": "dq-ley-019_fr",
+    "data": {
+      "id": "dq-ley-019",
+      "questionText": "Quel est le but des villes de refuge mentionnées dans la Loi ?",
+      "categoryId": "ley",
+      "categoryName": "La Loi (Torah)",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lieux pour les sacrifices"
+        },
+        {
+          "id": "b",
+          "text": "Refuge pour le meurtrier involontaire"
+        },
+        {
+          "id": "c",
+          "text": "Casernes militaires"
+        },
+        {
+          "id": "d",
+          "text": "Écoles pour les Lévites"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ces six villes serviront de refuge... afin que celui qui aura tué quelqu'un involontairement puisse s'y enfuir (Nombres 35:15).",
+      "bibleReference": "Nombres 35:11-15",
+      "normalizedRef": "num35.11-15",
+      "normalizedCat": "ley"
+    }
+  },
+  {
+    "docId": "dq-lid-001_ht",
+    "data": {
+      "id": "dq-lid-001",
+      "questionText": "Ki non madanm Abraram ki te manman Izarak?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "Rebeka"
+        },
+        {
+          "id": "c",
+          "text": "Rachèl"
+        },
+        {
+          "id": "d",
+          "text": "Leya"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jenèz 21:1-3 — Sara vin ansent, li fè yon pitit gason pou Abraram nan vye granmoun li... Abraram rele pitit la Izarak.",
+      "bibleReference": "Jenèz 21:1-3"
+    }
+  },
+  {
+    "docId": "dq-lid-001_fr",
+    "data": {
+      "id": "dq-lid-001",
+      "questionText": "Quel était le nom de la femme d'Abraham qui fut la mère d'Isaac ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "Rébecca"
+        },
+        {
+          "id": "c",
+          "text": "Rachel"
+        },
+        {
+          "id": "d",
+          "text": "Léa"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Genèse 21:1-3 — Sara devint enceinte et enfanta un fils à Abraham dans sa vieillesse... Abraham appela son fils Isaac.",
+      "bibleReference": "Genèse 21:1-3"
+    }
+  },
+  {
+    "docId": "dq-lid-002_ht",
+    "data": {
+      "id": "dq-lid-002",
+      "questionText": "Ki moun Bondye te chwazi pou mennen pèp Izrayèl la soti nan esklavaj nan peyi Ejip?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraram"
+        },
+        {
+          "id": "b",
+          "text": "Moyiz"
+        },
+        {
+          "id": "c",
+          "text": "Jozye"
+        },
+        {
+          "id": "d",
+          "text": "David"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 3:10 — Bondye di Moyiz: \"Koulye a, ale! M’ap voye ou bò kot farawon an pou ou fè pèp mwen an, pitit Izrayèl yo, soti nan peyi Ejip.\"",
+      "bibleReference": "Egzòd 3:10"
+    }
+  },
+  {
+    "docId": "dq-lid-002_fr",
+    "data": {
+      "id": "dq-lid-002",
+      "questionText": "Qui Dieu a-t-il choisi pour faire sortir le peuple d'Israël de l'esclavage en Égypte ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Moïse"
+        },
+        {
+          "id": "c",
+          "text": "Josué"
+        },
+        {
+          "id": "d",
+          "text": "David"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 3:10 — Dieu dit à Moïse : « Maintenant, va, je t'enverrai auprès de Pharaon, et tu feras sortir d'Égypte mon peuple, les enfants d'Israël. »",
+      "bibleReference": "Exode 3:10"
+    }
+  },
+  {
+    "docId": "dq-lid-003_ht",
+    "data": {
+      "id": "dq-lid-003",
+      "questionText": "Ki moun ki te siksesè Moyiz e ki te mennen pèp la antre nan Tè Pwomiz la?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kalèb"
+        },
+        {
+          "id": "b",
+          "text": "Arawon"
+        },
+        {
+          "id": "c",
+          "text": "Jozye"
+        },
+        {
+          "id": "d",
+          "text": "Gedeon"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jozye 1:1-2 — Aprè lanmò Moyiz, Bondye pale ak Jozye, pitit gason Noun lan, li di li: \"...pare ou, travèse larivyè Jouden sa a avèk tout pèp la.\"",
+      "bibleReference": "Jozye 1:1-2"
+    }
+  },
+  {
+    "docId": "dq-lid-003_fr",
+    "data": {
+      "id": "dq-lid-003",
+      "questionText": "Qui fut le successeur de Moïse et conduisit le peuple en Terre Promise ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Caleb"
+        },
+        {
+          "id": "b",
+          "text": "Aaron"
+        },
+        {
+          "id": "c",
+          "text": "Josué"
+        },
+        {
+          "id": "d",
+          "text": "Gédéon"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Josué 1:1-2 — Après la mort de Moïse, l'Éternel dit à Josué, fils de Nun : « Moïse, mon serviteur, est mort ; maintenant, lève-toi, passe ce Jourdain, toi et tout ce peuple. »",
+      "bibleReference": "Josué 1:1-2"
+    }
+  },
+  {
+    "docId": "dq-lid-004_ht",
+    "data": {
+      "id": "dq-lid-004",
+      "questionText": "Ki non fanm ki te jij nan Izrayèl e ki te yon pwofèt?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Estè"
+        },
+        {
+          "id": "b",
+          "text": "Debora"
+        },
+        {
+          "id": "c",
+          "text": "Rit"
+        },
+        {
+          "id": "d",
+          "text": "An"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jij 4:4 — \"Lè sa a, se yon pwofèt yo te rele Debora, madan Lapidòt, ki te chèf nan peyi Izrayèl la.\"",
+      "bibleReference": "Jij 4:4"
+    }
+  },
+  {
+    "docId": "dq-lid-004_fr",
+    "data": {
+      "id": "dq-lid-004",
+      "questionText": "Comment s'appelait la femme qui était juge en Israël et également prophétesse ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esther"
+        },
+        {
+          "id": "b",
+          "text": "Déborah"
+        },
+        {
+          "id": "c",
+          "text": "Ruth"
+        },
+        {
+          "id": "d",
+          "text": "Anne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Juges 4:4 — « Dans ce temps-là, Déborah, prophétesse, femme de Lappidoth, était juge en Israël. »",
+      "bibleReference": "Juges 4:4"
+    }
+  },
+  {
+    "docId": "dq-lid-005_ht",
+    "data": {
+      "id": "dq-lid-005",
+      "questionText": "Ki jenn gason ki te touye jeyan Golyat la ak yon fistibal ak yon ròch?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salomon"
+        },
+        {
+          "id": "b",
+          "text": "Sayil"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Samuèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Samyèl 17:49-50 — David pran yon ròch, li mete l nan fistibal la, li voye l. Ròch la frape moun Filisti a nan mitan fwon.",
+      "bibleReference": "1 Samyèl 17:49-50"
+    }
+  },
+  {
+    "docId": "dq-lid-005_fr",
+    "data": {
+      "id": "dq-lid-005",
+      "questionText": "Quel jeune homme a tué le géant Goliath avec une fronde et une pierre ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salomon"
+        },
+        {
+          "id": "b",
+          "text": "Saül"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Samuel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Samuel 17:49-50 — David mit la main dans sa giberne, y prit une pierre, et la lança avec sa fronde ; il frappa le Philistin au front.",
+      "bibleReference": "1 Samuel 17:49-50"
+    }
+  },
+  {
+    "docId": "dq-lid-006_ht",
+    "data": {
+      "id": "dq-lid-006",
+      "questionText": "Ki moun ki te premye wa peyi Izrayèl?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Sayil"
+        },
+        {
+          "id": "c",
+          "text": "Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Samuèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Samyèl 10:1 — Samuèl pran yon ti boutèy lwil, li vide l sou tèt Sayil... li di: \"Seyè a chwazi ou pou ou gouvènen pèp li a.\"",
+      "bibleReference": "1 Samyèl 10:1"
+    }
+  },
+  {
+    "docId": "dq-lid-006_fr",
+    "data": {
+      "id": "dq-lid-006",
+      "questionText": "Qui fut le premier roi d'Israël ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Saül"
+        },
+        {
+          "id": "c",
+          "text": "Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Samuel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Samuel 10:1 — Samuel prit une fiole d'huile, qu'il répandit sur la tête de Saül... et il dit : « L'Éternel t'a oint pour que tu sois le chef de son héritage. »",
+      "bibleReference": "1 Samuel 10:1"
+    }
+  },
+  {
+    "docId": "dq-lid-007_ht",
+    "data": {
+      "id": "dq-lid-007",
+      "questionText": "Ki pwofèt ki te moute nan syèl la nan yon cha dife?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elize"
+        },
+        {
+          "id": "b",
+          "text": "Ezayi"
+        },
+        {
+          "id": "c",
+          "text": "Eli"
+        },
+        {
+          "id": "d",
+          "text": "Jeremi"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "2 Wa 2:11 — \"...yon cha dife ak chwal dife parèt... Eli moute nan syèl la nan yon gwo van toubouyon.\"",
+      "bibleReference": "2 Wa 2:11"
+    }
+  },
+  {
+    "docId": "dq-lid-007_fr",
+    "data": {
+      "id": "dq-lid-007",
+      "questionText": "Quel prophète est monté au ciel dans un tourbillon avec un char de feu ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Élisée"
+        },
+        {
+          "id": "b",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "c",
+          "text": "Élie"
+        },
+        {
+          "id": "d",
+          "text": "Jérémie"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "2 Rois 2:11 — « ...voici, un char de feu et des chevaux de feu les séparèrent l'un de l'autre, et Élie monta au ciel dans un tourbillon. »",
+      "bibleReference": "2 Rois 2:11"
+    }
+  },
+  {
+    "docId": "dq-lid-008_ht",
+    "data": {
+      "id": "dq-lid-008",
+      "questionText": "Ki moun Bondye te mande pou l bati yon lach pou sove fanmi li anba gwo inondasyon an?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enòk"
+        },
+        {
+          "id": "b",
+          "text": "Lòt"
+        },
+        {
+          "id": "c",
+          "text": "Noye"
+        },
+        {
+          "id": "d",
+          "text": "Matizalèm"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jenèz 6:13-14 — Bondye di Noye: \"Fè yon lach pou ou ak bwa sèd.\"",
+      "bibleReference": "Jenèz 6:13-22"
+    }
+  },
+  {
+    "docId": "dq-lid-008_fr",
+    "data": {
+      "id": "dq-lid-008",
+      "questionText": "À qui Dieu a-t-il demandé de construire une arche pour sauver sa famille du déluge ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hénoc"
+        },
+        {
+          "id": "b",
+          "text": "Lot"
+        },
+        {
+          "id": "c",
+          "text": "Noé"
+        },
+        {
+          "id": "d",
+          "text": "Metuschélah"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Genèse 6:13-14 — Dieu dit à Noé : « Fais-toi une arche de bois de gopher. »",
+      "bibleReference": "Genèse 6:13-22"
+    }
+  },
+  {
+    "docId": "dq-lid-009_ht",
+    "data": {
+      "id": "dq-lid-009",
+      "questionText": "Ki pwofèt ki te rete nan vant yon gwo pwason pandan twa jou ak twa nwit?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Danyèl"
+        },
+        {
+          "id": "b",
+          "text": "Jonas"
+        },
+        {
+          "id": "c",
+          "text": "Amòs"
+        },
+        {
+          "id": "d",
+          "text": "Obadya"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jonas 1:17 — \"Seyè a voye yon gwo pwason pou vale Jonas. Jonas te rete nan vant pwason an pandan twa jou ak twa nwit.\"",
+      "bibleReference": "Jonas 1:17"
+    }
+  },
+  {
+    "docId": "dq-lid-009_fr",
+    "data": {
+      "id": "dq-lid-009",
+      "questionText": "Quel prophète a passé trois jours et trois nuits dans le ventre d'un grand poisson ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Daniel"
+        },
+        {
+          "id": "b",
+          "text": "Jonas"
+        },
+        {
+          "id": "c",
+          "text": "Amos"
+        },
+        {
+          "id": "d",
+          "text": "Abdias"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jonas 1:17 — « L'Éternel fit venir un grand poisson pour engloutir Jonas, et Jonas fut dans le ventre du poisson trois jours et trois nuits. »",
+      "bibleReference": "Jonas 1:17"
+    }
+  },
+  {
+    "docId": "dq-lid-010_ht",
+    "data": {
+      "id": "dq-lid-010",
+      "questionText": "Ki moun ki te gen anpil pasyans malgre li te pèdi tout sa l te genyen?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jòb"
+        },
+        {
+          "id": "b",
+          "text": "Aròn"
+        },
+        {
+          "id": "c",
+          "text": "Abraram"
+        },
+        {
+          "id": "d",
+          "text": "Samson"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Liv Jòb la montre kijan Jòb te rete fidèl ak Bondye malgre gwo soufrans ak pèt li te sibi.",
+      "bibleReference": "Jòb 1:21-22"
+    }
+  },
+  {
+    "docId": "dq-lid-010_fr",
+    "data": {
+      "id": "dq-lid-010",
+      "questionText": "Qui est resté patient et fidèle malgré la perte de tous ses biens et de sa famille ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Job"
+        },
+        {
+          "id": "b",
+          "text": "Aaron"
+        },
+        {
+          "id": "c",
+          "text": "Abraham"
+        },
+        {
+          "id": "d",
+          "text": "Samson"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Le livre de Job montre comment Job est resté fidèle à Dieu malgré d'immenses souffrances et pertes.",
+      "bibleReference": "Job 1:21-22"
+    }
+  },
+  {
+    "docId": "dq-lid-011_ht",
+    "data": {
+      "id": "dq-lid-011",
+      "questionText": "Ki moun Bondye te pale avè l nan yon touf bwa ki t ap boule men ki pa t ap boule nèt?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraram"
+        },
+        {
+          "id": "b",
+          "text": "Jakòb"
+        },
+        {
+          "id": "c",
+          "text": "Moyiz"
+        },
+        {
+          "id": "d",
+          "text": "Izarak"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Egzòd 3:2-4 — Zanj Seyè a parèt devan Moyiz nan yon flanm dife nan mitan yon touf bwa.",
+      "bibleReference": "Egzòd 3:2-4"
+    }
+  },
+  {
+    "docId": "dq-lid-011_fr",
+    "data": {
+      "id": "dq-lid-011",
+      "questionText": "À qui Dieu a-t-il parlé au travers d'un buisson ardent qui ne se consumait pas ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Jacob"
+        },
+        {
+          "id": "c",
+          "text": "Moïse"
+        },
+        {
+          "id": "d",
+          "text": "Isaac"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Exode 3:2-4 — L'ange de l'Éternel apparut à Moïse dans une flamme de feu, au milieu d'un buisson.",
+      "bibleReference": "Exode 3:2-4"
+    }
+  },
+  {
+    "docId": "dq-lid-012_ht",
+    "data": {
+      "id": "dq-lid-012",
+      "questionText": "Ki pitit gason Jakòb ki te vin gouvènè nan peyi Ejip?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ribenn"
+        },
+        {
+          "id": "b",
+          "text": "Benjamen"
+        },
+        {
+          "id": "c",
+          "text": "Jozèf"
+        },
+        {
+          "id": "d",
+          "text": "Jida"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jenèz 41:41 — Farawon an di Jozèf: \"Gade, m’ap mete ou chèf sou tout peyi Ejip la.\"",
+      "bibleReference": "Jenèz 41:41"
+    }
+  },
+  {
+    "docId": "dq-lid-012_fr",
+    "data": {
+      "id": "dq-lid-012",
+      "questionText": "Lequel des fils de Jacob est devenu gouverneur de toute l'Égypte ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ruben"
+        },
+        {
+          "id": "b",
+          "text": "Benjamin"
+        },
+        {
+          "id": "c",
+          "text": "Joseph"
+        },
+        {
+          "id": "d",
+          "text": "Juda"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Genèse 41:41 — Pharaon dit à Joseph : « Vois, je te donne le commandement de tout le pays d'Égypte. »",
+      "bibleReference": "Genèse 41:41"
+    }
+  },
+  {
+    "docId": "dq-lid-013_ht",
+    "data": {
+      "id": "dq-lid-013",
+      "questionText": "Ki non manman Samyèl ki te fè yon ve pou li bay Bondye jenn gason sa a?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Penina"
+        },
+        {
+          "id": "b",
+          "text": "An"
+        },
+        {
+          "id": "c",
+          "text": "Mari"
+        },
+        {
+          "id": "d",
+          "text": "Eli"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Samyèl 1 — An te fè yon ve... apre li fin sevre Samyèl, li mennen l nan tanp lan pou l sèvi Bondye tout lavi l.",
+      "bibleReference": "1 Samyèl 1:11, 28"
+    }
+  },
+  {
+    "docId": "dq-lid-013_fr",
+    "data": {
+      "id": "dq-lid-013",
+      "questionText": "Comment s'appelait la mère de Samuel qui l'a consacré à Dieu dès sa naissance ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Peninna"
+        },
+        {
+          "id": "b",
+          "text": "Anne"
+        },
+        {
+          "id": "c",
+          "text": "Marie"
+        },
+        {
+          "id": "d",
+          "text": "Élie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Samuel 1 — Anne fit un vœu... après avoir sevré Samuel, elle l'amena au temple pour qu'il soit au service de l'Éternel toute sa vie.",
+      "bibleReference": "1 Samuel 1:11, 28"
+    }
+  },
+  {
+    "docId": "dq-lid-014_ht",
+    "data": {
+      "id": "dq-lid-014",
+      "questionText": "Ki moun ki te marenn Moyiz nan larivyè Nil la e ki te rele l Moyiz?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Madanm farawon an"
+        },
+        {
+          "id": "b",
+          "text": "Pitit fi farawon an"
+        },
+        {
+          "id": "c",
+          "text": "Miryam"
+        },
+        {
+          "id": "d",
+          "text": "Yokebèd"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 2:10 — Pitit fi farawon an pran timoun nan pou pitit li, li rele l Moyiz.",
+      "bibleReference": "Egzòd 2:10"
+    }
+  },
+  {
+    "docId": "dq-lid-014_fr",
+    "data": {
+      "id": "dq-lid-014",
+      "questionText": "Qui a sauvé Moïse du Nil et lui a donné son nom ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La femme de Pharaon"
+        },
+        {
+          "id": "b",
+          "text": "La fille de Pharaon"
+        },
+        {
+          "id": "c",
+          "text": "La sœur de Moïse"
+        },
+        {
+          "id": "d",
+          "text": "Une servante égyptienne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 2:10 — « Quand l'enfant eut grandi, elle l'amena à la fille de Pharaon, et il fut pour elle comme un fils. Elle lui donna le nom de Moïse. »",
+      "bibleReference": "Exode 2:10"
+    }
+  },
+  {
+    "docId": "dq-lid-015_ht",
+    "data": {
+      "id": "dq-lid-015",
+      "questionText": "Ki wa ki te mande Bondye sajès pou l te ka gouvènen pèp li a byen?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Sayil"
+        },
+        {
+          "id": "c",
+          "text": "Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Jozyas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Wa 3:9 — Salomon mande: \"Tanpri, ban mwen konesans pou m ka gouvènen pèp ou a.\"",
+      "bibleReference": "1 Wa 3:9"
+    }
+  },
+  {
+    "docId": "dq-lid-015_fr",
+    "data": {
+      "id": "dq-lid-015",
+      "questionText": "Quel roi a demandé à Dieu de la sagesse pour bien gouverner son peuple ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Saül"
+        },
+        {
+          "id": "c",
+          "text": "Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Josias"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Rois 3:9 — Salomon demande : « Accorde donc à ton serviteur un cœur intelligent pour juger ton peuple. »",
+      "bibleReference": "1 Rois 3:9"
+    }
+  },
+  {
+    "docId": "dq-lug-001_ht",
+    "data": {
+      "id": "dq-lug-001",
+      "questionText": "Ki vil ki te detwi ansanm ak Sodòm pa lapli souf ak dife?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeriko"
+        },
+        {
+          "id": "b",
+          "text": "Niniv"
+        },
+        {
+          "id": "c",
+          "text": "Gomò"
+        },
+        {
+          "id": "d",
+          "text": "Damask"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Lè sa a Seyè te fè lapli tonbe sou Sodòm ak sou Gomò souf ak dife...\" (Jenèz 19:24). Sèlman Lòt ak pitit fi li yo te sove.",
+      "bibleReference": "Jenèz 19:24",
+      "normalizedRef": "gen19.24",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-001_fr",
+    "data": {
+      "id": "dq-lug-001",
+      "questionText": "Quelle ville fut détruite avec Sodome dans la Genèse ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tyr"
+        },
+        {
+          "id": "b",
+          "text": "Babylone"
+        },
+        {
+          "id": "c",
+          "text": "Gomorrhe"
+        },
+        {
+          "id": "d",
+          "text": "Ninive"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu fit pleuvoir du soufre et du feu sur Sodome et Gomorrhe (Genèse 19:24).",
+      "bibleReference": "Genèse 19:24",
+      "normalizedRef": "gen19.24",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-002_ht",
+    "data": {
+      "id": "dq-lug-002",
+      "questionText": "Nan ki rivyè Jezi te batize pa Jan Batèm?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rivyè Nil"
+        },
+        {
+          "id": "b",
+          "text": "Rivyè Efirat"
+        },
+        {
+          "id": "c",
+          "text": "Rivyè Jouden"
+        },
+        {
+          "id": "d",
+          "text": "Rivyè Tigris"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Lè sa a Jezi te vini soti Galile rive bò Jouden kote Jan te ye a, pou li batize pa li\" (Matye 3:13).",
+      "bibleReference": "Matye 3:13",
+      "normalizedRef": "mat3.13",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-002_fr",
+    "data": {
+      "id": "dq-lug-002",
+      "questionText": "Dans quel fleuve Jésus fut-il baptisé ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Nil"
+        },
+        {
+          "id": "b",
+          "text": "L'Euphrate"
+        },
+        {
+          "id": "c",
+          "text": "Le Jourdain"
+        },
+        {
+          "id": "d",
+          "text": "Le Kichon"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jean baptisa Jésus dans le fleuve Jourdain (Matthieu 3:13).",
+      "bibleReference": "Matthieu 3:13",
+      "normalizedRef": "mat3.13",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-003_ht",
+    "data": {
+      "id": "dq-lug-003",
+      "questionText": "Nan ki vil apòt Pòl te fèt?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antiosh"
+        },
+        {
+          "id": "b",
+          "text": "Wòm"
+        },
+        {
+          "id": "c",
+          "text": "Efèz"
+        },
+        {
+          "id": "d",
+          "text": "Tas Silisi"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "\"Mwen se yon Jwif ki fèt nan Tas Silisi, men mwen grandi nan vil sa a...\" (Travay 22:3). Tas te yon vil enpòtan nan Azi minè.",
+      "bibleReference": "Travay 22:3",
+      "normalizedRef": "act22.3",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-003_fr",
+    "data": {
+      "id": "dq-lug-003",
+      "questionText": "Quel auteur du NT a été éduqué aux pieds de Gamaliel selon Actes 22:3 ?",
+      "categoryId": "lugares",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre"
+        },
+        {
+          "id": "b",
+          "text": "Jean"
+        },
+        {
+          "id": "c",
+          "text": "Paul"
+        },
+        {
+          "id": "d",
+          "text": "Luc"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Paul déclare : « J'ai été élevé dans cette ville aux pieds de Gamaliel, formé avec exactitude dans la Loi de nos pères » (Actes 22:3) — formation rabbinique rigide.",
+      "bibleReference": "Actes 22:3",
+      "normalizedRef": "act22.3",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "docId": "dq-lug-004_ht",
+    "data": {
+      "id": "dq-lug-004",
+      "questionText": "Nan ki vil disip Jezi yo te resevwa pou premye fwa non \"Kretyen\"?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "Wòm"
+        },
+        {
+          "id": "c",
+          "text": "Antiosh"
+        },
+        {
+          "id": "d",
+          "text": "Korent"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi disip yo te rele Kretyen pou premye fwa nan Antiosh\" (Travay 11:26). Antiosh te sant misyon Pòl.",
+      "bibleReference": "Travay 11:26",
+      "normalizedRef": "act11.26",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-004_fr",
+    "data": {
+      "id": "dq-lug-004",
+      "questionText": "Quelle signification théologique a la ville d'Antioche de Syrie dans l'histoire du christianisme ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lieu du premier martyre chrétien"
+        },
+        {
+          "id": "b",
+          "text": "Lieu où les disciples furent appelés chrétiens pour la première fois"
+        },
+        {
+          "id": "c",
+          "text": "Ville où Pierre fonda l'Église romaine"
+        },
+        {
+          "id": "d",
+          "text": "Premier lieu où l'Évangile fut prêché aux Juifs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "C'est à Antioche que les disciples furent pour la première fois appelés « chrétiens » (Actes 11:26).",
+      "bibleReference": "Actes 11:26",
+      "normalizedRef": "act11.26",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-005_ht",
+    "data": {
+      "id": "dq-lug-005",
+      "questionText": "Sou ki mòn Bwat Noye a (Lach la) te poze apre delij la?",
+      "categoryId": "lugares",
+      "categoryName": "Jewografi Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Ararat"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Kamèl"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Olivye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jenèz 8:4 — \"Sou disetyèm jou nan setyèm mwa a, bwat la poze sou tèt mòn Ararat yo.\"",
+      "bibleReference": "Jenèz 8:4",
+      "normalizedRef": "gen8.4",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-005_fr",
+    "data": {
+      "id": "dq-lug-005",
+      "questionText": "Sur quelle montagne Noé's arche s'est-elle posée ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "b",
+          "text": "Mont Ararat"
+        },
+        {
+          "id": "c",
+          "text": "Mont Carmel"
+        },
+        {
+          "id": "d",
+          "text": "Mont Hermon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'arche de Noé se reposa sur les monts d'Ararat (Genèse 8:4).",
+      "bibleReference": "Genèse 8:4",
+      "normalizedRef": "gen8.4",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-006_ht",
+    "data": {
+      "id": "dq-lug-006",
+      "questionText": "Ki vil ki te gen miray ki te tonbe apre pèp Izrayèl la te fin mache fè wonn li pandan sèt jou?",
+      "categoryId": "lugares",
+      "categoryName": "Jewografi Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "Jeriko"
+        },
+        {
+          "id": "c",
+          "text": "Babilòn"
+        },
+        {
+          "id": "d",
+          "text": "Niniv"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozye 6:20 — \"Pèp la pouse yon gwo rèl... miray lavil la tonbe plat atè.\"",
+      "bibleReference": "Jozye 6:20",
+      "normalizedRef": "jos6.20",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-006_fr",
+    "data": {
+      "id": "dq-lug-006",
+      "questionText": "Qui fut le beau-fils de Moïse et chef militaire qui fit tomber les murs de Jéricho ?",
+      "categoryId": "lugares",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Caleb"
+        },
+        {
+          "id": "b",
+          "text": "Josué"
+        },
+        {
+          "id": "c",
+          "text": "Phinées"
+        },
+        {
+          "id": "d",
+          "text": "Éléazar"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Josué, successeur de Moïse, dirigea la conquête de Canaan. À Jéricho, les murailles s'effondrèrent après sept jours de marche (Josué 6:20).",
+      "bibleReference": "Josué 6:20",
+      "normalizedRef": "jos6.20",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "docId": "dq-lug-007_ht",
+    "data": {
+      "id": "dq-lug-007",
+      "questionText": "Ki kote legliz premye a te kòmanse ak ki evènman ki fonde l?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nasarèt lè Jezi te priye pou disip yo"
+        },
+        {
+          "id": "b",
+          "text": "Jerizalèm nan jou Pantekovòt lè Lespri Sen desann sou 120 kwayan"
+        },
+        {
+          "id": "c",
+          "text": "Antiyòch lè Pòl ak Barnabas te fonde l"
+        },
+        {
+          "id": "d",
+          "text": "Betleyèm lè bèje yo te rasanble"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 2 — Pantekovòt nan Jerizalèm. Lespri Sen desann, Pyè preche, 3000 moun te konvèti. \"Mwen pral bati legliz mwen\" (Matye 16:18) akompli.",
+      "bibleReference": "Travay 2:41",
+      "normalizedRef": "act2.41",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-007_fr",
+    "data": {
+      "id": "dq-lug-007",
+      "questionText": "Combien de personnes se convertirent lors du sermon de Pierre à la Pentecôte ?",
+      "categoryId": "lugares",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "120"
+        },
+        {
+          "id": "b",
+          "text": "500"
+        },
+        {
+          "id": "c",
+          "text": "3000"
+        },
+        {
+          "id": "d",
+          "text": "5000"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Après le sermon de Pierre à la Pentecôte, environ 3000 personnes acceptèrent la Parole et furent baptisées ce jour-là (Actes 2:41).",
+      "bibleReference": "Actes 2:41",
+      "normalizedRef": "act2.41",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-lug-008_ht",
+    "data": {
+      "id": "dq-lug-008",
+      "questionText": "Nan ki peyi Jozèf (pitit Jakòb) te sèvi kòm gouvènè?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kanaran"
+        },
+        {
+          "id": "b",
+          "text": "Ejip"
+        },
+        {
+          "id": "c",
+          "text": "Babilòn"
+        },
+        {
+          "id": "d",
+          "text": "Siri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozèf te vann kòm esklav ann Ejip, epi gras a entèpretasyon rèv Farawon yo, li te vin gouvènè Ejip (Jenèz 41:40-41).",
+      "bibleReference": "Jenèz 41:40-41",
+      "normalizedRef": "gen41.40-41",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-008_fr",
+    "data": {
+      "id": "dq-lug-008",
+      "questionText": "Dans quel pays Joseph (fils de Jacob) a-t-il servi comme gouverneur ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Canaan"
+        },
+        {
+          "id": "b",
+          "text": "Égypte"
+        },
+        {
+          "id": "c",
+          "text": "Babylone"
+        },
+        {
+          "id": "d",
+          "text": "Syrie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joseph fut vendu comme esclave en Égypte, et grâce à l'interprétation des rêves de Pharaon, il devint gouverneur d'Égypte (Genèse 41:40-41).",
+      "bibleReference": "Genèse 41:40-41",
+      "normalizedRef": "gen41.40-41",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-009_ht",
+    "data": {
+      "id": "dq-lug-009",
+      "questionText": "Ki te vil orijin Abraram anvan li pati pou Kanaran?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babilòn"
+        },
+        {
+          "id": "b",
+          "text": "Niniv"
+        },
+        {
+          "id": "c",
+          "text": "Ow des Kaldeyèn"
+        },
+        {
+          "id": "d",
+          "text": "Damask"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi Taré te soti nan Ow des Kaldeyèn ak Abram pitit li... pou yo al nan peyi Kanaran\" (Jenèz 11:31). Bondye te rele Abraram soti Ow.",
+      "bibleReference": "Jenèz 11:31",
+      "normalizedRef": "gen11.31",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-009_fr",
+    "data": {
+      "id": "dq-lug-009",
+      "questionText": "Quelle était la ville d'origine d'Abraham avant son départ pour Canaan ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babylone"
+        },
+        {
+          "id": "b",
+          "text": "Ninive"
+        },
+        {
+          "id": "c",
+          "text": "Ur en Chaldée"
+        },
+        {
+          "id": "d",
+          "text": "Damas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Térach prit Abram, son fils... ils sortirent d'Ur en Chaldée pour aller au pays de Canaan » (Genèse 11:31). Dieu appela Abraham depuis Ur.",
+      "bibleReference": "Genèse 11:31",
+      "normalizedRef": "gen11.31",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-010_ht",
+    "data": {
+      "id": "dq-lug-010",
+      "questionText": "Nan ki lanmè lame Farawon an te nwaye lè li t ap pousui Izrayèl?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmè Mediterane"
+        },
+        {
+          "id": "b",
+          "text": "Lanmè Mò"
+        },
+        {
+          "id": "c",
+          "text": "Lanmè Galile"
+        },
+        {
+          "id": "d",
+          "text": "Lanmè Wouj"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Bondye te fann Lanmè Wouj la pou Izrayèl pase epi dlo yo te tounen kouvri lame Farawon an (Egzòd 14:26-28).",
+      "bibleReference": "Egzòd 14:26-28",
+      "normalizedRef": "exo14.26-28",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-010_fr",
+    "data": {
+      "id": "dq-lug-010",
+      "questionText": "Dans quelle mer l'armée de Pharaon s'est-elle noyée en poursuivant Israël ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mer Méditerranée"
+        },
+        {
+          "id": "b",
+          "text": "Mer Morte"
+        },
+        {
+          "id": "c",
+          "text": "Mer de Galilée"
+        },
+        {
+          "id": "d",
+          "text": "Mer Rouge"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Dieu fendit la Mer Rouge pour qu'Israël traverse, puis les eaux revinrent couvrir l'armée de Pharaon (Exode 14:26-28).",
+      "bibleReference": "Exode 14:26-28",
+      "normalizedRef": "exo14.26-28",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-011_ht",
+    "data": {
+      "id": "dq-lug-011",
+      "questionText": "Nan ki vil yo te krisifye Jezi?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kafanawoum"
+        },
+        {
+          "id": "b",
+          "text": "Betleyèm"
+        },
+        {
+          "id": "c",
+          "text": "Nazarèt"
+        },
+        {
+          "id": "d",
+          "text": "Jerizalèm"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Yo te krisifye Jezi deyò pòt Jerizalèm, nan yon kote yo rele Golgotha oswa \"Kràn\" (Jan 19:17-20).",
+      "bibleReference": "Jan 19:17-20",
+      "normalizedRef": "joh19.17-20",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-lug-011_fr",
+    "data": {
+      "id": "dq-lug-011",
+      "questionText": "Dans quelle ville Jésus a-t-il été crucifié ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Capernaüm"
+        },
+        {
+          "id": "b",
+          "text": "Bethléem"
+        },
+        {
+          "id": "c",
+          "text": "Nazareth"
+        },
+        {
+          "id": "d",
+          "text": "Jérusalem"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Jésus fut crucifié hors des portes de Jérusalem, en un lieu appelé Golgotha ou « le Crâne » (Jean 19:17-20).",
+      "bibleReference": "Jean 19:17-20",
+      "normalizedRef": "joh19.17-20",
+      "normalizedCat": "lugares"
+    }
+  }
+]

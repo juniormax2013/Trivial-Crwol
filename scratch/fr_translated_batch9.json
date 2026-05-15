@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "dq-evg-010",
+    "questionText": "Que nous enseigne la parabole du « Fils prodigue » sur le caractère de Dieu ?",
+    "categoryId": "evangelios",
+    "categoryName": "Evangiles",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dieu punit ceux qui gaspillent"
+      },
+      {
+        "id": "b",
+        "text": "Dieu court à la rencontre de celui qui se repent — l'amour de Dieu dépasse tout péché"
+      },
+      {
+        "id": "c",
+        "text": "Il faut retourner chez ses parents avant que Dieu ne nous pardonne"
+      },
+      {
+        "id": "d",
+        "text": "L'enfant aîné est toujours meilleur que le cadet"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "La parabole (Lc 15:20) montre le père qui « courut » à la rencontre de son fils — image de l'amour rédempteur de Dieu. Il n'attend pas que le fils arrive — il va vers lui.",
+    "bibleReference": "Lc 15:20",
+    "normalizedRef": "lk15.20",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-011",
+    "questionText": "Que représente bibliquement « le Repas du Seigneur » ?",
+    "categoryId": "evangelios",
+    "categoryName": "Evangiles",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Un simple repas chrétien"
+      },
+      {
+        "id": "b",
+        "text": "Le corps et le sang du Christ — la proclamation de sa mort jusqu'à son retour"
+      },
+      {
+        "id": "c",
+        "text": "Une célébration remplaçant la Pâque juive"
+      },
+      {
+        "id": "d",
+        "text": "Un symbole sans aucune signification physique"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "1 Corinthiens 11:26 — « Car toutes les fois que vous mangez ce pain et que vous buvez cette coupe, vous annoncez la mort du Seigneur jusqu'à ce qu'il vienne. » Le Repas du Seigneur est une annonce de la communauté de foi et d'espérance.",
+    "bibleReference": "1 Corinthiens 11:26",
+    "normalizedRef": "1korentyen11.26",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-012",
+    "questionText": "Qu'a répondu Jésus lorsqu'on lui a demandé d'où venait son autorité ?",
+    "categoryId": "evangelios",
+    "categoryName": "Evangiles",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il a dit qu'elle venait directement de Dieu"
+      },
+      {
+        "id": "b",
+        "text": "Il leur a posé une question sur le baptême de Jean — comme ils n'ont pas répondu, il ne leur a pas répondu non plus"
+      },
+      {
+        "id": "c",
+        "text": "Il a cité Moïse comme autorité"
+      },
+      {
+        "id": "d",
+        "text": "Il a répondu que son autorité venait de la foi des gens"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matthieu 21:23-27 — Les principaux sacrificateurs interrogent Jésus sur son autorité. Il répond par une question sur le baptême de Jean. Ils ne peuvent pas répondre — il dit qu'il ne leur répondra pas non plus.",
+    "bibleReference": "Matthieu 21:24-27",
+    "normalizedRef": "mat21.24-27",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-013",
+    "questionText": "Que nous enseigne la parabole de « l'ivraie et du bon grain » sur le royaume de Dieu ?",
+    "categoryId": "evangelios",
+    "categoryName": "Evangiles",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Les chrétiens doivent se séparer de l'église pour ne pas être contaminés"
+      },
+      {
+        "id": "b",
+        "text": "Les bons et les méchants peuvent cohabiter jusqu'au jugement final — Dieu les séparera"
+      },
+      {
+        "id": "c",
+        "text": "Le péché dans l'église sera puni immédiatement"
+      },
+      {
+        "id": "d",
+        "text": "Les pasteurs doivent retirer tous les pécheurs de la communauté"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matthieu 13:24-30 — Le bon grain et l'ivraie croissent ensemble jusqu'à la moisson. Le maître répond : « Laissez-les croître ensemble jusqu'à la moisson » — le royaume de Dieu n'est pas pur dans l'histoire.",
+    "bibleReference": "Matthieu 13:30",
+    "normalizedRef": "mat13.30",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-014",
+    "questionText": "Que montre la « Transfiguration » de Jésus (Matthieu 17) ?",
+    "categoryId": "evangelios",
+    "categoryName": "Evangiles",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Jésus est devenu un ange"
+      },
+      {
+        "id": "b",
+        "text": "La gloire de la divinité du Christ a été révélée — Moïse et Élie sont apparus, la voix de Dieu l'a confirmé"
+      },
+      {
+        "id": "c",
+        "text": "Jésus traversait un processus de résurrection future"
+      },
+      {
+        "id": "d",
+        "text": "Les disciples ont eu un rêve collectif"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matthieu 17:1-9 — Jésus est transfiguré sur la montagne, son visage resplendit comme le soleil. Moïse (la Loi) et Élie (les Prophètes) apparaissent. La voix de Dieu dit : « Celui-ci est mon Fils bien-aimé. » Déclaration de la divinité du Christ.",
+    "bibleReference": "Matthieu 17:5",
+    "normalizedRef": "mat17.5",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-015",
+    "questionText": "Qu'a enseigné Jésus sur « la folie de la croix » comparée à la sagesse humaine ?",
+    "categoryId": "evangelios",
+    "categoryName": "Evangiles",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "La croix est une erreur théologique de la part de Dieu"
+      },
+      {
+        "id": "b",
+        "text": "La croix est une folie pour ceux qui périssent, mais pour ceux qui sont sauvés, elle est puissance de Dieu"
+      },
+      {
+        "id": "c",
+        "text": "La croix montre la faiblesse de Dieu"
+      },
+      {
+        "id": "d",
+        "text": "La croix est seulement un symbole historique"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "1 Corinthiens 1:18 — « Car la prédication de la croix est une folie pour ceux qui périssent ; mais pour nous qui sommes sauvés, elle est une puissance de Dieu. » La croix renverse la sagesse humaine — Dieu sauve par ce qui est folie pour le monde.",
+    "bibleReference": "1 Corinthiens 1:18",
+    "normalizedRef": "1korentyen1.18",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-par-016",
+    "questionText": "Dans la parabole des dix vierges, combien d'entre elles étaient sages ?",
+    "categoryId": "parabolas",
+    "categoryName": "Paraboles",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "3"
+      },
+      {
+        "id": "b",
+        "text": "5"
+      },
+      {
+        "id": "c",
+        "text": "7"
+      },
+      {
+        "id": "d",
+        "text": "10"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matthieu 25:2 — « Cinq d'entre elles étaient folles, et cinq sages. »",
+    "bibleReference": "Matthieu 25:2",
+    "normalizedRef": "mat25.2",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-017",
+    "questionText": "Dans la parabole des talents, que le maître a-t-il donné à ses serviteurs ?",
+    "categoryId": "parabolas",
+    "categoryName": "Paraboles",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "De l'argent (talents)"
+      },
+      {
+        "id": "b",
+        "text": "Des terres à travailler"
+      },
+      {
+        "id": "c",
+        "text": "Des maisons"
+      },
+      {
+        "id": "d",
+        "text": "Des animaux"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Matthieu 25:15 — « Il donna cinq talents à l'un, deux à l'autre, et un au troisième. »",
+    "bibleReference": "Matthieu 25:15",
+    "normalizedRef": "mat25.15",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-018",
+    "questionText": "Dans la parabole du « Bon Samaritain », qui est passé en premier près de l'homme blessé sans l'aider ?",
+    "categoryId": "parabolas",
+    "categoryName": "Paraboles",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Un prêtre"
+      },
+      {
+        "id": "b",
+        "text": "Un Lévite"
+      },
+      {
+        "id": "c",
+        "text": "Un soldat romain"
+      },
+      {
+        "id": "d",
+        "text": "Un marchand"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Lc 10:31 — « Un sacrificateur, qui par hasard descendait par le même chemin, ayant vu cet homme, passa outre. »",
+    "bibleReference": "Lc 10:31",
+    "normalizedRef": "lk10.31",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-019",
+    "questionText": "Dans la parabole du fils prodigue, que fit le père lorsqu'il vit son fils revenir de loin ?",
+    "categoryId": "parabolas",
+    "categoryName": "Paraboles",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il était très en colère"
+      },
+      {
+        "id": "b",
+        "text": "Il courut vers lui, se jeta à son cou et le baisa"
+      },
+      {
+        "id": "c",
+        "text": "Il lui a demandé où était son argent"
+      },
+      {
+        "id": "d",
+        "text": "Il l'a envoyé travailler avec les pourceaux"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Lc 15:20 — « Comme il était encore loin, son père le vit et fut ému de compassion, il courut se jeter à son cou et le baisa. »",
+    "bibleReference": "Lc 15:20",
+    "normalizedRef": "lk15.20",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-020",
+    "questionText": "Où l'homme qui avait reçu un seul talent a-t-il caché son argent ?",
+    "categoryId": "parabolas",
+    "categoryName": "Paraboles",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dans une banque"
+      },
+      {
+        "id": "b",
+        "text": "Dans la terre"
+      },
+      {
+        "id": "c",
+        "text": "Sous son lit"
+      },
+      {
+        "id": "d",
+        "text": "Il l'a perdu"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matthieu 25:18 — « Celui qui n'en avait reçu qu'un alla faire un creux dans la terre, et cacha l'argent de son maître. »",
+    "bibleReference": "Matthieu 25:18",
+    "normalizedRef": "mat25.18",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-021",
+    "questionText": "Dans la parabole du « Grand Festin », que firent ceux qui avaient été invités ?",
+    "categoryId": "parabolas",
+    "categoryName": "Paraboles",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ils accoururent tous"
+      },
+      {
+        "id": "b",
+        "text": "Ils se mirent tous à s'excuser"
+      },
+      {
+        "id": "c",
+        "text": "Ils apportèrent des cadeaux"
+      },
+      {
+        "id": "d",
+        "text": "Ils n'entendirent pas l'invitation"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Lc 14:18 — « Mais tous unanimement se mirent à s'excuser. »",
+    "bibleReference": "Lc 14:18",
+    "normalizedRef": "lk14.18",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-022",
+    "questionText": "Qu'advint-il de la semence qui tomba parmi les épines dans la parabole du semeur ?",
+    "categoryId": "parabolas",
+    "categoryName": "Paraboles",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Les oiseaux les mangèrent"
+      },
+      {
+        "id": "b",
+        "text": "Les épines montèrent et l'étouffèrent"
+      },
+      {
+        "id": "c",
+        "text": "Elle donna de beaux fruits"
+      },
+      {
+        "id": "d",
+        "text": "Elle sécha à cause du soleil"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matthieu 13:7 — « Une autre partie tomba parmi les épines ; les épines montèrent, et l'étouffèrent. »",
+    "bibleReference": "Matthieu 13:7",
+    "normalizedRef": "mat13.7",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-023",
+    "questionText": "Dans la parabole de la brebis perdue, combien de brebis le maître laissa-t-il dans le désert pour aller chercher celle qui était perdue ?",
+    "categoryId": "parabolas",
+    "categoryName": "Paraboles",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "50"
+      },
+      {
+        "id": "c",
+        "text": "99"
+      },
+      {
+        "id": "d",
+        "text": "100"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Lc 15:4 — « Quel homme d'entre vous, s'il a cent brebis, et qu'il en perde une, ne laisse les quatre-vingt-dix-neuf autres dans le désert pour aller après celle qui est perdue ? »",
+    "bibleReference": "Lc 15:4",
+    "normalizedRef": "lk15.4",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-024",
+    "questionText": "Qu'arrive-t-il au grain de sénevé lorsqu'il a fini de croître dans la parabole de Jésus ?",
+    "categoryId": "parabolas",
+    "categoryName": "Paraboles",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il reste une petite herbe"
+      },
+      {
+        "id": "b",
+        "text": "Il devient un grand arbre où les oiseaux font leur nid"
+      },
+      {
+        "id": "c",
+        "text": "Il meurt rapidement"
+      },
+      {
+        "id": "d",
+        "text": "Il ne grandit jamais"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matthieu 13:32 — « ... mais, quand il est poussé, il est plus grand que les légumes et devient un arbre, de sorte que les oiseaux du ciel viennent habiter dans ses branches. »",
+    "bibleReference": "Matthieu 13:32",
+    "normalizedRef": "mat13.32",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-025",
+    "questionText": "Dans la parabole des ouvriers de la vigne, combien le maître a-t-il payé ceux qui n'avaient travaillé qu'une heure par rapport à ceux qui avaient travaillé toute la journée ?",
+    "categoryId": "parabolas",
+    "categoryName": "Paraboles",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Moins d'argent"
+      },
+      {
+        "id": "b",
+        "text": "Le même montant (un denier)"
+      },
+      {
+        "id": "c",
+        "text": "Plus d'argent"
+      },
+      {
+        "id": "d",
+        "text": "Il ne les a pas payés"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matthieu 20:9-10 — « Ceux de la onzième heure vinrent, et reçurent chacun un denier. Les premiers vinrent ensuite, pensant recevoir davantage ; mais ils reçurent aussi chacun un denier. »",
+    "bibleReference": "Matthieu 20:9-10",
+    "normalizedRef": "mat20.9-10",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-pmen-025",
+    "questionText": "Quel prophète monta au ciel dans un tourbillon par un char de feu et des chevaux de feu ?",
+    "categoryId": "profetas-menores",
+    "categoryName": "Prophètes",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Élisée"
+      },
+      {
+        "id": "b",
+        "text": "Élie"
+      },
+      {
+        "id": "c",
+        "text": "Ésaïe"
+      },
+      {
+        "id": "d",
+        "text": "Jérémie"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "2 Rois 2:11 — « Comme ils continuaient à marcher en parlant, voici, un char de feu et des chevaux de feu les séparèrent l'un de l'autre, et Élie monta au ciel dans un tourbillon. »",
+    "bibleReference": "2 Rois 2:11",
+    "normalizedRef": "2ki2.11",
+    "normalizedCat": "profetas-menores"
+  },
+  {
+    "id": "dq-pmen-026",
+    "questionText": "Quel prophète passa trois jours et trois nuits dans le ventre d'un grand poisson ?",
+    "categoryId": "profetas-menores",
+    "categoryName": "Prophètes",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Amos"
+      },
+      {
+        "id": "b",
+        "text": "Michée"
+      },
+      {
+        "id": "c",
+        "text": "Jonas"
+      },
+      {
+        "id": "d",
+        "text": "Habacuc"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Jonas 1:17 — « L'Éternel fit venir un grand poisson pour engloutir Jonas, et Jonas fut dans le ventre du poisson trois jours et trois nuits. »",
+    "bibleReference": "Jonas 1:17",
+    "normalizedRef": "jon1.17",
+    "normalizedCat": "profetas-menores"
+  },
+  {
+    "id": "dq-pmen-027",
+    "questionText": "Quel prophète eut une vision d'une vallée remplie d'ossements desséchés qui reprirent vie ?",
+    "categoryId": "profetas-menores",
+    "categoryName": "Prophètes",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ésaïe"
+      },
+      {
+        "id": "b",
+        "text": "Ézéchiel"
+      },
+      {
+        "id": "c",
+        "text": "Daniel"
+      },
+      {
+        "id": "d",
+        "text": "Osée"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ézéchiel 37:1-10 — « L'Éternel me transporta dans une vallée pleine d'ossements... Je prophétisai, selon l'ordre qu'il m'avait donné. Et l'esprit entra en eux, et ils reprirent vie... »",
+    "bibleReference": "Ézéchiel 37:1-10",
+    "normalizedRef": "eze37.1-10",
+    "normalizedCat": "profetas-menores"
+  },
+  {
+    "id": "dq-pmen-028",
+    "questionText": "Quel prophète est surnommé le « prophète qui pleurait » ?",
+    "categoryId": "profetas-menores",
+    "categoryName": "Prophètes",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Jérémie"
+      },
+      {
+        "id": "b",
+        "text": "Ésaïe"
+      },
+      {
+        "id": "c",
+        "text": "Malachie"
+      },
+      {
+        "id": "d",
+        "text": "Zacharie"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Jérémie a écrit le livre de Jérémie et le livre des Lamentations, où il exprime sa grande tristesse pour la destruction de Jérusalem.",
+    "bibleReference": "Jérémie 9:1",
+    "normalizedRef": "jer9.1",
+    "normalizedCat": "profetas-menores"
+  },
+  {
+    "id": "dq-pmen-029",
+    "questionText": "Quel prophète eut une vision du Seigneur assis sur un trône très élevé, avec des séraphins disant : « Saint, saint, saint » ?",
+    "categoryId": "profetas-menores",
+    "categoryName": "Prophètes",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Amos"
+      },
+      {
+        "id": "b",
+        "text": "Ésaïe"
+      },
+      {
+        "id": "c",
+        "text": "Osée"
+      },
+      {
+        "id": "d",
+        "text": "Joël"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ésaïe 6:1-3 — « Je vis le Seigneur assis sur un trône très élevé... Des séraphins se tenaient au-dessus de lui... Ils criaient l'un à l'autre, et disaient : Saint, saint, saint est l'Éternel... »",
+    "bibleReference": "Ésaïe 6:1-3",
+    "normalizedRef": "isa6.1-3",
+    "normalizedCat": "profetas-menores"
+  },
+  {
+    "id": "dq-pmen-030",
+    "questionText": "Quel prophète interpréta le rêve du roi Nebucadnetsar concernant la grande statue ?",
+    "categoryId": "profetas-menores",
+    "categoryName": "Prophètes",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ésaïe"
+      },
+      {
+        "id": "b",
+        "text": "Jérémie"
+      },
+      {
+        "id": "c",
+        "text": "Daniel"
+      },
+      {
+        "id": "d",
+        "text": "Ézéchiel"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Daniel 2:19-45 — Dieu révéla le secret à Daniel, et il expliqua au roi le rêve et sa signification.",
+    "bibleReference": "Daniel 2",
+    "normalizedRef": "dan2",
+    "normalizedCat": "profetas-menores"
+  },
+  {
+    "id": "dq-pmen-031",
+    "questionText": "Quel prophète annonça que Jésus naîtrait à Bethléem ?",
+    "categoryId": "profetas-menores",
+    "categoryName": "Prophètes",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Michée"
+      },
+      {
+        "id": "b",
+        "text": "Ésaïe"
+      },
+      {
+        "id": "c",
+        "text": "Jérémie"
+      },
+      {
+        "id": "d",
+        "text": "Amos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Michée 5:2 — « Et toi, Bethléem Éphrata... de toi sortira pour moi celui qui dominera sur Israël. »",
+    "bibleReference": "Michée 5:2",
+    "normalizedRef": "mika5.2",
+    "normalizedCat": "profetas-menores"
+  },
+  {
+    "id": "dq-pmen-032",
+    "questionText": "Quel prophète défia les prophètes de Baal sur le mont Carmel ?",
+    "categoryId": "profetas-menores",
+    "categoryName": "Prophètes",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Élisée"
+      },
+      {
+        "id": "b",
+        "text": "Élie"
+      },
+      {
+        "id": "c",
+        "text": "Samuel"
+      },
+      {
+        "id": "d",
+        "text": "Nathan"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "1 Rois 18:20-40 — Élie défia les 450 prophètes de Baal pour voir quel Dieu répondrait par le feu.",
+    "bibleReference": "1 Rois 18",
+    "normalizedRef": "1ki18",
+    "normalizedCat": "profetas-menores"
+  },
+  {
+    "id": "dq-mil-016",
+    "questionText": "Quel fut le premier miracle de Jésus lors d'un mariage à Cana ?",
+    "categoryId": "milagros",
+    "categoryName": "Miracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il guérit un aveugle"
+      },
+      {
+        "id": "b",
+        "text": "Il chanya l'eau en vin"
+      },
+      {
+        "id": "c",
+        "text": "Il marcha sur l'eau"
+      },
+      {
+        "id": "d",
+        "text": "Il multiplia les pains"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jean 2:1-11 — Jésus changea l'eau contenue dans six jarres de pierre en vin lors d'une noce à Cana de Galilée.",
+    "bibleReference": "Jean 2:11",
+    "normalizedRef": "joh2.11",
+    "normalizedCat": "milagros"
+  },
+  {
+    "id": "dq-mil-017",
+    "questionText": "Quel ami de Jésus ressuscita-t-il après qu'il eut été enterré pendant quatre jours ?",
+    "categoryId": "milagros",
+    "categoryName": "Miracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lazare"
+      },
+      {
+        "id": "b",
+        "text": "Jaïrus"
+      },
+      {
+        "id": "c",
+        "text": "Pierre"
+      },
+      {
+        "id": "d",
+        "text": "Jean"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Jan 11:43-44 — Jezi rele byen fò: Laza, soti deyò! Epi moun ki te mouri a soti.",
+    "bibleReference": "Jan 11:43-44",
+    "normalizedRef": "joh11.43-44",
+    "normalizedCat": "milagros"
+  },
+  {
+    "id": "dq-mil-018",
+    "questionText": "Combien de pains et de poissons Jésus a-t-il utilisés pour nourrir plus de 5000 personnes ?",
+    "categoryId": "milagros",
+    "categoryName": "Miracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 pains et 5 poissons"
+      },
+      {
+        "id": "b",
+        "text": "5 pains et 2 poissons"
+      },
+      {
+        "id": "c",
+        "text": "7 pains et quelques petits poissons"
+      },
+      {
+        "id": "d",
+        "text": "12 pains et 12 poissons"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matthieu 14:17-19 — « Nous n'avons ici que cinq pains et deux poissons... il leva les yeux vers le ciel, et rendit grâces. Puis, il rompit les pains et les donna aux disciples... »",
+    "bibleReference": "Matthieu 14:17-19",
+    "normalizedRef": "mat14.17-19",
+    "normalizedCat": "milagros"
+  },
+  {
+    "id": "dq-mil-019",
+    "questionText": "Que se passa-t-il lorsque les disciples étaient dans une barque au milieu d'une grande tempête et qu'ils eurent très peur ?",
+    "categoryId": "milagros",
+    "categoryName": "Miracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Le bateau a coulé"
+      },
+      {
+        "id": "b",
+        "text": "Jésus dormait, mais il se leva et commanda au vent et à la mer"
+      },
+      {
+        "id": "c",
+        "text": "Ils ont nagé jusqu'au rivage"
+      },
+      {
+        "id": "d",
+        "text": "Des anges sont venus les porter"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Marc 4:39 — « S'étant réveillé, il menaça le vent, et dit à la mer : Silence ! tais-toi ! Et le vent cessa, et il y eut un grand calme. »",
+    "bibleReference": "Marc 4:39",
+    "normalizedRef": "mar4.39",
+    "normalizedCat": "milagros"
+  },
+  {
+    "id": "dq-mil-020",
+    "questionText": "Quel disciple essaya de marcher sur l'eau pour rejoindre Jésus, mais commença à s'enfoncer parce qu'il eut peur ?",
+    "categoryId": "milagros",
+    "categoryName": "Miracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Jean"
+      },
+      {
+        "id": "b",
+        "text": "André"
+      },
+      {
+        "id": "c",
+        "text": "Pierre"
+      },
+      {
+        "id": "d",
+        "text": "Jacques"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Matthieu 14:29-30 — « Et Pierre descendit de la barque, et marcha sur les eaux... Mais, voyant que le vent était fort, il eut peur ; et, comme il commençait à s'enfoncer... »",
+    "bibleReference": "Matthieu 14:29-30",
+    "normalizedRef": "mat14.29-30",
+    "normalizedCat": "milagros"
+  },
+  {
+    "id": "dq-mil-021",
+    "questionText": "Combien de lépreux Jésus a-t-il guéris, mais un seul revint pour lui dire merci ?",
+    "categoryId": "milagros",
+    "categoryName": "Miracles",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "5"
+      },
+      {
+        "id": "b",
+        "text": "10"
+      },
+      {
+        "id": "c",
+        "text": "12"
+      },
+      {
+        "id": "d",
+        "text": "7"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Luc 17:12-17 — « Dix lépreux... furent guéris... L'un d'eux... revint... Jésus, prenant la parole, dit : Les dix n'ont-ils pas été guéris ? »",
+    "bibleReference": "Luc 17:12-17",
+    "normalizedRef": "luk17.12-17",
+    "normalizedCat": "milagros"
+  },
+  {
+    "id": "dq-mil-022",
+    "questionText": "Comment Jésus a-t-il guéri l'homme né aveugle dans l'Évangile de Jean ?",
+    "categoryId": "milagros",
+    "categoryName": "Miracles",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il a simplement dit une parole"
+      },
+      {
+        "id": "b",
+        "text": "Il cracha à terre, fit de la boue avec sa salive, et appliqua cette boue sur ses yeux"
+      },
+      {
+        "id": "c",
+        "text": "Il mit de l'eau dans ses yeux"
+      },
+      {
+        "id": "d",
+        "text": "Il lui demanda d'aller se laver le visage dans la mer"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jean 9:6 — « Après avoir dit cela, il cracha à terre, et fit de la boue avec sa salive. Puis il appliqua cette boue sur les yeux de l'aveugle. »",
+    "bibleReference": "Jean 9:6",
+    "normalizedRef": "joh9.6",
+    "normalizedCat": "milagros"
+  },
+  {
+    "id": "dq-mil-023",
+    "questionText": "Qu'arriva-t-il à la femme qui souffrait d'une perte de sang depuis 12 ans lorsqu'elle toucha le vêtement de Jésus ?",
+    "categoryId": "milagros",
+    "categoryName": "Miracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Elle devint plus malade"
+      },
+      {
+        "id": "b",
+        "text": "Elle fut guérie à l'instant même"
+      },
+      {
+        "id": "c",
+        "text": "Les soldats l'ont arrêtée"
+      },
+      {
+        "id": "d",
+        "text": "Elle n'arriva pas à le toucher"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Marc 5:28-29 — « Car elle disait : Si je puis seulement toucher ses vêtements, je serai guérie. Au même instant la perte de sang s'arrêta... »",
+    "bibleReference": "Marc 5:28-29",
+    "normalizedRef": "mar5.28-29",
+    "normalizedCat": "milagros"
+  },
+  {
+    "id": "dq-mil-024",
+    "questionText": "Quel miracle Jésus fit-il pour aider Pierre à payer l'impôt du temple ?",
+    "categoryId": "milagros",
+    "categoryName": "Miracles",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il fit tomber de l'argent du ciel"
+      },
+      {
+        "id": "b",
+        "text": "Il lui dit d'aller pêcher, et le premier poisson qu'il tirerait aurait une pièce d'argent dans la bouche"
+      },
+      {
+        "id": "c",
+        "text": "Il multiplia l'argent que Pierre avait déjà"
+      },
+      {
+        "id": "d",
+        "text": "Il fit en sorte que le roi ne leur demande pas d'impôt"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matthieu 17:27 — « ... va à la mer, jette l'hameçon... le premier poisson qui viendra, prends-le ; ouvre-lui la bouche, et tu trouveras un statère... »",
+    "bibleReference": "Matthieu 17:27",
+    "normalizedRef": "mat17.27",
+    "normalizedCat": "milagros"
+  },
+  {
+    "id": "dq-mil-025",
+    "questionText": "Quel homme Jésus a-t-il ressuscité de la tombe après quatre jours ?",
+    "categoryId": "milagros",
+    "categoryName": "Miracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lazare"
+      },
+      {
+        "id": "b",
+        "text": "Barabbas"
+      },
+      {
+        "id": "c",
+        "text": "Eutychus"
+      },
+      {
+        "id": "d",
+        "text": "Jacques"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Jean 11:43-44 — Jésus fit un miracle pour ressusciter Lazare à Béthanie.",
+    "bibleReference": "Jean 11:43-44",
+    "normalizedRef": "joh11.43-44",
+    "normalizedCat": "milagros"
+  },
+  {
+    "id": "dq-lug-019",
+    "questionText": "Dans quel fleuve Jean-Baptiste baptisait-il les gens et où Jésus fut-il également baptisé ?",
+    "categoryId": "lugares",
+    "categoryName": "Géographie Biblique",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Le Nil"
+      },
+      {
+        "id": "b",
+        "text": "Le Jourdain"
+      },
+      {
+        "id": "c",
+        "text": "L'Euphrate"
+      },
+      {
+        "id": "d",
+        "text": "Le Tigre"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matthieu 3:13 — « Alors Jésus vint de la Galilée au Jourdain vers Jean, pour être baptisé par lui. »",
+    "bibleReference": "Matthieu 3:13",
+    "normalizedRef": "mat3.13",
+    "normalizedCat": "lugares"
+  },
+  {
+    "id": "dq-lug-020",
+    "questionText": "Dans quel pays le peuple d'Israël a-t-il été esclave pendant plus de 400 ans ?",
+    "categoryId": "lugares",
+    "categoryName": "Géographie Biblique",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Perse"
+      },
+      {
+        "id": "b",
+        "text": "Égypte"
+      },
+      {
+        "id": "c",
+        "text": "Assyrie"
+      },
+      {
+        "id": "d",
+        "text": "Rome"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Exode 12:40 — « Le séjour des enfants d'Israël en Égypte fut de quatre cent trente ans. »",
+    "bibleReference": "Exode 12:40",
+    "normalizedRef": "exo12.40",
+    "normalizedCat": "lugares"
+  },
+  {
+    "id": "dq-lug-021",
+    "questionText": "Sur quelle montagne Moïse a-t-il reçu les Dix Commandements de la part de Dieu ?",
+    "categoryId": "lugares",
+    "categoryName": "Géographie Biblique",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mont Nébo"
+      },
+      {
+        "id": "b",
+        "text": "Mont Sinaï (Horeb)"
+      },
+      {
+        "id": "c",
+        "text": "Mont Thabor"
+      },
+      {
+        "id": "d",
+        "text": "Mont Hermon"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Exode 19:20 — « L'Éternel descendit sur la montagne de Sinaï... et Moïse monta. »",
+    "bibleReference": "Exode 19:20",
+    "normalizedRef": "exo19.20",
+    "normalizedCat": "lugares"
+  },
+  {
+    "id": "dq-lug-022",
+    "questionText": "Quelle mer Dieu a-t-il fendue en deux pour que le peuple d'Israël puisse passer à pied sec en fuyant les Égyptiens ?",
+    "categoryId": "lugares",
+    "categoryName": "Géographie Biblique",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "La mer Morte"
+      },
+      {
+        "id": "b",
+        "text": "La mer Rouge"
+      },
+      {
+        "id": "c",
+        "text": "La mer Méditerranée"
+      },
+      {
+        "id": "d",
+        "text": "La mer de Galilée"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Exode 14:21 — « Moïse étendit sa main sur la mer. Et l'Éternel refoula la mer par un vent d'orient... et les eaux se fendirent. »",
+    "bibleReference": "Exode 14:21",
+    "normalizedRef": "exo14.21",
+    "normalizedCat": "lugares"
+  },
+  {
+    "id": "dq-lug-023",
+    "questionText": "Quelle ville était appelée la « ville de David » et est le lieu où Jésus est né ?",
+    "categoryId": "lugares",
+    "categoryName": "Géographie Biblique",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nazareth"
+      },
+      {
+        "id": "b",
+        "text": "Bethléem"
+      },
+      {
+        "id": "c",
+        "text": "Jérusalem"
+      },
+      {
+        "id": "d",
+        "text": "Hébron"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Luc 2:4 — « Joseph aussi monta... à la ville de David, appelée Bethléem, parce qu'il était de la maison et de la famille de David. »",
+    "bibleReference": "Luc 2:4",
+    "normalizedRef": "luk2.4",
+    "normalizedCat": "lugares"
+  },
+  {
+    "id": "dq-lug-024",
+    "questionText": "Dans quelle ville Jésus a-t-il grandi et d'où les gens disaient : « Peut-il venir de là quelque chose de bon ? »",
+    "categoryId": "lugares",
+    "categoryName": "Géographie Biblique",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Capernaüm"
+      },
+      {
+        "id": "b",
+        "text": "Nazareth"
+      },
+      {
+        "id": "c",
+        "text": "Tyr"
+      },
+      {
+        "id": "d",
+        "text": "Sidon"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jean 1:46 — « Nathanaël lui dit : Peut-il venir de Nazareth quelque chose de bon ? Philippe lui répondit : Viens, et vois. »",
+    "bibleReference": "Jean 1:46",
+    "normalizedRef": "joh1.46",
+    "normalizedCat": "lugares"
+  },
+  {
+    "id": "dq-lug-025",
+    "questionText": "Quel fleuve délimite le jardin d'Éden avec le Pishon, le Guihon et le Tigre ?",
+    "categoryId": "lugares",
+    "categoryName": "Géographie Biblique",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Le Jourdain"
+      },
+      {
+        "id": "b",
+        "text": "L'Euphrate"
+      },
+      {
+        "id": "c",
+        "text": "Le Nil"
+      },
+      {
+        "id": "d",
+        "text": "Le Jabbok"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Genèse 2:14 — « Le quatrième fleuve, c'est l'Euphrate. »",
+    "bibleReference": "Genèse 2:14",
+    "normalizedRef": "gen2.14",
+    "normalizedCat": "lugares"
+  },
+  {
+    "id": "dq-lug-026",
+    "questionText": "Sur quelle montagne Abraham est-il allé pour offrir Isaac en sacrifice avant que Dieu ne fournisse un bélier pour le remplacer ?",
+    "categoryId": "lugares",
+    "categoryName": "Géographie Biblique",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mont Morija"
+      },
+      {
+        "id": "b",
+        "text": "Mont Sinaï"
+      },
+      {
+        "id": "c",
+        "text": "Mont Hermon"
+      },
+      {
+        "id": "d",
+        "text": "Mont des Oliviers"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Genèse 22:2 — « Prends ton fils... et va-t'en au pays de Morija, et là offre-le en holocauste sur l'une des montagnes que je te dirai. »",
+    "bibleReference": "Genèse 22:2",
+    "normalizedRef": "gen22.2",
+    "normalizedCat": "lugares"
+  },
+  {
+    "id": "dq-muj-016",
+    "questionText": "Quelle fut la première femme que Dieu créa dans le jardin d'Éden ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes dans la Bible",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sara"
+      },
+      {
+        "id": "b",
+        "text": "Ève"
+      },
+      {
+        "id": "c",
+        "text": "Ada"
+      },
+      {
+        "id": "d",
+        "text": "Ruth"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Genèse 3:20 — « Adam donna à sa femme le nom d'Ève : car elle a été la mère de tous les vivants. »",
+    "bibleReference": "Genèse 3:20",
+    "normalizedRef": "gen3.20",
+    "normalizedCat": "mujeres"
+  },
+  {
+    "id": "dq-muj-017",
+    "questionText": "Quelle femme devint reine en Perse et sauva le peuple juif de la mort ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes dans la Bible",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Jézabel"
+      },
+      {
+        "id": "b",
+        "text": "Esther"
+      },
+      {
+        "id": "c",
+        "text": "Vasthi"
+      },
+      {
+        "id": "d",
+        "text": "Athalie"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Le livre d'Esther raconte comment Esther utilisa sa position de reine pour défendre son peuple devant le roi Assuérus.",
+    "bibleReference": "Esther 7",
+    "normalizedRef": "est7",
+    "normalizedCat": "mujeres"
+  },
+  {
+    "id": "dq-muj-018",
+    "questionText": "Quelle épouse d'Abraham enfanta Isaac lorsqu'elle avait 90 ans ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes dans la Bible",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Agar"
+      },
+      {
+        "id": "b",
+        "text": "Sara"
+      },
+      {
+        "id": "c",
+        "text": "Rébecca"
+      },
+      {
+        "id": "d",
+        "text": "Rachel"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Genèse 21:1-2 — « L'Éternel se souvint de ce qu'il avait dit à Sara... Sara devint enceinte, et elle enfanta un fils à Abraham dans sa vieillesse... »",
+    "bibleReference": "Genèse 21:1-2",
+    "normalizedRef": "gen21.1-2",
+    "normalizedCat": "mujeres"
+  },
+  {
+    "id": "dq-muj-019",
+    "questionText": "Quelle femme venait du pays de Moab et dit à sa belle-mère Naomi : « Ton peuple sera mon peuple, et ton Dieu sera mon Dieu » ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes dans la Bible",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ruth"
+      },
+      {
+        "id": "b",
+        "text": "Orpa"
+      },
+      {
+        "id": "c",
+        "text": "Rahab"
+      },
+      {
+        "id": "d",
+        "text": "Débora"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ruth 1:16 — « ... où tu iras j'irai... Ton peuple sera mon peuple, et ton Dieu sera mon Dieu. »",
+    "bibleReference": "Ruth 1:16",
+    "normalizedRef": "rout1.16",
+    "normalizedCat": "mujeres"
+  },
+  {
+    "id": "dq-muj-020",
+    "questionText": "Quelle femme fut à la fois juge et prophétesse en Israël ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes dans la Bible",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Jaël"
+      },
+      {
+        "id": "b",
+        "text": "Débora"
+      },
+      {
+        "id": "c",
+        "text": "Marie (Miriame)"
+      },
+      {
+        "id": "d",
+        "text": "Anne"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Juges 4:4 — « Dans ce temps-là, Débora, prophétesse, femme de Lappidoth, était juge en Israël. »",
+    "bibleReference": "Juges 4:4",
+    "normalizedRef": "jud4.4",
+    "normalizedCat": "mujeres"
+  },
+  {
+    "id": "dq-muj-021",
+    "questionText": "Quelle sœur de Moïse et d'Aaron jouait du tambourin et chanta le chant de la victoire après la traversée de la mer Rouge ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes dans la Bible",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Séphora"
+      },
+      {
+        "id": "b",
+        "text": "Marie (Miriame)"
+      },
+      {
+        "id": "c",
+        "text": "Élisabeth"
+      },
+      {
+        "id": "d",
+        "text": "Loïs"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Exode 15:20 — « Marie, la prophétesse, sœur d'Aaron, prit à sa main un tambourin... »",
+    "bibleReference": "Exode 15:20",
+    "normalizedRef": "exo15.20",
+    "normalizedCat": "mujeres"
+  },
+  {
+    "id": "dq-muj-022",
+    "questionText": "Quelle mère de Samuel fit un vœu à Dieu parce qu'elle était stérile, puis amena l'enfant au temple ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes dans la Bible",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Peninna"
+      },
+      {
+        "id": "b",
+        "text": "Anne"
+      },
+      {
+        "id": "c",
+        "text": "Rachel"
+      },
+      {
+        "id": "d",
+        "text": "Mical"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "1 Samuel 1:10-11 — Anne avait l'amertume dans l'âme... Elle fit un vœu, en disant : Éternel... si tu donnes à ta servante un enfant mâle, je le consacrerai à l'Éternel... »",
+    "bibleReference": "1 Samuel 1:11",
+    "normalizedRef": "1sa1.11",
+    "normalizedCat": "mujeres"
+  },
+  {
+    "id": "dq-muj-023",
+    "questionText": "Quelle fut la première personne à voir Jésus après sa résurrection ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes dans la Bible",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {
+        "id": "a",
+        "text": "Marie, mère de Jésus"
+      },
+      {
+        "id": "b",
+        "text": "Marie de Magdala"
+      },
+      {
+        "id": "c",
+        "text": "Marthe"
+      },
+      {
+        "id": "d",
+        "text": "Marie, sœur de Lazare"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jean 20:14-16 — Marie de Magdala vit Jésus debout ; mais elle ne savait pas que c'était Jésus... Jésus lui dit : Marie ! Elle se retourna, et lui dit en hébreu : Rabbouni ! »",
+    "bibleReference": "Jean 20:16",
+    "normalizedRef": "joh20.16",
+    "normalizedCat": "mujeres"
+  }
+]

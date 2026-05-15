@@ -1,0 +1,3386 @@
+[
+  {
+    "docId": "dq-hist-006_ht",
+    "data": {
+      "id": "dq-hist-006",
+      "questionText": "Konbyen ane Wa Salomon te renye sou Izrayèl?",
+      "categoryId": "historia",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "20 ane"
+        },
+        {
+          "id": "b",
+          "text": "40 ane"
+        },
+        {
+          "id": "c",
+          "text": "60 ane"
+        },
+        {
+          "id": "d",
+          "text": "70 ane"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Salomon te renye karant ane nan Jerizalèm sou tout Izrayèl (1 Wa 11:42).",
+      "bibleReference": "1 Wa 11:42",
+      "normalizedRef": "1ki11.42",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-006_fr",
+    "data": {
+      "id": "dq-hist-006",
+      "questionText": "Qui a été le premier roi d'Israël ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Saül"
+        },
+        {
+          "id": "d",
+          "text": "Samuel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Saül, de la tribu de Benjamin, fut oint par Samuel comme premier roi d'Israël (1 Samuel 10:1).",
+      "bibleReference": "1 Samuel 10:1",
+      "normalizedRef": "1sa10.1",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-007_ht",
+    "data": {
+      "id": "dq-hist-007",
+      "questionText": "Ki pwofetès ki te sèvi kòm jij nan Izrayèl anvan rwa yo?",
+      "categoryId": "historia",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anna"
+        },
+        {
+          "id": "b",
+          "text": "Rit"
+        },
+        {
+          "id": "c",
+          "text": "Debora"
+        },
+        {
+          "id": "d",
+          "text": "Estè"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Debora te pwofetès ak jij; li te dirije Izrayèl avèk Barac kont jeneral Kananeyen Sisiwa (Jij 4-5).",
+      "bibleReference": "Jij 4:4-5",
+      "normalizedRef": "jud4.4-5",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-007_fr",
+    "data": {
+      "id": "dq-hist-007",
+      "questionText": "Quel géant David a-t-il tué avec une fronde et une pierre ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hérode"
+        },
+        {
+          "id": "b",
+          "text": "Goliath"
+        },
+        {
+          "id": "c",
+          "text": "Balsazar"
+        },
+        {
+          "id": "d",
+          "text": "Abimelec"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "David, un jeune berger, a vaincu le champion philistin Goliath au nom de l'Éternel des armées (1 Samuel 17).",
+      "bibleReference": "1 Samuel 17",
+      "normalizedRef": "1sa17",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-008_ht",
+    "data": {
+      "id": "dq-hist-008",
+      "questionText": "Lè Rit te pèdi mari li, li te refize kite bèlmè li. Ki non bèlmè sa a?",
+      "categoryId": "historia",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anna"
+        },
+        {
+          "id": "b",
+          "text": "Noemi"
+        },
+        {
+          "id": "c",
+          "text": "Estè"
+        },
+        {
+          "id": "d",
+          "text": "Debora"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rit te di Noemi: \"Pèp ou a se pèp mwen, Bondye ou a se Bondye mwen\" (Rit 1:16).",
+      "bibleReference": "Rit 1:16",
+      "normalizedRef": "rut1.16",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-008_fr",
+    "data": {
+      "id": "dq-hist-008",
+      "questionText": "Dans quelle ville Jésus est-il né ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nazareth"
+        },
+        {
+          "id": "b",
+          "text": "Jérusalem"
+        },
+        {
+          "id": "c",
+          "text": "Bethléem"
+        },
+        {
+          "id": "d",
+          "text": "Capernaüm"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jésus est né à Bethléem en Judée, au temps du roi Hérode, accomplissant la prophétie de Michée (Matthieu 2:1).",
+      "bibleReference": "Matthieu 2:1",
+      "normalizedRef": "mat2.1",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-009_ht",
+    "data": {
+      "id": "dq-hist-009",
+      "questionText": "Ak ki bagay Samsòn te touye mil Filistin?",
+      "categoryId": "historia",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon epe"
+        },
+        {
+          "id": "b",
+          "text": "Yon machwa bourik"
+        },
+        {
+          "id": "c",
+          "text": "Yon lans"
+        },
+        {
+          "id": "d",
+          "text": "Men li"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Samsòn te pran yon machwa bourik epi ak li li te touye mil gason (Jij 15:15).",
+      "bibleReference": "Jij 15:15",
+      "normalizedRef": "jud15.15",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-009_fr",
+    "data": {
+      "id": "dq-hist-009",
+      "questionText": "Comment s'appelle le fleuve où Jésus a été baptisé par Jean-Baptiste ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Nil"
+        },
+        {
+          "id": "b",
+          "text": "L'Euphrate"
+        },
+        {
+          "id": "c",
+          "text": "Le Jourdain"
+        },
+        {
+          "id": "d",
+          "text": "Le Tigre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Alors Jésus vint de la Galilée au Jourdain vers Jean, pour être baptisé par lui (Matthieu 3:13).",
+      "bibleReference": "Matthieu 3:13",
+      "normalizedRef": "mat3.13",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-010_ht",
+    "data": {
+      "id": "dq-hist-010",
+      "questionText": "Ki wa Babilòn ki te detwi tanp Salomon an?",
+      "categoryId": "historia",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Siri"
+        },
+        {
+          "id": "b",
+          "text": "Dari"
+        },
+        {
+          "id": "c",
+          "text": "Nebikadneza"
+        },
+        {
+          "id": "d",
+          "text": "Egzès"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nebikadneza II te detwi Jerizalèm ak tanp lan an 586 anvan Kris epi li pote pèp la kaptif ann Babilòn (2 Wa 25).",
+      "bibleReference": "2 Wa 25:8-9",
+      "normalizedRef": "2ki25.8-9",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-010_fr",
+    "data": {
+      "id": "dq-hist-010",
+      "questionText": "Quel roi de Babylone a détruit le temple de Salomon ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire d'Israël",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cyrus"
+        },
+        {
+          "id": "b",
+          "text": "Darius"
+        },
+        {
+          "id": "c",
+          "text": "Nabuchodonosor"
+        },
+        {
+          "id": "d",
+          "text": "Xerxès"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nabuchodonosor II détruisit Jérusalem et le temple en 586 av. J.-C. et emmena le peuple captif à Babylone (2 Rois 25).",
+      "bibleReference": "2 Rois 25:8-9",
+      "normalizedRef": "2ki25.8-9",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-011_ht",
+    "data": {
+      "id": "dq-hist-011",
+      "questionText": "Konbyen ane ekzil pèp Jida a te dire ann Babilòn?",
+      "categoryId": "historia",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "40 ane"
+        },
+        {
+          "id": "b",
+          "text": "70 ane"
+        },
+        {
+          "id": "c",
+          "text": "100 ane"
+        },
+        {
+          "id": "d",
+          "text": "400 ane"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jeremi te pwofetize 70 ane ekzil ann Babilòn (Jeremi 29:10), ki te reyalize avèk dekrè Siri a.",
+      "bibleReference": "Jeremi 29:10",
+      "normalizedRef": "jer29.10",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-011_fr",
+    "data": {
+      "id": "dq-hist-011",
+      "questionText": "Combien d’années l'exil du peuple de Juda a-t-il duré à Babylone ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire d'Israël",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "40 ans"
+        },
+        {
+          "id": "b",
+          "text": "70 ans"
+        },
+        {
+          "id": "c",
+          "text": "100 ans"
+        },
+        {
+          "id": "d",
+          "text": "400 ans"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jérémie avait prophétisé 70 ans d'exil à Babylone (Jérémie 29:10), ce qui s'est accompli avec le décret de Cyrus.",
+      "bibleReference": "Jérémie 29:10",
+      "normalizedRef": "jer29.10",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-012_ht",
+    "data": {
+      "id": "dq-hist-012",
+      "questionText": "Ki gwo pèsonaj nan Bib la ki te mouri men yo pa t jwenn kò l paske Bondye te antere l?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraram"
+        },
+        {
+          "id": "b",
+          "text": "Moyiz"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Salomon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Moyiz te mouri nan peyi Moab, Bondye te antere l nan yon fon, e pesonn pa konnen kote l sot antere l la jouk jodi a (Deteronòm 34:5-6).",
+      "bibleReference": "Deteronòm 34:5-6",
+      "normalizedRef": "deu34.5-6",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-012_fr",
+    "data": {
+      "id": "dq-hist-012",
+      "questionText": "Quel prophète a confronté le roi Achab et défié les prophètes de Baal sur le Mont Carmel ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire d'Israël",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "b",
+          "text": "Élie"
+        },
+        {
+          "id": "c",
+          "text": "Élimélec"
+        },
+        {
+          "id": "d",
+          "text": "Jérémie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Élie défia 450 prophètes de Baal sur le Carmel ; Dieu envoya le feu du ciel sur son sacrifice (1 Rois 18:38).",
+      "bibleReference": "1 Rois 18:38",
+      "normalizedRef": "1ki18.38",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-013_ht",
+    "data": {
+      "id": "dq-hist-013",
+      "questionText": "Kilès ki te prèt ak wa nan Salèm ki te beni Abraram?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arawon"
+        },
+        {
+          "id": "b",
+          "text": "Mèlkisedèk"
+        },
+        {
+          "id": "c",
+          "text": "Samyèl"
+        },
+        {
+          "id": "d",
+          "text": "Zadòk"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Mèlkisedèk, wa Salèm ak prèt Bondye ki anwo nan syèl la, te pote pen ak diven epi li te beni Abraram (Jenèz 14:18-19).",
+      "bibleReference": "Jenèz 14:18-19",
+      "normalizedRef": "gen14.18-19",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-013_fr",
+    "data": {
+      "id": "dq-hist-013",
+      "questionText": "Combien de tribus ont formé le royaume du Nord d'Israël après la division ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire d'Israël",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Après la mort de Salomon, 10 tribus suivirent Jéroboam (Royaume du Nord) et seules Juda et Benjamin restèrent avec Roboam.",
+      "bibleReference": "1 Rois 12:20",
+      "normalizedRef": "1ki12.20",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-014_ht",
+    "data": {
+      "id": "dq-hist-014",
+      "questionText": "Konbyen madanm Jakòb te genyen ki te manman 12 tribi Izrayèl yo?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jakòb te gen de madanm (Leya ak Rachèl) ak de sèvant yo (Bila ak Zilpa) ki te manman 12 pitit gason l yo (Jenèz 29-30).",
+      "bibleReference": "Jenèz 29-30",
+      "normalizedRef": "gen29-30",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-014_fr",
+    "data": {
+      "id": "dq-hist-014",
+      "questionText": "Qui fut le dernier roi de Juda avant la conquête babylonienne ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire d'Israël",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ézéchias"
+        },
+        {
+          "id": "b",
+          "text": "Josias"
+        },
+        {
+          "id": "c",
+          "text": "Sédécias"
+        },
+        {
+          "id": "d",
+          "text": "Joakim"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sédécias fut le dernier roi de Juda ; il fut capturé par Nabuchodonosor qui détruisit Jérusalem (2 Rois 25:7).",
+      "bibleReference": "2 Rois 25:2-7",
+      "normalizedRef": "2ki25.2-7",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-015_ht",
+    "data": {
+      "id": "dq-hist-015",
+      "questionText": "Ki kote yo te mennen pèp Izrayèl la kòm prizonye apre yo te fin detwi Jerizalèm nan tan wa Sedesyas la?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lejip"
+        },
+        {
+          "id": "b",
+          "text": "Lasiri"
+        },
+        {
+          "id": "c",
+          "text": "Babilòn"
+        },
+        {
+          "id": "d",
+          "text": "Pès"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nan tan Nèbikadneza, yo te detwi Jerizalèm epi yo te mennen pèp la an depòtasyon nan Babilòn (2 Wa 25).",
+      "bibleReference": "2 Wa 25",
+      "normalizedRef": "2ki25",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-015_fr",
+    "data": {
+      "id": "dq-hist-015",
+      "questionText": "Dans quel livre biblique raconte-t-on la reconstruction des murs de Jérusalem après le retour d'exil ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire d'Israël",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esdras"
+        },
+        {
+          "id": "b",
+          "text": "Néhémie"
+        },
+        {
+          "id": "c",
+          "text": "Aggée"
+        },
+        {
+          "id": "d",
+          "text": "Zacharie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Néhémie dirigea la reconstruction des murs de Jérusalem en 52 jours (Néhémie 2-6).",
+      "bibleReference": "Néhémie 6:15",
+      "normalizedRef": "neh6.15",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-016_ht",
+    "data": {
+      "id": "dq-hist-016",
+      "questionText": "Ki wa ki te konstwi premye tanp lan nan Jerizalèm?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Jozyas"
+        },
+        {
+          "id": "d",
+          "text": "Ewòd"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Salomon te bati kay Seyè a nan Jerizalèm, yon travay papa l David te prepare (1 Wa 6).",
+      "bibleReference": "1 Wa 6",
+      "normalizedRef": "1ki6",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-016_fr",
+    "data": {
+      "id": "dq-hist-016",
+      "questionText": "Combien de jours et de nuits a-t-il plu pendant le déluge au temps de Noé ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 jours"
+        },
+        {
+          "id": "b",
+          "text": "12 jours"
+        },
+        {
+          "id": "c",
+          "text": "40 jours"
+        },
+        {
+          "id": "d",
+          "text": "100 jours"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La pluie tomba sur la terre quarante jours et quarante nuits (Genèse 7:12).",
+      "bibleReference": "Genèse 7:12",
+      "normalizedRef": "gen7.12",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-017_ht",
+    "data": {
+      "id": "dq-hist-017",
+      "questionText": "Ki jan miray lavil Jeriko yo te fè tonbe selon liv Jozye a?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Avèk yon gwo tranbleman tè"
+        },
+        {
+          "id": "b",
+          "text": "Apre pèp la te fin mache fè wonn vil la pandan 7 jou epi yo te rele fò"
+        },
+        {
+          "id": "c",
+          "text": "Avèk fòs yon lame pwisan"
+        },
+        {
+          "id": "d",
+          "text": "Yo te boule miray yo ak dife"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Izrayelit yo te mache fè wonn vil la pandan sis jou, epi sou setyèm jou a yo te fè l sèt fwa. Lè prèt yo kònen twonpèt yo epi pèp la rele, miray yo tonbe (Jozye 6).",
+      "bibleReference": "Jozye 6",
+      "normalizedRef": "jos6",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-017_fr",
+    "data": {
+      "id": "dq-hist-017",
+      "questionText": "Qui était le fils cadet de Jacob, né de Rachel ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Joseph"
+        },
+        {
+          "id": "b",
+          "text": "Benjamin"
+        },
+        {
+          "id": "c",
+          "text": "Juda"
+        },
+        {
+          "id": "d",
+          "text": "Ruben"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Benjamin était le dernier des douze fils de Jacob et le deuxième fils de Rachel (Genèse 35:18).",
+      "bibleReference": "Genèse 35:18",
+      "normalizedRef": "gen35.18",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-018_ht",
+    "data": {
+      "id": "dq-hist-018",
+      "questionText": "Kilès ki te madanm Boaz ak gran-grann wa David?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nawomi"
+        },
+        {
+          "id": "b",
+          "text": "Rit"
+        },
+        {
+          "id": "c",
+          "text": "Raba"
+        },
+        {
+          "id": "d",
+          "text": "Dalila"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rit, moun peyi Moab, te marye ak Boaz. Yo te gen yon pitit gason ki rele Obèd, ki te papa Jese, papa David (Rit 4:13-17).",
+      "bibleReference": "Rit 4:13-17",
+      "normalizedRef": "rut4.13-17",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-018_fr",
+    "data": {
+      "id": "dq-hist-018",
+      "questionText": "Quelle reine est venue de loin pour tester la sagesse de Salomon ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La reine de Saba"
+        },
+        {
+          "id": "b",
+          "text": "Jézabel"
+        },
+        {
+          "id": "c",
+          "text": "Esther"
+        },
+        {
+          "id": "d",
+          "text": "Vaschti"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La reine de Saba entendit parler de la gloire de Salomon... elle vint pour l'éprouver par des énigmes (1 Rois 10:1).",
+      "bibleReference": "1 Rois 10:1",
+      "normalizedRef": "1ki10.1",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-019_ht",
+    "data": {
+      "id": "dq-hist-019",
+      "questionText": "Ki pwofèt ki te konfwonte prèt Baal yo sou mòn Kamèl?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elize"
+        },
+        {
+          "id": "b",
+          "text": "Eli"
+        },
+        {
+          "id": "c",
+          "text": "Ezayi"
+        },
+        {
+          "id": "d",
+          "text": "Amòs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Eli te pwovoke pwofèt Baal yo pou yo wè kilès nan Bondye yo ki t'ap voye dife sou lotèl la. Seyè a te voye dife epi li te montre se li ki sèl Bondye (1 Wa 18).",
+      "bibleReference": "1 Wa 18",
+      "normalizedRef": "1ki18",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-019_fr",
+    "data": {
+      "id": "dq-hist-019",
+      "questionText": "Combien de temps les Israélites sont-ils restés captifs à Babylone ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "40 ans"
+        },
+        {
+          "id": "b",
+          "text": "70 ans"
+        },
+        {
+          "id": "c",
+          "text": "100 ans"
+        },
+        {
+          "id": "d",
+          "text": "400 ans"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le prophète Jérémie avait prédit que la captivité durerait 70 ans (Jérémie 25:11).",
+      "bibleReference": "Jérémie 25:11",
+      "normalizedRef": "jer25.11",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-020_ht",
+    "data": {
+      "id": "dq-hist-020",
+      "questionText": "Ki jan yo te rele jenn fi jwif la ki te vin larenn peyi Pès epi ki te sove pèp li a?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jidit"
+        },
+        {
+          "id": "b",
+          "text": "Estè"
+        },
+        {
+          "id": "c",
+          "text": "Vashti"
+        },
+        {
+          "id": "d",
+          "text": "Debora"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Estè (Adasa) te vin larenn nan plas Vashti epi li te entèvni devan wa Asyeris pou sove Jwif yo anba konplo Aman an (Estè 1-10).",
+      "bibleReference": "Estè 1-10",
+      "normalizedRef": "est1-10",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-020_fr",
+    "data": {
+      "id": "dq-hist-020",
+      "questionText": "Quel roi a construit le premier temple à Jérusalem ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Josias"
+        },
+        {
+          "id": "d",
+          "text": "Ézéchias"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Salomon a bâti la maison de l'Éternel, un projet que son père David avait préparé (1 Rois 6).",
+      "bibleReference": "1 Rois 6",
+      "normalizedRef": "1ki6",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-021_ht",
+    "data": {
+      "id": "dq-hist-021",
+      "questionText": "Ki sa pèp Izrayèl la te bati nan pye mòn Sinayi pandan Moyiz te sou mòn lan?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon lotèl pou Seyè a"
+        },
+        {
+          "id": "b",
+          "text": "Yon estati ti towo bèf an lò"
+        },
+        {
+          "id": "c",
+          "text": "Yon lach an bwa"
+        },
+        {
+          "id": "d",
+          "text": "Yon fò pou yo pwoteje tèt yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pandan Moyiz te pran reta sou mòn lan, pèp la te mande Arawon fè yon bondye pou yo. Li te fonn lò epi li fè yon ti towo bèf (Egzòd 32).",
+      "bibleReference": "Egzòd 32",
+      "normalizedRef": "exo32",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-021_fr",
+    "data": {
+      "id": "dq-hist-021",
+      "questionText": "Comment s'appelait le successeur de Salomon, sous le règne duquel le royaume s'est divisé en deux ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jéroboam"
+        },
+        {
+          "id": "b",
+          "text": "Roboam"
+        },
+        {
+          "id": "c",
+          "text": "Asa"
+        },
+        {
+          "id": "d",
+          "text": "Josaphat"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Roboam, fils de Salomon, a refusé d'écouter le peuple, ce qui a provoqué la division du royaume (1 Rois 12).",
+      "bibleReference": "1 Rois 12",
+      "normalizedRef": "1ki12",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-022_ht",
+    "data": {
+      "id": "dq-hist-022",
+      "questionText": "Ki jan yo te rele premye pitit gason Abraram nan ak sèvant li Agar?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Izarak"
+        },
+        {
+          "id": "b",
+          "text": "Ismayèl"
+        },
+        {
+          "id": "c",
+          "text": "Esau"
+        },
+        {
+          "id": "d",
+          "text": "Jojèf"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Agar, sèvant Sarayi a, te fè yon pitit gason pou Abraram ki te rele Ismayèl (Jenèz 16).",
+      "bibleReference": "Jenèz 16",
+      "normalizedRef": "gen16",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-022_fr",
+    "data": {
+      "id": "dq-hist-022",
+      "questionText": "Qui était le gouverneur romain qui a condamné Jésus à être crucifié ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hérode"
+        },
+        {
+          "id": "b",
+          "text": "Ponce Pilate"
+        },
+        {
+          "id": "c",
+          "text": "Félix"
+        },
+        {
+          "id": "d",
+          "text": "Festus"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pilate, voulant satisfaire la foule... leur livra Jésus, après l'avoir fait battre de verges, pour être crucifié (Marc 15:15).",
+      "bibleReference": "Matthieu 27:24",
+      "normalizedRef": "mat27.24",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-023_ht",
+    "data": {
+      "id": "dq-hist-023",
+      "questionText": "Ki wa ki te rann Sedesyas avèg epi ki te mennen l nan chenn Babilòn?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Siris"
+        },
+        {
+          "id": "b",
+          "text": "Nèbikadneza"
+        },
+        {
+          "id": "c",
+          "text": "Belshaza"
+        },
+        {
+          "id": "d",
+          "text": "Dariyis"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nèbikadneza, wa Babilòn, te touye pitit gason Sedesyas yo devan je l, apre sa li pete je l epi li mennen l nan chenn (2 Wa 25:7).",
+      "bibleReference": "2 Wa 25:7",
+      "normalizedRef": "2ki25.7",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-023_fr",
+    "data": {
+      "id": "dq-hist-023",
+      "questionText": "Quel roi a décrété que tous les Juifs pouvaient retourner à Jérusalem pour rebâtir le temple ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nabuchodonosor"
+        },
+        {
+          "id": "b",
+          "text": "Cyrus"
+        },
+        {
+          "id": "c",
+          "text": "Darius"
+        },
+        {
+          "id": "d",
+          "text": "Artaxerxès"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La première année de Cyrus, roi de Perse... il fit faire de vive voix et par écrit cette publication : ...Qu'il monte à Jérusalem (Esdras 1:1-3).",
+      "bibleReference": "Esdras 1:1-3",
+      "normalizedRef": "ezr1.1-3",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-024_ht",
+    "data": {
+      "id": "dq-hist-024",
+      "questionText": "Kilès nan jij Izrayèl yo ki te yon fanm epi ki te pwofèt tou?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jayèl"
+        },
+        {
+          "id": "b",
+          "text": "Debora"
+        },
+        {
+          "id": "c",
+          "text": "Delila"
+        },
+        {
+          "id": "d",
+          "text": "Ana"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Debora, yon pwofèt, madanm Lapidòt, te jij nan peyi Izrayèl nan tan sa a (Jij 4:4).",
+      "bibleReference": "Jij 4:4",
+      "normalizedRef": "jdg4.4",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-024_fr",
+    "data": {
+      "id": "dq-hist-024",
+      "questionText": "Qui a dirigé la reconstruction des murailles de Jérusalem après l'exil ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esdras"
+        },
+        {
+          "id": "b",
+          "text": "Néhémie"
+        },
+        {
+          "id": "c",
+          "text": "Zorobabel"
+        },
+        {
+          "id": "d",
+          "text": "Josué"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Néhémie, échanson du roi de Perse, a obtenu la permission de retourner reconstruire les murailles de sa ville (Néhémie 2).",
+      "bibleReference": "Néhémie 2",
+      "normalizedRef": "neh2",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-025_ht",
+    "data": {
+      "id": "dq-hist-025",
+      "questionText": "Ki pwofèt ki te wè « fon zo chèch » yo tounen yon lame vanyan?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi"
+        },
+        {
+          "id": "b",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "c",
+          "text": "Danyèl"
+        },
+        {
+          "id": "d",
+          "text": "Oze"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nan yon vizyon, Bondye te mennen Ezekyèl nan yon fon ki te plen zo chèch. Lè li pwofetize, zo yo te sanble, kouvri ak chè epi Lespri a te ba yo lavi (Ezekyèl 37).",
+      "bibleReference": "Ezekyèl 37",
+      "normalizedRef": "eze37",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-025_fr",
+    "data": {
+      "id": "dq-hist-025",
+      "questionText": "Comment s'appelait le fils d'Abraham et de sa servante Agar ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Isaac"
+        },
+        {
+          "id": "b",
+          "text": "Ismaël"
+        },
+        {
+          "id": "c",
+          "text": "Ésaü"
+        },
+        {
+          "id": "d",
+          "text": "Jacob"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Agar enfanta un fils à Abram ; et Abram donna le nom d'Ismaël au fils qu'Agar lui enfanta (Genèse 16:15).",
+      "bibleReference": "Genèse 16:15",
+      "normalizedRef": "gen16.15",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-026_ht",
+    "data": {
+      "id": "dq-hist-026",
+      "questionText": "Kilès nan pitit gason Abraram yo te sipoze sakrifye sou mòn Morija?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ismayèl"
+        },
+        {
+          "id": "b",
+          "text": "Izarak"
+        },
+        {
+          "id": "c",
+          "text": "Jakòb"
+        },
+        {
+          "id": "d",
+          "text": "Jojèf"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te mande Abraram pou l ofri Izarak, sèl pitit gason l te genyen ak Sara a, kòm sakrifis sou mòn Morija (Jenèz 22).",
+      "bibleReference": "Jenèz 22",
+      "normalizedRef": "gen22",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-026_fr",
+    "data": {
+      "id": "dq-hist-026",
+      "questionText": "Quel prophète a confronté les 450 prophètes de Baal sur le mont Carmel ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Élisée"
+        },
+        {
+          "id": "b",
+          "text": "Élie"
+        },
+        {
+          "id": "c",
+          "text": "Nathan"
+        },
+        {
+          "id": "d",
+          "text": "Samuel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Élie a proposé un défi pour montrer qui est le vrai Dieu, et le feu du ciel est descendu sur son autel (1 Rois 18).",
+      "bibleReference": "1 Rois 18",
+      "normalizedRef": "1ki18",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-027_ht",
+    "data": {
+      "id": "dq-hist-027",
+      "questionText": "Ki wa ki te wè men k ap ekri sou miray la pandan yon gwo fèt?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nèbikadneza"
+        },
+        {
+          "id": "b",
+          "text": "Belshaza"
+        },
+        {
+          "id": "c",
+          "text": "Siris"
+        },
+        {
+          "id": "d",
+          "text": "Dariyis"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pandan wa Belshaza t'ap fè yon fèt, men yon moun parèt epi li ekri sou miray la: Mene, Mene, Tekel, Upharsin (Danyèl 5).",
+      "bibleReference": "Danyèl 5",
+      "normalizedRef": "dan5",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-027_fr",
+    "data": {
+      "id": "dq-hist-027",
+      "questionText": "Qui était la femme de l'Ancien Testaman devenue reine de Perse et qui a sauvé son peuple de l'extermination ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ruth"
+        },
+        {
+          "id": "b",
+          "text": "Esther"
+        },
+        {
+          "id": "c",
+          "text": "Débora"
+        },
+        {
+          "id": "d",
+          "text": "Abigaïl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Esther a risqué sa vie en se présentant devant le roi Assuérus pour dénoncer le complot d'Haman (Esther 4-7).",
+      "bibleReference": "Esther 4-7",
+      "normalizedRef": "est4-7",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-028_ht",
+    "data": {
+      "id": "dq-hist-028",
+      "questionText": "Ki jan yo te rele dlo kote Moyiz te fè wòch la bay dlo a?",
+      "categoryId": "historia-israel",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mara"
+        },
+        {
+          "id": "b",
+          "text": "Meriba"
+        },
+        {
+          "id": "c",
+          "text": "Elim"
+        },
+        {
+          "id": "d",
+          "text": "Sinayi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Moyiz te frape wòch la nan Orèb, epi dlo soti pou pèp la bwè. Yo te rele kote sa a Masa ak Meriba (Egzòd 17:7; Nonb 20).",
+      "bibleReference": "Egzòd 17:7; Nonb 20",
+      "normalizedRef": "exo17.7",
+      "normalizedCat": "historia-israel"
+    }
+  },
+  {
+    "docId": "dq-hist-028_fr",
+    "data": {
+      "id": "dq-hist-028",
+      "questionText": "Quel disciple a marché sur l'eau vers Jésus ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jean"
+        },
+        {
+          "id": "b",
+          "text": "Pierre"
+        },
+        {
+          "id": "c",
+          "text": "Jacques"
+        },
+        {
+          "id": "d",
+          "text": "André"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pierre sortit de la barque, et marcha sur les eaux, pour aller vers Jésus (Matthieu 14:29).",
+      "bibleReference": "Matthieu 14:29",
+      "normalizedRef": "mat14.29",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-igl-001_ht",
+    "data": {
+      "id": "dq-igl-001",
+      "questionText": "Ki definisyon fondamantal legliz (ekklesia) nan NT?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon bilding sakre"
+        },
+        {
+          "id": "b",
+          "text": "Asanble kwayan yo ki rele sot nan mond lan pa Kris"
+        },
+        {
+          "id": "c",
+          "text": "Yon enstityson relijyez gouvènman"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman lidè espirityèl yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ekklesia (grèk) = \"moun ki rele deyò.\" Matye 16:18 — \"Mwen pral bati legliz mwen.\" Legliz se pèp Bondye, pa yon bilding.",
+      "bibleReference": "Matye 16:18",
+      "normalizedRef": "mat16.18",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-001_fr",
+    "data": {
+      "id": "dq-igl-001",
+      "questionText": "Que signifie le terme grec « ekklesia » traduit par « Église » ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Temple ou lieu saint"
+        },
+        {
+          "id": "b",
+          "text": "Assemblée ou convocation — ceux qui sont appelés hors du monde"
+        },
+        {
+          "id": "c",
+          "text": "Communion des fidèles"
+        },
+        {
+          "id": "d",
+          "text": "Institution religieuse officielle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ekklesia (ἐκκλησία) = « assemblée convoquée » — terme grec désignant une assemblée civile, utilisé par le NT pour l'Église : ceux que Dieu appelle hors du monde.",
+      "bibleReference": "Matthieu 16:18",
+      "normalizedRef": "mat16.18",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-002_ht",
+    "data": {
+      "id": "dq-igl-002",
+      "questionText": "Ki senbòl legliz Pòl itilize nan Efezyen 4?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon lame"
+        },
+        {
+          "id": "b",
+          "text": "Kò Kris — ki gen anpil manm ak yon sèl tèt"
+        },
+        {
+          "id": "c",
+          "text": "Yon kay bati sou wòch"
+        },
+        {
+          "id": "d",
+          "text": "Yon jaden kote fwi grandi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 4:15-16 — Legliz kòm kò Kris: Kris se tèt, chak manm gen yon fonksyon, tout travay ansanm pou kwasans kò a.",
+      "bibleReference": "Efezyen 4:15-16",
+      "normalizedRef": "eph4.15-16",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-002_fr",
+    "data": {
+      "id": "dq-igl-002",
+      "questionText": "Quel concept paulinien décrit l'Église comme un corps avec Christ comme tête ?",
+      "categoryId": "iglesia",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La communion des saints"
+        },
+        {
+          "id": "b",
+          "text": "Le corps mystique de Christ"
+        },
+        {
+          "id": "c",
+          "text": "L'alliance nouvelle"
+        },
+        {
+          "id": "d",
+          "text": "Le sacerdoce universel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul développe la métaphore du « corps de Christ » dans 1 Corinthiens 12 et Éphésiens 4 — chaque membre a son rôle.",
+      "bibleReference": "Éphésiens 4:15-16",
+      "normalizedRef": "eph4.15-16",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-igl-003_ht",
+    "data": {
+      "id": "dq-igl-003",
+      "questionText": "Ki sakraman yo rekonnèt nan legliz kretyen an an jeneral?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèlman Mès yo"
+        },
+        {
+          "id": "b",
+          "text": "Batèm ak Repa Seyè a (Kominyon) — institye pa Jezi"
+        },
+        {
+          "id": "c",
+          "text": "Batèm, Kominyon, Maryaj, Konfirmasyon, Kondisyon"
+        },
+        {
+          "id": "d",
+          "text": "Priyè ak jèn sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Legliz pwotestan rekonèt de sakraman institye pa Jezi: Batèm (Matye 28:19) ak Repa Seyè a (1 Korentyen 11:23-26). Legliz Katolik rekonèt sèt.",
+      "bibleReference": "Matye 28:19",
+      "normalizedRef": "mat28.19",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-003_fr",
+    "data": {
+      "id": "dq-igl-003",
+      "questionText": "Quels sont les deux sacrements (ou ordonnances) universellement reconnus par les Églises protestantes ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La communion et la confession"
+        },
+        {
+          "id": "b",
+          "text": "Le baptême et la Cène du Seigneur"
+        },
+        {
+          "id": "c",
+          "text": "Le baptême et l'onction des malades"
+        },
+        {
+          "id": "d",
+          "text": "La confirmation et la Cène du Seigneur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les deux ordonnances établies par Christ : le Baptême (Matthieu 28:19) et la Cène du Seigneur (1 Corinthiens 11:23-26) — actes symboliques commandés par Jésus.",
+      "bibleReference": "Matthieu 28:19",
+      "normalizedRef": "mat28.19",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-004_ht",
+    "data": {
+      "id": "dq-igl-004",
+      "questionText": "Ki sa Jezi te vle di lè li te di: \"Sou wòch sa a m ap bati legliz mwen\"?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wòch pwòp tèt Pyè a pèsonèlman"
+        },
+        {
+          "id": "b",
+          "text": "Konfesyon ke Jezi se Kris ak Pitit Bondye — fondeman verite ki bati legliz la"
+        },
+        {
+          "id": "c",
+          "text": "Yon bilding sou yon wòch literal"
+        },
+        {
+          "id": "d",
+          "text": "Tradisyon apòtolik Pyè a sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 16:16-18 — Pyè te konfese \"Ou se Kris la, Pitit Bondye vivan.\" Jezi baze legliz la sou konfesyon sa a (Petra = wòch). Legliz baze sou idantite Kris.",
+      "bibleReference": "Matye 16:16-18",
+      "normalizedRef": "mat16.16-18",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-004_fr",
+    "data": {
+      "id": "dq-igl-004",
+      "questionText": "Que révèle la Confession de Pierre à Césarée de Philippe (Matthieu 16:16) ?",
+      "categoryId": "iglesia",
+      "categoryName": "Les Évangiles",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Que Jésus est un grand prophète parmi d'autres"
+        },
+        {
+          "id": "b",
+          "text": "Que Jésus est le Christ, le Fils du Dieu vivant — révélation divine fondatrice de l'Église"
+        },
+        {
+          "id": "c",
+          "text": "Que Pierre est le premier pape de l'Église"
+        },
+        {
+          "id": "d",
+          "text": "Que le Messie devra souffrir et mourir"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pierre confesse : « Tu es le Christ, le Fils du Dieu vivant » — Jésus répond que c'est une révélation du Père et qu'il bâtira son Église sur cette confession (Matthieu 16:16-18).",
+      "bibleReference": "Matthieu 16:16-18",
+      "normalizedRef": "mat16.16-18",
+      "normalizedCat": "evangelios"
+    }
+  },
+  {
+    "docId": "dq-igl-005_ht",
+    "data": {
+      "id": "dq-igl-005",
+      "questionText": "Ki sa \"legliz inivèsèl\" ak \"legliz lokal\" diferansye?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Legliz inivèsèl se Vatikan, legliz lokal se tout lòt yo"
+        },
+        {
+          "id": "b",
+          "text": "Legliz inivèsèl = tout kwayan atravè istwa; legliz lokal = kominote espesifik nan yon kote"
+        },
+        {
+          "id": "c",
+          "text": "Pa gen diferans — yo se menm bagay la"
+        },
+        {
+          "id": "d",
+          "text": "Legliz inivèsèl se sèlman nan syèl la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 1:22-23 — legliz inivèsèl: tout kwayan tout tan. 1 Korentyen 1:2 — \"legliz Bondye ki Korent\" = kominote lokal. Tou de reyalite bibliyèl valid.",
+      "bibleReference": "Efezyen 1:22-23",
+      "normalizedRef": "eph1.22-23",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-005_fr",
+    "data": {
+      "id": "dq-igl-005",
+      "questionText": "Qu'est-ce que l'Église selon Éphésiens 1:22-23 ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un bâtiment consacré au culte"
+        },
+        {
+          "id": "b",
+          "text": "Le corps de Christ, la plénitude de celui qui remplit tout en tous"
+        },
+        {
+          "id": "c",
+          "text": "Une organisation religieuse humaine"
+        },
+        {
+          "id": "d",
+          "text": "Un rassemblement de personnes parfaites"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Il est la tête de l'Église qui est son corps, la plénitude de celui qui remplit tout en tous » (Éphésiens 1:22-23) — l'Église comme Corps mystique de Christ.",
+      "bibleReference": "Éphésiens 1:22-23",
+      "normalizedRef": "eph1.22-23",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-006_ht",
+    "data": {
+      "id": "dq-igl-006",
+      "questionText": "Ki sa adorasyon kretyen an dwe genyen dapre Jan 4:24?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adorasyon nan tanp Jerizalèm sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Adorasyon an espri ak an verite — pa lye ak yon kote fizik"
+        },
+        {
+          "id": "c",
+          "text": "Adorasyon avèk anpil mizik ak dans"
+        },
+        {
+          "id": "d",
+          "text": "Adorasyon silasman sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 4:23-24 — Jezi di fanm Samaritèn nan: vrè adoratè pral adore Bondye \"an espri ak an verite.\" Adorasyon vrè depase fòm ak kote.",
+      "bibleReference": "Jan 4:23-24",
+      "normalizedRef": "joh4.23-24",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-006_fr",
+    "data": {
+      "id": "dq-igl-006",
+      "questionText": "Que signifie prier « en esprit et en vérité » selon Jean 4:23-24 ?",
+      "categoryId": "iglesia",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prier uniquement en langues inconnues"
+        },
+        {
+          "id": "b",
+          "text": "Adorer Dieu authentiquement, avec le cœur transformé et conformément à la révélation divine"
+        },
+        {
+          "id": "c",
+          "text": "Prier debout les yeux ouverts et les mains levées"
+        },
+        {
+          "id": "d",
+          "text": "Prier uniquement dans l'Église et non chez soi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus annonce une adoration nouvelle — non liée à un lieu géographique mais en Esprit (sincèrement, intérieurement) et en vérité (conformément à Dieu tel qu'il est) (Jean 4:23-24).",
+      "bibleReference": "Jean 4:23-24",
+      "normalizedRef": "joh4.23-24",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-igl-007_ht",
+    "data": {
+      "id": "dq-igl-007",
+      "questionText": "Ki sa \"prezbyterianisme\" kòm sistèm gouvènman legliz la vle di?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon sèl evèk dirije tout legliz la"
+        },
+        {
+          "id": "b",
+          "text": "Yon konsèy ansyen (presbytere) dirije kominote a kolèktivman"
+        },
+        {
+          "id": "c",
+          "text": "Kongregasyon an vote sou tout desizyon yo"
+        },
+        {
+          "id": "d",
+          "text": "Chak pastè endepandan nèt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tit 1:5; 1 Timote 4:14 — Sistèm prezbiteryèn: konsèy ansyen dirije. Konpare avèk episkopalis (evèk) ak kongregasyonalis (vòt manm yo).",
+      "bibleReference": "Tit 1:5",
+      "normalizedRef": "tit1.5",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-007_fr",
+    "data": {
+      "id": "dq-igl-007",
+      "questionText": "Qui était Tite et quel rôle joua-t-il dans la mission paulinienne selon l'épître de Paul ?",
+      "categoryId": "iglesia",
+      "categoryName": "Personnages du NT",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un compagnon grec non circoncis — représentant des gentils dans l'Église"
+        },
+        {
+          "id": "b",
+          "text": "Le scribe de Paul pour l'épître aux Romains"
+        },
+        {
+          "id": "c",
+          "text": "Le successeur de Paul à Éphèse"
+        },
+        {
+          "id": "d",
+          "text": "L'interprète de Pierre à Rome"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Tite était un chrétien grec non circoncis — son cas fut un cas test au concile de Jérusalem. Paul le laissa en Crète pour « mettre en ordre les affaires » et établir des anciens (Tite 1:5).",
+      "bibleReference": "Tite 1:5",
+      "normalizedRef": "tit1.5",
+      "normalizedCat": "personajes-nt"
+    }
+  },
+  {
+    "docId": "dq-igl-008_ht",
+    "data": {
+      "id": "dq-igl-008",
+      "questionText": "Ki sa \"don espirityèl\" yo (charisma) dapre Pòl?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Talent natirèl chak moun"
+        },
+        {
+          "id": "b",
+          "text": "Don bay pa Lespri Sen pou bati legliz la ak sèvi kò Kris la"
+        },
+        {
+          "id": "c",
+          "text": "Rekonpans pou sèvis fidèl"
+        },
+        {
+          "id": "d",
+          "text": "Pouvwa espesyal pou premye kretyen yo sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 12 — Lespri Sen distribye don yo jan li vle pou itilite kominote a. Lòt lis: Women 12:6-8; Efezyen 4:11. Tout kwayan gen omwen yon don.",
+      "bibleReference": "1 Korentyen 12:7",
+      "normalizedRef": "1korentyen12.7",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-008_fr",
+    "data": {
+      "id": "dq-igl-008",
+      "questionText": "Que sont les « dons spirituels » (charismes) selon Paul ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le talent naturel de chaque personne"
+        },
+        {
+          "id": "b",
+          "text": "Des dons donnés par le Saint-Esprit pour édifier l'église et servir le corps de Christ"
+        },
+        {
+          "id": "c",
+          "text": "Des récompenses pour un service fidèle"
+        },
+        {
+          "id": "d",
+          "text": "Des pouvoirs spéciaux réservés aux premiers chrétiens seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 12 — Le Saint-Esprit distribue les dons comme il veut pour l'utilité commune. Autres listes : Romains 12:6-8 ; Éphésiens 4:11. Tout croyant a au moins un don.",
+      "bibleReference": "1 Corinthiens 12:7",
+      "normalizedRef": "1korentyen12.7",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-009_ht",
+    "data": {
+      "id": "dq-igl-009",
+      "questionText": "Ki wòl ansyen (presbytere) yo genyen nan legliz NT?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèlman administrasyon finans legliz la"
+        },
+        {
+          "id": "b",
+          "text": "Direksyon espirityèl, ansèyman, pran swen kongregasyon an, lapriyè pou malad yo"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman fè batèm"
+        },
+        {
+          "id": "d",
+          "text": "Jije diferan kominote legliz yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timote 3:1-7; Jak 5:14 — Ansyen (pastè/evèk) dirije, anseye, pran swen, priye pou malad. Tit 1:5-9 bay karaktè ki obligatwa pou ansyen yo.",
+      "bibleReference": "1 Timote 3:1-7",
+      "normalizedRef": "1ti3.1-7",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-009_fr",
+    "data": {
+      "id": "dq-igl-009",
+      "questionText": "Quel rôle les anciens (presbytres) ont-ils dans l'église du NT ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seulement l'administration des finances de l'église"
+        },
+        {
+          "id": "b",
+          "text": "Direction spirituelle, enseignement, soin de la congrégation et prière pour les malades"
+        },
+        {
+          "id": "c",
+          "text": "Seulement accomplir les baptêmes"
+        },
+        {
+          "id": "d",
+          "text": "Juger les différentes communautés d'églises"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timothée 3:1-7 ; Jacques 5:14 — Les anciens (pasteurs/évêques) dirigent, enseignent, prennent soin et prient pour les malades. Tite 1:5-9 donne les critères requis pour être ancien.",
+      "bibleReference": "1 Timothée 3:1-7",
+      "normalizedRef": "1ti3.1-7",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-010_ht",
+    "data": {
+      "id": "dq-igl-010",
+      "questionText": "Ki sa disiplin legliz la vle di biblikman?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pini moun ki peche piblikman"
+        },
+        {
+          "id": "b",
+          "text": "Pwosesis restorasyon ak koreksyon pou pèp ki nan peche — objèktif: restorasyon, pa venjerans"
+        },
+        {
+          "id": "c",
+          "text": "Ekspilse tout moun ki peche"
+        },
+        {
+          "id": "d",
+          "text": "Kritik piblik pastè yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 18:15-17 — 3 etap disiplin: an prive, ak temwen, devan legliz. Objèktif: \"Ou te genyen frè ou a\" (v.15). Galat 6:1 — restorasyon nan lespri dousè.",
+      "bibleReference": "Matye 18:15-17",
+      "normalizedRef": "mat18.15-17",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-010_fr",
+    "data": {
+      "id": "dq-igl-010",
+      "questionText": "Que signifie la discipline de l'église bibliquement ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Punir publiquement ceux qui pèchent"
+        },
+        {
+          "id": "b",
+          "text": "Un processus de restauration et de correction pour ceux qui pèchent — l'objectif est la restauration"
+        },
+        {
+          "id": "c",
+          "text": "Expulser tous ceux qui commettent un péché"
+        },
+        {
+          "id": "d",
+          "text": "La critique publique des pasteurs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 18:15-17 — Trois étapes : en privé, avec des témoins, devant l'église. L'objectif est de « gagner ton frère » (v.15). Galates 6:1 parle de restauration avec un esprit de douceur.",
+      "bibleReference": "Matthieu 18:15-17",
+      "normalizedRef": "mat18.15-17",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-011_ht",
+    "data": {
+      "id": "dq-igl-011",
+      "questionText": "Ki sa \"Gran Komisyon\" an di sou misyon legliz la?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rete Jerizalèm epi tann Jezi retounen"
+        },
+        {
+          "id": "b",
+          "text": "Fè disip pou tout nasyon, batize yo epi anseye yo"
+        },
+        {
+          "id": "c",
+          "text": "Bati anpil legliz nan mond lan"
+        },
+        {
+          "id": "d",
+          "text": "Mande tout nasyon yo vini Jerizalèm"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 28:18-20 — Gwo Komisyon: pouvwa Jezi, kòmandman fè disip, pwomès prezans li. Legliz egziste pou misyon.",
+      "bibleReference": "Matye 28:18-20",
+      "normalizedRef": "mat28.18-20",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-011_fr",
+    "data": {
+      "id": "dq-igl-011",
+      "questionText": "Que dit la « Grande Commission » sur la mission de l'église ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rester à Jérusalem et attendre le retour de Jésus"
+        },
+        {
+          "id": "b",
+          "text": "Faire de toutes les nations des disciples, les baptiser et les enseigner"
+        },
+        {
+          "id": "c",
+          "text": "Bâtir de nombreux bâtiments d'églises dans le monde"
+        },
+        {
+          "id": "d",
+          "text": "Demander à toutes les nations de venir à Jérusalem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 28:18-20 — La Grande Mission : le pouvoir de Jésus, le commandement de faire des disciples et la promesse de sa présence. L'Église existe pour la mission.",
+      "bibleReference": "Matthieu 28:18-20",
+      "normalizedRef": "mat28.18-20",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-012_ht",
+    "data": {
+      "id": "dq-igl-012",
+      "questionText": "Ki sa youn nan travay prensipal diakons yo nan legliz NT?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anseye ak dirije legliz la"
+        },
+        {
+          "id": "b",
+          "text": "Sèvis pratik: sèvi sou tab, pran swen bezwen fizik kominote a"
+        },
+        {
+          "id": "c",
+          "text": "Jere tout finans legliz la"
+        },
+        {
+          "id": "d",
+          "text": "Òdone pastè ak ansyen yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 6:1-6 — Apòt yo chwazi sèt gason pou sèvi sou tab (bezwen fizik vèv yo) pou apòt yo ka konsantre sou priyè ak ansèyman. Modèl diakoni.",
+      "bibleReference": "Travay 6:1-6",
+      "normalizedRef": "act6.1-6",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-012_fr",
+    "data": {
+      "id": "dq-igl-012",
+      "questionText": "Quelle est l'une des tâches principales des diacres dans l'église du NT ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enseigner et diriger l'église"
+        },
+        {
+          "id": "b",
+          "text": "Service pratique : servir aux tables, prendre soin des besoins physiques"
+        },
+        {
+          "id": "c",
+          "text": "Gérer toutes les finances de l'église"
+        },
+        {
+          "id": "d",
+          "text": "Ordonner les pasteurs et les anciens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 6:1-6 — Les apôtres ont choisi sept hommes pour servir aux tables (besoins des veuves) afin que les apôtres puissent se consacrer à la prière et à l'enseignement. Modèle de diaconie.",
+      "bibleReference": "Actes 6:1-6",
+      "normalizedRef": "act6.1-6",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-013_ht",
+    "data": {
+      "id": "dq-igl-013",
+      "questionText": "Ki sa Bib la anseye sou inite legliz la?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inite vle di tout kretyen nan yon sèl òganizasyon"
+        },
+        {
+          "id": "b",
+          "text": "Inite fondasyon: yon kò, yon Lespri, yon espwa, yon Seyè, yon lafwa, yon batèm, yon Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Inite vle di pa ka gen diferan denominasyon"
+        },
+        {
+          "id": "d",
+          "text": "Inite sèlman posib si tout kretyen dakò sou tout doktrin"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Efezyen 4:4-6 — Pòl site 7 \"youn\": yon kò, yon Lespri, yon espwa, yon Seyè, yon lafwa, yon batèm, yon Bondye. Inite espirityèl fon malgre divèsite demonizayson.",
+      "bibleReference": "Efezyen 4:4-6",
+      "normalizedRef": "eph4.4-6",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-013_fr",
+    "data": {
+      "id": "dq-igl-013",
+      "questionText": "Qu'enseigne la Bible sur l'unité de l'église ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'unité signifie que tous les chrétiens sont dans une seule organisation"
+        },
+        {
+          "id": "b",
+          "text": "Un seul corps, un seul Esprit, une seule espérance, un seul Seigneur, une seule foi, un seul baptême"
+        },
+        {
+          "id": "c",
+          "text": "L'unité signifie qu'il ne peut y avoir de dénominations"
+        },
+        {
+          "id": "d",
+          "text": "L'unité n'est possible que si tous sont d'accord sur chaque doctrine"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Éphésiens 4:4-6 — Paul cite les 7 « un » : un corps, un Esprit, une espérance, un Seigneur, une foi, un baptême, un Dieu. Unité spirituelle profonde malgré la diversité.",
+      "bibleReference": "Éphésiens 4:4-6",
+      "normalizedRef": "eph4.4-6",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-014_ht",
+    "data": {
+      "id": "dq-igl-014",
+      "questionText": "Ki jan legliz prenmitin te jere diferans sou sòmasize?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo te separe imedyatman an gwoup diferan"
+        },
+        {
+          "id": "b",
+          "text": "Konsèy Jerizalèm (Travay 15) te rasanble ansyen yo pou disipline ansanm — prèsidans kolèktif"
+        },
+        {
+          "id": "c",
+          "text": "Pyè te deside pou kont li"
+        },
+        {
+          "id": "d",
+          "text": "Chak legliz te deside pou kont li san konsilte lòt yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 15 — Konsèy Jerizalèm: premye konsèy legliz yo. Apòt ak ansyen yo diskite, pran desizyon kolèktif sou sòmasize pou Jentil yo. Modèl gouvènman kolegiyal.",
+      "bibleReference": "Travay 15:6-29",
+      "normalizedRef": "act15.6-29",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-014_fr",
+    "data": {
+      "id": "dq-igl-014",
+      "questionText": "Comment l'église primitive a-t-elle géré les différends sur la circoncision ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ils se sont immédiatement séparés en groupes différents"
+        },
+        {
+          "id": "b",
+          "text": "Le Concile de Jérusalem (Actes 15) a réuni les apôtres et les anciens pour décider ensemble"
+        },
+        {
+          "id": "c",
+          "text": "Pierre a décidé seul pour tout le monde"
+        },
+        {
+          "id": "d",
+          "text": "Chaque église a décidé seule sans consulter les autres"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 15 — Concile de Jérusalem : premier concile des églises. Les apôtres et anciens ont discuté et pris une décision collective sur la circoncision des Gentils. Modèle de gouvernement collégial.",
+      "bibleReference": "Actes 15:6-29",
+      "normalizedRef": "act15.6-29",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-015_ht",
+    "data": {
+      "id": "dq-igl-015",
+      "questionText": "Ki sa Bib la di sou legliz kòm \"kay Bondye\"?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tanp fizik kote Bondye abite"
+        },
+        {
+          "id": "b",
+          "text": "Pèp Bondye a — kwayan yo ki Lespri Sen abite ladan yo kòm tanp vivan"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman bilding legliz konsake yo"
+        },
+        {
+          "id": "d",
+          "text": "Jerizalèm ansyen an sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 3:16 — \"Nou pa konnen ke nou se tanp Bondye epi Lespri Bondye abite nan nou?\" Efezyen 2:21-22 — kwayan yo ansanm bati kòm yon abitasyon Bondye nan Lespri.",
+      "bibleReference": "1 Korentyen 3:16",
+      "normalizedRef": "1korentyen3.16",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-015_fr",
+    "data": {
+      "id": "dq-igl-015",
+      "questionText": "Que dit la Bible sur l'église comme « maison de Dieu » ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un temple physique où Dieu habite"
+        },
+        {
+          "id": "b",
+          "text": "Le peuple de Dieu — les croyants habités par le Saint-Esprit comme temple vivant"
+        },
+        {
+          "id": "c",
+          "text": "Seulement les bâtiments d'églises consacrés"
+        },
+        {
+          "id": "d",
+          "text": "L'ancienne Jérusalem seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 3:16 — « Ne savez-vous pas que vous êtes le temple de Dieu, et que l'Esprit de Dieu habite en vous ? » Les croyants sont ensemble l'habitation de Dieu.",
+      "bibleReference": "1 Corinthiens 3:16",
+      "normalizedRef": "1korentyen3.16",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-016_ht",
+    "data": {
+      "id": "dq-igl-016",
+      "questionText": "Ki diferans ki genyen ant Legliz vizib ak Legliz envizib nan teyoloji refòme a?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Legliz vizib la se katolik; Legliz envizib la se pwotestan"
+        },
+        {
+          "id": "b",
+          "text": "Legliz vizib = tout moun ki deklare lafwa yo; Legliz envizib = moun ki vrèman chanje Bondye sèlman konnen"
+        },
+        {
+          "id": "c",
+          "text": "Legliz vizib la se sa nou wè nan televizyon; envizib la se sa ki anba tè"
+        },
+        {
+          "id": "d",
+          "text": "Legliz envizib la se legliz moun ki mouri yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Calvin : Legliz vizib la (tout moun ki deklare lafwa, ki resevwa sakreman yo) gen ladan l Legliz envizib la (vrè eli yo Bondye sèlman konnen) — yon distenksyon pastoral enpòtan.",
+      "bibleReference": "2 Timothée 2:19",
+      "normalizedRef": "2ti2.19",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-016_fr",
+    "data": {
+      "id": "dq-igl-016",
+      "questionText": "Quelle est la différence entre l'Église visible et l'Église invisible dans la théologie réformée ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Église visible est catholique ; l'Église invisible est protestante"
+        },
+        {
+          "id": "b",
+          "text": "L'Église visible = tous les membres professants ; l'Église invisible = ceux vraiment régénérés connus de Dieu seul"
+        },
+        {
+          "id": "c",
+          "text": "L'Église visible se voit à la TV ; l'invisible est underground"
+        },
+        {
+          "id": "d",
+          "text": "L'Église invisible est l'Église des morts"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Calvin : l'Église visible (tous ceux qui professent la foi, reçoivent les sacrements) contient l'Église invisible (les vrais élus connus de Dieu seul) — une distinction pastorale importante.",
+      "bibleReference": "2 Timothée 2:19",
+      "normalizedRef": "2ti2.19",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-017_ht",
+    "data": {
+      "id": "dq-igl-017",
+      "questionText": "Kisa « kle Wayòm nan » yo te bay Pyè nan Matye 16:19 la vle di?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyè gen yon pouvwa absoli sou Legliz katolik la"
+        },
+        {
+          "id": "b",
+          "text": "Otorite pou anonse Levanjil la — sa ki ouvri oswa fèmen aksè nan Wayòm nan atravè mesaj y'ap bay la"
+        },
+        {
+          "id": "c",
+          "text": "Pyè t'ap veye pòt syèl la literalman"
+        },
+        {
+          "id": "d",
+          "text": "Yon pouvwa yo pase bay pap yo kòm siksèsè Pyè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kle yo senbolize otorite pou anonse Levanjil la : predikasyon sou lanmò ak rezirèksyon Kris la ouvri Wayòm nan pou moun ki kwè oswa fèmen l pou moun ki refize (Matye 16:19).",
+      "bibleReference": "Matthieu 16:19",
+      "normalizedRef": "mat16.19",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-017_fr",
+    "data": {
+      "id": "dq-igl-017",
+      "questionText": "Que signifient les « clés du Royaume » données à Pierre dans Matthieu 16:19 ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre a un pouvoir absolu sur l'Église catholique"
+        },
+        {
+          "id": "b",
+          "text": "L'autorité d'annoncer l'Évangile — ce qui ouvre ou ferme l'accès au Royaume par la proclamation du message"
+        },
+        {
+          "id": "c",
+          "text": "Pierre gardait littéralement les portes du ciel"
+        },
+        {
+          "id": "d",
+          "text": "Un pouvoir transmis aux papes successeurs de Pierre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les clés symbolisent l'autorité d'annoncer l'Évangile : la prédication de la mort/résurrection de Christ ouvre le Royaume pour ceux qui croient ou le ferme pour ceux qui refusent (Matthieu 16:19).",
+      "bibleReference": "Matthieu 16:19",
+      "normalizedRef": "mat16.19",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-018_ht",
+    "data": {
+      "id": "dq-igl-018",
+      "questionText": "Kijan 1 Pyè 2:9 dekri idantite Legliz la?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon enstitisyon yerachik ak prèt ki òdone"
+        },
+        {
+          "id": "b",
+          "text": "Yon ras chwazi, yon klas prèt k'ap sèvi wa a, yon nasyon ki apa pou Bondye, yon pèp Bondye chwazi"
+        },
+        {
+          "id": "c",
+          "text": "Yon gwoup kwayan k'ap mache nan direksyon pèfeksyon"
+        },
+        {
+          "id": "d",
+          "text": "Moun k'ap resevwa pwomès yo te fè Izrayèl sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Nou se yon ras Bondye chwazi, yon klas prèt k'ap sèvi wa a, yon nasyon ki apa pou Bondye, yon pèp li te achte... pou nou ka anonse bèl mèvèy moun ki te rele nou soti nan fènwa a » (1 Pyè 2:9).",
+      "bibleReference": "1 Pierre 2:9",
+      "normalizedRef": "1pe2.9",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-018_fr",
+    "data": {
+      "id": "dq-igl-018",
+      "questionText": "Comment 1 Pierre 2:9 décrit-il l'identité de l'Église ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une institution hiérarchique avec des prêtres ordonnés"
+        },
+        {
+          "id": "b",
+          "text": "Une race élue, un sacerdoce royal, une nation sainte, un peuple acquis"
+        },
+        {
+          "id": "c",
+          "text": "Un groupe de croyants en chemin vers la perfection"
+        },
+        {
+          "id": "d",
+          "text": "L'héritière des promesses faites à Israël seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Vous êtes une race élue, un sacerdoce royal, une nation sainte, un peuple acquis, afin que vous annonciez les vertus de celui qui vous a appelés des ténèbres à sa merveilleuse lumière » (1 Pierre 2:9).",
+      "bibleReference": "1 Pierre 2:9",
+      "normalizedRef": "1pe2.9",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-019_ht",
+    "data": {
+      "id": "dq-igl-019",
+      "questionText": "Ki diferans ki genyen ant don direksyon yo (evèk/ansyen) ak dyak yo nan Nouvo Testaman an?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Evèk yo pi wo pase dyak yo nan yon yerachi fiks"
+        },
+        {
+          "id": "b",
+          "text": "Ansyen/evèk yo anseye e yo dirije; dyak yo sèvi nan bezwen pratik yo"
+        },
+        {
+          "id": "c",
+          "text": "Dyak yo ka anseye; ansyen yo ka sèlman priye"
+        },
+        {
+          "id": "d",
+          "text": "Wòl sa yo pa t egziste nan Legliz premye tan an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nouvo Testaman an fè diferans ant ansyen/evèk yo (direksyon, ansèyman — 1 Timote 3:1-7) ak dyak yo (sèvis pratik — Akt 6:1-6; 1 Timote 3:8-13).",
+      "bibleReference": "1 Timothée 3:1-13",
+      "normalizedRef": "1ti3.1-13",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-019_fr",
+    "data": {
+      "id": "dq-igl-019",
+      "questionText": "Quelle est la différence entre les dons de direction (évêques/anciens) et les diacres dans le NT ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les évêques sont supérieurs aux diacres dans une hiérarchie fixe"
+        },
+        {
+          "id": "b",
+          "text": "Les anciens/évêques enseignent et gouvernent ; les diacres servent dans les besoins pratiques"
+        },
+        {
+          "id": "c",
+          "text": "Les diacres peuvent enseigner ; les anciens ne peuvent que prier"
+        },
+        {
+          "id": "d",
+          "text": "Ces rôles n'existaient pas dans l'Église primitive"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le NT distingue les anciens/évêques (gouvernance, enseignement — 1 Timothée 3:1-7) et les diacres (service pratique — Actes 6:1-6; 1 Timothée 3:8-13).",
+      "bibleReference": "1 Timothée 3:1-13",
+      "normalizedRef": "1ti3.1-13",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-020_ht",
+    "data": {
+      "id": "dq-igl-020",
+      "questionText": "Kisa doktrin « kominyon sen yo » vle di nan Kredo Apòt yo?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lapriyè bay sen ki mouri pou yo ka pale pou nou"
+        },
+        {
+          "id": "b",
+          "text": "Inite tout kwayan yo — sa ki vivan ak sa ki mouri — nan Kò Kris la atravè tout laj"
+        },
+        {
+          "id": "c",
+          "text": "Sentete moral obligatwa pou antre nan Legliz la"
+        },
+        {
+          "id": "d",
+          "text": "Selebre mès pou moun ki mouri yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kominyon sen yo (sanctorum communio) vle di solidarite tout kwayan yo nan Kò Kris la — yon Legliz ki ini kwayan tout tan.",
+      "bibleReference": "Hébreux 12:22-24",
+      "normalizedRef": "heb12.22-24",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-020_fr",
+    "data": {
+      "id": "dq-igl-020",
+      "questionText": "Que signifie la doctrine de la « communion des saints » dans le Credo des Apôtres ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La prière aux saints décédés pour leurs intercessions"
+        },
+        {
+          "id": "b",
+          "text": "L'unité de tous les croyants — vivants et morts — dans le Corps de Christ à travers les âges"
+        },
+        {
+          "id": "c",
+          "text": "La sainteté morale obligatoire pour entrer dans l'Église"
+        },
+        {
+          "id": "d",
+          "text": "La célébration de la messe de requiem pour les défunts"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La communion des saints (sanctorum communio) désigne la solidarité de tous les croyants dans le Corps de Christ — une Église transhistorique unissant les croyants de tous les temps.",
+      "bibleReference": "Hébreux 12:22-24",
+      "normalizedRef": "heb12.22-24",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-021_ht",
+    "data": {
+      "id": "dq-igl-021",
+      "questionText": "Ki kritè refòmatè yo te idantifye pou rekonèt yon vrè Legliz?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Siksèsyon apostolik ak akò ak lavil Wòm"
+        },
+        {
+          "id": "b",
+          "text": "Predikasyon fidèl Pawòl la ak administrasyon kòrèk sakreman yo"
+        },
+        {
+          "id": "c",
+          "text": "Gwosè kongregasyon an ak mirak yo"
+        },
+        {
+          "id": "d",
+          "text": "Respè pou litiji istorik la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "De mak vrè Legliz la selon Refòmatè yo (Luther, Calvin) : (1) Pawòl Bondye a ki preche ak fidelite, (2) sakreman yo ki administre kòrèkteman (kèk lòt ajoute disiplin legliz la).",
+      "bibleReference": "Actes 2:42",
+      "normalizedRef": "act2.42",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-021_fr",
+    "data": {
+      "id": "dq-igl-021",
+      "questionText": "Quels critères les réformateurs identifiaient-ils pour reconnaître une vraie Église ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La succession apostolique et la conformité avec Rome"
+        },
+        {
+          "id": "b",
+          "text": "La prédication fidèle de la Parole et l'administration correcte des sacrements"
+        },
+        {
+          "id": "c",
+          "text": "La taille de la congrégation et les miracles"
+        },
+        {
+          "id": "d",
+          "text": "Le respect de la liturgie historique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les deux marques de la vraie Église selon les Réformateurs (Luther, Calvin) : (1) la Parole de Dieu prêchée fidèlement, (2) les sacrements administrés correctement (certains ajoutent la discipline ecclésiastique).",
+      "bibleReference": "Actes 2:42",
+      "normalizedRef": "act2.42",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-022_ht",
+    "data": {
+      "id": "dq-igl-022",
+      "questionText": "Kijan Revelasyon 2-3 (lèt pou 7 Legliz yo) enpòtan pou Legliz jodi a?",
+      "categoryId": "iglesia",
+      "categoryName": "Legliz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lèt sa yo aplikab sèlman pou Legliz istorik nan premye syèk la"
+        },
+        {
+          "id": "b",
+          "text": "Yo bay yon pòtrè pwofetik sou fòs ak feblès espirityèl ki gen nan tout Legliz nan tout epòk"
+        },
+        {
+          "id": "c",
+          "text": "Yo anonse sèt peryòd nan istwa Legliz la"
+        },
+        {
+          "id": "d",
+          "text": "Yo se senbòl sèlman san okenn aplikasyon pratik"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "7 lèt yo (Revelasyon 2-3) pale sou dinamik inivèsèl : pèdi premye renmen an (Efèz), konpwomi ak move doktrin (Pègam), tyèd (Layodise) — glas pou tout Legliz nan tout epòk.",
+      "bibleReference": "Apocalypse 2:4",
+      "normalizedRef": "rev2.4",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-igl-022_fr",
+    "data": {
+      "id": "dq-igl-022",
+      "questionText": "Comment Apocalypse 2-3 (les lettres aux 7 Églises) est-il pertinent pour l'Église contemporaine ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ces lettres ne s'appliquent qu'aux Églises historiques du 1er siècle"
+        },
+        {
+          "id": "b",
+          "text": "Elles dressent un portrait prophétique des forces et faiblesses spirituelles récurrentes dans toute Église à toute époque"
+        },
+        {
+          "id": "c",
+          "text": "Elles prédisent sept périodes chronologiques de l'histoire de l'Église"
+        },
+        {
+          "id": "d",
+          "text": "Elles sont purement symboliques sans application pratique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les 7 lettres (Apocalypse 2-3) couvrent des dynamiques universelles : perte du premier amour (Éphèse), compromis doctrinal (Pergame), tiédeur (Laodicée) — miroirs pour toute Église de toute époque.",
+      "bibleReference": "Apocalypse 2:4",
+      "normalizedRef": "rev2.4",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "docId": "dq-inte-001_ht",
+    "data": {
+      "id": "dq-inte-001",
+      "questionText": "Konbyen tan pèp la te pase san yo pa t resevwa pwofesi ant liv Malachi ak nesans Jezi?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 ane"
+        },
+        {
+          "id": "b",
+          "text": "400 ane"
+        },
+        {
+          "id": "c",
+          "text": "1000 ane"
+        },
+        {
+          "id": "d",
+          "text": "70 ane"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yo rele peryòd sa a \"Peryòd Silans lan\", li te dire anviwon 400 ane.",
+      "bibleReference": "Malachi 4:5-6",
+      "normalizedRef": "mal4.5-6",
+      "normalizedCat": "intertestamentario"
+    }
+  },
+  {
+    "docId": "dq-inte-001_fr",
+    "data": {
+      "id": "dq-inte-001",
+      "questionText": "Combien de temps le peuple est-il resté sans recevoir de prophétie entre le livre de Malachie et la naissance de Jésus ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 ans"
+        },
+        {
+          "id": "b",
+          "text": "400 ans"
+        },
+        {
+          "id": "c",
+          "text": "1000 ans"
+        },
+        {
+          "id": "d",
+          "text": "70 ans"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "On appelle cette période la « Période de Silence », elle a duré environ 400 ans.",
+      "bibleReference": "Malachi 4:5-6",
+      "normalizedRef": "mal4.5-6",
+      "normalizedCat": "intertestamentario"
+    }
+  },
+  {
+    "docId": "dq-inte-002_ht",
+    "data": {
+      "id": "dq-inte-002",
+      "questionText": "Ki lang ki te vin tounen lang entènasyonal nan peryòd ant testaman yo akòz konkèt Aleksann Legran?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Laten"
+        },
+        {
+          "id": "b",
+          "text": "Ebre"
+        },
+        {
+          "id": "c",
+          "text": "Grèk"
+        },
+        {
+          "id": "d",
+          "text": "Arameyen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Konkèt Aleksann Legran te gaye kilti ak lang Grèk la (Elenis), sa ki te ede nan gaye Nouvo Testaman an pita.",
+      "bibleReference": "Jan 19:20"
+    }
+  },
+  {
+    "docId": "dq-inte-002_fr",
+    "data": {
+      "id": "dq-inte-002",
+      "questionText": "Quelle langue est devenue la langue internationale durant la période intertestamentaire grâce aux conquêtes d'Alexandre le Grand ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Latin"
+        },
+        {
+          "id": "b",
+          "text": "Hébreu"
+        },
+        {
+          "id": "c",
+          "text": "Grec"
+        },
+        {
+          "id": "d",
+          "text": "Araméen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les conquêtes d'Alexandre le Grand ont propagé la culture et la langue grecques (hellénisme), ce qui a facilité plus tard la diffusion du Nouveau Testament.",
+      "bibleReference": "Jean 19:20"
+    }
+  },
+  {
+    "docId": "dq-inte-003_ht",
+    "data": {
+      "id": "dq-inte-003",
+      "questionText": "Ki fanmi Jwif ki te mennen yon revòlt kont Seleyisid yo pou re-konsakre Tanp lan (sa yo fete nan Hanouka)?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ewodyen yo"
+        },
+        {
+          "id": "b",
+          "text": "Makabe yo"
+        },
+        {
+          "id": "c",
+          "text": "Zelòt yo"
+        },
+        {
+          "id": "d",
+          "text": "Sadiseyen yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revòlt Makabe yo te kòmanse an 167 anvan Jezikri kont Antiochus IV Epiphanes.",
+      "bibleReference": "Jan 10:22"
+    }
+  },
+  {
+    "docId": "dq-inte-003_fr",
+    "data": {
+      "id": "dq-inte-003",
+      "questionText": "Quelle famille juive a mené une révolte contre les Séleucides pour purifier le Temple (célébré à Hanoucca) ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les Hérodiens"
+        },
+        {
+          "id": "b",
+          "text": "Les Maccabées"
+        },
+        {
+          "id": "c",
+          "text": "Les Zélotes"
+        },
+        {
+          "id": "d",
+          "text": "Les Sadducéens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La révolte des Maccabées a commencé en 167 av. J.-C. contre Antiochus IV Épiphane.",
+      "bibleReference": "Jean 10:22"
+    }
+  },
+  {
+    "docId": "dq-inte-004_ht",
+    "data": {
+      "id": "dq-inte-004",
+      "questionText": "Ki non tradiksyon Ansyen Testaman an an Grèk ki te fèt nan peryòd sa a?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vilat"
+        },
+        {
+          "id": "b",
+          "text": "Septante (LXX)"
+        },
+        {
+          "id": "c",
+          "text": "Peshitta"
+        },
+        {
+          "id": "d",
+          "text": "Vulgat"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Septante la (LXX) te tradiksyon grèk Ansyen Testaman an, disip Jezi yo te itilize li anpil.",
+      "bibleReference": "Lk 4:18"
+    }
+  },
+  {
+    "docId": "dq-inte-004_fr",
+    "data": {
+      "id": "dq-inte-004",
+      "questionText": "Comment appelle-t-on la traduction grecque de l'Ancien Testament réalisée durant cette période ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Vetus Latina"
+        },
+        {
+          "id": "b",
+          "text": "La Septante (LXX)"
+        },
+        {
+          "id": "c",
+          "text": "La Peshitta"
+        },
+        {
+          "id": "d",
+          "text": "La Vulgate"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La Septante (LXX) était la traduction grecque de l'Ancien Testament, très utilisée par les disciples de Jésus.",
+      "bibleReference": "Luc 4:18"
+    }
+  },
+  {
+    "docId": "dq-inte-005_ht",
+    "data": {
+      "id": "dq-inte-005",
+      "questionText": "Ki gwoup relijye nan epòk Jezi a ki pa t kwè nan rezirèksyon?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Farizyen yo"
+        },
+        {
+          "id": "b",
+          "text": "Esenyen yo"
+        },
+        {
+          "id": "c",
+          "text": "Sadiseyen yo"
+        },
+        {
+          "id": "d",
+          "text": "Zelòt yo"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Travay 23:8 — \"Sadiseyen yo di pa gen rezirèksyon... men Farizyen yo kwè nan tou de.\"",
+      "bibleReference": "Travay 23:8"
+    }
+  },
+  {
+    "docId": "dq-inte-005_fr",
+    "data": {
+      "id": "dq-inte-005",
+      "questionText": "Quel groupe religieux de l'époque de Jésus ne croyait pas à la résurrection ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les Pharisiens"
+        },
+        {
+          "id": "b",
+          "text": "Les Esséniens"
+        },
+        {
+          "id": "c",
+          "text": "Les Sadducéens"
+        },
+        {
+          "id": "d",
+          "text": "Les Zélotes"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Actes 23:8 — « Car les Sadducéens disent qu'il n'y a point de résurrection... tandis que les Pharisiens confessent l'un et l'autre. »",
+      "bibleReference": "Actes 23:8"
+    }
+  }
+]

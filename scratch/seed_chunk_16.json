@@ -1,0 +1,3342 @@
+[
+  {
+    "docId": "dq-pmen-006_ht",
+    "data": {
+      "id": "dq-pmen-006",
+      "questionText": "Ki non dènye pwofèt nan Ansyen Testaman an ki te anonse ap gen yon moun ki va vin prepare chemen an?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Pwofèt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zekarya"
+        },
+        {
+          "id": "b",
+          "text": "Ajayi"
+        },
+        {
+          "id": "c",
+          "text": "Malachi"
+        },
+        {
+          "id": "d",
+          "text": "Mika"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Malachi 3:1 — \"Men m’ap voye mesaje mwen an pou l pare wout la devan mwen.\"",
+      "bibleReference": "Malachi 3:1",
+      "normalizedRef": "mal3.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-006_fr",
+    "data": {
+      "id": "dq-pmen-006",
+      "questionText": "Malachie 3:1 annonce qu'un messager préparera la voie — quel personnage du NT accomplit ce rôle ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre"
+        },
+        {
+          "id": "b",
+          "text": "Paul"
+        },
+        {
+          "id": "c",
+          "text": "Jean-Baptiste"
+        },
+        {
+          "id": "d",
+          "text": "Étienne"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jésus lui-même identifie Jean-Baptiste comme le messager de Malachie 3:1 (Matthieu 11:10).",
+      "bibleReference": "Malachie 3:1",
+      "normalizedRef": "mal3.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-007_ht",
+    "data": {
+      "id": "dq-pmen-007",
+      "questionText": "Ki vil Jona te voye pou preche repantans li a?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babilòn"
+        },
+        {
+          "id": "b",
+          "text": "Niniv"
+        },
+        {
+          "id": "c",
+          "text": "Damask"
+        },
+        {
+          "id": "d",
+          "text": "Tir"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te kòmande Jona ale nan Niniv pou anonse repantans. Jona te kouri anvan, men finalman li te obeyi (Jona 1:1-2; 3:1-2).",
+      "bibleReference": "Jona 1:1-2",
+      "normalizedRef": "jona1.1-2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-007_fr",
+    "data": {
+      "id": "dq-pmen-007",
+      "questionText": "Vers quelle ville Jonas fut-il envoyé pour prêcher la repentance ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babylone"
+        },
+        {
+          "id": "b",
+          "text": "Ninive"
+        },
+        {
+          "id": "c",
+          "text": "Damas"
+        },
+        {
+          "id": "d",
+          "text": "Tyr"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu commanda à Jonas d'aller à Ninive pour annoncer la repentance. Jonas s'enfuit d'abord, mais finit par obéir (Jonas 1:1-2 ; 3:1-2).",
+      "bibleReference": "Jonas 1:1-2"
+    }
+  },
+  {
+    "docId": "dq-pmen-008_ht",
+    "data": {
+      "id": "dq-pmen-008",
+      "questionText": "Konbyen jou ak nwit Jona te rete nan vant gwo pwason an?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 jou"
+        },
+        {
+          "id": "b",
+          "text": "3 jou ak 3 nwit"
+        },
+        {
+          "id": "c",
+          "text": "7 jou ak 7 nwit"
+        },
+        {
+          "id": "d",
+          "text": "40 jou ak 40 nwit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jona te rete twa jou ak twa nwit nan vant gwo pwason an (Jona 1:17). Jezi te itilize sa kòm siy lanmò ak rezirèksyon li (Matye 12:40).",
+      "bibleReference": "Jona 1:17",
+      "normalizedRef": "jona1.17",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-008_fr",
+    "data": {
+      "id": "dq-pmen-008",
+      "questionText": "Combien de jours et de nuits Jonas est-il resté dans le ventre du grand poisson ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 jour"
+        },
+        {
+          "id": "b",
+          "text": "3 jours et 3 nuits"
+        },
+        {
+          "id": "c",
+          "text": "7 jours et 7 nuits"
+        },
+        {
+          "id": "d",
+          "text": "40 jours et 40 nuits"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jonas resta trois jours et trois nuits dans le ventre du grand poisson (Jonas 1:17). Jésus utilisa cela comme signe de sa mort et résurrection (Matthieu 12:40).",
+      "bibleReference": "Jonas 1:17"
+    }
+  },
+  {
+    "docId": "dq-pmen-009_ht",
+    "data": {
+      "id": "dq-pmen-009",
+      "questionText": "Konbyen liv ti pwofèt ki genyen nan Ansyen Testaman an?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "15"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "12 ti pwofèt yo se: Oze, Joyèl, Amos, Abdyas, Jona, Miche, Nawoum, Abakik, Sofoni, Age, Zakari ak Malachi.",
+      "bibleReference": "Malachi 4:6",
+      "normalizedRef": "mal4.6",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-009_fr",
+    "data": {
+      "id": "dq-pmen-009",
+      "questionText": "Combien de livres de « petits prophètes » y a-t-il dans l'Ancien Testament ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "15"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les 12 petits prophètes sont : Osée, Joël, Amos, Abdias, Jonas, Michée, Nahum, Habacuc, Sophonie, Aggée, Zacharie et Malachie.",
+      "bibleReference": "Malachie 4:6"
+    }
+  },
+  {
+    "docId": "dq-pmen-010_ht",
+    "data": {
+      "id": "dq-pmen-010",
+      "questionText": "Ki se pi kout liv nan Ansyen Testaman an?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jona"
+        },
+        {
+          "id": "b",
+          "text": "Age"
+        },
+        {
+          "id": "c",
+          "text": "Abdyas"
+        },
+        {
+          "id": "d",
+          "text": "Nawoum"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Abdyas gen sèlman 21 vèsè nan yon sèl chapit. Li pwofetize kont Edomit yo ak retablisman Izrayèl.",
+      "bibleReference": "Abdyas 1:1",
+      "normalizedRef": "abdyas1.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-010_fr",
+    "data": {
+      "id": "dq-pmen-010",
+      "questionText": "Quel est le livre le plus court de l'Ancien Testament ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jonas"
+        },
+        {
+          "id": "b",
+          "text": "Aggée"
+        },
+        {
+          "id": "c",
+          "text": "Abdias"
+        },
+        {
+          "id": "d",
+          "text": "Nahum"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Abdias ne compte que 21 versets dans un seul chapitre. Il prophétise contre les Édomites et pour le rétablissement d'Israël.",
+      "bibleReference": "Abdias 1:1"
+    }
+  },
+  {
+    "docId": "dq-pmen-011_ht",
+    "data": {
+      "id": "dq-pmen-011",
+      "questionText": "Ki ti pwofèt ki te itilize imaj yon kriz krikèt pou dekri \"jou Seyè a\"?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Joyèl"
+        },
+        {
+          "id": "c",
+          "text": "Miche"
+        },
+        {
+          "id": "d",
+          "text": "Malachi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joyèl te dekri yon envazyon terib krikèt kòm senbòl jou Seyè a: \"Jou Seyè a vini, jou fènwa ak obskirte\" (Joyèl 2:1-2).",
+      "bibleReference": "Joyèl 2:1-11",
+      "normalizedRef": "joyèl2.1-11",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-011_fr",
+    "data": {
+      "id": "dq-pmen-011",
+      "questionText": "Quel petit prophète a utilisé l'image d'une invasion de sauterelles pour décrire le « jour de l'Éternel » ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Joël"
+        },
+        {
+          "id": "c",
+          "text": "Michée"
+        },
+        {
+          "id": "d",
+          "text": "Malachie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joël décrivit une terrible invasion de sauterelles comme symbole du jour de l'Éternel : « Le jour de l'Éternel vient, jour de ténèbres et d'obscurité » (Joël 2:1-2).",
+      "bibleReference": "Joël 2:1-11"
+    }
+  },
+  {
+    "docId": "dq-pmen-012_ht",
+    "data": {
+      "id": "dq-pmen-012",
+      "questionText": "Ki moun Bondye te kòmande pwofèt Oze a marye?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon jèn pwofetès"
+        },
+        {
+          "id": "b",
+          "text": "Yon fanm fònikasyon ki rele Gomè"
+        },
+        {
+          "id": "c",
+          "text": "Yon etranje Morabis"
+        },
+        {
+          "id": "d",
+          "text": "Yon vèv Samari"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Oze te pran Gomè kòm madanm, enfidèlite li a senbòlize apostazi Izrayèl devan Bondye. Men Oze te renmen l epi restore l (Oze 1:2-3; 3:1-3).",
+      "bibleReference": "Oze 1:2-3",
+      "normalizedRef": "hos1.2-3",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-012_fr",
+    "data": {
+      "id": "dq-pmen-012",
+      "questionText": "Avec qui Dieu a-t-il ordonné au prophète Osée de se marier ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une jeune prophétesse"
+        },
+        {
+          "id": "b",
+          "text": "Une femme prostituée nommée Gomer"
+        },
+        {
+          "id": "c",
+          "text": "Une étrangère Moabite"
+        },
+        {
+          "id": "d",
+          "text": "Une veuve de Samarie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Osée prit Gomer pour femme, son infidélité symbolisant l'apostasie d'Israël devant Dieu. Mais Osée l'aima et la restaura (Osée 1:2-3 ; 3:1-3).",
+      "bibleReference": "Osée 1:2-3"
+    }
+  },
+  {
+    "docId": "dq-pmen-013_ht",
+    "data": {
+      "id": "dq-pmen-013",
+      "questionText": "Ki liv nan ti pwofèt yo ki gen plis chapit?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Joyèl"
+        },
+        {
+          "id": "b",
+          "text": "Amos"
+        },
+        {
+          "id": "c",
+          "text": "Miche"
+        },
+        {
+          "id": "d",
+          "text": "Zakari"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Zakari gen 14 chapit, ki pi long liv nan ti pwofèt yo. Li gen anpil vizyon mesyanik.",
+      "bibleReference": "Zakari 14",
+      "normalizedRef": "zec14",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-013_fr",
+    "data": {
+      "id": "dq-pmen-013",
+      "questionText": "Quel livre parmi les petits prophètes contient le plus de chapitres ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Joël"
+        },
+        {
+          "id": "b",
+          "text": "Amos"
+        },
+        {
+          "id": "c",
+          "text": "Michée"
+        },
+        {
+          "id": "d",
+          "text": "Zacharie"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Zacharie compte 14 chapitres, le plus long livre des petits prophètes. Il contient de nombreuses visions messianiques.",
+      "bibleReference": "Zacharie 14"
+    }
+  },
+  {
+    "docId": "dq-pmen-014_ht",
+    "data": {
+      "id": "dq-pmen-014",
+      "questionText": "Ki sa Liv Malachi a di sou pèp ki pa t pote ladim bay Bondye?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo te inyoran"
+        },
+        {
+          "id": "b",
+          "text": "Yo te vòlè Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Yo t ap vin pòv"
+        },
+        {
+          "id": "d",
+          "text": "Yo p ap beni"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Eske yon moun ka vòlè Bondye? Se sa nou fè. Nou di: Nan ki fason nou vòlè ou? Nan ladim nou yo ak ofrann nou yo\" (Malachi 3:8).",
+      "bibleReference": "Malachi 3:8-10",
+      "normalizedRef": "mal3.8-10",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-014_fr",
+    "data": {
+      "id": "dq-pmen-014",
+      "questionText": "Que dit le livre de Malachie sur le peuple qui n'apportait pas ses dîmes à Dieu ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Qu'ils étaient ignorants"
+        },
+        {
+          "id": "b",
+          "text": "Qu'ils trompaient (volaient) Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Qu'ils deviendraient pauvres"
+        },
+        {
+          "id": "d",
+          "text": "Qu'ils ne seraient pas bénis"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Un homme trompe-t-il Dieu ? Car vous me trompez, et vous dites : En quoi t'avons-nous trompé ? Dans les dîmes et les offrandes » (Malachie 3:8).",
+      "bibleReference": "Malachie 3:8-10"
+    }
+  },
+  {
+    "docId": "dq-pmen-015_ht",
+    "data": {
+      "id": "dq-pmen-015",
+      "questionText": "Ki bèt Bondye te voye detwi plant ki t ap ban Jona lonbraj lan?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon krikèt"
+        },
+        {
+          "id": "b",
+          "text": "Yon vè"
+        },
+        {
+          "id": "c",
+          "text": "Yon sèpan"
+        },
+        {
+          "id": "d",
+          "text": "Yon kòbo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te prepare yon vè ki te frape plant lonbraj la, epi lè solèy leve, Jona te febli nan chalè (Jona 4:7).",
+      "bibleReference": "Jona 4:7",
+      "normalizedRef": "jona4.7",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-015_fr",
+    "data": {
+      "id": "dq-pmen-015",
+      "questionText": "Quel animal Dieu envoya-t-il pour détruire la plante qui donnait de l'ombre à Jonas ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une sauterelle"
+        },
+        {
+          "id": "b",
+          "text": "Un ver"
+        },
+        {
+          "id": "c",
+          "text": "Un serpent"
+        },
+        {
+          "id": "d",
+          "text": "Un corbeau"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu fit venir un ver qui piqua le ricin (plante), et quand le soleil se leva, Jonas fut accablé par la chaleur (Jonas 4:7).",
+      "bibleReference": "Jonas 4:7"
+    }
+  },
+  {
+    "docId": "dq-pmen-016_ht",
+    "data": {
+      "id": "dq-pmen-016",
+      "questionText": "Konbyen vèsè Liv Abdyas la genyen, ki pi kout Ansyen Testaman an?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "15"
+        },
+        {
+          "id": "c",
+          "text": "21"
+        },
+        {
+          "id": "d",
+          "text": "25"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Abdyas gen yon sèl chapit ak 21 vèsè. Li pwofetize jijman sou Edom ak retablisman pèp Bondye a.",
+      "bibleReference": "Abdyas 1:1-21",
+      "normalizedRef": "abdyas1.1-21",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-016_fr",
+    "data": {
+      "id": "dq-pmen-016",
+      "questionText": "Combien de versets compte le livre d'Abdias, le plus court de l'Ancien Testament ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "15"
+        },
+        {
+          "id": "c",
+          "text": "21"
+        },
+        {
+          "id": "d",
+          "text": "25"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Abdias ne compte qu'un seul chapitre et 21 versets. Il prophétise le jugement sur Édom et le rétablissement du peuple de Dieu.",
+      "bibleReference": "Abdias 1:1-21"
+    }
+  },
+  {
+    "docId": "dq-pmen-017_ht",
+    "data": {
+      "id": "dq-pmen-017",
+      "questionText": "Kilès nan ti pwofèt yo ki te pwofetize ke gouvènè Izrayèl la pral soti nan Betleyèm?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zakari"
+        },
+        {
+          "id": "b",
+          "text": "Oze"
+        },
+        {
+          "id": "c",
+          "text": "Miche"
+        },
+        {
+          "id": "d",
+          "text": "Age"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Men ou menm, Betleyèm Efrata... soti nan ou va moun ki pral gouvène Izrayèl\" (Miche 5:2). Prèt yo te site vèsè sa devan Ewòd (Matye 2:6).",
+      "bibleReference": "Miche 5:2",
+      "normalizedRef": "mic5.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-017_fr",
+    "data": {
+      "id": "dq-pmen-017",
+      "questionText": "Quel petit prophète a prophétisé que le dominateur d'Israël sortirait de Bethléem ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zacharie"
+        },
+        {
+          "id": "b",
+          "text": "Osée"
+        },
+        {
+          "id": "c",
+          "text": "Michée"
+        },
+        {
+          "id": "d",
+          "text": "Aggée"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Et toi, Bethléem Éphrata... de toi sortira pour moi celui qui dominera sur Israël » (Michée 5:2). Les prêtres citèrent ce verset devant Hérode (Matthieu 2:6).",
+      "bibleReference": "Michée 5:2"
+    }
+  },
+  {
+    "docId": "dq-pmen-018_ht",
+    "data": {
+      "id": "dq-pmen-018",
+      "questionText": "Sou ki nasyon Liv Abdyas la prensipalman pwofetize?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babilòn"
+        },
+        {
+          "id": "b",
+          "text": "Asiri"
+        },
+        {
+          "id": "c",
+          "text": "Edomit"
+        },
+        {
+          "id": "d",
+          "text": "Moab"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Abdyas pwofetize jijman Bondye sou Edomit yo (desandan Esayi) paske yo te kontan wè Jerizalèm tonbe epi yo te kolabore ak ènmi yo.",
+      "bibleReference": "Abdyas 1:10-14",
+      "normalizedRef": "abdyas1.10-14",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-018_fr",
+    "data": {
+      "id": "dq-pmen-018",
+      "questionText": "Sur quelle nation le livre d'Abdias prophétise-t-il principalement ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babylone"
+        },
+        {
+          "id": "b",
+          "text": "Assyrie"
+        },
+        {
+          "id": "c",
+          "text": "Édomites"
+        },
+        {
+          "id": "d",
+          "text": "Moab"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Abdias prophétise le jugement de Dieu sur les Édomites (descendants d'Ésaü) parce qu'ils se réjouirent de la chute de Jérusalem et collaborèrent avec ses ennemis.",
+      "bibleReference": "Abdias 1:10-14"
+    }
+  },
+  {
+    "docId": "dq-pmen-019_ht",
+    "data": {
+      "id": "dq-pmen-019",
+      "questionText": "Ki ti pwofèt ki fini liv li ak pwomès ke Eli va vini anvan \"gwo jou Seyè a\"?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zakari"
+        },
+        {
+          "id": "b",
+          "text": "Miche"
+        },
+        {
+          "id": "c",
+          "text": "Malachi"
+        },
+        {
+          "id": "d",
+          "text": "Joyèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Gade, mwen voye pwofèt Eli ban nou anvan jou Seyè a, gwo ak terib la\" (Malachi 4:5). NT idantifye sa ak Jan Batèm.",
+      "bibleReference": "Malachi 4:5",
+      "normalizedRef": "mal4.5",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-019_fr",
+    "data": {
+      "id": "dq-pmen-019",
+      "questionText": "Quel petit prophète termine son livre par la promesse qu'Élie viendra avant le « grand jour de l'Éternel » ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zacharie"
+        },
+        {
+          "id": "b",
+          "text": "Michée"
+        },
+        {
+          "id": "c",
+          "text": "Malachie"
+        },
+        {
+          "id": "d",
+          "text": "Joël"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Voici, je vous enverrai Élie, le prophète, avant que le jour de l'Éternel arrive, ce jour grand et redoutable » (Malachie 4:5). Le NT identifie cela à Jean-Baptiste.",
+      "bibleReference": "Malachie 4:5"
+    }
+  },
+  {
+    "docId": "dq-pmen-020_ht",
+    "data": {
+      "id": "dq-pmen-020",
+      "questionText": "Ki siy Bondye te ban Gideyon pou konfime li ta delivre Izrayèl?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon flanbo ki bwile nan lanwit"
+        },
+        {
+          "id": "b",
+          "text": "Yon lenn ki mouye lè tè a te sèk, epi sèk lè tè a te mouye"
+        },
+        {
+          "id": "c",
+          "text": "Yon zetwal ki tonbe sou lènmi yo"
+        },
+        {
+          "id": "d",
+          "text": "Yon zanj ki parèt devan li"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gideyon te mande Bondye de siy ak lenn (Jij 6:36-40) — lenn mouye lè tè sèk, epi lenn sèk lè tè mouye. Bondye te reponn tou de fwa.",
+      "bibleReference": "Jij 6:36-40",
+      "normalizedRef": "jud6.36-40",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-020_fr",
+    "data": {
+      "id": "dq-pmen-020",
+      "questionText": "Quel signe Dieu a-t-il donné à Gédéon pour confirmer qu'il délivrerait Israël ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un flambeau qui brûle dans la nuit"
+        },
+        {
+          "id": "b",
+          "text": "Une toison mouillée alors que la terre était sèche, puis sèche alors que la terre était mouillée"
+        },
+        {
+          "id": "c",
+          "text": "Une étoile qui tombe sur les ennemis"
+        },
+        {
+          "id": "d",
+          "text": "Un ange qui est apparu devant lui"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gédéon demanda à Dieu deux signes avec une toison (Juges 6:36-40) — la toison mouillée quand la terre est sèche, puis la toison sèche quand la terre est mouillée. Dieu répondit les deux fois.",
+      "bibleReference": "Juges 6:36-40",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pmen-021_ht",
+    "data": {
+      "id": "dq-pmen-021",
+      "questionText": "Ki pwofèt ki te rele \"Pwofèt dlo ak dife\" akòz anseyman li sou jijman ak restorasyion?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Joel"
+        },
+        {
+          "id": "b",
+          "text": "Amos"
+        },
+        {
+          "id": "c",
+          "text": "Michée"
+        },
+        {
+          "id": "d",
+          "text": "Abakuk"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Joel pale de dlo Lespri Sen an (Joel 2:28-29, site nan Travay 2:17) ak dife jijman (Joel 2:30-31). Li ekri sou Jou Seyè a avèk imaj dlo ak dife.",
+      "bibleReference": "Joel 2:28-32",
+      "normalizedRef": "joel2.28-32",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-021_fr",
+    "data": {
+      "id": "dq-pmen-021",
+      "questionText": "Quel prophète a été appelé « Prophète de l'eau et du feu » en raison de son enseignement sur le jugement et la restauration ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Joël"
+        },
+        {
+          "id": "b",
+          "text": "Amos"
+        },
+        {
+          "id": "c",
+          "text": "Michée"
+        },
+        {
+          "id": "d",
+          "text": "Habacuc"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Joël parle de l'eau du Saint-Esprit (Joël 2:28-29, cité dans Actes 2:17) et du feu du jugement (Joël 2:30-31). Il écrit sur le Jour de l'Éternel avec des images d'eau et de feu.",
+      "bibleReference": "Joël 2:28-32",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pmen-022_ht",
+    "data": {
+      "id": "dq-pmen-022",
+      "questionText": "Ki vi pwofèt ki montre yon senbòl maryaj — li te marye ak yon fanm pwostitye pou montre amou Bondye pou Izrayèl?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Michée"
+        },
+        {
+          "id": "c",
+          "text": "Ozè"
+        },
+        {
+          "id": "d",
+          "text": "Nawoum"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ozè te marye ak Gomer, yon fanm enfidèl — senbòl amou Bondye pou Izrayèl ki te abandone l pou idol yo. Amou fidèl Bondye (hesed) se tèm santral Ozè.",
+      "bibleReference": "Ozè 1:2-3",
+      "normalizedRef": "ozè1.2-3",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-022_fr",
+    "data": {
+      "id": "dq-pmen-022",
+      "questionText": "Quelle vie de prophète montre un symbole de mariage — il s'est marié avec une femme prostituée pour montrer l'amour de Dieu pour Israël ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Michée"
+        },
+        {
+          "id": "c",
+          "text": "Osée"
+        },
+        {
+          "id": "d",
+          "text": "Nahum"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Osée s'est marié avec Gomer, une femme infidèle — symbole de l'amour de Dieu para Israël qui l'avait abandonné para des idoles. L'amour fidèle de Dieu (hesed) est le thème central d'Osée.",
+      "bibleReference": "Osée 1:2-3",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pmen-023_ht",
+    "data": {
+      "id": "dq-pmen-023",
+      "questionText": "Ki pwofèt ki te di: \"Pitit timoun nou yo pral pwofetize, granmoun gason nou yo pral reve rèv...\"?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Joel"
+        },
+        {
+          "id": "c",
+          "text": "Michée"
+        },
+        {
+          "id": "d",
+          "text": "Sofoni"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joel 2:28-29 — pwofesi ki akompli nan jou Pantekovòt (Travay 2:16-18). Lespri Sen te vide sou tout kò a san diskriminasyon.",
+      "bibleReference": "Joel 2:28-29",
+      "normalizedRef": "joel2.28-29",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-023_fr",
+    "data": {
+      "id": "dq-pmen-023",
+      "questionText": "Quel prophète a dit : « Vos fils et vos filles prophétiseront, vos vieillards auront des songes... » ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Joël"
+        },
+        {
+          "id": "c",
+          "text": "Michée"
+        },
+        {
+          "id": "d",
+          "text": "Sophonie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joël 2:28-29 — prophétie qui s'est accomplie au jour de la Pentecôte (Actes 2:16-18). Le Saint-Esprit fut répandu sur toute chair sans discrimination.",
+      "bibleReference": "Joël 2:28-29",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pmen-024_ht",
+    "data": {
+      "id": "dq-pmen-024",
+      "questionText": "Ki pwofèt ki te ekri: \"Ki kote yon moun pral fè biswit nwit li yo, si Seyè a pa bati kay la\"?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Aggée"
+        },
+        {
+          "id": "c",
+          "text": "Zakari"
+        },
+        {
+          "id": "d",
+          "text": "Malachi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Agge (Aggée) te ankouraje pèp la rebati Tanp Bondye a aprè egzil — anseyan ke travay pou Seyè a dwe vin an premye (Agge 1:4-8).",
+      "bibleReference": "Agge 1:4-8",
+      "normalizedRef": "agge1.4-8",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-024_fr",
+    "data": {
+      "id": "dq-pmen-024",
+      "questionText": "Quel prophète a écrit sur l'importance de reconstruire la maison du Seigneur avant sa propre maison ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Aggée"
+        },
+        {
+          "id": "c",
+          "text": "Zacharie"
+        },
+        {
+          "id": "d",
+          "text": "Malachie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Aggée a encouragé le peuple à rebâtir le Temple de Dieu après l'exil — enseignant que le travail para le Seigneur doit venir en premier (Aggée 1:4-8).",
+      "bibleReference": "Aggée 1:4-8",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pmen-025_ht",
+    "data": {
+      "id": "dq-pmen-025",
+      "questionText": "Kilès nan pwofèt sa yo ki te moute nan syèl nan yon cha dife ak chwal dife?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Pwofèt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elize"
+        },
+        {
+          "id": "b",
+          "text": "Eli"
+        },
+        {
+          "id": "c",
+          "text": "Ezayi"
+        },
+        {
+          "id": "d",
+          "text": "Jeremi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Wa 2:11 — \"Pandan yo t’ap mache konsa... yon cha dife ak chwal dife vin nan mitan yo... Eli moute nan syèl la nan yon gwo van siklòn.\"",
+      "bibleReference": "2 Wa 2:11",
+      "normalizedRef": "2ki2.11",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-025_fr",
+    "data": {
+      "id": "dq-pmen-025",
+      "questionText": "Quel prophète monta au ciel dans un tourbillon par un char de feu et des chevaux de feu ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Élisée"
+        },
+        {
+          "id": "b",
+          "text": "Élie"
+        },
+        {
+          "id": "c",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "d",
+          "text": "Jérémie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Rois 2:11 — « Comme ils continuaient à marcher en parlant, voici, un char de feu et des chevaux de feu les séparèrent l'un de l'autre, et Élie monta au ciel dans un tourbillon. »",
+      "bibleReference": "2 Rois 2:11",
+      "normalizedRef": "2ki2.11",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-026_ht",
+    "data": {
+      "id": "dq-pmen-026",
+      "questionText": "Ki pwofèt ki te pase twa jou ak twa nwit nan vant yon gwo pwason?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Pwofèt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amòs"
+        },
+        {
+          "id": "b",
+          "text": "Mika"
+        },
+        {
+          "id": "c",
+          "text": "Jonas"
+        },
+        {
+          "id": "d",
+          "text": "Abakik"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jonas 1:17 — \"Seyè a fè yon gwo pwason vale Jonas. Jonas pase twa jou ak twa nwit nan vant pwason an.\"",
+      "bibleReference": "Jonas 1:17",
+      "normalizedRef": "jon1.17",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-026_fr",
+    "data": {
+      "id": "dq-pmen-026",
+      "questionText": "Quel prophète passa trois jours et trois nuits dans le ventre d'un grand poisson ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Michée"
+        },
+        {
+          "id": "c",
+          "text": "Jonas"
+        },
+        {
+          "id": "d",
+          "text": "Habacuc"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jonas 1:17 — « L'Éternel fit venir un grand poisson pour engloutir Jonas, et Jonas fut dans le ventre du poisson trois jours et trois nuits. »",
+      "bibleReference": "Jonas 1:17",
+      "normalizedRef": "jon1.17",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-027_ht",
+    "data": {
+      "id": "dq-pmen-027",
+      "questionText": "Ki pwofèt ki te wè yon vizyon sou yon fon ki te plen ak zosman sèch ki vin pran lavi ankò?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Pwofèt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi"
+        },
+        {
+          "id": "b",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "c",
+          "text": "Danyèl"
+        },
+        {
+          "id": "d",
+          "text": "Oze"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ezekyèl 37:1-10 — \"Li mennen m’ nan yon fon ki te plen zosman... mwen pwofetize jan li te ban m’ lòd la, souf la antre nan yo, yo vin vivan...\"",
+      "bibleReference": "Ezekyèl 37:1-10",
+      "normalizedRef": "eze37.1-10",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-027_fr",
+    "data": {
+      "id": "dq-pmen-027",
+      "questionText": "Quel prophète eut une vision d'une vallée remplie d'ossements desséchés qui reprirent vie ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "b",
+          "text": "Ézéchiel"
+        },
+        {
+          "id": "c",
+          "text": "Daniel"
+        },
+        {
+          "id": "d",
+          "text": "Osée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ézéchiel 37:1-10 — « L'Éternel me transporta dans une vallée pleine d'ossements... Je prophétisai, selon l'ordre qu'il m'avait donné. Et l'esprit entra en eux, et ils reprirent vie... »",
+      "bibleReference": "Ézéchiel 37:1-10",
+      "normalizedRef": "eze37.1-10",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-028_ht",
+    "data": {
+      "id": "dq-pmen-028",
+      "questionText": "Kilès nan pwofèt sa yo yo rele \"pwofèt ki t ap kriye a\" (the weeping prophet)?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Pwofèt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeremi"
+        },
+        {
+          "id": "b",
+          "text": "Ezayi"
+        },
+        {
+          "id": "c",
+          "text": "Malachi"
+        },
+        {
+          "id": "d",
+          "text": "Zekarya"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jeremi te ekri Liv Jeremi an ak Liv Lamantasyon yo, kote li te eksprime gwo tristès li pou destriksyon Jerizalèm.",
+      "bibleReference": "Jeremi 9:1",
+      "normalizedRef": "jer9.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-028_fr",
+    "data": {
+      "id": "dq-pmen-028",
+      "questionText": "Quel prophète est surnommé le « prophète qui pleurait » ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jérémie"
+        },
+        {
+          "id": "b",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "c",
+          "text": "Malachie"
+        },
+        {
+          "id": "d",
+          "text": "Zacharie"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jérémie a écrit le livre de Jérémie et le livre des Lamentations, où il exprime sa grande tristesse pour la destruction de Jérusalem.",
+      "bibleReference": "Jérémie 9:1",
+      "normalizedRef": "jer9.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-029_ht",
+    "data": {
+      "id": "dq-pmen-029",
+      "questionText": "Ki pwofèt ki te gen yon vizyon kote li te wè Seyè a chita sou yon fotèy byen wo, epi serafen t ap di: \"Sen, sen, sen\"?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Pwofèt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amòs"
+        },
+        {
+          "id": "b",
+          "text": "Ezayi"
+        },
+        {
+          "id": "c",
+          "text": "Oze"
+        },
+        {
+          "id": "d",
+          "text": "Joèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ezayi 6:1-3 — \"Mwen wè Seyè a chita sou yon fotèy ki te byen wo... Serafen yo t’ap rele yonn di lòt: Sen, sen, sen se Seyè a...\"",
+      "bibleReference": "Ezayi 6:1-3",
+      "normalizedRef": "isa6.1-3",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-029_fr",
+    "data": {
+      "id": "dq-pmen-029",
+      "questionText": "Quel prophète eut une vision du Seigneur assis sur un trône très élevé, avec des séraphins disant : « Saint, saint, saint » ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "c",
+          "text": "Osée"
+        },
+        {
+          "id": "d",
+          "text": "Joël"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ésaïe 6:1-3 — « Je vis le Seigneur assis sur un trône très élevé... Des séraphins se tenaient au-dessus de lui... Ils criaient l'un à l'autre, et disaient : Saint, saint, saint est l'Éternel... »",
+      "bibleReference": "Ésaïe 6:1-3",
+      "normalizedRef": "isa6.1-3",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-030_ht",
+    "data": {
+      "id": "dq-pmen-030",
+      "questionText": "Kilès nan pwofèt sa yo ki te entèprete rèv wa Nebikadneza sou gwo estati a?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Pwofèt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi"
+        },
+        {
+          "id": "b",
+          "text": "Jeremi"
+        },
+        {
+          "id": "c",
+          "text": "Danyèl"
+        },
+        {
+          "id": "d",
+          "text": "Ezekyèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Danyèl 2:19-45 — Bondye fè Danyèl konnen sekrè a, epi li esplike wa a rèv la ak sa l vle di.",
+      "bibleReference": "Danyèl 2",
+      "normalizedRef": "dan2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-030_fr",
+    "data": {
+      "id": "dq-pmen-030",
+      "questionText": "Quel prophète interpréta le rêve du roi Nebucadnetsar concernant la grande statue ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "b",
+          "text": "Jérémie"
+        },
+        {
+          "id": "c",
+          "text": "Daniel"
+        },
+        {
+          "id": "d",
+          "text": "Ézéchiel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Daniel 2:19-45 — Dieu révéla le secret à Daniel, et il expliqua au roi le rêve et sa signification.",
+      "bibleReference": "Daniel 2",
+      "normalizedRef": "dan2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-031_ht",
+    "data": {
+      "id": "dq-pmen-031",
+      "questionText": "Ki pwofèt ki te anonse Jezi t ap fèt nan vil Betleyèm?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Pwofèt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mika"
+        },
+        {
+          "id": "b",
+          "text": "Ezayi"
+        },
+        {
+          "id": "c",
+          "text": "Jeremi"
+        },
+        {
+          "id": "d",
+          "text": "Amòs"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mika 5:2 — \"Men ou menm, Betleyèm Efrata... se nan ou yonn k’ap dominen sou pèp Izrayèl la ap soti pou mwen.\"",
+      "bibleReference": "Mika 5:2",
+      "normalizedRef": "mika5.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-031_fr",
+    "data": {
+      "id": "dq-pmen-031",
+      "questionText": "Quel prophète annonça que Jésus naîtrait à Bethléem ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Michée"
+        },
+        {
+          "id": "b",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "c",
+          "text": "Jérémie"
+        },
+        {
+          "id": "d",
+          "text": "Amos"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Michée 5:2 — « Et toi, Bethléem Éphrata... de toi sortira pour moi celui qui dominera sur Israël. »",
+      "bibleReference": "Michée 5:2",
+      "normalizedRef": "mika5.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-032_ht",
+    "data": {
+      "id": "dq-pmen-032",
+      "questionText": "Ki pwofèt ki te fè konpetisyon kont pwofèt Baal yo sou mòn Kamèl?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Pwofèt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elize"
+        },
+        {
+          "id": "b",
+          "text": "Eli"
+        },
+        {
+          "id": "c",
+          "text": "Samuèl"
+        },
+        {
+          "id": "d",
+          "text": "Natan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Wa 18:20-40 — Eli te pwovoke 450 pwofèt Baal yo pou yo wè ki Bondye ki t’ap reponn ak dife.",
+      "bibleReference": "1 Wa 18",
+      "normalizedRef": "1ki18",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-032_fr",
+    "data": {
+      "id": "dq-pmen-032",
+      "questionText": "Quel prophète défia les prophètes de Baal sur le mont Carmel ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Élisée"
+        },
+        {
+          "id": "b",
+          "text": "Élie"
+        },
+        {
+          "id": "c",
+          "text": "Samuel"
+        },
+        {
+          "id": "d",
+          "text": "Nathan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Rois 18:20-40 — Élie défia les 450 prophètes de Baal pour voir quel Dieu répondrait par le feu.",
+      "bibleReference": "1 Rois 18",
+      "normalizedRef": "1ki18",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-033_ht",
+    "data": {
+      "id": "dq-pmen-033",
+      "questionText": "Nan ki vil yo te voye Jonas al preche?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babilòn"
+        },
+        {
+          "id": "b",
+          "text": "Sodòm"
+        },
+        {
+          "id": "c",
+          "text": "Niniv"
+        },
+        {
+          "id": "d",
+          "text": "Tir"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bondye te voye Jonas al preche nan Niniv, gwo kapital peyi Lasiri a (Jonas 1:2).",
+      "bibleReference": "Jonas 1:2",
+      "normalizedRef": "jon1.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-033_fr",
+    "data": {
+      "id": "dq-pmen-033",
+      "questionText": "Dans quelle ville Jonas fut-il envoyé prêcher ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babylone"
+        },
+        {
+          "id": "b",
+          "text": "Sodome"
+        },
+        {
+          "id": "c",
+          "text": "Ninive"
+        },
+        {
+          "id": "d",
+          "text": "Tyr"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu envoya Jonas prêcher à Ninive, grande capitale de l'Assyrie (Jonas 1:2).",
+      "bibleReference": "Jonas 1:2",
+      "normalizedRef": "jon1.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-034_ht",
+    "data": {
+      "id": "dq-pmen-034",
+      "questionText": "Ki travay Amòs te konn fè anvan li te vin pwofèt?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pèchè pwason"
+        },
+        {
+          "id": "b",
+          "text": "Charpantye"
+        },
+        {
+          "id": "c",
+          "text": "Gadò mouton e kiltivatè sikomò"
+        },
+        {
+          "id": "d",
+          "text": "Prèt"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Amòs te di : « Mwen te gadò mouton e mwen t'ap travay pye sikomò » (Amòs 7:14).",
+      "bibleReference": "Amos 7:14",
+      "normalizedRef": "amo7.14",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-034_fr",
+    "data": {
+      "id": "dq-pmen-034",
+      "questionText": "Quel était le métier d'Amos avant d'être prophète ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pêcheur"
+        },
+        {
+          "id": "b",
+          "text": "Charpentier"
+        },
+        {
+          "id": "c",
+          "text": "Berger et cultivateur de sycomores"
+        },
+        {
+          "id": "d",
+          "text": "Prêtre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Amos déclare : « J'étais berger et cultivateur de sycomores » (Amos 7:14).",
+      "bibleReference": "Amos 7:14",
+      "normalizedRef": "amo7.14",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-035_ht",
+    "data": {
+      "id": "dq-pmen-035",
+      "questionText": "Ki dènye liv nan Ansyen Testaman an?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zakari"
+        },
+        {
+          "id": "b",
+          "text": "Joèl"
+        },
+        {
+          "id": "c",
+          "text": "Malachi"
+        },
+        {
+          "id": "d",
+          "text": "Abdyas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Malachi se dènye nan douz ti pwofèt yo e se dènye liv nan Ansyen Testaman an.",
+      "bibleReference": "Malachie 1:1",
+      "normalizedRef": "mal1.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-035_fr",
+    "data": {
+      "id": "dq-pmen-035",
+      "questionText": "Quel est le dernier livre de l'Ancien Testament ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zacharie"
+        },
+        {
+          "id": "b",
+          "text": "Joël"
+        },
+        {
+          "id": "c",
+          "text": "Malachie"
+        },
+        {
+          "id": "d",
+          "text": "Abdias"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Malachie est le dernier des douze petits prophètes et le dernier livre de l'AT canonique.",
+      "bibleReference": "Malachie 1:1",
+      "normalizedRef": "mal1.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-036_ht",
+    "data": {
+      "id": "dq-pmen-036",
+      "questionText": "Nan ki liv nou jwenn pwofesi sa a: « Nan ou menm, Betleyèm... pral soti moun ki pral chèf nan Izrayèl la »?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amòs 5"
+        },
+        {
+          "id": "b",
+          "text": "Miche 5"
+        },
+        {
+          "id": "c",
+          "text": "Zakari 9"
+        },
+        {
+          "id": "d",
+          "text": "Malachi 3"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Miche 5:1 pwofetize nesans Mesi a nan Betleyèm, lavil David la.",
+      "bibleReference": "Michée 5:1",
+      "normalizedRef": "mic5.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-036_fr",
+    "data": {
+      "id": "dq-pmen-036",
+      "questionText": "Dans quel livre trouve-t-on la prophétie « De toi, Bethléhem... sortira celui qui dominera sur Israël » ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos 5"
+        },
+        {
+          "id": "b",
+          "text": "Michée 5"
+        },
+        {
+          "id": "c",
+          "text": "Zacharie 9"
+        },
+        {
+          "id": "d",
+          "text": "Malachie 3"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Michée 5:1 prophétise la naissance du Messie à Bethléhem, cité de David.",
+      "bibleReference": "Michée 5:1",
+      "normalizedRef": "mic5.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-037_ht",
+    "data": {
+      "id": "dq-pmen-037",
+      "questionText": "Ki vil Nawoum te pwofetize ki pral detwi?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babilòn"
+        },
+        {
+          "id": "b",
+          "text": "Samari"
+        },
+        {
+          "id": "c",
+          "text": "Niniv"
+        },
+        {
+          "id": "d",
+          "text": "Damas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nawoum anonse destriksyon total Niniv, kapital peyi Lasiri a (Nawoum 1:1).",
+      "bibleReference": "Nahoum 1:1",
+      "normalizedRef": "nahoum1.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-037_fr",
+    "data": {
+      "id": "dq-pmen-037",
+      "questionText": "Quelle ville Nahoum prophétise-t-il comme devant être détruite ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babylone"
+        },
+        {
+          "id": "b",
+          "text": "Samarie"
+        },
+        {
+          "id": "c",
+          "text": "Ninive"
+        },
+        {
+          "id": "d",
+          "text": "Damas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nahoum annonce la ruine totale de Ninive, la capitale assyrienne (Nahoum 1:1).",
+      "bibleReference": "Nahoum 1:1",
+      "normalizedRef": "nahoum1.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-038_ht",
+    "data": {
+      "id": "dq-pmen-038",
+      "questionText": "Ki pwofèt ki te voye yon mesaj pou rebati Tanp lan apre retou soti Babilòn?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sofoni"
+        },
+        {
+          "id": "b",
+          "text": "Abdyas"
+        },
+        {
+          "id": "c",
+          "text": "Aje"
+        },
+        {
+          "id": "d",
+          "text": "Joèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Aje te ankouraje Zorobabèl ak pèp la pou yo rekòmanse bati Tanp lan (Aje 1:2-8).",
+      "bibleReference": "Aggée 1:8",
+      "normalizedRef": "hag1.8",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-038_fr",
+    "data": {
+      "id": "dq-pmen-038",
+      "questionText": "Quel prophète envoya un message de reconstruction du Temple après le retour de Babylone ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sophonie"
+        },
+        {
+          "id": "b",
+          "text": "Abdias"
+        },
+        {
+          "id": "c",
+          "text": "Aggée"
+        },
+        {
+          "id": "d",
+          "text": "Joël"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Aggée exhorta Zorobabel et le peuple à reprendre la construction du Temple (Aggée 1:2-8).",
+      "bibleReference": "Aggée 1:8",
+      "normalizedRef": "hag1.8",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-039_ht",
+    "data": {
+      "id": "dq-pmen-039",
+      "questionText": "Konbe vizyon lannwit Zakari te resevwa nan premye chapit liv li a?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Zakari te resevwa 8 vizyon lannwit (Zakari 1-6) konsènan Jerizalèm ak lavni mesyanik li.",
+      "bibleReference": "Zacharie 1:7",
+      "normalizedRef": "zec1.7",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-039_fr",
+    "data": {
+      "id": "dq-pmen-039",
+      "questionText": "Combien de visions nocturnes Zacharie reçut-il dans les premiers chapitres de son livre ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Zacharie reçut 8 visions nocturnes (Zacharie 1-6) concernant Jérusalem et son avenir messianique.",
+      "bibleReference": "Zacharie 1:7",
+      "normalizedRef": "zec1.7",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-040_ht",
+    "data": {
+      "id": "dq-pmen-040",
+      "questionText": "Kont ki nasyon liv Abdyas la pwononse yon jijman total?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moab"
+        },
+        {
+          "id": "b",
+          "text": "Edòm"
+        },
+        {
+          "id": "c",
+          "text": "Amon"
+        },
+        {
+          "id": "d",
+          "text": "Filisti"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Abdyas kondane Edòm (desandan Ezayi yo) pou jan yo te ògeye e jan yo te trayi Izrayèl (Abdyas 1:3).",
+      "bibleReference": "Abdias 1:3",
+      "normalizedRef": "oba1.3",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-040_fr",
+    "data": {
+      "id": "dq-pmen-040",
+      "questionText": "Contre quelle nation le livre d'Abdias prononce-t-il un jugement total ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moab"
+        },
+        {
+          "id": "b",
+          "text": "Édom"
+        },
+        {
+          "id": "c",
+          "text": "Ammon"
+        },
+        {
+          "id": "d",
+          "text": "Philistie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Abdias condamne Édom (descendants d'Ésaü) pour son arrogance et sa trahison d'Israël (Abdias 1:3).",
+      "bibleReference": "Abdias 1:3",
+      "normalizedRef": "oba1.3",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-041_ht",
+    "data": {
+      "id": "dq-pmen-041",
+      "questionText": "Nan Joèl 2, ki gwo pwomès Bondye te fè pou dènye jou yo konsènan Lespri l?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li pral vide Lespri l sou tout moun"
+        },
+        {
+          "id": "b",
+          "text": "Li pral bay granmoun yo sajès"
+        },
+        {
+          "id": "c",
+          "text": "Li pral voye pwofèt nan Izrayèl"
+        },
+        {
+          "id": "d",
+          "text": "Li pral plen Tanp lan ak glwa li"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "« M'ap vide Lespri mwen sou tout moun » (Joèl 2:28) — sa te akonpli nan jou Pannkot la dapre Travay 2:17.",
+      "bibleReference": "Joël 2:28"
+    }
+  },
+  {
+    "docId": "dq-pmen-041_fr",
+    "data": {
+      "id": "dq-pmen-041",
+      "questionText": "Dans Joël 2, quelle grande promesse Dieu fait-il pour les derniers jours concernant son Esprit ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Répandre son Esprit sur toute chair"
+        },
+        {
+          "id": "b",
+          "text": "Donner la sagesse aux anciens"
+        },
+        {
+          "id": "c",
+          "text": "Envoyer des prophètes en Israël"
+        },
+        {
+          "id": "d",
+          "text": "Remplir le Temple de sa gloire"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "« Je répandrai mon Esprit sur toute chair » (Joël 2:28) — accompli à la Pentecôte selon Actes 2:17.",
+      "bibleReference": "Joël 2:28",
+      "normalizedRef": "joe2.28",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmen-042_ht",
+    "data": {
+      "id": "dq-pmen-042",
+      "questionText": "Zakarie 9:9 pwofetize wa a pral vini nan Jerizalèm sou kisa li monte?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon chwal blan"
+        },
+        {
+          "id": "b",
+          "text": "Yon chamo"
+        },
+        {
+          "id": "c",
+          "text": "Yon ti bourik"
+        },
+        {
+          "id": "d",
+          "text": "Yon cha dife"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Li gen imilite, li moute sou yon bourik, sou yon jenn ti bourik » — sa te akonpli lè Jezi t'ap antre nan Jerizalèm (Matye 21:5).",
+      "bibleReference": "Zacharie 9:9"
+    }
+  },
+  {
+    "docId": "dq-pmen-042_fr",
+    "data": {
+      "id": "dq-pmen-042",
+      "questionText": "Zacharie 9:9 prophétise que le roi viendra à Jérusalem monté sur quoi ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un cheval blanc"
+        },
+        {
+          "id": "b",
+          "text": "Un chameau"
+        },
+        {
+          "id": "c",
+          "text": "Un ânon"
+        },
+        {
+          "id": "d",
+          "text": "Un char de feu"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Il est humble et monté sur un âne, sur un ânon » — accompli lors de l'entrée triomphale de Jésus (Matthieu 21:5).",
+      "bibleReference": "Zacharie 9:9",
+      "normalizedRef": "zec9.9",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-014_ht",
+    "data": {
+      "id": "dq-pmin-014",
+      "questionText": "Ki pwofèt ki te kouri pou misyon Bondye te ba li pou l ale Niniv la?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Naoum"
+        },
+        {
+          "id": "b",
+          "text": "Jonas"
+        },
+        {
+          "id": "c",
+          "text": "Amòs"
+        },
+        {
+          "id": "d",
+          "text": "Miche"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jonas te eseye sove nan direksyon Tarsis pou l pa t ale Niniv jan Seyè a te mande l la (Jonas 1:1-3).",
+      "bibleReference": "Jonas 1:1-3",
+      "normalizedRef": "jon1.1-3",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-014_fr",
+    "data": {
+      "id": "dq-pmin-014",
+      "questionText": "Quel petit prophète a été avalé par un grand poisson après avoir fui la mission de Dieu ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Osée"
+        },
+        {
+          "id": "b",
+          "text": "Jonas"
+        },
+        {
+          "id": "c",
+          "text": "Amos"
+        },
+        {
+          "id": "d",
+          "text": "Michée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Éternel fit venir un grand poisson pour engloutir Jonas, et Jonas fut dans le ventre du poisson trois jours et trois nuits (Jonas 1:17).",
+      "bibleReference": "Jonas 1:17",
+      "normalizedRef": "jon1.17",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-015_ht",
+    "data": {
+      "id": "dq-pmin-015",
+      "questionText": "Ki pwofèt ki te oblije marye ak yon fanm ki te yon jennès kòm senbòl enfidelite Izrayèl?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oze"
+        },
+        {
+          "id": "b",
+          "text": "Joèl"
+        },
+        {
+          "id": "c",
+          "text": "Amòs"
+        },
+        {
+          "id": "d",
+          "text": "Abdyas"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Seyè a te di Oze: « Ale non, marye ak yon jennès... paske peyi a ap fè adiltè lè l' vire do bay Seyè a » (Oze 1:2).",
+      "bibleReference": "Oze 1:2",
+      "normalizedRef": "hos1.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-015_fr",
+    "data": {
+      "id": "dq-pmin-015",
+      "questionText": "Quelle ville Jonas devait-il avertir de la part de Dieu ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babylone"
+        },
+        {
+          "id": "b",
+          "text": "Ninive"
+        },
+        {
+          "id": "c",
+          "text": "Tarse"
+        },
+        {
+          "id": "d",
+          "text": "Tyr"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lève-toi, va à Ninive, la grande ville, et crie contre elle ! (Jonas 1:2).",
+      "bibleReference": "Jonas 1:2",
+      "normalizedRef": "jon1.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-016_ht",
+    "data": {
+      "id": "dq-pmin-016",
+      "questionText": "Ki pwofèt ki te anonse kote Mesi a t'ap fèt la (Betleyèm)?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi"
+        },
+        {
+          "id": "b",
+          "text": "Miche"
+        },
+        {
+          "id": "c",
+          "text": "Malachi"
+        },
+        {
+          "id": "d",
+          "text": "Zakari"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Men ou menm, lavil Betleyèm Efrata... se nan ou m'ap fè soti yon chèf pou pèp Izrayèl la » (Miche 5:2).",
+      "bibleReference": "Miche 5:2",
+      "normalizedRef": "mic5.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-016_fr",
+    "data": {
+      "id": "dq-pmin-016",
+      "questionText": "Quel prophète a comparé sa relation avec sa femme infidèle à la relation de Dieu avec Israël ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Joël"
+        },
+        {
+          "id": "b",
+          "text": "Amos"
+        },
+        {
+          "id": "c",
+          "text": "Osée"
+        },
+        {
+          "id": "d",
+          "text": "Malachie"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'Éternel dit à Osée : Va, prends une femme prostituée... car le pays se prostitue (Osée 1:2).",
+      "bibleReference": "Osée 1:2",
+      "normalizedRef": "hos1.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-017_ht",
+    "data": {
+      "id": "dq-pmin-017",
+      "questionText": "Ki pwofèt ki te pwofetize sou « jou Seyè a » ak move tan vèmin yo (sotmèl)?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Joèl"
+        },
+        {
+          "id": "b",
+          "text": "Amòs"
+        },
+        {
+          "id": "c",
+          "text": "Abdyas"
+        },
+        {
+          "id": "d",
+          "text": "Sofoni"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Joèl te dekri yon envazyon sotmèl kòm yon avètisman sou Jou Seyè a k'ap pwoche a (Joèl 1-2).",
+      "bibleReference": "Joèl 1-2",
+      "normalizedRef": "joe1-2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-017_fr",
+    "data": {
+      "id": "dq-pmin-017",
+      "questionText": "Dans quel livre prophétique est-il écrit : 'Ils forgeront de leurs épées des hoyaux, et de leurs lances des serpes' ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jonas"
+        },
+        {
+          "id": "b",
+          "text": "Michée"
+        },
+        {
+          "id": "c",
+          "text": "Aggée"
+        },
+        {
+          "id": "d",
+          "text": "Abdias"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "C'est une prophétie de paix universelle que l'on trouve aussi bien dans Michée 4:3 que dans Ésaïe 2:4.",
+      "bibleReference": "Michée 4:3",
+      "normalizedRef": "mic4.3",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-018_ht",
+    "data": {
+      "id": "dq-pmin-018",
+      "questionText": "Ki pwofèt ki te yon gadò mouton ak yon kiltivatè pye fig frans anvan Bondye te rele l?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Miche"
+        },
+        {
+          "id": "b",
+          "text": "Amòs"
+        },
+        {
+          "id": "c",
+          "text": "Naoum"
+        },
+        {
+          "id": "d",
+          "text": "Abakik"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Amòs te reponn: « Mwen pa pwofèt... Mwen se yon gadò mouton ak yon kiltivatè pye fig frans » (Amòs 7:14).",
+      "bibleReference": "Amòs 7:14",
+      "normalizedRef": "amo7.14",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-018_fr",
+    "data": {
+      "id": "dq-pmin-018",
+      "questionText": "Quel prophète a parlé de l'effusion du Saint-Esprit sur toute chair, citée par Pierre le jour de la Pentecôte ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Joël"
+        },
+        {
+          "id": "c",
+          "text": "Sophonie"
+        },
+        {
+          "id": "d",
+          "text": "Habacuc"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Après cela, je répandrai mon esprit sur toute chair ; vos fils et vos filles prophétiseront (Joël 2:28).",
+      "bibleReference": "Joël 2:28",
+      "normalizedRef": "joe2.28",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-019_ht",
+    "data": {
+      "id": "dq-pmin-019",
+      "questionText": "Ki dènye liv nan Ansyen Testaman an ki fini ak yon pwomès sou pwofèt Eli?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zakari"
+        },
+        {
+          "id": "b",
+          "text": "Malachi"
+        },
+        {
+          "id": "c",
+          "text": "Ajè"
+        },
+        {
+          "id": "d",
+          "text": "Miche"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Malachi te anonse: « M'ap voye pwofèt Eli ban nou anvan gwo jou Seyè a rive » (Malachi 4:5).",
+      "bibleReference": "Malachi 4:5",
+      "normalizedRef": "mal4.5",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-019_fr",
+    "data": {
+      "id": "dq-pmin-019",
+      "questionText": "Quel est le dernier livre de l'Ancien Testaman ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zacharie"
+        },
+        {
+          "id": "b",
+          "text": "Aggée"
+        },
+        {
+          "id": "c",
+          "text": "Malachie"
+        },
+        {
+          "id": "d",
+          "text": "Nahum"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Malachie est le dernier des douze petits prophètes et le dernier livre de l'Ancien Testaman.",
+      "bibleReference": "Malachie 1-4",
+      "normalizedRef": "mal1-4",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-020_ht",
+    "data": {
+      "id": "dq-pmin-020",
+      "questionText": "Ki pwofèt ki te poze Bondye kesyon sou jistis li lè l te kite move moun yo te pi fò pase moun ki jis yo?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abakik"
+        },
+        {
+          "id": "b",
+          "text": "Sofoni"
+        },
+        {
+          "id": "c",
+          "text": "Naoum"
+        },
+        {
+          "id": "d",
+          "text": "Miche"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Abakik te plenyen devan Bondye paske li te wè mechan yo ap vale moun ki pi jis pase yo (Abakik 1-2).",
+      "bibleReference": "Abakik 1-2",
+      "normalizedRef": "hab1-2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-020_fr",
+    "data": {
+      "id": "dq-pmin-020",
+      "questionText": "Quel prophète était un simple berger de Tekoa avant d'être appelé par Dieu ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Abdias"
+        },
+        {
+          "id": "c",
+          "text": "Sophonie"
+        },
+        {
+          "id": "d",
+          "text": "Aggée"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Amos répondit : Je n'étais ni prophète, ni fils de prophète ; j'étais berger, et je cultivais des sycomores (Amos 7:14).",
+      "bibleReference": "Amos 1:1 ; 7:14",
+      "normalizedRef": "amo1.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-021_ht",
+    "data": {
+      "id": "dq-pmin-021",
+      "questionText": "Ki pwofèt ki te anonse Mesi a t'ap antre Jerizalèm sou yon bourik?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi"
+        },
+        {
+          "id": "b",
+          "text": "Zakari"
+        },
+        {
+          "id": "c",
+          "text": "Miche"
+        },
+        {
+          "id": "d",
+          "text": "Sofoni"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Fete sa byen, nou menm moun lavil Jerizalèm... Men wa nou an ap vini... li moute yon bourik » (Zakari 9:9).",
+      "bibleReference": "Zakari 9:9",
+      "normalizedRef": "zec9.9",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-021_fr",
+    "data": {
+      "id": "dq-pmin-021",
+      "questionText": "Quel prophète a annoncé que le Messie naîtrait à Bethléem ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zacharie"
+        },
+        {
+          "id": "b",
+          "text": "Michée"
+        },
+        {
+          "id": "c",
+          "text": "Sophonie"
+        },
+        {
+          "id": "d",
+          "text": "Nahum"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Et toi, Bethléem Éphrata... de toi sortira pour moi celui qui dominera sur Israël (Michée 5:2).",
+      "bibleReference": "Michée 5:2",
+      "normalizedRef": "mic5.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-022_ht",
+    "data": {
+      "id": "dq-pmin-022",
+      "questionText": "Ki pwofèt ki te anonse destriksyon lavil Niniv la nèt (apre Jonas)?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Naoum"
+        },
+        {
+          "id": "b",
+          "text": "Abakik"
+        },
+        {
+          "id": "c",
+          "text": "Sofoni"
+        },
+        {
+          "id": "d",
+          "text": "Miche"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Liv Naoum nan se yon deklarasyon jijman kont Niniv, kapital Lasiri a (Naoum 1-3).",
+      "bibleReference": "Naoum 1-3",
+      "normalizedRef": "nah1-3",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-022_fr",
+    "data": {
+      "id": "dq-pmin-022",
+      "questionText": "Quel prophète a annoncé la destruction totale de Ninive (après Jonas) ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nahum"
+        },
+        {
+          "id": "b",
+          "text": "Habacuc"
+        },
+        {
+          "id": "c",
+          "text": "Sophonie"
+        },
+        {
+          "id": "d",
+          "text": "Michée"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Le livre de Nahum est une proclamation de jugement contre Ninive, capitale de l'Assyrie (Nahum 1-3).",
+      "bibleReference": "Nahum 1-3",
+      "normalizedRef": "nah1-3",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-023_ht",
+    "data": {
+      "id": "dq-pmin-023",
+      "questionText": "Ki pwofèt ki te ankouraje pèp la rebati tanp lan apre yo te fin tounen sot nan depòtasyon?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ajè"
+        },
+        {
+          "id": "b",
+          "text": "Miche"
+        },
+        {
+          "id": "c",
+          "text": "Jonas"
+        },
+        {
+          "id": "d",
+          "text": "Oze"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ajè te ankouraje Gouvènè Zorobabèl ak Prèt Jozye pou yo rebati tanp lan (Ajè 1).",
+      "bibleReference": "Ajè 1",
+      "normalizedRef": "hag1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-023_fr",
+    "data": {
+      "id": "dq-pmin-023",
+      "questionText": "Quel prophète a encouragé le peuple à rebâtir le temple après le retour de l'exil ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aggée"
+        },
+        {
+          "id": "b",
+          "text": "Michée"
+        },
+        {
+          "id": "c",
+          "text": "Jonas"
+        },
+        {
+          "id": "d",
+          "text": "Osée"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Aggée a encouragé le gouverneur Zorobabel et le sacrificateur Josué à reconstruire le temple (Aggée 1).",
+      "bibleReference": "Aggée 1",
+      "normalizedRef": "hag1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-024_ht",
+    "data": {
+      "id": "dq-pmin-024",
+      "questionText": "Ki liv ki pi kout nan Ansyen Testaman an e ki pale de jijman kont Edòm?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sofoni"
+        },
+        {
+          "id": "b",
+          "text": "Abdyas"
+        },
+        {
+          "id": "c",
+          "text": "Miche"
+        },
+        {
+          "id": "d",
+          "text": "Joèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Abdyas se liv ki pi kout nan Ansyen Testaman an, li gen 21 vèsè sèlman, li anonse jijman kont Edòm (Abdyas 1).",
+      "bibleReference": "Abdyas 1",
+      "normalizedRef": "oba1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-024_fr",
+    "data": {
+      "id": "dq-pmin-024",
+      "questionText": "Quel est le livre le plus court de l'Ancien Testaman, traitant du jugement d'Édom ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sophonie"
+        },
+        {
+          "id": "b",
+          "text": "Abdias"
+        },
+        {
+          "id": "c",
+          "text": "Michée"
+        },
+        {
+          "id": "d",
+          "text": "Joël"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Abdias est le livre le plus court de l'Ancien Testaman, avec seulement 21 versets, annonçant le jugement sur Édom (Abdias 1).",
+      "bibleReference": "Abdias 1",
+      "normalizedRef": "oba1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-025_ht",
+    "data": {
+      "id": "dq-pmin-025",
+      "questionText": "Ki jan yo rele pwofèt ki te di: « Moun ki jis la va viv akòz fidelite li »?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abakik"
+        },
+        {
+          "id": "b",
+          "text": "Sofoni"
+        },
+        {
+          "id": "c",
+          "text": "Malachi"
+        },
+        {
+          "id": "d",
+          "text": "Oze"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "« Men, moun ki jis la va viv akòz fidelite li (oswa lafwa li) » (Abakik 2:4).",
+      "bibleReference": "Abakik 2:4",
+      "normalizedRef": "hab2.4",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pmin-025_fr",
+    "data": {
+      "id": "dq-pmin-025",
+      "questionText": "Quel est le nom du prophète qui a dit : 'Le juste vivra par sa foi' ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Habacuc"
+        },
+        {
+          "id": "b",
+          "text": "Sophonie"
+        },
+        {
+          "id": "c",
+          "text": "Malachie"
+        },
+        {
+          "id": "d",
+          "text": "Osée"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mais le juste vivra par sa foi (ou sa fidélité) (Habacuc 2:4).",
+      "bibleReference": "Habacuc 2:4",
+      "normalizedRef": "hab2.4",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "docId": "dq-pnt-001_ht",
+    "data": {
+      "id": "dq-pnt-001",
+      "questionText": "Ki apòt ki te rele \"bèt wòch\" (Pyè)?",
+      "categoryId": "personajes-nt",
+      "categoryName": "Pèsonaj NT",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jan"
+        },
+        {
+          "id": "b",
+          "text": "Andre"
+        },
+        {
+          "id": "c",
+          "text": "Pyè"
+        },
+        {
+          "id": "d",
+          "text": "Filip"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jezi te di Siman: \"Ou se Siman pitit Jona; ou pral rele Kefas (ki tradui Pyè, wòch)\" (Jan 1:42).",
+      "bibleReference": "Jan 1:42",
+      "normalizedRef": "joh1.42",
+      "normalizedCat": "personajes-nt"
+    }
+  },
+  {
+    "docId": "dq-pnt-001_fr",
+    "data": {
+      "id": "dq-pnt-001",
+      "questionText": "Quel apôtre a été appelé « la pierre » (Pierre) ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jean"
+        },
+        {
+          "id": "b",
+          "text": "André"
+        },
+        {
+          "id": "c",
+          "text": "Pierre"
+        },
+        {
+          "id": "d",
+          "text": "Philippe"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jésus dit à Simon : « Tu es Simon, fils de Jonas ; tu seras appelé Céphas (ce qui signifie Pierre, pierre) » (Jean 1:42).",
+      "bibleReference": "Jean 1:42",
+      "language": "fr"
+    }
+  }
+]

@@ -1,0 +1,262 @@
+﻿
+> ai-studio-applet@0.1.0 lint
+> eslint .
+
+node.exe : [BABEL] Note: The code generator has deoptimised the styling of C:\Users\junio\Desktop\200\Juego\Trivial 
+App\.firebase\trivial-app-bcrown\functions\.next\server\app\api\seed-tournament\route.js as it exceeds the max of 
+500KB.
+En línea: 1 Carácter: 1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([BABEL] Note: T...e max of 500KB.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[BABEL] Note: The code generator has deoptimised the styling of C:\Users\junio\Desktop\200\Juego\Trivial 
+App\.firebase\trivial-app-bcrown\functions\.next\server\app\icon.png\route.js as it exceeds the max of 500KB.
+[BABEL] Note: The code generator has deoptimised the styling of C:\Users\junio\Desktop\200\Juego\Trivial 
+App\.firebase\trivial-app-bcrown\functions\.next\server\chunks\6290.js as it exceeds the max of 500KB.
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\arena\crown-arena\[id]\play\page.tsx
+  133:13  error  Error: Cannot access variable before it is declared
+
+`handleTimeout` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\arena\crown-arena\[id]\play\page.tsx:133:13
+  131 |           if (activePowerUps.includes('freezeTime')) return prev;
+  132 |           if (prev <= 1) {
+> 133 |             handleTimeout();
+      |             ^^^^^^^^^^^^^ `handleTimeout` accessed before it is declared
+  134 |             return 0;
+  135 |           }
+  136 |           return prev - 1;
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\arena\crown-arena\[id]\play\page.tsx:143:3
+  141 |   }, [phase, currentIdx, selectedOption, activePowerUps]);
+  142 |
+> 143 |   const handleTimeout = () => {
+      |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 144 |     if (selectedOption) return;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 145 |     submitAnswer(null);
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 146 |   };
+      | ^^^^^ `handleTimeout` is declared here
+  147 |
+  148 |   const submitAnswer = (optionId: string | null) => {
+  149 |     if (selectedOption !== null || !user || !room) return;  react-hooks/immutability
+  156:26  error  Error: Cannot call impure function during render
+
+`Date.now` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\arena\crown-arena\[id]\play\page.tsx:156:26
+  154 |
+  155 |     const isRight = optionId === q.correctOptionId;
+> 156 |     const responseTime = Date.now() - startTime;
+      |                          ^^^^^^^^^^ Cannot call impure function
+  157 |     
+  158 |     // Points calculation
+  159 |     let points = 0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            react-hooks/purity
+  176:22  error  Error: Cannot call impure function during render
+
+`Date.now` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\arena\crown-arena\[id]\play\page.tsx:176:22
+  174 |         // Restart timer logic is handled by the useEffect watching phase/currentIdx/selectedOption
+  175 |         // but we need to reset the start time to not penalize points too much if we want
+> 176 |         setStartTime(Date.now());
+      |                      ^^^^^^^^^^ Cannot call impure function
+  177 |         return;
+  178 |       }
+  179 |       setStreak(0);                                                                                                                                                                                                                                                                                                                                                                                                            react-hooks/purity
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\arena\duels\[duelId]\play\page.tsx
+  103:5  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\arena\tournaments\[tournamentId]\round\[roundId]\play\page.tsx
+   97:9   error  Error: Cannot access variable before it is declared
+
+`handleAnswerSubmit` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\arena\tournaments\[tournamentId]\round\[roundId]\play\page.tsx:97:9
+   95 |       } else {
+   96 |         // Time ran out -> submit -1 or empty
+>  97 |         handleAnswerSubmit(-1);
+      |         ^^^^^^^^^^^^^^^^^^ `handleAnswerSubmit` accessed before it is declared
+   98 |       }
+   99 |     }
+  100 |   }, [gameState, timeLeft]);
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\arena\tournaments\[tournamentId]\round\[roundId]\play\page.tsx:102:3
+  100 |   }, [gameState, timeLeft]);
+  101 |
+> 102 |   const handleAnswerSubmit = async (selectedOptionIndex: number) => {
+      |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 103 |     if (gameState !== 'playing') return;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 104 |     
+      ÔÇª
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 139 |     }
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 140 |   };
+      | ^^^^^ `handleAnswerSubmit` is declared here
+  141 |
+  142 |   const finishRound = async () => {
+  143 |     try {  react-hooks/immutability
+  109:25  error  Error: Cannot call impure function during render
+
+`Date.now` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\arena\tournaments\[tournamentId]\round\[roundId]\play\page.tsx:109:25
+  107 |     
+  108 |     setGameState('processing_answer');
+> 109 |     const timeSpentMs = Date.now() - questionStartTimeRef.current;
+      |                         ^^^^^^^^^^ Cannot call impure function
+  110 |     
+  111 |     try {
+  112 |       const q = questions[currentQIndex];                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                react-hooks/purity
+  128:40  error  Error: Cannot call impure function during render
+
+`Date.now` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\arena\tournaments\[tournamentId]\round\[roundId]\play\page.tsx:128:40
+  126 |         setCurrentQIndex(val => val + 1);
+  127 |         setGameState('playing');
+> 128 |         questionStartTimeRef.current = Date.now();
+      |                                        ^^^^^^^^^^ Cannot call impure function
+  129 |         setTimeLeft(15);
+  130 |       } else {
+  131 |         setGameState('round_finished');                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           react-hooks/purity
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\daily-challenge\page.tsx
+  64:3  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\daily-challenge\play\page.tsx
+  136:5  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+  223:5  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\jwe-bib-la\play\page.tsx
+   66:43  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\jwe-bib-la\play\page.tsx:66:43
+  64 |   // Pick a random verse for loss screen
+  65 |   const randomVerse = useMemo(() => {
+> 66 |     return PERSEVERANCE_VERSES[Math.floor(Math.random() * PERSEVERANCE_VERSES.length)];
+     |                                           ^^^^^^^^^^^^^ Cannot call impure function
+  67 |   }, [isGameOver, isWin]);
+  68 |
+  69 |   // Helper to shuffle arrays                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      react-hooks/purity
+  163:11  error  Error: Cannot access variable before it is declared
+
+`handleAnswer` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\jwe-bib-la\play\page.tsx:163:11
+  161 |         if (prev <= 1) {
+  162 |           if (timerRef.current) clearInterval(timerRef.current);
+> 163 |           handleAnswer('TIMEOUT');
+      |           ^^^^^^^^^^^^ `handleAnswer` accessed before it is declared
+  164 |           return 0;
+  165 |         }
+  166 |         return prev - 1;
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\jwe-bib-la\play\page.tsx:177:3
+  175 |   const currentQuestion = questions[currentIndex];
+  176 |
+> 177 |   const handleAnswer = async (optionId: string) => {
+      |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 178 |     if (isAnswered || isGameOver) return;
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 179 |     
+      ÔÇª
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 224 |     }
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 225 |   };
+      | ^^^^^ `handleAnswer` is declared here
+  226 |
+  227 |   const nextQuestion = async () => {
+  228 |     if (currentIndex >= 6) {  react-hooks/immutability
+  346:32  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\jwe-bib-la\play\page.tsx:346:32
+  344 |                     className="ember absolute bg-orange-500 rounded-full blur-[1px]"
+  345 |                     style={{
+> 346 |                       left: `${Math.random() * 100}%`,
+      |                                ^^^^^^^^^^^^^ Cannot call impure function
+  347 |                       bottom: '-20px',
+  348 |                       width: `${Math.random() * 4 + 2}px`,
+  349 |                       height: `${Math.random() * 4 + 2}px`,                                                                                                                                                                                                                                                                                                                                                                                  react-hooks/purity
+  348:33  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\jwe-bib-la\play\page.tsx:348:33
+  346 |                       left: `${Math.random() * 100}%`,
+  347 |                       bottom: '-20px',
+> 348 |                       width: `${Math.random() * 4 + 2}px`,
+      |                                 ^^^^^^^^^^^^^ Cannot call impure function
+  349 |                       height: `${Math.random() * 4 + 2}px`,
+  350 |                       opacity: Math.random() * 0.5 + 0.3,
+  351 |                       animation: `float-ember ${Math.random() * 5 + 5}s linear infinite`,                                                                                                                                                                                                                                                                                                                                               react-hooks/purity
+  349:34  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\jwe-bib-la\play\page.tsx:349:34
+  347 |                       bottom: '-20px',
+  348 |                       width: `${Math.random() * 4 + 2}px`,
+> 349 |                       height: `${Math.random() * 4 + 2}px`,
+      |                                  ^^^^^^^^^^^^^ Cannot call impure function
+  350 |                       opacity: Math.random() * 0.5 + 0.3,
+  351 |                       animation: `float-ember ${Math.random() * 5 + 5}s linear infinite`,
+  352 |                       animationDelay: `${Math.random() * 10}s`                                                                                                                                                                                                                                                                                                                                      react-hooks/purity
+  350:32  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\jwe-bib-la\play\page.tsx:350:32
+  348 |                       width: `${Math.random() * 4 + 2}px`,
+  349 |                       height: `${Math.random() * 4 + 2}px`,
+> 350 |                       opacity: Math.random() * 0.5 + 0.3,
+      |                                ^^^^^^^^^^^^^ Cannot call impure function
+  351 |                       animation: `float-ember ${Math.random() * 5 + 5}s linear infinite`,
+  352 |                       animationDelay: `${Math.random() * 10}s`
+  353 |                     }}                                                                                                                                                                                                                                                                                                                                                        react-hooks/purity
+  351:49  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\jwe-bib-la\play\page.tsx:351:49
+  349 |                       height: `${Math.random() * 4 + 2}px`,
+  350 |                       opacity: Math.random() * 0.5 + 0.3,
+> 351 |                       animation: `float-ember ${Math.random() * 5 + 5}s linear infinite`,
+      |                                                 ^^^^^^^^^^^^^ Cannot call impure function
+  352 |                       animationDelay: `${Math.random() * 10}s`
+  353 |                     }}
+  354 |                   />                                                                                                                                                                                                                                                                                                                                                                             react-hooks/purity
+  352:42  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\app\jwe-bib-la\play\page.tsx:352:42
+  350 |                       opacity: Math.random() * 0.5 + 0.3,
+  351 |                       animation: `float-ember ${Math.random() * 5 + 5}s linear infinite`,
+> 352 |                       animationDelay: `${Math.random() * 10}s`
+      |                                          ^^^^^^^^^^^^^ Cannot call impure function
+  353 |                     }}
+  354 |                   />
+  355 |                 ))}                                                                                                                                                                                                                                                                                                                                                                                                                            react-hooks/purity
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\components\DailyChallengeCard.tsx
+  36:3  warning  Unused eslint-disable directive (no problems were reported from 'react-hooks/exhaustive-deps')
+
+C:\Users\junio\Desktop\200\Juego\Trivial App\components\store\StoreOverlay.tsx
+  99:24  error  React Hook "useMemo" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+
+Ô£û 20 problems (15 errors, 5 warnings)
+  0 errors and 5 warnings potentially fixable with the `--fix` option.
+

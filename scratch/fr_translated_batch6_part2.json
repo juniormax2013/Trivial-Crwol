@@ -1,0 +1,572 @@
+[
+  {
+    "newId": "dq-lid-015",
+    "ht": {
+      "id": "dq-lid-015",
+      "questionText": "Ki wa ki te mande Bondye sajès pou l te ka gouvènen pèp li a byen?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "David" },
+        { "id": "b", "text": "Sayil" },
+        { "id": "c", "text": "Salomon" },
+        { "id": "d", "text": "Jozyas" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Wa 3:9 — Salomon mande: \"Tanpri, ban mwen konesans pou m ka gouvènen pèp ou a.\"",
+      "bibleReference": "1 Wa 3:9"
+    },
+    "fr": {
+      "id": "dq-lid-015",
+      "questionText": "Quel roi a demandé à Dieu de la sagesse pour bien gouverner son peuple ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "David" },
+        { "id": "b", "text": "Saül" },
+        { "id": "c", "text": "Salomon" },
+        { "id": "d", "text": "Josias" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Rois 3:9 — Salomon demande : « Accorde donc à ton serviteur un cœur intelligent pour juger ton peuple. »",
+      "bibleReference": "1 Rois 3:9"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-inte-002",
+    "ht": {
+      "id": "dq-inte-002",
+      "questionText": "Ki lang ki te vin tounen lang entènasyonal nan peryòd ant testaman yo akòz konkèt Aleksann Legran?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Laten" },
+        { "id": "b", "text": "Ebre" },
+        { "id": "c", "text": "Grèk" },
+        { "id": "d", "text": "Arameyen" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Konkèt Aleksann Legran te gaye kilti ak lang Grèk la (Elenis), sa ki te ede nan gaye Nouvo Testaman an pita.",
+      "bibleReference": "Jan 19:20"
+    },
+    "fr": {
+      "id": "dq-inte-002",
+      "questionText": "Quelle langue est devenue la langue internationale durant la période intertestamentaire grâce aux conquêtes d'Alexandre le Grand ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Latin" },
+        { "id": "b", "text": "Hébreu" },
+        { "id": "c", "text": "Grec" },
+        { "id": "d", "text": "Araméen" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les conquêtes d'Alexandre le Grand ont propagé la culture et la langue grecques (hellénisme), ce qui a facilité plus tard la diffusion du Nouveau Testament.",
+      "bibleReference": "Jean 19:20"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-inte-003",
+    "ht": {
+      "id": "dq-inte-003",
+      "questionText": "Ki fanmi Jwif ki te mennen yon revòlt kont Seleyisid yo pou re-konsakre Tanp lan (sa yo fete nan Hanouka)?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Ewodyen yo" },
+        { "id": "b", "text": "Makabe yo" },
+        { "id": "c", "text": "Zelòt yo" },
+        { "id": "d", "text": "Sadiseyen yo" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revòlt Makabe yo te kòmanse an 167 anvan Jezikri kont Antiochus IV Epiphanes.",
+      "bibleReference": "Jan 10:22"
+    },
+    "fr": {
+      "id": "dq-inte-003",
+      "questionText": "Quelle famille juive a mené une révolte contre les Séleucides pour purifier le Temple (célébré à Hanoucca) ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Les Hérodiens" },
+        { "id": "b", "text": "Les Maccabées" },
+        { "id": "c", "text": "Les Zélotes" },
+        { "id": "d", "text": "Les Sadducéens" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La révolte des Maccabées a commencé en 167 av. J.-C. contre Antiochus IV Épiphane.",
+      "bibleReference": "Jean 10:22"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-inte-004",
+    "ht": {
+      "id": "dq-inte-004",
+      "questionText": "Ki non tradiksyon Ansyen Testaman an an Grèk ki te fèt nan peryòd sa a?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Vilat" },
+        { "id": "b", "text": "Septante (LXX)" },
+        { "id": "c", "text": "Peshitta" },
+        { "id": "d", "text": "Vulgat" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Septante la (LXX) te tradiksyon grèk Ansyen Testaman an, disip Jezi yo te itilize li anpil.",
+      "bibleReference": "Lk 4:18"
+    },
+    "fr": {
+      "id": "dq-inte-004",
+      "questionText": "Comment appelle-t-on la traduction grecque de l'Ancien Testament réalisée durant cette période ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La Vetus Latina" },
+        { "id": "b", "text": "La Septante (LXX)" },
+        { "id": "c", "text": "La Peshitta" },
+        { "id": "d", "text": "La Vulgate" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La Septante (LXX) était la traduction grecque de l'Ancien Testament, très utilisée par les disciples de Jésus.",
+      "bibleReference": "Luc 4:18"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-inte-005",
+    "ht": {
+      "id": "dq-inte-005",
+      "questionText": "Ki gwoup relijye nan epòk Jezi a ki pa t kwè nan rezirèksyon?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Farizyen yo" },
+        { "id": "b", "text": "Esenyen yo" },
+        { "id": "c", "text": "Sadiseyen yo" },
+        { "id": "d", "text": "Zelòt yo" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Travay 23:8 — \"Sadiseyen yo di pa gen rezirèksyon... men Farizyen yo kwè nan tou de.\"",
+      "bibleReference": "Travay 23:8"
+    },
+    "fr": {
+      "id": "dq-inte-005",
+      "questionText": "Quel groupe religieux de l'époque de Jésus ne croyait pas à la résurrection ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Les Pharisiens" },
+        { "id": "b", "text": "Les Esséniens" },
+        { "id": "c", "text": "Les Sadducéens" },
+        { "id": "d", "text": "Les Zélotes" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Actes 23:8 — « Car les Sadducéens disent qu'il n'y a point de résurrection... tandis que les Pharisiens confessent l'un et l'autre. »",
+      "bibleReference": "Actes 23:8"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-inte-006",
+    "ht": {
+      "id": "dq-inte-006",
+      "questionText": "Ki wa ki te okipe Jide pandan nesans Jezi e ki te re-bati Tanp lan?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Seza Ogis" },
+        { "id": "b", "text": "Ewòd Legran" },
+        { "id": "c", "text": "Pons Pilat" },
+        { "id": "d", "text": "Tiberiyis" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 2:1 — \"Jezi te fèt Betleyèm... nan epòk wa Ewòd.\"",
+      "bibleReference": "Matye 2:1"
+    },
+    "fr": {
+      "id": "dq-inte-006",
+      "questionText": "Quel roi régnait sur la Judée à la naissance de Jésus et a reconstruit le Temple ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "César Auguste" },
+        { "id": "b", "text": "Hérode le Grand" },
+        { "id": "c", "text": "Ponce Pilate" },
+        { "id": "d", "text": "Tibère" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 2:1 — « Jésus étant né à Bethléhem... au temps du roi Hérode. »",
+      "bibleReference": "Matthieu 2:1"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-inte-007",
+    "ht": {
+      "id": "dq-inte-007",
+      "questionText": "Kijan yo rele liv ki te ekri nan peryòd sa a men ki pa nan kanon Jwif la oswa Pwotestan an?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Lwa yo" },
+        { "id": "b", "text": "Apokrif oswa Deutewokanonisèl" },
+        { "id": "c", "text": "Pwofèt yo" },
+        { "id": "d", "text": "Evanjil yo" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Liv sa yo tankou Makabe, Tobit, ak Jidit te ekri pandan peryòd ant testaman yo.",
+      "bibleReference": "Jan 10:22"
+    },
+    "fr": {
+      "id": "dq-inte-007",
+      "questionText": "Comment appelle-t-on les livres écrits durant cette période mais qui ne sont pas dans le canon juif ou protestant ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Les Lois" },
+        { "id": "b", "text": "Les Apocryphes ou Deutérocanoniques" },
+        { "id": "c", "text": "Les Prophètes" },
+        { "id": "d", "text": "Les Évangiles" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ces livres comme les Maccabées, Tobie et Judith ont été écrits durant la période intertestamentaire.",
+      "bibleReference": "Jean 10:22"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-inte-008",
+    "ht": {
+      "id": "dq-inte-008",
+      "questionText": "Ki lang pifò Jwif te pale nan lavi chak jou nan epòk Jezi a?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Ebre" },
+        { "id": "b", "text": "Laten" },
+        { "id": "c", "text": "Arameyen" },
+        { "id": "d", "text": "Grèk" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Malgre grèk te lang entènasyonal la, arameyen te lang pèp Jwif la te pale lakay yo.",
+      "bibleReference": "Mak 5:41"
+    },
+    "fr": {
+      "id": "dq-inte-008",
+      "questionText": "Quelle langue la plupart des Juifs parlaient-ils dans la vie de tous les jours à l'époque de Jésus ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Hébreu" },
+        { "id": "b", "text": "Latin" },
+        { "id": "c", "text": "Araméen" },
+        { "id": "d", "text": "Grec" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bien que le grec fût la langue internationale, l'araméen était la langue parlée par le peuple juif dans sa vie quotidienne.",
+      "bibleReference": "Marc 5:41"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-inte-009",
+    "ht": {
+      "id": "dq-inte-009",
+      "questionText": "Ki gwoup Jwif ki te rete nan dezè e ki ta ka ekri woulo Lanmè Mòt yo?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Esenyen yo" },
+        { "id": "b", "text": "Sadiseyen yo" },
+        { "id": "c", "text": "Zelòt yo" },
+        { "id": "d", "text": "Ewodyen yo" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Esenyen yo te yon gwoup ki te viv nan dezè Qumran nan yon lavi apa pou Bondye.",
+      "bibleReference": "Matye 3:1"
+    },
+    "fr": {
+      "id": "dq-inte-009",
+      "questionText": "Quel groupe juif vivait dans le désert et aurait écrit les manuscrits de la mer Morte ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Les Esséniens" },
+        { "id": "b", "text": "Les Sadducéens" },
+        { "id": "c", "text": "Les Zélotes" },
+        { "id": "d", "text": "Les Hérodiens" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Les Esséniens étaient un groupe qui vivait à Qumrân dans le désert, menant une vie consacrée à Dieu.",
+      "bibleReference": "Matthieu 3:1"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-inte-010",
+    "ht": {
+      "id": "dq-inte-010",
+      "questionText": "Ki imperi ki te kontwole Izrayèl jis anvan imperi Women an?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Peryòd Ant-Testamantè",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Babilòn" },
+        { "id": "b", "text": "Grès" },
+        { "id": "c", "text": "Pès" },
+        { "id": "d", "text": "Ejip" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apre konkèt Aleksann Legran yo, Izrayèl te anba kontwòl Grèk yo (Ptolemée ak Seleyisid).",
+      "bibleReference": "Daniel 8:21"
+    },
+    "fr": {
+      "id": "dq-inte-010",
+      "questionText": "Quel empire contrôlait Israël juste avant l'empire romain ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Babylone" },
+        { "id": "b", "text": "La Grèce" },
+        { "id": "c", "text": "La Perse" },
+        { "id": "d", "text": "L'Égypte" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Après les conquêtes d'Alexandre le Grand, Israël était sous le contrôle des Grecs (Ptolémées et Séleucides).",
+      "bibleReference": "Daniel 8:21"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-guer-001",
+    "ht": {
+      "id": "dq-guer-001",
+      "questionText": "Ki lavil miray li te tonbe apre Izrayèl te fè wonn li pandan sèt jou?",
+      "categoryId": "guerras",
+      "categoryName": "Gè ak Konkèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Ayi" },
+        { "id": "b", "text": "Jeriko" },
+        { "id": "c", "text": "Gabaon" },
+        { "id": "d", "text": "Jerizalèm" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozye 6:20 — Pèp la rele fò, prèt yo kònen kòn yo... miray lavil la tonbe plat atè.",
+      "bibleReference": "Jozye 6:20"
+    },
+    "fr": {
+      "id": "dq-guer-001",
+      "questionText": "De quelle ville les murs sont-ils tombés après que les Israélites en ont fait le tour pendant sept jours ?",
+      "categoryId": "guerras",
+      "categoryName": "Guerres et Conquêtes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Aï" },
+        { "id": "b", "text": "Jéricho" },
+        { "id": "c", "text": "Gabaon" },
+        { "id": "d", "text": "Jérusalem" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Josué 6:20 — Le peuple poussa des cris, et les prêtres sonnèrent des trompettes... la muraille s'écroula.",
+      "bibleReference": "Josué 6:20"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-guer-002",
+    "ht": {
+      "id": "dq-guer-002",
+      "questionText": "Konbyen sòlda Gedeon te genyen nan fen an pou l goumen kont Madyanit yo?",
+      "categoryId": "guerras",
+      "categoryName": "Gè ak Konkèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "32,000" },
+        { "id": "b", "text": "10,000" },
+        { "id": "c", "text": "300" },
+        { "id": "d", "text": "1,000" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jij 7:7 — Bondye di Gedeon: \"Se avèk twasan gason sa yo m’ap sove nou.\"",
+      "bibleReference": "Jij 7:7"
+    },
+    "fr": {
+      "id": "dq-guer-002",
+      "questionText": "De combien de soldats Gédéon disposait-il finalement pour combattre les Madianites ?",
+      "categoryId": "guerras",
+      "categoryName": "Guerres et Conquêtes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "32 000" },
+        { "id": "b", "text": "10 000" },
+        { "id": "c", "text": "300" },
+        { "id": "d", "text": "1 000" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Juges 7:7 — L'Éternel dit à Gédéon : « C'est par les trois cents hommes... que je vous sauverai. »",
+      "bibleReference": "Juges 7:7"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-guer-003",
+    "ht": {
+      "id": "dq-guer-003",
+      "questionText": "Ki zam Gedeon ak sòlda li yo te itilize pou fè lènmi yo panike?",
+      "categoryId": "guerras",
+      "categoryName": "Gè ak Konkèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Epe ak plak pwotèj" },
+        { "id": "b", "text": "Kòn belye, krich ak flanbo" },
+        { "id": "c", "text": "Arc ak flèch" },
+        { "id": "d", "text": "Charyo fè" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jij 7:16 — Li bay chak moun yon kòn, yon krich vid ak yon flanbo andedan krich la.",
+      "bibleReference": "Jij 7:16"
+    },
+    "fr": {
+      "id": "dq-guer-003",
+      "questionText": "Quels instruments Gédéon et ses soldats ont-ils utilisés pour semer la panique chez l'ennemi ?",
+      "categoryId": "guerras",
+      "categoryName": "Guerres et Conquêtes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Épées et boucliers" },
+        { "id": "b", "text": "Trompettes, cruches et flambeaux" },
+        { "id": "c", "text": "Arcs et flèches" },
+        { "id": "d", "text": "Chars de fer" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Juges 7:16 — Il leur distribua à tous des trompettes et des cruches vides, avec des flambeaux dans les cruches.",
+      "bibleReference": "Juges 7:16"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-guer-004",
+    "ht": {
+      "id": "dq-guer-004",
+      "questionText": "Ki wa ki te pèdi lavi li nan batay sou Mòn Gilboa kont Filisti yo?",
+      "categoryId": "guerras",
+      "categoryName": "Gè ak Konkèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Sayil" },
+        { "id": "b", "text": "David" },
+        { "id": "c", "text": "Salomon" },
+        { "id": "d", "text": "Jozyas" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "1 Samyèl 31:1-6 — Filisti yo goumen kont Izrayèl... Sayil ak twa pitit gason li mouri menm jou a.",
+      "bibleReference": "1 Samyèl 31:6"
+    },
+    "fr": {
+      "id": "dq-guer-004",
+      "questionText": "Quel roi a perdu la vie lors de la bataille contre les Philistins sur le mont Guilboa ?",
+      "categoryId": "guerras",
+      "categoryName": "Guerres et Conquêtes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Saül" },
+        { "id": "b", "text": "David" },
+        { "id": "c", "text": "Salomon" },
+        { "id": "d", "text": "Josias" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "1 Samuel 31:1-6 — Les Philistins livrèrent bataille à Israël... Saül et ses trois fils périrent en ce même jour.",
+      "bibleReference": "1 Samuel 31:6"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-guer-005",
+    "ht": {
+      "id": "dq-guer-005",
+      "questionText": "Ki moun ki te mennen lame Izrayèl la pou pran lavil Ayi apre yo te fin echwe premye fwa a?",
+      "categoryId": "guerras",
+      "categoryName": "Gè ak Konkèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Moyiz" },
+        { "id": "b", "text": "Jozye" },
+        { "id": "c", "text": "Kalèb" },
+        { "id": "d", "text": "Akàn" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozye 8:1 — Bondye di Jozye: \"Pran tout lame a avèk ou, moute al atake Ayi.\"",
+      "bibleReference": "Jozye 8:1"
+    },
+    "fr": {
+      "id": "dq-guer-005",
+      "questionText": "Qui a mené l'armée d'Israël pour prendre la ville d'Aï après l'échec de la première tentative ?",
+      "categoryId": "guerras",
+      "categoryName": "Guerres et Conquêtes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Moïse" },
+        { "id": "b", "text": "Josué" },
+        { "id": "c", "text": "Caleb" },
+        { "id": "d", "text": "Acan" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Josué 8:1 — L'Éternel dit à Josué : « Prends avec toi tous les gens de guerre... et monte contre Aï. »",
+      "bibleReference": "Josué 8:1"
+    },
+    "matchType": "full"
+  }
+]

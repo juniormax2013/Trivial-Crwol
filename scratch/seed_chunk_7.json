@@ -1,0 +1,3360 @@
+[
+  {
+    "docId": "dq-gen-022_ht",
+    "data": {
+      "id": "dq-gen-022",
+      "questionText": "Ki siyifikasyon non ebre « Yahweh » (YHWH) a e kijan li te revele bay Moyiz?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Sa ki gen tout pouvwa a » — revele nan kreyasyon an"
+        },
+        {
+          "id": "b",
+          "text": "« Mwen se sa m ye a » (Ehyeh asher ehyeh) — revele nan touf bwa ki t'ap boule a"
+        },
+        {
+          "id": "c",
+          "text": "« Bondye Alyans lan » — revele bay Abraram"
+        },
+        {
+          "id": "d",
+          "text": "« Seyè tout lame yo » — revele nan batay Izrayèl yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 3:14 : « Mwen se sa m ye a » (YHWH ki soti nan vèb ebre 'être') — Bondye revele tèt li kòm sa ki la depi tout tan e ki fidèl ak pwomès li.",
+      "bibleReference": "Exode 3:14",
+      "normalizedRef": "exo3.14",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-022_fr",
+    "data": {
+      "id": "dq-gen-022",
+      "questionText": "Quelle est la signification du nom hébreu « Yahweh » (YHWH) et comment est-il révélé à Moïse ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Le Tout-Puissant » — révélé dans la Création"
+        },
+        {
+          "id": "b",
+          "text": "« Je suis celui qui suis » (Ehyeh asher ehyeh) — révélé au buisson ardent, expression de l'être divin absolu et de la fidélité"
+        },
+        {
+          "id": "c",
+          "text": "« Dieu de l'Alliance » — révélé à Abraham"
+        },
+        {
+          "id": "d",
+          "text": "« Seigneur des armées » — révélé dans les batailles d'Israël"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 3:14 : « Je suis celui qui suis » (YHWH dérivé du verbe être hébreu) — Dieu se révèle comme l'Être absolu, auto-existent et fidèle à ses promesses. Jean 8:58 : Jésus s'approprie ce nom.",
+      "bibleReference": "Exode 3:14",
+      "normalizedRef": "exo3.14",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-023_ht",
+    "data": {
+      "id": "dq-gen-023",
+      "questionText": "Konbyen jou Bondye te pran pou l kreye mond lan?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 jou"
+        },
+        {
+          "id": "b",
+          "text": "6 jou"
+        },
+        {
+          "id": "c",
+          "text": "7 jou"
+        },
+        {
+          "id": "d",
+          "text": "40 jou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te kreye tout bagay nan sis jou epi li te repoze nan setyèm jou a (Jenèz 1-2:3).",
+      "bibleReference": "Genèse 1:31-2:2"
+    }
+  },
+  {
+    "docId": "dq-gen-023_fr",
+    "data": {
+      "id": "dq-gen-023",
+      "questionText": "Combien de jours Dieu prit-il pour créer le monde ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 jours"
+        },
+        {
+          "id": "b",
+          "text": "6 jours"
+        },
+        {
+          "id": "c",
+          "text": "7 jours"
+        },
+        {
+          "id": "d",
+          "text": "40 jours"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu créa en six jours et se reposa le septième (Genèse 1-2:3).",
+      "bibleReference": "Genèse 1:31-2:2",
+      "normalizedRef": "gen1.31-2.2",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-024_ht",
+    "data": {
+      "id": "dq-gen-024",
+      "questionText": "Ki premye moun ki te fè yon krim nan istwa Bib la epi ki moun li te touye?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abèl te touye Kayen"
+        },
+        {
+          "id": "b",
+          "text": "Kayen te touye Abèl"
+        },
+        {
+          "id": "c",
+          "text": "Lamek te touye yon moun"
+        },
+        {
+          "id": "d",
+          "text": "Ezaou te menase Jakòb"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kayen te jalou paske Bondye te asepte ofrann Abèl la, li touye frè li (Jenèz 4:8).",
+      "bibleReference": "Genèse 4:8"
+    }
+  },
+  {
+    "docId": "dq-gen-024_fr",
+    "data": {
+      "id": "dq-gen-024",
+      "questionText": "Qui fut le premier meurtre de l'histoire biblique et par qui fut-il commis ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abel tua Caïn"
+        },
+        {
+          "id": "b",
+          "text": "Caïn tua Abel"
+        },
+        {
+          "id": "c",
+          "text": "Lamec tua un homme"
+        },
+        {
+          "id": "d",
+          "text": "Esaü menaça Jacob"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Caïn, jaloux que Dieu ait agréé l'offrande d'Abel, tua son frère (Genèse 4:8).",
+      "bibleReference": "Genèse 4:8",
+      "normalizedRef": "gen4.8",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-025_ht",
+    "data": {
+      "id": "dq-gen-025",
+      "questionText": "Konbyen pitit gason Jakòb te genyen, ki te vin zansèt 12 tribi Izrayèl yo?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "11"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "13"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jakòb te gen 12 pitit gason ki te vin papa 12 tribi Izrayèl yo (Jenèz 35:22-26).",
+      "bibleReference": "Genèse 35:22-26"
+    }
+  },
+  {
+    "docId": "dq-gen-025_fr",
+    "data": {
+      "id": "dq-gen-025",
+      "questionText": "Combien de fils Jacob eut-il, ancêtres des 12 tribus d'Israël ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "11"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "13"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jacob eut 12 fils qui devinrent les pères des 12 tribus d'Israël (Genèse 35:22-26).",
+      "bibleReference": "Genèse 35:22-26",
+      "normalizedRef": "gen35.22-26",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-026_ht",
+    "data": {
+      "id": "dq-gen-026",
+      "questionText": "Kisa lakansyèl Bondye te mete nan syèl la apre delij la te siyifi?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon siy bèlte kreyasyon an"
+        },
+        {
+          "id": "b",
+          "text": "Kontra Bondye fè pou l pa janm detwi tè a ankò ak delij"
+        },
+        {
+          "id": "c",
+          "text": "Pwomès lapli pou rekòt yo"
+        },
+        {
+          "id": "d",
+          "text": "Chemen pou rive nan prezans Bondye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lakansyèl la se siy kontra Bondye ak Noe ak tout bèt vivan: Bondye p'ap janm sèvi ak dlo ankò pou detwi latè (Jenèz 9:13-15).",
+      "bibleReference": "Genèse 9:13-15"
+    }
+  },
+  {
+    "docId": "dq-gen-026_fr",
+    "data": {
+      "id": "dq-gen-026",
+      "questionText": "Que signifia l'arc-en-ciel que Dieu plaça dans le ciel après le déluge ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le signe de la beauté de la création"
+        },
+        {
+          "id": "b",
+          "text": "L'alliance de Dieu de ne plus détruire la terre par un déluge"
+        },
+        {
+          "id": "c",
+          "text": "La promesse de la pluie pour les récoltes"
+        },
+        {
+          "id": "d",
+          "text": "Le chemin vers la présence de Dieu"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'arc-en-ciel est le signe de l'alliance de Dieu avec Noé et toute créature vivante : Dieu ne détruira plus la terre par les eaux (Genèse 9:13-15).",
+      "bibleReference": "Genèse 9:13-15",
+      "normalizedRef": "gen9.13-15",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-027_ht",
+    "data": {
+      "id": "dq-gen-027",
+      "questionText": "Ki kontra Bondye te pase ak Abraram nan Jenèz 15 konsènan tè a?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraram t ap resevwa Kanaran pandan l vivan"
+        },
+        {
+          "id": "b",
+          "text": "Pitit li yo t ap gen tout tè a depi nan peyi Lejip rive nan larivyè Lefrat"
+        },
+        {
+          "id": "c",
+          "text": "Abraram t ap rete nomad tout lavi li"
+        },
+        {
+          "id": "d",
+          "text": "Pitit li yo t ap resevwa tè a nan 400 an apre esklavaj"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te fè yon kontra ak Abraram: « M'ap bay pitit pitit ou yo tout peyi sa a, depi larivyè Lejip rive jouk nan gwo larivyè Lefrat la » (Jenèz 15:18).",
+      "bibleReference": "Genèse 15:18"
+    }
+  },
+  {
+    "docId": "dq-gen-027_fr",
+    "data": {
+      "id": "dq-gen-027",
+      "questionText": "Quel pacte Dieu conclut-il avec Abraham en Genèse 15 concernant la terre ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham recevrait Canaan de son vivant"
+        },
+        {
+          "id": "b",
+          "text": "Sa descendance posséderait la terre de l'Égypte au fleuve Euphrate"
+        },
+        {
+          "id": "c",
+          "text": "Abraham resterait nomade toute sa vie"
+        },
+        {
+          "id": "d",
+          "text": "Ses enfants recevraient la terre dans 400 ans après l'esclavage"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu conclut l'alliance abrahamique : « Je donne à ta postérité ce pays, depuis le fleuve d'Égypte jusqu'au grand fleuve, l'Euphrate » (Genèse 15:18).",
+      "bibleReference": "Genèse 15:18",
+      "normalizedRef": "gen15.18",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-028_ht",
+    "data": {
+      "id": "dq-gen-028",
+      "questionText": "Kisa « benediksyon » Izarak te bay Jakòb pa erè a te ye?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pwojè tout bèt yo"
+        },
+        {
+          "id": "b",
+          "text": "Benediksyon premye pitit la ki gen ladan otorite ak pwosperite"
+        },
+        {
+          "id": "c",
+          "text": "Yon bag an lò"
+        },
+        {
+          "id": "d",
+          "text": "Yon nouvo non"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Benediksyon an te bay Jakòb otorite sou frè l yo ak pwomès pwosperite, se te benediksyon ki te rezève pou premye pitit la (Jenèz 27:27-29).",
+      "bibleReference": "Genèse 27:28-29"
+    }
+  },
+  {
+    "docId": "dq-gen-028_fr",
+    "data": {
+      "id": "dq-gen-028",
+      "questionText": "Qu'est-ce que la « bénédiction » qu'Isaac donna à Jacob par erreur ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La propriété de tous les troupeaux"
+        },
+        {
+          "id": "b",
+          "text": "La bénédiction du premier-né incluant autorité et prospérité"
+        },
+        {
+          "id": "c",
+          "text": "Le droit d'aîné acheté pour de la soupe"
+        },
+        {
+          "id": "d",
+          "text": "L'alliance avec Dieu directement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacob se fit passer pour Ésaü et reçut la bénédiction de premier-né : domination sur les frères et prospérité — irréversible une fois prononcée (Genèse 27:28-29).",
+      "bibleReference": "Genèse 27:28-29",
+      "normalizedRef": "gen27.28-29",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-029_ht",
+    "data": {
+      "id": "dq-gen-029",
+      "questionText": "Poukisa Jakòb te voye pitit gason l yo nan peyi Lejip la premye fwa?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pou yo t al vizite Jozèf"
+        },
+        {
+          "id": "b",
+          "text": "Paske te gen yon grangou nan peyi a e te gen manje an Lejip"
+        },
+        {
+          "id": "c",
+          "text": "Pou yo t al achte lò"
+        },
+        {
+          "id": "d",
+          "text": "Pou yo t al chèche yon nouvo tè pou yo rete"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Te gen yon gwo grangou nan tout peyi a. Jakòb te aprann te gen ble an Lejip, li voye pitit li yo al achte pou yo pa mouri grangou (Jenèz 42:1-2).",
+      "bibleReference": "Genèse 28:12-13"
+    }
+  },
+  {
+    "docId": "dq-gen-029_fr",
+    "data": {
+      "id": "dq-gen-029",
+      "questionText": "Quelle vision Jacob eut-il à Béthel pendant sa fuite vers Haran ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un buisson ardent"
+        },
+        {
+          "id": "b",
+          "text": "Une échelle atteignant le ciel avec des anges montant et descendant"
+        },
+        {
+          "id": "c",
+          "text": "Un char de feu"
+        },
+        {
+          "id": "d",
+          "text": "Le visage de Dieu dans les nuages"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacob vit en songe une échelle (ou rampe) dont le sommet atteignait le ciel, avec des anges montant et descendant — Dieu lui renouvela l'alliance (Genèse 28:12-13).",
+      "bibleReference": "Genèse 28:12-13",
+      "normalizedRef": "gen28.12-13",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-030_ht",
+    "data": {
+      "id": "dq-gen-030",
+      "questionText": "Ki rèv Jozèf te genyen ki te fache frè l yo nan Jenèz 37?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon rèv sou sèt vach gra"
+        },
+        {
+          "id": "b",
+          "text": "Bot pay frè l yo ki t ap bese devan bot pay pa l la"
+        },
+        {
+          "id": "c",
+          "text": "Yon rèv sou yon nechèl ki rive nan syèl la"
+        },
+        {
+          "id": "d",
+          "text": "Yon rèv sou yon ti mouton sakrifye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozèf te fè rèv kote bot pay frè l yo te bese devan pa l la, sa ki te montre l t ap gen otorite sou yo (Jenèz 37:5-8).",
+      "bibleReference": "Genèse 37:3-11"
+    }
+  },
+  {
+    "docId": "dq-gen-030_fr",
+    "data": {
+      "id": "dq-gen-030",
+      "questionText": "Pourquoi Joseph fut-il vendu comme esclave par ses frères ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il avait volé leur héritage"
+        },
+        {
+          "id": "b",
+          "text": "Par jalousie à cause de l'amour préférentiel de Jacob et de ses rêves"
+        },
+        {
+          "id": "c",
+          "text": "Il avait accusé ses frères devant Pharaon"
+        },
+        {
+          "id": "d",
+          "text": "Il avait épousé une femme cananéenne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacob aimait Joseph plus que ses autres fils (la tunique) et Joseph rapportait leurs méfaits. Ses rêves de domination excitèrent leur jalousie (Genèse 37:3-4,8).",
+      "bibleReference": "Genèse 37:3-11",
+      "normalizedRef": "gen37.3-11",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-031_ht",
+    "data": {
+      "id": "dq-gen-031",
+      "questionText": "Kisa madanm Lòt te vin tounen lè l te gade dèyè pandan destriksyon Sodòm ak Gomò?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon estati an lò"
+        },
+        {
+          "id": "b",
+          "text": "Yon poto sèl"
+        },
+        {
+          "id": "c",
+          "text": "Yon pye bwa"
+        },
+        {
+          "id": "d",
+          "text": "Pousyè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Madanm Lòt te gade dèyè kont lòd zanj yo, li tounen yon gwo poto sèl (Jenèz 19:26).",
+      "bibleReference": "Genèse 3:15"
+    }
+  },
+  {
+    "docId": "dq-gen-031_fr",
+    "data": {
+      "id": "dq-gen-031",
+      "questionText": "Quelle est la signification de « Protévangile » dans Genèse 3:15 ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La première loi donnée à Adam"
+        },
+        {
+          "id": "b",
+          "text": "La première annonce de l'Évangile — l'hostilité entre la semence de la femme et le serpent"
+        },
+        {
+          "id": "c",
+          "text": "La première promesse de retour en Éden"
+        },
+        {
+          "id": "d",
+          "text": "L'alliance de la circoncision"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 3:15 est le protévangile (premier Évangile) : « Je mettrai inimitié... entre ta semence et sa semence » — prophétie du triomphe du Messie sur Satan.",
+      "bibleReference": "Genèse 3:15",
+      "normalizedRef": "gen3.15",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-032_ht",
+    "data": {
+      "id": "dq-gen-032",
+      "questionText": "Konbyen tan Jozèf te pase anba esklavaj ak nan prizon an Lejip anvan li te vin premye minis?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 an"
+        },
+        {
+          "id": "b",
+          "text": "13 an"
+        },
+        {
+          "id": "c",
+          "text": "20 an"
+        },
+        {
+          "id": "d",
+          "text": "40 an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozèf te gen 17 an lè yo te vann li (Jenèz 37:2) epi 30 an lè li te parèt devan Farawon (Jenèz 41:46), sa fè 13 an an total.",
+      "bibleReference": "Genèse 17:10-11"
+    }
+  },
+  {
+    "docId": "dq-gen-032_fr",
+    "data": {
+      "id": "dq-gen-032",
+      "questionText": "Quel est le sens théologique de l'alliance de circoncision avec Abraham (Genèse 17) ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un rite d'hygiène pour le désert"
+        },
+        {
+          "id": "b",
+          "text": "Le signe extérieur de l'appartenance au peuple de l'alliance de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Un rite magique pour la fertilité"
+        },
+        {
+          "id": "d",
+          "text": "Une marque tribale distinguant Israël des Cananéens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La circoncision est le signe de l'alliance abrahamique — appartenance au peuple de Dieu. Paul la réinterprète comme « circoncision du cœur » pour les croyants gentils (Genèse 17:10-11; Romains 2:29).",
+      "bibleReference": "Genèse 17:10-11",
+      "normalizedRef": "gen17.10-11",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-gen-033_ht",
+    "data": {
+      "id": "dq-gen-033",
+      "questionText": "Ki jan istwa Jozèf nan peyi Lejip montre pwovidans Bondye malgre peche lèzòm?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye te pini frè Jozèf yo touswit"
+        },
+        {
+          "id": "b",
+          "text": "Jozèf di frè li yo: sa nou te vle fè m ki mal la, Bondye te vle l pou byen"
+        },
+        {
+          "id": "c",
+          "text": "Bondye efase peche frè yo san okenn konsekans"
+        },
+        {
+          "id": "d",
+          "text": "Jozèf te refize padone yo jouk papa l mouri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozèf te devwale pwovidans Bondye: « Nou te fè lide fè m' mal. Men Bondye fè sa tounen yon byen » (Jenèz 50:20).",
+      "bibleReference": "Genèse 50:20"
+    }
+  },
+  {
+    "docId": "dq-gen-033_fr",
+    "data": {
+      "id": "dq-gen-033",
+      "questionText": "Comment le récit de Joseph en Égypte illustre-t-il la providence divine malgré le péché humain ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu punit les frères de Joseph immédiatement"
+        },
+        {
+          "id": "b",
+          "text": "Joseph dit à ses frères : ce que vous avez voulu me faire du mal, Dieu l'a voulu pour le bien"
+        },
+        {
+          "id": "c",
+          "text": "Dieu efface le péché des frères sans conséquences"
+        },
+        {
+          "id": "d",
+          "text": "Joseph refusa de pardonner jusqu'à la mort de son père"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joseph révèle la providence divine : « Vous aviez pensé me faire du mal, mais Dieu a pensé le tourner en bien » (Genèse 50:20) — type du don de Christ pour le salut.",
+      "bibleReference": "Genèse 50:20",
+      "normalizedRef": "gen50.20",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "docId": "dq-guer-001_ht",
+    "data": {
+      "id": "dq-guer-001",
+      "questionText": "Ki lavil miray li te tonbe apre Izrayèl te fè wonn li pandan sèt jou?",
+      "categoryId": "guerras",
+      "categoryName": "Gè ak Konkèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ayi"
+        },
+        {
+          "id": "b",
+          "text": "Jeriko"
+        },
+        {
+          "id": "c",
+          "text": "Gabaon"
+        },
+        {
+          "id": "d",
+          "text": "Jerizalèm"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozye 6:20 — Pèp la rele fò, prèt yo kònen kòn yo... miray lavil la tonbe plat atè.",
+      "bibleReference": "Jozye 6:20"
+    }
+  },
+  {
+    "docId": "dq-guer-001_fr",
+    "data": {
+      "id": "dq-guer-001",
+      "questionText": "De quelle ville les murs sont-ils tombés après que les Israélites en ont fait le tour pendant sept jours ?",
+      "categoryId": "guerras",
+      "categoryName": "Guerres et Conquêtes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aï"
+        },
+        {
+          "id": "b",
+          "text": "Jéricho"
+        },
+        {
+          "id": "c",
+          "text": "Gabaon"
+        },
+        {
+          "id": "d",
+          "text": "Jérusalem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Josué 6:20 — Le peuple poussa des cris, et les prêtres sonnèrent des trompettes... la muraille s'écroula.",
+      "bibleReference": "Josué 6:20"
+    }
+  },
+  {
+    "docId": "dq-guer-002_ht",
+    "data": {
+      "id": "dq-guer-002",
+      "questionText": "Konbyen sòlda Gedeon te genyen nan fen an pou l goumen kont Madyanit yo?",
+      "categoryId": "guerras",
+      "categoryName": "Gè ak Konkèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "32,000"
+        },
+        {
+          "id": "b",
+          "text": "10,000"
+        },
+        {
+          "id": "c",
+          "text": "300"
+        },
+        {
+          "id": "d",
+          "text": "1,000"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jij 7:7 — Bondye di Gedeon: \"Se avèk twasan gason sa yo m’ap sove nou.\"",
+      "bibleReference": "Jij 7:7"
+    }
+  },
+  {
+    "docId": "dq-guer-002_fr",
+    "data": {
+      "id": "dq-guer-002",
+      "questionText": "De combien de soldats Gédéon disposait-il finalement pour combattre les Madianites ?",
+      "categoryId": "guerras",
+      "categoryName": "Guerres et Conquêtes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "32 000"
+        },
+        {
+          "id": "b",
+          "text": "10 000"
+        },
+        {
+          "id": "c",
+          "text": "300"
+        },
+        {
+          "id": "d",
+          "text": "1 000"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Juges 7:7 — L'Éternel dit à Gédéon : « C'est par les trois cents hommes... que je vous sauverai. »",
+      "bibleReference": "Juges 7:7"
+    }
+  },
+  {
+    "docId": "dq-guer-003_ht",
+    "data": {
+      "id": "dq-guer-003",
+      "questionText": "Ki zam Gedeon ak sòlda li yo te itilize pou fè lènmi yo panike?",
+      "categoryId": "guerras",
+      "categoryName": "Gè ak Konkèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Epe ak plak pwotèj"
+        },
+        {
+          "id": "b",
+          "text": "Kòn belye, krich ak flanbo"
+        },
+        {
+          "id": "c",
+          "text": "Arc ak flèch"
+        },
+        {
+          "id": "d",
+          "text": "Charyo fè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jij 7:16 — Li bay chak moun yon kòn, yon krich vid ak yon flanbo andedan krich la.",
+      "bibleReference": "Jij 7:16"
+    }
+  },
+  {
+    "docId": "dq-guer-003_fr",
+    "data": {
+      "id": "dq-guer-003",
+      "questionText": "Quels instruments Gédéon et ses soldats ont-ils utilisés pour semer la panique chez l'ennemi ?",
+      "categoryId": "guerras",
+      "categoryName": "Guerres et Conquêtes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Épées et boucliers"
+        },
+        {
+          "id": "b",
+          "text": "Trompettes, cruches et flambeaux"
+        },
+        {
+          "id": "c",
+          "text": "Arcs et flèches"
+        },
+        {
+          "id": "d",
+          "text": "Chars de fer"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Juges 7:16 — Il leur distribua à tous des trompettes et des cruches vides, avec des flambeaux dans les cruches.",
+      "bibleReference": "Juges 7:16"
+    }
+  },
+  {
+    "docId": "dq-guer-004_ht",
+    "data": {
+      "id": "dq-guer-004",
+      "questionText": "Ki wa ki te pèdi lavi li nan batay sou Mòn Gilboa kont Filisti yo?",
+      "categoryId": "guerras",
+      "categoryName": "Gè ak Konkèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sayil"
+        },
+        {
+          "id": "b",
+          "text": "David"
+        },
+        {
+          "id": "c",
+          "text": "Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Jozyas"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "1 Samyèl 31:1-6 — Filisti yo goumen kont Izrayèl... Sayil ak twa pitit gason li mouri menm jou a.",
+      "bibleReference": "1 Samyèl 31:6"
+    }
+  },
+  {
+    "docId": "dq-guer-004_fr",
+    "data": {
+      "id": "dq-guer-004",
+      "questionText": "Quel roi a perdu la vie lors de la bataille contre les Philistins sur le mont Guilboa ?",
+      "categoryId": "guerras",
+      "categoryName": "Guerres et Conquêtes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Saül"
+        },
+        {
+          "id": "b",
+          "text": "David"
+        },
+        {
+          "id": "c",
+          "text": "Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Josias"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "1 Samuel 31:1-6 — Les Philistins livrèrent bataille à Israël... Saül et ses trois fils périrent en ce même jour.",
+      "bibleReference": "1 Samuel 31:6"
+    }
+  },
+  {
+    "docId": "dq-guer-005_ht",
+    "data": {
+      "id": "dq-guer-005",
+      "questionText": "Ki moun ki te mennen lame Izrayèl la pou pran lavil Ayi apre yo te fin echwe premye fwa a?",
+      "categoryId": "guerras",
+      "categoryName": "Gè ak Konkèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "Jozye"
+        },
+        {
+          "id": "c",
+          "text": "Kalèb"
+        },
+        {
+          "id": "d",
+          "text": "Akàn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozye 8:1 — Bondye di Jozye: \"Pran tout lame a avèk ou, moute al atake Ayi.\"",
+      "bibleReference": "Jozye 8:1"
+    }
+  },
+  {
+    "docId": "dq-guer-005_fr",
+    "data": {
+      "id": "dq-guer-005",
+      "questionText": "Qui a mené l'armée d'Israël pour prendre la ville d'Aï après l'échec de la première tentative ?",
+      "categoryId": "guerras",
+      "categoryName": "Guerres et Conquêtes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Josué"
+        },
+        {
+          "id": "c",
+          "text": "Caleb"
+        },
+        {
+          "id": "d",
+          "text": "Acan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Josué 8:1 — L'Éternel dit à Josué : « Prends avec toi tous les gens de guerre... et monte contre Aï. »",
+      "bibleReference": "Josué 8:1"
+    }
+  },
+  {
+    "docId": "dq-hech-001_ht",
+    "data": {
+      "id": "dq-hech-001",
+      "questionText": "Ki premye kretyen yo te martirizé?",
+      "categoryId": "hechos",
+      "categoryName": "Travay",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyè"
+        },
+        {
+          "id": "b",
+          "text": "Jak pitit fi Zebede a"
+        },
+        {
+          "id": "c",
+          "text": "Etyen"
+        },
+        {
+          "id": "d",
+          "text": "Jan"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Travay 7:54-60 — Etyen, youn nan sèt dyak yo, te lapide pa Sanedren an. Dènyè pawòl li: \"Seyè Jezi, resevwa lespri mwen.\" Pòl (Saul) te la kòm temwen.",
+      "bibleReference": "Travay 7:59-60",
+      "normalizedRef": "act7.59-60",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-001_fr",
+    "data": {
+      "id": "dq-hech-001",
+      "questionText": "Qui était Étienne dans l'Église primitive ?",
+      "categoryId": "hechos",
+      "categoryName": "Personnages du NT",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le quatrième apôtre choisi par Jésus"
+        },
+        {
+          "id": "b",
+          "text": "Le premier martyr chrétien et l'un des sept diacres"
+        },
+        {
+          "id": "c",
+          "text": "Le compagnon de Paul dans ses voyages"
+        },
+        {
+          "id": "d",
+          "text": "Le frère de Jacques et Jean"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Étienne, rempli de la foi et du Saint-Esprit, fut l'un des sept diacres et le premier martyr chrétien — lapidé après un discours devant le Sanhédrin (Actes 6-7).",
+      "bibleReference": "Actes 7:59-60",
+      "normalizedRef": "act7.59-60",
+      "normalizedCat": "personajes-nt"
+    }
+  },
+  {
+    "docId": "dq-hech-002_ht",
+    "data": {
+      "id": "dq-hech-002",
+      "questionText": "Ki sa konvèsyon Pòl (Saul) sou wout Damas montre?",
+      "categoryId": "hechos",
+      "categoryName": "Travay",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gras Bondye pa kapab chanje pèsekitè"
+        },
+        {
+          "id": "b",
+          "text": "Gras Bondye ka chanje nenpòt moun — menm pi gran pèsekitè legliz la"
+        },
+        {
+          "id": "c",
+          "text": "Pòl te toujou yon bon moun ann kache"
+        },
+        {
+          "id": "d",
+          "text": "Saul te toujou renmen Jezi prive"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 9:1-19 — Saul te kouri pèsekite legliz la lè Jezi parèt ba li: \"Saul, Saul, poukisa ou pèsekite mwen?\" Metamòfoz konplèt — pi gwo misyonè NT.",
+      "bibleReference": "Travay 9:3-5",
+      "normalizedRef": "act9.3-5",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-002_fr",
+    "data": {
+      "id": "dq-hech-002",
+      "questionText": "Où Paul eut-il sa vision de Jésus sur le chemin de Damas ?",
+      "categoryId": "hechos",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sur la route de Jérusalem"
+        },
+        {
+          "id": "b",
+          "text": "Sur le chemin de Damas"
+        },
+        {
+          "id": "c",
+          "text": "Près d'Antioche de Syrie"
+        },
+        {
+          "id": "d",
+          "text": "À Tarse sa ville natale"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Saül de Tarse, en route vers Damas, fut renversé par une lumière et entendit la voix de Jésus (Actes 9:3-5).",
+      "bibleReference": "Actes 9:3-5",
+      "normalizedRef": "act9.3-5",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "docId": "dq-hech-003_ht",
+    "data": {
+      "id": "dq-hech-003",
+      "questionText": "Ki sa prezantatyon Pòl nan Areopaj Atèn (Travay 17) montre?",
+      "categoryId": "hechos",
+      "categoryName": "Travay",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pòl te evite filozofi grèk la"
+        },
+        {
+          "id": "b",
+          "text": "Pòl itilize kulti Grèk yo (lòtèl dye enkoni an) kòm pwen kontak pou prezante Kris"
+        },
+        {
+          "id": "c",
+          "text": "Tout Grèk yo te konvèti"
+        },
+        {
+          "id": "d",
+          "text": "Pòl te silensiez pa Stoïsyen yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 17:22-31 — Pòl kòmanse ak obèy Grèk yo (dye yo, pwezi Aratos), epi kondui yo Kris. Modèl enkelturasyon: itilize pwen kontak kiltirèl pou prezante verite biblik.",
+      "bibleReference": "Travay 17:22-31",
+      "normalizedRef": "act17.22-31",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-003_fr",
+    "data": {
+      "id": "dq-hech-003",
+      "questionText": "Que fit Paul à Athènes pour présenter l'Évangile aux philosophes grecs (Actes 17) ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il cita uniquement les prophéties de l'AT"
+        },
+        {
+          "id": "b",
+          "text": "Il utilisa leur autel « Au dieu inconnu » et des poètes grecs comme pont pour annoncer le Dieu créateur et la résurrection"
+        },
+        {
+          "id": "c",
+          "text": "Il effectua des miracles pour prouver son message"
+        },
+        {
+          "id": "d",
+          "text": "Il débattit en araméen avec des philosophes stoïciens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul à l'Aréopage cita l'autel « À un dieu inconnu » et le poète grec Aratos — approche contextuelle pour annoncer le Créateur, le jugement et la résurrection (Actes 17:23,28).",
+      "bibleReference": "Actes 17:22-31",
+      "normalizedRef": "act17.22-31",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-004_ht",
+    "data": {
+      "id": "dq-hech-004",
+      "questionText": "Ki kòmandman Jezi te bay disip yo anvan sansyon li nan Travay 1?",
+      "categoryId": "hechos",
+      "categoryName": "Travay",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ale imedyatman nan tout nasyon"
+        },
+        {
+          "id": "b",
+          "text": "Rete Jerizalèm epi tann pwomès Papa — Lespri Sen"
+        },
+        {
+          "id": "c",
+          "text": "Bati yon gran tanp nouvo"
+        },
+        {
+          "id": "d",
+          "text": "Ekri tout li te anseye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 1:4-5 — \"Pa kite Jerizalèm, men tann pwomès Papa a... nan kèk jou nou pral batize nan Lespri Sen.\" Premye pase anvan misyon an.",
+      "bibleReference": "Travay 1:4-5",
+      "normalizedRef": "act1.4-5",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-004_fr",
+    "data": {
+      "id": "dq-hech-004",
+      "questionText": "Quel commandement Jésus a-t-il donné aux disciples avant son ascension dans Actes 1 ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Allez immédiatement vers toutes les nations"
+        },
+        {
+          "id": "b",
+          "text": "Restez à Jérusalem et attendez la promesse du Père — le Saint-Esprit"
+        },
+        {
+          "id": "c",
+          "text": "Bâtissez un grand temple nouveau"
+        },
+        {
+          "id": "d",
+          "text": "Écrivez tout ce qu'il a enseigné"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 1:4-5 — « Ne vous éloignez pas de Jérusalem, mais attendez ce que le Père a promis... dans peu de jours, vous serez baptisés du Saint-Esprit. » Étape préalable avant la mission.",
+      "bibleReference": "Travay 1:4-5",
+      "normalizedRef": "act1.4-5",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-005_ht",
+    "data": {
+      "id": "dq-hech-005",
+      "questionText": "Konbyen moun te konvèti jou Pantekovòt la?",
+      "categoryId": "hechos",
+      "categoryName": "Travay",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "120"
+        },
+        {
+          "id": "b",
+          "text": "500"
+        },
+        {
+          "id": "c",
+          "text": "3000"
+        },
+        {
+          "id": "d",
+          "text": "5000"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Travay 2:41 — \"Moun ki te aksepte pawòl Pyè a te batize, epi jou sa a te gen anviwon twa mil âme ki te ajoute nan nomb yo.\"",
+      "bibleReference": "Travay 2:41",
+      "normalizedRef": "act2.41",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-005_fr",
+    "data": {
+      "id": "dq-hech-005",
+      "questionText": "Combien de personnes se sont converties le jour de la Pentecôte ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "120"
+        },
+        {
+          "id": "b",
+          "text": "500"
+        },
+        {
+          "id": "c",
+          "text": "3000"
+        },
+        {
+          "id": "d",
+          "text": "5000"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Actes 2:41 — « Ceux qui acceptèrent sa parole furent baptisés ; et, en ce jour-là, le nombre des disciples s'augmenta d'environ trois mille âmes. »",
+      "bibleReference": "Travay 2:41",
+      "normalizedRef": "act2.41",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-006_ht",
+    "data": {
+      "id": "dq-hech-006",
+      "questionText": "Ki siyifikasyon konvèsyon Kònetiy (Travay 10)?",
+      "categoryId": "hechos",
+      "categoryName": "Travay",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Premye Jwif ki vin kretyen"
+        },
+        {
+          "id": "b",
+          "text": "Premye Jantil ki vin kretyen ofisyèlman — Bondye pa gen favoritisme ant nasyon"
+        },
+        {
+          "id": "c",
+          "text": "Premye militè ki vin kretyen"
+        },
+        {
+          "id": "d",
+          "text": "Premye batèm nan yon kay prive"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 10:34-35 — Pyè reyalize: \"Bondye pa gen favoritisme, men nan chak nasyon moun ki gen krentif pou li ak ki fè jistis akseptab ba li.\" Evanjil la pou tout nasyon.",
+      "bibleReference": "Travay 10:34-35",
+      "normalizedRef": "act10.34-35",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-006_fr",
+    "data": {
+      "id": "dq-hech-006",
+      "questionText": "Quelle est la signification de la conversion de Corneille (Actes 10) ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le premier Juif à devenir chrétien"
+        },
+        {
+          "id": "b",
+          "text": "Le premier Gentil à devenir chrétien officiellement — Dieu ne fait pas de favoritisme entre les nations"
+        },
+        {
+          "id": "c",
+          "text": "Le premier militaire à devenir chrétien"
+        },
+        {
+          "id": "d",
+          "text": "Le premier baptême dans une maison privée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 10:34-35 — Pierre réalise : « Dieu ne fait point d'acception de personnes, mais qu'en toute nation celui qui le craint et qui pratique la justice lui est agréable. » L'Évangile est pour toutes les nations.",
+      "bibleReference": "Travay 10:34-35",
+      "normalizedRef": "act10.34-35",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-007_ht",
+    "data": {
+      "id": "dq-hech-007",
+      "questionText": "Ki sa Pòl te di jòliye Filipi yo lè yo mande kijan pou yo sove?",
+      "categoryId": "hechos",
+      "categoryName": "Travay",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Sikonsi ou menm ak fanmi ou\""
+        },
+        {
+          "id": "b",
+          "text": "\"Kwè nan Seyè Jezi Kris epi ou pral sove — ou menm ak kay ou\""
+        },
+        {
+          "id": "c",
+          "text": "\"Jène pandan sèt jou\""
+        },
+        {
+          "id": "d",
+          "text": "\"Travay pou Seyè a\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 16:31 — Jòliye a te mande: \"Ki sa mwen dwe fè pou sove?\" Pòl ak Silas reponn: \"Kwè nan Seyè Jezi Kris epi ou pral sove — ou ak kay ou.\"",
+      "bibleReference": "Travay 16:31",
+      "normalizedRef": "act16.31",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-007_fr",
+    "data": {
+      "id": "dq-hech-007",
+      "questionText": "Qu'est-ce que Paul a dit au geôlier de Philippes quand celui-ci a demandé comment être sauvé ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Circoncis-toi, toi et ta famille »"
+        },
+        {
+          "id": "b",
+          "text": "« Crois au Seigneur Jésus, et tu seras sauvé, toi et ta famille »"
+        },
+        {
+          "id": "c",
+          "text": "« Jeûne pendant sept jours »"
+        },
+        {
+          "id": "d",
+          "text": "« Travaille pour le Seigneur »"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 16:31 — Le geôlier avait demandé : « Que faut-il que je fasse pour être sauvé ? » Paul et Silas répondirent : « Crois au Seigneur Jésus, et tu seras sauvé, toi et ta famille. »",
+      "bibleReference": "Travay 16:31",
+      "normalizedRef": "act16.31",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-008_ht",
+    "data": {
+      "id": "dq-hech-008",
+      "questionText": "Ki sa Lk vle montre ak Travay Apòt yo?",
+      "categoryId": "hechos",
+      "categoryName": "Travay",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pwosè Pòl sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Ekspansyon Evanjil la soti Jerizalèm jiska Wòm — travay Lespri Sen nan legliz la"
+        },
+        {
+          "id": "c",
+          "text": "Istwa 12 apòt yo sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Règ ak regleman legliz premye a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 1:8 — \"Nou pral temwen mwen Jerizalèm, Jide, Samari, ak jis bout tè a.\" Lk montre pwogresyon jeyografik ak teyolojik Evanjil la, gide pa Lespri Sen.",
+      "bibleReference": "Travay 1:8",
+      "normalizedRef": "act1.8",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-008_fr",
+    "data": {
+      "id": "dq-hech-008",
+      "questionText": "Que veut montrer Luc avec les Actes des Apôtres ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le procès de Paul seulement"
+        },
+        {
+          "id": "b",
+          "text": "L'expansion de l'Évangile de Jérusalem jusqu'à Rome — l'œuvre du Saint-Esprit dans l'église"
+        },
+        {
+          "id": "c",
+          "text": "L'histoire des 12 apôtres seulement"
+        },
+        {
+          "id": "d",
+          "text": "Les règles et règlements de l'église primitive"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 1:8 — « Vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu'aux extrémités de la terre. » Luc montre la progression géographique et théologique de l'Évangile, guidée par le Saint-Esprit.",
+      "bibleReference": "Travay 1:8",
+      "normalizedRef": "act1.8",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-009_ht",
+    "data": {
+      "id": "dq-hech-009",
+      "questionText": "Kilès ki te ekri liv Travay Apòt yo?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pòl"
+        },
+        {
+          "id": "b",
+          "text": "Pyè"
+        },
+        {
+          "id": "c",
+          "text": "Lik"
+        },
+        {
+          "id": "d",
+          "text": "Jan"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Liv Travay la se dezyèm volim Lik la — li te ekri l pou Téofil menm jan ak Levanjil Lik la (Travay 1:1; Lik 1:3).",
+      "bibleReference": "Travay 1:1",
+      "normalizedRef": "act1.1",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-009_fr",
+    "data": {
+      "id": "dq-hech-009",
+      "questionText": "Qui écrivit le livre des Actes des Apôtres ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paul"
+        },
+        {
+          "id": "b",
+          "text": "Pierre"
+        },
+        {
+          "id": "c",
+          "text": "Luc"
+        },
+        {
+          "id": "d",
+          "text": "Jean"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le livre des Actes est le second volume de Luc — adressé à Théophile comme l'Évangile de Luc (Actes 1:1; Luc 1:3).",
+      "bibleReference": "Actes 1:1",
+      "normalizedRef": "act1.1",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-010_ht",
+    "data": {
+      "id": "dq-hech-010",
+      "questionText": "Ki mirak Pyè te fè nan bèl Pòt Tanp lan (Travay 3)?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te geri yon avèg depi nan vant manman l"
+        },
+        {
+          "id": "b",
+          "text": "Li te resisite yon mò"
+        },
+        {
+          "id": "c",
+          "text": "Li te geri yon moun ki te bwate depi nan vant manman l ki te kòmanse mache, sote e fè lwanj pou Bondye"
+        },
+        {
+          "id": "d",
+          "text": "Li te bay yon foul moun ki te grangou manje"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pyè ak Jan te geri nan non Jezi yon nonm ki te bwate depi nan vant manman l devan bèl Pòt Tanp lan. Li te sote, li mache e li fè lwanj pou Bondye (Travay 3:6-8).",
+      "bibleReference": "Travay 3:6-8",
+      "normalizedRef": "act3.6-8",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-010_fr",
+    "data": {
+      "id": "dq-hech-010",
+      "questionText": "Quel miracle accomplit Pierre à la Belle Porte du Temple (Actes 3) ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il guérit un aveugle de naissance"
+        },
+        {
+          "id": "b",
+          "text": "Il ressuscita un mort"
+        },
+        {
+          "id": "c",
+          "text": "Il guérit un boiteux de naissance qui marchait, sautait et louait Dieu"
+        },
+        {
+          "id": "d",
+          "text": "Il nourrit une multitude affamée"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pierre et Jean guérirent au nom de Jésus un homme boiteux de naissance devant la Belle Porte du Temple. Il bondit, marcha et loua Dieu (Actes 3:6-8).",
+      "bibleReference": "Actes 3:6-8",
+      "normalizedRef": "act3.6-8",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-011_ht",
+    "data": {
+      "id": "dq-hech-011",
+      "questionText": "Kisa konvèsyon Pòl sou wout Damas la montre sou misyon Legliz la?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ke Bondye rele sèlman moun ki pafè"
+        },
+        {
+          "id": "b",
+          "text": "Ke Bondye ka transfòme pi gwo pèsekitè yo an apòt — gras li se souveren"
+        },
+        {
+          "id": "c",
+          "text": "Ke pèsekisyon nesesè pou Legliz la grandi"
+        },
+        {
+          "id": "d",
+          "text": "Ke Jerizalèm rete sant misyon mondyal la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pòl, ki te yon gwo pèsekitè Legliz la, te transfòme apre l te rankontre Kris ki te resisite a — li te vin apòt nasyon yo, sa montre souverènte gras Bondye a (Travay 9:1-20; Galat 1:13-16).",
+      "bibleReference": "Travay 9:1-20",
+      "normalizedRef": "act9.1-20",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-011_fr",
+    "data": {
+      "id": "dq-hech-011",
+      "questionText": "Qu'est-ce que la conversion de Paul sur le chemin de Damas démontre sur la mission de l'Église ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Que Dieu n'appelle que des gens parfaits"
+        },
+        {
+          "id": "b",
+          "text": "Que Dieu peut transformer les pires persécuteurs en apôtres — sa grâce est souveraine"
+        },
+        {
+          "id": "c",
+          "text": "Que la persécution est nécessaire pour la croissance de l'Église"
+        },
+        {
+          "id": "d",
+          "text": "Que Jérusalem reste le centre de la mission mondiale"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul, grand persécuteur de l'Église, fut transformé par une rencontre avec le Christ ressuscité — devenant l'apôtre des nations, démontrant la souveraineté de la grâce (Actes 9:1-20; Galates 1:13-16).",
+      "bibleReference": "Actes 9:1-20",
+      "normalizedRef": "act9.1-20",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-012_ht",
+    "data": {
+      "id": "dq-hech-012",
+      "questionText": "Ki desizyon konsil Jerizalèm lan te pran konsènan kwayan ki pa jwif yo (Travay 15)?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kwayan ki pa jwif yo te dwe sikonsi e swiv tout Lalwa a"
+        },
+        {
+          "id": "b",
+          "text": "Kwayan ki pa jwif yo pa t oblije sikonsi — yo te dwe sèlman evite sèten pratik zidòl"
+        },
+        {
+          "id": "c",
+          "text": "Kwayan ki pa jwif yo te dwe kòmanse pa vin jwif"
+        },
+        {
+          "id": "d",
+          "text": "Sikonsizyon te rekòmande men li pa t oblije"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Konsil la te deside: kwayan ki pa jwif yo pa bezwen sikonsi, men yo dwe evite vyann ki sèvi sakrifis pou zidòl, san, bèt trangle ak imoralite (Travay 15:19-20).",
+      "bibleReference": "Travay 15:19-20",
+      "normalizedRef": "act15.19-20",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-012_fr",
+    "data": {
+      "id": "dq-hech-012",
+      "questionText": "Quelle fut la décision du concile de Jérusalem concernant les gentils croyants (Actes 15) ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les gentils devaient se circoncire et garder toute la Loi"
+        },
+        {
+          "id": "b",
+          "text": "Les gentils n'étaient pas obligés de se circoncire — seulement s'abstenir de certaines pratiques idolâtres"
+        },
+        {
+          "id": "c",
+          "text": "Les gentils devaient d'abord devenir prosélytes juifs"
+        },
+        {
+          "id": "d",
+          "text": "La circoncision était recommandée mais pas obligatoire"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le concile décida : les gentils ne doivent pas se circoncire, mais s'abstenir des viandes sacrifiées aux idoles, du sang, des bêtes étouffées et de l'immoralité (Actes 15:19-20).",
+      "bibleReference": "Actes 15:19-20",
+      "normalizedRef": "act15.19-20",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-013_ht",
+    "data": {
+      "id": "dq-hech-013",
+      "questionText": "Ki mirak ki te fèt lè Pòl ak Silas te nan prizon nan vil Filipi?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon zanj te pote manje pou yo"
+        },
+        {
+          "id": "b",
+          "text": "Yon tranblemanntè louvri pòt yo e li dekole chenn yo — gadyen prizon an konvèti"
+        },
+        {
+          "id": "c",
+          "text": "Yo te vin envizib e yo te mache soti"
+        },
+        {
+          "id": "d",
+          "text": "Yon gwo limyè te avèg tout gad yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pandan yo t ap chante lwanj nan mitan lannwit, yon tranblemanntè te fèt. Gadyen an te prèt pou l touye tèt li, men Pòl te anpeche l e gadyen an ak tout fanmi l te batize (Travay 16:25-34).",
+      "bibleReference": "Travay 16:25-34",
+      "normalizedRef": "act16.25-34",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-013_fr",
+    "data": {
+      "id": "dq-hech-013",
+      "questionText": "Quel miracle se produisit lors de l'emprisonnement de Paul et Silas à Philippes ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un ange leur apporta de la nourriture"
+        },
+        {
+          "id": "b",
+          "text": "Un tremblement de terre ouvrit les portes et délia leurs chaînes — le geôlier se convertit"
+        },
+        {
+          "id": "c",
+          "text": "Ils furent rendus invisibles et s'échappèrent"
+        },
+        {
+          "id": "d",
+          "text": "La foule se retourna en leur faveur et les libéra"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Un grand tremblement de terre ouvrit les portes. Le geôlier, prêt à se tuer, se convertit avec sa maison après la réponse de Paul : « Crois au Seigneur Jésus » (Actes 16:26-34).",
+      "bibleReference": "Actes 16:26-34",
+      "normalizedRef": "act16.26-34",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-014_ht",
+    "data": {
+      "id": "dq-hech-014",
+      "questionText": "Kisa Jezi te di apòt yo nan Travay 1:8 konsènan resevwa Sentespri a?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ke yo t ap vin rich"
+        },
+        {
+          "id": "b",
+          "text": "Ke yo t ap resevwa pouvwa pou yo sèvi l temwen jouk nan bout latè"
+        },
+        {
+          "id": "c",
+          "text": "Ke yo t ap mouri touswit"
+        },
+        {
+          "id": "d",
+          "text": "Ke yo t ap sispann gen pwoblèm"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jezi te pwomèt pouvwa Sentespri a pou temwayaj mondyal: Jerizalèm, Jide, Samari, ak dènye bout latè (Travay 1:8).",
+      "bibleReference": "Travay 1:8",
+      "normalizedRef": "act1.8",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-014_fr",
+    "data": {
+      "id": "dq-hech-014",
+      "questionText": "Comment se termina le livre des Actes et quelle est sa signification théologique ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Avec la mort de Paul à Rome"
+        },
+        {
+          "id": "b",
+          "text": "Avec Paul prêchant librement à Rome — l'Évangile non enchaîné atteignant la capitale de l'Empire"
+        },
+        {
+          "id": "c",
+          "text": "Avec le retour des apôtres à Jérusalem"
+        },
+        {
+          "id": "d",
+          "text": "Avec la destruction de Jérusalem en 70 ap. J.-C."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les Actes s'ouvrent à Jérusalem et se ferment à Rome — Paul prêche sans entrave dans la capitale de l'Empire : « La Parole de Dieu n'est pas enchaînée » (Actes 28:30-31; 2 Timothée 2:9).",
+      "bibleReference": "Actes 28:30-31",
+      "normalizedRef": "act28.30-31",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-015_ht",
+    "data": {
+      "id": "dq-hech-015",
+      "questionText": "Ki pèsonaj yo te chwazi pou ranplase Jida Iskariòt pami douz apòt yo?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pòl"
+        },
+        {
+          "id": "b",
+          "text": "Matyas"
+        },
+        {
+          "id": "c",
+          "text": "Banabas"
+        },
+        {
+          "id": "d",
+          "text": "Sila"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apre yo te fin priye e yo te jete tiraj osò, yo te chwazi Matyas pou l te ka fè pati douz la ansanm ak lòt onz yo (Travay 1:23-26).",
+      "bibleReference": "Travay 1:23-26",
+      "normalizedRef": "act1.23-26",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-015_fr",
+    "data": {
+      "id": "dq-hech-015",
+      "questionText": "Quel conflit théologique entre Pierre et Paul à Antioche (Galates 2) illustre la nécessité du concile de Jérusalem ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre refusait de baptiser les gentils"
+        },
+        {
+          "id": "b",
+          "text": "Pierre se sépara des gentils quand des gens de Jacques arrivèrent — Paul le reprit publiquement pour son manque d'intégrité évangélique"
+        },
+        {
+          "id": "c",
+          "text": "Pierre insistait pour que Paul se circoncise"
+        },
+        {
+          "id": "d",
+          "text": "Pierre refusait de reconnaître l'apostolat de Paul"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pierre mangeait avec les gentils puis s'en sépara par crainte des circoncis. Paul le reprit publiquement : sa conduite ne correspondait pas à la vérité de l'Évangile — la justification par la foi (Galates 2:11-14).",
+      "bibleReference": "Galates 2:11-14",
+      "normalizedRef": "gal2.11-14",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-016_ht",
+    "data": {
+      "id": "dq-hech-016",
+      "questionText": "Ki premye mati kretyen ki te mouri anba kout ròch pandan li t ap preche (Travay 7)?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jak"
+        },
+        {
+          "id": "b",
+          "text": "Etyèn"
+        },
+        {
+          "id": "c",
+          "text": "Filip"
+        },
+        {
+          "id": "d",
+          "text": "Filémon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Etyèn, youn nan sèt dyak yo, te mouri anba kout ròch apre yon diskou long devan Gran Konsèy la (Travay 7:54-60).",
+      "bibleReference": "Travay 7:59-60",
+      "normalizedRef": "act7.59-60",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-016_fr",
+    "data": {
+      "id": "dq-hech-016",
+      "questionText": "Comment l'expansion missionnaire dans les Actes illustre-t-elle le rôle du Saint-Esprit ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Esprit valida seulement les miracles apostoliques"
+        },
+        {
+          "id": "b",
+          "text": "L'Esprit est l'agent actif de l'expansion : il envoie, dirige, ouvre des portes et habilite les témoins"
+        },
+        {
+          "id": "c",
+          "text": "L'Esprit limitait la mission aux frontières d'Israël"
+        },
+        {
+          "id": "d",
+          "text": "L'Esprit agissait uniquement à travers les Douze"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Esprit Saint est le protagoniste des Actes : il envoie Philippe (8:29), appelle Paul et Barnabas (13:2), guide les voyages (16:6-7), tombe sur les maisons (10:44) — « Actes de l'Esprit Saint ».",
+      "bibleReference": "Actes 13:2",
+      "normalizedRef": "act13.2",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-017_ht",
+    "data": {
+      "id": "dq-hech-017",
+      "questionText": "Ki mirak ki te fèt nan vil Jope ak yon fi ki te rele Tabita (Dòkas)?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo geri l de lafyèv"
+        },
+        {
+          "id": "b",
+          "text": "Pyè resisite l apre li te fin mouri"
+        },
+        {
+          "id": "c",
+          "text": "Li te kòmanse pale tout lang"
+        },
+        {
+          "id": "d",
+          "text": "Li te fè yon mirak miltiplikasyon pen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tabita te yon fi ki te konn fè anpil byen. Apre li mouri, Pyè te priye e li di: « Tabita, leve! » e li te resisite (Travay 9:36-41).",
+      "bibleReference": "Travay 9:36-41",
+      "normalizedRef": "act9.36-41",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-017_fr",
+    "data": {
+      "id": "dq-hech-017",
+      "questionText": "Quel est le lien entre les Actes 2 (Pentecôte) et Lévitique 23 (Shavouot) ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aucun — la Pentecôte chrétienne est une fête entièrement nouvelle"
+        },
+        {
+          "id": "b",
+          "text": "Shavouot (Pentecôte juive) célébrait le don de la Loi au Sinaï — la Pentecôte chrétienne est le don de l'Esprit qui l'écrit dans les cœurs (Jérémie 31:33)"
+        },
+        {
+          "id": "c",
+          "text": "Les deux fêtes sont célébrées le même jour par hasard calendaire"
+        },
+        {
+          "id": "d",
+          "text": "Shavouot était la fête des prémices ; la Pentecôte annonce la fin des sacrifices"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Shavouot (50 jours après Pessah) célébrait le don de la Torah au Sinaï. La Pentecôte chrétienne, 50 jours après Pâques, est le don de l'Esprit — loi écrite dans les cœurs selon Jérémie 31:33.",
+      "bibleReference": "Jérémie 31:33",
+      "normalizedRef": "jer31.33",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-018_ht",
+    "data": {
+      "id": "dq-hech-018",
+      "questionText": "Kisa ki te rive Ananyas ak Safira lè yo te manti bay Sentespri a sou pri yon tè yo te vann ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo te mete yo deyò nan legliz la"
+        },
+        {
+          "id": "b",
+          "text": "Yo te tonbe mouri touswit youn apre lòt"
+        },
+        {
+          "id": "c",
+          "text": "Yo te pèdi tout byen yo"
+        },
+        {
+          "id": "d",
+          "text": "Yo te mande yo padon piblik"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yo te kenbe yon pati nan lajan an pandan yo te fè konnen yo bay tout. Pyè te di yo manti bay Bondye, e yo te tonbe mouri (Travay 5:1-11).",
+      "bibleReference": "Travay 5:1-11",
+      "normalizedRef": "act5.1-11",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-018_fr",
+    "data": {
+      "id": "dq-hech-018",
+      "questionText": "Quel est le nom de l'homme qui est mort subitement après avoir menti à l'apôtre Pierre sur le prix d'un terrain ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Étienne"
+        },
+        {
+          "id": "b",
+          "text": "Ananias"
+        },
+        {
+          "id": "c",
+          "text": "Barnabas"
+        },
+        {
+          "id": "d",
+          "text": "Silas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ananias et sa femme Saphira sont morts pour avoir menti au Saint-Esprit concernant une offrande (Actes 5).",
+      "bibleReference": "Actes 5:1-5",
+      "normalizedRef": "act5.1-5",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-019_ht",
+    "data": {
+      "id": "dq-hech-019",
+      "questionText": "Nan ki vil Pyè te gen vizyon gwo dra ki desann sot nan syèl la ak tout kalite bèt ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "Jope"
+        },
+        {
+          "id": "c",
+          "text": "Sezare"
+        },
+        {
+          "id": "d",
+          "text": "Antyòch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pyè te sou tèt kay Simon, bòs tanè a, nan Jope lè li te fè vizyon sa a ki te montre l ke Bondye pa fè paspouki pou okenn nasyon (Travay 10:9-16).",
+      "bibleReference": "Travay 10:9-16",
+      "normalizedRef": "act10.9-16",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-019_fr",
+    "data": {
+      "id": "dq-hech-019",
+      "questionText": "Quelle était la profession de Tabitha (Dorcas), connue pour ses bonnes œuvres à Joppe ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vendeuse de pourpre"
+        },
+        {
+          "id": "b",
+          "text": "Couturière (faisait des tuniques et des vêtements)"
+        },
+        {
+          "id": "c",
+          "text": "Infirmière"
+        },
+        {
+          "id": "d",
+          "text": "Servante dans le temple"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Toutes les veuves l'entourèrent en pleurant, et lui montrèrent les tuniques et les vêtements que faisait Dorcas (Actes 9:39).",
+      "bibleReference": "Actes 9:36-39",
+      "normalizedRef": "act9.36-39",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-020_ht",
+    "data": {
+      "id": "dq-hech-020",
+      "questionText": "Kilès ki te premye ofisye janti (ki pa jwif) ki te resevwa Sentespri a apre Pyè te fin preche lakay li ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geòlye Filipi a"
+        },
+        {
+          "id": "b",
+          "text": "Kòneym (Cornélius)"
+        },
+        {
+          "id": "c",
+          "text": "Sèjiyis Pòlis"
+        },
+        {
+          "id": "d",
+          "text": "Minis rèn peyi Letiopi a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kòneym te yon kaptenn lame women an. Sentespri a te desann sou li ak tout fanmi l pandan Pyè t ap preche (Travay 10).",
+      "bibleReference": "Travay 10:44-48",
+      "normalizedRef": "act10.44-48",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-020_fr",
+    "data": {
+      "id": "dq-hech-020",
+      "questionText": "Qui a été choisi pour remplacer Judas Iscariote comme apôtre ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paul"
+        },
+        {
+          "id": "b",
+          "text": "Barnabas"
+        },
+        {
+          "id": "c",
+          "text": "Matthias"
+        },
+        {
+          "id": "d",
+          "text": "Étienne"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le sort tomba sur Matthias, qui fut associé aux onze apôtres (Actes 1:26).",
+      "bibleReference": "Actes 1:26",
+      "normalizedRef": "act1.26",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-021_ht",
+    "data": {
+      "id": "dq-hech-021",
+      "questionText": "Nan ki vil disip yo te resevwa non « Kretyen » pou premye fwa ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "Antyòch"
+        },
+        {
+          "id": "c",
+          "text": "Wòm"
+        },
+        {
+          "id": "d",
+          "text": "Efèz"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Se nan vil Antyòch disip yo te kòmanse pote non kretyen an pou premye fwa (Travay 11:26).",
+      "bibleReference": "Travay 11:26",
+      "normalizedRef": "act11.26",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-021_fr",
+    "data": {
+      "id": "dq-hech-021",
+      "questionText": "Qui était le premier centurion romain (païen) à recevoir le Saint-Esprit après la prédication de Pierre ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Corneille"
+        },
+        {
+          "id": "b",
+          "text": "Julius"
+        },
+        {
+          "id": "c",
+          "text": "Gallion"
+        },
+        {
+          "id": "d",
+          "text": "Lysias"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Corneille était un homme pieux dont les prières et les aumônes montèrent devant Dieu ; il fut le premier païen converti (Actes 10).",
+      "bibleReference": "Actes 10",
+      "normalizedRef": "act10",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-022_ht",
+    "data": {
+      "id": "dq-hech-022",
+      "questionText": "Ki mirak ki te rive lè Pyè te nan prizon anba lòd wa Ewòd (Travay 12) ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon tranblemanntè kraze prizon an"
+        },
+        {
+          "id": "b",
+          "text": "Yon zanj parèt, li fè chenn yo tonbe e li mennen l deyò"
+        },
+        {
+          "id": "c",
+          "text": "Gad yo te tounen kretyen e yo kite l ale"
+        },
+        {
+          "id": "d",
+          "text": "Pyè te disparèt vizib"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pandan legliz la t ap priye pou li, yon zanj te vin delivre Pyè nan mitan lannwit lan, li fè l soti nan prizon an san gad yo pa wè l (Travay 12:7-10).",
+      "bibleReference": "Travay 12:7-10",
+      "normalizedRef": "act12.7-10",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-022_fr",
+    "data": {
+      "id": "dq-hech-022",
+      "questionText": "Dans quelle ville les disciples ont-ils été appelés 'chrétiens' pour la première fois ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jérusalem"
+        },
+        {
+          "id": "b",
+          "text": "Antioche"
+        },
+        {
+          "id": "c",
+          "text": "Éphèse"
+        },
+        {
+          "id": "d",
+          "text": "Rome"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ce fut à Antioche que, pour la première fois, les disciples furent appelés chrétiens (Actes 11:26).",
+      "bibleReference": "Actes 11:26",
+      "normalizedRef": "act11.26",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-023_ht",
+    "data": {
+      "id": "dq-hech-023",
+      "questionText": "Ki kote Pòl te preche diskou li sou « Bondye nou pa konnen an » ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nan mache Korent lan"
+        },
+        {
+          "id": "b",
+          "text": "Nan mitan Areopaj la nan vil Atèn"
+        },
+        {
+          "id": "c",
+          "text": "Nan sinagòg Efèz la"
+        },
+        {
+          "id": "d",
+          "text": "Nan palè Seza a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pòl te sèvi ak yon lotèl yo te jwenn nan vil Atèn pou l te ka pale yo de vrè Bondye a bay filozòf yo nan Areopaj la (Travay 17:22-31).",
+      "bibleReference": "Travay 17:22-31",
+      "normalizedRef": "act17.22-31",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-023_fr",
+    "data": {
+      "id": "dq-hech-023",
+      "questionText": "Qui était le compagnon de Paul lors de son premier voyage missionnaire ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Silas"
+        },
+        {
+          "id": "b",
+          "text": "Barnabas"
+        },
+        {
+          "id": "c",
+          "text": "Luc"
+        },
+        {
+          "id": "d",
+          "text": "Timothée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Barnabas et Saul furent mis à part par le Saint-Esprit pour l'œuvre à laquelle ils étaient appelés (Actes 13:2).",
+      "bibleReference": "Actes 13:2-4",
+      "normalizedRef": "act13.2-4",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-024_ht",
+    "data": {
+      "id": "dq-hech-024",
+      "questionText": "Ki mirak ki te rive yon jenn gason ki te rele Etiyis ki te tonbe nan fenèt pandan Pòl t ap preche ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li pa t gen anyen menm"
+        },
+        {
+          "id": "b",
+          "text": "Li te mouri nan tonbe a, men Pòl resisite l"
+        },
+        {
+          "id": "c",
+          "text": "Yo te geri l de yon maladi"
+        },
+        {
+          "id": "d",
+          "text": "Zanj te kenbe l anvan l touche tè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Etiyis te tonbe sot nan twazyèm etaj paske li te nan dòmi. Yo te ranmase l mouri, men Pòl te desann e li te resisite l (Travay 20:9-12).",
+      "bibleReference": "Travay 20:9-12",
+      "normalizedRef": "act20.9-12",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-024_fr",
+    "data": {
+      "id": "dq-hech-024",
+      "questionText": "Quel magicien a essayé d'acheter le pouvoir du Saint-Esprit avec de l'argent ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Élymas"
+        },
+        {
+          "id": "b",
+          "text": "Simon le magicien"
+        },
+        {
+          "id": "c",
+          "text": "Apollos"
+        },
+        {
+          "id": "d",
+          "text": "Théudas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Simon vit que le Saint-Esprit était donné par l'imposition des mains des apôtres ; il leur offrit de l'argent (Actes 8:18).",
+      "bibleReference": "Actes 8:18-20",
+      "normalizedRef": "act8.18-20",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-025_ht",
+    "data": {
+      "id": "dq-hech-025",
+      "questionText": "Nan ki zile bato Pòl la te fè nofraj pandan li t ap ale Wòm ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chip"
+        },
+        {
+          "id": "b",
+          "text": "Malt"
+        },
+        {
+          "id": "c",
+          "text": "Krèt"
+        },
+        {
+          "id": "d",
+          "text": "Patmòs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apre yon gwo tanpèt ki te dire plizyè jou, bato a te kraze sou rivaj zile Malt kote tout moun te sove (Travay 27-28).",
+      "bibleReference": "Travay 28:1",
+      "normalizedRef": "act28.1",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-025_fr",
+    "data": {
+      "id": "dq-hech-025",
+      "questionText": "Quel était le métier de Paul, qu'il partageait avec Aquilas et Priscille ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pêcheur"
+        },
+        {
+          "id": "b",
+          "text": "Fabricant de tentes"
+        },
+        {
+          "id": "c",
+          "text": "Charpentier"
+        },
+        {
+          "id": "d",
+          "text": "Médecin"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Comme il avait le même métier, il demeura chez eux et y travailla : ils étaient fabricants de tentes (Actes 18:3).",
+      "bibleReference": "Actes 18:3",
+      "normalizedRef": "act18.3",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-026_ht",
+    "data": {
+      "id": "dq-hech-026",
+      "questionText": "Ki sa k te rive Pyè ak Jan lè yo te pase nwit yo nan prizon apre yo te fin geri bwate a (Travay 4) ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo te bat yo byen bat"
+        },
+        {
+          "id": "b",
+          "text": "Lè yo parèt devan Gran Konsèy la, yo te preche avèk anpil asirans"
+        },
+        {
+          "id": "c",
+          "text": "Yo te mande yo pou yo kite vil la"
+        },
+        {
+          "id": "d",
+          "text": "Yo te kondane yo pou yo mouri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Malgre menas yo, apòt yo te di yo pa kapab sispann pale de sa yo te wè ak sa yo te tande (Travay 4:13-20).",
+      "bibleReference": "Travay 4:13-20",
+      "normalizedRef": "act4.13-20",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-026_fr",
+    "data": {
+      "id": "dq-hech-026",
+      "questionText": "Qui était le jeune homme qui s'est endormi et est tombé d'une fenêtre pendant que Paul prêchait ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eutychus"
+        },
+        {
+          "id": "b",
+          "text": "Tychique"
+        },
+        {
+          "id": "c",
+          "text": "Épaphras"
+        },
+        {
+          "id": "d",
+          "text": "Philémon"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Un jeune homme nommé Eutychus... fut surpris par un profond sommeil pendant le long discours de Paul ; il tomba du troisième étage (Actes 20:9).",
+      "bibleReference": "Actes 20:9",
+      "normalizedRef": "act20.9",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-027_ht",
+    "data": {
+      "id": "dq-hech-027",
+      "questionText": "Ki jan yo te rele de moun ki te eseye achte pouvwa Sentespri a ak lajan nan Samari (simoni) ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elimas"
+        },
+        {
+          "id": "b",
+          "text": "Simon majisyen an"
+        },
+        {
+          "id": "c",
+          "text": "Aleksann"
+        },
+        {
+          "id": "d",
+          "text": "Demetryis"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Simon te wè apòt yo ap bay moun Sentespri a, li te ofri yo lajan pou l te ka gen menm pouvwa sa a, men Pyè te reprimande l (Travay 8:18-24).",
+      "bibleReference": "Travay 8:18-24",
+      "normalizedRef": "act8.18-24",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-027_fr",
+    "data": {
+      "id": "dq-hech-027",
+      "questionText": "Sur quelle île Paul a-t-il fait naufrage alors qu'il était en route pour Rome ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Crète"
+        },
+        {
+          "id": "b",
+          "text": "Chypre"
+        },
+        {
+          "id": "c",
+          "text": "Malte"
+        },
+        {
+          "id": "d",
+          "text": "Patmos"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Une fois hors de danger, nous reconnûmes que l'île s'appelait Malte (Actes 28:1).",
+      "bibleReference": "Actes 27:41-28:1",
+      "normalizedRef": "act28.1",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-028_ht",
+    "data": {
+      "id": "dq-hech-028",
+      "questionText": "Kilès ki te esplike minis rèn peyi Letiopi a pasaj nan liv Ezayi a pandan li t ap vwayaje nan cha li ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyè"
+        },
+        {
+          "id": "b",
+          "text": "Filip (evanjelis la)"
+        },
+        {
+          "id": "c",
+          "text": "Etyèn"
+        },
+        {
+          "id": "d",
+          "text": "Jan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te voye Filip sou wout la. Li te moute nan cha a, li esplike minis la ke pasaj la t ap pale de Jezi, epi li batize l (Travay 8:26-38).",
+      "bibleReference": "Travay 8:26-38",
+      "normalizedRef": "act8.26-38",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hech-028_fr",
+    "data": {
+      "id": "dq-hech-028",
+      "questionText": "Quelle femme, vendeuse de pourpre à Philippes, a été la première convertie de Paul en Europe ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lydie"
+        },
+        {
+          "id": "b",
+          "text": "Damaris"
+        },
+        {
+          "id": "c",
+          "text": "Chloé"
+        },
+        {
+          "id": "d",
+          "text": "Phœbé"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Lydie, marchande de pourpre, de la ville de Thyatire... écoutait, et le Seigneur lui ouvrit le cœur (Actes 16:14).",
+      "bibleReference": "Actes 16:14-15",
+      "normalizedRef": "act16.14",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "docId": "dq-hist-001_ht",
+    "data": {
+      "id": "dq-hist-001",
+      "questionText": "Kilès ki te fè miray Jeriko tonbe?",
+      "categoryId": "historia",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "Jozye"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Samsòn"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozye ak pèp la te mache alantou Jeriko pandan sèt jou epi miray yo te tonbe (Jozye 6).",
+      "bibleReference": "Jozye 6:1-20",
+      "normalizedRef": "jos6.1-20",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-001_fr",
+    "data": {
+      "id": "dq-hist-001",
+      "questionText": "Qui a mené les enfants d'Israël hors d'Égypte ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Joseph"
+        },
+        {
+          "id": "c",
+          "text": "Moïse"
+        },
+        {
+          "id": "d",
+          "text": "Josué"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Moïse a été choisi par Dieu pour libérer Israël de l'esclavage égyptien (Exode 3-14).",
+      "bibleReference": "Exode 3-14",
+      "normalizedRef": "exo3-14",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-002_ht",
+    "data": {
+      "id": "dq-hist-002",
+      "questionText": "Kilès ki te touye jeyant Golyat la?",
+      "categoryId": "historia",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sayil"
+        },
+        {
+          "id": "b",
+          "text": "Jonatann"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Samsòn"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David, ki te jèn toujou, te kraze Filistin Golyat ak yon fronde ak yon wòch (1 Samyèl 17).",
+      "bibleReference": "1 Samyèl 17:49-50",
+      "normalizedRef": "1sa17.49-50",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-002_fr",
+    "data": {
+      "id": "dq-hist-002",
+      "questionText": "Combien de plaies Dieu a-t-il envoyées sur l'Égypte ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "10"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu a envoyé 10 plaies pour forcer Pharaon à laisser partir son peuple (Exode 7-12).",
+      "bibleReference": "Exode 7-12",
+      "normalizedRef": "exo7-12",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-003_ht",
+    "data": {
+      "id": "dq-hist-003",
+      "questionText": "Kilès ki te premye wa Izrayèl la?",
+      "categoryId": "historia",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Sayil"
+        },
+        {
+          "id": "d",
+          "text": "Samyèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sayil te premye wa Izrayèl ki te chwazi pa pèp la epi konfime pa Samyèl (1 Samyèl 10).",
+      "bibleReference": "1 Samyèl 10:1",
+      "normalizedRef": "1sa10.1",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-003_fr",
+    "data": {
+      "id": "dq-hist-003",
+      "questionText": "Quelle mer s'est ouverte pour laisser passer les Israélites ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mer Morte"
+        },
+        {
+          "id": "b",
+          "text": "Mer Méditerranée"
+        },
+        {
+          "id": "c",
+          "text": "Mer Rouge"
+        },
+        {
+          "id": "d",
+          "text": "Mer de Galilée"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'Éternel refoula la mer par un vent d'orient, et les enfants d'Israël entrèrent au milieu de la mer à sec (Exode 14:21-22).",
+      "bibleReference": "Exode 14:21-22",
+      "normalizedRef": "exo14.21-22",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-004_ht",
+    "data": {
+      "id": "dq-hist-004",
+      "questionText": "Ak ki zam David te kraze jeyant Golyat la?",
+      "categoryId": "historia",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon epe"
+        },
+        {
+          "id": "b",
+          "text": "Yon lans"
+        },
+        {
+          "id": "c",
+          "text": "Yon fronde ak yon wòch"
+        },
+        {
+          "id": "d",
+          "text": "Yon bann ak yon flèch"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David te itilize yon fronde epi pran yon wòch nan rivo a; li te frape Golyat nan fwon ak li te file atè (1 Samyèl 17:49).",
+      "bibleReference": "1 Samyèl 17:49",
+      "normalizedRef": "1sa17.49",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-004_fr",
+    "data": {
+      "id": "dq-hist-004",
+      "questionText": "Combien d'années les Israélites ont-ils erré dans le désert ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 ans"
+        },
+        {
+          "id": "b",
+          "text": "12 ans"
+        },
+        {
+          "id": "c",
+          "text": "40 ans"
+        },
+        {
+          "id": "d",
+          "text": "70 ans"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "À cause de leur incrédulité, la génération qui est sortie d'Égypte a dû errer 40 ans dans le désert (Nombres 14:34).",
+      "bibleReference": "Nombres 14:34",
+      "normalizedRef": "num14.34",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-005_ht",
+    "data": {
+      "id": "dq-hist-005",
+      "questionText": "Kilès ki te bati premye tanp pou Bondye nan Jerizalèm?",
+      "categoryId": "historia",
+      "categoryName": "Istwa Izrayèl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Moyiz"
+        },
+        {
+          "id": "d",
+          "text": "Jozye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Salomon te bati tanp lan sou Mòn Moria, dapre plan David te resevwa nan men Bondye (1 Wa 6).",
+      "bibleReference": "1 Wa 6:1-38",
+      "normalizedRef": "1ki6.1-38",
+      "normalizedCat": "historia"
+    }
+  },
+  {
+    "docId": "dq-hist-005_fr",
+    "data": {
+      "id": "dq-hist-005",
+      "questionText": "Quelle ville a été conquise après que les Israélites en ont fait le tour pendant sept jours ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babylone"
+        },
+        {
+          "id": "b",
+          "text": "Jérusalem"
+        },
+        {
+          "id": "c",
+          "text": "Jéricho"
+        },
+        {
+          "id": "d",
+          "text": "Sodome"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le septième jour, ils firent sept fois le tour de la ville... le peuple poussa des cris, et la muraille s'écroula (Josué 6).",
+      "bibleReference": "Josué 6",
+      "normalizedRef": "jos6",
+      "normalizedCat": "historia"
+    }
+  }
+]

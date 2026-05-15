@@ -1,0 +1,1 @@
+﻿app/ranking/page.tsx(233,86): error TS2339: Property 'ranking' does not exist on type 'AppUserModel'.

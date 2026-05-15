@@ -1,0 +1,852 @@
+[
+  {
+    "id": "dq-exo-006",
+    "questionText": "Quel aliment Dieu a-t-il envoyé du ciel pour nourrir Israël dans le désert ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "La manne et les cailles" },
+      { "id": "b", "text": "Du pain et des poissons" },
+      { "id": "c", "text": "Des raisins et des figues" },
+      { "id": "d", "text": "Du miel et du lait" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Dieu envoya la manne chaque matin et des cailles chaque soir pour nourrir Israël dans le désert (Exode 16:13-15).",
+    "bibleReference": "Exode 16:13-15"
+  },
+  {
+    "id": "dq-exo-007",
+    "questionText": "Qu'a fait Israël pendant que Moïse était sur la montagne pour recevoir la loi ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Ils ont prié et jeûné" },
+      { "id": "b", "text": "Ils ont construit un veau d'or et l'ont adoré" },
+      { "id": "c", "text": "Ils ont fait la fête ensemble" },
+      { "id": "d", "text": "Ils se sont préparés pour le combat" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Le peuple força Aaron à fabriquer un veau d'or et ils dirent : \"Israël ! voici tes dieux, qui t'ont fait monter du pays d'Égypte\" (Exode 32:4).",
+    "bibleReference": "Exode 32:1-4"
+  },
+  {
+    "id": "dq-exo-008",
+    "questionText": "Que commémore la fête de la Pâque juive ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "La promesse faite à Abraham" },
+      { "id": "b", "text": "La création du monde" },
+      { "id": "c", "text": "La libération d'Israël de l'esclavage en Égypte" },
+      { "id": "d", "text": "L'entrée en Canaan" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "La Pâque commémore le moment où l'ange de la mort est \"passé par-dessus\" les maisons marquées du sang de l'agneau et la délivrance d'Israël par Dieu (Exode 12:13).",
+    "bibleReference": "Exode 12:13"
+  },
+  {
+    "id": "dq-exo-009",
+    "questionText": "Quel est le nom du beau-père de Moïse qui l'a aidé à gouverner le peuple dans le désert ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Caleb" },
+      { "id": "b", "text": "Jethro" },
+      { "id": "c", "text": "Aaron" },
+      { "id": "d", "text": "Éléazar" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jethro, prêtre de Madian et beau-père de Moïse, lui conseilla de nommer des juges pour juger le peuple (Exode 18:13-24).",
+    "bibleReference": "Exode 18:13-24"
+  },
+  {
+    "id": "dq-exo-010",
+    "questionText": "Combien des Dix Commandements traitent de la relation entre l'homme et Dieu (première table) ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "3" },
+      { "id": "b", "text": "4" },
+      { "id": "c", "text": "5" },
+      { "id": "d", "text": "7" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Les quatre premiers commandements traitent de la relation avec Dieu : pas d'autres dieux, pas d'idoles, ne pas prendre le nom de Dieu en vain, respecter le jour du sabbat.",
+    "bibleReference": "Exode 20:1-11"
+  },
+  {
+    "id": "dq-exo-011",
+    "questionText": "Quel est le nom du frère de Moïse qui a été son porte-parole devant Pharaon ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Miriam" },
+      { "id": "b", "text": "Josué" },
+      { "id": "c", "text": "Aaron" },
+      { "id": "d", "text": "Caleb" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Dieu dit à Moïse : \"Aaron ton frère sera ton prophète\" (Exode 7:1). Aaron parla à Pharaon.",
+    "bibleReference": "Exode 7:1"
+  },
+  {
+    "id": "dq-exo-012",
+    "questionText": "Quel miracle a été la première plaie d'Égypte ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Les grenouilles" },
+      { "id": "b", "text": "L'eau du Nil changée en sang" },
+      { "id": "c", "text": "Les sauterelles" },
+      { "id": "d", "text": "Les ténèbres" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "La première plaie : Moïse leva son bâton sur le Nil et toutes les eaux de l'Égypte se changèrent en sang (Exode 7:20-21).",
+    "bibleReference": "Exode 7:20-21"
+  },
+  {
+    "id": "dq-exo-013",
+    "questionText": "Quel était l'objet le plus sacré dans le Tabernacle du désert ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "La table des pains de proposition" },
+      { "id": "b", "text": "L'autel de l'encens" },
+      { "id": "c", "text": "L'Arche de l'Alliance" },
+      { "id": "d", "text": "Le chandelier d'or" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "L'Arche de l'Alliance était l'objet le plus sacré. Elle se trouvait dans le Lieu Très Saint où seul le Souverain Sacrificateur pouvait entrer une fois par an.",
+    "bibleReference": "Exode 25:10-22"
+  },
+  {
+    "id": "dq-exo-014",
+    "questionText": "Combien de plaies Dieu a-t-il envoyées sur l'Égypte avant que Pharaon ne laisse partir Israël ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "5" },
+      { "id": "b", "text": "7" },
+      { "id": "c", "text": "10" },
+      { "id": "d", "text": "12" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Les dix plaies sont : l'eau en sang, les grenouilles, les poux, les mouches, la peste du bétail, les ulcères, la grêle, les sauterelles, les ténèbres, la mort des premiers-nés (Exode 7-12).",
+    "bibleReference": "Exode 7-12"
+  },
+  {
+    "id": "dq-exo-015",
+    "questionText": "Quelle est la raison principale pour laquelle Dieu n'a pas laissé Moïse entrer dans la Terre Promise ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Parce qu'il était trop vieux" },
+      { "id": "b", "text": "Parce qu'il a frappé le rocher deux fois au lieu de lui parler comme Dieu l'avait ordonné" },
+      { "id": "c", "text": "Parce qu'il s'était marié avec une étrangère" },
+      { "id": "d", "text": "Parce que son frère Aaron le méritait davantage" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Dieu dit à Moïse : \"Parce que vous n'avez pas cru en moi pour me sanctifier... vous ne ferez point entrer cette assemblée dans le pays que je lui donne\" (Nombres 20:12).",
+    "bibleReference": "Nombres 20:12"
+  },
+  {
+    "id": "dq-rey-003",
+    "questionText": "Quel jeune berger a tué le géant Philistin Goliath ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Jonathan" },
+      { "id": "b", "text": "Samuel" },
+      { "id": "c", "text": "David" },
+      { "id": "d", "text": "Samson" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "David terrassa Goliath avec une fronde et une pierre, puis utilisa l'épée de Goliath pour lui couper la tête (1 Samuel 17:49-51).",
+    "bibleReference": "1 Samuel 17:49-51"
+  },
+  {
+    "id": "dq-rey-004",
+    "questionText": "Quel roi aimait le plus chanter les psaumes et est appelé \"l'homme selon le cœur de Dieu\" ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Salomon" },
+      { "id": "b", "text": "Ézéchias" },
+      { "id": "c", "text": "David" },
+      { "id": "d", "text": "Saül" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "David fut le compositeur de nombreux psaumes, titre d'\"homme selon le cœur de Dieu\" (Actes 13:22).",
+    "bibleReference": "Actes 13:22"
+  },
+  {
+    "id": "dq-rey-005",
+    "questionText": "Quel roi d'Israël était le plus renommé pour sa sagesse ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Saül" },
+      { "id": "b", "text": "Salomon" },
+      { "id": "c", "text": "David" },
+      { "id": "d", "text": "Ézéchias" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Dieu donna à Salomon un cœur sage. La reine de Saba et tous les royaumes venaient entendre la sagesse de Salomon (1 Rois 4:30-34).",
+    "bibleReference": "1 Rois 3:12"
+  },
+  {
+    "id": "dq-rey-006",
+    "questionText": "Quel prophète a défié les 450 prophètes de Baal sur le mont Carmel et Dieu a répondu par le feu ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Ésaïe" },
+      { "id": "b", "text": "Jérémie" },
+      { "id": "c", "text": "Élie" },
+      { "id": "d", "text": "Élisée" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Élie fit descendre le feu du ciel qui consuma son sacrifice et montra ainsi qui était le vrai Dieu (1 Rois 18:38).",
+    "bibleReference": "1 Rois 18:38"
+  },
+  {
+    "id": "dq-rey-007",
+    "questionText": "Combien d'années Salomon a-t-il régné sur Israël ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "20 ans" },
+      { "id": "b", "text": "40 ans" },
+      { "id": "c", "text": "60 ans" },
+      { "id": "d", "text": "70 ans" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Salomon régna quarante ans à Jérusalem sur tout Israël (1 Rois 11:42).",
+    "bibleReference": "1 Rois 11:42"
+  },
+  {
+    "id": "dq-rey-008",
+    "questionText": "Quel roi de Juda a accompli de grandes réformes spirituelles après avoir trouvé le livre de la loi dans le temple ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Salomon" },
+      { "id": "b", "text": "David" },
+      { "id": "c", "text": "Ézéchias" },
+      { "id": "d", "text": "Josias" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Josias fit de grandes réformes après que le livre de la loi de Moïse fut trouvé dans le temple. Il se tourna vers Dieu de tout son cœur (2 Rois 22-23).",
+    "bibleReference": "2 Rois 22:8"
+  },
+  {
+    "id": "dq-rey-009",
+    "questionText": "Quel roi d'Israël a épousé Jézabel et a adoré Baal ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Jéroboam" },
+      { "id": "b", "text": "Achab" },
+      { "id": "c", "text": "Zimri" },
+      { "id": "d", "text": "Baascha" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Achab épousa Jézabel la Phénicienne et servit Baal, faisant plus de mal que tous les rois avant lui (1 Rois 16:30-33).",
+    "bibleReference": "1 Rois 16:30-33"
+  },
+  {
+    "id": "dq-rey-010",
+    "questionText": "Quel prophète a oint Jéhu pour tuer Achab et Jézabel ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Élie" },
+      { "id": "b", "text": "Élisée" },
+      { "id": "c", "text": "Amos" },
+      { "id": "d", "text": "Ésaïe" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Élisée ordonna à l'un des fils des prophètes d'aller oindre Jéhu comme roi d'Israël (2 Rois 9:1-3).",
+    "bibleReference": "2 Rois 9:1-3"
+  },
+  {
+    "id": "dq-rey-011",
+    "questionText": "Quel roi de Juda a détruit le serpent d'airain que Moïse avait fait (Nehushtan) pour que le peuple cesse de l'adorer ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Asa" },
+      { "id": "b", "text": "Josaphat" },
+      { "id": "c", "text": "Ézéchias" },
+      { "id": "d", "text": "Josias" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "\"Il mit en pièces le serpent d'airain que Moïse avait fait... on l'appelait Nehushtan\" (2 Rois 18:4). Ézéchias reconnut qu'ils l'adoraient comme une idole.",
+    "bibleReference": "2 Rois 18:4"
+  },
+  {
+    "id": "dq-rey-012",
+    "questionText": "Combien de tribus ont formé le royaume du nord d'Israël après la division sous Jéroboam ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "2" },
+      { "id": "b", "text": "5" },
+      { "id": "c", "text": "10" },
+      { "id": "d", "text": "12" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Dix tribus suivirent Jéroboam (royaume du nord), et seules Juda et Benjamin restèrent avec Roboam (1 Rois 12:20).",
+    "bibleReference": "1 Rois 12:20"
+  },
+  {
+    "id": "dq-rey-013",
+    "questionText": "Quel roi de Babylone a détruit Jérusalem et le temple de Salomon en 586 avant Jésus-Christ ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Cyrus" },
+      { "id": "b", "text": "Darius" },
+      { "id": "c", "text": "Nebucadnetsar II" },
+      { "id": "d", "text": "Artaxerxès" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Nebucadnetsar II détruisit Jérusalem, brûla le temple et emmena le peuple captif à Babylone (2 Rois 25:8-10).",
+    "bibleReference": "2 Rois 25:8-10"
+  },
+  {
+    "id": "dq-rey-014",
+    "questionText": "Qui a été le dernier roi de Juda avant la conquête babylonienne ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Ézéchias" },
+      { "id": "b", "text": "Josias" },
+      { "id": "c", "text": "Sédécias" },
+      { "id": "d", "text": "Jojakim" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Sédécias fut le dernier roi de Juda. Nebucadnetsar le captura, lui creva les yeux et l'emmena à Babylone (2 Rois 25:7).",
+    "bibleReference": "2 Rois 25:2-7"
+  },
+  {
+    "id": "dq-rey-015",
+    "questionText": "Quel roi a régné le plus longtemps en Juda ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "David (40 ans)" },
+      { "id": "b", "text": "Salomon (40 ans)" },
+      { "id": "c", "text": "Asa (41 ans)" },
+      { "id": "d", "text": "Manassé (55 ans)" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Manassé régna 55 ans à Jérusalem, ce qui est le plus long règne parmi tous les rois de Juda. Cependant, il fit ce qui est mal aux yeux de l'Éternel (2 Rois 21:1).",
+    "bibleReference": "2 Rois 21:1"
+  },
+  {
+    "id": "dq-sal-003",
+    "questionText": "Quelle est la première phrase du célèbre Psaume 23 ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "\"L'Éternel est ma lumière\"" },
+      { "id": "b", "text": "\"L'Éternel est mon berger\"" },
+      { "id": "c", "text": "\"L'Éternel est mon refuge\"" },
+      { "id": "d", "text": "\"L'Éternel est ma forteresse\"" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "\"L'Éternel est mon berger : je ne manquerai de rien\" (Psaume 23:1).",
+    "bibleReference": "Psaume 23:1"
+  },
+  {
+    "id": "dq-sal-004",
+    "questionText": "Combien de psaumes y a-t-il dans le Livre des Psaumes ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "100" },
+      { "id": "b", "text": "120" },
+      { "id": "c", "text": "150" },
+      { "id": "d", "text": "180" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Le Livre des Psaumes contient 150 psaumes. Le plus long est le Psaume 119 et le plus court est le Psaume 117.",
+    "bibleReference": "Psaume 150"
+  },
+  {
+    "id": "dq-sal-005",
+    "questionText": "À qui attribue-t-il principalement l'auteur de la plupart des psaumes ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Salomon" },
+      { "id": "b", "text": "Moïse" },
+      { "id": "c", "text": "David" },
+      { "id": "d", "text": "Ézéchias" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "David a écrit la majorité des psaumes. Asaph, les fils de Koré, Salomon et Moïse ont également écrit des psaumes.",
+    "bibleReference": "Psaume 3:1"
+  },
+  {
+    "id": "dq-sal-006",
+    "questionText": "Quel est le psaume le plus long de la Bible ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Psaume 23" },
+      { "id": "b", "text": "Psaume 91" },
+      { "id": "c", "text": "Psaume 119" },
+      { "id": "d", "text": "Psaume 150" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Le Psaume 119 est le plus long chapitre de la Bible avec 176 versets. Chaque section commence par une lettre hébraïque différente.",
+    "bibleReference": "Psaume 119:1"
+  },
+  {
+    "id": "dq-sal-007",
+    "questionText": "Dans quel psaume David confesse-t-il son péché avec Bethsabée et le meurtre d'Urie ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Psaume 22" },
+      { "id": "b", "text": "Psaume 51" },
+      { "id": "c", "text": "Psaume 91" },
+      { "id": "d", "text": "Psaume 119" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Le Psaume 51 est la prière de confession de David après que le prophète Nathan a révélé son péché avec Bethsabée.",
+    "bibleReference": "Psaume 51:1-4"
+  },
+  {
+    "id": "dq-sal-008",
+    "questionText": "Quel psaume dit : \"Je lève mes yeux vers les montagnes, d'où me viendra le secours ?\" ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Psaume 23" },
+      { "id": "b", "text": "Psaume 91" },
+      { "id": "c", "text": "Psaume 121" },
+      { "id": "d", "text": "Psaume 150" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Le Psaume 121:1 dit : \"Je lève mes yeux vers les montagnes... D'où me viendra le secours ? Le secours me vient de l'Éternel.\"",
+    "bibleReference": "Psaume 121:1-2"
+  },
+  {
+    "id": "dq-sal-009",
+    "questionText": "Quel psaume décrit le bonheur de l'homme juste et le compare à un arbre planté près d'un courant d'eau ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Psaume 1" },
+      { "id": "b", "text": "Psaume 2" },
+      { "id": "c", "text": "Psaume 3" },
+      { "id": "d", "text": "Psaume 100" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Le Psaume 1 compare l'homme juste à un arbre planté près d'un courant d'eau, qui donne son fruit en sa saison. Il l'oppose aux méchants qui sont comme la paille.",
+    "bibleReference": "Psaume 1:1-3"
+  },
+  {
+    "id": "dq-sal-010",
+    "questionText": "Quel psaume commence par : \"Celui qui demeure sous l'abri du Très-Haut repose à l'ombre du Tout-Puissant\" ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Psaume 23" },
+      { "id": "b", "text": "Psaume 91" },
+      { "id": "c", "text": "Psaume 121" },
+      { "id": "d", "text": "Psaume 139" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Le Psaume 91 commence ainsi : \"Celui qui demeure sous l'abri du Très-Haut repose à l'ombre du Tout-Puissant.\" Il promet la protection de Dieu.",
+    "bibleReference": "Psaume 91:1"
+  },
+  {
+    "id": "dq-sal-011",
+    "questionText": "Combien de \"Cantiques des degrés\" (pèlerinage) y a-t-il dans les Psaumes ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "7" },
+      { "id": "b", "text": "12" },
+      { "id": "c", "text": "15" },
+      { "id": "d", "text": "20" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Les Psaumes 120 à 134 constituent les 15 \"Cantiques des degrés\". Ils étaient chantés par les pèlerins montant à Jérusalem.",
+    "bibleReference": "Psaume 120-134"
+  },
+  {
+    "id": "dq-sal-012",
+    "questionText": "Quels psaumes sont appelés \"Psaumes Royaux\" traitant du règne de Dieu sur toute la terre ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Psaumes 1-10" },
+      { "id": "b", "text": "Psaumes 93-99" },
+      { "id": "c", "text": "Psaumes 120-134" },
+      { "id": "d", "text": "Psaumes 145-150" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Les Psaumes 93-99 sont appelés psaumes du \"Règne de l'Éternel\". Ils célèbrent le gouvernement universel de Dieu et ses jugements.",
+    "bibleReference": "Psaume 93:1"
+  },
+  {
+    "id": "dq-sal-013",
+    "questionText": "Quel est le psaume le plus court de la Bible ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Psaume 23" },
+      { "id": "b", "text": "Psaume 100" },
+      { "id": "c", "text": "Psaume 117" },
+      { "id": "d", "text": "Psaume 150" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Le Psaume 117 est le plus court chapitre de la Bible avec seulement 2 versets : \"Louez l'Éternel, vous toutes les nations...\"",
+    "bibleReference": "Psaume 117:1-2"
+  },
+  {
+    "id": "dq-sal-014",
+    "questionText": "Quel psaume messianique prophétise : \"Ils se partagent mes vêtements, ils tirent au sort ma tunique\" ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Psaume 2" },
+      { "id": "b", "text": "Psaume 22" },
+      { "id": "c", "text": "Psaume 45" },
+      { "id": "d", "text": "Psaume 110" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Le Psaume 22:18 prophétise : \"Ils se partagent mes vêtements, ils tirent au sort ma tunique.\" Accompli dans Jean 19:24 lors de la crucifixion.",
+    "bibleReference": "Psaume 22:18"
+  },
+  {
+    "id": "dq-sal-015",
+    "questionText": "Quel psaume se termine par la promesse de demeurer dans la maison de l'Éternel pour toujours ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Psaume 1" },
+      { "id": "b", "text": "Psaume 23" },
+      { "id": "c", "text": "Psaume 91" },
+      { "id": "d", "text": "Psaume 100" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Le Psaume 23 se termine ainsi : \"Oui, le bonheur et la grâce m'accompagneront tous les jours de ma vie, et j'habiterai dans la maison de l'Éternel jusqu'à la fin de mes jours.\" (v.6).",
+    "bibleReference": "Psaume 23:6"
+  },
+  {
+    "id": "dq-sal-016",
+    "questionText": "Combien de psaumes d'allégresse (\"Alléluia\") y a-t-il à la fin du Livre des Psaumes ?",
+    "categoryId": "salmos",
+    "categoryName": "Psaumes",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "3" },
+      { "id": "b", "text": "5" },
+      { "id": "c", "text": "7" },
+      { "id": "d", "text": "10" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Les 5 derniers psaumes (146-150) commencent et finissent chacun par \"Louez l'Éternel !\" (Alléluia), formant un grand final de louanges.",
+    "bibleReference": "Psaume 146-150"
+  },
+  {
+    "id": "dq-muj-015",
+    "questionText": "Quel est le nom de la femme qui a dit : \"Toutes les générations me diront bienheureuse\" dans son chant de louange à Dieu ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes de la Bible",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Esther" },
+      { "id": "b", "text": "Élisabeth" },
+      { "id": "c", "text": "Marie mère de Jésus" },
+      { "id": "d", "text": "Miriam" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Dans le chant du Magnificat, Marie a dit : \"Désormais toutes les générations me diront bienheureuse\" (Luc 1:48).",
+    "bibleReference": "Luc 1:46-48"
+  },
+  {
+    "id": "dq-cpab-021",
+    "questionText": "Combien de lettres sont attribuées à Paul dans le Nouveau Testament ?",
+    "categoryId": "cartas-pablo",
+    "categoryName": "Épîtres de Paul",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "7" },
+      { "id": "b", "text": "10" },
+      { "id": "c", "text": "13" },
+      { "id": "d", "text": "15" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Paul a écrit 13 lettres du NT : Romains, 1-2 Corinthiens, Galates, Éphésiens, Philippiens, Colossiens, 1-2 Thessaloniciens, 1-2 Timothée, Tite et Philémon.",
+    "bibleReference": "Romains 1:1"
+  },
+  {
+    "id": "dq-cpab-022",
+    "questionText": "Qu'enseigne Éphésiens 2:8-9 sur le salut ?",
+    "categoryId": "cartas-pablo",
+    "categoryName": "Épîtres de Paul",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "C'est le fruit des œuvres et de la prière" },
+      { "id": "b", "text": "C'est par la grâce, par le moyen de la foi, et non par les œuvres" },
+      { "id": "c", "text": "C'est le résultat du baptême" },
+      { "id": "d", "text": "On l'obtient avec persévérance" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "\"C'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres, afin que personne ne se glorifie\" (Éphésiens 2:8-9).",
+    "bibleReference": "Éphésiens 2:8-9"
+  },
+  {
+    "id": "dq-cpab-023",
+    "questionText": "À qui Paul a-t-il écrit pour lui demander de recevoir l'esclave Onésime comme un frère ?",
+    "categoryId": "cartas-pablo",
+    "categoryName": "Épîtres de Paul",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Timothée" },
+      { "id": "b", "text": "Tite" },
+      { "id": "c", "text": "Philémon" },
+      { "id": "d", "text": "Aquilas" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Paul écrivit à Philémon pour lui demander de recevoir l'esclave Onésime \"non plus comme un esclave, mais comme... un frère bien-aimé\" (Philémon 1:16).",
+    "bibleReference": "Philémon 1:16"
+  },
+  {
+    "id": "dq-cpab-024",
+    "questionText": "De quelle ville Paul a-t-il écrit les épîtres de la prison (Éphésiens, Philippiens, Colossiens, Philémon) ?",
+    "categoryId": "cartas-pablo",
+    "categoryName": "Épîtres de Paul",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Jérusalem" },
+      { "id": "b", "text": "Éphèse" },
+      { "id": "c", "text": "Rome" },
+      { "id": "d", "text": "Corinthe" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Les épîtres de la prison furent envoyées pendant que Paul était emprisonné à Rome, attendant son jugement devant César (Actes 28:16-31).",
+    "bibleReference": "Éphésiens 3:1"
+  },
+  {
+    "id": "dq-cpab-025",
+    "questionText": "Pourquoi Paul a-t-il écrit l'épître aux Galates avec urgence ?",
+    "categoryId": "cartas-pablo",
+    "categoryName": "Épîtres de Paul",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Parce qu'ils souffraient de persécution" },
+      { "id": "b", "text": "Parce que des judaïsants enseignaient la circoncision comme condition de salut" },
+      { "id": "c", "text": "Parce qu'il y avait de l'immoralité dans l'église" },
+      { "id": "d", "text": "Parce qu'ils ne reconnaissaient pas l'autorité de Paul" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Paul réprimande les Galates pour avoir suivi \"un autre évangile\" : les judaïsants avaient ajouté la circoncision comme condition de salut (Galates 1:6-9).",
+    "bibleReference": "Galates 1:6-9"
+  },
+  {
+    "id": "dq-cpab-026",
+    "questionText": "Combien de chapitres compte l'épître aux Romains ?",
+    "categoryId": "cartas-pablo",
+    "categoryName": "Épîtres de Paul",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "10" },
+      { "id": "b", "text": "14" },
+      { "id": "c", "text": "16" },
+      { "id": "d", "text": "18" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "L'épître aux Romains contient 16 chapitres et constitue l'exposé le plus complet de la théologie de Paul sur le péché, la grâce et le salut.",
+    "bibleReference": "Romains 16:27"
+  },
+  {
+    "id": "dq-cpab-027",
+    "questionText": "Quelle est la plus courte épître de Paul dans le Nouveau Testament ?",
+    "categoryId": "cartas-pablo",
+    "categoryName": "Épîtres de Paul",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Tite" },
+      { "id": "b", "text": "Philémon" },
+      { "id": "c", "text": "2 Thessaloniciens" },
+      { "id": "d", "text": "Colossiens" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Philémon ne compte qu'un seul chapitre et 25 versets. C'est une lettre personnelle où Paul intercède pour l'esclave Onésime.",
+    "bibleReference": "Philémon 1:1-25"
+  },
+  {
+    "id": "dq-cpab-028",
+    "questionText": "Combien des 13 épîtres de Paul sont considérées comme des \"épîtres pastorales\" ?",
+    "categoryId": "cartas-pablo",
+    "categoryName": "Épîtres de Paul",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "2" },
+      { "id": "b", "text": "3" },
+      { "id": "c", "text": "4" },
+      { "id": "d", "text": "5" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Les trois épîtres pastorales sont 1 Timothée, 2 Timothée et Tite. Elles traitent de la direction et de la vie des églises locales.",
+    "bibleReference": "1 Timothée 3:1-7"
+  },
+  {
+    "id": "dq-cpab-029",
+    "questionText": "Dans quel chapitre d'Éphésiens Paul décrit-il \"toutes les armes de Dieu\" ?",
+    "categoryId": "cartas-pablo",
+    "categoryName": "Épîtres de Paul",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Éphésiens 2" },
+      { "id": "b", "text": "Éphésiens 4" },
+      { "id": "c", "text": "Éphésiens 6" },
+      { "id": "d", "text": "Éphésiens 8" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Éphésiens 6:13-17 décrit l'armure de Dieu : la ceinture de vérité, la cuirasse de la justice, les chaussures de l'Évangile, le bouclier de la foi, le casque du salut et l'épée de l'Esprit.",
+    "bibleReference": "Éphésiens 6:13-17"
+  },
+  {
+    "id": "dq-cpab-030",
+    "questionText": "Quelle figure de l'Ancien Testament Paul utilise-t-il dans Romains 4 comme exemple de justification par la foi ?",
+    "categoryId": "cartas-pablo",
+    "categoryName": "Épîtres de Paul",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Moïse" },
+      { "id": "b", "text": "Abraham" },
+      { "id": "c", "text": "David" },
+      { "id": "d", "text": "Noé" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "\"Abraham crut à Dieu, et cela lui fut imputé à justice\" (Romains 4:3). Abraham fut justifié par la foi, et non par les œuvres ou la circoncision.",
+    "bibleReference": "Romains 4:3"
+  },
+  {
+    "id": "dq-pat-002",
+    "questionText": "Qui est appelé \"ami de Dieu\" dans l'Ancien Testament ?",
+    "categoryId": "personajes-at",
+    "categoryName": "Personnages AT",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Moïse" },
+      { "id": "b", "text": "David" },
+      { "id": "c", "text": "Abraham" },
+      { "id": "d", "text": "Noé" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "\"Abraham crut à Dieu... et il fut appelé ami de Dieu\" (Jacques 2:23). Ésaïe 41:8 l'appelle aussi \"mon ami Abraham\".",
+    "bibleReference": "Jacques 2:23"
+  },
+  {
+    "id": "dq-pat-003",
+    "questionText": "Quels personnages de l'Ancien Testament ont été enlevés vivants avant la mort physique ?",
+    "categoryId": "personajes-at",
+    "categoryName": "Personnages AT",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Noé" },
+      { "id": "b", "text": "Énoch" },
+      { "id": "c", "text": "Élie" },
+      { "id": "d", "text": "B et C tous les deux" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Énoch \"marcha avec Dieu ; puis il ne fut plus, parce que Dieu le prit\" (Genèse 5:24). Élie monta au ciel dans un tourbillon de feu (2 Rois 2:11).",
+    "bibleReference": "Genèse 5:24; 2 Rois 2:11"
+  }
+]

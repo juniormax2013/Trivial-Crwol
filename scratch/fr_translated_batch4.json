@@ -1,0 +1,3302 @@
+[
+  {
+    "newId": "dq-lug-008",
+    "ht": {
+      "id": "dq-lug-008",
+      "questionText": "Nan ki peyi Jozèf (pitit Jakòb) te sèvi kòm gouvènè?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kanaran"
+        },
+        {
+          "id": "b",
+          "text": "Ejip"
+        },
+        {
+          "id": "c",
+          "text": "Babilòn"
+        },
+        {
+          "id": "d",
+          "text": "Siri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozèf te vann kòm esklav ann Ejip, epi gras a entèpretasyon rèv Farawon yo, li te vin gouvènè Ejip (Jenèz 41:40-41).",
+      "bibleReference": "Jenèz 41:40-41",
+      "normalizedRef": "gen41.40-41",
+      "normalizedCat": "lugares"
+    },
+    "fr": {
+      "id": "dq-lug-008",
+      "questionText": "Dans quel pays Joseph (fils de Jacob) a-t-il servi comme gouverneur ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Canaan"
+        },
+        {
+          "id": "b",
+          "text": "Égypte"
+        },
+        {
+          "id": "c",
+          "text": "Babylone"
+        },
+        {
+          "id": "d",
+          "text": "Syrie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joseph fut vendu comme esclave en Égypte, et grâce à l'interprétation des rêves de Pharaon, il devint gouverneur d'Égypte (Genèse 41:40-41).",
+      "bibleReference": "Genèse 41:40-41",
+      "normalizedRef": "gen41.40-41",
+      "normalizedCat": "lugares"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-009",
+    "ht": {
+      "id": "dq-lug-009",
+      "questionText": "Ki te vil orijin Abraram anvan li pati pou Kanaran?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babilòn"
+        },
+        {
+          "id": "b",
+          "text": "Niniv"
+        },
+        {
+          "id": "c",
+          "text": "Ow des Kaldeyèn"
+        },
+        {
+          "id": "d",
+          "text": "Damask"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi Taré te soti nan Ow des Kaldeyèn ak Abram pitit li... pou yo al nan peyi Kanaran\" (Jenèz 11:31). Bondye te rele Abraram soti Ow.",
+      "bibleReference": "Jenèz 11:31",
+      "normalizedRef": "gen11.31",
+      "normalizedCat": "lugares"
+    },
+    "fr": {
+      "id": "dq-lug-009",
+      "questionText": "Quelle était la ville d'origine d'Abraham avant son départ pour Canaan ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babylone"
+        },
+        {
+          "id": "b",
+          "text": "Ninive"
+        },
+        {
+          "id": "c",
+          "text": "Ur en Chaldée"
+        },
+        {
+          "id": "d",
+          "text": "Damas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Térach prit Abram, son fils... ils sortirent d'Ur en Chaldée pour aller au pays de Canaan » (Genèse 11:31). Dieu appela Abraham depuis Ur.",
+      "bibleReference": "Genèse 11:31",
+      "normalizedRef": "gen11.31",
+      "normalizedCat": "lugares"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-010",
+    "ht": {
+      "id": "dq-lug-010",
+      "questionText": "Nan ki lanmè lame Farawon an te nwaye lè li t ap pousui Izrayèl?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmè Mediterane"
+        },
+        {
+          "id": "b",
+          "text": "Lanmè Mò"
+        },
+        {
+          "id": "c",
+          "text": "Lanmè Galile"
+        },
+        {
+          "id": "d",
+          "text": "Lanmè Wouj"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Bondye te fann Lanmè Wouj la pou Izrayèl pase epi dlo yo te tounen kouvri lame Farawon an (Egzòd 14:26-28).",
+      "bibleReference": "Egzòd 14:26-28",
+      "normalizedRef": "exo14.26-28",
+      "normalizedCat": "lugares"
+    },
+    "fr": {
+      "id": "dq-lug-010",
+      "questionText": "Dans quelle mer l'armée de Pharaon s'est-elle noyée en poursuivant Israël ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mer Méditerranée"
+        },
+        {
+          "id": "b",
+          "text": "Mer Morte"
+        },
+        {
+          "id": "c",
+          "text": "Mer de Galilée"
+        },
+        {
+          "id": "d",
+          "text": "Mer Rouge"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Dieu fendit la Mer Rouge pour qu'Israël traverse, puis les eaux revinrent couvrir l'armée de Pharaon (Exode 14:26-28).",
+      "bibleReference": "Exode 14:26-28",
+      "normalizedRef": "exo14.26-28",
+      "normalizedCat": "lugares"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-011",
+    "ht": {
+      "id": "dq-lug-011",
+      "questionText": "Nan ki vil yo te krisifye Jezi?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kafanawoum"
+        },
+        {
+          "id": "b",
+          "text": "Betleyèm"
+        },
+        {
+          "id": "c",
+          "text": "Nazarèt"
+        },
+        {
+          "id": "d",
+          "text": "Jerizalèm"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Yo te krisifye Jezi deyò pòt Jerizalèm, nan yon kote yo rele Golgotha oswa \"Kràn\" (Jan 19:17-20).",
+      "bibleReference": "Jan 19:17-20",
+      "normalizedRef": "joh19.17-20",
+      "normalizedCat": "lugares"
+    },
+    "fr": {
+      "id": "dq-lug-011",
+      "questionText": "Dans quelle ville Jésus a-t-il été crucifié ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Capernaüm"
+        },
+        {
+          "id": "b",
+          "text": "Bethléem"
+        },
+        {
+          "id": "c",
+          "text": "Nazareth"
+        },
+        {
+          "id": "d",
+          "text": "Jérusalem"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Jésus fut crucifié hors des portes de Jérusalem, en un lieu appelé Golgotha ou « le Crâne » (Jean 19:17-20).",
+      "bibleReference": "Jean 19:17-20",
+      "normalizedRef": "joh19.17-20",
+      "normalizedCat": "lugares"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-012",
+    "ht": {
+      "id": "dq-lug-012",
+      "questionText": "Nan bò ki lanmè Pyè, Andre, Jak ak Jan t ap pèche?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmè Mediterane"
+        },
+        {
+          "id": "b",
+          "text": "Lanmè Mò"
+        },
+        {
+          "id": "c",
+          "text": "Lanmè Galile"
+        },
+        {
+          "id": "d",
+          "text": "Lanmè Wouj"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jezi te rele premye disip li yo pandan yo t ap pèche nan Lanmè Galile (yo rele l tou lak Jenezarèt oswa lak Tiberyad) (Matye 4:18).",
+      "bibleReference": "Matye 4:18",
+      "normalizedRef": "mat4.18",
+      "normalizedCat": "lugares"
+    },
+    "fr": {
+      "id": "dq-lug-012",
+      "questionText": "Au bord de quelle mer Pierre, André, Jacques et Jean pêchaient-ils ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mer Méditerranée"
+        },
+        {
+          "id": "b",
+          "text": "Mer Morte"
+        },
+        {
+          "id": "c",
+          "text": "Mer de Galilée"
+        },
+        {
+          "id": "d",
+          "text": "Mer Rouge"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jésus appela ses premiers disciples alors qu'ils pêchaient dans la mer de Galilée (aussi appelée lac de Génésareth ou lac de Tibériade) (Matthieu 4:18).",
+      "bibleReference": "Matthieu 4:18",
+      "normalizedRef": "mat4.18",
+      "normalizedCat": "lugares"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-013",
+    "ht": {
+      "id": "dq-lug-013",
+      "questionText": "Sou ki mòn Moyiz te resevwa Dis Kòmandman yo nan men Bondye?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Nebo"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Karmèl"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Èmin"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bondye te rele Moyiz nan Mòn Sinayi (yo rele l tou Orèb) kote li te ba li lwa a sou tab wòch (Egzòd 19:20; 31:18).",
+      "bibleReference": "Egzòd 19:20",
+      "normalizedRef": "exo19.20",
+      "normalizedCat": "lugares"
+    },
+    "fr": {
+      "id": "dq-lug-013",
+      "questionText": "Sur quelle montagne Moïse a-t-il reçu les Dix Commandements de la part de Dieu ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Nébo"
+        },
+        {
+          "id": "b",
+          "text": "Mont Carmel"
+        },
+        {
+          "id": "c",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "d",
+          "text": "Mont Hermon"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu appela Moïse sur le mont Sinaï (aussi appelé Horeb) où il lui donna la loi sur des tables de pierre (Exode 19:20 ; 31:18).",
+      "bibleReference": "Exode 19:20",
+      "normalizedRef": "exo19.20",
+      "normalizedCat": "lugares"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-014",
+    "ht": {
+      "id": "dq-lug-014",
+      "questionText": "Sou ki mòn Salomon te bati tanp Bondye a?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Olivye"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Moria / Siyon"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Karmèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salomon te bati tanp lan sou Mòn Moria, nan Jerizalèm, menm kote Abraram te pral sakrifye Izak (2 Kwonik 3:1).",
+      "bibleReference": "2 Kwonik 3:1",
+      "normalizedRef": "2kwonik3.1",
+      "normalizedCat": "lugares"
+    },
+    "fr": {
+      "id": "dq-lug-014",
+      "questionText": "Sur quelle montagne Salomon a-t-il bâti le temple de Dieu ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "b",
+          "text": "Mont des Oliviers"
+        },
+        {
+          "id": "c",
+          "text": "Mont Morija / Sion"
+        },
+        {
+          "id": "d",
+          "text": "Mont Carmel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salomon bâtit le temple sur le mont Morija, à Jérusalem, là même où Abraham avait failli sacrifier Isaac (2 Chroniques 3:1).",
+      "bibleReference": "2 Chroniques 3:1",
+      "normalizedRef": "2kwonik3.1",
+      "normalizedCat": "lugares"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-015",
+    "ht": {
+      "id": "dq-lug-015",
+      "questionText": "Sou ki mòn Bondye te kòmande Abraram sakrifye pitit li Izak?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mòn Sinayi"
+        },
+        {
+          "id": "b",
+          "text": "Mòn Moria"
+        },
+        {
+          "id": "c",
+          "text": "Mòn Èmin"
+        },
+        {
+          "id": "d",
+          "text": "Mòn Nebo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Al nan peyi Moria, epi ofri l la kòm yon olokost\" (Jenèz 22:2). Mòn sa idantifye ak kote Salomon te bati tanp lan (2 Kwonik 3:1).",
+      "bibleReference": "Jenèz 22:2",
+      "normalizedRef": "gen22.2",
+      "normalizedCat": "lugares"
+    },
+    "fr": {
+      "id": "dq-lug-015",
+      "questionText": "Sur quelle montagne Dieu a-t-il commandé à Abraham de sacrifier son fils Isaac ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "b",
+          "text": "Mont Morija"
+        },
+        {
+          "id": "c",
+          "text": "Mont Hermon"
+        },
+        {
+          "id": "d",
+          "text": "Mont Nébo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Va au pays de Morija, et là offre-le en holocauste » (Genèse 22:2). Ce mont est identifié au lieu où Salomon bâtit le temple (2 Chroniques 3:1).",
+      "bibleReference": "Genèse 22:2",
+      "normalizedRef": "gen22.2",
+      "normalizedCat": "lugares"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-016",
+    "ht": {
+      "id": "dq-lug-016",
+      "questionText": "Ki kote premye kominote kretyen an te tabli dapre Liv Travay yo?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antiosh"
+        },
+        {
+          "id": "b",
+          "text": "Wòm"
+        },
+        {
+          "id": "c",
+          "text": "Efèz"
+        },
+        {
+          "id": "d",
+          "text": "Jerizalèm"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Premye legliz la te fèt nan Jerizalèm jou Pannkòt, lè Lespri Sen an te desann epi anviwon 3,000 moun te konvèti (Travay 2:1-47).",
+      "bibleReference": "Travay 2:47",
+      "normalizedRef": "act2.47",
+      "normalizedCat": "lugares"
+    },
+    "fr": {
+      "id": "dq-lug-016",
+      "questionText": "Où la première communauté chrétienne s'est-elle établie selon le livre des Actes ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antioche"
+        },
+        {
+          "id": "b",
+          "text": "Rome"
+        },
+        {
+          "id": "c",
+          "text": "Éphèse"
+        },
+        {
+          "id": "d",
+          "text": "Jérusalem"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "La première église naquit à Jérusalem le jour de la Pentecôte, quand le Saint-Esprit descendit et qu'environ 3 000 personnes se convertirent (Actes 2:1-47).",
+      "bibleReference": "Actes 2:47",
+      "normalizedRef": "act2.47",
+      "normalizedCat": "lugares"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-017",
+    "ht": {
+      "id": "dq-lug-017",
+      "questionText": "Ki vil nan Liv Revelasyon an ki reprezante simbolikman pouvwa opresè Wòm?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sodòm"
+        },
+        {
+          "id": "b",
+          "text": "Babilòn"
+        },
+        {
+          "id": "c",
+          "text": "Niniv"
+        },
+        {
+          "id": "d",
+          "text": "Tir"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nan Revelasyon 17-18, \"Babilòn Gran\" prezante kòm senbòl vil opresè (entèprete kòm Wòm) ki t ap pèsekite sen yo.",
+      "bibleReference": "Revelasyon 17:5",
+      "normalizedRef": "rev17.5",
+      "normalizedCat": "lugares"
+    },
+    "fr": {
+      "id": "dq-lug-017",
+      "questionText": "Quelle ville, dans le livre de l'Apocalypse, représente symboliquement le pouvoir oppresseur de Rome ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sodome"
+        },
+        {
+          "id": "b",
+          "text": "Babylone"
+        },
+        {
+          "id": "c",
+          "text": "Ninive"
+        },
+        {
+          "id": "d",
+          "text": "Tyr"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dans l'Apocalypse 17-18, « Babylone la Grande » est présentée comme le symbole de la ville oppressante (interprétée comme Rome) qui persécutait les saints.",
+      "bibleReference": "Apocalypse 17:5",
+      "normalizedRef": "rev17.5",
+      "normalizedCat": "lugares"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-lug-018",
+    "ht": {
+      "id": "dq-lug-018",
+      "questionText": "Nan ki dezè pèp Izrayèl la te rete pandan 40 ane anvan antre nan Kanaran?",
+      "categoryId": "lugares",
+      "categoryName": "Kote Biblik Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dezè Jide"
+        },
+        {
+          "id": "b",
+          "text": "Dezè Sinayi ak Paran"
+        },
+        {
+          "id": "c",
+          "text": "Dezè Arabi"
+        },
+        {
+          "id": "d",
+          "text": "Dezè Negev"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Izrayèl te vire nan dezè Sinayi ak plenn Paran pandan 40 ane. Yo te travèse dezè Zen ak Kadès-Barnea tou (Nonb 33).",
+      "bibleReference": "Nonb 33:1-49",
+      "normalizedRef": "num33.1-49",
+      "normalizedCat": "lugares"
+    },
+    "fr": {
+      "id": "dq-lug-018",
+      "questionText": "Dans quel désert le peuple d'Israël a-t-il séjourné pendant 40 ans avant d'entrer en Canaan ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Désert de Judée"
+        },
+        {
+          "id": "b",
+          "text": "Déserts de Sinaï et de Paran"
+        },
+        {
+          "id": "c",
+          "text": "Désert d'Arabie"
+        },
+        {
+          "id": "d",
+          "text": "Désert du Néguev"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Israël erra dans le désert du Sinaï et les plaines de Paran pendant 40 ans. Ils traversèrent aussi les déserts de Tsin et de Kadès-Barnéa (Nombres 33).",
+      "bibleReference": "Nombres 33:1-49",
+      "normalizedRef": "num33.1-49",
+      "normalizedCat": "lugares"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-006",
+    "ht": {
+      "id": "dq-evnt-006",
+      "questionText": "Konbyen jou ak nwit lapli te tonbe pandan delij Noye a?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "40"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lapli delij la te dire karant jou ak karant nwit (Jenèz 7:12). Dlo yo te domine sou tè a pandan 150 jou.",
+      "bibleReference": "Jenèz 7:12",
+      "normalizedRef": "gen7.12",
+      "normalizedCat": "eventos"
+    },
+    "fr": {
+      "id": "dq-evnt-006",
+      "questionText": "Pendant combien de jours et de nuits la pluie est-elle tombée durant le déluge de Noé ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "40"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La pluie du déluge tomba pendant quarante jours et quarante nuits (Genèse 7:12). Les eaux dominèrent la terre pendant 150 jours.",
+      "bibleReference": "Genèse 7:12",
+      "normalizedRef": "gen7.12",
+      "normalizedCat": "eventos"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-007",
+    "ht": {
+      "id": "dq-evnt-007",
+      "questionText": "Ki lè Jezi te resisite apre lanmò li?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Premye jou"
+        },
+        {
+          "id": "b",
+          "text": "Dezyèm jou"
+        },
+        {
+          "id": "c",
+          "text": "Twazyèm jou"
+        },
+        {
+          "id": "d",
+          "text": "Yon semèn apre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jezi te resisite nan twazyèm jou a, jan li te anonse ak jan Bib la te pwofetize (1 Korentyen 15:4).",
+      "bibleReference": "1 Korentyen 15:4",
+      "normalizedRef": "1korentyen15.4",
+      "normalizedCat": "eventos"
+    },
+    "fr": {
+      "id": "dq-evnt-007",
+      "questionText": "Quand Jésus est-il ressuscité après sa mort ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le premier jour"
+        },
+        {
+          "id": "b",
+          "text": "Le deuxième jour"
+        },
+        {
+          "id": "c",
+          "text": "Le troisième jour"
+        },
+        {
+          "id": "d",
+          "text": "Une semaine après"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jésus ressuscita le troisième jour, comme il l'avait annoncé et selon les Écritures (1 Corinthiens 15:4).",
+      "bibleReference": "1 Corinthiens 15:4",
+      "normalizedRef": "1korentyen15.4",
+      "normalizedCat": "eventos"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-008",
+    "ht": {
+      "id": "dq-evnt-008",
+      "questionText": "Ki sa ki te pase nan syèl ak sou tè lè Jezi te batize nan Jouden?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon tranblemanntè te souke rejyon an"
+        },
+        {
+          "id": "b",
+          "text": "Lespri a desann tankou pijon ak Papa a te pale sot nan syèl"
+        },
+        {
+          "id": "c",
+          "text": "Zanj yo te parèt sou rivyè a"
+        },
+        {
+          "id": "d",
+          "text": "Dlo Jouden an te divize"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Syèl la louvri, epi Jan te wè Lespri Bondye desann tankou yon pijon, epi poze sou li. Epi yon vwa soti nan syèl di: Sa a se Pitit mwen renmen an\" (Matye 3:16-17).",
+      "bibleReference": "Matye 3:16-17",
+      "normalizedRef": "mat3.16-17",
+      "normalizedCat": "eventos"
+    },
+    "fr": {
+      "id": "dq-evnt-008",
+      "questionText": "Que s'est-il passé au ciel et sur la terre quand Jésus fut baptisé dans le Jourdain ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un tremblement de terre secoua la région"
+        },
+        {
+          "id": "b",
+          "text": "L'Esprit descendit comme une colombe et le Père parla du ciel"
+        },
+        {
+          "id": "c",
+          "text": "Des anges apparurent sur la rivière"
+        },
+        {
+          "id": "d",
+          "text": "L'eau du Jourdain se divisa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Les cieux s'ouvrirent, et il vit l'Esprit de Dieu descendre comme une colombe et venir sur lui. Et voici, une voix fit entendre des cieux ces paroles : Celui-ci est mon Fils bien-aimé » (Matthieu 3:16-17).",
+      "bibleReference": "Matthieu 3:16-17",
+      "normalizedRef": "mat3.16-17",
+      "normalizedCat": "eventos"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-009",
+    "ht": {
+      "id": "dq-evnt-009",
+      "questionText": "Konbyen jou apre rezirèksyon li Jezi te monte nan syèl la?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 jou"
+        },
+        {
+          "id": "b",
+          "text": "7 jou"
+        },
+        {
+          "id": "c",
+          "text": "40 jou"
+        },
+        {
+          "id": "d",
+          "text": "50 jou"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"A sa yo tou, apre li te soufri, li te prezante tèt li vivan ak anpil prèv ki pa ka doute, parèt devan yo pou karant jou\" (Travay 1:3).",
+      "bibleReference": "Travay 1:3",
+      "normalizedRef": "act1.3",
+      "normalizedCat": "eventos"
+    },
+    "fr": {
+      "id": "dq-evnt-009",
+      "questionText": "Combien de jours après sa résurrection Jésus est-il monté au ciel ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 jours"
+        },
+        {
+          "id": "b",
+          "text": "7 jours"
+        },
+        {
+          "id": "c",
+          "text": "40 jours"
+        },
+        {
+          "id": "d",
+          "text": "50 jours"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Après qu'il eut souffert, il leur apparut vivant, et leur en donna plusieurs preuves, se montrant à eux pendant quarante jours » (Actes 1:3).",
+      "bibleReference": "Actes 1:3",
+      "normalizedRef": "act1.3",
+      "normalizedCat": "eventos"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-010",
+    "ht": {
+      "id": "dq-evnt-010",
+      "questionText": "Ki evènman ki te divize wayòm inifye Izrayèl an de wayòm separe?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmò wa David"
+        },
+        {
+          "id": "b",
+          "text": "Defèt kont Filistin yo"
+        },
+        {
+          "id": "c",
+          "text": "Lanmò Salomon ak rèbèlyon 10 tribi anba Roboam"
+        },
+        {
+          "id": "d",
+          "text": "Envazyon babilonyèn"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Apre lanmò Salomon, Roboam te ogmante taks. 10 tribi nò yo te rebèle epi swiv Jeroboam, divize wayòm nan ann Izrayèl (nò) ak Jida (sid) (1 Wa 12).",
+      "bibleReference": "1 Wa 12:16-19",
+      "normalizedRef": "1ki12.16-19",
+      "normalizedCat": "eventos"
+    },
+    "fr": {
+      "id": "dq-evnt-010",
+      "questionText": "Quel événement a divisé le royaume unifié d'Israël en deux royaumes séparés ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mort du roi David"
+        },
+        {
+          "id": "b",
+          "text": "La défaite contre les Philistins"
+        },
+        {
+          "id": "c",
+          "text": "La mort de Salomon et la rébellion des 10 tribus sous Roboam"
+        },
+        {
+          "id": "d",
+          "text": "L'invasion babylonienne"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Après la mort de Salomon, Roboam augmenta les taxes. Les 10 tribus du nord se révoltèrent et suivirent Jéroboam, divisant le royaume en Israël (nord) et Juda (sud) (1 Rois 12).",
+      "bibleReference": "1 Rois 12:16-19",
+      "normalizedRef": "1ki12.16-19",
+      "normalizedCat": "eventos"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-011",
+    "ht": {
+      "id": "dq-evnt-011",
+      "questionText": "Ki evènman ki te pase 50 jou apre rezirèksyon Jezi (Pak la)?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Asenksyon Jezi"
+        },
+        {
+          "id": "b",
+          "text": "Konvèsyon Pòl"
+        },
+        {
+          "id": "c",
+          "text": "Pannkòt: dècha Lespri Sen an"
+        },
+        {
+          "id": "d",
+          "text": "Premye misyon Pòl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pannkòt (Shavuot) te pase 50 jou apre Pak. Jou sa a, Lespri Sen an te vèse sou legliz la ki t ap fèt la (Travay 2:1-4).",
+      "bibleReference": "Travay 2:1-4",
+      "normalizedRef": "act2.1-4",
+      "normalizedCat": "eventos"
+    },
+    "fr": {
+      "id": "dq-evnt-011",
+      "questionText": "Quel événement a eu lieu 50 jours après la résurrection de Jésus (la Pâque) ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Ascension de Jésus"
+        },
+        {
+          "id": "b",
+          "text": "La conversion de Paul"
+        },
+        {
+          "id": "c",
+          "text": "La Pentecôte : la descente du Saint-Esprit"
+        },
+        {
+          "id": "d",
+          "text": "La première mission de Paul"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La Pentecôte (Shavuot) eut lieu 50 jours après la Pâque. Ce jour-là, le Saint-Esprit fut répandu sur l'église naissante (Actes 2:1-4).",
+      "bibleReference": "Actes 2:1-4",
+      "normalizedRef": "act2.1-4",
+      "normalizedCat": "eventos"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-012",
+    "ht": {
+      "id": "dq-evnt-012",
+      "questionText": "Ki siy sounnatirèl ki te akonpanye lanmò Jezi sou kwa a?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèlman fènwa pandan 3 èdtan"
+        },
+        {
+          "id": "b",
+          "text": "Fènwa, tranblemanntè, vwal tanp la chire ak mò yo resisite"
+        },
+        {
+          "id": "c",
+          "text": "Lapli dife ak loraj"
+        },
+        {
+          "id": "d",
+          "text": "Solèy la te klere ak entansite ki pa òdinè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lè Jezi te mouri: vwal tanp lan te chire soti anwo rive an ba, te gen tranblemanntè, wòch yo te fann, epi tonbo yo te louvri (Matye 27:50-53).",
+      "bibleReference": "Matye 27:50-53",
+      "normalizedRef": "mat27.50-53",
+      "normalizedCat": "eventos"
+    },
+    "fr": {
+      "id": "dq-evnt-012",
+      "questionText": "Quels signes surnaturels ont accompagné la mort de Jésus sur la croix ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seulement des ténèbres pendant 3 heures"
+        },
+        {
+          "id": "b",
+          "text": "Ténèbres, tremblement de terre, voile du temple déchiré et résurrection de saints"
+        },
+        {
+          "id": "c",
+          "text": "Pluie de feu et tonnerre"
+        },
+        {
+          "id": "d",
+          "text": "Le soleil brilla avec une intensité inhabituelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "À la mort de Jésus : le voile du temple se déchira du haut en bas, la terre trembla, les rochers se fendirent et des sépulcres s'ouvrirent (Matthieu 27:50-53).",
+      "bibleReference": "Matthieu 27:50-53",
+      "normalizedRef": "mat27.50-53",
+      "normalizedCat": "eventos"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-013",
+    "ht": {
+      "id": "dq-evnt-013",
+      "questionText": "Nan ki ane anviwon Jerizalèm te tonbe anba Babilòn pou Nebikadneza?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "722 anvan Kris"
+        },
+        {
+          "id": "b",
+          "text": "612 anvan Kris"
+        },
+        {
+          "id": "c",
+          "text": "586 anvan Kris"
+        },
+        {
+          "id": "d",
+          "text": "550 anvan Kris"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "An 586 anvan Kris Nebikadneza te detwi tanp Salomon an, boule Jerizalèm epi pote pèp la kaptif ann Babilòn (2 Wa 25:8-11).",
+      "bibleReference": "2 Wa 25:8-11",
+      "normalizedRef": "2ki25.8-11",
+      "normalizedCat": "eventos"
+    },
+    "fr": {
+      "id": "dq-evnt-013",
+      "questionText": "En quelle année environ Jérusalem est-elle tombée aux mains de Babylone sous Nebucadnetsar ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "722 av. J.-C."
+        },
+        {
+          "id": "b",
+          "text": "612 av. J.-C."
+        },
+        {
+          "id": "c",
+          "text": "586 av. J.-C."
+        },
+        {
+          "id": "d",
+          "text": "550 av. J.-C."
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "En 586 av. J.-C., Nebucadnetsar détruisit le temple de Salomon, brûla Jérusalem et emmena le peuple captif à Babylone (2 Rois 25:8-11).",
+      "bibleReference": "2 Rois 25:8-11",
+      "normalizedRef": "2ki25.8-11",
+      "normalizedCat": "eventos"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-014",
+    "ht": {
+      "id": "dq-evnt-014",
+      "questionText": "Nan ki ane wayòm nò Izrayèl te tonbe anba envazyon Asiri?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "850 anvan Kris"
+        },
+        {
+          "id": "b",
+          "text": "722 anvan Kris"
+        },
+        {
+          "id": "c",
+          "text": "612 anvan Kris"
+        },
+        {
+          "id": "d",
+          "text": "586 anvan Kris"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "An 722 anvan Kris, wa Asiri Salmanasè V (apre Sargon II) te konkeri Samari, kapital wayòm nò a, deporte 10 tribi yo (2 Wa 17:6).",
+      "bibleReference": "2 Wa 17:6",
+      "normalizedRef": "2ki17.6",
+      "normalizedCat": "eventos"
+    },
+    "fr": {
+      "id": "dq-evnt-014",
+      "questionText": "En quelle année le royaume du nord d'Israël est-il tombé sous l'invasion assyrienne ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "850 av. J.-C."
+        },
+        {
+          "id": "b",
+          "text": "722 av. J.-C."
+        },
+        {
+          "id": "c",
+          "text": "612 av. J.-C."
+        },
+        {
+          "id": "d",
+          "text": "586 av. J.-C."
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "En 722 av. J.-C., le roi d'Assyrie Salmanasar V (puis Sargon II) conquit Samarie, capitale du royaume du nord, et déporta les 10 tribus (2 Rois 17:6).",
+      "bibleReference": "2 Rois 17:6",
+      "normalizedRef": "2ki17.6",
+      "normalizedCat": "eventos"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-evnt-015",
+    "ht": {
+      "id": "dq-evnt-015",
+      "questionText": "Konbyen ane apre lanmò Jezi Ewòdyen an te detwi sou Jerizalèm pa Wòmyen yo?",
+      "categoryId": "eventos",
+      "categoryName": "Evènman Enpòtan",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 ane (40 apre Kris)"
+        },
+        {
+          "id": "b",
+          "text": "~40 ane (70 apre Kris)"
+        },
+        {
+          "id": "c",
+          "text": "100 ane (130 apre Kris)"
+        },
+        {
+          "id": "d",
+          "text": "200 ane (230 apre Kris)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tanp lan te detwi pa jeneral Women Tit nan ane 70 apre Kris, anviwon 40 ane apre krisifiksyon Jezi (~30 apre Kris), reyalize pwofesi Jezi (Matye 24:2).",
+      "bibleReference": "Matye 24:2",
+      "normalizedRef": "mat24.2",
+      "normalizedCat": "eventos"
+    },
+    "fr": {
+      "id": "dq-evnt-015",
+      "questionText": "Combien d'années après la mort de Jésus le temple d'Hérode à Jérusalem fut-il détruit par les Romains ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Importants",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "10 ans (an 40)"
+        },
+        {
+          "id": "b",
+          "text": "~40 ans (an 70)"
+        },
+        {
+          "id": "c",
+          "text": "100 ans (an 130)"
+        },
+        {
+          "id": "d",
+          "text": "200 ans (an 230)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le temple fut détruit par le général romain Titus en l'an 70 apr. J.-C., environ 40 ans après la crucifixion de Jésus (~an 30), réalisant la prophétie de Jésus (Matthieu 24:2).",
+      "bibleReference": "Matthieu 24:2",
+      "normalizedRef": "mat24.2",
+      "normalizedCat": "eventos"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-003",
+    "ht": {
+      "id": "dq-tema-003",
+      "questionText": "Konbyen fwa Pyè ta dwe padonnen frè li dapre Jezi?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 fwa"
+        },
+        {
+          "id": "b",
+          "text": "77 fwa"
+        },
+        {
+          "id": "c",
+          "text": "70 fwa sèt"
+        },
+        {
+          "id": "d",
+          "text": "100 fwa"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Mwen pa di ou jiska sèt, men jiska swasant-dis fwa sèt\" (Matye 18:22). Jezi t ap anseye yon pèdon san limit.",
+      "bibleReference": "Matye 18:22",
+      "normalizedRef": "mat18.22",
+      "normalizedCat": "temas"
+    },
+    "fr": {
+      "id": "dq-tema-003",
+      "questionText": "Combien de fois Pierre devait-il pardonner à son frère selon Jésus ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 fois"
+        },
+        {
+          "id": "b",
+          "text": "77 fois"
+        },
+        {
+          "id": "c",
+          "text": "70 fois sept fois"
+        },
+        {
+          "id": "d",
+          "text": "100 fois"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Je ne te dis pas jusqu'à sept fois, mais jusqu'à soixante-dix fois sept fois » (Matthieu 18:22). Jésus enseignait un pardon sans limite.",
+      "bibleReference": "Matthieu 18:22",
+      "normalizedRef": "mat18.22",
+      "normalizedCat": "temas"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-004",
+    "ht": {
+      "id": "dq-tema-004",
+      "questionText": "Ki sa Ebre 11:1 di sou lafwa?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Se rezilta obeyisans pafèt la"
+        },
+        {
+          "id": "b",
+          "text": "Se sekirite sa nou espere, prèv sa nou pa wè"
+        },
+        {
+          "id": "c",
+          "text": "Se kwè san prèv"
+        },
+        {
+          "id": "d",
+          "text": "Se kado ki pi gran Lespri a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Lafwa se sekirite sa nou espere a, prèv sa nou pa wè\" (Ebre 11:1).",
+      "bibleReference": "Ebre 11:1",
+      "normalizedRef": "heb11.1",
+      "normalizedCat": "temas"
+    },
+    "fr": {
+      "id": "dq-tema-004",
+      "questionText": "Que dit Hébreux 11:1 au sujet de la foi ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "C'est le résultat d'une obéissance parfaite"
+        },
+        {
+          "id": "b",
+          "text": "C'est l'assurance des choses qu'on espère, la démonstration de celles qu'on ne voit pas"
+        },
+        {
+          "id": "c",
+          "text": "C'est croire sans preuves"
+        },
+        {
+          "id": "d",
+          "text": "C'est le plus grand don de l'Esprit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Or la foi est une ferme assurance des choses qu'on espère, une démonstration de celles qu'on ne voit pas » (Hébreux 11:1).",
+      "bibleReference": "Hébreux 11:1",
+      "normalizedRef": "heb11.1",
+      "normalizedCat": "temas"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-005",
+    "ht": {
+      "id": "dq-tema-005",
+      "questionText": "Ki sa Bondye pwomèt dapre 1 Jan 1:9 si nou konfese peche nou yo?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li pral ban nou plis eprèv"
+        },
+        {
+          "id": "b",
+          "text": "Ke nou p ap janm fè peche ankò"
+        },
+        {
+          "id": "c",
+          "text": "Li pral padonnen nou ak netwaye nou nan tout injistis"
+        },
+        {
+          "id": "d",
+          "text": "Ke nou pral pafè"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Si nou konfese peche nou yo, li fidèl ak jis pou padonnen nou peche nou yo, epi pou netwaye nou nan tout mechanste\" (1 Jan 1:9).",
+      "bibleReference": "1 Jan 1:9",
+      "normalizedRef": "1jn1.9",
+      "normalizedCat": "temas"
+    },
+    "fr": {
+      "id": "dq-tema-005",
+      "questionText": "Que promet Dieu selon 1 Jean 1:9 si nous confessons nos péchés ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il nous donnera plus d'épreuves"
+        },
+        {
+          "id": "b",
+          "text": "Que nous ne pécherons plus jamais"
+        },
+        {
+          "id": "c",
+          "text": "Il est fidèle et juste pour nous les pardonner et nous purifier de toute iniquité"
+        },
+        {
+          "id": "d",
+          "text": "Que nous serons parfaits"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité » (1 Jean 1:9).",
+      "bibleReference": "1 Jean 1:9",
+      "normalizedRef": "1jn1.9",
+      "normalizedCat": "temas"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-006",
+    "ht": {
+      "id": "dq-tema-006",
+      "questionText": "Ki twa vèti etènèl ki rete dapre 1 Korentyen 13:13?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lapriyè, ajèn ak sèvis"
+        },
+        {
+          "id": "b",
+          "text": "Kouraj, sajès ak pouvwa"
+        },
+        {
+          "id": "c",
+          "text": "Lafwa, espwa ak lanmou"
+        },
+        {
+          "id": "d",
+          "text": "Obeyisans, sètete ak lapè"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi kounye a rete lafwa, espwa, ak lanmou, twa sa yo; men pi gran nan yo se lanmou\" (1 Korentyen 13:13).",
+      "bibleReference": "1 Korentyen 13:13",
+      "normalizedRef": "1korentyen13.13",
+      "normalizedCat": "temas"
+    },
+    "fr": {
+      "id": "dq-tema-006",
+      "questionText": "Quelles sont les trois vertus éternelles qui demeurent selon 1 Corinthiens 13:13 ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prière, jeûne et service"
+        },
+        {
+          "id": "b",
+          "text": "Courage, sagesse et puissance"
+        },
+        {
+          "id": "c",
+          "text": "La foi, l'espérance et l'amour"
+        },
+        {
+          "id": "d",
+          "text": "Obéissance, certitude et paix"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Maintenant donc ces trois choses demeurent : la foi, l'espérance, l'amour ; mais la plus grande de ces choses, c'est l'amour » (1 Corinthiens 13:13).",
+      "bibleReference": "1 Corinthiens 13:13",
+      "normalizedRef": "1korentyen13.13",
+      "normalizedCat": "temas"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-007",
+    "ht": {
+      "id": "dq-tema-007",
+      "questionText": "Nan ki chapit 1 Korentyen Pòl dekri lanmou kòm \"vwa ki pi ekselant\"?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chapit 1"
+        },
+        {
+          "id": "b",
+          "text": "Chapit 10"
+        },
+        {
+          "id": "c",
+          "text": "Chapit 13"
+        },
+        {
+          "id": "d",
+          "text": "Chapit 15"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Im lanmou\" oswa \"Chapit lanmou\" se 1 Korentyen 13, kote Pòl dekri lanmou kòm siperyè a don espirityèl yo.",
+      "bibleReference": "1 Korentyen 13:1-13",
+      "normalizedRef": "1korentyen13.1-13",
+      "normalizedCat": "temas"
+    },
+    "fr": {
+      "id": "dq-tema-007",
+      "questionText": "Dans quel chapitre de 1 Corinthiens Paul décrit-il l'amour comme la « voie par excellence » ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chapitre 1"
+        },
+        {
+          "id": "b",
+          "text": "Chapitre 10"
+        },
+        {
+          "id": "c",
+          "text": "Chapitre 13"
+        },
+        {
+          "id": "d",
+          "text": "Chapitre 15"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'« Hymne à l'amour » se trouve en 1 Corinthiens 13, où Paul décrit l'amour comme supérieur aux dons spirituels.",
+      "bibleReference": "1 Corinthiens 13:1-13",
+      "normalizedRef": "1korentyen13.1-13",
+      "normalizedCat": "temas"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-008",
+    "ht": {
+      "id": "dq-tema-008",
+      "questionText": "Ki kòmandman Jezi rele \"premye ak pi enpòtan\" nan tout yo?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pa touye"
+        },
+        {
+          "id": "b",
+          "text": "Respecte papa ou ak manman ou"
+        },
+        {
+          "id": "c",
+          "text": "Renmen Bondye ak tout kè ou, ak vwazin ou tankou tèt ou"
+        },
+        {
+          "id": "d",
+          "text": "Pa sèvi non Bondye an anven"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Ou va renmen Seyè Bondye ou ak tout kè ou... Sa a se premye ak gwo kòmandman. Epi dezyèm la sanblabel: ou va renmen vwazin ou tankou tèt ou\" (Matye 22:37-39).",
+      "bibleReference": "Matye 22:37-39",
+      "normalizedRef": "mat22.37-39",
+      "normalizedCat": "temas"
+    },
+    "fr": {
+      "id": "dq-tema-008",
+      "questionText": "Quel commandement Jésus appelle-t-il « le premier et le plus grand » de tous ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tu ne tueras point"
+        },
+        {
+          "id": "b",
+          "text": "Honore ton père et ta mère"
+        },
+        {
+          "id": "c",
+          "text": "Tu aimeras le Seigneur ton Dieu de tout ton cœur, et ton prochain comme toi-même"
+        },
+        {
+          "id": "d",
+          "text": "Tu ne prendras point le nom de Dieu en vain"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Tu aimeras le Seigneur, ton Dieu, de tout ton cœur... C'est là le premier et le plus grand commandement. Et voici le second, qui lui est semblable : Tu aimeras ton prochain comme toi-même » (Matthieu 22:37-39).",
+      "bibleReference": "Matthieu 22:37-39",
+      "normalizedRef": "mat22.37-39",
+      "normalizedCat": "temas"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-009",
+    "ht": {
+      "id": "dq-tema-009",
+      "questionText": "Ki parabòl Jezi ki pi byen ilustre lanmou ak mizèrikòd Papa a pou pechè ki repanti?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parabòl dis vièj yo"
+        },
+        {
+          "id": "b",
+          "text": "Parabòl bon Samariten an"
+        },
+        {
+          "id": "c",
+          "text": "Parabòl pitit pwodige a"
+        },
+        {
+          "id": "d",
+          "text": "Parabòl semansyè a"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Parabòl pitit pwodige a (Lik 15:11-32) montre papa ki kouri pou anbrase pitit li lè li retounen repanti, senbòl lanmou Bondye pou pechè a.",
+      "bibleReference": "Lik 15:20-24",
+      "normalizedRef": "luk15.20-24",
+      "normalizedCat": "temas"
+    },
+    "fr": {
+      "id": "dq-tema-009",
+      "questionText": "Quelle parabole de Jésus illustre le mieux l'amour et la miséricorde du Père pour le pécheur repentant ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parabole des dix vierges"
+        },
+        {
+          "id": "b",
+          "text": "Parabole du bon Samaritain"
+        },
+        {
+          "id": "c",
+          "text": "Parabole du fils prodigue"
+        },
+        {
+          "id": "d",
+          "text": "Parabole du semeur"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La parabole du fils prodigue (Luc 15:11-32) montre le père courant embrasser son fils à son retour repentant, symbole de l'amour de Dieu pour le pécheur.",
+      "bibleReference": "Luc 15:20-24",
+      "normalizedRef": "luk15.20-24",
+      "normalizedCat": "temas"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-010",
+    "ht": {
+      "id": "dq-tema-010",
+      "questionText": "Ki fonksyon lwa Bondye genyen an relasyon ak peche dapre Women 3:20?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li sove moun ki obeyi l"
+        },
+        {
+          "id": "b",
+          "text": "Li kondannen pechè a san posibilite pèdon"
+        },
+        {
+          "id": "c",
+          "text": "Se atravè lwa a nou gen konesans peche"
+        },
+        {
+          "id": "d",
+          "text": "Li pa nesesè pou kwayan an"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Paske pa zèv lwa a pa gen lachè ki pral jistifye devan li; paske se pa lwa a nou gen konesans peche\" (Women 3:20).",
+      "bibleReference": "Women 3:20",
+      "normalizedRef": "rom3.20",
+      "normalizedCat": "temas"
+    },
+    "fr": {
+      "id": "dq-tema-010",
+      "questionText": "Quelle fonction la loi de Dieu a-t-elle par rapport au péché selon Romains 3:20 ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elle sauve ceux qui lui obéissent"
+        },
+        {
+          "id": "b",
+          "text": "Elle condamne le pécheur sans possibilité de pardon"
+        },
+        {
+          "id": "c",
+          "text": "C'est par la loi que vient la connaissance du péché"
+        },
+        {
+          "id": "d",
+          "text": "Elle n'est pas nécessaire pour le croyant"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Car nul ne sera justifié devant lui par les œuvres de la loi, puisque c'est par la loi que vient la connaissance du péché » (Romains 3:20).",
+      "bibleReference": "Romains 3:20",
+      "normalizedRef": "rom3.20",
+      "normalizedCat": "temas"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-011",
+    "ht": {
+      "id": "dq-tema-011",
+      "questionText": "Ki sèl peche Jezi deklare ki pa gen pèdon?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Asasina"
+        },
+        {
+          "id": "b",
+          "text": "Adiltè"
+        },
+        {
+          "id": "c",
+          "text": "Apostazi"
+        },
+        {
+          "id": "d",
+          "text": "Blasfèm kont Lespri Sen an"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "\"Tout peche ak blasfèm pral padonnen moun yo; men blasfèm kont Lespri p ap padonnen yo\" (Matye 12:31). Sa refere bay zèv Lespri yo kredi dyab la.",
+      "bibleReference": "Matye 12:31",
+      "normalizedRef": "mat12.31",
+      "normalizedCat": "temas"
+    },
+    "fr": {
+      "id": "dq-tema-011",
+      "questionText": "Quel est le seul péché que Jésus déclare impardonnable ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le meurtre"
+        },
+        {
+          "id": "b",
+          "text": "L'adultère"
+        },
+        {
+          "id": "c",
+          "text": "L'apostasie"
+        },
+        {
+          "id": "d",
+          "text": "Le blasphème contre le Saint-Esprit"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "« Tout péché et tout blasphème sera pardonné aux hommes, mais le blasphème contre l'Esprit ne sera point pardonné » (Matthieu 12:31). Cela se réfère au fait d'attribuer les œuvres de l'Esprit au diable.",
+      "bibleReference": "Matthieu 12:31",
+      "normalizedRef": "mat12.31",
+      "normalizedCat": "temas"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-012",
+    "ht": {
+      "id": "dq-tema-012",
+      "questionText": "Ki diferans teyolojik ant \"gras\" ak \"mizèrikòd\" nan Bib la?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo sinonim pafèt"
+        },
+        {
+          "id": "b",
+          "text": "Gras: resevwa sa nou pa merite; Mizèrikòd: pa resevwa pinisyon nou merite"
+        },
+        {
+          "id": "c",
+          "text": "Gras se pou AT ak mizèrikòd pou NT"
+        },
+        {
+          "id": "d",
+          "text": "Mizèrikòd se pou Izrayèl; gras pou pèp djanti"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "GRA (charis) se favè Bondye ba nou san nou pa merite l (resevwa sa nou pa merite: sali, lavi). MIZÈRIKÒD (eleos) se pa resevwa jijman nou merite pou peche nou yo.",
+      "bibleReference": "Efezyen 2:4-5",
+      "normalizedRef": "eph2.4-5",
+      "normalizedCat": "temas"
+    },
+    "fr": {
+      "id": "dq-tema-012",
+      "questionText": "Quelle est la différence théologique entre la « grâce » et la « miséricorde » dans la Bible ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elles sont parfaitement synonymes"
+        },
+        {
+          "id": "b",
+          "text": "Grâce : recevoir ce qu'on ne mérite pas ; Miséricorde : ne pas recevoir le châtiment qu'on mérite"
+        },
+        {
+          "id": "c",
+          "text": "La grâce est pour l'AT et la miséricorde pour le NT"
+        },
+        {
+          "id": "d",
+          "text": "La miséricorde est pour Israël ; la grâce pour les païens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La GRÂCE (charis) est la faveur que Dieu nous accorde sans que nous la méritions (recevoir le salut, la vie). La MISÉRICORDE (eleos) consiste à ne pas recevoir le jugement que nous méritons pour nos péchés.",
+      "bibleReference": "Éphésiens 2:4-5",
+      "normalizedRef": "eph2.4-5",
+      "normalizedCat": "temas"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-013",
+    "ht": {
+      "id": "dq-tema-013",
+      "questionText": "Ki parabòl Jezi ki ilustre ke pèdon nou pa ba ka afekte pèdon nou resevwa?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parabòl talan yo"
+        },
+        {
+          "id": "b",
+          "text": "Parabòl sèvitè ki pa padonnen an"
+        },
+        {
+          "id": "c",
+          "text": "Parabòl semansyè a"
+        },
+        {
+          "id": "d",
+          "text": "Parabòl mouton ak kabrit yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 18:23-35: wa a te padonnen yon gwo dèt sèvitè li a, men sèvitè a pa t padonnen konpay li. Wa a te livre l bay bòkliye yo. \"Se konsa Papa selès mwen an pral fè nou...si nou padonnen pa...\" (v.35).",
+      "bibleReference": "Matye 18:23-35",
+      "normalizedRef": "mat18.23-35",
+      "normalizedCat": "temas"
+    },
+    "fr": {
+      "id": "dq-tema-013",
+      "questionText": "Quelle parabole de Jésus illustre que notre refus de pardonner peut affecter le pardon que nous recevons ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parabole des talents"
+        },
+        {
+          "id": "b",
+          "text": "Parabole du serviteur impitoyable"
+        },
+        {
+          "id": "c",
+          "text": "Parabole du semeur"
+        },
+        {
+          "id": "d",
+          "text": "Parabole des brebis et des boucs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 18:23-35 : le roi pardonna une immense dette à son serviteur, mais celui-ci ne pardonna pas à son compagnon. Le roi le livra aux bourreaux. « C'est ainsi que mon Père céleste vous traitera, si chacun de vous ne pardonne à son frère... » (v.35).",
+      "bibleReference": "Matthieu 18:23-35",
+      "normalizedRef": "mat18.23-35",
+      "normalizedCat": "temas"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-014",
+    "ht": {
+      "id": "dq-tema-014",
+      "questionText": "Ki sa Women 5:8 di sou lanmou Bondye pou pechè yo?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ke Bondye renmen jis yo plis ke pechè yo"
+        },
+        {
+          "id": "b",
+          "text": "Ke Bondye te renmen nou toujou kòm pechè, epi Kris te mouri pou nou"
+        },
+        {
+          "id": "c",
+          "text": "Ke lanmou Bondye depann de obeyisans nou"
+        },
+        {
+          "id": "d",
+          "text": "Ke Bondye renmen tout moun egal san diferans"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Men Bondye demontre lanmou li pou nou, nan sa ke, toujou kòm pechè nou yo, Kris te mouri pou nou\" (Women 5:8). Lanmou Bondye pa t tann nou te pafè.",
+      "bibleReference": "Women 5:8",
+      "normalizedRef": "rom5.8",
+      "normalizedCat": "temas"
+    },
+    "fr": {
+      "id": "dq-tema-014",
+      "questionText": "Que dit Romains 5:8 sur l'amour de Dieu pour les pécheurs ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Que Dieu aime les justes plus que les pécheurs"
+        },
+        {
+          "id": "b",
+          "text": "Que Dieu prouve son amour envers nous, en ce que, lorsque nous étions encore des pécheurs, Christ est mort pour nous"
+        },
+        {
+          "id": "c",
+          "text": "Que l'amour de Dieu dépend de notre obéissance"
+        },
+        {
+          "id": "d",
+          "text": "Que Dieu aime tout le monde de la même manière sans distinction"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Mais Dieu prouve son amour envers nous, en ce que, lorsque nous étions encore des pécheurs, Christ est mort pour nous » (Romains 5:8). L'amour de Dieu n'a pas attendu que nous soyons parfaits.",
+      "bibleReference": "Romains 5:8",
+      "normalizedRef": "rom5.8",
+      "normalizedCat": "temas"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-tema-015",
+    "ht": {
+      "id": "dq-tema-015",
+      "questionText": "Ki twa dimansyon lanmou kretyen premye lèt Jan an souliye?",
+      "categoryId": "temas",
+      "categoryName": "Tèm Biblik",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Renmen Bondye, vwazin ak tèt ou"
+        },
+        {
+          "id": "b",
+          "text": "Renmen Bondye, frè nan lafwa, ak demontre l ak aksyon konkrèt"
+        },
+        {
+          "id": "c",
+          "text": "Lafwa, espwa ak lanmou pou vwazin"
+        },
+        {
+          "id": "d",
+          "text": "Lanmou familyal, lanmou pou etranje ak lanmou pou ènmi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Jan souliye: renmen Bondye (4:8), renmen frè a (4:21), ak lanmou sa dwe demontre an aksyon pa sèlman an pawòl (3:18). \"Pa renmen an pawòl ak an lang, men an aksyon ak an verite\" (3:18).",
+      "bibleReference": "1 Jan 3:18; 4:21",
+      "normalizedRef": "1jn3.18;4.21",
+      "normalizedCat": "temas"
+    },
+    "fr": {
+      "id": "dq-tema-015",
+      "questionText": "Quelles sont les trois dimensions de l'amour chrétien soulignées dans la première lettre de Jean ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aimer Dieu, son prochain et soi-même"
+        },
+        {
+          "id": "b",
+          "text": "Aimer Dieu, les frères dans la foi, et le démontrer par des actes concrets"
+        },
+        {
+          "id": "c",
+          "text": "La foi, l'espérance et l'amour pour le prochain"
+        },
+        {
+          "id": "d",
+          "text": "L'amour familial, l'amour pour l'étranger et l'amour pour l'ennemi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Jean souligne : aimer Dieu (4:8), aimer son frère (4:21), et cet amour doit se démontrer en actes (3:18). « N'aimons pas en paroles et avec la langue, mais en actions et avec vérité » (3:18).",
+      "bibleReference": "1 Jean 3:18 ; 4:21",
+      "normalizedRef": "1jn3.18;4.21",
+      "normalizedCat": "temas"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-gen-005",
+    "ht": {
+      "id": "dq-gen-005",
+      "questionText": "Nan konbyen jou Bondye te kreye lemonn epi li repoze?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 jou"
+        },
+        {
+          "id": "b",
+          "text": "6 jou epi li repoze sou setyèm jou a"
+        },
+        {
+          "id": "c",
+          "text": "7 jou epi li repoze sou yitzyèm"
+        },
+        {
+          "id": "d",
+          "text": "3 jou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te kreye tout bagay nan sis jou epi setyèm jou a li te repoze.",
+      "bibleReference": "Jenèz 2:2",
+      "normalizedRef": "gen2.2",
+      "normalizedCat": "genesis"
+    },
+    "fr": {
+      "id": "dq-gen-005",
+      "questionText": "En combien de jours Dieu a-t-il créé le monde avant de se reposer ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 jours"
+        },
+        {
+          "id": "b",
+          "text": "6 jours, puis il se reposa le septième jour"
+        },
+        {
+          "id": "c",
+          "text": "7 jours, puis il se reposa le huitième"
+        },
+        {
+          "id": "d",
+          "text": "3 jours"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu créa toutes choses en six jours et le septième jour il se reposa.",
+      "bibleReference": "Genèse 2:2",
+      "normalizedRef": "gen2.2",
+      "normalizedCat": "genesis"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-gen-006",
+    "ht": {
+      "id": "dq-gen-006",
+      "questionText": "Ki te premye gason Bondye te kreye?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraram"
+        },
+        {
+          "id": "b",
+          "text": "Noye"
+        },
+        {
+          "id": "c",
+          "text": "Adanm"
+        },
+        {
+          "id": "d",
+          "text": "Moyiz"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Adanm te premye gason an, ki te fòme nan pousyè tè a.",
+      "bibleReference": "Jenèz 2:7",
+      "normalizedRef": "gen2.7",
+      "normalizedCat": "genesis"
+    },
+    "fr": {
+      "id": "dq-gen-006",
+      "questionText": "Quel fut le premier homme créé par Dieu ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Noé"
+        },
+        {
+          "id": "c",
+          "text": "Adam"
+        },
+        {
+          "id": "d",
+          "text": "Moïse"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Adam fut le premier homme, formé de la poussière de la terre.",
+      "bibleReference": "Genèse 2:7",
+      "normalizedRef": "gen2.7",
+      "normalizedCat": "genesis"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-gen-007",
+    "ht": {
+      "id": "dq-gen-007",
+      "questionText": "Kilès ki te sove nan delij la, ansanm ak fanmi li, nan yon lach?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lòt"
+        },
+        {
+          "id": "b",
+          "text": "Enòk"
+        },
+        {
+          "id": "c",
+          "text": "Noye"
+        },
+        {
+          "id": "d",
+          "text": "Matisalèm"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Noye te jwenn gras epi li te bati lach la pou sove fanmi li.",
+      "bibleReference": "Jenèz 6-8",
+      "normalizedRef": "gen6-8",
+      "normalizedCat": "genesis"
+    },
+    "fr": {
+      "id": "dq-gen-007",
+      "questionText": "Qui a été sauvé du déluge avec sa famille dans une arche ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lot"
+        },
+        {
+          "id": "b",
+          "text": "Hénoc"
+        },
+        {
+          "id": "c",
+          "text": "Noé"
+        },
+        {
+          "id": "d",
+          "text": "Mathusalem"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Noé trouva grâce et bâtit l'arche pour sauver sa famille.",
+      "bibleReference": "Genèse 6-8",
+      "normalizedRef": "gen6-8",
+      "normalizedCat": "genesis"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-gen-008",
+    "ht": {
+      "id": "dq-gen-008",
+      "questionText": "Ki senbòl alyans Bondye ak Noye pou li pa detwi tè a ak dlo ankò?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon pijon"
+        },
+        {
+          "id": "b",
+          "text": "Yon lotèl"
+        },
+        {
+          "id": "c",
+          "text": "Yon lakansyèl"
+        },
+        {
+          "id": "d",
+          "text": "Yon zetwal"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lakansyèl la te mete nan nwaj yo kòm siy alyans la.",
+      "bibleReference": "Jenèz 9:13",
+      "normalizedRef": "gen9.13",
+      "normalizedCat": "genesis"
+    },
+    "fr": {
+      "id": "dq-gen-008",
+      "questionText": "Quel est le symbole de l'alliance de Dieu avec Noé pour ne plus détruire la terre par les eaux ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une colombe"
+        },
+        {
+          "id": "b",
+          "text": "Un autel"
+        },
+        {
+          "id": "c",
+          "text": "Un arc-en-ciel"
+        },
+        {
+          "id": "d",
+          "text": "Une étoile"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'arc-en-ciel fut placé dans les nues comme signe de l'alliance.",
+      "bibleReference": "Genèse 9:13",
+      "normalizedRef": "gen9.13",
+      "normalizedCat": "genesis"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-gen-009",
+    "ht": {
+      "id": "dq-gen-009",
+      "questionText": "Ki eprèv Bondye te mande Abraram pou pwouve lafwa li?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sakrifye pitit li Izak"
+        },
+        {
+          "id": "b",
+          "text": "Kite richès li"
+        },
+        {
+          "id": "c",
+          "text": "Jene 40 jou"
+        },
+        {
+          "id": "d",
+          "text": "Bati yon tanp"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Bondye te mande Abraram ofri pitit li sèl Izak, men li te kanpe li.",
+      "bibleReference": "Jenèz 22",
+      "normalizedRef": "gen22",
+      "normalizedCat": "genesis"
+    },
+    "fr": {
+      "id": "dq-gen-009",
+      "questionText": "Quelle épreuve Dieu a-t-il demandée à Abraham pour prouver sa foi ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sacrifier son fils Isaac"
+        },
+        {
+          "id": "b",
+          "text": "Quitter ses richesses"
+        },
+        {
+          "id": "c",
+          "text": "Jeûner 40 jours"
+        },
+        {
+          "id": "d",
+          "text": "Bâtir un temple"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Dieu demanda à Abraham d'offrir son fils unique Isaac, mais il l'en empêcha au dernier moment.",
+      "bibleReference": "Genèse 22",
+      "normalizedRef": "gen22",
+      "normalizedCat": "genesis"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-gen-010",
+    "ht": {
+      "id": "dq-gen-010",
+      "questionText": "Kisa Jakòb te reve pandan li te dòmi sou yon wòch?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèt bèf mèg"
+        },
+        {
+          "id": "b",
+          "text": "Yon eskalye ki rive nan syèl"
+        },
+        {
+          "id": "c",
+          "text": "Zetwal k ap koube"
+        },
+        {
+          "id": "d",
+          "text": "Yon raje k ap boule"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jakòb te reve yon eskalye ki te kòmanse sou tè epi ki te rive nan syèl, ak zanj k ap monte ak desann.",
+      "bibleReference": "Jenèz 28:12",
+      "normalizedRef": "gen28.12",
+      "normalizedCat": "genesis"
+    },
+    "fr": {
+      "id": "dq-gen-010",
+      "questionText": "Qu'a rêvé Jacob alors qu'il dormait sur une pierre ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sept vaches maigres"
+        },
+        {
+          "id": "b",
+          "text": "Une échelle s'élevant vers le ciel"
+        },
+        {
+          "id": "c",
+          "text": "Des étoiles se prosternant"
+        },
+        {
+          "id": "d",
+          "text": "Un buisson ardent"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacob rêva d'une échelle posée sur la terre et dont le sommet touchait au ciel, avec des anges montant et descendant.",
+      "bibleReference": "Genèse 28:12",
+      "normalizedRef": "gen28.12",
+      "normalizedCat": "genesis"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-gen-011",
+    "ht": {
+      "id": "dq-gen-011",
+      "questionText": "Pou konbyen moso ajan frè Jozèf yo te vann li?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "20"
+        },
+        {
+          "id": "b",
+          "text": "30"
+        },
+        {
+          "id": "c",
+          "text": "40"
+        },
+        {
+          "id": "d",
+          "text": "50"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Frè Jozèf yo te vann li bay Ismayelit yo pou ven moso ajan.",
+      "bibleReference": "Jenèz 37:28",
+      "normalizedRef": "gen37.28",
+      "normalizedCat": "genesis"
+    },
+    "fr": {
+      "id": "dq-gen-011",
+      "questionText": "Pour combien de pièces d'argent les frères de Joseph l'ont-ils vendu ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "20"
+        },
+        {
+          "id": "b",
+          "text": "30"
+        },
+        {
+          "id": "c",
+          "text": "40"
+        },
+        {
+          "id": "d",
+          "text": "50"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Les frères de Joseph le vendirent aux Ismaélites pour vingt pièces d'argent.",
+      "bibleReference": "Genèse 37:28",
+      "normalizedRef": "gen37.28",
+      "normalizedCat": "genesis"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-gen-012",
+    "ht": {
+      "id": "dq-gen-012",
+      "questionText": "Ki madanm Jakòb te renmen plis epi pou ki moun li te travay 14 ane?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lea"
+        },
+        {
+          "id": "b",
+          "text": "Rebeka"
+        },
+        {
+          "id": "c",
+          "text": "Rakyèl"
+        },
+        {
+          "id": "d",
+          "text": "Sara"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jakòb te renmen Rakyèl epi li te sèvi sèt ane pou li, epi ankò sèt lòt ane.",
+      "bibleReference": "Jenèz 29",
+      "normalizedRef": "gen29",
+      "normalizedCat": "genesis"
+    },
+    "fr": {
+      "id": "dq-gen-012",
+      "questionText": "Quelle femme Jacob aimait-il le plus et pour laquelle il a travaillé 14 ans ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Léa"
+        },
+        {
+          "id": "b",
+          "text": "Rébecca"
+        },
+        {
+          "id": "c",
+          "text": "Rachel"
+        },
+        {
+          "id": "d",
+          "text": "Sara"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jacob aimait Rachel et il servit sept ans pour elle, puis encore sept autres années.",
+      "bibleReference": "Genèse 29",
+      "normalizedRef": "gen29",
+      "normalizedCat": "genesis"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-gen-013",
+    "ht": {
+      "id": "dq-gen-013",
+      "questionText": "Kisa rèv Farawon an siyifi dapre entèpretasyon Jozèf?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèt ane lagè ak sèt ane lapè"
+        },
+        {
+          "id": "b",
+          "text": "Sèt ane abondans ak sèt ane grangou"
+        },
+        {
+          "id": "c",
+          "text": "Sèt malediksyon sou Ejip"
+        },
+        {
+          "id": "d",
+          "text": "Sèt wa diferan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rèv la te predi sèt ane gwo abondans swivi pa sèt ane grangou ekstrèm.",
+      "bibleReference": "Jenèz 41:29-30",
+      "normalizedRef": "gen41.29-30",
+      "normalizedCat": "genesis"
+    },
+    "fr": {
+      "id": "dq-gen-013",
+      "questionText": "Que signifie le rêve de Pharaon selon l'interprétation de Joseph ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sept années de guerre et sept années de paix"
+        },
+        {
+          "id": "b",
+          "text": "Sept années d'abondance et sept années de famine"
+        },
+        {
+          "id": "c",
+          "text": "Sept malédictions sur l'Égypte"
+        },
+        {
+          "id": "d",
+          "text": "Sept rois différents"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le rêve prédisait sept années de grande abondance suivies de sept années de famine extrême.",
+      "bibleReference": "Genèse 41:29-30",
+      "normalizedRef": "gen41.29-30",
+      "normalizedCat": "genesis"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-gen-014",
+    "ht": {
+      "id": "dq-gen-014",
+      "questionText": "Konbyen ane Matisalèm te viv?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "365"
+        },
+        {
+          "id": "b",
+          "text": "930"
+        },
+        {
+          "id": "c",
+          "text": "969"
+        },
+        {
+          "id": "d",
+          "text": "777"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matisalèm te viv nèf san swasant nèf ane, moun ki viv pi lontan nan Bib la.",
+      "bibleReference": "Jenèz 5:27",
+      "normalizedRef": "gen5.27",
+      "normalizedCat": "genesis"
+    },
+    "fr": {
+      "id": "dq-gen-014",
+      "questionText": "Combien d'années Mathusalem a-t-il vécu ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "365"
+        },
+        {
+          "id": "b",
+          "text": "930"
+        },
+        {
+          "id": "c",
+          "text": "969"
+        },
+        {
+          "id": "d",
+          "text": "777"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Mathusalem vécut neuf cent soixante-neuf ans, l'homme ayant vécu le plus longtemps dans la Bible.",
+      "bibleReference": "Genèse 5:27",
+      "normalizedRef": "gen5.27",
+      "normalizedCat": "genesis"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-gen-015",
+    "ht": {
+      "id": "dq-gen-015",
+      "questionText": "Ki non sèvitè Abraram ki te ale chèche madanm pou Izak?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eliezer"
+        },
+        {
+          "id": "b",
+          "text": "Lot"
+        },
+        {
+          "id": "c",
+          "text": "Ismayelit"
+        },
+        {
+          "id": "d",
+          "text": "Abimelèk"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Tradisyon idantifye li kòm Eliezer, sèvitè Abraram, ki te pati pou Mesopotami pou jwenn Rebeka (Jenèz 24).",
+      "bibleReference": "Jenèz 24:2",
+      "normalizedRef": "gen24.2",
+      "normalizedCat": "genesis"
+    },
+    "fr": {
+      "id": "dq-gen-015",
+      "questionText": "Quel est le nom du serviteur d'Abraham qui est allé chercher une femme pour Isaac ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Éliézer"
+        },
+        {
+          "id": "b",
+          "text": "Lot"
+        },
+        {
+          "id": "c",
+          "text": "Ismaélite"
+        },
+        {
+          "id": "d",
+          "text": "Abimélec"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La tradition l'identifie comme Éliézer, le serviteur d'Abraham, qui partit pour la Mésopotamie afin de trouver Rébecca (Genèse 24).",
+      "bibleReference": "Genèse 24:2",
+      "normalizedRef": "gen24.2",
+      "normalizedCat": "genesis"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-gen-016",
+    "ht": {
+      "id": "dq-gen-016",
+      "questionText": "An ki peyi Jakòb ak pitit li yo te kite pou al viv pandan grangou a?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kanaran"
+        },
+        {
+          "id": "b",
+          "text": "Mwa"
+        },
+        {
+          "id": "c",
+          "text": "Ejip"
+        },
+        {
+          "id": "d",
+          "text": "Babilòn"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jakòb ak tout fanmi l (70 moun) te desann ann Ejip kote Jozèf te gouvènè a, pou yo ta ka sove anba grangou a.",
+      "bibleReference": "Jenèz 46:6-7",
+      "normalizedRef": "gen46.6-7",
+      "normalizedCat": "genesis"
+    },
+    "fr": {
+      "id": "dq-gen-016",
+      "questionText": "Vers quel pays Jacob et ses fils sont-ils partis vivre durant la famine ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Canaan"
+        },
+        {
+          "id": "b",
+          "text": "Moab"
+        },
+        {
+          "id": "c",
+          "text": "Égypte"
+        },
+        {
+          "id": "d",
+          "text": "Babylone"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jacob et toute sa famille (70 personnes) descendirent en Égypte où Joseph était gouverneur, afin d'échapper à la famine.",
+      "bibleReference": "Genèse 46:6-7",
+      "normalizedRef": "gen46.6-7",
+      "normalizedCat": "genesis"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-gen-017",
+    "ht": {
+      "id": "dq-gen-017",
+      "questionText": "Ki sa Bondye te di Sèpan an kòm pinisyon pou li te twonpe Èv la?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li pa pral gen pye ankò, li pral mache sou vant li"
+        },
+        {
+          "id": "b",
+          "text": "Li pral boule nan dife etènèl"
+        },
+        {
+          "id": "c",
+          "text": "Li pral vin bloke"
+        },
+        {
+          "id": "d",
+          "text": "Li pral pèdi lang li"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "\"Paske ou te fè sa, maudit ou pami tout bèt... sou vant ou pral mache, ak pousyè ou pral manje\" (Jenèz 3:14).",
+      "bibleReference": "Jenèz 3:14",
+      "normalizedRef": "gen3.14",
+      "normalizedCat": "genesis"
+    },
+    "fr": {
+      "id": "dq-gen-017",
+      "questionText": "Qu'a dit Dieu au serpent comme punition pour avoir trompé Ève ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il n'aurait plus de pieds et marcherait sur son ventre"
+        },
+        {
+          "id": "b",
+          "text": "Il brûlerait dans un feu éternel"
+        },
+        {
+          "id": "c",
+          "text": "Il resterait muet"
+        },
+        {
+          "id": "d",
+          "text": "Il perdrait sa langue"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "« Puisque tu as fait cela, tu seras maudit entre tout le bétail... tu marcheras sur ton ventre, et tu mangeras de la poussière » (Genèse 3:14).",
+      "bibleReference": "Genèse 3:14",
+      "normalizedRef": "gen3.14",
+      "normalizedCat": "genesis"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-exo-003",
+    "ht": {
+      "id": "dq-exo-003",
+      "questionText": "Nan ki objè Bondye te parèt bay Moyiz sou Mòn Orèb?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nwaj"
+        },
+        {
+          "id": "b",
+          "text": "Yon raje k ap boule san raje a pa konsime"
+        },
+        {
+          "id": "c",
+          "text": "Yon zanj ak yon epe"
+        },
+        {
+          "id": "d",
+          "text": "Yon eskalye limyè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Zanj Seyè a te parèt bay Moyiz nan yon flanm dife ki soti nan mitan yon raje — raje a t ap boule men li pa t konsime (Egzòd 3:2).",
+      "bibleReference": "Egzòd 3:2",
+      "normalizedRef": "exo3.2",
+      "normalizedCat": "exodo"
+    },
+    "fr": {
+      "id": "dq-exo-003",
+      "questionText": "Sous quelle forme Dieu est-il apparu à Moïse sur le mont Horeb ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un nuage"
+        },
+        {
+          "id": "b",
+          "text": "Un buisson ardent qui ne se consumait pas"
+        },
+        {
+          "id": "c",
+          "text": "Un ange avec une épée"
+        },
+        {
+          "id": "d",
+          "text": "Un escalier de lumière"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'ange de l'Éternel apparut à Moïse dans une flamme de feu, au milieu d'un buisson — le buisson brûlait mais ne se consumait point (Exode 3:2).",
+      "bibleReference": "Exode 3:2",
+      "normalizedRef": "exo3.2",
+      "normalizedCat": "exodo"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-exo-004",
+    "ht": {
+      "id": "dq-exo-004",
+      "questionText": "Ki 10yèm ak dènye malediksyon ki te pouse Farawon kite Izrayèl ale?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Krikèt"
+        },
+        {
+          "id": "b",
+          "text": "Fènwa"
+        },
+        {
+          "id": "c",
+          "text": "Lanmò premye pitit gason"
+        },
+        {
+          "id": "d",
+          "text": "Dlo vire san"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lanmò tout premye pitit gason Ejip yo te fini ak rezistans Farawon an epi li te kite pèp Izrayèl la ale (Egzòd 12:29-31).",
+      "bibleReference": "Egzòd 12:29-31",
+      "normalizedRef": "exo12.29-31",
+      "normalizedCat": "exodo"
+    },
+    "fr": {
+      "id": "dq-exo-004",
+      "questionText": "Quel fut le 10ème et dernier fléau qui a poussé Pharaon à laisser partir Israël ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les sauterelles"
+        },
+        {
+          "id": "b",
+          "text": "Les ténèbres"
+        },
+        {
+          "id": "c",
+          "text": "La mort des premiers-nés"
+        },
+        {
+          "id": "d",
+          "text": "L'eau changée en sang"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La mort de tous les premiers-nés d'Égypte mit fin à la résistance de Pharaon et il laissa partir le peuple d'Israël (Exode 12:29-31).",
+      "bibleReference": "Exode 12:29-31",
+      "normalizedRef": "exo12.29-31",
+      "normalizedCat": "exodo"
+    },
+    "matchType": "ht_only"
+  },
+  {
+    "newId": "dq-exo-005",
+    "ht": {
+      "id": "dq-exo-005",
+      "questionText": "Ki mirak Bondye te fè pou Izrayèl pase sou tè sèk lè Farawon t ap pouswiv yo?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te voye foudwayè"
+        },
+        {
+          "id": "b",
+          "text": "Li te fann Lanmè Wouj la"
+        },
+        {
+          "id": "c",
+          "text": "Li te voye yon gwo van"
+        },
+        {
+          "id": "d",
+          "text": "Li te fè lame a endòmi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te fann Lanmè Wouj la epi Izrayèl te pase sou tè sèk. Lame Ejip la te nwaye (Egzòd 14:21-28).",
+      "bibleReference": "Egzòd 14:21-28",
+      "normalizedRef": "exo14.21-28",
+      "normalizedCat": "exodo"
+    },
+    "fr": {
+      "id": "dq-exo-005",
+      "questionText": "Quel miracle Dieu a-t-il accompli pour qu'Israël traverse à sec alors que Pharaon les poursuivait ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il envoya la foudre"
+        },
+        {
+          "id": "b",
+          "text": "Il fendit la Mer Rouge"
+        },
+        {
+          "id": "c",
+          "text": "Il envoya un grand vent"
+        },
+        {
+          "id": "d",
+          "text": "Il endormit l'armée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu fendit la Mer Rouge et Israël passa sur la terre ferme. L'armée égyptienne se noya (Exode 14:21-28).",
+      "bibleReference": "Exode 14:21-28",
+      "normalizedRef": "exo14.21-28",
+      "normalizedCat": "exodo"
+    },
+    "matchType": "ht_only"
+  }
+]

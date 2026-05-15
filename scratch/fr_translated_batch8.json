@@ -1,0 +1,652 @@
+[
+  {
+    "id": "dq-pat-004",
+    "questionText": "Quel personnage biblique était le plus renommé pour sa patience au milieu de la souffrance ?",
+    "options": [
+      { "id": "a", "text": "Jérémie" },
+      { "id": "b", "text": "Job" },
+      { "id": "c", "text": "Moïse" },
+      { "id": "d", "text": "Élie" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jacques 5:11 dit : « Vous avez entendu parler de la patience de Job, et vous avez vu la fin que le Seigneur lui accorda ». Job a tout perdu, mais il n'a pas renié Dieu.",
+    "bibleReference": "Jacques 5:11"
+  },
+  {
+    "id": "dq-pat-005",
+    "questionText": "Qui a succédé à Moïse como leader d'Israël pour entrer dans la Terre Promise ?",
+    "options": [
+      { "id": "a", "text": "Caleb" },
+      { "id": "b", "text": "Aaron" },
+      { "id": "c", "text": "Josué" },
+      { "id": "d", "text": "Éléazar" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Le Seigneur a dit à Josué : « Comme j'ai été avec Moïse, je serai avec toi » (Josué 1:5).",
+    "bibleReference": "Josué 1:1-5"
+  },
+  {
+    "id": "dq-pat-006",
+    "questionText": "Quel personnage de l'Ancien Testament a interprété les rêves de Pharaon en Égypte et est devenu gouverneur ?",
+    "options": [
+      { "id": "a", "text": "Abraham" },
+      { "id": "b", "text": "Joseph" },
+      { "id": "c", "text": "Moïse" },
+      { "id": "d", "text": "Daniel" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Joseph a interprété les rêves de Pharaon (les sept vaches grasses et les sept vaches maigres) et Pharaon l'a nommé gouverneur d'Égypte (Genèse 41:39-41).",
+    "bibleReference": "Genèse 41:39-41"
+  },
+  {
+    "id": "dq-pat-007",
+    "questionText": "Combien d'années Metuschélah a-t-il vécu ?",
+    "options": [
+      { "id": "a", "text": "700 ans" },
+      { "id": "b", "text": "800 ans" },
+      { "id": "c", "text": "969 ans" },
+      { "id": "d", "text": "1 000 ans" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "« Tous les jours de Metuschélah furent de neuf cent soixante-neuf ans ; puis il mourut » (Genèse 5:27). C'est la personne qui a vécu le plus longtemps dans la Bible.",
+    "bibleReference": "Genèse 5:27"
+  },
+  {
+    "id": "dq-pat-008",
+    "questionText": "Quels personnages bibliques ont jeté Joseph dans une citerne et l'ont vendu comme esclave ?",
+    "options": [
+      { "id": "a", "text": "Aaron" },
+      { "id": "b", "text": "Les frères de Joseph" },
+      { "id": "c", "text": "Le roi d'Égypte" },
+      { "id": "d", "text": "Les Ismaélites" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Les frères de Joseph (sauf Benjamin) étaient jaloux de lui et l'ont jeté dans une citerne, puis l'ont vendu aux Ismaélites pour 20 pièces d'argent (Genèse 37:24-28).",
+    "bibleReference": "Genèse 37:24-28"
+  },
+  {
+    "id": "dq-pat-009",
+    "questionText": "Quel prophète a guéri Naaman le Syrien lorsqu'il s'est lavé sept fois dans le Jourdain ?",
+    "options": [
+      { "id": "a", "text": "Élie" },
+      { "id": "b", "text": "Élisée" },
+      { "id": "c", "text": "Ésaïe" },
+      { "id": "d", "text": "Samuel" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Élisée a dit à Naaman d'aller se laver sept fois dans le Jourdain. Quand Naaman a obéi, sa lèpre a été guérie (2 Rois 5:10-14).",
+    "bibleReference": "2 Rois 5:10-14"
+  },
+  {
+    "id": "dq-pat-010",
+    "questionText": "Quel roi d'Israël a écrit de nombreux psaumes et a tué Goliath ?",
+    "options": [
+      { "id": "a", "text": "Saül" },
+      { "id": "b", "text": "Salomon" },
+      { "id": "c", "text": "David" },
+      { "id": "d", "text": "Jonathan" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "David a tué Goliath alors qu'il était encore jeune (1 Samuel 17), plus tard il fut roi et écrivit de nombreux psaumes (Psaumes 23, 51, 139...).",
+    "bibleReference": "1 Samuel 17:50"
+  },
+  {
+    "id": "dq-pat-011",
+    "questionText": "Quel personnage biblique a construit une arche pour sauver l'humanité du déluge ?",
+    "options": [
+      { "id": "a", "text": "Abraham" },
+      { "id": "b", "text": "Hénoc" },
+      { "id": "c", "text": "Noé" },
+      { "id": "d", "text": "Sem" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Noé trouva grâce aux yeux de l'Éternel. Il construisit une arche de bois pour sauver sa famille et les espèces animales du déluge (Genèse 6-7).",
+    "bibleReference": "Genèse 6:8-9"
+  },
+  {
+    "id": "dq-pat-012",
+    "questionText": "Combien d'années Abraham a-t-il vécu selon Genèse 25:7 ?",
+    "options": [
+      { "id": "a", "text": "120 ans" },
+      { "id": "b", "text": "150 ans" },
+      { "id": "c", "text": "175 ans" },
+      { "id": "d", "text": "200 ans" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "« Voici les jours des années de la vie d'Abraham : il vécut cent soixante-quinze ans » (Genèse 25:7). Il mourut dans une heureuse vieillesse, âgé et rassasié de jours.",
+    "bibleReference": "Genèse 25:7"
+  },
+  {
+    "id": "dq-pat-013",
+    "questionText": "Quel prophète de l'Ancien Testament a prophétisé le retour d'Élie avant le « jour de l'Éternel » ?",
+    "options": [
+      { "id": "a", "text": "Ésaïe" },
+      { "id": "b", "text": "Jérémie" },
+      { "id": "c", "text": "Malachie" },
+      { "id": "d", "text": "Zacharie" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "« Voici, je vous enverrai Élie, le prophète, avant que le jour de l'Éternel arrive, ce jour grand et redoutable » (Malachie 4:5). Le Nouveau Testament identifie cela à la mission de Jean-Baptiste.",
+    "bibleReference": "Malachie 4:5"
+  },
+  {
+    "id": "dq-pat-014",
+    "questionText": "Quel personnage de l'Ancien Testament est considéré comme le principal auteur du Livre des Proverbes ?",
+    "options": [
+      { "id": "a", "text": "David" },
+      { "id": "b", "text": "Salomon" },
+      { "id": "c", "text": "Ésaïe" },
+      { "id": "d", "text": "Moïse" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "De nombreux proverbes sont attribués à Salomon (Proverbes 1:1 ; 10:1 ; 25:1). Mais Agur et Lemuel ont également contribué. Salomon en est le principal auteur.",
+    "bibleReference": "Proverbes 1:1"
+  },
+  {
+    "id": "dq-pat-015",
+    "questionText": "Quel personnage de l'Ancien Testament a souhaité mourir dans le désert mais Dieu lui a envoyé un ange para le nourrir ?",
+    "options": [
+      { "id": "a", "text": "Moïse" },
+      { "id": "b", "text": "Daniel" },
+      { "id": "c", "text": "Jérémie" },
+      { "id": "d", "text": "Élie" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Après la défaite des prophètes de Baal, Jézabel a menacé de tuer Élie. Il s'est enfui, fatigué, et a dit : « Éternel, prends mon âme ». Mais un ange lui a apporté de la nourriture (1 Rois 19:4-6).",
+    "bibleReference": "1 Rois 19:4-6"
+  },
+  {
+    "id": "dq-pnt-001",
+    "questionText": "Quel apôtre a été appelé « la pierre » (Pierre) ?",
+    "options": [
+      { "id": "a", "text": "Jean" },
+      { "id": "b", "text": "André" },
+      { "id": "c", "text": "Pierre" },
+      { "id": "d", "text": "Philippe" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Jésus dit à Simon : « Tu es Simon, fils de Jonas ; tu seras appelé Céphas (ce qui signifie Pierre, pierre) » (Jean 1:42).",
+    "bibleReference": "Jean 1:42"
+  },
+  {
+    "id": "dq-pnt-002",
+    "questionText": "Quel disciple de Jésus l'a trahi pour 30 pièces d'argent ?",
+    "options": [
+      { "id": "a", "text": "Pierre" },
+      { "id": "b", "text": "Thomas" },
+      { "id": "c", "text": "Judas Iscariote" },
+      { "id": "d", "text": "Nathanaël" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Judas Iscariote est allé voir les principaux sacrificateurs et a accepté de trahir Jésus pour trente pièces d'argent (Matthieu 26:14-15).",
+    "bibleReference": "Matthieu 26:14-15"
+  },
+  {
+    "id": "dq-pnt-003",
+    "questionText": "Quels apôtres ont été appelés « Boanergès » (fils du tonnerre) par Jésus ?",
+    "options": [
+      { "id": "a", "text": "Pierre et André" },
+      { "id": "b", "text": "Jacques et Jean" },
+      { "id": "c", "text": "Philippe et Nathanaël" },
+      { "id": "d", "text": "Thomas et Matthieu" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jésus a appelé Jacques et Jean, fils de Zébédée, « Boanergès », ce qui signifie « fils du tonnerre », en raison de l'ardeur de leur caractère (Marc 3:17).",
+    "bibleReference": "Marc 3:17"
+  },
+  {
+    "id": "dq-pnt-004",
+    "questionText": "Quel apôtre persécutait les chrétiens avant sa conversion sur le chemin de Damas ?",
+    "options": [
+      { "id": "a", "text": "Pierre" },
+      { "id": "b", "text": "Philippe" },
+      { "id": "c", "text": "Paul" },
+      { "id": "d", "text": "Barnabas" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Paul (alors Saul de Tarse) persécutait l'église, et sur le chemin de Damas, il a rencontré Jésus qui a changé toute sa vie (Actes 9:1-19).",
+    "bibleReference": "Actes 9:1-19"
+  },
+  {
+    "id": "dq-pnt-005",
+    "questionText": "Quel apôtre a écrit plus de la moitié du Livre des Actes des Apôtres et de nombreuses lettres du Nouveau Testament ?",
+    "options": [
+      { "id": "a", "text": "Pierre" },
+      { "id": "b", "text": "Jean" },
+      { "id": "c", "text": "Paul" },
+      { "id": "d", "text": "Jacques" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "La deuxième moitié des Actes des Apôtres (chapitres 13-28) rapporte les missions de Paul. De plus, il a écrit 13 lettres du Nouveau Testament.",
+    "bibleReference": "Actes 13:1"
+  },
+  {
+    "id": "dq-pnt-006",
+    "questionText": "Quel apôtre a marché sur l'eau pour aller vers Jésus ?",
+    "options": [
+      { "id": "a", "text": "Jean" },
+      { "id": "b", "text": "André" },
+      { "id": "c", "text": "Pierre" },
+      { "id": "d", "text": "Jacques" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Pierre est descendu de la barque et a marché sur l'eau para aller vers Jésus, mais il a commencé à s'enfoncer quand il a eu peur (Matthieu 14:29-30).",
+    "bibleReference": "Matthieu 14:28-31"
+  },
+  {
+    "id": "dq-pnt-007",
+    "questionText": "Quel apôtre était appelé « le disciple que Jésus aimait » dans l'Évangile de Jean ?",
+    "options": [
+      { "id": "a", "text": "Pierre" },
+      { "id": "b", "text": "Jacques" },
+      { "id": "c", "text": "André" },
+      { "id": "d", "text": "Jean" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "« Le disciple que Jésus aimait » apparaît plusieurs fois dans l'évangile de Jean (13:23 ; 19:26 ; 21:7) et la tradition l'identifie à l'apôtre Jean.",
+    "bibleReference": "Jean 13:23"
+  },
+  {
+    "id": "dq-pnt-008",
+    "questionText": "Quel apôtre du Nouveau Testament a écrit l'Évangile de Jean, trois lettres et l'Apocalypse ?",
+    "options": [
+      { "id": "a", "text": "Paul" },
+      { "id": "b", "text": "Pierre" },
+      { "id": "c", "text": "Jean" },
+      { "id": "d", "text": "Jacques" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "On attribue à l'apôtre Jean : l'Évangile de Jean, 1-2-3 Jean, et l'Apocalypse. Il fut le dernier apôtre à mourir.",
+    "bibleReference": "Jean 21:24"
+  },
+  {
+    "id": "dq-pnt-009",
+    "questionText": "Quel Pharisien est venu trouver Jésus de nuit pour discuter avec lui ?",
+    "options": [
+      { "id": "a", "text": "Joseph d'Arimathée" },
+      { "id": "b", "text": "Nicodème" },
+      { "id": "c", "text": "Caïphe" },
+      { "id": "d", "text": "Anne" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Nicodème, un chef des Juifs, est venu trouver Jésus de nuit. Jésus lui a parlé de la nouvelle naissance et de Jean 3:16 (Jean 3:1-21).",
+    "bibleReference": "Jean 3:1-2"
+  },
+  {
+    "id": "dq-pnt-010",
+    "questionText": "Qui a emporté le corps de Jésus pour le mettre dans un tombeau après la crucifixion ?",
+    "options": [
+      { "id": "a", "text": "Pierre" },
+      { "id": "b", "text": "Joseph d'Arimathée" },
+      { "id": "c", "text": "Nicodème" },
+      { "id": "d", "text": "Les deux (B et C)" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Joseph d'Arimathée a demandé le corps de Jésus à Pilate. Nicodème a apporté des aromates. Ensemble, ils ont embaumé le corps de Jésus et l'ont mis dans le tombeau (Jean 19:38-42).",
+    "bibleReference": "Jean 19:38-42"
+  },
+  {
+    "id": "dq-pnt-011",
+    "questionText": "Quel était le nom hébreu de l'apôtre Paul avant sa conversion ?",
+    "options": [
+      { "id": "a", "text": "Simon" },
+      { "id": "b", "text": "Saul" },
+      { "id": "c", "text": "Barabbas" },
+      { "id": "d", "text": "Nicodème" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Avant sa conversion sur le chemin de Damas, il s'appelait Saul de Tarse. Le nom Paul (Paulus) était son nom romain (Actes 9:1 ; 13:9).",
+    "bibleReference": "Actes 13:9"
+  },
+  {
+    "id": "dq-pnt-012",
+    "questionText": "Quel apôtre fut le premier à mourir en martyr parmi les douze ?",
+    "options": [
+      { "id": "a", "text": "Étienne (premier martyr)" },
+      { "id": "b", "text": "Jacques, fils de Zébédée" },
+      { "id": "c", "text": "Pierre" },
+      { "id": "d", "text": "André" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Le roi Hérode fit mourir par l'épée Jacques (Actes 12:2). Il fut le premier des douze apôtres à mourir en martyr.",
+    "bibleReference": "Actes 12:2"
+  },
+  {
+    "id": "dq-pnt-013",
+    "questionText": "Quel apôtre a essayé de s'opposer à Jésus lorsqu'il annonçait sa souffrance pour la première fois ?",
+    "options": [
+      { "id": "a", "text": "Jean" },
+      { "id": "b", "text": "Jacques" },
+      { "id": "c", "text": "Pierre" },
+      { "id": "d", "text": "Thomas" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Quand Jésus parla de ses souffrances, Pierre le prit à part et commença à le reprendre. Jésus lui dit : « Arrière de moi, Satan ! » (Matthieu 16:22-23).",
+    "bibleReference": "Matthieu 16:22-23"
+  },
+  {
+    "id": "dq-pnt-014",
+    "questionText": "Quel apôtre a été spécialement choisi pour prêcher aux païens ?",
+    "options": [
+      { "id": "a", "text": "Pierre (envoyé aux Juifs)" },
+      { "id": "b", "text": "Jean" },
+      { "id": "c", "text": "Paul (apôtre des païens)" },
+      { "id": "d", "text": "Jacques" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Paul se nomme lui-même « apôtre des païens » (Romains 11:13 ; Galates 2:8). Galates 2:9 montre la division du travail : Pierre para les Juifs, Paul para les païens.",
+    "bibleReference": "Galates 2:8"
+  },
+  {
+    "id": "dq-pnt-015",
+    "questionText": "Combien d'apôtres étaient présents à la Transfiguration sur la montagne ?",
+    "options": [
+      { "id": "a", "text": "3 (Pierre, Jacques, Jean)" },
+      { "id": "b", "text": "6" },
+      { "id": "c", "text": "12" },
+      { "id": "d", "text": "Seulement Pierre" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Jésus prit seulement Pierre, Jacques et Jean sur une haute montagne. Ses vêtements devinrent blancs comme la lumière. Moïse et Élie apparurent (Matthieu 17:1-3).",
+    "bibleReference": "Matthieu 17:1-3"
+  },
+  {
+    "id": "dq-doc-015",
+    "questionText": "Que signifie le « salut » dans le contexte biblique ?",
+    "options": [
+      { "id": "a", "text": "Faire de bonnes actions sociales" },
+      { "id": "b", "text": "La délivrance du péché, du jugement et la vie éternelle par la foi en Christ" },
+      { "id": "c", "text": "La réincarnation de l'esprit" },
+      { "id": "d", "text": "L'accomplissement de la loi de Moïse" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Le salut est la délivrance du pécheur de la loi du péché et de la mort, obtenue par la grâce de Dieu par la foi en Christ (Éphésiens 2:8-9).",
+    "bibleReference": "Éphésiens 2:8-9"
+  },
+  {
+    "id": "dq-doc-016",
+    "questionText": "Que représente le « baptême » dans la théologie chrétienne ?",
+    "options": [
+      { "id": "a", "text": "Un rituel pour nettoyer les péchés" },
+      { "id": "b", "text": "Un signe public de conversion et d'identification avec Christ dans sa mort et sa résurrection" },
+      { "id": "c", "text": "Une nécessité absolue pour le salut" },
+      { "id": "d", "text": "Seulement una tradition culturelle" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Le baptême représente la mort et la résurrection avec Christ (Romains 6:4). C'est une confession publique de foi, pas seulement un rituel.",
+    "bibleReference": "Romains 6:4"
+  },
+  {
+    "id": "dq-doc-017",
+    "questionText": "Que signifie bibliquement le « pardon » ?",
+    "options": [
+      { "id": "a", "text": "Ignorer le péché" },
+      { "id": "b", "text": "Effacer la dette du péché et restaurer la relation" },
+      { "id": "c", "text": "Exiger une punition avant le pardon" },
+      { "id": "d", "text": "Un sentiment humain sans fondement divin" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Le pardon biblique signifie effacer la dette. « Pardonne-nous nos offenses, comme nous aussi nous pardonnons à ceux qui nous ont offensés » (Matthieu 6:12).",
+    "bibleReference": "Matthieu 6:12"
+  },
+  {
+    "id": "dq-doc-018",
+    "questionText": "Que signifie littéralement « Église » (ekklesia) en grec ?",
+    "options": [
+      { "id": "a", "text": "Un bâtiment religieux" },
+      { "id": "b", "text": "Une assemblée de ceux qui sont appelés hors de" },
+      { "id": "c", "text": "Une organisation religieuse" },
+      { "id": "d", "text": "Seulement les personnes baptisées" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "« Ekklesia » signifie littéralement « assemblée » ou « ceux qui sont appelés hors de ». C'est la communauté des croyants, pas le bâtiment (1 Corinthiens 12:27).",
+    "bibleReference": "1 Corinthiens 12:27"
+  },
+  {
+    "id": "dq-doc-019",
+    "questionText": "Quelle est la différence entre « justification » et « sanctification » dans la théologie paulinienne ?",
+    "options": [
+      { "id": "a", "text": "Les deux sont la même chose" },
+      { "id": "b", "text": "Justification : déclaré juste une fois ; Sanctification : processus pour devenir plus comme Christ pendant la vie" },
+      { "id": "c", "text": "La justification est seulement dans l'AT, la sanctification dans le NT" },
+      { "id": "d", "text": "La sanctification vient avant la justification" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "La justification est un acte juridique immédiat : Dieu déclare le pécheur « non coupable » (Romains 5:1). La sanctification est le processus progressif qui transforme le caractère du croyant (1 Thessaloniciens 4:3).",
+    "bibleReference": "Romains 5:1 ; 1 Thessaloniciens 4:3"
+  },
+  {
+    "id": "dq-doc-020",
+    "questionText": "Quelles sont les trois composantes de l'existence humaine selon la théologie de la trichotomie ?",
+    "options": [
+      { "id": "a", "text": "Corps, esprit, âme" },
+      { "id": "b", "text": "Ciel, enfer, purgatoire" },
+      { "id": "c", "text": "Jugement, résurrection, gloire" },
+      { "id": "d", "text": "Amour, espoir, foi" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "La théologie trichotomiste enseigne que l'homme a trois parties : le corps (physique), l'esprit (souffle de Dieu) et l'âme (personnalité). 1 Thessaloniciens 5:23 cite ces trois parties.",
+    "bibleReference": "1 Thessaloniciens 5:23"
+  },
+  {
+    "id": "dq-doc-021",
+    "questionText": "Qu'exige la doctrine de la « Nouvelle Naissance » (Jean 3) ?",
+    "options": [
+      { "id": "a", "text": "Une deuxième naissance physique" },
+      { "id": "b", "text": "Une transformation spirituelle surnaturelle, nécessaire pour voir le royaume de Dieu" },
+      { "id": "c", "text": "Un baptême répétitif" },
+      { "id": "d", "text": "Une expérience émotionnelle intense" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jésus dit à Nicodème : « En vérité, en vérité, je te le dis, si un homme ne naît de nouveau, il ne peut voir le royaume de Dieu » (Jean 3:3). C'est une œuvre du Saint-Esprit qui transforme la nature de l'homme.",
+    "bibleReference": "Jean 3:3-7"
+  },
+  {
+    "id": "dq-pmay-017",
+    "questionText": "Quel prophète a écrit : « C'est pourquoi le Seigneur lui-même vous donnera un signe ; Voici, la jeune femme deviendra enceinte, elle enfantera un fils » ?",
+    "options": [
+      { "id": "a", "text": "Ézéchiel" },
+      { "id": "b", "text": "Jérémie" },
+      { "id": "c", "text": "Ésaïe" },
+      { "id": "d", "text": "Amos" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Ésaïe 7:14 prophétise la naissance virginale du Fils — nous apprenons que cela s'est accompli en Jésus-Christ (Matthieu 1:23).",
+    "bibleReference": "Ésaïe 7:14"
+  },
+  {
+    "id": "dq-pmay-018",
+    "questionText": "Quelle vision inoubliable Ézéchiel a-t-il vue sur Dieu avec les chérubins ?",
+    "options": [
+      { "id": "a", "text": "Une belle maison dans le ciel" },
+      { "id": "b", "text": "Des roues dans les roues — le trône de Dieu flanqué de créatures aux formes variées" },
+      { "id": "c", "text": "Un buisson ardent qui brûle mais ne se consume pas" },
+      { "id": "d", "text": "Une rivière de lait et de miel" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ézéchiel 1 décrit un char (merkabah) — le trône de Dieu et les chérubins, des roues dans les roues, et la gloire du Seigneur au-dessus d'eux. C'est une révélation transcendante de la majesté de Dieu.",
+    "bibleReference": "Ézéchiel 1:1-28"
+  },
+  {
+    "id": "dq-pmay-019",
+    "questionText": "Dans quel livre prophétique trouvons-nous le chapitre 53 décrivant le « Serviteur souffrant » ?",
+    "options": [
+      { "id": "a", "text": "Ézéchiel" },
+      { "id": "b", "text": "Jérémie" },
+      { "id": "c", "text": "Daniel" },
+      { "id": "d", "text": "Ésaïe" }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Ésaïe 53 prophétise les souffrances du Serviteur qui a porté nos péchés — le Nouveau Testament identifie cela à Jésus (Romains 10:16 ; Actes 8:32-35).",
+    "bibleReference": "Ésaïe 53:1-12"
+  },
+  {
+    "id": "dq-pmay-020",
+    "questionText": "Quel prophète a enseigné sur les « Ossements Desséchés » qui sont revenus à la vie como une armée dans une prophétie sur Israël ?",
+    "options": [
+      { "id": "a", "text": "Ésaïe" },
+      { "id": "b", "text": "Daniel" },
+      { "id": "c", "text": "Ézéchiel" },
+      { "id": "d", "text": "Jérémie" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Ézéchiel 37 — vision des ossements desséchés qui revivent : prophétie sur la restauration d'Israël. Interprétation spirituelle : le peuple de Dieu peut « ressusciter » par la puissance du Saint-Esprit.",
+    "bibleReference": "Ézéchiel 37:1-14"
+  },
+  {
+    "id": "dq-pmen-020",
+    "questionText": "Quel signe Dieu a-t-il donné à Gédéon pour confirmer qu'il délivrerait Israël ?",
+    "options": [
+      { "id": "a", "text": "Un flambeau qui brûle dans la nuit" },
+      { "id": "b", "text": "Une toison mouillée alors que la terre était sèche, puis sèche alors que la terre était mouillée" },
+      { "id": "c", "text": "Une étoile qui tombe sur les ennemis" },
+      { "id": "d", "text": "Un ange qui est apparu devant lui" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Gédéon demanda à Dieu deux signes avec une toison (Juges 6:36-40) — la toison mouillée quand la terre est sèche, puis la toison sèche quand la terre est mouillée. Dieu répondit les deux fois.",
+    "bibleReference": "Juges 6:36-40"
+  },
+  {
+    "id": "dq-pmay-021",
+    "questionText": "Que signifie la prophétie « Emmanuel » dans Ésaïe 7:14 ?",
+    "options": [
+      { "id": "a", "text": "Dieu délivre" },
+      { "id": "b", "text": "Dieu avec nous" },
+      { "id": "c", "text": "Dieu récompense" },
+      { "id": "d", "text": "Dieu roi" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "« Emmanuel » (עִמָּנוּאֵל) = « Dieu avec nous » — nom qui fut donné à Jésus dans Matthieu 1:23, accomplissement de la prophétie d'Ésaïe.",
+    "bibleReference": "Matthieu 1:23"
+  },
+  {
+    "id": "dq-pmen-021",
+    "questionText": "Quel prophète a été appelé « Prophète de l'eau et du feu » en raison de son enseignement sur le jugement et la restauration ?",
+    "options": [
+      { "id": "a", "text": "Joël" },
+      { "id": "b", "text": "Amos" },
+      { "id": "c", "text": "Michée" },
+      { "id": "d", "text": "Habacuc" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Joël parle de l'eau du Saint-Esprit (Joël 2:28-29, cité dans Actes 2:17) et du feu du jugement (Joël 2:30-31). Il écrit sur le Jour de l'Éternel avec des images d'eau et de feu.",
+    "bibleReference": "Joël 2:28-32"
+  },
+  {
+    "id": "dq-pmay-022",
+    "questionText": "Quel prophète a écrit : « Te voilà tombé du ciel, Astre brillant, fils de l'aurore ! » ?",
+    "options": [
+      { "id": "a", "text": "Ézéchiel" },
+      { "id": "b", "text": "Jérémie" },
+      { "id": "c", "text": "Ésaïe" },
+      { "id": "d", "text": "Daniel" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Ésaïe 14:12 — à l'origine sur la chute de Babylone. De nombreux théologiens voient dans ce verset une référence à la chute de Lucifer (Satan), ce que Jésus confirme (Lc 10:18).",
+    "bibleReference": "Ésaïe 14:12-15"
+  },
+  {
+    "id": "dq-pmay-023",
+    "questionText": "Quel prophète a enseigné que Dieu annonce la fin dès le commencement ?",
+    "options": [
+      { "id": "a", "text": "Jérémie" },
+      { "id": "b", "text": "Ésaïe" },
+      { "id": "c", "text": "Ézéchiel" },
+      { "id": "d", "text": "Jonas" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "« J'annonce dès le commencement ce qui doit arriver, et longtemps d'avance ce qui n'est pas encore accompli » (Ésaïe 46:10) — l'omniscience et la souveraineté de Dieu sur l'histoire.",
+    "bibleReference": "Ésaïe 46:10"
+  },
+  {
+    "id": "dq-pmen-022",
+    "questionText": "Quelle vie de prophète montre un symbole de mariage — il s'est marié avec une femme prostituée pour montrer l'amour de Dieu pour Israël ?",
+    "options": [
+      { "id": "a", "text": "Amos" },
+      { "id": "b", "text": "Michée" },
+      { "id": "c", "text": "Osée" },
+      { "id": "d", "text": "Nahum" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Osée s'est marié avec Gomer, une femme infidèle — symbole de l'amour de Dieu para Israël qui l'avait abandonné para des idoles. L'amour fidèle de Dieu (hesed) est le thème central d'Osée.",
+    "bibleReference": "Osée 1:2-3"
+  },
+  {
+    "id": "dq-pmen-023",
+    "questionText": "Quel prophète a dit : « Vos fils et vos filles prophétiseront, vos vieillards auront des songes... » ?",
+    "options": [
+      { "id": "a", "text": "Amos" },
+      { "id": "b", "text": "Joël" },
+      { "id": "c", "text": "Michée" },
+      { "id": "d", "text": "Sophonie" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Joël 2:28-29 — prophétie qui s'est accomplie au jour de la Pentecôte (Actes 2:16-18). Le Saint-Esprit fut répandu sur toute chair sans discrimination.",
+    "bibleReference": "Joël 2:28-29"
+  },
+  {
+    "id": "dq-pmen-024",
+    "questionText": "Quel prophète a écrit sur l'importance de reconstruire la maison du Seigneur avant sa propre maison ?",
+    "options": [
+      { "id": "a", "text": "Amos" },
+      { "id": "b", "text": "Aggée" },
+      { "id": "c", "text": "Zacharie" },
+      { "id": "d", "text": "Malachie" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Aggée a encouragé le peuple à rebâtir le Temple de Dieu après l'exil — enseignant que le travail para le Seigneur doit venir en premier (Aggée 1:4-8).",
+    "bibleReference": "Aggée 1:4-8"
+  },
+  {
+    "id": "dq-evg-006",
+    "questionText": "Dans quel village Jésus est-il né ?",
+    "options": [
+      { "id": "a", "text": "Nazareth" },
+      { "id": "b", "text": "Bethléem" },
+      { "id": "c", "text": "Jérusalem" },
+      { "id": "d", "text": "Capernaüm" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jésus est né à Bethléem en Judée selon la prophétie de Michée (Michée 5:2 ; Matthieu 2:1).",
+    "bibleReference": "Matthieu 2:1"
+  },
+  {
+    "id": "dq-evg-007",
+    "questionText": "Quel discours principal Jésus prêche-t-il sur la montagne et qui commence par les Béatitudes ?",
+    "options": [
+      { "id": "a", "text": "Discours des Oliviers" },
+      { "id": "b", "text": "Sermon sur la Montagne" },
+      { "id": "c", "text": "Discours sur le Prochain Retour" },
+      { "id": "d", "text": "Discours sur le Royaume" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Le « Sermon sur la Montagne » (Matthieu 5-7) commence par les Béatitudes (Mt 5:3-12) — c'est le texte le plus long que Jésus a prêché en un seul bloc.",
+    "bibleReference": "Matthieu 5:1-7:29"
+  },
+  {
+    "id": "dq-evg-008",
+    "questionText": "Quelle personne Jésus a-t-il ressuscitée alors qu'elle était morte depuis 4 jours ?",
+    "options": [
+      { "id": "a", "text": "Le fils de la veuve de Naïn" },
+      { "id": "b", "text": "La fille de Jaïrus" },
+      { "id": "c", "text": "Lazare, frère de Marie et Marthe" },
+      { "id": "d", "text": "Étienne" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Jean 11 — Jésus ressuscite Lazare après 4 jours dans le tombeau. Symbole de la gloire de Dieu et de la résurrection.",
+    "bibleReference": "Jean 11:43-44"
+  },
+  {
+    "id": "dq-evg-009",
+    "questionText": "Comment appelle-t-on les paroles de Jésus sur la croix ?",
+    "options": [
+      { "id": "a", "text": "Il n'a rien dit sur la croix" },
+      { "id": "b", "text": "Les sept dernières paroles du Christ en croix : pardon, promesse, famille, abandon, soif, victoire, remise" },
+      { "id": "c", "text": "Il a chanté sept psaumes sur la croix" },
+      { "id": "d", "text": "Une seule parole : « Tout est accompli »" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Les sept dernières paroles du Christ en croix proviennent des quatre Évangiles : « Pardon » (Lc 23:34), « Paradis » (Lc 23:43), « Femme » (Jean 19:26), « Abandon » (Mc 15:34), « Soif » (Jean 19:28), « Tout est accompli » (Jean 19:30), « Remise » (Lc 23:46).",
+    "bibleReference": "Jean 19:30"
+  }
+]

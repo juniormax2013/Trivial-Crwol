@@ -1,0 +1,923 @@
+[
+  {
+    "newId": "dq-cpab-036",
+    "fr": {
+      "id": "dq-cpab-036",
+      "questionText": "Que représente « l'armure de Dieu » dans Éphésiens 6 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une armée physique que les chrétiens doivent former"
+        },
+        {
+          "id": "b",
+          "text": "Des éléments spirituels pour lutter contre les puissances spirituelles : vérité, justice, paix, foi, salut, Parole, prière"
+        },
+        {
+          "id": "c",
+          "text": "Seulement défensif — pas d'armes offensives"
+        },
+        {
+          "id": "d",
+          "text": "Un symbole de la vie de bureau de l'église seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Éphésiens 6:10-18 — Les croyants luttent « contre les dominations, contre les autorités... contre les esprits méchants dans les lieux célestes. » L'armure : vérité, justice, Évangile de paix, foi, salut, Parole de Dieu, prière.",
+      "bibleReference": "Éphésiens 6:12-13",
+      "normalizedRef": "eph6.12-13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-037",
+    "fr": {
+      "id": "dq-cpab-037",
+      "questionText": "Quel est le message central de Paul aux Philippiens ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Règles pour le leadership de l'église"
+        },
+        {
+          "id": "b",
+          "text": "La joie en Christ malgré toutes les circonstances — « Réjouissez-vous toujours dans le Seigneur »"
+        },
+        {
+          "id": "c",
+          "text": "Le problème de la circoncision à Philippes"
+        },
+        {
+          "id": "d",
+          "text": "Un apôtre qui en critique un autre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Philippiens 4:4 — « Réjouissez-vous toujours dans le Seigneur. » Écrit pendant l'emprisonnement de Paul. Témoignage de joie dans les tribulations, contentement en Christ (4:11-13) — « Je puis tout par Christ. »",
+      "bibleReference": "Philippiens 4:4",
+      "normalizedRef": "phi4.4",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-038",
+    "fr": {
+      "id": "dq-cpab-038",
+      "questionText": "Contre quoi la lettre aux Galates débat-elle ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'immoralité sexuelle"
+        },
+        {
+          "id": "b",
+          "text": "L'enseignement selon lequel les Gentils doivent être circoncis et suivre la Loi de Moïse pour être sauvés — contradiction de l'Évangile de la grâce"
+        },
+        {
+          "id": "c",
+          "text": "Les problèmes des églises de Galatie dans l'adoration"
+        },
+        {
+          "id": "d",
+          "text": "Un débat sur la personne du Christ"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Galates 1:6-9 — « Je m'étonne que vous vous détourniez si vite... pour un autre Évangile. » Paul dénonce les « judaïsants » qui disaient que les Gentils devaient observer la Loi de Moïse en plus de la foi. Le salut est par la grâce seule.",
+      "bibleReference": "Galates 1:6-9",
+      "normalizedRef": "gal1.6-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-039",
+    "fr": {
+      "id": "dq-cpab-039",
+      "questionText": "Qu'enseigne Paul sur la « nouvelle création » dans 2 Corinthiens 5:17 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le croyant peut devenir une nouvelle personne physiquement"
+        },
+        {
+          "id": "b",
+          "text": "Celui qui est en Christ est une nouvelle création — les choses anciennes sont passées, toutes choses sont devenues nouvelles"
+        },
+        {
+          "id": "c",
+          "text": "L'église devient une nouvelle nation"
+        },
+        {
+          "id": "d",
+          "text": "Le monde sera créé à neuf bientôt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Corinthiens 5:17 — « Si quelqu'un est en Christ, il est une nouvelle créature : les choses anciennes sont passées ; voici, toutes choses sont devenues nouvelles ! » Transformation spirituelle complète par la régénération.",
+      "bibleReference": "2 Corinthiens 5:17",
+      "normalizedRef": "2korentyen5.17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-040",
+    "fr": {
+      "id": "dq-cpab-040",
+      "questionText": "Que dit Colossiens 1:15-20 sur le Christ ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Christ a été créé après toutes choses"
+        },
+        {
+          "id": "b",
+          "text": "Le Christ est « l'image du Dieu invisible, le premier-né de toute la création » — toute la création a été faite par lui et pour lui"
+        },
+        {
+          "id": "c",
+          "text": "Le Christ est l'une des nombreuses manifestations de Dieu"
+        },
+        {
+          "id": "d",
+          "text": "Le Christ est le premier ange que Dieu a créé"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Colossiens 1:15-20 — « Il est l'image du Dieu invisible... tout a été créé par lui et pour lui... il est avant toutes choses, et toutes choses subsistent en lui. » — Suprématie totale du Christ.",
+      "bibleReference": "Colossiens 1:15-17",
+      "normalizedRef": "col1.15-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-041",
+    "fr": {
+      "id": "dq-cpab-041",
+      "questionText": "Quelle promesse centrale 1 Thessaloniciens 4 donne-t-il sur ceux qui meurent dans la foi ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ils disparaissent silencieusement"
+        },
+        {
+          "id": "b",
+          "text": "Le Christ les ressuscitera avant les vivants ; ils se rencontreront tous avec le Seigneur dans les airs"
+        },
+        {
+          "id": "c",
+          "text": "Les morts partent immédiatement pour le jugement"
+        },
+        {
+          "id": "d",
+          "text": "Ils restent dans un sommeil jusqu'au jugement final"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Thessaloniciens 4:13-17 — « Les morts en Christ ressusciteront premièrement. Ensuite, nous les vivants, nous serons tous ensemble enlevés avec eux sur des nuées, à la rencontre du Seigneur dans les airs. »",
+      "bibleReference": "1 Thessalonisyen 4:16-17",
+      "normalizedRef": "1th4.16-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-042",
+    "fr": {
+      "id": "dq-cpab-042",
+      "fr": {
+        "id": "dq-cpab-042",
+        "questionText": "Quel conseil Paul donne-t-il à Timothée sur sa conduite en tant que jeune pasteur ?",
+        "categoryId": "cartas-pablo",
+        "categoryName": "Lettres de Paul",
+        "difficulty": "medium",
+        "language": "fr",
+        "options": [
+          {
+            "id": "a",
+            "text": "Évitez toutes les personnes plus âgées que vous"
+          },
+          {
+            "id": "b",
+            "text": "Que personne ne méprise ta jeunesse — montre-toi comme un modèle en parole, en conduite, en amour, en esprit, en foi, en pureté"
+          },
+          {
+            "id": "c",
+            "text": "Prie seulement pour l'église"
+          },
+          {
+            "id": "d",
+            "text": "Abandonne le ministère si la pression devient trop forte"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "1 Timothée 4:12 — « Que personne ne méprise ta jeunesse ; mais sois un modèle pour les fidèles, en parole, en conduite, en charité, en foi, en pureté. »",
+        "bibleReference": "1 Timote 4:12",
+        "normalizedRef": "1ti4.12",
+        "normalizedCat": "cartas-pablo"
+      }
+    }
+  },
+  {
+    "newId": "dq-cpab-043",
+    "fr": {
+      "id": "dq-cpab-043",
+      "questionText": "Qu'enseigne « l'hymne au Christ » dans Philippiens 2:6-11 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Christ a été créé sous Dieu avec une volonté inférieure"
+        },
+        {
+          "id": "b",
+          "text": "Le Christ s'est dépouillé de sa gloire divine, est devenu serviteur, est mort sur la croix — Dieu l'a souverainement élevé au-dessus de tout nom"
+        },
+        {
+          "id": "c",
+          "text": "Le Christ n'existait pas avant l'incarnation"
+        },
+        {
+          "id": "d",
+          "text": "Seulement les membres qui sont obéissants recevront une exaltation"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Philippiens 2:6-11 — Kénose : le Christ « n'a point regardé comme une proie à arracher d'être égal avec Dieu, » il s'est dépouillé lui-même, a pris une forme de serviteur, a obéi jusqu'à la mort de la croix. Dieu l'a élevé — « Tout genou fléchira. »",
+      "bibleReference": "Filipyen 2:9-11",
+      "normalizedRef": "phi2.9-11",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-044",
+    "fr": {
+      "id": "dq-cpab-044",
+      "questionText": "Quel avertissement Paul donne-t-il dans 2 Timothée 3 sur les derniers temps ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tout le monde deviendra chrétien"
+        },
+        {
+          "id": "b",
+          "text": "Les hommes seront égoïstes, amis de l'argent, fanfarons... ayant l'apparence de la piété, mais reniant ce qui en fait la force"
+        },
+        {
+          "id": "c",
+          "text": "L'église sera pleine avant que le Christ ne revienne"
+        },
+        {
+          "id": "d",
+          "text": "Il n'y aura pas de persécution dans les derniers temps"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Timothée 3:1-5 — « Dans les derniers jours, il y aura des temps difficiles : car les hommes seront égoïstes, amis de l'argent... ayant l'apparence de la piété, mais reniant ce qui en fait la force. » Remède : les Saintes Écritures (v.16-17).",
+      "bibleReference": "2 Timote 3:1-5",
+      "normalizedRef": "2ti3.1-5",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-cpab-045",
+    "fr": {
+      "id": "dq-cpab-045",
+      "questionText": "Quel message Paul donne-t-il à Philémon ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lettres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un enseignement sur les lois des esclaves"
+        },
+        {
+          "id": "b",
+          "text": "Paul demande à Philémon de recevoir son esclave Onésime comme un frère en Christ — démonstration de l'Évangile contre l'esclavage"
+        },
+        {
+          "id": "c",
+          "text": "Un enseignement sur les finances de l'Église"
+        },
+        {
+          "id": "d",
+          "text": "Paul demande à Philémon de rembourser un prêt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Philémon 15-16 — Paul écrit pour Onésime (l'esclave qui s'était enfui) : « Il a été séparé de toi pour un peu de temps, afin que tu le recouvres pour l'éternité, non plus comme un esclave, mais comme bien plus qu'un esclave, comme un frère bien-aimé. »",
+      "bibleReference": "Filemòn 15-16",
+      "normalizedRef": "filemòn15-16",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "newId": "dq-hech-004",
+    "fr": {
+      "id": "dq-hech-004",
+      "questionText": "Quel commandement Jésus a-t-il donné aux disciples avant son ascension dans Actes 1 ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Allez immédiatement vers toutes les nations"
+        },
+        {
+          "id": "b",
+          "text": "Restez à Jérusalem et attendez la promesse du Père — le Saint-Esprit"
+        },
+        {
+          "id": "c",
+          "text": "Bâtissez un grand temple nouveau"
+        },
+        {
+          "id": "d",
+          "text": "Écrivez tout ce qu'il a enseigné"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 1:4-5 — « Ne vous éloignez pas de Jérusalem, mais attendez ce que le Père a promis... dans peu de jours, vous serez baptisés du Saint-Esprit. » Étape préalable avant la mission.",
+      "bibleReference": "Travay 1:4-5",
+      "normalizedRef": "act1.4-5",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-005",
+    "fr": {
+      "id": "dq-hech-005",
+      "questionText": "Combien de personnes se sont converties le jour de la Pentecôte ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "120"
+        },
+        {
+          "id": "b",
+          "text": "500"
+        },
+        {
+          "id": "c",
+          "text": "3000"
+        },
+        {
+          "id": "d",
+          "text": "5000"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Actes 2:41 — « Ceux qui acceptèrent sa parole furent baptisés ; et, en ce jour-là, le nombre des disciples s'augmenta d'environ trois mille âmes. »",
+      "bibleReference": "Travay 2:41",
+      "normalizedRef": "act2.41",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-006",
+    "fr": {
+      "id": "dq-hech-006",
+      "questionText": "Quelle est la signification de la conversion de Corneille (Actes 10) ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le premier Juif à devenir chrétien"
+        },
+        {
+          "id": "b",
+          "text": "Le premier Gentil à devenir chrétien officiellement — Dieu ne fait pas de favoritisme entre les nations"
+        },
+        {
+          "id": "c",
+          "text": "Le premier militaire à devenir chrétien"
+        },
+        {
+          "id": "d",
+          "text": "Le premier baptême dans une maison privée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 10:34-35 — Pierre réalise : « Dieu ne fait point d'acception de personnes, mais qu'en toute nation celui qui le craint et qui pratique la justice lui est agréable. » L'Évangile est pour toutes les nations.",
+      "bibleReference": "Travay 10:34-35",
+      "normalizedRef": "act10.34-35",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-007",
+    "fr": {
+      "id": "dq-hech-007",
+      "questionText": "Qu'est-ce que Paul a dit au geôlier de Philippes quand celui-ci a demandé comment être sauvé ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Circoncis-toi, toi et ta famille »"
+        },
+        {
+          "id": "b",
+          "text": "« Crois au Seigneur Jésus, et tu seras sauvé, toi et ta famille »"
+        },
+        {
+          "id": "c",
+          "text": "« Jeûne pendant sept jours »"
+        },
+        {
+          "id": "d",
+          "text": "« Travaille pour le Seigneur »"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 16:31 — Le geôlier avait demandé : « Que faut-il que je fasse pour être sauvé ? » Paul et Silas répondirent : « Crois au Seigneur Jésus, et tu seras sauvé, toi et ta famille. »",
+      "bibleReference": "Travay 16:31",
+      "normalizedRef": "act16.31",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-008",
+    "fr": {
+      "id": "dq-hech-008",
+      "questionText": "Que veut montrer Luc avec les Actes des Apôtres ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le procès de Paul seulement"
+        },
+        {
+          "id": "b",
+          "text": "L'expansion de l'Évangile de Jérusalem jusqu'à Rome — l'œuvre du Saint-Esprit dans l'église"
+        },
+        {
+          "id": "c",
+          "text": "L'histoire des 12 apôtres seulement"
+        },
+        {
+          "id": "d",
+          "text": "Les règles et règlements de l'église primitive"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 1:8 — « Vous serez mes témoins à Jérusalem, dans toute la Judée, dans la Samarie, et jusqu'aux extrémités de la terre. » Luc montre la progression géographique et théologique de l'Évangile, guidée par le Saint-Esprit.",
+      "bibleReference": "Travay 1:8",
+      "normalizedRef": "act1.8",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-doc-031",
+    "fr": {
+      "id": "dq-doc-031",
+      "questionText": "Que signifie la « résurrection corporelle » du Christ ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un symbole spirituel seulement"
+        },
+        {
+          "id": "b",
+          "text": "Jésus est ressuscité physiquement — le même corps (mais glorifié) — le tombeau est vide, il est apparu en mangeant"
+        },
+        {
+          "id": "c",
+          "text": "Les disciples ont eu une vision"
+        },
+        {
+          "id": "d",
+          "text": "Le Christ est devenu un esprit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Luc 24:39-43 — Jésus montre ses mains et ses pieds, demande à manger. 1 Corinthiens 15:17 — « Si Christ n'est pas ressuscité, votre foi est vaine. » La résurrection physique = fondement de l'Évangile.",
+      "bibleReference": "1 Korentyen 15:17",
+      "normalizedRef": "1korentyen15.17",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-032",
+    "fr": {
+      "id": "dq-doc-032",
+      "questionText": "Que signifie « l'ascension du Christ » ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Christ disparaît dans un nuage pour toujours"
+        },
+        {
+          "id": "b",
+          "text": "Le Christ est monté physiquement au ciel et s'est assis à la droite de Dieu où il intercède pour nous"
+        },
+        {
+          "id": "c",
+          "text": "Le Christ est devenu Dieu le Père"
+        },
+        {
+          "id": "d",
+          "text": "Le Christ est devenu le chef des anges"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 1:9-11 ; Hébreux 7:25 — Le Christ est monté, s'est assis à la droite de Dieu, intercède pour les croyants. Il reviendra de la même manière qu'il est parti (Actes 1:11).",
+      "bibleReference": "Ebre 7:25",
+      "normalizedRef": "heb7.25",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-033",
+    "fr": {
+      "id": "dq-doc-033",
+      "questionText": "Que signifie « l'expiation » du Christ ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le Christ a seulement donné un bon exemple"
+        },
+        {
+          "id": "b",
+          "text": "Le Christ a pris sur lui la punition de nos péchés — satisfaisant la justice de Dieu et nous réconciliant avec Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Dieu a cessé de punir les pécheurs"
+        },
+        {
+          "id": "d",
+          "text": "Le Christ a montré que mourir n'est pas terrible"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Romains 3:25 — Dieu l'a « exposé comme moyen d'expiation par la foi en son sang. » Ésaïe 53:5 — « Il était blessé pour nos péchés... le châtiment qui nous donne la paix est tombé sur lui. »",
+      "bibleReference": "Women 3:25",
+      "normalizedRef": "rom3.25",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-034",
+    "fr": {
+      "id": "dq-doc-034",
+      "questionText": "Que signifie « élection/prédestination » dans la théologie chrétienne ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu choisit certains pour être perdus pour toujours"
+        },
+        {
+          "id": "b",
+          "text": "Dieu a choisi les croyants en Christ avant la fondation du monde — débat entre calvinistes et arminiens sur la base du choix"
+        },
+        {
+          "id": "c",
+          "text": "Seuls les Juifs sont choisis"
+        },
+        {
+          "id": "d",
+          "text": "Le choix dépend uniquement du libre arbitre humain"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Éphésiens 1:4-5 — « Il nous a élus en lui avant la fondation du monde. » Débat : Calvinisme (Dieu choisit souverainement), Arminianisme (Dieu prévoit la foi humaine). Tous deux reconnaissent la Bible.",
+      "bibleReference": "Efezyen 1:4-5",
+      "normalizedRef": "eph1.4-5",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-035",
+    "fr": {
+      "id": "dq-doc-035",
+      "questionText": "Que signifie la « grâce » dans le contexte du salut ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La récompense que Dieu donne pour nos bonnes œuvres"
+        },
+        {
+          "id": "b",
+          "text": "La faveur de Dieu accordée à ceux qui ne la méritent pas — le salut comme don gratuit"
+        },
+        {
+          "id": "c",
+          "text": "La permission que Dieu nous donne de pécher"
+        },
+        {
+          "id": "d",
+          "text": "Un sentiment spirituel spécial"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Éphésiens 2:8 — « C'est par la grâce que vous êtes sauvés, par le moyen de la foi. » Grâce = faveur de Dieu envers ceux qui méritent la punition — opposée à la justice comme cadeau à celui qui mérite. C'est le fondement de l'Évangile.",
+      "bibleReference": "Efezyen 2:8",
+      "normalizedRef": "eph2.8",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-036",
+    "fr": {
+      "id": "dq-doc-036",
+      "questionText": "Que signifie la « Loi naturelle » dans la théologie chrétienne ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les lois physiques et chimiques seulement"
+        },
+        {
+          "id": "b",
+          "text": "Les principes moraux que Dieu a gravés dans la conscience humaine — l'homme peut connaître le bien et le mal naturellement"
+        },
+        {
+          "id": "c",
+          "text": "La loi de Moïse enseignée par la nature"
+        },
+        {
+          "id": "d",
+          "text": "Seulement des règles développées par la culture"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Romains 2:14-15 — « Quand les païens, qui n'ont point la loi, font naturellement ce que prescrit la loi... ils montrent que l'œuvre de la loi est écrite dans leurs cœurs. » Loi naturelle = révélation générale morale de Dieu.",
+      "bibleReference": "Women 2:14-15",
+      "normalizedRef": "rom2.14-15",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-037",
+    "fr": {
+      "id": "dq-doc-037",
+      "questionText": "Quelle est la différence entre la « théologie biblique » et la « théologie systématique » ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les deux sont la même chose"
+        },
+        {
+          "id": "b",
+          "text": "Théologie biblique : étude progressive de la révélation de Dieu dans la Bible ; Systématique : organise les vérités bibliques par catégories"
+        },
+        {
+          "id": "c",
+          "text": "La systématique est plus biblique que la biblique"
+        },
+        {
+          "id": "d",
+          "text": "La biblique est la traduction, la systématique est l'original"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La théologie biblique suit la révélation progressive (Ancienne Alliance → Nouvelle Alliance). La théologie systématique organise les vérités bibliques par sujets (Dieu, Christ, Salut, Église...). Les deux sont nécessaires.",
+      "bibleReference": "2 Timote 2:15",
+      "normalizedRef": "2ti2.15",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-gen-018",
+    "fr": {
+      "id": "dq-gen-018",
+      "questionText": "Quelles sont les premières paroles de la Bible ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Au commencement, Dieu parla »"
+        },
+        {
+          "id": "b",
+          "text": "« Au commencement, Dieu créa les cieux et la terre »"
+        },
+        {
+          "id": "c",
+          "text": "« Au commencement était la Parole »"
+        },
+        {
+          "id": "d",
+          "text": "« Au commencement, Dieu dit : Que la lumière soit »"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 1:1 — « Au commencement, Dieu créa les cieux et la terre. » Le premier verset de la Bible établit : Dieu, la création, et le commencement du temps.",
+      "bibleReference": "Jenèz 1:1",
+      "normalizedRef": "gen1.1",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-019",
+    "fr": {
+      "id": "dq-gen-019",
+      "questionText": "Qu'est-ce que Dieu a dit de chaque jour de la création ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Ce n'est pas bon »"
+        },
+        {
+          "id": "b",
+          "text": "« Cela était bon »"
+        },
+        {
+          "id": "c",
+          "text": "« C'était parfait »"
+        },
+        {
+          "id": "d",
+          "text": "« C'était complet »"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 1 — Après chaque jour de création, Dieu vit que « cela était bon. » Après le sixième jour, il vit que « cela était très bon » (v.31). La création reflète la bonté de Dieu.",
+      "bibleReference": "Jenèz 1:31",
+      "normalizedRef": "gen1.31",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-020",
+    "fr": {
+      "id": "dq-gen-020",
+      "questionText": "Quelle promesse Dieu a-t-il faite à Abraham dans Genèse 12 ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il vivra pour toujours"
+        },
+        {
+          "id": "b",
+          "text": "Il deviendra une grande nation, il sera béni, son nom sera grand, toutes les familles de la terre seront bénies en lui"
+        },
+        {
+          "id": "c",
+          "text": "Il deviendra le roi d'Israël"
+        },
+        {
+          "id": "d",
+          "text": "Ses enfants ne souffriront jamais"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 12:1-3 — « Va... Je ferai de toi une grande nation... Je bénirai ceux qui te béniront... et toutes les familles de la terre seront bénies en toi. » Alliance abrahamique.",
+      "bibleReference": "Jenèz 12:1-3",
+      "normalizedRef": "gen12.1-3",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-021",
+    "fr": {
+      "id": "dq-gen-021",
+      "questionText": "Quel était le signe de l'alliance que Dieu a donnée à Noé ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une seule lune"
+        },
+        {
+          "id": "b",
+          "text": "Un arc-en-ciel"
+        },
+        {
+          "id": "c",
+          "text": "Une étoile spéciale"
+        },
+        {
+          "id": "d",
+          "text": "Un arbre spécial"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 9:12-16 — Dieu donne à Noé et à ses descendants l'arc-en-ciel comme signe de son alliance : « Les eaux ne deviendront plus un déluge pour détruire toute chair. » Promesse éternelle de miséricorde.",
+      "bibleReference": "Jenèz 9:13",
+      "normalizedRef": "gen9.13",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-inte-001",
+    "fr": {
+      "id": "dq-inte-001",
+      "questionText": "Combien de temps le peuple est-il resté sans recevoir de prophétie entre le livre de Malachie et la naissance de Jésus ?",
+      "categoryId": "intertestamentario",
+      "categoryName": "Période Intertestamentaire",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 ans"
+        },
+        {
+          "id": "b",
+          "text": "400 ans"
+        },
+        {
+          "id": "c",
+          "text": "1000 ans"
+        },
+        {
+          "id": "d",
+          "text": "70 ans"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "On appelle cette période la « Période de Silence », elle a duré environ 400 ans.",
+      "bibleReference": "Malachi 4:5-6",
+      "normalizedRef": "mal4.5-6",
+      "normalizedCat": "intertestamentario"
+    }
+  }
+]

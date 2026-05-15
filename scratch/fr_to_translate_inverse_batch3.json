@@ -1,0 +1,2042 @@
+[
+  {
+    "newId": "dq-ora-006",
+    "fr": {
+      "id": "dq-ora-006",
+      "questionText": "Quelle est la promesse donnée dans Matthieu 7:7-8 concernant la prière ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu répond à toutes les prières immédiatement"
+        },
+        {
+          "id": "b",
+          "text": "Demandez et l'on vous donnera ; cherchez et vous trouverez ; frappez et l'on vous ouvrira"
+        },
+        {
+          "id": "c",
+          "text": "Seuls les justes verront leurs prières exaucées"
+        },
+        {
+          "id": "d",
+          "text": "La prière fervente suffit pour tout obtenir"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Demandez, et l'on vous donnera ; cherchez, et vous trouverez ; frappez, et l'on vous ouvrira » (Matthieu 7:7) — invitation divine à une prière persistante.",
+      "bibleReference": "Matthieu 7:7-8",
+      "normalizedRef": "mat7.7-8",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "newId": "dq-ora-007",
+    "fr": {
+      "id": "dq-ora-007",
+      "questionText": "Comment l'Esprit Saint aide-t-il le croyant dans la prière selon Romains 8:26 ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il choisit les mots de la prière pour nous"
+        },
+        {
+          "id": "b",
+          "text": "Il intercède pour nous par des soupirs inexprimables quand nous ne savons que demander"
+        },
+        {
+          "id": "c",
+          "text": "Il traduit nos prières en hébreu pour Dieu"
+        },
+        {
+          "id": "d",
+          "text": "Il dirige nos émotions pendant la prière"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« L'Esprit lui-même intercède pour nous par des soupirs inexprimables » (Romains 8:26) — le Saint-Esprit est notre avocat dans la prière.",
+      "bibleReference": "Romains 8:26",
+      "normalizedRef": "rom8.26",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "newId": "dq-ora-008",
+    "fr": {
+      "id": "dq-ora-008",
+      "questionText": "Quel modèle de prière Hannah donne-t-elle dans 1 Samuel 1 ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une prière courte et formelle au temple"
+        },
+        {
+          "id": "b",
+          "text": "Une prière de tout son cœur avec larmes, promesse à Dieu et attente confiante de sa réponse"
+        },
+        {
+          "id": "c",
+          "text": "Une prière collective avec les prêtres du temple"
+        },
+        {
+          "id": "d",
+          "text": "Une prière de jeûne de quarante jours"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hannah priait dans la détresse avec larmes, fit un vœu à Dieu, puis repartit le visage serein — modèle de prière sincère, spécifique et confiante (1 Samuel 1:10-18).",
+      "bibleReference": "1 Samuel 1:10-18",
+      "normalizedRef": "1sa1.10-18",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "newId": "dq-ora-009",
+    "fr": {
+      "id": "dq-ora-009",
+      "questionText": "Comment Jésus priait-il dans le jardin de Gethsémané et que nous enseigne cette prière ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il demanda à être délivré de la souffrance — la prière n'eut pas de réponse"
+        },
+        {
+          "id": "b",
+          "text": "Il pria avec soumission totale : « Que ta volonté soit faite » — modèle de prière dans l'angoisse"
+        },
+        {
+          "id": "c",
+          "text": "Il pria silencieusement sans paroles"
+        },
+        {
+          "id": "d",
+          "text": "Il demanda à ses disciples de prier à sa place"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gethsémané : Jésus pria avec une grande angoisse mais soumit sa volonté à celle du Père — « Non pas ma volonté, mais la tienne » (Luc 22:42). Modèle de prière dans la souffrance.",
+      "bibleReference": "Luc 22:42",
+      "normalizedRef": "luk22.42",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "newId": "dq-ora-010",
+    "fr": {
+      "id": "dq-ora-010",
+      "questionText": "Quelle condition Jacques 5:16 donne-t-il pour une prière efficace ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Avoir assez de foi pour déplacer une montagne"
+        },
+        {
+          "id": "b",
+          "text": "La prière fervente du juste a une grande efficacité — confessez vos péchés les uns aux autres"
+        },
+        {
+          "id": "c",
+          "text": "Prier avec d'autres croyants en permanence"
+        },
+        {
+          "id": "d",
+          "text": "Être oint d'huile par les anciens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Confessez donc vos péchés les uns aux autres... La prière fervente du juste a une grande efficacité » (Jacques 5:16) — prière ancrée dans la justice et la communauté.",
+      "bibleReference": "Jacques 5:16",
+      "normalizedRef": "jam5.16",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "newId": "dq-ora-011",
+    "fr": {
+      "id": "dq-ora-011",
+      "questionText": "Comment le psaume 22 est-il à la fois une prière de détresse et une prédiction messianique ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "C'est uniquement une complainte historique de David"
+        },
+        {
+          "id": "b",
+          "text": "Il commence par l'abandon ressenti par David mais anticipe précisément la passion de Christ (Matthieu 27:46)"
+        },
+        {
+          "id": "c",
+          "text": "C'est une prophétie directe sans dimension personnelle"
+        },
+        {
+          "id": "d",
+          "text": "Jésus a cité ce psaume par erreur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 22 ouvre avec « Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné ? » — cri de David et dernier mot de Jésus sur la croix (Matthieu 27:46). Prophétie typologique de la passion.",
+      "bibleReference": "Psaume 22:1",
+      "normalizedRef": "psaume22.1",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "newId": "dq-igl-016",
+    "fr": {
+      "id": "dq-igl-016",
+      "questionText": "Quelle est la différence entre l'Église visible et l'Église invisible dans la théologie réformée ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Église visible est catholique ; l'Église invisible est protestante"
+        },
+        {
+          "id": "b",
+          "text": "L'Église visible = tous les membres professants ; l'Église invisible = ceux vraiment régénérés connus de Dieu seul"
+        },
+        {
+          "id": "c",
+          "text": "L'Église visible se voit à la TV ; l'invisible est underground"
+        },
+        {
+          "id": "d",
+          "text": "L'Église invisible est l'Église des morts"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Calvin : l'Église visible (tous ceux qui professent la foi, reçoivent les sacrements) contient l'Église invisible (les vrais élus connus de Dieu seul) — une distinction pastorale importante.",
+      "bibleReference": "2 Timothée 2:19",
+      "normalizedRef": "2ti2.19",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-017",
+    "fr": {
+      "id": "dq-igl-017",
+      "questionText": "Que signifient les « clés du Royaume » données à Pierre dans Matthieu 16:19 ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre a un pouvoir absolu sur l'Église catholique"
+        },
+        {
+          "id": "b",
+          "text": "L'autorité d'annoncer l'Évangile — ce qui ouvre ou ferme l'accès au Royaume par la proclamation du message"
+        },
+        {
+          "id": "c",
+          "text": "Pierre gardait littéralement les portes du ciel"
+        },
+        {
+          "id": "d",
+          "text": "Un pouvoir transmis aux papes successeurs de Pierre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les clés symbolisent l'autorité d'annoncer l'Évangile : la prédication de la mort/résurrection de Christ ouvre le Royaume pour ceux qui croient ou le ferme pour ceux qui refusent (Matthieu 16:19).",
+      "bibleReference": "Matthieu 16:19",
+      "normalizedRef": "mat16.19",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-018",
+    "fr": {
+      "id": "dq-igl-018",
+      "questionText": "Comment 1 Pierre 2:9 décrit-il l'identité de l'Église ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une institution hiérarchique avec des prêtres ordonnés"
+        },
+        {
+          "id": "b",
+          "text": "Une race élue, un sacerdoce royal, une nation sainte, un peuple acquis"
+        },
+        {
+          "id": "c",
+          "text": "Un groupe de croyants en chemin vers la perfection"
+        },
+        {
+          "id": "d",
+          "text": "L'héritière des promesses faites à Israël seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Vous êtes une race élue, un sacerdoce royal, une nation sainte, un peuple acquis, afin que vous annonciez les vertus de celui qui vous a appelés des ténèbres à sa merveilleuse lumière » (1 Pierre 2:9).",
+      "bibleReference": "1 Pierre 2:9",
+      "normalizedRef": "1pe2.9",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-019",
+    "fr": {
+      "id": "dq-igl-019",
+      "questionText": "Quelle est la différence entre les dons de direction (évêques/anciens) et les diacres dans le NT ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les évêques sont supérieurs aux diacres dans une hiérarchie fixe"
+        },
+        {
+          "id": "b",
+          "text": "Les anciens/évêques enseignent et gouvernent ; les diacres servent dans les besoins pratiques"
+        },
+        {
+          "id": "c",
+          "text": "Les diacres peuvent enseigner ; les anciens ne peuvent que prier"
+        },
+        {
+          "id": "d",
+          "text": "Ces rôles n'existaient pas dans l'Église primitive"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le NT distingue les anciens/évêques (gouvernance, enseignement — 1 Timothée 3:1-7) et les diacres (service pratique — Actes 6:1-6; 1 Timothée 3:8-13).",
+      "bibleReference": "1 Timothée 3:1-13",
+      "normalizedRef": "1ti3.1-13",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-020",
+    "fr": {
+      "id": "dq-igl-020",
+      "questionText": "Que signifie la doctrine de la « communion des saints » dans le Credo des Apôtres ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La prière aux saints décédés pour leurs intercessions"
+        },
+        {
+          "id": "b",
+          "text": "L'unité de tous les croyants — vivants et morts — dans le Corps de Christ à travers les âges"
+        },
+        {
+          "id": "c",
+          "text": "La sainteté morale obligatoire pour entrer dans l'Église"
+        },
+        {
+          "id": "d",
+          "text": "La célébration de la messe de requiem pour les défunts"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La communion des saints (sanctorum communio) désigne la solidarité de tous les croyants dans le Corps de Christ — une Église transhistorique unissant les croyants de tous les temps.",
+      "bibleReference": "Hébreux 12:22-24",
+      "normalizedRef": "heb12.22-24",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-021",
+    "fr": {
+      "id": "dq-igl-021",
+      "questionText": "Quels critères les réformateurs identifiaient-ils pour reconnaître une vraie Église ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La succession apostolique et la conformité avec Rome"
+        },
+        {
+          "id": "b",
+          "text": "La prédication fidèle de la Parole et l'administration correcte des sacrements"
+        },
+        {
+          "id": "c",
+          "text": "La taille de la congrégation et les miracles"
+        },
+        {
+          "id": "d",
+          "text": "Le respect de la liturgie historique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les deux marques de la vraie Église selon les Réformateurs (Luther, Calvin) : (1) la Parole de Dieu prêchée fidèlement, (2) les sacrements administrés correctement (certains ajoutent la discipline ecclésiastique).",
+      "bibleReference": "Actes 2:42",
+      "normalizedRef": "act2.42",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-022",
+    "fr": {
+      "id": "dq-igl-022",
+      "questionText": "Comment Apocalypse 2-3 (les lettres aux 7 Églises) est-il pertinent pour l'Église contemporaine ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ces lettres ne s'appliquent qu'aux Églises historiques du 1er siècle"
+        },
+        {
+          "id": "b",
+          "text": "Elles dressent un portrait prophétique des forces et faiblesses spirituelles récurrentes dans toute Église à toute époque"
+        },
+        {
+          "id": "c",
+          "text": "Elles prédisent sept périodes chronologiques de l'histoire de l'Église"
+        },
+        {
+          "id": "d",
+          "text": "Elles sont purement symboliques sans application pratique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les 7 lettres (Apocalypse 2-3) couvrent des dynamiques universelles : perte du premier amour (Éphèse), compromis doctrinal (Pergame), tiédeur (Laodicée) — miroirs pour toute Église de toute époque.",
+      "bibleReference": "Apocalypse 2:4",
+      "normalizedRef": "rev2.4",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-esc-009",
+    "fr": {
+      "id": "dq-esc-009",
+      "questionText": "Que signifie le terme grec « parousia » dans la théologie du NT ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mort de Jésus sur la croix"
+        },
+        {
+          "id": "b",
+          "text": "Le second avènement ou retour glorieux de Christ"
+        },
+        {
+          "id": "c",
+          "text": "La pentecôte et le don de l'Esprit"
+        },
+        {
+          "id": "d",
+          "text": "La résurrection de Jésus"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Parousia (παρουσία) = « présence » ou « avènement » — terme technique du NT pour le second retour de Christ en gloire (1 Thessaloniciens 4:15; Matthieu 24:27).",
+      "bibleReference": "1 Thessaloniciens 4:15",
+      "normalizedRef": "1th4.15",
+      "normalizedCat": "escatologia"
+    }
+  },
+  {
+    "newId": "dq-esc-010",
+    "fr": {
+      "id": "dq-esc-010",
+      "questionText": "Quelle image utilise Paul pour décrire la résurrection dans 1 Corinthiens 15 ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un oiseau qui s'envole vers le ciel"
+        },
+        {
+          "id": "b",
+          "text": "Un grain semé qui meurt et germe en un nouveau corps glorieux"
+        },
+        {
+          "id": "c",
+          "text": "Une flamme qui se transforme en lumière"
+        },
+        {
+          "id": "d",
+          "text": "Un fleuve qui rejoint l'océan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul utilise l'image du grain semé : « Ce que tu sèmes ne reprend pas vie s'il ne meurt... ce qui est semé corruptible ressuscite incorruptible » (1 Corinthiens 15:36-42).",
+      "bibleReference": "1 Corinthiens 15:36-42",
+      "normalizedRef": "1co15.36-42",
+      "normalizedCat": "escatologia"
+    }
+  },
+  {
+    "newId": "dq-esc-011",
+    "fr": {
+      "id": "dq-esc-011",
+      "questionText": "Selon Jean 5:28-29, qui ressuscitera à la fin des temps ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seulement les croyants fidèles"
+        },
+        {
+          "id": "b",
+          "text": "Tous ceux dans les sépulcres — les uns pour la résurrection de vie, d'autres pour la résurrection de jugement"
+        },
+        {
+          "id": "c",
+          "text": "Seulement ceux qui ont reçu les sacrements"
+        },
+        {
+          "id": "d",
+          "text": "Les martyrs chrétiens uniquement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus : « Tous ceux qui sont dans les sépulcres entendront sa voix... ceux qui auront fait le bien ressusciteront pour la vie ; ceux qui auront fait le mal, pour le jugement » (Jean 5:28-29).",
+      "bibleReference": "Jean 5:28-29",
+      "normalizedRef": "joh5.28-29",
+      "normalizedCat": "escatologia"
+    }
+  },
+  {
+    "newId": "dq-esc-012",
+    "fr": {
+      "id": "dq-esc-012",
+      "questionText": "Qu'est-ce que la « Grande Tribulation » selon Matthieu 24:21 ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La persécution romaine du 1er siècle uniquement"
+        },
+        {
+          "id": "b",
+          "text": "Une période d'affliction sans précédent avant le retour de Christ"
+        },
+        {
+          "id": "c",
+          "text": "La souffrance personnelle de chaque croyant"
+        },
+        {
+          "id": "d",
+          "text": "La destruction de Babylone dans Apocalypse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus prédit une « grande tribulation telle qu'il n'y en a pas eu depuis le commencement du monde jusqu'à maintenant, et qu'il n'y en aura jamais » (Matthieu 24:21).",
+      "bibleReference": "Matthieu 24:21",
+      "normalizedRef": "mat24.21",
+      "normalizedCat": "escatologia"
+    }
+  },
+  {
+    "newId": "dq-esc-013",
+    "fr": {
+      "id": "dq-esc-013",
+      "questionText": "Que signifie « le ciel nouveau et la terre nouvelle » dans Apocalypse 21:1 ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu détruira complètement l'univers pour en créer un autre"
+        },
+        {
+          "id": "b",
+          "text": "La création actuelle sera renouvelée et purifiée — une restauration cosmique où Dieu habitera avec son peuple"
+        },
+        {
+          "id": "c",
+          "text": "Le paradis sera dans un autre univers parallèle"
+        },
+        {
+          "id": "d",
+          "text": "Les croyants vivront dans un état purement spirituel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Ciel Nouveau et la Terre Nouvelle : une création renouvelée (2 Pierre 3:10-13) où « la tente de Dieu est avec les hommes » — le projet de l'Eden accompli et surpassé (Apocalypse 21:3).",
+      "bibleReference": "Apocalypse 21:1-3",
+      "normalizedRef": "rev21.1-3",
+      "normalizedCat": "escatologia"
+    }
+  },
+  {
+    "newId": "dq-esc-014",
+    "fr": {
+      "id": "dq-esc-014",
+      "questionText": "Que dit Matthieu 24:36 sur la date du retour de Christ ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Après sept ans de tribulation"
+        },
+        {
+          "id": "b",
+          "text": "Personne ne connaît le jour ni l'heure — pas même les anges, ni le Fils"
+        },
+        {
+          "id": "c",
+          "text": "Au millième anniversaire de l'Église"
+        },
+        {
+          "id": "d",
+          "text": "À la fin du calendrier hébreu"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Quant au jour et à l'heure, personne ne les connaît, pas même les anges des cieux, pas même le Fils, mais le Père seul » (Matthieu 24:36).",
+      "bibleReference": "Matthieu 24:36",
+      "normalizedRef": "mat24.36",
+      "normalizedCat": "escatologia"
+    }
+  },
+  {
+    "newId": "dq-esp-016",
+    "fr": {
+      "id": "dq-esp-016",
+      "questionText": "Quel était le rôle de l'Esprit Saint dans l'AT par rapport au NT ?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Saint-Esprit",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Esprit n'existait pas dans l'AT"
+        },
+        {
+          "id": "b",
+          "text": "Dans l'AT, l'Esprit venait sur certaines personnes pour des missions spécifiques ; dans le NT, il habite en permanence tous les croyants"
+        },
+        {
+          "id": "c",
+          "text": "L'Esprit agissait identiquement dans les deux Testaments"
+        },
+        {
+          "id": "d",
+          "text": "L'Esprit dans l'AT était une force impersonnelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dans l'AT : l'Esprit venait sur des individus pour des missions (Samson, David, Élie). Dans le NT, Jéhovah promet et accomplit : « Je mettrai mon Esprit en vous » (Ézéchiel 36:27 → Jean 14:17; Actes 2).",
+      "bibleReference": "Ézéchiel 36:27",
+      "normalizedRef": "eze36.27",
+      "normalizedCat": "espiritu-santo"
+    }
+  },
+  {
+    "newId": "dq-esp-017",
+    "fr": {
+      "id": "dq-esp-017",
+      "questionText": "Comment le Saint-Esprit aide-t-il le croyant à comprendre les Écritures (illumination) ?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Saint-Esprit",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Esprit donne une inspiration directe qui remplace la lecture"
+        },
+        {
+          "id": "b",
+          "text": "L'Esprit illumine l'esprit du croyant pour comprendre et appliquer les Écritures qu'il a inspirées"
+        },
+        {
+          "id": "c",
+          "text": "L'Esprit n'intervient pas dans l'étude — seul l'intellect suffit"
+        },
+        {
+          "id": "d",
+          "text": "L'Esprit inspire seulement les pasteurs et théologiens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'illumination : le même Esprit qui a inspiré les Écritures éclaire le cœur du lecteur — « L'homme naturel ne reçoit pas les choses de l'Esprit de Dieu » (1 Corinthiens 2:14). Nécessité de la prière dans l'étude.",
+      "bibleReference": "1 Corinthiens 2:12-14",
+      "normalizedRef": "1co2.12-14",
+      "normalizedCat": "espiritu-santo"
+    }
+  },
+  {
+    "newId": "dq-esp-018",
+    "fr": {
+      "id": "dq-esp-018",
+      "questionText": "En quoi consiste la doctrine de la « procession » de l'Esprit Saint dans la théologie trinitaire ?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Saint-Esprit",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Esprit a été créé par le Père avant toute chose"
+        },
+        {
+          "id": "b",
+          "text": "L'Esprit procède éternellement du Père (et du Fils selon l'Occident — Filioque) sans commencement dans le temps"
+        },
+        {
+          "id": "c",
+          "text": "L'Esprit procède du Fils seulement selon tous les théologiens"
+        },
+        {
+          "id": "d",
+          "text": "La procession signifie que l'Esprit est inférieur au Père"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La procession de l'Esprit : relation éternelle intratrinitaire. Nicée-Constantinople 381 : « qui procède du Père ». L'Occident ajouta Filioque (et du Fils) — point de division entre Rome et Constantinople en 1054.",
+      "bibleReference": "Jean 15:26",
+      "normalizedRef": "joh15.26",
+      "normalizedCat": "espiritu-santo"
+    }
+  },
+  {
+    "newId": "dq-mis-006",
+    "fr": {
+      "id": "dq-mis-006",
+      "questionText": "Qu'est-ce que la « missio Dei » (mission de Dieu) dans la théologie missionnnaire contemporaine ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mission que nous donnons à Dieu dans nos prières"
+        },
+        {
+          "id": "b",
+          "text": "La mission appartient à Dieu lui-même — l'Église participe à l'action missionnaire de Dieu dans le monde"
+        },
+        {
+          "id": "c",
+          "text": "La mission n'appartient qu'aux missionnaires professionnels"
+        },
+        {
+          "id": "d",
+          "text": "Les programmes d'évangélisation organisés par l'Église"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Missio Dei (Hartenstein, 1952) : la mission n'est pas d'abord un programme de l'Église — elle appartient à la Trinité. L'Église est envoyée comme instrument de la mission divine (Jean 20:21).",
+      "bibleReference": "Jean 20:21",
+      "normalizedRef": "joh20.21",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "newId": "dq-mis-007",
+    "fr": {
+      "id": "dq-mis-007",
+      "questionText": "Selon Romains 10:13-15, qu'est-ce qui est nécessaire pour que les gens croient ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des miracles spectaculaires pour prouver le message"
+        },
+        {
+          "id": "b",
+          "text": "Des prédicateurs envoyés — la foi vient par l'ouïe et l'ouïe par la Parole de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "La distribution de Bibles sans explication"
+        },
+        {
+          "id": "d",
+          "text": "La grâce seule sans moyen humain"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Comment croiront-ils en celui dont ils n'ont pas entendu parler ?... Comment prêcheront-ils, s'ils ne sont envoyés ?... la foi vient de ce qu'on entend » (Romains 10:14-17).",
+      "bibleReference": "Romains 10:14-17",
+      "normalizedRef": "rom10.14-17",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "newId": "dq-mis-008",
+    "fr": {
+      "id": "dq-mis-008",
+      "questionText": "Quel personnage biblique est considéré comme le premier « missionnaire » cross-culturel à grande échelle ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Pierre"
+        },
+        {
+          "id": "c",
+          "text": "Paul"
+        },
+        {
+          "id": "d",
+          "text": "Barnabas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Paul est le premier à entreprendre une mission délibérée et systématique vers les gentils à travers différentes cultures grecques, lyciennes, macédoniennes et romaines — « apôtre des nations » (Romains 11:13).",
+      "bibleReference": "Romains 11:13",
+      "normalizedRef": "rom11.13",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "newId": "dq-mis-009",
+    "fr": {
+      "id": "dq-mis-009",
+      "questionText": "Que signifie le terme « peuples non atteints » (Unreached People Groups) en missiologie ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des individus qui n'ont jamais entendu l'Évangile personnellement"
+        },
+        {
+          "id": "b",
+          "text": "Des groupes ethnolinguistiques où il n'y a pas assez de croyants indigènes pour évangéliser leur propre groupe sans aide extérieure"
+        },
+        {
+          "id": "c",
+          "text": "Des nations entières sans Bibles"
+        },
+        {
+          "id": "d",
+          "text": "Des régions géographiques sans Église physique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Un peuple non atteint (UPG) = groupe ethno-linguistique où la proportion de chrétiens est inférieure à 2% et sans communauté évangélique viable capable d'autoévangélisation interne.",
+      "bibleReference": "Apocalypse 7:9",
+      "normalizedRef": "rev7.9",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "newId": "dq-mis-010",
+    "fr": {
+      "id": "dq-mis-010",
+      "questionText": "Comment Apocalypse 7:9 motive-t-il la mission mondiale ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il montre que seul Israël sera sauvé à la fin"
+        },
+        {
+          "id": "b",
+          "text": "Il révèle la vision finale : une foule innombrable de toute nation, tribu, peuple et langue — but ultime de la mission"
+        },
+        {
+          "id": "c",
+          "text": "Il prouve que la mission universelle est déjà accomplie"
+        },
+        {
+          "id": "d",
+          "text": "Il décrit la Jérusalem céleste comme but géographique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apocalypse 7:9 révèle le but de la mission : « une grande foule que personne ne pouvait compter, de toute nation, de toute tribu, de tout peuple, et de toute langue. » Motivation eschatologique de la mission.",
+      "bibleReference": "Apocalypse 7:9",
+      "normalizedRef": "rev7.9",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "newId": "dq-mis-011",
+    "fr": {
+      "id": "dq-mis-011",
+      "questionText": "Quelle contribution Gustavo Gutiérrez et la théologie de la libération ont-ils apportée au débat missiologique ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elles ont prouvé que le socialisme est la forme d'Évangile la plus fidèle"
+        },
+        {
+          "id": "b",
+          "text": "Elles ont mis en avant l'option préférentielle pour les pauvres et la dimension sociale de l'Évangile — même si controversées, elles ont forcé l'Église à reconsidérer la justice sociale"
+        },
+        {
+          "id": "c",
+          "text": "Elles ont rejeté l'AT comme non pertinent pour la mission"
+        },
+        {
+          "id": "d",
+          "text": "Elles ont affirmé que la mission se limite à l'évangélisation verbale"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gutiérrez (Théologie de la libération, 1971) : « option préférentielle pour les pauvres » — en tension avec la théologie évangélique, ce mouvement a forcé un débat productif sur la mission holistique (Lausanne 1974).",
+      "bibleReference": "Luc 4:18",
+      "normalizedRef": "luk4.18",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "newId": "dq-nt-016",
+    "fr": {
+      "id": "dq-nt-016",
+      "questionText": "Combien de livres contient le Nouveau Testament ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "27"
+        },
+        {
+          "id": "c",
+          "text": "29"
+        },
+        {
+          "id": "d",
+          "text": "39"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Nouveau Testament contient 27 livres : 4 Évangiles, les Actes, 21 Épîtres (Paulines et Générales) et l'Apocalypse.",
+      "bibleReference": "Le Nouveau Testament complet",
+      "normalizedRef": "lenouveautestamentcomplet",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "newId": "dq-nt-017",
+    "fr": {
+      "id": "dq-nt-017",
+      "questionText": "Quel est le verset le plus court du Nouveau Testament ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Philippiens 4:4"
+        },
+        {
+          "id": "b",
+          "text": "1 Thessaloniciens 5:17"
+        },
+        {
+          "id": "c",
+          "text": "Jean 11:35"
+        },
+        {
+          "id": "d",
+          "text": "Actes 2:1"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Jésus pleura » (Jean 11:35) — deux mots en français, deux en grec (ἐδάκρυσεν ὁ Ἰησοῦς) — verset le plus court du NT.",
+      "bibleReference": "Jean 11:35",
+      "normalizedRef": "joh11.35",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "newId": "dq-nt-018",
+    "fr": {
+      "id": "dq-nt-018",
+      "questionText": "Pourquoi l'Évangile de Jean est-il si différent des trois Évangiles synoptiques ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jean n'a pas connu Jésus personnellement"
+        },
+        {
+          "id": "b",
+          "text": "Jean présente la divinité de Christ avec une profondeur théologique unique — 90% de son contenu est absent des synoptiques"
+        },
+        {
+          "id": "c",
+          "text": "Jean s'adresse uniquement aux gentils"
+        },
+        {
+          "id": "d",
+          "text": "Jean a été écrit après l'Apocalypse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean ouvre avec le Logos (Jean 1:1), inclut les discours de l'upper room (Jean 13-17), les 7 signes, les 7 « Je suis ». Environ 90% de son contenu est unique — focalisé sur la divinité de Christ.",
+      "bibleReference": "Jean 20:30-31",
+      "normalizedRef": "joh20.30-31",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "newId": "dq-nt-019",
+    "fr": {
+      "id": "dq-nt-019",
+      "questionText": "Quelle est la structure littéraire de l'Apocalypse et comment doit-elle être interprétée ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un récit historique linéaire des événements futurs dans l'ordre chronologique exact"
+        },
+        {
+          "id": "b",
+          "text": "Un genre apocalyptique symbolique — vision prophétique communicant la victoire de Dieu sur le mal avec images typiques du genre (Israël, Rome, Babylone)"
+        },
+        {
+          "id": "c",
+          "text": "Un code secret réservé aux initiés"
+        },
+        {
+          "id": "d",
+          "text": "Un livre uniquement historique sur la Rome du 1er siècle sans portée future"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Apocalypse est du genre apocalyptique (daniel, Hénoch) — symbolisme riche, chiffres symboliques (7, 12, 1000), images de combats cosmiques. Quatre approches : prétérisme, idéalisme, historicisme, futurisme.",
+      "bibleReference": "Apocalypse 1:1",
+      "normalizedRef": "rev1.1",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "newId": "dq-cgen-016",
+    "fr": {
+      "id": "dq-cgen-016",
+      "questionText": "Quel test donne 1 Jean 4:2 pour reconnaître l'Esprit de Dieu ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parler en langues"
+        },
+        {
+          "id": "b",
+          "text": "Confesser que Jésus-Christ est venu en chair"
+        },
+        {
+          "id": "c",
+          "text": "Accomplir des miracles"
+        },
+        {
+          "id": "d",
+          "text": "Citer les Écritures avec précision"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Reconnaissez à ceci l'Esprit de Dieu : tout esprit qui confesse que Jésus-Christ est venu en chair est de Dieu » (1 Jean 4:2) — test doctrinal contre les esprits trompeurs.",
+      "bibleReference": "1 Jean 4:2",
+      "normalizedRef": "1jn4.2",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "newId": "dq-cgen-017",
+    "fr": {
+      "id": "dq-cgen-017",
+      "questionText": "Contre quel enseignement erroné Jean écrivait-il principalement dans 1 Jean ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le judaïsant qui insistait sur la Loi"
+        },
+        {
+          "id": "b",
+          "text": "Le gnosticisme naissant qui niait l'incarnation réelle de Christ"
+        },
+        {
+          "id": "c",
+          "text": "Le polythéisme grec menaçant les Églises d'Asie"
+        },
+        {
+          "id": "d",
+          "text": "Le légalisme pharisaïque dans les Églises"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Jean combat le proto-gnosticisme : des enseignants qui niaient que Christ soit vraiment venu en chair (docétisme) — prétendant que la matière est mauvaise et que Jésus n'avait qu'un corps apparent.",
+      "bibleReference": "1 Jean 4:2",
+      "normalizedRef": "1jn4.2",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "newId": "dq-cgen-018",
+    "fr": {
+      "id": "dq-cgen-018",
+      "questionText": "Quel est le but déclaré de la 1re lettre de Jean selon 1 Jean 5:13 ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enseigner la doctrine correcte sur la Trinité"
+        },
+        {
+          "id": "b",
+          "text": "Que les croyants sachent qu'ils ont la vie éternelle"
+        },
+        {
+          "id": "c",
+          "text": "Combattre les faux prophètes dans les Églises"
+        },
+        {
+          "id": "d",
+          "text": "Encourager la communauté à s'aimer mutuellement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Je vous ai écrit ces choses, afin que vous sachiez que vous avez la vie éternelle, vous qui croyez au nom du Fils de Dieu » (1 Jean 5:13) — but déclaré : l'assurance du salut.",
+      "bibleReference": "1 Jean 5:13",
+      "normalizedRef": "1jn5.13",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "newId": "dq-cgen-019",
+    "fr": {
+      "id": "dq-cgen-019",
+      "questionText": "Que dit 2 Jean 10-11 concernant les faux docteurs qui refusent la doctrine de Christ ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il faut les accueillir et les corriger gentiment"
+        },
+        {
+          "id": "b",
+          "text": "Ne pas les accueillir dans sa maison ni les saluer — participer à leurs mauvaises œuvres"
+        },
+        {
+          "id": "c",
+          "text": "Les confronter publiquement dans l'Église"
+        },
+        {
+          "id": "d",
+          "text": "Les signaler aux autorités ecclésiastiques"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean dit : « Si quelqu'un vient à vous et n'apporte pas cette doctrine, ne le recevez pas dans vos maisons et ne lui dites pas : Bonjour ! » (2 Jean 10) — séparation doctrinale forte.",
+      "bibleReference": "2 Jean 10-11",
+      "normalizedRef": "2jn10-11",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "newId": "dq-cgen-020",
+    "fr": {
+      "id": "dq-cgen-020",
+      "questionText": "Que dit 3 Jean sur Diotrèphe et quelle leçon en tire-t-on pour l'Église ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diotrèphe était un bon leader que Jean louait"
+        },
+        {
+          "id": "b",
+          "text": "Diotrèphe aimait occuper le premier rang — il rejetait l'autorité apostolique et excluait les croyants fidèles"
+        },
+        {
+          "id": "c",
+          "text": "Diotrèphe était un faux prophète opérant des miracles"
+        },
+        {
+          "id": "d",
+          "text": "Diotrèphe était un riche qui refusait d'aider les pauvres"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Diotrèphe (3 Jean 9-10) : contre-exemple de leadership — amour du prestige, rejet de l'autorité apostolique, exclusion des croyants. Modèle négatif contre l'autoritarisme pastoral.",
+      "bibleReference": "3 Jean 9-10",
+      "normalizedRef": "3jn9-10",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "newId": "dq-pent-016",
+    "fr": {
+      "id": "dq-pent-016",
+      "questionText": "Quelle est la division tripartite du canon hébreu (Tanakh) ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Loi (Torah), Prophètes (Nevi'im), Écrits (Ketuvim)"
+        },
+        {
+          "id": "b",
+          "text": "Livres historiques, poétiques et prophétiques"
+        },
+        {
+          "id": "c",
+          "text": "Pentateuque, Psaumes et Sages"
+        },
+        {
+          "id": "d",
+          "text": "Loi, Sagesse et Apocalypse"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Le Tanakh = Torah (Pentateuque) + Nevi'im (Prophètes : premiers et derniers) + Ketuvim (Écrits : Psaumes, Proverbes, Job, etc.) — 24 livres dans le système hébreu.",
+      "bibleReference": "Luc 24:44",
+      "normalizedRef": "luk24.44",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "newId": "dq-pent-017",
+    "fr": {
+      "id": "dq-pent-017",
+      "questionText": "Quelle est la signification de l'Alliance de Dieu avec Noé (Genèse 9) et son signe ?",
+      "categoryId": "pentateuco",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Alliance conditionnnelle : Noé devait observer les lois mosaïques"
+        },
+        {
+          "id": "b",
+          "text": "Alliance cosmique inconditionnelle : Dieu promet de ne plus détruire la terre par le déluge — signe : l'arc-en-ciel"
+        },
+        {
+          "id": "c",
+          "text": "Alliance uniquement avec Noé et sa famille directe"
+        },
+        {
+          "id": "d",
+          "text": "Promesse de bénir Noé financièrement s'il obéit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Alliance Noahique (Genèse 9:8-17) est cosmique et inconditionnelle — Dieu s'engage envers toute créature vivante. Signe : l'arc-en-ciel, mémorial permanent de la grâce divine.",
+      "bibleReference": "Genèse 9:8-17",
+      "normalizedRef": "gen9.8-17",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "newId": "dq-evnt-016",
+    "fr": {
+      "id": "dq-evnt-016",
+      "questionText": "Que préfigure typologiquement le serpent d'airain de Moïse (Nombres 21) ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La guérison médicale par les herbes naturelles"
+        },
+        {
+          "id": "b",
+          "text": "La croix de Christ — Jean 3:14 : « Comme Moïse éleva le serpent dans le désert, il faut de même que le Fils de l'homme soit élevé »"
+        },
+        {
+          "id": "c",
+          "text": "Le péché originel qui continue de morsurer l'humanité"
+        },
+        {
+          "id": "d",
+          "text": "Le culte idolâtrique d'Israël dans le désert"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le serpent d'airain élevé sur une perche (Nombres 21:8-9) est explicitement interprété par Jésus comme typique de son élévation sur la croix — regarder = croire pour être sauvé (Jean 3:14-15).",
+      "bibleReference": "Jean 3:14-15",
+      "normalizedRef": "joh3.14-15",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "newId": "dq-evnt-017",
+    "fr": {
+      "id": "dq-evnt-017",
+      "questionText": "Quelle est la signification de la fête de Pâque (Pessah) et son accomplissement en Christ ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Commémoration de la traversée du Jourdain"
+        },
+        {
+          "id": "b",
+          "text": "Mémorial de la libération d'Égypte — l'agneau pascal préfigure Christ, l'Agneau de Dieu qui ôte le péché du monde"
+        },
+        {
+          "id": "c",
+          "text": "Célébration annuelle de la Loi au Sinaï"
+        },
+        {
+          "id": "d",
+          "text": "Fête de la moisson des prémices"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pessah commémore l'Exode — le sang de l'agneau sur les portes (Exode 12) préfigure le sang de Christ. Paul : « Christ, notre Pâque, a été sacrifié » (1 Corinthiens 5:7). Jean : « l'Agneau de Dieu » (Jean 1:29).",
+      "bibleReference": "1 Corinthiens 5:7",
+      "normalizedRef": "1co5.7",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "newId": "dq-pmay-035",
+    "fr": {
+      "id": "dq-pmay-035",
+      "questionText": "Quelle est la distinction entre « prophétie directe » et « type prophétique » dans l'AT ?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Prophètes Majeurs",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La prophétie directe est vraie ; le type est une invention humaine"
+        },
+        {
+          "id": "b",
+          "text": "La prophétie directe prédit explicitement des événements futurs ; le type est une personne, institution ou événement qui préfigure divinement une réalité future accomplie en Christ"
+        },
+        {
+          "id": "c",
+          "text": "Il n'y a pas de types dans l'AT — uniquement des prophéties verbales"
+        },
+        {
+          "id": "d",
+          "text": "Le type s'accomplit toujours dans l'AT lui-même"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Prophétie directe : Ésaïe 53 prédit explicitement le Serviteur souffrant. Type : Adam est un type du Christ (Romains 5:14), le tabernacle préfigure le ministère de Christ (Hébreux 8-10). Les deux sont de l'herméneutique typologique biblique.",
+      "bibleReference": "Romains 5:14",
+      "normalizedRef": "rom5.14",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "newId": "dq-gen-022",
+    "fr": {
+      "id": "dq-gen-022",
+      "questionText": "Quelle est la signification du nom hébreu « Yahweh » (YHWH) et comment est-il révélé à Moïse ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Le Tout-Puissant » — révélé dans la Création"
+        },
+        {
+          "id": "b",
+          "text": "« Je suis celui qui suis » (Ehyeh asher ehyeh) — révélé au buisson ardent, expression de l'être divin absolu et de la fidélité"
+        },
+        {
+          "id": "c",
+          "text": "« Dieu de l'Alliance » — révélé à Abraham"
+        },
+        {
+          "id": "d",
+          "text": "« Seigneur des armées » — révélé dans les batailles d'Israël"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 3:14 : « Je suis celui qui suis » (YHWH dérivé du verbe être hébreu) — Dieu se révèle comme l'Être absolu, auto-existent et fidèle à ses promesses. Jean 8:58 : Jésus s'approprie ce nom.",
+      "bibleReference": "Exode 3:14",
+      "normalizedRef": "exo3.14",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-tema-016",
+    "fr": {
+      "id": "dq-tema-016",
+      "questionText": "Quel est l'Hébraïsme derrière le mot « shalom » et pourquoi dépasse-t-il la simple paix ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Shalom signifie uniquement l'absence de conflit armé"
+        },
+        {
+          "id": "b",
+          "text": "Shalom = intégrité/complétude dans toutes les dimensions de la vie (relationnelle, physique, sociale, spirituelle) — la paix comme état de plénitude divine"
+        },
+        {
+          "id": "c",
+          "text": "Shalom est une formule de salutation sans sens profond"
+        },
+        {
+          "id": "d",
+          "text": "Shalom désigne uniquement la réconciliation entre Dieu et l'homme"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Shalom (שָׁלוֹם) : plus qu'absence de guerre — intégralité, bien-être, complétude dans toutes les dimensions. Projet divin de restauration totale (Nombres 6:24-26). Jésus est notre Shalom (Éphésiens 2:14).",
+      "bibleReference": "Éphésiens 2:14",
+      "normalizedRef": "eph2.14",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "newId": "dq-doc-038",
+    "fr": {
+      "id": "dq-doc-038",
+      "questionText": "Quelle est la doctrine de la « persévérance des saints » (ou « sécurité éternelle ») ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tout croyant qui a prié la prière du pécheur est automatiquement sauvé pour toujours"
+        },
+        {
+          "id": "b",
+          "text": "Ceux que Dieu a vraiment régénérés persévèreront jusqu'à la fin — la sécurité est garantie par la grâce divine, non la performance humaine"
+        },
+        {
+          "id": "c",
+          "text": "Le croyant peut perdre et regagner son salut selon ses œuvres"
+        },
+        {
+          "id": "d",
+          "text": "Seuls les martyrs sont garantis du salut éternel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La persévérance des saints (Confession de Westminster) : les élus vrais persévèrent dans la foi non par force personnelle mais par la grâce préservante de Dieu (Jean 10:28-29; Philippiens 1:6).",
+      "bibleReference": "Jean 10:28-29",
+      "normalizedRef": "joh10.28-29",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-039",
+    "fr": {
+      "id": "dq-doc-039",
+      "questionText": "Qu'est-ce que la doctrine de la « préexistence de Christ » et comment est-elle fondée dans le NT ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus a existé spirituellement avant sa naissance physique mais a été créé"
+        },
+        {
+          "id": "b",
+          "text": "Le Fils existe éternellement avant l'incarnation — Jean 1:1, 8:58, Philippiens 2:6-7, Colossiens 1:17"
+        },
+        {
+          "id": "c",
+          "text": "La préexistence est une doctrine uniquement catholique"
+        },
+        {
+          "id": "d",
+          "text": "Jésus a existé comme ange avant de devenir homme"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Préexistence éternelle du Fils : « Au commencement était la Parole » (Jean 1:1), « Avant qu'Abraham fût, Je suis » (Jean 8:58), « Il est avant toutes choses » (Colossiens 1:17) — non pas créé mais éternellement Dieu.",
+      "bibleReference": "Jean 8:58",
+      "normalizedRef": "joh8.58",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-040",
+    "fr": {
+      "id": "dq-doc-040",
+      "questionText": "Qu'affirme la doctrine de l'« Impassibilité divine » et est-elle bibliquement défendable ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu ne ressent aucune émotion — doctrine sans débat"
+        },
+        {
+          "id": "b",
+          "text": "Dieu ne souffre pas comme les créatures (impassibilité) mais les Écritures attribuent à Dieu colère, amour et tristesse — tension productive pour la théologie"
+        },
+        {
+          "id": "c",
+          "text": "Dieu souffre identiquement aux humains dans toutes ses passions"
+        },
+        {
+          "id": "d",
+          "text": "L'impassibilité divine prouve que Dieu est indifférent à la souffrance humaine"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'impassibilité classique (Augustin, Aquinas) : Dieu ne subit pas des passions comme les créatures. Mais l'Écriture parle de « l'amour de Dieu », « la colère de Dieu », « il s'est repenti » — tension entre transcendance et proximité divine.",
+      "bibleReference": "Genèse 6:6",
+      "normalizedRef": "gen6.6",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-041",
+    "fr": {
+      "id": "dq-doc-041",
+      "questionText": "Quelle est la signification de l'Ascension de Christ (Actes 1:9-11) dans la théologie chrétienne ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus a quitté la terre pour ne plus interagir avec elle"
+        },
+        {
+          "id": "b",
+          "text": "L'Ascension est l'intronisation royale du Ressuscité à la droite du Père — il règne, intercède et enverra l'Esprit"
+        },
+        {
+          "id": "c",
+          "text": "Jésus est retourné à son état pré-incarné purement spirituel"
+        },
+        {
+          "id": "d",
+          "text": "L'Ascension prouve que la résurrection était spirituelle et non physique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Ascension : Christ monté à la droite du Père (Éphésiens 1:20-21), intronisé comme Seigneur (Philippiens 2:9-11), grand Souverain Sacrificateur intercédant (Hébreux 7:25), envoie l'Esprit (Jean 16:7).",
+      "bibleReference": "Éphésiens 1:20-21",
+      "normalizedRef": "eph1.20-21",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-042",
+    "fr": {
+      "id": "dq-doc-042",
+      "questionText": "Que dit la théologie du Pacte (théologie fédérale) sur la structure de l'histoire du salut ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chaque époque biblique est totalement différente — pas de continuité"
+        },
+        {
+          "id": "b",
+          "text": "L'histoire est structurée par des alliances divines (Création, Grâce) qui s'accomplissent progressivement en Christ"
+        },
+        {
+          "id": "c",
+          "text": "Les alliances de l'AT sont purement ethniques et n'ont pas de portée pour les chrétiens"
+        },
+        {
+          "id": "d",
+          "text": "La théologie fédérale nie la nécessité de l'expiation de Christ"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La théologie fédérale (Cocceius, Westminster) : deux pactes fondamentaux — le Pacte des Œuvres (Adam) et le Pacte de Grâce (Christ second Adam). Toutes les alliances s'unifient dans le Pacte de Grâce accompli en Christ.",
+      "bibleReference": "Romains 5:12-19",
+      "normalizedRef": "rom5.12-19",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-043",
+    "fr": {
+      "id": "dq-doc-043",
+      "questionText": "Qu'est-ce que la doctrine de la « résurrection corporelle » et pourquoi est-elle essentielle à l'Évangile ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les croyants ressusciteront en corps purement spirituels sans chair"
+        },
+        {
+          "id": "b",
+          "text": "Les croyants ressusciteront en corps glorieux physiques — continuité transformée avec le corps actuel, comme Christ ressuscité avec les cicatrices glorifiées"
+        },
+        {
+          "id": "c",
+          "text": "La résurrection est une métaphore pour la vie spirituelle actuelle"
+        },
+        {
+          "id": "d",
+          "text": "Seule l'âme survit après la mort"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 15 : résurrection corporelle réelle — « corps spirituel » (v.44) non = immatériel mais glorifié. Christ ressuscité a mangé, a été touché, avait des cicatrices (Luc 24:39-43) — modèle de notre résurrection.",
+      "bibleReference": "1 Corinthiens 15:42-44",
+      "normalizedRef": "1co15.42-44",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-044",
+    "fr": {
+      "id": "dq-doc-044",
+      "questionText": "Que signifie le concept hébraïque de « berith » (alliance) par rapport au contrat moderne ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un contrat bilatéral où les deux parties ont des obligations égales"
+        },
+        {
+          "id": "b",
+          "text": "Un lien personnel solennel établi par serment et parfois sang — plus profond qu'un contrat : il engage des personnes dans une relation de loyauté"
+        },
+        {
+          "id": "c",
+          "text": "Un accord commercial entre deux peuples"
+        },
+        {
+          "id": "d",
+          "text": "Une promesse conditionnelle que Dieu peut retirer"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Berith (בְּרִית) : alliance — non un contrat d'affaires mais un engagement personnel solennel, parfois scellé par le sang (Genèse 15, l'alliance de Dieu avec Abraham). Crée une relation de loyauté (hesed) permanente.",
+      "bibleReference": "Genèse 15:17-18",
+      "normalizedRef": "gen15.17-18",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-doc-045",
+    "fr": {
+      "id": "dq-doc-045",
+      "questionText": "Quelle est la doctrine de l'« union avec Christ » (unio mystica) et ses dimensions ?",
+      "categoryId": "doctrina",
+      "categoryName": "Doctrine",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une fusion panthéiste où le croyant devient Dieu"
+        },
+        {
+          "id": "b",
+          "text": "La relation vitale entre le croyant et Christ : représentative (en Adam/en Christ), spirituelle (habitée par l'Esprit), réelle mais non mélange d'essences"
+        },
+        {
+          "id": "c",
+          "text": "Une union uniquement sacramentelle visible dans la Cène"
+        },
+        {
+          "id": "d",
+          "text": "Une expérience mystique réservée aux contemplatifs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Union avec Christ : représentative (Romains 5 — tous les croyants « en Christ »), vitale (Jean 15:1-8 — le Cep et les sarments), pneumatique (1 Corinthiens 6:17 — « uni au Seigneur est un seul esprit »). Non pas panthéisme.",
+      "bibleReference": "Galates 2:20",
+      "normalizedRef": "gal2.20",
+      "normalizedCat": "doctrina"
+    }
+  },
+  {
+    "newId": "dq-pmen-033",
+    "fr": {
+      "id": "dq-pmen-033",
+      "questionText": "Dans quelle ville Jonas fut-il envoyé prêcher ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babylone"
+        },
+        {
+          "id": "b",
+          "text": "Sodome"
+        },
+        {
+          "id": "c",
+          "text": "Ninive"
+        },
+        {
+          "id": "d",
+          "text": "Tyr"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu envoya Jonas prêcher à Ninive, grande capitale de l'Assyrie (Jonas 1:2).",
+      "bibleReference": "Jonas 1:2",
+      "normalizedRef": "jon1.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "newId": "dq-pmen-034",
+    "fr": {
+      "id": "dq-pmen-034",
+      "questionText": "Quel était le métier d'Amos avant d'être prophète ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pêcheur"
+        },
+        {
+          "id": "b",
+          "text": "Charpentier"
+        },
+        {
+          "id": "c",
+          "text": "Berger et cultivateur de sycomores"
+        },
+        {
+          "id": "d",
+          "text": "Prêtre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Amos déclare : « J'étais berger et cultivateur de sycomores » (Amos 7:14).",
+      "bibleReference": "Amos 7:14",
+      "normalizedRef": "amo7.14",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "newId": "dq-pmen-035",
+    "fr": {
+      "id": "dq-pmen-035",
+      "questionText": "Quel est le dernier livre de l'Ancien Testament ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zacharie"
+        },
+        {
+          "id": "b",
+          "text": "Joël"
+        },
+        {
+          "id": "c",
+          "text": "Malachie"
+        },
+        {
+          "id": "d",
+          "text": "Abdias"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Malachie est le dernier des douze petits prophètes et le dernier livre de l'AT canonique.",
+      "bibleReference": "Malachie 1:1",
+      "normalizedRef": "mal1.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "newId": "dq-pmen-036",
+    "fr": {
+      "id": "dq-pmen-036",
+      "questionText": "Dans quel livre trouve-t-on la prophétie « De toi, Bethléhem... sortira celui qui dominera sur Israël » ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos 5"
+        },
+        {
+          "id": "b",
+          "text": "Michée 5"
+        },
+        {
+          "id": "c",
+          "text": "Zacharie 9"
+        },
+        {
+          "id": "d",
+          "text": "Malachie 3"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Michée 5:1 prophétise la naissance du Messie à Bethléhem, cité de David.",
+      "bibleReference": "Michée 5:1",
+      "normalizedRef": "mic5.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "newId": "dq-pmen-037",
+    "fr": {
+      "id": "dq-pmen-037",
+      "questionText": "Quelle ville Nahoum prophétise-t-il comme devant être détruite ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babylone"
+        },
+        {
+          "id": "b",
+          "text": "Samarie"
+        },
+        {
+          "id": "c",
+          "text": "Ninive"
+        },
+        {
+          "id": "d",
+          "text": "Damas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nahoum annonce la ruine totale de Ninive, la capitale assyrienne (Nahoum 1:1).",
+      "bibleReference": "Nahoum 1:1",
+      "normalizedRef": "nahoum1.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "newId": "dq-pmen-038",
+    "fr": {
+      "id": "dq-pmen-038",
+      "questionText": "Quel prophète envoya un message de reconstruction du Temple après le retour de Babylone ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sophonie"
+        },
+        {
+          "id": "b",
+          "text": "Abdias"
+        },
+        {
+          "id": "c",
+          "text": "Aggée"
+        },
+        {
+          "id": "d",
+          "text": "Joël"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Aggée exhorta Zorobabel et le peuple à reprendre la construction du Temple (Aggée 1:2-8).",
+      "bibleReference": "Aggée 1:8",
+      "normalizedRef": "hag1.8",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "newId": "dq-pmen-039",
+    "fr": {
+      "id": "dq-pmen-039",
+      "questionText": "Combien de visions nocturnes Zacharie reçut-il dans les premiers chapitres de son livre ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Zacharie reçut 8 visions nocturnes (Zacharie 1-6) concernant Jérusalem et son avenir messianique.",
+      "bibleReference": "Zacharie 1:7",
+      "normalizedRef": "zec1.7",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "newId": "dq-pmen-040",
+    "fr": {
+      "id": "dq-pmen-040",
+      "questionText": "Contre quelle nation le livre d'Abdias prononce-t-il un jugement total ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moab"
+        },
+        {
+          "id": "b",
+          "text": "Édom"
+        },
+        {
+          "id": "c",
+          "text": "Ammon"
+        },
+        {
+          "id": "d",
+          "text": "Philistie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Abdias condamne Édom (descendants d'Ésaü) pour son arrogance et sa trahison d'Israël (Abdias 1:3).",
+      "bibleReference": "Abdias 1:3",
+      "normalizedRef": "oba1.3",
+      "normalizedCat": "profetas-menores"
+    }
+  }
+]

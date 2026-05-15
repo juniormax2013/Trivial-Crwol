@@ -1,0 +1,1066 @@
+[
+  {
+    "newId": "dq-atg-010",
+    "ht": {
+      "id": "dq-atg-010",
+      "questionText": "Ki mesaj santral Liv Ozè a?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Jijman pou lènmi Izrayèl yo" },
+        { "id": "b", "text": "Amou fidèl Bondye (hesed) pou Izrayèl enkonstans — li toujou rele pèp li a tounen" },
+        { "id": "c", "text": "Prensip lwa pou sosyete jis" },
+        { "id": "d", "text": "Pwofesi sou vansman Babilon" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ozè 11:8-9 — \"Kijan mwen ka abandone ou, O Efrayim?... Kè mwen vire sou mwen... mwen pa pral egzekite chalè koulè mwen.\" Amou Bondye depase enfidelite pèp la.",
+      "bibleReference": "Ozè 11:8-9"
+    },
+    "fr": {
+      "id": "dq-atg-010",
+      "questionText": "Quel est le message central du livre d'Osée ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Le jugement des ennemis d'Israël" },
+        { "id": "b", "text": "L'amour fidèle de Dieu (hesed) pour un Israël inconstant — il rappelle toujours son peuple" },
+        { "id": "c", "text": "Des principes de loi pour une société juste" },
+        { "id": "d", "text": "Des prophéties sur l'avancement de Babylone" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Osée 11:8-9 — « Que ferai-je de toi, Éphraïm ?... Mon cœur s'agite au-dedans de moi... Je n'exécuterai point l'ardeur de ma colère. » L'amour de Dieu l'emporte sur l'infidélité de son peuple.",
+      "bibleReference": "Osée 11:8-9"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-011",
+    "ht": {
+      "id": "dq-atg-011",
+      "questionText": "Ki pwofesi Michée 5:2 bay?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Jerizalèm pral fin detwi" },
+        { "id": "b", "text": "Soti nan Betleyèm pral soti yon chèf ki pral gouvène Izrayèl — orijin li depi tan lontan" },
+        { "id": "c", "text": "Izrayèl pral tounen nan tè pwomèt la" },
+        { "id": "d", "text": "Yon nouvo prêt pral parèt" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Michée 5:2 — \"Ou, Betleyèm Efratha... soti nan ou pral soti yon moun ki pral gouvène Izrayèl pou mwen.\" Akompli nan nesans Jezi (Matye 2:1-6).",
+      "bibleReference": "Michée 5:2"
+    },
+    "fr": {
+      "id": "dq-atg-011",
+      "questionText": "Quelle prophétie contient Michée 5:2 ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Jérusalem sera totalement détruite" },
+        { "id": "b", "text": "De Bethléem sortira un chef qui dominera sur Israël — ses origines remontent aux temps anciens" },
+        { "id": "c", "text": "Israël retournera en terre promise" },
+        { "id": "d", "text": "Un nouveau sacrificateur apparaîtra" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Michée 5:2 — « Et toi, Bethléhem Éphrata... de toi sortira pour moi celui qui doit dominer sur Israël. » Accompli lors de la naissance de Jésus (Matthieu 2:1-6).",
+      "bibleReference": "Michée 5:2"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-012",
+    "ht": {
+      "id": "dq-atg-012",
+      "questionText": "Ki sa \"Sòm 23\" anseye sou karaktè Bondye?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Bondye jij sevè" },
+        { "id": "b", "text": "Bondye kòm Bèjè ki pran swen ak gide, pourvoi, pwoteje ak konpaye" },
+        { "id": "c", "text": "Bondye ki lwen moun ki soufri" },
+        { "id": "d", "text": "Bondye ki bay richès sèlman a bon moun" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 23 — David: \"Seyè se bèjè mwen... li fè mwen repoze nan patiraj vèt... mwen pa bezwen anyen.\" Portway Bondye kòm Bèjè ki pran swen tout bezwen mouton li yo.",
+      "bibleReference": "Sòm 23:1"
+    },
+    "fr": {
+      "id": "dq-atg-012",
+      "questionText": "Qu'enseigne le « Psaume 23 » sur le caractère de Dieu ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Dieu est un juge sévère" },
+        { "id": "b", "text": "Dieu comme le Berger qui prend soin, guide, pourvoit, protège et accompagne" },
+        { "id": "c", "text": "Dieu est éloigné de ceux qui souffrent" },
+        { "id": "d", "text": "Dieu ne donne de la richesse qu'aux gens de bien" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Psaume 23 — David : « L'Éternel est mon berger : je ne manquerai de rien... Il me fait reposer dans de verts pâturages. » Illustration de Dieu comme le Berger qui prend soin de tous les besoins de ses brebis.",
+      "bibleReference": "Psaume 23:1"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-013",
+    "ht": {
+      "id": "dq-atg-013",
+      "questionText": "Ki konba espirityèl Elijàh te konbat sou Mòn Karmèl?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Kont lame Asiri" },
+        { "id": "b", "text": "450 pwofèt Baal ak 400 pwofèt Ashera — dife Bondye kont silans Baal" },
+        { "id": "c", "text": "Kont Farawon Ejip" },
+        { "id": "d", "text": "Kont wa Achab sèlman" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Wa 18:19-40 — Eli kont 850 fo pwofèt. Bondye reponn pa dife soti syèl. Pèp la tonbe sou figi yo: \"Seyè a se Bondye!\"",
+      "bibleReference": "1 Wa 18:38-39"
+    },
+    "fr": {
+      "id": "dq-atg-013",
+      "questionText": "Quel combat spirituel Élie a-t-il mené sur le mont Carmel ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Contre l'armée assyrienne" },
+        { "id": "b", "text": "450 prophètes de Baal et 400 prophètes d'Astarté — le feu de Dieu contre le silence de Baal" },
+        { "id": "c", "text": "Contre le Pharaon d'Égypte" },
+        { "id": "d", "text": "Uniquement contre le roi Achab" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Rois 18:19-40 — Élie contre 850 faux prophètes. Dieu répond par le feu descendu du ciel. Le peuple tombe sur sa face : « C'est l'Éternel qui est Dieu ! »",
+      "bibleReference": "1 Rois 18:38-39"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-014",
+    "ht": {
+      "id": "dq-atg-014",
+      "questionText": "Ki mesaj Amos pote bay Izrayèl pandan pwosperite?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Jijman pral vini akòz enjistis sosyal ak abandonman pòv yo" },
+        { "id": "b", "text": "Izrayèl pral toujou prospere" },
+        { "id": "c", "text": "Tanp la pral détrui" },
+        { "id": "d", "text": "Wa pral tounen jis" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Amos 5:21-24 — Bondye rayi fèt relijye yo paske yo oprime pòv yo. \"Kite jistis koule tankou dlo.\" Amos = pwofèt jistis sosyal.",
+      "bibleReference": "Amos 5:24"
+    },
+    "fr": {
+      "id": "dq-atg-014",
+      "questionText": "Quel message Amos a-t-il apporté à Israël pendant sa période de prospérité ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Le jugement viendra à cause de l'injustice sociale et de l'abandon des pauvres" },
+        { "id": "b", "text": "Israël prospérera toujours" },
+        { "id": "c", "text": "Le temple sera détruit" },
+        { "id": "d", "text": "Le roi deviendra juste" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Amos 5:21-24 — Dieu déteste les fêtes religieuses alors que les pauvres sont opprimés. « Mais que la droiture soit comme un courant d'eau. » Amos est le prophète de la justice sociale.",
+      "bibleReference": "Amos 5:24"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-015",
+    "ht": {
+      "id": "dq-atg-015",
+      "questionText": "Ki sa egzil Babilon vle di pou teoloji Izrayèl?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Bondye te abandone pèp li a pou toujou" },
+        { "id": "b", "text": "Konsekans enfidelite pèp la men Bondye pwomèt restorasyion — pwofèt yo anseye pandan egzil" },
+        { "id": "c", "text": "Pèp la te pini pou erè paran yo sèlman" },
+        { "id": "d", "text": "Siy ke Bondye te pi fèb pase Marduk" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jeremi, Ezekyèl, Daniel ekri pandan/aprè egzil. Egzil = disiplin, pa abandòn. Jeremi 29:11 — \"Mwen konnen plan mwen gen pou ou... espwa ak yon avni.\"",
+      "bibleReference": "Jeremi 29:11"
+    },
+    "fr": {
+      "id": "dq-atg-015",
+      "questionText": "Que signifie l'exil à Babylone pour la théologie d'Israël ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Dieu avait abandonné son peuple pour toujours" },
+        { "id": "b", "text": "Une conséquence de l'infidélité du peuple, mais Dieu promet la restauration — les prophètes enseignent pendant l'exil" },
+        { "id": "c", "text": "Le peuple était puni uniquement pour les erreurs des parents" },
+        { "id": "d", "text": "Un signe que Dieu était plus faible que Mardouk" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jérémie, Ézéchiel et Daniel écrivent pendant ou après l'exil. L'exil est une discipline, pas un abandon. Jérémie 29:11 — « Car je connais les projets que j'ai formés sur vous... projets de paix et non de malheur. »",
+      "bibleReference": "Jérémie 29:11"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-tab-002",
+    "ht": {
+      "id": "dq-tab-002",
+      "questionText": "Ki non kote Bondye te mande Moyiz bati nan dezè a pou li te ka rete nan mitan pèp la?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Tanp Salomon" },
+        { "id": "b", "text": "Tabènak" },
+        { "id": "c", "text": "Sinagòg" },
+        { "id": "d", "text": "Legliz" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 25:8 — \"Y’a bati yon kote ki apa pou mwen, konsa m’a ka rete nan mitan yo.\"",
+      "bibleReference": "Egzòd 25:8"
+    },
+    "fr": {
+      "id": "dq-tab-002",
+      "questionText": "Quel est le nom du lieu que Dieu a demandé à Moïse de construire dans le désert pour qu'il puisse habiter au milieu de son peuple ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Le Temple de Salomon" },
+        { "id": "b", "text": "Le Tabernacle" },
+        { "id": "c", "text": "La Synagogue" },
+        { "id": "d", "text": "L'Église" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 25:8 — « Ils me feront un sanctuaire, et j'habiterai au milieu d'eux. »",
+      "bibleReference": "Exode 25:8"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-tab-003",
+    "ht": {
+      "id": "dq-tab-003",
+      "questionText": "Ki moun ki te gen dwa antre nan Kote ki pi Sen an?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Tout moun Izrayèl" },
+        { "id": "b", "text": "Moyiz sèlman" },
+        { "id": "c", "text": "Granprèt la sèlman" },
+        { "id": "d", "text": "Tout Levit yo" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ebre 9:7 — \"Men, se sèl granprèt la ki te konn antre nan dezyèm pati a, yon sèl fwa chak ane.\"",
+      "bibleReference": "Ebre 9:7"
+    },
+    "fr": {
+      "id": "dq-tab-003",
+      "questionText": "Qui avait le droit d'entrer dans le Lieu Très Saint ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Tout le peuple d'Israël" },
+        { "id": "b", "text": "Moïse uniquement" },
+        { "id": "c", "text": "Le souverain sacrificateur uniquement" },
+        { "id": "d", "text": "Tous les Lévites" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Hébreux 9:7 — « Mais dans la seconde, le souverain sacrificateur seul entre une fois par an. »",
+      "bibleReference": "Hébreux 9:7"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-tab-004",
+    "ht": {
+      "id": "dq-tab-004",
+      "questionText": "Konbyen fwa chak ane granprèt la te antre nan Kote ki pi Sen an?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Chak jou" },
+        { "id": "b", "text": "Chak jou repo" },
+        { "id": "c", "text": "Yon fwa pa ane" },
+        { "id": "d", "text": "Sèt fwa pa ane" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Levitik 16:34 — Sa a te fèt yon fwa pa ane nan Jou Ekspyasyon an (Yom Kippur).",
+      "bibleReference": "Levitik 16:34"
+    },
+    "fr": {
+      "id": "dq-tab-004",
+      "questionText": "Combien de fois par an le souverain sacrificateur entrait-il dans le Lieu Très Saint ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Chaque jour" },
+        { "id": "b", "text": "Chaque jour de sabbat" },
+        { "id": "c", "text": "Une fois par an" },
+        { "id": "d", "text": "Sept fois par an" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lévitique 16:34 — Cela se faisait une fois par an lors du Jour de l'Expiation (Yom Kippour).",
+      "bibleReference": "Lévitique 16:34"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-tab-005",
+    "ht": {
+      "id": "dq-tab-005",
+      "questionText": "Ki objè ki te devan rido Kote ki pi Sen an e kote yo te boule lansan?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Lotèl an kwiv la" },
+        { "id": "b", "text": "Chandelye lò a" },
+        { "id": "c", "text": "Lotèl lansan an" },
+        { "id": "d", "text": "Tab pen yo" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Egzòd 30:6 — \"W’a mete lotèl la devan vwal ki pandye devan Bwat Kontra a.\"",
+      "bibleReference": "Egzòd 30:1-6"
+    },
+    "fr": {
+      "id": "dq-tab-005",
+      "questionText": "Quel objet se trouvait devant le voile du Lieu Très Saint et servait à brûler l'encens ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "L'autel d'airain" },
+        { "id": "b", "text": "Le chandelier d'or" },
+        { "id": "c", "text": "L'autel des parfums (encens)" },
+        { "id": "d", "text": "La table des pains" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Exode 30:6 — « Tu placeras l'autel en face du voile qui est devant l'arche du témoignage. »",
+      "bibleReference": "Exode 30:1-6"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-tab-006",
+    "ht": {
+      "id": "dq-tab-006",
+      "questionText": "Konbyen branch chandelye lò nan Tabènak la te genyen?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "3" },
+        { "id": "b", "text": "7" },
+        { "id": "c", "text": "10" },
+        { "id": "d", "text": "12" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 25:31-37 — Chandelye a (Menorah) te gen sèt branch lò.",
+      "bibleReference": "Egzòd 25:37"
+    },
+    "fr": {
+      "id": "dq-tab-006",
+      "questionText": "Combien de branches le chandelier d'or du Tabernacle avait-il ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "3" },
+        { "id": "b", "text": "7" },
+        { "id": "c", "text": "10" },
+        { "id": "d", "text": "12" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 25:31-37 — Le chandelier (Ménorah) avait sept branches d'or.",
+      "bibleReference": "Exode 25:37"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-tab-007",
+    "ht": {
+      "id": "dq-tab-007",
+      "questionText": "Ki materyèl ki te kouvri Bwat Kontra a nèt?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Lajan" },
+        { "id": "b", "text": "An kwiv" },
+        { "id": "c", "text": "An lò" },
+        { "id": "d", "text": "Bwa" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Egzòd 25:11 — \"W’a kouvri l nèt ak bon lò, andedan kou deyò.\"",
+      "bibleReference": "Egzòd 25:11"
+    },
+    "fr": {
+      "id": "dq-tab-007",
+      "questionText": "De quel matériau l'Arche de l'Alliance était-elle entièrement recouverte ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "D'argent" },
+        { "id": "b", "text": "D'airain (bronze)" },
+        { "id": "c", "text": "D'or" },
+        { "id": "d", "text": "De bois" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Exode 25:11 — « Tu la couvriras d'or pur, tu la couvriras en dedans et en dehors. »",
+      "bibleReference": "Exode 25:11"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-tab-008",
+    "ht": {
+      "id": "dq-tab-008",
+      "questionText": "Nan ki branch fanmi moun ki te sèvi nan Tabènak la te soti?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Jida" },
+        { "id": "b", "text": "Levit" },
+        { "id": "c", "text": "Benjamen" },
+        { "id": "d", "text": "Efrayim" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Resansman 3:5-8 — Bondye te chwazi branch fanmi Levi pou yo te ka fè sèvis nan Tabènak la.",
+      "bibleReference": "Resansman 3:5-8"
+    },
+    "fr": {
+      "id": "dq-tab-008",
+      "questionText": "De quelle tribu provenaient ceux qui servaient dans le Tabernacle ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Juda" },
+        { "id": "b", "text": "Lévi" },
+        { "id": "c", "text": "Benjamin" },
+        { "id": "d", "text": "Éphraïm" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nombres 3:5-8 — Dieu a choisi la tribu de Lévi pour assurer le service du Tabernacle.",
+      "bibleReference": "Nombres 3:5-8"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-tab-009",
+    "ht": {
+      "id": "dq-tab-009",
+      "questionText": "Ki sa \"Urim ak Thummim\" yo te ye e ki kote yo te ye?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Zouti pou bati" },
+        { "id": "b", "text": "Objè sakre granprèt la te mete nan jile li pou chèche volonte Bondye" },
+        { "id": "c", "text": "Pati nan lotèl la" },
+        { "id": "d", "text": "Kalite bwa" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 28:30 — \"W’a mete Urim ak Thummim nan plastwon granprèt la.\"",
+      "bibleReference": "Egzòd 28:30"
+    },
+    "fr": {
+      "id": "dq-tab-009",
+      "questionText": "Que sont l'« Urim et le Thummim » et où se trouvaient-ils ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Des outils de construction" },
+        { "id": "b", "text": "Des objets sacrés placés dans le pectoral du souverain sacrificateur pour consulter la volonté de Dieu" },
+        { "id": "c", "text": "Des parties de l'autel" },
+        { "id": "d", "text": "Des types de bois" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 28:30 — « Tu joindras au pectoral du jugement l'urim et le thummim. »",
+      "bibleReference": "Exode 28:30"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-tab-010",
+    "ht": {
+      "id": "dq-tab-010",
+      "questionText": "Ki koulè rido ki te separe Kote ki Sen an ak Kote ki pi Sen an?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabènak",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Blan sèlman" },
+        { "id": "b", "text": "Ble, wouj violèt, wouj fonse ak blan fen" },
+        { "id": "c", "text": "Vè ak lò" },
+        { "id": "d", "text": "Nwa ak gri" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 26:31 — \"W’a fè yon rido ak twal ble, wouj violèt, wouj fonse ak blan fen tise byen sere.\"",
+      "bibleReference": "Egzòd 26:31"
+    },
+    "fr": {
+      "id": "dq-tab-010",
+      "questionText": "De quelles couleurs était le voile séparant le Lieu Saint du Lieu Très Saint ?",
+      "categoryId": "tabernakulo",
+      "categoryName": "Tabernacle",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Blanc uniquement" },
+        { "id": "b", "text": "Bleu, pourpre, cramoisi et fin lin retors (blanc)" },
+        { "id": "c", "text": "Vert et or" },
+        { "id": "d", "text": "Noir et gris" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 26:31 — « Tu feras un voile de bleu, de pourpre, de cramoisi et de fin lin retors. »",
+      "bibleReference": "Exode 26:31"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-lid-002",
+    "ht": {
+      "id": "dq-lid-002",
+      "questionText": "Ki moun Bondye te chwazi pou mennen pèp Izrayèl la soti nan esklavaj nan peyi Ejip?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Abraram" },
+        { "id": "b", "text": "Moyiz" },
+        { "id": "c", "text": "Jozye" },
+        { "id": "d", "text": "David" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 3:10 — Bondye di Moyiz: \"Koulye a, ale! M’ap voye ou bò kot farawon an pou ou fè pèp mwen an, pitit Izrayèl yo, soti nan peyi Ejip.\"",
+      "bibleReference": "Egzòd 3:10"
+    },
+    "fr": {
+      "id": "dq-lid-002",
+      "questionText": "Qui Dieu a-t-il choisi pour faire sortir le peuple d'Israël de l'esclavage en Égypte ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Abraham" },
+        { "id": "b", "text": "Moïse" },
+        { "id": "c", "text": "Josué" },
+        { "id": "d", "text": "David" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 3:10 — Dieu dit à Moïse : « Maintenant, va, je t'enverrai auprès de Pharaon, et tu feras sortir d'Égypte mon peuple, les enfants d'Israël. »",
+      "bibleReference": "Exode 3:10"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-lid-003",
+    "ht": {
+      "id": "dq-lid-003",
+      "questionText": "Ki moun ki te siksesè Moyiz e ki te mennen pèp la antre nan Tè Pwomiz la?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Kalèb" },
+        { "id": "b", "text": "Arawon" },
+        { "id": "c", "text": "Jozye" },
+        { "id": "d", "text": "Gedeon" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jozye 1:1-2 — Aprè lanmò Moyiz, Bondye pale ak Jozye, pitit gason Noun lan, li di li: \"...pare ou, travèse larivyè Jouden sa a avèk tout pèp la.\"",
+      "bibleReference": "Jozye 1:1-2"
+    },
+    "fr": {
+      "id": "dq-lid-003",
+      "questionText": "Qui fut le successeur de Moïse et conduisit le peuple en Terre Promise ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Caleb" },
+        { "id": "b", "text": "Aaron" },
+        { "id": "c", "text": "Josué" },
+        { "id": "d", "text": "Gédéon" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Josué 1:1-2 — Après la mort de Moïse, l'Éternel dit à Josué, fils de Nun : « Moïse, mon serviteur, est mort ; maintenant, lève-toi, passe ce Jourdain, toi et tout ce peuple. »",
+      "bibleReference": "Josué 1:1-2"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-lid-004",
+    "ht": {
+      "id": "dq-lid-004",
+      "questionText": "Ki non fanm ki te jij nan Izrayèl e ki te yon pwofèt?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Estè" },
+        { "id": "b", "text": "Debora" },
+        { "id": "c", "text": "Rit" },
+        { "id": "d", "text": "An" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jij 4:4 — \"Lè sa a, se yon pwofèt yo te rele Debora, madan Lapidòt, ki te chèf nan peyi Izrayèl la.\"",
+      "bibleReference": "Jij 4:4"
+    },
+    "fr": {
+      "id": "dq-lid-004",
+      "questionText": "Comment s'appelait la femme qui était juge en Israël et également prophétesse ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Esther" },
+        { "id": "b", "text": "Déborah" },
+        { "id": "c", "text": "Ruth" },
+        { "id": "d", "text": "Anne" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Juges 4:4 — « Dans ce temps-là, Déborah, prophétesse, femme de Lappidoth, était juge en Israël. »",
+      "bibleReference": "Juges 4:4"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-lid-005",
+    "ht": {
+      "id": "dq-lid-005",
+      "questionText": "Ki jenn gason ki te touye jeyan Golyat la ak yon fistibal ak yon ròch?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Salomon" },
+        { "id": "b", "text": "Sayil" },
+        { "id": "c", "text": "David" },
+        { "id": "d", "text": "Samuèl" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Samyèl 17:49-50 — David pran yon ròch, li mete l nan fistibal la, li voye l. Ròch la frape moun Filisti a nan mitan fwon.",
+      "bibleReference": "1 Samyèl 17:49-50"
+    },
+    "fr": {
+      "id": "dq-lid-005",
+      "questionText": "Quel jeune homme a tué le géant Goliath avec une fronde et une pierre ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Salomon" },
+        { "id": "b", "text": "Saül" },
+        { "id": "c", "text": "David" },
+        { "id": "d", "text": "Samuel" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Samuel 17:49-50 — David mit la main dans sa giberne, y prit une pierre, et la lança avec sa fronde ; il frappa le Philistin au front.",
+      "bibleReference": "1 Samuel 17:49-50"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-lid-006",
+    "ht": {
+      "id": "dq-lid-006",
+      "questionText": "Ki moun ki te premye wa peyi Izrayèl?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "David" },
+        { "id": "b", "text": "Sayil" },
+        { "id": "c", "text": "Salomon" },
+        { "id": "d", "text": "Samuèl" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Samyèl 10:1 — Samuèl pran yon ti boutèy lwil, li vide l sou tèt Sayil... li di: \"Seyè a chwazi ou pou ou gouvènen pèp li a.\"",
+      "bibleReference": "1 Samyèl 10:1"
+    },
+    "fr": {
+      "id": "dq-lid-006",
+      "questionText": "Qui fut le premier roi d'Israël ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "David" },
+        { "id": "b", "text": "Saül" },
+        { "id": "c", "text": "Salomon" },
+        { "id": "d", "text": "Samuel" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Samuel 10:1 — Samuel prit une fiole d'huile, qu'il répandit sur la tête de Saül... et il dit : « L'Éternel t'a oint pour que tu sois le chef de son héritage. »",
+      "bibleReference": "1 Samuel 10:1"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-lid-007",
+    "ht": {
+      "id": "dq-lid-007",
+      "questionText": "Ki pwofèt ki te moute nan syèl la nan yon cha dife?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Elize" },
+        { "id": "b", "text": "Ezayi" },
+        { "id": "c", "text": "Eli" },
+        { "id": "d", "text": "Jeremi" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "2 Wa 2:11 — \"...yon cha dife ak chwal dife parèt... Eli moute nan syèl la nan yon gwo van toubouyon.\"",
+      "bibleReference": "2 Wa 2:11"
+    },
+    "fr": {
+      "id": "dq-lid-007",
+      "questionText": "Quel prophète est monté au ciel dans un tourbillon avec un char de feu ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Élisée" },
+        { "id": "b", "text": "Ésaïe" },
+        { "id": "c", "text": "Élie" },
+        { "id": "d", "text": "Jérémie" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "2 Rois 2:11 — « ...voici, un char de feu et des chevaux de feu les séparèrent l'un de l'autre, et Élie monta au ciel dans un tourbillon. »",
+      "bibleReference": "2 Rois 2:11"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-lid-008",
+    "ht": {
+      "id": "dq-lid-008",
+      "questionText": "Ki moun Bondye te mande pou l bati yon lach pou sove fanmi li anba gwo inondasyon an?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Enòk" },
+        { "id": "b", "text": "Lòt" },
+        { "id": "c", "text": "Noye" },
+        { "id": "d", "text": "Matizalèm" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jenèz 6:13-14 — Bondye di Noye: \"Fè yon lach pou ou ak bwa sèd.\"",
+      "bibleReference": "Jenèz 6:13-22"
+    },
+    "fr": {
+      "id": "dq-lid-008",
+      "questionText": "À qui Dieu a-t-il demandé de construire une arche pour sauver sa famille du déluge ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Hénoc" },
+        { "id": "b", "text": "Lot" },
+        { "id": "c", "text": "Noé" },
+        { "id": "d", "text": "Metuschélah" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Genèse 6:13-14 — Dieu dit à Noé : « Fais-toi une arche de bois de gopher. »",
+      "bibleReference": "Genèse 6:13-22"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-lid-009",
+    "ht": {
+      "id": "dq-lid-009",
+      "questionText": "Ki pwofèt ki te rete nan vant yon gwo pwason pandan twa jou ak twa nwit?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Danyèl" },
+        { "id": "b", "text": "Jonas" },
+        { "id": "c", "text": "Amòs" },
+        { "id": "d", "text": "Obadya" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jonas 1:17 — \"Seyè a voye yon gwo pwason pou vale Jonas. Jonas te rete nan vant pwason an pandan twa jou ak twa nwit.\"",
+      "bibleReference": "Jonas 1:17"
+    },
+    "fr": {
+      "id": "dq-lid-009",
+      "questionText": "Quel prophète a passé trois jours et trois nuits dans le ventre d'un grand poisson ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Daniel" },
+        { "id": "b", "text": "Jonas" },
+        { "id": "c", "text": "Amos" },
+        { "id": "d", "text": "Abdias" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jonas 1:17 — « L'Éternel fit venir un grand poisson pour engloutir Jonas, et Jonas fut dans le ventre du poisson trois jours et trois nuits. »",
+      "bibleReference": "Jonas 1:17"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-lid-010",
+    "ht": {
+      "id": "dq-lid-010",
+      "questionText": "Ki moun ki te gen anpil pasyans malgre li te pèdi tout sa l te genyen?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Jòb" },
+        { "id": "b", "text": "Aròn" },
+        { "id": "c", "text": "Abraram" },
+        { "id": "d", "text": "Samson" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Liv Jòb la montre kijan Jòb te rete fidèl ak Bondye malgre gwo soufrans ak pèt li te sibi.",
+      "bibleReference": "Jòb 1:21-22"
+    },
+    "fr": {
+      "id": "dq-lid-010",
+      "questionText": "Qui est resté patient et fidèle malgré la perte de tous ses biens et de sa famille ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Job" },
+        { "id": "b", "text": "Aaron" },
+        { "id": "c", "text": "Abraham" },
+        { "id": "d", "text": "Samson" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Le livre de Job montre comment Job est resté fidèle à Dieu malgré d'immenses souffrances et pertes.",
+      "bibleReference": "Job 1:21-22"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-lid-011",
+    "ht": {
+      "id": "dq-lid-011",
+      "questionText": "Ki moun Bondye te pale avè l nan yon touf bwa ki t ap boule men ki pa t ap boule nèt?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Abraram" },
+        { "id": "b", "text": "Jakòb" },
+        { "id": "c", "text": "Moyiz" },
+        { "id": "d", "text": "Izarak" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Egzòd 3:2-4 — Zanj Seyè a parèt devan Moyiz nan yon flanm dife nan mitan yon touf bwa.",
+      "bibleReference": "Egzòd 3:2-4"
+    },
+    "fr": {
+      "id": "dq-lid-011",
+      "questionText": "À qui Dieu a-t-il parlé au travers d'un buisson ardent qui ne se consumait pas ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Abraham" },
+        { "id": "b", "text": "Jacob" },
+        { "id": "c", "text": "Moïse" },
+        { "id": "d", "text": "Isaac" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Exode 3:2-4 — L'ange de l'Éternel apparut à Moïse dans une flamme de feu, au milieu d'un buisson.",
+      "bibleReference": "Exode 3:2-4"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-lid-012",
+    "ht": {
+      "id": "dq-lid-012",
+      "questionText": "Ki pitit gason Jakòb ki te vin gouvènè nan peyi Ejip?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Ribenn" },
+        { "id": "b", "text": "Benjamen" },
+        { "id": "c", "text": "Jozèf" },
+        { "id": "d", "text": "Jida" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jenèz 41:41 — Farawon an di Jozèf: \"Gade, m’ap mete ou chèf sou tout peyi Ejip la.\"",
+      "bibleReference": "Jenèz 41:41"
+    },
+    "fr": {
+      "id": "dq-lid-012",
+      "questionText": "Lequel des fils de Jacob est devenu gouverneur de toute l'Égypte ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Ruben" },
+        { "id": "b", "text": "Benjamin" },
+        { "id": "c", "text": "Joseph" },
+        { "id": "d", "text": "Juda" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Genèse 41:41 — Pharaon dit à Joseph : « Vois, je te donne le commandement de tout le pays d'Égypte. »",
+      "bibleReference": "Genèse 41:41"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-lid-013",
+    "ht": {
+      "id": "dq-lid-013",
+      "questionText": "Ki non manman Samyèl ki te fè yon ve pou li bay Bondye jenn gason sa a?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Penina" },
+        { "id": "b", "text": "An" },
+        { "id": "c", "text": "Mari" },
+        { "id": "d", "text": "Eli" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Samyèl 1 — An te fè yon ve... apre li fin sevre Samyèl, li mennen l nan tanp lan pou l sèvi Bondye tout lavi l.",
+      "bibleReference": "1 Samyèl 1:11, 28"
+    },
+    "fr": {
+      "id": "dq-lid-013",
+      "questionText": "Comment s'appelait la mère de Samuel qui l'a consacré à Dieu dès sa naissance ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Peninna" },
+        { "id": "b", "text": "Anne" },
+        { "id": "c", "text": "Marie" },
+        { "id": "d", "text": "Élie" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Samuel 1 — Anne fit un vœu... après avoir sevré Samuel, elle l'amena au temple pour qu'il soit au service de l'Éternel toute sa vie.",
+      "bibleReference": "1 Samuel 1:11, 28"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-lid-014",
+    "ht": {
+      "id": "dq-lid-014",
+      "questionText": "Ki moun ki te marenn Moyiz nan larivyè Nil la e ki te rele l Moyiz?",
+      "categoryId": "lideres",
+      "categoryName": "Lidè Biblik",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Madanm farawon an" },
+        { "id": "b", "text": "Pitit fi farawon an" },
+        { "id": "c", "text": "Sè Moyiz" },
+        { "id": "d", "text": "Yon sèvant Ejipsyen" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 2:10 — \"Lè timoun nan te vin grandèt, li mennen l bay pitit fi farawon an ki te adopte l pou pitit li. Li rele l Moyiz.\"",
+      "bibleReference": "Egzòd 2:10"
+    },
+    "fr": {
+      "id": "dq-lid-014",
+      "questionText": "Qui a sauvé Moïse du Nil et lui a donné son nom ?",
+      "categoryId": "lideres",
+      "categoryName": "Leaders Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La femme de Pharaon" },
+        { "id": "b", "text": "La fille de Pharaon" },
+        { "id": "c", "text": "La sœur de Moïse" },
+        { "id": "d", "text": "Une servante égyptienne" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 2:10 — « Quand l'enfant eut grandi, elle l'amena à la fille de Pharaon, et il fut pour elle comme un fils. Elle lui donna le nom de Moïse. »",
+      "bibleReference": "Exode 2:10"
+    },
+    "matchType": "full"
+  }
+]

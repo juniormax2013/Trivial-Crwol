@@ -1,0 +1,952 @@
+[
+  {
+    "newId": "dq-ora-004",
+    "ht": {
+      "id": "dq-ora-004",
+      "questionText": "Ki sa entèsesyon genyen kòm karakteristik espesyal?",
+      "categoryId": "oracion",
+      "categoryName": "Priyè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Priyè pèsonèl sèlman" },
+        { "id": "b", "text": "Priyè pou lòt moun — kanpe kòm meditatè devan Bondye pou bezwen lòt yo" },
+        { "id": "c", "text": "Priyè ak jèn obligatwa" },
+        { "id": "d", "text": "Priyè piblik nan legliz" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timote 2:1 — \"Mwen egzòte anvan tout bagay ke yo fè siplikasyon, priyè, entèsesyon, ak aksyon de gras pou tout moun.\" Abraram (Jen 18), Moyiz (Egz 32), Jezi (Jan 17) kòm modèl entèsesè.",
+      "bibleReference": "1 Timote 2:1"
+    },
+    "fr": {
+      "id": "dq-ora-004",
+      "questionText": "Quelle est la caractéristique spéciale de l'intercession ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Une prière personnelle uniquement" },
+        { "id": "b", "text": "Prier pour les autres — se tenir comme médiateur devant Dieu pour les besoins d'autrui" },
+        { "id": "c", "text": "Prière et jeûne obligatoires" },
+        { "id": "d", "text": "Prière publique à l'église" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timothée 2:1 — « J'exhorte donc, avant toutes choses, à faire des prières, des supplications, des requêtes, des actions de grâces, pour tous les hommes. » Abraham (Gen 18), Moïse (Ex 32), Jésus (Jean 17) comme modèles d'intercesseurs.",
+      "bibleReference": "1 Timothée 2:1"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-ora-005",
+    "ht": {
+      "id": "dq-ora-005",
+      "questionText": "Ki sa Jakòb anseye sou priyè lafwa pou malad yo?",
+      "categoryId": "oracion",
+      "categoryName": "Priyè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Malad yo dwe priye pou tèt yo sèlman" },
+        { "id": "b", "text": "Ansyen legliz la dwe priye sou malad yo ak lwil — priyè lafwa pral sove malad la" },
+        { "id": "c", "text": "Priyè pou malad yo pa nesesè si yo gen bon doktè" },
+        { "id": "d", "text": "Sèlman pastè yo ka priye pou malad" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jak 5:14-15 — \"Si yon moun malad pami nou, li rele ansyen legliz yo... priye sou li ak lwil... priyè lafwa pral delivre moun malad la.\" Sèvis kolèktif pou gerizon.",
+      "bibleReference": "Jak 5:14-15"
+    },
+    "fr": {
+      "id": "dq-ora-005",
+      "questionText": "Qu'enseigne Jacques sur la prière de la foi pour les malades ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Les malades doivent prier pour eux-mêmes uniquement" },
+        { "id": "b", "text": "Les anciens de l'église doivent prier pour les malades et les oindre d'huile — la prière de la foi sauvera le malade" },
+        { "id": "c", "text": "La prière pour les malades n'est pas nécessaire s'ils ont de bons médecins" },
+        { "id": "d", "text": "Seuls les pasteurs peuvent prier pour les malades" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacques 5:14-15 — « Quelqu'un parmi vous est-il malade ? Qu'il appelle les anciens de l'Église, et que les anciens prient pour lui, en l'oignant d'huile... la prière de la foi sauvera le malade. » Service collectif pour la guérison.",
+      "bibleReference": "Jacques 5:14-15"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-002",
+    "ht": {
+      "id": "dq-nt-002",
+      "questionText": "Konbyen liv NT genyen?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "24" },
+        { "id": "b", "text": "27" },
+        { "id": "c", "text": "39" },
+        { "id": "d", "text": "66" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "NT gen 27 liv: 4 Evanjil, Travay, 21 lèt, Revelasyon.",
+      "bibleReference": "Revelasyon 22:18"
+    },
+    "fr": {
+      "id": "dq-nt-002",
+      "questionText": "Combien de livres contient le Nouveau Testament ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "24" },
+        { "id": "b", "text": "27" },
+        { "id": "c", "text": "39" },
+        { "id": "d", "text": "66" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le NT contient 27 livres : 4 Évangiles, les Actes, 21 lettres (épîtres) et l'Apocalypse.",
+      "bibleReference": "Apocalypse 22:18"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-003",
+    "ht": {
+      "id": "dq-nt-003",
+      "questionText": "Ki moun ki te ekri plis liv NT?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Pyè" },
+        { "id": "b", "text": "Jan" },
+        { "id": "c", "text": "Pòl" },
+        { "id": "d", "text": "Lk" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pòl te ekri 13 (oswa 14 si Ebre) liv NT: Women, Korentyen, Galat, Efezyen, Filipyen, Kolosyen, Tesalonisyen, Timote, Tit, Filemòn.",
+      "bibleReference": "Women 1:1"
+    },
+    "fr": {
+      "id": "dq-nt-003",
+      "questionText": "Qui a écrit le plus de livres dans le Nouveau Testament ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Pierre" },
+        { "id": "b", "text": "Jean" },
+        { "id": "c", "text": "Paul" },
+        { "id": "d", "text": "Luc" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Paul a écrit 13 (ou 14 si l'on inclut les Hébreux) livres du NT : Romains, Corinthiens, Galates, Éphésiens, Philippiens, Colossiens, Thessaloniciens, Timothée, Tite, Philémon.",
+      "bibleReference": "Romains 1:1"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-004",
+    "ht": {
+      "id": "dq-nt-004",
+      "questionText": "Ki premye Evanjil ki ekri yo dapre majorite espè yo?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Jan" },
+        { "id": "b", "text": "Matye" },
+        { "id": "c", "text": "Mak" },
+        { "id": "d", "text": "Lk" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Majorite espè konsidere Mak kòm premye Evanjil ekri (50-65 AD), epi Matye ak Lk te itilize li kòm sous (Teyori de-sous).",
+      "bibleReference": "Mak 1:1"
+    },
+    "fr": {
+      "id": "dq-nt-004",
+      "questionText": "Quel est le premier Évangile écrit selon la majorité des experts ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Jean" },
+        { "id": "b", "text": "Matthieu" },
+        { "id": "c", "text": "Marc" },
+        { "id": "d", "text": "Luc" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La majorité des experts considèrent Marc comme le premier Évangile écrit (50-65 ap. J.-C.), et que Matthieu et Luc l'ont utilisé comme source (Théorie des deux sources).",
+      "bibleReference": "Marc 1:1"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-005",
+    "ht": {
+      "id": "dq-nt-005",
+      "questionText": "Ki sa \"Sinoptik\" vle di nan etid Evanjil yo?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Evanjil ki gen plis mirak" },
+        { "id": "b", "text": "Matye, Mak ak Lk ki pataje anpil materyèl paralèl" },
+        { "id": "c", "text": "Evanjil ki pi ansyen yo" },
+        { "id": "d", "text": "Sèlman Evanjil Mak la" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sinoptik (grèk: \"wè ansanm\") = Matye, Mak, Lk. Yo pataje anpil pasaj paralèl kontrèman ak Jan ki endepandan majoritèman.",
+      "bibleReference": "Matye 1:1"
+    },
+    "fr": {
+      "id": "dq-nt-005",
+      "questionText": "Que signifie « Synoptique » dans l'étude des Évangiles ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Les Évangiles contenant le plus de miracles" },
+        { "id": "b", "text": "Matthieu, Marc et Luc qui partagent beaucoup de matériel parallèle" },
+        { "id": "c", "text": "Les Évangiles les plus anciens" },
+        { "id": "d", "text": "Uniquement l'Évangile de Marc" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Synoptique (du grec : « voir ensemble ») = Matthieu, Marc, Luc. Ils partagent de nombreux passages parallèles, contrairement à Jean qui est majoritairement indépendant.",
+      "bibleReference": "Matthieu 1:1"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-006",
+    "ht": {
+      "id": "dq-nt-006",
+      "questionText": "Ki liv NT ki ekri anvan lèt Pòl yo?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Matye" },
+        { "id": "b", "text": "Jan" },
+        { "id": "c", "text": "Jak" },
+        { "id": "d", "text": "Ebre" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Majorite espè date Jak nan ~45-50 AD — anvan lèt Pòl yo (pi bonè ~48 AD pou Galat). Jak ka youn nan premye ekrit NT.",
+      "bibleReference": "Jak 1:1"
+    },
+    "fr": {
+      "id": "dq-nt-006",
+      "questionText": "Quel livre du Nouveau Testament a été écrit avant les lettres de Paul ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Matthieu" },
+        { "id": "b", "text": "Jean" },
+        { "id": "c", "text": "Jacques" },
+        { "id": "d", "text": "Hébreux" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La majorité des experts datent l'épître de Jacques vers 45-50 ap. J.-C. — avant les lettres de Paul (la plus ancienne étant vers 48 ap. J.-C. pour les Galates). Jacques pourrait être l'un des premiers écrits du NT.",
+      "bibleReference": "Jacques 1:1"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-007",
+    "ht": {
+      "id": "dq-nt-007",
+      "questionText": "Ki sa \"Pwoblèm Sinoptik\" etidyan NT yo analize?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Diferans ant Jwif ak Jantil nan NT" },
+        { "id": "b", "text": "Kijan Matye, Mak ak Lk gen anpil materyèl komen — ki sous yo te pataje?" },
+        { "id": "c", "text": "Erè nan tradiksyon NT" },
+        { "id": "d", "text": "Kont enpòtans diferan apòt yo" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pwoblèm Sinoptik: poukisa Matye, Mak, Lk resanble anpil? Teyori prensipal: Pryorite Mak (Mak ekri anvan, Matye/Lk itilize li + yon sous \"Q\").",
+      "bibleReference": "Lk 1:1-4"
+    },
+    "fr": {
+      "id": "dq-nt-007",
+      "questionText": "Qu'analysent les étudiants du NT sous le terme de « Problème synoptique » ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Les différences entre Juifs et Gentils dans le NT" },
+        { "id": "b", "text": "Comment Matthieu, Marc et Luc ont tant de matériel en commun — quelles sources ont-ils partagées ?" },
+        { "id": "c", "text": "Erreurs dans la traduction du NT" },
+        { "id": "d", "text": "Débats sur l'importance des différents apôtres" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Problème synoptique : pourquoi Matthieu, Marc et Luc se ressemblent-ils tant ? Théorie principale : Priorité de Marc (Marc écrit en premier, Matthieu/Luc l'utilisent + une source « Q »).",
+      "bibleReference": "Luc 1:1-4"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-008",
+    "ht": {
+      "id": "dq-nt-008",
+      "questionText": "Ki sa \"Repa Seyè a\" reprezante?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Yon senp diné kretyen" },
+        { "id": "b", "text": "Selebrasyon kò ak san Kris, pwoklamasyon lanmò li jiska retou l" },
+        { "id": "c", "text": "Sèlman pou pastè yo" },
+        { "id": "d", "text": "Ranplasman sakrifis AT yo" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 11:23-26 — \"Chak fwa nou manje pen sa a ak bwè tas la, nou pwoklamasyon lanmò Seyè a jiskaske li vini.\"",
+      "bibleReference": "1 Korentyen 11:26"
+    },
+    "fr": {
+      "id": "dq-nt-008",
+      "questionText": "Que représente le « Repas du Seigneur » ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Un simple dîner chrétien" },
+        { "id": "b", "text": "La célébration du corps et du sang de Christ, la proclamation de sa mort jusqu'à son retour" },
+        { "id": "c", "text": "Réservé uniquement aux pasteurs" },
+        { "id": "d", "text": "Un remplacement des sacrifices de l'AT" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 11:23-26 — « Car toutes les fois que vous mangez ce pain et que vous buvez cette coupe, vous annoncez la mort du Seigneur, jusqu'à ce qu'il vienne. »",
+      "bibleReference": "1 Corinthiens 11:26"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-009",
+    "ht": {
+      "id": "dq-nt-009",
+      "questionText": "Ki sa \"Lèt Pastoral\" yo vle di?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Lèt pou pèp jeneral la" },
+        { "id": "b", "text": "1 Timote, 2 Timote, Tit — lèt Pòl bay lidè legliz pou pran swen kongregasyon" },
+        { "id": "c", "text": "Sèlman Ebre" },
+        { "id": "d", "text": "Lèt Pyè yo" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timote, 2 Timote ak Tit rele \"Pastoral\" paske yo adrese dirije legliz (pastè) ak enstriksyon pou lidèship espirityèl, karaktè ak ansèyman sèn.",
+      "bibleReference": "1 Timote 3:1-7"
+    },
+    "fr": {
+      "id": "dq-nt-009",
+      "questionText": "Que signifient les « Épîtres Pastorales » ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Des lettres destinées au peuple en général" },
+        { "id": "b", "text": "1 Timothée, 2 Timothée, Tite — lettres de Paul aux dirigeants d'église pour prendre soin des congrégations" },
+        { "id": "c", "text": "Uniquement Hébreux" },
+        { "id": "d", "text": "Les lettres de Pierre" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timothée, 2 Timothée et Tite sont appelées « Pastorales » car elles s'adressent aux dirigeants de l'église (pasteurs) avec des instructions sur le leadership spirituel, le caractère et la saine doctrine.",
+      "bibleReference": "1 Timothée 3:1-7"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-010",
+    "ht": {
+      "id": "dq-nt-010",
+      "questionText": "Ki sa \"Lèt Jeneral\" yo nan NT?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Lèt pou yon sèl legliz" },
+        { "id": "b", "text": "Jak, Pyè, Jan, Jid — lèt adrese a plizyè legliz oswa a legliz jeneral la" },
+        { "id": "c", "text": "Sèlman lèt Pòl yo" },
+        { "id": "d", "text": "Ebre ak Revelasyon" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lèt Jeneral (Katolik): Jak, 1-2 Pyè, 1-2-3 Jan, Jid. Pa adrese a yon legliz espesifik men a kominote kretyen pi laj la.",
+      "bibleReference": "Jak 1:1"
+    },
+    "fr": {
+      "id": "dq-nt-010",
+      "questionText": "Que sont les « Épîtres Générales » dans le NT ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Des lettres destinées à une seule église" },
+        { "id": "b", "text": "Jacques, Pierre, Jean, Jude — lettres adressées à plusieurs églises ou à l'église universelle" },
+        { "id": "c", "text": "Uniquement les lettres de Paul" },
+        { "id": "d", "text": "Hébreux et Apocalypse" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les Épîtres Générales (Catholiques) : Jacques, 1-2 Pierre, 1-2-3 Jean, Jude. Elles ne sont pas adressées à une église spécifique mais à la communauté chrétienne plus large.",
+      "bibleReference": "Jacques 1:1"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-011",
+    "ht": {
+      "id": "dq-nt-011",
+      "questionText": "Ki mesaj santral Evanjil Jan an?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Jezi kòm Wa Izrayèl" },
+        { "id": "b", "text": "Jezi kòm Pitit Bondye étenèl — kwè pou jwenn lavi étenèl" },
+        { "id": "c", "text": "Jezi kòm pwofèt sèlman" },
+        { "id": "d", "text": "Istwa Legliz premye a" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 20:31 — \"Bagay sa yo ekri pou nou ka kwè ke Jezi se Kris la, Pitit Bondye, epi pa lafwa nou pral gen lavi nan non l.\"",
+      "bibleReference": "Jan 20:31"
+    },
+    "fr": {
+      "id": "dq-nt-011",
+      "questionText": "Quel est le message central de l'Évangile de Jean ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Jésus comme Roi d'Israël" },
+        { "id": "b", "text": "Jésus comme Fils éternel de Dieu — croire pour avoir la vie éternelle" },
+        { "id": "c", "text": "Jésus comme simple prophète" },
+        { "id": "d", "text": "L'histoire de l'Église primitive" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean 20:31 — « Mais ces choses ont été écrites afin que vous croyiez que Jésus est le Christ, le Fils de Dieu, et qu'en croyant vous ayez la vie en son nom. »",
+      "bibleReference": "Jean 20:31"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-012",
+    "ht": {
+      "id": "dq-nt-012",
+      "questionText": "Ki sa \"Pitit Bondye\" vle di nan kontèks NT?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Yon pitit adopsyon Bondye kreye" },
+        { "id": "b", "text": "Pèsòn dezyèm Trinite a — ko-égal ak ko-étenèl ak Bondye — vrai Bondye ak vrai moun" },
+        { "id": "c", "text": "Yon tit onoraryik bay gwo lidè" },
+        { "id": "d", "text": "Yon zanj espesyal Bondye kreye" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 1:1,18; 10:30 — \"Pawòl la te Bondye,\" \"Mwen ak Papa a nou se youn.\" Konsilta Nikaya (325 AD) konfime: Jezi homoousios (menm sibstans) ak Bondye.",
+      "bibleReference": "Jan 10:30"
+    },
+    "fr": {
+      "id": "dq-nt-012",
+      "questionText": "Que signifie « Fils de Dieu » dans le contexte du NT ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Un fils d'adoption créé par Dieu" },
+        { "id": "b", "text": "La deuxième personne de la Trinité — co-égale et co-éternelle avec Dieu — vrai Dieu et vrai homme" },
+        { "id": "c", "text": "Un titre honorifique donné aux grands dirigeants" },
+        { "id": "d", "text": "Un ange spécial créé par Dieu" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean 1:1, 18 ; 10:30 — « La Parole était Dieu », « Moi et le Père nous sommes un. » Le Concile de Nicée (325 ap. J.-C.) confirme : Jésus est homoousios (de même substance) avec Dieu.",
+      "bibleReference": "Jean 10:30"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-013",
+    "ht": {
+      "id": "dq-nt-013",
+      "questionText": "Ki sa lèt Ebre anseye sou Jezi kòm \"Gran Prêt\"?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Jezi te travay kòm prêt nan Tanp Jerizalèm" },
+        { "id": "b", "text": "Jezi se Gran Prêt étenèl selon lòd Melkisédèk — sakrifis li fin tout sakrifis" },
+        { "id": "c", "text": "Yon tit senbòlik san aplikasyon reyèl" },
+        { "id": "d", "text": "Jezi pral tounen kòm prêt nan Milenyòm nan" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ebre 4:14-15; 7:24-27 — Jezi \"Gran Prêt ki travèse syèl yo,\" prêt étenèl selon Melkisédèk, ofri tèt li yon sèl fwa pou tout moun — pa bezwen repete sakrifis.",
+      "bibleReference": "Ebre 7:24-27"
+    },
+    "fr": {
+      "id": "dq-nt-013",
+      "questionText": "Qu'enseigne l'épître aux Hébreux sur Jésus en tant que « Souverain Sacrificateur » ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Jésus a travaillé comme prêtre dans le Temple de Jérusalem" },
+        { "id": "b", "text": "Jésus est le Souverain Sacrificateur éternel selon l'ordre de Melchisédek — son sacrifice met fin à tous les sacrifices" },
+        { "id": "c", "text": "Un titre symbolique sans application réelle" },
+        { "id": "d", "text": "Jésus reviendra comme prêtre pendant le Millénium" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hébreux 4:14-15 ; 7:24-27 — Jésus est le « souverain sacrificateur qui a traversé les cieux », prêtre éternel selon Melchisédek, s'offrant lui-même une fois pour toutes — plus besoin de répéter les sacrifices.",
+      "bibleReference": "Hébreux 7:24-27"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-014",
+    "ht": {
+      "id": "dq-nt-014",
+      "questionText": "Ki sa \"Konsilye Jerizalèm\" (Travay 15) rezoud?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Debate sou batèm" },
+        { "id": "b", "text": "Sòmasizasyon — Jantil pa bezwen sikonsi pou sove" },
+        { "id": "c", "text": "Chwa suksesè Pyè" },
+        { "id": "d", "text": "Distribisyon travay misyonè" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 15:1-29 — Konsilye Jerizalèm debat si Jantil dwe sikonsi pou sove. Desizyon: Non — Jantil sove pa lafwa nan Kris, pa Lwa. Baz teyoloji Pòl.",
+      "bibleReference": "Travay 15:11"
+    },
+    "fr": {
+      "id": "dq-nt-014",
+      "questionText": "Que résout le « Concile de Jérusalem » (Actes 15) ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Débat sur le baptême" },
+        { "id": "b", "text": "La question de la circoncision — les Gentils n'ont pas besoin d'être circoncis pour être sauvés" },
+        { "id": "c", "text": "Le choix du successeur de Pierre" },
+        { "id": "d", "text": "La distribution du travail missionnaire" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 15:1-29 — Le Concile de Jérusalem débat si les Gentils doivent être circoncis pour être sauvés. Décision : Non — les Gentils sont sauvés par la foi en Christ, pas par la Loi. Base de la théologie de Paul.",
+      "bibleReference": "Actes 15:11"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-nt-015",
+    "ht": {
+      "id": "dq-nt-015",
+      "questionText": "Ki sa Revelasyon 1:8 di sou Kris?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "\"M ap vini byento\"" },
+        { "id": "b", "text": "\"Mwen se Alfa ak Omega, ki te la, ki la, ak ki pral vini — Toupisan\"" },
+        { "id": "c", "text": "\"Kase sèl yo epi ouvri liv la\"" },
+        { "id": "d", "text": "\"Siksè sou yo tout\"" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 1:8 — Seyè Bondye di: \"Mwen se Alfa ak Omega... ki te la, ki la, ak ki pral vini, Toupisan.\" Deklarasyon souverènte étenèl Bondye/Kris.",
+      "bibleReference": "Revelasyon 1:8"
+    },
+    "fr": {
+      "id": "dq-nt-015",
+      "questionText": "Que dit Apocalypse 1:8 à propos de Christ ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "« Je viens bientôt »" },
+        { "id": "b", "text": "« Je suis l'Alpha et l'Oméga, celui qui est, qui était, et qui vient, le Tout-Puissant »" },
+        { "id": "c", "text": "« Brisez les sceaux et ouvrez le livre »" },
+        { "id": "d", "text": "« Succès sur eux tous »" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apocalypse 1:8 — Le Seigneur Dieu dit : « Je suis l'alpha et l'oméga... celui qui est, qui était, et qui vient, le Tout-Puissant. » Déclaration de la souveraineté éternelle de Dieu/Christ.",
+      "bibleReference": "Apocalypse 1:8"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-001",
+    "ht": {
+      "id": "dq-atg-001",
+      "questionText": "Konbyen liv nan AT?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "27" },
+        { "id": "b", "text": "33" },
+        { "id": "c", "text": "39" },
+        { "id": "d", "text": "46" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bib pwotestan gen 39 liv nan AT (Bib Katolik gen 46 ak deutewokanonisèl). Yo divize en Lwa (5), Istwa (12), Poyezi (5), Pwofèt (17).",
+      "bibleReference": "Jenèz 1:1"
+    },
+    "fr": {
+      "id": "dq-atg-001",
+      "questionText": "Combien de livres y a-t-il dans l'Ancien Testament ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "27" },
+        { "id": "b", "text": "33" },
+        { "id": "c", "text": "39" },
+        { "id": "d", "text": "46" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La Bible protestante compte 39 livres dans l'AT (la Bible catholique en compte 46 avec les deutérocanoniques). Ils sont divisés en Loi (5), Histoire (12), Poésie (5), Prophètes (17).",
+      "bibleReference": "Genèse 1:1"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-002",
+    "ht": {
+      "id": "dq-atg-002",
+      "questionText": "Ki sa \"Shema\" an isra yèl (Detewonòm 6:4) pwoklamasyon?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "\"Renmen vwazen ou tankou tèt ou\"" },
+        { "id": "b", "text": "\"Seyè Bondye nou an se yon sèl Seyè — renmen li ak tout kè ou\"" },
+        { "id": "c", "text": "\"Gade tout kòmandman mwen yo\"" },
+        { "id": "d", "text": "\"Pa janm abandone pèp mwen an\"" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Detwonòm 6:4-5 — \"Shema Yisrael Adonai Eloheinu Adonai Ehad\" = \"Tande, O Izrayèl: Seyè Bondye nou se yon sèl Seyè.\" Fondaman monoteism biblik.",
+      "bibleReference": "Detewonòm 6:4-5"
+    },
+    "fr": {
+      "id": "dq-atg-002",
+      "questionText": "Que proclame le « Shema » d'Israël (Deutéronome 6:4) ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "« Tu aimeras ton prochain comme toi-même »" },
+        { "id": "b", "text": "« L'Éternel, notre Dieu, est le seul Éternel — tu l'aimeras de tout ton cœur »" },
+        { "id": "c", "text": "« Gardez tous mes commandements »" },
+        { "id": "d", "text": "« N'abandonne jamais mon peuple »" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Deutéronome 6:4-5 — « Écoute, Israël ! L'Éternel, notre Dieu, est le seul Éternel. » Fondement du monothéisme biblique.",
+      "bibleReference": "Deutéronome 6:4-5"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-003",
+    "ht": {
+      "id": "dq-atg-003",
+      "questionText": "Ki sa \"Lwa Lente\" nan AT vle di?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Lwa pou manje sèlman manje k ap vole" },
+        { "id": "b", "text": "Règ AT sou manje pè ak enpè — pò, kribich, kochon entèdi" },
+        { "id": "c", "text": "Lwa sou jeun ak priyè obligatwa" },
+        { "id": "d", "text": "Règ sou kijan pou prepare manje pou sakrifis" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Levitik 11; Detewonòm 14 — Lwa Lente (kashrut): bèt ak pye pann epi rimen manje, pwason ak zèkèy ak ekay akseptab, zwazo pèdisi entèdi. Pòk ak kribich entèdi.",
+      "bibleReference": "Levitik 11:1-47"
+    },
+    "fr": {
+      "id": "dq-atg-003",
+      "questionText": "Que signifie la « Loi alimentaire » (lois de pureté) dans l'Ancien Testament ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Loi pour manger uniquement de la nourriture volante" },
+        { "id": "b", "text": "Règles de l'AT sur les aliments purs et impurs — porc, crevettes, cochon interdits" },
+        { "id": "c", "text": "Lois sur le jeûne et la prière obligatoire" },
+        { "id": "d", "text": "Règles sur la façon de préparer la nourriture pour les sacrifices" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lévitique 11 ; Deutéronome 14 — Lois alimentaires (cacherout) : animaux aux sabots fendus et qui ruminent acceptables, poissons avec nageoires et écailles acceptables, oiseaux de proie interdits. Porc et crevettes interdits.",
+      "bibleReference": "Lévitique 11:1-47"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-004",
+    "ht": {
+      "id": "dq-atg-004",
+      "questionText": "Ki fèt AT ki komemorave delivrans nan Ejip?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Pantekovòt" },
+        { "id": "b", "text": "Pak (Passo)" },
+        { "id": "c", "text": "Fèt Tabènnak yo" },
+        { "id": "d", "text": "Jou Ekspyasyon an" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Egzòd 12 — Pak (Passo): jou memoryèl delivrans Izrayèl soti Ejip. Mouton sakrifye, san sou poto pòt, zanj lanmò \"pase\" kay ki gen san an. Kris se Mouton Pak nou (1 Kor 5:7).",
+      "bibleReference": "Egzòd 12:13"
+    },
+    "fr": {
+      "id": "dq-atg-004",
+      "questionText": "Quelle fête de l'AT commémore la délivrance d'Égypte ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La Pentecôte" },
+        { "id": "b", "text": "La Pâque (Pessah)" },
+        { "id": "c", "text": "La fête des Tabernacles" },
+        { "id": "d", "text": "Le jour de l'Expiation" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Exode 12 — La Pâque (Pessah) : jour mémorial de la délivrance d'Israël hors d'Égypte. Agneau sacrifié, sang sur les poteaux des portes, l'ange de la mort « passe » par-dessus les maisons marquées du sang. Christ est notre Agneau pascal (1 Cor 5:7).",
+      "bibleReference": "Exode 12:13"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-005",
+    "ht": {
+      "id": "dq-atg-005",
+      "questionText": "Ki sa \"Yom Kippur\" (Jou Ekspyasyon) reprezante?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Selebrasyon récolte a" },
+        { "id": "b", "text": "Jou anlè chak ane kote gran prêt antre nan Plas Sen yo pou ekspye peche pèp la" },
+        { "id": "c", "text": "Premye jou ane Jwif la" },
+        { "id": "d", "text": "Fèt delivrans Izrayèl soti Babilon" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Levitik 16 — Yom Kippur: gran prêt ofri sakrifis pou tèt li ak pèp la. Yon kabri pote peche yo nan dezè (chivo emisario). Ebre 9-10 montre Jezi akompli sa définitivman.",
+      "bibleReference": "Levitik 16:34"
+    },
+    "fr": {
+      "id": "dq-atg-005",
+      "questionText": "Que représente « Yom Kippour » (Jour de l'Expiation) ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La célébration de la récolte" },
+        { "id": "b", "text": "Le jour annuel où le souverain sacrificateur entre dans le Lieu Très Saint pour expier les péchés du peuple" },
+        { "id": "c", "text": "Le premier jour de l'année juive" },
+        { "id": "d", "text": "La fête de la délivrance d'Israël hors de Babylone" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lévitique 16 — Yom Kippour : le souverain sacrificateur offre des sacrifices pour lui-même et pour le peuple. Un bouc porte les péchés dans le désert (bouc émissaire). Hébreux 9-10 montre que Jésus a accompli cela définitivement.",
+      "bibleReference": "Lévitique 16:34"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-006",
+    "ht": {
+      "id": "dq-atg-006",
+      "questionText": "Ki pouvwa espesyal Sansòn te genyen?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Sajès ak konesans sipèrnaturèl" },
+        { "id": "b", "text": "Fòs fizik sennaturèl lye ak vòt nazireyèn li — espeialeman chevè li" },
+        { "id": "c", "text": "Kapasite geri malad" },
+        { "id": "d", "text": "Vitès kouri sipèn" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jij 13-16 — Sansòn te yon nazireyèn. Fòs li te lye ak chevè li kòm senbòl vòt li bay Bondye. Lè Dalila koupe chevè l, fòs la kite l (Jij 16:17).",
+      "bibleReference": "Jij 16:17"
+    },
+    "fr": {
+      "id": "dq-atg-006",
+      "questionText": "Quel pouvoir spécial Samson possédait-il ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Sagesse et connaissances surnaturelles" },
+        { "id": "b", "text": "Force physique surnaturelle liée à son vœu de naziréat — particulièrement ses cheveux" },
+        { "id": "c", "text": "Capacité de guérir les malades" },
+        { "id": "d", "text": "Vitesse de course surhumaine" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Juges 13-16 — Samson était un naziréen. Sa force était liée à ses cheveux comme symbole de son vœu à Dieu. Lorsque Dalila lui coupe les cheveux, sa force le quitte (Juges 16:17).",
+      "bibleReference": "Juges 16:17"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-007",
+    "ht": {
+      "id": "dq-atg-007",
+      "questionText": "Ki sa \"Alyans Davidi\" (2 Samyèl 7) pwomèt?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "David pral viv étenèlman" },
+        { "id": "b", "text": "Yon desandan David pral gen yon wayòm étenèl — akompli nan Jezi Kris" },
+        { "id": "c", "text": "Izrayèl pral toujou venkè lènmi yo" },
+        { "id": "d", "text": "Tanp Salomon pral étenèl" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Samyèl 7:12-16 — Bondye pwomèt David: \"Pitit ou pral bati yon kay pou non mwen epi mwen pral etabli twon wayòm li pou tout tan.\" Akompli nan Jezi (Lk 1:32-33).",
+      "bibleReference": "2 Samyèl 7:12-16"
+    },
+    "fr": {
+      "id": "dq-atg-007",
+      "questionText": "Que promet l'« Alliance Davidique » (2 Samuel 7) ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "David vivra éternellement" },
+        { "id": "b", "text": "Un descendant de David aura un règne éternel — accompli en Jésus-Christ" },
+        { "id": "c", "text": "Israël sera toujours vainqueur de ses ennemis" },
+        { "id": "d", "text": "Le temple de Salomon sera éternel" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Samuel 7:12-16 — Dieu promet à David : « Je susciterai ta postérité après toi... et j'affermirai pour toujours le trône de son royaume. » Accompli en Jésus (Luc 1:32-33).",
+      "bibleReference": "2 Samuel 7:12-16"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-008",
+    "ht": {
+      "id": "dq-atg-008",
+      "questionText": "Ki sa \"Liv Jòb\" anseye sou soufrans?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Soufrans toujou se pinisyon peche" },
+        { "id": "b", "text": "Moun jis ka soufri pou rezon misterye — Bondye souverèn, fidelit pito ke eksplikasyon" },
+        { "id": "c", "text": "Soufrans pa reyèl pou moun ki gen lafwa" },
+        { "id": "d", "text": "Peche zanmi Jòb yo te koz soufrans li" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jòb 1-2 — Jòb te jis men soufri. Zanmi l yo te fèt erè: \"Ou soufri paske ou te peche.\" Bondye reponn Jòb soti nan toubiyon (ch.38-41) — souverènte depase konprehansyon.",
+      "bibleReference": "Jòb 38:4"
+    },
+    "fr": {
+      "id": "dq-atg-008",
+      "questionText": "Qu'enseigne le « Livre de Job » sur la souffrance ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La souffrance est toujours une punition du péché" },
+        { "id": "b", "text": "Les justes peuvent souffrir pour des raisons mystérieuses — Dieu est souverain, la fidélité importe plus que les explications" },
+        { "id": "c", "text": "La souffrance n'est pas réelle pour ceux qui ont la foi" },
+        { "id": "d", "text": "Le péché des amis de Job a causé sa souffrance" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Job 1-2 — Job était juste mais a souffert. Ses amis ont fait l'erreur de dire : « Tu souffres parce que tu as péché. » Dieu répond à Job du milieu de la tempête (ch. 38-41) — sa souveraineté dépasse notre compréhension.",
+      "bibleReference": "Job 38:4"
+    },
+    "matchType": "full"
+  },
+  {
+    "newId": "dq-atg-009",
+    "ht": {
+      "id": "dq-atg-009",
+      "questionText": "Ki sa \"Proverbs\" (Pwovèb) anseye kòm baz sajès biblik?",
+      "categoryId": "at-general",
+      "categoryName": "Ansyen Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Richès garanti siksè" },
+        { "id": "b", "text": "\"Kòmansman sajès se krentif Seyè a\" — relasyon kòrèk avèk Bondye" },
+        { "id": "c", "text": "Sajès se sèlman konnesans filozofik" },
+        { "id": "d", "text": "Senp bon konpòtman sifizan pou bon lavi" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pwovèb 1:7 — \"Krentif Seyè a se koumansman sajès.\" Tout 31 chapit baze sou premis sa a: sajès vre kòmanse avèk relasyon kòrèk Bondye.",
+      "bibleReference": "Pwovèb 1:7"
+    },
+    "fr": {
+      "id": "dq-atg-009",
+      "questionText": "Qu'enseigne le livre des « Proverbes » comme base de la sagesse biblique ?",
+      "categoryId": "at-general",
+      "categoryName": "Ancien Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La richesse garantit le succès" },
+        { "id": "b", "text": "« Le commencement de la sagesse, c'est la crainte de l'Éternel » — une relation juste avec Dieu" },
+        { "id": "c", "text": "La sagesse est seulement une connaissance philosophique" },
+        { "id": "d", "text": "Un simple bon comportement suffit pour une vie réussie" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Proverbes 1:7 — « La crainte de l'Éternel est le commencement de la science. » Tous les 31 chapitres reposent sur ce principe : la vraie sagesse commence par une relation juste avec Dieu.",
+      "bibleReference": "Proverbes 1:7"
+    },
+    "matchType": "full"
+  }
+]

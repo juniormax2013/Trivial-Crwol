@@ -1,0 +1,702 @@
+[
+  {
+    "newId": "dq-gen-033",
+    "categoryId": "genesis",
+    "difficulty": "hard",
+    "language": "ht",
+    "ht": {
+      "id": "dq-gen-033",
+      "questionText": "Ki jan istwa Jozèf nan peyi Lejip montre pwovidans Bondye malgre peche lèzòm?",
+      "categoryId": "genesis",
+      "categoryName": "Jenèz",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye te pini frè Jozèf yo touswit"
+        },
+        {
+          "id": "b",
+          "text": "Jozèf di frè li yo: sa nou te vle fè m ki mal la, Bondye te vle l pou byen"
+        },
+        {
+          "id": "c",
+          "text": "Bondye efase peche frè yo san okenn konsekans"
+        },
+        {
+          "id": "d",
+          "text": "Jozèf te refize padone yo jouk papa l mouri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozèf te devwale pwovidans Bondye: « Nou te fè lide fè m' mal. Men Bondye fè sa tounen yon byen » (Jenèz 50:20).",
+      "bibleReference": "Genèse 50:20"
+    }
+  },
+  {
+    "newId": "dq-exo-016",
+    "categoryId": "exodo",
+    "difficulty": "easy",
+    "language": "ht",
+    "ht": {
+      "id": "dq-exo-016",
+      "questionText": "Ki jan Moyiz te fè konnen li te dwe delivre pèp Izrayèl la?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nan yon rèv nan dezè a"
+        },
+        {
+          "id": "b",
+          "text": "Pa mwayen yon touf bwa ki t ap boule ak vwa Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Se granprèt Arawon ki te di l sa"
+        },
+        {
+          "id": "d",
+          "text": "Nan yon vizyon nan syèl la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te parèt devan Moyiz nan yon touf bwa ki t ap boule epi li te ba li misyon pou l libere Izrayèl (Egzòd 3:2-10).",
+      "bibleReference": "Exode 3:2-10"
+    }
+  },
+  {
+    "newId": "dq-exo-017",
+    "categoryId": "exodo",
+    "difficulty": "easy",
+    "language": "ht",
+    "ht": {
+      "id": "dq-exo-017",
+      "questionText": "Ki dènye flewo Bondye te voye sou peyi Lejip?",
+      "categoryId": "exodo",
+      "categoryName": "Egzòd",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fènwa"
+        },
+        {
+          "id": "b",
+          "text": "Krikèt yo (sotmèl)"
+        },
+        {
+          "id": "c",
+          "text": "Lanmò tout premye pitit yo"
+        },
+        {
+          "id": "d",
+          "text": "Lagrèl dife"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dizyèm ak dènye flewo a se te lanmò tout premye pitit nan peyi Lejip, sa ki te fòse Farawon kite Izrayèl ale (Egzòd 12:29-33).",
+      "bibleReference": "Exode 12:29-33"
+    }
+  },
+  {
+    "newId": "dq-rey-016",
+    "categoryId": "reyes",
+    "difficulty": "easy",
+    "language": "ht",
+    "ht": {
+      "id": "dq-rey-016",
+      "questionText": "Ki moun David te fè touye apre li te fin voye l nan front lagè pou l kache adiltè li te fè ak Batcheba?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abnè"
+        },
+        {
+          "id": "b",
+          "text": "Ouri, moun peyi It la"
+        },
+        {
+          "id": "c",
+          "text": "Amnon"
+        },
+        {
+          "id": "d",
+          "text": "Joab"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "David te bay lòd pou mete Ouri, mari Batcheba a, kote batay la pi cho pou yo te ka touye l (2 Samyèl 11:14-17).",
+      "bibleReference": "2 Samuel 11:14-17"
+    }
+  },
+  {
+    "newId": "dq-rey-017",
+    "categoryId": "reyes",
+    "difficulty": "easy",
+    "language": "ht",
+    "ht": {
+      "id": "dq-rey-017",
+      "questionText": "Ki wa nan peyi Izrayèl ki te fè bati de ti bèf an lò nan Betèl ak nan Dann apre separasyon wayòm nan?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Akab"
+        },
+        {
+          "id": "b",
+          "text": "Jeou"
+        },
+        {
+          "id": "c",
+          "text": "Jewoboram"
+        },
+        {
+          "id": "d",
+          "text": "Baacha"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jewoboram I te fè de ti bèf an lò pou anpeche pèp la al fè sakrifis Jerizalèm (1 Wa 12:28-29).",
+      "bibleReference": "1 Rois 12:28-29"
+    }
+  },
+  {
+    "newId": "dq-rey-018",
+    "categoryId": "reyes",
+    "difficulty": "easy",
+    "language": "ht",
+    "ht": {
+      "id": "dq-rey-018",
+      "questionText": "Ki wa peyi Jida ki te jwenn Liv Lalwa a epi ki te fè yon gwo refòm relijye?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezekyas"
+        },
+        {
+          "id": "b",
+          "text": "Jozyas"
+        },
+        {
+          "id": "c",
+          "text": "Manase"
+        },
+        {
+          "id": "d",
+          "text": "Asa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Wa Jozyas te fè yon gwo refòm apre yo te fin jwenn Liv Lalwa a nan Tanp lan (2 Wa 22-23).",
+      "bibleReference": "2 Rois 22:8-13"
+    }
+  },
+  {
+    "newId": "dq-rey-019",
+    "categoryId": "reyes",
+    "difficulty": "easy",
+    "language": "ht",
+    "ht": {
+      "id": "dq-rey-019",
+      "questionText": "Ki jan larenn Jezabèl te mouri?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te boule nan yon dife ki soti nan syèl la"
+        },
+        {
+          "id": "b",
+          "text": "Pwòp sèvitè li yo te jete l nan yon fenèt"
+        },
+        {
+          "id": "c",
+          "text": "Li te mouri ak maladi"
+        },
+        {
+          "id": "d",
+          "text": "Pwofèt Eli te touye l"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jezabèl te jete nan yon fenèt sou lòd Jeou. Chwal yo te pilonnen l epi chen te manje kò l (2 Wa 9:33-36).",
+      "bibleReference": "2 Rois 9:33-36"
+    }
+  },
+  {
+    "newId": "dq-rey-020",
+    "categoryId": "reyes",
+    "difficulty": "medium",
+    "language": "ht",
+    "ht": {
+      "id": "dq-rey-020",
+      "questionText": "Ki wa nan peyi Izrayèl yo konnen ki te gen plis madanm ak fanm deyò (konkibin)?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Akab"
+        },
+        {
+          "id": "d",
+          "text": "Roboam"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Salomon te gen 700 madanm ak 300 fanm deyò — yo te fè l vire do bay Bondye pou l al sèvi lòt bondye (1 Wa 11:3).",
+      "bibleReference": "1 Rois 11:3"
+    }
+  },
+  {
+    "newId": "dq-rey-021",
+    "categoryId": "reyes",
+    "difficulty": "medium",
+    "language": "ht",
+    "ht": {
+      "id": "dq-rey-021",
+      "questionText": "Kisa Salomon te mande Bondye lè Bondye te di l chwazi sa l vle a?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Richès ak onè"
+        },
+        {
+          "id": "b",
+          "text": "Yon lavi ki long"
+        },
+        {
+          "id": "c",
+          "text": "Yon kè ki gen bon konprann pou l dirije pèp la"
+        },
+        {
+          "id": "d",
+          "text": "Viktwa sou lènmi l yo"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salomon te mande yon kè ki gen bon konprann pou l dirije pèp la epi pou l konnen sa ki byen ak sa ki mal (1 Wa 3:9-13).",
+      "bibleReference": "1 Rois 3:9-13"
+    }
+  },
+  {
+    "newId": "dq-rey-022",
+    "categoryId": "reyes",
+    "difficulty": "medium",
+    "language": "ht",
+    "ht": {
+      "id": "dq-rey-022",
+      "questionText": "Ki wa peyi Lasiri ki te detwi wayòm Izrayèl nan nò a epi ki te depòte moun yo?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nabikodonozò"
+        },
+        {
+          "id": "b",
+          "text": "Salmanaza V / Sargon II"
+        },
+        {
+          "id": "c",
+          "text": "Senakerib"
+        },
+        {
+          "id": "d",
+          "text": "Dariyis"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Salmanaza V te sènen Samari; Sargon II te pran l nan ane 722 avan Jezikri (2 Wa 17:5-6).",
+      "bibleReference": "2 Rois 17:5-6"
+    }
+  },
+  {
+    "newId": "dq-rey-023",
+    "categoryId": "reyes",
+    "difficulty": "medium",
+    "language": "ht",
+    "ht": {
+      "id": "dq-rey-023",
+      "questionText": "Poukisa Bondye pa t pèmèt David bati Tanp lan limenm?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te twò granmoun"
+        },
+        {
+          "id": "b",
+          "text": "Se te yon moun ki te fè anpil lagè epi ki te koule anpil san"
+        },
+        {
+          "id": "c",
+          "text": "Li pa t gen kont lajan pou sa"
+        },
+        {
+          "id": "d",
+          "text": "Bondye te chwazi Jerizalèm sèlman apre lanmò l"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te di David: « Ou koule anpil san... ou p'ap ka bati yon kay pou mwen. » Se te Salomon, pitit gason l lan, ki t ap yon moun lapè, ki t ap fè sa (1 Istwa 22:8).",
+      "bibleReference": "1 Chroniques 22:8"
+    }
+  },
+  {
+    "newId": "dq-rey-024",
+    "categoryId": "reyes",
+    "difficulty": "hard",
+    "language": "ht",
+    "ht": {
+      "id": "dq-rey-024",
+      "questionText": "Ki jan Ezekyas te fè reziste kont envazyon moun Lasiri yo san li pa t bezwen goumen?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te peye yon gwo taks"
+        },
+        {
+          "id": "b",
+          "text": "Li te priye epi zanj Seyè a te touye 185 000 sòlda asiryen"
+        },
+        {
+          "id": "c",
+          "text": "Li te fè alyans ak peyi Lejip"
+        },
+        {
+          "id": "d",
+          "text": "Li te kache pèp la nan twou wòch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ezekyas te priye epi Ezayi te bay yon pwofesi. Zanj Seyè a te touye 185 000 sòlda asiryen nan yon sèl nwit (2 Wa 19:35-37).",
+      "bibleReference": "2 Rois 19:35-37"
+    }
+  },
+  {
+    "newId": "dq-rey-025",
+    "categoryId": "reyes",
+    "difficulty": "hard",
+    "language": "ht",
+    "ht": {
+      "id": "dq-rey-025",
+      "questionText": "Ki gwo erè Roboam te fè ki te lakòz wayòm nan separe?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te mete zidòl nan Tanp lan"
+        },
+        {
+          "id": "b",
+          "text": "Li te refize koute konsèy granmoun yo pou l te ka rann lavi pèp la pi fasil"
+        },
+        {
+          "id": "c",
+          "text": "Li te mete ansyen konsèye yo deyò"
+        },
+        {
+          "id": "d",
+          "text": "Li te fè moun nan nò yo peye de fwa plis taks"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Roboam te rejte konsèy granmoun yo epi li te swiv sa jèn yo te di l — li te pwomèt l ap rann lavi pèp la pi rèd (1 Wa 12:13-14).",
+      "bibleReference": "1 Rois 12:13-14"
+    }
+  },
+  {
+    "newId": "dq-rey-026",
+    "categoryId": "reyes",
+    "difficulty": "hard",
+    "language": "ht",
+    "ht": {
+      "id": "dq-rey-026",
+      "questionText": "Kisa ki te rive wa Manase nan fen lavi li selon 2 Kwonik 33?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te wa ki pi jis apre David"
+        },
+        {
+          "id": "b",
+          "text": "Li te wa ki pi mechan, men li te repanti lè l te nan prizon epi Bondye te retabli l"
+        },
+        {
+          "id": "c",
+          "text": "Li te mouri nan peche san li pa t janm repanti"
+        },
+        {
+          "id": "d",
+          "text": "Bondye te fè l gras poutèt priyè pwofèt Ezayi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Manase te yon move wa. Men, pandan l te prizonye lavil Babilòn, li te imilye tèt li. Bondye te tande priyè l epi li te mennen l tounen Jerizalèm (2 Kwonik 33:12-13).",
+      "bibleReference": "2 Chroniques 33:12-13"
+    }
+  },
+  {
+    "newId": "dq-rey-027",
+    "categoryId": "reyes",
+    "difficulty": "hard",
+    "language": "ht",
+    "ht": {
+      "id": "dq-rey-027",
+      "questionText": "Ki wa nan peyi Izrayèl (nò) ki te sèl wa ki te montre yon ti kras fidelite anvè Bondye nan detwi kilt Baal la?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jewoboram II"
+        },
+        {
+          "id": "b",
+          "text": "Jeou"
+        },
+        {
+          "id": "c",
+          "text": "Omri"
+        },
+        {
+          "id": "d",
+          "text": "Pekak"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jeou te detwi fanmi Akab la epi li te disparèt kilt Baal la nan peyi Izrayèl. Men, li pa t vire do bay peche Jewoboram yo (2 Wa 10:28-31).",
+      "bibleReference": "2 Rois 10:28-31"
+    }
+  },
+  {
+    "newId": "dq-sal-023",
+    "categoryId": "salmos",
+    "difficulty": "easy",
+    "language": "ht",
+    "ht": {
+      "id": "dq-sal-023",
+      "questionText": "Kilès yo konsidere kòm moun ki ekri pifò nan Sòm yo?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Azaf"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David se moun ki ekri pifò nan sòm yo. Men gen lòt moun tou tankou Moyiz, Salomon ak Azaf.",
+      "bibleReference": "Psaume 3:1"
+    }
+  },
+  {
+    "newId": "dq-sal-024",
+    "categoryId": "salmos",
+    "difficulty": "easy",
+    "language": "ht",
+    "ht": {
+      "id": "dq-sal-024",
+      "questionText": "Ki sòm ki kòmanse ak pawòl sa yo: « Seyè a se bèjè mwen »?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 1"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 22"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 23"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 91"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sòm 23 David la se youn nan sòm moun pi renmen: « Seyè a se bèjè mwen, mwen p'ap manke anyen. »",
+      "bibleReference": "Psaume 23:1"
+    }
+  },
+  {
+    "newId": "dq-sal-025",
+    "categoryId": "salmos",
+    "difficulty": "easy",
+    "language": "ht",
+    "ht": {
+      "id": "dq-sal-025",
+      "questionText": "Ki sòm ki kòmanse ak pawòl sa yo: « Bondye mwen, Bondye mwen, poukisa ou lage m' konsa? »?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 18"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 22"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 31"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 51"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 22 se yon sòm sou Mesi a — Jezi te repete premye pawòl sa yo sou kwa a (Matye 27:46).",
+      "bibleReference": "Psaume 22:1"
+    }
+  },
+  {
+    "newId": "dq-sal-026",
+    "categoryId": "salmos",
+    "difficulty": "easy",
+    "language": "ht",
+    "ht": {
+      "id": "dq-sal-026",
+      "questionText": "Ki sòm ki pi long nan Bib la?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 18"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 91"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 119"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sòm 119 se sòm ki pi long la, li gen 176 vèsè.",
+      "bibleReference": "Psaume 119:1"
+    }
+  },
+  {
+    "newId": "dq-sal-027",
+    "categoryId": "salmos",
+    "difficulty": "easy",
+    "language": "ht",
+    "ht": {
+      "id": "dq-sal-027",
+      "questionText": "Ak ki pawòl Sòm 1 kòmanse pou l dekri moun ki gen benediksyon Bondye a?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ala bon sa bon pou moun ki renmen Lalwa Seyè a"
+        },
+        {
+          "id": "b",
+          "text": "Ala bon sa bon pou moun ki pa koute konsèy mechan yo"
+        },
+        {
+          "id": "c",
+          "text": "Ala bon sa bon pou moun ki mete konfyans yo nan Seyè a"
+        },
+        {
+          "id": "d",
+          "text": "Ala bon sa bon pou pèp ki gen Seyè a pou Bondye yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 1 kòmanse konsa: « Ala bon sa bon pou moun ki pa koute konsèy mechan yo... men ki pran tout plezi l' nan lalwa Seyè a » (Sòm 1:1-2).",
+      "bibleReference": "Psaume 1:1-2"
+    }
+  }
+]

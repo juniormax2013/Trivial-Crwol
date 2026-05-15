@@ -1,0 +1,2042 @@
+[
+  {
+    "newId": "dq-evnt-023",
+    "fr": {
+      "id": "dq-evnt-023",
+      "questionText": "Quel premier concile de l'Église décida que les gentils n'avaient pas à se circoncire ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le concile d'Antioche"
+        },
+        {
+          "id": "b",
+          "text": "Le concile de Jérusalem"
+        },
+        {
+          "id": "c",
+          "text": "Le concile de Nicée"
+        },
+        {
+          "id": "d",
+          "text": "Le concile d'Éphèse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le concile de Jérusalem (Actes 15) décida que les gentils croyants n'étaient pas obligés d'observer la circoncision et la Loi de Moïse.",
+      "bibleReference": "Actes 15:19-20",
+      "normalizedRef": "act15.19-20",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "newId": "dq-evnt-024",
+    "fr": {
+      "id": "dq-evnt-024",
+      "questionText": "Quel événement marqua la chute de Jéricho lors de la conquête de Canaan ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un tremblement de terre"
+        },
+        {
+          "id": "b",
+          "text": "Une attaque surprise de nuit"
+        },
+        {
+          "id": "c",
+          "text": "La marche des Israélites pendant 7 jours et les trompettes"
+        },
+        {
+          "id": "d",
+          "text": "Une inondation du Jourdain"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les Israélites marchèrent 7 jours autour de Jéricho. Au septième jour, après 7 tours et le son des trompettes, les murailles s'effondrèrent (Josué 6:15-20).",
+      "bibleReference": "Josué 6:15-20",
+      "normalizedRef": "jos6.15-20",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "newId": "dq-evnt-025",
+    "fr": {
+      "id": "dq-evnt-025",
+      "questionText": "Quel événement dans Actes 10 marqua une percée majeure dans la mission aux gentils ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La conversion de Saül sur le chemin de Damas"
+        },
+        {
+          "id": "b",
+          "text": "La vision de Pierre sur la toiture et la conversion de Corneille"
+        },
+        {
+          "id": "c",
+          "text": "Le premier voyage missionnaire de Paul"
+        },
+        {
+          "id": "d",
+          "text": "La Pentecôte de Jérusalem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La vision de la nappe (Actes 10:9-16) et la conversion du centurion Corneille marquèrent l'ouverture officielle de l'Évangile aux non-Juifs.",
+      "bibleReference": "Actes 10:44-48",
+      "normalizedRef": "act10.44-48",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "newId": "dq-evnt-026",
+    "fr": {
+      "id": "dq-evnt-026",
+      "questionText": "Que représente théologiquement le sacrifice d'Isaac par Abraham (l'Akeda) en Genèse 22 ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La supériorité d'Abraham sur Noé"
+        },
+        {
+          "id": "b",
+          "text": "Un type du sacrifice du Père envoyant son Fils unique"
+        },
+        {
+          "id": "c",
+          "text": "La fin des sacrifices humains dans les religions du Proche-Orient"
+        },
+        {
+          "id": "d",
+          "text": "L'alliance de Dieu avec la tribu de Lévi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'offrande d'Isaac est un type du sacrifice de Christ : Abraham offre son fils unique bien-aimé ; Dieu substitua un bélier (Genèse 22:13-14).",
+      "bibleReference": "Genèse 22:1-14",
+      "normalizedRef": "gen22.1-14",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "newId": "dq-evnt-027",
+    "fr": {
+      "id": "dq-evnt-027",
+      "questionText": "Quel événement sépara définitivement le royaume d'Israël en deux après Salomon ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mort de Saül à Guilboa"
+        },
+        {
+          "id": "b",
+          "text": "Le rejet de Roboam par les tribus du nord à Sichem"
+        },
+        {
+          "id": "c",
+          "text": "La rébellion de Absalom contre David"
+        },
+        {
+          "id": "d",
+          "text": "La défaite d'Israël par les Philistins"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Roboam refusa d'alléger le joug imposé par Salomon. Les 10 tribus du nord se séparèrent sous Jéroboam à Sichem (1 Rois 12:16-20).",
+      "bibleReference": "1 Rois 12:16-20",
+      "normalizedRef": "1ki12.16-20",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "newId": "dq-evnt-028",
+    "fr": {
+      "id": "dq-evnt-028",
+      "questionText": "Quel événement apocalyptique marque la fin du millénium en Apocalypse 20 ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La guerre de Gog et Magog"
+        },
+        {
+          "id": "b",
+          "text": "L'apparition de la Nouvelle Jérusalem"
+        },
+        {
+          "id": "c",
+          "text": "La résurrection de tous les morts"
+        },
+        {
+          "id": "d",
+          "text": "Le jugement du Grand Trône blanc"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "À la fin du millénium, Satan est relâché et rassemble les nations (Gog et Magog) pour la bataille finale, avant le Grand Jugement (Apocalypse 20:7-10).",
+      "bibleReference": "Apocalypse 20:7-10",
+      "normalizedRef": "rev20.7-10",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "newId": "dq-tema-017",
+    "fr": {
+      "id": "dq-tema-017",
+      "questionText": "Quel est le grand commandement selon Jésus dans Matthieu 22 ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Obéir à la Loi de Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Aimer Dieu de tout son cœur et son prochain comme soi-même"
+        },
+        {
+          "id": "c",
+          "text": "Baptiser toutes les nations"
+        },
+        {
+          "id": "d",
+          "text": "Honorer son père et sa mère"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Tu aimeras le Seigneur ton Dieu... et ton prochain comme toi-même. De ces deux commandements dépendent la Loi et les Prophètes » (Matthieu 22:37-40).",
+      "bibleReference": "Matthieu 22:37-40",
+      "normalizedRef": "mat22.37-40",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "newId": "dq-tema-018",
+    "fr": {
+      "id": "dq-tema-018",
+      "questionText": "Selon Romains 6:23, quel est le salaire du péché ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La maladie"
+        },
+        {
+          "id": "b",
+          "text": "La souffrance"
+        },
+        {
+          "id": "c",
+          "text": "La mort"
+        },
+        {
+          "id": "d",
+          "text": "La pauvreté"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Le salaire du péché, c'est la mort ; mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ » (Romains 6:23).",
+      "bibleReference": "Romains 6:23",
+      "normalizedRef": "rom6.23",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "newId": "dq-tema-019",
+    "fr": {
+      "id": "dq-tema-019",
+      "questionText": "Qu'est-ce que la sanctification dans la vie chrétienne ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le moment du baptême"
+        },
+        {
+          "id": "b",
+          "text": "Le processus de croissance vers la ressemblance à Christ"
+        },
+        {
+          "id": "c",
+          "text": "L'acte de prier chaque jour"
+        },
+        {
+          "id": "d",
+          "text": "La lecture quotidienne de la Bible"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La sanctification est le processus continu par lequel le croyant est transformé à l'image de Christ par l'Esprit Saint (2 Corinthiens 3:18).",
+      "bibleReference": "2 Corinthiens 3:18",
+      "normalizedRef": "2co3.18",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "newId": "dq-tema-020",
+    "fr": {
+      "id": "dq-tema-020",
+      "questionText": "Que signifie le concept biblique d'« alliance » (berith en hébreu) ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un contrat légal entre deux partis égaux"
+        },
+        {
+          "id": "b",
+          "text": "Un engagement solennel de Dieu envers son peuple avec des promesses et des conditions"
+        },
+        {
+          "id": "c",
+          "text": "Une loi orale transmise de génération en génération"
+        },
+        {
+          "id": "d",
+          "text": "Une cérémonie religieuse annuelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'alliance biblique (berith) est un engagement solennel de Dieu — Noé, Abraham, Moïse, David, Nouvelle Alliance — chacune avec des promesses spécifiques.",
+      "bibleReference": "Jérémie 31:31-34",
+      "normalizedRef": "jer31.31-34",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "newId": "dq-tema-021",
+    "fr": {
+      "id": "dq-tema-021",
+      "questionText": "Que signifie « rédemption » dans le contexte biblique ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gagner son salut par de bonnes actions"
+        },
+        {
+          "id": "b",
+          "text": "Être racheté et libéré de l'esclavage du péché par le prix payé par Christ"
+        },
+        {
+          "id": "c",
+          "text": "Recevoir la guérison physique"
+        },
+        {
+          "id": "d",
+          "text": "Appartenir à l'Église officielle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rédemption (apolutrosis) = rachat. Christ paya le prix de notre libération de l'esclavage du péché par son sang (Éphésiens 1:7).",
+      "bibleReference": "Éphésiens 1:7",
+      "normalizedRef": "eph1.7",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "newId": "dq-tema-022",
+    "fr": {
+      "id": "dq-tema-022",
+      "questionText": "Quelle est la différence entre justification et régénération ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ce sont deux mots pour le même événement"
+        },
+        {
+          "id": "b",
+          "text": "La justification est un statut légal ; la régénération est une transformation intérieure"
+        },
+        {
+          "id": "c",
+          "text": "La justification est pour l'AT ; la régénération pour le NT"
+        },
+        {
+          "id": "d",
+          "text": "La régénération précède toujours la justification"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Justification = Dieu déclare le pécheur juste (acte légal). Régénération = nouvelle naissance, transformation du cœur par l'Esprit (Jean 3:3; Romains 5:1).",
+      "bibleReference": "Romains 5:1",
+      "normalizedRef": "rom5.1",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "newId": "dq-tema-023",
+    "fr": {
+      "id": "dq-tema-023",
+      "questionText": "Que signifie le terme « koinonia » dans le NT et comment se manifeste-t-il ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La prière individuelle silencieuse"
+        },
+        {
+          "id": "b",
+          "text": "La communion et le partage fraternel dans la communauté chrétienne"
+        },
+        {
+          "id": "c",
+          "text": "La participation aux sacrements uniquement"
+        },
+        {
+          "id": "d",
+          "text": "L'étude académique des Écritures"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Koinonia (communion) désigne le partage fraternel profond — partage des biens, prière commune, repas du Seigneur (Actes 2:42-44).",
+      "bibleReference": "Actes 2:42",
+      "normalizedRef": "act2.42",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "newId": "dq-tema-024",
+    "fr": {
+      "id": "dq-tema-024",
+      "questionText": "Que désigne le concept de « Royaume de Dieu » dans l'enseignement de Jésus ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Uniquement le ciel après la mort"
+        },
+        {
+          "id": "b",
+          "text": "Le règne souverain de Dieu déjà présent et à venir"
+        },
+        {
+          "id": "c",
+          "text": "Israël comme nation théocratique"
+        },
+        {
+          "id": "d",
+          "text": "L'Église institutionnelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Royaume de Dieu est à la fois « déjà là » (Luc 17:21) et « pas encore » pleinement établi — réalité présente et espérance future.",
+      "bibleReference": "Luc 17:21",
+      "normalizedRef": "luk17.21",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "newId": "dq-tema-025",
+    "fr": {
+      "id": "dq-tema-025",
+      "questionText": "Qu'est-ce que la doctrine de la « substitution pénale » concernant la mort de Christ ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Christ est mort en exemple de sacrifice"
+        },
+        {
+          "id": "b",
+          "text": "Christ a porté à notre place la peine que nous méritions"
+        },
+        {
+          "id": "c",
+          "text": "Christ a vaincu la mort comme champion de l'humanité"
+        },
+        {
+          "id": "d",
+          "text": "Christ a payé une rançon au diable"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La substitution pénale : Christ prit sur lui la colère de Dieu que nous méritions — « Il a été blessé pour nos transgressions » (Ésaïe 53:5; 2 Corinthiens 5:21).",
+      "bibleReference": "Ésaïe 53:5",
+      "normalizedRef": "isa53.5",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "newId": "dq-tema-026",
+    "fr": {
+      "id": "dq-tema-026",
+      "questionText": "Que signifie l'imago Dei (image de Dieu) dans Genèse 1:26-27 ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'homme ressemble physiquement à Dieu"
+        },
+        {
+          "id": "b",
+          "text": "L'homme reflète des attributs de Dieu : raison, morale, relation et domination créatrice"
+        },
+        {
+          "id": "c",
+          "text": "Seuls les prêtres portent l'image de Dieu"
+        },
+        {
+          "id": "d",
+          "text": "L'image divine se perd complètement après la chute"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Imago Dei : l'homme est créé pour refléter Dieu — raison, morale, créativité, relationnalité. Cette image est ternie par le péché mais pas détruite (Genèse 9:6; Jacques 3:9).",
+      "bibleReference": "Genèse 1:26-27",
+      "normalizedRef": "gen1.26-27",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "newId": "dq-tema-027",
+    "fr": {
+      "id": "dq-tema-027",
+      "questionText": "Quelle est la signification théologique de la résurrection corporelle de Jésus selon 1 Corinthiens 15 ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elle prouve seulement que Jésus était Dieu"
+        },
+        {
+          "id": "b",
+          "text": "Sans elle, notre foi est vaine — elle garantit notre propre résurrection future"
+        },
+        {
+          "id": "c",
+          "text": "Elle est uniquement spirituelle, pas physique"
+        },
+        {
+          "id": "d",
+          "text": "Elle n'est importante que pour les Juifs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul déclare : « Si Christ n'est pas ressuscité, notre prédication est vaine, et votre foi est vaine. » La résurrection de Christ est les prémices de la résurrection des croyants (1 Corinthiens 15:17,20).",
+      "bibleReference": "1 Corinthiens 15:17-20",
+      "normalizedRef": "1co15.17-20",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "newId": "dq-tema-028",
+    "fr": {
+      "id": "dq-tema-028",
+      "questionText": "Que signifie la doctrine de la « persévérance des saints » ?",
+      "categoryId": "temas",
+      "categoryName": "Thèmes Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les vrais croyants peuvent perdre leur salut s'ils pèchent"
+        },
+        {
+          "id": "b",
+          "text": "Ceux que Dieu a élus persévèrent jusqu'à la fin par sa puissance"
+        },
+        {
+          "id": "c",
+          "text": "Le salut dépend entièrement des efforts du croyant"
+        },
+        {
+          "id": "d",
+          "text": "Tous les humains seront finalement sauvés"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La persévérance des saints (calvinisme) : Dieu préserve ceux qu'il a élus — « Celui qui a commencé en vous une bonne œuvre la poursuivra » (Philippiens 1:6; Jean 10:28-29).",
+      "bibleReference": "Jean 10:28-29",
+      "normalizedRef": "joh10.28-29",
+      "normalizedCat": "temas"
+    }
+  },
+  {
+    "newId": "dq-gen-023",
+    "fr": {
+      "id": "dq-gen-023",
+      "questionText": "Combien de jours Dieu prit-il pour créer le monde ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3 jours"
+        },
+        {
+          "id": "b",
+          "text": "6 jours"
+        },
+        {
+          "id": "c",
+          "text": "7 jours"
+        },
+        {
+          "id": "d",
+          "text": "40 jours"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu créa en six jours et se reposa le septième (Genèse 1-2:3).",
+      "bibleReference": "Genèse 1:31-2:2",
+      "normalizedRef": "gen1.31-2.2",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-024",
+    "fr": {
+      "id": "dq-gen-024",
+      "questionText": "Qui fut le premier meurtre de l'histoire biblique et par qui fut-il commis ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abel tua Caïn"
+        },
+        {
+          "id": "b",
+          "text": "Caïn tua Abel"
+        },
+        {
+          "id": "c",
+          "text": "Lamec tua un homme"
+        },
+        {
+          "id": "d",
+          "text": "Esaü menaça Jacob"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Caïn, jaloux que Dieu ait agréé l'offrande d'Abel, tua son frère (Genèse 4:8).",
+      "bibleReference": "Genèse 4:8",
+      "normalizedRef": "gen4.8",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-025",
+    "fr": {
+      "id": "dq-gen-025",
+      "questionText": "Combien de fils Jacob eut-il, ancêtres des 12 tribus d'Israël ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "11"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "13"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jacob eut 12 fils qui devinrent les pères des 12 tribus d'Israël (Genèse 35:22-26).",
+      "bibleReference": "Genèse 35:22-26",
+      "normalizedRef": "gen35.22-26",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-026",
+    "fr": {
+      "id": "dq-gen-026",
+      "questionText": "Que signifia l'arc-en-ciel que Dieu plaça dans le ciel après le déluge ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le signe de la beauté de la création"
+        },
+        {
+          "id": "b",
+          "text": "L'alliance de Dieu de ne plus détruire la terre par un déluge"
+        },
+        {
+          "id": "c",
+          "text": "La promesse de la pluie pour les récoltes"
+        },
+        {
+          "id": "d",
+          "text": "Le chemin vers la présence de Dieu"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'arc-en-ciel est le signe de l'alliance de Dieu avec Noé et toute créature vivante : Dieu ne détruira plus la terre par les eaux (Genèse 9:13-15).",
+      "bibleReference": "Genèse 9:13-15",
+      "normalizedRef": "gen9.13-15",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-027",
+    "fr": {
+      "id": "dq-gen-027",
+      "questionText": "Quel pacte Dieu conclut-il avec Abraham en Genèse 15 concernant la terre ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham recevrait Canaan de son vivant"
+        },
+        {
+          "id": "b",
+          "text": "Sa descendance posséderait la terre de l'Égypte au fleuve Euphrate"
+        },
+        {
+          "id": "c",
+          "text": "Abraham resterait nomade toute sa vie"
+        },
+        {
+          "id": "d",
+          "text": "Ses enfants recevraient la terre dans 400 ans après l'esclavage"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu conclut l'alliance abrahamique : « Je donne à ta postérité ce pays, depuis le fleuve d'Égypte jusqu'au grand fleuve, l'Euphrate » (Genèse 15:18).",
+      "bibleReference": "Genèse 15:18",
+      "normalizedRef": "gen15.18",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-028",
+    "fr": {
+      "id": "dq-gen-028",
+      "questionText": "Qu'est-ce que la « bénédiction » qu'Isaac donna à Jacob par erreur ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La propriété de tous les troupeaux"
+        },
+        {
+          "id": "b",
+          "text": "La bénédiction du premier-né incluant autorité et prospérité"
+        },
+        {
+          "id": "c",
+          "text": "Le droit d'aîné acheté pour de la soupe"
+        },
+        {
+          "id": "d",
+          "text": "L'alliance avec Dieu directement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacob se fit passer pour Ésaü et reçut la bénédiction de premier-né : domination sur les frères et prospérité — irréversible une fois prononcée (Genèse 27:28-29).",
+      "bibleReference": "Genèse 27:28-29",
+      "normalizedRef": "gen27.28-29",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-029",
+    "fr": {
+      "id": "dq-gen-029",
+      "questionText": "Quelle vision Jacob eut-il à Béthel pendant sa fuite vers Haran ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un buisson ardent"
+        },
+        {
+          "id": "b",
+          "text": "Une échelle atteignant le ciel avec des anges montant et descendant"
+        },
+        {
+          "id": "c",
+          "text": "Un char de feu"
+        },
+        {
+          "id": "d",
+          "text": "Le visage de Dieu dans les nuages"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacob vit en songe une échelle (ou rampe) dont le sommet atteignait le ciel, avec des anges montant et descendant — Dieu lui renouvela l'alliance (Genèse 28:12-13).",
+      "bibleReference": "Genèse 28:12-13",
+      "normalizedRef": "gen28.12-13",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-030",
+    "fr": {
+      "id": "dq-gen-030",
+      "questionText": "Pourquoi Joseph fut-il vendu comme esclave par ses frères ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il avait volé leur héritage"
+        },
+        {
+          "id": "b",
+          "text": "Par jalousie à cause de l'amour préférentiel de Jacob et de ses rêves"
+        },
+        {
+          "id": "c",
+          "text": "Il avait accusé ses frères devant Pharaon"
+        },
+        {
+          "id": "d",
+          "text": "Il avait épousé une femme cananéenne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacob aimait Joseph plus que ses autres fils (la tunique) et Joseph rapportait leurs méfaits. Ses rêves de domination excitèrent leur jalousie (Genèse 37:3-4,8).",
+      "bibleReference": "Genèse 37:3-11",
+      "normalizedRef": "gen37.3-11",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-031",
+    "fr": {
+      "id": "dq-gen-031",
+      "questionText": "Quelle est la signification de « Protévangile » dans Genèse 3:15 ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La première loi donnée à Adam"
+        },
+        {
+          "id": "b",
+          "text": "La première annonce de l'Évangile — l'hostilité entre la semence de la femme et le serpent"
+        },
+        {
+          "id": "c",
+          "text": "La première promesse de retour en Éden"
+        },
+        {
+          "id": "d",
+          "text": "L'alliance de la circoncision"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Genèse 3:15 est le protévangile (premier Évangile) : « Je mettrai inimitié... entre ta semence et sa semence » — prophétie du triomphe du Messie sur Satan.",
+      "bibleReference": "Genèse 3:15",
+      "normalizedRef": "gen3.15",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-032",
+    "fr": {
+      "id": "dq-gen-032",
+      "questionText": "Quel est le sens théologique de l'alliance de circoncision avec Abraham (Genèse 17) ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un rite d'hygiène pour le désert"
+        },
+        {
+          "id": "b",
+          "text": "Le signe extérieur de l'appartenance au peuple de l'alliance de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Un rite magique pour la fertilité"
+        },
+        {
+          "id": "d",
+          "text": "Une marque tribale distinguant Israël des Cananéens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La circoncision est le signe de l'alliance abrahamique — appartenance au peuple de Dieu. Paul la réinterprète comme « circoncision du cœur » pour les croyants gentils (Genèse 17:10-11; Romains 2:29).",
+      "bibleReference": "Genèse 17:10-11",
+      "normalizedRef": "gen17.10-11",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-gen-033",
+    "fr": {
+      "id": "dq-gen-033",
+      "questionText": "Comment le récit de Joseph en Égypte illustre-t-il la providence divine malgré le péché humain ?",
+      "categoryId": "genesis",
+      "categoryName": "Genèse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu punit les frères de Joseph immédiatement"
+        },
+        {
+          "id": "b",
+          "text": "Joseph dit à ses frères : ce que vous avez voulu me faire du mal, Dieu l'a voulu pour le bien"
+        },
+        {
+          "id": "c",
+          "text": "Dieu efface le péché des frères sans conséquences"
+        },
+        {
+          "id": "d",
+          "text": "Joseph refusa de pardonner jusqu'à la mort de son père"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joseph révèle la providence divine : « Vous aviez pensé me faire du mal, mais Dieu a pensé le tourner en bien » (Genèse 50:20) — type du don de Christ pour le salut.",
+      "bibleReference": "Genèse 50:20",
+      "normalizedRef": "gen50.20",
+      "normalizedCat": "genesis"
+    }
+  },
+  {
+    "newId": "dq-exo-016",
+    "fr": {
+      "id": "dq-exo-016",
+      "questionText": "Comment Moïse apprit-il qu'il devait délivrer Israël ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Par un rêve au désert"
+        },
+        {
+          "id": "b",
+          "text": "Par un buisson ardent et la voix de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Par le grand prêtre Aaron"
+        },
+        {
+          "id": "d",
+          "text": "Par une vision dans le ciel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu apparut à Moïse dans un buisson ardent et lui révéla sa mission de libérer Israël (Exode 3:2-10).",
+      "bibleReference": "Exode 3:2-10",
+      "normalizedRef": "exo3.2-10",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-017",
+    "fr": {
+      "id": "dq-exo-017",
+      "questionText": "Quelle fut la dernière plaie envoyée sur l'Égypte ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les ténèbres"
+        },
+        {
+          "id": "b",
+          "text": "Les sauterelles"
+        },
+        {
+          "id": "c",
+          "text": "La mort des premiers-nés"
+        },
+        {
+          "id": "d",
+          "text": "La grêle de feu"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La dixième et dernière plaie fut la mort de tous les premiers-nés d'Égypte, ce qui poussa Pharaon à libérer Israël (Exode 12:29-33).",
+      "bibleReference": "Exode 12:29-33",
+      "normalizedRef": "exo12.29-33",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-018",
+    "fr": {
+      "id": "dq-exo-018",
+      "questionText": "Comment Dieu guida-t-il Israël dans le désert après l'Exode ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Par des anges visibles"
+        },
+        {
+          "id": "b",
+          "text": "Par une colonne de nuée le jour et de feu la nuit"
+        },
+        {
+          "id": "c",
+          "text": "Par les étoiles uniquement"
+        },
+        {
+          "id": "d",
+          "text": "Par la voix de Moïse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu guidait Israël par une colonne de nuée le jour et une colonne de feu la nuit (Exode 13:21-22).",
+      "bibleReference": "Exode 13:21-22",
+      "normalizedRef": "exo13.21-22",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-019",
+    "fr": {
+      "id": "dq-exo-019",
+      "questionText": "Qu'est-ce que la manne que Dieu envoya dans le désert ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "De la viande miraculeuse"
+        },
+        {
+          "id": "b",
+          "text": "Une substance semblable à du pain que Dieu faisait tomber du ciel chaque matin"
+        },
+        {
+          "id": "c",
+          "text": "De l'eau transformée en nourriture"
+        },
+        {
+          "id": "d",
+          "text": "Des figues et des dattes miraculeuses"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La manne était une substance blanche comme la graine de coriandre, au goût de galette au miel, envoyée par Dieu chaque matin (Exode 16:14-15,31).",
+      "bibleReference": "Exode 16:14-15",
+      "normalizedRef": "exo16.14-15",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-020",
+    "fr": {
+      "id": "dq-exo-020",
+      "questionText": "Quelle est la première des Dix Commandements ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tu ne tueras point"
+        },
+        {
+          "id": "b",
+          "text": "Tu n'auras pas d'autres dieux devant moi"
+        },
+        {
+          "id": "c",
+          "text": "Tu honoreras ton père et ta mère"
+        },
+        {
+          "id": "d",
+          "text": "Tu ne commettras point d'adultère"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le premier commandement affirme le monothéisme exclusif : « Tu n'auras pas d'autres dieux devant ma face » (Exode 20:3).",
+      "bibleReference": "Exode 20:3",
+      "normalizedRef": "exo20.3",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-021",
+    "fr": {
+      "id": "dq-exo-021",
+      "questionText": "Quelle fut la réaction de Moïse en voyant le veau d'or fabriqué par Aaron ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il pria en silence pour le peuple"
+        },
+        {
+          "id": "b",
+          "text": "Il brisa les tables de la Loi et détruisit le veau d'or"
+        },
+        {
+          "id": "c",
+          "text": "Il envoya des soldats punir les coupables"
+        },
+        {
+          "id": "d",
+          "text": "Il demanda à Aaron de fondre le veau"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Moïse, en fureur, brisa les tables au pied de la montagne, brûla le veau d'or et le réduisit en poudre (Exode 32:19-20).",
+      "bibleReference": "Exode 32:19-20",
+      "normalizedRef": "exo32.19-20",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-022",
+    "fr": {
+      "id": "dq-exo-022",
+      "questionText": "Quelle fut la signification spirituelle de la mer Rouge traversée par Israël (1 Corinthiens 10) ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un symbole de la traversée de la mort"
+        },
+        {
+          "id": "b",
+          "text": "Un baptême typologique les unissant à Moïse"
+        },
+        {
+          "id": "c",
+          "text": "La fin de l'esclavage physique uniquement"
+        },
+        {
+          "id": "d",
+          "text": "Un rite de purification avant d'entrer au désert"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul dit que les pères furent tous baptisés en Moïse dans la nuée et dans la mer — type du baptême chrétien (1 Corinthiens 10:1-2).",
+      "bibleReference": "1 Corinthiens 10:1-2",
+      "normalizedRef": "1co10.1-2",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-023",
+    "fr": {
+      "id": "dq-exo-023",
+      "questionText": "Pourquoi Moïse ne put-il pas entrer dans la Terre Promise ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il mourut de vieillesse avant d'arriver"
+        },
+        {
+          "id": "b",
+          "text": "Il frappa le rocher deux fois au lieu de lui parler, désobéissant à Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Il refusa d'entrer par humilité"
+        },
+        {
+          "id": "d",
+          "text": "Dieu punit Israël entier à cause du veau d'or"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "À Méribah, Moïse frappa le rocher deux fois au lieu de lui parler. Dieu lui dit qu'il ne ferait pas entrer le peuple dans la terre (Nombres 20:11-12).",
+      "bibleReference": "Nombres 20:11-12",
+      "normalizedRef": "num20.11-12",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-024",
+    "fr": {
+      "id": "dq-exo-024",
+      "questionText": "Quel rôle joua le Tabernacle construit dans le désert ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une école pour enseigner la Loi aux enfants"
+        },
+        {
+          "id": "b",
+          "text": "La demeure mobile de Dieu au milieu d'Israël et le lieu du culte sacré"
+        },
+        {
+          "id": "c",
+          "text": "Une forteresse militaire pour protéger le peuple"
+        },
+        {
+          "id": "d",
+          "text": "Un palais pour Moïse et les anciens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Tabernacle (mishkan) était la demeure de Dieu au milieu de son peuple — lieu du sacrifice, de la prière et de la présence divine (Exode 25:8; 40:34-35).",
+      "bibleReference": "Exode 40:34-35",
+      "normalizedRef": "exo40.34-35",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-025",
+    "fr": {
+      "id": "dq-exo-025",
+      "questionText": "Quel est le nom divin révélé à Moïse dans Exode 3:14 et sa signification ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adonaï — Seigneur souverain"
+        },
+        {
+          "id": "b",
+          "text": "Ehyeh Asher Ehyeh — Je suis celui qui suis / Je serai celui qui serai"
+        },
+        {
+          "id": "c",
+          "text": "El Shaddai — Dieu tout-puissant"
+        },
+        {
+          "id": "d",
+          "text": "Elohim — Dieu créateur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ehyeh Asher Ehyeh (Je suis celui qui suis) révèle l'existence auto-suffisante, éternelle et immuable de Dieu — YHWH dérive de cette racine (Exode 3:14).",
+      "bibleReference": "Exode 3:14",
+      "normalizedRef": "exo3.14",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-026",
+    "fr": {
+      "id": "dq-exo-026",
+      "questionText": "Quelle est la signification typologique du serpent d'airain de Moïse (Nombres 21:8-9) selon Jean 3:14 ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un symbole de la guérison médicale"
+        },
+        {
+          "id": "b",
+          "text": "Jésus élevé sur la croix — ceux qui le regardent par la foi sont sauvés"
+        },
+        {
+          "id": "c",
+          "text": "La puissance de Moïse sur le péché"
+        },
+        {
+          "id": "d",
+          "text": "La résurrection future d'Israël"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus lui-même dit : « De même que Moïse a élevé le serpent dans le désert, il faut que le Fils de l'homme soit élevé » (Jean 3:14) — type de la crucifixion.",
+      "bibleReference": "Jean 3:14-15",
+      "normalizedRef": "joh3.14-15",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-027",
+    "fr": {
+      "id": "dq-exo-027",
+      "questionText": "Que symbolisait le grand prêtre lors de l'entrée dans le Saint des Saints le Jour des Expiations (Lévitique 16) ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le roi d'Israël intercédant pour la nation"
+        },
+        {
+          "id": "b",
+          "text": "Le médiateur unique accédant à la présence de Dieu avec le sang expiatoire — type de Christ"
+        },
+        {
+          "id": "c",
+          "text": "Le prophète recevant les commandements divins"
+        },
+        {
+          "id": "d",
+          "text": "L'intermédiaire entre les tribus pour la paix"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le grand prêtre entrait seul avec le sang dans le Saint des Saints — type de Christ, notre grand prêtre, entrant dans le ciel avec son propre sang (Hébreux 9:11-12).",
+      "bibleReference": "Hébreux 9:11-12",
+      "normalizedRef": "heb9.11-12",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-028",
+    "fr": {
+      "id": "dq-exo-028",
+      "questionText": "Combien de jours Moïse passa-t-il sur le Sinaï pour recevoir la Loi lors de sa première montée ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 jours"
+        },
+        {
+          "id": "b",
+          "text": "20 jours"
+        },
+        {
+          "id": "c",
+          "text": "40 jours"
+        },
+        {
+          "id": "d",
+          "text": "70 jours"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Moïse demeura 40 jours et 40 nuits sur la montagne pour recevoir la Loi et les instructions du Tabernacle (Exode 24:18).",
+      "bibleReference": "Exode 24:18",
+      "normalizedRef": "exo24.18",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-exo-029",
+    "fr": {
+      "id": "dq-exo-029",
+      "questionText": "Quel principe juridique de l'AT est contenu dans la formule « œil pour œil, dent pour dent » (Exode 21:24) ?",
+      "categoryId": "exodo",
+      "categoryName": "Exode",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une invitation à la vengeance personnelle illimitée"
+        },
+        {
+          "id": "b",
+          "text": "La loi du talion — proportionnalité de la punition à l'infraction"
+        },
+        {
+          "id": "c",
+          "text": "Un droit exclusif du roi à punir"
+        },
+        {
+          "id": "d",
+          "text": "Une loi provisoire remplacée par l'amour dans le NT"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La Lex Talionis (loi du talion) limitait la vengeance à une punition proportionnelle — révolutionnaire dans l'antiquité. Jésus l'élève au pardon (Exode 21:24; Matthieu 5:38-39).",
+      "bibleReference": "Exode 21:24",
+      "normalizedRef": "exo21.24",
+      "normalizedCat": "exodo"
+    }
+  },
+  {
+    "newId": "dq-rey-016",
+    "fr": {
+      "id": "dq-rey-016",
+      "questionText": "Quel roi David tua-t-il après l'avoir envoyé au front pour cacher son adultère avec Bethsabée ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abner"
+        },
+        {
+          "id": "b",
+          "text": "Urie le Hittite"
+        },
+        {
+          "id": "c",
+          "text": "Amnon"
+        },
+        {
+          "id": "d",
+          "text": "Joab"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "David ordonna de placer Urie le Hittite, mari de Bethsabée, en première ligne de combat pour le faire tuer (2 Samuel 11:14-17).",
+      "bibleReference": "2 Samuel 11:14-17",
+      "normalizedRef": "2sa11.14-17",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-017",
+    "fr": {
+      "id": "dq-rey-017",
+      "questionText": "Quel roi d'Israël fit construire des veaux d'or à Béthel et à Dan après la division du royaume ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Achab"
+        },
+        {
+          "id": "b",
+          "text": "Jéhu"
+        },
+        {
+          "id": "c",
+          "text": "Jéroboam"
+        },
+        {
+          "id": "d",
+          "text": "Baésha"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jéroboam Ier fit forger deux veaux d'or pour empêcher le peuple d'aller sacrifier à Jérusalem (1 Rois 12:28-29).",
+      "bibleReference": "1 Rois 12:28-29",
+      "normalizedRef": "1ki12.28-29",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-018",
+    "fr": {
+      "id": "dq-rey-018",
+      "questionText": "Quel roi judéen trouva le Livre de la Loi et fit une grande réforme religieuse ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ézéchias"
+        },
+        {
+          "id": "b",
+          "text": "Josias"
+        },
+        {
+          "id": "c",
+          "text": "Manassé"
+        },
+        {
+          "id": "d",
+          "text": "Asa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le roi Josias fit une réforme profonde après la découverte du Livre de la Loi dans le Temple (2 Rois 22-23).",
+      "bibleReference": "2 Rois 22:8-13",
+      "normalizedRef": "2ki22.8-13",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-019",
+    "fr": {
+      "id": "dq-rey-019",
+      "questionText": "Comment la reine Jézabel mourut-elle ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elle fut brûlée par un feu du ciel"
+        },
+        {
+          "id": "b",
+          "text": "Elle fut jetée d'une fenêtre par ses propres serviteurs"
+        },
+        {
+          "id": "c",
+          "text": "Elle mourut de maladie"
+        },
+        {
+          "id": "d",
+          "text": "Elle fut exécutée par le prophète Élie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jézabel fut jetée d'une fenêtre sur l'ordre de Jéhu. Les chevaux la piétinèrent et les chiens mangèrent son corps, accomplissant la prophétie d'Élie (2 Rois 9:33-36).",
+      "bibleReference": "2 Rois 9:33-36",
+      "normalizedRef": "2ki9.33-36",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-020",
+    "fr": {
+      "id": "dq-rey-020",
+      "questionText": "Quel roi d'Israël est connu pour avoir le plus de femmes et de concubines ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Achab"
+        },
+        {
+          "id": "d",
+          "text": "Roboam"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Salomon eut 700 femmes de haut rang et 300 concubines — qui détournèrent son cœur vers d'autres dieux (1 Rois 11:3).",
+      "bibleReference": "1 Rois 11:3",
+      "normalizedRef": "1ki11.3",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-021",
+    "fr": {
+      "id": "dq-rey-021",
+      "questionText": "Que demanda Salomon à Dieu lorsque Dieu lui dit de choisir ce qu'il voulait ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Richesse et honneur"
+        },
+        {
+          "id": "b",
+          "text": "La longue vie"
+        },
+        {
+          "id": "c",
+          "text": "Un cœur plein de sagesse pour gouverner le peuple"
+        },
+        {
+          "id": "d",
+          "text": "La victoire sur ses ennemis"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Salomon demanda un cœur écoutant pour gouverner le peuple et discerner le bien du mal. Dieu lui accorda sagesse, richesse et gloire (1 Rois 3:9-13).",
+      "bibleReference": "1 Rois 3:9-13",
+      "normalizedRef": "1ki3.9-13",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-022",
+    "fr": {
+      "id": "dq-rey-022",
+      "questionText": "Quel roi d'Assyrie détruisit le royaume d'Israël du Nord et déporta ses habitants ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nabuchodonosor"
+        },
+        {
+          "id": "b",
+          "text": "Salmanasar V / Sargon II"
+        },
+        {
+          "id": "c",
+          "text": "Sanchérib"
+        },
+        {
+          "id": "d",
+          "text": "Darius"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Salmanasar V assiégea Samarie ; Sargon II la prit en 722 av. J.-C. et déporta les 10 tribus du Nord (2 Rois 17:5-6).",
+      "bibleReference": "2 Rois 17:5-6",
+      "normalizedRef": "2ki17.5-6",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-023",
+    "fr": {
+      "id": "dq-rey-023",
+      "questionText": "Pourquoi David ne fut-il pas autorisé à construire le Temple lui-même ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il était trop vieux"
+        },
+        {
+          "id": "b",
+          "text": "Il était un homme de guerre qui avait versé le sang"
+        },
+        {
+          "id": "c",
+          "text": "Il n'avait pas les ressources financières"
+        },
+        {
+          "id": "d",
+          "text": "Dieu avait choisi Jérusalem comme lieu seulement après sa mort"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu dit à David : « Tu as versé beaucoup de sang... tu ne bâtiras pas une maison à mon nom. » Ce serait Salomon, son fils, un homme de paix (1 Chroniques 22:8).",
+      "bibleReference": "1 Chroniques 22:8",
+      "normalizedRef": "1ch22.8",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-024",
+    "fr": {
+      "id": "dq-rey-024",
+      "questionText": "Comment Ézéchias résista-t-il à l'invasion assyrienne de Sanchérib sans combattre ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il paya un tribut immense"
+        },
+        {
+          "id": "b",
+          "text": "Il pria et l'ange du Seigneur tua 185 000 soldats assyriens"
+        },
+        {
+          "id": "c",
+          "text": "Il forma une alliance avec l'Égypte"
+        },
+        {
+          "id": "d",
+          "text": "Il cacha le peuple dans des grottes souterraines"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ézéchias pria et Ésaïe prophétisa. L'ange du Seigneur frappa 185 000 Assyriens dans la nuit — Sanchérib rentra et fut assassiné (2 Rois 19:35-37).",
+      "bibleReference": "2 Rois 19:35-37",
+      "normalizedRef": "2ki19.35-37",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-025",
+    "fr": {
+      "id": "dq-rey-025",
+      "questionText": "Quelle était la faute principale de Roboam qui provoqua la division du royaume ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il introduisit l'idolâtrie dans le Temple"
+        },
+        {
+          "id": "b",
+          "text": "Il refusa d'alléger le joug imposé par Salomon, suivant les conseils des jeunes"
+        },
+        {
+          "id": "c",
+          "text": "Il exila les anciens conseillers du royaume"
+        },
+        {
+          "id": "d",
+          "text": "Il taxa les tribus du nord deux fois plus"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Roboam rejeta les conseils des anciens et suivit les jeunes — il promit d'alourdir le joug. Les 10 tribus se révoltèrent sous Jéroboam (1 Rois 12:13-14).",
+      "bibleReference": "1 Rois 12:13-14",
+      "normalizedRef": "1ki12.13-14",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-026",
+    "fr": {
+      "id": "dq-rey-026",
+      "questionText": "Quel est le bilan final du roi Manassé selon 2 Rois 21 et sa postérité dans 2 Chroniques 33 ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il fut le roi le plus juste après David"
+        },
+        {
+          "id": "b",
+          "text": "Il fut le roi le plus mauvais, mais il se repentit en captivité et Dieu le restaura"
+        },
+        {
+          "id": "c",
+          "text": "Il mourut dans l'iniquité sans jamais se repentir"
+        },
+        {
+          "id": "d",
+          "text": "Il fut épargné grâce aux prières d'Ésaïe"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Manassé fut le pire roi — il pratiqua toutes les abominations. Mais en captivité à Babylone il se humilia. Dieu le restaura à Jérusalem (2 Chroniques 33:12-13).",
+      "bibleReference": "2 Chroniques 33:12-13",
+      "normalizedRef": "2ch33.12-13",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-rey-027",
+    "fr": {
+      "id": "dq-rey-027",
+      "questionText": "Quel roi d'Israël fut le seul des rois du Nord à maintenir quelques éléments de fidélité à Dieu selon 2 Rois 10 ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jéroboam II"
+        },
+        {
+          "id": "b",
+          "text": "Jéhu"
+        },
+        {
+          "id": "c",
+          "text": "Omri"
+        },
+        {
+          "id": "d",
+          "text": "Péqah"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jéhu exécuta la maison d'Achab et extermina Baal d'Israël. Mais il ne s'éloigna pas des péchés de Jéroboam (2 Rois 10:28-31).",
+      "bibleReference": "2 Rois 10:28-31",
+      "normalizedRef": "2ki10.28-31",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "newId": "dq-sal-023",
+    "fr": {
+      "id": "dq-sal-023",
+      "questionText": "Qui est traditionnellement considéré comme l'auteur principal des Psaumes ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Asaph"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David est l'auteur de la majorité des psaumes. Le Psautier comprend aussi des psaumes de Moïse, Salomon, Asaph et des fils de Koré.",
+      "bibleReference": "Psaume 3:1",
+      "normalizedRef": "psaume3.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "newId": "dq-sal-024",
+    "fr": {
+      "id": "dq-sal-024",
+      "questionText": "Quel psaume commence par « L'Éternel est mon berger » ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 1"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 23"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 91"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Psaume 23 de David est l'un des plus aimés : « L'Éternel est mon berger : je ne manquerai de rien. »",
+      "bibleReference": "Psaume 23:1",
+      "normalizedRef": "psaume23.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "newId": "dq-sal-025",
+    "fr": {
+      "id": "dq-sal-025",
+      "questionText": "Quel psaume débute par « Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné ? » ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 18"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 31"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 51"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 22 est un psaume messianique — Jésus cita ses premiers mots sur la croix (Matthieu 27:46; Psaume 22:1).",
+      "bibleReference": "Psaume 22:1",
+      "normalizedRef": "psaume22.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "newId": "dq-sal-026",
+    "fr": {
+      "id": "dq-sal-026",
+      "questionText": "Quel est le psaume le plus long de la Bible ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 18"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 119"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Psaume 119 est le plus long avec 176 versets — chaque section de 8 versets commence par une lettre de l'alphabet hébreu.",
+      "bibleReference": "Psaume 119:1",
+      "normalizedRef": "psaume119.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "newId": "dq-sal-027",
+    "fr": {
+      "id": "dq-sal-027",
+      "questionText": "Par quelle parole commence le Psaume 1 décrivant l'homme bienheureux ?",
+      "categoryId": "salmos",
+      "categoryName": "Les Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Heureux celui qui aime la Loi de l'Éternel"
+        },
+        {
+          "id": "b",
+          "text": "Heureux l'homme qui ne marche pas selon le conseil des méchants"
+        },
+        {
+          "id": "c",
+          "text": "Heureux ceux qui espèrent en l'Éternel"
+        },
+        {
+          "id": "d",
+          "text": "Heureux le peuple dont Dieu est le Seigneur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 1 s'ouvre : « Heureux l'homme qui ne marche pas selon le conseil des méchants... mais dont le plaisir est dans la loi de l'Éternel » (Psaume 1:1-2).",
+      "bibleReference": "Psaume 1:1-2",
+      "normalizedRef": "psaume1.1-2",
+      "normalizedCat": "salmos"
+    }
+  }
+]

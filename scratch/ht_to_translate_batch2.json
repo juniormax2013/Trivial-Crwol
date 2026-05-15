@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "dq-sabid-007",
+    "ht": {
+      "id": "dq-sabid-007",
+      "questionText": "Kilès yo atribye prensipalman otè Liv Sòm yo a?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salomon"
+        },
+        {
+          "id": "b",
+          "text": "Moyiz"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Ezekyas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David te ekri majorite sòm yo. Asaf, pitit Kore yo, Salomon ak Moyiz te ekri sòm yo tou.",
+      "bibleReference": "Sòm 3:1 (antèt)",
+      "normalizedRef": "psa3.1(antèt)",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "id": "dq-sabid-008",
+    "ht": {
+      "id": "dq-sabid-008",
+      "questionText": "Konbyen chapit Liv Jòb la genyen?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "20"
+        },
+        {
+          "id": "b",
+          "text": "32"
+        },
+        {
+          "id": "c",
+          "text": "42"
+        },
+        {
+          "id": "d",
+          "text": "50"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Liv Jòb la gen 42 chapit. Li gen dyalòg ant Jòb, zanmi li yo ak repons Bondye a.",
+      "bibleReference": "Jòb 42:1",
+      "normalizedRef": "job42.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "id": "dq-sabid-009",
+    "ht": {
+      "id": "dq-sabid-009",
+      "questionText": "Kilès yo atribye Chante Kantik Salomon an?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Ezayi"
+        },
+        {
+          "id": "d",
+          "text": "Ezekyas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Chante Kantik yo atribye wa Salomon; se yon powèm damou ki dekri relasyon ant byeneme a ak byeneme fanm nan.",
+      "bibleReference": "Kantik 1:1",
+      "normalizedRef": "kantik1.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "id": "dq-sabid-010",
+    "ht": {
+      "id": "dq-sabid-010",
+      "questionText": "Kijan Liv Eklezyas la fini ansèyman li?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Chèche richès sou tout bagay\""
+        },
+        {
+          "id": "b",
+          "text": "\"Jwi jenès ou\""
+        },
+        {
+          "id": "c",
+          "text": "\"Krent Bondye epi kenbe kòmandman li yo\""
+        },
+        {
+          "id": "d",
+          "text": "\"Sajès depase tout richès\""
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Eklezyas 12:13: \"Dènye pawòl aprè nou tande tout bagay: Krent Bondye epi kenbe kòmandman li yo, paske sa a se devwa tout moun.\"",
+      "bibleReference": "Eklezyas 12:13",
+      "normalizedRef": "ecc12.13",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "id": "dq-sabid-011",
+    "ht": {
+      "id": "dq-sabid-011",
+      "questionText": "Nan ki sòm David konfese peche li ak Betsabe ak asasina Ouri?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 22"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 51"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 91"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 119"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 51 se lapriyè konfesyon David apre peche li ak Betsabe, pwofèt Natan te revele a.",
+      "bibleReference": "Sòm 51:1-4",
+      "normalizedRef": "psa51.1-4",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "id": "dq-sabid-012",
+    "ht": {
+      "id": "dq-sabid-012",
+      "questionText": "Konbyen \"Chante Desan\" oswa sòm pelrinaj ki gen nan Sòtè a?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "12"
+        },
+        {
+          "id": "c",
+          "text": "15"
+        },
+        {
+          "id": "d",
+          "text": "20"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sòm 120 rive 134 se 15 \"Chante Desan\", yo te chante pa pelren yo pandan yo monte Jerizalèm.",
+      "bibleReference": "Sòm 120-134",
+      "normalizedRef": "psa120-134",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "id": "dq-sabid-013",
+    "ht": {
+      "id": "dq-sabid-013",
+      "questionText": "Ki otè biblik yo atribye Sòm 90 a, konsidere kòm pi ansyen nan Bib la?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Moyiz"
+        },
+        {
+          "id": "d",
+          "text": "Abraram"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Antèt Sòm 90 a di: \"Lapriyè Moyiz, sèvitè Bondye.\" Se sòm ki pi ansyen yo konnen an.",
+      "bibleReference": "Sòm 90:1",
+      "normalizedRef": "psa90.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "id": "dq-sabid-014",
+    "ht": {
+      "id": "dq-sabid-014",
+      "questionText": "Kilès ki te katriyèm pèsonaj ki te pale ak Jòb avèk pawòl diferan de twa zanmi li yo?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elifaz"
+        },
+        {
+          "id": "b",
+          "text": "Bildad"
+        },
+        {
+          "id": "c",
+          "text": "Elihou"
+        },
+        {
+          "id": "d",
+          "text": "Zofa"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Elihou, pitit Barakyèl, te tann jiskaske twa zanmi yo te fin pale epi li te eksprime pwòp pwen de vi li (Jòb 32:1-6).",
+      "bibleReference": "Jòb 32:1-6",
+      "normalizedRef": "job32.1-6",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "id": "dq-sabid-015",
+    "ht": {
+      "id": "dq-sabid-015",
+      "questionText": "Ki liv Ansyen Testaman an ki itilize lanmou konjigal pou dekri relasyon ant Bondye ak Izrayèl?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jòb"
+        },
+        {
+          "id": "b",
+          "text": "Sòm"
+        },
+        {
+          "id": "c",
+          "text": "Chante Kantik Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Rit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Chante Kantik yo entèprete tou kòm powèm damou imen ak senbòl relasyon Bondye (byeneme) ak Izrayèl (byeneme fanm).",
+      "bibleReference": "Kantik 2:16",
+      "normalizedRef": "kantik2.16",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "id": "dq-pmay-006",
+    "ht": {
+      "id": "dq-pmay-006",
+      "questionText": "Ki pwofèt yon zanj te mete yon chabon alimen sou reken li?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeremi"
+        },
+        {
+          "id": "b",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "c",
+          "text": "Ezayi"
+        },
+        {
+          "id": "d",
+          "text": "Danyèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Nan vizyon apèl li a, yon serafin te pran yon chabon sou lotèl la epi mete l sou reken Ezayi, sa te pirifye l (Ezayi 6:6-7).",
+      "bibleReference": "Ezayi 6:6-7",
+      "normalizedRef": "isa6.6-7",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "id": "dq-pmay-007",
+    "ht": {
+      "id": "dq-pmay-007",
+      "questionText": "Ki pwofèt biblik ki te jete nan fòs lyon yo?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi"
+        },
+        {
+          "id": "b",
+          "text": "Jeremi"
+        },
+        {
+          "id": "c",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "d",
+          "text": "Danyèl"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Danyèl te jete kote lyon yo pase ènmi li yo, men Bondye te pwoteje l nan fèmen bouch lyon yo (Danyèl 6).",
+      "bibleReference": "Danyèl 6:16-22",
+      "normalizedRef": "dan6.16-22",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "id": "dq-pmay-008",
+    "ht": {
+      "id": "dq-pmay-008",
+      "questionText": "Kilès ki te ekri Liv Lamentasyon sou chit Jerizalèm nan?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi"
+        },
+        {
+          "id": "b",
+          "text": "Jeremi"
+        },
+        {
+          "id": "c",
+          "text": "Ezekyèl"
+        },
+        {
+          "id": "d",
+          "text": "Danyèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yo atribye Jeremi, \"pwofèt kriye a\", ekri Lamentasyon yo sou destriksyon Jerizalèm.",
+      "bibleReference": "Lamentasyon 1:1",
+      "normalizedRef": "lamentasyon1.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "id": "dq-pmay-009",
+    "ht": {
+      "id": "dq-pmay-009",
+      "questionText": "Konbyen chapit Liv Ezayi la genyen?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "40"
+        },
+        {
+          "id": "b",
+          "text": "52"
+        },
+        {
+          "id": "c",
+          "text": "60"
+        },
+        {
+          "id": "d",
+          "text": "66"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Ezayi gen 66 chapit, menm kantite ak liv Bib la. Premye 39 yo koresponn ak AT ak dènye 27 yo ak NT nan tèm.",
+      "bibleReference": "Ezayi 66",
+      "normalizedRef": "isa66",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "id": "dq-pmay-010",
+    "ht": {
+      "id": "dq-pmay-010",
+      "questionText": "Konbyen bèt Danyèl te wè nan vizyon lannwit Danyèl 7?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Danyèl te wè kat gwo bèt ki te monte soti nan lanmè: yon lyon, yon lous, yon leopar ak yon katriyèm bèt terib (Danyèl 7:3-7).",
+      "bibleReference": "Danyèl 7:3-7",
+      "normalizedRef": "dan7.3-7",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "id": "dq-pmay-011",
+    "ht": {
+      "id": "dq-pmay-011",
+      "questionText": "Kisa vizyon chan zo sèch nan Ezekyèl 37 a te reprezante?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lanmò Jeremi"
+        },
+        {
+          "id": "b",
+          "text": "Destriksyon Babilòn"
+        },
+        {
+          "id": "c",
+          "text": "Retablisman pèp Izrayèl la"
+        },
+        {
+          "id": "d",
+          "text": "Jijman dènye a"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Bondye eksplike Ezekyèl ke zo yo reprezante Izrayèl: \"Zo sa yo se tout kay Izrayèl... mwen pral soti yo nan tonbo yo\" (Ezek 37:11-12).",
+      "bibleReference": "Ezekyèl 37:11-12",
+      "normalizedRef": "eze37.11-12",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "id": "dq-pmay-012",
+    "ht": {
+      "id": "dq-pmay-012",
+      "questionText": "Ki ti non Jeremi te konnen akòz ekri li yo?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pwofèt gèrye"
+        },
+        {
+          "id": "b",
+          "text": "Pwofèt kriye"
+        },
+        {
+          "id": "c",
+          "text": "Pwofèt dife"
+        },
+        {
+          "id": "d",
+          "text": "Pwofèt lanmou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jeremi rele \"pwofèt kriye\" pou kontinyèl lamentasyon li yo sou kondisyon Izrayèl ak destriksyon Jerizalèm.",
+      "bibleReference": "Jeremi 9:1",
+      "normalizedRef": "jer9.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "id": "dq-pmay-013",
+    "ht": {
+      "id": "dq-pmay-013",
+      "questionText": "Poukisa Bondye te di Jeremi ke li te rele l pwofèt anvan li te fèt?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paske li te desandan David"
+        },
+        {
+          "id": "b",
+          "text": "Paske li te pi gran frè li"
+        },
+        {
+          "id": "c",
+          "text": "Paske Bondye te konnen l epi sanktifye l anvan li fòme nan vant manman"
+        },
+        {
+          "id": "d",
+          "text": "Paske li te pi saj Izrayèl la"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Anvan mwen te fòme ou nan vant ou manman, mwen te konnen ou; anvan ou te fèt, mwen te sanktifye ou, mwen te bay ou pou pwofèt pou nasyon yo\" (Jeremi 1:5).",
+      "bibleReference": "Jeremi 1:5",
+      "normalizedRef": "jer1.5",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "id": "dq-pmay-014",
+    "ht": {
+      "id": "dq-pmay-014",
+      "questionText": "Ki kat kreyati ki parèt nan vizyon Ezekyèl bò rivyè Kebar la?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lyon, lous, leopar, dragon"
+        },
+        {
+          "id": "b",
+          "text": "Moun, bèf, èg, sèpan"
+        },
+        {
+          "id": "c",
+          "text": "Moun, lyon, bèf, èg"
+        },
+        {
+          "id": "d",
+          "text": "Zanj ak epe dife"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Kat kreyati vivan yo te gen figi moun, lyon, bèf ak èg (Ezekyèl 1:10). Yo sanble ak cheriben nan Revelasyon 4.",
+      "bibleReference": "Ezekyèl 1:10",
+      "normalizedRef": "eze1.10",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "id": "dq-pmay-015",
+    "ht": {
+      "id": "dq-pmay-015",
+      "questionText": "Kilès ki te konkeri Babilòn pandan fèt wa Bèlsaza ki dekri nan Danyèl 5?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Siri Gran an"
+        },
+        {
+          "id": "b",
+          "text": "Dari Mèd la"
+        },
+        {
+          "id": "c",
+          "text": "Zegzis"
+        },
+        {
+          "id": "d",
+          "text": "Artazèksès"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Danyèl 5:31 di: \"Dari Mèd la te pran wayòm nan.\" Istwa konplemantè a montre li te anba lidèchip Siri, Dari kòm gouvènè.",
+      "bibleReference": "Danyèl 5:31",
+      "normalizedRef": "dan5.31",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "id": "dq-pmay-016",
+    "ht": {
+      "id": "dq-pmay-016",
+      "questionText": "Ki de gwo pwofèt ki te kontenporàn pandan ekzil babilonyèn nan?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi ak Jeremi"
+        },
+        {
+          "id": "b",
+          "text": "Jeremi ak Danyèl"
+        },
+        {
+          "id": "c",
+          "text": "Ezekyèl ak Danyèl"
+        },
+        {
+          "id": "d",
+          "text": "Ezayi ak Danyèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ezekyèl ak Danyèl tou de te pwofetize pandan peryòd ekzil babilonyèn nan (6yèm syèk anvan Kris), pandan Ezayi ak Jeremi te anvan yo.",
+      "bibleReference": "Ezekyèl 1:1; Danyèl 1:1",
+      "normalizedRef": "eze1.1;dan1.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "id": "dq-pmen-007",
+    "ht": {
+      "id": "dq-pmen-007",
+      "questionText": "Ki vil Jona te voye pou preche repantans li a?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babilòn"
+        },
+        {
+          "id": "b",
+          "text": "Niniv"
+        },
+        {
+          "id": "c",
+          "text": "Damask"
+        },
+        {
+          "id": "d",
+          "text": "Tir"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te kòmande Jona ale nan Niniv pou anonse repantans. Jona te kouri anvan, men finalman li te obeyi (Jona 1:1-2; 3:1-2).",
+      "bibleReference": "Jona 1:1-2",
+      "normalizedRef": "jona1.1-2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "id": "dq-pmen-008",
+    "ht": {
+      "id": "dq-pmen-008",
+      "questionText": "Konbyen jou ak nwit Jona te rete nan vant gwo pwason an?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 jou"
+        },
+        {
+          "id": "b",
+          "text": "3 jou ak 3 nwit"
+        },
+        {
+          "id": "c",
+          "text": "7 jou ak 7 nwit"
+        },
+        {
+          "id": "d",
+          "text": "40 jou ak 40 nwit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jona te rete twa jou ak twa nwit nan vant gwo pwason an (Jona 1:17). Jezi te itilize sa kòm siy lanmò ak rezirèksyon li (Matye 12:40).",
+      "bibleReference": "Jona 1:17",
+      "normalizedRef": "jona1.17",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "id": "dq-pmen-009",
+    "ht": {
+      "id": "dq-pmen-009",
+      "questionText": "Konbyen liv ti pwofèt ki genyen nan Ansyen Testaman an?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "15"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "12 ti pwofèt yo se: Oze, Joyèl, Amos, Abdyas, Jona, Miche, Nawoum, Abakik, Sofoni, Age, Zakari ak Malachi.",
+      "bibleReference": "Malachi 4:6",
+      "normalizedRef": "mal4.6",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "id": "dq-pmen-010",
+    "ht": {
+      "id": "dq-pmen-010",
+      "questionText": "Ki se pi kout liv nan Ansyen Testaman an?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jona"
+        },
+        {
+          "id": "b",
+          "text": "Age"
+        },
+        {
+          "id": "c",
+          "text": "Abdyas"
+        },
+        {
+          "id": "d",
+          "text": "Nawoum"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Abdyas gen sèlman 21 vèsè nan yon sèl chapit. Li pwofetize kont Edomit yo ak retablisman Izrayèl.",
+      "bibleReference": "Abdyas 1:1",
+      "normalizedRef": "abdyas1.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "id": "dq-pmen-011",
+    "ht": {
+      "id": "dq-pmen-011",
+      "questionText": "Ki ti pwofèt ki te itilize imaj yon kriz krikèt pou dekri \"jou Seyè a\"?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Amos"
+        },
+        {
+          "id": "b",
+          "text": "Joyèl"
+        },
+        {
+          "id": "c",
+          "text": "Miche"
+        },
+        {
+          "id": "d",
+          "text": "Malachi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joyèl te dekri yon envazyon terib krikèt kòm senbòl jou Seyè a: \"Jou Seyè a vini, jou fènwa ak obskirte\" (Joyèl 2:1-2).",
+      "bibleReference": "Joyèl 2:1-11",
+      "normalizedRef": "joyèl2.1-11",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "id": "dq-pmen-012",
+    "ht": {
+      "id": "dq-pmen-012",
+      "questionText": "Ki moun Bondye te kòmande pwofèt Oze a marye?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon jèn pwofetès"
+        },
+        {
+          "id": "b",
+          "text": "Yon fanm fònikasyon ki rele Gomè"
+        },
+        {
+          "id": "c",
+          "text": "Yon etranje Morabis"
+        },
+        {
+          "id": "d",
+          "text": "Yon vèv Samari"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Oze te pran Gomè kòm madanm, enfidèlite li a senbòlize apostazi Izrayèl devan Bondye. Men Oze te renmen l epi restore l (Oze 1:2-3; 3:1-3).",
+      "bibleReference": "Oze 1:2-3",
+      "normalizedRef": "hos1.2-3",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "id": "dq-pmen-013",
+    "ht": {
+      "id": "dq-pmen-013",
+      "questionText": "Ki liv nan ti pwofèt yo ki gen plis chapit?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Joyèl"
+        },
+        {
+          "id": "b",
+          "text": "Amos"
+        },
+        {
+          "id": "c",
+          "text": "Miche"
+        },
+        {
+          "id": "d",
+          "text": "Zakari"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Zakari gen 14 chapit, ki pi long liv nan ti pwofèt yo. Li gen anpil vizyon mesyanik.",
+      "bibleReference": "Zakari 14",
+      "normalizedRef": "zec14",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "id": "dq-pmen-014",
+    "ht": {
+      "id": "dq-pmen-014",
+      "questionText": "Ki sa Liv Malachi a di sou pèp ki pa t pote ladim bay Bondye?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo te inyoran"
+        },
+        {
+          "id": "b",
+          "text": "Yo te vòlè Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Yo t ap vin pòv"
+        },
+        {
+          "id": "d",
+          "text": "Yo p ap beni"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Eske yon moun ka vòlè Bondye? Se sa nou fè. Nou di: Nan ki fason nou vòlè ou? Nan ladim nou yo ak ofrann nou yo\" (Malachi 3:8).",
+      "bibleReference": "Malachi 3:8-10",
+      "normalizedRef": "mal3.8-10",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "id": "dq-pmen-015",
+    "ht": {
+      "id": "dq-pmen-015",
+      "questionText": "Ki bèt Bondye te voye detwi plant ki t ap ban Jona lonbraj lan?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon krikèt"
+        },
+        {
+          "id": "b",
+          "text": "Yon vè"
+        },
+        {
+          "id": "c",
+          "text": "Yon sèpan"
+        },
+        {
+          "id": "d",
+          "text": "Yon kòbo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te prepare yon vè ki te frape plant lonbraj la, epi lè solèy leve, Jona te febli nan chalè (Jona 4:7).",
+      "bibleReference": "Jona 4:7",
+      "normalizedRef": "jona4.7",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "id": "dq-pmen-016",
+    "ht": {
+      "id": "dq-pmen-016",
+      "questionText": "Konbyen vèsè Liv Abdyas la genyen, ki pi kout Ansyen Testaman an?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "15"
+        },
+        {
+          "id": "c",
+          "text": "21"
+        },
+        {
+          "id": "d",
+          "text": "25"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Abdyas gen yon sèl chapit ak 21 vèsè. Li pwofetize jijman sou Edom ak retablisman pèp Bondye a.",
+      "bibleReference": "Abdyas 1:1-21",
+      "normalizedRef": "abdyas1.1-21",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "id": "dq-pmen-017",
+    "ht": {
+      "id": "dq-pmen-017",
+      "questionText": "Kilès nan ti pwofèt yo ki te pwofetize ke gouvènè Izrayèl la pral soti nan Betleyèm?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zakari"
+        },
+        {
+          "id": "b",
+          "text": "Oze"
+        },
+        {
+          "id": "c",
+          "text": "Miche"
+        },
+        {
+          "id": "d",
+          "text": "Age"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Men ou menm, Betleyèm Efrata... soti nan ou va moun ki pral gouvène Izrayèl\" (Miche 5:2). Prèt yo te site vèsè sa devan Ewòd (Matye 2:6).",
+      "bibleReference": "Miche 5:2",
+      "normalizedRef": "mic5.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "id": "dq-pmen-018",
+    "ht": {
+      "id": "dq-pmen-018",
+      "questionText": "Sou ki nasyon Liv Abdyas la prensipalman pwofetize?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babilòn"
+        },
+        {
+          "id": "b",
+          "text": "Asiri"
+        },
+        {
+          "id": "c",
+          "text": "Edomit"
+        },
+        {
+          "id": "d",
+          "text": "Moab"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Abdyas pwofetize jijman Bondye sou Edomit yo (desandan Esayi) paske yo te kontan wè Jerizalèm tonbe epi yo te kolabore ak ènmi yo.",
+      "bibleReference": "Abdyas 1:10-14",
+      "normalizedRef": "abdyas1.10-14",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "id": "dq-pmen-019",
+    "ht": {
+      "id": "dq-pmen-019",
+      "questionText": "Ki ti pwofèt ki fini liv li ak pwomès ke Eli va vini anvan \"gwo jou Seyè a\"?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Ti Pwofèt Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zakari"
+        },
+        {
+          "id": "b",
+          "text": "Miche"
+        },
+        {
+          "id": "c",
+          "text": "Malachi"
+        },
+        {
+          "id": "d",
+          "text": "Joyèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Gade, mwen voye pwofèt Eli ban nou anvan jou Seyè a, gwo ak terib la\" (Malachi 4:5). NT idantifye sa ak Jan Batèm.",
+      "bibleReference": "Malachi 4:5",
+      "normalizedRef": "mal4.5",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  {
+    "id": "dq-cpab-019",
+    "ht": {
+      "id": "dq-cpab-019",
+      "questionText": "Nan lèt ki vil Pòl dekri \"im lanmou\" ki fèmyè chapit 13?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wòm"
+        },
+        {
+          "id": "b",
+          "text": "Efèz"
+        },
+        {
+          "id": "c",
+          "text": "Korent"
+        },
+        {
+          "id": "d",
+          "text": "Filipos"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Korentyen 13 gen im fèmyè a: \"Lanmou pasyans, lanmou bon...\" Pòl te ekri l pou legliz Korent la.",
+      "bibleReference": "1 Korentyen 13:4-7",
+      "normalizedRef": "1korentyen13.4-7",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "id": "dq-cpab-020",
+    "ht": {
+      "id": "dq-cpab-020",
+      "questionText": "Nan ki lèt Pòl dekri li te \"enpote jis nan twazyèm syèl la\"?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 Korentyen"
+        },
+        {
+          "id": "b",
+          "text": "2 Korentyen"
+        },
+        {
+          "id": "c",
+          "text": "Galat"
+        },
+        {
+          "id": "d",
+          "text": "Efezyen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Mwen konnen yon moun nan Kris ki... te enpote jis nan twazyèm syèl... te enpote nan paradi epi li tande pawòl ki pa ka eksprime\" (2 Korentyen 12:2-4).",
+      "bibleReference": "2 Korentyen 12:2-4",
+      "normalizedRef": "2korentyen12.2-4",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "id": "dq-cgen-005",
+    "ht": {
+      "id": "dq-cgen-005",
+      "questionText": "Konbyen lèt Jan ki genyen nan Nouvo Testaman an?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Apòt Jan te ekri twa lèt: 1 Jan (5 chapit), 2 Jan ak 3 Jan (de pi kout NT ak yon chapit chak).",
+      "bibleReference": "1 Jan 1:1",
+      "normalizedRef": "1jn1.1",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "id": "dq-cgen-006",
+    "ht": {
+      "id": "dq-cgen-006",
+      "questionText": "Ki sa Jak 1:22 ankouraje kwayan yo fè?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Priye San seize"
+        },
+        {
+          "id": "b",
+          "text": "Se fèkè Pawòl la, pa sèlman koute"
+        },
+        {
+          "id": "c",
+          "text": "Renmen ènmi nou yo"
+        },
+        {
+          "id": "d",
+          "text": "Jene ak priye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Men se fèkè Pawòl la, pa sèlman koute a, pwotren ou pwòp tèt ou\" (Jak 1:22).",
+      "bibleReference": "Jak 1:22",
+      "normalizedRef": "jam1.22",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "id": "dq-cgen-007",
+    "ht": {
+      "id": "dq-cgen-007",
+      "questionText": "Ki lèt Nouvo Testaman ki mansyone Noye kòm \"predikatis jistis\"?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jak"
+        },
+        {
+          "id": "b",
+          "text": "1 Pyè"
+        },
+        {
+          "id": "c",
+          "text": "2 Pyè"
+        },
+        {
+          "id": "d",
+          "text": "Jid"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi si li pa t epaye mond ansyen an, men... li te prezève Noye, predikatè jistis...\" (2 Pyè 2:5).",
+      "bibleReference": "2 Pyè 2:5",
+      "normalizedRef": "2pe2.5",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "id": "dq-cgen-008",
+    "ht": {
+      "id": "dq-cgen-008",
+      "questionText": "Konbyen chapit lèt Jak la genyen?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lèt Jak la gen 5 chapit epi li abòde sijè pratik tankou lafwa aktif, lang, sajès ak lapriyè.",
+      "bibleReference": "Jak 5:20",
+      "normalizedRef": "jam5.20",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "id": "dq-cgen-009",
+    "ht": {
+      "id": "dq-cgen-009",
+      "questionText": "Ki jan lèt a Ebre yo dekri wòl Jezi nan nouvo alyans lan?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kòm yon pwofèt ak yon wa"
+        },
+        {
+          "id": "b",
+          "text": "Kòm gran prèt pafè ak medyatè yon nouvo alyans"
+        },
+        {
+          "id": "c",
+          "text": "Kòm yon zanj mesaje"
+        },
+        {
+          "id": "d",
+          "text": "Kòm nouvo Moyiz la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ebre prezante Jezi kòm Gran Prèt ki ofri tèt li kòm sakrifis pafè epi li medyatè nouvo alyans lan (Ebre 9:15).",
+      "bibleReference": "Ebre 9:15",
+      "normalizedRef": "heb9.15",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "id": "dq-cgen-010",
+    "ht": {
+      "id": "dq-cgen-010",
+      "questionText": "Ki sa Jak 4:7 di sou dyab la?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inyore l epi l ap disparèt"
+        },
+        {
+          "id": "b",
+          "text": "Reziste dyab la epi l ap kouri"
+        },
+        {
+          "id": "c",
+          "text": "Priye kont dyab la epi ou pral lib"
+        },
+        {
+          "id": "d",
+          "text": "Dyab la pa ka touche kwayan an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Soumèt nan men Bondye donc; reziste dyab la, epi l ap kouri\" (Jak 4:7).",
+      "bibleReference": "Jak 4:7",
+      "normalizedRef": "jam4.7",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "id": "dq-cgen-011",
+    "ht": {
+      "id": "dq-cgen-011",
+      "questionText": "Konbyen chapit lèt a Ebre yo genyen?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "13"
+        },
+        {
+          "id": "c",
+          "text": "15"
+        },
+        {
+          "id": "d",
+          "text": "16"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lèt a Ebre yo gen 13 chapit. Li konpare ansyen alyans (Moyiz, Arawon) ak nouvo alyans nan Kris.",
+      "bibleReference": "Ebre 13:25",
+      "normalizedRef": "heb13.25",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "id": "dq-cgen-012",
+    "ht": {
+      "id": "dq-cgen-012",
+      "questionText": "Konbyen moun ki sove nan lach pandan delij la, dapre 1 Pyè 3:20?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "70"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Nan jou Noye... kote te gen ti kras moun, sa vle di uit, ki te sove nan dlo\" (1 Pyè 3:20). Noye, madanm li, twa pitit gason ak meritaj yo.",
+      "bibleReference": "1 Pyè 3:20",
+      "normalizedRef": "1pe3.20",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "id": "dq-cgen-013",
+    "ht": {
+      "id": "dq-cgen-013",
+      "questionText": "A kilès Dezyèm lèt Jan an adrese?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Timote"
+        },
+        {
+          "id": "b",
+          "text": "A legliz Efèz"
+        },
+        {
+          "id": "c",
+          "text": "A yon dam eli ak pitit li yo"
+        },
+        {
+          "id": "d",
+          "text": "A apòt Pyè"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Granmoun lan a dam eli a ak pitit li yo...\" (2 Jan 1:1). Anpil entèprèt \"dam eli a\" kòm senbòl yon legliz lokal.",
+      "bibleReference": "2 Jan 1:1",
+      "normalizedRef": "2jn1.1",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "id": "dq-cgen-014",
+    "ht": {
+      "id": "dq-cgen-014",
+      "questionText": "Sou ki sijè prensipal 2 Pyè chapit 2 avèti?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sou pèsekisyon Women an"
+        },
+        {
+          "id": "b",
+          "text": "Sou fo pwofèt ak mèt ak destriksyon yo"
+        },
+        {
+          "id": "c",
+          "text": "Sou divòs"
+        },
+        {
+          "id": "d",
+          "text": "Sou idolatri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Pyè 2 avèti moun anpil fas fo pwofèt ak mèt ki pral entwoduyi \"erezis destriktè\" epi jijman yo pa ka tann (2 Pyè 2:1).",
+      "bibleReference": "2 Pyè 2:1",
+      "normalizedRef": "2pe2.1",
+      "normalizedCat": "cartas-generales"
+    }
+  }
+]

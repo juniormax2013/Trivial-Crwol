@@ -1,0 +1,640 @@
+[
+  {
+    "id": "dq-sal-028",
+    "q": "Quel psaume de pénitence David écrivit-il après son péché avec Bethsabée ?",
+    "opts": [
+      "Psaume 32",
+      "Psaume 51",
+      "Psaume 38",
+      "Psaume 130"
+    ],
+    "exp": "Le Psaume 51 est la grande confession de David : « Aie pitié de moi, ô Dieu... efface mes transgressions » — écrit après que Nathan le confronta (Psaume 51:1-4)."
+  },
+  {
+    "id": "dq-sal-029",
+    "q": "À quel psaume appartient la promesse « Il donnera des ordres à ses anges de te garder dans toutes tes voies » ?",
+    "opts": [
+      "Psaume 34",
+      "Psaume 46",
+      "Psaume 91",
+      "Psaume 103"
+    ],
+    "exp": "« Il donnera des ordres à ses anges de te garder dans toutes tes voies » — Psaume 91:11, cité par Satan lors de la tentation de Jésus (Matthieu 4:6)."
+  },
+  {
+    "id": "dq-sal-030",
+    "q": "Que célèbre le Psaume 150, le dernier du Psautier ?",
+    "opts": [
+      "La repentance du peuple",
+      "Un grand « Hallelujah » universel — tout ce qui respire loue l'Éternel",
+      "La victoire d'Israël sur ses ennemis",
+      "La gloire du Temple de Salomon"
+    ],
+    "exp": "Le Psaume 150 est la grande doxologie finale : il invite tout instrument musical et toute créature à louer l'Éternel — « Que tout ce qui respire loue l'Éternel ! »"
+  },
+  {
+    "id": "dq-sal-031",
+    "q": "Quelle promesse messianique contient le Psaume 110:1 ?",
+    "opts": [
+      "Le Messie naîtra de la tribu de Juda",
+      "L'Éternel dit à mon Seigneur : Assieds-toi à ma droite",
+      "Le Messie régnera de Sion sur toutes les nations",
+      "Le Messie sera un grand prêtre selon l'ordre de Lévi"
+    ],
+    "exp": "Psaume 110:1 : « L'Éternel a dit à mon Seigneur : Assieds-toi à ma droite » — le verset de l'AT le plus cité dans le NT pour l'intronisation du Christ."
+  },
+  {
+    "id": "dq-sal-032",
+    "q": "Le Psaume 119:105 compare la Parole de Dieu à quoi ?",
+    "opts": [
+      "Une épée tranchante",
+      "Une lampe à mes pieds et une lumière sur mon sentier",
+      "Une source d'eau vive",
+      "Un bouclier et une armure"
+    ],
+    "exp": "« Ta parole est une lampe à mes pieds et une lumière sur mon sentier » (Psaume 119:105) — image classique de la Parole guidant la vie."
+  },
+  {
+    "id": "dq-sal-033",
+    "q": "Quel est le sens liturgique des « psaumes des montées » (Psaumes 120-134) ?",
+    "opts": [
+      "Des psaumes chantés lors des victoires militaires",
+      "Des psaumes des pèlerins montant à Jérusalem pour les grandes fêtes",
+      "Des psaumes réservés aux Lévites dans le Temple",
+      "Des psaumes chantés lors du retour de l'exil babylonien"
+    ],
+    "exp": "Les 15 psaumes des montées (Shir HaMaalot) étaient chantés par les pèlerins en montant à Jérusalem pour les trois fêtes annuelles (Pessah, Shavouot, Souccot)."
+  },
+  {
+    "id": "dq-sal-034",
+    "q": "Quelle est la structure acrostiche du Psaume 119 et sa signification ?",
+    "opts": [
+      "Chaque verset commence par la même lettre hébraïque",
+      "22 sections de 8 versets chacune, suivant les 22 lettres de l'alphabet hébreu",
+      "Les initiales de chaque verset forment le nom de David",
+      "Chaque section correspond à un commandement du Décalogue"
+    ],
+    "exp": "Le Psaume 119 est un acrostiche alphabétique hébreu : 22 sections × 8 versets, chaque section commençant par une lettre différente de l'aleph-bet — méditation encyclopédique sur la Loi."
+  },
+  {
+    "id": "dq-sal-035",
+    "q": "En quoi le Psaume 22 est-il considéré comme une prophétie de la Passion du Christ ?",
+    "opts": [
+      "Il décrit la trahison de Judas avec précision",
+      "Il décrit l'abandon, la moquerie, le partage des vêtements et la soif du crucifié",
+      "Il prédit la résurrection au troisième jour",
+      "Il annonce l'entrée triomphale à Jérusalem"
+    ],
+    "exp": "Psaume 22 préfigure la crucifixion : abandon de Dieu (v.1), moqueries (v.7-8), mains et pieds percés (v.16), tirage au sort des vêtements (v.18) — tous accomplis à la croix."
+  },
+  {
+    "id": "dq-sal-036",
+    "q": "Quel psaume contient la grande affirmation « L'Éternel règne » et sa portée théologique ?",
+    "opts": [
+      "Psaumes 93-99 — les psaumes de la royauté divine",
+      "Psaume 72 — le règne messianique de Salomon",
+      "Psaume 2 — l'intronisation du roi davidique",
+      "Psaume 24 — l'entrée du Roi de gloire"
+    ],
+    "exp": "Les Psaumes 93-99 sont les psaumes de la royauté de l'Éternel, proclamant « YHWH règne » — sa souveraineté cosmique et eschatologique sur toutes les nations."
+  },
+  {
+    "id": "dq-sal-037",
+    "q": "Que signifie le terme hébreu « Selah » fréquemment utilisé dans les Psaumes ?",
+    "opts": [
+      "Amen — que cela soit ainsi",
+      "Une pause musicale ou liturgique invitant à la méditation",
+      "Montez — invitation à élever les voix",
+      "Gloire — acclamation à Dieu"
+    ],
+    "exp": "Selah (hébreu) apparaît 71 fois dans les Psaumes. Son sens exact est incertain mais il semble indiquer une pause musicale ou une élévation de la voix pour la méditation."
+  },
+  {
+    "id": "dq-pat-016",
+    "q": "Qui était Enoch et quelle fut sa fin extraordinaire ?",
+    "opts": [
+      "Il mourut centenaire à Ur",
+      "Il marcha avec Dieu et fut enlevé sans mourir",
+      "Il fut le premier à construire un autel",
+      "Il fut transformé en ange"
+    ],
+    "exp": "Enoch marcha avec Dieu pendant 300 ans, puis il disparut car Dieu le prit — il ne connut pas la mort (Genèse 5:24; Hébreux 11:5)."
+  },
+  {
+    "id": "dq-pat-017",
+    "q": "Qui était Noé et pourquoi Dieu le choisit-il ?",
+    "opts": [
+      "Le plus vieux des hommes de son temps",
+      "Un homme juste et intègre qui marchait avec Dieu",
+      "Le premier prêtre de l'humanité",
+      "Un charpentier expert choisi par sa compétence"
+    ],
+    "exp": "Noé était « un homme juste, intègre dans sa génération » qui marchait avec Dieu, raison pour laquelle Dieu le choisit pour sauver l'humanité (Genèse 6:9)."
+  },
+  {
+    "id": "dq-pat-018",
+    "q": "Qui était Ruth et quel acte de fidélité est célèbre dans le livre portant son nom ?",
+    "opts": [
+      "Une prophétesse hébraïque qui guida Naomi",
+      "Une Moabite qui resta fidèle à sa belle-mère Naomi et au Dieu d'Israël",
+      "Une femme de Jéricho qui cacha les espions",
+      "Une juge d'Israël qui libéra le peuple"
+    ],
+    "exp": "Ruth, veuve moabite, dit à Naomi : « Ton peuple sera mon peuple, et ton Dieu sera mon Dieu » — modèle de fidélité (Ruth 1:16-17)."
+  },
+  {
+    "id": "dq-pat-019",
+    "q": "Qui était Esther et quelle fut son action courageuse ?",
+    "opts": [
+      "Une prophétesse qui sauva Jérusalem",
+      "Une reine juive qui risqua sa vie pour sauver son peuple de Haman",
+      "L'épouse de Moïse qui intercéda pour Israël",
+      "Une femme de foi qui refusa l'idolâtrie babylonienne"
+    ],
+    "exp": "Esther, reine de Perse, s'approcha du roi sans invitation — risquant la mort — pour dévoiler le complot de Haman et sauver les Juifs (Esther 4:16; 7:3-6)."
+  },
+  {
+    "id": "dq-pat-020",
+    "q": "Que fit Élie sur le Mont Carmel pour prouver que YHWH est le vrai Dieu ?",
+    "opts": [
+      "Il fit descendre la pluie après trois ans de sécheresse",
+      "Il défia les prophètes de Baal et le feu divin consuma son sacrifice trempé d'eau",
+      "Il ressuscita le fils de la Sunamite devant le peuple",
+      "Il détruisit les autels de Baal avec ses mains"
+    ],
+    "exp": "Élie fit arroser d'eau son autel trois fois, puis pria. Le feu de l'Éternel tomba et consuma même les pierres et l'eau — le peuple s'écria : « L'Éternel est Dieu ! » (1 Rois 18:38)."
+  },
+  {
+    "id": "dq-pat-021",
+    "q": "Quel fut le rôle de Samuel dans la transition entre les juges et la monarchie en Israël ?",
+    "opts": [
+      "Il fut le dernier juge, prophète et celui qui oignit Saül et David",
+      "Il fut le premier roi d'Israël avant Saül",
+      "Il fut le grand prêtre qui bâtit le sanctuaire de Silo",
+      "Il fut l'intermédiaire entre Moïse et Josué"
+    ],
+    "exp": "Samuel fut le dernier des juges, prophète national et fondateur de l'école des prophètes. Il oignit Saül (1 Samuel 10) puis David (1 Samuel 16) comme rois."
+  },
+  {
+    "id": "dq-pat-022",
+    "q": "Comment Ezéchiel reçut-il sa vocation prophétique selon Ézéchiel 1-3 ?",
+    "opts": [
+      "Par un songe nocturne à Babylone",
+      "Par une vision de la gloire de Dieu avec quatre créatures vivantes et des roues",
+      "Par un ange qui toucha ses lèvres avec une braise",
+      "Par la voix de Dieu dans un vent calme"
+    ],
+    "exp": "Ézéchiel reçut une vision grandiose : quatre créatures vivantes, des roues dans les roues, la gloire de Dieu — la Merkabah. Il fut envoyé prophétiser à Israël (Ézéchiel 1-3)."
+  },
+  {
+    "id": "dq-pat-023",
+    "q": "Qui était Néhémie et quelle fut sa contribution principale au retour de l'exil ?",
+    "opts": [
+      "Scribe qui relut la Loi au peuple",
+      "Gouverneur qui organisa la reconstruction des murailles de Jérusalem en 52 jours",
+      "Grand prêtre qui rétablit le culte au Temple",
+      "Prophète qui encouragea les bâtisseurs du Temple"
+    ],
+    "exp": "Néhémie, échanson du roi de Perse, revint comme gouverneur et reconstruisit les murailles de Jérusalem en seulement 52 jours malgré l'opposition (Néhémie 6:15)."
+  },
+  {
+    "id": "dq-pat-024",
+    "q": "Quel personnage de l'AT est le plus proche de la figure d'un prophète souffrant vicaire en Ésaïe 52-53 ?",
+    "opts": [
+      "Moïse intercédant pour Israël",
+      "Le Serviteur Souffrant — identifié par les chrétiens à Jésus",
+      "Jérémie le prophète pleurant",
+      "Job dans ses souffrances"
+    ],
+    "exp": "Le Serviteur Souffrant d'Ésaïe 52:13-53:12 est « blessé pour nos transgressions ». Les chrétiens l'identifient au Messie Jésus ; les Juifs le voient comme Israël ou un futur personnage."
+  },
+  {
+    "id": "dq-pat-025",
+    "q": "Pourquoi Josué est-il considéré comme un type de Jésus dans la théologie biblique ?",
+    "opts": [
+      "Ils ont tous les deux vécu 110 ans",
+      "Josué (Yehoshua) partage le même nom que Jésus et fit entrer son peuple dans la Terre Promise comme Jésus fait entrer dans le repos céleste",
+      "Ils ont tous deux été prophètes et prêtres",
+      "Josué fit les mêmes miracles que Jésus"
+    ],
+    "exp": "Yehoshua (Josué) = Iēsous (Jésus) en grec. Hébreux 4:8-9 explique que si Josué avait donné le repos, David n'aurait pas parlé d'un autre jour — Jésus donne le vrai repos."
+  },
+  {
+    "id": "dq-pat-026",
+    "q": "Qui était Boaz dans le livre de Ruth et quel concept juridique illustre-t-il ?",
+    "opts": [
+      "Un juge d'Israël qui adopta Ruth légalement",
+      "Le goel (rédempteur) — parent proche qui rachète la famille appauvrie",
+      "Un prophète qui prédit le mariage entre Juifs et Moabites",
+      "Le père de Jesse et grand-père de David"
+    ],
+    "exp": "Boaz est le goel (racheteur) — institution hébraïque où le parent proche rachète la propriété et la famille de l'appauvri. Il est un type de Christ notre Rédempteur (Ruth 4:1-10)."
+  },
+  {
+    "id": "dq-pat-027",
+    "q": "Quelle est la portée théologique du personnage de Job et sa souffrance inexpliquée ?",
+    "opts": [
+      "Job prouva que les souffrances sont toujours une punition divine",
+      "Job démontra que les justes peuvent souffrir sans que ce soit une punition — la souveraineté de Dieu dépasse la compréhension humaine",
+      "Job abandonna finalement sa foi face à la souffrance",
+      "Job découvrit que Satan avait le contrôle absolu de sa vie"
+    ],
+    "exp": "Job défi la théologie de la rétribution. Sa souffrance est inexplicable humainement. Dieu répondit du sein de la tempête : sa souveraineté transcende l'entendement humain (Job 38-42)."
+  },
+  {
+    "id": "dq-pat-028",
+    "q": "Que révèle la vocation d'Ésaïe au chapitre 6 sur la nature de Dieu et du prophète ?",
+    "opts": [
+      "La toute-puissance de Dieu face à la faiblesse physique du prophète",
+      "La sainteté absolue de Dieu (trisagion) et l'indignité du prophète purifiée par la braise",
+      "L'élection d'Ésaïe dès avant sa naissance",
+      "Le plan de salut pour les 70 nations"
+    ],
+    "exp": "La vision du trisagion (Saint, Saint, Saint) révèle la sainteté absolue de YHWH. Face à elle, Ésaïe dit : « Je suis perdu » — une braise purifie ses lèvres et il accepte la mission (Ésaïe 6:1-8)."
+  },
+  {
+    "id": "dq-pat-029",
+    "q": "Quelle est la signification du nom « Daniel » et comment sa fidélité illustre-t-elle la vie en diaspora ?",
+    "opts": [
+      "Dieu est fort — il resta fidèle par la force physique",
+      "Dieu est mon juge — il maintint sa fidélité à Dieu dans une culture étrangère hostile",
+      "Dieu console — il consola les exilés par ses prophéties",
+      "Dieu bénit — il reçut toutes les bénédictions babyloniennes"
+    ],
+    "exp": "Daniel (Dieu est mon juge) est le modèle de la fidélité en diaspora : refus de la nourriture impure, prières trois fois par jour malgré les décrets, intégrité dans la cour de Babylone."
+  },
+  {
+    "id": "dq-pnt-016",
+    "q": "Qui était Marie-Madeleine dans les Évangiles ?",
+    "opts": [
+      "La mère de Jésus",
+      "Une femme dont Jésus chassa 7 démons et qui fut témoin de la résurrection",
+      "La femme adultère pardonnée par Jésus",
+      "La sœur de Lazare"
+    ],
+    "exp": "Marie de Magdala fut délivrée de 7 démons. Elle accompagna Jésus, fut présente à la croix et fut la première à annoncer sa résurrection (Luc 8:2; Jean 20:18)."
+  },
+  {
+    "id": "dq-pnt-017",
+    "q": "Qui était Zachée et pourquoi sa conversion est-elle remarquable ?",
+    "opts": [
+      "Un pharisien converti qui devint disciple",
+      "Un chef des collecteurs d'impôts riche qui chercha Jésus et restitua ses biens",
+      "Un aveugle guéri par Jésus à Jéricho",
+      "Un scribe qui questionna Jésus sur le grand commandement"
+    ],
+    "exp": "Zachée, chef des collecteurs d'impôts à Jéricho, monta dans un sycomore pour voir Jésus. Jésus l'appela, et Zachée promit de restituer quatre fois ce qu'il avait pris (Luc 19:1-9)."
+  },
+  {
+    "id": "dq-pnt-018",
+    "q": "Qui était Philippe l'évangéliste et quelle fut sa mission notable ?",
+    "opts": [
+      "L'apôtre Philippe l'un des 12",
+      "Un des 7 diacres qui évangélisa la Samarie et baptisa l'eunuque éthiopien",
+      "Le compagnon de Barnabas en Chypre",
+      "Le premier évêque d'Éphèse"
+    ],
+    "exp": "Philippe l'évangéliste, l'un des 7, évangélisa la Samarie et fut transporté par l'Esprit après avoir baptisé l'eunuque éthiopien (Actes 8:5-8,26-40)."
+  },
+  {
+    "id": "dq-pnt-019",
+    "q": "Qui était Timothée et quel était son lien avec Paul ?",
+    "opts": [
+      "Un jeune ami d'Antioche qui rejoignit Paul à Corinthe",
+      "Le fils spirituel de Paul, né d'une mère juive croyante et d'un père grec",
+      "Un disciple que Paul envoya à Rome",
+      "L'interprète de Paul pour les nations"
+    ],
+    "exp": "Timothée, né à Lystre, avait une mère juive croyante (Eunice) et un père grec. Paul le circoncit et l'emmena dans ses voyages. Il lui écrivit deux lettres (Actes 16:1-3; 2 Timothée 1:5)."
+  },
+  {
+    "id": "dq-pnt-020",
+    "q": "Quel rôle jouèrent les femmes dans la résurrection selon tous les évangiles ?",
+    "opts": [
+      "Elles ne furent pas au tombeau",
+      "Elles furent les premières témoins du tombeau vide et les premières à annoncer la résurrection",
+      "Elles demandèrent à Pierre d'aller vérifier",
+      "Elles rapportèrent uniquement à Jean"
+    ],
+    "exp": "Les femmes (Marie-Madeleine, Marie mère de Jacques, Salomé, etc.) allèrent au tombeau et furent les premières à trouver la pierre roulée et à annoncer la résurrection (Marc 16:1-7)."
+  },
+  {
+    "id": "dq-pnt-021",
+    "q": "Quel fut le rôle d'Ananie dans la conversion de Saül à Damas ?",
+    "opts": [
+      "Il rapporta l'arrivée de Saül aux autorités",
+      "Envoyé par le Seigneur, il posa les mains sur Saül et restaura sa vue",
+      "Il lui donna le baptême dans le Jourdain",
+      "Il lui enseigna les Évangiles pendant trois ans"
+    ],
+    "exp": "Ananie, disciple à Damas, fut envoyé par le Seigneur malgré sa peur. Il posa les mains sur Saül — ses yeux s'ouvrirent et il fut baptisé (Actes 9:10-18)."
+  },
+  {
+    "id": "dq-pnt-022",
+    "q": "Qui était Lydie et quelle fut sa signification dans le premier voyage de Paul en Macédoine ?",
+    "opts": [
+      "Une prophétesse de Thessalonique",
+      "La première convertie en Europe — marchande de pourpre de Thyatire dont le cœur fut ouvert par le Seigneur",
+      "L'hôtesse de Paul à Athènes",
+      "La fille d'un chef de synagogue à Bérée"
+    ],
+    "exp": "À Philippes, Lydie, marchande de pourpre, écouta Paul. « Le Seigneur ouvrit son cœur. » Elle fut baptisée avec sa maison — première convertie sur le sol européen (Actes 16:14-15)."
+  },
+  {
+    "id": "dq-pnt-023",
+    "q": "Qui était Corneille et quelle percée représente sa conversion ?",
+    "opts": [
+      "Un Juif de la diaspora converti par l'apôtre Philippe",
+      "Un centurion romain craignant Dieu — première conversion officielle d'un gentil par Pierre",
+      "Un officier romain qui crut après avoir vu la crucifixion",
+      "Un philosophe grec converti à Athènes"
+    ],
+    "exp": "Corneille, centurion romain pieux, reçut Pierre sur ordre angélique. Le Saint-Esprit tomba sur lui et sa maison — porte officielle de l'Évangile aux gentils (Actes 10:44-48)."
+  },
+  {
+    "id": "dq-pnt-024",
+    "q": "Qui était Apollos et en quoi sa formation biblique fut-elle particulière ?",
+    "opts": [
+      "Un disciple de Paul formé à Jérusalem",
+      "Un Juif alexandrin éloquent qui ne connaissait que le baptême de Jean — instruit par Aquila et Priscille",
+      "Un rhéteur grec converti à Corinthe",
+      "Un Lévite envoyé de Jerusalem pour enseigner à Éphèse"
+    ],
+    "exp": "Apollos d'Alexandrie était puissant dans les Écritures mais ne connaissait que le baptême de Jean. Aquila et Priscille lui exposèrent exactement la voie de Dieu (Actes 18:24-26)."
+  },
+  {
+    "id": "dq-pnt-025",
+    "q": "Pourquoi Paul et Barnabas se séparèrent-ils lors du deuxième voyage missionnaire ?",
+    "opts": [
+      "Paul voulait aller en Asie, Barnabas en Macédoine",
+      "Un désaccord sur Jean-Marc qui les avait abandonnés à Pamphylie",
+      "Barnabas refusa de prêcher aux gentils",
+      "Une dispute théologique sur la circoncision"
+    ],
+    "exp": "Barnabas voulait emmener Jean-Marc. Paul refusait car il les avait abandonnés à Pamphylie. « La divergence fut si vive qu'ils se séparèrent » (Actes 15:37-39)."
+  },
+  {
+    "id": "dq-pnt-026",
+    "q": "Quelle fut la contribution de Luc comme auteur biblique et sa particularité ?",
+    "opts": [
+      "Il écrivit l'Évangile et les Actes — seul auteur gentil certain du NT et médecin",
+      "Il écrivit l'Évangile et trois épîtres générales",
+      "Il fut l'évangéliste de Paul exclusivement pour les Juifs",
+      "Il écrivit l'Évangile et la lettre aux Hébreux"
+    ],
+    "exp": "Luc est l'auteur de l'Évangile de Luc et des Actes — le plus long corpus du NT. Médecin (Colossiens 4:14), probablement gentil, il offre le point de vue le plus universel."
+  },
+  {
+    "id": "dq-pnt-027",
+    "q": "Quelle est la signification de la transfiguration de Jean dans l'Apocalypse — son rôle comme « voyant » ?",
+    "opts": [
+      "Jean fut élu apôtre uniquement pour écrire l'Apocalypse",
+      "Jean, « le disciple bien-aimé », reçut à Patmos des révélations de Jésus glorifié pour les Églises d'Asie",
+      "Jean remplaça Pierre comme chef de l'Église après la mort de Paul",
+      "Jean écrivit l'Apocalypse dans une transe médicamenteuse à Éphèse"
+    ],
+    "exp": "Jean, exilé à Patmos, reçut des visions de Jésus ressuscité et glorifié. En tant que « voyant » (prophète apocalyptique), il transmit les révélations aux 7 Églises d'Asie (Apocalypse 1:9-11)."
+  },
+  {
+    "id": "dq-pnt-028",
+    "q": "Qui était Silas (Silvanus) et quel rôle joua-t-il dans la mission de Paul ?",
+    "opts": [
+      "Un chef de l'Église de Rome envoyé comme ambassadeur",
+      "Un prophète de l'Église de Jérusalem, compagnon de Paul dès le deuxième voyage missionnaire",
+      "Le scribe de Pierre pour sa première lettre et diacre de Corinthe",
+      "Le remplaçant de Judas parmi les douze apôtres"
+    ],
+    "exp": "Silas (Silvanus) était un prophète de Jérusalem (Actes 15:32). Il devint le compagnon de Paul lors du 2e voyage (Actes 15:40) et collabora à 1 Thessaloniciens et 1 Pierre (1 Pierre 5:12)."
+  },
+  {
+    "id": "dq-doc-046",
+    "q": "Qu'enseigne la doctrine de l'inerrancy (infaillibilité) de la Bible ?",
+    "opts": [
+      "La Bible ne contient aucune information scientifique",
+      "La Bible, dans ses autographes originaux, est exempte d'erreur dans tout ce qu'elle affirme",
+      "Seuls les livres prophétiques sont inspirés",
+      "Les apôtres ne pouvaient pas se tromper dans leurs lettres"
+    ],
+    "exp": "L'inerrancy : la Bible originale est sans erreur car inspirée par Dieu lui-même — « toute Écriture est inspirée de Dieu » (2 Timothée 3:16)."
+  },
+  {
+    "id": "dq-doc-047",
+    "q": "Que signifie la doctrine de la « résurrection corporelle » des croyants ?",
+    "opts": [
+      "Les âmes montent au ciel sans corps",
+      "Les croyants ressusciteront avec un corps glorifié comme Christ",
+      "Seuls les martyrs ressuscitent",
+      "La résurrection est uniquement spirituelle"
+    ],
+    "exp": "Les croyants ressusciteront avec un corps glorifié et incorruptible, à l'image de la résurrection de Christ (1 Corinthiens 15:42-44; Philippiens 3:21)."
+  },
+  {
+    "id": "dq-doc-048",
+    "q": "Quelle est la différence entre la doctrine de l'omniscience et de l'omnipotence de Dieu ?",
+    "opts": [
+      "Ce sont deux noms du même attribut divin",
+      "Omniscience = Dieu sait tout ; Omnipotence = Dieu peut tout faire selon sa nature",
+      "Omniscience concerne le passé ; Omnipotence le futur",
+      "L'omnipotence s'applique uniquement à la création"
+    ],
+    "exp": "Omniscience = Dieu connaît tout (Psaume 139:1-4). Omnipotence = Dieu peut tout ce qui est possible selon sa nature (Jérémie 32:17). Ses attributs sont distincts mais inséparables."
+  },
+  {
+    "id": "dq-doc-049",
+    "q": "Que désigne la doctrine de la « préexistence de Christ » ?",
+    "opts": [
+      "Jésus existait seulement dans la pensée de Dieu avant sa naissance",
+      "Le Fils de Dieu existait éternellement avant son incarnation à Bethléhem",
+      "Jésus existait comme ange avant de s'incarner",
+      "La préexistence ne concerne que l'Esprit Saint"
+    ],
+    "exp": "Christ est éternellement préexistant : « Au commencement était la Parole » (Jean 1:1) ; « Avant qu'Abraham fût, je suis » (Jean 8:58) ; « Gloire que j'avais auprès de toi avant la fondation du monde » (Jean 17:5)."
+  },
+  {
+    "id": "dq-doc-050",
+    "q": "Quelle est la distinction entre le « Jugement des œuvres » et le « Jugement du trône blanc » en eschatologie ?",
+    "opts": [
+      "Ce sont deux noms pour le même événement",
+      "Le tribunal de Christ (bêma) évalue les œuvres des croyants ; le Trône blanc juge les non-croyants",
+      "Le jugement des œuvres précède le Trône blanc de 100 ans",
+      "Seuls les morts sont jugés au Trône blanc"
+    ],
+    "exp": "Le Bêma de Christ (2 Corinthiens 5:10) évalue les œuvres des croyants pour les récompenses. Le Grand Trône Blanc (Apocalypse 20:11-15) est le jugement final des non-croyants."
+  },
+  {
+    "id": "dq-doc-051",
+    "q": "Qu'est-ce que la doctrine de la « communication des attributs » (communicatio idiomatum) ?",
+    "opts": [
+      "Dieu partage ses attributs avec les croyants par l'Esprit",
+      "Les attributs des deux natures de Christ peuvent être attribués à la personne unique de Christ",
+      "Les apôtres reçurent les attributs divins pour accomplir les miracles",
+      "La Trinité partage certains attributs entre les trois personnes"
+    ],
+    "exp": "Communicatio idiomatum : parce que Christ est une seule personne, on peut dire « le Fils de Dieu a souffert » ou « Marie est la Mère de Dieu » — attribuant à la personne ce qui appartient à l'une ou l'autre nature."
+  },
+  {
+    "id": "dq-doc-052",
+    "q": "Quelle est la différence entre la théologie apophatique et cataphatique ?",
+    "opts": [
+      "L'une concerne l'AT, l'autre le NT",
+      "Apophatique dit ce que Dieu n'est pas (voie négative) ; cataphatique dit ce que Dieu est (voie positive)",
+      "L'une est orthodoxe, l'autre catholique",
+      "L'une concerne la prière, l'autre la prophétie"
+    ],
+    "exp": "Théologie négative (apophatique) : Dieu est incompréhensible — on ne peut dire que ce qu'il n'est pas. Théologie positive (cataphatique) : on affirme des attributs positifs de Dieu depuis la révélation."
+  },
+  {
+    "id": "dq-doc-053",
+    "q": "Que désigne la doctrine du « Filioque » qui divisa l'Église en 1054 ?",
+    "opts": [
+      "Si Marie était sans péché originel",
+      "Si le Saint-Esprit procède du Père seul ou du Père et du Fils",
+      "Si le pape avait autorité sur les patriarches orientaux",
+      "Si l'eucharistie est le vrai corps de Christ"
+    ],
+    "exp": "Filioque (« et du Fils ») : l'Occident ajouta que le Saint-Esprit procède du Père ET du Fils. L'Orient maintint qu'il procède du Père seul. Ce différend contribua au Grand Schisme de 1054."
+  },
+  {
+    "id": "dq-doc-054",
+    "q": "Qu'est-ce que la théologie de l'alliance (fédérale) et ses deux grandes alliances ?",
+    "opts": [
+      "La théologie des 12 alliances de l'AT uniquement",
+      "Un système qui organise la révélation autour d'une alliance des œuvres (Adam) et une alliance de grâce (Christ)",
+      "La doctrine catholique des sacrements comme sceaux des alliances",
+      "L'étude comparative des alliances entre les nations de l'antiquité"
+    ],
+    "exp": "La théologie fédérale (Calvin, Cocceius) : Alliance des Œuvres avec Adam (obéissance pour la vie). Alliance de Grâce après la chute (Christ représente les élus). Toute la Bible est lue dans ce cadre."
+  },
+  {
+    "id": "dq-evg-026",
+    "q": "Quel évangile commence par « Au commencement était la Parole » ?",
+    "opts": [
+      "Matthieu",
+      "Marc",
+      "Luc",
+      "Jean"
+    ],
+    "exp": "L'Évangile de Jean commence : « Au commencement était la Parole, et la Parole était avec Dieu, et la Parole était Dieu » (Jean 1:1)."
+  },
+  {
+    "id": "dq-evg-027",
+    "q": "Quel est le plus court des quatre Évangiles ?",
+    "opts": [
+      "Matthieu",
+      "Marc",
+      "Luc",
+      "Jean"
+    ],
+    "exp": "L'Évangile de Marc est le plus court avec 16 chapitres — réputé pour son style rapide et dynamique (le mot « aussitôt » y est très fréquent)."
+  },
+  {
+    "id": "dq-evg-028",
+    "q": "Quel évangile contient la parabole du Bon Samaritain et du Fils Prodigue ?",
+    "opts": [
+      "Matthieu",
+      "Marc",
+      "Luc",
+      "Jean"
+    ],
+    "exp": "Ces deux paraboles emblématiques se trouvent uniquement chez Luc (Luc 10:25-37 ; Luc 15:11-32) — l'évangéliste de la grâce pour les marginaux."
+  },
+  {
+    "id": "dq-evg-029",
+    "q": "Quel évangile présente Jésus principalement comme « Roi des Juifs » et cite le plus l'AT ?",
+    "opts": [
+      "Matthieu",
+      "Marc",
+      "Luc",
+      "Jean"
+    ],
+    "exp": "Matthieu écrit pour un public juif, présentant Jésus comme le Messie davidique. Il cite l'AT constamment avec la formule « afin que s'accomplisse » (Matthieu 1:22)."
+  },
+  {
+    "id": "dq-evg-030",
+    "q": "Quel est le sens du « Discours du Pain de Vie » de Jésus en Jean 6 ?",
+    "opts": [
+      "Jésus enseigne une meilleure alimentation physique",
+      "Jésus se présente comme la nourriture spirituelle — croire en lui c'est « manger » sa chair et « boire » son sang",
+      "Il annonce l'institution de la Cène",
+      "Il enseigne le jeûne comme discipline spirituelle"
+    ],
+    "exp": "« Je suis le pain de vie ; celui qui vient à moi n'aura jamais faim » (Jean 6:35). Manger sa chair et boire son sang = foi en son sacrifice — ce discours choqua et beaucoup le quittèrent."
+  },
+  {
+    "id": "dq-evg-031",
+    "q": "Quelle est la signification du baptême de Jésus par Jean-Baptiste si Jésus était sans péché ?",
+    "opts": [
+      "Jésus avait besoin de se purifier symboliquement",
+      "Pour accomplir toute justice — s'identifier à l'humanité pécheresse qu'il venait sauver",
+      "Pour recevoir le Saint-Esprit qui ne pouvait descendre qu'au baptême",
+      "Pour satisfaire la demande de Jean qui ne voulait pas baptiser sans raison"
+    ],
+    "exp": "Jésus dit : « Laisse faire maintenant ; c'est ainsi qu'il nous convient d'accomplir toute justice » (Matthieu 3:15) — il s'identifiait aux pécheurs qu'il venait racheter."
+  },
+  {
+    "id": "dq-evg-032",
+    "q": "Quelle est la portée de la Grande Commission de Matthieu 28:19-20 pour l'Église ?",
+    "opts": [
+      "Une mission uniquement pour les apôtres du premier siècle",
+      "Le mandat permanent de l'Église de faire des disciples de toutes les nations",
+      "Une promesse de victoire militaire pour Israël",
+      "Un commandement uniquement pour les évangélistes professionnels"
+    ],
+    "exp": "« Allez, faites de toutes les nations des disciples... Je suis avec vous tous les jours jusqu'à la fin du monde » — mandat missionnaire universel et perpétuel de l'Église (Matthieu 28:19-20)."
+  },
+  {
+    "id": "dq-evg-033",
+    "q": "En quoi les Évangiles synoptiques diffèrent-ils de l'Évangile de Jean ?",
+    "opts": [
+      "Les synoptiques sont écrits en grec, Jean en araméen",
+      "Matthieu, Marc et Luc partagent beaucoup de matière commune ; Jean est indépendant avec un accent théologique et christologique différent",
+      "Jean est antérieur aux trois autres évangiles",
+      "Les synoptiques sont destinés aux Juifs, Jean aux Romains"
+    ],
+    "exp": "Les synoptiques (Matthieu, Marc, Luc) partagent ~80% de matière. Jean est unique : prologue christologique, discours longs, signe des noces, résurrection de Lazare, chapitres 14-17."
+  },
+  {
+    "id": "dq-evg-034",
+    "q": "Quelle est la théorie de la priorité marcienne dans l'étude synoptique ?",
+    "opts": [
+      "Marc fut écrit après Matthieu et dépend de lui",
+      "Marc fut écrit en premier et fut utilisé par Matthieu et Luc comme source principale",
+      "Marc est une synthèse de Matthieu et Luc",
+      "Marc fut écrit par Pierre et non par Marc"
+    ],
+    "exp": "La théorie dominante en critique biblique : Marc écrit en premier (~65 ap. J.-C.), Matthieu et Luc s'en servent et y ajoutent Q (une source de paroles communes) et leurs propres sources."
+  },
+  {
+    "id": "dq-evg-035",
+    "q": "Que signifie la « Kénose » dans le contexte de l'Incarnation (Philippiens 2:7) ?",
+    "opts": [
+      "Jésus abandonna sa divinité en s'incarnant",
+      "Le Fils de Dieu « se vida » volontairement de l'exercice indépendant de ses attributs divins pour se faire serviteur",
+      "Christ redevint Dieu pleinement seulement à la résurrection",
+      "La divinité de Christ était cachée dans un corps humain comme dans un costume"
+    ],
+    "exp": "Kénose (Philippiens 2:7 — « il se dépouilla lui-même ») : Christ vécut dans une dépendance volontaire envers le Père, sans exercer indépendamment ses attributs divins — vrais Dieu et vrai homme."
+  },
+  {
+    "id": "dq-evg-036",
+    "q": "Quel est le sens théologique des sept signes de Jean et leur structure narrative ?",
+    "opts": [
+      "Des preuves scientifiques de la divinité de Jésus",
+      "Sept actes révélant la gloire de Jésus — chacun évoquant une dimension de son identité — culminant en la résurrection de Lazare",
+      "Des miracles réservés à la guérison physique",
+      "Des signes prophétiques annonçant la destruction du Temple"
+    ],
+    "exp": "Jean sélectionne 7 signes (eau en vin, guérison du fils du fonctionnaire, paralytique, 5000 nourris, marche sur eau, aveugle-né, Lazare) pour révéler la gloire de Christ et susciter la foi (Jean 20:30-31)."
+  },
+  {
+    "id": "dq-evg-037",
+    "q": "Comment le Discours Eschatologique de Jésus en Matthieu 24-25 est-il interprété théologiquement ?",
+    "opts": [
+      "Il ne concerne que la destruction de Jérusalem en 70 ap. J.-C.",
+      "Il parle à la fois de la destruction du Temple (70 ap. J.-C.) et du retour final de Christ — double accomplissement prophétique",
+      "Il est purement symbolique et ne prédit aucun événement historique",
+      "Il concerne uniquement la période tribulation future"
+    ],
+    "exp": "Matthieu 24-25 combine la destruction imminente de Jérusalem (70 ap. J.-C.) et la Parousie finale — prophétie à double horizon typique de l'AT."
+  }
+]

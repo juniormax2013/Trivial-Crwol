@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "dq-muj-024",
+    "questionText": "Ki fanm ki te fè tout mwayen pou l te ka touche rad Jezi epi li te geri anba yon pèdisyon san?",
+    "categoryId": "mujeres",
+    "categoryName": "Fanm nan Bib la",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lidi"
+      },
+      {
+        "id": "b",
+        "text": "Fanm ki te gen pèdisyon an"
+      },
+      {
+        "id": "c",
+        "text": "Tabita"
+      },
+      {
+        "id": "d",
+        "text": "Prisil"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Mak 5:25-34 rakonte istwa fanm sa a ki te malad pandan douz lanne epi ki te geri lè li touche rad Jezi.",
+    "bibleReference": "Mak 5:34",
+    "normalizedRef": "mar5.34",
+    "normalizedCat": "mujeres"
+  },
+  {
+    "id": "dq-muj-025",
+    "questionText": "Ki madanm wa Akab ki te mechan anpil e ki te vle touye pwofèt Eli?",
+    "categoryId": "mujeres",
+    "categoryName": "Fanm nan Bib la",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Atali"
+      },
+      {
+        "id": "b",
+        "text": "Izabèl"
+      },
+      {
+        "id": "c",
+        "text": "Erodyad"
+      },
+      {
+        "id": "d",
+        "text": "Saphira"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "1 Wa 19:1-2 — \"Izabèl voye yon mesaje bò kote Eli pou di li: Se pou bondye yo ban m’ pi gwo pinisyon... si m’ pa fè ou mouri... tankou ou te fè pwofèt Baal yo.\"",
+    "bibleReference": "1 Wa 19:2",
+    "normalizedRef": "1ki19.2",
+    "normalizedCat": "mujeres"
+  },
+  {
+    "id": "dq-apoc-016",
+    "questionText": "Ki moun ki te ekri Liv Revelasyon an (Apokalips) pandan li te sou zile Patmòs?",
+    "categoryId": "apocalipsis",
+    "categoryName": "Revelasyon",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pòl"
+      },
+      {
+        "id": "b",
+        "text": "Jan"
+      },
+      {
+        "id": "c",
+        "text": "Pyè"
+      },
+      {
+        "id": "d",
+        "text": "Lik"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Revelasyon 1:9 — \"Mwen menm Jan... mwen te nan zile yo rele Patmòs la poutèt pawòl Bondye a.\"",
+    "bibleReference": "Revelasyon 1:9",
+    "normalizedRef": "rev1.9",
+    "normalizedCat": "apocalipsis"
+  },
+  {
+    "id": "dq-apoc-017",
+    "questionText": "Konbyen legliz nan peyi Lazi ki te resevwa lèt nan kòmansman Liv Revelasyon an?",
+    "categoryId": "apocalipsis",
+    "categoryName": "Revelasyon",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "3"
+      },
+      {
+        "id": "b",
+        "text": "7"
+      },
+      {
+        "id": "c",
+        "text": "12"
+      },
+      {
+        "id": "d",
+        "text": "10"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Revelasyon 1:4 — \"Jan ap ekri sèt legliz ki nan peyi Lazi yo.\"",
+    "bibleReference": "Revelasyon 1:4",
+    "normalizedRef": "rev1.4",
+    "normalizedCat": "apocalipsis"
+  },
+  {
+    "id": "dq-apoc-018",
+    "questionText": "Ki sa Jezi di de tèt li nan kòmansman ak nan fen Liv Revelasyon an (mwen se premye ak dènye)?",
+    "categoryId": "apocalipsis",
+    "categoryName": "Revelasyon",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "A ak B"
+      },
+      {
+        "id": "b",
+        "text": "Alfa ak Omega"
+      },
+      {
+        "id": "c",
+        "text": "Kòmansman ak lafen"
+      },
+      {
+        "id": "d",
+        "text": "Wa ak Seyè"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Revelasyon 1:8 — \"Mwen se Alfa ak Omega, se Seyè a, Bondye ki gen tout pouvwa a, ki di sa.\"",
+    "bibleReference": "Revelasyon 1:8",
+    "normalizedRef": "rev1.8",
+    "normalizedCat": "apocalipsis"
+  },
+  {
+    "id": "dq-apoc-019",
+    "questionText": "Konbyen sele ki te genyen sou woulo liv la ki te nan men dwat moun ki te chita sou fotèy la?",
+    "categoryId": "apocalipsis",
+    "categoryName": "Revelasyon",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "4"
+      },
+      {
+        "id": "b",
+        "text": "7"
+      },
+      {
+        "id": "c",
+        "text": "12"
+      },
+      {
+        "id": "d",
+        "text": "24"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Revelasyon 5:1 — \"Mwen wè yon woulo liv... li te sele ak sèt sele.\"",
+    "bibleReference": "Revelasyon 5:1",
+    "normalizedRef": "rev5.1",
+    "normalizedCat": "apocalipsis"
+  },
+  {
+    "id": "dq-apoc-020",
+    "questionText": "Ki bèt ki te parèt lè premye sele a te louvri e ki te gen yon kavalye ak yon banza?",
+    "categoryId": "apocalipsis",
+    "categoryName": "Revelasyon",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yon chwal wouj"
+      },
+      {
+        "id": "b",
+        "text": "Yon chwal blan"
+      },
+      {
+        "id": "c",
+        "text": "Yon chwal nwa"
+      },
+      {
+        "id": "d",
+        "text": "Yon chwal pal"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Revelasyon 6:2 — \"Mwen gade, mwen wè yon chwal blan. Moun ki te moute l la te gen yon banza nan men l.\"",
+    "bibleReference": "Revelasyon 6:2",
+    "normalizedRef": "rev6.2",
+    "normalizedCat": "apocalipsis"
+  },
+  {
+    "id": "dq-apoc-021",
+    "questionText": "Ki non lavil selès k ap desann soti nan syèl la, bò kote Bondye, nan fen Revelasyon an?",
+    "categoryId": "apocalipsis",
+    "categoryName": "Revelasyon",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Babilòn"
+      },
+      {
+        "id": "b",
+        "text": "Nouvèl Jerizalèm"
+      },
+      {
+        "id": "c",
+        "text": "Lavil David"
+      },
+      {
+        "id": "d",
+        "text": "Zyon"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Revelasyon 21:2 — \"Mwen wè lavil sen an, nouvèl Jerizalèm lan, ki t’ap desann soti nan syèl la...\"",
+    "bibleReference": "Revelasyon 21:2",
+    "normalizedRef": "rev21.2",
+    "normalizedCat": "apocalipsis"
+  },
+  {
+    "id": "dq-apoc-022",
+    "questionText": "Ki sa k p ap egziste ankò nan nouvèl Jerizalèm lan, paske ansyen bagay yo pase?",
+    "categoryId": "apocalipsis",
+    "categoryName": "Revelasyon",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Solèy la"
+      },
+      {
+        "id": "b",
+        "text": "Lanmò, dèy ak soufrans"
+      },
+      {
+        "id": "c",
+        "text": "Lalin nan"
+      },
+      {
+        "id": "d",
+        "text": "Zetwal yo"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Revelasyon 21:4 — \"Li va siye tout dlo nan je yo. p’ap gen lanmò ankò, p’ap gen ni dèy, ni kriye, ni doulè.\"",
+    "bibleReference": "Revelasyon 21:4",
+    "normalizedRef": "rev21.4",
+    "normalizedCat": "apocalipsis"
+  },
+  {
+    "id": "dq-apoc-023",
+    "questionText": "Konbyen granmoun (ansyen) ki te chita sou fotèy yo toutotou fotèy Bondye a?",
+    "categoryId": "apocalipsis",
+    "categoryName": "Revelasyon",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "12"
+      },
+      {
+        "id": "b",
+        "text": "24"
+      },
+      {
+        "id": "c",
+        "text": "7"
+      },
+      {
+        "id": "d",
+        "text": "144"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Revelasyon 4:4 — \"Toutotou fotèy la te gen vennkat lòt fotèy... vennkat granmoun te chita sou yo.\"",
+    "bibleReference": "Revelasyon 4:4",
+    "normalizedRef": "rev4.4",
+    "normalizedCat": "apocalipsis"
+  },
+  {
+    "id": "dq-apoc-024",
+    "questionText": "Ki non \"zetwal\" ki te tonbe nan dlo yo e ki te rann yo anmè apre twazyèm zanj lan te fin sonnen twonpèt li?",
+    "categoryId": "apocalipsis",
+    "categoryName": "Revelasyon",
+    "difficulty": "hard",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Luzifè"
+      },
+      {
+        "id": "b",
+        "text": "Absint (Wormwood)"
+      },
+      {
+        "id": "c",
+        "text": "Oryon"
+      },
+      {
+        "id": "d",
+        "text": "Siris"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Revelasyon 8:11 — \"Yo te rele zetwal sa a Absint. Yon tyè nan dlo yo vin anmè tankou absint.\"",
+    "bibleReference": "Revelasyon 8:11",
+    "normalizedRef": "rev8.11",
+    "normalizedCat": "apocalipsis"
+  },
+  {
+    "id": "dq-apoc-025",
+    "questionText": "Ki \"Ti Mouton\" ki te sèl moun ki te merite louvri woulo liv la epi kase sèt sele yo?",
+    "categoryId": "apocalipsis",
+    "categoryName": "Revelasyon",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Moyiz"
+      },
+      {
+        "id": "b",
+        "text": "Jezi Kris"
+      },
+      {
+        "id": "c",
+        "text": "Jan Batis"
+      },
+      {
+        "id": "d",
+        "text": "David"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Revelasyon 5:5-6 — \"Lyon ki soti nan branch fanmi Jida a... li kapab louvri liv la... Mwen wè yon Ti Mouton ki te kanpe...\"",
+    "bibleReference": "Revelasyon 5:5-6",
+    "normalizedRef": "rev5.5-6",
+    "normalizedCat": "apocalipsis"
+  },
+  {
+    "id": "dq-par-026",
+    "questionText": "Nan parabòl moun k’ap simen an, kote grenn ki tonbe nan bon tè a te rive pwodwi fwi?",
+    "categoryId": "parabolas",
+    "categoryName": "Parabòl yo",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sou bò chemen an"
+      },
+      {
+        "id": "b",
+        "text": "Nan mitan pikan"
+      },
+      {
+        "id": "c",
+        "text": "Nan bon tè"
+      },
+      {
+        "id": "d",
+        "text": "Sou wòch"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Matye 13:8 — \"Yon lòt pati tonbe nan bon tè; li bay fwi...\"",
+    "bibleReference": "Matye 13:8",
+    "normalizedRef": "mat13.8",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-027",
+    "questionText": "Ki sa papa a te fè lè pitit gason gaspiyè a te tounen lakay li?",
+    "categoryId": "parabolas",
+    "categoryName": "Parabòl yo",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Li te chase l"
+      },
+      {
+        "id": "b",
+        "text": "Li kouri al jwenn li, li kwense l nan bra l, li bo l"
+      },
+      {
+        "id": "c",
+        "text": "Li te fè l vin tounen yon domestik"
+      },
+      {
+        "id": "d",
+        "text": "Li te mande l kote lajan an pase"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Lik 15:20 — \"Papa a wè l lwen... kè l fè l mal pou li, li kouri al jwenn li, li kwense l nan bra l, li bo l.\"",
+    "bibleReference": "Lik 15:20",
+    "normalizedRef": "luk15.20",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-028",
+    "questionText": "Nan parabòl Bon Samariten an, kilès ki te pase bò kote nonm blese a san li pa t ede l anvan Samariten an te vini?",
+    "categoryId": "parabolas",
+    "categoryName": "Parabòl yo",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yon prèt ak yon Levit"
+      },
+      {
+        "id": "b",
+        "text": "Yon pechè ak yon kiltivatè"
+      },
+      {
+        "id": "c",
+        "text": "Yon sòlda ak yon wa"
+      },
+      {
+        "id": "d",
+        "text": "Yon farizyen ak yon sadiseyen"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Lik 10:31-32 — \"Yon prèt vin ap desann... li wè l, li pase bò wout la... Yon Levit vini tou... li pase bò wout la tou.\"",
+    "bibleReference": "Lik 10:31-32",
+    "normalizedRef": "luk10.31-32",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-029",
+    "questionText": "Ak ki sa Jezi te konpare Wayòm syèl la ki piti anpil men ki vin grandi tounen yon gwo pyebwa?",
+    "categoryId": "parabolas",
+    "categoryName": "Parabòl yo",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Grenn ble"
+      },
+      {
+        "id": "b",
+        "text": "Grenn moutad"
+      },
+      {
+        "id": "c",
+        "text": "Grenn mayi"
+      },
+      {
+        "id": "d",
+        "text": "Grenn pwa"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matye 13:31-32 — \"Wayòm syèl la se tankou yon grenn moutad... li tounen yon pyebwa.\"",
+    "bibleReference": "Matye 13:31-32",
+    "normalizedRef": "mat13.31-32",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-030",
+    "questionText": "Nan parabòl dis jennfi yo, poukisa senk ladan yo te fou?",
+    "categoryId": "parabolas",
+    "categoryName": "Parabòl yo",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yo pa t gen lanp"
+      },
+      {
+        "id": "b",
+        "text": "Yo pa t pran lwil an rezèv pou lanp yo"
+      },
+      {
+        "id": "c",
+        "text": "Yo te dòmi twòp"
+      },
+      {
+        "id": "d",
+        "text": "Yo pa t konnen kote nòs la ap fèt"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matye 25:3 — \"Moun fou yo te pran lanp yo, men yo pa t pran lwil avèk yo.\"",
+    "bibleReference": "Matye 25:3",
+    "normalizedRef": "mat25.3",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-031",
+    "questionText": "Ki sa mèt la te fè ak sèvitè ki te antere talan li te resevwa a?",
+    "categoryId": "parabolas",
+    "categoryName": "Parabòl yo",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Li te felisite l"
+      },
+      {
+        "id": "b",
+        "text": "Li te pran talan an nan men l epi li te jete l deyò nan fènwa"
+      },
+      {
+        "id": "c",
+        "text": "Li te ba l yon lòt chans"
+      },
+      {
+        "id": "d",
+        "text": "Li te ba l plis lajan"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matye 25:28-30 — \"Pran talan an nan men l... jete sèvitè san sèvis sa a deyò nan fènwa...\"",
+    "bibleReference": "Matye 25:28-30",
+    "normalizedRef": "mat25.28-30",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-032",
+    "questionText": "Nan parabòl mouton ki pèdi a, konbyen mouton bèje a te kite nan savann lan pou l al chèche sa ki pèdi a?",
+    "categoryId": "parabolas",
+    "categoryName": "Parabòl yo",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "50"
+      },
+      {
+        "id": "c",
+        "text": "99"
+      },
+      {
+        "id": "d",
+        "text": "100"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Lik 15:4 — \"Kilès nan nou... si l pèdi yonn, ki p’ap kite katrevendis nèf lòt yo nan dezè a pou l al dèyè sa ki pèdi a?\"",
+    "bibleReference": "Lik 15:4",
+    "normalizedRef": "luk15.4",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-033",
+    "questionText": "Ki sa k te rive nan parabòl ble a ak move zèb la?",
+    "categoryId": "parabolas",
+    "categoryName": "Parabòl yo",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yo te rache move zèb la menm kote a"
+      },
+      {
+        "id": "b",
+        "text": "Yo te kite yo grandi ansanm jouk tan rekòt la rive"
+      },
+      {
+        "id": "c",
+        "text": "Ble a te toufe move zèb la"
+      },
+      {
+        "id": "d",
+        "text": "Yo te plante move zèb la espre"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matye 13:30 — \"Kite yo grandi ansanm jouk tan rekòt la va rive...\"",
+    "bibleReference": "Matye 13:30",
+    "normalizedRef": "mat13.30",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-034",
+    "questionText": "Ki sa komèsan an te fè lè li te jwenn yon bèl grenn pèl ki te koute chè anpil?",
+    "categoryId": "parabolas",
+    "categoryName": "Parabòl yo",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Li te vòlè l"
+      },
+      {
+        "id": "b",
+        "text": "Li te vann tout sa l te genyen pou l achte l"
+      },
+      {
+        "id": "c",
+        "text": "Li te kite l paske l pa t gen lajan"
+      },
+      {
+        "id": "d",
+        "text": "Li te mande yon zanmi pou l achte l pou li"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matye 13:46 — \"Lè li jwenn yon bèl grenn pèl ki koute chè anpil, li ale, li vann tou sa li te genyen, li achte li.\"",
+    "bibleReference": "Matye 13:46",
+    "normalizedRef": "mat13.46",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-par-035",
+    "questionText": "Nan parabòl jij ki san krentif la, poukisa li te rann vèv la jistis finalman?",
+    "categoryId": "parabolas",
+    "categoryName": "Parabòl yo",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Paske li te pè Bondye"
+      },
+      {
+        "id": "b",
+        "text": "Paske vèv la te fatige l twòp ak demann li yo"
+      },
+      {
+        "id": "c",
+        "text": "Paske vèv la te ba l lajan"
+      },
+      {
+        "id": "d",
+        "text": "Paske li te renmen vèv la"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Lik 18:5 — \"Men, paske vèv sa a ap fatige m’, m’ap rann li jistis...\"",
+    "bibleReference": "Lik 18:5",
+    "normalizedRef": "luk18.5",
+    "normalizedCat": "parabolas"
+  },
+  {
+    "id": "dq-doc-022",
+    "questionText": "Dapre Efezyen 2:8, kòman nou sove?",
+    "categoryId": "doctrina",
+    "categoryName": "Doktrin Kretyen",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pa mwayen bon zèv nou yo"
+      },
+      {
+        "id": "b",
+        "text": "Pa gras, pa mwayen lafwa"
+      },
+      {
+        "id": "c",
+        "text": "Paske nou fèt nan yon fanmi kretyen"
+      },
+      {
+        "id": "d",
+        "text": "Lè nou bay anpil ofrann"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Efezyen 2:8 — \"Paske, se gras Bondye ki sove nou pa mwayen lafwa nou nan li. Sa pa soti nan nou menm...\"",
+    "bibleReference": "Efezyen 2:8",
+    "normalizedRef": "eph2.8",
+    "normalizedCat": "doctrina"
+  },
+  {
+    "id": "dq-doc-023",
+    "questionText": "Ki sa Bib la di ki se \"rasin tout kalite sa ki mal\"?",
+    "categoryId": "doctrina",
+    "categoryName": "Doktrin Kretyen",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lajan"
+      },
+      {
+        "id": "b",
+        "text": "Lanmou pou lajan"
+      },
+      {
+        "id": "c",
+        "text": "Kòlè"
+      },
+      {
+        "id": "d",
+        "text": "Manti"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "1 Timote 6:10 — \"Paske, lanmou pou lajan se rasin tout kalite sa ki mal.\"",
+    "bibleReference": "1 Timote 6:10",
+    "normalizedRef": "1ti6.10",
+    "normalizedCat": "doctrina"
+  },
+  {
+    "id": "dq-doc-024",
+    "questionText": "Ki sa nou dwe fè pou nou gen lavi ki p’ap janm fini an dapre Jan 3:16?",
+    "categoryId": "doctrina",
+    "categoryName": "Doktrin Kretyen",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mete konfyans nou nan Pitit Bondye a (Jezi)"
+      },
+      {
+        "id": "b",
+        "text": "Travay di chak jou"
+      },
+      {
+        "id": "c",
+        "text": "Konnen tout Bib la pakè"
+      },
+      {
+        "id": "d",
+        "text": "Pa janm fè peche"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Jan 3:16 — \"...pou tout moun ki mete konfyans yo nan li pa pèdi, men pou yo gen lavi ki p’ap janm fini an.\"",
+    "bibleReference": "Jan 3:16",
+    "normalizedRef": "joh3.16",
+    "normalizedCat": "doctrina"
+  },
+  {
+    "id": "dq-doc-025",
+    "questionText": "Kote premye kòmandman ki gen yon pwomès ladan l?",
+    "categoryId": "doctrina",
+    "categoryName": "Doktrin Kretyen",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pa touye moun"
+      },
+      {
+        "id": "b",
+        "text": "Respekte manman ou ak papa ou"
+      },
+      {
+        "id": "c",
+        "text": "Pa adore lòt bondye"
+      },
+      {
+        "id": "d",
+        "text": "Respekte jou repo a"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Efezyen 6:2 — \"Respekte manman ou ak papa ou. Sa se premye kòmandman ki gen yon pwomès dèyè l.\"",
+    "bibleReference": "Efezyen 6:2",
+    "normalizedRef": "eph6.2",
+    "normalizedCat": "doctrina"
+  },
+  {
+    "id": "dq-doc-026",
+    "questionText": "Ki sa \"Lafwa\" ye dapre Ebre 11:1?",
+    "categoryId": "doctrina",
+    "categoryName": "Doktrin Kretyen",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yon santiman pasajè"
+      },
+      {
+        "id": "b",
+        "text": "Yon asirans fèm sou sa nou espere a"
+      },
+      {
+        "id": "c",
+        "text": "Lè nou wè yon mirak"
+      },
+      {
+        "id": "d",
+        "text": "Yon bagay nou ka touche"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ebre 11:1 — \"Lafwa se yon asirans fèm sou sa nou espere a...\"",
+    "bibleReference": "Ebre 11:1",
+    "normalizedRef": "heb11.1",
+    "normalizedCat": "doctrina"
+  },
+  {
+    "id": "dq-doc-027",
+    "questionText": "Ki sa Bib la di de pawòl Bondye a nan Sòm 119:105?",
+    "categoryId": "doctrina",
+    "categoryName": "Doktrin Kretyen",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Li se yon nepe"
+      },
+      {
+        "id": "b",
+        "text": "Li se yon lanp pou pye nou ak yon limyè sou chemen nou"
+      },
+      {
+        "id": "c",
+        "text": "Li se yon dlo ki fre"
+      },
+      {
+        "id": "d",
+        "text": "Li se yon gwo mòn"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Sòm 119:105 — \"Pawòl ou se yon lanp pou pye mwen, yon limyè sou chemen mwen.\"",
+    "bibleReference": "Sòm 119:105",
+    "normalizedRef": "psa119.105",
+    "normalizedCat": "doctrina"
+  },
+  {
+    "id": "dq-doc-028",
+    "questionText": "Ki sa \"peche\" ye dapre 1 Jan 3:4?",
+    "categoryId": "doctrina",
+    "categoryName": "Doktrin Kretyen",
+    "difficulty": "hard",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dezobeyisans lwa Bondye a"
+      },
+      {
+        "id": "b",
+        "text": "Lè nou fè yon erè"
+      },
+      {
+        "id": "c",
+        "text": "Lè nou pa renmen yon moun"
+      },
+      {
+        "id": "d",
+        "text": "Lè nou pa al legliz"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "1 Jan 3:4 — \"Tout moun k’ap fè peche, y’ap dezobeyi lwa Bondye a...\"",
+    "bibleReference": "1 Jan 3:4",
+    "normalizedRef": "1jn3.4",
+    "normalizedCat": "doctrina"
+  },
+  {
+    "id": "dq-doc-029",
+    "questionText": "Ki pi gwo kòmandman an dapre Jezi?",
+    "categoryId": "doctrina",
+    "categoryName": "Doktrin Kretyen",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Renmen Bondye ak tout kè ou, tout nanm ou ak tout lespri ou"
+      },
+      {
+        "id": "b",
+        "text": "Pa vòlè"
+      },
+      {
+        "id": "c",
+        "text": "Ale nan legliz chak dimanch"
+      },
+      {
+        "id": "d",
+        "text": "Bati yon gwo tanp"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Matye 22:37-38 — \"Se pou ou renmen Seyè a, Bondye ou... Sa se premye kòmandman an...\"",
+    "bibleReference": "Matye 22:37-38",
+    "normalizedRef": "mat22.37-38",
+    "normalizedCat": "doctrina"
+  },
+  {
+    "id": "dq-evg-016",
+    "questionText": "Nan ki vil Jezi te fèt?",
+    "categoryId": "evangelios",
+    "categoryName": "Lavi Jezi",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Jerizalèm"
+      },
+      {
+        "id": "b",
+        "text": "Nazarèt"
+      },
+      {
+        "id": "c",
+        "text": "Betleyèm"
+      },
+      {
+        "id": "d",
+        "text": "Jeriko"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Matye 2:1 — \"Jezi te fèt lavil Betleyèm, nan peyi Jide...\"",
+    "bibleReference": "Matye 2:1",
+    "normalizedRef": "mat2.1",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-017",
+    "questionText": "Konbyen tan Jezi te pase ap jene nan dezè a anvan li te kòmanse ministè l?",
+    "categoryId": "evangelios",
+    "categoryName": "Lavi Jezi",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "7 jou"
+      },
+      {
+        "id": "b",
+        "text": "12 jou"
+      },
+      {
+        "id": "c",
+        "text": "40 jou ak 40 nwit"
+      },
+      {
+        "id": "d",
+        "text": "1 lanne"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Matye 4:2 — \"Li pase karant jou ak karant nwit san l pa manje anyen. Apre sa, li vin grangou.\"",
+    "bibleReference": "Matye 4:2",
+    "normalizedRef": "mat4.2",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-018",
+    "questionText": "Ki sa k te metye Jozèf, papa Jezi sou latè?",
+    "categoryId": "evangelios",
+    "categoryName": "Lavi Jezi",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pechè pwason"
+      },
+      {
+        "id": "b",
+        "text": "Bòs chapant"
+      },
+      {
+        "id": "c",
+        "text": "Bèje"
+      },
+      {
+        "id": "d",
+        "text": "Sòlda"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matye 13:55 — \"Eske se pa pitit bòs chapant lan?\"",
+    "bibleReference": "Matye 13:55",
+    "normalizedRef": "mat13.55",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-019",
+    "questionText": "Kilès ki te batize Jezi nan rivyè Jouden an?",
+    "categoryId": "evangelios",
+    "categoryName": "Lavi Jezi",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pyè"
+      },
+      {
+        "id": "b",
+        "text": "Jan Batis"
+      },
+      {
+        "id": "c",
+        "text": "Jak"
+      },
+      {
+        "id": "d",
+        "text": "Pòl"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matye 3:13 — \"Jezi soti nan peyi Galile, li vin bò larivyè Jouden bò kote Jan, pou Jan te batize li.\"",
+    "bibleReference": "Matye 3:13",
+    "normalizedRef": "mat3.13",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-020",
+    "questionText": "Ki disip ki te trayi Jezi pou 30 pyès lajan?",
+    "categoryId": "evangelios",
+    "categoryName": "Lavi Jezi",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pyè"
+      },
+      {
+        "id": "b",
+        "text": "Jida Iskariòt"
+      },
+      {
+        "id": "c",
+        "text": "Tomas"
+      },
+      {
+        "id": "d",
+        "text": "Andre"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matye 26:14-15 — \"Yonn nan douz disip yo... Jida Iskariòt... di yo: Kisa n’a ban mwen si m’ livre Jezi ban nou? Yo ba li trant pyès lajan.\"",
+    "bibleReference": "Matye 26:14-15",
+    "normalizedRef": "mat26.14-15",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-021",
+    "questionText": "Ki kote Jezi te ale pou l te priye anvan yo te arete l?",
+    "categoryId": "evangelios",
+    "categoryName": "Lavi Jezi",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nan tanp lan"
+      },
+      {
+        "id": "b",
+        "text": "Nan jaden Jetsemane a"
+      },
+      {
+        "id": "c",
+        "text": "Sou mòn Sinayi"
+      },
+      {
+        "id": "d",
+        "text": "Nan dezè a"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matye 26:36 — \"Apre sa, Jezi ale ak disip li yo yon kote yo rele Jetsemane. Li di yo: Chita la, mwen pral priye lòt bò a.\"",
+    "bibleReference": "Matye 26:36",
+    "normalizedRef": "mat26.36",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-022",
+    "questionText": "Konbyen fwa Pyè te nye Jezi anvan kòk te chante?",
+    "categoryId": "evangelios",
+    "categoryName": "Lavi Jezi",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yon sèl fwa"
+      },
+      {
+        "id": "b",
+        "text": "De fwa"
+      },
+      {
+        "id": "c",
+        "text": "Twa fwa"
+      },
+      {
+        "id": "d",
+        "text": "Sèt fwa"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Matye 26:75 — \"Anvan kòk la chante, ou va di twa fwa ou pa janm konnen mwen.\"",
+    "bibleReference": "Matye 26:75",
+    "normalizedRef": "mat26.75",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-023",
+    "questionText": "Kilès ki te gouvènè ki te kondane Jezi pou yo kloure l sou yon kwa a?",
+    "categoryId": "evangelios",
+    "categoryName": "Lavi Jezi",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ewòd"
+      },
+      {
+        "id": "b",
+        "text": "Pons Pilat"
+      },
+      {
+        "id": "c",
+        "text": "Seza"
+      },
+      {
+        "id": "d",
+        "text": "Kayif"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Matye 27:26 — \"Pilat... apre li fin fè yo bat Jezi, li renmèt li ba yo pou yo kloure l sou yon kwa.\"",
+    "bibleReference": "Matye 27:26",
+    "normalizedRef": "mat27.26",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-024",
+    "questionText": "Ki sa ki te ekri sou tèt kwa Jezi a?",
+    "categoryId": "evangelios",
+    "categoryName": "Lavi Jezi",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wa Mond lan"
+      },
+      {
+        "id": "b",
+        "text": "Jezi, moun Nazarèt, Wa Jwif yo"
+      },
+      {
+        "id": "c",
+        "text": "Pitit Bondye a"
+      },
+      {
+        "id": "d",
+        "text": "Mesi a"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jan 19:19 — \"Pilat te fè ekri yon pankat... men sa ki te ekri sou li: Jezi, moun Nazarèt, wa jwif yo.\"",
+    "bibleReference": "Jan 19:19",
+    "normalizedRef": "joh19.19",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-evg-025",
+    "questionText": "Apre konbyen jou Jezi te resisite soti vivan nan lanmò?",
+    "categoryId": "evangelios",
+    "categoryName": "Lavi Jezi",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nan premye jou a"
+      },
+      {
+        "id": "b",
+        "text": "Apre sèt jou"
+      },
+      {
+        "id": "c",
+        "text": "Sou twazyèm jou a"
+      },
+      {
+        "id": "d",
+        "text": "Apre karant jou"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "1 Korentyen 15:4 — \"...li te resisite sou twazyèm jou a, jan sa te ekri nan Liv la.\"",
+    "bibleReference": "1 Korentyen 15:4",
+    "normalizedRef": "1korentyen15.4",
+    "normalizedCat": "evangelios"
+  },
+  {
+    "id": "dq-sal-017",
+    "questionText": "Kòman premye vèsè Sòm 23 a kòmanse?",
+    "categoryId": "salmos",
+    "categoryName": "Sòm ak Sajès",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bondye se tout pouvwa"
+      },
+      {
+        "id": "b",
+        "text": "Seyè a se bèje mwen, mwen p’ap manke anyen"
+      },
+      {
+        "id": "c",
+        "text": "M’ap leve je m gade mòn yo"
+      },
+      {
+        "id": "d",
+        "text": "Fè kè nou kontan nan Seyè a"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Sòm 23:1 — \"Seyè a se bèje mwen, mwen p’ap janm manke anyen.\"",
+    "bibleReference": "Sòm 23:1",
+    "normalizedRef": "psa23.1",
+    "normalizedCat": "salmos"
+  },
+  {
+    "id": "dq-sal-018",
+    "questionText": "Dapre Sòm 119:105, ki sa pawòl Bondye a ye pou pye nou?",
+    "categoryId": "salmos",
+    "categoryName": "Sòm ak Sajès",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yon chosèt"
+      },
+      {
+        "id": "b",
+        "text": "Yon lanp"
+      },
+      {
+        "id": "c",
+        "text": "Yon wòch"
+      },
+      {
+        "id": "d",
+        "text": "Yon dlo"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Sòm 119:105 — \"Pawòl ou se yon lanp pou pye mwen, yon limyè sou chemen mwen.\"",
+    "bibleReference": "Sòm 119:105",
+    "normalizedRef": "psa119.105",
+    "normalizedCat": "salmos"
+  },
+  {
+    "id": "dq-sal-019",
+    "questionText": "Ki moun Bib la rele moun ki di nan kè l \"pa gen Bondye\"?",
+    "categoryId": "salmos",
+    "categoryName": "Sòm ak Sajès",
+    "difficulty": "medium",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yon moun save"
+      },
+      {
+        "id": "b",
+        "text": "Yon moun fou"
+      },
+      {
+        "id": "c",
+        "text": "Yon moun rich"
+      },
+      {
+        "id": "d",
+        "text": "Yon moun vanyan"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Sòm 14:1 — \"Moun fou a di nan kè li: Pa gen Bondye!\"",
+    "bibleReference": "Sòm 14:1",
+    "normalizedRef": "psa14.1",
+    "normalizedCat": "salmos"
+  },
+  {
+    "id": "dq-sal-020",
+    "questionText": "Ki moun ki te ekri pifò nan Sòm yo?",
+    "categoryId": "salmos",
+    "categoryName": "Sòm ak Sajès",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Moyiz"
+      },
+      {
+        "id": "b",
+        "text": "David"
+      },
+      {
+        "id": "c",
+        "text": "Salomon"
+      },
+      {
+        "id": "d",
+        "text": "Abram"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Yo atribiye pifò nan Sòm yo bay wa David, ki te yon mizisyen ak yon powèt vanyan.",
+    "bibleReference": "Sòm",
+    "normalizedRef": "psa",
+    "normalizedCat": "salmos"
+  },
+  {
+    "id": "dq-sal-021",
+    "questionText": "Konbyen vèsè ki genyen nan sòm ki pi kout la (Sòm 117)?",
+    "categoryId": "salmos",
+    "categoryName": "Sòm ak Sajès",
+    "difficulty": "hard",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 vèsè"
+      },
+      {
+        "id": "b",
+        "text": "2 vèsè"
+      },
+      {
+        "id": "c",
+        "text": "5 vèsè"
+      },
+      {
+        "id": "d",
+        "text": "10 vèsè"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Sòm 117 la gen sèlman de vèsè, sa ki fè l sòm ki pi kout nan tout Bib la.",
+    "bibleReference": "Sòm 117",
+    "normalizedRef": "psa117",
+    "normalizedCat": "salmos"
+  },
+  {
+    "id": "dq-sal-022",
+    "questionText": "Dapre Pwovèb 3:5, nan kilès nou dwe mete tout konfyans nou?",
+    "categoryId": "salmos",
+    "categoryName": "Sòm ak Sajès",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nan pwòp entèlijans nou"
+      },
+      {
+        "id": "b",
+        "text": "Nan Seyè a ak tout kè nou"
+      },
+      {
+        "id": "c",
+        "text": "Nan zanmi nou"
+      },
+      {
+        "id": "d",
+        "text": "Nan gouvènman an"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Pwovèb 3:5 — \"Mete tout konfyans ou nan Seyè a ak tout kè ou. Pa apiye sou pwòp konesans ou.\"",
+    "bibleReference": "Pwovèb 3:5",
+    "normalizedRef": "pro3.5",
+    "normalizedCat": "salmos"
+  },
+  {
+    "id": "dq-pers-026",
+    "questionText": "Ki sa Rout te di Nèomi ki montre fidèlite li?",
+    "categoryId": "personajes",
+    "categoryName": "Pèsonaj Biblik",
+    "difficulty": "easy",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "\"M ap suiv ou jiskaske ou jwenn lòt mari\""
+      },
+      {
+        "id": "b",
+        "text": "\"Kote ou prale m ap ale, kote ou rete m ap rete, pèp ou a se pèp mwen\""
+      },
+      {
+        "id": "c",
+        "text": "\"Mwen pral retounen kay paran mwen\""
+      },
+      {
+        "id": "d",
+        "text": "\"Bondye ou a se pa Bondye mwen\""
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Rout 1:16-17 — yon nan deklamasyon fidèlite ki pi bèl nan tout Bib la. Rout chwazi Nèomi ak Bondye Nèomi anvan enterè pèsonèl li.",
+    "bibleReference": "Rout 1:16-17",
+    "normalizedRef": "rout1.16-17",
+    "normalizedCat": "personajes"
+  },
+  {
+    "id": "dq-pers-027",
+    "questionText": "Pou ki rezon Pòl ak Barnabas te separe?",
+    "categoryId": "personajes",
+    "categoryName": "Pèsonaj Biblik",
+    "difficulty": "hard",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Poutèt yon dezakò sou doktrin siyèk"
+      },
+      {
+        "id": "b",
+        "text": "Poutèt Jan Mak — Barnabas te vle pran li, Pòl te refize akòz abandone li anvan"
+      },
+      {
+        "id": "c",
+        "text": "Poutèt yon konfli sou lajan misyon an"
+      },
+      {
+        "id": "d",
+        "text": "Legliz Antiyòch te voye yo nan direksyon diferan"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Travay 15:36-41 — desak sharp sou Jan Mak ki te abandone yo (Travay 13:13). Barnabas pran Jan Mak, Pòl pran Silas. Providans: de ekip misyonè pito ke youn.",
+    "bibleReference": "Travay 15:37-40",
+    "normalizedRef": "act15.37-40",
+    "normalizedCat": "personajes"
+  },
+  {
+    "id": "dq-pers-028",
+    "questionText": "Ki wòl Nikodem te jwe nan antèman Jezi?",
+    "categoryId": "personajes",
+    "categoryName": "Pèsonaj Biblik",
+    "difficulty": "hard",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Li te asiste sèlman pou obsève"
+      },
+      {
+        "id": "b",
+        "text": "Li te pote anviwon 75 liv mirra ak aloès pou antere kò Jezi avèk Jozèf d'Arimati"
+      },
+      {
+        "id": "c",
+        "text": "Li te refize asiste pou krentif Jwif yo"
+      },
+      {
+        "id": "d",
+        "text": "Li te achte tonbo a pou Jezi"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jan 19:39-40 — Nikodem (ki te vin jwenn Jezi nan lannwit Jan 3) te parèt piblikman pou antere Jezi avèk Jozèf d'Arimati — kouraj ki te soti anba fèblès.",
+    "bibleReference": "Jan 19:39-40",
+    "normalizedRef": "joh19.39-40",
+    "normalizedCat": "personajes"
+  },
+  {
+    "id": "dq-pers-029",
+    "questionText": "Ki sa ki patikilye sou apèl Bondye pou Jeremi kòm pwofèt?",
+    "categoryId": "personajes",
+    "categoryName": "Pèsonaj Biblik",
+    "difficulty": "hard",
+    "language": "ht",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bondye te chwazi Jeremi pou richès li"
+      },
+      {
+        "id": "b",
+        "text": "Bondye te chwazi Jeremi anvan nesans li ak sanktifye li anvan soti nan vant manman l"
+      },
+      {
+        "id": "c",
+        "text": "Jeremi te deja yon chèf nan Izrayèl"
+      },
+      {
+        "id": "d",
+        "text": "Bondye te chwazi li akòz saj li"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jeremi 1:5 — \"Anvan mwen te fòme ou nan vant manman ou, mwen te deja konnen ou; anvan ou soti nan vant li, mwen te deja mete ou apa.\" — doktrin vokasyon Bondye anvan nesans.",
+    "bibleReference": "Jeremi 1:5",
+    "normalizedRef": "jer1.5",
+    "normalizedCat": "personajes"
+  }
+]

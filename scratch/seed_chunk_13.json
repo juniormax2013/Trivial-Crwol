@@ -1,0 +1,3282 @@
+[
+  {
+    "docId": "dq-par-022_ht",
+    "data": {
+      "id": "dq-par-022",
+      "questionText": "Ki sa k rive grenn ki te tonbe nan mitan pikan yo nan parabòl moun k ap simen an?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zwazo manje yo"
+        },
+        {
+          "id": "b",
+          "text": "Pikan yo pouse, yo toufe yo"
+        },
+        {
+          "id": "c",
+          "text": "Yo bay bèl fwi"
+        },
+        {
+          "id": "d",
+          "text": "Yo seche akòz solèy"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 13:7 — \"Yon lòt pati tonbe nan mitan pikan. Pikan yo grandi, yo toufe grenn yo.\"",
+      "bibleReference": "Matye 13:7",
+      "normalizedRef": "mat13.7",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-022_fr",
+    "data": {
+      "id": "dq-par-022",
+      "questionText": "Qu'advint-il de la semence qui tomba parmi les épines dans la parabole du semeur ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les oiseaux les mangèrent"
+        },
+        {
+          "id": "b",
+          "text": "Les épines montèrent et l'étouffèrent"
+        },
+        {
+          "id": "c",
+          "text": "Elle donna de beaux fruits"
+        },
+        {
+          "id": "d",
+          "text": "Elle sécha à cause du soleil"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 13:7 — « Une autre partie tomba parmi les épines ; les épines montèrent, et l'étouffèrent. »",
+      "bibleReference": "Matthieu 13:7",
+      "normalizedRef": "mat13.7",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-023_ht",
+    "data": {
+      "id": "dq-par-023",
+      "questionText": "Nan parabòl mouton ki pèdi a, konbyen mouton mèt la te kite nan savann nan pou l al chèche sa k pèdi a?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "50"
+        },
+        {
+          "id": "c",
+          "text": "99"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lk 15:4 — \"Si yonn nan nou gen san mouton, epi li pèdi yonn, eske li p’ap kite katrevendis nèf lòt yo nan savann lan pou l al chèche sa ki pèdi a?\"",
+      "bibleReference": "Lk 15:4",
+      "normalizedRef": "lk15.4",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-023_fr",
+    "data": {
+      "id": "dq-par-023",
+      "questionText": "Dans la parabole de la brebis perdue, combien de brebis le maître laissa-t-il dans le désert pour aller chercher celle qui était perdue ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "50"
+        },
+        {
+          "id": "c",
+          "text": "99"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lc 15:4 — « Quel homme d'entre vous, s'il a cent brebis, et qu'il en perde une, ne laisse les quatre-vingt-dix-neuf autres dans le désert pour aller après celle qui est perdue ? »",
+      "bibleReference": "Lc 15:4",
+      "normalizedRef": "lk15.4",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-024_ht",
+    "data": {
+      "id": "dq-par-024",
+      "questionText": "Ki sa k rive grenn moutad la lè l fin grandi nèt nan parabòl Jezi a?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li rete yon ti zèb"
+        },
+        {
+          "id": "b",
+          "text": "Li vin tounen yon gwo pyebwa kote zwazo fè nich"
+        },
+        {
+          "id": "c",
+          "text": "Li mouri vit"
+        },
+        {
+          "id": "d",
+          "text": "Li pa janm grandi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 13:32 — \"Lè l grandi, li pi gwo pase tout plant... li vin yon pyebwa kote zwazo nan syèl la vin fè nich nan branch li yo.\"",
+      "bibleReference": "Matye 13:32",
+      "normalizedRef": "mat13.32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-024_fr",
+    "data": {
+      "id": "dq-par-024",
+      "questionText": "Qu'arrive-t-il au grain de sénevé lorsqu'il a fini de croître dans la parabole de Jésus ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il reste une petite herbe"
+        },
+        {
+          "id": "b",
+          "text": "Il devient un grand arbre où les oiseaux font leur nid"
+        },
+        {
+          "id": "c",
+          "text": "Il meurt rapidement"
+        },
+        {
+          "id": "d",
+          "text": "Il ne grandit jamais"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 13:32 — « ... mais, quand il est poussé, il est plus grand que les légumes et devient un arbre, de sorte que les oiseaux du ciel viennent habiter dans ses branches. »",
+      "bibleReference": "Matthieu 13:32",
+      "normalizedRef": "mat13.32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-025_ht",
+    "data": {
+      "id": "dq-par-025",
+      "questionText": "Nan parabòl jounalye yo nan jaden rezen an, konbyen mèt la te peye moun ki te travay yon sèl lè a konpare ak sa ki te travay tout jounen an?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mwens lajan"
+        },
+        {
+          "id": "b",
+          "text": "Menm kantite lajan (yon jounal)"
+        },
+        {
+          "id": "c",
+          "text": "Plis lajan"
+        },
+        {
+          "id": "d",
+          "text": "Li pa t peye yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 20:9-10 — \"Moun ki te kòmanse travay vè senkè nan apremidi a vini, yo resevwa yon jounal lajan... sa ki te travay depi nan maten an... resevwa yon jounal lajan tou.\"",
+      "bibleReference": "Matye 20:9-10",
+      "normalizedRef": "mat20.9-10",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-025_fr",
+    "data": {
+      "id": "dq-par-025",
+      "questionText": "Dans la parabole des ouvriers de la vigne, combien le maître a-t-il payé ceux qui n'avaient travaillé qu'une heure par rapport à ceux qui avaient travaillé toute la journée ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moins d'argent"
+        },
+        {
+          "id": "b",
+          "text": "Le même montant (un denier)"
+        },
+        {
+          "id": "c",
+          "text": "Plus d'argent"
+        },
+        {
+          "id": "d",
+          "text": "Il ne les a pas payés"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 20:9-10 — « Ceux de la onzième heure vinrent, et reçurent chacun un denier. Les premiers vinrent ensuite, pensant recevoir davantage ; mais ils reçurent aussi chacun un denier. »",
+      "bibleReference": "Matthieu 20:9-10",
+      "normalizedRef": "mat20.9-10",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-026_ht",
+    "data": {
+      "id": "dq-par-026",
+      "questionText": "Nan parabòl moun k’ap simen an, kote grenn ki tonbe nan bon tè a te rive pwodwi fwi?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sou bò chemen an"
+        },
+        {
+          "id": "b",
+          "text": "Nan mitan pikan"
+        },
+        {
+          "id": "c",
+          "text": "Nan bon tè"
+        },
+        {
+          "id": "d",
+          "text": "Sou wòch"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Matye 13:8 — \"Yon lòt pati tonbe nan bon tè; li bay fwi...\"",
+      "bibleReference": "Matye 13:8",
+      "normalizedRef": "mat13.8",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-026_fr",
+    "data": {
+      "questionText": "Dans la parabole du semeur, où sont tombées les graines qui ont produit du fruit ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le long du chemin"
+        },
+        {
+          "id": "b",
+          "text": "Parmi les épines"
+        },
+        {
+          "id": "c",
+          "text": "Dans la bonne terre"
+        },
+        {
+          "id": "d",
+          "text": "Sur le roc"
+        }
+      ],
+      "explanation": "Matthieu 13:8 — « Une autre partie tomba dans la bonne terre ; elle donna du fruit... »",
+      "bibleReference": "Matthieu 13:8",
+      "id": "dq-par-026",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-par-027_ht",
+    "data": {
+      "id": "dq-par-027",
+      "questionText": "Ki sa papa a te fè lè pitit gason gaspiyè a te tounen lakay li?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te chase l"
+        },
+        {
+          "id": "b",
+          "text": "Li kouri al jwenn li, li kwense l nan bra l, li bo l"
+        },
+        {
+          "id": "c",
+          "text": "Li te fè l vin tounen yon domestik"
+        },
+        {
+          "id": "d",
+          "text": "Li te mande l kote lajan an pase"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lik 15:20 — \"Papa a wè l lwen... kè l fè l mal pou li, li kouri al jwenn li, li kwense l nan bra l, li bo l.\"",
+      "bibleReference": "Lik 15:20",
+      "normalizedRef": "luk15.20",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-027_fr",
+    "data": {
+      "questionText": "Qu'a fait le père quand le fils prodigue est revenu ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il l'a chassé"
+        },
+        {
+          "id": "b",
+          "text": "Il courut se jeter à son cou et l'embrassa"
+        },
+        {
+          "id": "c",
+          "text": "Il en a fait un serviteur"
+        },
+        {
+          "id": "d",
+          "text": "Il lui a demandé où était passé l'argent"
+        }
+      ],
+      "explanation": "Luc 15:20 — « Comme il était encore loin, son père le vit et fut ému de compassion, il courut se jeter à son cou et l'embrassa. »",
+      "bibleReference": "Luc 15:20",
+      "id": "dq-par-027",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-par-028_ht",
+    "data": {
+      "id": "dq-par-028",
+      "questionText": "Nan parabòl Bon Samariten an, kilès ki te pase bò kote nonm blese a san li pa t ede l anvan Samariten an te vini?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon prèt ak yon Levit"
+        },
+        {
+          "id": "b",
+          "text": "Yon pechè ak yon kiltivatè"
+        },
+        {
+          "id": "c",
+          "text": "Yon sòlda ak yon wa"
+        },
+        {
+          "id": "d",
+          "text": "Yon farizyen ak yon sadiseyen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Lik 10:31-32 — \"Yon prèt vin ap desann... li wè l, li pase bò wout la... Yon Levit vini tou... li pase bò wout la tou.\"",
+      "bibleReference": "Lik 10:31-32",
+      "normalizedRef": "luk10.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-028_fr",
+    "data": {
+      "questionText": "Dans la parabole du Bon Samaritain, qui est passé à côté de l'homme blessé sans l'aider ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un sacrificateur et un Lévite"
+        },
+        {
+          "id": "b",
+          "text": "Un pécheur et un cultivateur"
+        },
+        {
+          "id": "c",
+          "text": "Un soldat et un roi"
+        },
+        {
+          "id": "d",
+          "text": "Un pharisien et un sadducéen"
+        }
+      ],
+      "explanation": "Luc 10:31-32 — « Un sacrificateur... descendait par ce chemin ; il le vit, et passa outre. Un Lévite... passa aussi outre. »",
+      "bibleReference": "Luc 10:31-32",
+      "id": "dq-par-028",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-par-029_ht",
+    "data": {
+      "id": "dq-par-029",
+      "questionText": "Ak ki sa Jezi te konpare Wayòm syèl la ki piti anpil men ki vin grandi tounen yon gwo pyebwa?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grenn ble"
+        },
+        {
+          "id": "b",
+          "text": "Grenn moutad"
+        },
+        {
+          "id": "c",
+          "text": "Grenn mayi"
+        },
+        {
+          "id": "d",
+          "text": "Grenn pwa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 13:31-32 — \"Wayòm syèl la se tankou yon grenn moutad... li tounen yon pyebwa.\"",
+      "bibleReference": "Matye 13:31-32",
+      "normalizedRef": "mat13.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-029_fr",
+    "data": {
+      "questionText": "À quoi Jésus a-t-1 comparé le Royaume des cieux, qui devient un grand arbre ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un grain de blé"
+        },
+        {
+          "id": "b",
+          "text": "Un grain de sénevé (moutarde)"
+        },
+        {
+          "id": "c",
+          "text": "Un grain de maïs"
+        },
+        {
+          "id": "d",
+          "text": "Un grain de haricot"
+        }
+      ],
+      "explanation": "Matthieu 13:31-32 — « Le royaume des cieux est semblable à un grain de sénevé... il devient un arbre. »",
+      "bibleReference": "Matthieu 13:31-32",
+      "id": "dq-par-029",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-par-030_ht",
+    "data": {
+      "id": "dq-par-030",
+      "questionText": "Nan parabòl dis jennfi yo, poukisa senk ladan yo te fou?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo pa t gen lanp"
+        },
+        {
+          "id": "b",
+          "text": "Yo pa t pran lwil an rezèv pou lanp yo"
+        },
+        {
+          "id": "c",
+          "text": "Yo te dòmi twòp"
+        },
+        {
+          "id": "d",
+          "text": "Yo pa t konnen kote nòs la ap fèt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 25:3 — \"Moun fou yo te pran lanp yo, men yo pa t pran lwil avèk yo.\"",
+      "bibleReference": "Matye 25:3",
+      "normalizedRef": "mat25.3",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-030_fr",
+    "data": {
+      "questionText": "Dans la parabole des dix vierges, pourquoi cinq d'entre elles étaient-elles folles ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elles n'avaient pas de lampes"
+        },
+        {
+          "id": "b",
+          "text": "Elles n'avaient pas pris d'huile en réserve"
+        },
+        {
+          "id": "c",
+          "text": "Elles dormaient trop"
+        },
+        {
+          "id": "d",
+          "text": "Elles ne savaient pas où se fêtaient les noces"
+        }
+      ],
+      "explanation": "Matthieu 25:3 — « Les folles, en prenant leurs lampes, ne prirent point d'huile avec elles. »",
+      "bibleReference": "Matthieu 25:3",
+      "id": "dq-par-030",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-par-031_ht",
+    "data": {
+      "id": "dq-par-031",
+      "questionText": "Ki sa mèt la te fè ak sèvitè ki te antere talan li te resevwa a?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te felisite l"
+        },
+        {
+          "id": "b",
+          "text": "Li te pran talan an nan men l epi li te jete l deyò nan fènwa"
+        },
+        {
+          "id": "c",
+          "text": "Li te ba l yon lòt chans"
+        },
+        {
+          "id": "d",
+          "text": "Li te ba l plis lajan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 25:28-30 — \"Pran talan an nan men l... jete sèvitè san sèvis sa a deyò nan fènwa...\"",
+      "bibleReference": "Matye 25:28-30",
+      "normalizedRef": "mat25.28-30",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-031_fr",
+    "data": {
+      "questionText": "Qu'a fait le maître au serviteur qui avait enterré son talent ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il l'a félicité"
+        },
+        {
+          "id": "b",
+          "text": "Il lui a ôté le talent et l'a jeté dans les ténèbres"
+        },
+        {
+          "id": "c",
+          "text": "Il lui a donné une autre chance"
+        },
+        {
+          "id": "d",
+          "text": "Il lui a donné plus d'argent"
+        }
+      ],
+      "explanation": "Matthieu 25:28-30 — « Ôtez-lui donc le talent... Et le serviteur inutile, jetez-le dans les ténèbres du dehors... »",
+      "bibleReference": "Matthieu 25:28-30",
+      "id": "dq-par-031",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-par-032_ht",
+    "data": {
+      "id": "dq-par-032",
+      "questionText": "Nan parabòl mouton ki pèdi a, konbyen mouton bèje a te kite nan savann lan pou l al chèche sa ki pèdi a?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "50"
+        },
+        {
+          "id": "c",
+          "text": "99"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lik 15:4 — \"Kilès nan nou... si l pèdi yonn, ki p’ap kite katrevendis nèf lòt yo nan dezè a pou l al dèyè sa ki pèdi a?\"",
+      "bibleReference": "Lik 15:4",
+      "normalizedRef": "luk15.4",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-032_fr",
+    "data": {
+      "questionText": "Dans la parabole de la brebis perdue, combien de brebis le berger a-t-il laissées pour chercher celle qui était perdue ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "50"
+        },
+        {
+          "id": "c",
+          "text": "99"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "explanation": "Luc 15:4 — « Quel homme d'entre vous... s'il en perd une, ne laisse les quatre-vingt-dix-neuf autres... »",
+      "bibleReference": "Luc 15:4",
+      "id": "dq-par-032",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-par-033_ht",
+    "data": {
+      "id": "dq-par-033",
+      "questionText": "Ki sa k te rive nan parabòl ble a ak move zèb la?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo te rache move zèb la menm kote a"
+        },
+        {
+          "id": "b",
+          "text": "Yo te kite yo grandi ansanm jouk tan rekòt la rive"
+        },
+        {
+          "id": "c",
+          "text": "Ble a te toufe move zèb la"
+        },
+        {
+          "id": "d",
+          "text": "Yo te plante move zèb la espre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 13:30 — \"Kite yo grandi ansanm jouk tan rekòt la va rive...\"",
+      "bibleReference": "Matye 13:30",
+      "normalizedRef": "mat13.30",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-033_fr",
+    "data": {
+      "questionText": "Qu'arrive-t-il dans la parabole de l'ivraie et du bon grain ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "On a arraché l'ivraie immédiatement"
+        },
+        {
+          "id": "b",
+          "text": "On les a laissé croître ensemble jusqu'à la moisson"
+        },
+        {
+          "id": "c",
+          "text": "Le blé a étouffé l'ivraie"
+        },
+        {
+          "id": "d",
+          "text": "On a planté l'ivraie exprès"
+        }
+      ],
+      "explanation": "Matthieu 13:30 — « Laissez croître ensemble l'un et l'autre jusqu'à la moisson... »",
+      "bibleReference": "Matthieu 13:30",
+      "id": "dq-par-033",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-par-034_ht",
+    "data": {
+      "id": "dq-par-034",
+      "questionText": "Ki sa komèsan an te fè lè li te jwenn yon bèl grenn pèl ki te koute chè anpil?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te vòlè l"
+        },
+        {
+          "id": "b",
+          "text": "Li te vann tout sa l te genyen pou l achte l"
+        },
+        {
+          "id": "c",
+          "text": "Li te kite l paske l pa t gen lajan"
+        },
+        {
+          "id": "d",
+          "text": "Li te mande yon zanmi pou l achte l pou li"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 13:46 — \"Lè li jwenn yon bèl grenn pèl ki koute chè anpil, li ale, li vann tou sa li te genyen, li achte li.\"",
+      "bibleReference": "Matye 13:46",
+      "normalizedRef": "mat13.46",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-034_fr",
+    "data": {
+      "questionText": "Qu'a fait le marchand quand il a trouvé une perle de grand prix ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il l'a volée"
+        },
+        {
+          "id": "b",
+          "text": "Il est allé vendre tout ce qu'il avait et l'a achetée"
+        },
+        {
+          "id": "c",
+          "text": "Il l'a laissée"
+        },
+        {
+          "id": "d",
+          "text": "Il a demandé à un ami de l'acheter"
+        }
+      ],
+      "explanation": "Matthieu 13:46 — « Ayant trouvé une perle de grand prix, il est allé vendre tout ce qu'il avait, et l'a achetée. »",
+      "bibleReference": "Matthieu 13:46",
+      "id": "dq-par-034",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-par-035_ht",
+    "data": {
+      "id": "dq-par-035",
+      "questionText": "Nan parabòl jij ki san krentif la, poukisa li te rann vèv la jistis finalman?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paske li te pè Bondye"
+        },
+        {
+          "id": "b",
+          "text": "Paske vèv la te fatige l twòp ak demann li yo"
+        },
+        {
+          "id": "c",
+          "text": "Paske vèv la te ba l lajan"
+        },
+        {
+          "id": "d",
+          "text": "Paske li te renmen vèv la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lik 18:5 — \"Men, paske vèv sa a ap fatige m’, m’ap rann li jistis...\"",
+      "bibleReference": "Lik 18:5",
+      "normalizedRef": "luk18.5",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-035_fr",
+    "data": {
+      "questionText": "Dans la parabole du juge inique, pourquoi finit-il par faire justice à la veuve ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parce qu'il craignait Dieu"
+        },
+        {
+          "id": "b",
+          "text": "Parce que la veuve le fatiguait par ses demandes"
+        },
+        {
+          "id": "c",
+          "text": "Parce que la veuve lui a donné de l'argent"
+        },
+        {
+          "id": "d",
+          "text": "Parce qu'il aimait la veuve"
+        }
+      ],
+      "explanation": "Luc 18:5 — « Néanmoins, parce que cette veuve m'importune, je lui ferai justice... »",
+      "bibleReference": "Luc 18:5",
+      "id": "dq-par-035",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-para-001_ht",
+    "data": {
+      "id": "dq-para-001",
+      "questionText": "Nan parabòl bon Samariten an, kilès de moun ki te pase san yo pa t ede nonm blese a?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon farizyen ak yon skrib"
+        },
+        {
+          "id": "b",
+          "text": "Yon prèt ak yon Levit"
+        },
+        {
+          "id": "c",
+          "text": "Yon pèseptè kontribisyon ak yon pechè"
+        },
+        {
+          "id": "d",
+          "text": "Yon sòlda ak yon machann"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yon prèt ak yon Levit te pase bò kote nonm blese a san yo pa t rete, kontrèman ak Samariten an (Lik 10:31-32).",
+      "bibleReference": "Lik 10:31-32",
+      "normalizedRef": "luk10.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-001_fr",
+    "data": {
+      "id": "dq-para-001",
+      "questionText": "Dans la parabole du bon Samaritain, quelles étaient les deux personnes qui sont passées sans aider l'homme blessé ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un pharisien et un scribe"
+        },
+        {
+          "id": "b",
+          "text": "Un sacrificateur et un Lévite"
+        },
+        {
+          "id": "c",
+          "text": "Un collecteur d'impôts et un pécheur"
+        },
+        {
+          "id": "d",
+          "text": "Un soldat et un marchand"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Un sacrificateur et un Lévite sont passés à côté de l'homme blessé sans s'arrêter, contrairement au Samaritain (Luc 10:31-32).",
+      "bibleReference": "Luc 10:31-32",
+      "normalizedRef": "luk10.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-002_ht",
+    "data": {
+      "id": "dq-para-002",
+      "questionText": "Ki grenn Jezi te sèvi pou l montre jan Wayòm Bondye a ap grandi, lè l te di se li ki pi piti nan tout grenn?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Grenn ble"
+        },
+        {
+          "id": "b",
+          "text": "Grenn moutad (seneve)"
+        },
+        {
+          "id": "c",
+          "text": "Grenn fig"
+        },
+        {
+          "id": "d",
+          "text": "Grenn rezen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Grenn seneve a piti anpil, men li vin tounen yon gwo pyebwa kote zwazo yo vin fè nich (Matye 13:31-32).",
+      "bibleReference": "Matye 13:31-32",
+      "normalizedRef": "mat13.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-002_fr",
+    "data": {
+      "id": "dq-para-002",
+      "questionText": "Quelle semence Jésus a-t-il utilisée pour illustrer la croissance du Royaume de Dieu, disant qu'elle est la plus petite de toutes ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Graine de blé"
+        },
+        {
+          "id": "b",
+          "text": "Graine de moutarde"
+        },
+        {
+          "id": "c",
+          "text": "Graine de figue"
+        },
+        {
+          "id": "d",
+          "text": "Graine de raisin"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le grain de sénevé (moutarde) est petit, mais il devient un grand arbre où les oiseaux se nichent (Matthieu 13:31-32).",
+      "bibleReference": "Matthieu 13:31-32",
+      "normalizedRef": "mat13.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-003_ht",
+    "data": {
+      "id": "dq-para-003",
+      "questionText": "Nan parabòl pitit gaspiyè a, kisa papa a te fè lè l te wè pitit li a ap tounen?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te fache anpil"
+        },
+        {
+          "id": "b",
+          "text": "Li te kouri al jwenn li epi l bo l"
+        },
+        {
+          "id": "c",
+          "text": "Li te mande l pou l renmèt li lajan an"
+        },
+        {
+          "id": "d",
+          "text": "Li te voye l al travay nan jaden"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pandan l te byen lwen toujou, papa a wè l, kè l fè l mal pou li, li kouri al jwenn li, li pase bra l nan kou l epi l bo l (Lik 15:20).",
+      "bibleReference": "Lik 15:20",
+      "normalizedRef": "luk15.20",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-003_fr",
+    "data": {
+      "id": "dq-para-003",
+      "questionText": "Dans la parabole du fils prodigue, qu'a fait le père quand il a vu son fils revenir ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il s'est mis en colère"
+        },
+        {
+          "id": "b",
+          "text": "Il a couru vers lui et l'a embrassé"
+        },
+        {
+          "id": "c",
+          "text": "Il lui a demandé de rembourser l'argent"
+        },
+        {
+          "id": "d",
+          "text": "Il l'a envoyé travailler aux champs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Comme il était encore loin, son père le vit et fut ému de compassion, il courut se jeter à son cou et le baisa (Luc 15:20).",
+      "bibleReference": "Luc 15:20",
+      "normalizedRef": "luk15.20",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-004_ht",
+    "data": {
+      "id": "dq-para-004",
+      "questionText": "Konbyen mouton gadò a te kite pou l t al chèche sa ki te pèdi a?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "50"
+        },
+        {
+          "id": "c",
+          "text": "99"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ki moun nan nou, si l gen san mouton epi l pèdi yonn, ki p'ap kite katreven-disnèf lòt yo nan dezè a pou l al dèyè sa ki pèdi a? (Lik 15:4).",
+      "bibleReference": "Lik 15:4",
+      "normalizedRef": "luk15.4",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-004_fr",
+    "data": {
+      "id": "dq-para-004",
+      "questionText": "Combien de brebis le berger a-t-il laissées pour aller chercher celle qui était perdue ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "50"
+        },
+        {
+          "id": "c",
+          "text": "99"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Quel homme d'entre vous, s'il a cent brebis, et qu'il en perde une, ne laisse les quatre-vingt-dix-neuf dans le désert pour aller après celle qui est perdue ? (Luc 15:4).",
+      "bibleReference": "Luc 15:4",
+      "normalizedRef": "luk15.4",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-005_ht",
+    "data": {
+      "id": "dq-para-005",
+      "questionText": "Nan parabòl moun k ap simen an, kisa grenn ki tonbe nan mitan pikan yo reprezante?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moun ki pa koute menm"
+        },
+        {
+          "id": "b",
+          "text": "Moun ki kite sousi lavi a toufe yo"
+        },
+        {
+          "id": "c",
+          "text": "Moun ki gen yon lafwa ki pa fon"
+        },
+        {
+          "id": "d",
+          "text": "Moun ki bay anpil rannman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Grenn ki tonbe nan mitan pikan yo se moun ki tande pawòl la, men sousi lavi a ak anvi gen richès toufe pawòl la (Matye 13:22).",
+      "bibleReference": "Matye 13:22",
+      "normalizedRef": "mat13.22",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-005_fr",
+    "data": {
+      "id": "dq-para-005",
+      "questionText": "Dans la parabole du semeur, que représente la semence qui tombe parmi les épines ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ceux qui n'écoutent pas"
+        },
+        {
+          "id": "b",
+          "text": "Ceux qui sont étouffés par les soucis de la vie"
+        },
+        {
+          "id": "c",
+          "text": "Ceux qui ont une foi superficielle"
+        },
+        {
+          "id": "d",
+          "text": "Ceux qui produisent beaucoup de fruits"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La semence tombée parmi les épines représente ceux qui entendent la parole, mais les soucis du siècle et la séduction des richesses l'étouffent (Matthieu 13:22).",
+      "bibleReference": "Matthieu 13:22",
+      "normalizedRef": "mat13.22",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-006_ht",
+    "data": {
+      "id": "dq-para-006",
+      "questionText": "Konbyen jenn fi ki te pare ak lwil nan lanp yo nan parabòl dis jenn fi yo?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Senk nan yo te sòt, senk lòt yo te gen bon konprann. Sa ki te gen bon konprann yo te pran lwil mete nan ti boutèy ansanm ak lanp yo (Matye 25:2-4).",
+      "bibleReference": "Matye 25:2-4",
+      "normalizedRef": "mat25.2-4",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-006_fr",
+    "data": {
+      "id": "dq-para-006",
+      "questionText": "Combien de vierges étaient prêtes avec de l'huile dans leurs lampes dans la parabole des dix vierges ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Cinq d'entre elles étaient folles, et cinq sages. Les sages prirent, avec leurs lampes, de l'huile dans des vases (Matthieu 25:2-4).",
+      "bibleReference": "Matthieu 25:2-4",
+      "normalizedRef": "mat25.2-4",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-007_ht",
+    "data": {
+      "id": "dq-para-007",
+      "questionText": "Nan parabòl talan yo, kisa domestik ki te resevwa yon sèl talan an te fè avè l?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te fè l travay"
+        },
+        {
+          "id": "b",
+          "text": "Li t al fouye yon twou nan tè, li kache l"
+        },
+        {
+          "id": "c",
+          "text": "Li te bay pòv li"
+        },
+        {
+          "id": "d",
+          "text": "Li te pèdi l"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sa ki te resevwa yon sèl la t al fouye yon twou nan tè, li kache lajan mèt la (Matye 25:18).",
+      "bibleReference": "Matye 25:18",
+      "normalizedRef": "mat25.18",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-007_fr",
+    "data": {
+      "id": "dq-para-007",
+      "questionText": "Dans la parabole des talents, qu'a fait le serviteur qui n'a reçu qu'un seul talent ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il l'a investi"
+        },
+        {
+          "id": "b",
+          "text": "Il l'a enterré"
+        },
+        {
+          "id": "c",
+          "text": "Il l'a donné aux pauvres"
+        },
+        {
+          "id": "d",
+          "text": "Il l'a perdu"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Celui qui n'en avait reçu qu'un alla faire un creux dans la terre, et cacha l'argent de son maître (Matthieu 25:18).",
+      "bibleReference": "Matthieu 25:18",
+      "normalizedRef": "mat25.18",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-008_ht",
+    "data": {
+      "id": "dq-para-008",
+      "questionText": "Nan parabòl envitasyon nan gwo fèt la, pou ki moun Wayòm Syèl la ye?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pou moun rich yo"
+        },
+        {
+          "id": "b",
+          "text": "Pou moun yo te envite an premye yo"
+        },
+        {
+          "id": "c",
+          "text": "Pou moun ki asepte envitasyon an epi ki vini"
+        },
+        {
+          "id": "d",
+          "text": "Se sèlman pou Juif yo"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gen anpil moun yo rele, men se de twa sèlman y'ap chwazi. Se moun ki asepte envitasyon an ki ranpli fèt la (Matye 22:1-14).",
+      "bibleReference": "Matye 22:1-14",
+      "normalizedRef": "mat22.1-14",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-008_fr",
+    "data": {
+      "id": "dq-para-008",
+      "questionText": "À qui appartient le Royaume des Cieux selon la parabole de l'invitation au festin ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aux riches"
+        },
+        {
+          "id": "b",
+          "text": "À ceux qui ont été invités en premier"
+        },
+        {
+          "id": "c",
+          "text": "À ceux qui acceptent l'invitation et viennent"
+        },
+        {
+          "id": "d",
+          "text": "Seulement aux Juifs"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Beaucoup sont appelés, mais peu sont élus. Le festin est rempli par ceux qui acceptent l'invitation gratuite (Matthieu 22:1-14).",
+      "bibleReference": "Matthieu 22:1-14",
+      "normalizedRef": "mat22.1-14",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-009_ht",
+    "data": {
+      "id": "dq-para-009",
+      "questionText": "Nan parabòl de kay yo, sou kisa moun ki gen konprann nan te bati kay li a?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sab"
+        },
+        {
+          "id": "b",
+          "text": "Labou"
+        },
+        {
+          "id": "c",
+          "text": "Wòch (Ròk)"
+        },
+        {
+          "id": "d",
+          "text": "Zèb"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Moun ki tande pawòl mwen yo epi ki fè sa mwen di yo, y'ap sanble ak yon moun ki gen konprann ki bati kay li sou wòch (Matye 7:24).",
+      "bibleReference": "Matye 7:24",
+      "normalizedRef": "mat7.24",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-009_fr",
+    "data": {
+      "id": "dq-para-009",
+      "questionText": "Dans la parabole des deux maisons, sur quoi l'homme sage a-t-il bâti sa maison ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sable"
+        },
+        {
+          "id": "b",
+          "text": "Boue"
+        },
+        {
+          "id": "c",
+          "text": "Roc"
+        },
+        {
+          "id": "d",
+          "text": "Herbe"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Tout homme qui entend ces paroles que je dis et les met en pratique, sera semblable à un homme prudent qui a bâti sa maison sur le roc (Matthieu 7:24).",
+      "bibleReference": "Matthieu 7:24",
+      "normalizedRef": "mat7.24",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-010_ht",
+    "data": {
+      "id": "dq-para-010",
+      "questionText": "Nan parabòl bèl grenn pèl ki koute chè a, kisa machann nan fè lè l jwenn li?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li eseye diskite pri a"
+        },
+        {
+          "id": "b",
+          "text": "Li pa okipe l"
+        },
+        {
+          "id": "c",
+          "text": "Li vann tou sa l te genyen pou l achte l"
+        },
+        {
+          "id": "d",
+          "text": "Li tann pri a desann"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Li t al vann tou sa l te genyen pou l achte l (Matye 13:46).",
+      "bibleReference": "Matye 13:46",
+      "normalizedRef": "mat13.46",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-para-010_fr",
+    "data": {
+      "id": "dq-para-010",
+      "questionText": "Dans la parabole de la perle de grand prix, que fait le marchand quand il la trouve ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il essaie de négocier"
+        },
+        {
+          "id": "b",
+          "text": "Il l'ignore"
+        },
+        {
+          "id": "c",
+          "text": "Il vend tout ce qu'il a pour l'acheter"
+        },
+        {
+          "id": "d",
+          "text": "Il attend qu'elle baisse de prix"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Il est allé vendre tout ce qu'il avait, et l'a achetée (Matthieu 13:46).",
+      "bibleReference": "Matthieu 13:46",
+      "normalizedRef": "mat13.46",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-pat-001_ht",
+    "data": {
+      "id": "dq-pat-001",
+      "questionText": "Ki pèsonaj biblik AT prezante nan Ebre 7 kòm tip Kris, wa ak prèt?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "Arawon"
+        },
+        {
+          "id": "c",
+          "text": "Melkizedèk"
+        },
+        {
+          "id": "d",
+          "text": "Eli"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Melkizedèk, wa Salem ak Prèt Bondye Trèwot Wo, prezante nan Ebre 7 kòm tip Kris: wa ak prèt etènèl, san jeneyaloji anrejistre.",
+      "bibleReference": "Ebre 7:1-3",
+      "normalizedRef": "heb7.1-3",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-001_fr",
+    "data": {
+      "id": "dq-pat-001",
+      "questionText": "Qui était Melchisédek et pourquoi est-il important dans le NT ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Loi / Pentateuque",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un prophète mineur cité uniquement dans Genèse"
+        },
+        {
+          "id": "b",
+          "text": "Roi de Salem et prêtre du Très-Haut — type de Christ comme Souverain Sacrificateur éternel selon Hébreux"
+        },
+        {
+          "id": "c",
+          "text": "Un ange envoyé pour bénir Abraham"
+        },
+        {
+          "id": "d",
+          "text": "Le premier sacrificateur du temple de Jérusalem"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Melchisédek (Genèse 14:18-20) : roi de Salem et prêtre du Très-Haut. Le Psaume 110:4 et Hébreux 5-7 font de lui un type prophétique de Christ — sacrificateur éternel non lié à la lignée d'Aaron.",
+      "bibleReference": "Hébreux 7:1-3",
+      "normalizedRef": "heb7.1-3",
+      "normalizedCat": "pentateuco"
+    }
+  },
+  {
+    "docId": "dq-pat-002_ht",
+    "data": {
+      "id": "dq-pat-002",
+      "questionText": "Kilès yo rele \"zanmi Bondye\" nan Ansyen Testaman?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "David"
+        },
+        {
+          "id": "c",
+          "text": "Abraram"
+        },
+        {
+          "id": "d",
+          "text": "Noye"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Abraram te kwè Bondye... epi yo te rele l zanmi Bondye\" (Jak 2:23). Ezayi 41:8 rele l tou \"zanmi mwen Abraram\".",
+      "bibleReference": "Jak 2:23",
+      "normalizedRef": "jam2.23",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-002_fr",
+    "data": {
+      "id": "dq-pat-002",
+      "questionText": "Qui est appelé « ami de Dieu » dans l'Ancien Testament ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages AT",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "David"
+        },
+        {
+          "id": "c",
+          "text": "Abraham"
+        },
+        {
+          "id": "d",
+          "text": "Noé"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Abraham crut à Dieu... et il fut appelé ami de Dieu » (Jacques 2:23). Ésaïe 41:8 l'appelle aussi « Abraham, mon ami ».",
+      "bibleReference": "Jacques 2:23",
+      "normalizedRef": "jam2.23",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-003_ht",
+    "data": {
+      "id": "dq-pat-003",
+      "questionText": "Ki pèsonaj Ansyen Testaman ki te retire viv anvan lanmò fizik?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Noye"
+        },
+        {
+          "id": "b",
+          "text": "Enòk"
+        },
+        {
+          "id": "c",
+          "text": "Eli"
+        },
+        {
+          "id": "d",
+          "text": "B ak C tou de"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Enòk \"mache ak Bondye, epi li disparèt, paske Bondye te pran l\" (Jenèz 5:24). Eli monte nan syèl nan yon raje dife (2 Wa 2:11).",
+      "bibleReference": "Jenèz 5:24; 2 Wa 2:11",
+      "normalizedRef": "gen5.24;2ki2.11",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-003_fr",
+    "data": {
+      "id": "dq-pat-003",
+      "questionText": "Quel personnage de l'Ancien Testament a été enlevé vivant avant la mort physique ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages AT",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Noé"
+        },
+        {
+          "id": "b",
+          "text": "Hénoc"
+        },
+        {
+          "id": "c",
+          "text": "Élie"
+        },
+        {
+          "id": "d",
+          "text": "B et C tous les deux"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Hénoc « marcha avec Dieu ; puis il ne fut plus, parce que Dieu le prit » (Genèse 5:24). Élie monta au ciel dans un tourbillon de feu (2 Rois 2:11).",
+      "bibleReference": "Genèse 5:24 ; 2 Rois 2:11",
+      "normalizedRef": "gen5.24;2ki2.11",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-004_ht",
+    "data": {
+      "id": "dq-pat-004",
+      "questionText": "Ki pèsonaj biblik ki te pi renome pou pasyans li nan mitan soufrans?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jeremi"
+        },
+        {
+          "id": "b",
+          "text": "Jòb"
+        },
+        {
+          "id": "c",
+          "text": "Moyiz"
+        },
+        {
+          "id": "d",
+          "text": "Eli"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jak 5:11 di: \"Nou tande pale de pasyans Jòb, epi nou wè fen Seyè a.\" Jòb te pèdi tout bagay, men li pa t nye Bondye.",
+      "bibleReference": "Jak 5:11",
+      "normalizedRef": "jam5.11",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-004_fr",
+    "data": {
+      "id": "dq-pat-004",
+      "questionText": "Quel personnage biblique était le plus renommé pour sa patience au milieu de la souffrance ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jérémie"
+        },
+        {
+          "id": "b",
+          "text": "Job"
+        },
+        {
+          "id": "c",
+          "text": "Moïse"
+        },
+        {
+          "id": "d",
+          "text": "Élie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacques 5:11 dit : « Vous avez entendu parler de la patience de Job, et vous avez vu la fin que le Seigneur lui accorda ». Job a tout perdu, mais il n'a pas renié Dieu.",
+      "bibleReference": "Jacques 5:11",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pat-005_ht",
+    "data": {
+      "id": "dq-pat-005",
+      "questionText": "Kilès ki te siksede Moyiz kòm lidè Izrayèl pou antre nan Peyi Pwomèt?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kalèb"
+        },
+        {
+          "id": "b",
+          "text": "Arawon"
+        },
+        {
+          "id": "c",
+          "text": "Jozye"
+        },
+        {
+          "id": "d",
+          "text": "Eleaza"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Seyè te di Jozye: \"Menm jan mwen te avèk Moyiz, m ap avèk ou\" (Jozye 1:5).",
+      "bibleReference": "Jozye 1:1-5",
+      "normalizedRef": "jos1.1-5",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-005_fr",
+    "data": {
+      "id": "dq-pat-005",
+      "questionText": "Qui a succédé à Moïse como leader d'Israël pour entrer dans la Terre Promise ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Caleb"
+        },
+        {
+          "id": "b",
+          "text": "Aaron"
+        },
+        {
+          "id": "c",
+          "text": "Josué"
+        },
+        {
+          "id": "d",
+          "text": "Éléazar"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Seigneur a dit à Josué : « Comme j'ai été avec Moïse, je serai avec toi » (Josué 1:5).",
+      "bibleReference": "Josué 1:1-5",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pat-006_ht",
+    "data": {
+      "id": "dq-pat-006",
+      "questionText": "Ki pèsonaj Ansyen Testaman ki te entèprete rèv Farawon ann Ejip epi ki te vin gouvènè?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraram"
+        },
+        {
+          "id": "b",
+          "text": "Jozèf"
+        },
+        {
+          "id": "c",
+          "text": "Moyiz"
+        },
+        {
+          "id": "d",
+          "text": "Danyèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jozèf te entèprete rèv Farawon yo (sèt bèf gra ak sèt bèf mèg) epi Farawon te nonmen l gouvènè Ejip (Jenèz 41:39-41).",
+      "bibleReference": "Jenèz 41:39-41",
+      "normalizedRef": "gen41.39-41",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-006_fr",
+    "data": {
+      "id": "dq-pat-006",
+      "questionText": "Quel personnage de l'Ancien Testament a interprété les rêves de Pharaon en Égypte et est devenu gouverneur ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Joseph"
+        },
+        {
+          "id": "c",
+          "text": "Moïse"
+        },
+        {
+          "id": "d",
+          "text": "Daniel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joseph a interprété les rêves de Pharaon (les sept vaches grasses et les sept vaches maigres) et Pharaon l'a nommé gouverneur d'Égypte (Genèse 41:39-41).",
+      "bibleReference": "Genèse 41:39-41",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pat-007_ht",
+    "data": {
+      "id": "dq-pat-007",
+      "questionText": "Konbyen ane Matisalèm te viv?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "700 ane"
+        },
+        {
+          "id": "b",
+          "text": "800 ane"
+        },
+        {
+          "id": "c",
+          "text": "969 ane"
+        },
+        {
+          "id": "d",
+          "text": "1,000 ane"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Tout jou Matisalèm yo te nèf san swasant-nèf ane; epi li mouri\" (Jenèz 5:27). Se moun ki viv pi lontan nan Bib la.",
+      "bibleReference": "Jenèz 5:27",
+      "normalizedRef": "gen5.27",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-007_fr",
+    "data": {
+      "id": "dq-pat-007",
+      "questionText": "Combien d'années Metuschélah a-t-il vécu ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "700 ans"
+        },
+        {
+          "id": "b",
+          "text": "800 ans"
+        },
+        {
+          "id": "c",
+          "text": "969 ans"
+        },
+        {
+          "id": "d",
+          "text": "1 000 ans"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Tous les jours de Metuschélah furent de neuf cent soixante-neuf ans ; puis il mourut » (Genèse 5:27). C'est la personne qui a vécu le plus longtemps dans la Bible.",
+      "bibleReference": "Genèse 5:27",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pat-008_ht",
+    "data": {
+      "id": "dq-pat-008",
+      "questionText": "Ki pèsonaj biblik ki te siyen ki te lage Jozèf nan yon fosé epi vann li kòm esklav?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Arawon"
+        },
+        {
+          "id": "b",
+          "text": "Frè Jozèf yo"
+        },
+        {
+          "id": "c",
+          "text": "Wa Ejip"
+        },
+        {
+          "id": "d",
+          "text": "Ismayelit yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Frè Jozèf yo (sans Benjamen) te jalou l epi te lage l nan yon fosé, apre vann li bay Ismayelit yo pou 20 moso ajan (Jenèz 37:24-28).",
+      "bibleReference": "Jenèz 37:24-28",
+      "normalizedRef": "gen37.24-28",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-008_fr",
+    "data": {
+      "id": "dq-pat-008",
+      "questionText": "Quels personnages bibliques ont jeté Joseph dans une citerne et l'ont vendu comme esclave ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aaron"
+        },
+        {
+          "id": "b",
+          "text": "Les frères de Joseph"
+        },
+        {
+          "id": "c",
+          "text": "Le roi d'Égypte"
+        },
+        {
+          "id": "d",
+          "text": "Les Ismaélites"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les frères de Joseph (sauf Benjamin) étaient jaloux de lui et l'ont jeté dans une citerne, puis l'ont vendu aux Ismaélites pour 20 pièces d'argent (Genèse 37:24-28).",
+      "bibleReference": "Genèse 37:24-28",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pat-009_ht",
+    "data": {
+      "id": "dq-pat-009",
+      "questionText": "Ki pwofèt ki te geri Namaan Syiryen an lè li te benyen sèt fwa nan Rivyè Jouden?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eli"
+        },
+        {
+          "id": "b",
+          "text": "Elicha"
+        },
+        {
+          "id": "c",
+          "text": "Ezayi"
+        },
+        {
+          "id": "d",
+          "text": "Samyèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Elicha te di Namaan ale benyen sèt fwa nan Jouden. Lè Namaan te obeyi, li te geri lèp li (2 Wa 5:10-14).",
+      "bibleReference": "2 Wa 5:10-14",
+      "normalizedRef": "2ki5.10-14",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-009_fr",
+    "data": {
+      "id": "dq-pat-009",
+      "questionText": "Quel prophète a guéri Naaman le Syrien lorsqu'il s'est lavé sept fois dans le Jourdain ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Élie"
+        },
+        {
+          "id": "b",
+          "text": "Élisée"
+        },
+        {
+          "id": "c",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "d",
+          "text": "Samuel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Élisée a dit à Naaman d'aller se laver sept fois dans le Jourdain. Quand Naaman a obéi, sa lèpre a été guérie (2 Rois 5:10-14).",
+      "bibleReference": "2 Rois 5:10-14",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pat-010_ht",
+    "data": {
+      "id": "dq-pat-010",
+      "questionText": "Ki wa Izrayèl ki te ekri anpil sòm epi ki te touye Golyat?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sayil"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Jonatann"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David te touye Golyat pandan l te jèn toujou (1 Samyèl 17), apre li te wa epi ekri anpil sòm (Sòm 23, 51, 139...).",
+      "bibleReference": "1 Samyèl 17:50",
+      "normalizedRef": "1sa17.50",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-010_fr",
+    "data": {
+      "id": "dq-pat-010",
+      "questionText": "Quel roi d'Israël a écrit de nombreux psaumes et a tué Goliath ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Saül"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Jonathan"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David a tué Goliath alors qu'il était encore jeune (1 Samuel 17), plus tard il fut roi et écrivit de nombreux psaumes (Psaumes 23, 51, 139...).",
+      "bibleReference": "1 Samuel 17:50",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pat-011_ht",
+    "data": {
+      "id": "dq-pat-011",
+      "questionText": "Ki pèsonaj biblik ki te bati yon lach pou sove pèp inivèsèl nan delij?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraram"
+        },
+        {
+          "id": "b",
+          "text": "Enòk"
+        },
+        {
+          "id": "c",
+          "text": "Noye"
+        },
+        {
+          "id": "d",
+          "text": "Sèm"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Noye te jwenn gras nan je Bondye. Li te bati yon lach bwa pou sove fanmi li ak espès bèt yo nan delij la (Jenèz 6-7).",
+      "bibleReference": "Jenèz 6:8-9",
+      "normalizedRef": "gen6.8-9",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-011_fr",
+    "data": {
+      "id": "dq-pat-011",
+      "questionText": "Quel personnage biblique a construit une arche pour sauver l'humanité du déluge ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Hénoc"
+        },
+        {
+          "id": "c",
+          "text": "Noé"
+        },
+        {
+          "id": "d",
+          "text": "Sem"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Noé trouva grâce aux yeux de l'Éternel. Il construisit une arche de bois pour sauver sa famille et les espèces animales du déluge (Genèse 6-7).",
+      "bibleReference": "Genèse 6:8-9",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pat-012_ht",
+    "data": {
+      "id": "dq-pat-012",
+      "questionText": "Konbyen ane Abraram te viv dapre Jenèz 25:7?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "120 ane"
+        },
+        {
+          "id": "b",
+          "text": "150 ane"
+        },
+        {
+          "id": "c",
+          "text": "175 ane"
+        },
+        {
+          "id": "d",
+          "text": "200 ane"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi sa yo te jou ki Abraram te viv: san swasant-kenz ane\" (Jenèz 25:7). Li mouri nan gran vyeyès, ansyen ak plen ane.",
+      "bibleReference": "Jenèz 25:7",
+      "normalizedRef": "gen25.7",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-012_fr",
+    "data": {
+      "id": "dq-pat-012",
+      "questionText": "Combien d'années Abraham a-t-il vécu selon Genèse 25:7 ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "120 ans"
+        },
+        {
+          "id": "b",
+          "text": "150 ans"
+        },
+        {
+          "id": "c",
+          "text": "175 ans"
+        },
+        {
+          "id": "d",
+          "text": "200 ans"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Voici les jours des années de la vie d'Abraham : il vécut cent soixante-quinze ans » (Genèse 25:7). Il mourut dans une heureuse vieillesse, âgé et rassasié de jours.",
+      "bibleReference": "Genèse 25:7",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pat-013_ht",
+    "data": {
+      "id": "dq-pat-013",
+      "questionText": "Ki pwofèt AT ki te pwofetize retou Eli anvan \"jou Seyè a\"?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ezayi"
+        },
+        {
+          "id": "b",
+          "text": "Jeremi"
+        },
+        {
+          "id": "c",
+          "text": "Malachi"
+        },
+        {
+          "id": "d",
+          "text": "Zakari"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Gade, mwen voye pwofèt Eli ban nou anvan jou Seyè a, gwo ak terib la\" (Malachi 4:5). NT idantifye sa ak misyon Jan Batèm.",
+      "bibleReference": "Malachi 4:5",
+      "normalizedRef": "mal4.5",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-013_fr",
+    "data": {
+      "id": "dq-pat-013",
+      "questionText": "Quel prophète de l'Ancien Testament a prophétisé le retour d'Élie avant le « jour de l'Éternel » ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "b",
+          "text": "Jérémie"
+        },
+        {
+          "id": "c",
+          "text": "Malachie"
+        },
+        {
+          "id": "d",
+          "text": "Zacharie"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Voici, je vous enverrai Élie, le prophète, avant que le jour de l'Éternel arrive, ce jour grand et redoutable » (Malachie 4:5). Le Nouveau Testament identifie cela à la mission de Jean-Baptiste.",
+      "bibleReference": "Malachie 4:5",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pat-014_ht",
+    "data": {
+      "id": "dq-pat-014",
+      "questionText": "Ki pèsonaj AT yo konsidere kòm ekrivèn prensipal Liv Pwovèb yo?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Ezayi"
+        },
+        {
+          "id": "d",
+          "text": "Moyiz"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Anpil pwovèb atribiye Salomon (Pwovèb 1:1; 10:1; 25:1). Men Agou ak Lemoyèl tou kontribye. Salomon se prensip atè yo.",
+      "bibleReference": "Pwovèb 1:1",
+      "normalizedRef": "pro1.1",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-014_fr",
+    "data": {
+      "id": "dq-pat-014",
+      "questionText": "Quel personnage de l'Ancien Testament est considéré comme le principal auteur du Livre des Proverbes ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "d",
+          "text": "Moïse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "De nombreux proverbes sont attribués à Salomon (Proverbes 1:1 ; 10:1 ; 25:1). Mais Agur et Lemuel ont également contribué. Salomon en est le principal auteur.",
+      "bibleReference": "Proverbes 1:1",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pat-015_ht",
+    "data": {
+      "id": "dq-pat-015",
+      "questionText": "Ki pèsonaj AT ki te eseye mouri nan dezè a men Bondye te voye zanj ba li manje?",
+      "categoryId": "personajes-at",
+      "categoryName": "Pèsonaj AT",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "Danyèl"
+        },
+        {
+          "id": "c",
+          "text": "Jeremi"
+        },
+        {
+          "id": "d",
+          "text": "Eli"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Apre defèt pwofèt Baal yo, Jezabèl te menase touye Eli. Li te kouri, fatige epi di: \"Seyè, pran nanm mwen.\" Men zanj la te ban li manje (1 Wa 19:4-6).",
+      "bibleReference": "1 Wa 19:4-6",
+      "normalizedRef": "1ki19.4-6",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-015_fr",
+    "data": {
+      "id": "dq-pat-015",
+      "questionText": "Quel personnage de l'Ancien Testament a souhaité mourir dans le désert mais Dieu lui a envoyé un ange para le nourrir ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Daniel"
+        },
+        {
+          "id": "c",
+          "text": "Jérémie"
+        },
+        {
+          "id": "d",
+          "text": "Élie"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Après la défaite des prophètes de Baal, Jézabel a menacé de tuer Élie. Il s'est enfui, fatigué, et a dit : « Éternel, prends mon âme ». Mais un ange lui a apporté de la nourriture (1 Rois 19:4-6).",
+      "bibleReference": "1 Rois 19:4-6",
+      "language": "fr"
+    }
+  },
+  {
+    "docId": "dq-pat-016_ht",
+    "data": {
+      "id": "dq-pat-016",
+      "questionText": "Kiyès Enòk te ye e ki jan lafen l te yon fason ekstraòdinè?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te mouri lè l te gen santan nan Our"
+        },
+        {
+          "id": "b",
+          "text": "Li t ap mache ak Bondye epi Bondye te pran l san l pa mouri"
+        },
+        {
+          "id": "c",
+          "text": "Li te premye moun ki te konstwi yon lotèl"
+        },
+        {
+          "id": "d",
+          "text": "Li te transfòme an yon zanj"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Enòk te mache ak Bondye pandan 300 an, epi li te disparèt paske Bondye te pran l — li pa t goute lanmò (Jenèz 5:24; Ebre 11:5).",
+      "bibleReference": "Genèse 5:24",
+      "normalizedRef": "gen5.24",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-016_fr",
+    "data": {
+      "id": "dq-pat-016",
+      "questionText": "Qui était Enoch et quelle fut sa fin extraordinaire ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il mourut centenaire à Ur"
+        },
+        {
+          "id": "b",
+          "text": "Il marcha avec Dieu et fut enlevé sans mourir"
+        },
+        {
+          "id": "c",
+          "text": "Il fut le premier à construire un autel"
+        },
+        {
+          "id": "d",
+          "text": "Il fut transformé en ange"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Enoch marcha avec Dieu pendant 300 ans, puis il disparut car Dieu le prit — il ne connut pas la mort (Genèse 5:24; Hébreux 11:5).",
+      "bibleReference": "Genèse 5:24",
+      "normalizedRef": "gen5.24",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-017_ht",
+    "data": {
+      "id": "dq-pat-017",
+      "questionText": "Kiyès Noye te ye e poukisa Bondye te chwazi l?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moun ki te pi granmoun nan epòk li a"
+        },
+        {
+          "id": "b",
+          "text": "Yon moun ki dwat, ki san repwòch e ki t ap mache ak Bondye"
+        },
+        {
+          "id": "c",
+          "text": "Premye prèt nan limanite"
+        },
+        {
+          "id": "d",
+          "text": "Yon chapantye trè konpetan yo te chwazi pou talan l"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Noye se te «yon moun ki dwat, ki san repwòch nan mitan moun nan epòk li yo» ki t ap mache ak Bondye, se poutèt sa Bondye te chwazi l pou sove limanite a (Jenèz 6:9).",
+      "bibleReference": "Genèse 6:9",
+      "normalizedRef": "gen6.9",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-017_fr",
+    "data": {
+      "id": "dq-pat-017",
+      "questionText": "Qui était Noé et pourquoi Dieu le choisit-il ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le plus vieux des hommes de son temps"
+        },
+        {
+          "id": "b",
+          "text": "Un homme juste et intègre qui marchait avec Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Le premier prêtre de l'humanité"
+        },
+        {
+          "id": "d",
+          "text": "Un charpentier expert choisi par sa compétence"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Noé était « un homme juste, intègre dans sa génération » qui marchait avec Dieu, raison pour laquelle Dieu le choisit pour sauver l'humanité (Genèse 6:9).",
+      "bibleReference": "Genèse 6:9",
+      "normalizedRef": "gen6.9",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-018_ht",
+    "data": {
+      "id": "dq-pat-018",
+      "questionText": "Kiyès Rit te ye e ki zak fidelite selèb li te fè nan liv ki pote non l lan?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon pwofetès ebre ki t ap gide Naomi"
+        },
+        {
+          "id": "b",
+          "text": "Yon fi Mowab ki te rete fidèl ak Naomi bèlmè li, ak Bondye Izrayèl la"
+        },
+        {
+          "id": "c",
+          "text": "Yon fanm nan Jeriko ki te kache espyon yo"
+        },
+        {
+          "id": "d",
+          "text": "Yon jij nan Izrayèl ki te delivre pèp la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rit, yon vèv mowabit, te di Naomi: «Pèp ou ap pèp mwen, Bondye w ap Bondye m» — yon modèl fidelite (Rit 1:16-17).",
+      "bibleReference": "Ruth 1:16-17",
+      "normalizedRef": "rut1.16-17",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-018_fr",
+    "data": {
+      "id": "dq-pat-018",
+      "questionText": "Qui était Ruth et quel acte de fidélité est célèbre dans le livre portant son nom ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une prophétesse hébraïque qui guida Naomi"
+        },
+        {
+          "id": "b",
+          "text": "Une Moabite qui resta fidèle à sa belle-mère Naomi et au Dieu d'Israël"
+        },
+        {
+          "id": "c",
+          "text": "Une femme de Jéricho qui cacha les espions"
+        },
+        {
+          "id": "d",
+          "text": "Une juge d'Israël qui libéra le peuple"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ruth, veuve moabite, dit à Naomi : « Ton peuple sera mon peuple, et ton Dieu sera mon Dieu » — modèle de fidélité (Ruth 1:16-17).",
+      "bibleReference": "Ruth 1:16-17",
+      "normalizedRef": "rut1.16-17",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-019_ht",
+    "data": {
+      "id": "dq-pat-019",
+      "questionText": "Kiyès Estè te ye e ki zak kouraj li te fè?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon pwofetès ki te sove Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "Yon rèn jwif ki te riske lavi l pou sove pèp li a anba men Aman"
+        },
+        {
+          "id": "c",
+          "text": "Madanm Moyiz ki te entèsede pou Izrayèl"
+        },
+        {
+          "id": "d",
+          "text": "Yon fanm de fwa ki te refize idolatri lavil Babilòn nan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Estè, rèn Pès la, te al devan wa a san l pa t envite l — riske lavi l — pou revele konplo Aman an epi sove Juif yo (Estè 4:16; 7:3-6).",
+      "bibleReference": "Esther 4:16",
+      "normalizedRef": "est4.16",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-019_fr",
+    "data": {
+      "id": "dq-pat-019",
+      "questionText": "Qui était Esther et quelle fut son action courageuse ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une prophétesse qui sauva Jérusalem"
+        },
+        {
+          "id": "b",
+          "text": "Une reine juive qui risqua sa vie pour sauver son peuple de Haman"
+        },
+        {
+          "id": "c",
+          "text": "L'épouse de Moïse qui intercéda pour Israël"
+        },
+        {
+          "id": "d",
+          "text": "Une femme de foi qui refusa l'idolâtrie babylonienne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Esther, reine de Perse, s'approcha du roi sans invitation — risquant la mort — pour dévoiler le complot de Haman et sauver les Juifs (Esther 4:16; 7:3-6).",
+      "bibleReference": "Esther 4:16",
+      "normalizedRef": "est4.16",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-020_ht",
+    "data": {
+      "id": "dq-pat-020",
+      "questionText": "Kisa Eli te fè sou mòn Kamèl la pou l te pwouve se YHWH ki vrè Bondye a?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te fè lapli tonbe apre twazan sechrès"
+        },
+        {
+          "id": "b",
+          "text": "Li te defye pwofèt Baal yo epi dife Bondye te desann boule sakrifis li a ki te tranpe nan dlo"
+        },
+        {
+          "id": "c",
+          "text": "Li te resisite pitit gason fanm Sounam lan devan pèp la"
+        },
+        {
+          "id": "d",
+          "text": "Li te kraze lotèl Baal yo ak men li"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Eli te fè wouze lotèl li a twa fwa ak dlo, epi l te priye. Dife Seyè a tonbe epi l boule sakrifis la, bwa yo, wòch yo ak dlo a — pèp la te pran rele: «Se Seyè a ki Bondye!» (1 Wa 18:38).",
+      "bibleReference": "1 Rois 18:36-39",
+      "normalizedRef": "1ki18.36-39",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-020_fr",
+    "data": {
+      "id": "dq-pat-020",
+      "questionText": "Que fit Élie sur le Mont Carmel pour prouver que YHWH est le vrai Dieu ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il fit descendre la pluie après trois ans de sécheresse"
+        },
+        {
+          "id": "b",
+          "text": "Il défia les prophètes de Baal et le feu divin consuma son sacrifice trempé d'eau"
+        },
+        {
+          "id": "c",
+          "text": "Il ressuscita le fils de la Sunamite devant le peuple"
+        },
+        {
+          "id": "d",
+          "text": "Il détruisit les autels de Baal avec ses mains"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Élie fit arroser d'eau son autel trois fois, puis pria. Le feu de l'Éternel tomba et consuma même les pierres et l'eau — le peuple s'écria : « L'Éternel est Dieu ! » (1 Rois 18:38).",
+      "bibleReference": "1 Rois 18:36-39",
+      "normalizedRef": "1ki18.36-39",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-021_ht",
+    "data": {
+      "id": "dq-pat-021",
+      "questionText": "Ki wòl Samyèl te jwe nan tranzisyon ant epòk jij yo ak monachi a nan Izrayèl?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te dènye jij, pwofèt, ak moun ki te chwazi Sayil ak David"
+        },
+        {
+          "id": "b",
+          "text": "Li te premye wa Izrayèl anvan Sayil"
+        },
+        {
+          "id": "c",
+          "text": "Li te gran prèt ki te konstwi sanktiyè Silo a"
+        },
+        {
+          "id": "d",
+          "text": "Li te entèmedyè ant Moyiz ak Jozye"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Samyèl se te dènye nan jij yo, pwofèt nasyonal, epi fondatè lekòl pwofèt yo. Li te chwazi Sayil (1 Samyèl 10) epi David (1 Samyèl 16) kòm wa.",
+      "bibleReference": "1 Samuel 16:13",
+      "normalizedRef": "1sa16.13",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-021_fr",
+    "data": {
+      "id": "dq-pat-021",
+      "questionText": "Quel fut le rôle de Samuel dans la transition entre les juges et la monarchie en Israël ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il fut le dernier juge, prophète et celui qui oignit Saül et David"
+        },
+        {
+          "id": "b",
+          "text": "Il fut le premier roi d'Israël avant Saül"
+        },
+        {
+          "id": "c",
+          "text": "Il fut le grand prêtre qui bâtit le sanctuaire de Silo"
+        },
+        {
+          "id": "d",
+          "text": "Il fut l'intermédiaire entre Moïse et Josué"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Samuel fut le dernier des juges, prophète national et fondateur de l'école des prophètes. Il oignit Saül (1 Samuel 10) puis David (1 Samuel 16) comme rois.",
+      "bibleReference": "1 Samuel 16:13",
+      "normalizedRef": "1sa16.13",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-022_ht",
+    "data": {
+      "id": "dq-pat-022",
+      "questionText": "Dapre Ezekyèl 1-3, kòman Ezekyèl te resevwa vokasyon pwofetik li a?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nan yon rèv lannwit nan Babilòn"
+        },
+        {
+          "id": "b",
+          "text": "Nan yon vizyon kote li wè glwa Bondye avèk kat kreyati vivan ak plizyè wou"
+        },
+        {
+          "id": "c",
+          "text": "Grasa yon zanj ki te manyen bouch li ak yon chabon dife"
+        },
+        {
+          "id": "d",
+          "text": "Paske li te tande vwa Bondye nan yon ti van dou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ezekyèl te fè yon vizyon estrawòdinè: kat kreyati vivan, wou anndan wou, glwa Bondye — Mèkaba a. Yo te voye l al pwofetize pou pèp Izrayèl (Ezekyèl 1-3).",
+      "bibleReference": "Ézéchiel 1:4-28",
+      "normalizedRef": "eze1.4-28",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-022_fr",
+    "data": {
+      "id": "dq-pat-022",
+      "questionText": "Comment Ezéchiel reçut-il sa vocation prophétique selon Ézéchiel 1-3 ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Par un songe nocturne à Babylone"
+        },
+        {
+          "id": "b",
+          "text": "Par une vision de la gloire de Dieu avec quatre créatures vivantes et des roues"
+        },
+        {
+          "id": "c",
+          "text": "Par un ange qui toucha ses lèvres avec une braise"
+        },
+        {
+          "id": "d",
+          "text": "Par la voix de Dieu dans un vent calme"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ézéchiel reçut une vision grandiose : quatre créatures vivantes, des roues dans les roues, la gloire de Dieu — la Merkabah. Il fut envoyé prophétiser à Israël (Ézéchiel 1-3).",
+      "bibleReference": "Ézéchiel 1:4-28",
+      "normalizedRef": "eze1.4-28",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-023_ht",
+    "data": {
+      "id": "dq-pat-023",
+      "questionText": "Kiyès Neyemi te ye e ki te pi gwo kontribisyon l nan retou soti nan egzil la?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon pwofesè lalwa ki te reli Lalwa a pou pèp la"
+        },
+        {
+          "id": "b",
+          "text": "Yon gouvènè ki te òganize rekonstriksyon miray Jerizalèm yo nan 52 jou"
+        },
+        {
+          "id": "c",
+          "text": "Yon gran prèt ki te retabli adorasyon nan Tanp lan"
+        },
+        {
+          "id": "d",
+          "text": "Yon pwofèt ki te ankouraje moun k ap bati Tanp lan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Neyemi, moun k ap sèvi wa Pès la diven, te tounen kòm gouvènè epi li te rebati miray Jerizalèm yo nan sèlman 52 jou malgre tout opozisyon yo (Neyemi 6:15).",
+      "bibleReference": "Néhémie 6:15",
+      "normalizedRef": "neh6.15",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-023_fr",
+    "data": {
+      "id": "dq-pat-023",
+      "questionText": "Qui était Néhémie et quelle fut sa contribution principale au retour de l'exil ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Scribe qui relut la Loi au peuple"
+        },
+        {
+          "id": "b",
+          "text": "Gouverneur qui organisa la reconstruction des murailles de Jérusalem en 52 jours"
+        },
+        {
+          "id": "c",
+          "text": "Grand prêtre qui rétablit le culte au Temple"
+        },
+        {
+          "id": "d",
+          "text": "Prophète qui encouragea les bâtisseurs du Temple"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Néhémie, échanson du roi de Perse, revint comme gouverneur et reconstruisit les murailles de Jérusalem en seulement 52 jours malgré l'opposition (Néhémie 6:15).",
+      "bibleReference": "Néhémie 6:15",
+      "normalizedRef": "neh6.15",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-024_ht",
+    "data": {
+      "id": "dq-pat-024",
+      "questionText": "Ki pèsonaj nan Ansyen Testaman an ki pi pre yon figi pwofèt k ap soufri tankou vizyon nan Ezayi 52-53 a?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz k ap entèsede pou pèp Izrayèl la"
+        },
+        {
+          "id": "b",
+          "text": "Sèvitè k ap Soufri a — kretyen yo idantifye kòm Jezi"
+        },
+        {
+          "id": "c",
+          "text": "Jeremi pwofèt k ap kriye a"
+        },
+        {
+          "id": "d",
+          "text": "Jòb nan soufrans li yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sèvitè k ap Soufri ki nan Ezayi 52:13-53:12 a, li te «blese pou peche nou yo». Kretyen yo idantifye l kòm Mesi Jezi a; Juif yo wè li kòm pèp Izrayèl la oswa yon pèsonaj alavni.",
+      "bibleReference": "Ésaïe 53:5",
+      "normalizedRef": "isa53.5",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-024_fr",
+    "data": {
+      "id": "dq-pat-024",
+      "questionText": "Quel personnage de l'AT est le plus proche de la figure d'un prophète souffrant vicaire en Ésaïe 52-53 ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse intercédant pour Israël"
+        },
+        {
+          "id": "b",
+          "text": "Le Serviteur Souffrant — identifié par les chrétiens à Jésus"
+        },
+        {
+          "id": "c",
+          "text": "Jérémie le prophète pleurant"
+        },
+        {
+          "id": "d",
+          "text": "Job dans ses souffrances"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Serviteur Souffrant d'Ésaïe 52:13-53:12 est « blessé pour nos transgressions ». Les chrétiens l'identifient au Messie Jésus ; les Juifs le voient comme Israël ou un futur personnage.",
+      "bibleReference": "Ésaïe 53:5",
+      "normalizedRef": "isa53.5",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-025_ht",
+    "data": {
+      "id": "dq-pat-025",
+      "questionText": "Poukisa nan teyoloji biblik yo konsidere Jozye kòm yon modèl pou Jezi?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Toude te viv pou 110 zan"
+        },
+        {
+          "id": "b",
+          "text": "Jozye (Yehoshua) pataje menm non avèk Jezi e li te fè pèp li antre nan Tè Pwomiz la tankou jan Jezi fè nou antre nan repo nan syèl la"
+        },
+        {
+          "id": "c",
+          "text": "Toude te sèvi kòm pwofèt ak prèt"
+        },
+        {
+          "id": "d",
+          "text": "Jozye te fè menm mirak ak Jezi yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yehoshua (Jozye) = Iēsous (Jezi) an grèk. Ebre 4:8-9 eksplike si Jozye te bay yo repo a vre, Bondye pa ta gen bezwen pale apre sa sou yon lòt jou — Jezi se li menm ki bay vrè repo a.",
+      "bibleReference": "Hébreux 4:8-9",
+      "normalizedRef": "heb4.8-9",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-025_fr",
+    "data": {
+      "id": "dq-pat-025",
+      "questionText": "Pourquoi Josué est-il considéré comme un type de Jésus dans la théologie biblique ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ils ont tous les deux vécu 110 ans"
+        },
+        {
+          "id": "b",
+          "text": "Josué (Yehoshua) partage le même nom que Jésus et fit entrer son peuple dans la Terre Promise comme Jésus fait entrer dans le repos céleste"
+        },
+        {
+          "id": "c",
+          "text": "Ils ont tous deux été prophètes et prêtres"
+        },
+        {
+          "id": "d",
+          "text": "Josué fit les mêmes miracles que Jésus"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yehoshua (Josué) = Iēsous (Jésus) en grec. Hébreux 4:8-9 explique que si Josué avait donné le repos, David n'aurait pas parlé d'un autre jour — Jésus donne le vrai repos.",
+      "bibleReference": "Hébreux 4:8-9",
+      "normalizedRef": "heb4.8-9",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-026_ht",
+    "data": {
+      "id": "dq-pat-026",
+      "questionText": "Kiyès Bowaz te ye nan liv Rit la epi ki konsèp jiridik li ilistre?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon jij nan Izrayèl ki te adopte Rit legalman"
+        },
+        {
+          "id": "b",
+          "text": "Yon goèl (redanmtè) — paran pwòch ki rachte yon fanmi ki vin pòv"
+        },
+        {
+          "id": "c",
+          "text": "Yon pwofèt ki te predi maryaj ant Juif yo ak moun Mowab yo"
+        },
+        {
+          "id": "d",
+          "text": "Papa Jese epi granpapa David"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bowaz se goèl la (moun k ap rachte a) — yon enstitisyon ebre kote yon paran pwòch te konn rachte byen ansanm ak fanmi yon moun ki vin pòv. Li reprezante Kris, Redanmtè nou an (Rit 4:1-10).",
+      "bibleReference": "Ruth 4:1-10",
+      "normalizedRef": "rut4.1-10",
+      "normalizedCat": "personajes-at"
+    }
+  },
+  {
+    "docId": "dq-pat-026_fr",
+    "data": {
+      "id": "dq-pat-026",
+      "questionText": "Qui était Boaz dans le livre de Ruth et quel concept juridique illustre-t-il ?",
+      "categoryId": "personajes-at",
+      "categoryName": "Personnages de l'AT",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un juge d'Israël qui adopta Ruth légalement"
+        },
+        {
+          "id": "b",
+          "text": "Le goel (rédempteur) — parent proche qui rachète la famille appauvrie"
+        },
+        {
+          "id": "c",
+          "text": "Un prophète qui prédit le mariage entre Juifs et Moabites"
+        },
+        {
+          "id": "d",
+          "text": "Le père de Jesse et grand-père de David"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Boaz est le goel (racheteur) — institution hébraïque où le parent proche rachète la propriété et la famille de l'appauvri. Il est un type de Christ notre Rédempteur (Ruth 4:1-10).",
+      "bibleReference": "Ruth 4:1-10",
+      "normalizedRef": "rut4.1-10",
+      "normalizedCat": "personajes-at"
+    }
+  }
+]

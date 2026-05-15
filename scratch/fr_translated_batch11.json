@@ -1,0 +1,1301 @@
+[
+  {
+    "newId": "dq-muj-024",
+    "fr": {
+      "questionText": "Quelle femme a tout fait pour toucher le vêtement de Jésus et a été guérie d'une perte de sang ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lydia"
+        },
+        {
+          "id": "b",
+          "text": "La femme à la perte de sang"
+        },
+        {
+          "id": "c",
+          "text": "Tabitha"
+        },
+        {
+          "id": "d",
+          "text": "Priscille"
+        }
+      ],
+      "explanation": "Marc 5:25-34 raconte l'histoire de cette femme qui était malade depuis douze ans et qui fut guérie en touchant le vêtement de Jésus.",
+      "bibleReference": "Marc 5:34"
+    }
+  },
+  {
+    "newId": "dq-muj-025",
+    "fr": {
+      "questionText": "Quelle était l'épouse méchante du roi Achab qui voulait tuer le prophète Élie ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Athalie"
+        },
+        {
+          "id": "b",
+          "text": "Jézabel"
+        },
+        {
+          "id": "c",
+          "text": "Hérodias"
+        },
+        {
+          "id": "d",
+          "text": "Saphira"
+        }
+      ],
+      "explanation": "1 Rois 19:1-2 — Jézabel envoya un messager à Élie pour lui dire : Que les dieux me traitent dans toute leur rigueur... si je ne fais de ta vie ce que tu as fait de la leur.",
+      "bibleReference": "1 Rois 19:2"
+    }
+  },
+  {
+    "newId": "dq-apoc-016",
+    "fr": {
+      "questionText": "Qui a écrit le livre de l'Apocalypse (Révélation) alors qu'il était sur l'île de Patmos ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paul"
+        },
+        {
+          "id": "b",
+          "text": "Jean"
+        },
+        {
+          "id": "c",
+          "text": "Pierre"
+        },
+        {
+          "id": "d",
+          "text": "Luc"
+        }
+      ],
+      "explanation": "Apocalypse 1:9 — Moi Jean... j'étais dans l'île appelée Patmos, à cause de la parole de Dieu.",
+      "bibleReference": "Apocalypse 1:9"
+    }
+  },
+  {
+    "newId": "dq-apoc-017",
+    "fr": {
+      "questionText": "Combien d'églises en Asie ont reçu des lettres au début du livre de l'Apocalypse ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "explanation": "Apocalypse 1:4 — Jean aux sept Églises qui sont en Asie.",
+      "bibleReference": "Apocalypse 1:4"
+    }
+  },
+  {
+    "newId": "dq-apoc-018",
+    "fr": {
+      "questionText": "Que dit Jésus de lui-même au début et à la fin du livre de l'Apocalypse (je suis le premier et le dernier) ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A et B"
+        },
+        {
+          "id": "b",
+          "text": "L'Alpha et l'Oméga"
+        },
+        {
+          "id": "c",
+          "text": "Le commencement et la fin"
+        },
+        {
+          "id": "d",
+          "text": "Le Roi et le Seigneur"
+        }
+      ],
+      "explanation": "Apocalypse 1:8 — Je suis l'alpha et l'oméga, dit le Seigneur Dieu, celui qui est, qui était, et qui vient.",
+      "bibleReference": "Apocalypse 1:8"
+    }
+  },
+  {
+    "newId": "dq-apoc-019",
+    "fr": {
+      "questionText": "Combien de sceaux y avait-il sur le livre (rouleau) qui était dans la main droite de celui qui était assis sur le trône ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "24"
+        }
+      ],
+      "explanation": "Apocalypse 5:1 — Puis je vis dans la main droite de celui qui était assis sur le trône un livre... scellé de sept sceaux.",
+      "bibleReference": "Apocalypse 5:1"
+    }
+  },
+  {
+    "newId": "dq-apoc-020",
+    "fr": {
+      "questionText": "Quel animal est apparu à l'ouverture du premier sceau, avec un cavalier ayant un arc ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un cheval rouge"
+        },
+        {
+          "id": "b",
+          "text": "Un cheval blanc"
+        },
+        {
+          "id": "c",
+          "text": "Un cheval noir"
+        },
+        {
+          "id": "d",
+          "text": "Un cheval pâle"
+        }
+      ],
+      "explanation": "Apocalypse 6:2 — Je regardai, et voici, parut un cheval blanc. Celui qui le montait avait un arc.",
+      "bibleReference": "Apocalypse 6:2"
+    }
+  },
+  {
+    "newId": "dq-apoc-021",
+    "fr": {
+      "questionText": "Quel est le nom de la cité céleste qui descend du ciel, d'auprès de Dieu, à la fin de l'Apocalypse ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Babylone"
+        },
+        {
+          "id": "b",
+          "text": "La Nouvelle Jérusalem"
+        },
+        {
+          "id": "c",
+          "text": "La Cité de David"
+        },
+        {
+          "id": "d",
+          "text": "Sion"
+        }
+      ],
+      "explanation": "Apocalypse 21:2 — Et je vis descendre du ciel, d'auprès de Dieu, la ville sainte, la nouvelle Jérusalem...",
+      "bibleReference": "Apocalypse 21:2"
+    }
+  },
+  {
+    "newId": "dq-apoc-022",
+    "fr": {
+      "questionText": "Qu'est-ce qui n'existera plus dans la nouvelle Jérusalem, car les choses anciennes ont disparu ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le soleil"
+        },
+        {
+          "id": "b",
+          "text": "La mort, le deuil et la souffrance"
+        },
+        {
+          "id": "c",
+          "text": "La lune"
+        },
+        {
+          "id": "d",
+          "text": "Les étoiles"
+        }
+      ],
+      "explanation": "Apocalypse 21:4 — Il essuiera toute larme de leurs yeux, et la mort ne sera plus ; il n'y aura plus ni deuil, ni cri, ni douleur.",
+      "bibleReference": "Apocalypse 21:4"
+    }
+  },
+  {
+    "newId": "dq-apoc-023",
+    "fr": {
+      "questionText": "Combien de vieillards (anciens) étaient assis sur des trônes autour du trône de Dieu ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "12"
+        },
+        {
+          "id": "b",
+          "text": "24"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "144"
+        }
+      ],
+      "explanation": "Apocalypse 4:4 — Autour du trône je vis vingt-quatre trônes, et sur ces trônes vingt-quatre vieillards assis.",
+      "bibleReference": "Apocalypse 4:4"
+    }
+  },
+  {
+    "newId": "dq-apoc-024",
+    "fr": {
+      "questionText": "Quel est le nom de l'étoile qui est tombée dans les eaux et les a rendues amères après que le troisième ange a sonné de la trompette ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lucifer"
+        },
+        {
+          "id": "b",
+          "text": "Absinthe"
+        },
+        {
+          "id": "c",
+          "text": "Orion"
+        },
+        {
+          "id": "d",
+          "text": "Sirius"
+        }
+      ],
+      "explanation": "Apocalypse 8:11 — Le nom de cette étoile est Absinthe ; et le tiers des eaux fut changé en absinthe.",
+      "bibleReference": "Apocalypse 8:11"
+    }
+  },
+  {
+    "newId": "dq-apoc-025",
+    "fr": {
+      "questionText": "Quel « Agneau » était le seul digne d'ouvrir le livre et d'en rompre les sept sceaux ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Jésus-Christ"
+        },
+        {
+          "id": "c",
+          "text": "Jean-Baptiste"
+        },
+        {
+          "id": "d",
+          "text": "David"
+        }
+      ],
+      "explanation": "Apocalypse 5:5-6 — Le lion de la tribu de Juda... a vaincu pour ouvrir le livre... Et je vis... un Agneau qui était là comme immolé.",
+      "bibleReference": "Apocalypse 5:5-6"
+    }
+  },
+  {
+    "newId": "dq-par-026",
+    "fr": {
+      "questionText": "Dans la parabole du semeur, où la graine tombée dans la bonne terre a-t-elle produit du fruit ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Au bord du chemin"
+        },
+        {
+          "id": "b",
+          "text": "Parmi les épines"
+        },
+        {
+          "id": "c",
+          "text": "Dans la bonne terre"
+        },
+        {
+          "id": "d",
+          "text": "Sur le roc"
+        }
+      ],
+      "explanation": "Matthieu 13:8 — Une autre partie tomba dans la bonne terre ; elle donna du fruit...",
+      "bibleReference": "Matthieu 13:8"
+    }
+  },
+  {
+    "newId": "dq-par-027",
+    "fr": {
+      "questionText": "Que fit le père lorsque le fils prodigue revint à la maison ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il le chassa"
+        },
+        {
+          "id": "b",
+          "text": "Il courut se jeter à son cou et le baisa"
+        },
+        {
+          "id": "c",
+          "text": "Il en fit un serviteur"
+        },
+        {
+          "id": "d",
+          "text": "Il lui demanda où était passé l'argent"
+        }
+      ],
+      "explanation": "Luc 15:20 — Comme il était encore loin, son père le vit... il courut se jeter à son cou et le baisa.",
+      "bibleReference": "Luc 15:20"
+    }
+  },
+  {
+    "newId": "dq-par-028",
+    "fr": {
+      "questionText": "Dans la parabole du Bon Samaritain, qui est passé à côté de l'homme blessé sans l'aider avant que le Samaritain ne vienne ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un prêtre et un Lévite"
+        },
+        {
+          "id": "b",
+          "text": "Un pêcheur et un cultivateur"
+        },
+        {
+          "id": "c",
+          "text": "Un soldat et un roi"
+        },
+        {
+          "id": "d",
+          "text": "Un pharisien et un sadducéen"
+        }
+      ],
+      "explanation": "Luc 10:31-32 — Un sacrificateur, qui par hasard descendait par ce chemin, ayant vu cet homme, passa outre. Un Lévite, qui arriva aussi dans ce lieu... passa outre.",
+      "bibleReference": "Luc 10:31-32"
+    }
+  },
+  {
+    "newId": "dq-par-029",
+    "fr": {
+      "questionText": "À quoi Jésus a-t-il comparé le Royaume des cieux qui est très petit mais devient un grand arbre ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un grain de blé"
+        },
+        {
+          "id": "b",
+          "text": "Un grain de sénevé (moutarde)"
+        },
+        {
+          "id": "c",
+          "text": "Un grain de maïs"
+        },
+        {
+          "id": "d",
+          "text": "Un grain de pois"
+        }
+      ],
+      "explanation": "Matthieu 13:31-32 — Le royaume des cieux est semblable à un grain de sénevé... il devient un arbre.",
+      "bibleReference": "Matthieu 13:31-32"
+    }
+  },
+  {
+    "newId": "dq-par-030",
+    "fr": {
+      "questionText": "Dans la parabole des dix vierges, pourquoi cinq d'entre elles étaient-elles folles ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elles n'avaient pas de lampes"
+        },
+        {
+          "id": "b",
+          "text": "Elles n'avaient pas pris d'huile en réserve pour leurs lampes"
+        },
+        {
+          "id": "c",
+          "text": "Elles ont trop dormi"
+        },
+        {
+          "id": "d",
+          "text": "Elles ne savaient pas où se fêtait la noce"
+        }
+      ],
+      "explanation": "Matthieu 25:3 — Les folles, en prenant leurs lampes, ne prirent point d'huile avec elles.",
+      "bibleReference": "Matthieu 25:3"
+    }
+  },
+  {
+    "newId": "dq-par-031",
+    "fr": {
+      "questionText": "Que fit le maître au serviteur qui avait enterré le talent qu'il avait reçu ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il le félicita"
+        },
+        {
+          "id": "b",
+          "text": "Il lui ôta le talent et le jeta dans les ténèbres"
+        },
+        {
+          "id": "c",
+          "text": "Il lui donna une autre chance"
+        },
+        {
+          "id": "d",
+          "text": "Il lui donna plus d'argent"
+        }
+      ],
+      "explanation": "Matthieu 25:28-30 — Ôtez-lui donc le talent... Et le serviteur inutile, jetez-le dans les ténèbres du dehors.",
+      "bibleReference": "Matthieu 25:28-30"
+    }
+  },
+  {
+    "newId": "dq-par-032",
+    "fr": {
+      "questionText": "Dans la parabole de la brebis perdue, combien de brebis le berger a-t-il laissées dans le pâturage pour aller chercher celle qui était perdue ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "50"
+        },
+        {
+          "id": "c",
+          "text": "99"
+        },
+        {
+          "id": "d",
+          "text": "100"
+        }
+      ],
+      "explanation": "Luc 15:4 — Quel homme d'entre vous... s'il en perd une, ne laisse les quatre-vingt-dix-neuf autres dans le désert pour aller après celle qui est perdue ?",
+      "bibleReference": "Luc 15:4"
+    }
+  },
+  {
+    "newId": "dq-par-033",
+    "fr": {
+      "questionText": "Que s'est-il passé dans la parabole de l'ivraie (le blé et la mauvaise herbe) ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "On a arraché la mauvaise herbe immédiatement"
+        },
+        {
+          "id": "b",
+          "text": "On les a laissés croître ensemble jusqu'à la moisson"
+        },
+        {
+          "id": "c",
+          "text": "Le blé a étouffé la mauvaise herbe"
+        },
+        {
+          "id": "d",
+          "text": "On a planté la mauvaise herbe exprès"
+        }
+      ],
+      "explanation": "Matthieu 13:30 — Laissez croître ensemble l'un et l'autre jusqu'à la moisson...",
+      "bibleReference": "Matthieu 13:30"
+    }
+  },
+  {
+    "newId": "dq-par-034",
+    "fr": {
+      "questionText": "Que fit le marchand lorsqu'il trouva une perle de grand prix ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il la vola"
+        },
+        {
+          "id": "b",
+          "text": "Il vendit tout ce qu'il possédait pour l'acheter"
+        },
+        {
+          "id": "c",
+          "text": "Il la laissa car il n'avait pas d'argent"
+        },
+        {
+          "id": "d",
+          "text": "Il demanda à un ami de l'acheter pour lui"
+        }
+      ],
+      "explanation": "Matthieu 13:46 — Ayant trouvé une perle de grand prix, il est allé vendre tout ce qu'il avait, et l'a achetée.",
+      "bibleReference": "Matthieu 13:46"
+    }
+  },
+  {
+    "newId": "dq-par-035",
+    "fr": {
+      "questionText": "Dans la parabole du juge inique, pourquoi a-t-il finalement rendu justice à la veuve ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parce qu'il craignait Dieu"
+        },
+        {
+          "id": "b",
+          "text": "Parce que la veuve le fatiguait trop par ses demandes"
+        },
+        {
+          "id": "c",
+          "text": "Parce que la veuve lui avait donné de l'argent"
+        },
+        {
+          "id": "d",
+          "text": "Parce qu'il aimait la veuve"
+        }
+      ],
+      "explanation": "Luc 18:5 — Néanmoins, parce que cette veuve m'importune, je lui rendrai justice...",
+      "bibleReference": "Luc 18:5"
+    }
+  },
+  {
+    "newId": "dq-doc-022",
+    "fr": {
+      "questionText": "D'après Éphésiens 2:8, comment sommes-nous sauvés ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Par nos bonnes œuvres"
+        },
+        {
+          "id": "b",
+          "text": "Par la grâce, par le moyen de la foi"
+        },
+        {
+          "id": "c",
+          "text": "Parce que nous sommes nés dans une famille chrétienne"
+        },
+        {
+          "id": "d",
+          "text": "En donnant beaucoup d'offrandes"
+        }
+      ],
+      "explanation": "Éphésiens 2:8 — C'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous...",
+      "bibleReference": "Éphésiens 2:8"
+    }
+  },
+  {
+    "newId": "dq-doc-023",
+    "fr": {
+      "questionText": "Que dit la Bible être « la racine de tous les maux » ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'argent"
+        },
+        {
+          "id": "b",
+          "text": "L'amour de l'argent"
+        },
+        {
+          "id": "c",
+          "text": "La colère"
+        },
+        {
+          "id": "d",
+          "text": "Le mensonge"
+        }
+      ],
+      "explanation": "1 Timothée 6:10 — Car l'amour de l'argent est une racine de tous les maux.",
+      "bibleReference": "1 Timothée 6:10"
+    }
+  },
+  {
+    "newId": "dq-doc-024",
+    "fr": {
+      "questionText": "Que devons-nous faire pour avoir la vie éternelle selon Jean 3:16 ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Croire au Fils de Dieu (Jésus)"
+        },
+        {
+          "id": "b",
+          "text": "Travailler dur chaque jour"
+        },
+        {
+          "id": "c",
+          "text": "Connaître toute la Bible par cœur"
+        },
+        {
+          "id": "d",
+          "text": "Ne jamais pécher"
+        }
+      ],
+      "explanation": "Jean 3:16 — ...afin que quiconque croit en lui ne périsse point, mais qu'il ait la vie éternelle.",
+      "bibleReference": "Jean 3:16"
+    }
+  },
+  {
+    "newId": "dq-doc-025",
+    "fr": {
+      "questionText": "Quel est le premier commandement accompagné d'une promesse ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tu ne tueras point"
+        },
+        {
+          "id": "b",
+          "text": "Honore ton père et ta mère"
+        },
+        {
+          "id": "c",
+          "text": "Tu n'auras pas d'autres dieux"
+        },
+        {
+          "id": "d",
+          "text": "Souviens-toi du jour du repos"
+        }
+      ],
+      "explanation": "Éphésiens 6:2 — Honore ton père et ta mère (c'est le premier commandement avec une promesse).",
+      "bibleReference": "Éphésiens 6:2"
+    }
+  },
+  {
+    "newId": "dq-doc-026",
+    "fr": {
+      "questionText": "Qu'est-ce que la « Foi » selon Hébreux 11:1 ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un sentiment passager"
+        },
+        {
+          "id": "b",
+          "text": "Une ferme assurance des choses qu'on espère"
+        },
+        {
+          "id": "c",
+          "text": "Voir un miracle"
+        },
+        {
+          "id": "d",
+          "text": "Une chose palpable"
+        }
+      ],
+      "explanation": "Hébreux 11:1 — Or la foi est une ferme assurance des choses qu'on espère...",
+      "bibleReference": "Hébreux 11:1"
+    }
+  },
+  {
+    "newId": "dq-doc-027",
+    "fr": {
+      "questionText": "Que dit la Bible de la parole de Dieu dans Psaumes 119:105 ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elle est une épée"
+        },
+        {
+          "id": "b",
+          "text": "Elle est une lampe à nos pieds et une lumière sur notre sentier"
+        },
+        {
+          "id": "c",
+          "text": "Elle est une eau fraîche"
+        },
+        {
+          "id": "d",
+          "text": "Elle est une grande montagne"
+        }
+      ],
+      "explanation": "Psaumes 119:105 — Ta parole est une lampe à mes pieds, et une lumière sur mon sentier.",
+      "bibleReference": "Psaumes 119:105"
+    }
+  },
+  {
+    "newId": "dq-doc-028",
+    "fr": {
+      "questionText": "Qu'est-ce que le « péché » selon 1 Jean 3:4 ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "La transgression de la loi de Dieu"
+        },
+        {
+          "id": "b",
+          "text": "Faire une erreur"
+        },
+        {
+          "id": "c",
+          "text": "Ne pas aimer quelqu'un"
+        },
+        {
+          "id": "d",
+          "text": "Ne pas aller à l'église"
+        }
+      ],
+      "explanation": "1 Jean 3:4 — Quiconque pèche transgresse la loi, et le péché est la transgression de la loi.",
+      "bibleReference": "1 Jean 3:4"
+    }
+  },
+  {
+    "newId": "dq-doc-029",
+    "fr": {
+      "questionText": "Quel est le plus grand commandement selon Jésus ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tu aimeras le Seigneur, ton Dieu, de tout ton cœur, de toute ton âme, et de toute ta pensée"
+        },
+        {
+          "id": "b",
+          "text": "Tu ne déroberas point"
+        },
+        {
+          "id": "c",
+          "text": "Aller à l'église chaque dimanche"
+        },
+        {
+          "id": "d",
+          "text": "Bâtir un grand temple"
+        }
+      ],
+      "explanation": "Matthieu 22:37-38 — Tu aimeras le Seigneur, ton Dieu... C'est le premier et le plus grand commandement.",
+      "bibleReference": "Matthieu 22:37-38"
+    }
+  },
+  {
+    "newId": "dq-evg-016",
+    "fr": {
+      "questionText": "Dans quelle ville Jésus est-il né ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jérusalem"
+        },
+        {
+          "id": "b",
+          "text": "Nazareth"
+        },
+        {
+          "id": "c",
+          "text": "Bethléhem"
+        },
+        {
+          "id": "d",
+          "text": "Jéricho"
+        }
+      ],
+      "explanation": "Matthieu 2:1 — Jésus étant né à Bethléhem en Judée...",
+      "bibleReference": "Matthieu 2:1"
+    }
+  },
+  {
+    "newId": "dq-evg-017",
+    "fr": {
+      "questionText": "Combien de temps Jésus a-t-il jeûné dans le désert avant de commencer son ministère ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "7 jours"
+        },
+        {
+          "id": "b",
+          "text": "12 jours"
+        },
+        {
+          "id": "c",
+          "text": "40 jours et 40 nuits"
+        },
+        {
+          "id": "d",
+          "text": "1 an"
+        }
+      ],
+      "explanation": "Matthieu 4:2 — Après avoir jeûné quarante jours et quarante nuits, il eut faim.",
+      "bibleReference": "Matthieu 4:2"
+    }
+  },
+  {
+    "newId": "dq-evg-018",
+    "fr": {
+      "questionText": "Quel était le métier de Joseph, le père terrestre de Jésus ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pêcheur"
+        },
+        {
+          "id": "b",
+          "text": "Charpentier"
+        },
+        {
+          "id": "c",
+          "text": "Berger"
+        },
+        {
+          "id": "d",
+          "text": "Soldat"
+        }
+      ],
+      "explanation": "Matthieu 13:55 — N'est-ce pas le fils du charpentier ?",
+      "bibleReference": "Matthieu 13:55"
+    }
+  },
+  {
+    "newId": "dq-evg-019",
+    "fr": {
+      "questionText": "Qui a baptisé Jésus dans le Jourdain ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre"
+        },
+        {
+          "id": "b",
+          "text": "Jean-Baptiste"
+        },
+        {
+          "id": "c",
+          "text": "Jacques"
+        },
+        {
+          "id": "d",
+          "text": "Paul"
+        }
+      ],
+      "explanation": "Matthieu 3:13 — Alors Jésus vint de la Galilée au Jourdain vers Jean, pour être baptisé par lui.",
+      "bibleReference": "Matthieu 3:13"
+    }
+  },
+  {
+    "newId": "dq-evg-020",
+    "fr": {
+      "questionText": "Quel disciple a trahi Jésus pour 30 pièces d'argent ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre"
+        },
+        {
+          "id": "b",
+          "text": "Judas Iscariote"
+        },
+        {
+          "id": "c",
+          "text": "Thomas"
+        },
+        {
+          "id": "d",
+          "text": "André"
+        }
+      ],
+      "explanation": "Matthieu 26:14-15 — Alors l'un des douze, appelé Judas Iscariote... dit : Que voulez-vous me donner, et je vous le livrerai ? Et ils lui fixèrent trente pièces d'argent.",
+      "bibleReference": "Matthieu 26:14-15"
+    }
+  },
+  {
+    "newId": "dq-evg-021",
+    "fr": {
+      "questionText": "Où Jésus est-il allé pour prier avant son arrestation ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Au temple"
+        },
+        {
+          "id": "b",
+          "text": "Au jardin de Gethsémané"
+        },
+        {
+          "id": "c",
+          "text": "Sur le mont Sinaï"
+        },
+        {
+          "id": "d",
+          "text": "Dans le désert"
+        }
+      ],
+      "explanation": "Matthieu 26:36 — Là-dessus, Jésus alla avec eux dans un lieu appelé Gethsémané, et il dit aux disciples : Asseyez-vous ici, pendant que je m'éloignerai pour prier.",
+      "bibleReference": "Matthieu 26:36"
+    }
+  },
+  {
+    "newId": "dq-evg-022",
+    "fr": {
+      "questionText": "Combien de fois Pierre a-t-il renié Jésus avant que le coq ne chante ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une seule fois"
+        },
+        {
+          "id": "b",
+          "text": "Deux fois"
+        },
+        {
+          "id": "c",
+          "text": "Trois fois"
+        },
+        {
+          "id": "d",
+          "text": "Sept fois"
+        }
+      ],
+      "explanation": "Matthieu 26:75 — Avant que le coq chante, tu me renieras trois fois.",
+      "bibleReference": "Matthieu 26:75"
+    }
+  },
+  {
+    "newId": "dq-evg-023",
+    "fr": {
+      "questionText": "Quel était le gouverneur qui a condamné Jésus à être crucifié ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hérode"
+        },
+        {
+          "id": "b",
+          "text": "Ponce Pilate"
+        },
+        {
+          "id": "c",
+          "text": "César"
+        },
+        {
+          "id": "d",
+          "text": "Caïphe"
+        }
+      ],
+      "explanation": "Matthieu 27:26 — Pilate... après avoir fait battre de verges Jésus, le livra pour être crucifié.",
+      "bibleReference": "Matthieu 27:26"
+    }
+  },
+  {
+    "newId": "dq-evg-024",
+    "fr": {
+      "questionText": "Qu'était-il écrit au-dessus de la croix de Jésus ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Roi du Monde"
+        },
+        {
+          "id": "b",
+          "text": "Jésus de Nazareth, Roi des Juifs"
+        },
+        {
+          "id": "c",
+          "text": "Le Fils de Dieu"
+        },
+        {
+          "id": "d",
+          "text": "Le Messie"
+        }
+      ],
+      "explanation": "Jean 19:19 — Pilate fit aussi une inscription... Jésus de Nazareth, roi des Juifs.",
+      "bibleReference": "Jean 19:19"
+    }
+  },
+  {
+    "newId": "dq-evg-025",
+    "fr": {
+      "questionText": "Après combien de jours Jésus est-il ressuscité des morts ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le premier jour"
+        },
+        {
+          "id": "b",
+          "text": "Après sept jours"
+        },
+        {
+          "id": "c",
+          "text": "Le troisième jour"
+        },
+        {
+          "id": "d",
+          "text": "Après quarante jours"
+        }
+      ],
+      "explanation": "1 Corinthiens 15:4 — ...et qu'il est ressuscité le troisième jour, selon les Écritures.",
+      "bibleReference": "1 Corinthiens 15:4"
+    }
+  },
+  {
+    "newId": "dq-sal-017",
+    "fr": {
+      "questionText": "Comment commence le premier verset du Psaume 23 ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu est tout-puissant"
+        },
+        {
+          "id": "b",
+          "text": "L'Éternel est mon berger : je ne manquerai de rien"
+        },
+        {
+          "id": "c",
+          "text": "Je lève mes yeux vers les montagnes"
+        },
+        {
+          "id": "d",
+          "text": "Réjouissez-vous dans le Seigneur"
+        }
+      ],
+      "explanation": "Psaumes 23:1 — L'Éternel est mon berger : je ne manquerai de rien.",
+      "bibleReference": "Psaumes 23:1"
+    }
+  },
+  {
+    "newId": "dq-sal-018",
+    "fr": {
+      "questionText": "D'après Psaumes 119:105, qu'est-ce que la parole de Dieu pour nos pieds ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une chaussette"
+        },
+        {
+          "id": "b",
+          "text": "Une lampe"
+        },
+        {
+          "id": "c",
+          "text": "Une pierre"
+        },
+        {
+          "id": "d",
+          "text": "Une eau"
+        }
+      ],
+      "explanation": "Psaumes 119:105 — Ta parole est une lampe à mes pieds, et une lumière sur mon sentier.",
+      "bibleReference": "Psaumes 119:105"
+    }
+  },
+  {
+    "newId": "dq-sal-019",
+    "fr": {
+      "questionText": "Qui la Bible appelle-t-elle celui qui dit en son cœur : « Il n'y a point de Dieu » ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un sage"
+        },
+        {
+          "id": "b",
+          "text": "L'insensé (le fou)"
+        },
+        {
+          "id": "c",
+          "text": "Un riche"
+        },
+        {
+          "id": "d",
+          "text": "Un vaillant"
+        }
+      ],
+      "explanation": "Psaumes 14:1 — L'insensé dit en son cœur : Il n'y a point de Dieu !"
+    }
+  },
+  {
+    "newId": "dq-sal-020",
+    "fr": {
+      "questionText": "Qui a écrit la plupart des Psaumes ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "David"
+        },
+        {
+          "id": "c",
+          "text": "Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Abram"
+        }
+      ],
+      "explanation": "On attribue la plupart des Psaumes au roi David, qui était un musicien et un vaillant poète.",
+      "bibleReference": "Psaumes"
+    }
+  },
+  {
+    "newId": "dq-sal-021",
+    "fr": {
+      "questionText": "Combien de versets y a-t-il dans le plus court des psaumes (Psaume 117) ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 verset"
+        },
+        {
+          "id": "b",
+          "text": "2 versets"
+        },
+        {
+          "id": "c",
+          "text": "5 versets"
+        },
+        {
+          "id": "d",
+          "text": "10 versets"
+        }
+      ],
+      "explanation": "Le Psaume 117 ne contient que deux versets, ce qui en fait le plus court de toute la Bible.",
+      "bibleReference": "Psaume 117"
+    }
+  },
+  {
+    "newId": "dq-sal-022",
+    "fr": {
+      "questionText": "Selon Proverbes 3:5, en qui devons-nous mettre toute notre confiance ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En notre propre intelligence"
+        },
+        {
+          "id": "b",
+          "text": "En l'Éternel de tout notre cœur"
+        },
+        {
+          "id": "c",
+          "text": "En nos amis"
+        },
+        {
+          "id": "d",
+          "text": "Dans le gouvernement"
+        }
+      ],
+      "explanation": "Proverbes 3:5 — Confie-toi en l'Éternel de tout ton cœur, et ne t'appuie pas sur ta sagesse.",
+      "bibleReference": "Proverbes 3:5"
+    }
+  },
+  {
+    "newId": "dq-pers-026",
+    "fr": {
+      "questionText": "Qu'est-ce que Ruth a dit à Naomi qui montre sa fidélité ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Je te suivrai jusqu'à ce que tu trouves un autre mari »"
+        },
+        {
+          "id": "b",
+          "text": "« Où tu iras j'irai, où tu demeureras je demeurerai ; ton peuple sera mon peuple »"
+        },
+        {
+          "id": "c",
+          "text": "« Je vais retourner chez mes parents »"
+        },
+        {
+          "id": "d",
+          "text": "« Ton Dieu n'est pas mon Dieu »"
+        }
+      ],
+      "explanation": "Ruth 1:16-17 — L'une des plus belles déclarations de fidélité de la Bible. Ruth choisit Naomi et son Dieu avant ses propres intérêts.",
+      "bibleReference": "Ruth 1:16-17"
+    }
+  },
+  {
+    "newId": "dq-pers-027",
+    "fr": {
+      "questionText": "Pour quelle raison Paul et Barnabas se sont-ils séparés ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "À cause d'un désaccord doctrinal majeur"
+        },
+        {
+          "id": "b",
+          "text": "À cause de Jean Marc — Barnabas voulait le prendre, Paul refusa car il les avait abandonnés auparavant"
+        },
+        {
+          "id": "c",
+          "text": "À cause d'un conflit sur l'argent de la mission"
+        },
+        {
+          "id": "d",
+          "text": "L'église d'Antioche les a envoyés dans des directions différentes"
+        }
+      ],
+      "explanation": "Actes 15:36-41 — Un vif désaccord sur Jean Marc qui les avait abandonnés (Actes 13:13). Barnabas prit Jean Marc, Paul prit Silas. Providence : deux équipes missionnaires plutôt qu'une.",
+      "bibleReference": "Actes 15:37-40"
+    }
+  },
+  {
+    "newId": "dq-pers-028",
+    "fr": {
+      "questionText": "Quel rôle Nicodème a-t-il joué dans l'enterrement de Jésus ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il a assisté seulement pour observer"
+        },
+        {
+          "id": "b",
+          "text": "Il a apporté environ 75 livres de myrrhe et d'aloès pour ensevelir le corps de Jésus avec Joseph d'Arimathée"
+        },
+        {
+          "id": "c",
+          "text": "Il a refusé d'assister par crainte des Juifs"
+        },
+        {
+          "id": "d",
+          "text": "Il a acheté le tombeau pour Jésus"
+        }
+      ],
+      "explanation": "Jean 19:39-40 — Nicodème (qui était venu de nuit vers Jésus dans Jean 3) parut publiquement pour enterrer Jésus avec Joseph d'Arimathée — le courage né de la faiblesse.",
+      "bibleReference": "Jean 19:39-40"
+    }
+  },
+  {
+    "newId": "dq-pers-029",
+    "fr": {
+      "questionText": "Qu'y a-t-il de particulier dans l'appel de Dieu pour Jérémie comme prophète ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu a choisi Jérémie pour sa richesse"
+        },
+        {
+          "id": "b",
+          "text": "Dieu a choisi Jérémie avant sa naissance et l'a sanctifié avant qu'il ne sorte du ventre de sa mère"
+        },
+        {
+          "id": "c",
+          "text": "Jérémie était déjà un chef en Israël"
+        },
+        {
+          "id": "d",
+          "text": "Dieu l'a choisi à cause de sa sagesse"
+        }
+      ],
+      "explanation": "Jérémie 1:5 — Avant que je t'eusse formé dans le ventre de ta mère, je te connaissais, et avant que tu fusses sorti de son sein, je t'avais consacré... — la doctrine de la vocation divine pré-natale.",
+      "bibleReference": "Jérémie 1:5"
+    }
+  }
+]

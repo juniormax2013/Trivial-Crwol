@@ -1,0 +1,2042 @@
+[
+  {
+    "newId": "dq-vida-016",
+    "fr": {
+      "id": "dq-vida-016",
+      "questionText": "Selon Matthieu 6:33, quelle doit être la priorité absolue du croyant ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prier chaque matin"
+        },
+        {
+          "id": "b",
+          "text": "Chercher premièrement le Royaume de Dieu et sa justice"
+        },
+        {
+          "id": "c",
+          "text": "Lire la Bible chaque jour"
+        },
+        {
+          "id": "d",
+          "text": "Aller à l'Église chaque dimanche"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Cherchez premièrement le Royaume de Dieu et sa justice, et toutes ces choses vous seront données par-dessus » (Matthieu 6:33).",
+      "bibleReference": "Matthieu 6:33",
+      "normalizedRef": "mat6.33",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-017",
+    "fr": {
+      "id": "dq-vida-017",
+      "questionText": "Comment Paul décrit-il l'amour dans 1 Corinthiens 13 ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le sentiment le plus puissant de l'homme"
+        },
+        {
+          "id": "b",
+          "text": "Patient, bienveillant, ne cherchant pas son propre intérêt"
+        },
+        {
+          "id": "c",
+          "text": "Une émotion divine réservée aux saints"
+        },
+        {
+          "id": "d",
+          "text": "Le premier don de l'Esprit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 13:4-5 : « L'amour est patient, il est plein de bonté ; l'amour n'est pas envieux... il ne cherche pas son intérêt. »",
+      "bibleReference": "1 Corinthiens 13:4-5",
+      "normalizedRef": "1co13.4-5",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-018",
+    "fr": {
+      "id": "dq-vida-018",
+      "questionText": "Que signifie « porter sa croix » selon Luc 9:23 ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Souffrir physiquement pour Dieu"
+        },
+        {
+          "id": "b",
+          "text": "Renoncer à soi-même chaque jour pour suivre Christ"
+        },
+        {
+          "id": "c",
+          "text": "Porter un crucifix comme symbole de foi"
+        },
+        {
+          "id": "d",
+          "text": "Accomplir des actes de pénitence"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Si quelqu'un veut venir après moi, qu'il renonce à lui-même, qu'il se charge chaque jour de sa croix, et qu'il me suive » (Luc 9:23).",
+      "bibleReference": "Luc 9:23",
+      "normalizedRef": "luk9.23",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-019",
+    "fr": {
+      "id": "dq-vida-019",
+      "questionText": "Selon Proverbes 3:5-6, comment l'homme doit-il prendre ses décisions ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "En consultant les sages de la communauté"
+        },
+        {
+          "id": "b",
+          "text": "En faisant confiance à l'Éternel de tout son cœur sans s'appuyer sur sa propre intelligence"
+        },
+        {
+          "id": "c",
+          "text": "En jeûnant et en priant avant chaque décision"
+        },
+        {
+          "id": "d",
+          "text": "En lisant les prophètes pour obtenir une direction"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Confie-toi en l'Éternel de tout ton cœur, et ne t'appuie pas sur ta sagesse... il aplanira tes sentiers » (Proverbes 3:5-6).",
+      "bibleReference": "Proverbes 3:5-6",
+      "normalizedRef": "pro3.5-6",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-020",
+    "fr": {
+      "id": "dq-vida-020",
+      "questionText": "Que promets Philippiens 4:13 au croyant ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La richesse pour ceux qui croient"
+        },
+        {
+          "id": "b",
+          "text": "Je puis tout par celui qui me fortifie"
+        },
+        {
+          "id": "c",
+          "text": "Dieu exaucera toutes les prières"
+        },
+        {
+          "id": "d",
+          "text": "La guérison est pour tous les croyants"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Je puis tout par celui qui me fortifie » (Philippiens 4:13) — affirmation de la suffisance de Christ dans toute circonstance.",
+      "bibleReference": "Philippiens 4:13",
+      "normalizedRef": "phi4.13",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-021",
+    "fr": {
+      "id": "dq-vida-021",
+      "questionText": "Que signifie l'expression « être dans le monde sans être du monde » (Jean 17:15-16) ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le croyant doit s'isoler de la société"
+        },
+        {
+          "id": "b",
+          "text": "Le croyant vit dans la société mais ses valeurs, identité et loyauté sont enracinées dans le Royaume de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "Le croyant ne participe à aucune activité culturelle"
+        },
+        {
+          "id": "d",
+          "text": "Le croyant attend passivement le retour de Christ"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus ne demande pas de retirer ses disciples du monde mais de les garder du malin — ils restent missionnaires dans le monde sans adopter ses valeurs (Jean 17:15-18).",
+      "bibleReference": "Jean 17:15-18",
+      "normalizedRef": "joh17.15-18",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-022",
+    "fr": {
+      "id": "dq-vida-022",
+      "questionText": "Que signifie la « communion des saints » dans la vie chrétienne quotidienne ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La prière aux saints décédés pour leur intercession"
+        },
+        {
+          "id": "b",
+          "text": "Le partage de vie, de foi et de ressources entre croyants — koinonia"
+        },
+        {
+          "id": "c",
+          "text": "La célébration de la messe chaque dimanche"
+        },
+        {
+          "id": "d",
+          "text": "La reconnaissance officielle des saints par l'Église"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La communion des saints (koinonia) : partage de la vie en Christ — prière mutuelle, soutien matériel, encouragement — comme pratiqué dans l'Église primitive (Actes 2:42-47).",
+      "bibleReference": "Actes 2:42-47",
+      "normalizedRef": "act2.42-47",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-023",
+    "fr": {
+      "id": "dq-vida-023",
+      "questionText": "Comment le croyant doit-il répondre à la souffrance selon Romains 5:3-5 ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "En demandant immédiatement la délivrance divine"
+        },
+        {
+          "id": "b",
+          "text": "Se glorifier dans les tribulations — elles produisent patience, caractère éprouvé et espérance"
+        },
+        {
+          "id": "c",
+          "text": "En acceptant stoïquement sans émotion"
+        },
+        {
+          "id": "d",
+          "text": "En cherchant à comprendre le péché qui causa la souffrance"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Nous nous glorifions même dans les tribulations, sachant que la tribulation produit la patience, la patience la vertu éprouvée... et l'espérance ne trompe pas » (Romains 5:3-5).",
+      "bibleReference": "Romains 5:3-5",
+      "normalizedRef": "rom5.3-5",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-024",
+    "fr": {
+      "id": "dq-vida-024",
+      "questionText": "Qu'est-ce que la « guerre spirituelle » selon Éphésiens 6:12 ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un conflit physique entre croyants et non-croyants"
+        },
+        {
+          "id": "b",
+          "text": "Un combat spirituel contre les dominations, autorités et puissances spirituelles mauvaises"
+        },
+        {
+          "id": "c",
+          "text": "Une métaphore pour les conflits internes du péché"
+        },
+        {
+          "id": "d",
+          "text": "La lutte contre les persécuteurs de l'Église"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Notre combat n'est pas contre la chair et le sang, mais contre les dominations, les autorités, contre les princes des ténèbres » (Éphésiens 6:12) — réalité de la sphère spirituelle.",
+      "bibleReference": "Éphésiens 6:12",
+      "normalizedRef": "eph6.12",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-025",
+    "fr": {
+      "id": "dq-vida-025",
+      "questionText": "Quelle est la relation entre la grâce divine et l'effort humain dans la sanctification ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La grâce remplace totalement l'effort humain"
+        },
+        {
+          "id": "b",
+          "text": "Dieu œuvre en nous vouloir et agir — le croyant coopère en travaillant à son salut avec crainte"
+        },
+        {
+          "id": "c",
+          "text": "L'effort humain seul détermine la croissance spirituelle"
+        },
+        {
+          "id": "d",
+          "text": "La grâce et l'effort sont en opposition irréductible"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Travaillez à votre salut avec crainte et tremblement ; car c'est Dieu qui produit en vous le vouloir et le faire » (Philippiens 2:12-13) — synergie entre la grâce divine et l'effort humain.",
+      "bibleReference": "Philippiens 2:12-13",
+      "normalizedRef": "phi2.12-13",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-vida-026",
+    "fr": {
+      "id": "dq-vida-026",
+      "questionText": "Comment Hébreux 10:25 encourage-t-il le croyant concernant la vie d'Église ?",
+      "categoryId": "vida-cristiana",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Église n'est pas indispensable si tu pries chez toi"
+        },
+        {
+          "id": "b",
+          "text": "Ne pas abandonner le rassemblement des croyants mais s'exhorter mutuellement"
+        },
+        {
+          "id": "c",
+          "text": "Assister à l'Église uniquement pour les grandes fêtes"
+        },
+        {
+          "id": "d",
+          "text": "La communauté virtuelle remplace valablement la communauté physique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« N'abandonnons pas notre réunion, comme quelques-uns en ont l'habitude ; mais exhortons-nous mutuellement, et cela d'autant plus que vous voyez s'approcher le jour » (Hébreux 10:25).",
+      "bibleReference": "Hébreux 10:25",
+      "normalizedRef": "heb10.25",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "newId": "dq-ley-006",
+    "fr": {
+      "id": "dq-ley-006",
+      "questionText": "Quel est le seul commandement accompagné d'une promesse selon Éphésiens 6:2-3 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tu ne tueras point"
+        },
+        {
+          "id": "b",
+          "text": "Tu n'auras pas d'autres dieux"
+        },
+        {
+          "id": "c",
+          "text": "Honore ton père et ta mère"
+        },
+        {
+          "id": "d",
+          "text": "Tu ne commettras pas d'adultère"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Honore ton père et ta mère — c'est le premier commandement avec une promesse — afin que tu sois heureux et que tu vives longtemps » (Éphésiens 6:2-3).",
+      "bibleReference": "Éphésiens 6:2-3",
+      "normalizedRef": "eph6.2-3",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-007",
+    "fr": {
+      "id": "dq-ley-007",
+      "questionText": "Que dit Jésus dans le Sermon sur la Montagne concernant la colère (Matthieu 5:22) ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La colère n'est un péché que si elle mène à la violence"
+        },
+        {
+          "id": "b",
+          "text": "Celui qui se met en colère contre son frère sans motif est passible de jugement"
+        },
+        {
+          "id": "c",
+          "text": "La colère juste est toujours permise"
+        },
+        {
+          "id": "d",
+          "text": "La colère n'est pas mentionnée dans ce contexte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus approfondit le commandement « Tu ne tueras point » : la colère sans motif est déjà un péché méritant jugement (Matthieu 5:22).",
+      "bibleReference": "Matthieu 5:22",
+      "normalizedRef": "mat5.22",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-008",
+    "fr": {
+      "id": "dq-ley-008",
+      "questionText": "Comment Paul résume-t-il toute la Loi dans Romains 13:10 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Loi est un fardeau inutile pour les gentils"
+        },
+        {
+          "id": "b",
+          "text": "L'amour est l'accomplissement de la Loi"
+        },
+        {
+          "id": "c",
+          "text": "La Loi s'accomplit par la foi seule"
+        },
+        {
+          "id": "d",
+          "text": "La Loi est remplacée par la grâce"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« L'amour ne fait point de mal au prochain. L'amour est donc l'accomplissement de la Loi » (Romains 13:10).",
+      "bibleReference": "Romains 13:10",
+      "normalizedRef": "rom13.10",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-009",
+    "fr": {
+      "id": "dq-ley-009",
+      "questionText": "Que dit la Bible sur le mensonge dans Proverbes 12:22 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un petit mensonge est parfois nécessaire"
+        },
+        {
+          "id": "b",
+          "text": "Les lèvres mensongères sont en abomination à l'Éternel"
+        },
+        {
+          "id": "c",
+          "text": "Dieu pardonne facilement les mensonges involontaires"
+        },
+        {
+          "id": "d",
+          "text": "Le mensonge n'est péché que s'il blesse quelqu'un"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Les lèvres mensongères sont en abomination à l'Éternel, mais ceux qui agissent fidèlement lui sont agréables » (Proverbes 12:22).",
+      "bibleReference": "Proverbes 12:22",
+      "normalizedRef": "pro12.22",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-010",
+    "fr": {
+      "id": "dq-ley-010",
+      "questionText": "Selon Matthieu 5:27-28, Jésus élargit le 7e commandement à quoi ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'adultère incluant aussi le divorce"
+        },
+        {
+          "id": "b",
+          "text": "Quiconque regarde une femme avec convoitise a déjà commis l'adultère dans son cœur"
+        },
+        {
+          "id": "c",
+          "text": "Toute relation hors mariage est proscrite"
+        },
+        {
+          "id": "d",
+          "text": "L'adultère inclut aussi les pensées d'argent"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus internalise le commandement : « Quiconque regarde une femme pour la convoiter a déjà commis un adultère avec elle dans son cœur » (Matthieu 5:28).",
+      "bibleReference": "Matthieu 5:27-28",
+      "normalizedRef": "mat5.27-28",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-011",
+    "fr": {
+      "id": "dq-ley-011",
+      "questionText": "Quel est l'usage théologique de la Loi selon Luther (usus elenchticus) ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Loi sauve ceux qui l'observent parfaitement"
+        },
+        {
+          "id": "b",
+          "text": "La Loi révèle le péché et conduit à Christ pour la grâce"
+        },
+        {
+          "id": "c",
+          "text": "La Loi n'est utile qu'aux Juifs"
+        },
+        {
+          "id": "d",
+          "text": "La Loi est remplacée entièrement par l'amour du NT"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul dit : « Par la Loi vient la connaissance du péché » (Romains 3:20) et « La Loi a été notre pédagogue pour nous conduire à Christ » (Galates 3:24).",
+      "bibleReference": "Galates 3:24",
+      "normalizedRef": "gal3.24",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-012",
+    "fr": {
+      "id": "dq-ley-012",
+      "questionText": "Comment Jésus réinterprète-t-il la Loi du talion dans Matthieu 5:38-39 ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il la confirme comme juste et applicable aujourd'hui"
+        },
+        {
+          "id": "b",
+          "text": "Il l'élève au non-résistance — tendre l'autre joue et aller au-delà des exigences"
+        },
+        {
+          "id": "c",
+          "text": "Il la remplace par un système de compensations financières"
+        },
+        {
+          "id": "d",
+          "text": "Il dit que la vengeance appartient aux magistrats seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus : « Moi, je vous dis de ne pas résister au méchant... si quelqu'un te frappe sur la joue droite, présente-lui aussi l'autre » (Matthieu 5:39) — radicalité de l'amour.",
+      "bibleReference": "Matthieu 5:38-39",
+      "normalizedRef": "mat5.38-39",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-013",
+    "fr": {
+      "id": "dq-ley-013",
+      "questionText": "Que dit Lévitique 19:18 sur le rapport au prochain et comment Jésus le reprend-il ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aime ton prochain juif mais méfie-toi de l'étranger"
+        },
+        {
+          "id": "b",
+          "text": "Tu aimeras ton prochain comme toi-même — Jésus l'étend aux ennemis et aux étrangers"
+        },
+        {
+          "id": "c",
+          "text": "Ne te venge pas et garde ta rancœur en silence"
+        },
+        {
+          "id": "d",
+          "text": "Aide ton prochain en échange d'aide réciproque"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lévitique 19:18 : « Tu aimeras ton prochain comme toi-même. » Jésus l'élargit : « Aimez vos ennemis » (Matthieu 5:44) et définit le prochain dans la parabole du Bon Samaritain (Luc 10:29-37).",
+      "bibleReference": "Lévitique 19:18",
+      "normalizedRef": "lev19.18",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-014",
+    "fr": {
+      "id": "dq-ley-014",
+      "questionText": "Quelle est la distinction entre loi cérémonielle, civile et morale dans la théologie réformée ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Toutes les lois sont permanentes pour les chrétiens"
+        },
+        {
+          "id": "b",
+          "text": "La loi cérémonielle (sacrifices, purifications) est accomplie en Christ ; la loi civile concernait Israël ; la loi morale reste universellement valide"
+        },
+        {
+          "id": "c",
+          "text": "Aucune loi de l'AT n'est applicable aux chrétiens"
+        },
+        {
+          "id": "d",
+          "text": "Seule la loi civile a été abolie à la croix"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Théologie réformée : (1) Loi cérémonielle accomplie en Christ (Hébreux 10:1). (2) Loi civile d'Israël ne lie pas les nations. (3) Loi morale (Décalogue) reflète le caractère de Dieu — permanente.",
+      "bibleReference": "Matthieu 5:17",
+      "normalizedRef": "mat5.17",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-015",
+    "fr": {
+      "id": "dq-ley-015",
+      "questionText": "Comment Jacques 2:10 décrit-il la transgression de la Loi ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les péchés sont classés par gravité"
+        },
+        {
+          "id": "b",
+          "text": "Celui qui observe toute la Loi mais pèche en un seul point est coupable envers toute la Loi"
+        },
+        {
+          "id": "c",
+          "text": "La Loi peut être partiellement observée pour plaire à Dieu"
+        },
+        {
+          "id": "d",
+          "text": "Les péchés d'ignorance ne comptent pas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Celui qui observe toute la loi, mais qui pèche contre un seul commandement, devient coupable à l'égard de tous » (Jacques 2:10) — la Loi est une unité indivisible.",
+      "bibleReference": "Jacques 2:10",
+      "normalizedRef": "jam2.10",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-016",
+    "fr": {
+      "id": "dq-ley-016",
+      "questionText": "Que signifie le concept biblique de « conscience » (syneidesis en grec) dans la prise de décision morale ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un organe physique du cerveau qui détecte le péché"
+        },
+        {
+          "id": "b",
+          "text": "La conscience morale interne qui témoigne du bien et du mal — Paul dit que même les gentils ont la loi inscrite dans leur cœur"
+        },
+        {
+          "id": "c",
+          "text": "Uniquement la voix du Saint-Esprit dans les croyants"
+        },
+        {
+          "id": "d",
+          "text": "L'opinion collective de la communauté chrétienne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul : les gentils « montrent que l'œuvre de la loi est écrite dans leur cœur, leur conscience en témoignant » (Romains 2:15). La conscience peut être éduquée ou callée selon l'exposition à la vérité.",
+      "bibleReference": "Romains 2:15",
+      "normalizedRef": "rom2.15",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-017",
+    "fr": {
+      "id": "dq-ley-017",
+      "questionText": "Comment l'éthique chrétienne aborde-t-elle le concept de « guerre juste » à la lumière des Écritures ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La Bible interdit absolument toute guerre"
+        },
+        {
+          "id": "b",
+          "text": "La guerre peut être juste si elle remplit des critères stricts (cause juste, dernière option, proportionnalité) — basés sur Romains 13 et la théologie naturelle"
+        },
+        {
+          "id": "c",
+          "text": "L'État a toujours raison dans ses guerres selon Romains 13"
+        },
+        {
+          "id": "d",
+          "text": "Seule la guerre d'Israël dans l'AT était juste"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La théorie de la guerre juste (Augustin, Aquinas) : une guerre peut être juste si la cause est juste, autorité légitime, dernier recours, intention correcte et proportionnelle. Romains 13 reconnaît le droit de l'État à user de la force.",
+      "bibleReference": "Romains 13:4",
+      "normalizedRef": "rom13.4",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ley-018",
+    "fr": {
+      "id": "dq-ley-018",
+      "questionText": "Qu'est-ce que le « double effet » en éthique chrétienne et comment s'applique-t-il ?",
+      "categoryId": "ley-moral",
+      "categoryName": "Loi et Morale",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une action peut avoir deux résultats spirituels simultanés"
+        },
+        {
+          "id": "b",
+          "text": "Une action moralement bonne peut avoir un effet négatif prévisible mais non intentionnel — acceptable si l'effet positif est proportionnel"
+        },
+        {
+          "id": "c",
+          "text": "Toute action a une conséquence bonne et mauvaise — il faut choisir la moins mauvaise"
+        },
+        {
+          "id": "d",
+          "text": "La bonne intention suffit à justifier n'importe quelle action"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le principe du double effet : une action bonne (ex. traitement médical) peut avoir un effet négatif prévisible (ex. réduire la vie). Acceptable si l'effet positif l'emporte et l'effet négatif n'est pas intentionnel.",
+      "bibleReference": "Romains 3:8",
+      "normalizedRef": "rom3.8",
+      "normalizedCat": "ley-moral"
+    }
+  },
+  {
+    "newId": "dq-ora-006",
+    "fr": {
+      "id": "dq-ora-006",
+      "questionText": "Quelle est la promesse donnée dans Matthieu 7:7-8 concernant la prière ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu répond à toutes les prières immédiatement"
+        },
+        {
+          "id": "b",
+          "text": "Demandez et l'on vous donnera ; cherchez et vous trouverez ; frappez et l'on vous ouvrira"
+        },
+        {
+          "id": "c",
+          "text": "Seuls les justes verront leurs prières exaucées"
+        },
+        {
+          "id": "d",
+          "text": "La prière fervente suffit pour tout obtenir"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Demandez, et l'on vous donnera ; cherchez, et vous trouverez ; frappez, et l'on vous ouvrira » (Matthieu 7:7) — invitation divine à une prière persistante.",
+      "bibleReference": "Matthieu 7:7-8",
+      "normalizedRef": "mat7.7-8",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "newId": "dq-ora-007",
+    "fr": {
+      "id": "dq-ora-007",
+      "questionText": "Comment l'Esprit Saint aide-t-il le croyant dans la prière selon Romains 8:26 ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il choisit les mots de la prière pour nous"
+        },
+        {
+          "id": "b",
+          "text": "Il intercède pour nous par des soupirs inexprimables quand nous ne savons que demander"
+        },
+        {
+          "id": "c",
+          "text": "Il traduit nos prières en hébreu pour Dieu"
+        },
+        {
+          "id": "d",
+          "text": "Il dirige nos émotions pendant la prière"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« L'Esprit lui-même intercède pour nous par des soupirs inexprimables » (Romains 8:26) — le Saint-Esprit est notre avocat dans la prière.",
+      "bibleReference": "Romains 8:26",
+      "normalizedRef": "rom8.26",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "newId": "dq-ora-008",
+    "fr": {
+      "id": "dq-ora-008",
+      "questionText": "Quel modèle de prière Hannah donne-t-elle dans 1 Samuel 1 ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une prière courte et formelle au temple"
+        },
+        {
+          "id": "b",
+          "text": "Une prière de tout son cœur avec larmes, promesse à Dieu et attente confiante de sa réponse"
+        },
+        {
+          "id": "c",
+          "text": "Une prière collective avec les prêtres du temple"
+        },
+        {
+          "id": "d",
+          "text": "Une prière de jeûne de quarante jours"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hannah priait dans la détresse avec larmes, fit un vœu à Dieu, puis repartit le visage serein — modèle de prière sincère, spécifique et confiante (1 Samuel 1:10-18).",
+      "bibleReference": "1 Samuel 1:10-18",
+      "normalizedRef": "1sa1.10-18",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "newId": "dq-ora-009",
+    "fr": {
+      "id": "dq-ora-009",
+      "questionText": "Comment Jésus priait-il dans le jardin de Gethsémané et que nous enseigne cette prière ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il demanda à être délivré de la souffrance — la prière n'eut pas de réponse"
+        },
+        {
+          "id": "b",
+          "text": "Il pria avec soumission totale : « Que ta volonté soit faite » — modèle de prière dans l'angoisse"
+        },
+        {
+          "id": "c",
+          "text": "Il pria silencieusement sans paroles"
+        },
+        {
+          "id": "d",
+          "text": "Il demanda à ses disciples de prier à sa place"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gethsémané : Jésus pria avec une grande angoisse mais soumit sa volonté à celle du Père — « Non pas ma volonté, mais la tienne » (Luc 22:42). Modèle de prière dans la souffrance.",
+      "bibleReference": "Luc 22:42",
+      "normalizedRef": "luk22.42",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "newId": "dq-ora-010",
+    "fr": {
+      "id": "dq-ora-010",
+      "questionText": "Quelle condition Jacques 5:16 donne-t-il pour une prière efficace ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Avoir assez de foi pour déplacer une montagne"
+        },
+        {
+          "id": "b",
+          "text": "La prière fervente du juste a une grande efficacité — confessez vos péchés les uns aux autres"
+        },
+        {
+          "id": "c",
+          "text": "Prier avec d'autres croyants en permanence"
+        },
+        {
+          "id": "d",
+          "text": "Être oint d'huile par les anciens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Confessez donc vos péchés les uns aux autres... La prière fervente du juste a une grande efficacité » (Jacques 5:16) — prière ancrée dans la justice et la communauté.",
+      "bibleReference": "Jacques 5:16",
+      "normalizedRef": "jam5.16",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "newId": "dq-ora-011",
+    "fr": {
+      "id": "dq-ora-011",
+      "questionText": "Comment le psaume 22 est-il à la fois une prière de détresse et une prédiction messianique ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "C'est uniquement une complainte historique de David"
+        },
+        {
+          "id": "b",
+          "text": "Il commence par l'abandon ressenti par David mais anticipe précisément la passion de Christ (Matthieu 27:46)"
+        },
+        {
+          "id": "c",
+          "text": "C'est une prophétie directe sans dimension personnelle"
+        },
+        {
+          "id": "d",
+          "text": "Jésus a cité ce psaume par erreur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 22 ouvre avec « Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné ? » — cri de David et dernier mot de Jésus sur la croix (Matthieu 27:46). Prophétie typologique de la passion.",
+      "bibleReference": "Psaume 22:1",
+      "normalizedRef": "psaume22.1",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "newId": "dq-igl-016",
+    "fr": {
+      "id": "dq-igl-016",
+      "questionText": "Quelle est la différence entre l'Église visible et l'Église invisible dans la théologie réformée ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Église visible est catholique ; l'Église invisible est protestante"
+        },
+        {
+          "id": "b",
+          "text": "L'Église visible = tous les membres professants ; l'Église invisible = ceux vraiment régénérés connus de Dieu seul"
+        },
+        {
+          "id": "c",
+          "text": "L'Église visible se voit à la TV ; l'invisible est underground"
+        },
+        {
+          "id": "d",
+          "text": "L'Église invisible est l'Église des morts"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Calvin : l'Église visible (tous ceux qui professent la foi, reçoivent les sacrements) contient l'Église invisible (les vrais élus connus de Dieu seul) — une distinction pastorale importante.",
+      "bibleReference": "2 Timothée 2:19",
+      "normalizedRef": "2ti2.19",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-017",
+    "fr": {
+      "id": "dq-igl-017",
+      "questionText": "Que signifient les « clés du Royaume » données à Pierre dans Matthieu 16:19 ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre a un pouvoir absolu sur l'Église catholique"
+        },
+        {
+          "id": "b",
+          "text": "L'autorité d'annoncer l'Évangile — ce qui ouvre ou ferme l'accès au Royaume par la proclamation du message"
+        },
+        {
+          "id": "c",
+          "text": "Pierre gardait littéralement les portes du ciel"
+        },
+        {
+          "id": "d",
+          "text": "Un pouvoir transmis aux papes successeurs de Pierre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les clés symbolisent l'autorité d'annoncer l'Évangile : la prédication de la mort/résurrection de Christ ouvre le Royaume pour ceux qui croient ou le ferme pour ceux qui refusent (Matthieu 16:19).",
+      "bibleReference": "Matthieu 16:19",
+      "normalizedRef": "mat16.19",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-018",
+    "fr": {
+      "id": "dq-igl-018",
+      "questionText": "Comment 1 Pierre 2:9 décrit-il l'identité de l'Église ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une institution hiérarchique avec des prêtres ordonnés"
+        },
+        {
+          "id": "b",
+          "text": "Une race élue, un sacerdoce royal, une nation sainte, un peuple acquis"
+        },
+        {
+          "id": "c",
+          "text": "Un groupe de croyants en chemin vers la perfection"
+        },
+        {
+          "id": "d",
+          "text": "L'héritière des promesses faites à Israël seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Vous êtes une race élue, un sacerdoce royal, une nation sainte, un peuple acquis, afin que vous annonciez les vertus de celui qui vous a appelés des ténèbres à sa merveilleuse lumière » (1 Pierre 2:9).",
+      "bibleReference": "1 Pierre 2:9",
+      "normalizedRef": "1pe2.9",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-019",
+    "fr": {
+      "id": "dq-igl-019",
+      "questionText": "Quelle est la différence entre les dons de direction (évêques/anciens) et les diacres dans le NT ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les évêques sont supérieurs aux diacres dans une hiérarchie fixe"
+        },
+        {
+          "id": "b",
+          "text": "Les anciens/évêques enseignent et gouvernent ; les diacres servent dans les besoins pratiques"
+        },
+        {
+          "id": "c",
+          "text": "Les diacres peuvent enseigner ; les anciens ne peuvent que prier"
+        },
+        {
+          "id": "d",
+          "text": "Ces rôles n'existaient pas dans l'Église primitive"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le NT distingue les anciens/évêques (gouvernance, enseignement — 1 Timothée 3:1-7) et les diacres (service pratique — Actes 6:1-6; 1 Timothée 3:8-13).",
+      "bibleReference": "1 Timothée 3:1-13",
+      "normalizedRef": "1ti3.1-13",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-020",
+    "fr": {
+      "id": "dq-igl-020",
+      "questionText": "Que signifie la doctrine de la « communion des saints » dans le Credo des Apôtres ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La prière aux saints décédés pour leurs intercessions"
+        },
+        {
+          "id": "b",
+          "text": "L'unité de tous les croyants — vivants et morts — dans le Corps de Christ à travers les âges"
+        },
+        {
+          "id": "c",
+          "text": "La sainteté morale obligatoire pour entrer dans l'Église"
+        },
+        {
+          "id": "d",
+          "text": "La célébration de la messe de requiem pour les défunts"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La communion des saints (sanctorum communio) désigne la solidarité de tous les croyants dans le Corps de Christ — une Église transhistorique unissant les croyants de tous les temps.",
+      "bibleReference": "Hébreux 12:22-24",
+      "normalizedRef": "heb12.22-24",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-021",
+    "fr": {
+      "id": "dq-igl-021",
+      "questionText": "Quels critères les réformateurs identifiaient-ils pour reconnaître une vraie Église ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La succession apostolique et la conformité avec Rome"
+        },
+        {
+          "id": "b",
+          "text": "La prédication fidèle de la Parole et l'administration correcte des sacrements"
+        },
+        {
+          "id": "c",
+          "text": "La taille de la congrégation et les miracles"
+        },
+        {
+          "id": "d",
+          "text": "Le respect de la liturgie historique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les deux marques de la vraie Église selon les Réformateurs (Luther, Calvin) : (1) la Parole de Dieu prêchée fidèlement, (2) les sacrements administrés correctement (certains ajoutent la discipline ecclésiastique).",
+      "bibleReference": "Actes 2:42",
+      "normalizedRef": "act2.42",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-igl-022",
+    "fr": {
+      "id": "dq-igl-022",
+      "questionText": "Comment Apocalypse 2-3 (les lettres aux 7 Églises) est-il pertinent pour l'Église contemporaine ?",
+      "categoryId": "iglesia",
+      "categoryName": "Église",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ces lettres ne s'appliquent qu'aux Églises historiques du 1er siècle"
+        },
+        {
+          "id": "b",
+          "text": "Elles dressent un portrait prophétique des forces et faiblesses spirituelles récurrentes dans toute Église à toute époque"
+        },
+        {
+          "id": "c",
+          "text": "Elles prédisent sept périodes chronologiques de l'histoire de l'Église"
+        },
+        {
+          "id": "d",
+          "text": "Elles sont purement symboliques sans application pratique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les 7 lettres (Apocalypse 2-3) couvrent des dynamiques universelles : perte du premier amour (Éphèse), compromis doctrinal (Pergame), tiédeur (Laodicée) — miroirs pour toute Église de toute époque.",
+      "bibleReference": "Apocalypse 2:4",
+      "normalizedRef": "rev2.4",
+      "normalizedCat": "iglesia"
+    }
+  },
+  {
+    "newId": "dq-esc-009",
+    "fr": {
+      "id": "dq-esc-009",
+      "questionText": "Que signifie le terme grec « parousia » dans la théologie du NT ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mort de Jésus sur la croix"
+        },
+        {
+          "id": "b",
+          "text": "Le second avènement ou retour glorieux de Christ"
+        },
+        {
+          "id": "c",
+          "text": "La pentecôte et le don de l'Esprit"
+        },
+        {
+          "id": "d",
+          "text": "La résurrection de Jésus"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Parousia (παρουσία) = « présence » ou « avènement » — terme technique du NT pour le second retour de Christ en gloire (1 Thessaloniciens 4:15; Matthieu 24:27).",
+      "bibleReference": "1 Thessaloniciens 4:15",
+      "normalizedRef": "1th4.15",
+      "normalizedCat": "escatologia"
+    }
+  },
+  {
+    "newId": "dq-esc-010",
+    "fr": {
+      "id": "dq-esc-010",
+      "questionText": "Quelle image utilise Paul pour décrire la résurrection dans 1 Corinthiens 15 ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un oiseau qui s'envole vers le ciel"
+        },
+        {
+          "id": "b",
+          "text": "Un grain semé qui meurt et germe en un nouveau corps glorieux"
+        },
+        {
+          "id": "c",
+          "text": "Une flamme qui se transforme en lumière"
+        },
+        {
+          "id": "d",
+          "text": "Un fleuve qui rejoint l'océan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul utilise l'image du grain semé : « Ce que tu sèmes ne reprend pas vie s'il ne meurt... ce qui est semé corruptible ressuscite incorruptible » (1 Corinthiens 15:36-42).",
+      "bibleReference": "1 Corinthiens 15:36-42",
+      "normalizedRef": "1co15.36-42",
+      "normalizedCat": "escatologia"
+    }
+  },
+  {
+    "newId": "dq-esc-011",
+    "fr": {
+      "id": "dq-esc-011",
+      "questionText": "Selon Jean 5:28-29, qui ressuscitera à la fin des temps ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seulement les croyants fidèles"
+        },
+        {
+          "id": "b",
+          "text": "Tous ceux dans les sépulcres — les uns pour la résurrection de vie, d'autres pour la résurrection de jugement"
+        },
+        {
+          "id": "c",
+          "text": "Seulement ceux qui ont reçu les sacrements"
+        },
+        {
+          "id": "d",
+          "text": "Les martyrs chrétiens uniquement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus : « Tous ceux qui sont dans les sépulcres entendront sa voix... ceux qui auront fait le bien ressusciteront pour la vie ; ceux qui auront fait le mal, pour le jugement » (Jean 5:28-29).",
+      "bibleReference": "Jean 5:28-29",
+      "normalizedRef": "joh5.28-29",
+      "normalizedCat": "escatologia"
+    }
+  },
+  {
+    "newId": "dq-esc-012",
+    "fr": {
+      "id": "dq-esc-012",
+      "questionText": "Qu'est-ce que la « Grande Tribulation » selon Matthieu 24:21 ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La persécution romaine du 1er siècle uniquement"
+        },
+        {
+          "id": "b",
+          "text": "Une période d'affliction sans précédent avant le retour de Christ"
+        },
+        {
+          "id": "c",
+          "text": "La souffrance personnelle de chaque croyant"
+        },
+        {
+          "id": "d",
+          "text": "La destruction de Babylone dans Apocalypse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus prédit une « grande tribulation telle qu'il n'y en a pas eu depuis le commencement du monde jusqu'à maintenant, et qu'il n'y en aura jamais » (Matthieu 24:21).",
+      "bibleReference": "Matthieu 24:21",
+      "normalizedRef": "mat24.21",
+      "normalizedCat": "escatologia"
+    }
+  },
+  {
+    "newId": "dq-esc-013",
+    "fr": {
+      "id": "dq-esc-013",
+      "questionText": "Que signifie « le ciel nouveau et la terre nouvelle » dans Apocalypse 21:1 ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu détruira complètement l'univers pour en créer un autre"
+        },
+        {
+          "id": "b",
+          "text": "La création actuelle sera renouvelée et purifiée — une restauration cosmique où Dieu habitera avec son peuple"
+        },
+        {
+          "id": "c",
+          "text": "Le paradis sera dans un autre univers parallèle"
+        },
+        {
+          "id": "d",
+          "text": "Les croyants vivront dans un état purement spirituel"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Ciel Nouveau et la Terre Nouvelle : une création renouvelée (2 Pierre 3:10-13) où « la tente de Dieu est avec les hommes » — le projet de l'Eden accompli et surpassé (Apocalypse 21:3).",
+      "bibleReference": "Apocalypse 21:1-3",
+      "normalizedRef": "rev21.1-3",
+      "normalizedCat": "escatologia"
+    }
+  },
+  {
+    "newId": "dq-esc-014",
+    "fr": {
+      "id": "dq-esc-014",
+      "questionText": "Que dit Matthieu 24:36 sur la date du retour de Christ ?",
+      "categoryId": "escatologia",
+      "categoryName": "Eschatologie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Après sept ans de tribulation"
+        },
+        {
+          "id": "b",
+          "text": "Personne ne connaît le jour ni l'heure — pas même les anges, ni le Fils"
+        },
+        {
+          "id": "c",
+          "text": "Au millième anniversaire de l'Église"
+        },
+        {
+          "id": "d",
+          "text": "À la fin du calendrier hébreu"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Quant au jour et à l'heure, personne ne les connaît, pas même les anges des cieux, pas même le Fils, mais le Père seul » (Matthieu 24:36).",
+      "bibleReference": "Matthieu 24:36",
+      "normalizedRef": "mat24.36",
+      "normalizedCat": "escatologia"
+    }
+  },
+  {
+    "newId": "dq-esp-016",
+    "fr": {
+      "id": "dq-esp-016",
+      "questionText": "Quel était le rôle de l'Esprit Saint dans l'AT par rapport au NT ?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Saint-Esprit",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Esprit n'existait pas dans l'AT"
+        },
+        {
+          "id": "b",
+          "text": "Dans l'AT, l'Esprit venait sur certaines personnes pour des missions spécifiques ; dans le NT, il habite en permanence tous les croyants"
+        },
+        {
+          "id": "c",
+          "text": "L'Esprit agissait identiquement dans les deux Testaments"
+        },
+        {
+          "id": "d",
+          "text": "L'Esprit dans l'AT était une force impersonnelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dans l'AT : l'Esprit venait sur des individus pour des missions (Samson, David, Élie). Dans le NT, Jéhovah promet et accomplit : « Je mettrai mon Esprit en vous » (Ézéchiel 36:27 → Jean 14:17; Actes 2).",
+      "bibleReference": "Ézéchiel 36:27",
+      "normalizedRef": "eze36.27",
+      "normalizedCat": "espiritu-santo"
+    }
+  },
+  {
+    "newId": "dq-esp-017",
+    "fr": {
+      "id": "dq-esp-017",
+      "questionText": "Comment le Saint-Esprit aide-t-il le croyant à comprendre les Écritures (illumination) ?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Saint-Esprit",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Esprit donne une inspiration directe qui remplace la lecture"
+        },
+        {
+          "id": "b",
+          "text": "L'Esprit illumine l'esprit du croyant pour comprendre et appliquer les Écritures qu'il a inspirées"
+        },
+        {
+          "id": "c",
+          "text": "L'Esprit n'intervient pas dans l'étude — seul l'intellect suffit"
+        },
+        {
+          "id": "d",
+          "text": "L'Esprit inspire seulement les pasteurs et théologiens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'illumination : le même Esprit qui a inspiré les Écritures éclaire le cœur du lecteur — « L'homme naturel ne reçoit pas les choses de l'Esprit de Dieu » (1 Corinthiens 2:14). Nécessité de la prière dans l'étude.",
+      "bibleReference": "1 Corinthiens 2:12-14",
+      "normalizedRef": "1co2.12-14",
+      "normalizedCat": "espiritu-santo"
+    }
+  },
+  {
+    "newId": "dq-esp-018",
+    "fr": {
+      "id": "dq-esp-018",
+      "questionText": "En quoi consiste la doctrine de la « procession » de l'Esprit Saint dans la théologie trinitaire ?",
+      "categoryId": "espiritu-santo",
+      "categoryName": "Saint-Esprit",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Esprit a été créé par le Père avant toute chose"
+        },
+        {
+          "id": "b",
+          "text": "L'Esprit procède éternellement du Père (et du Fils selon l'Occident — Filioque) sans commencement dans le temps"
+        },
+        {
+          "id": "c",
+          "text": "L'Esprit procède du Fils seulement selon tous les théologiens"
+        },
+        {
+          "id": "d",
+          "text": "La procession signifie que l'Esprit est inférieur au Père"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La procession de l'Esprit : relation éternelle intratrinitaire. Nicée-Constantinople 381 : « qui procède du Père ». L'Occident ajouta Filioque (et du Fils) — point de division entre Rome et Constantinople en 1054.",
+      "bibleReference": "Jean 15:26",
+      "normalizedRef": "joh15.26",
+      "normalizedCat": "espiritu-santo"
+    }
+  },
+  {
+    "newId": "dq-mis-006",
+    "fr": {
+      "id": "dq-mis-006",
+      "questionText": "Qu'est-ce que la « missio Dei » (mission de Dieu) dans la théologie missionnnaire contemporaine ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mission que nous donnons à Dieu dans nos prières"
+        },
+        {
+          "id": "b",
+          "text": "La mission appartient à Dieu lui-même — l'Église participe à l'action missionnaire de Dieu dans le monde"
+        },
+        {
+          "id": "c",
+          "text": "La mission n'appartient qu'aux missionnaires professionnels"
+        },
+        {
+          "id": "d",
+          "text": "Les programmes d'évangélisation organisés par l'Église"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Missio Dei (Hartenstein, 1952) : la mission n'est pas d'abord un programme de l'Église — elle appartient à la Trinité. L'Église est envoyée comme instrument de la mission divine (Jean 20:21).",
+      "bibleReference": "Jean 20:21",
+      "normalizedRef": "joh20.21",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "newId": "dq-mis-007",
+    "fr": {
+      "id": "dq-mis-007",
+      "questionText": "Selon Romains 10:13-15, qu'est-ce qui est nécessaire pour que les gens croient ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des miracles spectaculaires pour prouver le message"
+        },
+        {
+          "id": "b",
+          "text": "Des prédicateurs envoyés — la foi vient par l'ouïe et l'ouïe par la Parole de Dieu"
+        },
+        {
+          "id": "c",
+          "text": "La distribution de Bibles sans explication"
+        },
+        {
+          "id": "d",
+          "text": "La grâce seule sans moyen humain"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Comment croiront-ils en celui dont ils n'ont pas entendu parler ?... Comment prêcheront-ils, s'ils ne sont envoyés ?... la foi vient de ce qu'on entend » (Romains 10:14-17).",
+      "bibleReference": "Romains 10:14-17",
+      "normalizedRef": "rom10.14-17",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "newId": "dq-mis-008",
+    "fr": {
+      "id": "dq-mis-008",
+      "questionText": "Quel personnage biblique est considéré comme le premier « missionnaire » cross-culturel à grande échelle ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Pierre"
+        },
+        {
+          "id": "c",
+          "text": "Paul"
+        },
+        {
+          "id": "d",
+          "text": "Barnabas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Paul est le premier à entreprendre une mission délibérée et systématique vers les gentils à travers différentes cultures grecques, lyciennes, macédoniennes et romaines — « apôtre des nations » (Romains 11:13).",
+      "bibleReference": "Romains 11:13",
+      "normalizedRef": "rom11.13",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "newId": "dq-mis-009",
+    "fr": {
+      "id": "dq-mis-009",
+      "questionText": "Que signifie le terme « peuples non atteints » (Unreached People Groups) en missiologie ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des individus qui n'ont jamais entendu l'Évangile personnellement"
+        },
+        {
+          "id": "b",
+          "text": "Des groupes ethnolinguistiques où il n'y a pas assez de croyants indigènes pour évangéliser leur propre groupe sans aide extérieure"
+        },
+        {
+          "id": "c",
+          "text": "Des nations entières sans Bibles"
+        },
+        {
+          "id": "d",
+          "text": "Des régions géographiques sans Église physique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Un peuple non atteint (UPG) = groupe ethno-linguistique où la proportion de chrétiens est inférieure à 2% et sans communauté évangélique viable capable d'autoévangélisation interne.",
+      "bibleReference": "Apocalypse 7:9",
+      "normalizedRef": "rev7.9",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "newId": "dq-mis-010",
+    "fr": {
+      "id": "dq-mis-010",
+      "questionText": "Comment Apocalypse 7:9 motive-t-il la mission mondiale ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il montre que seul Israël sera sauvé à la fin"
+        },
+        {
+          "id": "b",
+          "text": "Il révèle la vision finale : une foule innombrable de toute nation, tribu, peuple et langue — but ultime de la mission"
+        },
+        {
+          "id": "c",
+          "text": "Il prouve que la mission universelle est déjà accomplie"
+        },
+        {
+          "id": "d",
+          "text": "Il décrit la Jérusalem céleste comme but géographique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apocalypse 7:9 révèle le but de la mission : « une grande foule que personne ne pouvait compter, de toute nation, de toute tribu, de tout peuple, et de toute langue. » Motivation eschatologique de la mission.",
+      "bibleReference": "Apocalypse 7:9",
+      "normalizedRef": "rev7.9",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "newId": "dq-mis-011",
+    "fr": {
+      "id": "dq-mis-011",
+      "questionText": "Quelle contribution Gustavo Gutiérrez et la théologie de la libération ont-ils apportée au débat missiologique ?",
+      "categoryId": "mision",
+      "categoryName": "Mission",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elles ont prouvé que le socialisme est la forme d'Évangile la plus fidèle"
+        },
+        {
+          "id": "b",
+          "text": "Elles ont mis en avant l'option préférentielle pour les pauvres et la dimension sociale de l'Évangile — même si controversées, elles ont forcé l'Église à reconsidérer la justice sociale"
+        },
+        {
+          "id": "c",
+          "text": "Elles ont rejeté l'AT comme non pertinent pour la mission"
+        },
+        {
+          "id": "d",
+          "text": "Elles ont affirmé que la mission se limite à l'évangélisation verbale"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gutiérrez (Théologie de la libération, 1971) : « option préférentielle pour les pauvres » — en tension avec la théologie évangélique, ce mouvement a forcé un débat productif sur la mission holistique (Lausanne 1974).",
+      "bibleReference": "Luc 4:18",
+      "normalizedRef": "luk4.18",
+      "normalizedCat": "mision"
+    }
+  },
+  {
+    "newId": "dq-nt-016",
+    "fr": {
+      "id": "dq-nt-016",
+      "questionText": "Combien de livres contient le Nouveau Testament ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "27"
+        },
+        {
+          "id": "c",
+          "text": "29"
+        },
+        {
+          "id": "d",
+          "text": "39"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Nouveau Testament contient 27 livres : 4 Évangiles, les Actes, 21 Épîtres (Paulines et Générales) et l'Apocalypse.",
+      "bibleReference": "Le Nouveau Testament complet",
+      "normalizedRef": "lenouveautestamentcomplet",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "newId": "dq-nt-017",
+    "fr": {
+      "id": "dq-nt-017",
+      "questionText": "Quel est le verset le plus court du Nouveau Testament ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Philippiens 4:4"
+        },
+        {
+          "id": "b",
+          "text": "1 Thessaloniciens 5:17"
+        },
+        {
+          "id": "c",
+          "text": "Jean 11:35"
+        },
+        {
+          "id": "d",
+          "text": "Actes 2:1"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Jésus pleura » (Jean 11:35) — deux mots en français, deux en grec (ἐδάκρυσεν ὁ Ἰησοῦς) — verset le plus court du NT.",
+      "bibleReference": "Jean 11:35",
+      "normalizedRef": "joh11.35",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "newId": "dq-nt-018",
+    "fr": {
+      "id": "dq-nt-018",
+      "questionText": "Pourquoi l'Évangile de Jean est-il si différent des trois Évangiles synoptiques ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jean n'a pas connu Jésus personnellement"
+        },
+        {
+          "id": "b",
+          "text": "Jean présente la divinité de Christ avec une profondeur théologique unique — 90% de son contenu est absent des synoptiques"
+        },
+        {
+          "id": "c",
+          "text": "Jean s'adresse uniquement aux gentils"
+        },
+        {
+          "id": "d",
+          "text": "Jean a été écrit après l'Apocalypse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean ouvre avec le Logos (Jean 1:1), inclut les discours de l'upper room (Jean 13-17), les 7 signes, les 7 « Je suis ». Environ 90% de son contenu est unique — focalisé sur la divinité de Christ.",
+      "bibleReference": "Jean 20:30-31",
+      "normalizedRef": "joh20.30-31",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "newId": "dq-nt-019",
+    "fr": {
+      "id": "dq-nt-019",
+      "questionText": "Quelle est la structure littéraire de l'Apocalypse et comment doit-elle être interprétée ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un récit historique linéaire des événements futurs dans l'ordre chronologique exact"
+        },
+        {
+          "id": "b",
+          "text": "Un genre apocalyptique symbolique — vision prophétique communicant la victoire de Dieu sur le mal avec images typiques du genre (Israël, Rome, Babylone)"
+        },
+        {
+          "id": "c",
+          "text": "Un code secret réservé aux initiés"
+        },
+        {
+          "id": "d",
+          "text": "Un livre uniquement historique sur la Rome du 1er siècle sans portée future"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Apocalypse est du genre apocalyptique (daniel, Hénoch) — symbolisme riche, chiffres symboliques (7, 12, 1000), images de combats cosmiques. Quatre approches : prétérisme, idéalisme, historicisme, futurisme.",
+      "bibleReference": "Apocalypse 1:1",
+      "normalizedRef": "rev1.1",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "newId": "dq-cgen-016",
+    "fr": {
+      "id": "dq-cgen-016",
+      "questionText": "Quel test donne 1 Jean 4:2 pour reconnaître l'Esprit de Dieu ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parler en langues"
+        },
+        {
+          "id": "b",
+          "text": "Confesser que Jésus-Christ est venu en chair"
+        },
+        {
+          "id": "c",
+          "text": "Accomplir des miracles"
+        },
+        {
+          "id": "d",
+          "text": "Citer les Écritures avec précision"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Reconnaissez à ceci l'Esprit de Dieu : tout esprit qui confesse que Jésus-Christ est venu en chair est de Dieu » (1 Jean 4:2) — test doctrinal contre les esprits trompeurs.",
+      "bibleReference": "1 Jean 4:2",
+      "normalizedRef": "1jn4.2",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "newId": "dq-cgen-017",
+    "fr": {
+      "id": "dq-cgen-017",
+      "questionText": "Contre quel enseignement erroné Jean écrivait-il principalement dans 1 Jean ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le judaïsant qui insistait sur la Loi"
+        },
+        {
+          "id": "b",
+          "text": "Le gnosticisme naissant qui niait l'incarnation réelle de Christ"
+        },
+        {
+          "id": "c",
+          "text": "Le polythéisme grec menaçant les Églises d'Asie"
+        },
+        {
+          "id": "d",
+          "text": "Le légalisme pharisaïque dans les Églises"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Jean combat le proto-gnosticisme : des enseignants qui niaient que Christ soit vraiment venu en chair (docétisme) — prétendant que la matière est mauvaise et que Jésus n'avait qu'un corps apparent.",
+      "bibleReference": "1 Jean 4:2",
+      "normalizedRef": "1jn4.2",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "newId": "dq-cgen-018",
+    "fr": {
+      "id": "dq-cgen-018",
+      "questionText": "Quel est le but déclaré de la 1re lettre de Jean selon 1 Jean 5:13 ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enseigner la doctrine correcte sur la Trinité"
+        },
+        {
+          "id": "b",
+          "text": "Que les croyants sachent qu'ils ont la vie éternelle"
+        },
+        {
+          "id": "c",
+          "text": "Combattre les faux prophètes dans les Églises"
+        },
+        {
+          "id": "d",
+          "text": "Encourager la communauté à s'aimer mutuellement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Je vous ai écrit ces choses, afin que vous sachiez que vous avez la vie éternelle, vous qui croyez au nom du Fils de Dieu » (1 Jean 5:13) — but déclaré : l'assurance du salut.",
+      "bibleReference": "1 Jean 5:13",
+      "normalizedRef": "1jn5.13",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "newId": "dq-cgen-019",
+    "fr": {
+      "id": "dq-cgen-019",
+      "questionText": "Que dit 2 Jean 10-11 concernant les faux docteurs qui refusent la doctrine de Christ ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il faut les accueillir et les corriger gentiment"
+        },
+        {
+          "id": "b",
+          "text": "Ne pas les accueillir dans sa maison ni les saluer — participer à leurs mauvaises œuvres"
+        },
+        {
+          "id": "c",
+          "text": "Les confronter publiquement dans l'Église"
+        },
+        {
+          "id": "d",
+          "text": "Les signaler aux autorités ecclésiastiques"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean dit : « Si quelqu'un vient à vous et n'apporte pas cette doctrine, ne le recevez pas dans vos maisons et ne lui dites pas : Bonjour ! » (2 Jean 10) — séparation doctrinale forte.",
+      "bibleReference": "2 Jean 10-11",
+      "normalizedRef": "2jn10-11",
+      "normalizedCat": "cartas-generales"
+    }
+  }
+]

@@ -1,0 +1,852 @@
+[
+  {
+    "id": "dq-lug-008",
+    "questionText": "Dans quel pays Joseph (fils de Jacob) a-t-il servi comme gouverneur ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Canaan"},
+      {"id": "b", "text": "Égypte"},
+      {"id": "c", "text": "Babylone"},
+      {"id": "d", "text": "Syrie"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "Joseph fut vendu comme esclave en Égypte, puis grâce à l'interprétation des rêves de Pharaon, il devint gouverneur de l'Égypte (Genèse 41:40-41).",
+    "bibleReference": "Genèse 41:40-41"
+  },
+  {
+    "id": "dq-lug-009",
+    "questionText": "Quelle était la ville d'origine d'Abraham avant son départ pour Canaan ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Babylone"},
+      {"id": "b", "text": "Ninive"},
+      {"id": "c", "text": "Our des Chaldéens"},
+      {"id": "d", "text": "Damas"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "« Térah prit Abram, son fils... et ils sortirent d'Our des Chaldéens pour aller au pays de Canaan » (Genèse 11:31). Dieu appela Abraham d'Our.",
+    "bibleReference": "Genèse 11:31"
+  },
+  {
+    "id": "dq-lug-010",
+    "questionText": "Dans quelle mer l'armée de Pharaon s'est-elle noyée en poursuivant Israël ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Mer Méditerranée"},
+      {"id": "b", "text": "Mer Morte"},
+      {"id": "c", "text": "Mer de Galilée"},
+      {"id": "d", "text": "Mer Rouge"}
+    ],
+    "correctOptionId": "d",
+    "explanation": "Dieu a fendu la Mer Rouge pour qu'Israël passe, et les eaux sont revenues couvrir l'armée de Pharaon (Exode 14:26-28).",
+    "bibleReference": "Exode 14:26-28"
+  },
+  {
+    "id": "dq-lug-011",
+    "questionText": "Dans quelle ville Jésus a-t-il été crucifié ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Capernaüm"},
+      {"id": "b", "text": "Bethléem"},
+      {"id": "c", "text": "Nazareth"},
+      {"id": "d", "text": "Jérusalem"}
+    ],
+    "correctOptionId": "d",
+    "explanation": "Jésus a été crucifié hors des portes de Jérusalem, en un lieu appelé Golgotha ou « le Crâne » (Jean 19:17-20).",
+    "bibleReference": "Jean 19:17-20"
+  },
+  {
+    "id": "dq-lug-012",
+    "questionText": "Au bord de quelle mer Pierre, André, Jacques et Jean pêchaient-ils ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Mer Méditerranée"},
+      {"id": "b", "text": "Mer Morte"},
+      {"id": "c", "text": "Mer de Galilée"},
+      {"id": "d", "text": "Mer Rouge"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "Jésus a appelé ses premiers disciples alors qu'ils pêchaient dans la mer de Galilée (aussi appelée lac de Génésareth ou lac de Tibériade) (Matthieu 4:18).",
+    "bibleReference": "Matthieu 4:18"
+  },
+  {
+    "id": "dq-lug-013",
+    "questionText": "Sur quelle montagne Moïse a-t-il reçu les Dix Commandements de la main de Dieu ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Mont Nebo"},
+      {"id": "b", "text": "Mont Carmel"},
+      {"id": "c", "text": "Mont Sinaï"},
+      {"id": "d", "text": "Mont Hermon"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "Dieu appela Moïse sur le mont Sinaï (aussi appelé Horeb) où il lui donna la Loi sur des tables de pierre (Exode 19:20 ; 31:18).",
+    "bibleReference": "Exode 19:20"
+  },
+  {
+    "id": "dq-lug-014",
+    "questionText": "Sur quelle montagne Salomon a-t-il bâti le temple de Dieu ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Mont Sinaï"},
+      {"id": "b", "text": "Mont des Oliviers"},
+      {"id": "c", "text": "Mont Morija / Sion"},
+      {"id": "d", "text": "Mont Carmel"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "Salomon bâtit le temple sur le mont Morija, à Jérusalem, à l'endroit même où Abraham allait sacrifier Isaac (2 Chroniques 3:1).",
+    "bibleReference": "2 Chroniques 3:1"
+  },
+  {
+    "id": "dq-lug-015",
+    "questionText": "Sur quelle montagne Dieu a-t-il commandé à Abraham de sacrifier son fils Isaac ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Mont Sinaï"},
+      {"id": "b", "text": "Mont Morija"},
+      {"id": "c", "text": "Mont Hermon"},
+      {"id": "d", "text": "Mont Nebo"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "« Va-t'en au pays de Morija, et là offre-le en holocauste » (Genèse 22:2). Ce mont est identifié à l'emplacement où Salomon bâtit le temple (2 Chroniques 3:1).",
+    "bibleReference": "Genèse 22:2"
+  },
+  {
+    "id": "dq-lug-016",
+    "questionText": "Où la première communauté chrétienne s'est-elle établie selon le livre des Actes ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Antioche"},
+      {"id": "b", "text": "Rome"},
+      {"id": "c", "text": "Éphèse"},
+      {"id": "d", "text": "Jérusalem"}
+    ],
+    "correctOptionId": "d",
+    "explanation": "La première Église est née à Jérusalem le jour de la Pentecôte, lorsque le Saint-Esprit est descendu et qu'environ 3 000 personnes se sont converties (Actes 2:1-47).",
+    "bibleReference": "Actes 2:47"
+  },
+  {
+    "id": "dq-lug-017",
+    "questionText": "Quelle ville du livre de l'Apocalypse représente symboliquement le pouvoir oppresseur de Rome ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Sodome"},
+      {"id": "b", "text": "Babylone"},
+      {"id": "c", "text": "Ninive"},
+      {"id": "d", "text": "Tyr"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "Dans Apocalypse 17-18, « Babylone la Grande » est présentée comme le symbole de la ville oppresseuse (interprétée comme Rome) qui persécutait les saints.",
+    "bibleReference": "Apocalypse 17:5"
+  },
+  {
+    "id": "dq-lug-018",
+    "questionText": "Dans quel désert le peuple d'Israël a-t-il séjourné pendant 40 ans avant d'entrer en Canaan ?",
+    "categoryId": "lugares",
+    "categoryName": "Lieux Bibliques",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Désert de Judée"},
+      {"id": "b", "text": "Désert du Sinaï et de Paran"},
+      {"id": "c", "text": "Désert d'Arabie"},
+      {"id": "d", "text": "Désert du Néguev"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "Israël a erré dans le désert du Sinaï et les plaines de Paran pendant 40 ans. Ils ont aussi traversé le désert de Tsin et Kadès-Barnéa (Nombres 33).",
+    "bibleReference": "Nombres 33:1-49"
+  },
+  {
+    "id": "dq-evnt-006",
+    "questionText": "Pendant combien de jours et de nuits la pluie est-elle tombée pendant le déluge de Noé ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "7"},
+      {"id": "b", "text": "20"},
+      {"id": "c", "text": "40"},
+      {"id": "d", "text": "100"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "La pluie du déluge dura quarante jours et quarante nuits (Genèse 7:12). Les eaux dominèrent sur la terre pendant 150 jours.",
+    "bibleReference": "Genèse 7:12"
+  },
+  {
+    "id": "dq-evnt-007",
+    "questionText": "Quand Jésus est-il ressuscité après sa mort ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Premier jour"},
+      {"id": "b", "text": "Deuxième jour"},
+      {"id": "c", "text": "Troisième jour"},
+      {"id": "d", "text": "Une semaine après"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "Jésus est ressuscité le troisième jour, comme il l'avait annoncé et comme la Bible l'avait prophétisé (1 Corinthiens 15:4).",
+    "bibleReference": "1 Corinthiens 15:4"
+  },
+  {
+    "id": "dq-evnt-008",
+    "questionText": "Que s'est-il passé au ciel et sur la terre quand Jésus a été baptisé dans le Jourdain ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Un tremblement de terre a secoué la région"},
+      {"id": "b", "text": "L'Esprit est descendu comme une colombe et le Père a parlé du ciel"},
+      {"id": "c", "text": "Des anges sont apparus sur la rivière"},
+      {"id": "d", "text": "L'eau du Jourdain s'est divisée"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "« Le ciel s'ouvrit, et Jean vit l'Esprit de Dieu descendre comme une colombe et venir sur lui. Et une voix fit entendre des cieux ces paroles : Celui-ci est mon Fils bien-aimé » (Matthieu 3:16-17).",
+    "bibleReference": "Matthieu 3:16-17"
+  },
+  {
+    "id": "dq-evnt-009",
+    "questionText": "Combien de jours après sa résurrection Jésus est-il monté au ciel ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "3 jours"},
+      {"id": "b", "text": "7 jours"},
+      {"id": "c", "text": "40 jours"},
+      {"id": "d", "text": "50 jours"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "« Après qu'il eut souffert, il leur apparut vivant, et leur en donna plusieurs preuves, se montrant à eux pendant quarante jours » (Actes 1:3).",
+    "bibleReference": "Actes 1:3"
+  },
+  {
+    "id": "dq-evnt-010",
+    "questionText": "Quel événement a divisé le royaume unifié d'Israël en deux royaumes séparés ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "La mort du roi David"},
+      {"id": "b", "text": "La défaite contre les Philistins"},
+      {"id": "c", "text": "La mort de Salomon et la rébellion des 10 tribus sous Roboam"},
+      {"id": "d", "text": "L'invasion babylonienne"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "Après la mort de Salomon, Roboam augmenta les taxes. Les 10 tribus du nord se rébellèrent et suivirent Jéroboam, divisant le royaume en Israël (nord) et Juda (sud) (1 Rois 12).",
+    "bibleReference": "1 Rois 12:16-19"
+  },
+  {
+    "id": "dq-evnt-011",
+    "questionText": "Quel événement a eu lieu 50 jours après la résurrection de Jésus (la Pâque) ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "L'Ascension de Jésus"},
+      {"id": "b", "text": "La conversion de Paul"},
+      {"id": "c", "text": "La Pentecôte : l'effusion du Saint-Esprit"},
+      {"id": "d", "text": "La première mission de Paul"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "La Pentecôte (Shavuot) eut lieu 50 jours après la Pâque. Ce jour-là, le Saint-Esprit fut versé sur l'Église naissante (Actes 2:1-4).",
+    "bibleReference": "Actes 2:1-4"
+  },
+  {
+    "id": "dq-evnt-012",
+    "questionText": "Quels signes surnaturels ont accompagné la mort de Jésus sur la croix ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Seulement des ténèbres pendant 3 heures"},
+      {"id": "b", "text": "Ténèbres, tremblement de terre, voile du temple déchiré et résurrection de morts"},
+      {"id": "c", "text": "Pluie de feu et tonnerre"},
+      {"id": "d", "text": "Le soleil brilla d'une intensité inhabituelle"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "Quand Jésus mourut : le voile du temple se déchira du haut en bas, la terre trembla, les rochers se fendirent, et les sépulcres s'ouvrirent (Matthieu 27:50-53).",
+    "bibleReference": "Matthieu 27:50-53"
+  },
+  {
+    "id": "dq-evnt-013",
+    "questionText": "En quelle année environ Jérusalem est-elle tombée aux mains de Babylone sous Nebucadnetsar ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "722 av. J.-C."},
+      {"id": "b", "text": "612 av. J.-C."},
+      {"id": "c", "text": "586 av. J.-C."},
+      {"id": "d", "text": "550 av. J.-C."}
+    ],
+    "correctOptionId": "c",
+    "explanation": "En 586 av. J.-C., Nebucadnetsar détruisit le temple de Salomon, brûla Jérusalem et emmena le peuple captif à Babylone (2 Rois 25:8-11).",
+    "bibleReference": "2 Rois 25:8-11"
+  },
+  {
+    "id": "dq-evnt-014",
+    "questionText": "En quelle année le royaume du nord (Israël) est-il tombé sous l'invasion de l'Assyrie ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "850 av. J.-C."},
+      {"id": "b", "text": "722 av. J.-C."},
+      {"id": "c", "text": "612 av. J.-C."},
+      {"id": "d", "text": "586 av. J.-C."}
+    ],
+    "correctOptionId": "b",
+    "explanation": "En 722 av. J.-C., le roi d'Assyrie Salmanasar V (puis Sargon II) conquit Samarie, capitale du royaume du nord, et déporta les 10 tribus (2 Rois 17:6).",
+    "bibleReference": "2 Rois 17:6"
+  },
+  {
+    "id": "dq-evnt-015",
+    "questionText": "Combien d'années environ après la mort de Jésus le Second Temple de Jérusalem a-t-il été détruit par les Romains ?",
+    "categoryId": "eventos",
+    "categoryName": "Événements Importants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "10 ans (40 ap. J.-C.)"},
+      {"id": "b", "text": "~40 ans (70 ap. J.-C.)"},
+      {"id": "c", "text": "100 ans (130 ap. J.-C.)"},
+      {"id": "d", "text": "200 ans (230 ap. J.-C.)"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "Le temple fut détruit par le général romain Titus en l'an 70 ap. J.-C., environ 40 ans après la crucifixion de Jésus (~30 ap. J.-C.), réalisant la prophétie de Jésus (Matthieu 24:2).",
+    "bibleReference": "Matthieu 24:2"
+  },
+  {
+    "id": "dq-tema-003",
+    "questionText": "Combien de fois Pierre devait-il pardonner à son frère selon Jésus ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "7 fois"},
+      {"id": "b", "text": "77 fois"},
+      {"id": "c", "text": "70 fois sept fois"},
+      {"id": "d", "text": "100 fois"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "« Je ne te dis pas jusqu'à sept fois, mais jusqu'à soixante-dix fois sept fois » (Matthieu 18:22). Jésus enseignait un pardon sans limite.",
+    "bibleReference": "Matthieu 18:22"
+  },
+  {
+    "id": "dq-tema-004",
+    "questionText": "Que dit Hébreux 11:1 sur la foi ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "C'est le résultat d'une obéissance parfaite"},
+      {"id": "b", "text": "C'est l'assurance des choses qu'on espère, la démonstration de celles qu'on ne voit pas"},
+      {"id": "c", "text": "C'est croire sans preuves"},
+      {"id": "d", "text": "C'est le plus grand don de l'Esprit"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "« Or la foi est une ferme assurance des choses qu'on espère, une démonstration de celles qu'on ne voit pas » (Hébreux 11:1).",
+    "bibleReference": "Hébreux 11:1"
+  },
+  {
+    "id": "dq-tema-005",
+    "questionText": "Que promet Dieu selon 1 Jean 1:9 si nous confessons nos péchés ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Il nous donnera plus d'épreuves"},
+      {"id": "b", "text": "Que nous ne pécherons plus jamais"},
+      {"id": "c", "text": "Il nous pardonnera et nous purifiera de toute iniquité"},
+      {"id": "d", "text": "Que nous serons parfaits"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "« Si nous confessons nos péchés, il est fidèle et juste pour nous les pardonner, et pour nous purifier de toute iniquité » (1 Jean 1:9).",
+    "bibleReference": "1 Jean 1:9"
+  },
+  {
+    "id": "dq-tema-006",
+    "questionText": "Quelles sont les trois vertus éternelles qui demeurent selon 1 Corinthiens 13:13 ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "La prière, le jeûne et le service"},
+      {"id": "b", "text": "Le courage, la sagesse et la puissance"},
+      {"id": "c", "text": "La foi, l'espérance et l'amour"},
+      {"id": "d", "text": "L'obéissance, la certitude et la paix"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "« Maintenant donc ces trois choses demeurent : la foi, l'espérance, la charité ; mais la plus grande de ces choses, c'est la charité [l'amour] » (1 Corinthiens 13:13).",
+    "bibleReference": "1 Corinthiens 13:13"
+  },
+  {
+    "id": "dq-tema-007",
+    "questionText": "Dans quel chapitre de 1 Corinthiens Paul décrit-il l'amour comme la 'voie par excellence' ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Chapitre 1"},
+      {"id": "b", "text": "Chapitre 10"},
+      {"id": "c", "text": "Chapitre 13"},
+      {"id": "d", "text": "Chapitre 15"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "L'« Hymne à l'amour » ou le « Chapitre de l'amour » est 1 Corinthiens 13, où Paul décrit l'amour comme supérieur aux dons spirituels.",
+    "bibleReference": "1 Corinthiens 13:1-13"
+  },
+  {
+    "id": "dq-tema-008",
+    "questionText": "Quel commandement Jésus appelle-t-il le 'premier et le plus grand' de tous ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Ne pas tuer"},
+      {"id": "b", "text": "Honorer son père et sa mère"},
+      {"id": "c", "text": "Aimer Dieu de tout son cœur, et son prochain comme soi-même"},
+      {"id": "d", "text": "Ne pas prendre le nom de Dieu en vain"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "« Tu aimeras le Seigneur, ton Dieu, de tout ton cœur... C'est là le premier et le plus grand commandement. Et voici le second, qui lui est semblable : Tu aimeras ton prochain comme toi-même » (Matthieu 22:37-39).",
+    "bibleReference": "Matthieu 22:37-39"
+  },
+  {
+    "id": "dq-tema-009",
+    "questionText": "Quelle parabole de Jésus illustre le mieux l'amour et la miséricorde du Père pour le pécheur repentant ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "La parabole des dix vierges"},
+      {"id": "b", "text": "La parabole du bon Samaritain"},
+      {"id": "c", "text": "La parabole du fils prodigue"},
+      {"id": "d", "text": "La parabole du semeur"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "La parabole du fils prodigue (Luc 15:11-32) montre le Père courant à la rencontre de son fils qui revient, illustrant la grâce divine.",
+    "bibleReference": "Luc 15:11-32"
+  },
+  {
+    "id": "dq-tema-010",
+    "questionText": "Quel est le 'fruit de l'Esprit' selon Galates 5:22-23 ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Puissance, miracles et prophéties"},
+      {"id": "b", "text": "Amour, joie, paix, patience, bonté, bienveillance, foi, douceur, maîtrise de soi"},
+      {"id": "c", "text": "Sagesse, connaissance et discernement"},
+      {"id": "d", "text": "Richesse, santé et succès"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "Paul liste ces neuf qualités comme étant le résultat de la présence et de l'action du Saint-Esprit dans la vie du croyant.",
+    "bibleReference": "Galates 5:22-23"
+  },
+  {
+    "id": "dq-tema-011",
+    "questionText": "Que signifie le mot 'Sainte Cène' ou 'Eucharistie' ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Le repas de fête annuel"},
+      {"id": "b", "text": "L'action de grâce et la commémoration du sacrifice de Jésus"},
+      {"id": "c", "text": "Le baptême des enfants"},
+      {"id": "d", "text": "La lecture publique de la Loi"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "L'Eucharistie (du grec 'action de grâce') commémore le dernier repas de Jésus avec ses disciples et son sacrifice pour nos péchés.",
+    "bibleReference": "1 Corinthiens 11:23-26"
+  },
+  {
+    "id": "dq-tema-012",
+    "questionText": "Qui est le 'Paraclet' (Consolateur) promis par Jésus dans l'Évangile de Jean ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "L'apôtre Pierre"},
+      {"id": "b", "text": "L'apôtre Jean"},
+      {"id": "c", "text": "Le Saint-Esprit"},
+      {"id": "d", "text": "L'ange Gabriel"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "Jésus a promis d'envoyer 'un autre Consolateur' (Parakletos) qui demeurerait avec les disciples éternellement : le Saint-Esprit (Jean 14:16, 26).",
+    "bibleReference": "Jean 14:16"
+  },
+  {
+    "id": "dq-tema-013",
+    "questionText": "Quelle est la 'Grande Mission' (Mandat Missionnaire) de Jésus à ses disciples ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Construire des temples dans chaque ville"},
+      {"id": "b", "text": "Allez, faites de toutes les nations des disciples"},
+      {"id": "c", "text": "Écrire les évangiles"},
+      {"id": "d", "text": "Rester à Jérusalem pour toujours"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "« Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit » (Matthieu 28:19).",
+    "bibleReference": "Matthieu 28:19-20"
+  },
+  {
+    "id": "dq-tema-014",
+    "questionText": "Que dit Romains 3:23 sur la condition humaine ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Certains hommes sont nés saints"},
+      {"id": "b", "text": "Tous ont péché et sont privés de la gloire de Dieu"},
+      {"id": "c", "text": "L'homme peut se sauver par lui-même"},
+      {"id": "d", "text": "Le péché n'est qu'une erreur de jugement"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "Paul enseigne l'universalité du péché : personne ne peut atteindre la norme de sainteté de Dieu par ses propres efforts.",
+    "bibleReference": "Romains 3:23"
+  },
+  {
+    "id": "dq-tema-015",
+    "questionText": "Quel est le thème principal du sermon sur la montagne (Matthieu 5-7) ?",
+    "categoryId": "temas",
+    "categoryName": "Thèmes Bibliques",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "La fin du monde"},
+      {"id": "b", "text": "La généalogie de Jésus"},
+      {"id": "c", "text": "L'éthique et les principes de vie des citoyens du Royaume de Dieu"},
+      {"id": "d", "text": "L'histoire d'Israël"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "Le sermon sur la montagne contient les Béatitudes et divers enseignements sur la vie juste, contrastant avec l'hypocrisie religieuse.",
+    "bibleReference": "Matthieu 5:1-48"
+  },
+  {
+    "id": "dq-doc-006",
+    "questionText": "Que signifie le terme 'Inspiration' de la Bible ?",
+    "categoryId": "doctrina",
+    "categoryName": "Doctrine",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Que les auteurs ont écrit de belles poésies"},
+      {"id": "b", "text": "Que Dieu a guidé les auteurs humains par le Saint-Esprit"},
+      {"id": "c", "text": "Que la Bible est un livre de légendes inspirantes"},
+      {"id": "d", "text": "Que les auteurs ont dicté mécaniquement chaque mot"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "« Toute Écriture est inspirée de Dieu » (2 Timothée 3:16). Le mot grec 'theopneustos' signifie 'insufflée par Dieu'.",
+    "bibleReference": "2 Timothée 3:16"
+  },
+  {
+    "id": "dq-doc-007",
+    "questionText": "Qu'est-ce que la 'Justification par la foi' ?",
+    "categoryId": "doctrina",
+    "categoryName": "Doctrine",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Être déclaré juste par ses bonnes actions"},
+      {"id": "b", "text": "Le fait d'être déclaré juste devant Dieu par la foi en Christ"},
+      {"id": "c", "text": "Être juste aux yeux des hommes"},
+      {"id": "d", "text": "Suivre toutes les lois de l'Ancien Testament"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "La justification est un acte légal par lequel Dieu déclare le pécheur juste à cause de la justice de Christ imputée par la foi.",
+    "bibleReference": "Romains 5:1"
+  },
+  {
+    "id": "dq-doc-008",
+    "questionText": "Que signifie le dogme de la 'Trinité' ?",
+    "categoryId": "doctrina",
+    "categoryName": "Doctrine",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Qu'il y a trois Dieux différents"},
+      {"id": "b", "text": "Un seul Dieu en trois personnes : Père, Fils et Saint-Esprit"},
+      {"id": "c", "text": "Que Jésus est devenu Dieu après sa mort"},
+      {"id": "d", "text": "Que le Père et le Fils sont la même personne"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "La Bible présente Dieu comme unique, mais se manifestant en trois personnes distinctes et co-éternelles.",
+    "bibleReference": "Matthieu 28:19"
+  },
+  {
+    "id": "dq-doc-009",
+    "questionText": "Qu'est-ce que la 'Sanctification' ?",
+    "categoryId": "doctrina",
+    "categoryName": "Doctrine",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Le processus par lequel le croyant est transformé à l'image de Christ"},
+      {"id": "b", "text": "Le moment de la nouvelle naissance"},
+      {"id": "c", "text": "L'entrée au ciel après la mort"},
+      {"id": "d", "text": "Le fait de ne jamais faire d'erreur"}
+    ],
+    "correctOptionId": "a",
+    "explanation": "La sanctification est l'œuvre progressive du Saint-Esprit dans la vie du croyant pour le séparer du péché et le consacrer à Dieu.",
+    "bibleReference": "1 Thessaloniciens 4:3"
+  },
+  {
+    "id": "dq-doc-010",
+    "questionText": "Que signifie le terme 'Rédemption' ?",
+    "categoryId": "doctrina",
+    "categoryName": "Doctrine",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Le rachat de l'humanité du péché par le sacrifice de Jésus"},
+      {"id": "b", "text": "L'étude des prophéties"},
+      {"id": "c", "text": "Le châtiment pour les péchés"},
+      {"id": "d", "text": "La connaissance intellectuelle de Dieu"}
+    ],
+    "correctOptionId": "a",
+    "explanation": "La rédemption évoque le paiement d'une rançon pour libérer un captif. Jésus a payé de sa vie pour nous libérer de l'esclavage du péché.",
+    "bibleReference": "Éphésiens 1:7"
+  },
+  {
+    "id": "dq-doc-011",
+    "questionText": "Qu'est-ce que la 'Souveraineté de Dieu' ?",
+    "categoryId": "doctrina",
+    "categoryName": "Doctrine",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Dieu n'intervient jamais sur terre"},
+      {"id": "b", "text": "Le contrôle absolu et l'autorité de Dieu sur toute la création"},
+      {"id": "c", "text": "L'homme a plus de pouvoir que Dieu sur son destin"},
+      {"id": "d", "text": "Dieu ne connaît pas le futur"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "La souveraineté signifie que rien n'échappe au contrôle de Dieu et qu'il accomplit tout selon le conseil de sa volonté.",
+    "bibleReference": "Psaume 115:3"
+  },
+  {
+    "id": "dq-doc-012",
+    "questionText": "Que signifie 'L'Incarnation' ?",
+    "categoryId": "doctrina",
+    "categoryName": "Doctrine",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "L'entrée de l'âme dans un nouveau corps après la mort"},
+      {"id": "b", "text": "Le Fils de Dieu devenant homme en la personne de Jésus"},
+      {"id": "c", "text": "La création de l'univers"},
+      {"id": "d", "text": "La résurrection de Lazare"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "« Et la parole a été faite chair, et elle a habité parmi nous » (Jean 1:14). C'est le mystère de Dieu se faisant homme.",
+    "bibleReference": "Jean 1:14"
+  },
+  {
+    "id": "dq-doc-013",
+    "questionText": "Qu'est-ce que la 'Grâce Commune' ?",
+    "categoryId": "doctrina",
+    "categoryName": "Doctrine",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "La grâce de salut pour tous les hommes"},
+      {"id": "b", "text": "La bonté de Dieu manifestée à tous les hommes (pluie, soleil, etc.)"},
+      {"id": "c", "text": "Une grâce qui ne dure pas"},
+      {"id": "d", "text": "Le pardon des péchés véniels"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "La grâce commune est la bienveillance par laquelle Dieu maintient l'ordre du monde et dispense des bienfaits temporels à toute l'humanité.",
+    "bibleReference": "Matthieu 5:45"
+  },
+  {
+    "id": "dq-doc-014",
+    "questionText": "Que signifie le terme 'Eschatologie' ?",
+    "categoryId": "doctrina",
+    "categoryName": "Doctrine",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "L'étude de l'histoire ancienne"},
+      {"id": "b", "text": "L'étude des choses de la fin ou des derniers temps"},
+      {"id": "c", "text": "L'étude des langues bibliques"},
+      {"id": "d", "text": "L'étude de l'Église locale"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "L'eschatologie traite du retour de Christ, du jugement dernier, de la résurrection et de l'état éternel.",
+    "bibleReference": "1 Thessaloniciens 4:16-17"
+  },
+  {
+    "id": "dq-doc-015",
+    "questionText": "Qu'est-ce que 'L'Alliance' (Covenant) dans la Bible ?",
+    "categoryId": "doctrina",
+    "categoryName": "Doctrine",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Un simple contrat humain"},
+      {"id": "b", "text": "Un engagement solennel entre Dieu et son peuple"},
+      {"id": "c", "text": "Une promesse que l'on peut briser sans conséquence"},
+      {"id": "d", "text": "Une alliance de mariage uniquement"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "Dieu a établi diverses alliances (Noé, Abraham, Moïse, David, Nouvelle Alliance) pour révéler son plan de salut.",
+    "bibleReference": "Hébreux 8:10"
+  },
+  {
+    "id": "dq-muj-002",
+    "questionText": "Qui était la femme de Lot qui s'est changée en statue de sel ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes de la Bible",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Sara"},
+      {"id": "b", "text": "Rébecca"},
+      {"id": "c", "text": "La femme de Lot (non nommée)"},
+      {"id": "d", "text": "Élisabeth"}
+    ],
+    "correctOptionId": "c",
+    "explanation": "« La femme de Lot regarda en arrière, et elle devint une statue de sel » (Genèse 19:26) lors de la destruction de Sodome.",
+    "bibleReference": "Genèse 19:26"
+  },
+  {
+    "id": "dq-muj-003",
+    "questionText": "Qui était la prophétesse et juge d'Israël qui a aidé Barac à vaincre Sisera ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes de la Bible",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Débora"},
+      {"id": "b", "text": "Jaël"},
+      {"id": "c", "text": "Miriam"},
+      {"id": "d", "text": "Esther"}
+    ],
+    "correctOptionId": "a",
+    "explanation": "Débora est la seule femme citée comme juge d'Israël. Elle encouragea Barac à mener le combat contre les Cananéens.",
+    "bibleReference": "Juges 4:4-9"
+  },
+  {
+    "id": "dq-muj-004",
+    "questionText": "Qui était la belle-fille fidèle de Naomi, ancêtre du roi David ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes de la Bible",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Orpa"},
+      {"id": "b", "text": "Ruth"},
+      {"id": "c", "text": "Abigaïl"},
+      {"id": "d", "text": "Rachab"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ruth la Moabite resta fidèle à sa belle-mère Naomi et dit : « Ton peuple sera mon peuple, et ton Dieu sera mon Dieu ».",
+    "bibleReference": "Ruth 1:16"
+  },
+  {
+    "id": "dq-muj-005",
+    "questionText": "Qui était la reine juive qui a sauvé son peuple du massacre en Perse ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes de la Bible",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Vasthi"},
+      {"id": "b", "text": "Esther"},
+      {"id": "c", "text": "Athalie"},
+      {"id": "d", "text": "Jézabel"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "Esther risqua sa vie en se présentant devant le roi Assuérus pour intercéder en faveur des Juifs contre le complot d'Haman.",
+    "bibleReference": "Esther 7:3-4"
+  },
+  {
+    "id": "dq-muj-006",
+    "questionText": "Qui était la mère de Jean-Baptiste ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes de la Bible",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "Marie"},
+      {"id": "b", "text": "Élisabeth"},
+      {"id": "c", "text": "Anne"},
+      {"id": "d", "text": "Marthe"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "Élisabeth, parente de Marie, était stérile mais Dieu lui permit de concevoir Jean-Baptiste dans sa vieillesse.",
+    "bibleReference": "Luc 1:13"
+  },
+  {
+    "id": "dq-muj-007",
+    "questionText": "Qui était la première personne à voir Jésus ressuscité ?",
+    "categoryId": "mujeres",
+    "categoryName": "Femmes de la Bible",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      {"id": "a", "text": "L'apôtre Pierre"},
+      {"id": "b", "text": "Marie de Magdala"},
+      {"id": "c", "text": "La mère de Jésus"},
+      {"id": "d", "text": "L'apôtre Jean"}
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jésus apparut d'abord à Marie de Magdala au matin de la résurrection près du tombeau vide (Jean 20:14-16).",
+    "bibleReference": "Jean 20:14-16"
+  }
+]

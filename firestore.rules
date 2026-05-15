@@ -1,0 +1,304 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    function isAdmin() {
+      return isSignedIn() &&
+        (
+          request.auth.token.admin == true ||
+          request.auth.token.role in ['super_admin', 'editor', 'reviewer', 'moderator', 'support'] ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['super_admin', 'editor', 'reviewer', 'moderator', 'support']
+        );
+    }
+
+    function isSuperAdmin() {
+      return isSignedIn() &&
+        (
+          request.auth.token.admin == true ||
+          request.auth.token.role == 'super_admin' ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'super_admin'
+        );
+    }
+
+    // ===================================
+    // 📂 COLLECTION GROUP RULES
+    // ===================================
+    match /{path=**}/daily_challenge_history/{historyId} {
+      allow read: if isAdmin();
+    }
+
+
+    function userDocIsSafe() {
+      return request.resource.data.uid == request.auth.uid
+        && (request.resource.data.email == null || request.resource.data.email is string)
+        && (request.resource.data.status == null || request.resource.data.status in ['active', 'suspended', 'banned']);
+    }
+
+    match /users/{uid} {
+      allow create: if isOwner(uid) && userDocIsSafe();
+      allow read: if isSignedIn();
+      allow update: if isOwner(uid) || isAdmin();
+      allow delete: if isSuperAdmin();
+
+      match /achievements/{achievementId} {
+        allow read: if isOwner(uid) || isAdmin();
+        allow write: if isAdmin();
+      }
+
+      match /friends/{friendUid} {
+        allow read, write: if isOwner(uid) || isAdmin();
+      }
+
+      match /notifications/{notificationId} {
+        allow read: if isOwner(uid) || isAdmin();
+        allow update: if isOwner(uid) || isAdmin();
+        allow create, delete: if isAdmin();
+      }
+
+      match /wrong_questions/{questionId} {
+        allow read: if isOwner(uid) || isAdmin();
+        allow write: if isOwner(uid) || isAdmin();
+      }
+
+      match /daily_challenge_history/{historyId} {
+        allow read: if isOwner(uid) || isAdmin();
+        allow create: if isOwner(uid) || isAdmin();
+      }
+    }
+
+    // ===================================
+    // 👑 CROWN ARENA
+    // ===================================
+    match /arenas/{arenaId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn();
+      allow update: if isSignedIn() && (
+        resource.data.hostId == request.auth.uid || 
+        request.resource.data.currentPlayersCount == resource.data.currentPlayersCount + 1 ||
+        request.resource.data.currentPlayersCount == resource.data.currentPlayersCount - 1
+      );
+      allow delete: if isAdmin();
+
+      match /players/{userId} {
+        allow read: if isSignedIn();
+        allow create, update: if isOwner(userId);
+        allow delete: if isAdmin();
+      }
+
+      match /answers/{answerId} {
+        allow read: if isSignedIn();
+        allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
+        allow update, delete: if isAdmin();
+      }
+    }
+
+    match /arenaInvitations/{invitationId} {
+      allow read: if isSignedIn() && (resource.data.receiverId == request.auth.uid || resource.data.hostId == request.auth.uid);
+      allow create: if isSignedIn() && request.resource.data.hostId == request.auth.uid;
+      allow update: if isSignedIn() && resource.data.receiverId == request.auth.uid;
+      allow delete: if isAdmin();
+    }
+
+    // ===================================
+    // ⚔️ DUELS (AMIGOS / RANDOM)
+    // ===================================
+    match /duels/{duelId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && request.resource.data.createdBy == request.auth.uid;
+      allow update: if isSignedIn() && (request.auth.uid in resource.data.participantIds);
+      allow delete: if isAdmin();
+
+      match /rounds/{roundId} {
+        allow read: if isSignedIn() && (request.auth.uid in get(/databases/$(database)/documents/duels/$(duelId)).data.participantIds);
+        allow write: if isSignedIn() && (request.auth.uid in get(/databases/$(database)/documents/duels/$(duelId)).data.participantIds);
+      }
+    }
+
+    match /duel_results/{resultId} {
+      // Temporary permissive read if signed in, but ideally restricted to participants
+      allow read: if isSignedIn();
+      allow create: if isSignedIn();
+      allow update, delete: if isAdmin();
+    }
+
+    match /admin_users/{uid} {
+      allow read: if isAdmin();
+      allow write: if isSuperAdmin();
+    }
+
+    match /system_settings/{docId} {
+      allow read: if true;
+      allow write: if isSuperAdmin();
+    }
+
+    match /verse_of_the_day/{verseDocId} {
+      allow read: if resource.data.isPublished == true || isAdmin();
+      allow write: if isAdmin();
+    }
+
+    match /battle_pass_seasons/{seasonId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+      
+      match /tiers/{tierId} {
+        allow read: if isSignedIn();
+        allow write: if isAdmin();
+      }
+      
+      match /missions/{missionId} {
+        allow read: if isSignedIn();
+        allow write: if isAdmin();
+      }
+    }
+
+    match /user_battle_pass_progress/{progressId} {
+      allow read, update, delete: if isSignedIn() && resource.data.userId == request.auth.uid;
+      allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
+
+      match /missions/{missionId} {
+        // Since we query this subcollection, we don't query it but use direct get/set.
+        // It's safer to just check if the parent's progressId starts with auth.uid
+        allow read, write: if isSignedIn() && progressId.matches(request.auth.uid + '_.*');
+      }
+    }
+
+    match /user_battle_pass_claims/{claimId} {
+      allow read, update, delete: if isSignedIn() && resource.data.userId == request.auth.uid;
+      allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
+    }
+
+    // =========================
+    // 🏆 TOURNAMENTS
+    // =========================
+
+    match /tournaments/{tournamentId} {
+      allow read: if true;
+      allow write: if isAdmin();
+
+      // 👥 PARTICIPANTS
+      match /participants/{userId} {
+        allow read: if isSignedIn();
+        // Writes handled by Cloud Functions (joinTournament, submitTournamentAnswer)
+        allow write: if isAdmin();
+      }
+
+      // 🔁 ROUNDS
+      match /rounds/{roundId} {
+        allow read: if isSignedIn();
+        allow write: if isAdmin();
+      }
+
+      // ⚔️ MATCHES (si usas duelos)
+      match /matches/{matchId} {
+        allow read: if isSignedIn();
+        allow write: if isAdmin();
+      }
+    }
+
+    // =========================
+    // 💰 MONETIZACIÓN
+    // =========================
+
+    match /products/{productId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /store_items/{itemId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /user_purchases/{purchaseId} {
+      allow read: if isSignedIn();
+      allow write: if false;
+    }
+
+    match /premium_entitlements/{entitlementId} {
+      allow read: if isSignedIn();
+      allow write: if false;
+    }
+
+    // =========================
+    // 🏅 RANKING GLOBAL
+    // =========================
+
+    match /ranking_seasons/{seasonId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /ranking_leagues/{leagueId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /user_rankings/{userId} {
+      allow read: if isSignedIn();
+      // ❌ usuario NO puede cambiar su ranking
+      allow write: if false;
+
+      match /season_history/{seasonId} {
+        allow read: if isSignedIn();
+        allow write: if isAdmin();
+      }
+    }
+
+    // =========================
+    // 📊 LEADERBOARDS
+    // =========================
+
+    match /leaderboards/{leaderboardId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // =========================
+    // 🧾 LOGS / AUDIT
+    // =========================
+
+    match /audit_logs/{logId} {
+      allow read: if isAdmin();
+      allow write: if isAdmin();
+    }
+
+    match /friendRequests/{requestId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && request.resource.data.senderId == request.auth.uid;
+      allow update: if isSignedIn() && (resource.data.senderId == request.auth.uid || resource.data.receiverId == request.auth.uid);
+      allow delete: if isSignedIn() && (resource.data.senderId == request.auth.uid || resource.data.receiverId == request.auth.uid);
+    }
+
+    match /friendships/{friendshipId} {
+      // Allow any signed-in user to read friendships, so they can see if others are friends and count them
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && (request.resource.data.user1Id == request.auth.uid || request.resource.data.user2Id == request.auth.uid);
+      allow update, delete: if isSignedIn() && (resource.data.user1Id == request.auth.uid || resource.data.user2Id == request.auth.uid);
+    }
+
+    // =========================
+    // 📅 DAILY CHALLENGES
+    // =========================
+    match /daily_challenges/{challengeId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // =========================
+    // ⚙️ GLOBAL SETTINGS
+    // =========================
+    match /settings/{docId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+  }
+}

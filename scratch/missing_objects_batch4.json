@@ -1,0 +1,1192 @@
+[
+  {
+    "newId": "dq-apoc-026",
+    "fr": {
+      "id": "dq-apoc-026",
+      "questionText": "À combien d'Églises l'Apocalypse est-elle adressée au début ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les sept lettres sont adressées aux Églises d'Éphèse, Smyrne, Pergame, Thyatire, Sardes, Philadelphie et Laodicée (Apoc 1:11).",
+      "bibleReference": "Apocalypse 1:11",
+      "normalizedRef": "rev1.11",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-027",
+    "fr": {
+      "id": "dq-apoc-027",
+      "questionText": "Quel animal représente Jésus au chapitre 5 de l'Apocalypse ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un lion"
+        },
+        {
+          "id": "b",
+          "text": "Un agneau"
+        },
+        {
+          "id": "c",
+          "text": "Un aigle"
+        },
+        {
+          "id": "d",
+          "text": "Un taureau"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus est « l'Agneau qui a été immolé » — seul digne d'ouvrir le rouleau (Apocalypse 5:6,12).",
+      "bibleReference": "Apocalypse 5:6",
+      "normalizedRef": "rev5.6",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-028",
+    "fr": {
+      "id": "dq-apoc-028",
+      "questionText": "Qu'est-ce que la Nouvelle Jérusalem dans Apocalypse 21 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Israël restauré sur la terre actuelle"
+        },
+        {
+          "id": "b",
+          "text": "La cité sainte descendant du ciel — demeure de Dieu avec les hommes"
+        },
+        {
+          "id": "c",
+          "text": "Le paradis céleste où vont les âmes après la mort"
+        },
+        {
+          "id": "d",
+          "text": "Le temple de Salomon reconstruit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La Nouvelle Jérusalem descend du ciel — Dieu habitera avec les hommes, il essuiera toute larme (Apocalypse 21:2-3).",
+      "bibleReference": "Apocalypse 21:2-3",
+      "normalizedRef": "rev21.2-3",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-029",
+    "fr": {
+      "id": "dq-apoc-029",
+      "questionText": "Dans Apocalypse 20, combien d'années dure le règne mentionné avant le jugement final ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "100 ans"
+        },
+        {
+          "id": "b",
+          "text": "500 ans"
+        },
+        {
+          "id": "c",
+          "text": "1000 ans"
+        },
+        {
+          "id": "d",
+          "text": "7 ans"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le « règne de mille ans » (millénium) est décrit en Apocalypse 20:1-6.",
+      "bibleReference": "Apocalypse 20:2-4",
+      "normalizedRef": "rev20.2-4",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-030",
+    "fr": {
+      "id": "dq-apoc-030",
+      "questionText": "Quelle est la promesse faite à l'Église de Philadelphie dans Apocalypse 3 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Richesse et gloire"
+        },
+        {
+          "id": "b",
+          "text": "Une porte ouverte qu'aucun homme ne peut fermer"
+        },
+        {
+          "id": "c",
+          "text": "Victoire sur toutes les nations"
+        },
+        {
+          "id": "d",
+          "text": "La résurrection immédiate"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« J'ai mis devant toi une porte ouverte qu'aucun homme ne peut fermer » — promesse à Philadelphie (Apocalypse 3:8).",
+      "bibleReference": "Apocalypse 3:8",
+      "normalizedRef": "rev3.8",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-031",
+    "fr": {
+      "id": "dq-apoc-031",
+      "questionText": "L'Apocalypse se termine avec quelle grande invitation de l'Esprit et de l'Épouse ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adorez Dieu seul"
+        },
+        {
+          "id": "b",
+          "text": "Viens, Seigneur Jésus"
+        },
+        {
+          "id": "c",
+          "text": "Que ta grâce soit avec tous"
+        },
+        {
+          "id": "d",
+          "text": "Venez recevoir la vie éternelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« L'Esprit et l'Épouse disent : Viens ! » et Jean conclut : « Viens, Seigneur Jésus » (Apocalypse 22:17,20).",
+      "bibleReference": "Apocalypse 22:20",
+      "normalizedRef": "rev22.20",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-032",
+    "fr": {
+      "id": "dq-apoc-032",
+      "questionText": "Quel est le nom de l'ange de l'abîme en hébreu dans Apocalypse 9:11 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Apollyon / Abaddon"
+        },
+        {
+          "id": "b",
+          "text": "Michel"
+        },
+        {
+          "id": "c",
+          "text": "Lucifer"
+        },
+        {
+          "id": "d",
+          "text": "Béelzéboul"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "L'ange de l'abîme s'appelle Abaddon en hébreu et Apollyon en grec — tous deux signifient « destructeur » (Apocalypse 9:11).",
+      "bibleReference": "Apocalypse 9:11",
+      "normalizedRef": "rev9.11",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-033",
+    "fr": {
+      "id": "dq-apoc-033",
+      "questionText": "Dans Apocalypse 12, la femme vêtue du soleil représente traditionnellement qui ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marie, mère de Jésus"
+        },
+        {
+          "id": "b",
+          "text": "L'Église ou Israël portant le Messie"
+        },
+        {
+          "id": "c",
+          "text": "Babylone la Grande"
+        },
+        {
+          "id": "d",
+          "text": "L'Épouse de l'Agneau"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La femme couronnée de 12 étoiles (Israël/l'Église) enfante le Messie poursuivi par le dragon — symbole du combat spirituel (Apoc 12:1-5).",
+      "bibleReference": "Apocalypse 12:1-5",
+      "normalizedRef": "rev12.1-5",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-034",
+    "fr": {
+      "id": "dq-apoc-034",
+      "questionText": "Que contient le « livre de vie de l'Agneau » mentionné en Apocalypse 21:27 ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les noms de ceux qui héritent la Nouvelle Jérusalem"
+        },
+        {
+          "id": "b",
+          "text": "Les péchés de l'humanité"
+        },
+        {
+          "id": "c",
+          "text": "Les prophéties accomplies"
+        },
+        {
+          "id": "d",
+          "text": "Les noms des anges gardiens"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Seuls ceux dont les noms sont inscrits dans le livre de vie de l'Agneau peuvent entrer dans la Nouvelle Jérusalem (Apoc 21:27).",
+      "bibleReference": "Apocalypse 21:27",
+      "normalizedRef": "rev21.27",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-apoc-035",
+    "fr": {
+      "id": "dq-apoc-035",
+      "questionText": "L'Apocalypse décrit un « lac de feu » comme la « seconde mort » — qui y est jeté en premier ?",
+      "categoryId": "apocalipsis",
+      "categoryName": "Apocalypse",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les nations rebelles"
+        },
+        {
+          "id": "b",
+          "text": "La mort et le séjour des morts (Hadès)"
+        },
+        {
+          "id": "c",
+          "text": "La grande prostituée"
+        },
+        {
+          "id": "d",
+          "text": "Les faux prophètes uniquement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« La mort et le séjour des morts furent jetés dans l'étang de feu. C'est la seconde mort » (Apocalypse 20:14).",
+      "bibleReference": "Apocalypse 20:14",
+      "normalizedRef": "rev20.14",
+      "normalizedCat": "apocalipsis"
+    }
+  },
+  {
+    "newId": "dq-pers-030",
+    "fr": {
+      "id": "dq-pers-030",
+      "questionText": "Qui fut transformée en statue de sel pour avoir regardé en arrière ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sara"
+        },
+        {
+          "id": "b",
+          "text": "La femme de Lot"
+        },
+        {
+          "id": "c",
+          "text": "Rachel"
+        },
+        {
+          "id": "d",
+          "text": "Rébecca"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La femme de Lot, désobéissant à l'ordre des anges, regarda en arrière et devint une statue de sel (Genèse 19:26).",
+      "bibleReference": "Genèse 19:26",
+      "normalizedRef": "gen19.26",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-031",
+    "fr": {
+      "id": "dq-pers-031",
+      "questionText": "Quel disciple de Jésus le trahit pour trente pièces d'argent ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre"
+        },
+        {
+          "id": "b",
+          "text": "Thomas"
+        },
+        {
+          "id": "c",
+          "text": "Judas Iscariote"
+        },
+        {
+          "id": "d",
+          "text": "Barthélemy"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Judas Iscariote vendit Jésus aux chefs des prêtres pour trente pièces d'argent (Matthieu 26:15).",
+      "bibleReference": "Matthieu 26:15",
+      "normalizedRef": "mat26.15",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-032",
+    "fr": {
+      "id": "dq-pers-032",
+      "questionText": "Qui interpréta les songes du Pharaon et devint vice-roi d'Égypte ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Joseph"
+        },
+        {
+          "id": "c",
+          "text": "Aaron"
+        },
+        {
+          "id": "d",
+          "text": "Abraham"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joseph, après avoir interprété les sept vaches grasses et maigres, devint le second d'Égypte (Genèse 41:40-41).",
+      "bibleReference": "Genèse 41:40",
+      "normalizedRef": "gen41.40",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-033",
+    "fr": {
+      "id": "dq-pers-033",
+      "questionText": "Quelle femme cacha les espions israélites et fut sauvée à cause d'un cordon écarlate ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Déborah"
+        },
+        {
+          "id": "b",
+          "text": "Rahab"
+        },
+        {
+          "id": "c",
+          "text": "Ruth"
+        },
+        {
+          "id": "d",
+          "text": "Abigaïl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rahab de Jéricho cacha les espions de Josué et fut sauvée grâce à un cordon écarlate à sa fenêtre (Josué 2:18-21).",
+      "bibleReference": "Josué 2:18-21",
+      "normalizedRef": "jos2.18-21",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-034",
+    "fr": {
+      "id": "dq-pers-034",
+      "questionText": "Qui fut le précurseur de Jésus qui baptisait dans le Jourdain ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Élie"
+        },
+        {
+          "id": "b",
+          "text": "Elisée"
+        },
+        {
+          "id": "c",
+          "text": "Jean-Baptiste"
+        },
+        {
+          "id": "d",
+          "text": "Zacharie"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jean-Baptiste prêchait le baptême de repentance et prépara le chemin pour Jésus (Marc 1:4).",
+      "bibleReference": "Marc 1:4",
+      "normalizedRef": "mar1.4",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-035",
+    "fr": {
+      "id": "dq-pers-035",
+      "questionText": "Quelle reine étrangère visita Salomon pour éprouver sa sagesse ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La reine d'Assyrie"
+        },
+        {
+          "id": "b",
+          "text": "La reine de Saba"
+        },
+        {
+          "id": "c",
+          "text": "Jézabel"
+        },
+        {
+          "id": "d",
+          "text": "Athalyah"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La reine de Saba vint avec beaucoup de richesses pour mettre Salomon à l'épreuve par des énigmes (1 Rois 10:1-3).",
+      "bibleReference": "1 Rois 10:1",
+      "normalizedRef": "1ki10.1",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-036",
+    "fr": {
+      "id": "dq-pers-036",
+      "questionText": "Quel pharisien vint trouver Jésus de nuit et apprit la nécessité de la nouvelle naissance ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gamaliel"
+        },
+        {
+          "id": "b",
+          "text": "Nicodème"
+        },
+        {
+          "id": "c",
+          "text": "Saül de Tarse"
+        },
+        {
+          "id": "d",
+          "text": "Joseph d'Arimathée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nicodème, chef des Juifs, vint trouver Jésus de nuit. Jésus lui dit : « Il faut que vous naissiez de nouveau » (Jean 3:3-4).",
+      "bibleReference": "Jean 3:2-3",
+      "normalizedRef": "joh3.2-3",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-037",
+    "fr": {
+      "id": "dq-pers-037",
+      "questionText": "Quelle femme juge dirigea Israël et prophétisa sous un palmier entre Rama et Béthel ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Miriam"
+        },
+        {
+          "id": "b",
+          "text": "Hulda"
+        },
+        {
+          "id": "c",
+          "text": "Déborah"
+        },
+        {
+          "id": "d",
+          "text": "Noadiah"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Déborah était prophétesse et juge d'Israël. Elle rendit la justice sous le palmier de Déborah (Juges 4:4-5).",
+      "bibleReference": "Juges 4:4-5",
+      "normalizedRef": "jud4.4-5",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-038",
+    "fr": {
+      "id": "dq-pers-038",
+      "questionText": "Qui était Barnabas dans l'Église primitive et quel surnom lui donna-t-on ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Disciple de Paul, surnommé « fils du tonnerre »"
+        },
+        {
+          "id": "b",
+          "text": "Lévite de Chypre surnommé « fils d'encouragement »"
+        },
+        {
+          "id": "c",
+          "text": "Premier diacre de l'Église de Jérusalem"
+        },
+        {
+          "id": "d",
+          "text": "Compagnon de Jean en exil"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Joseph, lévite de Chypre, fut surnommé Barnabas (= fils d'encouragement) par les apôtres. Il fut le compagnon de Paul (Actes 4:36).",
+      "bibleReference": "Actes 4:36",
+      "normalizedRef": "act4.36",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-039",
+    "fr": {
+      "id": "dq-pers-039",
+      "questionText": "Qui était Aquila et Priscille dans l'Église du NT ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un couple de fabricants de tentes qui collaborèrent avec Paul et enseignèrent Apollos"
+        },
+        {
+          "id": "b",
+          "text": "Deux prophètes itinérants de l'Église d'Antioche"
+        },
+        {
+          "id": "c",
+          "text": "Les parents de Timothée"
+        },
+        {
+          "id": "d",
+          "text": "Des diacres de l'Église de Rome"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Aquila et Priscille, fabricants de tentes, accueillirent Paul à Corinthe et enseignèrent à Apollos la voie de Dieu avec exactitude (Actes 18:2-3,26).",
+      "bibleReference": "Actes 18:26",
+      "normalizedRef": "act18.26",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-pers-040",
+    "fr": {
+      "id": "dq-pers-040",
+      "questionText": "Qui était Apollos et en quoi sa formation fut-elle complétée par Aquila et Priscille ?",
+      "categoryId": "personajes",
+      "categoryName": "Personnages Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Juif alexandrin éloquent qui ne connaissait que le baptême de Jean"
+        },
+        {
+          "id": "b",
+          "text": "Grec converti formé à l'école de Paul"
+        },
+        {
+          "id": "c",
+          "text": "Prophète de l'Église d'Antioche envoyé à Corinthe"
+        },
+        {
+          "id": "d",
+          "text": "Disciple des 70 envoyé par Jésus"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Apollos d'Alexandrie, savant et éloquent, connaissait seulement le baptême de Jean. Aquila et Priscille lui exposèrent la voie de Dieu avec exactitude (Actes 18:24-26).",
+      "bibleReference": "Actes 18:24-26",
+      "normalizedRef": "act18.24-26",
+      "normalizedCat": "personajes"
+    }
+  },
+  {
+    "newId": "dq-lug-041",
+    "fr": {
+      "id": "dq-lug-041",
+      "questionText": "Dans quelle ville Jésus est-il né ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nazareth"
+        },
+        {
+          "id": "b",
+          "text": "Jérusalem"
+        },
+        {
+          "id": "c",
+          "text": "Bethléhem"
+        },
+        {
+          "id": "d",
+          "text": "Jéricho"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jésus naquit à Bethléhem de Judée, conformément à la prophétie de Michée 5:1 (Luc 2:4-7).",
+      "bibleReference": "Luc 2:4-7",
+      "normalizedRef": "luk2.4-7",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-042",
+    "fr": {
+      "id": "dq-lug-042",
+      "questionText": "Sur quelle montagne Moïse reçut-il les Dix Commandements ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mont Carmel"
+        },
+        {
+          "id": "b",
+          "text": "Mont Nébo"
+        },
+        {
+          "id": "c",
+          "text": "Mont Sinaï"
+        },
+        {
+          "id": "d",
+          "text": "Mont Sion"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Dieu donna les Dix Commandements à Moïse sur le Mont Sinaï (Exode 20:1-17).",
+      "bibleReference": "Exode 20:1",
+      "normalizedRef": "exo20.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-043",
+    "fr": {
+      "id": "dq-lug-043",
+      "questionText": "Dans quel jardin Jésus pria-t-il en agonie avant son arrestation ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le jardin d'Éden"
+        },
+        {
+          "id": "b",
+          "text": "Le jardin de Gethsémané"
+        },
+        {
+          "id": "c",
+          "text": "Le jardin du Sépulcre"
+        },
+        {
+          "id": "d",
+          "text": "Le jardin du Temple"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus pria en agonie au jardin de Gethsémané, au pied du mont des Oliviers (Luc 22:39-44).",
+      "bibleReference": "Luc 22:39-44",
+      "normalizedRef": "luk22.39-44",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-044",
+    "fr": {
+      "id": "dq-lug-044",
+      "questionText": "Quelle ville de la Décapole fut le théâtre de la guérison du démoniaque ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gadara / Gérasa"
+        },
+        {
+          "id": "b",
+          "text": "Capharnaüm"
+        },
+        {
+          "id": "c",
+          "text": "Bethsaïde"
+        },
+        {
+          "id": "d",
+          "text": "Magdala"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Jésus guérit le démoniaque dans la région des Gadaréniens (ou Géraséniens), côté est de la mer de Galilée (Marc 5:1).",
+      "bibleReference": "Marc 5:1",
+      "normalizedRef": "mar5.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-045",
+    "fr": {
+      "id": "dq-lug-045",
+      "questionText": "Dans quelle ville l'Église primitive se réunit-elle lors du premier concile apostolique ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Antioche"
+        },
+        {
+          "id": "b",
+          "text": "Rome"
+        },
+        {
+          "id": "c",
+          "text": "Éphèse"
+        },
+        {
+          "id": "d",
+          "text": "Jérusalem"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Le concile de Jérusalem (Actes 15) résolu la question de la circoncision des gentils — premier concile de l'Église.",
+      "bibleReference": "Actes 15:1-2",
+      "normalizedRef": "act15.1-2",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-046",
+    "fr": {
+      "id": "dq-lug-046",
+      "questionText": "Sur quelle colline Jésus fut-il crucifié ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le mont Sion"
+        },
+        {
+          "id": "b",
+          "text": "Le mont des Oliviers"
+        },
+        {
+          "id": "c",
+          "text": "Le Golgotha"
+        },
+        {
+          "id": "d",
+          "text": "Le mont Carmel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jésus fut crucifié au Golgotha (« lieu du crâne ») en dehors des murs de Jérusalem (Jean 19:17).",
+      "bibleReference": "Jean 19:17",
+      "normalizedRef": "joh19.17",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-047",
+    "fr": {
+      "id": "dq-lug-047",
+      "questionText": "Quelle ville biblique est associée au premier miracle de Jésus lors d'un mariage ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Capharnaüm"
+        },
+        {
+          "id": "b",
+          "text": "Cana de Galilée"
+        },
+        {
+          "id": "c",
+          "text": "Nazareth"
+        },
+        {
+          "id": "d",
+          "text": "Bethanie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus changea l'eau en vin lors des noces de Cana — son premier signe miraculeux (Jean 2:1-11).",
+      "bibleReference": "Jean 2:1-11",
+      "normalizedRef": "joh2.1-11",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-048",
+    "fr": {
+      "id": "dq-lug-048",
+      "questionText": "Quelle est la signification du nom « Bethléhem » en hébreu ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Maison du pain"
+        },
+        {
+          "id": "b",
+          "text": "Cité de David"
+        },
+        {
+          "id": "c",
+          "text": "Lieu de la promesse"
+        },
+        {
+          "id": "d",
+          "text": "Tour de la puissance"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Bethléhem (Beit Lehem) signifie « maison du pain » en hébreu — lieu de naissance de David et de Jésus.",
+      "bibleReference": "Michée 5:1",
+      "normalizedRef": "mic5.1",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-lug-049",
+    "fr": {
+      "id": "dq-lug-049",
+      "questionText": "Quelle mer intérieure est au cœur du ministère de Jésus en Galilée ?",
+      "categoryId": "lugares",
+      "categoryName": "Lieux Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La mer Morte"
+        },
+        {
+          "id": "b",
+          "text": "La mer de Galilée (lac de Tibériade)"
+        },
+        {
+          "id": "c",
+          "text": "La Méditerranée"
+        },
+        {
+          "id": "d",
+          "text": "Le golfe d'Aqaba"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La mer de Galilée (lac de Tibériade / lac de Génésareth) fut le centre du ministère de Jésus et de la vocation des premiers disciples (Marc 1:16).",
+      "bibleReference": "Marc 1:16",
+      "normalizedRef": "mar1.16",
+      "normalizedCat": "lugares"
+    }
+  },
+  {
+    "newId": "dq-evnt-018",
+    "fr": {
+      "id": "dq-evnt-018",
+      "questionText": "Quel événement permit à Israël de traverser le Jourdain pour entrer en Canaan ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un pont miraculeux apparu"
+        },
+        {
+          "id": "b",
+          "text": "Les eaux du Jourdain s'arrêtèrent"
+        },
+        {
+          "id": "c",
+          "text": "Ils traversèrent en barques"
+        },
+        {
+          "id": "d",
+          "text": "Dieu assécha le fleuve avec un vent fort"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu arrêta les eaux du Jourdain pour que tout Israël passe sur terre sèche, comme à la mer Rouge (Josué 3:15-17).",
+      "bibleReference": "Josué 3:15-17",
+      "normalizedRef": "jos3.15-17",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "newId": "dq-evnt-019",
+    "fr": {
+      "id": "dq-evnt-019",
+      "questionText": "Quel événement déclencha la captivité babylonienne d'Israël ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La défaite d'Israël par les Assyriens"
+        },
+        {
+          "id": "b",
+          "text": "La destruction du Temple par Nabuchodonosor"
+        },
+        {
+          "id": "c",
+          "text": "La mort du roi Josias"
+        },
+        {
+          "id": "d",
+          "text": "La trahison de Samson"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nabuchodonosor détruisit le Temple de Salomon et déporta Juda à Babylone en 586 av. J.-C. (2 Rois 25:8-12).",
+      "bibleReference": "2 Rois 25:8-12",
+      "normalizedRef": "2ki25.8-12",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "newId": "dq-evnt-020",
+    "fr": {
+      "id": "dq-evnt-020",
+      "questionText": "Que se passa-t-il lors de la transfiguration de Jésus ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus marcha sur les eaux du lac"
+        },
+        {
+          "id": "b",
+          "text": "Son visage resplendit et Moïse et Élie lui apparurent"
+        },
+        {
+          "id": "c",
+          "text": "Il multiplia les pains pour 5000 personnes"
+        },
+        {
+          "id": "d",
+          "text": "Il ressuscita Lazare"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jésus fut transfiguré sur la montagne : son visage brilla, Moïse et Élie apparurent, et la voix du Père se fit entendre (Matthieu 17:1-5).",
+      "bibleReference": "Matthieu 17:1-5",
+      "normalizedRef": "mat17.1-5",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "newId": "dq-evnt-021",
+    "fr": {
+      "id": "dq-evnt-021",
+      "questionText": "Quel événement marqua le début de la réforme religieuse sous le roi Josias ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La vision d'Ésaïe au Temple"
+        },
+        {
+          "id": "b",
+          "text": "La découverte du Livre de la Loi dans le Temple"
+        },
+        {
+          "id": "c",
+          "text": "La prédication de Jérémie à la porte du Temple"
+        },
+        {
+          "id": "d",
+          "text": "Le retour des exilés de Babylone"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le grand prêtre Hilqija trouva le Livre de la Loi dans le Temple. Josias entreprit alors une grande réforme religieuse (2 Rois 22:8-11).",
+      "bibleReference": "2 Rois 22:8-13",
+      "normalizedRef": "2ki22.8-13",
+      "normalizedCat": "eventos"
+    }
+  },
+  {
+    "newId": "dq-evnt-022",
+    "fr": {
+      "id": "dq-evnt-022",
+      "questionText": "Que symbolisa la déchirure du voile du Temple lors de la mort de Jésus ?",
+      "categoryId": "eventos",
+      "categoryName": "Événements Bibliques",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La fin du sacrifice animal"
+        },
+        {
+          "id": "b",
+          "text": "L'accès direct de tous les croyants à Dieu"
+        },
+        {
+          "id": "c",
+          "text": "La destruction prochaine du Temple"
+        },
+        {
+          "id": "d",
+          "text": "Le commencement du Sabbat"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le voile séparant le Saint des Saints s'est déchiré de haut en bas — symbolisant l'accès direct à Dieu par Christ (Matthieu 27:51; Hébreux 10:19-20).",
+      "bibleReference": "Matthieu 27:51",
+      "normalizedRef": "mat27.51",
+      "normalizedCat": "eventos"
+    }
+  }
+]

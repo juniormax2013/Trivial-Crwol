@@ -1,0 +1,3358 @@
+[
+  {
+    "docId": "dq-cgen-001_ht",
+    "data": {
+      "id": "dq-cgen-001",
+      "questionText": "Ki vèsè biblik ki deklare \"Bondye se lanmou\"?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jan 3:16"
+        },
+        {
+          "id": "b",
+          "text": "1 Jan 4:8"
+        },
+        {
+          "id": "c",
+          "text": "Women 5:8"
+        },
+        {
+          "id": "d",
+          "text": "1 Korentyen 13:1"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Moun ki pa renmen pa konnen Bondye; paske Bondye se lanmou\" (1 Jan 4:8). Lèt sa mete aksan sou lanmou kòm prèv konnen Bondye.",
+      "bibleReference": "1 Jan 4:8",
+      "normalizedRef": "1jn4.8",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-001_fr",
+    "data": {
+      "id": "dq-cgen-001",
+      "questionText": "Quelle est la déclaration centrale de 1 Jean 4:8 sur la nature de Dieu ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu est lumière"
+        },
+        {
+          "id": "b",
+          "text": "Dieu est amour"
+        },
+        {
+          "id": "c",
+          "text": "Dieu est puissance"
+        },
+        {
+          "id": "d",
+          "text": "Dieu est juge"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Celui qui n'aime pas n'a pas connu Dieu, car Dieu est amour » (1 Jean 4:8) — une des déclarations les plus profondes sur l'essence divine.",
+      "bibleReference": "1 Jean 4:8",
+      "normalizedRef": "1jn4.8",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-002_ht",
+    "data": {
+      "id": "dq-cgen-002",
+      "questionText": "Ki jan Ebre 11:1 defini lafwa?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lafwa se lanmou ki depase tout konpreyansyon"
+        },
+        {
+          "id": "b",
+          "text": "Lafwa se sekirite sa nou espere, prèv sa nou pa wè"
+        },
+        {
+          "id": "c",
+          "text": "Lafwa se obeyi lwa Bondye"
+        },
+        {
+          "id": "d",
+          "text": "Lafwa se tann an silans Bondye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Lafwa se sekirite sa nou espere a, prèv sa nou pa wè\" (Ebre 11:1). Definisyon sa ouvri chapit ewo lafwa yo.",
+      "bibleReference": "Ebre 11:1",
+      "normalizedRef": "heb11.1",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-002_fr",
+    "data": {
+      "id": "dq-cgen-002",
+      "questionText": "Hébreux 11 est connu comme le chapitre des héros de quelle vertu ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'espérance"
+        },
+        {
+          "id": "b",
+          "text": "La foi"
+        },
+        {
+          "id": "c",
+          "text": "La charité"
+        },
+        {
+          "id": "d",
+          "text": "L'humilité"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hébreux 11 liste Abel, Enoch, Noé, Abraham... comme héros de la foi — « or la foi est la substance de ce qu'on espère » (Héb 11:1).",
+      "bibleReference": "Hébreux 11:1",
+      "normalizedRef": "heb11.1",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-003_ht",
+    "data": {
+      "id": "dq-cgen-003",
+      "questionText": "A kilès lèt Jak la adrese?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "A pèp djanti ki konvèti"
+        },
+        {
+          "id": "b",
+          "text": "A douz tribi ki nan diaspora"
+        },
+        {
+          "id": "c",
+          "text": "A legliz Wòm"
+        },
+        {
+          "id": "d",
+          "text": "A lidè legliz la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Jak, sèvitè Bondye ak Seyè Jezi Kris la, a douz tribi ki nan diaspora: salitasyon\" (Jak 1:1).",
+      "bibleReference": "Jak 1:1",
+      "normalizedRef": "jam1.1",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-003_fr",
+    "data": {
+      "id": "dq-cgen-003",
+      "questionText": "Qui a écrit l'épître de Jacques ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paul"
+        },
+        {
+          "id": "b",
+          "text": "Jacques, frère du Seigneur"
+        },
+        {
+          "id": "c",
+          "text": "Pierre"
+        },
+        {
+          "id": "d",
+          "text": "Jean"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacques, frère du Seigneur et dirigeant de l'église de Jérusalem, est l'auteur traditionnel (Jacques 1:1).",
+      "bibleReference": "Jacques 1:1",
+      "normalizedRef": "jam1.1",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-004_ht",
+    "data": {
+      "id": "dq-cgen-004",
+      "questionText": "Ki jan Ebre 11 rele ewo lafwa ki mouri san yo pa resevwa pwomès yo akonpli?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mati glorye"
+        },
+        {
+          "id": "b",
+          "text": "Nwaj temwen yo"
+        },
+        {
+          "id": "c",
+          "text": "Sèvitè fidèl"
+        },
+        {
+          "id": "d",
+          "text": "Patriyach lafwa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ebre 12:1 rele ewo lafwa yo \"yon gwo nwaj temwen\" ki antoure nou, ankouraje nou kouri ak pèseverans.",
+      "bibleReference": "Ebre 12:1",
+      "normalizedRef": "heb12.1",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-004_fr",
+    "data": {
+      "id": "dq-cgen-004",
+      "questionText": "Hébreux 12:1 parle d'une « nuée de témoins » — à quoi cela fait-il référence ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les anges observant du ciel"
+        },
+        {
+          "id": "b",
+          "text": "Les héros de la foi du chapitre 11"
+        },
+        {
+          "id": "c",
+          "text": "Les apôtres encore vivants"
+        },
+        {
+          "id": "d",
+          "text": "Les prophètes de l'AT qui observent"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La nuée de témoins renvoie aux hommes et femmes de foi du chapitre 11 dont l'exemple nous encourage (Hébreux 12:1).",
+      "bibleReference": "Hébreux 12:1",
+      "normalizedRef": "heb12.1",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-005_ht",
+    "data": {
+      "id": "dq-cgen-005",
+      "questionText": "Konbyen lèt Jan ki genyen nan Nouvo Testaman an?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Apòt Jan te ekri twa lèt: 1 Jan (5 chapit), 2 Jan ak 3 Jan (de pi kout NT ak yon chapit chak).",
+      "bibleReference": "1 Jan 1:1",
+      "normalizedRef": "1jn1.1",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-005_fr",
+    "data": {
+      "id": "dq-cgen-005",
+      "questionText": "Combien de lettres de Jean y a-t-il dans le Nouveau Testament ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'apôtre Jean a écrit trois lettres : 1 Jean (5 chapitres), 2 Jean et 3 Jean (les deux plus courtes du NT avec un chapitre chacune).",
+      "bibleReference": "1 Jean 1:1"
+    }
+  },
+  {
+    "docId": "dq-cgen-006_ht",
+    "data": {
+      "id": "dq-cgen-006",
+      "questionText": "Ki sa Jak 1:22 ankouraje kwayan yo fè?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Priye San seize"
+        },
+        {
+          "id": "b",
+          "text": "Se fèkè Pawòl la, pa sèlman koute"
+        },
+        {
+          "id": "c",
+          "text": "Renmen ènmi nou yo"
+        },
+        {
+          "id": "d",
+          "text": "Jene ak priye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Men se fèkè Pawòl la, pa sèlman koute a, pwotren ou pwòp tèt ou\" (Jak 1:22).",
+      "bibleReference": "Jak 1:22",
+      "normalizedRef": "jam1.22",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-006_fr",
+    "data": {
+      "id": "dq-cgen-006",
+      "questionText": "Qu'encourage Jacques 1:22 les croyants à faire ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prier sans cesse"
+        },
+        {
+          "id": "b",
+          "text": "Mettre en pratique la Parole, et ne pas seulement l'écouter"
+        },
+        {
+          "id": "c",
+          "text": "Aimer vos ennemis"
+        },
+        {
+          "id": "d",
+          "text": "Jeûner et prier"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Mettez en pratique la parole, et ne vous bornez pas à l'écouter, en vous trompant vous-mêmes par de faux raisonnements » (Jacques 1:22).",
+      "bibleReference": "Jacques 1:22"
+    }
+  },
+  {
+    "docId": "dq-cgen-007_ht",
+    "data": {
+      "id": "dq-cgen-007",
+      "questionText": "Ki lèt Nouvo Testaman ki mansyone Noye kòm \"predikatis jistis\"?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jak"
+        },
+        {
+          "id": "b",
+          "text": "1 Pyè"
+        },
+        {
+          "id": "c",
+          "text": "2 Pyè"
+        },
+        {
+          "id": "d",
+          "text": "Jid"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Epi si li pa t epaye mond ansyen an, men... li te prezève Noye, predikatè jistis...\" (2 Pyè 2:5).",
+      "bibleReference": "2 Pyè 2:5",
+      "normalizedRef": "2pe2.5",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-007_fr",
+    "data": {
+      "id": "dq-cgen-007",
+      "questionText": "Quelle lettre du Nouveau Testament mentionne Noé comme « prédicateur de la justice » ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jacques"
+        },
+        {
+          "id": "b",
+          "text": "1 Pierre"
+        },
+        {
+          "id": "c",
+          "text": "2 Pierre"
+        },
+        {
+          "id": "d",
+          "text": "Jude"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« ...s'il n'a pas épargné l'ancien monde, mais s'il a sauvé Noé, lui huitième, ce prédicateur de la justice... » (2 Pierre 2:5).",
+      "bibleReference": "2 Pierre 2:5"
+    }
+  },
+  {
+    "docId": "dq-cgen-008_ht",
+    "data": {
+      "id": "dq-cgen-008",
+      "questionText": "Konbyen chapit lèt Jak la genyen?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lèt Jak la gen 5 chapit epi li abòde sijè pratik tankou lafwa aktif, lang, sajès ak lapriyè.",
+      "bibleReference": "Jak 5:20",
+      "normalizedRef": "jam5.20",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-008_fr",
+    "data": {
+      "id": "dq-cgen-008",
+      "questionText": "Combien de chapitres compte l'épître de Jacques ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "4"
+        },
+        {
+          "id": "c",
+          "text": "5"
+        },
+        {
+          "id": "d",
+          "text": "6"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'épître de Jacques compte 5 chapitres et traite de sujets pratiques comme la foi active, la langue, la sagesse et la prière.",
+      "bibleReference": "Jacques 5:20"
+    }
+  },
+  {
+    "docId": "dq-cgen-009_ht",
+    "data": {
+      "id": "dq-cgen-009",
+      "questionText": "Ki jan lèt a Ebre yo dekri wòl Jezi nan nouvo alyans lan?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kòm yon pwofèt ak yon wa"
+        },
+        {
+          "id": "b",
+          "text": "Kòm gran prèt pafè ak medyatè yon nouvo alyans"
+        },
+        {
+          "id": "c",
+          "text": "Kòm yon zanj mesaje"
+        },
+        {
+          "id": "d",
+          "text": "Kòm nouvo Moyiz la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ebre prezante Jezi kòm Gran Prèt ki ofri tèt li kòm sakrifis pafè epi li medyatè nouvo alyans lan (Ebre 9:15).",
+      "bibleReference": "Ebre 9:15",
+      "normalizedRef": "heb9.15",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-009_fr",
+    "data": {
+      "id": "dq-cgen-009",
+      "questionText": "Comment l'épître aux Hébreux décrit-elle le rôle de Jésus dans la nouvelle alliance ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Comme un prophète et un roi"
+        },
+        {
+          "id": "b",
+          "text": "Comme le souverain sacrificateur parfait et médiateur d'une nouvelle alliance"
+        },
+        {
+          "id": "c",
+          "text": "Comme un ange messager"
+        },
+        {
+          "id": "d",
+          "text": "Comme le nouveau Moïse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hébreux présente Jésus comme le Souverain Sacrificateur qui s'offre lui-même en sacrifice parfait et est le médiateur de la nouvelle alliance (Hébreux 9:15).",
+      "bibleReference": "Hébreux 9:15"
+    }
+  },
+  {
+    "docId": "dq-cgen-010_ht",
+    "data": {
+      "id": "dq-cgen-010",
+      "questionText": "Ki sa Jak 4:7 di sou dyab la?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Inyore l epi l ap disparèt"
+        },
+        {
+          "id": "b",
+          "text": "Reziste dyab la epi l ap kouri"
+        },
+        {
+          "id": "c",
+          "text": "Priye kont dyab la epi ou pral lib"
+        },
+        {
+          "id": "d",
+          "text": "Dyab la pa ka touche kwayan an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Soumèt nan men Bondye donc; reziste dyab la, epi l ap kouri\" (Jak 4:7).",
+      "bibleReference": "Jak 4:7",
+      "normalizedRef": "jam4.7",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-010_fr",
+    "data": {
+      "id": "dq-cgen-010",
+      "questionText": "Que dit Jacques 4:7 concernant le diable ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ignorez-le et il disparaîtra"
+        },
+        {
+          "id": "b",
+          "text": "Résistez au diable, et il fuira loin de vous"
+        },
+        {
+          "id": "c",
+          "text": "Priez contre le diable et vous serez libres"
+        },
+        {
+          "id": "d",
+          "text": "Le diable ne peut pas toucher le croyant"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Soumettez-vous donc à Dieu ; résistez au diable, et il fuira loin de vous » (Jacques 4:7).",
+      "bibleReference": "Jacques 4:7"
+    }
+  },
+  {
+    "docId": "dq-cgen-011_ht",
+    "data": {
+      "id": "dq-cgen-011",
+      "questionText": "Konbyen chapit lèt a Ebre yo genyen?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "13"
+        },
+        {
+          "id": "c",
+          "text": "15"
+        },
+        {
+          "id": "d",
+          "text": "16"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lèt a Ebre yo gen 13 chapit. Li konpare ansyen alyans (Moyiz, Arawon) ak nouvo alyans nan Kris.",
+      "bibleReference": "Ebre 13:25",
+      "normalizedRef": "heb13.25",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-011_fr",
+    "data": {
+      "id": "dq-cgen-011",
+      "questionText": "Combien de chapitres compte l'épître aux Hébreux ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "13"
+        },
+        {
+          "id": "c",
+          "text": "15"
+        },
+        {
+          "id": "d",
+          "text": "16"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'épître aux Hébreux compte 13 chapitres. Elle compare l'ancienne alliance (Moïse, Aaron) à la nouvelle alliance en Christ.",
+      "bibleReference": "Hébreux 13:25"
+    }
+  },
+  {
+    "docId": "dq-cgen-012_ht",
+    "data": {
+      "id": "dq-cgen-012",
+      "questionText": "Konbyen moun ki sove nan lach pandan delij la, dapre 1 Pyè 3:20?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "70"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Nan jou Noye... kote te gen ti kras moun, sa vle di uit, ki te sove nan dlo\" (1 Pyè 3:20). Noye, madanm li, twa pitit gason ak meritaj yo.",
+      "bibleReference": "1 Pyè 3:20",
+      "normalizedRef": "1pe3.20",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-012_fr",
+    "data": {
+      "id": "dq-cgen-012",
+      "questionText": "Combien de personnes ont été sauvées dans l'arche pendant le déluge, selon 1 Pierre 3:20 ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "70"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« ...dans l'arche, un petit nombre de personnes, c'est-à-dire huit, furent sauvées à travers l'eau » (1 Pierre 3:20). Noé, sa femme, ses trois fils et leurs épouses.",
+      "bibleReference": "1 Pierre 3:20"
+    }
+  },
+  {
+    "docId": "dq-cgen-013_ht",
+    "data": {
+      "id": "dq-cgen-013",
+      "questionText": "A kilès Dezyèm lèt Jan an adrese?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Timote"
+        },
+        {
+          "id": "b",
+          "text": "A legliz Efèz"
+        },
+        {
+          "id": "c",
+          "text": "A yon dam eli ak pitit li yo"
+        },
+        {
+          "id": "d",
+          "text": "A apòt Pyè"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Granmoun lan a dam eli a ak pitit li yo...\" (2 Jan 1:1). Anpil entèprèt \"dam eli a\" kòm senbòl yon legliz lokal.",
+      "bibleReference": "2 Jan 1:1",
+      "normalizedRef": "2jn1.1",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-013_fr",
+    "data": {
+      "id": "dq-cgen-013",
+      "questionText": "À qui est adressée la deuxième lettre de Jean ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "À Timothée"
+        },
+        {
+          "id": "b",
+          "text": "À l'église d'Éphèse"
+        },
+        {
+          "id": "c",
+          "text": "À l'Élue et à ses enfants"
+        },
+        {
+          "id": "d",
+          "text": "À l'apôtre Pierre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« L'ancien, à l'Élue et à ses enfants... » (2 Jean 1:1). Beaucoup interprètent « l'Élue » comme un symbole d'une église locale.",
+      "bibleReference": "2 Jean 1:1"
+    }
+  },
+  {
+    "docId": "dq-cgen-014_ht",
+    "data": {
+      "id": "dq-cgen-014",
+      "questionText": "Sou ki sijè prensipal 2 Pyè chapit 2 avèti?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sou pèsekisyon Women an"
+        },
+        {
+          "id": "b",
+          "text": "Sou fo pwofèt ak mèt ak destriksyon yo"
+        },
+        {
+          "id": "c",
+          "text": "Sou divòs"
+        },
+        {
+          "id": "d",
+          "text": "Sou idolatri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Pyè 2 avèti moun anpil fas fo pwofèt ak mèt ki pral entwoduyi \"erezis destriktè\" epi jijman yo pa ka tann (2 Pyè 2:1).",
+      "bibleReference": "2 Pyè 2:1",
+      "normalizedRef": "2pe2.1",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-014_fr",
+    "data": {
+      "id": "dq-cgen-014",
+      "questionText": "Sur quel sujet principal le chapitre 2 de 2 Pierre met-il en garde ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sur la persécution romaine"
+        },
+        {
+          "id": "b",
+          "text": "Sur les faux prophètes et docteurs et leur destruction"
+        },
+        {
+          "id": "c",
+          "text": "Sur le divorce"
+        },
+        {
+          "id": "d",
+          "text": "Sur l'idolâtrie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "2 Pierre 2 met en garde contre les faux prophètes et docteurs qui introduiront des « sectes pernicieuses » et dont le jugement ne tarde pas (2 Pierre 2:1).",
+      "bibleReference": "2 Pierre 2:1"
+    }
+  },
+  {
+    "docId": "dq-cgen-015_ht",
+    "data": {
+      "id": "dq-cgen-015",
+      "questionText": "Ki diferans lèt Jid la etabli ant erè Kayen, Balayam ak Kore?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Idolatri, asasina, rèbèlyon"
+        },
+        {
+          "id": "b",
+          "text": "Jalouzi (Kayen), avarIs (Balayam), rèbèlyon kont otorite (Kore)"
+        },
+        {
+          "id": "c",
+          "text": "Manti, adiltè, vòl"
+        },
+        {
+          "id": "d",
+          "text": "Enpyete, rèbèlyon, apostazi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Malè pou yo! paske yo swiv chemen Kayen [jalouzi], yo pati pou pwòp avantaj yo nan erè Balayam [avaritis], epi yo peri nan kontrah Kore a [rèbèlyon]\" (Jid 11).",
+      "bibleReference": "Jid 11",
+      "normalizedRef": "jud11",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-015_fr",
+    "data": {
+      "id": "dq-cgen-015",
+      "questionText": "Quelle différence l'épître de Jude établit-elle entre l'erreur de Caïn, de Balaam et de Koré ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Idolatrie, assassinat, rébellion"
+        },
+        {
+          "id": "b",
+          "text": "Jalousie (Caïn), avarice (Balaam), rébellion contre l'autorité (Koré)"
+        },
+        {
+          "id": "c",
+          "text": "Mensonge, adultère, vol"
+        },
+        {
+          "id": "d",
+          "text": "Impiété, rébellion, apostasie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Malheur à eux ! car ils ont suivi la voie de Caïn [jalousie], ils se sont jetés pour un salaire dans l'égarement de Balaam [avarice], ils ont péri par la révolte de Koré [rébellion] (Jude 11).",
+      "bibleReference": "Jude 11",
+      "normalizedRef": "jud11",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-016_ht",
+    "data": {
+      "id": "dq-cgen-016",
+      "questionText": "Ki tès 1 Jan 4:2 bay pou rekonèt Lespri Bondye a?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pale nan lang"
+        },
+        {
+          "id": "b",
+          "text": "Konfese ke Jezikri te vini kòm moun tout bon"
+        },
+        {
+          "id": "c",
+          "text": "Fè mirak"
+        },
+        {
+          "id": "d",
+          "text": "Site Ekriti yo byen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Men ki jan n'a rekonèt Lespri Bondye a : tout lespri ki rekonèt Jezikri te vini kòm moun tout bon, se Lespri ki soti nan Bondye li ye » (1 Jan 4:2).",
+      "bibleReference": "1 Jean 4:2",
+      "normalizedRef": "1jn4.2",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-016_fr",
+    "data": {
+      "id": "dq-cgen-016",
+      "questionText": "Quel test donne 1 Jean 4:2 pour reconnaître l'Esprit de Dieu ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parler en langues"
+        },
+        {
+          "id": "b",
+          "text": "Confesser que Jésus-Christ est venu en chair"
+        },
+        {
+          "id": "c",
+          "text": "Accomplir des miracles"
+        },
+        {
+          "id": "d",
+          "text": "Citer les Écritures avec précision"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Reconnaissez à ceci l'Esprit de Dieu : tout esprit qui confesse que Jésus-Christ est venu en chair est de Dieu » (1 Jean 4:2) — test doctrinal contre les esprits trompeurs.",
+      "bibleReference": "1 Jean 4:2",
+      "normalizedRef": "1jn4.2",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-017_ht",
+    "data": {
+      "id": "dq-cgen-017",
+      "questionText": "Kont ki move ansèyman Jan te ekri prensipalman nan 1 Jan?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moun k'ap ensiste sou Lalwa"
+        },
+        {
+          "id": "b",
+          "text": "Gnostisis ki te kòmanse e ki te di Kris la pa t vini kòm moun tout bon"
+        },
+        {
+          "id": "c",
+          "text": "Politeyis grèk ki t'ap menase Legliz yo"
+        },
+        {
+          "id": "d",
+          "text": "Legalism farizyen nan Legliz yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Jan konbat proto-gnostisis la : moun ki te di Kris la pa t vini kòm moun tout bon (dosetism) — yo te di matyè a move e Jezi te gen yon kò aparan sèlman.",
+      "bibleReference": "1 Jean 4:2",
+      "normalizedRef": "1jn4.2",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-017_fr",
+    "data": {
+      "id": "dq-cgen-017",
+      "questionText": "Contre quel enseignement erroné Jean écrivait-il principalement dans 1 Jean ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le judaïsant qui insistait sur la Loi"
+        },
+        {
+          "id": "b",
+          "text": "Le gnosticisme naissant qui niait l'incarnation réelle de Christ"
+        },
+        {
+          "id": "c",
+          "text": "Le polythéisme grec menaçant les Églises d'Asie"
+        },
+        {
+          "id": "d",
+          "text": "Le légalisme pharisaïque dans les Églises"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Jean combat le proto-gnosticisme : des enseignants qui niaient que Christ soit vraiment venu en chair (docétisme) — prétendant que la matière est mauvaise et que Jésus n'avait qu'un corps apparent.",
+      "bibleReference": "1 Jean 4:2",
+      "normalizedRef": "1jn4.2",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-018_ht",
+    "data": {
+      "id": "dq-cgen-018",
+      "questionText": "Ki objektif yo deklare pou premye lèt Jan an selon 1 Jan 5:13?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anseye doktrin sou Trinite a"
+        },
+        {
+          "id": "b",
+          "text": "Pou kwayan yo konnen yo gen lavi etènèl la"
+        },
+        {
+          "id": "c",
+          "text": "Konbat fo pwofèt nan Legliz yo"
+        },
+        {
+          "id": "d",
+          "text": "Ankouraje kominote a pou yo renmen youn lòt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Mwen ekri nou sa pou nou ka konnen nou gen lavi etènèl, nou menm ki kwè nan Pitit Bondye a » (1 Jan 5:13) — objektif : asirans salitasyon an.",
+      "bibleReference": "1 Jean 5:13",
+      "normalizedRef": "1jn5.13",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-018_fr",
+    "data": {
+      "id": "dq-cgen-018",
+      "questionText": "Quel est le but déclaré de la 1re lettre de Jean selon 1 Jean 5:13 ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enseigner la doctrine correcte sur la Trinité"
+        },
+        {
+          "id": "b",
+          "text": "Que les croyants sachent qu'ils ont la vie éternelle"
+        },
+        {
+          "id": "c",
+          "text": "Combattre les faux prophètes dans les Églises"
+        },
+        {
+          "id": "d",
+          "text": "Encourager la communauté à s'aimer mutuellement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Je vous ai écrit ces choses, afin que vous sachiez que vous avez la vie éternelle, vous qui croyez au nom du Fils de Dieu » (1 Jean 5:13) — but déclaré : l'assurance du salut.",
+      "bibleReference": "1 Jean 5:13",
+      "normalizedRef": "1jn5.13",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-019_ht",
+    "data": {
+      "id": "dq-cgen-019",
+      "questionText": "Kisa 2 Jan 10-11 di konsènan fo doktè ki refize doktrin Kris la?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Fòk nou resevwa yo epi korije yo ak dousè"
+        },
+        {
+          "id": "b",
+          "text": "Pa resevwa yo lakay nou, ni pa di yo bonjou — pou nou pa patisipe nan move travay yo"
+        },
+        {
+          "id": "c",
+          "text": "Konfwonte yo an piblik nan Legliz la"
+        },
+        {
+          "id": "d",
+          "text": "Siyale yo bay otorite legliz yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan di : « Si yon moun vin jwenn nou san li pa pote ansèyman sa a, pa resevwa l lakay nou, pa di l bonjou ! » (2 Jan 10) — separasyon doktrinal solid.",
+      "bibleReference": "2 Jean 10-11",
+      "normalizedRef": "2jn10-11",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-019_fr",
+    "data": {
+      "id": "dq-cgen-019",
+      "questionText": "Que dit 2 Jean 10-11 concernant les faux docteurs qui refusent la doctrine de Christ ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il faut les accueillir et les corriger gentiment"
+        },
+        {
+          "id": "b",
+          "text": "Ne pas les accueillir dans sa maison ni les saluer — participer à leurs mauvaises œuvres"
+        },
+        {
+          "id": "c",
+          "text": "Les confronter publiquement dans l'Église"
+        },
+        {
+          "id": "d",
+          "text": "Les signaler aux autorités ecclésiastiques"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean dit : « Si quelqu'un vient à vous et n'apporte pas cette doctrine, ne le recevez pas dans vos maisons et ne lui dites pas : Bonjour ! » (2 Jean 10) — séparation doctrinale forte.",
+      "bibleReference": "2 Jean 10-11",
+      "normalizedRef": "2jn10-11",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-020_ht",
+    "data": {
+      "id": "dq-cgen-020",
+      "questionText": "Kisa 3 Jan di sou Diotrèf e ki leson nou aprann pou Legliz la?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diotrèf te yon bon lidè Jan t'ap fè lwanj pou li"
+        },
+        {
+          "id": "b",
+          "text": "Diotrèf te renmen pou l premye — li te refize otorite apòt yo e li te mete kwayan fidèl yo deyò"
+        },
+        {
+          "id": "c",
+          "text": "Diotrèf te yon fo pwofèt k'ap fè mirak"
+        },
+        {
+          "id": "d",
+          "text": "Diotrèf te yon moun rich ki te refize ede pòv yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Diotrèf (3 Jan 9-10) : kont-egzanp lidèchip — renmen parèt, refize otorite apòt yo. Modèl negatif kont otoritaris pastoral.",
+      "bibleReference": "3 Jean 9-10",
+      "normalizedRef": "3jn9-10",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-020_fr",
+    "data": {
+      "id": "dq-cgen-020",
+      "questionText": "Que dit 3 Jean sur Diotrèphe et quelle leçon en tire-t-on pour l'Église ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lettres Générales",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diotrèphe était un bon leader que Jean louait"
+        },
+        {
+          "id": "b",
+          "text": "Diotrèphe aimait occuper le premier rang — il rejetait l'autorité apostolique et excluait les croyants fidèles"
+        },
+        {
+          "id": "c",
+          "text": "Diotrèphe était un faux prophète opérant des miracles"
+        },
+        {
+          "id": "d",
+          "text": "Diotrèphe était un riche qui refusait d'aider les pauvres"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Diotrèphe (3 Jean 9-10) : contre-exemple de leadership — amour du prestige, rejet de l'autorité apostolique, exclusion des croyants. Modèle négatif contre l'autoritarisme pastoral.",
+      "bibleReference": "3 Jean 9-10",
+      "normalizedRef": "3jn9-10",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-021_ht",
+    "data": {
+      "id": "dq-cgen-021",
+      "questionText": "Dapre 1 Jan 4:8, ki nati fondamantal Bondye?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye se limyè"
+        },
+        {
+          "id": "b",
+          "text": "Bondye se lanmou"
+        },
+        {
+          "id": "c",
+          "text": "Bondye se dife"
+        },
+        {
+          "id": "d",
+          "text": "Bondye se lespri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Bondye se lanmou » (1 Jan 4:8) — yon deklarasyon fondamantal sobre idantite Bondye.",
+      "bibleReference": "1 Jean 4:8"
+    }
+  },
+  {
+    "docId": "dq-cgen-021_fr",
+    "data": {
+      "id": "dq-cgen-021",
+      "questionText": "Selon 1 Jean 4:8, quelle est la nature fondamentale de Dieu ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu est lumière"
+        },
+        {
+          "id": "b",
+          "text": "Dieu est amour"
+        },
+        {
+          "id": "c",
+          "text": "Dieu est feu"
+        },
+        {
+          "id": "d",
+          "text": "Dieu est esprit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Dieu est amour » (1 Jean 4:8) — affirmation fondamentale de l'identité divine.",
+      "bibleReference": "1 Jean 4:8",
+      "normalizedRef": "1jn4.8",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-022_ht",
+    "data": {
+      "id": "dq-cgen-022",
+      "questionText": "Jak 2:17 anseye ke lafwa san travay se kisa?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li pa sifi"
+        },
+        {
+          "id": "b",
+          "text": "Li mouri"
+        },
+        {
+          "id": "c",
+          "text": "Li fèb"
+        },
+        {
+          "id": "d",
+          "text": "Li pa konplè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Se menm jan an tou pou lafwa: si li pa mache ansanm ak gwo travay, li mouri nan fon kè li » (Jak 2:17).",
+      "bibleReference": "Jacques 2:17"
+    }
+  },
+  {
+    "docId": "dq-cgen-022_fr",
+    "data": {
+      "id": "dq-cgen-022",
+      "questionText": "Jacques 2:17 enseigne que la foi sans les œuvres est quoi ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Insuffisante"
+        },
+        {
+          "id": "b",
+          "text": "Morte"
+        },
+        {
+          "id": "c",
+          "text": "Faible"
+        },
+        {
+          "id": "d",
+          "text": "Incomplète"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« De même la foi, si elle n'a pas les œuvres, est morte en elle-même » (Jacques 2:17).",
+      "bibleReference": "Jacques 2:17",
+      "normalizedRef": "jam2.17",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-023_ht",
+    "data": {
+      "id": "dq-cgen-023",
+      "questionText": "Konbyen lèt Pyè ki genyen nan Nouvo Testaman an?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nouvo Testaman an gen 1 Pyè ak 2 Pyè, de lèt apot Simon Pyè te ekri.",
+      "bibleReference": "1 Pierre 1:1"
+    }
+  },
+  {
+    "docId": "dq-cgen-023_fr",
+    "data": {
+      "id": "dq-cgen-023",
+      "questionText": "Combien de lettres de Pierre sont dans le Nouveau Testament ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le NT contient 1 Pierre et 2 Pierre, deux lettres attribuées à l'apôtre Simon Pierre.",
+      "bibleReference": "1 Pierre 1:1",
+      "normalizedRef": "1pe1.1",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-024_ht",
+    "data": {
+      "id": "dq-cgen-024",
+      "questionText": "Jid ankouraje kwayan yo pou yo goumen pou ki kòz?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lapè nan Legliz la"
+        },
+        {
+          "id": "b",
+          "text": "Lafwa Bondye te bay pèp li a yon fwa pou tout"
+        },
+        {
+          "id": "c",
+          "text": "Inite kretyen yo"
+        },
+        {
+          "id": "d",
+          "text": "Obejisans ak lidè yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Goumen pou defann lafwa Bondye te bay moun pa l yo, yon fwa pou tout » (Jid 1:3).",
+      "bibleReference": "Jude 1:3"
+    }
+  },
+  {
+    "docId": "dq-cgen-024_fr",
+    "data": {
+      "id": "dq-cgen-024",
+      "questionText": "Jude exhorte les croyants à contender pour quelle cause ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La paix dans l'Église"
+        },
+        {
+          "id": "b",
+          "text": "La foi transmise aux saints"
+        },
+        {
+          "id": "c",
+          "text": "L'unité des chrétiens"
+        },
+        {
+          "id": "d",
+          "text": "L'obéissance aux dirigeants"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Combattez pour la foi qui a été transmise aux saints une fois pour toutes » (Jude 1:3).",
+      "bibleReference": "Jude 1:3",
+      "normalizedRef": "jud1.3",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-025_ht",
+    "data": {
+      "id": "dq-cgen-025",
+      "questionText": "Nan 1 Pyè 5:8, ak kisa yo konpare Satan?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon sèpan k ap rale"
+        },
+        {
+          "id": "b",
+          "text": "Yon lyon k ap gwonde"
+        },
+        {
+          "id": "c",
+          "text": "Yon lou k ap devore"
+        },
+        {
+          "id": "d",
+          "text": "Yon malfini k ap plonje sou bèt li"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Dyab la, lènmi nou an, ap pwonmennen tankou yon lyon k'ap gwonde, l'ap chache moun pou l' devore » (1 Pyè 5:8).",
+      "bibleReference": "1 Pierre 5:8"
+    }
+  },
+  {
+    "docId": "dq-cgen-025_fr",
+    "data": {
+      "id": "dq-cgen-025",
+      "questionText": "Dans 1 Pierre 5:8, à quoi Satan est-il comparé ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un serpent rampant"
+        },
+        {
+          "id": "b",
+          "text": "Un lion rugissant"
+        },
+        {
+          "id": "c",
+          "text": "Un loup dévorant"
+        },
+        {
+          "id": "d",
+          "text": "Un aigle qui fond sur sa proie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Votre adversaire, le diable, rôde comme un lion rugissant cherchant qui il dévorera » (1 Pierre 5:8).",
+      "bibleReference": "1 Pierre 5:8",
+      "normalizedRef": "1pe5.8",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-026_ht",
+    "data": {
+      "id": "dq-cgen-026",
+      "questionText": "Dapre 2 Pyè 3:8, yon sèl jou se tankou kisa pou Seyè a?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon èdtan"
+        },
+        {
+          "id": "b",
+          "text": "Yon ane"
+        },
+        {
+          "id": "c",
+          "text": "Mil (1000) ane"
+        },
+        {
+          "id": "d",
+          "text": "Yon letènite"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Pou Seyè a, yon sèl jou se tankou mil (1000) ane, mil ane se tankou yon sèl jou » (2 Pyè 3:8).",
+      "bibleReference": "2 Pierre 3:8"
+    }
+  },
+  {
+    "docId": "dq-cgen-026_fr",
+    "data": {
+      "id": "dq-cgen-026",
+      "questionText": "Selon 2 Pierre 3:8, un jour est comme quoi pour le Seigneur ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une heure"
+        },
+        {
+          "id": "b",
+          "text": "Un an"
+        },
+        {
+          "id": "c",
+          "text": "Mille ans"
+        },
+        {
+          "id": "d",
+          "text": "Une éternité"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Un jour est comme mille ans et mille ans sont comme un jour devant le Seigneur » (2 Pierre 3:8).",
+      "bibleReference": "2 Pierre 3:8",
+      "normalizedRef": "2pe3.8",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-027_ht",
+    "data": {
+      "id": "dq-cgen-027",
+      "questionText": "1 Jan 1:9 pwomèt ke si nou konfese peche nou yo, Bondye fidèl pou l fè kisa?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Beni nou"
+        },
+        {
+          "id": "b",
+          "text": "Padone nou epi netwaye nou"
+        },
+        {
+          "id": "c",
+          "text": "Ban nou lapè"
+        },
+        {
+          "id": "d",
+          "text": "Ban nou lavi etènèl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Men, si nou rekonèt peche nou yo devan Bondye, li va padone nou peche nou yo, la netwaye nou anba tout sa ki mal » (1 Jan 1:9).",
+      "bibleReference": "1 Jean 1:9"
+    }
+  },
+  {
+    "docId": "dq-cgen-027_fr",
+    "data": {
+      "id": "dq-cgen-027",
+      "questionText": "1 Jean 1:9 promet que si nous confessons nos péchés, Dieu est fidèle pour faire quoi ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nous bénir"
+        },
+        {
+          "id": "b",
+          "text": "Nous pardonner et nous purifier"
+        },
+        {
+          "id": "c",
+          "text": "Nous donner la paix"
+        },
+        {
+          "id": "d",
+          "text": "Nous accorder la vie éternelle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Il est fidèle et juste pour nous pardonner nos péchés et nous purifier de toute iniquité » (1 Jean 1:9).",
+      "bibleReference": "1 Jean 1:9",
+      "normalizedRef": "1jn1.9",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-028_ht",
+    "data": {
+      "id": "dq-cgen-028",
+      "questionText": "Ki doktrin nan 2 Pyè 1:20 ki fondamantal pou konprann Bib la?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tout pwofesi se senbòl"
+        },
+        {
+          "id": "b",
+          "text": "Pèsonn pa ka bay pwofesi ki nan Liv la pwòp entèpretasyon pa li"
+        },
+        {
+          "id": "c",
+          "text": "Se apot yo sèlman ki konprann pwofesi yo"
+        },
+        {
+          "id": "d",
+          "text": "Pwofesi yo akonpli nan Izrayèl sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Pèsonn pa ka bay pwofesi ki nan Liv la pwòp entèpretasyon pa li » (2 Pyè 1:20) — sa vle di pwofesi soti nan Bondye.",
+      "bibleReference": "2 Pierre 1:20"
+    }
+  },
+  {
+    "docId": "dq-cgen-028_fr",
+    "data": {
+      "id": "dq-cgen-028",
+      "questionText": "Quelle doctrine de 2 Pierre 1:20 est fondamentale pour l'herméneutique biblique ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Toute prophétie est symbolique"
+        },
+        {
+          "id": "b",
+          "text": "Aucune prophétie n'est d'interprétation privée"
+        },
+        {
+          "id": "c",
+          "text": "Seuls les apôtres comprennent les prophéties"
+        },
+        {
+          "id": "d",
+          "text": "Les prophéties s'accomplissent seulement en Israël"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Aucune prophétie de l'Écriture ne peut être interprétée de manière privée » (2 Pierre 1:20) — fondement de l'exégèse communautaire.",
+      "bibleReference": "2 Pierre 1:20",
+      "normalizedRef": "2pe1.20",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-029_ht",
+    "data": {
+      "id": "dq-cgen-029",
+      "questionText": "Nan Jid 9, ki akanj ki t ap diskite ak Satan konsènan kò Moyiz?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gabriyèl"
+        },
+        {
+          "id": "b",
+          "text": "Rafayèl"
+        },
+        {
+          "id": "c",
+          "text": "Michèl"
+        },
+        {
+          "id": "d",
+          "text": "Iriyèl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jid 9 mansyone lè akanj Michèl t'ap diskite ak dyab la pou kò Moyiz.",
+      "bibleReference": "Jude 1:9"
+    }
+  },
+  {
+    "docId": "dq-cgen-029_fr",
+    "data": {
+      "id": "dq-cgen-029",
+      "questionText": "Dans Jude 9, quel archange dispute avec Satan au sujet du corps de Moïse ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gabriel"
+        },
+        {
+          "id": "b",
+          "text": "Raphaël"
+        },
+        {
+          "id": "c",
+          "text": "Michel"
+        },
+        {
+          "id": "d",
+          "text": "Uriel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jude 9 cite une tradition selon laquelle l'archange Michel contesta avec le diable au sujet du corps de Moïse.",
+      "bibleReference": "Jude 1:9",
+      "normalizedRef": "jud1.9",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-030_ht",
+    "data": {
+      "id": "dq-cgen-030",
+      "questionText": "Jak 1:2-4 anseye ke eprèv yo pwodui kisa nan kwayan an?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Richès espirityèl"
+        },
+        {
+          "id": "b",
+          "text": "Pasyans ki mennen nan pèfeksyon"
+        },
+        {
+          "id": "c",
+          "text": "Geri moun mirakilezman"
+        },
+        {
+          "id": "d",
+          "text": "Sajès pwofetik"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Lè lafwa nou pase anba eprèv, sa ban nou pasyans... kite pasyans lan travay nèt nan nou » (Jak 1:3-4).",
+      "bibleReference": "Jacques 1:3-4"
+    }
+  },
+  {
+    "docId": "dq-cgen-030_fr",
+    "data": {
+      "id": "dq-cgen-030",
+      "questionText": "Jacques 1:2-4 enseigne que les épreuves produisent quoi dans le croyant ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La richesse spirituelle"
+        },
+        {
+          "id": "b",
+          "text": "La patience qui mène à la perfection"
+        },
+        {
+          "id": "c",
+          "text": "La guérison miraculeuse"
+        },
+        {
+          "id": "d",
+          "text": "La sagesse prophétique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« La mise à l'épreuve de votre foi produit la patience. Mais il faut que la patience accomplisse parfaitement son œuvre » (Jacques 1:3-4).",
+      "bibleReference": "Jacques 1:3-4",
+      "normalizedRef": "jam1.3-4",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-031_ht",
+    "data": {
+      "id": "dq-cgen-031",
+      "questionText": "Hébreux 4:12 dekri Pawòl Bondye a tankou kisa?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon medikaman pou nanm lan"
+        },
+        {
+          "id": "b",
+          "text": "Li vivan, li gen pouvwa, li pi file pase yon nepe de bò"
+        },
+        {
+          "id": "c",
+          "text": "Yon gid pou lavi a"
+        },
+        {
+          "id": "d",
+          "text": "Yon lèt lanmou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Pawòl Bondye a vivan, li gen pouvwa, li pi file pase yon nepe de bò » (Ebre 4:12).",
+      "bibleReference": "Hébreux 4:12"
+    }
+  },
+  {
+    "docId": "dq-cgen-031_fr",
+    "data": {
+      "id": "dq-cgen-031",
+      "questionText": "Hébreux 4:12 décrit la Parole de Dieu comme quoi ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un baume pour l'âme"
+        },
+        {
+          "id": "b",
+          "text": "Vivante, efficace et plus tranchante qu'une épée à deux tranchants"
+        },
+        {
+          "id": "c",
+          "text": "Un miroir qui reflète la gloire divine"
+        },
+        {
+          "id": "d",
+          "text": "Un feu qui purifie tout péché"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« La parole de Dieu est vivante et efficace... elle juge les sentiments et les pensées du cœur » (Hébreux 4:12).",
+      "bibleReference": "Hébreux 4:12",
+      "normalizedRef": "heb4.12",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cgen-032_ht",
+    "data": {
+      "id": "dq-cgen-032",
+      "questionText": "Dapre Hébreux 11:1, kisa lafwa ye?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Lèt Jeneral yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon santiman espwa"
+        },
+        {
+          "id": "b",
+          "text": "Asirans nou genyen sou sa n'ap tann lan, prèv sou sa nou pa wè"
+        },
+        {
+          "id": "c",
+          "text": "Yon kwayans nan sa ki enposib"
+        },
+        {
+          "id": "d",
+          "text": "Yon obeyisans avèg"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Gen lafwa, se sèten nou gen asirans sa n'ap tann lan gen pou rive, se sèten nou konnen sa nou pa wè a egziste tout bon vre » (Ebre 11:1).",
+      "bibleReference": "1 Jean 2:2"
+    }
+  },
+  {
+    "docId": "dq-cgen-032_fr",
+    "data": {
+      "id": "dq-cgen-032",
+      "questionText": "Selon 1 Jean 2:2, Jésus est la propitiation pour les péchés de qui ?",
+      "categoryId": "cartas-generales",
+      "categoryName": "Épîtres Générales",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Seulement des croyants"
+        },
+        {
+          "id": "b",
+          "text": "Seulement d'Israël"
+        },
+        {
+          "id": "c",
+          "text": "Du monde entier"
+        },
+        {
+          "id": "d",
+          "text": "De ceux qui se repentent"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Il est lui-même la propitiation pour nos péchés, et non seulement pour les nôtres, mais aussi pour ceux du monde entier » (1 Jean 2:2).",
+      "bibleReference": "1 Jean 2:2",
+      "normalizedRef": "1jn2.2",
+      "normalizedCat": "cartas-generales"
+    }
+  },
+  {
+    "docId": "dq-cpab-001_ht",
+    "data": {
+      "id": "dq-cpab-001",
+      "questionText": "Nan ki lèt Pòl fraz \"Mwen kapab fè tout bagay nan Kris ki ban mwen fòs\" parèt?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Women"
+        },
+        {
+          "id": "b",
+          "text": "Efezyen"
+        },
+        {
+          "id": "c",
+          "text": "Filipyen"
+        },
+        {
+          "id": "d",
+          "text": "Kolosyen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Filipyen 4:13: \"Mwen kapab fè tout bagay nan Kris ki ban mwen fòs.\" Pòl te ekri sa nan prizon pandan l t ap viv kontantman.",
+      "bibleReference": "Filipyen 4:13",
+      "normalizedRef": "phi4.13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-001_fr",
+    "data": {
+      "id": "dq-cpab-001",
+      "questionText": "Quelle lettre de Paul dit \"Je puis tout par celui qui me fortifie\" ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Romains"
+        },
+        {
+          "id": "b",
+          "text": "Éphésiens"
+        },
+        {
+          "id": "c",
+          "text": "Philippiens"
+        },
+        {
+          "id": "d",
+          "text": "Colossiens"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Philippiens 4:13 : \"Je puis tout par celui qui me fortifie (Christ).\" Paul l'écrivit depuis la prison.",
+      "bibleReference": "Philippiens 4:13",
+      "normalizedRef": "phi4.13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-002_ht",
+    "data": {
+      "id": "dq-cpab-002",
+      "questionText": "Konbyen lèt Pòl yo ki enkli nan Nouvo Testaman an?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "13"
+        },
+        {
+          "id": "d",
+          "text": "15"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pòl te ekri 13 lèt NT: Women, 1-2 Korentyen, Galat, Efezyen, Filipyen, Kolosyen, 1-2 Tesalonisyen, 1-2 Timote, Tit ak Filemon.",
+      "bibleReference": "Women 1:1",
+      "normalizedRef": "rom1.1",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-002_fr",
+    "data": {
+      "id": "dq-cpab-002",
+      "questionText": "Combien de lettres sont attribuées à Paul dans le Nouveau Testament ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "13"
+        },
+        {
+          "id": "d",
+          "text": "15"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Paul a écrit 13 lettres du NT : Romains, 1-2 Corinthiens, Galates, Éphésiens, Philippiens, Colossiens, 1-2 Thessaloniciens, 1-2 Timothée, Tite et Philémon.",
+      "bibleReference": "Romains 1:1",
+      "normalizedRef": "rom1.1",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-003_ht",
+    "data": {
+      "id": "dq-cpab-003",
+      "questionText": "Ki lèt Pòl ki trete plis dok justifikasyon pa lafwa?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Efezyen"
+        },
+        {
+          "id": "b",
+          "text": "Women"
+        },
+        {
+          "id": "c",
+          "text": "Kolosyen"
+        },
+        {
+          "id": "d",
+          "text": "1 Timote"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Women se ekspozisyon ki pi sistematik ak dok levanjil la: \"Jistis Bondye revele pa lafwa epi pou lafwa\" (Women 1:17).",
+      "bibleReference": "Women 1:16-17",
+      "normalizedRef": "rom1.16-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-003_fr",
+    "data": {
+      "id": "dq-cpab-003",
+      "questionText": "Quelle lettre de Paul traite le plus de la doctrine de la justification par la foi ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Éphésiens"
+        },
+        {
+          "id": "b",
+          "text": "Romains"
+        },
+        {
+          "id": "c",
+          "text": "Colossiens"
+        },
+        {
+          "id": "d",
+          "text": "1 Timothée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Romains est l'exposition systématique de l'Évangile : \"La justice de Dieu est révélée par la foi et pour la foi\" (Romains 1:17).",
+      "bibleReference": "Romains 1:16-17",
+      "normalizedRef": "rom1.16-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-004_ht",
+    "data": {
+      "id": "dq-cpab-004",
+      "questionText": "Ki sa Efezyen 2:8-9 di sou sali a?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Se fwi zèv ak lapriyè"
+        },
+        {
+          "id": "b",
+          "text": "Se pa gras atravè lafwa, pa pa zèv"
+        },
+        {
+          "id": "c",
+          "text": "Se rezilta batèm nan"
+        },
+        {
+          "id": "d",
+          "text": "Yo jwenn li ak pèseverans ak lafwa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Paske se pa gras nou sove pa kafou lafwa; sa pa soti nan nou menm, se yon kado Bondye bay; pa pa zèv, pou pesonn pa gloria\" (Efezyen 2:8-9).",
+      "bibleReference": "Efezyen 2:8-9",
+      "normalizedRef": "eph2.8-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-004_fr",
+    "data": {
+      "id": "dq-cpab-004",
+      "questionText": "Qu'enseigne Éphésiens 2:8-9 sur le salut ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "C'est le fruit des œuvres et des prières"
+        },
+        {
+          "id": "b",
+          "text": "C'est par la grâce, par le moyen de la foi, et non par les œuvres"
+        },
+        {
+          "id": "c",
+          "text": "C'est le résultat du baptême"
+        },
+        {
+          "id": "d",
+          "text": "On l'obtient par la persévérance"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Car c'est par la grâce que vous êtes sauvés, par le moyen de la foi. Et cela ne vient pas de vous, c'est le don de Dieu. Ce n'est point par les œuvres...\" (Éphésiens 2:8-9).",
+      "bibleReference": "Éphésiens 2:8-9",
+      "normalizedRef": "eph2.8-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-005_ht",
+    "data": {
+      "id": "dq-cpab-005",
+      "questionText": "Kilès Pòl te ekri pou mande li resevwa Onezim, esklav fijitif la, kòm yon frè?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Timote"
+        },
+        {
+          "id": "b",
+          "text": "Tit"
+        },
+        {
+          "id": "c",
+          "text": "Filemon"
+        },
+        {
+          "id": "d",
+          "text": "Akilas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pòl te ekri Filemon mande l resevwa esklav Onezim \"pa kòm yon esklav ankò, men kòm... frè byeneme\" (Filemon 1:16).",
+      "bibleReference": "Filemon 1:16",
+      "normalizedRef": "phm1.16",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-005_fr",
+    "data": {
+      "id": "dq-cpab-005",
+      "questionText": "À qui Paul a-t-il écrit pour demander de recevoir l'esclave Onésime comme un frère ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Timothée"
+        },
+        {
+          "id": "b",
+          "text": "Tite"
+        },
+        {
+          "id": "c",
+          "text": "Philémon"
+        },
+        {
+          "id": "d",
+          "text": "Aquilas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Paul écrivit à Philémon pour lui demander d'accueillir Onésime \"non plus comme un esclave, mais... comme un frère bien-aimé\" (Philémon 1:16).",
+      "bibleReference": "Philémon 1:16",
+      "normalizedRef": "phm1.16",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-006_ht",
+    "data": {
+      "id": "dq-cpab-006",
+      "questionText": "Ki \"fwi Lespri\" a dapre Galat 5:22-23?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lafwa, espwa, lanmou"
+        },
+        {
+          "id": "b",
+          "text": "Lanmou, kè kontan, lapè, pasyans, bonte, jantiyès, lafwa, dousè, moderasyon"
+        },
+        {
+          "id": "c",
+          "text": "Lapriyè, ajèn, sèvis"
+        },
+        {
+          "id": "d",
+          "text": "Kouraj, sajès, pouvwa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Fwi Lespri a gen nèf vèti: lanmou, kè kontan, lapè, pasyans, bonte, jantiyès, lafwa, dousè ak moderasyon (Galat 5:22-23).",
+      "bibleReference": "Galat 5:22-23",
+      "normalizedRef": "gal5.22-23",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-006_fr",
+    "data": {
+      "id": "dq-cpab-006",
+      "questionText": "Quel est le \"fruit de l'Esprit\" selon Galates 5:22-23 ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Foi, espérance et amour"
+        },
+        {
+          "id": "b",
+          "text": "L'amour, la joie, la paix, la patience, la bonté, la bénignité, la fidélité, la douceur, la tempérance"
+        },
+        {
+          "id": "c",
+          "text": "La prière, le jeûne et le service"
+        },
+        {
+          "id": "d",
+          "text": "Le courage, la sagesse et le pouvoir"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le fruit de l'Esprit se compose de neuf vertus citées en Galates 5:22-23.",
+      "bibleReference": "Galates 5:22-23",
+      "normalizedRef": "gal5.22-23",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-007_ht",
+    "data": {
+      "id": "dq-cpab-007",
+      "questionText": "Depi ki vil Pòl te ekri \"lèt prizon yo\" (Efezyen, Filipyen, Kolosyen, Filemon)?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "Efèz"
+        },
+        {
+          "id": "c",
+          "text": "Wòm"
+        },
+        {
+          "id": "d",
+          "text": "Korent"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lèt prizon yo te voye pandan Pòl te anprizonnen nan Wòm, tann jijman li devan Seza (Travay 28:16-31).",
+      "bibleReference": "Efezyen 3:1",
+      "normalizedRef": "eph3.1",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-007_fr",
+    "data": {
+      "id": "dq-cpab-007",
+      "questionText": "De quelle ville Paul a-t-il écrit ses lettres de prison (Éphésiens, Philippiens, Colossiens, Philémon) ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jérusalem"
+        },
+        {
+          "id": "b",
+          "text": "Éphèse"
+        },
+        {
+          "id": "c",
+          "text": "Rome"
+        },
+        {
+          "id": "d",
+          "text": "Corinthe"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les lettres de prison furent envoyées alors que Paul était prisonnier à Rome, attendant son jugement (Actes 28:16-31).",
+      "bibleReference": "Éphésiens 3:1",
+      "normalizedRef": "eph3.1",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-008_ht",
+    "data": {
+      "id": "dq-cpab-008",
+      "questionText": "Konbyen chapit lèt Pòl a Women an genyen?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "14"
+        },
+        {
+          "id": "c",
+          "text": "16"
+        },
+        {
+          "id": "d",
+          "text": "18"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Lèt a Women an gen 16 chapit epi se ekspozisyon ki pi konplè nan teoloji Pòl la sou peche, gras ak sali.",
+      "bibleReference": "Women 16:27",
+      "normalizedRef": "rom16.27",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-008_fr",
+    "data": {
+      "id": "dq-cpab-008",
+      "questionText": "Combien de chapitres compte l'Épître aux Romains ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "14"
+        },
+        {
+          "id": "c",
+          "text": "16"
+        },
+        {
+          "id": "d",
+          "text": "18"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'épître aux Romains compte 16 chapitres et constitue l'exposé le plus complet de Paul sur le péché, la grâce et le salut.",
+      "bibleReference": "Romains 16:27",
+      "normalizedRef": "rom16.27",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-009_ht",
+    "data": {
+      "id": "dq-cpab-009",
+      "questionText": "Poukisa Pòl te ekri lèt a Galat yo ak ijans?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paske yo t ap soufri pèsekisyon Women"
+        },
+        {
+          "id": "b",
+          "text": "Paske Judaïzan yo t ap anseye sali te mande sikonsiyon anplis lafwa"
+        },
+        {
+          "id": "c",
+          "text": "Paske te gen imoralite nan legliz yo"
+        },
+        {
+          "id": "d",
+          "text": "Paske yo pa t rekonèt otorite Pòl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pòl reprimande Galatyen yo pou swiv \"yon lòt levanjil\": Judaïzan yo ki te ajoute sikonsiyon kòm kondisyon sali (Galat 1:6-9).",
+      "bibleReference": "Galat 1:6-9",
+      "normalizedRef": "gal1.6-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-009_fr",
+    "data": {
+      "id": "dq-cpab-009",
+      "questionText": "Pourquoi Paul a-t-il écrit sa lettre aux Galates avec urgence ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parce qu'ils souffraient de persécution"
+        },
+        {
+          "id": "b",
+          "text": "Parce que des judaïsants enseignaient la circoncision comme condition du salut"
+        },
+        {
+          "id": "c",
+          "text": "Parce qu'il y avait de l'immoralité dans l'église"
+        },
+        {
+          "id": "d",
+          "text": "Parce qu'ils ne reconnaissaient pas son autorité"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Paul réprimande les Galates pour avoir suivi \"un autre Évangile\" qui ajoutait des conditions légales au salut par la grâce (Galates 1:6-9).",
+      "bibleReference": "Galates 1:6-9",
+      "normalizedRef": "gal1.6-9",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-010_ht",
+    "data": {
+      "id": "dq-cpab-010",
+      "questionText": "Ki se pi kout lèt Pòl nan Nouvo Testaman an?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tit"
+        },
+        {
+          "id": "b",
+          "text": "Filemon"
+        },
+        {
+          "id": "c",
+          "text": "2 Tesalonisyen"
+        },
+        {
+          "id": "d",
+          "text": "Kolosyen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Filemon gen yon sèl chapit ak 25 vèsè. Se yon lèt pèsonèl Pòl entèsede pou esklav Onezim.",
+      "bibleReference": "Filemon 1:1-25",
+      "normalizedRef": "phm1.1-25",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-010_fr",
+    "data": {
+      "id": "dq-cpab-010",
+      "questionText": "Quelle est la lettre la plus courte de Paul dans le Nouveau Testament ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tite"
+        },
+        {
+          "id": "b",
+          "text": "Philémon"
+        },
+        {
+          "id": "c",
+          "text": "2 Thessaloniciens"
+        },
+        {
+          "id": "d",
+          "text": "Colossiens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Philémon ne compte qu'un seul chapitre de 25 versets. C'est une lettre personnelle où Paul intercède pour l'esclave Onésime.",
+      "bibleReference": "Philémon 1:1-25",
+      "normalizedRef": "phm1.1-25",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-011_ht",
+    "data": {
+      "id": "dq-cpab-011",
+      "questionText": "Konbyen nan 13 lèt Pòl yo konsidere kòm \"lèt pastorèl\"?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Twa lèt pastorèl yo se 1 Timote, 2 Timote ak Tit. Yo anseye sou lidèchip ak vi legliz lokal yo.",
+      "bibleReference": "1 Timote 3:1-7",
+      "normalizedRef": "1ti3.1-7",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-011_fr",
+    "data": {
+      "id": "dq-cpab-011",
+      "questionText": "Combien des 13 lettres de Paul sont considérées comme des \"épîtres pastorales\" ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les trois épîtres pastorales sont 1 Timothée, 2 Timothée et Tite. Elles traitent de l'organisation de l'église locale.",
+      "bibleReference": "1 Timothée 3:1-7",
+      "normalizedRef": "1ti3.1-7",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-012_ht",
+    "data": {
+      "id": "dq-cpab-012",
+      "questionText": "Nan ki chapit Efezyen Pòl dekri \"amè konplè Bondye a\"?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Efezyen 2"
+        },
+        {
+          "id": "b",
+          "text": "Efezyen 4"
+        },
+        {
+          "id": "c",
+          "text": "Efezyen 6"
+        },
+        {
+          "id": "d",
+          "text": "Efezyen 8"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Efezyen 6:13-17 dekri amè Bondye a: senti verite a, kiras jistis, soulye levanjil, boukliye lafwa, kazk sali ak epe Lespri a.",
+      "bibleReference": "Efezyen 6:13-17",
+      "normalizedRef": "eph6.13-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-012_fr",
+    "data": {
+      "id": "dq-cpab-012",
+      "questionText": "Dans quel chapitre d'Éphésiens Paul décrit-il \"toutes les armes de Dieu\" ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Éphésiens 2"
+        },
+        {
+          "id": "b",
+          "text": "Éphésiens 4"
+        },
+        {
+          "id": "c",
+          "text": "Éphésiens 6"
+        },
+        {
+          "id": "d",
+          "text": "Éphésiens 8"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Éphésiens 6:13-17 décrit l'armure de Dieu : la vérité, la justice, le zèle de l'évangile, la foi, le salut et l'épée de l'Esprit.",
+      "bibleReference": "Éphésiens 6:13-17",
+      "normalizedRef": "eph6.13-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-013_ht",
+    "data": {
+      "id": "dq-cpab-013",
+      "questionText": "Ki figi Ansyen Testaman Pòl itilize nan Women 4 kòm egzanp maksimòm justifikasyon pa lafwa?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Lèt Pòl Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moyiz"
+        },
+        {
+          "id": "b",
+          "text": "Abraram"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Noye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Abraram te kwè Bondye, epi sa te konte pou li kòm jistis\" (Women 4:3). Abraram pa t jistifye pa zèv ni sikonsiyon, men pa lafwa li.",
+      "bibleReference": "Women 4:3",
+      "normalizedRef": "rom4.3",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-013_fr",
+    "data": {
+      "id": "dq-cpab-013",
+      "questionText": "Quelle figure de l'AT Paul utilise-t-il dans Romains 4 comme exemple de la justification par la foi ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Moïse"
+        },
+        {
+          "id": "b",
+          "text": "Abraham"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Noé"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Abraham crut à Dieu, et cela lui fut imputé à justice\" (Romains 4:3). Il est justifié par la foi, non par les œuvres.",
+      "bibleReference": "Romains 4:3",
+      "normalizedRef": "rom4.3",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-014_ht",
+    "data": {
+      "id": "dq-cpab-014",
+      "questionText": "Ki lèt Pòl ki di \"Mwen kapab fè tout bagay nan Kris\"?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Women"
+        },
+        {
+          "id": "b",
+          "text": "Efezyen"
+        },
+        {
+          "id": "c",
+          "text": "Filipyen"
+        },
+        {
+          "id": "d",
+          "text": "Kolosyen"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Filipyen 4:13: \"Mwen kapab fè tout bagay nan Kris ki ban mwen fòs.\" Pòl te ekri sa pandan li te nan prizon.",
+      "bibleReference": "Filipyen 4:13",
+      "normalizedRef": "phi4.13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-014_fr",
+    "data": {
+      "id": "dq-cpab-014",
+      "questionText": "Dans quelle épître Paul dit-il : « Je puis tout par Christ qui me fortifie » ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Galates"
+        },
+        {
+          "id": "b",
+          "text": "Philippiens"
+        },
+        {
+          "id": "c",
+          "text": "Colossiens"
+        },
+        {
+          "id": "d",
+          "text": "Éphésiens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Je puis tout par Christ qui me fortifie » se trouve dans Philippiens 4:13.",
+      "bibleReference": "Philippiens 4:13",
+      "normalizedRef": "phi4.13",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-015_ht",
+    "data": {
+      "id": "dq-cpab-015",
+      "questionText": "Ki lèt Pòl ki konnen kòm \"im lanmou\"?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Women 12"
+        },
+        {
+          "id": "b",
+          "text": "Efezyen 1"
+        },
+        {
+          "id": "c",
+          "text": "1 Korentyen 13"
+        },
+        {
+          "id": "d",
+          "text": "Filipyen 4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Korentyen 13 gen im fèmyè a: \"Lanmou pasyans, lanmou bon...\" Pòl te ekri l pou legliz Korent la.",
+      "bibleReference": "1 Korentyen 13:4-7",
+      "normalizedRef": "1korentyen13.4-7",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-015_fr",
+    "data": {
+      "id": "dq-cpab-015",
+      "questionText": "Quelle lettre de Paul contient le célèbre \"hymne à l'amour\" ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Romains 12"
+        },
+        {
+          "id": "b",
+          "text": "Éphésiens 1"
+        },
+        {
+          "id": "c",
+          "text": "1 Corinthiens 13"
+        },
+        {
+          "id": "d",
+          "text": "Philippiens 4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "1 Corinthiens 13 contient l'hymne : \"L'amour est patient, il est plein de bonté...\" écrit pour l'église de Corinthe.",
+      "bibleReference": "1 Corinthiens 13:4-7",
+      "normalizedRef": "1co13.4-7",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-016_ht",
+    "data": {
+      "id": "dq-cpab-016",
+      "questionText": "Ki lèt Pòl ki trete plis doktrin sou justifikasyon pa lafwa?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Efezyen"
+        },
+        {
+          "id": "b",
+          "text": "Women"
+        },
+        {
+          "id": "c",
+          "text": "Kolosyen"
+        },
+        {
+          "id": "d",
+          "text": "1 Timote"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Women se ekspozisyon sistematik levanjil la: \"Jistis Bondye revele pa lafwa epi pou lafwa\" (Women 1:17).",
+      "bibleReference": "Women 1:16-17",
+      "normalizedRef": "rom1.16-17",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-016_fr",
+    "data": {
+      "id": "dq-cpab-016",
+      "questionText": "Quelle est la thèse centrale de l'Épître aux Romains ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Comment vivre en harmonie dans une Église multiculturelle"
+        },
+        {
+          "id": "b",
+          "text": "La justice de Dieu révélée par l'Évangile : justification par la foi seule, sans les œuvres de la Loi"
+        },
+        {
+          "id": "c",
+          "text": "Les fins dernières et le retour de Christ"
+        },
+        {
+          "id": "d",
+          "text": "La vie pratique du croyant face aux persécutions"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Romains 1:16-17 expose la thèse : « l'Évangile est une puissance de Dieu pour le salut... la justice de Dieu y est révélée par la foi et pour la foi. » Justification sola fide — cœur de la Réforme.",
+      "bibleReference": "Romains 1:16-17",
+      "normalizedRef": "rom1.16-17",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "docId": "dq-cpab-017_ht",
+    "data": {
+      "id": "dq-cpab-017",
+      "questionText": "Ki \"fwi Lespri\" a dapre Galat 5:22-23?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lafwa, espwa, lanmou"
+        },
+        {
+          "id": "b",
+          "text": "Lanmou, kè kontan, lapè, pasyans, bonte, jantiyès, lafwa, dousè, moderasyon"
+        },
+        {
+          "id": "c",
+          "text": "Lapriyè, ajèn, sèvis"
+        },
+        {
+          "id": "d",
+          "text": "Kouraj, sajès, pouvwa"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Fwi Lespri a gen nèf vèti: lanmou, kè kontan, lapè, pasyans, bonte, jantiyès, lafwa, dousè ak moderasyon (Galat 5:22-23).",
+      "bibleReference": "Galat 5:22-23",
+      "normalizedRef": "gal5.22-23",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-017_fr",
+    "data": {
+      "id": "dq-cpab-017",
+      "questionText": "Quelle est la différence entre les dons de l'Esprit et les fruits de l'Esprit ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Vie Chrétienne",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les dons sont pour les apôtres ; les fruits pour tous les croyants"
+        },
+        {
+          "id": "b",
+          "text": "Les dons sont des capacités pour servir l'Église ; les fruits sont les caractéristiques du caractère transformé"
+        },
+        {
+          "id": "c",
+          "text": "Les dons disparaissent ; les fruits restent après la mort"
+        },
+        {
+          "id": "d",
+          "text": "Les dons se méritent ; les fruits sont donnés automatiquement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les dons (1 Corinthiens 12) équipent pour le service. Les fruits (Galates 5:22-23) — amour, joie, paix... — sont le caractère de Christ formé en nous par l'Esprit.",
+      "bibleReference": "Galates 5:22-23",
+      "normalizedRef": "gal5.22-23",
+      "normalizedCat": "vida-cristiana"
+    }
+  },
+  {
+    "docId": "dq-cpab-018_ht",
+    "data": {
+      "id": "dq-cpab-018",
+      "questionText": "Nan ki lèt Pòl dekri li te \"enpote jis nan twazyèm syèl la\"?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Epitèt Polinyen",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 Korentyen"
+        },
+        {
+          "id": "b",
+          "text": "2 Korentyen"
+        },
+        {
+          "id": "c",
+          "text": "Galat"
+        },
+        {
+          "id": "d",
+          "text": "Efezyen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Mwen konnen yon moun nan Kris ki... te enpote jis nan twazyèm syèl... te enpote nan paradi epi li tande pawòl ki pa ka eksprime\" (2 Korentyen 12:2-4).",
+      "bibleReference": "2 Korentyen 12:2-4",
+      "normalizedRef": "2korentyen12.2-4",
+      "normalizedCat": "cartas-pablo"
+    }
+  },
+  {
+    "docId": "dq-cpab-018_fr",
+    "data": {
+      "id": "dq-cpab-018",
+      "questionText": "Dans quelle lettre Paul décrit-il qu'il fut \"ravi jusqu'au troisième ciel\" ?",
+      "categoryId": "cartas-pablo",
+      "categoryName": "Épîtres de Paul",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 Corinthiens"
+        },
+        {
+          "id": "b",
+          "text": "2 Corinthiens"
+        },
+        {
+          "id": "c",
+          "text": "Galates"
+        },
+        {
+          "id": "d",
+          "text": "Éphésiens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Je connais un homme en Christ qui... fut ravi jusqu'au troisième ciel... et a entendu des paroles ineffables\" (2 Corinthiens 12:2-4).",
+      "bibleReference": "2 Corinthiens 12:2-4",
+      "normalizedRef": "2co12.2-4",
+      "normalizedCat": "cartas-pablo"
+    }
+  }
+]

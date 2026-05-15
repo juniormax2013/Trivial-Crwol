@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #310065;
+  --color-primary-container: #4a148c;
+  --color-primary-fixed: #eddcff;
+  --color-primary-fixed-dim: #d7baff;
+  --color-on-primary: #ffffff;
+  --color-tertiary: #735c00;
+  --color-tertiary-container: #cba72f;
+  --color-tertiary-fixed: #ffe088;
+  --color-tertiary-fixed-dim: #e9c349;
+  --color-on-tertiary-container: #4e3d00;
+  --color-surface: #faf9fc;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f5f3f7;
+  --color-surface-container: #efedf1;
+  --color-surface-container-high: #e9e7eb;
+  --color-on-surface: #1b1b1e;
+  --color-on-surface-variant: #4a4452;
+  --color-outline: #7c7483;
+  --color-outline-variant: #cdc3d4;
+  --color-error: #ba1a1a;
+  --color-secondary-container: #f8d5f9;
+  --color-on-secondary-container: #755978;
+  
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+}
+
+/* Root light mode force */
+:root {
+  color-scheme: light !important;
+  --background: #ffffff;
+  --foreground: #1b1b1e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light !important;
+  }
+  
+  html, body {
+    background-color: #ffffff !important;
+    color: #1b1b1e !important;
+  }
+}
+
+html {
+  background-color: #ffffff !important;
+  color-scheme: light !important;
+  /* Use scroll-padding-top to account for fixed headers if needed */
+  scroll-padding-top: 5rem; 
+}
+
+body {
+  background-color: #ffffff !important;
+  color: #1b1b1e !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* WhatsApp-like scroll behavior - stable and white */
+  overscroll-behavior-y: auto; 
+  min-height: 100vh;
+  /* Ensure the background is white even in areas outside the viewport */
+  background: #ffffff !important;
+}
+
+/* Safe Area Utilities */
+.pt-safe {
+  padding-top: env(safe-area-inset-top);
+}
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.mt-safe {
+  margin-top: env(safe-area-inset-top);
+}
+.mb-safe {
+  margin-bottom: env(safe-area-inset-bottom);
+}
+
+/* Premium App Polish */
+* {
+  -webkit-tap-highlight-color: transparent;
+  outline-color: var(--color-primary);
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+/* Hide scrollbar for horizontal scrolling areas */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Force light mode system elements */
+::selection {
+  background-color: #eddcff;
+  color: #310065;
+}
+
+input, textarea, select {
+  color-scheme: light !important;
+}

@@ -1,0 +1,3370 @@
+[
+  {
+    "docId": "dq-rey-024_ht",
+    "data": {
+      "id": "dq-rey-024",
+      "questionText": "Ki jan Ezekyas te fè reziste kont envazyon moun Lasiri yo san li pa t bezwen goumen?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te peye yon gwo taks"
+        },
+        {
+          "id": "b",
+          "text": "Li te priye epi zanj Seyè a te touye 185 000 sòlda asiryen"
+        },
+        {
+          "id": "c",
+          "text": "Li te fè alyans ak peyi Lejip"
+        },
+        {
+          "id": "d",
+          "text": "Li te kache pèp la nan twou wòch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ezekyas te priye epi Ezayi te bay yon pwofesi. Zanj Seyè a te touye 185 000 sòlda asiryen nan yon sèl nwit (2 Wa 19:35-37).",
+      "bibleReference": "2 Rois 19:35-37"
+    }
+  },
+  {
+    "docId": "dq-rey-024_fr",
+    "data": {
+      "id": "dq-rey-024",
+      "questionText": "Comment Ézéchias résista-t-il à l'invasion assyrienne de Sanchérib sans combattre ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il paya un tribut immense"
+        },
+        {
+          "id": "b",
+          "text": "Il pria et l'ange du Seigneur tua 185 000 soldats assyriens"
+        },
+        {
+          "id": "c",
+          "text": "Il forma une alliance avec l'Égypte"
+        },
+        {
+          "id": "d",
+          "text": "Il cacha le peuple dans des grottes souterraines"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ézéchias pria et Ésaïe prophétisa. L'ange du Seigneur frappa 185 000 Assyriens dans la nuit — Sanchérib rentra et fut assassiné (2 Rois 19:35-37).",
+      "bibleReference": "2 Rois 19:35-37",
+      "normalizedRef": "2ki19.35-37",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "docId": "dq-rey-025_ht",
+    "data": {
+      "id": "dq-rey-025",
+      "questionText": "Ki gwo erè Roboam te fè ki te lakòz wayòm nan separe?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te mete zidòl nan Tanp lan"
+        },
+        {
+          "id": "b",
+          "text": "Li te refize koute konsèy granmoun yo pou l te ka rann lavi pèp la pi fasil"
+        },
+        {
+          "id": "c",
+          "text": "Li te mete ansyen konsèye yo deyò"
+        },
+        {
+          "id": "d",
+          "text": "Li te fè moun nan nò yo peye de fwa plis taks"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Roboam te rejte konsèy granmoun yo epi li te swiv sa jèn yo te di l — li te pwomèt l ap rann lavi pèp la pi rèd (1 Wa 12:13-14).",
+      "bibleReference": "1 Rois 12:13-14"
+    }
+  },
+  {
+    "docId": "dq-rey-025_fr",
+    "data": {
+      "id": "dq-rey-025",
+      "questionText": "Quelle était la faute principale de Roboam qui provoqua la division du royaume ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il introduisit l'idolâtrie dans le Temple"
+        },
+        {
+          "id": "b",
+          "text": "Il refusa d'alléger le joug imposé par Salomon, suivant les conseils des jeunes"
+        },
+        {
+          "id": "c",
+          "text": "Il exila les anciens conseillers du royaume"
+        },
+        {
+          "id": "d",
+          "text": "Il taxa les tribus du nord deux fois plus"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Roboam rejeta les conseils des anciens et suivit les jeunes — il promit d'alourdir le joug. Les 10 tribus se révoltèrent sous Jéroboam (1 Rois 12:13-14).",
+      "bibleReference": "1 Rois 12:13-14",
+      "normalizedRef": "1ki12.13-14",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "docId": "dq-rey-026_ht",
+    "data": {
+      "id": "dq-rey-026",
+      "questionText": "Kisa ki te rive wa Manase nan fen lavi li selon 2 Kwonik 33?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te wa ki pi jis apre David"
+        },
+        {
+          "id": "b",
+          "text": "Li te wa ki pi mechan, men li te repanti lè l te nan prizon epi Bondye te retabli l"
+        },
+        {
+          "id": "c",
+          "text": "Li te mouri nan peche san li pa t janm repanti"
+        },
+        {
+          "id": "d",
+          "text": "Bondye te fè l gras poutèt priyè pwofèt Ezayi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Manase te yon move wa. Men, pandan l te prizonye lavil Babilòn, li te imilye tèt li. Bondye te tande priyè l epi li te mennen l tounen Jerizalèm (2 Kwonik 33:12-13).",
+      "bibleReference": "2 Chroniques 33:12-13"
+    }
+  },
+  {
+    "docId": "dq-rey-026_fr",
+    "data": {
+      "id": "dq-rey-026",
+      "questionText": "Quel est le bilan final du roi Manassé selon 2 Rois 21 et sa postérité dans 2 Chroniques 33 ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il fut le roi le plus juste après David"
+        },
+        {
+          "id": "b",
+          "text": "Il fut le roi le plus mauvais, mais il se repentit en captivité et Dieu le restaura"
+        },
+        {
+          "id": "c",
+          "text": "Il mourut dans l'iniquité sans jamais se repentir"
+        },
+        {
+          "id": "d",
+          "text": "Il fut épargné grâce aux prières d'Ésaïe"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Manassé fut le pire roi — il pratiqua toutes les abominations. Mais en captivité à Babylone il se humilia. Dieu le restaura à Jérusalem (2 Chroniques 33:12-13).",
+      "bibleReference": "2 Chroniques 33:12-13",
+      "normalizedRef": "2ch33.12-13",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "docId": "dq-rey-027_ht",
+    "data": {
+      "id": "dq-rey-027",
+      "questionText": "Ki wa nan peyi Izrayèl (nò) ki te sèl wa ki te montre yon ti kras fidelite anvè Bondye nan detwi kilt Baal la?",
+      "categoryId": "reyes",
+      "categoryName": "Rwa nan Bib la",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jewoboram II"
+        },
+        {
+          "id": "b",
+          "text": "Jeou"
+        },
+        {
+          "id": "c",
+          "text": "Omri"
+        },
+        {
+          "id": "d",
+          "text": "Pekak"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jeou te detwi fanmi Akab la epi li te disparèt kilt Baal la nan peyi Izrayèl. Men, li pa t vire do bay peche Jewoboram yo (2 Wa 10:28-31).",
+      "bibleReference": "2 Rois 10:28-31"
+    }
+  },
+  {
+    "docId": "dq-rey-027_fr",
+    "data": {
+      "id": "dq-rey-027",
+      "questionText": "Quel roi d'Israël fut le seul des rois du Nord à maintenir quelques éléments de fidélité à Dieu selon 2 Rois 10 ?",
+      "categoryId": "reyes",
+      "categoryName": "Rois Bibliques",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jéroboam II"
+        },
+        {
+          "id": "b",
+          "text": "Jéhu"
+        },
+        {
+          "id": "c",
+          "text": "Omri"
+        },
+        {
+          "id": "d",
+          "text": "Péqah"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jéhu exécuta la maison d'Achab et extermina Baal d'Israël. Mais il ne s'éloigna pas des péchés de Jéroboam (2 Rois 10:28-31).",
+      "bibleReference": "2 Rois 10:28-31",
+      "normalizedRef": "2ki10.28-31",
+      "normalizedCat": "reyes"
+    }
+  },
+  {
+    "docId": "dq-sabid-001_ht",
+    "data": {
+      "id": "dq-sabid-001",
+      "questionText": "Ki fraz ki kòmanse Sòm 23 ki byen konnen an?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Seyè a se limyè mwen\""
+        },
+        {
+          "id": "b",
+          "text": "\"Seyè a se bèjè mwen\""
+        },
+        {
+          "id": "c",
+          "text": "\"Seyè a se refij mwen\""
+        },
+        {
+          "id": "d",
+          "text": "\"Seyè a se fòtres mwen\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Seyè a se bèjè mwen, mwen p ap manke anyen...\" se kòmansman Sòm 23, youn nan pi popilè nan Bib la.",
+      "bibleReference": "Sòm 23:1",
+      "normalizedRef": "psa23.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-001_fr",
+    "data": {
+      "id": "dq-sabid-001",
+      "questionText": "Quel est le verset d'ouverture du Psaume 23 ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'Éternel est ma lumière"
+        },
+        {
+          "id": "b",
+          "text": "L'Éternel est mon berger"
+        },
+        {
+          "id": "c",
+          "text": "L'Éternel est mon rocher"
+        },
+        {
+          "id": "d",
+          "text": "L'Éternel est ma force"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« L'Éternel est mon berger ; je ne manquerai de rien. » (Psaume 23:1)",
+      "bibleReference": "Psaumes 23:1",
+      "normalizedRef": "psa23.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-002_ht",
+    "data": {
+      "id": "dq-sabid-002",
+      "questionText": "Ki fraz ouvèti Liv Eklezyas la?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Benediksyon pou moun ki...\""
+        },
+        {
+          "id": "b",
+          "text": "\"Kòmansman sajès la...\""
+        },
+        {
+          "id": "c",
+          "text": "\"Vanite vanite, tout bagay se vanite\""
+        },
+        {
+          "id": "d",
+          "text": "\"Nan kòmansman Bondye kreye...\""
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Vanite vanite, tout bagay se vanite\" se deklarasyon santral Predikatis la nan Eklezyas 1:2.",
+      "bibleReference": "Eklezyas 1:2",
+      "normalizedRef": "ecc1.2",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-002_fr",
+    "data": {
+      "id": "dq-sabid-002",
+      "questionText": "Quel est le thème principal du livre de l'Ecclésiaste ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La guerre d'Israël"
+        },
+        {
+          "id": "b",
+          "text": "La vanité de toutes choses"
+        },
+        {
+          "id": "c",
+          "text": "Les prophéties messianiques"
+        },
+        {
+          "id": "d",
+          "text": "La création du monde"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Ecclésiaste s'ouvre avec « Vanité des vanités, tout est vanité » (Ecclésiaste 1:2).",
+      "bibleReference": "Ecclésiaste 1:2",
+      "normalizedRef": "ecc1.2",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-003_ht",
+    "data": {
+      "id": "dq-sabid-003",
+      "questionText": "Konbyen zanmi ki te vizite Jòb pandan soufrans li?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "5"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Twa zanmi prensipal yo (Elifaz, Bildad ak Zofa) te vini pou konforte Jòb. Elihou, yon katriyèm pèsonaj, te pale tou.",
+      "bibleReference": "Jòb 2:11",
+      "normalizedRef": "job2.11",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-003_fr",
+    "data": {
+      "id": "dq-sabid-003",
+      "questionText": "Combien d'amis de Job vinrent le consoler au début de son épreuve ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Éliphaz, Bildad et Tsophar vinrent consoler Job. Élihu apparut plus tard (Job 2:11).",
+      "bibleReference": "Job 2:11",
+      "normalizedRef": "job2.11",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-004_ht",
+    "data": {
+      "id": "dq-sabid-004",
+      "questionText": "Ki non Espagnòl pote liv ki rele an ebre \"Qohélet\" la?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm"
+        },
+        {
+          "id": "b",
+          "text": "Pwovèb"
+        },
+        {
+          "id": "c",
+          "text": "Eklezyas"
+        },
+        {
+          "id": "d",
+          "text": "Jòb"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "\"Qohélet\" vle di \"moun ki rasanble asanble a\" oswa \"predikatis\". An grèk yo tradui li Eklezyas.",
+      "bibleReference": "Eklezyas 1:1",
+      "normalizedRef": "ecc1.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-004_fr",
+    "data": {
+      "id": "dq-sabid-004",
+      "questionText": "Quel mot hébreu désigne l'auteur ou prédicateur de l'Ecclésiaste ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mishna"
+        },
+        {
+          "id": "b",
+          "text": "Torah"
+        },
+        {
+          "id": "c",
+          "text": "Qohélet"
+        },
+        {
+          "id": "d",
+          "text": "Mashal"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Qohélet » (Prédicateur) est le titre donné à l'auteur de l'Ecclésiaste (Ecclésiaste 1:1).",
+      "bibleReference": "Ecclésiaste 1:1",
+      "normalizedRef": "ecc1.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-005_ht",
+    "data": {
+      "id": "dq-sabid-005",
+      "questionText": "Konbyen sòm ki genyen nan liv Sòm yo?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "100"
+        },
+        {
+          "id": "b",
+          "text": "120"
+        },
+        {
+          "id": "c",
+          "text": "150"
+        },
+        {
+          "id": "d",
+          "text": "180"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Liv Sòm yo genyen 150 sòm. Pi long lan se Sòm 119 epi pi kout la se Sòm 117.",
+      "bibleReference": "Sòm 150",
+      "normalizedRef": "psa150",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-005_fr",
+    "data": {
+      "id": "dq-sabid-005",
+      "questionText": "Combien de psaumes y a-t-il dans le livre des Psaumes ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "100"
+        },
+        {
+          "id": "b",
+          "text": "120"
+        },
+        {
+          "id": "c",
+          "text": "150"
+        },
+        {
+          "id": "d",
+          "text": "180"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le livre des Psaumes contient 150 psaumes. Le plus long est le Psaume 119 et le plus court le Psaume 117.",
+      "bibleReference": "Psaumes 150",
+      "normalizedRef": "psa150",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-006_ht",
+    "data": {
+      "id": "dq-sabid-006",
+      "questionText": "Poukisa pèsonaj biblik Jòb la te fèt?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pou sajès política li"
+        },
+        {
+          "id": "b",
+          "text": "Pou kouraj li nan lagè"
+        },
+        {
+          "id": "c",
+          "text": "Pou pasyans li nan soufrans"
+        },
+        {
+          "id": "d",
+          "text": "Pou pwofesi li yo"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jòb simbolize pasyans ak lafwa nan mitan soufrans ekstrèm. Bondye te restore li doub pita.",
+      "bibleReference": "Jòb 1:20-22",
+      "normalizedRef": "job1.20-22",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-006_fr",
+    "data": {
+      "id": "dq-sabid-006",
+      "questionText": "Pourquoi le personnage biblique Job est-il connu ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pour sa sagesse politique"
+        },
+        {
+          "id": "b",
+          "text": "Pour son courage à la guerre"
+        },
+        {
+          "id": "c",
+          "text": "Pour sa patience dans la souffrance"
+        },
+        {
+          "id": "d",
+          "text": "Pour ses prophéties"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Job symbolise la patience et la foi au milieu de souffrances extrêmes. Dieu l'a restauré au double plus tard.",
+      "bibleReference": "Job 1:20-22",
+      "normalizedRef": "job1.20-22",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-007_ht",
+    "data": {
+      "id": "dq-sabid-007",
+      "questionText": "Kilès yo atribye prensipalman otè Liv Sòm yo a?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salomon"
+        },
+        {
+          "id": "b",
+          "text": "Moyiz"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Ezekyas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David te ekri majorite sòm yo. Asaf, pitit Kore yo, Salomon ak Moyiz te ekri sòm yo tou.",
+      "bibleReference": "Sòm 3:1 (antèt)",
+      "normalizedRef": "psa3.1(antèt)",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-007_fr",
+    "data": {
+      "id": "dq-sabid-007",
+      "questionText": "À qui attribue-t-on principalement la rédaction du livre des Psaumes ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salomon"
+        },
+        {
+          "id": "b",
+          "text": "Moïse"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Ézéchias"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David a écrit la majorité des psaumes. Asaph, les fils de Koré, Salomon et Moïse ont également écrit des psaumes.",
+      "bibleReference": "Psaume 3:1 (titre)"
+    }
+  },
+  {
+    "docId": "dq-sabid-008_ht",
+    "data": {
+      "id": "dq-sabid-008",
+      "questionText": "Konbyen chapit Liv Jòb la genyen?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "20"
+        },
+        {
+          "id": "b",
+          "text": "32"
+        },
+        {
+          "id": "c",
+          "text": "42"
+        },
+        {
+          "id": "d",
+          "text": "50"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Liv Jòb la gen 42 chapit. Li gen dyalòg ant Jòb, zanmi li yo ak repons Bondye a.",
+      "bibleReference": "Jòb 42:1",
+      "normalizedRef": "job42.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-008_fr",
+    "data": {
+      "id": "dq-sabid-008",
+      "questionText": "Combien de chapitres compte le livre de Job ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "20"
+        },
+        {
+          "id": "b",
+          "text": "32"
+        },
+        {
+          "id": "c",
+          "text": "42"
+        },
+        {
+          "id": "d",
+          "text": "50"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le livre de Job contient 42 chapitres. Il contient des dialogues entre Job, ses amis et la réponse de Dieu.",
+      "bibleReference": "Job 42:1"
+    }
+  },
+  {
+    "docId": "dq-sabid-009_ht",
+    "data": {
+      "id": "dq-sabid-009",
+      "questionText": "Kilès yo atribye Chante Kantik Salomon an?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Ezayi"
+        },
+        {
+          "id": "d",
+          "text": "Ezekyas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Chante Kantik yo atribye wa Salomon; se yon powèm damou ki dekri relasyon ant byeneme a ak byeneme fanm nan.",
+      "bibleReference": "Kantik 1:1",
+      "normalizedRef": "kantik1.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-009_fr",
+    "data": {
+      "id": "dq-sabid-009",
+      "questionText": "À qui attribue-t-on le Cantique des Cantiques de Salomon ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Ésaïe"
+        },
+        {
+          "id": "d",
+          "text": "Ézéchias"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Cantique des Cantiques est attribué au roi Salomon ; c'est un poème d'amour décrivant la relation entre le bien-aimé et sa bien-aimée.",
+      "bibleReference": "Cantique 1:1"
+    }
+  },
+  {
+    "docId": "dq-sabid-010_ht",
+    "data": {
+      "id": "dq-sabid-010",
+      "questionText": "Kijan Liv Eklezyas la fini ansèyman li?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Chèche richès sou tout bagay\""
+        },
+        {
+          "id": "b",
+          "text": "\"Jwi jenès ou\""
+        },
+        {
+          "id": "c",
+          "text": "\"Krent Bondye epi kenbe kòmandman li yo\""
+        },
+        {
+          "id": "d",
+          "text": "\"Sajès depase tout richès\""
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Eklezyas 12:13: \"Dènye pawòl aprè nou tande tout bagay: Krent Bondye epi kenbe kòmandman li yo, paske sa a se devwa tout moun.\"",
+      "bibleReference": "Eklezyas 12:13",
+      "normalizedRef": "ecc12.13",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-010_fr",
+    "data": {
+      "id": "dq-sabid-010",
+      "questionText": "Comment le livre de l'Ecclésiaste finit-il son enseignement ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Cherchez la richesse par-dessus tout »"
+        },
+        {
+          "id": "b",
+          "text": "« Jouis de ta jeunesse »"
+        },
+        {
+          "id": "c",
+          "text": "« Crains Dieu et observe ses commandements »"
+        },
+        {
+          "id": "d",
+          "text": "« La sagesse dépasse toutes les richeisses »"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ecclésiaste 12:13 : « Écoutons la fin du discours : Crains Dieu et observe ses commandements. C'est là ce que doit faire tout homme. »",
+      "bibleReference": "Ecclésiaste 12:13"
+    }
+  },
+  {
+    "docId": "dq-sabid-011_ht",
+    "data": {
+      "id": "dq-sabid-011",
+      "questionText": "Nan ki sòm David konfese peche li ak Betsabe ak asasina Ouri?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 22"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 51"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 91"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 119"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 51 se lapriyè konfesyon David apre peche li ak Betsabe, pwofèt Natan te revele a.",
+      "bibleReference": "Sòm 51:1-4",
+      "normalizedRef": "psa51.1-4",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-011_fr",
+    "data": {
+      "id": "dq-sabid-011",
+      "questionText": "Dans quel psaume David confesse-t-il son péché avec Bathshéba et le meurtre d'Urie ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 51"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 119"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 51 est la prière de confession de David après son péché avec Bathshéba, révélé par le prophète Nathan.",
+      "bibleReference": "Psaume 51:1-4"
+    }
+  },
+  {
+    "docId": "dq-sabid-012_ht",
+    "data": {
+      "id": "dq-sabid-012",
+      "questionText": "Konbyen \"Chante Desan\" oswa sòm pelrinaj ki gen nan Sòtè a?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "12"
+        },
+        {
+          "id": "c",
+          "text": "15"
+        },
+        {
+          "id": "d",
+          "text": "20"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sòm 120 rive 134 se 15 \"Chante Desan\", yo te chante pa pelren yo pandan yo monte Jerizalèm.",
+      "bibleReference": "Sòm 120-134",
+      "normalizedRef": "psa120-134",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-012_fr",
+    "data": {
+      "id": "dq-sabid-012",
+      "questionText": "Combien de « Cantiques des degrés » ou psaumes de pèlerinage y a-t-il dans le Psautier ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "12"
+        },
+        {
+          "id": "c",
+          "text": "15"
+        },
+        {
+          "id": "d",
+          "text": "20"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les psaumes 120 à 134 sont les 15 « Cantiques des degrés », chantés par les pèlerins montant à Jérusalem.",
+      "bibleReference": "Psaumes 120-134"
+    }
+  },
+  {
+    "docId": "dq-sabid-013_ht",
+    "data": {
+      "id": "dq-sabid-013",
+      "questionText": "Ki otè biblik yo atribye Sòm 90 a, konsidere kòm pi ansyen nan Bib la?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Moyiz"
+        },
+        {
+          "id": "d",
+          "text": "Abraram"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Antèt Sòm 90 a di: \"Lapriyè Moyiz, sèvitè Bondye.\" Se sòm ki pi ansyen yo konnen an.",
+      "bibleReference": "Sòm 90:1",
+      "normalizedRef": "psa90.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-013_fr",
+    "data": {
+      "id": "dq-sabid-013",
+      "questionText": "Quel auteur biblique est attribué au Psaume 90, considéré comme le plus ancien de la Bible ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "David"
+        },
+        {
+          "id": "b",
+          "text": "Salomon"
+        },
+        {
+          "id": "c",
+          "text": "Moïse"
+        },
+        {
+          "id": "d",
+          "text": "Abraham"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le titre du Psaume 90 dit : « Prière de Moïse, homme de Dieu. » C'est le psaume le plus ancien connu.",
+      "bibleReference": "Psaume 90:1"
+    }
+  },
+  {
+    "docId": "dq-sabid-014_ht",
+    "data": {
+      "id": "dq-sabid-014",
+      "questionText": "Kilès ki te katriyèm pèsonaj ki te pale ak Jòb avèk pawòl diferan de twa zanmi li yo?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elifaz"
+        },
+        {
+          "id": "b",
+          "text": "Bildad"
+        },
+        {
+          "id": "c",
+          "text": "Elihou"
+        },
+        {
+          "id": "d",
+          "text": "Zofa"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Elihou, pitit Barakyèl, te tann jiskaske twa zanmi yo te fin pale epi li te eksprime pwòp pwen de vi li (Jòb 32:1-6).",
+      "bibleReference": "Jòb 32:1-6",
+      "normalizedRef": "job32.1-6",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-014_fr",
+    "data": {
+      "id": "dq-sabid-014",
+      "questionText": "Quel fut le quatrième personnage qui parla à Job avec des paroles différentes de ses trois amis ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Éliphaz"
+        },
+        {
+          "id": "b",
+          "text": "Bildad"
+        },
+        {
+          "id": "c",
+          "text": "Élihu"
+        },
+        {
+          "id": "d",
+          "text": "Tsophar"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Élihu, fils de Barakeel, attendit que les trois amis aient fini de parler pour exprimer son propre point de vue (Job 32:1-6).",
+      "bibleReference": "Job 32:1-6"
+    }
+  },
+  {
+    "docId": "dq-sabid-015_ht",
+    "data": {
+      "id": "dq-sabid-015",
+      "questionText": "Ki liv Ansyen Testaman an ki itilize lanmou konjigal pou dekri relasyon ant Bondye ak Izrayèl?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Pwezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jòb"
+        },
+        {
+          "id": "b",
+          "text": "Sòm"
+        },
+        {
+          "id": "c",
+          "text": "Chante Kantik Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Rit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Chante Kantik yo entèprete tou kòm powèm damou imen ak senbòl relasyon Bondye (byeneme) ak Izrayèl (byeneme fanm).",
+      "bibleReference": "Kantik 2:16",
+      "normalizedRef": "kantik2.16",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-015_fr",
+    "data": {
+      "id": "dq-sabid-015",
+      "questionText": "Quel livre de l'Ancien Testament utilise l'amour conjugal pour décrire la relation entre Dieu et Israël ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Job"
+        },
+        {
+          "id": "b",
+          "text": "Psaumes"
+        },
+        {
+          "id": "c",
+          "text": "Cantique des Cantiques de Salomon"
+        },
+        {
+          "id": "d",
+          "text": "Ruth"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Cantique des Cantiques est aussi interprété comme un poème d'amour humain et un symbole de la relation entre Dieu (le bien-aimé) et Israël (la bien-aimée).",
+      "bibleReference": "Cantique 2:16"
+    }
+  },
+  {
+    "docId": "dq-sabid-016_ht",
+    "data": {
+      "id": "dq-sabid-016",
+      "questionText": "Konbyen sòm ki genyen nan Bib la?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "100"
+        },
+        {
+          "id": "b",
+          "text": "120"
+        },
+        {
+          "id": "c",
+          "text": "150"
+        },
+        {
+          "id": "d",
+          "text": "180"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Liv Sòm nan gen 150 sòm, ki divize an senk liv.",
+      "bibleReference": "Sòm 1-150",
+      "normalizedRef": "psa1-150",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-016_fr",
+    "data": {
+      "id": "dq-sabid-016",
+      "questionText": "Combien y a-t-il de psaumes dans la Bible ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "100"
+        },
+        {
+          "id": "b",
+          "text": "120"
+        },
+        {
+          "id": "c",
+          "text": "150"
+        },
+        {
+          "id": "d",
+          "text": "180"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Psautier contient 150 psaumes, répartis en cinq livres.",
+      "bibleReference": "Psaumes 1-150",
+      "normalizedRef": "psa1-150",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-017_ht",
+    "data": {
+      "id": "dq-sabid-017",
+      "questionText": "Kilès ki pèsonaj santral nan liv Jòb la?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon wa Izrayèl"
+        },
+        {
+          "id": "b",
+          "text": "Yon pwofèt Edòm"
+        },
+        {
+          "id": "c",
+          "text": "Yon nonm ki te jis ke soufrans te epwouve"
+        },
+        {
+          "id": "d",
+          "text": "Yon prèt nan tanp lan"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jòb te yon moun ki te entèg e ki te dwat, Bondye te pèmèt Satan epwouve l (Jòb 1:1).",
+      "bibleReference": "Jòb 1:1",
+      "normalizedRef": "job1.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-017_fr",
+    "data": {
+      "id": "dq-sabid-017",
+      "questionText": "Qui est le personnage central du livre de Job ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un roi d'Israël"
+        },
+        {
+          "id": "b",
+          "text": "Un prophète d'Édom"
+        },
+        {
+          "id": "c",
+          "text": "Un homme juste éprouvé par la souffrance"
+        },
+        {
+          "id": "d",
+          "text": "Un prêtre du temple"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Job était un homme intègre et droit que Dieu permit à Satan d'éprouver (Job 1:1).",
+      "bibleReference": "Job 1:1",
+      "normalizedRef": "job1.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-018_ht",
+    "data": {
+      "id": "dq-sabid-018",
+      "questionText": "Konbyen chapit yo genyen nan liv Pwovèb yo?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "28"
+        },
+        {
+          "id": "c",
+          "text": "31"
+        },
+        {
+          "id": "d",
+          "text": "36"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Liv Pwovèb yo gen 31 chapit, li fini ak lwanj pou fanm vètyè a.",
+      "bibleReference": "Pwovèb 31",
+      "normalizedRef": "pro31",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-018_fr",
+    "data": {
+      "id": "dq-sabid-018",
+      "questionText": "Combien de chapitres comporte le livre des Proverbes ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "28"
+        },
+        {
+          "id": "c",
+          "text": "31"
+        },
+        {
+          "id": "d",
+          "text": "36"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le livre des Proverbes contient 31 chapitres, se terminant par l'éloge de la femme vertueuse.",
+      "bibleReference": "Proverbes 31",
+      "normalizedRef": "pro31",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-019_ht",
+    "data": {
+      "id": "dq-sabid-019",
+      "questionText": "Ki sòm ki yon akwostich konplè ki itilize 22 lèt alfabè ebre a?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 22"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 91"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 119"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sòm 119 se chapit ki pi long nan Bib la e se yon akwostich ebre ki gen 22 seksyon ak 8 vèsè chak.",
+      "bibleReference": "Sòm 119",
+      "normalizedRef": "psa119",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-019_fr",
+    "data": {
+      "id": "dq-sabid-019",
+      "questionText": "Quel psaume est une acrostiche complète utilisant les 22 lettres de l'alphabet hébreu ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 119"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Psaume 119 est le plus long chapitre de la Bible et une acrostiche hébraïque en 22 sections de 8 versets.",
+      "bibleReference": "Psaumes 119",
+      "normalizedRef": "psa119",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-020_ht",
+    "data": {
+      "id": "dq-sabid-020",
+      "questionText": "Kilès nan liv sa yo yo rele tou « Chante Chante yo Salomon an » ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Koèlèt (Eklezyas)"
+        },
+        {
+          "id": "b",
+          "text": "Shir HaShirim"
+        },
+        {
+          "id": "c",
+          "text": "Tehillim"
+        },
+        {
+          "id": "d",
+          "text": "Mishlei"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Shir HaShirim » se non ebre pou Chante Chante yo (Chante Chante yo 1:1).",
+      "bibleReference": "Chante Chante yo 1:1",
+      "normalizedRef": "sng1.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-020_fr",
+    "data": {
+      "id": "dq-sabid-020",
+      "questionText": "Lequel de ces livres est également appelé « Cantique des Cantiques de Salomon » ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Qohélet"
+        },
+        {
+          "id": "b",
+          "text": "Shir HaShirim"
+        },
+        {
+          "id": "c",
+          "text": "Tehillim"
+        },
+        {
+          "id": "d",
+          "text": "Mishlei"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Shir HaShirim » est le nom hébreu du Cantique des Cantiques (Cantique 1:1).",
+      "bibleReference": "Cantique 1:1",
+      "normalizedRef": "sng1.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-021_ht",
+    "data": {
+      "id": "dq-sabid-021",
+      "questionText": "Nan ki sòm David konfese peche l avèk Batcheba?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 22"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 51"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 73"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 88"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 51 (Miserere) se priyè repantans David apre Natan te fin denonse peche l la.",
+      "bibleReference": "Sòm 51:1",
+      "normalizedRef": "psa51.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-021_fr",
+    "data": {
+      "id": "dq-sabid-021",
+      "questionText": "Dans quel psaume David confesse-t-il son péché avec Bath-Schéba ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 51"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 73"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 88"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 51 (Miserere) est la prière de repentir de David après que Nathan lui eut dénoncé son péché.",
+      "bibleReference": "Psaumes 51:1",
+      "normalizedRef": "psa51.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-022_ht",
+    "data": {
+      "id": "dq-sabid-022",
+      "questionText": "Ki gwo bèt ki dekri nan chapit 40-41 nan liv Jòb la?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Beyemòt ak Leviyatran"
+        },
+        {
+          "id": "b",
+          "text": "Dragon ak Sèpan"
+        },
+        {
+          "id": "c",
+          "text": "Agle ak Lyon"
+        },
+        {
+          "id": "d",
+          "text": "Toro ak Lous"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Beyemòt (chap. 40) ak Leviyatran (chap. 41) montre pouvwa souveren Bondye nan kreyasyon an (Jòb 40-41).",
+      "bibleReference": "Jòb 40-41",
+      "normalizedRef": "job40-41",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-022_fr",
+    "data": {
+      "id": "dq-sabid-022",
+      "questionText": "Quelle créature gigantesque est décrite aux chapitres 40-41 de Job ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Béhémoth et Léviathan"
+        },
+        {
+          "id": "b",
+          "text": "Dragon et Serpent"
+        },
+        {
+          "id": "c",
+          "text": "Aigle et Lion"
+        },
+        {
+          "id": "d",
+          "text": "Taureau et Ours"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Béhémoth (ch.40) et Léviathan (ch.41) illustrent la puissance souveraine de Dieu dans la création (Job 40-41).",
+      "bibleReference": "Job 40-41",
+      "normalizedRef": "job40-41",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-023_ht",
+    "data": {
+      "id": "dq-sabid-023",
+      "questionText": "Pwovèb 31 fini ak deskripsyon yon fanm vètyè. Ki tèm ebre ki deziyen l?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Isha Qadosha"
+        },
+        {
+          "id": "b",
+          "text": "Éshet Hayil"
+        },
+        {
+          "id": "c",
+          "text": "Almah Tovah"
+        },
+        {
+          "id": "d",
+          "text": "Geveret Shalom"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Éshet Hayil » (fanm vanyan/fanm de valè) se ekspresyon ebre ki nan Pwovèb 31:10 la.",
+      "bibleReference": "Pwovèb 31:10",
+      "normalizedRef": "pro31.10",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-023_fr",
+    "data": {
+      "id": "dq-sabid-023",
+      "questionText": "Proverbes 31 se termine par la description d'une femme vertueuse. Quel terme hébreu la désigne ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Isha Qadosha"
+        },
+        {
+          "id": "b",
+          "text": "Éshet Hayil"
+        },
+        {
+          "id": "c",
+          "text": "Almah Tovah"
+        },
+        {
+          "id": "d",
+          "text": "Geveret Shalom"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Éshet Hayil » (femme de valeur/vaillante) est l'expression hébraïque de Proverbes 31:10.",
+      "bibleReference": "Proverbes 31:10",
+      "normalizedRef": "pro31.10",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-024_ht",
+    "data": {
+      "id": "dq-sabid-024",
+      "questionText": "Ki liv nan Bib la ki pi long e ki gen plis chapit?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jenèz"
+        },
+        {
+          "id": "b",
+          "text": "Ezayi"
+        },
+        {
+          "id": "c",
+          "text": "Sòm"
+        },
+        {
+          "id": "d",
+          "text": "Jeremi"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Liv Sòm nan gen 150 chapit, sa fè l tounen liv ki pi long nan Bib la.",
+      "bibleReference": "Sòm 1-150",
+      "normalizedRef": "psa1-150",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-024_fr",
+    "data": {
+      "id": "dq-sabid-024",
+      "questionText": "Quelle est la thèse centrale du livre de Job face à la souffrance ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La souffrance est toujours une punition divine pour le péché"
+        },
+        {
+          "id": "b",
+          "text": "La souffrance peut toucher les justes — Dieu est souverain et ses voies dépassent notre compréhension"
+        },
+        {
+          "id": "c",
+          "text": "La souffrance disparaît si l'on a assez de foi"
+        },
+        {
+          "id": "d",
+          "text": "La souffrance est une illusion à dépasser par la sagesse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Job réfute la théologie de la rétribution simple (souffrance = péché). La réponse divine (chapitres 38-41) ne donne pas d'explication rationnelle mais révèle la souveraineté incompréhensible de Dieu.",
+      "bibleReference": "Job 38:1-4",
+      "normalizedRef": "job38.1-4",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-025_ht",
+    "data": {
+      "id": "dq-sabid-025",
+      "questionText": "Ki sa Koèlèt (Eklezyas) di ki tèm santral lavi a san Bondye?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lafwa"
+        },
+        {
+          "id": "b",
+          "text": "Vanite (Sa ki pa vo anyen)"
+        },
+        {
+          "id": "c",
+          "text": "Sajès"
+        },
+        {
+          "id": "d",
+          "text": "Travay"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Tout se vanite » (Eklezyas 1:2) — se konsa Koèlèt dekri lavi san yon objektif etènèl ak Bondye.",
+      "bibleReference": "Eklezyas 1:2",
+      "normalizedRef": "ecc1.2",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-025_fr",
+    "data": {
+      "id": "dq-sabid-025",
+      "questionText": "Que dit l'Ecclésiaste (Qohélet) être le thème central de la vie sans Dieu ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La foi"
+        },
+        {
+          "id": "b",
+          "text": "La vanité (ce qui ne vaut rien)"
+        },
+        {
+          "id": "c",
+          "text": "La sagesse"
+        },
+        {
+          "id": "d",
+          "text": "Le travail"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tout est vanité (Ecclésiaste 1:2) — c'est ainsi que Qohélet décrit la vie sans un but éternel avec Dieu.",
+      "bibleReference": "Ecclésiaste 1:2",
+      "normalizedRef": "ecc1.2",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-026_ht",
+    "data": {
+      "id": "dq-sabid-026",
+      "questionText": "Ki sa Pwovèb 1:7 di ki se baz konesans?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Etidye lalwa a"
+        },
+        {
+          "id": "b",
+          "text": "Krentif pou Seyè a"
+        },
+        {
+          "id": "c",
+          "text": "Koute granmoun yo"
+        },
+        {
+          "id": "d",
+          "text": "Chèche richès"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Krentif pou Seyè a, se la konesans kòmanse » (Pwovèb 1:7).",
+      "bibleReference": "Pwovèb 1:7",
+      "normalizedRef": "pro1.7",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-026_fr",
+    "data": {
+      "id": "dq-sabid-026",
+      "questionText": "Que dit Proverbes 1:7 être le commencement de la science ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'étude de la loi"
+        },
+        {
+          "id": "b",
+          "text": "La crainte de l'Éternel"
+        },
+        {
+          "id": "c",
+          "text": "L'écoute des anciens"
+        },
+        {
+          "id": "d",
+          "text": "La recherche de la richesse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La crainte de l'Éternel est le commencement de la science (Proverbes 1:7).",
+      "bibleReference": "Proverbes 1:7",
+      "normalizedRef": "pro1.7",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-027_ht",
+    "data": {
+      "id": "dq-sabid-027",
+      "questionText": "Ki sòm yo rele souvan « Sòm gadò mouton an »?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 1"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 23"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 91"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 100"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 23 kòmanse ak « Seyè a se gadò mwen, mwen p'ap janm manke anyen ».",
+      "bibleReference": "Sòm 23:1",
+      "normalizedRef": "psa23.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-027_fr",
+    "data": {
+      "id": "dq-sabid-027",
+      "questionText": "Quel psaume est souvent appelé 'Le psaume du berger' ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 1"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 23"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 100"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 23 commence par : L'Éternel est mon berger : je ne manquerai de rien.",
+      "bibleReference": "Psaume 23:1",
+      "normalizedRef": "psa23.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-028_ht",
+    "data": {
+      "id": "dq-sabid-028",
+      "questionText": "Ki kalite sajès ki pi gwo selon liv Jòb la?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Konnen tout bagay"
+        },
+        {
+          "id": "b",
+          "text": "Gen anpil eksperyans"
+        },
+        {
+          "id": "c",
+          "text": "Gen krentif pou Bondye epi vire do bay sa ki mal"
+        },
+        {
+          "id": "d",
+          "text": "Pale byen devan moun"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Gen krentif pou Bondye, se sa ki bon konprann. Vire do bay sa ki mal, se sa ki sajès » (Jòb 28:28).",
+      "bibleReference": "Jòb 28:28",
+      "normalizedRef": "job28.28",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-028_fr",
+    "data": {
+      "id": "dq-sabid-028",
+      "questionText": "Quelle est la plus grande sagesse selon le livre de Job ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tout savoir"
+        },
+        {
+          "id": "b",
+          "text": "Avoir beaucoup d'expérience"
+        },
+        {
+          "id": "c",
+          "text": "La crainte du Seigneur et s'éloigner du mal"
+        },
+        {
+          "id": "d",
+          "text": "Bien parler devant les hommes"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La crainte du Seigneur, c'est la sagesse ; s'éloigner du mal, c'est l'intelligence (Job 28:28).",
+      "bibleReference": "Job 28:28",
+      "normalizedRef": "job28.28",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-029_ht",
+    "data": {
+      "id": "dq-sabid-029",
+      "questionText": "Ki sa liv Chante Chante yo selebre prensipalman?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lagè pèp Izrayèl la"
+        },
+        {
+          "id": "b",
+          "text": "Renmen ant yon gason ak yon fanm"
+        },
+        {
+          "id": "c",
+          "text": "Rekòt chak ane"
+        },
+        {
+          "id": "d",
+          "text": "Sèvis nan tanp lan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Chante Chante yo se yon powèm ki selebre renmen pasyone ak fidelite ant de moun ki renmen yo.",
+      "bibleReference": "Chante Chante yo 1-8",
+      "normalizedRef": "sng1-8",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sabid-029_fr",
+    "data": {
+      "id": "dq-sabid-029",
+      "questionText": "Que célèbre principalement le livre du Cantique des Cantiques ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les guerres d'Israël"
+        },
+        {
+          "id": "b",
+          "text": "L'amour entre un homme et une femme"
+        },
+        {
+          "id": "c",
+          "text": "Les récoltes annuelles"
+        },
+        {
+          "id": "d",
+          "text": "Le service du temple"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Cantique des Cantiques est un poème qui célèbre l'amour passionné et la fidélité entre deux amants.",
+      "bibleReference": "Cantique des Cantiques 1-8",
+      "normalizedRef": "sng1-8",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sal-001_ht",
+    "data": {
+      "id": "dq-sal-001",
+      "questionText": "Ki sòm ki kòmanse ak \"Bondye mwen, Bondye mwen, poukisa ou abandone mwen\"?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 1"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 22"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 51"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 91"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 22:1 se yon sòm mesi David ki kòmanse ak \"Bondye mwen, Bondye mwen, poukisa ou abandone mwen?\" Jezi te site l sou kwa a.",
+      "bibleReference": "Sòm 22:1",
+      "normalizedRef": "psa22.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-001_fr",
+    "data": {
+      "id": "dq-sal-001",
+      "questionText": "Dans quel psaume David dit-il « Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné ? »",
+      "categoryId": "salmos",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 51"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 119"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Psaume 22:1 est cité par Jésus sur la croix (Matthieu 27:46).",
+      "bibleReference": "Psaumes 22:1",
+      "normalizedRef": "psa22.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sal-002_ht",
+    "data": {
+      "id": "dq-sal-002",
+      "questionText": "Dapre Pwovèb 1:7, ki sa ki \"poto mitan konesans\"?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm ak Sajès",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lè ou al lekòl anpil"
+        },
+        {
+          "id": "b",
+          "text": "Gen krentif pou Seyè a"
+        },
+        {
+          "id": "c",
+          "text": "Li anpil liv"
+        },
+        {
+          "id": "d",
+          "text": "Koute granmoun"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pwovèb 1:7 — \"Gen krentif pou Seyè a, se poto mitan konesans.\"",
+      "bibleReference": "Pwovèb 1:7",
+      "normalizedRef": "pro1.7",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-002_fr",
+    "data": {
+      "id": "dq-sal-002",
+      "questionText": "Selon Proverbes 1:7, qu'est-ce qui est le commencement de la sagesse ?",
+      "categoryId": "salmos",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La connaissance"
+        },
+        {
+          "id": "b",
+          "text": "La prière"
+        },
+        {
+          "id": "c",
+          "text": "La crainte de l'Éternel"
+        },
+        {
+          "id": "d",
+          "text": "L'humilité"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« La crainte de l'Éternel est le commencement de la sagesse » (Proverbes 1:7).",
+      "bibleReference": "Proverbes 1:7",
+      "normalizedRef": "pro1.7",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "docId": "dq-sal-003_ht",
+    "data": {
+      "id": "dq-sal-003",
+      "questionText": "Ki premye fraz Sòm 23 ki bien konnen an?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Seyè a se limyè mwen\""
+        },
+        {
+          "id": "b",
+          "text": "\"Seyè a se bèjè mwen\""
+        },
+        {
+          "id": "c",
+          "text": "\"Seyè a se refij mwen\""
+        },
+        {
+          "id": "d",
+          "text": "\"Seyè a se fòtres mwen\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "\"Seyè a se bèjè mwen, mwen p ap manke anyen\" (Sòm 23:1).",
+      "bibleReference": "Sòm 23:1",
+      "normalizedRef": "psa23.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-003_fr",
+    "data": {
+      "id": "dq-sal-003",
+      "questionText": "Quelle est la première phrase du Psaume 23, bien connu ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "« L'Éternel est ma lumière »"
+        },
+        {
+          "id": "b",
+          "text": "« L'Éternel est mon berger »"
+        },
+        {
+          "id": "c",
+          "text": "« L'Éternel est mon refuge »"
+        },
+        {
+          "id": "d",
+          "text": "« L'Éternel est ma forteresse »"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« L'Éternel est mon berger : je ne manquerai de rien » (Psaume 23:1).",
+      "bibleReference": "Psaume 23:1",
+      "normalizedRef": "psa23.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-004_ht",
+    "data": {
+      "id": "dq-sal-004",
+      "questionText": "Konbyen sòm ki nan Liv Sòm yo?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "100"
+        },
+        {
+          "id": "b",
+          "text": "120"
+        },
+        {
+          "id": "c",
+          "text": "150"
+        },
+        {
+          "id": "d",
+          "text": "180"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Liv Sòm yo gen 150 sòm. Pi long lan se Sòm 119 ak pi kout la se Sòm 117.",
+      "bibleReference": "Sòm 150",
+      "normalizedRef": "psa150",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-004_fr",
+    "data": {
+      "id": "dq-sal-004",
+      "questionText": "Combien de psaumes y a-t-il dans le Livre des Psaumes ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "100"
+        },
+        {
+          "id": "b",
+          "text": "120"
+        },
+        {
+          "id": "c",
+          "text": "150"
+        },
+        {
+          "id": "d",
+          "text": "180"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Livre des Psaumes contient 150 psaumes. Le plus long est le Psaume 119 et le plus court est le Psaume 117.",
+      "bibleReference": "Psaume 150",
+      "normalizedRef": "psa150",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-005_ht",
+    "data": {
+      "id": "dq-sal-005",
+      "questionText": "Kilès yo atribye prensipalman otè pifò sòm yo?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salomon"
+        },
+        {
+          "id": "b",
+          "text": "Moyiz"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Ezekyas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David te ekri majorite sòm yo. Asaf, pitit Kore yo, Salomon ak Moyiz te ekri sòm tou.",
+      "bibleReference": "Sòm 3:1",
+      "normalizedRef": "psa3.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-005_fr",
+    "data": {
+      "id": "dq-sal-005",
+      "questionText": "À qui attribue-t-on principalement la paternité de la plupart des psaumes ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salomon"
+        },
+        {
+          "id": "b",
+          "text": "Moïse"
+        },
+        {
+          "id": "c",
+          "text": "David"
+        },
+        {
+          "id": "d",
+          "text": "Ézéchias"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "David a écrit la majorité des psaumes. Asaph, les fils de Koré, Salomon et Moïse ont également écrit des psaumes.",
+      "bibleReference": "Psaume 3:1",
+      "normalizedRef": "psa3.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-006_ht",
+    "data": {
+      "id": "dq-sal-006",
+      "questionText": "Ki sòm ki pi long nan Bib la?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 23"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 91"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 119"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sòm 119 se pi long chapit nan Bib la ak 176 vèsè. Tout seksyon an kòmanse pa yon lèt ebre diferan.",
+      "bibleReference": "Sòm 119:1",
+      "normalizedRef": "psa119.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-006_fr",
+    "data": {
+      "id": "dq-sal-006",
+      "questionText": "Quel est le psaume le plus long de la Bible ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 23"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 119"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Psaume 119 est le plus long chapitre de la Bible avec 176 versets. Chaque section commence par une lettre hébraïque différente.",
+      "bibleReference": "Psaume 119:1",
+      "normalizedRef": "psa119.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-007_ht",
+    "data": {
+      "id": "dq-sal-007",
+      "questionText": "Nan ki sòm David konfese peche li ak Betsabe ak asasina Ouri?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 22"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 51"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 91"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 119"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 51 se lapriyè konfesyon David apre pwofèt Natan te revele peche li ak Betsabe a.",
+      "bibleReference": "Sòm 51:1-4",
+      "normalizedRef": "psa51.1-4",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-007_fr",
+    "data": {
+      "id": "dq-sal-007",
+      "questionText": "Dans quel psaume David confesse-t-il son péché avec Bathshéba et le meurtre d'Urie ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 51"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 119"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 51 est la prière de confession de David après que le prophète Nathan lui a révélé son péché avec Bathshéba.",
+      "bibleReference": "Psaume 51:1-4",
+      "normalizedRef": "psa51.1-4",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-008_ht",
+    "data": {
+      "id": "dq-sal-008",
+      "questionText": "Ki sòm ki di \"Mwen leve je mwen sou mòn yo, ki kote sekou mwen a pral vini?\"?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 23"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 91"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 121"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sòm 121:1 di: \"Mwen leve je mwen sou mòn yo, ki kote sekou mwen a pral vini? Sekou mwen a soti nan Seyè a.\"",
+      "bibleReference": "Sòm 121:1-2",
+      "normalizedRef": "psa121.1-2",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-008_fr",
+    "data": {
+      "id": "dq-sal-008",
+      "questionText": "Quel psaume dit : « Je lève mes yeux vers les montagnes... D'où me viendra le secours ? » ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 23"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 121"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Psaume 121:1 dit : « Je lève mes yeux vers les montagnes... D'où me viendra le secours ? Le secours me vient de l'Éternel. »",
+      "bibleReference": "Psaume 121:1-2",
+      "normalizedRef": "psa121.1-2",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-009_ht",
+    "data": {
+      "id": "dq-sal-009",
+      "questionText": "Ki sòm ki dekri bonè moun jis la epi konpare l ak pye bwa bò dlo?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 1"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 2"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 3"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 100"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Sòm 1 konpare moun jis ak yon pye bwa ki plante bò dlo, ki bay fwi l nan sezon li. Li opoze l ak moun mechan yo ki tankou pay.",
+      "bibleReference": "Sòm 1:1-3",
+      "normalizedRef": "psa1.1-3",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-009_fr",
+    "data": {
+      "id": "dq-sal-009",
+      "questionText": "Quel psaume décrit le bonheur de l'homme juste et le compare à un arbre près d'un courant d'eau ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 1"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 2"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 3"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 100"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Le Psaume 1 compare l'homme juste à un arbre planté près d'un courant d'eau, qui donne son fruit en sa saison. Il l'oppose aux méchants qui sont comme la paille.",
+      "bibleReference": "Psaume 1:1-3",
+      "normalizedRef": "psa1.1-3",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-010_ht",
+    "data": {
+      "id": "dq-sal-010",
+      "questionText": "Ki sòm ki kòmanse ak \"Moun ki rete anba lonbraj Toupisan an\"?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 23"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 91"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 121"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 139"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 91 kòmanse: \"Moun ki rete nan kache kote Toupisan an, ki rete anba lonbraj Toupisan an.\" Li pwomèt pwoteksyon Bondye.",
+      "bibleReference": "Sòm 91:1",
+      "normalizedRef": "psa91.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-010_fr",
+    "data": {
+      "id": "dq-sal-010",
+      "questionText": "Quel psaume commence par : « Celui qui demeure sous l'abri du Très-Haut » ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 23"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 121"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 139"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 91 commence ainsi : « Celui qui demeure sous l'abri du Très-Haut repose à l'ombre du Tout-Puissant. » Il promet la protection de Dieu.",
+      "bibleReference": "Psaume 91:1",
+      "normalizedRef": "psa91.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-011_ht",
+    "data": {
+      "id": "dq-sal-011",
+      "questionText": "Konbyen \"Chante Desan\" (pelrinaj) ki genyen nan Sòm yo?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "12"
+        },
+        {
+          "id": "c",
+          "text": "15"
+        },
+        {
+          "id": "d",
+          "text": "20"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sòm 120 rive 134 se 15 \"Chante Desan\". Yo te chante pa pelren yo pandan yo monte Jerizalèm.",
+      "bibleReference": "Sòm 120-134",
+      "normalizedRef": "psa120-134",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-011_fr",
+    "data": {
+      "id": "dq-sal-011",
+      "questionText": "Combien de « Cantiques des degrés » (pèlerinage) y a-t-il dans les Psaumes ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "7"
+        },
+        {
+          "id": "b",
+          "text": "12"
+        },
+        {
+          "id": "c",
+          "text": "15"
+        },
+        {
+          "id": "d",
+          "text": "20"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Les Psaumes 120 à 134 constituent les 15 « Cantiques des degrés ». Ils étaient chantés par les pèlerins lors de leur montée vers Jérusalem.",
+      "bibleReference": "Psaume 120-134",
+      "normalizedRef": "psa120-134",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-012_ht",
+    "data": {
+      "id": "dq-sal-012",
+      "questionText": "Ki sòm yo rele \"Sòm Wayal\" ki trete gouvènman Bondye sou tout tè a?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 1-10"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 93-99"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 120-134"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 145-150"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 93-99 yo rele sòm \"Seyè a renye a\". Yo selebre gouvènman inivèsèl Bondye ak jijman l yo.",
+      "bibleReference": "Sòm 93:1",
+      "normalizedRef": "psa93.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-012_fr",
+    "data": {
+      "id": "dq-sal-012",
+      "questionText": "Quels psaumes appelle-t-on « Psaumes Royaux » traitant du règne de Dieu sur toute la terre ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaumes 1-10"
+        },
+        {
+          "id": "b",
+          "text": "Psaumes 93-99"
+        },
+        {
+          "id": "c",
+          "text": "Psaumes 120-134"
+        },
+        {
+          "id": "d",
+          "text": "Psaumes 145-150"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les Psaumes 93 à 99 sont appelés psaumes du « Règne de l'Éternel ». Ils célèbrent le gouvernement universel de Dieu et ses jugements.",
+      "bibleReference": "Psaume 93:1",
+      "normalizedRef": "psa93.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-013_ht",
+    "data": {
+      "id": "dq-sal-013",
+      "questionText": "Ki sòm ki pi kout nan Bib la?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 23"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 100"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 117"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sòm 117 se pi kout chapit nan Bib la ak sèlman 2 vèsè: \"Louwe Seyè a, tout nasyon yo...\"",
+      "bibleReference": "Sòm 117:1-2",
+      "normalizedRef": "psa117.1-2",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-013_fr",
+    "data": {
+      "id": "dq-sal-013",
+      "questionText": "Quel est le psaume le plus court de la Bible ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 23"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 100"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 117"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le Psaume 117 est le plus court chapitre de la Bible avec seulement 2 versets : « Louez l'Éternel, vous toutes les nations... »",
+      "bibleReference": "Psaume 117:1-2",
+      "normalizedRef": "psa117.1-2",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-014_ht",
+    "data": {
+      "id": "dq-sal-014",
+      "questionText": "Ki sòm mesyanik ki pwofetize \"Yo te devide rad mwen yo epi yo te oswa sou rad mwen\"?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 2"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 22"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 45"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 110"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 22:18 pwofetize: \"Yo divize rad mwen yo pami yo, epi sou rad mwen yo jete sò.\" Akonpli nan Jan 19:24 pandan krisifiksyon an.",
+      "bibleReference": "Sòm 22:18",
+      "normalizedRef": "psa22.18",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-014_fr",
+    "data": {
+      "id": "dq-sal-014",
+      "questionText": "Quel psaume messianique prophétise : « Ils se partagent mes vêtements, ils tirent au sort ma tunique » ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 2"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 22"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 45"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 110"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 22:18 prophétise : « Ils se partagent mes vêtements, ils tirent au sort ma tunique. » Accompli dans Jean 19:24 pendant la crucifixion.",
+      "bibleReference": "Psaume 22:18",
+      "normalizedRef": "psa22.18",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-015_ht",
+    "data": {
+      "id": "dq-sal-015",
+      "questionText": "Ki sòm ki fini ak pwomès rete nan kay Seyè a pou tout tan?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 1"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 23"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 91"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 100"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 23 fini: \"Sèten, bonte ak lanmou pral swiv mwen tout jou lavi mwen; epi mwen pral rete nan kay Seyè a pou tout tan.\" (v.6).",
+      "bibleReference": "Sòm 23:6",
+      "normalizedRef": "psa23.6",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-015_fr",
+    "data": {
+      "id": "dq-sal-015",
+      "questionText": "Quel psaume se termine par la promesse de demeurer dans la maison de l'Éternel pour toujours ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Psaume 1"
+        },
+        {
+          "id": "b",
+          "text": "Psaume 23"
+        },
+        {
+          "id": "c",
+          "text": "Psaume 91"
+        },
+        {
+          "id": "d",
+          "text": "Psaume 100"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 23 se termine ainsi : « Oui, le bonheur et la grâce m'accompagneront tous les jours de ma vie, et j'habiterai dans la maison de l'Éternel jusqu'à la fin de mes jours. » (v.6).",
+      "bibleReference": "Psaume 23:6",
+      "normalizedRef": "psa23.6",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-016_ht",
+    "data": {
+      "id": "dq-sal-016",
+      "questionText": "Konbyen \"Allellouya\" (Louwe Bondye) sòm yo genyen nan fen Liv Sòm yo?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "5 dènye sòm yo (146-150) chak kòmanse ak \"Alelouya\" epi fini ak li, fòmant yon fim gran lwanj pou fini Liv Sòm lan.",
+      "bibleReference": "Sòm 146-150",
+      "normalizedRef": "psa146-150",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-016_fr",
+    "data": {
+      "id": "dq-sal-016",
+      "questionText": "Combien de psaumes « Alléluia » (Louez Dieu) y a-t-il à la fin du Livre des Psaumes ?",
+      "categoryId": "salmos",
+      "categoryName": "Psaumes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les 5 derniers psaumes (146-150) commencent et se terminent chacun par « Alléluia », formant un grand finale de louange pour conclure le Livre des Psaumes.",
+      "bibleReference": "Psaume 146-150",
+      "normalizedRef": "psa146-150",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-017_ht",
+    "data": {
+      "id": "dq-sal-017",
+      "questionText": "Kòman premye vèsè Sòm 23 a kòmanse?",
+      "categoryId": "salmos",
+      "categoryName": "Sòm ak Sajès",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye se tout pouvwa"
+        },
+        {
+          "id": "b",
+          "text": "Seyè a se bèje mwen, mwen p’ap manke anyen"
+        },
+        {
+          "id": "c",
+          "text": "M’ap leve je m gade mòn yo"
+        },
+        {
+          "id": "d",
+          "text": "Fè kè nou kontan nan Seyè a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 23:1 — \"Seyè a se bèje mwen, mwen p’ap janm manke anyen.\"",
+      "bibleReference": "Sòm 23:1",
+      "normalizedRef": "psa23.1",
+      "normalizedCat": "salmos"
+    }
+  },
+  {
+    "docId": "dq-sal-017_fr",
+    "data": {
+      "questionText": "Comment commence le premier verset du Psaume 23 ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu est tout-puissant"
+        },
+        {
+          "id": "b",
+          "text": "L'Éternel est mon berger : je ne manquerai de rien"
+        },
+        {
+          "id": "c",
+          "text": "Je lève mes yeux vers les montagnes"
+        },
+        {
+          "id": "d",
+          "text": "Réjouissez-vous dans le Seigneur"
+        }
+      ],
+      "explanation": "Psaumes 23:1 — L'Éternel est mon berger : je ne manquerai de rien.",
+      "bibleReference": "Psaumes 23:1",
+      "id": "dq-sal-017",
+      "language": "fr"
+    }
+  }
+]

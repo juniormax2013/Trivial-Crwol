@@ -1,0 +1,3326 @@
+[
+  {
+    "docId": "dq-nt-002_ht",
+    "data": {
+      "id": "dq-nt-002",
+      "questionText": "Konbyen liv NT genyen?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "27"
+        },
+        {
+          "id": "c",
+          "text": "39"
+        },
+        {
+          "id": "d",
+          "text": "66"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "NT gen 27 liv: 4 Evanjil, Travay, 21 lèt, Revelasyon.",
+      "bibleReference": "Revelasyon 22:18"
+    }
+  },
+  {
+    "docId": "dq-nt-002_fr",
+    "data": {
+      "id": "dq-nt-002",
+      "questionText": "Combien de livres contient le Nouveau Testament ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "27"
+        },
+        {
+          "id": "c",
+          "text": "39"
+        },
+        {
+          "id": "d",
+          "text": "66"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le NT contient 27 livres : 4 Évangiles, les Actes, 21 lettres (épîtres) et l'Apocalypse.",
+      "bibleReference": "Apocalypse 22:18"
+    }
+  },
+  {
+    "docId": "dq-nt-003_ht",
+    "data": {
+      "id": "dq-nt-003",
+      "questionText": "Ki moun ki te ekri plis liv NT?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyè"
+        },
+        {
+          "id": "b",
+          "text": "Jan"
+        },
+        {
+          "id": "c",
+          "text": "Pòl"
+        },
+        {
+          "id": "d",
+          "text": "Lk"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pòl te ekri 13 (oswa 14 si Ebre) liv NT: Women, Korentyen, Galat, Efezyen, Filipyen, Kolosyen, Tesalonisyen, Timote, Tit, Filemòn.",
+      "bibleReference": "Women 1:1"
+    }
+  },
+  {
+    "docId": "dq-nt-003_fr",
+    "data": {
+      "id": "dq-nt-003",
+      "questionText": "Qui a écrit le plus de livres dans le Nouveau Testament ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pierre"
+        },
+        {
+          "id": "b",
+          "text": "Jean"
+        },
+        {
+          "id": "c",
+          "text": "Paul"
+        },
+        {
+          "id": "d",
+          "text": "Luc"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Paul a écrit 13 (ou 14 si l'on inclut les Hébreux) livres du NT : Romains, Corinthiens, Galates, Éphésiens, Philippiens, Colossiens, Thessaloniciens, Timothée, Tite, Philémon.",
+      "bibleReference": "Romains 1:1"
+    }
+  },
+  {
+    "docId": "dq-nt-004_ht",
+    "data": {
+      "id": "dq-nt-004",
+      "questionText": "Ki premye Evanjil ki ekri yo dapre majorite espè yo?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jan"
+        },
+        {
+          "id": "b",
+          "text": "Matye"
+        },
+        {
+          "id": "c",
+          "text": "Mak"
+        },
+        {
+          "id": "d",
+          "text": "Lk"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Majorite espè konsidere Mak kòm premye Evanjil ekri (50-65 AD), epi Matye ak Lk te itilize li kòm sous (Teyori de-sous).",
+      "bibleReference": "Mak 1:1"
+    }
+  },
+  {
+    "docId": "dq-nt-004_fr",
+    "data": {
+      "id": "dq-nt-004",
+      "questionText": "Quel est le premier Évangile écrit selon la majorité des experts ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jean"
+        },
+        {
+          "id": "b",
+          "text": "Matthieu"
+        },
+        {
+          "id": "c",
+          "text": "Marc"
+        },
+        {
+          "id": "d",
+          "text": "Luc"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La majorité des experts considèrent Marc comme le premier Évangile écrit (50-65 ap. J.-C.), et que Matthieu et Luc l'ont utilisé comme source (Théorie des deux sources).",
+      "bibleReference": "Marc 1:1"
+    }
+  },
+  {
+    "docId": "dq-nt-005_ht",
+    "data": {
+      "id": "dq-nt-005",
+      "questionText": "Ki sa \"Sinoptik\" vle di nan etid Evanjil yo?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Evanjil ki gen plis mirak"
+        },
+        {
+          "id": "b",
+          "text": "Matye, Mak ak Lk ki pataje anpil materyèl paralèl"
+        },
+        {
+          "id": "c",
+          "text": "Evanjil ki pi ansyen yo"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman Evanjil Mak la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sinoptik (grèk: \"wè ansanm\") = Matye, Mak, Lk. Yo pataje anpil pasaj paralèl kontrèman ak Jan ki endepandan majoritèman.",
+      "bibleReference": "Matye 1:1"
+    }
+  },
+  {
+    "docId": "dq-nt-005_fr",
+    "data": {
+      "id": "dq-nt-005",
+      "questionText": "Que signifie « Synoptique » dans l'étude des Évangiles ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les Évangiles contenant le plus de miracles"
+        },
+        {
+          "id": "b",
+          "text": "Matthieu, Marc et Luc qui partagent beaucoup de matériel parallèle"
+        },
+        {
+          "id": "c",
+          "text": "Les Évangiles les plus anciens"
+        },
+        {
+          "id": "d",
+          "text": "Uniquement l'Évangile de Marc"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Synoptique (du grec : « voir ensemble ») = Matthieu, Marc, Luc. Ils partagent de nombreux passages parallèles, contrairement à Jean qui est majoritairement indépendant.",
+      "bibleReference": "Matthieu 1:1"
+    }
+  },
+  {
+    "docId": "dq-nt-006_ht",
+    "data": {
+      "id": "dq-nt-006",
+      "questionText": "Ki liv NT ki ekri anvan lèt Pòl yo?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matye"
+        },
+        {
+          "id": "b",
+          "text": "Jan"
+        },
+        {
+          "id": "c",
+          "text": "Jak"
+        },
+        {
+          "id": "d",
+          "text": "Ebre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Majorite espè date Jak nan ~45-50 AD — anvan lèt Pòl yo (pi bonè ~48 AD pou Galat). Jak ka youn nan premye ekrit NT.",
+      "bibleReference": "Jak 1:1"
+    }
+  },
+  {
+    "docId": "dq-nt-006_fr",
+    "data": {
+      "id": "dq-nt-006",
+      "questionText": "Quel livre du Nouveau Testament a été écrit avant les lettres de Paul ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Matthieu"
+        },
+        {
+          "id": "b",
+          "text": "Jean"
+        },
+        {
+          "id": "c",
+          "text": "Jacques"
+        },
+        {
+          "id": "d",
+          "text": "Hébreux"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La majorité des experts datent l'épître de Jacques vers 45-50 ap. J.-C. — avant les lettres de Paul (la plus ancienne étant vers 48 ap. J.-C. pour les Galates). Jacques pourrait être l'un des premiers écrits du NT.",
+      "bibleReference": "Jacques 1:1"
+    }
+  },
+  {
+    "docId": "dq-nt-007_ht",
+    "data": {
+      "id": "dq-nt-007",
+      "questionText": "Ki sa \"Pwoblèm Sinoptik\" etidyan NT yo analize?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Diferans ant Jwif ak Jantil nan NT"
+        },
+        {
+          "id": "b",
+          "text": "Kijan Matye, Mak ak Lk gen anpil materyèl komen — ki sous yo te pataje?"
+        },
+        {
+          "id": "c",
+          "text": "Erè nan tradiksyon NT"
+        },
+        {
+          "id": "d",
+          "text": "Kont enpòtans diferan apòt yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pwoblèm Sinoptik: poukisa Matye, Mak, Lk resanble anpil? Teyori prensipal: Pryorite Mak (Mak ekri anvan, Matye/Lk itilize li + yon sous \"Q\").",
+      "bibleReference": "Lk 1:1-4"
+    }
+  },
+  {
+    "docId": "dq-nt-007_fr",
+    "data": {
+      "id": "dq-nt-007",
+      "questionText": "Qu'analysent les étudiants du NT sous le terme de « Problème synoptique » ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les différences entre Juifs et Gentils dans le NT"
+        },
+        {
+          "id": "b",
+          "text": "Comment Matthieu, Marc et Luc ont tant de matériel en commun — quelles sources ont-ils partagées ?"
+        },
+        {
+          "id": "c",
+          "text": "Erreurs dans la traduction du NT"
+        },
+        {
+          "id": "d",
+          "text": "Débats sur l'importance des différents apôtres"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Problème synoptique : pourquoi Matthieu, Marc et Luc se ressemblent-ils tant ? Théorie principale : Priorité de Marc (Marc écrit en premier, Matthieu/Luc l'utilisent + une source « Q »).",
+      "bibleReference": "Luc 1:1-4"
+    }
+  },
+  {
+    "docId": "dq-nt-008_ht",
+    "data": {
+      "id": "dq-nt-008",
+      "questionText": "Ki sa \"Repa Seyè a\" reprezante?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon senp diné kretyen"
+        },
+        {
+          "id": "b",
+          "text": "Selebrasyon kò ak san Kris, pwoklamasyon lanmò li jiska retou l"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman pou pastè yo"
+        },
+        {
+          "id": "d",
+          "text": "Ranplasman sakrifis AT yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Korentyen 11:23-26 — \"Chak fwa nou manje pen sa a ak bwè tas la, nou pwoklamasyon lanmò Seyè a jiskaske li vini.\"",
+      "bibleReference": "1 Korentyen 11:26"
+    }
+  },
+  {
+    "docId": "dq-nt-008_fr",
+    "data": {
+      "id": "dq-nt-008",
+      "questionText": "Que représente le « Repas du Seigneur » ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un simple dîner chrétien"
+        },
+        {
+          "id": "b",
+          "text": "La célébration du corps et du sang de Christ, la proclamation de sa mort jusqu'à son retour"
+        },
+        {
+          "id": "c",
+          "text": "Réservé uniquement aux pasteurs"
+        },
+        {
+          "id": "d",
+          "text": "Un remplacement des sacrifices de l'AT"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Corinthiens 11:23-26 — « Car toutes les fois que vous mangez ce pain et que vous buvez cette coupe, vous annoncez la mort du Seigneur, jusqu'à ce qu'il vienne. »",
+      "bibleReference": "1 Corinthiens 11:26"
+    }
+  },
+  {
+    "docId": "dq-nt-009_ht",
+    "data": {
+      "id": "dq-nt-009",
+      "questionText": "Ki sa \"Lèt Pastoral\" yo vle di?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lèt pou pèp jeneral la"
+        },
+        {
+          "id": "b",
+          "text": "1 Timote, 2 Timote, Tit — lèt Pòl bay lidè legliz pou pran swen kongregasyon"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman Ebre"
+        },
+        {
+          "id": "d",
+          "text": "Lèt Pyè yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timote, 2 Timote ak Tit rele \"Pastoral\" paske yo adrese dirije legliz (pastè) ak enstriksyon pou lidèship espirityèl, karaktè ak ansèyman sèn.",
+      "bibleReference": "1 Timote 3:1-7"
+    }
+  },
+  {
+    "docId": "dq-nt-009_fr",
+    "data": {
+      "id": "dq-nt-009",
+      "questionText": "Que signifient les « Épîtres Pastorales » ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des lettres destinées au peuple en général"
+        },
+        {
+          "id": "b",
+          "text": "1 Timothée, 2 Timothée, Tite — lettres de Paul aux dirigeants d'église pour prendre soin des congrégations"
+        },
+        {
+          "id": "c",
+          "text": "Uniquement Hébreux"
+        },
+        {
+          "id": "d",
+          "text": "Les lettres de Pierre"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timothée, 2 Timothée et Tite sont appelées « Pastorales » car elles s'adressent aux dirigeants de l'église (pasteurs) avec des instructions sur le leadership spirituel, le caractère et la saine doctrine.",
+      "bibleReference": "1 Timothée 3:1-7"
+    }
+  },
+  {
+    "docId": "dq-nt-010_ht",
+    "data": {
+      "id": "dq-nt-010",
+      "questionText": "Ki sa \"Lèt Jeneral\" yo nan NT?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lèt pou yon sèl legliz"
+        },
+        {
+          "id": "b",
+          "text": "Jak, Pyè, Jan, Jid — lèt adrese a plizyè legliz oswa a legliz jeneral la"
+        },
+        {
+          "id": "c",
+          "text": "Sèlman lèt Pòl yo"
+        },
+        {
+          "id": "d",
+          "text": "Ebre ak Revelasyon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lèt Jeneral (Katolik): Jak, 1-2 Pyè, 1-2-3 Jan, Jid. Pa adrese a yon legliz espesifik men a kominote kretyen pi laj la.",
+      "bibleReference": "Jak 1:1"
+    }
+  },
+  {
+    "docId": "dq-nt-010_fr",
+    "data": {
+      "id": "dq-nt-010",
+      "questionText": "Que sont les « Épîtres Générales » dans le NT ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des lettres destinées à une seule église"
+        },
+        {
+          "id": "b",
+          "text": "Jacques, Pierre, Jean, Jude — lettres adressées à plusieurs églises ou à l'église universelle"
+        },
+        {
+          "id": "c",
+          "text": "Uniquement les lettres de Paul"
+        },
+        {
+          "id": "d",
+          "text": "Hébreux et Apocalypse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les Épîtres Générales (Catholiques) : Jacques, 1-2 Pierre, 1-2-3 Jean, Jude. Elles ne sont pas adressées à une église spécifique mais à la communauté chrétienne plus large.",
+      "bibleReference": "Jacques 1:1"
+    }
+  },
+  {
+    "docId": "dq-nt-011_ht",
+    "data": {
+      "id": "dq-nt-011",
+      "questionText": "Ki mesaj santral Evanjil Jan an?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jezi kòm Wa Izrayèl"
+        },
+        {
+          "id": "b",
+          "text": "Jezi kòm Pitit Bondye étenèl — kwè pou jwenn lavi étenèl"
+        },
+        {
+          "id": "c",
+          "text": "Jezi kòm pwofèt sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Istwa Legliz premye a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 20:31 — \"Bagay sa yo ekri pou nou ka kwè ke Jezi se Kris la, Pitit Bondye, epi pa lafwa nou pral gen lavi nan non l.\"",
+      "bibleReference": "Jan 20:31"
+    }
+  },
+  {
+    "docId": "dq-nt-011_fr",
+    "data": {
+      "id": "dq-nt-011",
+      "questionText": "Quel est le message central de l'Évangile de Jean ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus comme Roi d'Israël"
+        },
+        {
+          "id": "b",
+          "text": "Jésus comme Fils éternel de Dieu — croire pour avoir la vie éternelle"
+        },
+        {
+          "id": "c",
+          "text": "Jésus comme simple prophète"
+        },
+        {
+          "id": "d",
+          "text": "L'histoire de l'Église primitive"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean 20:31 — « Mais ces choses ont été écrites afin que vous croyiez que Jésus est le Christ, le Fils de Dieu, et qu'en croyant vous ayez la vie en son nom. »",
+      "bibleReference": "Jean 20:31"
+    }
+  },
+  {
+    "docId": "dq-nt-012_ht",
+    "data": {
+      "id": "dq-nt-012",
+      "questionText": "Ki sa \"Pitit Bondye\" vle di nan kontèks NT?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon pitit adopsyon Bondye kreye"
+        },
+        {
+          "id": "b",
+          "text": "Pèsòn dezyèm Trinite a — ko-égal ak ko-étenèl ak Bondye — vrai Bondye ak vrai moun"
+        },
+        {
+          "id": "c",
+          "text": "Yon tit onoraryik bay gwo lidè"
+        },
+        {
+          "id": "d",
+          "text": "Yon zanj espesyal Bondye kreye"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan 1:1,18; 10:30 — \"Pawòl la te Bondye,\" \"Mwen ak Papa a nou se youn.\" Konsilta Nikaya (325 AD) konfime: Jezi homoousios (menm sibstans) ak Bondye.",
+      "bibleReference": "Jan 10:30"
+    }
+  },
+  {
+    "docId": "dq-nt-012_fr",
+    "data": {
+      "id": "dq-nt-012",
+      "questionText": "Que signifie « Fils de Dieu » dans le contexte du NT ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un fils d'adoption créé par Dieu"
+        },
+        {
+          "id": "b",
+          "text": "La deuxième personne de la Trinité — co-égale et co-éternelle avec Dieu — vrai Dieu et vrai homme"
+        },
+        {
+          "id": "c",
+          "text": "Un titre honorifique donné aux grands dirigeants"
+        },
+        {
+          "id": "d",
+          "text": "Un ange spécial créé par Dieu"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean 1:1, 18 ; 10:30 — « La Parole était Dieu », « Moi et le Père nous sommes un. » Le Concile de Nicée (325 ap. J.-C.) confirme : Jésus est homoousios (de même substance) avec Dieu.",
+      "bibleReference": "Jean 10:30"
+    }
+  },
+  {
+    "docId": "dq-nt-013_ht",
+    "data": {
+      "id": "dq-nt-013",
+      "questionText": "Ki sa lèt Ebre anseye sou Jezi kòm \"Gran Prêt\"?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jezi te travay kòm prêt nan Tanp Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "Jezi se Gran Prêt étenèl selon lòd Melkisédèk — sakrifis li fin tout sakrifis"
+        },
+        {
+          "id": "c",
+          "text": "Yon tit senbòlik san aplikasyon reyèl"
+        },
+        {
+          "id": "d",
+          "text": "Jezi pral tounen kòm prêt nan Milenyòm nan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ebre 4:14-15; 7:24-27 — Jezi \"Gran Prêt ki travèse syèl yo,\" prêt étenèl selon Melkisédèk, ofri tèt li yon sèl fwa pou tout moun — pa bezwen repete sakrifis.",
+      "bibleReference": "Ebre 7:24-27"
+    }
+  },
+  {
+    "docId": "dq-nt-013_fr",
+    "data": {
+      "id": "dq-nt-013",
+      "questionText": "Qu'enseigne l'épître aux Hébreux sur Jésus en tant que « Souverain Sacrificateur » ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jésus a travaillé comme prêtre dans le Temple de Jérusalem"
+        },
+        {
+          "id": "b",
+          "text": "Jésus est le Souverain Sacrificateur éternel selon l'ordre de Melchisédek — son sacrifice met fin à tous les sacrifices"
+        },
+        {
+          "id": "c",
+          "text": "Un titre symbolique sans application réelle"
+        },
+        {
+          "id": "d",
+          "text": "Jésus reviendra comme prêtre pendant le Millénium"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hébreux 4:14-15 ; 7:24-27 — Jésus est le « souverain sacrificateur qui a traversé les cieux », prêtre éternel selon Melchisédek, s'offrant lui-même une fois pour toutes — plus besoin de répéter les sacrifices.",
+      "bibleReference": "Hébreux 7:24-27"
+    }
+  },
+  {
+    "docId": "dq-nt-014_ht",
+    "data": {
+      "id": "dq-nt-014",
+      "questionText": "Ki sa \"Konsilye Jerizalèm\" (Travay 15) rezoud?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debate sou batèm"
+        },
+        {
+          "id": "b",
+          "text": "Sòmasizasyon — Jantil pa bezwen sikonsi pou sove"
+        },
+        {
+          "id": "c",
+          "text": "Chwa suksesè Pyè"
+        },
+        {
+          "id": "d",
+          "text": "Distribisyon travay misyonè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Travay 15:1-29 — Konsilye Jerizalèm debat si Jantil dwe sikonsi pou sove. Desizyon: Non — Jantil sove pa lafwa nan Kris, pa Lwa. Baz teyoloji Pòl.",
+      "bibleReference": "Travay 15:11"
+    }
+  },
+  {
+    "docId": "dq-nt-014_fr",
+    "data": {
+      "id": "dq-nt-014",
+      "questionText": "Que résout le « Concile de Jérusalem » (Actes 15) ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Débat sur le baptême"
+        },
+        {
+          "id": "b",
+          "text": "La question de la circoncision — les Gentils n'ont pas besoin d'être circoncis pour être sauvés"
+        },
+        {
+          "id": "c",
+          "text": "Le choix du successeur de Pierre"
+        },
+        {
+          "id": "d",
+          "text": "La distribution du travail missionnaire"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Actes 15:1-29 — Le Concile de Jérusalem débat si les Gentils doivent être circoncis pour être sauvés. Décision : Non — les Gentils sont sauvés par la foi en Christ, pas par la Loi. Base de la théologie de Paul.",
+      "bibleReference": "Actes 15:11"
+    }
+  },
+  {
+    "docId": "dq-nt-015_ht",
+    "data": {
+      "id": "dq-nt-015",
+      "questionText": "Ki sa Revelasyon 1:8 di sou Kris?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"M ap vini byento\""
+        },
+        {
+          "id": "b",
+          "text": "\"Mwen se Alfa ak Omega, ki te la, ki la, ak ki pral vini — Toupisan\""
+        },
+        {
+          "id": "c",
+          "text": "\"Kase sèl yo epi ouvri liv la\""
+        },
+        {
+          "id": "d",
+          "text": "\"Siksè sou yo tout\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon 1:8 — Seyè Bondye di: \"Mwen se Alfa ak Omega... ki te la, ki la, ak ki pral vini, Toupisan.\" Deklarasyon souverènte étenèl Bondye/Kris.",
+      "bibleReference": "Revelasyon 1:8"
+    }
+  },
+  {
+    "docId": "dq-nt-015_fr",
+    "data": {
+      "id": "dq-nt-015",
+      "questionText": "Que dit Apocalypse 1:8 à propos de Christ ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "« Je viens bientôt »"
+        },
+        {
+          "id": "b",
+          "text": "« Je suis l'Alpha et l'Oméga, celui qui est, qui était, et qui vient, le Tout-Puissant »"
+        },
+        {
+          "id": "c",
+          "text": "« Brisez les sceaux et ouvrez le livre »"
+        },
+        {
+          "id": "d",
+          "text": "« Succès sur eux tous »"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apocalypse 1:8 — Le Seigneur Dieu dit : « Je suis l'alpha et l'oméga... celui qui est, qui était, et qui vient, le Tout-Puissant. » Déclaration de la souveraineté éternelle de Dieu/Christ.",
+      "bibleReference": "Apocalypse 1:8"
+    }
+  },
+  {
+    "docId": "dq-nt-016_ht",
+    "data": {
+      "id": "dq-nt-016",
+      "questionText": "Konbe liv ki genyen nan Nouvo Testaman an?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "27"
+        },
+        {
+          "id": "c",
+          "text": "29"
+        },
+        {
+          "id": "d",
+          "text": "39"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nouvo Testaman an gen 27 liv : 4 Levanjil, Akt, 21 Lèt ak Revelasyon.",
+      "bibleReference": "Le Nouveau Testament complet",
+      "normalizedRef": "lenouveautestamentcomplet",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "docId": "dq-nt-016_fr",
+    "data": {
+      "id": "dq-nt-016",
+      "questionText": "Combien de livres contient le Nouveau Testament ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "27"
+        },
+        {
+          "id": "c",
+          "text": "29"
+        },
+        {
+          "id": "d",
+          "text": "39"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Nouveau Testament contient 27 livres : 4 Évangiles, les Actes, 21 Épîtres (Paulines et Générales) et l'Apocalypse.",
+      "bibleReference": "Le Nouveau Testament complet",
+      "normalizedRef": "lenouveautestamentcomplet",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "docId": "dq-nt-017_ht",
+    "data": {
+      "id": "dq-nt-017",
+      "questionText": "Ki vèsè ki pi kout nan Nouvo Testaman an?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Filipyen 4:4"
+        },
+        {
+          "id": "b",
+          "text": "1 Tesalonisyen 5:17"
+        },
+        {
+          "id": "c",
+          "text": "Jan 11:35"
+        },
+        {
+          "id": "d",
+          "text": "Akt 2:1"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Jezi te kriye » (Jan 11:35) — vèsè ki pi kout nan Nouvo Testaman an.",
+      "bibleReference": "Jean 11:35",
+      "normalizedRef": "joh11.35",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "docId": "dq-nt-017_fr",
+    "data": {
+      "id": "dq-nt-017",
+      "questionText": "Quel est le verset le plus court du Nouveau Testament ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Philippiens 4:4"
+        },
+        {
+          "id": "b",
+          "text": "1 Thessaloniciens 5:17"
+        },
+        {
+          "id": "c",
+          "text": "Jean 11:35"
+        },
+        {
+          "id": "d",
+          "text": "Actes 2:1"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "« Jésus pleura » (Jean 11:35) — deux mots en français, deux en grec (ἐδάκρυσεν ὁ Ἰησοῦς) — verset le plus court du NT.",
+      "bibleReference": "Jean 11:35",
+      "normalizedRef": "joh11.35",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "docId": "dq-nt-018_ht",
+    "data": {
+      "id": "dq-nt-018",
+      "questionText": "Poukisa Levanjil Jan an tèlman diferan de twa Levanjil sinoptik yo?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jan pa t konn Jezi pèsonèlman"
+        },
+        {
+          "id": "b",
+          "text": "Jan prezante divinite Kris la ak yon pwofondè teyolojik inik — 90% kontni l pa nan lòt yo"
+        },
+        {
+          "id": "c",
+          "text": "Jan pale ak janti yo sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Jan te ekri apre Revelasyon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jan kòmanse ak Pawòl la (Jan 1:1), li gen diskou nan dènye soupe a (Jan 13-17), 7 siy yo, ak 7 « Mwen se ». Apeprè 90% kontni l se pou li sèl — konsantre sou divinite Kris la.",
+      "bibleReference": "Jean 20:30-31",
+      "normalizedRef": "joh20.30-31",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "docId": "dq-nt-018_fr",
+    "data": {
+      "id": "dq-nt-018",
+      "questionText": "Pourquoi l'Évangile de Jean est-il si différent des trois Évangiles synoptiques ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jean n'a pas connu Jésus personnellement"
+        },
+        {
+          "id": "b",
+          "text": "Jean présente la divinité de Christ avec une profondeur théologique unique — 90% de son contenu est absent des synoptiques"
+        },
+        {
+          "id": "c",
+          "text": "Jean s'adresse uniquement aux gentils"
+        },
+        {
+          "id": "d",
+          "text": "Jean a été écrit après l'Apocalypse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jean ouvre avec le Logos (Jean 1:1), inclut les discours de l'upper room (Jean 13-17), les 7 signes, les 7 « Je suis ». Environ 90% de son contenu est unique — focalisé sur la divinité de Christ.",
+      "bibleReference": "Jean 20:30-31",
+      "normalizedRef": "joh20.30-31",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "docId": "dq-nt-019_ht",
+    "data": {
+      "id": "dq-nt-019",
+      "questionText": "Ki estrikti literè liv Revelasyon an e kijan yo dwe entèprete li?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouvo Testaman",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon istwa lineyè sou evènman k'ap vini yo nan lòd kwonolojik"
+        },
+        {
+          "id": "b",
+          "text": "Yon jan apokalips senbolik — vizyon pwofetik ki montre viktwa Bondye sou sa ki mal ak imaj senbolik"
+        },
+        {
+          "id": "c",
+          "text": "Yon kòd sekrè pou moun ki inisye sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Yon liv istorik sou lavil Wòm nan premye syèk la sèlman"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Revelasyon se yon jan apokalips (tankou Danyèl) — senbolis rich, chif senbolik (7, 12, 1000). Kat fason pou entèprete l: preteris, ideyalis, istorisis, futiris.",
+      "bibleReference": "Apocalypse 1:1",
+      "normalizedRef": "rev1.1",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "docId": "dq-nt-019_fr",
+    "data": {
+      "id": "dq-nt-019",
+      "questionText": "Quelle est la structure littéraire de l'Apocalypse et comment doit-elle être interprétée ?",
+      "categoryId": "nuevo-testamento",
+      "categoryName": "Nouveau Testament",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un récit historique linéaire des événements futurs dans l'ordre chronologique exact"
+        },
+        {
+          "id": "b",
+          "text": "Un genre apocalyptique symbolique — vision prophétique communicant la victoire de Dieu sur le mal avec images typiques du genre (Israël, Rome, Babylone)"
+        },
+        {
+          "id": "c",
+          "text": "Un code secret réservé aux initiés"
+        },
+        {
+          "id": "d",
+          "text": "Un livre uniquement historique sur la Rome du 1er siècle sans portée future"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Apocalypse est du genre apocalyptique (daniel, Hénoch) — symbolisme riche, chiffres symboliques (7, 12, 1000), images de combats cosmiques. Quatre approches : prétérisme, idéalisme, historicisme, futurisme.",
+      "bibleReference": "Apocalypse 1:1",
+      "normalizedRef": "rev1.1",
+      "normalizedCat": "nuevo-testamento"
+    }
+  },
+  {
+    "docId": "dq-ora-001_ht",
+    "data": {
+      "id": "dq-ora-001",
+      "questionText": "Ki eleman prensipal ki nan Priyè Seyè a?",
+      "categoryId": "oracion",
+      "categoryName": "Priyè",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sèlman demand pèsonèl"
+        },
+        {
+          "id": "b",
+          "text": "Adoresyon, volonte Bondye, bezwen chak jou, padon, delivrans"
+        },
+        {
+          "id": "c",
+          "text": "Lwanj espirityèl sèlman"
+        },
+        {
+          "id": "d",
+          "text": "Konfesyon ak penitans"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 6:9-13 — Priyè Seyè a: adoresyon (\"Papa nou...\"), wayòm Bondye, bezwen kotidyen (\"pen nou chak jou\"), padon (resevwa ak bay), delivrans mal.",
+      "bibleReference": "Matye 6:9-13"
+    }
+  },
+  {
+    "docId": "dq-ora-001_fr",
+    "data": {
+      "id": "dq-ora-001",
+      "questionText": "Quels sont les principaux éléments de la Prière du Seigneur ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Uniquement des demandes personnelles"
+        },
+        {
+          "id": "b",
+          "text": "Adoration, volonté de Dieu, besoins quotidiens, pardon, délivrance"
+        },
+        {
+          "id": "c",
+          "text": "Uniquement des louanges spirituelles"
+        },
+        {
+          "id": "d",
+          "text": "Confession et pénitence"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 6:9-13 — La Prière du Seigneur : adoration (« Notre Père... »), règne de Dieu, besoins quotidiens (« notre pain de ce jour »), pardon (reçu et donné), délivrance du mal.",
+      "bibleReference": "Matthieu 6:9-13"
+    }
+  },
+  {
+    "docId": "dq-ora-002_ht",
+    "data": {
+      "id": "dq-ora-002",
+      "questionText": "Ki sa Bib la anseye sou priyè \"san sispann\" (1 Tes 5:17)?",
+      "categoryId": "oracion",
+      "categoryName": "Priyè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Priye 24 èdtan san janm kanpe"
+        },
+        {
+          "id": "b",
+          "text": "Yon atitid kontinu kominikasyon ak Bondye nan tout aktivite yo"
+        },
+        {
+          "id": "c",
+          "text": "Resitatif priyè ki repete plizyè fwa pa jou"
+        },
+        {
+          "id": "d",
+          "text": "Jèn pandan priyè a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Tesalonisyen 5:17 — \"Priye san sispann.\" Kontèks la: pa yon priyè literal nonstop men yon atitid kè ki rele sou Bondye nan tout sikonstans (Efezyen 6:18).",
+      "bibleReference": "1 Tesalonisyen 5:17"
+    }
+  },
+  {
+    "docId": "dq-ora-002_fr",
+    "data": {
+      "id": "dq-ora-002",
+      "questionText": "Que nous enseigne la Bible sur le fait de prier « sans cesse » (1 Thess 5:17) ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prier 24 heures sur 24 sans jamais s'arrêter"
+        },
+        {
+          "id": "b",
+          "text": "Une attitude de communication continue avec Dieu dans toutes les activités"
+        },
+        {
+          "id": "c",
+          "text": "Réciter des prières répétitives plusieurs fois par jour"
+        },
+        {
+          "id": "d",
+          "text": "Jeûner pendant la prière"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Thessaloniciens 5:17 — « Priez sans cesse. » Le contexte n'indique pas une prière littérale ininterrompue, mais une attitude de cœur tournée vers Dieu en toutes circonstances (Éphésiens 6:18).",
+      "bibleReference": "1 Thessaloniciens 5:17"
+    }
+  },
+  {
+    "docId": "dq-ora-003_ht",
+    "data": {
+      "id": "dq-ora-003",
+      "questionText": "Ki sa Jezi anseye sou pèsistans nan priyè (Lk 18)?",
+      "categoryId": "oracion",
+      "categoryName": "Priyè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Priye yon sèl fwa sèlman pou montre konfyans"
+        },
+        {
+          "id": "b",
+          "text": "Pèsiste nan priyè kòm jij enjis la — Bondye reponn fidèl li yo ki priye san pèdi kouraj"
+        },
+        {
+          "id": "c",
+          "text": "Anpil priyè garanti repons imedyat"
+        },
+        {
+          "id": "d",
+          "text": "Priyè an gwoup sèlman efikas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lk 18:1-8 — Parabòl vèv ki pèsiste ak jij enjis la. Jezi ensiste: \"Pa janm pèdi kouraj nan priyè.\" Si jij enjis reponn, Bondye pral reponn fidèl li yo plis vit.",
+      "bibleReference": "Lk 18:1-8"
+    }
+  },
+  {
+    "docId": "dq-ora-003_fr",
+    "data": {
+      "id": "dq-ora-003",
+      "questionText": "Qu'enseigne Jésus sur la persévérance dans la prière (Luc 18) ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prier une seule fois pour montrer sa confiance"
+        },
+        {
+          "id": "b",
+          "text": "Persévérer dans la prière comme la veuve face au juge inique — Dieu exauce ses fidèles qui prient sans se décourager"
+        },
+        {
+          "id": "c",
+          "text": "Multiplier les prières garantit une réponse immédiate"
+        },
+        {
+          "id": "d",
+          "text": "Seule la prière en groupe est efficace"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Luc 18:1-8 — Parabole de la veuve qui persiste auprès du juge inique. Jésus insiste : « Il faut toujours prier et ne point se relâcher. » Si un juge inique répond, à plus forte raison Dieu répondra à ses élus.",
+      "bibleReference": "Luc 18:1-8"
+    }
+  },
+  {
+    "docId": "dq-ora-004_ht",
+    "data": {
+      "id": "dq-ora-004",
+      "questionText": "Ki sa entèsesyon genyen kòm karakteristik espesyal?",
+      "categoryId": "oracion",
+      "categoryName": "Priyè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Priyè pèsonèl sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Priyè pou lòt moun — kanpe kòm meditatè devan Bondye pou bezwen lòt yo"
+        },
+        {
+          "id": "c",
+          "text": "Priyè ak jèn obligatwa"
+        },
+        {
+          "id": "d",
+          "text": "Priyè piblik nan legliz"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timote 2:1 — \"Mwen egzòte anvan tout bagay ke yo fè siplikasyon, priyè, entèsesyon, ak aksyon de gras pou tout moun.\" Abraram (Jen 18), Moyiz (Egz 32), Jezi (Jan 17) kòm modèl entèsesè.",
+      "bibleReference": "1 Timote 2:1"
+    }
+  },
+  {
+    "docId": "dq-ora-004_fr",
+    "data": {
+      "id": "dq-ora-004",
+      "questionText": "Quelle est la caractéristique spéciale de l'intercession ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une prière personnelle uniquement"
+        },
+        {
+          "id": "b",
+          "text": "Prier pour les autres — se tenir comme médiateur devant Dieu pour les besoins d'autrui"
+        },
+        {
+          "id": "c",
+          "text": "Prière et jeûne obligatoires"
+        },
+        {
+          "id": "d",
+          "text": "Prière publique à l'église"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "1 Timothée 2:1 — « J'exhorte donc, avant toutes choses, à faire des prières, des supplications, des requêtes, des actions de grâces, pour tous les hommes. » Abraham (Gen 18), Moïse (Ex 32), Jésus (Jean 17) comme modèles d'intercesseurs.",
+      "bibleReference": "1 Timothée 2:1"
+    }
+  },
+  {
+    "docId": "dq-ora-005_ht",
+    "data": {
+      "id": "dq-ora-005",
+      "questionText": "Ki sa Jakòb anseye sou priyè lafwa pou malad yo?",
+      "categoryId": "oracion",
+      "categoryName": "Priyè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Malad yo dwe priye pou tèt yo sèlman"
+        },
+        {
+          "id": "b",
+          "text": "Ansyen legliz la dwe priye sou malad yo ak lwil — priyè lafwa pral sove malad la"
+        },
+        {
+          "id": "c",
+          "text": "Priyè pou malad yo pa nesesè si yo gen bon doktè"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman pastè yo ka priye pou malad"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jak 5:14-15 — \"Si yon moun malad pami nou, li rele ansyen legliz yo... priye sou li ak lwil... priyè lafwa pral delivre moun malad la.\" Sèvis kolèktif pou gerizon.",
+      "bibleReference": "Jak 5:14-15"
+    }
+  },
+  {
+    "docId": "dq-ora-005_fr",
+    "data": {
+      "id": "dq-ora-005",
+      "questionText": "Qu'enseigne Jacques sur la prière de la foi pour les malades ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les malades doivent prier pour eux-mêmes uniquement"
+        },
+        {
+          "id": "b",
+          "text": "Les anciens de l'église doivent prier pour les malades et les oindre d'huile — la prière de la foi sauvera le malade"
+        },
+        {
+          "id": "c",
+          "text": "La prière pour les malades n'est pas nécessaire s'ils ont de bons médecins"
+        },
+        {
+          "id": "d",
+          "text": "Seuls les pasteurs peuvent prier pour les malades"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jacques 5:14-15 — « Quelqu'un parmi vous est-il malade ? Qu'il appelle les anciens de l'Église, et que les anciens prient pour lui, en l'oignant d'huile... la prière de la foi sauvera le malade. » Service collectif pour la guérison.",
+      "bibleReference": "Jacques 5:14-15"
+    }
+  },
+  {
+    "docId": "dq-ora-006_ht",
+    "data": {
+      "id": "dq-ora-006",
+      "questionText": "Ki pwomès yo bay nan Matye 7:7-8 konsènan lapriyè?",
+      "categoryId": "oracion",
+      "categoryName": "Lapriyè",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bondye reponn tout lapriyè imedyatman"
+        },
+        {
+          "id": "b",
+          "text": "Mande e y'a ban nou; chache e n'a jwenn; frape e y'a louvri pou nou"
+        },
+        {
+          "id": "c",
+          "text": "Se sèlman moun ki jis k'ap jwenn repons pou lapriyè yo"
+        },
+        {
+          "id": "d",
+          "text": "Lapriyè ak lafwa sifi pou jwenn tout sa w vle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Mande, epi y'a ban nou; chache, epi n'a jwenn; frape, epi y'a louvri pou nou » (Matye 7:7) — yon envitasyon diven pou yon lapriyè ki pèsistan.",
+      "bibleReference": "Matthieu 7:7-8",
+      "normalizedRef": "mat7.7-8",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-ora-006_fr",
+    "data": {
+      "id": "dq-ora-006",
+      "questionText": "Quelle est la promesse donnée dans Matthieu 7:7-8 concernant la prière ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dieu répond à toutes les prières immédiatement"
+        },
+        {
+          "id": "b",
+          "text": "Demandez et l'on vous donnera ; cherchez et vous trouverez ; frappez et l'on vous ouvrira"
+        },
+        {
+          "id": "c",
+          "text": "Seuls les justes verront leurs prières exaucées"
+        },
+        {
+          "id": "d",
+          "text": "La prière fervente suffit pour tout obtenir"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Demandez, et l'on vous donnera ; cherchez, et vous trouverez ; frappez, et l'on vous ouvrira » (Matthieu 7:7) — invitation divine à une prière persistante.",
+      "bibleReference": "Matthieu 7:7-8",
+      "normalizedRef": "mat7.7-8",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-ora-007_ht",
+    "data": {
+      "id": "dq-ora-007",
+      "questionText": "Kijan Sentespri a ede kwayan an nan lapriyè selon Women 8:26?",
+      "categoryId": "oracion",
+      "categoryName": "Lapriyè",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li chwazi mo lapriyè yo pou nou"
+        },
+        {
+          "id": "b",
+          "text": "Li lapriyè pou nou ak soupir moun pa ka eksprime lè nou pa konn sa pou nou mande"
+        },
+        {
+          "id": "c",
+          "text": "Li tradui lapriyè nou yo an ebre pou Bondye"
+        },
+        {
+          "id": "d",
+          "text": "Li dirije emosyon nou pandan lapriyè a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Lespri a li menm ap lapriyè pou nou ak soupir moun pa ka eksprime » (Women 8:26) — Sentespri a se avoka nou nan lapriyè.",
+      "bibleReference": "Romains 8:26",
+      "normalizedRef": "rom8.26",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-ora-007_fr",
+    "data": {
+      "id": "dq-ora-007",
+      "questionText": "Comment l'Esprit Saint aide-t-il le croyant dans la prière selon Romains 8:26 ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il choisit les mots de la prière pour nous"
+        },
+        {
+          "id": "b",
+          "text": "Il intercède pour nous par des soupirs inexprimables quand nous ne savons que demander"
+        },
+        {
+          "id": "c",
+          "text": "Il traduit nos prières en hébreu pour Dieu"
+        },
+        {
+          "id": "d",
+          "text": "Il dirige nos émotions pendant la prière"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« L'Esprit lui-même intercède pour nous par des soupirs inexprimables » (Romains 8:26) — le Saint-Esprit est notre avocat dans la prière.",
+      "bibleReference": "Romains 8:26",
+      "normalizedRef": "rom8.26",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-ora-008_ht",
+    "data": {
+      "id": "dq-ora-008",
+      "questionText": "Ki modèl lapriyè Ana bay nan 1 Samyèl 1?",
+      "categoryId": "oracion",
+      "categoryName": "Lapriyè",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon lapriyè kout ak fòmèl nan tanp lan"
+        },
+        {
+          "id": "b",
+          "text": "Yon lapriyè ak tout kè li ak dlo nan je, yon pwomès bay Bondye ak yon tann ak konfyans pou repons li"
+        },
+        {
+          "id": "c",
+          "text": "Yon lapriyè kolektif ak prèt yo nan tanp lan"
+        },
+        {
+          "id": "d",
+          "text": "Yon lapriyè karent krizokal pandan karant jou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ana t'ap priye nan detrès ak dlo nan je, li te fè yon ve bay Bondye, epi li te pati ak kè poze — modèl lapriyè sensè, presi ak konfyans (1 Samyèl 1:10-18).",
+      "bibleReference": "1 Samuel 1:10-18",
+      "normalizedRef": "1sa1.10-18",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-ora-008_fr",
+    "data": {
+      "id": "dq-ora-008",
+      "questionText": "Quel modèle de prière Hannah donne-t-elle dans 1 Samuel 1 ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une prière courte et formelle au temple"
+        },
+        {
+          "id": "b",
+          "text": "Une prière de tout son cœur avec larmes, promesse à Dieu et attente confiante de sa réponse"
+        },
+        {
+          "id": "c",
+          "text": "Une prière collective avec les prêtres du temple"
+        },
+        {
+          "id": "d",
+          "text": "Une prière de jeûne de quarante jours"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hannah priait dans la détresse avec larmes, fit un vœu à Dieu, puis repartit le visage serein — modèle de prière sincère, spécifique et confiante (1 Samuel 1:10-18).",
+      "bibleReference": "1 Samuel 1:10-18",
+      "normalizedRef": "1sa1.10-18",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-ora-009_ht",
+    "data": {
+      "id": "dq-ora-009",
+      "questionText": "Kijan Jezi te priye nan jaden Jetsemane a e kisa lapriyè sa a anseye nou?",
+      "categoryId": "oracion",
+      "categoryName": "Lapriyè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te mande pou l pa soufri — lapriyè a pa t gen repons"
+        },
+        {
+          "id": "b",
+          "text": "Li te priye ak soumisyon total : « Se pou volonte w fèt » — modèl lapriyè nan moman anwas"
+        },
+        {
+          "id": "c",
+          "text": "Li te priye an silans san l pa di yon mo"
+        },
+        {
+          "id": "d",
+          "text": "Li te mande disip li yo pou yo priye nan plas li"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jetsemane : Jezi te priye ak yon gwo anwas men li te soumèt volonte l bay Papa a — « Se pa volonte pa m, men se volonte pa w ki pou fèt » (Lik 22:42). Modèl lapriyè nan soufrans.",
+      "bibleReference": "Luc 22:42",
+      "normalizedRef": "luk22.42",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-ora-009_fr",
+    "data": {
+      "id": "dq-ora-009",
+      "questionText": "Comment Jésus priait-il dans le jardin de Gethsémané et que nous enseigne cette prière ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il demanda à être délivré de la souffrance — la prière n'eut pas de réponse"
+        },
+        {
+          "id": "b",
+          "text": "Il pria avec soumission totale : « Que ta volonté soit faite » — modèle de prière dans l'angoisse"
+        },
+        {
+          "id": "c",
+          "text": "Il pria silencieusement sans paroles"
+        },
+        {
+          "id": "d",
+          "text": "Il demanda à ses disciples de prier à sa place"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Gethsémané : Jésus pria avec une grande angoisse mais soumit sa volonté à celle du Père — « Non pas ma volonté, mais la tienne » (Luc 22:42). Modèle de prière dans la souffrance.",
+      "bibleReference": "Luc 22:42",
+      "normalizedRef": "luk22.42",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-ora-010_ht",
+    "data": {
+      "id": "dq-ora-010",
+      "questionText": "Ki kondisyon Jak 5:16 bay pou yon lapriyè efikas?",
+      "categoryId": "oracion",
+      "categoryName": "Lapriyè",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gen ase lafwa pou deplase yon mòn"
+        },
+        {
+          "id": "b",
+          "text": "Lapriyè ak lafwa yon moun ki dwat gen gwo pouvwa — konfese peche nou youn bay lòt"
+        },
+        {
+          "id": "c",
+          "text": "Priye ak lòt kwayan tout tan"
+        },
+        {
+          "id": "d",
+          "text": "Se pou ansyen yo pase lwil sou ou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Se pou nou konfese peche nou yo youn bay lòt... Lapriyè ak lafwa yon moun ki dwat gen gwo pouvwa » (Jak 5:16) — lapriyè ki baze sou jistis ak kominote.",
+      "bibleReference": "Jacques 5:16",
+      "normalizedRef": "jam5.16",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-ora-010_fr",
+    "data": {
+      "id": "dq-ora-010",
+      "questionText": "Quelle condition Jacques 5:16 donne-t-il pour une prière efficace ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Avoir assez de foi pour déplacer une montagne"
+        },
+        {
+          "id": "b",
+          "text": "La prière fervente du juste a une grande efficacité — confessez vos péchés les uns aux autres"
+        },
+        {
+          "id": "c",
+          "text": "Prier avec d'autres croyants en permanence"
+        },
+        {
+          "id": "d",
+          "text": "Être oint d'huile par les anciens"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Confessez donc vos péchés les uns aux autres... La prière fervente du juste a une grande efficacité » (Jacques 5:16) — prière ancrée dans la justice et la communauté.",
+      "bibleReference": "Jacques 5:16",
+      "normalizedRef": "jam5.16",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-ora-011_ht",
+    "data": {
+      "id": "dq-ora-011",
+      "questionText": "Kijan sòm 22 a se yon lapriyè nan detrès ak yon prediksyon mesyanik an menm tan?",
+      "categoryId": "oracion",
+      "categoryName": "Lapriyè",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Se sèlman yon plent istorik David te fè"
+        },
+        {
+          "id": "b",
+          "text": "Li kòmanse ak santiman abandon David te genyen an men li anonse egzakteman pasyon Kris la (Matye 27:46)"
+        },
+        {
+          "id": "c",
+          "text": "Se yon pwofesi dirèk san okenn dimansyon pèsonèl"
+        },
+        {
+          "id": "d",
+          "text": "Jezi te site sòm sa a pa erè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 22 kòmanse ak « Bondye mwen, Bondye mwen, poukisa ou lage m konsa ? » — rèl David ak dènye pawòl Jezi sou kwa a (Matye 27:46). Pwofesi tipolojik sou pasyon an.",
+      "bibleReference": "Psaume 22:1",
+      "normalizedRef": "psaume22.1",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-ora-011_fr",
+    "data": {
+      "id": "dq-ora-011",
+      "questionText": "Comment le psaume 22 est-il à la fois une prière de détresse et une prédiction messianique ?",
+      "categoryId": "oracion",
+      "categoryName": "Prière",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "C'est uniquement une complainte historique de David"
+        },
+        {
+          "id": "b",
+          "text": "Il commence par l'abandon ressenti par David mais anticipe précisément la passion de Christ (Matthieu 27:46)"
+        },
+        {
+          "id": "c",
+          "text": "C'est une prophétie directe sans dimension personnelle"
+        },
+        {
+          "id": "d",
+          "text": "Jésus a cité ce psaume par erreur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 22 ouvre avec « Mon Dieu, mon Dieu, pourquoi m'as-tu abandonné ? » — cri de David et dernier mot de Jésus sur la croix (Matthieu 27:46). Prophétie typologique de la passion.",
+      "bibleReference": "Psaume 22:1",
+      "normalizedRef": "psaume22.1",
+      "normalizedCat": "oracion"
+    }
+  },
+  {
+    "docId": "dq-par-001_ht",
+    "data": {
+      "id": "dq-par-001",
+      "questionText": "Nan parabòl pitit pwodige a, kilès ki te padonnen epi resevwa pitit la ak kè kontan?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Granfrè li"
+        },
+        {
+          "id": "b",
+          "text": "Wa a"
+        },
+        {
+          "id": "c",
+          "text": "Papa li"
+        },
+        {
+          "id": "d",
+          "text": "Yon prèt"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Papa a te kouri pou anbrase pitit la, li te bo l epi te fè yon gwo fèt pou li (Lik 15:20-22).",
+      "bibleReference": "Lik 15:20-22",
+      "normalizedRef": "luk15.20-22",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-001_fr",
+    "data": {
+      "id": "dq-par-001",
+      "questionText": "Dans la parabole du fils prodigue, qui a pardonné et accueilli le fils avec joie ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Son frère aîné"
+        },
+        {
+          "id": "b",
+          "text": "Le roi"
+        },
+        {
+          "id": "c",
+          "text": "Son père"
+        },
+        {
+          "id": "d",
+          "text": "Un prêtre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Son père courut se jeter à son cou et le baisa, puis ordonna une grande fête (Luc 15:20-22).",
+      "bibleReference": "Luc 15:20-22",
+      "normalizedRef": "luk15.20-22",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-002_ht",
+    "data": {
+      "id": "dq-par-002",
+      "questionText": "Nan parabòl grenn moutad la, an ki sa ti grenn sa a vin tounen?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon pye bwa banbou"
+        },
+        {
+          "id": "b",
+          "text": "Pi gwo plant jaden an, prèske yon pye bwa"
+        },
+        {
+          "id": "c",
+          "text": "Yon raje"
+        },
+        {
+          "id": "d",
+          "text": "Yon ti pye bwa envisib"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Li grandi vin yon pye bwa, jouk zwazo syèl yo fè nich nan branch li (Matye 13:31-32).",
+      "bibleReference": "Matye 13:31-32",
+      "normalizedRef": "mat13.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-002_fr",
+    "data": {
+      "id": "dq-par-002",
+      "questionText": "Dans la parabole du grain de sénevé (moutarde), en quoi devient cette petite graine ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un bambou"
+        },
+        {
+          "id": "b",
+          "text": "La plus grande des plantes potagères, presque un arbre"
+        },
+        {
+          "id": "c",
+          "text": "Une mauvaise herbe"
+        },
+        {
+          "id": "d",
+          "text": "Un petit buisson invisible"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le grain de sénevé est la plus petite de toutes les semences, mais il devient un arbre où les oiseaux font leurs nids (Matthieu 13:31-32).",
+      "bibleReference": "Matthieu 13:31-32",
+      "normalizedRef": "mat13.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-003_ht",
+    "data": {
+      "id": "dq-par-003",
+      "questionText": "Ki bèt yon bèjè te kite 99 lòt yo pou al chèche?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon kabrit"
+        },
+        {
+          "id": "b",
+          "text": "Yon mouton"
+        },
+        {
+          "id": "c",
+          "text": "Yon bèf"
+        },
+        {
+          "id": "d",
+          "text": "Yon poul"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Parabòl mouton pèdi a reflete lanmou Bondye pou pechè ki repanti (Lik 15:4).",
+      "bibleReference": "Lik 15:4",
+      "normalizedRef": "luk15.4",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-003_fr",
+    "data": {
+      "id": "dq-par-003",
+      "questionText": "Quel animal un berger a-t-il laissé (les 99 autres) pour aller le chercher ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une chèvre"
+        },
+        {
+          "id": "b",
+          "text": "Une brebis"
+        },
+        {
+          "id": "c",
+          "text": "Un bœuf"
+        },
+        {
+          "id": "d",
+          "text": "Une poule"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La parabole de la brebis perdue reflète l'amour de Dieu pour le pécheur qui se repent (Luc 15:4).",
+      "bibleReference": "Luc 15:4",
+      "normalizedRef": "luk15.4",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-004_ht",
+    "data": {
+      "id": "dq-par-004",
+      "questionText": "Nan parabòl bon Samariten an, kilès ki te pase san yo pa ede moun ki te blese a?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon prèt ak yon Levit"
+        },
+        {
+          "id": "b",
+          "text": "Yon sòlda ak yon pibliyen"
+        },
+        {
+          "id": "c",
+          "text": "De Samariten rich"
+        },
+        {
+          "id": "d",
+          "text": "Farizyen ak Sadisyen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Yon prèt te desann sou chemen an, wè l, epi pase lòt bò. De menm pou Levit la (Lik 10:31-32).",
+      "bibleReference": "Lik 10:31-32",
+      "normalizedRef": "luk10.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-004_fr",
+    "data": {
+      "id": "dq-par-004",
+      "questionText": "Dans la parabole du bon Samaritain, qui est passé sans aider l'homme blessé ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un prêtre et un Lévite"
+        },
+        {
+          "id": "b",
+          "text": "Un soldat et un publicain"
+        },
+        {
+          "id": "c",
+          "text": "Deux riches Samaritains"
+        },
+        {
+          "id": "d",
+          "text": "Un Pharisien et un Sadducéen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Un prêtre descendait par ce chemin, le vit, et passa outre. De même un Lévite (Luc 10:31-32).",
+      "bibleReference": "Luc 10:31-32",
+      "normalizedRef": "luk10.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-005_ht",
+    "data": {
+      "id": "dq-par-005",
+      "questionText": "Sou ki de sifas moun saj la ak moun sòt la te bati kay yo?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bwa ak pay"
+        },
+        {
+          "id": "b",
+          "text": "Wòch ak sab"
+        },
+        {
+          "id": "c",
+          "text": "Mab ak labou"
+        },
+        {
+          "id": "d",
+          "text": "Mòn ak vale"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Moun saj la bati sou wòch ak moun sòt la sou sab (Matye 7:24-27).",
+      "bibleReference": "Matye 7:24-27",
+      "normalizedRef": "mat7.24-27",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-005_fr",
+    "data": {
+      "id": "dq-par-005",
+      "questionText": "Sur quelles surfaces l'homme sage et l'homme insensé ont-ils bâti leurs maisons ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le bois et la paille"
+        },
+        {
+          "id": "b",
+          "text": "Le roc et le sable"
+        },
+        {
+          "id": "c",
+          "text": "Le marbre et la boue"
+        },
+        {
+          "id": "d",
+          "text": "La montagne et la vallée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'homme prudent a bâti sur le roc et l'homme insensé sur le sable (Matthieu 7:24-27).",
+      "bibleReference": "Matthieu 7:24-27",
+      "normalizedRef": "mat7.24-27",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-006_ht",
+    "data": {
+      "id": "dq-par-006",
+      "questionText": "Nan parabòl semansyè a, kisa kote wòch yo reprezante?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Afè syèk sa ak richès"
+        },
+        {
+          "id": "b",
+          "text": "Dyab ki wete pawòl la"
+        },
+        {
+          "id": "c",
+          "text": "Moun resevwa l ak kè kontan men san rasin, yo dire kout devan eprèv"
+        },
+        {
+          "id": "d",
+          "text": "Kè ki prè pou bay fwi"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Yo resevwa pawòl la ak kè kontan, men kòm yo pa gen rasin, nan tribisyon ak pèsekisyon yo tonbe (Matye 13:20-21).",
+      "bibleReference": "Matye 13:20-21",
+      "normalizedRef": "mat13.20-21",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-006_fr",
+    "data": {
+      "id": "dq-par-006",
+      "questionText": "Dans la parabole du semeur, que représente le terrain pierreux ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les soucis du siècle et les richesses"
+        },
+        {
+          "id": "b",
+          "text": "Le diable qui enlève la parole"
+        },
+        {
+          "id": "c",
+          "text": "Celui qui reçoit la parole avec joie mais n'a pas de racine et succombe à l'épreuve"
+        },
+        {
+          "id": "d",
+          "text": "Un cœur prêt à porter du fruit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ils reçoivent la parole avec joie, mais comme ils n'ont pas de racine, ils tombent dès que survient une tribulation ou une persécution (Matthieu 13:20-21).",
+      "bibleReference": "Matthieu 13:20-21",
+      "normalizedRef": "mat13.20-21",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-007_ht",
+    "data": {
+      "id": "dq-par-007",
+      "questionText": "Ki sa yon fanm te jwenn apre li te limen chandèl epi bale kay li?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon pèl gwo pri"
+        },
+        {
+          "id": "b",
+          "text": "Yon trezò kache"
+        },
+        {
+          "id": "c",
+          "text": "Yon drakmè pèdi"
+        },
+        {
+          "id": "d",
+          "text": "Bag maryaj li"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Se parabòl pyès lajan pèdi a, ki reprezante kè kontan syèl la pou yon pechè ki repanti (Lik 15:8-9).",
+      "bibleReference": "Lik 15:8-9",
+      "normalizedRef": "luk15.8-9",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-007_fr",
+    "data": {
+      "id": "dq-par-007",
+      "questionText": "Qu'est-ce qu'une femme a trouvé après avoir allumé une lampe et balayé sa maison ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une perle de grand prix"
+        },
+        {
+          "id": "b",
+          "text": "Un trésor caché"
+        },
+        {
+          "id": "c",
+          "text": "Une drachme perdue"
+        },
+        {
+          "id": "d",
+          "text": "Son anneau de mariage"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "C'est la parabole de la pièce perdue, qui représente la joie du ciel pour un seul pécheur qui se repent (Luc 15:8-9).",
+      "bibleReference": "Luc 15:8-9",
+      "normalizedRef": "luk15.8-9",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-008_ht",
+    "data": {
+      "id": "dq-par-008",
+      "questionText": "Nan parabòl talan yo, kisa sèvitè initil la te fè ak sèl talan li te genyen?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te multipliye l"
+        },
+        {
+          "id": "b",
+          "text": "Li te antere l nan tè a"
+        },
+        {
+          "id": "c",
+          "text": "Li te prete l anbank san enterè"
+        },
+        {
+          "id": "d",
+          "text": "Li te depanse nan vwayaj"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Li te pè epi li te ale antere talan an nan tè a (Matye 25:25).",
+      "bibleReference": "Matye 25:25",
+      "normalizedRef": "mat25.25",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-008_fr",
+    "data": {
+      "id": "dq-par-008",
+      "questionText": "Dans la parabole des talents, qu'a fait le serviteur inutile du seul talent qu'il avait reçu ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il l'a multiplié"
+        },
+        {
+          "id": "b",
+          "text": "Il l'a caché dans la terre"
+        },
+        {
+          "id": "c",
+          "text": "Il l'a prêté à la banque sans intérêt"
+        },
+        {
+          "id": "d",
+          "text": "Il l'a dépensé en voyage"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Il eut peur et alla cacher son talent dans la terre (Matthieu 25:25).",
+      "bibleReference": "Matthieu 25:25",
+      "normalizedRef": "mat25.25",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-009_ht",
+    "data": {
+      "id": "dq-par-009",
+      "questionText": "Ki parabòl Jezi konpare wayòm syèl la ak yon machann ki te jwenn yon pèl gwo pri?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Levadi"
+        },
+        {
+          "id": "b",
+          "text": "Reto lanmè a"
+        },
+        {
+          "id": "c",
+          "text": "Pèl gwo pri a"
+        },
+        {
+          "id": "d",
+          "text": "Grenn moutad la"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Machann lan, apre li te jwenn yon pèl gwo pri, te vann tout bagay pou achte l (Matye 13:45-46).",
+      "bibleReference": "Matye 13:45-46",
+      "normalizedRef": "mat13.45-46",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-009_fr",
+    "data": {
+      "id": "dq-par-009",
+      "questionText": "Dans quelle parabole Jésus compare-t-il le royaume des cieux à un marchand qui a trouvé une perle de grand prix ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le levain"
+        },
+        {
+          "id": "b",
+          "text": "Le filet"
+        },
+        {
+          "id": "c",
+          "text": "La perle de grand prix"
+        },
+        {
+          "id": "d",
+          "text": "Le grain de sénevé"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le marchand, ayant trouvé une perle de grand prix, alla vendre tout ce qu'il avait pour l'acheter (Matthieu 13:45-46).",
+      "bibleReference": "Matthieu 13:45-46",
+      "normalizedRef": "mat13.45-46",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-010_ht",
+    "data": {
+      "id": "dq-par-010",
+      "questionText": "Nan parabòl rich insanse a, ki sa Bondye te di l lannwit sa a?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Rich ou pral vin plis\""
+        },
+        {
+          "id": "b",
+          "text": "\"Sòt, nwit sa a y ap reklame lavi ou\""
+        },
+        {
+          "id": "c",
+          "text": "\"Pataje richès ou ak pòv yo\""
+        },
+        {
+          "id": "d",
+          "text": "\"Bati pi laj tou\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te di li: \"Sòt, nwit sa a y ap reklame lavi ou nan men ou; alò, sa ou te pare a, pou ki moun sa pral ye?\" (Lik 12:20).",
+      "bibleReference": "Lik 12:20",
+      "normalizedRef": "luk12.20",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-010_fr",
+    "data": {
+      "id": "dq-par-010",
+      "questionText": "Dans la parabole du riche insensé, que lui dit Dieu cette nuit-là ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "\"Ta richesse va augmenter encore\""
+        },
+        {
+          "id": "b",
+          "text": "\"Insensé ! cette nuit même ton âme te sera redemandée\""
+        },
+        {
+          "id": "c",
+          "text": "\"Partage tes biens avec les pauvres\""
+        },
+        {
+          "id": "d",
+          "text": "\"Construis des greniers plus grands\""
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dieu lui dit : \"Insensé ! cette nuit même ton âme te sera redemandée ; et ce que tu as préparé, pour qui sera-ce ?\" (Luc 12:20).",
+      "bibleReference": "Luc 12:20",
+      "normalizedRef": "luk12.20",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-011_ht",
+    "data": {
+      "id": "dq-par-011",
+      "questionText": "Nan parabòl travayè jaden jaden rezen nan, sa Mèt la te peye yo?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plis, pwopòsyonèlman"
+        },
+        {
+          "id": "b",
+          "text": "Menm bagay, yon denye chak"
+        },
+        {
+          "id": "c",
+          "text": "Doub"
+        },
+        {
+          "id": "d",
+          "text": "Mèt la pa t peye yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Li te bay tout moun yon denye. Sa anseye ke \"dènye yo pral premye epi premye yo pral dènye\" (Matye 20:1-16).",
+      "bibleReference": "Matye 20:1-16",
+      "normalizedRef": "mat20.1-16",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-011_fr",
+    "data": {
+      "id": "dq-par-011",
+      "questionText": "Dans la parabole des ouvriers de la vigne, qu'est-ce que le maître les a payés ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plus, proportionnellement"
+        },
+        {
+          "id": "b",
+          "text": "La même chose, un denier chacun"
+        },
+        {
+          "id": "c",
+          "text": "Le double"
+        },
+        {
+          "id": "d",
+          "text": "Le maître ne les a pas payés"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Il donna à tous un denier. Cela enseigne que \"les derniers seront les premiers, et les premiers seront les derniers\" (Matthieu 20:1-16).",
+      "bibleReference": "Matthieu 20:1-16",
+      "normalizedRef": "mat20.1-16",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-012_ht",
+    "data": {
+      "id": "dq-par-012",
+      "questionText": "Nan parabòl dis vièj yo, kilès ki te admèt nan nòs maryaj la?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 ki te sòt yo"
+        },
+        {
+          "id": "b",
+          "text": "5 ki te saj yo ki te gen lwil"
+        },
+        {
+          "id": "c",
+          "text": "Tout dis yo"
+        },
+        {
+          "id": "d",
+          "text": "Sèlman marye a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "5 saj yo ki te gen lwil nan lantèn yo te antre; pòt la te fèmen pou 5 ki te sòt yo ki te soti chèche lwil (Matye 25:1-12).",
+      "bibleReference": "Matye 25:10-12",
+      "normalizedRef": "mat25.10-12",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-012_fr",
+    "data": {
+      "id": "dq-par-012",
+      "questionText": "Dans la parabole des dix vierges, lesquelles furent admises au banquet de noces ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les 5 qui étaient folles"
+        },
+        {
+          "id": "b",
+          "text": "Les 5 sages qui avaient de l'huile"
+        },
+        {
+          "id": "c",
+          "text": "Toutes les dix"
+        },
+        {
+          "id": "d",
+          "text": "Seulement l'époux"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Les 5 sages qui avaient de l'huile dans leurs lampes entrèrent ; la porte fut fermée pour les 5 folles parties chercher de l'huile (Matthieu 25:1-12).",
+      "bibleReference": "Matthieu 25:10-12",
+      "normalizedRef": "mat25.10-12",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-013_ht",
+    "data": {
+      "id": "dq-par-013",
+      "questionText": "Ki parabòl ki montre ke lojik Bondye sou retribisyon pafwa diferan de atant moun?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Travayè jaden jaden rezen nan"
+        },
+        {
+          "id": "b",
+          "text": "Bon Samariten an"
+        },
+        {
+          "id": "c",
+          "text": "Grenn moutad la"
+        },
+        {
+          "id": "d",
+          "text": "Lèvadi a"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Travayè ki te travay 1 èdtan te resevwa menm salè ak ki te travay 12 èdtan, montre gras Bondye pa merite (Matye 20:1-16).",
+      "bibleReference": "Matye 20:13-15",
+      "normalizedRef": "mat20.13-15",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-013_fr",
+    "data": {
+      "id": "dq-par-013",
+      "questionText": "Quelle parabole montre que la logique de Dieu sur la rétribution est parfois différente des attentes humaines ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les ouvriers de la vigne"
+        },
+        {
+          "id": "b",
+          "text": "Le bon Samaritain"
+        },
+        {
+          "id": "c",
+          "text": "Le grain de sénevé"
+        },
+        {
+          "id": "d",
+          "text": "Le levain"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Les ouvriers ayant travaillé 1 heure reçurent le même salaire que ceux ayant travaillé 12 heures, montrant que la grâce de Dieu n'est pas méritée (Matthieu 20:1-16).",
+      "bibleReference": "Matthieu 20:13-15",
+      "normalizedRef": "mat20.13-15",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-014_ht",
+    "data": {
+      "id": "dq-par-014",
+      "questionText": "Ki parabòl Jezi ki trete jijman final ak separasyon jis ak mechan?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Parabòl talan yo"
+        },
+        {
+          "id": "b",
+          "text": "Parabòl mouton ak kabrit yo"
+        },
+        {
+          "id": "c",
+          "text": "Parabòl dis vièj yo"
+        },
+        {
+          "id": "d",
+          "text": "Parabòl gwo nòs maryaj la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Nan Matye 25:31-46, Jezi separe nasyon yo tankou yon bèjè separe mouton ak kabrit — mouton nan dwat l (beni) ak kabrit nan bò gòch (malediksyon).",
+      "bibleReference": "Matye 25:31-46",
+      "normalizedRef": "mat25.31-46",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-014_fr",
+    "data": {
+      "id": "dq-par-014",
+      "questionText": "Quelle parabole de Jésus traite du jugement dernier et de la séparation entre les justes et les méchants ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "La parabole des talents"
+        },
+        {
+          "id": "b",
+          "text": "La parabole des brebis et des boucs"
+        },
+        {
+          "id": "c",
+          "text": "La parabole des dix vierges"
+        },
+        {
+          "id": "d",
+          "text": "La parabole des grandes noces"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Dans Matthieu 25:31-46, Jésus sépare les nations comme un berger sépare les brebis des boucs — les brebis à sa droite (bénis) et les boucs à gauche (maudits).",
+      "bibleReference": "Matthieu 25:31-46",
+      "normalizedRef": "mat25.31-46",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-015_ht",
+    "data": {
+      "id": "dq-par-015",
+      "questionText": "Ki parabòl Jezi montre ke tout moun ki nan wayòm lan pa nesesèman vrè pitit li?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl Jezi Yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sema ak zizann"
+        },
+        {
+          "id": "b",
+          "text": "Semansyè a"
+        },
+        {
+          "id": "c",
+          "text": "Mouton ak kabrit yo"
+        },
+        {
+          "id": "d",
+          "text": "Bon bèjè a"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Nan parabòl ivray ak ble a (Matye 13:24-30), bon grenn ak zizann grandi ansanm jis rekòt la kote zanj yo pral separe yo.",
+      "bibleReference": "Matye 13:24-30",
+      "normalizedRef": "mat13.24-30",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-015_fr",
+    "data": {
+      "id": "dq-par-015",
+      "questionText": "Quelle parabole de Jésus montre que tous ceux qui sont dans le royaume ne sont pas nécessairement ses vrais enfants ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles de Jésus",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le bon grain et l'ivraie"
+        },
+        {
+          "id": "b",
+          "text": "Le semeur"
+        },
+        {
+          "id": "c",
+          "text": "Les brebis et les boucs"
+        },
+        {
+          "id": "d",
+          "text": "Le bon berger"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Dans la parabole de l'ivraie et du blé (Matthieu 13:24-30), le bon grain et l'ivraie croissent ensemble jusqu'à la moisson où les anges les sépareront.",
+      "bibleReference": "Matthieu 13:24-30",
+      "normalizedRef": "mat13.24-30",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-016_ht",
+    "data": {
+      "id": "dq-par-016",
+      "questionText": "Nan parabòl dis jèn fi yo, konbyen ladan yo ki te gen bon konprann?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 25:2 — \"Senk nan yo te sòt, senk lòt yo te gen bon konprann.\"",
+      "bibleReference": "Matye 25:2",
+      "normalizedRef": "mat25.2",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-016_fr",
+    "data": {
+      "id": "dq-par-016",
+      "questionText": "Dans la parabole des dix vierges, combien d'entre elles étaient sages ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "3"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "10"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 25:2 — « Cinq d'entre elles étaient folles, et cinq sages. »",
+      "bibleReference": "Matthieu 25:2",
+      "normalizedRef": "mat25.2",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-017_ht",
+    "data": {
+      "id": "dq-par-017",
+      "questionText": "Ki sa mèt la te bay sèvitè l yo nan parabòl talan an?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lajan (talan)"
+        },
+        {
+          "id": "b",
+          "text": "Tè pou yo travay"
+        },
+        {
+          "id": "c",
+          "text": "Kay"
+        },
+        {
+          "id": "d",
+          "text": "Bèt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Matye 25:15 — \"Li bay yonn senk mil goud (talan), li bay yon lòt de mil goud, li bay yon twazyèm mil goud.\"",
+      "bibleReference": "Matye 25:15",
+      "normalizedRef": "mat25.15",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-017_fr",
+    "data": {
+      "id": "dq-par-017",
+      "questionText": "Dans la parabole des talents, que le maître a-t-il donné à ses serviteurs ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "De l'argent (talents)"
+        },
+        {
+          "id": "b",
+          "text": "Des terres à travailler"
+        },
+        {
+          "id": "c",
+          "text": "Des maisons"
+        },
+        {
+          "id": "d",
+          "text": "Des animaux"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Matthieu 25:15 — « Il donna cinq talents à l'un, deux à l'autre, et un au troisième. »",
+      "bibleReference": "Matthieu 25:15",
+      "normalizedRef": "mat25.15",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-018_ht",
+    "data": {
+      "id": "dq-par-018",
+      "questionText": "Nan parabòl \"Bon Samariten\" an, ki moun ki te pase an premye bò kote nonm blese a san li pa t ede l?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon prèt"
+        },
+        {
+          "id": "b",
+          "text": "Yon Levit"
+        },
+        {
+          "id": "c",
+          "text": "Yon sòlda Women"
+        },
+        {
+          "id": "d",
+          "text": "Yon machann"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Lk 10:31 — \"Lè sa a, yon prèt vin ap desann nan menm wout la. Li wè nonm lan, men li travèse lòt bò wout la, li pase chemen l.\"",
+      "bibleReference": "Lk 10:31",
+      "normalizedRef": "lk10.31",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-018_fr",
+    "data": {
+      "id": "dq-par-018",
+      "questionText": "Dans la parabole du « Bon Samaritain », qui est passé en premier près de l'homme blessé sans l'aider ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un prêtre"
+        },
+        {
+          "id": "b",
+          "text": "Un Lévite"
+        },
+        {
+          "id": "c",
+          "text": "Un soldat romain"
+        },
+        {
+          "id": "d",
+          "text": "Un marchand"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Lc 10:31 — « Un sacrificateur, qui par hasard descendait par le même chemin, ayant vu cet homme, passa outre. »",
+      "bibleReference": "Lc 10:31",
+      "normalizedRef": "lk10.31",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-019_ht",
+    "data": {
+      "id": "dq-par-019",
+      "questionText": "Nan parabòl pitit gasyon ki te pèdi a (Pitit Prodig la), ki sa papa a te fè lè l wè pitit la t ap tounen sot nan lwen?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te fache anpil"
+        },
+        {
+          "id": "b",
+          "text": "Li kouri al jwenn li, li kwoke nan kou l, li bo l"
+        },
+        {
+          "id": "c",
+          "text": "Li mande l kote lajan li an ye"
+        },
+        {
+          "id": "d",
+          "text": "Li voye l al travay ak kochon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lk 15:20 — \"Li te byen lwen toujou lè papa a wè l. Kè papa a fè l mal, li kouri al jwenn li, li kwoke nan kou l, li bo l.\"",
+      "bibleReference": "Lk 15:20",
+      "normalizedRef": "lk15.20",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-019_fr",
+    "data": {
+      "id": "dq-par-019",
+      "questionText": "Dans la parabole du fils prodigue, que fit le père lorsqu'il vit son fils revenir de loin ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il était très en colère"
+        },
+        {
+          "id": "b",
+          "text": "Il courut vers lui, se jeta à son cou et le baisa"
+        },
+        {
+          "id": "c",
+          "text": "Il lui a demandé où était son argent"
+        },
+        {
+          "id": "d",
+          "text": "Il l'a envoyé travailler avec les pourceaux"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lc 15:20 — « Comme il était encore loin, son père le vit et fut ému de compassion, il courut se jeter à son cou et le baisa. »",
+      "bibleReference": "Lc 15:20",
+      "normalizedRef": "lk15.20",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-020_ht",
+    "data": {
+      "id": "dq-par-020",
+      "questionText": "Ki kote mesye ki te resevwa yon sèl talan an te sere lajan l lan?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nan yon bank"
+        },
+        {
+          "id": "b",
+          "text": "Anba tè"
+        },
+        {
+          "id": "c",
+          "text": "Anba kabann li"
+        },
+        {
+          "id": "d",
+          "text": "Li te pèdi l"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matye 25:18 — \"Men sa ki te resevwa mil goud la ale, li fouye yon twou nan tè, li kache lajan mèt la.\"",
+      "bibleReference": "Matye 25:18",
+      "normalizedRef": "mat25.18",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-020_fr",
+    "data": {
+      "id": "dq-par-020",
+      "questionText": "Où l'homme qui avait reçu un seul talent a-t-il caché son argent ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dans une banque"
+        },
+        {
+          "id": "b",
+          "text": "Dans la terre"
+        },
+        {
+          "id": "c",
+          "text": "Sous son lit"
+        },
+        {
+          "id": "d",
+          "text": "Il l'a perdu"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Matthieu 25:18 — « Celui qui n'en avait reçu qu'un alla faire un creux dans la terre, et cacha l'argent de son maître. »",
+      "bibleReference": "Matthieu 25:18",
+      "normalizedRef": "mat25.18",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-021_ht",
+    "data": {
+      "id": "dq-par-021",
+      "questionText": "Nan parabòl \"Gran Festen\" an, kisa moun ki te resevwa envitasyon yo te fè?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo tout te kouri vini"
+        },
+        {
+          "id": "b",
+          "text": "Yo tout te kòmanse bay eskiz"
+        },
+        {
+          "id": "c",
+          "text": "Yo te pote kado"
+        },
+        {
+          "id": "d",
+          "text": "Yo pa t tande envitasyon an"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lk 14:18 — \"Men yo tout, yonn apre lòt, kòmanse bay eskiz.\"",
+      "bibleReference": "Lk 14:18",
+      "normalizedRef": "lk14.18",
+      "normalizedCat": "parabolas"
+    }
+  },
+  {
+    "docId": "dq-par-021_fr",
+    "data": {
+      "id": "dq-par-021",
+      "questionText": "Dans la parabole du « Grand Festin », que firent ceux qui avaient été invités ?",
+      "categoryId": "parabolas",
+      "categoryName": "Paraboles",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ils accoururent tous"
+        },
+        {
+          "id": "b",
+          "text": "Ils se mirent tous à s'excuser"
+        },
+        {
+          "id": "c",
+          "text": "Ils apportèrent des cadeaux"
+        },
+        {
+          "id": "d",
+          "text": "Ils n'entendirent pas l'invitation"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lc 14:18 — « Mais tous unanimement se mirent à s'excuser. »",
+      "bibleReference": "Lc 14:18",
+      "normalizedRef": "lk14.18",
+      "normalizedCat": "parabolas"
+    }
+  }
+]

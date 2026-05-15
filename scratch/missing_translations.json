@@ -1,0 +1,1094 @@
+{
+  "dq-para-001": {
+    "ht": {
+      "id": "dq-para-001",
+      "questionText": "Nan parabòl bon Samariten an, kilès de moun ki te pase san yo pa t ede nonm blese a?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Yon farizyen ak yon skrib" },
+        { "id": "b", "text": "Yon prèt ak yon Levit" },
+        { "id": "c", "text": "Yon pèseptè kontribisyon ak yon pechè" },
+        { "id": "d", "text": "Yon sòlda ak yon machann" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yon prèt ak yon Levit te pase bò kote nonm blese a san yo pa t rete, kontrèman ak Samariten an (Lik 10:31-32).",
+      "bibleReference": "Lik 10:31-32",
+      "normalizedRef": "luk10.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  "dq-para-002": {
+    "ht": {
+      "id": "dq-para-002",
+      "questionText": "Ki grenn Jezi te sèvi pou l montre jan Wayòm Bondye a ap grandi, lè l te di se li ki pi piti nan tout grenn?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Grenn ble" },
+        { "id": "b", "text": "Grenn moutad (seneve)" },
+        { "id": "c", "text": "Grenn fig" },
+        { "id": "d", "text": "Grenn rezen" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Grenn seneve a piti anpil, men li vin tounen yon gwo pyebwa kote zwazo yo vin fè nich (Matye 13:31-32).",
+      "bibleReference": "Matye 13:31-32",
+      "normalizedRef": "mat13.31-32",
+      "normalizedCat": "parabolas"
+    }
+  },
+  "dq-para-003": {
+    "ht": {
+      "id": "dq-para-003",
+      "questionText": "Nan parabòl pitit gaspiyè a, kisa papa a te fè lè l te wè pitit li a ap tounen?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Li te fache anpil" },
+        { "id": "b", "text": "Li te kouri al jwenn li epi l bo l" },
+        { "id": "c", "text": "Li te mande l pou l renmèt li lajan an" },
+        { "id": "d", "text": "Li te voye l al travay nan jaden" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pandan l te byen lwen toujou, papa a wè l, kè l fè l mal pou li, li kouri al jwenn li, li pase bra l nan kou l epi l bo l (Lik 15:20).",
+      "bibleReference": "Lik 15:20",
+      "normalizedRef": "luk15.20",
+      "normalizedCat": "parabolas"
+    }
+  },
+  "dq-para-004": {
+    "ht": {
+      "id": "dq-para-004",
+      "questionText": "Konbyen mouton gadò a te kite pou l t al chèche sa ki te pèdi a?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "10" },
+        { "id": "b", "text": "50" },
+        { "id": "c", "text": "99" },
+        { "id": "d", "text": "100" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ki moun nan nou, si l gen san mouton epi l pèdi yonn, ki p'ap kite katreven-disnèf lòt yo nan dezè a pou l al dèyè sa ki pèdi a? (Lik 15:4).",
+      "bibleReference": "Lik 15:4",
+      "normalizedRef": "luk15.4",
+      "normalizedCat": "parabolas"
+    }
+  },
+  "dq-para-005": {
+    "ht": {
+      "id": "dq-para-005",
+      "questionText": "Nan parabòl moun k ap simen an, kisa grenn ki tonbe nan mitan pikan yo reprezante?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Moun ki pa koute menm" },
+        { "id": "b", "text": "Moun ki kite sousi lavi a toufe yo" },
+        { "id": "c", "text": "Moun ki gen yon lafwa ki pa fon" },
+        { "id": "d", "text": "Moun ki bay anpil rannman" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Grenn ki tonbe nan mitan pikan yo se moun ki tande pawòl la, men sousi lavi a ak anvi gen richès toufe pawòl la (Matye 13:22).",
+      "bibleReference": "Matye 13:22",
+      "normalizedRef": "mat13.22",
+      "normalizedCat": "parabolas"
+    }
+  },
+  "dq-para-006": {
+    "ht": {
+      "id": "dq-para-006",
+      "questionText": "Konbyen jenn fi ki te pare ak lwil nan lanp yo nan parabòl dis jenn fi yo?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "3" },
+        { "id": "b", "text": "5" },
+        { "id": "c", "text": "7" },
+        { "id": "d", "text": "10" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Senk nan yo te sòt, senk lòt yo te gen bon konprann. Sa ki te gen bon konprann yo te pran lwil mete nan ti boutèy ansanm ak lanp yo (Matye 25:2-4).",
+      "bibleReference": "Matye 25:2-4",
+      "normalizedRef": "mat25.2-4",
+      "normalizedCat": "parabolas"
+    }
+  },
+  "dq-para-007": {
+    "ht": {
+      "id": "dq-para-007",
+      "questionText": "Nan parabòl talan yo, kisa domestik ki te resevwa yon sèl talan an te fè avè l?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Li te fè l travay" },
+        { "id": "b", "text": "Li t al fouye yon twou nan tè, li kache l" },
+        { "id": "c", "text": "Li te bay pòv li" },
+        { "id": "d", "text": "Li te pèdi l" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sa ki te resevwa yon sèl la t al fouye yon twou nan tè, li kache lajan mèt la (Matye 25:18).",
+      "bibleReference": "Matye 25:18",
+      "normalizedRef": "mat25.18",
+      "normalizedCat": "parabolas"
+    }
+  },
+  "dq-para-008": {
+    "ht": {
+      "id": "dq-para-008",
+      "questionText": "Nan parabòl envitasyon nan gwo fèt la, pou ki moun Wayòm Syèl la ye?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Pou moun rich yo" },
+        { "id": "b", "text": "Pou moun yo te envite an premye yo" },
+        { "id": "c", "text": "Pou moun ki asepte envitasyon an epi ki vini" },
+        { "id": "d", "text": "Se sèlman pou Juif yo" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Gen anpil moun yo rele, men se de twa sèlman y'ap chwazi. Se moun ki asepte envitasyon an ki ranpli fèt la (Matye 22:1-14).",
+      "bibleReference": "Matye 22:1-14",
+      "normalizedRef": "mat22.1-14",
+      "normalizedCat": "parabolas"
+    }
+  },
+  "dq-para-009": {
+    "ht": {
+      "id": "dq-para-009",
+      "questionText": "Nan parabòl de kay yo, sou kisa moun ki gen konprann nan te bati kay li a?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Sab" },
+        { "id": "b", "text": "Labou" },
+        { "id": "c", "text": "Wòch (Ròk)" },
+        { "id": "d", "text": "Zèb" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Moun ki tande pawòl mwen yo epi ki fè sa mwen di yo, y'ap sanble ak yon moun ki gen konprann ki bati kay li sou wòch (Matye 7:24).",
+      "bibleReference": "Matye 7:24",
+      "normalizedRef": "mat7.24",
+      "normalizedCat": "parabolas"
+    }
+  },
+  "dq-para-010": {
+    "ht": {
+      "id": "dq-para-010",
+      "questionText": "Nan parabòl bèl grenn pèl ki koute chè a, kisa machann nan fè lè l jwenn li?",
+      "categoryId": "parabolas",
+      "categoryName": "Parabòl",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        { "id": "a", "text": "Li eseye diskite pri a" },
+        { "id": "b", "text": "Li pa okipe l" },
+        { "id": "c", "text": "Li vann tou sa l te genyen pou l achte l" },
+        { "id": "d", "text": "Li tann pri a desann" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Li t al vann tou sa l te genyen pou l achte l (Matye 13:46).",
+      "bibleReference": "Matye 13:46",
+      "normalizedRef": "mat13.46",
+      "normalizedCat": "parabolas"
+    }
+  },
+  "dq-hech-018": {
+    "fr": {
+      "id": "dq-hech-018",
+      "questionText": "Quel est le nom de l'homme qui est mort subitement après avoir menti à l'apôtre Pierre sur le prix d'un terrain ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Étienne" },
+        { "id": "b", "text": "Ananias" },
+        { "id": "c", "text": "Barnabas" },
+        { "id": "d", "text": "Silas" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ananias et sa femme Saphira sont morts pour avoir menti au Saint-Esprit concernant une offrande (Actes 5).",
+      "bibleReference": "Actes 5:1-5",
+      "normalizedRef": "act5.1-5",
+      "normalizedCat": "hechos"
+    }
+  },
+  "dq-hech-019": {
+    "fr": {
+      "id": "dq-hech-019",
+      "questionText": "Quelle était la profession de Tabitha (Dorcas), connue pour ses bonnes œuvres à Joppe ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Vendeuse de pourpre" },
+        { "id": "b", "text": "Couturière (faisait des tuniques et des vêtements)" },
+        { "id": "c", "text": "Infirmière" },
+        { "id": "d", "text": "Servante dans le temple" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Toutes les veuves l'entourèrent en pleurant, et lui montrèrent les tuniques et les vêtements que faisait Dorcas (Actes 9:39).",
+      "bibleReference": "Actes 9:36-39",
+      "normalizedRef": "act9.36-39",
+      "normalizedCat": "hechos"
+    }
+  },
+  "dq-hech-020": {
+    "fr": {
+      "id": "dq-hech-020",
+      "questionText": "Qui a été choisi pour remplacer Judas Iscariote comme apôtre ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Paul" },
+        { "id": "b", "text": "Barnabas" },
+        { "id": "c", "text": "Matthias" },
+        { "id": "d", "text": "Étienne" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Le sort tomba sur Matthias, qui fut associé aux onze apôtres (Actes 1:26).",
+      "bibleReference": "Actes 1:26",
+      "normalizedRef": "act1.26",
+      "normalizedCat": "hechos"
+    }
+  },
+  "dq-hech-021": {
+    "fr": {
+      "id": "dq-hech-021",
+      "questionText": "Qui était le premier centurion romain (païen) à recevoir le Saint-Esprit après la prédication de Pierre ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Corneille" },
+        { "id": "b", "text": "Julius" },
+        { "id": "c", "text": "Gallion" },
+        { "id": "d", "text": "Lysias" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Corneille était un homme pieux dont les prières et les aumônes montèrent devant Dieu ; il fut le premier païen converti (Actes 10).",
+      "bibleReference": "Actes 10",
+      "normalizedRef": "act10",
+      "normalizedCat": "hechos"
+    }
+  },
+  "dq-hech-022": {
+    "fr": {
+      "id": "dq-hech-022",
+      "questionText": "Dans quelle ville les disciples ont-ils été appelés 'chrétiens' pour la première fois ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Jérusalem" },
+        { "id": "b", "text": "Antioche" },
+        { "id": "c", "text": "Éphèse" },
+        { "id": "d", "text": "Rome" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ce fut à Antioche que, pour la première fois, les disciples furent appelés chrétiens (Actes 11:26).",
+      "bibleReference": "Actes 11:26",
+      "normalizedRef": "act11.26",
+      "normalizedCat": "hechos"
+    }
+  },
+  "dq-hech-023": {
+    "fr": {
+      "id": "dq-hech-023",
+      "questionText": "Qui était le compagnon de Paul lors de son premier voyage missionnaire ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Silas" },
+        { "id": "b", "text": "Barnabas" },
+        { "id": "c", "text": "Luc" },
+        { "id": "d", "text": "Timothée" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Barnabas et Saul furent mis à part par le Saint-Esprit pour l'œuvre à laquelle ils étaient appelés (Actes 13:2).",
+      "bibleReference": "Actes 13:2-4",
+      "normalizedRef": "act13.2-4",
+      "normalizedCat": "hechos"
+    }
+  },
+  "dq-hech-024": {
+    "fr": {
+      "id": "dq-hech-024",
+      "questionText": "Quel magicien a essayé d'acheter le pouvoir du Saint-Esprit avec de l'argent ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Élymas" },
+        { "id": "b", "text": "Simon le magicien" },
+        { "id": "c", "text": "Apollos" },
+        { "id": "d", "text": "Théudas" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Simon vit que le Saint-Esprit était donné par l'imposition des mains des apôtres ; il leur offrit de l'argent (Actes 8:18).",
+      "bibleReference": "Actes 8:18-20",
+      "normalizedRef": "act8.18-20",
+      "normalizedCat": "hechos"
+    }
+  },
+  "dq-hech-025": {
+    "fr": {
+      "id": "dq-hech-025",
+      "questionText": "Quel était le métier de Paul, qu'il partageait avec Aquilas et Priscille ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Pêcheur" },
+        { "id": "b", "text": "Fabricant de tentes" },
+        { "id": "c", "text": "Charpentier" },
+        { "id": "d", "text": "Médecin" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Comme il avait le même métier, il demeura chez eux et y travailla : ils étaient fabricants de tentes (Actes 18:3).",
+      "bibleReference": "Actes 18:3",
+      "normalizedRef": "act18.3",
+      "normalizedCat": "hechos"
+    }
+  },
+  "dq-hech-026": {
+    "fr": {
+      "id": "dq-hech-026",
+      "questionText": "Qui était le jeune homme qui s'est endormi et est tombé d'une fenêtre pendant que Paul prêchait ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Eutychus" },
+        { "id": "b", "text": "Tychique" },
+        { "id": "c", "text": "Épaphras" },
+        { "id": "d", "text": "Philémon" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Un jeune homme nommé Eutychus... fut surpris par un profond sommeil pendant le long discours de Paul ; il tomba du troisième étage (Actes 20:9).",
+      "bibleReference": "Actes 20:9",
+      "normalizedRef": "act20.9",
+      "normalizedCat": "hechos"
+    }
+  },
+  "dq-hech-027": {
+    "fr": {
+      "id": "dq-hech-027",
+      "questionText": "Sur quelle île Paul a-t-il fait naufrage alors qu'il était en route pour Rome ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Crète" },
+        { "id": "b", "text": "Chypre" },
+        { "id": "c", "text": "Malte" },
+        { "id": "d", "text": "Patmos" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Une fois hors de danger, nous reconnûmes que l'île s'appelait Malte (Actes 28:1).",
+      "bibleReference": "Actes 27:41-28:1",
+      "normalizedRef": "act28.1",
+      "normalizedCat": "hechos"
+    }
+  },
+  "dq-hech-028": {
+    "fr": {
+      "id": "dq-hech-028",
+      "questionText": "Quelle femme, vendeuse de pourpre à Philippes, a été la première convertie de Paul en Europe ?",
+      "categoryId": "hechos",
+      "categoryName": "Actes des Apôtres",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Lydie" },
+        { "id": "b", "text": "Damaris" },
+        { "id": "c", "text": "Chloé" },
+        { "id": "d", "text": "Phœbé" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Lydie, marchande de pourpre, de la ville de Thyatire... écoutait, et le Seigneur lui ouvrit le cœur (Actes 16:14).",
+      "bibleReference": "Actes 16:14-15",
+      "normalizedRef": "act16.14",
+      "normalizedCat": "hechos"
+    }
+  },
+  "dq-hist-016": {
+    "fr": {
+      "id": "dq-hist-016",
+      "questionText": "Combien de jours et de nuits a-t-il plu pendant le déluge au temps de Noé ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "7 jours" },
+        { "id": "b", "text": "12 jours" },
+        { "id": "c", "text": "40 jours" },
+        { "id": "d", "text": "100 jours" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La pluie tomba sur la terre quarante jours et quarante nuits (Genèse 7:12).",
+      "bibleReference": "Genèse 7:12",
+      "normalizedRef": "gen7.12",
+      "normalizedCat": "historia"
+    }
+  },
+  "dq-hist-017": {
+    "fr": {
+      "id": "dq-hist-017",
+      "questionText": "Qui était le fils cadet de Jacob, né de Rachel ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Joseph" },
+        { "id": "b", "text": "Benjamin" },
+        { "id": "c", "text": "Juda" },
+        { "id": "d", "text": "Ruben" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Benjamin était le dernier des douze fils de Jacob et le deuxième fils de Rachel (Genèse 35:18).",
+      "bibleReference": "Genèse 35:18",
+      "normalizedRef": "gen35.18",
+      "normalizedCat": "historia"
+    }
+  },
+  "dq-hist-018": {
+    "fr": {
+      "id": "dq-hist-018",
+      "questionText": "Quelle reine est venue de loin pour tester la sagesse de Salomon ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La reine de Saba" },
+        { "id": "b", "text": "Jézabel" },
+        { "id": "c", "text": "Esther" },
+        { "id": "d", "text": "Vaschti" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "La reine de Saba entendit parler de la gloire de Salomon... elle vint pour l'éprouver par des énigmes (1 Rois 10:1).",
+      "bibleReference": "1 Rois 10:1",
+      "normalizedRef": "1ki10.1",
+      "normalizedCat": "historia"
+    }
+  },
+  "dq-hist-019": {
+    "fr": {
+      "id": "dq-hist-019",
+      "questionText": "Combien de temps les Israélites sont-ils restés captifs à Babylone ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "40 ans" },
+        { "id": "b", "text": "70 ans" },
+        { "id": "c", "text": "100 ans" },
+        { "id": "d", "text": "400 ans" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le prophète Jérémie avait prédit que la captivité durerait 70 ans (Jérémie 25:11).",
+      "bibleReference": "Jérémie 25:11",
+      "normalizedRef": "jer25.11",
+      "normalizedCat": "historia"
+    }
+  },
+  "dq-hist-020": {
+    "fr": {
+      "id": "dq-hist-020",
+      "questionText": "Quel roi a construit le premier temple à Jérusalem ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "David" },
+        { "id": "b", "text": "Salomon" },
+        { "id": "c", "text": "Josias" },
+        { "id": "d", "text": "Ézéchias" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Salomon a bâti la maison de l'Éternel, un projet que son père David avait préparé (1 Rois 6).",
+      "bibleReference": "1 Rois 6",
+      "normalizedRef": "1ki6",
+      "normalizedCat": "historia"
+    }
+  },
+  "dq-hist-021": {
+    "fr": {
+      "id": "dq-hist-021",
+      "questionText": "Comment s'appelait le successeur de Salomon, sous le règne duquel le royaume s'est divisé en deux ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Jéroboam" },
+        { "id": "b", "text": "Roboam" },
+        { "id": "c", "text": "Asa" },
+        { "id": "d", "text": "Josaphat" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Roboam, fils de Salomon, a refusé d'écouter le peuple, ce qui a provoqué la division du royaume (1 Rois 12).",
+      "bibleReference": "1 Rois 12",
+      "normalizedRef": "1ki12",
+      "normalizedCat": "historia"
+    }
+  },
+  "dq-hist-022": {
+    "fr": {
+      "id": "dq-hist-022",
+      "questionText": "Qui était le gouverneur romain qui a condamné Jésus à être crucifié ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Hérode" },
+        { "id": "b", "text": "Ponce Pilate" },
+        { "id": "c", "text": "Félix" },
+        { "id": "d", "text": "Festus" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pilate, voulant satisfaire la foule... leur livra Jésus, après l'avoir fait battre de verges, pour être crucifié (Marc 15:15).",
+      "bibleReference": "Matthieu 27:24",
+      "normalizedRef": "mat27.24",
+      "normalizedCat": "historia"
+    }
+  },
+  "dq-hist-023": {
+    "fr": {
+      "id": "dq-hist-023",
+      "questionText": "Quel roi a décrété que tous les Juifs pouvaient retourner à Jérusalem pour rebâtir le temple ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Nabuchodonosor" },
+        { "id": "b", "text": "Cyrus" },
+        { "id": "c", "text": "Darius" },
+        { "id": "d", "text": "Artaxerxès" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La première année de Cyrus, roi de Perse... il fit faire de vive voix et par écrit cette publication : ...Qu'il monte à Jérusalem (Esdras 1:1-3).",
+      "bibleReference": "Esdras 1:1-3",
+      "normalizedRef": "ezr1.1-3",
+      "normalizedCat": "historia"
+    }
+  },
+  "dq-hist-024": {
+    "fr": {
+      "id": "dq-hist-024",
+      "questionText": "Qui a dirigé la reconstruction des murailles de Jérusalem après l'exil ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Esdras" },
+        { "id": "b", "text": "Néhémie" },
+        { "id": "c", "text": "Zorobabel" },
+        { "id": "d", "text": "Josué" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Néhémie, échanson du roi de Perse, a obtenu la permission de retourner reconstruire les murailles de sa ville (Néhémie 2).",
+      "bibleReference": "Néhémie 2",
+      "normalizedRef": "neh2",
+      "normalizedCat": "historia"
+    }
+  },
+  "dq-hist-025": {
+    "fr": {
+      "id": "dq-hist-025",
+      "questionText": "Comment s'appelait le fils d'Abraham et de sa servante Agar ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Isaac" },
+        { "id": "b", "text": "Ismaël" },
+        { "id": "c", "text": "Ésaü" },
+        { "id": "d", "text": "Jacob" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Agar enfanta un fils à Abram ; et Abram donna le nom d'Ismaël au fils qu'Agar lui enfanta (Genèse 16:15).",
+      "bibleReference": "Genèse 16:15",
+      "normalizedRef": "gen16.15",
+      "normalizedCat": "historia"
+    }
+  },
+  "dq-hist-026": {
+    "fr": {
+      "id": "dq-hist-026",
+      "questionText": "Quel prophète a confronté les 450 prophètes de Baal sur le mont Carmel ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Élisée" },
+        { "id": "b", "text": "Élie" },
+        { "id": "c", "text": "Nathan" },
+        { "id": "d", "text": "Samuel" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Élie a proposé un défi pour montrer qui est le vrai Dieu, et le feu du ciel est descendu sur son autel (1 Rois 18).",
+      "bibleReference": "1 Rois 18",
+      "normalizedRef": "1ki18",
+      "normalizedCat": "historia"
+    }
+  },
+  "dq-hist-027": {
+    "fr": {
+      "id": "dq-hist-027",
+      "questionText": "Qui était la femme de l'Ancien Testaman devenue reine de Perse et qui a sauvé son peuple de l'extermination ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Ruth" },
+        { "id": "b", "text": "Esther" },
+        { "id": "c", "text": "Débora" },
+        { "id": "d", "text": "Abigaïl" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Esther a risqué sa vie en se présentant devant le roi Assuérus pour dénoncer le complot d'Haman (Esther 4-7).",
+      "bibleReference": "Esther 4-7",
+      "normalizedRef": "est4-7",
+      "normalizedCat": "historia"
+    }
+  },
+  "dq-hist-028": {
+    "fr": {
+      "id": "dq-hist-028",
+      "questionText": "Quel disciple a marché sur l'eau vers Jésus ?",
+      "categoryId": "historia",
+      "categoryName": "Histoire Biblique",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Jean" },
+        { "id": "b", "text": "Pierre" },
+        { "id": "c", "text": "Jacques" },
+        { "id": "d", "text": "André" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pierre sortit de la barque, et marcha sur les eaux, pour aller vers Jésus (Matthieu 14:29).",
+      "bibleReference": "Matthieu 14:29",
+      "normalizedRef": "mat14.29",
+      "normalizedCat": "historia"
+    }
+  },
+  "dq-ley-019": {
+    "fr": {
+      "id": "dq-ley-019",
+      "questionText": "Quel est le but des villes de refuge mentionnées dans la Loi ?",
+      "categoryId": "ley",
+      "categoryName": "La Loi (Torah)",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Lieux pour les sacrifices" },
+        { "id": "b", "text": "Refuge pour le meurtrier involontaire" },
+        { "id": "c", "text": "Casernes militaires" },
+        { "id": "d", "text": "Écoles pour les Lévites" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ces six villes serviront de refuge... afin que celui qui aura tué quelqu'un involontairement puisse s'y enfuir (Nombres 35:15).",
+      "bibleReference": "Nombres 35:11-15",
+      "normalizedRef": "num35.11-15",
+      "normalizedCat": "ley"
+    }
+  },
+  "dq-pmin-014": {
+    "fr": {
+      "id": "dq-pmin-014",
+      "questionText": "Quel petit prophète a été avalé par un grand poisson après avoir fui la mission de Dieu ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Osée" },
+        { "id": "b", "text": "Jonas" },
+        { "id": "c", "text": "Amos" },
+        { "id": "d", "text": "Michée" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "L'Éternel fit venir un grand poisson pour engloutir Jonas, et Jonas fut dans le ventre du poisson trois jours et trois nuits (Jonas 1:17).",
+      "bibleReference": "Jonas 1:17",
+      "normalizedRef": "jon1.17",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  "dq-pmin-015": {
+    "fr": {
+      "id": "dq-pmin-015",
+      "questionText": "Quelle ville Jonas devait-il avertir de la part de Dieu ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Babylone" },
+        { "id": "b", "text": "Ninive" },
+        { "id": "c", "text": "Tarse" },
+        { "id": "d", "text": "Tyr" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Lève-toi, va à Ninive, la grande ville, et crie contre elle ! (Jonas 1:2).",
+      "bibleReference": "Jonas 1:2",
+      "normalizedRef": "jon1.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  "dq-pmin-016": {
+    "fr": {
+      "id": "dq-pmin-016",
+      "questionText": "Quel prophète a comparé sa relation avec sa femme infidèle à la relation de Dieu avec Israël ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Joël" },
+        { "id": "b", "text": "Amos" },
+        { "id": "c", "text": "Osée" },
+        { "id": "d", "text": "Malachie" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "L'Éternel dit à Osée : Va, prends une femme prostituée... car le pays se prostitue (Osée 1:2).",
+      "bibleReference": "Osée 1:2",
+      "normalizedRef": "hos1.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  "dq-pmin-017": {
+    "fr": {
+      "id": "dq-pmin-017",
+      "questionText": "Dans quel livre prophétique est-il écrit : 'Ils forgeront de leurs épées des hoyaux, et de leurs lances des serpes' ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Jonas" },
+        { "id": "b", "text": "Michée" },
+        { "id": "c", "text": "Aggée" },
+        { "id": "d", "text": "Abdias" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "C'est une prophétie de paix universelle que l'on trouve aussi bien dans Michée 4:3 que dans Ésaïe 2:4.",
+      "bibleReference": "Michée 4:3",
+      "normalizedRef": "mic4.3",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  "dq-pmin-018": {
+    "fr": {
+      "id": "dq-pmin-018",
+      "questionText": "Quel prophète a parlé de l'effusion du Saint-Esprit sur toute chair, citée par Pierre le jour de la Pentecôte ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Amos" },
+        { "id": "b", "text": "Joël" },
+        { "id": "c", "text": "Sophonie" },
+        { "id": "d", "text": "Habacuc" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Après cela, je répandrai mon esprit sur toute chair ; vos fils et vos filles prophétiseront (Joël 2:28).",
+      "bibleReference": "Joël 2:28",
+      "normalizedRef": "joe2.28",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  "dq-pmin-019": {
+    "fr": {
+      "id": "dq-pmin-019",
+      "questionText": "Quel est le dernier livre de l'Ancien Testaman ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Zacharie" },
+        { "id": "b", "text": "Aggée" },
+        { "id": "c", "text": "Malachie" },
+        { "id": "d", "text": "Nahum" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Malachie est le dernier des douze petits prophètes et le dernier livre de l'Ancien Testaman.",
+      "bibleReference": "Malachie 1-4",
+      "normalizedRef": "mal1-4",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  "dq-pmin-020": {
+    "fr": {
+      "id": "dq-pmin-020",
+      "questionText": "Quel prophète était un simple berger de Tekoa avant d'être appelé par Dieu ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Amos" },
+        { "id": "b", "text": "Abdias" },
+        { "id": "c", "text": "Sophonie" },
+        { "id": "d", "text": "Aggée" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Amos répondit : Je n'étais ni prophète, ni fils de prophète ; j'étais berger, et je cultivais des sycomores (Amos 7:14).",
+      "bibleReference": "Amos 1:1 ; 7:14",
+      "normalizedRef": "amo1.1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  "dq-pmin-021": {
+    "fr": {
+      "id": "dq-pmin-021",
+      "questionText": "Quel prophète a annoncé que le Messie naîtrait à Bethléem ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Zacharie" },
+        { "id": "b", "text": "Michée" },
+        { "id": "c", "text": "Sophonie" },
+        { "id": "d", "text": "Nahum" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Et toi, Bethléem Éphrata... de toi sortira pour moi celui qui dominera sur Israël (Michée 5:2).",
+      "bibleReference": "Michée 5:2",
+      "normalizedRef": "mic5.2",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  "dq-pmin-022": {
+    "fr": {
+      "id": "dq-pmin-022",
+      "questionText": "Quel prophète a annoncé la destruction totale de Ninive (après Jonas) ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Nahum" },
+        { "id": "b", "text": "Habacuc" },
+        { "id": "c", "text": "Sophonie" },
+        { "id": "d", "text": "Michée" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Le livre de Nahum est une proclamation de jugement contre Ninive, capitale de l'Assyrie (Nahum 1-3).",
+      "bibleReference": "Nahum 1-3",
+      "normalizedRef": "nah1-3",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  "dq-pmin-023": {
+    "fr": {
+      "id": "dq-pmin-023",
+      "questionText": "Quel prophète a encouragé le peuple à rebâtir le temple après le retour de l'exil ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Aggée" },
+        { "id": "b", "text": "Michée" },
+        { "id": "c", "text": "Jonas" },
+        { "id": "d", "text": "Osée" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Aggée a encouragé le gouverneur Zorobabel et le sacrificateur Josué à reconstruire le temple (Aggée 1).",
+      "bibleReference": "Aggée 1",
+      "normalizedRef": "hag1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  "dq-pmin-024": {
+    "fr": {
+      "id": "dq-pmin-024",
+      "questionText": "Quel est le livre le plus court de l'Ancien Testaman, traitant du jugement d'Édom ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Sophonie" },
+        { "id": "b", "text": "Abdias" },
+        { "id": "c", "text": "Michée" },
+        { "id": "d", "text": "Joël" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Abdias est le livre le plus court de l'Ancien Testaman, avec seulement 21 versets, annonçant le jugement sur Édom (Abdias 1).",
+      "bibleReference": "Abdias 1",
+      "normalizedRef": "oba1",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  "dq-pmin-025": {
+    "fr": {
+      "id": "dq-pmin-025",
+      "questionText": "Quel est le nom du prophète qui a dit : 'Le juste vivra par sa foi' ?",
+      "categoryId": "profetas-menores",
+      "categoryName": "Petits Prophètes",
+      "difficulty": "hard",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Habacuc" },
+        { "id": "b", "text": "Sophonie" },
+        { "id": "c", "text": "Malachie" },
+        { "id": "d", "text": "Osée" }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mais le juste vivra par sa foi (ou sa fidélité) (Habacuc 2:4).",
+      "bibleReference": "Habacuc 2:4",
+      "normalizedRef": "hab2.4",
+      "normalizedCat": "profetas-menores"
+    }
+  },
+  "dq-sabid-025": {
+    "fr": {
+      "id": "dq-sabid-025",
+      "questionText": "Que dit l'Ecclésiaste (Qohélet) être le thème central de la vie sans Dieu ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "La foi" },
+        { "id": "b", "text": "La vanité (ce qui ne vaut rien)" },
+        { "id": "c", "text": "La sagesse" },
+        { "id": "d", "text": "Le travail" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tout est vanité (Ecclésiaste 1:2) — c'est ainsi que Qohélet décrit la vie sans un but éternel avec Dieu.",
+      "bibleReference": "Ecclésiaste 1:2",
+      "normalizedRef": "ecc1.2",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  "dq-sabid-026": {
+    "fr": {
+      "id": "dq-sabid-026",
+      "questionText": "Que dit Proverbes 1:7 être le commencement de la science ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "L'étude de la loi" },
+        { "id": "b", "text": "La crainte de l'Éternel" },
+        { "id": "c", "text": "L'écoute des anciens" },
+        { "id": "d", "text": "La recherche de la richesse" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "La crainte de l'Éternel est le commencement de la science (Proverbes 1:7).",
+      "bibleReference": "Proverbes 1:7",
+      "normalizedRef": "pro1.7",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  "dq-sabid-027": {
+    "fr": {
+      "id": "dq-sabid-027",
+      "questionText": "Quel psaume est souvent appelé 'Le psaume du berger' ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "easy",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Psaume 1" },
+        { "id": "b", "text": "Psaume 23" },
+        { "id": "c", "text": "Psaume 91" },
+        { "id": "d", "text": "Psaume 100" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Psaume 23 commence par : L'Éternel est mon berger : je ne manquerai de rien.",
+      "bibleReference": "Psaume 23:1",
+      "normalizedRef": "psa23.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  "dq-sabid-028": {
+    "fr": {
+      "id": "dq-sabid-028",
+      "questionText": "Quelle est la plus grande sagesse selon le livre de Job ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Tout savoir" },
+        { "id": "b", "text": "Avoir beaucoup d'expérience" },
+        { "id": "c", "text": "La crainte du Seigneur et s'éloigner du mal" },
+        { "id": "d", "text": "Bien parler devant les hommes" }
+      ],
+      "correctOptionId": "c",
+      "explanation": "La crainte du Seigneur, c'est la sagesse ; s'éloigner du mal, c'est l'intelligence (Job 28:28).",
+      "bibleReference": "Job 28:28",
+      "normalizedRef": "job28.28",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  "dq-sabid-029": {
+    "fr": {
+      "id": "dq-sabid-029",
+      "questionText": "Que célèbre principalement le livre du Cantique des Cantiques ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sagesse et Poésie",
+      "difficulty": "medium",
+      "language": "fr",
+      "options": [
+        { "id": "a", "text": "Les guerres d'Israël" },
+        { "id": "b", "text": "L'amour entre un homme et une femme" },
+        { "id": "c", "text": "Les récoltes annuelles" },
+        { "id": "d", "text": "Le service du temple" }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Le Cantique des Cantiques est un poème qui célèbre l'amour passionné et la fidélité entre deux amants.",
+      "bibleReference": "Cantique des Cantiques 1-8",
+      "normalizedRef": "sng1-8",
+      "normalizedCat": "sabiduria"
+    }
+  }
+}

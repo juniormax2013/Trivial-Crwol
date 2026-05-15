@@ -1,0 +1,76 @@
+﻿
+> ai-studio-applet@0.1.0 build
+> next build
+
+   Ôû▓ Next.js 15.5.14
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ Ô£ô Compiled successfully in 1982ms
+   Skipping linting
+   Checking validity of types ...
+node.exe : Failed to 
+compile.
+En línea: 1 Carácter: 1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (F  
+  ailed to compile.:Str   
+ ing) [], RemoteExcept    
+ion
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+
+./functions/src/index.ts:1
+6:44
+Type error: Property 
+'auth' does not exist on 
+type 'typeof import("C:/Us
+ers/junio/Desktop/200/Jueg
+o/Trivial App/functions/no
+de_modules/firebase-functi
+ons/lib/v2/index")'.
+
+[0m [90m 14 |[39m 
+[90m * Creates a default 
+user document in 
+Firestore.[39m
+ [90m 15 |[39m [90m 
+*/[39m
+[31m[1m>[22m[39m[90m 
+16 |[39m 
+[36mexport[39m 
+[36mconst[39m 
+createUserProfile 
+[33m=[39m functions[33m
+.[39mauth[33m.[39muser(
+)[33m.[39monCreate([36m
+async[39m (user) 
+[33m=>[39m {
+ [90m    |[39m          
+                          
+        
+[31m[1m^[22m[39m
+ [90m 17 |[39m   
+[36mconst[39m userRef 
+[33m=[39m db[33m.[39mc
+ollection([32m"users"[39
+m)[33m.[39mdoc(user[33m
+.[39muid)[33m;[39m
+ [90m 18 |[39m   
+ [90m 19 |[39m   
+[36mawait[39m userRef[3
+3m.[39m[36mset[39m({[0
+m
+Next.js build worker 
+exited with code: 1 and 
+signal: null
+

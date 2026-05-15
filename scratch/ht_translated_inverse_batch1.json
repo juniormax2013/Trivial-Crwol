@@ -1,0 +1,1331 @@
+[
+  {
+    "newId": "dq-sabid-016",
+    "ht": {
+      "id": "dq-sabid-016",
+      "questionText": "Konbyen sòm ki genyen nan Bib la?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "100"
+        },
+        {
+          "id": "b",
+          "text": "120"
+        },
+        {
+          "id": "c",
+          "text": "150"
+        },
+        {
+          "id": "d",
+          "text": "180"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Liv Sòm nan gen 150 sòm, ki divize an senk liv.",
+      "bibleReference": "Sòm 1-150",
+      "normalizedRef": "psa1-150",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "newId": "dq-sabid-017",
+    "ht": {
+      "id": "dq-sabid-017",
+      "questionText": "Kilès ki pèsonaj santral nan liv Jòb la?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon wa Izrayèl"
+        },
+        {
+          "id": "b",
+          "text": "Yon pwofèt Edòm"
+        },
+        {
+          "id": "c",
+          "text": "Yon nonm ki te jis ke soufrans te epwouve"
+        },
+        {
+          "id": "d",
+          "text": "Yon prèt nan tanp lan"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Jòb te yon moun ki te entèg e ki te dwat, Bondye te pèmèt Satan epwouve l (Jòb 1:1).",
+      "bibleReference": "Jòb 1:1",
+      "normalizedRef": "job1.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "newId": "dq-sabid-018",
+    "ht": {
+      "id": "dq-sabid-018",
+      "questionText": "Konbyen chapit yo genyen nan liv Pwovèb yo?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "28"
+        },
+        {
+          "id": "c",
+          "text": "31"
+        },
+        {
+          "id": "d",
+          "text": "36"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Liv Pwovèb yo gen 31 chapit, li fini ak lwanj pou fanm vètyè a.",
+      "bibleReference": "Pwovèb 31",
+      "normalizedRef": "pro31",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "newId": "dq-sabid-019",
+    "ht": {
+      "id": "dq-sabid-019",
+      "questionText": "Ki sòm ki yon akwostich konplè ki itilize 22 lèt alfabè ebre a?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 22"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 91"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 119"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 150"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sòm 119 se chapit ki pi long nan Bib la e se yon akwostich ebre ki gen 22 seksyon ak 8 vèsè chak.",
+      "bibleReference": "Sòm 119",
+      "normalizedRef": "psa119",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "newId": "dq-sabid-020",
+    "ht": {
+      "id": "dq-sabid-020",
+      "questionText": "Kilès nan liv sa yo yo rele tou « Chante Chante yo Salomon an » ?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Koèlèt (Eklezyas)"
+        },
+        {
+          "id": "b",
+          "text": "Shir HaShirim"
+        },
+        {
+          "id": "c",
+          "text": "Tehillim"
+        },
+        {
+          "id": "d",
+          "text": "Mishlei"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Shir HaShirim » se non ebre pou Chante Chante yo (Chante Chante yo 1:1).",
+      "bibleReference": "Chante Chante yo 1:1",
+      "normalizedRef": "sng1.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "newId": "dq-sabid-021",
+    "ht": {
+      "id": "dq-sabid-021",
+      "questionText": "Nan ki sòm David konfese peche l avèk Batcheba?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm 22"
+        },
+        {
+          "id": "b",
+          "text": "Sòm 51"
+        },
+        {
+          "id": "c",
+          "text": "Sòm 73"
+        },
+        {
+          "id": "d",
+          "text": "Sòm 88"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Sòm 51 (Miserere) se priyè repantans David apre Natan te fin denonse peche l la.",
+      "bibleReference": "Sòm 51:1",
+      "normalizedRef": "psa51.1",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "newId": "dq-sabid-022",
+    "ht": {
+      "id": "dq-sabid-022",
+      "questionText": "Ki gwo bèt ki dekri nan chapit 40-41 nan liv Jòb la?",
+      "categoryId": "sabiduria",
+      "categoryName": "Sajès ak Powezi",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Beyemòt ak Leviyatran"
+        },
+        {
+          "id": "b",
+          "text": "Dragon ak Sèpan"
+        },
+        {
+          "id": "c",
+          "text": "Agle ak Lyon"
+        },
+        {
+          "id": "d",
+          "text": "Toro ak Lous"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Beyemòt (chap. 40) ak Leviyatran (chap. 41) montre pouvwa souveren Bondye nan kreyasyon an (Jòb 40-41).",
+      "bibleReference": "Jòb 40-41",
+      "normalizedRef": "job40-41",
+      "normalizedCat": "sabiduria"
+    }
+  },
+  {
+    "newId": "dq-sabid-023",
+    "ht": {
+      "id": "dq-sabid-023",
+      "ht": {
+        "id": "dq-sabid-023",
+        "questionText": "Pwovèb 31 fini ak deskripsyon yon fanm vètyè. Ki tèm ebre ki deziyen l?",
+        "categoryId": "sabiduria",
+        "categoryName": "Sajès ak Powezi",
+        "difficulty": "hard",
+        "language": "ht",
+        "options": [
+          {
+            "id": "a",
+            "text": "Isha Qadosha"
+          },
+          {
+            "id": "b",
+            "text": "Éshet Hayil"
+          },
+          {
+            "id": "c",
+            "text": "Almah Tovah"
+          },
+          {
+            "id": "d",
+            "text": "Geveret Shalom"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "« Éshet Hayil » (fanm vanyan/fanm de valè) se ekspresyon ebre ki nan Pwovèb 31:10 la.",
+        "bibleReference": "Pwovèb 31:10",
+        "normalizedRef": "pro31.10",
+        "normalizedCat": "sabiduria"
+      }
+    }
+  },
+  {
+    "newId": "dq-pmay-024",
+    "ht": {
+      "id": "dq-pmay-024",
+      "questionText": "Nan ki twou yo te jete Danyèl paske li t ap priye Bondye?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon prizon"
+        },
+        {
+          "id": "b",
+          "text": "Yon twou lyon"
+        },
+        {
+          "id": "c",
+          "text": "Yon founèz dife"
+        },
+        {
+          "id": "d",
+          "text": "Yon pi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yo te jete Danyèl nan twou lyon an paske li te refize sispann priye Bondye (Danyèl 6).",
+      "bibleReference": "Danyèl 6:16",
+      "normalizedRef": "dan6.16",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "newId": "dq-pmay-025",
+    "ht": {
+      "id": "dq-pmay-025",
+      "questionText": "Ki liv Jeremi te ekri tou anplis liv ki pote non l lan?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sòm yo"
+        },
+        {
+          "id": "b",
+          "text": "Lamantasyon yo"
+        },
+        {
+          "id": "c",
+          "text": "Eklezyas"
+        },
+        {
+          "id": "d",
+          "text": "Pwovèb yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tradisyon an fè konnen se Jeremi ki ekri liv Lamantasyon yo sou destriksyon Jerizalèm.",
+      "bibleReference": "Lamantasyon 1:1",
+      "normalizedRef": "lam1.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "newId": "dq-pmay-026",
+    "ht": {
+      "id": "dq-pmay-026",
+      "questionText": "Konbyen zanmi Chadrak, Mechak ak Abèdnego yo te jete nan founèz dife a?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "2"
+        },
+        {
+          "id": "c",
+          "text": "3"
+        },
+        {
+          "id": "d",
+          "text": "4"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Chadrak, Mechak ak Abèdnego — twa konpayon Danyèl — yo te jete yo nan founèz la (Danyèl 3:19-20).",
+      "bibleReference": "Danyèl 3:19-23",
+      "normalizedRef": "dan3.19-23",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "newId": "dq-pmay-027",
+    "ht": {
+      "id": "dq-pmay-027",
+      "questionText": "Ki jan sekretè Jeremi ki te ekri sa li t ap dikte yo te rele?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esdras"
+        },
+        {
+          "id": "b",
+          "text": "Barouk"
+        },
+        {
+          "id": "c",
+          "text": "Ananyèl"
+        },
+        {
+          "id": "d",
+          "text": "Pachou"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Barouk, pitit gason Nerija, te sekretè fidèl Jeremi (Jeremi 36:4).",
+      "bibleReference": "Jeremi 36:4",
+      "normalizedRef": "jer36.4",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "newId": "dq-pmay-028",
+    "ht": {
+      "id": "dq-pmay-028",
+      "questionText": "Nan kisa vizyon popilè « cha Bondye a » nan chapit 1 Ezekyèl la te konsiste?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon cha an lò zanj yo t ap rale"
+        },
+        {
+          "id": "b",
+          "text": "Wou nan mitan wou ak bèt vivan"
+        },
+        {
+          "id": "c",
+          "text": "Yon fotèy dife nan syèl la"
+        },
+        {
+          "id": "d",
+          "text": "Yon gwo agle ki t ap pote lach la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Ezekyèl te wè bèt vivan ak wou nan mitan wou (ofanim) — merkabah la (Ezekyèl 1).",
+      "bibleReference": "Ezekyèl 1:4-21",
+      "normalizedRef": "eze1.4-21",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "newId": "dq-pmay-029",
+    "ht": {
+      "id": "dq-pmay-029",
+      "questionText": "Nan estati Danyèl 2 a, ak kisa pye gwo estati a te fèt?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ajan ak bwonz"
+        },
+        {
+          "id": "b",
+          "text": "Lò ak ajan"
+        },
+        {
+          "id": "c",
+          "text": "Fè ak tè krich"
+        },
+        {
+          "id": "d",
+          "text": "Kwiv ak fè blan"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pye estati a te fèt ak fè melanje ak tè krich, sa te reprezante yon wayòm divize (Danyèl 2:33,41).",
+      "bibleReference": "Danyèl 2:33",
+      "normalizedRef": "dan2.33",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "newId": "dq-pmay-030",
+    "ht": {
+      "id": "dq-pmay-030",
+      "questionText": "Pwofesi « 70 senmenn » yo nan ki chapit nan liv Danyèl la?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Danyèl 2"
+        },
+        {
+          "id": "b",
+          "text": "Danyèl 7"
+        },
+        {
+          "id": "c",
+          "text": "Danyèl 9"
+        },
+        {
+          "id": "d",
+          "text": "Danyèl 12"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Danyèl 9:24-27 genyen pwofesi 70 senmenn yo, ki se pwen santral nan kwonoloji mesyanik la.",
+      "bibleReference": "Danyèl 9:24-27",
+      "normalizedRef": "dan9.24-27",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "newId": "dq-pmay-031",
+    "ht": {
+      "id": "dq-pmay-031",
+      "questionText": "Ki tèm ebre ki deziyen seksyon Ezayi 40-55 ke kritik yo rele souvan « Dezyèm Ezayi »?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liv Konsolatè a"
+        },
+        {
+          "id": "b",
+          "text": "Liv Sèvitè a"
+        },
+        {
+          "id": "c",
+          "text": "Liv Orak yo"
+        },
+        {
+          "id": "d",
+          "text": "Liv Glwa a"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Ezayi 40 kòmanse ak « Konsole, konsole pèp mwen an » — se poutèt sa yo rele chapit 40-55 yo « Liv Konsolatè a ».",
+      "bibleReference": "Ezayi 40:1",
+      "normalizedRef": "isa40.1",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "newId": "dq-pmay-032",
+    "ht": {
+      "id": "dq-pmay-032",
+      "questionText": "Ezekyèl 28 pwononse yon mesaj kont wa Tir la ke yo entèprete souvan kòm chit ki pèsonaj?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Adan"
+        },
+        {
+          "id": "b",
+          "text": "Nimwòd"
+        },
+        {
+          "id": "c",
+          "text": "Satan"
+        },
+        {
+          "id": "d",
+          "text": "Antikris la"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Ezekyèl 28:12-17 depase wa imen an e li dekri yon bèt selès ki te tonbe, anpil moun idantifye ak Satan.",
+      "bibleReference": "Ezekyèl 28:12-17",
+      "normalizedRef": "eze28.12-17",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "newId": "dq-pmay-033",
+    "ht": {
+      "id": "dq-pmay-033",
+      "questionText": "Yo rele Jeremi « pwofèt k ap kriye a » — ki ekspresyon ki pi byen montre imaj sa a?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te konn kriye nan chak mirak"
+        },
+        {
+          "id": "b",
+          "text": "Li te konn kriye pou pèp li a ki te rebèl ak pou Jerizalèm ki te detwi"
+        },
+        {
+          "id": "c",
+          "text": "Li te konn kriye nan vizyon l yo lannwit"
+        },
+        {
+          "id": "d",
+          "text": "Li te konn kriye akòz pwòp peche pa l"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jeremi te sipliye pèp li a, li te soufri pèsekisyon e li te kriye pou malè ki te rive Jerizalèm nan liv Lamantasyon yo (Lam 1:16).",
+      "bibleReference": "Lamantasyon 1:16",
+      "normalizedRef": "lam1.16",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "newId": "dq-pmay-034",
+    "ht": {
+      "id": "dq-pmay-034",
+      "questionText": "Ki objè selès Ezekyèl dekri k ap vire bò kote twòn Bondye a nan vizyon l yo?",
+      "categoryId": "profetas-mayores",
+      "categoryName": "Gwo Pwofèt",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zetwal k ap filan"
+        },
+        {
+          "id": "b",
+          "text": "Wou ki kouvri ak je"
+        },
+        {
+          "id": "c",
+          "text": "Nwaj dife"
+        },
+        {
+          "id": "d",
+          "text": "Sfer kristal"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "« Ofanim » yo — wou ki kouvri ak je toupatou — antoure cha glwa Bondye a (Ezekyèl 1:18; 10:12).",
+      "bibleReference": "Ezekyèl 1:18",
+      "normalizedRef": "eze1.18",
+      "normalizedCat": "profetas-mayores"
+    }
+  },
+  {
+    "newId": "dq-hech-009",
+    "ht": {
+      "id": "dq-hech-009",
+      "questionText": "Kilès ki te ekri liv Travay Apòt yo?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pòl"
+        },
+        {
+          "id": "b",
+          "text": "Pyè"
+        },
+        {
+          "id": "c",
+          "text": "Lik"
+        },
+        {
+          "id": "d",
+          "text": "Jan"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Liv Travay la se dezyèm volim Lik la — li te ekri l pou Téofil menm jan ak Levanjil Lik la (Travay 1:1; Lik 1:3).",
+      "bibleReference": "Travay 1:1",
+      "normalizedRef": "act1.1",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-010",
+    "ht": {
+      "id": "dq-hech-010",
+      "questionText": "Ki mirak Pyè te fè nan bèl Pòt Tanp lan (Travay 3)?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li te geri yon avèg depi nan vant manman l"
+        },
+        {
+          "id": "b",
+          "text": "Li te resisite yon mò"
+        },
+        {
+          "id": "c",
+          "text": "Li te geri yon moun ki te bwate depi nan vant manman l ki te kòmanse mache, sote e fè lwanj pou Bondye"
+        },
+        {
+          "id": "d",
+          "text": "Li te bay yon foul moun ki te grangou manje"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Pyè ak Jan te geri nan non Jezi yon nonm ki te bwate depi nan vant manman l devan bèl Pòt Tanp lan. Li te sote, li mache e li fè lwanj pou Bondye (Travay 3:6-8).",
+      "bibleReference": "Travay 3:6-8",
+      "normalizedRef": "act3.6-8",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-011",
+    "ht": {
+      "id": "dq-hech-011",
+      "questionText": "Kisa konvèsyon Pòl sou wout Damas la montre sou misyon Legliz la?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ke Bondye rele sèlman moun ki pafè"
+        },
+        {
+          "id": "b",
+          "text": "Ke Bondye ka transfòme pi gwo pèsekitè yo an apòt — gras li se souveren"
+        },
+        {
+          "id": "c",
+          "text": "Ke pèsekisyon nesesè pou Legliz la grandi"
+        },
+        {
+          "id": "d",
+          "text": "Ke Jerizalèm rete sant misyon mondyal la"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pòl, ki te yon gwo pèsekitè Legliz la, te transfòme apre l te rankontre Kris ki te resisite a — li te vin apòt nasyon yo, sa montre souverènte gras Bondye a (Travay 9:1-20; Galat 1:13-16).",
+      "bibleReference": "Travay 9:1-20",
+      "normalizedRef": "act9.1-20",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-012",
+    "ht": {
+      "id": "dq-hech-012",
+      "questionText": "Ki desizyon konsil Jerizalèm lan te pran konsènan kwayan ki pa jwif yo (Travay 15)?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kwayan ki pa jwif yo te dwe sikonsi e swiv tout Lalwa a"
+        },
+        {
+          "id": "b",
+          "text": "Kwayan ki pa jwif yo pa t oblije sikonsi — yo te dwe sèlman evite sèten pratik zidòl"
+        },
+        {
+          "id": "c",
+          "text": "Kwayan ki pa jwif yo te dwe kòmanse pa vin jwif"
+        },
+        {
+          "id": "d",
+          "text": "Sikonsizyon te rekòmande men li pa t oblije"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Konsil la te deside: kwayan ki pa jwif yo pa bezwen sikonsi, men yo dwe evite vyann ki sèvi sakrifis pou zidòl, san, bèt trangle ak imoralite (Travay 15:19-20).",
+      "bibleReference": "Travay 15:19-20",
+      "normalizedRef": "act15.19-20",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-013",
+    "ht": {
+      "id": "dq-hech-013",
+      "questionText": "Ki mirak ki te fèt lè Pòl ak Silas te nan prizon nan vil Filipi?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon zanj te pote manje pou yo"
+        },
+        {
+          "id": "b",
+          "text": "Yon tranblemanntè louvri pòt yo e li dekole chenn yo — gadyen prizon an konvèti"
+        },
+        {
+          "id": "c",
+          "text": "Yo te vin envizib e yo te mache soti"
+        },
+        {
+          "id": "d",
+          "text": "Yon gwo limyè te avèg tout gad yo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pandan yo t ap chante lwanj nan mitan lannwit, yon tranblemanntè te fèt. Gadyen an te prèt pou l touye tèt li, men Pòl te anpeche l e gadyen an ak tout fanmi l te batize (Travay 16:25-34).",
+      "bibleReference": "Travay 16:25-34",
+      "normalizedRef": "act16.25-34",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-014",
+    "ht": {
+      "id": "dq-hech-014",
+      "questionText": "Kisa Jezi te di apòt yo nan Travay 1:8 konsènan resevwa Sentespri a?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ke yo t ap vin rich"
+        },
+        {
+          "id": "b",
+          "text": "Ke yo t ap resevwa pouvwa pou yo sèvi l temwen jouk nan bout latè"
+        },
+        {
+          "id": "c",
+          "text": "Ke yo t ap mouri touswit"
+        },
+        {
+          "id": "d",
+          "text": "Ke yo t ap sispann gen pwoblèm"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Jezi te pwomèt pouvwa Sentespri a pou temwayaj mondyal: Jerizalèm, Jide, Samari, ak dènye bout latè (Travay 1:8).",
+      "bibleReference": "Travay 1:8",
+      "normalizedRef": "act1.8",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-015",
+    "ht": {
+      "id": "dq-hech-015",
+      "questionText": "Ki pèsonaj yo te chwazi pou ranplase Jida Iskariòt pami douz apòt yo?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pòl"
+        },
+        {
+          "id": "b",
+          "text": "Matyas"
+        },
+        {
+          "id": "c",
+          "text": "Banabas"
+        },
+        {
+          "id": "d",
+          "text": "Sila"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apre yo te fin priye e yo te jete tiraj osò, yo te chwazi Matyas pou l te ka fè pati douz la ansanm ak lòt onz yo (Travay 1:23-26).",
+      "bibleReference": "Travay 1:23-26",
+      "normalizedRef": "act1.23-26",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-016",
+    "ht": {
+      "id": "dq-hech-016",
+      "questionText": "Ki premye mati kretyen ki te mouri anba kout ròch pandan li t ap preche (Travay 7)?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jak"
+        },
+        {
+          "id": "b",
+          "text": "Etyèn"
+        },
+        {
+          "id": "c",
+          "text": "Filip"
+        },
+        {
+          "id": "d",
+          "text": "Filémon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Etyèn, youn nan sèt dyak yo, te mouri anba kout ròch apre yon diskou long devan Gran Konsèy la (Travay 7:54-60).",
+      "bibleReference": "Travay 7:59-60",
+      "normalizedRef": "act7.59-60",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-017",
+    "ht": {
+      "id": "dq-hech-017",
+      "questionText": "Ki mirak ki te fèt nan vil Jope ak yon fi ki te rele Tabita (Dòkas)?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo geri l de lafyèv"
+        },
+        {
+          "id": "b",
+          "text": "Pyè resisite l apre li te fin mouri"
+        },
+        {
+          "id": "c",
+          "text": "Li te kòmanse pale tout lang"
+        },
+        {
+          "id": "d",
+          "text": "Li te fè yon mirak miltiplikasyon pen"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Tabita te yon fi ki te konn fè anpil byen. Apre li mouri, Pyè te priye e li di: « Tabita, leve! » e li te resisite (Travay 9:36-41).",
+      "bibleReference": "Travay 9:36-41",
+      "normalizedRef": "act9.36-41",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-018",
+    "ht": {
+      "id": "dq-hech-018",
+      "questionText": "Kisa ki te rive Ananyas ak Safira lè yo te manti bay Sentespri a sou pri yon tè yo te vann ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo te mete yo deyò nan legliz la"
+        },
+        {
+          "id": "b",
+          "text": "Yo te tonbe mouri touswit youn apre lòt"
+        },
+        {
+          "id": "c",
+          "text": "Yo te pèdi tout byen yo"
+        },
+        {
+          "id": "d",
+          "text": "Yo te mande yo padon piblik"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Yo te kenbe yon pati nan lajan an pandan yo te fè konnen yo bay tout. Pyè te di yo manti bay Bondye, e yo te tonbe mouri (Travay 5:1-11).",
+      "bibleReference": "Travay 5:1-11",
+      "normalizedRef": "act5.1-11",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-019",
+    "ht": {
+      "id": "dq-hech-019",
+      "questionText": "Nan ki vil Pyè te gen vizyon gwo dra ki desann sot nan syèl la ak tout kalite bèt ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "hard",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "Jope"
+        },
+        {
+          "id": "c",
+          "text": "Sezare"
+        },
+        {
+          "id": "d",
+          "text": "Antyòch"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pyè te sou tèt kay Simon, bòs tanè a, nan Jope lè li te fè vizyon sa a ki te montre l ke Bondye pa fè paspouki pou okenn nasyon (Travay 10:9-16).",
+      "bibleReference": "Travay 10:9-16",
+      "normalizedRef": "act10.9-16",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-020",
+    "ht": {
+      "id": "dq-hech-020",
+      "questionText": "Kilès ki te premye ofisye janti (ki pa jwif) ki te resevwa Sentespri a apre Pyè te fin preche lakay li ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Geòlye Filipi a"
+        },
+        {
+          "id": "b",
+          "text": "Kòneym (Cornélius)"
+        },
+        {
+          "id": "c",
+          "text": "Sèjiyis Pòlis"
+        },
+        {
+          "id": "d",
+          "text": "Minis rèn peyi Letiopi a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Kòneym te yon kaptenn lame women an. Sentespri a te desann sou li ak tout fanmi l pandan Pyè t ap preche (Travay 10).",
+      "bibleReference": "Travay 10:44-48",
+      "normalizedRef": "act10.44-48",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-021",
+    "ht": {
+      "id": "dq-hech-021",
+      "questionText": "Nan ki vil disip yo te resevwa non « Kretyen » pou premye fwa ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jerizalèm"
+        },
+        {
+          "id": "b",
+          "text": "Antyòch"
+        },
+        {
+          "id": "c",
+          "text": "Wòm"
+        },
+        {
+          "id": "d",
+          "text": "Efèz"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Se nan vil Antyòch disip yo te kòmanse pote non kretyen an pou premye fwa (Travay 11:26).",
+      "bibleReference": "Travay 11:26",
+      "normalizedRef": "act11.26",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-022",
+    "ht": {
+      "id": "dq-hech-022",
+      "questionText": "Ki mirak ki te rive lè Pyè te nan prizon anba lòd wa Ewòd (Travay 12) ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yon tranblemanntè kraze prizon an"
+        },
+        {
+          "id": "b",
+          "text": "Yon zanj parèt, li fè chenn yo tonbe e li mennen l deyò"
+        },
+        {
+          "id": "c",
+          "text": "Gad yo te tounen kretyen e yo kite l ale"
+        },
+        {
+          "id": "d",
+          "text": "Pyè te disparèt vizib"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pandan legliz la t ap priye pou li, yon zanj te vin delivre Pyè nan mitan lannwit lan, li fè l soti nan prizon an san gad yo pa wè l (Travay 12:7-10).",
+      "bibleReference": "Travay 12:7-10",
+      "normalizedRef": "act12.7-10",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-023",
+    "ht": {
+      "id": "dq-hech-023",
+      "questionText": "Ki kote Pòl te preche diskou li sou « Bondye nou pa konnen an » ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nan mache Korent lan"
+        },
+        {
+          "id": "b",
+          "text": "Nan mitan Areopaj la nan vil Atèn"
+        },
+        {
+          "id": "c",
+          "text": "Nan sinagòg Efèz la"
+        },
+        {
+          "id": "d",
+          "text": "Nan palè Seza a"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Pòl te sèvi ak yon lotèl yo te jwenn nan vil Atèn pou l te ka pale yo de vrè Bondye a bay filozòf yo nan Areopaj la (Travay 17:22-31).",
+      "bibleReference": "Travay 17:22-31",
+      "normalizedRef": "act17.22-31",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-024",
+    "ht": {
+      "id": "dq-hech-024",
+      "questionText": "Ki mirak ki te rive yon jenn gason ki te rele Etiyis ki te tonbe nan fenèt pandan Pòl t ap preche ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Li pa t gen anyen menm"
+        },
+        {
+          "id": "b",
+          "text": "Li te mouri nan tonbe a, men Pòl resisite l"
+        },
+        {
+          "id": "c",
+          "text": "Yo te geri l de yon maladi"
+        },
+        {
+          "id": "d",
+          "text": "Zanj te kenbe l anvan l touche tè"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Etiyis te tonbe sot nan twazyèm etaj paske li te nan dòmi. Yo te ranmase l mouri, men Pòl te desann e li te resisite l (Travay 20:9-12).",
+      "bibleReference": "Travay 20:9-12",
+      "normalizedRef": "act20.9-12",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-025",
+    "ht": {
+      "id": "dq-hech-025",
+      "questionText": "Nan ki zile bato Pòl la te fè nofraj pandan li t ap ale Wòm ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chip"
+        },
+        {
+          "id": "b",
+          "text": "Malt"
+        },
+        {
+          "id": "c",
+          "text": "Krèt"
+        },
+        {
+          "id": "d",
+          "text": "Patmòs"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Apre yon gwo tanpèt ki te dire plizyè jou, bato a te kraze sou rivaj zile Malt kote tout moun te sove (Travay 27-28).",
+      "bibleReference": "Travay 28:1",
+      "normalizedRef": "act28.1",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-026",
+    "ht": {
+      "id": "dq-hech-026",
+      "questionText": "Ki sa k te rive Pyè ak Jan lè yo te pase nwit yo nan prizon apre yo te fin geri bwate a (Travay 4) ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yo te bat yo byen bat"
+        },
+        {
+          "id": "b",
+          "text": "Lè yo parèt devan Gran Konsèy la, yo te preche avèk anpil asirans"
+        },
+        {
+          "id": "c",
+          "text": "Yo te mande yo pou yo kite vil la"
+        },
+        {
+          "id": "d",
+          "text": "Yo te kondane yo pou yo mouri"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Malgre menas yo, apòt yo te di yo pa kapab sispann pale de sa yo te wè ak sa yo te tande (Travay 4:13-20).",
+      "bibleReference": "Travay 4:13-20",
+      "normalizedRef": "act4.13-20",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-027",
+    "ht": {
+      "id": "dq-hech-027",
+      "questionText": "Ki jan yo te rele de moun ki te eseye achte pouvwa Sentespri a ak lajan nan Samari (simoni) ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "medium",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Elimas"
+        },
+        {
+          "id": "b",
+          "text": "Simon majisyen an"
+        },
+        {
+          "id": "c",
+          "text": "Aleksann"
+        },
+        {
+          "id": "d",
+          "text": "Demetryis"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Simon te wè apòt yo ap bay moun Sentespri a, li te ofri yo lajan pou l te ka gen menm pouvwa sa a, men Pyè te reprimande l (Travay 8:18-24).",
+      "bibleReference": "Travay 8:18-24",
+      "normalizedRef": "act8.18-24",
+      "normalizedCat": "hechos"
+    }
+  },
+  {
+    "newId": "dq-hech-028",
+    "ht": {
+      "id": "dq-hech-028",
+      "questionText": "Kilès ki te esplike minis rèn peyi Letiopi a pasaj nan liv Ezayi a pandan li t ap vwayaje nan cha li ?",
+      "categoryId": "hechos",
+      "categoryName": "Travay Apòt yo",
+      "difficulty": "easy",
+      "language": "ht",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pyè"
+        },
+        {
+          "id": "b",
+          "text": "Filip (evanjelis la)"
+        },
+        {
+          "id": "c",
+          "text": "Etyèn"
+        },
+        {
+          "id": "d",
+          "text": "Jan"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Bondye te voye Filip sou wout la. Li te moute nan cha a, li esplike minis la ke pasaj la t ap pale de Jezi, epi li batize l (Travay 8:26-38).",
+      "bibleReference": "Travay 8:26-38",
+      "normalizedRef": "act8.26-38",
+      "normalizedCat": "hechos"
+    }
+  }
+]

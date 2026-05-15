@@ -1,0 +1,427 @@
+[
+  {
+    "id": "dq-exo-011",
+    "questionText": "Quel est le nom du frère de Moïse qui fut son porte-parole devant Pharaon ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Josué" },
+      { "id": "b", "text": "Aaron" },
+      { "id": "c", "text": "Hur" },
+      { "id": "d", "text": "Caleb" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Dieu désigna Aaron pour parler au nom de Moïse car Moïse se plaignait d'avoir la bouche et la langue embarrassées (Exode 4:10-16).",
+    "bibleReference": "Exode 4:14"
+  },
+  {
+    "id": "dq-exo-012",
+    "questionText": "Combien de temps les Israélites sont-ils restés en Égypte selon l'Exode ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "215 ans" },
+      { "id": "b", "text": "400 ans" },
+      { "id": "c", "text": "430 ans" },
+      { "id": "d", "text": "500 ans" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "\"Le séjour des enfants d'Israël en Égypte fut de quatre cent trente ans\" (Exode 12:40).",
+    "bibleReference": "Exode 12:40"
+  },
+  {
+    "id": "dq-exo-013",
+    "questionText": "Quel était le nom de la femme de Moïse ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Miriam" },
+      { "id": "b", "text": "Séphora" },
+      { "id": "c", "text": "Léa" },
+      { "id": "d", "text": "Rachel" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Séphora était la fille de Jethro, prêtre de Madian, que Moïse épousa après avoir fui l'Égypte (Exode 2:21).",
+    "bibleReference": "Exode 2:21"
+  },
+  {
+    "id": "dq-exo-014",
+    "questionText": "Quel était le nom du premier-né de Moïse ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Éliézer" },
+      { "id": "b", "text": "Guerchom" },
+      { "id": "c", "text": "Éphraïm" },
+      { "id": "d", "text": "Manassé" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Moïse appela son premier fils Guerchom, car il dit : \"J'habite un pays étranger\" (Exode 2:22).",
+    "bibleReference": "Exode 2:22"
+  },
+  {
+    "id": "dq-exo-015",
+    "questionText": "Quels étaient les noms des deux sages-femmes qui ont refusé de tuer les bébés hébreux ?",
+    "categoryId": "exodo",
+    "categoryName": "Exode",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Schiphra et Pua" },
+      { "id": "b", "text": "Léa et Rachel" },
+      { "id": "c", "text": "Miriam et Séphora" },
+      { "id": "d", "text": "Ruth et Naomi" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Schiphra et Pua craignaient Dieu et ne firent pas ce que le roi d'Égypte leur avait dit (Exode 1:15-17).",
+    "bibleReference": "Exode 1:15"
+  },
+  {
+    "id": "dq-rey-003",
+    "questionText": "Qui fut le premier roi d'Israël ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "David" },
+      { "id": "b", "text": "Salomon" },
+      { "id": "c", "text": "Saül" },
+      { "id": "d", "text": "Samuel" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Saül fut oint par Samuel comme premier roi d'Israël après que le peuple eut demandé un roi (1 Samuel 10:1).",
+    "bibleReference": "1 Samuel 10:1"
+  },
+  {
+    "id": "dq-rey-004",
+    "questionText": "Quel roi a vaincu le géant Goliath avec une fronde et une pierre ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Saül" },
+      { "id": "b", "text": "David" },
+      { "id": "c", "text": "Salomon" },
+      { "id": "d", "text": "Josué" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "David, alors qu'il n'était qu'un jeune berger, vainquit le champion philistin Goliath au nom du Seigneur (1 Samuel 17).",
+    "bibleReference": "1 Samuel 17:49-50"
+  },
+  {
+    "id": "dq-rey-005",
+    "questionText": "Quel roi était connu pour sa sagesse et pour avoir construit le premier Temple à Jérusalem ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "David" },
+      { "id": "b", "text": "Salomon" },
+      { "id": "c", "text": "Ézéchias" },
+      { "id": "d", "text": "Josias" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Salomon demanda à Dieu la sagesse pour diriger son peuple et fut chargé de construire le Temple (1 Rois 3 ; 6).",
+    "bibleReference": "1 Rois 3:9-12"
+  },
+  {
+    "id": "dq-rey-006",
+    "questionText": "Quel roi a vu l'ombre reculer sur le cadran solaire comme signe de sa guérison ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Josias" },
+      { "id": "b", "text": "Ézéchias" },
+      { "id": "c", "text": "Achab" },
+      { "id": "d", "text": "Jéroboam" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Dieu guérit Ézéchias d'une maladie mortelle et donna ce signe miraculeux par le prophète Ésaïe (2 Rois 20:1-11).",
+    "bibleReference": "2 Rois 20:11"
+  },
+  {
+    "id": "dq-rey-007",
+    "questionText": "Qui était le roi d'Israël connu pour sa méchanceté et son mariage avec Jézabel ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Achab" },
+      { "id": "b", "text": "Jéhu" },
+      { "id": "c", "text": "Osée" },
+      { "id": "d", "text": "Manassé" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Achab fit ce qui est mal aux yeux de l'Éternel, plus que tous ceux qui avaient été avant lui, et servit Baal sous l'influence de Jézabel (1 Rois 16:30-31).",
+    "bibleReference": "1 Rois 16:30-31"
+  },
+  {
+    "id": "dq-rey-008",
+    "questionText": "Quel jeune roi a commencé à régner à l'âge de 8 ans et a mené une grande réforme religieuse ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Joas" },
+      { "id": "b", "text": "Josias" },
+      { "id": "c", "text": "Manassé" },
+      { "id": "d", "text": "Oziat" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Josias fit ce qui est droit aux yeux de l'Éternel et purifia Juda et Jérusalem de l'idôlatrie après avoir trouvé le livre de la loi (2 Rois 22-23).",
+    "bibleReference": "2 Rois 22:1"
+  },
+  {
+    "id": "dq-rey-009",
+    "questionText": "Quel était le nom du fils de Salomon sous lequel le royaume fut divisé ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Jéroboam" },
+      { "id": "b", "text": "Roboam" },
+      { "id": "c", "text": "Abija" },
+      { "id": "d", "text": "Asa" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Roboam refusa d'alléger le fardeau du peuple, ce qui provoqua la révolte des dix tribus du nord (1 Rois 12).",
+    "bibleReference": "1 Rois 12:1-19"
+  },
+  {
+    "id": "dq-rey-010",
+    "questionText": "Quel roi de Perse a permis aux Juifs de retourner à Jérusalem pour reconstruire le Temple ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Darius" },
+      { "id": "b", "text": "Xerxès" },
+      { "id": "c", "text": "Cyrus" },
+      { "id": "d", "text": "Artaxerxès" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Cyrus, roi de Perse, publia un édit permettant le retour des Juifs, accomplissant la prophétie de Jérémie (Esdras 1:1-3).",
+    "bibleReference": "Esdras 1:1-3"
+  },
+  {
+    "id": "dq-rey-011",
+    "questionText": "Quel roi a été frappé de lèpre pour avoir tenté d'offrir de l'encens dans le Temple ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Ozias (Azaria)" },
+      { "id": "b", "text": "Ézéchias" },
+      { "id": "c", "text": "Saül" },
+      { "id": "d", "text": "Ozias" }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Le cœur d'Ozias s'éleva, il fut infidèle et entra dans le temple pour brûler des parfums ; la lèpre éclata sur son front devant les prêtres (2 Chroniques 26:16-21).",
+    "bibleReference": "2 Chroniques 26:19"
+  },
+  {
+    "id": "dq-rey-012",
+    "questionText": "Quel roi de Juda a été emmené captif à Babylone après que ses fils eurent été tués sous ses yeux ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Jojakim" },
+      { "id": "b", "text": "Sédécias" },
+      { "id": "c", "text": "Jojakin" },
+      { "id": "d", "text": "Josias" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Sédécias fut le dernier roi de Juda avant la destruction de Jérusalem. Nebucadnetsar lui fit crever les yeux après avoir tué ses fils (2 Rois 25:1-7).",
+    "bibleReference": "2 Rois 25:7"
+  },
+  {
+    "id": "dq-rey-013",
+    "questionText": "Qui était le roi d'Israël qui a ordonné le meurtre de Naboth pour prendre sa vigne ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Jéhu" },
+      { "id": "b", "text": "Achab" },
+      { "id": "c", "text": "Omri" },
+      { "id": "d", "text": "Jéroboam II" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Achab désirait la vigne de Naboth ; Jézabel, sa femme, monta un complot pour faire lapider Naboth afin qu'Achab puisse s'emparer du terrain (1 Rois 21).",
+    "bibleReference": "1 Rois 21:1-16"
+  },
+  {
+    "id": "dq-rey-014",
+    "questionText": "Quel roi de Juda est resté caché dans le Temple pendant six ans alors qu'Athalie régnait ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Josias" },
+      { "id": "b", "text": "Joas" },
+      { "id": "c", "text": "Oziat" },
+      { "id": "d", "text": "Ézéchias" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Joas fut sauvé du massacre des fils du roi par sa tante Joschéba et caché dans la maison de l'Éternel (2 Rois 11:1-3).",
+    "bibleReference": "2 Rois 11:3"
+  },
+  {
+    "id": "dq-rey-015",
+    "questionText": "Quel roi babylonien a vu une main écrire sur le mur lors d'un banquet ?",
+    "categoryId": "reyes",
+    "categoryName": "Rois et Dirigeants",
+    "difficulty": "hard",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Nebucadnetsar" },
+      { "id": "b", "text": "Beltschatsar" },
+      { "id": "c", "text": "Darius" },
+      { "id": "d", "text": "Cyrus" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Beltschatsar donnait un grand festin lorsqu'une main écrivit sur le mur : \"Compté, pesé, divisé\" (Méné, Méné, Tékel, Oupharsin) (Daniel 5).",
+    "bibleReference": "Daniel 5:5"
+  },
+  {
+    "id": "dq-sal-003",
+    "questionText": "Comment appelle-t-on le don de Dieu qui nous sauve sans que nous le méritions ?",
+    "categoryId": "salvacion",
+    "categoryName": "Salut et Grâce",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "La loi" },
+      { "id": "b", "text": "La grâce" },
+      { "id": "c", "text": "Le jugement" },
+      { "id": "d", "text": "La punition" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "La grâce est la faveur imméritée de Dieu par laquelle il nous sauve par la foi en Jésus-Christ (Éphésiens 2:8).",
+    "bibleReference": "Éphésiens 2:8"
+  },
+  {
+    "id": "dq-sal-004",
+    "questionText": "Selon Jean 3:16, que doit faire une personne pour ne pas périr mais avoir la vie éternelle ?",
+    "categoryId": "salvacion",
+    "categoryName": "Salut et Grâce",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Faire de bonnes œuvres" },
+      { "id": "b", "text": "Croire en son Fils unique" },
+      { "id": "c", "text": "Être parfait" },
+      { "id": "d", "text": "Connaître toute la Bible" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "\"Car Dieu a tant aimé le monde qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu'il ait la vie éternelle\" (Jean 3:16).",
+    "bibleReference": "Jean 3:16"
+  },
+  {
+    "id": "dq-sal-005",
+    "questionText": "Que dit la Bible sur le salaire du péché dans Romains 6:23 ?",
+    "categoryId": "salvacion",
+    "categoryName": "Salut et Grâce",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Le travail" },
+      { "id": "b", "text": "La richesse" },
+      { "id": "c", "text": "La mort" },
+      { "id": "d", "text": "La maladie" }
+    ],
+    "correctOptionId": "c",
+    "explanation": "\"Car le salaire du péché, c'est la mort ; mais le don gratuit de Dieu, c'est la vie éternelle en Jésus-Christ notre Seigneur\" (Romains 6:23).",
+    "bibleReference": "Romains 6:23"
+  },
+  {
+    "id": "dq-sal-006",
+    "questionText": "Qui est le seul chemin vers le Père selon les paroles de Jésus dans Jean 14:6 ?",
+    "categoryId": "salvacion",
+    "categoryName": "Salut et Grâce",
+    "difficulty": "easy",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Moïse" },
+      { "id": "b", "text": "Jésus-Christ" },
+      { "id": "c", "text": "Les anges" },
+      { "id": "d", "text": "La religion" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Jésus a dit : \"Je suis le chemin, la vérité, et la vie. Nul ne vient au Père que par moi\" (Jean 14:6).",
+    "bibleReference": "Jean 14:6"
+  },
+  {
+    "id": "dq-sal-007",
+    "questionText": "Selon Romains 10:9, que devons-nous faire avec notre bouche pour être sauvés ?",
+    "categoryId": "salvacion",
+    "categoryName": "Salut et Grâce",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Chanter des hymnes" },
+      { "id": "b", "text": "Confesser que Jésus est le Seigneur" },
+      { "id": "c", "text": "Parler en langues" },
+      { "id": "d", "text": "Garder le silence" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "\"Si tu confesses de ta bouche le Seigneur Jésus, et si tu crois dans ton cœur que Dieu l'a ressuscité des morts, tu seras sauvé\" (Romains 10:9).",
+    "bibleReference": "Romains 10:9"
+  },
+  {
+    "id": "dq-sal-008",
+    "questionText": "Qu'est-ce que la justification par la foi selon l'enseignement de Paul ?",
+    "categoryId": "salvacion",
+    "categoryName": "Salut et Grâce",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Être déclaré juste par nos bonnes actions" },
+      { "id": "b", "text": "Être déclaré juste devant Dieu par la foi en Christ" },
+      { "id": "c", "text": "Se justifier soi-même de ses erreurs" },
+      { "id": "d", "text": "Suivre toutes les lois de Moïse" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "La justification est l'acte par lequel Dieu déclare le pécheur juste sur la base de l'œuvre accomplie par Christ, reçue par la foi (Romains 5:1).",
+    "bibleReference": "Romains 5:1"
+  },
+  {
+    "id": "dq-sal-009",
+    "questionText": "Quelle est la relation entre la foi et les œuvres selon Jacques 2:17 ?",
+    "categoryId": "salvacion",
+    "categoryName": "Salut et Grâce",
+    "difficulty": "medium",
+    "language": "fr",
+    "options": [
+      { "id": "a", "text": "Les œuvres sauvent sans la foi" },
+      { "id": "b", "text": "La foi sans les œuvres est morte" },
+      { "id": "c", "text": "La foi suffit, les œuvres ne sont pas nécessaires" },
+      { "id": "d", "text": "Il n'y a pas de relation" }
+    ],
+    "correctOptionId": "b",
+    "explanation": "\"Il en est ainsi de la foi : si elle n'a pas les œuvres, elle est morte en elle-même\" (Jacques 2:17). Les œuvres sont le fruit d'une foi authentique.",
+    "bibleReference": "Jacques 2:17"
+  }
+]
