@@ -5,3 +5,12 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# TypeScript
+tsconfig.tsbuildinfo
+functions/lib/
