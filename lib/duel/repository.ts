@@ -142,6 +142,14 @@ export async function acceptDuel(duelId: string, uid: string): Promise<DuelModel
 
       const now = new Date().toISOString();
 
+      // IF ROUND 1 NEEDS TO BE CREATED, FETCH QUESTIONS NOW (READ)
+      let round1Questions: string[] = [];
+      if (!roundSnap.exists()) {
+        const categoryId = duel.selectedCategories[0] ?? 'evangelios';
+        round1Questions = await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language, transaction);
+      }
+
+      // 2. LOGIC
       // Update participant status
       const participants = { ...duel.participants };
       if (participants[uid]) {
@@ -181,7 +189,7 @@ export async function acceptDuel(duelId: string, uid: string): Promise<DuelModel
         currentTurnUid: duel.currentTurnUid || duel.participantIds[0],
       };
 
-      // 2. ALL WRITES AFTER
+      // 3. ALL WRITES AFTER
       transaction.update(duelRef, updatedData);
 
       if (!roundSnap.exists()) {
@@ -191,7 +199,7 @@ export async function acceptDuel(duelId: string, uid: string): Promise<DuelModel
           roundNumber: 1,
           categoryId,
           categoryName: getCategoryName(categoryId, duel.language),
-          questionIds: await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language, transaction),
+          questionIds: round1Questions,
           playerAnswers: {},
           playerScores: {},
           playersCompleted: [],
@@ -285,6 +293,13 @@ export async function startDuel(duelId: string): Promise<DuelModel> {
       const duel = { id: duelSnap.id, ...duelSnap.data() } as DuelModel;
       const now = new Date().toISOString();
 
+      // IF ROUND 1 NEEDS TO BE CREATED, FETCH QUESTIONS NOW (READ)
+      let round1Questions: string[] = [];
+      if (!roundSnap.exists()) {
+        const categoryId = duel.selectedCategories[0] ?? 'evangelios';
+        round1Questions = await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language, transaction);
+      }
+
       // Check if at least one guest accepted
       const acceptedGuests = Object.values(duel.participants).filter(p => p.uid !== duel.createdBy && p.status === 'accepted');
       if (acceptedGuests.length === 0) throw new Error('At least one guest must accept before starting');
@@ -306,7 +321,7 @@ export async function startDuel(duelId: string): Promise<DuelModel> {
           roundNumber: 1,
           categoryId,
           categoryName: getCategoryName(categoryId, duel.language),
-          questionIds: await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language, transaction),
+          questionIds: round1Questions,
           playerAnswers: {},
           playerScores: {},
           playersCompleted: [],
@@ -337,6 +352,7 @@ export async function submitRoundAnswers(
   
   try {
     return await runTransaction(db, async (transaction) => {
+      // 1. ALL READS FIRST
       const [duelSnap, config] = await Promise.all([
         transaction.get(duelRef),
         getGameEngineConfig(transaction)
@@ -357,7 +373,28 @@ export async function submitRoundAnswers(
       }
 
       const now = new Date().toISOString();
+      const playersInDuel = duel.participantIds.filter(id => 
+        duel.participants[id].status === 'accepted'
+      );
+      
+      const willRoundBeComplete = (round.playersCompleted.length + 1) >= playersInDuel.length;
+      const nextRound = roundNumber + 1;
 
+      // PRE-READ NEXT ROUND IF NEEDED
+      let nextRoundSnap: any = null;
+      let nextRoundQuestions: string[] = [];
+      if (willRoundBeComplete && nextRound <= duel.totalRounds) {
+        const nextRoundRef = doc(db, `duels/${duelId}/rounds`, `${duelId}-round-${nextRound}`);
+        nextRoundSnap = await transaction.get(nextRoundRef);
+        
+        if (!nextRoundSnap.exists()) {
+          const catIdx = nextRound - 1;
+          const categoryId = duel.selectedCategories[catIdx] ?? duel.selectedCategories[0];
+          nextRoundQuestions = await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language, transaction);
+        }
+      }
+
+      // 2. LOGIC AND CALCULATIONS
       // Update participant in DuelModel (Local copy for calculation)
       const participants = { ...duel.participants };
       if (participants[playerId]) {
@@ -374,11 +411,6 @@ export async function submitRoundAnswers(
       round.playerScores = playerScores;
       round.playersCompleted = playersCompleted;
 
-      // Round Completion & Turn Management
-      const playersInDuel = duel.participantIds.filter(id => 
-        participants[id].status === 'accepted'
-      );
-      
       const isRoundComplete = playersInDuel.every(uid => playersCompleted.includes(uid));
 
       if (isRoundComplete) {
@@ -395,7 +427,6 @@ export async function submitRoundAnswers(
       }
 
       let isDuelComplete = false;
-      const nextRound = roundNumber + 1;
 
       if (isRoundComplete && nextRound <= duel.totalRounds) {
         // Pre-generate next round
@@ -403,16 +434,13 @@ export async function submitRoundAnswers(
         const categoryId = duel.selectedCategories[catIdx] ?? duel.selectedCategories[0];
         const nextRoundRef = doc(db, `duels/${duelId}/rounds`, `${duelId}-round-${nextRound}`);
         
-        // Check if next round already exists (read before write!)
-        const nextRoundSnap = await transaction.get(nextRoundRef);
-        
         if (!nextRoundSnap.exists()) {
           const newRound: DuelRound = {
             id: `${duelId}-round-${nextRound}`,
             roundNumber: nextRound,
             categoryId,
             categoryName: getCategoryName(categoryId, duel.language),
-            questionIds: await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language, transaction),
+            questionIds: nextRoundQuestions,
             playerAnswers: {},
             playerScores: {},
             playersCompleted: [],
@@ -474,7 +502,7 @@ export async function submitRoundAnswers(
       duel.updatedAt = now;
       duel.lastActionAt = now;
 
-      // 2. ALL WRITES AFTER
+      // 3. ALL WRITES AFTER
       transaction.update(duelRef, { ...duel });
       transaction.set(roundRef, round);
 
