@@ -38,7 +38,8 @@ import {
   serverTimestamp, 
   increment,
   onSnapshot,
-  runTransaction
+  runTransaction,
+  Transaction
 } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 import { ALL_DUEL_QUESTIONS, DUEL_CATEGORIES } from './seed';
@@ -119,84 +120,93 @@ export async function getRoundByNumber(duelId: string, roundNumber: number): Pro
 
 export async function acceptDuel(duelId: string, uid: string): Promise<DuelModel> {
   const duelRef = doc(db, 'duels', duelId);
+  const roundRef = doc(db, `duels/${duelId}/rounds`, `${duelId}-round-1`);
 
-  return await runTransaction(db, async (transaction) => {
-    const duelSnap = await transaction.get(duelRef);
-    if (!duelSnap.exists()) throw new Error(`Duel not found: ${duelId}`);
+  try {
+    return await runTransaction(db, async (transaction) => {
+      // 1. ALL READS FIRST
+      const [duelSnap, roundSnap, config] = await Promise.all([
+        transaction.get(duelRef),
+        transaction.get(roundRef),
+        getGameEngineConfig(transaction)
+      ]);
 
-    const duel = { id: duelSnap.id, ...duelSnap.data() } as DuelModel;
-    
-    // Idempotency check: if user already accepted or declined, just return
-    if (duel.participants[uid]?.status !== 'pending') {
-      return duel;
-    }
+      if (!duelSnap.exists()) throw new Error(`Duel not found: ${duelId}`);
 
-    const now = new Date().toISOString();
-
-    // Update participant status
-    const participants = { ...duel.participants };
-    if (participants[uid]) {
-      participants[uid].status = 'accepted';
-    }
-
-    // Check if all guests have responded
-    const nonCreators = duel.participantIds.filter(id => id !== duel.createdBy);
-    const everyoneResponded = nonCreators.every(id => participants[id].status !== 'pending');
-    const anyoneAccepted = nonCreators.some(id => participants[id].status === 'accepted');
-
-    // If already active, stay active. Otherwise, check if we should transition.
-    let newStatus = duel.status;
-    if (duel.status === 'pending') {
-      const is1v1 = duel.participantIds.length === 2;
+      const duel = { id: duelSnap.id, ...duelSnap.data() } as DuelModel;
       
-      if (is1v1) {
-        if (anyoneAccepted) {
-          newStatus = 'active';
-        } else if (everyoneResponded) {
-          newStatus = 'declined';
-        }
-      } else {
-        if (everyoneResponded) {
-          newStatus = anyoneAccepted ? 'active' : 'declined';
+      // Idempotency check: if user already accepted or declined, just return
+      if (duel.participants[uid]?.status !== 'pending') {
+        return duel;
+      }
+
+      const now = new Date().toISOString();
+
+      // Update participant status
+      const participants = { ...duel.participants };
+      if (participants[uid]) {
+        participants[uid].status = 'accepted';
+      }
+
+      // Check if all guests have responded
+      const nonCreators = duel.participantIds.filter(id => id !== duel.createdBy);
+      const everyoneResponded = nonCreators.every(id => participants[id].status !== 'pending');
+      const anyoneAccepted = nonCreators.some(id => participants[id].status === 'accepted');
+
+      // If already active, stay active. Otherwise, check if we should transition.
+      let newStatus = duel.status;
+      if (duel.status === 'pending') {
+        const is1v1 = duel.participantIds.length === 2;
+        
+        if (is1v1) {
+          if (anyoneAccepted) {
+            newStatus = 'active';
+          } else if (everyoneResponded) {
+            newStatus = 'declined';
+          }
+        } else {
+          if (everyoneResponded) {
+            newStatus = anyoneAccepted ? 'active' : 'declined';
+          }
         }
       }
-    }
 
-    const updatedData: Partial<DuelModel> = {
-      status: newStatus,
-      participants,
-      acceptedAt: now,
-      startedAt: (duel.startedAt || (newStatus === 'active')) ? (duel.startedAt || now) : undefined,
-      updatedAt: now,
-      lastActionAt: now,
-      currentTurnUid: duel.currentTurnUid || duel.participantIds[0],
-    };
-
-    transaction.update(duelRef, updatedData);
-
-    // Create round 1 if it doesn't exist
-    const roundRef = doc(db, `duels/${duelId}/rounds`, `${duelId}-round-1`);
-    const roundSnap = await transaction.get(roundRef);
-    
-    if (!roundSnap.exists()) {
-      const categoryId = duel.selectedCategories[0] ?? 'evangelios';
-      const round1: DuelRound = {
-        id: `${duelId}-round-1`,
-        roundNumber: 1,
-        categoryId,
-        categoryName: getCategoryName(categoryId, duel.language),
-        questionIds: await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language),
-        playerAnswers: {},
-        playerScores: {},
-        playersCompleted: [],
-        status: 'active',
-        startedAt: now,
+      const updatedData: Partial<DuelModel> = {
+        status: newStatus,
+        participants,
+        acceptedAt: now,
+        startedAt: (duel.startedAt || (newStatus === 'active')) ? (duel.startedAt || now) : undefined,
+        updatedAt: now,
+        lastActionAt: now,
+        currentTurnUid: duel.currentTurnUid || duel.participantIds[0],
       };
-      transaction.set(roundRef, round1);
-    }
 
-    return { ...duel, ...updatedData } as DuelModel;
-  });
+      // 2. ALL WRITES AFTER
+      transaction.update(duelRef, updatedData);
+
+      if (!roundSnap.exists()) {
+        const categoryId = duel.selectedCategories[0] ?? 'evangelios';
+        const round1: DuelRound = {
+          id: `${duelId}-round-1`,
+          roundNumber: 1,
+          categoryId,
+          categoryName: getCategoryName(categoryId, duel.language),
+          questionIds: await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language, transaction),
+          playerAnswers: {},
+          playerScores: {},
+          playersCompleted: [],
+          status: 'active',
+          startedAt: now,
+        };
+        transaction.set(roundRef, round1);
+      }
+
+      return { ...duel, ...updatedData } as DuelModel;
+    });
+  } catch (error) {
+    console.error(`Error accepting duel ${duelId}:`, error);
+    throw error;
+  }
 }
 
 export async function declineDuel(duelId: string, uid: string): Promise<DuelModel> {
@@ -260,47 +270,58 @@ export async function declineDuel(duelId: string, uid: string): Promise<DuelMode
 
 export async function startDuel(duelId: string): Promise<DuelModel> {
   const duelRef = doc(db, 'duels', duelId);
-  const duelSnap = await getDoc(duelRef);
-  if (!duelSnap.exists()) throw new Error(`Duel not found`);
-
-  const duel = { id: duelSnap.id, ...duelSnap.data() } as DuelModel;
-  const now = new Date().toISOString();
-
-  // Check if at least one guest accepted
-  const acceptedGuests = Object.values(duel.participants).filter(p => p.uid !== duel.createdBy && p.status === 'accepted');
-  if (acceptedGuests.length === 0) throw new Error('At least one guest must accept before starting');
-
-  const updatedData: Partial<DuelModel> = {
-    status: 'active',
-    startedAt: now,
-    updatedAt: now,
-    lastActionAt: now,
-  };
-
-  await updateDoc(duelRef, updatedData);
-
-  // Create round 1 if it doesn't exist
   const roundRef = doc(db, `duels/${duelId}/rounds`, `${duelId}-round-1`);
-  const roundSnap = await getDoc(roundRef);
-  
-  if (!roundSnap.exists()) {
-    const categoryId = duel.selectedCategories[0] ?? 'evangelios';
-    const round1: DuelRound = {
-      id: `${duelId}-round-1`,
-      roundNumber: 1,
-      categoryId,
-      categoryName: getCategoryName(categoryId, duel.language),
-      questionIds: await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language),
-      playerAnswers: {},
-      playerScores: {},
-      playersCompleted: [],
-      status: 'active',
-      startedAt: now,
-    };
-    await setDoc(roundRef, round1);
-  }
 
-  return { ...duel, ...updatedData } as DuelModel;
+  try {
+    return await runTransaction(db, async (transaction) => {
+      // 1. ALL READS FIRST
+      const [duelSnap, roundSnap] = await Promise.all([
+        transaction.get(duelRef),
+        transaction.get(roundRef)
+      ]);
+
+      if (!duelSnap.exists()) throw new Error(`Duel not found: ${duelId}`);
+
+      const duel = { id: duelSnap.id, ...duelSnap.data() } as DuelModel;
+      const now = new Date().toISOString();
+
+      // Check if at least one guest accepted
+      const acceptedGuests = Object.values(duel.participants).filter(p => p.uid !== duel.createdBy && p.status === 'accepted');
+      if (acceptedGuests.length === 0) throw new Error('At least one guest must accept before starting');
+
+      const updatedData: Partial<DuelModel> = {
+        status: 'active',
+        startedAt: now,
+        updatedAt: now,
+        lastActionAt: now,
+      };
+
+      // 2. ALL WRITES AFTER
+      transaction.update(duelRef, updatedData);
+
+      if (!roundSnap.exists()) {
+        const categoryId = duel.selectedCategories[0] ?? 'evangelios';
+        const round1: DuelRound = {
+          id: `${duelId}-round-1`,
+          roundNumber: 1,
+          categoryId,
+          categoryName: getCategoryName(categoryId, duel.language),
+          questionIds: await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language, transaction),
+          playerAnswers: {},
+          playerScores: {},
+          playersCompleted: [],
+          status: 'active',
+          startedAt: now,
+        };
+        transaction.set(roundRef, round1);
+      }
+
+      return { ...duel, ...updatedData } as DuelModel;
+    });
+  } catch (error) {
+    console.error(`Error starting duel ${duelId}:`, error);
+    throw error;
+  }
 }
 
 export async function submitRoundAnswers(
@@ -313,148 +334,156 @@ export async function submitRoundAnswers(
 ): Promise<{ duel: DuelModel; round: DuelRound; isRoundComplete: boolean; isDuelComplete: boolean }> {
   
   const duelRef = doc(db, 'duels', duelId);
-  const duelSnap = await getDoc(duelRef);
-  const duel = { id: duelSnap.id, ...duelSnap.data() } as DuelModel;
-
-  const rounds = await getRoundsForDuel(duelId);
-  const round = rounds.find(r => r.roundNumber === roundNumber);
-  if (!round) throw new Error('Round not found');
-
-  const now = new Date().toISOString();
-
-  // Update participant in DuelModel
-  const participants = { ...duel.participants };
-  if (participants[playerId]) {
-    participants[playerId].score += score;
-    participants[playerId].correctAnswers += correctAnswers;
-  }
-
-  // Update player in Round
-  const playerAnswers = { ...round.playerAnswers, [playerId]: answers };
-  const playerScores = { ...round.playerScores, [playerId]: score };
-  const playersCompleted = Array.from(new Set([...round.playersCompleted, playerId]));
-
-  round.playerAnswers = playerAnswers;
-  round.playerScores = playerScores;
-  round.playersCompleted = playersCompleted;
-
-  // ─── Round Completion & Turn Management ────────────────────────
-  // We only include players who have accepted the duel in the active rotation.
-  // This prevents the game from getting stuck waiting for players who haven't responded yet.
-  const playersInDuel = duel.participantIds.filter(id => 
-    participants[id].status === 'accepted'
-  );
   
-  const isRoundComplete = playersInDuel.every(uid => playersCompleted.includes(uid));
+  try {
+    return await runTransaction(db, async (transaction) => {
+      const [duelSnap, config] = await Promise.all([
+        transaction.get(duelRef),
+        getGameEngineConfig(transaction)
+      ]);
 
-  if (isRoundComplete) {
-    round.status = 'completed';
-    round.completedAt = now;
-  }
+      if (!duelSnap.exists()) throw new Error(`Duel not found: ${duelId}`);
+      const duel = { id: duelSnap.id, ...duelSnap.data() } as DuelModel;
 
-  // Move turn to the next player in the predefined participantIds order
-  const currentIndex = playersInDuel.indexOf(playerId);
-  if (currentIndex !== -1 && currentIndex < playersInDuel.length - 1) {
-    // Next person in line (might need to accept first)
-    duel.currentTurnUid = playersInDuel[currentIndex + 1];
-  } else {
-    // Round complete or last player finished, reset to first player for next round
-    duel.currentTurnUid = playersInDuel[0];
-  }
+      // Fetch current round doc
+      const roundRef = doc(db, `duels/${duelId}/rounds`, `${duelId}-round-${roundNumber}`);
+      const roundSnap = await transaction.get(roundRef);
+      if (!roundSnap.exists()) throw new Error('Round not found');
+      const round = { id: roundSnap.id, ...roundSnap.data() } as DuelRound;
 
-  // Update Round
-  await setDoc(doc(db, `duels/${duelId}/rounds`, round.id), round);
+      // Validation: check if player already submitted for this round
+      if (round.playersCompleted.includes(playerId)) {
+        return { duel, round, isRoundComplete: round.status === 'completed', isDuelComplete: duel.status === 'completed' };
+      }
 
-  let isDuelComplete = false;
-  const nextRound = roundNumber + 1;
+      const now = new Date().toISOString();
 
-  if (isRoundComplete && nextRound <= duel.totalRounds) {
-    // ── Pre-generate next round ───────────────────────────
-    const catIdx = nextRound - 1;
-    const categoryId = duel.selectedCategories[catIdx] ?? duel.selectedCategories[0];
-    const newRound: DuelRound = {
-      id: `${duelId}-round-${nextRound}`,
-      roundNumber: nextRound,
-      categoryId,
-      categoryName: getCategoryName(categoryId, duel.language),
-      questionIds: await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language),
-      playerAnswers: {},
-      playerScores: {},
-      playersCompleted: [],
-      status: 'active',
-      startedAt: now,
-    };
-    await setDoc(doc(db, `duels/${duelId}/rounds`, newRound.id), newRound);
-    duel.currentRound = nextRound;
+      // Update participant in DuelModel (Local copy for calculation)
+      const participants = { ...duel.participants };
+      if (participants[playerId]) {
+        participants[playerId].score += score;
+        participants[playerId].correctAnswers += correctAnswers;
+      }
 
-  } else if (isRoundComplete && nextRound > duel.totalRounds) {
-    // ── All regular rounds done — check scores ───────────────────
-    const sortedPlayers = Object.values(participants)
-      .filter(p => p.status === 'accepted')
-      .sort((a, b) => b.score - a.score);
-    
-    const topScore = sortedPlayers[0].score;
-    const winners = sortedPlayers.filter(p => p.score === topScore);
+      // Update player in Round (Local copy)
+      const playerAnswers = { ...round.playerAnswers, [playerId]: answers };
+      const playerScores = { ...round.playerScores, [playerId]: score };
+      const playersCompleted = Array.from(new Set([...round.playersCompleted, playerId]));
 
-    if (winners.length === 1) {
-      // Single winner
-      isDuelComplete = true;
-      duel.status = 'completed';
-      duel.endedAt = now;
-      duel.winnerIds = [winners[0].uid];
-      duel.loserIds = sortedPlayers.filter(p => p.score < topScore).map(p => p.uid);
-      duel.isTie = false;
-      Object.keys(participants).forEach(uid => {
-        if (participants[uid].status === 'accepted') participants[uid].completed = true;
-      });
-    } else {
-      // ── TIE → Sudden-death ────────────────────────────────────
-      const wasTiebreaker = round.isTiebreakerRound === true;
+      round.playerAnswers = playerAnswers;
+      round.playerScores = playerScores;
+      round.playersCompleted = playersCompleted;
+
+      // Round Completion & Turn Management
+      const playersInDuel = duel.participantIds.filter(id => 
+        participants[id].status === 'accepted'
+      );
       
-      // En multijugador, si hay empate tras tiebreaker, seguimos hasta que alguien gane o termine.
-      // Para simplificar, si tras un tiebreaker alguien tiene más puntos en esa ronda, gana.
-      const roundWinners = winners.filter(w => (playerScores[w.uid] || 0) > 0); 
-      // (En realidad, el tiebreaker debería ser el primero que acierte).
+      const isRoundComplete = playersInDuel.every(uid => playersCompleted.includes(uid));
 
-      if (wasTiebreaker) {
-        // Did andyone win THIS round?
-        const bestInRound = Math.max(...winners.map(w => playerScores[w.uid] || 0));
-        const winnersInRound = winners.filter(w => (playerScores[w.uid] || 0) === bestInRound && bestInRound > 0);
+      if (isRoundComplete) {
+        round.status = 'completed';
+        round.completedAt = now;
+      }
 
-        if (winnersInRound.length === 1) {
+      // Move turn
+      const currentIndex = playersInDuel.indexOf(playerId);
+      if (currentIndex !== -1 && currentIndex < playersInDuel.length - 1) {
+        duel.currentTurnUid = playersInDuel[currentIndex + 1];
+      } else {
+        duel.currentTurnUid = playersInDuel[0];
+      }
+
+      let isDuelComplete = false;
+      const nextRound = roundNumber + 1;
+
+      if (isRoundComplete && nextRound <= duel.totalRounds) {
+        // Pre-generate next round
+        const catIdx = nextRound - 1;
+        const categoryId = duel.selectedCategories[catIdx] ?? duel.selectedCategories[0];
+        const nextRoundRef = doc(db, `duels/${duelId}/rounds`, `${duelId}-round-${nextRound}`);
+        
+        // Check if next round already exists (read before write!)
+        const nextRoundSnap = await transaction.get(nextRoundRef);
+        
+        if (!nextRoundSnap.exists()) {
+          const newRound: DuelRound = {
+            id: `${duelId}-round-${nextRound}`,
+            roundNumber: nextRound,
+            categoryId,
+            categoryName: getCategoryName(categoryId, duel.language),
+            questionIds: await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language, transaction),
+            playerAnswers: {},
+            playerScores: {},
+            playersCompleted: [],
+            status: 'active',
+            startedAt: now,
+          };
+          transaction.set(nextRoundRef, newRound);
+        }
+        duel.currentRound = nextRound;
+
+      } else if (isRoundComplete && nextRound > duel.totalRounds) {
+        // All regular rounds done
+        const sortedPlayers = Object.values(participants)
+          .filter(p => p.status === 'accepted')
+          .sort((a, b) => b.score - a.score);
+        
+        const topScore = sortedPlayers[0].score;
+        const winners = sortedPlayers.filter(p => p.score === topScore);
+
+        if (winners.length === 1) {
           isDuelComplete = true;
           duel.status = 'completed';
           duel.endedAt = now;
-          duel.winnerIds = [winnersInRound[0].uid];
+          duel.winnerIds = [winners[0].uid];
+          duel.loserIds = sortedPlayers.filter(p => p.score < topScore).map(p => p.uid);
           duel.isTie = false;
+          Object.keys(participants).forEach(uid => {
+            if (participants[uid].status === 'accepted') participants[uid].completed = true;
+          });
         } else {
-          await createTiebreakerRound(duelId, duel, nextRound, now);
-          duel.tiebreakerRoundNumber = nextRound;
-          duel.currentRound = nextRound;
+          // TIE → Sudden-death
+          const wasTiebreaker = round.isTiebreakerRound === true;
+          
+          if (wasTiebreaker) {
+            const bestInRound = Math.max(...winners.map(w => playerScores[w.uid] || 0));
+            const winnersInRound = winners.filter(w => (playerScores[w.uid] || 0) === bestInRound && bestInRound > 0);
+
+            if (winnersInRound.length === 1) {
+              isDuelComplete = true;
+              duel.status = 'completed';
+              duel.endedAt = now;
+              duel.winnerIds = [winnersInRound[0].uid];
+              duel.isTie = false;
+            } else {
+              // Still tie, create next tiebreaker
+              await createTiebreakerInTransaction(transaction, duelId, duel, nextRound, now);
+              duel.tiebreakerRoundNumber = nextRound;
+              duel.currentRound = nextRound;
+            }
+          } else {
+            await createTiebreakerInTransaction(transaction, duelId, duel, nextRound, now);
+            duel.tiebreakerRoundNumber = nextRound;
+            duel.currentRound = nextRound;
+          }
         }
-      } else {
-        await createTiebreakerRound(duelId, duel, nextRound, now);
-        duel.tiebreakerRoundNumber = nextRound;
-        duel.currentRound = nextRound;
       }
-    }
+
+      duel.participants = participants;
+      duel.updatedAt = now;
+      duel.lastActionAt = now;
+
+      // 2. ALL WRITES AFTER
+      transaction.update(duelRef, { ...duel });
+      transaction.set(roundRef, round);
+
+      return { duel, round, isRoundComplete, isDuelComplete };
+    });
+  } catch (error) {
+    console.error(`Error submitting answers for duel ${duelId}:`, error);
+    throw error;
   }
-
-  duel.participants = participants;
-  duel.updatedAt = now;
-  duel.lastActionAt = now;
-
-  // Update Duel doc
-  const { id: _, ...duelData } = duel;
-  await updateDoc(duelRef, duelData);
-
-  // Sync Stats... (Handled by Cloud Function trigger on status change to 'completed')
-  if (isDuelComplete) {
-    // We only update the local duel doc state if needed, but rewards are backend-side now.
-    console.log(`[Duel] Complete. Waiting for Cloud Function rewards...`);
-  }
-
-  return { duel, round, isRoundComplete, isDuelComplete };
 }
 
 
@@ -560,9 +589,10 @@ function shuffleArray<T>(array: T[]): T[] {
 async function getQuestionIdsForCategoryAndDifficulty(
   categoryId: string,
   difficulty: string,
-  language: string = 'ht'
+  language: string = 'ht',
+  transaction?: Transaction
 ): Promise<string[]> {
-  const config = await getGameEngineConfig();
+  const config = await getGameEngineConfig(transaction);
   const diffSetting = config.duels.difficultySettings[difficulty as keyof typeof config.duels.difficultySettings];
   
   // Try to get questions in requested language
@@ -620,10 +650,11 @@ function getDefaultQuestionIdsForCategory(categoryId: string, language: string =
 }
 
 /**
- * Creates a sudden-death tiebreaker round with a single question.
- * The category is chosen by cycling through selectedCategories.
+ * Creates a sudden-death tiebreaker round with a single question within a transaction.
+ * The category is chosen by cycling through selected categories.
  */
-async function createTiebreakerRound(
+async function createTiebreakerInTransaction(
+  transaction: Transaction,
   duelId: string,
   duel: DuelModel,
   roundNumber: number,
@@ -642,7 +673,7 @@ async function createTiebreakerRound(
     roundNumber,
     categoryId,
     categoryName: getCategoryName(categoryId, duel.language),
-    questionIds: [tiebreakerQId],   // ← Only 1 question (sudden death)
+    questionIds: [tiebreakerQId],
     playerAnswers: {},
     playerScores: {},
     playersCompleted: [],
@@ -651,6 +682,7 @@ async function createTiebreakerRound(
     isTiebreakerRound: true,
   };
 
-  await setDoc(doc(db, `duels/${duelId}/rounds`, tbRound.id), tbRound);
+  const roundRef = doc(db, `duels/${duelId}/rounds`, tbRound.id);
+  transaction.set(roundRef, tbRound);
 }
 

@@ -213,6 +213,7 @@ export async function deleteUser(uid: string, hardDelete: boolean = false): Prom
  * UPDATE USER STATS FOR GAME REWARDS
  * correctAnswers / totalQuestionsPlayed are optional; when provided,
  * the cumulative accuracyRate is recalculated and persisted.
+ * Uses a transaction to ensure atomicity and prevent race conditions in calculations.
  */
 export async function updateUserStats(
   uid: string,
@@ -230,48 +231,60 @@ export async function updateUserStats(
   try {
     const userRef = doc(db, COLLECTION_NAME, uid);
 
-    const updateData: any = {
-      xp: increment(stats.xp),
-      coins: increment(stats.coins),
-      crowns: increment(stats.crowns),
-      totalGames: increment(1),
-      updatedAt: new Date().toISOString(),
-    };
+    await runTransaction(db, async (transaction) => {
+      // 1. ALL READS FIRST
+      const userSnap = await transaction.get(userRef);
+      if (!userSnap.exists()) {
+        throw new Error(`User document not found for uid: ${uid}`);
+      }
+      
+      const userData = userSnap.data() as AppUserModel;
 
-    if (stats.isWin)  updateData.totalWins   = increment(1);
-    else if (stats.isLoss) updateData.totalLosses = increment(1);
+      // 2. LOGIC AND CALCULATIONS
+      const updateData: any = {
+        xp: (userData.xp || 0) + stats.xp,
+        coins: (userData.coins || 0) + stats.coins,
+        crowns: (userData.crowns || 0) + stats.crowns,
+        totalGames: (userData.totalGames || 0) + 1,
+        updatedAt: new Date().toISOString(),
+      };
 
-    // ── Accuracy update ─────────────────────────────────────────
-    if (
-      stats.correctAnswers !== undefined &&
-      stats.totalQuestionsPlayed !== undefined &&
-      stats.totalQuestionsPlayed > 0
-    ) {
-      const wrongAnswers = Math.max(
-        0,
-        stats.totalQuestionsPlayed - stats.correctAnswers
-      );
+      if (stats.isWin) {
+        updateData.totalWins = (userData.totalWins || 0) + 1;
+      } else if (stats.isLoss) {
+        updateData.totalLosses = (userData.totalLosses || 0) + 1;
+      }
 
-      // Read current totals to compute cumulative accuracy
-      const userSnap = await getDoc(userRef);
-      const userData = userSnap.data() as AppUserModel | undefined;
+      // Handle accuracy calculation if question data is provided
+      if (
+        stats.correctAnswers !== undefined &&
+        stats.totalQuestionsPlayed !== undefined &&
+        stats.totalQuestionsPlayed > 0
+      ) {
+        const wrongAnswers = Math.max(
+          0,
+          stats.totalQuestionsPlayed - stats.correctAnswers
+        );
 
-      const currentTotalCorrect = userData?.totalCorrectAnswers ?? 0;
-      const currentTotalWrong   = userData?.totalWrongAnswers   ?? 0;
-      const newTotalCorrect = currentTotalCorrect + stats.correctAnswers;
-      const newTotalWrong   = currentTotalWrong   + wrongAnswers;
-      const totalAnswers    = newTotalCorrect + newTotalWrong;
-      const newAccuracyRate =
-        totalAnswers > 0
+        const currentTotalCorrect = userData.totalCorrectAnswers ?? 0;
+        const currentTotalWrong   = userData.totalWrongAnswers   ?? 0;
+        
+        const newTotalCorrect = currentTotalCorrect + stats.correctAnswers;
+        const newTotalWrong   = currentTotalWrong   + wrongAnswers;
+        const totalAnswers    = newTotalCorrect + newTotalWrong;
+        
+        const newAccuracyRate = totalAnswers > 0
           ? Math.round((newTotalCorrect / totalAnswers) * 100)
           : 0;
 
-      updateData.totalCorrectAnswers = newTotalCorrect;
-      updateData.totalWrongAnswers   = newTotalWrong;
-      updateData.accuracyRate        = newAccuracyRate;
-    }
+        updateData.totalCorrectAnswers = newTotalCorrect;
+        updateData.totalWrongAnswers   = newTotalWrong;
+        updateData.accuracyRate        = newAccuracyRate;
+      }
 
-    await updateDoc(userRef, updateData);
+      // 3. ALL WRITES AFTER
+      transaction.update(userRef, updateData);
+    });
   } catch (error) {
     console.error("Error updating user stats:", error);
     throw error;

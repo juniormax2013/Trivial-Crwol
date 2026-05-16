@@ -1,5 +1,5 @@
 import { db } from '@/lib/firebase';
-import { doc, getDoc, setDoc, updateDoc } from 'firebase/firestore';
+import { doc, getDoc, setDoc, updateDoc, Transaction } from 'firebase/firestore';
 
 export interface DifficultySetting {
   timeLimit: number;
@@ -77,11 +77,12 @@ export const DEFAULT_GAME_ENGINE_CONFIG: GameEngineConfig = {
 /**
  * GET GAME ENGINE CONFIG
  * Retrieves the current settings from Firestore or returns defaults.
+ * Supports optional transaction for atomicity.
  */
-export async function getGameEngineConfig(): Promise<GameEngineConfig> {
+export async function getGameEngineConfig(transaction?: Transaction): Promise<GameEngineConfig> {
   try {
     const docRef = doc(db, COLLECTION_NAME, DOCUMENT_ID);
-    const snap = await getDoc(docRef);
+    const snap = transaction ? await transaction.get(docRef) : await getDoc(docRef);
     
     if (snap.exists()) {
       return { ...DEFAULT_GAME_ENGINE_CONFIG, ...snap.data() } as GameEngineConfig;
