@@ -14,7 +14,9 @@ import {
   Play,
   RotateCcw,
   AlertCircle,
+  Loader2,
 } from 'lucide-react';
+import { toast } from 'sonner';
 import DuelPlayerHeader from '@/components/duel/DuelPlayerHeader';
 import DuelWaitingCard from '@/components/duel/DuelWaitingCard';
 import DuelStatusBadge from '@/components/duel/DuelStatusBadge';
@@ -71,6 +73,10 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
     try {
       const updated = await acceptDuel(duel.id, DEMO_UID);
       setDuel(updated);
+      toast.success("¡Te has unido al duelo!");
+    } catch (error: any) {
+      console.error("Error accepting duel:", error);
+      toast.error(error.message || "No se pudo aceptar el duelo. Inténtalo de nuevo.");
     } finally {
       setActionLoading(null);
     }
@@ -82,7 +88,11 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
     try {
       const updated = await declineDuel(duel.id, DEMO_UID);
       setDuel(updated);
+      toast.info("Has rechazado la invitación.");
       router.push('/arena/duels');
+    } catch (error: any) {
+      console.error("Error declining duel:", error);
+      toast.error(error.message || "No se pudo rechazar el duelo.");
     } finally {
       setActionLoading(null);
     }
@@ -94,6 +104,10 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
     try {
       const updated = await startDuel(duel.id);
       setDuel(updated);
+      toast.success("¡El duelo ha comenzado!");
+    } catch (error: any) {
+      console.error("Error starting duel:", error);
+      toast.error(error.message || "No se pudo iniciar el duelo.");
     } finally {
       setActionLoading(null);
     }

@@ -24,7 +24,7 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
     const timer = setTimeout(() => {
       console.warn("Auth initialization taking too long. Forcing render...");
       setForcedLoading(true);
-    }, 2000); // 2 second fail-safe
+    }, 5000); // 5 second fail-safe (increased from 2s for better resilience)
 
     return () => clearTimeout(timer);
   }, [loading]);
@@ -44,10 +44,22 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
 
     if (!loading || forcedLoading) {
       if (!firebaseUser && !isPublicRoute && !(isAdminDashboard && isMockAdmin)) {
+        // Save the current path to return to after login/restoration
+        if (typeof window !== 'undefined' && pathname && pathname !== '/' && pathname !== '/login') {
+          sessionStorage.setItem('auth_redirect_path', pathname);
+        }
         router.push('/login');
       } else if (firebaseUser && isPublicRoute && pathname !== '/admin') {
-        // Only redirect to home if they were on a public route (excluding admin portal entry)
-        router.push('/');
+        // Check if we have a saved path to return to
+        const savedPath = typeof window !== 'undefined' ? sessionStorage.getItem('auth_redirect_path') : null;
+        
+        if (savedPath && savedPath !== '/login' && savedPath !== pathname) {
+          sessionStorage.removeItem('auth_redirect_path');
+          router.push(savedPath);
+        } else {
+          // Only redirect to home if no specific path was intended
+          router.push('/');
+        }
       }
     }
   }, [firebaseUser, loading, forcedLoading, router, pathname]);

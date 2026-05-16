@@ -8,6 +8,7 @@ import { DuelModel } from '@/lib/duel/models';
 import { getDuelViewState, getDuelStatusLabel, formatTimeAgo, formatTimeUntil } from '@/lib/duel/service';
 import { acceptDuel, declineDuel } from '@/lib/duel/repository';
 import { useState, useEffect } from 'react';
+import { toast } from 'sonner';
 
 import { useAuthContext } from '@/components/auth/AuthProvider';
 
@@ -30,7 +31,11 @@ export default function DuelInboxCard({ duel, onAction, showActions = true }: Du
   const vs = getDuelViewState(duel, DEMO_UID);
   const statusInfo = getDuelStatusLabel(duel, DEMO_UID);
 
-  const canAccept = duel.status === 'pending' && duel.createdBy !== DEMO_UID && showActions;
+  const canAccept = 
+    duel.status === 'pending' && 
+    duel.createdBy !== DEMO_UID && 
+    duel.participants[DEMO_UID]?.status === 'pending' && 
+    showActions;
   const isMyTurn = vs.ctaType === 'play';
 
   const handleAccept = async (e: React.MouseEvent) => {
@@ -40,6 +45,10 @@ export default function DuelInboxCard({ duel, onAction, showActions = true }: Du
     try {
       const updated = await acceptDuel(duel.id, DEMO_UID);
       onAction?.(updated);
+      toast.success("¡Invitación aceptada!");
+    } catch (error: any) {
+      console.error("Error accepting duel in card:", error);
+      toast.error(error.message || "Error al aceptar el duelo.");
     } finally {
       setIsLoading(null);
     }
@@ -52,6 +61,10 @@ export default function DuelInboxCard({ duel, onAction, showActions = true }: Du
     try {
       const updated = await declineDuel(duel.id, DEMO_UID);
       onAction?.(updated);
+      toast.info("Invitación rechazada.");
+    } catch (error: any) {
+      console.error("Error declining duel in card:", error);
+      toast.error(error.message || "Error al rechazar el duelo.");
     } finally {
       setIsLoading(null);
     }

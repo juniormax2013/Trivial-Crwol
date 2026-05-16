@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import { getFunctions, httpsCallable } from 'firebase/functions';
-import app from '@/lib/firebase';
+import { app } from '@/lib/firebase';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { Loader2, Clock, ShieldCheck, AlertTriangle } from 'lucide-react';
 

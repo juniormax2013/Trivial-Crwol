@@ -84,8 +84,14 @@ export default function RegisterPage() {
         language,
       });
       
-      // 4. Redirect to home
-      router.push('/');
+      // 4. Redirect to home or intended destination
+      const savedPath = typeof window !== 'undefined' ? sessionStorage.getItem('auth_redirect_path') : null;
+      if (savedPath) {
+        sessionStorage.removeItem('auth_redirect_path');
+        router.push(savedPath);
+      } else {
+        router.push('/');
+      }
     } catch (err: any) {
       console.error("Register error:", err);
       if (err.code === 'auth/email-already-in-use') {

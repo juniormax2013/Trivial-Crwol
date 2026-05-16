@@ -37,7 +37,8 @@ import {
   Timestamp, 
   serverTimestamp, 
   increment,
-  onSnapshot
+  onSnapshot,
+  runTransaction
 } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 import { ALL_DUEL_QUESTIONS, DUEL_CATEGORIES } from './seed';
@@ -118,131 +119,143 @@ export async function getRoundByNumber(duelId: string, roundNumber: number): Pro
 
 export async function acceptDuel(duelId: string, uid: string): Promise<DuelModel> {
   const duelRef = doc(db, 'duels', duelId);
-  const duelSnap = await getDoc(duelRef);
-  if (!duelSnap.exists()) throw new Error(`Duel not found: ${duelId}`);
 
-  const duel = { id: duelSnap.id, ...duelSnap.data() } as DuelModel;
-  const now = new Date().toISOString();
+  return await runTransaction(db, async (transaction) => {
+    const duelSnap = await transaction.get(duelRef);
+    if (!duelSnap.exists()) throw new Error(`Duel not found: ${duelId}`);
 
-  // Update participant status
-  const participants = { ...duel.participants };
-  if (participants[uid]) {
-    participants[uid].status = 'accepted';
-  }
-
-  // Check if all guests have responded
-  const nonCreators = duel.participantIds.filter(id => id !== duel.createdBy);
-  const everyoneResponded = nonCreators.every(id => participants[id].status !== 'pending');
-  const anyoneAccepted = nonCreators.some(id => participants[id].status === 'accepted');
-
-  // If already active, stay active. Otherwise, check if we should transition.
-  let newStatus = duel.status;
-  if (duel.status === 'pending') {
-    const is1v1 = duel.participantIds.length === 2;
+    const duel = { id: duelSnap.id, ...duelSnap.data() } as DuelModel;
     
-    if (is1v1) {
-      // For 1v1, start as soon as the opponent accepts
-      if (anyoneAccepted) {
-        newStatus = 'active';
-      } else if (everyoneResponded) {
-        newStatus = 'declined';
-      }
-    } else {
-      // For multiplayer, stay pending until the creator manually starts,
-      // OR if everyone has responded, we can transition to active or declined.
-      if (everyoneResponded) {
-        newStatus = anyoneAccepted ? 'active' : 'declined';
-      }
-      // If someone accepted but not everyone responded, we stay 'pending' 
-      // so the creator can see the "Start" button and decide.
+    // Idempotency check: if user already accepted or declined, just return
+    if (duel.participants[uid]?.status !== 'pending') {
+      return duel;
     }
-  }
 
-  const updatedData: Partial<DuelModel> = {
-    status: newStatus,
-    participants,
-    acceptedAt: now,
-    startedAt: (duel.startedAt || (newStatus === 'active')) ? (duel.startedAt || now) : undefined,
-    updatedAt: now,
-    lastActionAt: now,
-    currentTurnUid: duel.currentTurnUid || duel.participantIds[0],
-  };
+    const now = new Date().toISOString();
 
-  await updateDoc(duelRef, updatedData);
+    // Update participant status
+    const participants = { ...duel.participants };
+    if (participants[uid]) {
+      participants[uid].status = 'accepted';
+    }
 
-  // Create round 1 if it doesn't exist
-  const roundRef = doc(db, `duels/${duelId}/rounds`, `${duelId}-round-1`);
-  const roundSnap = await getDoc(roundRef);
-  
-  if (!roundSnap.exists()) {
-    const categoryId = duel.selectedCategories[0] ?? 'evangelios';
-    const round1: DuelRound = {
-      id: `${duelId}-round-1`,
-      roundNumber: 1,
-      categoryId,
-      categoryName: getCategoryName(categoryId, duel.language),
-      questionIds: await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language),
-      playerAnswers: {},
-      playerScores: {},
-      playersCompleted: [],
-      status: 'active',
-      startedAt: now,
+    // Check if all guests have responded
+    const nonCreators = duel.participantIds.filter(id => id !== duel.createdBy);
+    const everyoneResponded = nonCreators.every(id => participants[id].status !== 'pending');
+    const anyoneAccepted = nonCreators.some(id => participants[id].status === 'accepted');
+
+    // If already active, stay active. Otherwise, check if we should transition.
+    let newStatus = duel.status;
+    if (duel.status === 'pending') {
+      const is1v1 = duel.participantIds.length === 2;
+      
+      if (is1v1) {
+        if (anyoneAccepted) {
+          newStatus = 'active';
+        } else if (everyoneResponded) {
+          newStatus = 'declined';
+        }
+      } else {
+        if (everyoneResponded) {
+          newStatus = anyoneAccepted ? 'active' : 'declined';
+        }
+      }
+    }
+
+    const updatedData: Partial<DuelModel> = {
+      status: newStatus,
+      participants,
+      acceptedAt: now,
+      startedAt: (duel.startedAt || (newStatus === 'active')) ? (duel.startedAt || now) : undefined,
+      updatedAt: now,
+      lastActionAt: now,
+      currentTurnUid: duel.currentTurnUid || duel.participantIds[0],
     };
-    await setDoc(roundRef, round1);
-  }
 
-  return { ...duel, ...updatedData } as DuelModel;
+    transaction.update(duelRef, updatedData);
+
+    // Create round 1 if it doesn't exist
+    const roundRef = doc(db, `duels/${duelId}/rounds`, `${duelId}-round-1`);
+    const roundSnap = await transaction.get(roundRef);
+    
+    if (!roundSnap.exists()) {
+      const categoryId = duel.selectedCategories[0] ?? 'evangelios';
+      const round1: DuelRound = {
+        id: `${duelId}-round-1`,
+        roundNumber: 1,
+        categoryId,
+        categoryName: getCategoryName(categoryId, duel.language),
+        questionIds: await getQuestionIdsForCategoryAndDifficulty(categoryId, duel.difficulty, duel.language),
+        playerAnswers: {},
+        playerScores: {},
+        playersCompleted: [],
+        status: 'active',
+        startedAt: now,
+      };
+      transaction.set(roundRef, round1);
+    }
+
+    return { ...duel, ...updatedData } as DuelModel;
+  });
 }
 
 export async function declineDuel(duelId: string, uid: string): Promise<DuelModel> {
   const duelRef = doc(db, 'duels', duelId);
-  const duelSnap = await getDoc(duelRef);
-  if (!duelSnap.exists()) throw new Error(`Duel not found`);
 
-  const duel = duelSnap.data() as DuelModel;
-  const participants = { ...duel.participants };
-  if (participants[uid]) {
-    participants[uid].status = 'declined';
-  }
+  return await runTransaction(db, async (transaction) => {
+    const duelSnap = await transaction.get(duelRef);
+    if (!duelSnap.exists()) throw new Error(`Duel not found`);
 
-  const nonCreators = duel.participantIds.filter(id => id !== duel.createdBy);
-  const everyoneResponded = nonCreators.every(id => participants[id].status !== 'pending');
-  const anyoneAccepted = nonCreators.some(id => participants[id].status === 'accepted');
-
-  const is1v1 = duel.participantIds.length === 2;
-  let newStatus = duel.status;
-  
-  if (duel.status === 'pending') {
-    if (is1v1) {
-      newStatus = 'declined';
-    } else if (everyoneResponded) {
-      newStatus = anyoneAccepted ? 'active' : 'declined';
+    const duel = { id: duelSnap.id, ...duelSnap.data() } as DuelModel;
+    
+    // Idempotency check
+    if (duel.participants[uid]?.status !== 'pending') {
+      return duel;
     }
-  }
 
-  const updatedData: Partial<DuelModel> = {
-    participants,
-    status: newStatus,
-    updatedAt: new Date().toISOString(),
-    lastActionAt: new Date().toISOString(),
-  };
-
-  // If it was this user's turn, move it forward
-  if (duel.currentTurnUid === uid) {
-    const playersInDuel = duel.participantIds.filter(id => 
-      participants[id].status === 'accepted' || participants[id].status === 'pending'
-    );
-    if (playersInDuel.length > 0) {
-      const myIdx = duel.participantIds.indexOf(uid);
-      // Find the next available player after myIdx who hasn't declined
-      const nextId = duel.participantIds.find((id, idx) => idx > myIdx && playersInDuel.includes(id)) 
-                   || playersInDuel[0];
-      updatedData.currentTurnUid = nextId;
+    const participants = { ...duel.participants };
+    if (participants[uid]) {
+      participants[uid].status = 'declined';
     }
-  }
 
-  await updateDoc(duelRef, updatedData);
-  return { ...duel, ...updatedData, id: duelSnap.id } as DuelModel;
+    const nonCreators = duel.participantIds.filter(id => id !== duel.createdBy);
+    const everyoneResponded = nonCreators.every(id => participants[id].status !== 'pending');
+    const anyoneAccepted = nonCreators.some(id => participants[id].status === 'accepted');
+
+    const is1v1 = duel.participantIds.length === 2;
+    let newStatus = duel.status;
+    
+    if (duel.status === 'pending') {
+      if (is1v1) {
+        newStatus = 'declined';
+      } else if (everyoneResponded) {
+        newStatus = anyoneAccepted ? 'active' : 'declined';
+      }
+    }
+
+    const updatedData: Partial<DuelModel> = {
+      participants,
+      status: newStatus,
+      updatedAt: new Date().toISOString(),
+      lastActionAt: new Date().toISOString(),
+    };
+
+    // If it was this user's turn, move it forward
+    if (duel.currentTurnUid === uid) {
+      const playersInDuel = duel.participantIds.filter(id => 
+        participants[id].status === 'accepted' || participants[id].status === 'pending'
+      );
+      if (playersInDuel.length > 0) {
+        const myIdx = duel.participantIds.indexOf(uid);
+        const nextId = duel.participantIds.find((id, idx) => idx > myIdx && playersInDuel.includes(id)) 
+                     || playersInDuel[0];
+        updatedData.currentTurnUid = nextId;
+      }
+    }
+
+    transaction.update(duelRef, updatedData);
+    return { ...duel, ...updatedData } as DuelModel;
+  });
 }
 
 export async function startDuel(duelId: string): Promise<DuelModel> {

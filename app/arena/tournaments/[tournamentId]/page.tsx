@@ -11,7 +11,7 @@ import { RewardChip } from '@/components/tournament/RewardChip';
 import { LeaderboardRow } from '@/components/tournament/LeaderboardRow';
 import { getFunctions, httpsCallable } from 'firebase/functions';
 import Link from 'next/link';
-import app from '@/lib/firebase';
+import { app } from '@/lib/firebase';
 
 export default function TournamentDetail() {
   const { tournamentId } = useParams() as { tournamentId: string };

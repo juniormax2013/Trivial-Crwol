@@ -47,7 +47,14 @@ export default function LoginPage() {
     
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      router.push('/');
+      // Let AuthGuard handle the redirect or use a fallback here if needed
+      const savedPath = typeof window !== 'undefined' ? sessionStorage.getItem('auth_redirect_path') : null;
+      if (savedPath) {
+        sessionStorage.removeItem('auth_redirect_path');
+        router.push(savedPath);
+      } else {
+        router.push('/');
+      }
     } catch (err: any) {
       console.error("Login error:", err);
       if (err.code === 'auth/user-not-found' || err.code === 'auth/wrong-password' || err.code === 'auth/invalid-credential') {
@@ -70,7 +77,13 @@ export default function LoginPage() {
     setError(null);
     try {
       await signInWithPopup(auth, googleProvider);
-      router.push('/');
+      const savedPath = typeof window !== 'undefined' ? sessionStorage.getItem('auth_redirect_path') : null;
+      if (savedPath) {
+        sessionStorage.removeItem('auth_redirect_path');
+        router.push(savedPath);
+      } else {
+        router.push('/');
+      }
     } catch (err: any) {
       console.error("Google login error:", err);
       setError(t.auth.errors.googleFailed);

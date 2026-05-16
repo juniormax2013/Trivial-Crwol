@@ -1,6 +1,7 @@
-import { onCall, HttpsError } from "firebase-functions/v2/https";
-import { beforeUserCreated } from "firebase-functions/v2/identity";
+import { onCall, HttpsError, CallableRequest } from "firebase-functions/v2/https";
+import { beforeUserCreated, AuthBlockingEvent } from "firebase-functions/v2/identity";
 import * as functions from "firebase-functions/v1";
+import { Change, EventContext } from "firebase-functions/v1";
 import * as admin from "firebase-admin";
 
 admin.initializeApp();
@@ -61,7 +62,7 @@ export const createUserProfile = functions.auth.user().onCreate(async (user: adm
 /**
  * Callable function to start a new quick game.
  */
-export const startQuickGame = onCall(async (request) => {
+export const startQuickGame = onCall(async (request: CallableRequest) => {
   if (!request.auth) {
     throw new HttpsError("unauthenticated", "Debes iniciar sesión para jugar.");
   }
@@ -96,7 +97,7 @@ export const startQuickGame = onCall(async (request) => {
 /**
  * Callable function to submit an answer.
  */
-export const submitGameAnswer = onCall(async (request) => {
+export const submitGameAnswer = onCall(async (request: CallableRequest) => {
   if (!request.auth) {
     throw new HttpsError("unauthenticated", "Debes iniciar sesión.");
   }
@@ -109,7 +110,7 @@ export const submitGameAnswer = onCall(async (request) => {
   const gameSnap = await gameRef.get();
   
   if (!gameSnap.exists || gameSnap.data()?.userId !== uid || gameSnap.data()?.status !== "active") {
-    throw new functions.https.HttpsError("failed-precondition", "Juego no válido o finalizado.");
+    throw new HttpsError("failed-precondition", "Juego no válido o finalizado.");
   }
   
   // Verify answer
@@ -152,7 +153,7 @@ export const submitGameAnswer = onCall(async (request) => {
 /**
  * Callable function to end the game and calculate final rewards.
  */
-export const finishGame = onCall(async (request) => {
+export const finishGame = onCall(async (request: CallableRequest) => {
   if (!request.auth) {
     throw new HttpsError("unauthenticated", "Falta autenticación.");
   }
@@ -200,7 +201,7 @@ export const finishGame = onCall(async (request) => {
 /**
  * Grant daily reward (Streak)
  */
-export const grantDailyReward = onCall(async (request) => {
+export const grantDailyReward = onCall(async (request: CallableRequest) => {
   if (!request.auth) {
     throw new HttpsError("unauthenticated", "Falta autenticación.");
   }
@@ -224,7 +225,7 @@ export const grantDailyReward = onCall(async (request) => {
 /**
  * Assign Custom Claims (Role)
  */
-export const assignAdminRole = onCall(async (request) => {
+export const assignAdminRole = onCall(async (request: CallableRequest) => {
   if (!request.auth || !request.auth.token.admin) {
     // Only super_admin can do this. The first admin should be established via Firebase CLI / Custom script.
     throw new HttpsError("permission-denied", "Acceso denegado.");
@@ -251,7 +252,7 @@ export const assignAdminRole = onCall(async (request) => {
 /**
  * Import Questions Batch
  */
-export const importQuestionsFromCsv = onCall(async (request) => {
+export const importQuestionsFromCsv = onCall(async (request: CallableRequest) => {
   if (!request.auth || !request.auth.token.role) {
     throw new HttpsError("permission-denied", "Solo administradores pueden importar.");
   }
@@ -291,7 +292,7 @@ export const importQuestionsFromCsv = onCall(async (request) => {
 /**
  * Audit Log Trigger
  */
-export const auditAdminAction = functions.firestore.document("system_settings/{docId}").onWrite(async (change: functions.Change<functions.firestore.DocumentSnapshot>, context: functions.EventContext) => {
+export const auditAdminAction = functions.firestore.document("system_settings/{docId}").onWrite(async (change: Change<functions.firestore.DocumentSnapshot>, context: EventContext) => {
     if (!change) return;
     
     // If it's an update or delete, we log the action
@@ -317,7 +318,7 @@ export const auditAdminAction = functions.firestore.document("system_settings/{d
  * Blocking function to validate or modify user before creation.
  * v2 Identity implementation as requested.
  */
-export const beforeCreate = beforeUserCreated((event) => {
+export const beforeCreate = beforeUserCreated((event: AuthBlockingEvent) => {
   console.log(`Checking user ${event.data?.uid} before creation`);
   // Add custom logic here if needed, e.g., blocking certain emails or setting claims
   return;

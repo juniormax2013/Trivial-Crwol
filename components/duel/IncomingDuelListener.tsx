@@ -9,6 +9,7 @@ import { DuelModel } from '@/lib/duel/models';
 import { acceptDuel, declineDuel } from '@/lib/duel/repository';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useNotifications } from '@/hooks/useNotifications';
+import { toast } from 'sonner';
 
 export default function IncomingDuelListener() {
   const { user } = useAuthContext();
@@ -37,8 +38,10 @@ export default function IncomingDuelListener() {
       
       // Redirigimos a la vista del duelo. El creador juega primero, por lo que este usuario entra a la pantalla de "esperar" o ver el estado.
       router.push('/arena/duels/' + incomingDuel.id);
-    } catch (e) {
+      toast.success("¡Desafío aceptado!");
+    } catch (e: any) {
       console.error(e);
+      toast.error(e.message || "Error al aceptar el desafío.");
     } finally {
       setActionLoading(null);
     }
@@ -51,8 +54,10 @@ export default function IncomingDuelListener() {
       await declineDuel(incomingDuel.id, user.uid);
       setIgnoredIds(new Set([...ignoredIds, incomingDuel.id]));
       setIncomingDuel(null);
-    } catch (e) {
+      toast.info("Has rechazado el desafío.");
+    } catch (e: any) {
       console.error(e);
+      toast.error(e.message || "Error al rechazar el desafío.");
     } finally {
       setActionLoading(null);
     }

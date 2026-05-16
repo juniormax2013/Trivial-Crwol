@@ -98,9 +98,13 @@ export function getDuelStatusLabel(
 ): { label: string; color: 'purple' | 'gold' | 'green' | 'red' | 'grey' } {
   switch (duel.status) {
     case 'pending':
-      return isCreatedByUser(duel, uid)
-        ? { label: 'Esperando respuestas', color: 'gold' }
-        : { label: 'Desafío recibido', color: 'purple' };
+      if (isCreatedByUser(duel, uid)) {
+        return { label: 'Esperando respuestas', color: 'gold' };
+      }
+      if (duel.participants[uid]?.status === 'accepted') {
+        return { label: 'Aceptado, esperando inicio', color: 'gold' };
+      }
+      return { label: 'Desafío recibido', color: 'purple' };
     case 'active':
       return isUserTurn(duel, uid)
         ? { label: '¡Tu turno!', color: 'green' }
@@ -257,7 +261,10 @@ export function filterDuelsByTab(
     case 'sent':
       return duels.filter((d) => d.status === 'pending' && d.createdBy === uid);
     case 'active':
-      return duels.filter((d) => d.status === 'active');
+      return duels.filter((d) => 
+        d.status === 'active' || 
+        (d.status === 'pending' && d.participants[uid]?.status === 'accepted')
+      );
     case 'history':
       return duels.filter((d) =>
         (['completed', 'expired', 'declined', 'cancelled'] as DuelStatus[]).includes(d.status)

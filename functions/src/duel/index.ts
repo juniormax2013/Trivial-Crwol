@@ -1,4 +1,4 @@
-import { firestore } from "firebase-functions/v1";
+import { firestore, Change, EventContext } from "firebase-functions/v1";
 import * as admin from "firebase-admin";
 
 const db = admin.firestore();
@@ -7,7 +7,7 @@ const db = admin.firestore();
  * Triggered when a duel document is updated.
  * Distributes rewards when the duel status changes to 'completed'.
  */
-export const onDuelUpdate = firestore.document("duels/{duelId}").onUpdate(async (change, context) => {
+export const onDuelUpdate = firestore.document("duels/{duelId}").onUpdate(async (change: Change<firestore.DocumentSnapshot>, context: EventContext) => {
     const newData = change.after.data();
     const oldData = change.before.data();
 

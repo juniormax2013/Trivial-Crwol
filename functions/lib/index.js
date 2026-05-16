@@ -133,7 +133,7 @@ exports.submitGameAnswer = (0, https_1.onCall)(async (request) => {
     const gameRef = db.collection("games").doc(gameId);
     const gameSnap = await gameRef.get();
     if (!gameSnap.exists || ((_a = gameSnap.data()) === null || _a === void 0 ? void 0 : _a.userId) !== uid || ((_b = gameSnap.data()) === null || _b === void 0 ? void 0 : _b.status) !== "active") {
-        throw new functions.https.HttpsError("failed-precondition", "Juego no válido o finalizado.");
+        throw new https_1.HttpsError("failed-precondition", "Juego no válido o finalizado.");
     }
     // Verify answer
     const questionSnap = await db.collection("questions").doc(questionId).get();
