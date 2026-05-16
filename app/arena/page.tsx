@@ -128,11 +128,11 @@ export default function Arena() {
               <div className="flex flex-col gap-3 mb-6">
                 <div className="flex items-center gap-2">
                   <Coins className="text-[#ffe088] w-[18px] h-[18px] fill-[#cba72f]" strokeWidth={1} />
-                  <span className="font-bold text-[15px] text-[#ffe088]">5,000 Coronas</span>
+                  <span className="font-bold text-[15px] text-[#ffe088]">5,000 {t.arena.coronas}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="text-[#d7baff] w-[18px] h-[18px]" strokeWidth={2} />
-                  <span className="font-semibold text-[13px] text-white/90">Termina en 04h 22m</span>
+                  <span className="font-semibold text-[13px] text-white/90">{t.arena.endsIn} 04h 22m</span>
                 </div>
               </div>
               <Link href="/arena/tournaments">
@@ -151,7 +151,7 @@ export default function Arena() {
               <h3 className="font-serif text-[26px] font-bold text-[#310065] leading-tight">{t.crownArena.title}</h3>
               <p className="text-[#7c7483] font-medium text-[13px] mt-1">{t.crownArena.subtitle}</p>
             </div>
-            <div className="bg-[#ffe088] text-[#735c00] px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest animate-pulse border border-[#cba72f]/30">EN VIVO</div>
+            <div className="bg-[#ffe088] text-[#735c00] px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest animate-pulse border border-[#cba72f]/30">{t.arena.live}</div>
           </div>
 
           <Link
@@ -174,7 +174,7 @@ export default function Arena() {
                     Crown Arena
                   </h4>
                   <p className="text-white/70 text-[14px] font-medium max-w-[240px]">
-                    Compite contra hasta 8 guerreros en una maratón épica de 20 preguntas.
+                    {t.arena.marathonDesc}
                   </p>
                 </div>
               </div>
@@ -182,10 +182,10 @@ export default function Arena() {
               <div className="flex flex-col items-center gap-3">
                 <div className="flex items-center gap-2 bg-white/20 px-5 py-2.5 rounded-2xl border border-white/10">
                   <Users className="w-5 h-5 text-[#ffe088]" />
-                  <span className="text-[14px] font-black">2 - 8 Players</span>
+                  <span className="text-[14px] font-black">{t.arena.playersRange}</span>
                 </div>
                 <button className="flex items-center gap-2 text-[#e9c349] font-black uppercase tracking-[0.2em] text-[12px] group-hover:gap-4 transition-all">
-                  ENTRAR AHORA <ArrowRight className="w-5 h-5" />
+                  {t.arena.enterNow} <ArrowRight className="w-5 h-5" />
                 </button>
               </div>
             </div>
@@ -198,7 +198,7 @@ export default function Arena() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Flame className="w-4 h-4 text-[#ff6b00] fill-[#ff6b00]" />
-                  <span className="text-[12px] font-bold text-white tracking-wide">Bono de Racha</span>
+                  <span className="text-[12px] font-bold text-white tracking-wide">{t.arena.streakBonus}</span>
                 </div>
               </div>
               <div className="flex -space-x-3">
@@ -238,7 +238,7 @@ export default function Arena() {
                   <div>
                     <h4 className="font-black text-[18px] text-[#310065] mb-0.5">{t.daily.title}</h4>
                     <div className="bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-emerald-200 inline-block">
-                      DISPONIB
+                      {t.arena.available}
                     </div>
                   </div>
                 </div>
@@ -278,12 +278,12 @@ export default function Arena() {
                   </div>
                 </div>
                 <p className="text-[#7c7483] text-[13px] font-medium mb-4 flex-grow">
-                  Reponn kesyon pou ranmase rekonpans
+                  {t.arena.bibleGameDesc}
                 </p>
                 <div className="flex items-center justify-between mt-auto">
                   <div className="flex items-center gap-2 text-red-500">
                     <Heart size={14} className="fill-red-500" />
-                    <span className="text-[11px] font-bold">Kè: {user?.jweHearts ?? 0}</span>
+                    <span className="text-[11px] font-bold">{t.arena.heartsLabel}: {user?.jweHearts ?? 0}</span>
                   </div>
                   <div className="bg-[#f5f3f7] p-2 rounded-lg group-hover:bg-[#310065] group-hover:text-white transition-all text-[#310065]">
                     <ChevronRight size={20} />
@@ -323,7 +323,7 @@ export default function Arena() {
                   <div className="inline-flex items-center gap-1.5 bg-[#ffe088]/20 border border-[#cba72f]/30 px-3 py-1 rounded-full mb-4">
                     <Zap className="w-3 h-3 text-[#ffe088] fill-[#ffe088]" />
                     <span className="text-[9px] font-black text-[#ffe088] uppercase tracking-[0.15em]">
-                      {pendingCount} pendiente{pendingCount !== 1 && 's'}
+                      {pendingCount} {pendingCount === 1 ? t.arena.pendingOne : t.arena.pendingMultiple}
                     </span>
                   </div>
                 )}

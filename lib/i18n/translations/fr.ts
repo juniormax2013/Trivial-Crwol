@@ -398,6 +398,17 @@ export const fr: Translations = {
     searchTournamentPlaceholder: 'Rechercher un tournoi...',
     noTournamentsCompleted: 'Aucun tournoi terminé.',
     comeBackSoon: 'Revenez bientôt pour de nouveaux événements',
+    live: 'EN DIRECT',
+    coronas: 'Couronnes',
+    streakBonus: 'Bonus de Série',
+    playersRange: '2 - 8 Joueurs',
+    enterNow: 'ENTRER MAINTENANT',
+    marathonDesc: 'Affrontez jusqu\'à 8 guerriers dans un marathon épique de 20 questions.',
+    available: 'DISPONIBLE',
+    bibleGameDesc: 'Répondez aux questions pour gagner des récompenses',
+    heartsLabel: 'Coeurs',
+    pendingOne: 'en attente',
+    pendingMultiple: 'en attente',
   },
 
   social: {

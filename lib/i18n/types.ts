@@ -413,6 +413,17 @@ export interface Translations {
     searchTournamentPlaceholder: string;
     noTournamentsCompleted: string;
     comeBackSoon: string;
+    live: string;
+    coronas: string;
+    streakBonus: string;
+    playersRange: string;
+    enterNow: string;
+    marathonDesc: string;
+    available: string;
+    bibleGameDesc: string;
+    heartsLabel: string;
+    pendingOne: string;
+    pendingMultiple: string;
   };
 
   // ---------- SOCIAL ----------

@@ -398,6 +398,17 @@ export const ht: Translations = {
     searchTournamentPlaceholder: 'Chèche tounwa...',
     noTournamentsCompleted: 'Pa gen tounwa fini.',
     comeBackSoon: 'Tounen byento pou nouvo evènman',
+    live: 'AN DIRÈK',
+    coronas: 'Kouwonn',
+    streakBonus: 'Bonis Seri',
+    playersRange: '2 - 8 Jwè',
+    enterNow: 'ANTRE KOUNYE A',
+    marathonDesc: 'Konpeti kont jiska 8 vanyan nan yon maraton epik 20 kesyon.',
+    available: 'DISPONIB',
+    bibleGameDesc: 'Reponn kesyon pou ranmase rekonpans',
+    heartsLabel: 'Kè',
+    pendingOne: 'pendiente',
+    pendingMultiple: 'pendiente yo',
   },
 
   social: {
