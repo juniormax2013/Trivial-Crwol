@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Trophy, Medal, Award } from 'lucide-react';
 import { TournamentParticipant } from '../../lib/tournament/models';
 
@@ -39,7 +40,7 @@ export const LeaderboardRow = ({ participant, index, isCurrentUser }: Leaderboar
       <div className="flex items-center gap-3 flex-1 min-w-0">
         <div className="w-10 h-10 rounded-full bg-indigo-500/20 border border-white/10 flex items-center justify-center shrink-0 overflow-hidden">
           {participant.avatarUrl ? (
-            <img src={participant.avatarUrl} alt={participant.displayName} className="w-full h-full object-cover" />
+            <Image src={participant.avatarUrl} alt={participant.displayName} width={40} height={40} className="w-full h-full object-cover" unoptimized />
           ) : (
             <span className="text-white font-bold">{participant.displayName?.charAt(0).toUpperCase() || '?'}</span>
           )}

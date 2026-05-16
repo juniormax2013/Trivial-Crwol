@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { 
   Users, 
   Search, 
@@ -179,7 +180,7 @@ export default function AdminUsersPage() {
                         <div className="flex items-center gap-4">
                           <div className="w-11 h-11 bg-[#f5f3f7] rounded-full flex items-center justify-center border-2 border-white shadow-sm overflow-hidden flex-shrink-0 group-hover:border-[#310065]/20 group-hover:scale-110 transition-all duration-300">
                             {u.photoURL ? (
-                              <img src={u.photoURL} alt="" className="w-full h-full object-cover" />
+                              <Image src={u.photoURL} alt={u.fullName} width={44} height={44} className="w-full h-full object-cover" />
                             ) : (
                               <User className="w-5 h-5 text-[#310065]/30" />
                             )}

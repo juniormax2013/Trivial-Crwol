@@ -16,8 +16,7 @@ export default function SimulationSwitcher() {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => setMounted(true), 0);
-    return () => clearTimeout(timer);
+    setMounted(true);
   }, []);
 
   if (!mounted) return null;

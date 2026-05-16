@@ -17,7 +17,6 @@ export default function TournamentsHub() {
 
   useEffect(() => {
     const fetchTournaments = async () => {
-      setLoading(true);
       try {
         const active = await TournamentRepository.getActiveTournaments();
         const completed = await TournamentRepository.getRecentCompletedTournaments();

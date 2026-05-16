@@ -25,11 +25,19 @@ const configKeys = Object.keys(firebaseConfig) as (keyof typeof firebaseConfig)[
 const missingKeys = configKeys.filter(key => !firebaseConfig[key]);
 
 if (missingKeys.length > 0) {
+  const errorMessage = `❌ CRITICAL: Firebase configuration missing keys: ${missingKeys.join(", ")}. 
+    In production, this usually means environment variables are not set in the Firebase Console or build pipeline.
+    App will likely crash on initialization.`;
+  
   if (process.env.NODE_ENV === 'development') {
     console.warn(`⚠️ Firebase configuration missing: ${missingKeys.join(", ")}. Please check your .env.local file.`);
   } else {
-    // In production, we don't want to log the values, but we need to know if they are missing
-    console.error(`❌ CRITICAL: Firebase configuration missing keys: ${missingKeys.join(", ")}`);
+    // In production, log a very clear error to the console
+    console.error(errorMessage);
+    if (typeof window !== 'undefined') {
+        // Optionally show an alert or a more user-friendly message if possible, 
+        // but for now, the console error is the most important for debugging.
+    }
   }
 }
 

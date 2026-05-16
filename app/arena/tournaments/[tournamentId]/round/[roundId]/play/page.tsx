@@ -77,9 +77,12 @@ export default function TournamentPlay() {
         const t = setTimeout(() => setStartCountdown(c => c - 1), 1000);
         return () => clearTimeout(t);
       } else {
-        setGameState('playing');
-        questionStartTimeRef.current = Date.now();
-        setTimeLeft(15);
+        const timer = setTimeout(() => {
+          setGameState('playing');
+          questionStartTimeRef.current = Date.now();
+          setTimeLeft(15);
+        }, 0);
+        return () => clearTimeout(timer);
       }
     }
   }, [gameState, startCountdown]);

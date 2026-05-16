@@ -234,7 +234,7 @@ export default function AdminLogin() {
         <div className="relative p-6 border-l-2 border-b-2 border-[#cba72f]/40">
           <ScrollText className="w-16 h-16 text-[#cba72f] mb-3" strokeWidth={1.5} />
           <p className="font-serif italic text-white text-[15px] leading-relaxed">
-            "The entrance of thy words giveth light; it giveth understanding unto the simple."
+            &quot;The entrance of thy words giveth light; it giveth understanding unto the simple.&quot;
           </p>
           <p className="text-[10px] uppercase tracking-[0.2em] font-black text-[#ffe088] mt-3">
             Psalm 119:130

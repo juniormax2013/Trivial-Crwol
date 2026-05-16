@@ -408,7 +408,7 @@ export default function HomeDashboard() {
 
               <div className="space-y-6">
                 <h3 className="text-3xl font-black text-[#310065] leading-[1.1] italic tracking-tight font-serif drop-shadow-sm">
-                  "{currentVerse.text}"
+                  &quot;{currentVerse.text}&quot;
                 </h3>
                 <div className="flex items-center gap-4">
                   <div className="h-[2px] w-8 bg-amber-400 rounded-full" />
@@ -670,7 +670,7 @@ export default function HomeDashboard() {
                     <p className="text-[10px] font-black text-amber-600 uppercase tracking-[0.2em]">{currentVerse.reference}</p>
                   </div>
                   <p className="text-lg font-bold text-[#310065] leading-relaxed italic">
-                    "{currentVerse.explanation}"
+                    &quot;{currentVerse.explanation}&quot;
                   </p>
                 </div>
 

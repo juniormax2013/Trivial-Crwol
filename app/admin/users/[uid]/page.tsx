@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useParams, useRouter } from 'next/navigation';
 import { 
   ArrowLeft, 
@@ -126,7 +127,7 @@ export default function AdminUserDetailPage() {
             <div className="flex flex-col md:flex-row items-center md:items-start gap-8 z-10 relative">
               <div className="w-32 h-32 rounded-[2.5rem] bg-[#f5f3f7] border-4 border-white shadow-xl overflow-hidden flex-shrink-0">
                 {user.photoURL ? (
-                  <img src={user.photoURL} alt="" className="w-full h-full object-cover" />
+                  <Image src={user.photoURL} alt={user.fullName} width={128} height={128} className="w-full h-full object-cover" />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center">
                     <UserIcon className="w-12 h-12 text-[#cdc3d4]" />

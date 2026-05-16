@@ -64,6 +64,34 @@ export default function CrownArenaPlayPage() {
 
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
+  const handleFinish = useCallback(async (finalScore: number, currentRoom?: ArenaSession & { players: ArenaPlayer[] }) => {
+    const roomToUse = currentRoom || room;
+    if (!user || !roomToUse) return;
+    
+    // Check if everyone is finished
+    const activePlayers = roomToUse.players.filter((p: ArenaPlayer) => p.status !== 'left');
+    
+    // Safety check: Don't complete if we don't even have the expected number of players synced yet
+    // or if we only see ourselves but the room says there are more players.
+    if (activePlayers.length < (roomToUse.currentPlayersCount || 1)) {
+      console.log('[PLAY] Missing players in local state, skipping finish check...');
+      return;
+    }
+
+    const allFinished = activePlayers.length > 0 && activePlayers.every((p: ArenaPlayer) => p.isFinished || p.id === user.uid);
+    
+    if (allFinished) {
+      try {
+        console.log('[PLAY] All players finished. Completing match globally...');
+        await completeArenaMatch(roomId);
+      } catch (error) {
+        console.error('Error finalizando partida:', error);
+      }
+    } else {
+      console.log('[PLAY] User finished, but waiting for others to complete...');
+    }
+  }, [user, room, roomId]);
+
   // 1. Initial Load & Subscription
   useEffect(() => {
     if (!user || !roomId) return;
@@ -121,33 +149,6 @@ export default function CrownArenaPlayPage() {
     }
   }, [room, phase, router]);
 
-  const handleFinish = useCallback(async (finalScore: number, currentRoom?: ArenaSession & { players: ArenaPlayer[] }) => {
-    const roomToUse = currentRoom || room;
-    if (!user || !roomToUse) return;
-    
-    // Check if everyone is finished
-    const activePlayers = roomToUse.players.filter((p: ArenaPlayer) => p.status !== 'left');
-    
-    // Safety check: Don't complete if we don't even have the expected number of players synced yet
-    // or if we only see ourselves but the room says there are more players.
-    if (activePlayers.length < (roomToUse.currentPlayersCount || 1)) {
-      console.log('[PLAY] Missing players in local state, skipping finish check...');
-      return;
-    }
-
-    const allFinished = activePlayers.length > 0 && activePlayers.every((p: ArenaPlayer) => p.isFinished || p.id === user.uid);
-    
-    if (allFinished) {
-      try {
-        console.log('[PLAY] All players finished. Completing match globally...');
-        await completeArenaMatch(roomId);
-      } catch (error) {
-        console.error('Error finalizando partida:', error);
-      }
-    } else {
-      console.log('[PLAY] User finished, but waiting for others to complete...');
-    }
-  }, [user, room, roomId]);
 
   const submitAnswer = useCallback((optionId: string | null) => {
     if (selectedOption !== null || !user || !room) return;

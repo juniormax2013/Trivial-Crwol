@@ -46,9 +46,10 @@ export default function DailyChallengeResultPage() {
   useEffect(() => {
     if (!result) return;
     const tick = () => setCountdown(getCountdownToMidnight());
-    tick();
+    const initialTick = setTimeout(tick, 0);
     timerRef.current = setInterval(tick, 1000);
     return () => {
+      clearTimeout(initialTick);
       if (timerRef.current) clearInterval(timerRef.current);
     };
   }, [result]);

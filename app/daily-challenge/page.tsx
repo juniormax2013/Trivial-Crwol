@@ -45,7 +45,6 @@ export default function DailyChallengeIntroPage() {
   const load = async () => {
     if (!user?.uid) return;
     
-    setStatus('loading');
     const [ch, ud] = await Promise.all([
       getTodayChallenge(language),
       getUserDailyChallengeData(user.uid),
@@ -57,6 +56,7 @@ export default function DailyChallengeIntroPage() {
 
   useEffect(() => {
     if (!authLoading && user) {
+      setStatus('loading');
       load();
     } else if (!authLoading && !user) {
       router.push('/login');

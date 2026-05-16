@@ -79,7 +79,7 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
       setErrorMessage(err.message);
       setPhase('error');
     });
-  }, [duelId, router]);
+  }, [duelId, router, DEMO_UID, userLanguage]);
 
   // ── Reset timer on new question ───────────────────────────
   useEffect(() => {

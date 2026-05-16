@@ -1,7 +1,6 @@
 import { onCall, HttpsError, CallableRequest } from "firebase-functions/v2/https";
 import { beforeUserCreated, AuthBlockingEvent } from "firebase-functions/v2/identity";
-import * as functions from "firebase-functions/v1";
-import { Change, EventContext } from "firebase-functions/v1";
+import * as v1 from "firebase-functions/v1";
 import * as admin from "firebase-admin";
 
 admin.initializeApp();
@@ -17,7 +16,7 @@ const db = admin.firestore();
  * Triggered when a new user signs up.
  * Creates a default user document in Firestore.
  */
-export const createUserProfile = functions.auth.user().onCreate(async (user: admin.auth.UserRecord) => {
+export const createUserProfile = v1.auth.user().onCreate(async (user: admin.auth.UserRecord) => {
   if (!user) return;
   
   const userRef = db.collection("users").doc(user.uid);
@@ -292,7 +291,7 @@ export const importQuestionsFromCsv = onCall(async (request: CallableRequest) =>
 /**
  * Audit Log Trigger
  */
-export const auditAdminAction = functions.firestore.document("system_settings/{docId}").onWrite(async (change: Change<functions.firestore.DocumentSnapshot>, context: EventContext) => {
+export const auditAdminAction = v1.firestore.document("system_settings/{docId}").onWrite(async (change: v1.Change<v1.firestore.DocumentSnapshot>, context: v1.EventContext) => {
     if (!change) return;
     
     // If it's an update or delete, we log the action
