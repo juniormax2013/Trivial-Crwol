@@ -38,6 +38,7 @@ import { useRouter } from 'next/navigation';
 
 function ActivityCard({ duel, currentUserId }: { duel: DuelModel, currentUserId: string }) {
   const t = useT();
+  const { language } = useLanguage();
   const isWinner = duel.winnerIds.includes(currentUserId);
   const isLoser = duel.loserIds.includes(currentUserId);
   const isTie = duel.isTie;
@@ -64,6 +65,8 @@ function ActivityCard({ duel, currentUserId }: { duel: DuelModel, currentUserId:
     resultColor = 'bg-gray-100 text-gray-600';
   }
 
+  const locale = language === 'ht' ? 'ht-HT' : language === 'es' ? 'es-ES' : 'fr-FR';
+
   return (
     <div className="flex items-center justify-between p-4 bg-white rounded-3xl border border-black/5 hover:border-[#310065]/10 transition-all shadow-sm">
       <div className="flex items-center gap-3">
@@ -73,7 +76,7 @@ function ActivityCard({ duel, currentUserId }: { duel: DuelModel, currentUserId:
         <div>
           <p className="text-xs font-black text-[#310065]">{resultLabel}</p>
           <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider">
-            {new Date(duel.createdAt).toLocaleDateString(t.settings.languages[t.profile.language === 'ht' ? 'ht' : t.profile.language === 'es' ? 'es' : 'fr'], { weekday: 'short', day: 'numeric', month: 'short' })}
+            {new Date(duel.createdAt).toLocaleDateString(locale, { weekday: 'short', day: 'numeric', month: 'short' })}
           </p>
         </div>
       </div>
