@@ -235,16 +235,16 @@ export default function HomeDashboard() {
   });
 
   return (
-    <div className="bg-white text-[#1c1c1e] min-h-screen pb-32 font-sans selection:bg-[#eddcff] overflow-x-hidden">
+    <div className="bg-[#f7f7fa] text-[#1c1c1e] min-h-screen pb-32 font-sans selection:bg-[#eddcff] overflow-x-hidden">
       
       {/* TOP NAVIGATION BAR - Premium iOS Style */}
       <nav className="fixed top-0 w-full z-[60] bg-white border-b border-black/[0.04] shadow-[0_2px_20px_rgba(0,0,0,0.03)] pt-safe">
-        <div className="max-w-md mx-auto px-5 h-20 flex items-center justify-between gap-3">
+        <div className="max-w-2xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-3">
           
           {/* Profile & XP Section */}
           <div className="flex items-center gap-3">
             <Link href="/profile" className="relative group active:scale-95 transition-all duration-300">
-              <div className="w-12 h-12 rounded-2xl p-[2px] bg-gradient-to-tr from-[#310065] to-[#7b1fa2] shadow-lg shadow-[#310065]/10">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl p-[2px] bg-gradient-to-tr from-[#310065] to-[#7b1fa2] shadow-lg shadow-[#310065]/10">
                 <div className="w-full h-full rounded-[14px] overflow-hidden bg-white flex items-center justify-center">
                   {user?.photoURL ? (
                     <Image src={user.photoURL} alt="Profile" width={48} height={48} className="object-cover" />
@@ -265,7 +265,7 @@ export default function HomeDashboard() {
                 <span className="text-[10px] font-black text-[#310065] tracking-widest leading-none">XP</span>
                 <span className="text-[11px] font-bold text-gray-400 tabular-nums leading-none">{user?.xp || 0}</span>
               </div>
-              <div className="h-2 w-16 bg-[#f2f2f7] rounded-full overflow-hidden shadow-inner">
+              <div className="h-2 w-12 sm:w-16 bg-[#f2f2f7] rounded-full overflow-hidden shadow-inner">
                 <div 
                   className="h-full bg-gradient-to-r from-[#310065] to-[#7b1fa2] rounded-full"
                   style={{ width: `${Math.min(100, (user?.xp || 0) % 100)}%` }}
@@ -303,11 +303,11 @@ export default function HomeDashboard() {
         </div>
       </nav>
 
-      <main className="pt-20 max-w-md mx-auto space-y-6">
+      <main className="pt-16 sm:pt-20 max-w-2xl mx-auto space-y-5 sm:space-y-6">
         
         {/* 1. TOP HERO SLIDESHOW */}
-        <section className="px-5">
-          <div className="relative h-80 w-full rounded-[3.5rem] overflow-hidden shadow-[0_30px_60px_-15px_rgba(49,0,101,0.3)] group bg-white">
+        <section className="px-3 sm:px-5">
+          <div className="relative h-56 sm:h-72 md:h-80 w-full rounded-[2.5rem] sm:rounded-[3.5rem] overflow-hidden shadow-[0_30px_60px_-15px_rgba(49,0,101,0.3)] group bg-white">
             <AnimatePresence mode="wait">
               <motion.div 
                 key={currentSlide}
@@ -315,7 +315,7 @@ export default function HomeDashboard() {
                 animate={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
                 exit={{ opacity: 0, scale: 0.9, filter: 'blur(10px)' }}
                 transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-                className={`absolute inset-0 bg-gradient-to-br ${slides[currentSlide].gradient} flex flex-col justify-end px-10 pt-10 pb-28 text-white`}
+                className={`absolute inset-0 bg-gradient-to-br ${slides[currentSlide].gradient} flex flex-col justify-end px-6 sm:px-10 pt-6 sm:pt-10 pb-20 sm:pb-28 text-white`}
               >
                 {/* Visual Enhancements */}
                 <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -341,7 +341,7 @@ export default function HomeDashboard() {
                         {currentDate}
                       </span>
                     </div>
-                    <h3 className="text-white font-black text-2xl drop-shadow-sm flex items-center gap-3 italic">
+                    <h3 className="text-white font-black text-lg sm:text-2xl drop-shadow-sm flex items-center gap-3 italic">
                       {greeting}
                     </h3>
                   </motion.div>
@@ -351,7 +351,7 @@ export default function HomeDashboard() {
                       initial={{ y: 20, opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
                       transition={{ delay: 0.3 }}
-                      className="text-4xl md:text-5xl font-black leading-[1] drop-shadow-xl tracking-tighter"
+                      className="text-2xl sm:text-4xl md:text-5xl font-black leading-[1] drop-shadow-xl tracking-tighter"
                     >
                       {slides[currentSlide].title}
                     </motion.h2>
@@ -372,7 +372,7 @@ export default function HomeDashboard() {
             </AnimatePresence>
             
             {/* Indicators - Premium look */}
-            <div className="absolute bottom-10 left-10 flex gap-3 z-20">
+            <div className="absolute bottom-6 sm:bottom-10 left-6 sm:left-10 flex gap-3 z-20">
               {slides.map((_, i) => (
                 <button
                   key={i}
@@ -387,14 +387,14 @@ export default function HomeDashboard() {
         </section>
 
         {/* 2. VERSE OF THE DAY - Clean Card */}
-        <section className="px-5">
-          <div className="bg-white rounded-[3rem] shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-black/[0.03] p-10 space-y-8 relative overflow-hidden group">
+        <section className="px-3 sm:px-5">
+          <div className="bg-white rounded-[2rem] sm:rounded-[3rem] shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-black/[0.03] p-6 sm:p-10 space-y-6 sm:space-y-8 relative overflow-hidden group">
             {/* Ambient Background Glow */}
             <div className="absolute -top-24 -right-24 w-80 h-80 bg-[#310065]/[0.03] rounded-full blur-[100px] group-hover:scale-110 transition-transform duration-[3000ms]" />
             <div className="absolute -bottom-24 -left-24 w-80 h-80 bg-amber-400/[0.02] rounded-full blur-[100px] group-hover:scale-110 transition-transform duration-[3000ms]" />
             
             <div className="relative z-10 flex flex-col">
-              <div className="flex items-center justify-between mb-10">
+              <div className="flex items-center justify-between mb-6 sm:mb-10">
                 <div className="flex items-center gap-3">
                   <div className="flex gap-1">
                     <span className="w-1.5 h-4 bg-amber-400 rounded-full animate-pulse" />
@@ -410,7 +410,7 @@ export default function HomeDashboard() {
               </div>
 
               <div className="space-y-6">
-                <h3 className="text-3xl font-black text-[#310065] leading-[1.1] italic tracking-tight font-serif drop-shadow-sm">
+                <h3 className="text-xl sm:text-3xl font-black text-[#310065] leading-[1.1] italic tracking-tight font-serif drop-shadow-sm">
                   &quot;{currentVerse.text}&quot;
                 </h3>
                 <div className="flex items-center gap-4">
@@ -421,7 +421,7 @@ export default function HomeDashboard() {
 
               <button 
                 onClick={() => setShowExplanation(true)}
-                className="mt-12 w-full py-6 px-8 bg-[#310065] text-white rounded-[2.5rem] flex items-center justify-center gap-4 font-black text-[13px] uppercase tracking-widest shadow-[0_25px_50px_-15px_rgba(49,0,101,0.4)] hover:shadow-[0_30px_60px_-12px_rgba(49,0,101,0.5)] active:scale-[0.98] transition-all group/btn"
+                className="mt-6 sm:mt-12 w-full py-4 sm:py-6 px-6 sm:px-8 bg-[#310065] text-white rounded-[2rem] sm:rounded-[2.5rem] flex items-center justify-center gap-3 sm:gap-4 font-black text-[13px] uppercase tracking-widest shadow-[0_25px_50px_-15px_rgba(49,0,101,0.4)] hover:shadow-[0_30px_60px_-12px_rgba(49,0,101,0.5)] active:scale-[0.98] transition-all group/btn"
               >
                 <div className="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center group-hover/btn:rotate-12 transition-transform">
                   <Info size={18} strokeWidth={2.5} />
@@ -435,8 +435,8 @@ export default function HomeDashboard() {
 
 
         {/* 4. WEEKLY SUMMARY & ACTIVITY - Unified Toggle Section */}
-        <section className="px-5">
-          <div className="bg-white rounded-[2.5rem] p-8 shadow-[0_10px_30px_rgba(0,0,0,0.03)] border border-black/5 space-y-8 relative overflow-hidden">
+        <section className="px-3 sm:px-5">
+          <div className="bg-white rounded-[2rem] sm:rounded-[2.5rem] p-5 sm:p-8 shadow-[0_10px_30px_rgba(0,0,0,0.03)] border border-black/5 space-y-6 sm:space-y-8 relative overflow-hidden">
             {/* TAB SWITCHER - Premium segmented control */}
             <div className="flex p-1.5 bg-[#f2f2f7] rounded-[1.8rem] border border-black/[0.03] shadow-inner relative">
               <motion.div 
@@ -582,8 +582,8 @@ export default function HomeDashboard() {
 
         {/* 5. ACTIVE TOURNAMENTS (Only if any) */}
         {activeTournaments.length > 0 && (
-          <section className="px-4">
-            <div className="bg-gradient-to-br from-[#310065] to-[#4a148c] rounded-[2.5rem] p-8 shadow-2xl shadow-[#310065]/30 relative overflow-hidden group">
+          <section className="px-3 sm:px-4">
+            <div className="bg-gradient-to-br from-[#310065] to-[#4a148c] rounded-[2rem] sm:rounded-[2.5rem] p-5 sm:p-8 shadow-2xl shadow-[#310065]/30 relative overflow-hidden group">
               <div className="absolute top-0 right-0 w-48 h-48 bg-white/5 rounded-full -mr-24 -mt-24 blur-3xl group-hover:scale-150 transition-transform duration-1000" />
               
               <div className="relative z-10 space-y-6">
@@ -638,6 +638,7 @@ export default function HomeDashboard() {
 
       <BottomNav activeTab="home" />
 
+
       {/* VERSE EXPLANATION MODAL */}
       <AnimatePresence>
         {showExplanation && (
@@ -654,7 +655,7 @@ export default function HomeDashboard() {
               animate={{ y: 0 }}
               exit={{ y: "100%" }}
               transition={{ type: "spring", damping: 25, stiffness: 200 }}
-              className="relative w-full max-w-md bg-white rounded-t-[3rem] p-8 pb-12 max-h-[90vh] overflow-y-auto shadow-2xl"
+              className="relative w-full max-w-2xl bg-white rounded-t-[2rem] sm:rounded-t-[3rem] p-5 sm:p-8 pb-12 max-h-[90vh] overflow-y-auto shadow-2xl"
             >
               <div className="flex items-center justify-between mb-8">
                 <h3 className="text-lg font-black text-[#310065] tracking-tight uppercase italic">{t.dashboard.explanation}</h3>

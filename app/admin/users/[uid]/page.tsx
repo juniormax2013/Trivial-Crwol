@@ -9,7 +9,6 @@ import {
   Shield, 
   ShieldAlert, 
   Coins, 
-  Diamond, 
   Trophy, 
   Ban, 
   CheckCircle2, 
@@ -17,20 +16,19 @@ import {
   AtSign, 
   Calendar, 
   BarChart2, 
-  Save, 
   Loader2, 
   User as UserIcon,
   Crown as CrownIcon,
   Zap,
   Target,
   Clock,
-  ExternalLink,
-  Award,
   AlertCircle,
-  Swords
+  Swords,
+  Trash2,
+  X
 } from 'lucide-react';
 import { AdminGuard } from '@/components/auth/AdminGuard';
-import { getUser, updateUser } from '@/lib/user/repository';
+import { getUser, updateUser, deleteUser } from '@/lib/user/repository';
 import { AppUserModel, UserRole, UserStatus } from '@/lib/user/models';
 
 export default function AdminUserDetailPage() {
@@ -40,6 +38,10 @@ export default function AdminUserDetailPage() {
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [showDeleteModal, setShowDeleteModal] = useState(false);
+  const [deleteConfirmText, setDeleteConfirmText] = useState('');
+  const [deleting, setDeleting] = useState(false);
+  const [hardDelete, setHardDelete] = useState(false);
   
   // Custom amounts for rewards
   const [customCrowns, setCustomCrowns] = useState<string>('');
@@ -78,6 +80,21 @@ export default function AdminUserDetailPage() {
       console.error("Error updating user:", err);
     } finally {
       setSaving(false);
+    }
+  };
+
+  /**
+   * HANDLE DELETE
+   */
+  const handleDelete = async () => {
+    if (!user || deleteConfirmText !== 'ELIMINAR') return;
+    setDeleting(true);
+    try {
+      await deleteUser(user.uid, hardDelete);
+      router.push('/admin/users');
+    } catch (err) {
+      console.error('Error deleting user:', err);
+      setDeleting(false);
     }
   };
 
@@ -339,6 +356,27 @@ export default function AdminUserDetailPage() {
             </div>
           </section>
 
+          {/* DANGER ZONE */}
+          <section className="space-y-4">
+            <h3 className="font-serif text-2xl font-black text-[#ba1a1a] flex items-center gap-3 px-2">
+              <Trash2 className="w-7 h-7" />
+              Zona de Peligro
+            </h3>
+            <div className="bg-[#fff0f0] border border-[#ba1a1a]/20 rounded-[2.5rem] p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+              <div>
+                <p className="font-black text-[#ba1a1a] text-[16px] mb-1">Eliminar cuenta de Scribe</p>
+                <p className="text-[13px] text-[#ba1a1a]/70 font-medium">Esta acción borrará los datos del usuario. Usa con precaución.</p>
+              </div>
+              <button
+                onClick={() => { setShowDeleteModal(true); setDeleteConfirmText(''); }}
+                className="flex-shrink-0 flex items-center gap-2 px-6 py-3 bg-[#ba1a1a] text-white rounded-2xl font-black text-[13px] uppercase tracking-widest hover:bg-[#93000a] transition-colors shadow-md"
+              >
+                <Trash2 className="w-4 h-4" />
+                Eliminar Usuario
+              </button>
+            </div>
+          </section>
+
         </main>
 
         {/* Global Action Loader Overlay */}
@@ -347,6 +385,70 @@ export default function AdminUserDetailPage() {
             <div className="bg-white p-8 rounded-[2.5rem] shadow-2xl flex flex-col items-center gap-4">
               <Loader2 className="w-10 h-10 text-[#310065] animate-spin" />
               <p className="font-serif font-black text-[#310065] uppercase tracking-widest text-xs">Sellando Edictos...</p>
+            </div>
+          </div>
+        )}
+
+        {/* DELETE CONFIRMATION MODAL */}
+        {showDeleteModal && (
+          <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[200] flex items-center justify-center p-6">
+            <div className="bg-white rounded-[2.5rem] p-8 max-w-md w-full shadow-2xl space-y-6 animate-in fade-in zoom-in-95">
+              <div className="flex items-start justify-between">
+                <div className="w-14 h-14 bg-[#ffdad6] rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <Trash2 className="w-7 h-7 text-[#ba1a1a]" />
+                </div>
+                <button onClick={() => setShowDeleteModal(false)} className="p-2 rounded-full hover:bg-[#f5f3f7] transition-colors">
+                  <X className="w-5 h-5 text-[#4a4452]" />
+                </button>
+              </div>
+
+              <div>
+                <h3 className="font-serif text-2xl font-black text-[#1b1b1e] mb-2">¿Eliminar este Scribe?</h3>
+                <p className="text-[14px] text-[#4a4452] leading-relaxed">
+                  Estás a punto de eliminar la cuenta de <span className="font-black text-[#1b1b1e]">{user?.fullName}</span>. Esta acción no se puede deshacer fácilmente.
+                </p>
+              </div>
+
+              <div className="bg-[#f5f3f7] rounded-2xl p-4 space-y-3">
+                <label className="flex items-center gap-3 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={hardDelete}
+                    onChange={(e) => setHardDelete(e.target.checked)}
+                    className="w-4 h-4 accent-[#ba1a1a]"
+                  />
+                  <span className="text-[13px] font-bold text-[#1b1b1e]">Borrado permanente (elimina el documento de Firestore)</span>
+                </label>
+                <p className="text-[11px] text-[#7c7483] pl-7">Sin marcar: cambia status a &quot;deleted&quot; (recomendado)</p>
+              </div>
+
+              <div className="space-y-2">
+                <label className="text-[13px] font-bold text-[#1b1b1e]">Escribe <span className="text-[#ba1a1a] font-black">ELIMINAR</span> para confirmar</label>
+                <input
+                  type="text"
+                  value={deleteConfirmText}
+                  onChange={(e) => setDeleteConfirmText(e.target.value)}
+                  placeholder="ELIMINAR"
+                  className="w-full p-4 bg-[#fff0f0] border-2 border-[#ba1a1a]/20 rounded-2xl focus:outline-none focus:border-[#ba1a1a] font-black text-[#ba1a1a] tracking-widest placeholder:font-normal placeholder:text-[#ba1a1a]/30 placeholder:tracking-normal"
+                />
+              </div>
+
+              <div className="flex gap-3">
+                <button
+                  onClick={() => setShowDeleteModal(false)}
+                  className="flex-1 py-4 bg-[#f5f3f7] text-[#1b1b1e] rounded-2xl font-black text-[13px] uppercase tracking-widest hover:bg-[#e3e2e6] transition-colors"
+                >
+                  Cancelar
+                </button>
+                <button
+                  onClick={handleDelete}
+                  disabled={deleteConfirmText !== 'ELIMINAR' || deleting}
+                  className="flex-1 py-4 bg-[#ba1a1a] text-white rounded-2xl font-black text-[13px] uppercase tracking-widest hover:bg-[#93000a] transition-colors disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                >
+                  {deleting ? <Loader2 className="w-4 h-4 animate-spin" /> : <Trash2 className="w-4 h-4" />}
+                  {deleting ? 'Eliminando...' : 'Confirmar'}
+                </button>
+              </div>
             </div>
           </div>
         )}

@@ -160,7 +160,10 @@ service cloud.firestore {
     }
 
     match /user_battle_pass_progress/{progressId} {
-      allow read, update, delete: if isSignedIn() && resource.data.userId == request.auth.uid;
+      // Read: allow if the progressId starts with the user's uid (format: {uid}_{seasonId})
+      // This avoids resource.data being null when the document doesn't exist yet
+      allow read: if isSignedIn() && progressId.matches(request.auth.uid + '_.*');
+      allow update, delete: if isSignedIn() && resource.data.userId == request.auth.uid;
       allow create: if isSignedIn() && request.resource.data.userId == request.auth.uid;
 
       match /missions/{missionId} {
