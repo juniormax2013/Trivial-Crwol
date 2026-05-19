@@ -21,7 +21,8 @@ import {
   X,
   ChevronRight,
   Info,
-  ShoppingBag
+  ShoppingBag,
+  Crown
 } from 'lucide-react';
 import { useT } from '@/lib/i18n/context';
 import { useNotifications } from '@/hooks/useNotifications';
@@ -34,6 +35,8 @@ import { toast } from 'sonner';
 import { DAILY_VERSES } from '@/lib/daily-verse/data';
 import { useLanguage } from '@/lib/i18n/context';
 import { useRouter } from 'next/navigation';
+import UserAvatar from '@/components/UserAvatar';
+
 
 
 function ActivityCard({ duel, currentUserId }: { duel: DuelModel, currentUserId: string }) {
@@ -48,42 +51,54 @@ function ActivityCard({ duel, currentUserId }: { duel: DuelModel, currentUserId:
 
   let resultLabel = '';
   let resultColor = '';
+  let cardBg = 'bg-surface-container-lowest hover:bg-surface-container-low';
 
   if (duel.status === 'completed') {
     if (isWinner) {
       resultLabel = `${t.duel.victory} ${t.duel.vs} ${opponent}`;
-      resultColor = 'bg-green-100 text-green-600';
+      resultColor = 'text-amber-600';
+      cardBg = 'bg-gradient-to-r from-amber-500/[0.03] to-transparent hover:from-amber-500/[0.06] border-amber-200/30';
     } else if (isLoser) {
       resultLabel = `${t.duel.defeat} ${t.duel.vs} ${opponent}`;
-      resultColor = 'bg-red-100 text-red-600';
+      resultColor = 'text-red-600';
     } else if (isTie) {
       resultLabel = `${t.social.tie} ${t.duel.vs} ${opponent}`;
-      resultColor = 'bg-blue-100 text-blue-600';
+      resultColor = 'text-blue-600';
     }
   } else {
     resultLabel = t.duel.pending;
-    resultColor = 'bg-gray-100 text-gray-600';
+    resultColor = 'text-gray-500';
   }
 
   const locale = language === 'ht' ? 'ht-HT' : language === 'es' ? 'es-ES' : 'fr-FR';
 
   return (
-    <div className="flex items-center justify-between p-4 bg-white rounded-3xl border border-black/5 hover:border-[#310065]/10 transition-all shadow-sm">
+    <motion.div 
+      whileHover={{ y: -2, scale: 1.01 }}
+      whileTap={{ scale: 0.99 }}
+      className={`relative flex items-center justify-between p-4 rounded-2xl shadow-sm border border-black/[0.02] transition-all duration-300 ${cardBg}`}
+    >
+      {isWinner && (
+        <div className="absolute -top-2 -left-2 bg-gradient-to-r from-amber-400 to-[#e9c349] p-1 rounded-xl shadow-md rotate-[-12deg] border-2 border-white flex items-center justify-center z-10">
+          <Crown size={10} className="fill-[#310065] text-[#310065]" />
+        </div>
+      )}
+      
       <div className="flex items-center gap-3">
-        <div className="w-10 h-10 rounded-2xl bg-[#f2f2f7] flex items-center justify-center font-black text-[#310065] shadow-inner text-sm">
+        <div className={`w-10 h-10 rounded-2xl flex items-center justify-center font-black shadow-inner text-sm ${isWinner ? 'bg-amber-100 text-[#735c00]' : 'bg-surface-container-low text-primary'}`}>
           {opponent.charAt(0).toUpperCase()}
         </div>
         <div>
-          <p className="text-xs font-black text-[#310065]">{resultLabel}</p>
-          <p className="text-[10px] text-gray-400 font-bold uppercase tracking-wider">
+          <p className={`text-xs font-black tracking-tight ${resultColor}`}>{resultLabel}</p>
+          <p className="text-[9px] text-gray-400 font-bold uppercase tracking-wider mt-0.5">
             {new Date(duel.createdAt).toLocaleDateString(locale, { weekday: 'short', day: 'numeric', month: 'short' })}
           </p>
         </div>
       </div>
-      <div className="w-8 h-8 rounded-full bg-[#f2f2f7] flex items-center justify-center">
-        <ChevronRight size={14} className="text-gray-300" />
+      <div className="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center">
+        <ChevronRight size={14} className="text-gray-400" />
       </div>
-    </div>
+    </motion.div>
   );
 }
 
@@ -98,6 +113,7 @@ export default function HomeDashboard() {
   const [friends, setFriends] = useState<AppUserModel[]>([]);
   const [showExplanation, setShowExplanation] = useState(false);
   const [activeSummaryTab, setActiveSummaryTab] = useState<'me' | 'friends'>('me');
+
 
   // Daily Verse calculation
   const { language } = useLanguage();
@@ -153,8 +169,8 @@ export default function HomeDashboard() {
               setFriendsDuels(uniqueDuels);
             }
           }
-      } catch (error) {
-        console.error("Error fetching home data:", error);
+      } catch (error: any) {
+        console.error("Error fetching home data. Trace:", error.stack || error);
       }
     };
     fetchInitialData();
@@ -235,29 +251,27 @@ export default function HomeDashboard() {
   });
 
   return (
-    <div className="bg-[#f7f7fa] text-[#1c1c1e] min-h-screen pb-32 font-sans selection:bg-[#eddcff] overflow-x-hidden">
+    <div className="bg-surface text-[#1c1c1e] min-h-screen pb-32 font-sans selection:bg-[#eddcff] overflow-x-hidden">
       
       {/* TOP NAVIGATION BAR - Premium iOS Style */}
-      <nav className="fixed top-0 w-full z-[60] bg-white border-b border-black/[0.04] shadow-[0_2px_20px_rgba(0,0,0,0.03)] pt-safe">
+      <nav className="fixed top-0 w-full z-[60] bg-white/75 backdrop-blur-xl shadow-[0_4px_30px_rgba(49,0,101,0.02)] pt-safe">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-3">
           
           {/* Profile & XP Section */}
           <div className="flex items-center gap-3">
-            <Link href="/profile" className="relative group active:scale-95 transition-all duration-300">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl p-[2px] bg-gradient-to-tr from-[#310065] to-[#7b1fa2] shadow-lg shadow-[#310065]/10">
-                <div className="w-full h-full rounded-[14px] overflow-hidden bg-white flex items-center justify-center">
-                  {user?.photoURL ? (
-                    <Image src={user.photoURL} alt="Profile" width={48} height={48} className="object-cover" />
-                  ) : (
-                    <div className="w-full h-full bg-[#f2f2f7] flex items-center justify-center text-[#310065]/30">
-                      <User size={24} />
-                    </div>
-                  )}
-                </div>
-              </div>
-              <div className="absolute -bottom-1 -right-1 bg-[#310065] text-white text-[10px] font-black w-6 h-6 rounded-lg flex items-center justify-center border-2 border-white shadow-md">
+            <Link href="/profile" className="relative group">
+              <UserAvatar
+                photoURL={user?.photoURL}
+                activeFrame={user?.activeFrame}
+                username={user?.username}
+                size={44}
+              />
+              <motion.div 
+                whileHover={{ scale: 1.1 }}
+                className="absolute -bottom-1 -right-1 bg-[#310065] text-white text-[10px] font-black w-6 h-6 rounded-lg flex items-center justify-center border-2 border-white shadow-md z-20"
+              >
                 {user?.level || 1}
-              </div>
+              </motion.div>
             </Link>
             
             <div className="flex flex-col gap-1.5">
@@ -265,7 +279,7 @@ export default function HomeDashboard() {
                 <span className="text-[10px] font-black text-[#310065] tracking-widest leading-none">XP</span>
                 <span className="text-[11px] font-bold text-gray-400 tabular-nums leading-none">{user?.xp || 0}</span>
               </div>
-              <div className="h-2 w-12 sm:w-16 bg-[#f2f2f7] rounded-full overflow-hidden shadow-inner">
+              <div className="h-2 w-12 sm:w-16 bg-surface-container-low rounded-full overflow-hidden shadow-inner">
                 <div 
                   className="h-full bg-gradient-to-r from-[#310065] to-[#7b1fa2] rounded-full"
                   style={{ width: `${Math.min(100, (user?.xp || 0) % 100)}%` }}
@@ -278,27 +292,35 @@ export default function HomeDashboard() {
           <div className="flex items-center gap-2">
             <div className="flex flex-col gap-1.5 items-end">
               {/* Coins */}
-              <div className="flex items-center gap-1.5 bg-[#f2f2f7]/50 px-2 py-1 rounded-xl border border-black/[0.03]">
+              <motion.div 
+                whileHover={{ y: -1 }}
+                className="flex items-center gap-1.5 bg-surface-container-low px-2.5 py-1 rounded-xl shadow-sm cursor-pointer"
+              >
                 <div className="w-4 h-4 relative">
                   <Image src="/assets/store/currency/coin.png" alt="Coins" fill className="object-contain" />
                 </div>
                 <span className="text-[11px] font-black text-[#cba72f] tabular-nums">{user?.coins?.toLocaleString() || 0}</span>
-              </div>
+              </motion.div>
               {/* Crowns */}
-              <div className="flex items-center gap-1.5 bg-[#f2f2f7]/50 px-2 py-1 rounded-xl border border-black/[0.03]">
+              <motion.div 
+                whileHover={{ y: -1 }}
+                className="flex items-center gap-1.5 bg-surface-container-low px-2.5 py-1 rounded-xl shadow-sm cursor-pointer"
+              >
                 <div className="w-4 h-4 relative">
                   <Image src="/assets/store/currency/crown.png" alt="Crowns" fill className="object-contain" />
                 </div>
                 <span className="text-[11px] font-black text-[#310065] tabular-nums">{user?.crowns?.toLocaleString() || 0}</span>
-              </div>
+              </motion.div>
             </div>
             
-            <button 
+            <motion.button 
+              whileHover={{ scale: 1.05, y: -1 }}
+              whileTap={{ scale: 0.95 }}
               onClick={() => window.dispatchEvent(new CustomEvent('open-store'))}
-              className="w-12 h-12 rounded-2xl bg-[#310065] text-white flex items-center justify-center shadow-xl shadow-[#310065]/20 hover:scale-105 active:scale-95 transition-all group"
+              className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-[#310065] to-[#4a148c] text-white flex items-center justify-center shadow-lg shadow-[#310065]/20 group"
             >
-              <ShoppingBag size={20} strokeWidth={2.5} className="group-hover:rotate-12 transition-transform" />
-            </button>
+              <ShoppingBag size={20} strokeWidth={2.5} className="group-hover:rotate-12 transition-transform duration-300" />
+            </motion.button>
           </div>
         </div>
       </nav>
@@ -341,7 +363,7 @@ export default function HomeDashboard() {
                         {currentDate}
                       </span>
                     </div>
-                    <h3 className="text-white font-black text-lg sm:text-2xl drop-shadow-sm flex items-center gap-3 italic">
+                    <h3 className="text-white font-bold text-lg sm:text-2xl drop-shadow-sm flex items-center gap-3 italic">
                       {greeting}
                     </h3>
                   </motion.div>
@@ -351,7 +373,7 @@ export default function HomeDashboard() {
                       initial={{ y: 20, opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
                       transition={{ delay: 0.3 }}
-                      className="text-2xl sm:text-4xl md:text-5xl font-black leading-[1] drop-shadow-xl tracking-tighter"
+                      className="text-2xl sm:text-4xl md:text-5xl font-serif font-black leading-[1.1] drop-shadow-xl tracking-tight italic"
                     >
                       {slides[currentSlide].title}
                     </motion.h2>
@@ -360,7 +382,7 @@ export default function HomeDashboard() {
                       initial={{ y: 20, opacity: 0 }}
                       animate={{ y: 0, opacity: 1 }}
                       transition={{ delay: 0.4 }}
-                      className="text-white/80 text-sm font-bold max-w-[80%] leading-relaxed border-l-2 border-white/20 pl-4"
+                      className="text-white/85 text-sm font-semibold max-w-[80%] leading-relaxed border-l-2 border-white/20 pl-4"
                     >
                       {slides[currentSlide].subtitle}
                     </motion.p>
@@ -388,7 +410,19 @@ export default function HomeDashboard() {
 
         {/* 2. VERSE OF THE DAY - Clean Card */}
         <section className="px-3 sm:px-5">
-          <div className="bg-white rounded-[2rem] sm:rounded-[3rem] shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-black/[0.03] p-6 sm:p-10 space-y-6 sm:space-y-8 relative overflow-hidden group">
+          <motion.div 
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.99 }}
+            onClick={() => setShowExplanation(true)}
+            className="bg-surface-container-lowest rounded-[2rem] sm:rounded-[3rem] shadow-[0_20px_50px_rgba(0,0,0,0.04)] p-6 sm:p-10 space-y-6 sm:space-y-8 relative overflow-hidden group cursor-pointer border border-amber-400/10"
+          >
+            {/* Pulsing gold border decoration */}
+            <motion.div 
+              animate={{ opacity: [0.3, 0.7, 0.3] }}
+              transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
+              className="absolute inset-0 border border-amber-400/30 rounded-[2rem] sm:rounded-[3rem] pointer-events-none z-20"
+            />
+            
             {/* Ambient Background Glow */}
             <div className="absolute -top-24 -right-24 w-80 h-80 bg-[#310065]/[0.03] rounded-full blur-[100px] group-hover:scale-110 transition-transform duration-[3000ms]" />
             <div className="absolute -bottom-24 -left-24 w-80 h-80 bg-amber-400/[0.02] rounded-full blur-[100px] group-hover:scale-110 transition-transform duration-[3000ms]" />
@@ -404,13 +438,13 @@ export default function HomeDashboard() {
                     {t.dashboard.verseOfDay}
                   </span>
                 </div>
-                <div className="w-12 h-12 rounded-2xl bg-[#f2f2f7] flex items-center justify-center text-[#310065] shadow-inner group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-2xl bg-surface-container-low flex items-center justify-center text-[#310065] shadow-inner group-hover:scale-110 transition-transform duration-300">
                   <BookOpen size={22} />
                 </div>
               </div>
 
               <div className="space-y-6">
-                <h3 className="text-xl sm:text-3xl font-black text-[#310065] leading-[1.1] italic tracking-tight font-serif drop-shadow-sm">
+                <h3 className="text-xl sm:text-3xl font-black text-[#310065] leading-[1.2] italic tracking-tight font-serif drop-shadow-sm">
                   &quot;{currentVerse.text}&quot;
                 </h3>
                 <div className="flex items-center gap-4">
@@ -419,28 +453,31 @@ export default function HomeDashboard() {
                 </div>
               </div>
 
-              <button 
-                onClick={() => setShowExplanation(true)}
-                className="mt-6 sm:mt-12 w-full py-4 sm:py-6 px-6 sm:px-8 bg-[#310065] text-white rounded-[2rem] sm:rounded-[2.5rem] flex items-center justify-center gap-3 sm:gap-4 font-black text-[13px] uppercase tracking-widest shadow-[0_25px_50px_-15px_rgba(49,0,101,0.4)] hover:shadow-[0_30px_60px_-12px_rgba(49,0,101,0.5)] active:scale-[0.98] transition-all group/btn"
+              <motion.button 
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setShowExplanation(true);
+                }}
+                className="mt-6 sm:mt-10 w-full py-4 sm:py-5 px-6 sm:px-8 bg-gradient-to-r from-[#310065] to-[#4a148c] text-white rounded-[2rem] sm:rounded-[2.5rem] flex items-center justify-center gap-3 font-black text-[12px] uppercase tracking-widest shadow-lg shadow-[#310065]/20 group/btn"
               >
-                <div className="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center group-hover/btn:rotate-12 transition-transform">
+                <div className="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center group-hover/btn:rotate-12 transition-transform duration-300">
                   <Info size={18} strokeWidth={2.5} />
                 </div>
                 <span>{t.dashboard.understandWord}</span>
-              </button>
+              </motion.button>
             </div>
-          </div>
+          </motion.div>
         </section>
-
-
 
         {/* 4. WEEKLY SUMMARY & ACTIVITY - Unified Toggle Section */}
         <section className="px-3 sm:px-5">
-          <div className="bg-white rounded-[2rem] sm:rounded-[2.5rem] p-5 sm:p-8 shadow-[0_10px_30px_rgba(0,0,0,0.03)] border border-black/5 space-y-6 sm:space-y-8 relative overflow-hidden">
+          <div className="bg-surface-container-lowest rounded-[2rem] sm:rounded-[2.5rem] p-5 sm:p-8 shadow-[0_10px_30px_rgba(0,0,0,0.03)] border border-black/5 space-y-6 sm:space-y-8 relative overflow-hidden">
             {/* TAB SWITCHER - Premium segmented control */}
-            <div className="flex p-1.5 bg-[#f2f2f7] rounded-[1.8rem] border border-black/[0.03] shadow-inner relative">
+            <div className="flex p-1.5 bg-surface-container-low rounded-[1.8rem] relative">
               <motion.div 
-                className="absolute top-1.5 bottom-1.5 left-1.5 bg-white rounded-[1.4rem] shadow-sm z-0"
+                className="absolute top-1.5 bottom-1.5 left-1.5 bg-surface-container-lowest rounded-[1.4rem] shadow-sm z-0"
                 initial={false}
                 animate={{ 
                   left: activeSummaryTab === 'me' ? '6px' : '50%',
@@ -448,7 +485,7 @@ export default function HomeDashboard() {
                 }}
                 transition={{ type: "spring", stiffness: 400, damping: 35 }}
               />
-                <button 
+              <button 
                 onClick={() => setActiveSummaryTab('me')}
                 className={`relative z-10 flex-1 py-3.5 text-[11px] font-black uppercase tracking-[0.1em] transition-colors duration-300 ${
                   activeSummaryTab === 'me' ? 'text-[#310065]' : 'text-gray-400'
@@ -480,7 +517,7 @@ export default function HomeDashboard() {
                         <h3 className="text-[10px] font-black text-[#310065]/40 uppercase tracking-[0.25em]">{t.dashboard.weeklySummary}</h3>
                         <div className="flex -space-x-1">
                           {[1, 2, 3].map(i => (
-                            <div key={i} className="w-6 h-6 rounded-full border-2 border-white bg-[#f2f2f7] flex items-center justify-center text-[8px] font-bold text-[#310065]/20">
+                            <div key={i} className="w-6 h-6 rounded-full border-2 border-white bg-surface-container-low flex items-center justify-center text-[8px] font-bold text-[#310065]/20">
                               {i}
                             </div>
                           ))}
@@ -488,17 +525,17 @@ export default function HomeDashboard() {
                       </div>
                     
                     <div className="grid grid-cols-3 gap-3">
-                      <div className="bg-[#f2f2f7] p-5 rounded-[2rem] border border-black/[0.02] text-center space-y-1 shadow-sm">
+                      <div className="bg-surface-container-low p-5 rounded-[2rem] text-center space-y-1 shadow-inner">
                         <p className="text-[8px] font-black text-gray-400 uppercase tracking-tighter">{t.dashboard.matches}</p>
                         <p className="text-2xl font-black text-[#310065] tabular-nums">{weeklyStats.total}</p>
                       </div>
-                      <div className="bg-green-50 p-5 rounded-[2rem] border border-green-100/50 text-center space-y-1 shadow-sm">
-                        <p className="text-[8px] font-black text-green-400 uppercase tracking-tighter">{t.dashboard.wins}</p>
-                        <p className="text-2xl font-black text-green-600 tabular-nums">{weeklyStats.wins}</p>
+                      <div className="bg-gradient-to-br from-emerald-500/10 to-emerald-500/[0.02] border border-emerald-500/10 p-5 rounded-[2rem] text-center space-y-1 shadow-sm">
+                        <p className="text-[8px] font-black text-emerald-600/70 uppercase tracking-tighter">{t.dashboard.wins}</p>
+                        <p className="text-2xl font-black text-emerald-600 tabular-nums">{weeklyStats.wins}</p>
                       </div>
-                      <div className="bg-red-50 p-5 rounded-[2rem] border border-red-100/50 text-center space-y-1 shadow-sm">
-                        <p className="text-[8px] font-black text-red-400 uppercase tracking-tighter">{t.dashboard.lossesLabel}</p>
-                        <p className="text-2xl font-black text-red-600 tabular-nums">{weeklyStats.losses}</p>
+                      <div className="bg-gradient-to-br from-rose-500/10 to-rose-500/[0.02] border border-rose-500/10 p-5 rounded-[2rem] text-center space-y-1 shadow-sm">
+                        <p className="text-[8px] font-black text-rose-600/70 uppercase tracking-tighter">{t.dashboard.lossesLabel}</p>
+                        <p className="text-2xl font-black text-rose-600 tabular-nums">{weeklyStats.losses}</p>
                       </div>
                     </div>
 
@@ -509,7 +546,7 @@ export default function HomeDashboard() {
                           <ActivityCard key={duel.id} duel={duel} currentUserId={user?.uid || ''} />
                         ))
                       ) : (
-                        <div className="py-12 text-center bg-[#f8f9fa]/50 rounded-[2.5rem] border border-dashed border-gray-200">
+                        <div className="py-12 text-center bg-surface-container-low/50 rounded-[2.5rem] border border-dashed border-gray-200">
                           <Trophy size={32} className="text-gray-200 mx-auto mb-3" />
                           <p className="text-gray-400 text-[10px] font-black uppercase tracking-widest">{t.dashboard.noDuels}</p>
                         </div>
@@ -535,17 +572,17 @@ export default function HomeDashboard() {
                     </div>
                     
                     <div className="grid grid-cols-3 gap-3">
-                      <div className="bg-purple-50/50 p-5 rounded-3xl border border-purple-100/30 text-center space-y-1 shadow-sm">
-                        <p className="text-[8px] font-black text-purple-400 uppercase tracking-tighter">{t.dashboard.matches}</p>
+                      <div className="bg-surface-container-low p-5 rounded-3xl text-center space-y-1 shadow-inner">
+                        <p className="text-[8px] font-black text-gray-400 uppercase tracking-tighter">{t.dashboard.matches}</p>
                         <p className="text-2xl font-black text-purple-600">{friendsWeeklyStats.total}</p>
                       </div>
-                      <div className="bg-green-50/50 p-5 rounded-3xl border border-green-100/30 text-center space-y-1 shadow-sm">
-                        <p className="text-[8px] font-black text-green-400 uppercase tracking-tighter">{t.dashboard.wins}</p>
-                        <p className="text-2xl font-black text-green-600">{friendsWeeklyStats.wins}</p>
+                      <div className="bg-gradient-to-br from-emerald-500/10 to-emerald-500/[0.02] border border-emerald-500/10 p-5 rounded-3xl text-center space-y-1 shadow-sm">
+                        <p className="text-[8px] font-black text-emerald-600/70 uppercase tracking-tighter">{t.dashboard.wins}</p>
+                        <p className="text-2xl font-black text-emerald-600">{friendsWeeklyStats.wins}</p>
                       </div>
-                      <div className="bg-red-50/50 p-5 rounded-3xl border border-red-100/30 text-center space-y-1 shadow-sm">
-                        <p className="text-[8px] font-black text-red-400 uppercase tracking-tighter">{t.dashboard.lossesLabel}</p>
-                        <p className="text-2xl font-black text-red-600">{friendsWeeklyStats.losses}</p>
+                      <div className="bg-gradient-to-br from-rose-500/10 to-rose-500/[0.02] border border-rose-500/10 p-5 rounded-3xl text-center space-y-1 shadow-sm">
+                        <p className="text-[8px] font-black text-rose-600/70 uppercase tracking-tighter">{t.dashboard.lossesLabel}</p>
+                        <p className="text-2xl font-black text-rose-600">{friendsWeeklyStats.losses}</p>
                       </div>
                     </div>
 
@@ -564,7 +601,7 @@ export default function HomeDashboard() {
                           );
                         })
                       ) : (
-                        <div className="py-12 text-center bg-[#f8f9fa]/50 rounded-[2.5rem] border border-dashed border-gray-200">
+                        <div className="py-12 text-center bg-surface-container-low/50 rounded-[2.5rem] border border-dashed border-gray-200">
                           <User size={32} className="text-gray-200 mx-auto mb-3" />
                           <p className="text-gray-400 text-[10px] font-black uppercase tracking-widest mb-6">{t.dashboard.noFriendActivity}</p>
                           <Link href="/social" className="bg-[#310065] text-white px-8 py-3 rounded-2xl text-[9px] font-black uppercase tracking-widest shadow-lg shadow-[#310065]/20 active:scale-95 transition-all">

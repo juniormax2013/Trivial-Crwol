@@ -14,8 +14,11 @@ service cloud.firestore {
       return isSignedIn() &&
         (
           request.auth.token.admin == true ||
-          request.auth.token.role in ['super_admin', 'editor', 'reviewer', 'moderator', 'support'] ||
-          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role in ['super_admin', 'editor', 'reviewer', 'moderator', 'support']
+          request.auth.token.get('role', '') in ['super_admin', 'editor', 'reviewer', 'moderator', 'support'] ||
+          (
+            exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') in ['super_admin', 'editor', 'reviewer', 'moderator', 'support']
+          )
         );
     }
 
@@ -23,8 +26,11 @@ service cloud.firestore {
       return isSignedIn() &&
         (
           request.auth.token.admin == true ||
-          request.auth.token.role == 'super_admin' ||
-          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'super_admin'
+          request.auth.token.get('role', '') == 'super_admin' ||
+          (
+            exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+            get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', '') == 'super_admin'
+          )
         );
     }
 
@@ -71,6 +77,25 @@ service cloud.firestore {
       match /daily_challenge_history/{historyId} {
         allow read: if isOwner(uid) || isAdmin();
         allow create: if isOwner(uid) || isAdmin();
+      }
+
+      // =========================
+      // 📖 CAMINO DE LA BIBLIA (BIBLE JOURNEY)
+      // =========================
+      match /bible_progress/{lessonId} {
+        allow read, write: if isOwner(uid) || isAdmin();
+      }
+
+      match /bible_hearts/{docId} {
+        allow read, write: if isOwner(uid) || isAdmin();
+      }
+
+      match /bible_reviews/{questionId} {
+        allow read, write: if isOwner(uid) || isAdmin();
+      }
+
+      match /bible_achievements/{achievementId} {
+        allow read, write: if isOwner(uid) || isAdmin();
       }
     }
 

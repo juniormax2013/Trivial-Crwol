@@ -22,6 +22,7 @@ import {
   Clock
 } from 'lucide-react';
 import { useAuthContext } from '@/components/auth/AuthProvider';
+import UserAvatar from '@/components/UserAvatar';
 import { AppUserModel } from '@/lib/user/models';
 import { getUser } from '@/lib/user/repository';
 import { 
@@ -159,7 +160,7 @@ export default function PublicProfile({ params }: { params: Promise<{ uid: strin
         <button onClick={() => router.back()} className="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-sm border border-[#310065]/5">
           <ArrowLeft className="text-[#310065] w-5 h-5 cursor-pointer" />
         </button>
-        <h1 className="flex-1 text-center font-serif font-bold text-lg text-[#310065] mr-10">Perfil de {profile.username}</h1>
+        <h1 className="flex-1 text-center font-serif font-bold text-lg text-[#310065] mr-10">Perfil de {profile.fullName || profile.username}</h1>
       </header>
 
       <main className="pt-20 px-4 max-w-2xl mx-auto space-y-6">
@@ -167,27 +168,16 @@ export default function PublicProfile({ params }: { params: Promise<{ uid: strin
         {/* Profile Header Section */}
         <section className="flex flex-col items-center text-center space-y-4 py-6">
           <div className="relative">
-            <div className={`w-32 h-32 rounded-full p-1 bg-gradient-to-tr ${profile.isOnline ? 'from-green-500 to-emerald-400' : 'from-[#735c00] to-[#4a148c]'}`}>
-              <div className="w-full h-full rounded-full bg-[#e3e2e6] overflow-hidden border-4 border-[#faf9fc] relative">
-                {profile.photoURL ? (
-                  <Image 
-                    src={profile.photoURL}
-                    alt="Profile avatar"
-                    width={120} height={120}
-                    className="w-full h-full object-cover"
-                    priority
-                  />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center bg-[#310065]/5">
-                    <UserCircle className="w-20 h-20 text-[#310065]/20" />
-                  </div>
-                )}
-              </div>
-            </div>
+            <UserAvatar
+              photoURL={profile.photoURL}
+              activeFrame={profile.activeFrame}
+              username={profile.fullName || profile.username}
+              size={128}
+            />
             {profile.isOnline && (
-              <div className="absolute top-2 right-2 w-4 h-4 rounded-full bg-green-500 border-2 border-white shadow-sm" />
+              <div className="absolute top-2 right-2 w-4 h-4 rounded-full bg-green-500 border-2 border-white shadow-sm z-20" />
             )}
-            <div className="absolute -bottom-2 -right-2 bg-[#735c00] text-white p-2.5 rounded-full shadow-lg flex items-center justify-center">
+            <div className="absolute -bottom-2 -right-2 bg-[#735c00] text-white p-2.5 rounded-full shadow-lg flex items-center justify-center z-20">
               <Medal className="w-[18px] h-[18px]" fill="currentColor" />
             </div>
           </div>

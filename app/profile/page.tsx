@@ -24,6 +24,7 @@ import {
   Lock
 } from 'lucide-react';
 import { useAuthContext } from '@/components/auth/AuthProvider';
+import UserAvatar from '@/components/UserAvatar';
 import { useT } from '@/lib/i18n/context';
 import BottomNav from '@/components/BottomNav';
 import { getActiveSeason, getUserProgress } from '@/lib/battle-pass/repository';
@@ -125,24 +126,13 @@ export default function Profile() {
         {/* Profile Header Section */}
         <section className="flex flex-col items-center text-center space-y-4 py-6">
           <div className="relative">
-            <div className="w-32 h-32 rounded-full p-1 bg-gradient-to-tr from-[#735c00] to-[#4a148c]">
-              <div className="w-full h-full rounded-full bg-[#e3e2e6] overflow-hidden border-4 border-[#faf9fc]">
-                {user.photoURL ? (
-                  <Image 
-                    src={user.photoURL}
-                    alt="Profile avatar"
-                    width={120} height={120}
-                    className="w-full h-full object-cover"
-                    priority
-                  />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center bg-[#310065]/5">
-                    <UserCircle className="w-20 h-20 text-[#310065]/20" />
-                  </div>
-                )}
-              </div>
-            </div>
-            <div className="absolute -bottom-2 -right-2 bg-[#735c00] text-white p-2.5 rounded-full shadow-lg flex items-center justify-center">
+            <UserAvatar
+              photoURL={user.photoURL}
+              activeFrame={user.activeFrame}
+              username={user.fullName || user.username}
+              size={128}
+            />
+            <div className="absolute -bottom-2 -right-2 bg-[#735c00] text-white p-2.5 rounded-full shadow-lg flex items-center justify-center z-20">
               <Medal className="w-[18px] h-[18px]" fill="currentColor" />
             </div>
           </div>

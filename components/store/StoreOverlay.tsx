@@ -425,6 +425,57 @@ export default function StoreOverlay() {
                                 </div>
                               </div>
                               <div className="grid grid-cols-2 gap-4">
+                                {type === 'frames' && (() => {
+                                  const isDefaultActive = !user.activeFrame || !['gold', 'fire', 'crown'].includes(user.activeFrame);
+                                  return (
+                                    <button 
+                                      onClick={async () => {
+                                        if (isProcessing) return;
+                                        try {
+                                          setIsProcessing(true);
+                                          await equipCosmetic(user.uid, 'frame', null);
+                                          toast.success(`Kadr Defo ekipe.`);
+                                        } catch (e: any) {
+                                          toast.error(e.message || 'Erè nan ekipe.');
+                                        } finally {
+                                          setIsProcessing(false);
+                                        }
+                                      }}
+                                      className={`relative border-2 rounded-[2rem] p-5 flex flex-col items-center gap-3 transition-all active:scale-95 group ${
+                                        isDefaultActive 
+                                          ? 'bg-[#310065] border-[#310065] shadow-xl shadow-[#310065]/20' 
+                                          : 'bg-white border-black/[0.03] hover:border-[#310065]/20 shadow-sm'
+                                      }`}
+                                    >
+                                      {isDefaultActive && (
+                                        <div className="absolute top-4 right-4 w-5 h-5 bg-green-500 rounded-full flex items-center justify-center text-white shadow-lg z-10 border-2 border-white scale-110">
+                                          <Check size={10} strokeWidth={4}/>
+                                        </div>
+                                      )}
+                                      <div className="relative w-20 h-20">
+                                        <div className="absolute inset-0 bg-white rounded-2xl shadow-inner border border-black/[0.03]" />
+                                        <div className="absolute inset-0 m-2 group-hover:scale-110 transition-transform duration-500 flex items-center justify-center p-1">
+                                           <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+                                             <defs>
+                                               <linearGradient id="storeDefaultFrameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                                 <stop offset="0%" stopColor="#e2e8f0" />
+                                                 <stop offset="100%" stopColor="#cbd5e1" />
+                                               </linearGradient>
+                                             </defs>
+                                             <rect x="4" y="4" width="92" height="92" rx="20" stroke="url(#storeDefaultFrameGrad)" strokeWidth="4.5" />
+                                             <rect x="7.5" y="7.5" width="85" height="85" rx="16.5" stroke="#ffffff" strokeOpacity="0.8" strokeWidth="1" />
+                                           </svg>
+                                        </div>
+                                      </div>
+                                      <div className="text-center">
+                                        <p className={`font-black text-xs leading-tight mb-1 ${isDefaultActive ? 'text-white' : 'text-[#1b1b1e]'}`}>Kadr Defo</p>
+                                        <span className={`text-[10px] font-black uppercase tracking-wider ${isDefaultActive ? 'text-white/60' : 'text-[#310065]'}`}>
+                                          {isDefaultActive ? 'Ekipe' : 'Mete li'}
+                                        </span>
+                                      </div>
+                                    </button>
+                                  );
+                                })()}
                                 {catItems.map(item => {
                                   const isOwned = type === 'frames' ? ownedFrames.includes(item.itemId) : ownedAvatars.includes(item.itemId);
                                   const isActive = type === 'frames' ? user.activeFrame === item.itemId : user.activeAvatar === item.itemId;

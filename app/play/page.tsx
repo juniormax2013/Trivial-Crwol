@@ -8,6 +8,7 @@ import * as motion from 'motion/react-client';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { consumePower } from '@/lib/store/repository';
 import PowerUpsBar from '@/components/game/PowerUpsBar';
+import FramePowerButton from '@/components/game/FramePowerButton';
 import { toast } from 'sonner';
 export default function Play() {
   const { user, loading: authLoading } = useAuthContext();
@@ -211,6 +212,10 @@ export default function Play() {
         </div>
 
         <div className="mt-auto px-4 pb-6">
+          <FramePowerButton 
+            onPowerUsed={handlePowerUsed}
+            isProcessing={isProcessingPower}
+          />
           <PowerUpsBar 
             onPowerUsed={handlePowerUsed}
             isProcessing={isProcessingPower}

@@ -15,6 +15,7 @@ import type {
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useT, useLanguage } from '@/lib/i18n/context';
 import PowerUpsBar from '@/components/game/PowerUpsBar';
+import FramePowerButton from '@/components/game/FramePowerButton';
 import { toast } from 'sonner';
 
 const QUESTION_TIME_LIMIT = 20; // seconds per question
@@ -476,14 +477,20 @@ export default function DailyChallengePlayPage() {
           </div>
         )}
 
-        <PowerUpsBar 
-          onPowerUsed={handlePowerUsed}
-          onReport={handleReport}
-          isProcessing={isProcessingPower}
-          setIsProcessing={setIsProcessingPower}
-          disabled={phase !== 'answering'}
-          activePowerUps={activePowerUps}
-        />
+        <div className="flex flex-col items-end gap-2">
+          <FramePowerButton 
+            onPowerUsed={handlePowerUsed} 
+            disabled={phase !== 'answering'} 
+          />
+          <PowerUpsBar 
+            onPowerUsed={handlePowerUsed}
+            onReport={handleReport}
+            isProcessing={isProcessingPower}
+            setIsProcessing={setIsProcessingPower}
+            disabled={phase !== 'answering'}
+            activePowerUps={activePowerUps}
+          />
+        </div>
       </main>
     </div>
   );

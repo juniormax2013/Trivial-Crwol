@@ -11,6 +11,7 @@ import { getQuestionsByIds } from '@/lib/duel/seed';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useT, useLanguage } from '@/lib/i18n/context';
 import PowerUpsBar from '@/components/game/PowerUpsBar';
+import FramePowerButton from '@/components/game/FramePowerButton';
 import { toast } from 'sonner';
 import { X } from 'lucide-react';
 
@@ -491,6 +492,11 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
 
         {phase === 'question' && (
           <div className="px-5 mt-auto pb-6 pb-safe">
+            <FramePowerButton
+              onPowerUsed={handlePowerUsed}
+              isProcessing={isProcessingPower}
+              disabled={phase !== 'question'}
+            />
             <PowerUpsBar 
               onPowerUsed={handlePowerUsed}
               onReport={() => {

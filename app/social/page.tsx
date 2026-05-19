@@ -26,6 +26,7 @@ import { useT } from '@/lib/i18n/context';
 import { AppUserModel } from '@/lib/user/models';
 import BottomNav from '@/components/BottomNav';
 import dynamic from 'next/dynamic';
+import UserAvatar from '@/components/UserAvatar';
 
 import { 
   getFriendsList, 
@@ -246,13 +247,14 @@ export default function Social() {
                  friends.length === 0 ? <p className="text-[#7c7483] text-sm text-center">{t.social.noFriends}</p> :
                  friends.map(f => (
                   <div key={f.uid} className="bg-white p-4 rounded-[1.25rem] flex items-center gap-4 shadow-[0_8px_32px_rgba(0,0,0,0.03)] border border-[#efedf1]/80">
-                    <Link href={`/profile/${f.uid}`} className="relative cursor-pointer hover:opacity-80 transition-opacity">
-                      <Image 
-                        src={f.photoURL || '/placeholder-avatar.png'}
-                        width={56} height={56} alt={`Avatar de ${f.username}`}
-                        className="w-14 h-14 rounded-full object-cover border-2 border-[#735c00]/20 bg-gray-200"
+                    <Link href={`/profile/${f.uid}`} className="relative cursor-pointer hover:opacity-80 transition-opacity block">
+                      <UserAvatar 
+                        photoURL={f.photoURL}
+                        activeFrame={f.activeFrame}
+                        username={f.fullName || f.username}
+                        size={56}
                       />
-                      {isUserOnline(f) && <div className="absolute bottom-0 right-0 w-[14px] h-[14px] bg-[#22c55e] border-2 border-white rounded-full"></div>}
+                      {isUserOnline(f) && <div className="absolute bottom-0 right-0 w-[14px] h-[14px] bg-[#22c55e] border-2 border-white rounded-full z-20"></div>}
                     </Link>
                     <div className="flex-1">
                       <h4 className="font-bold text-[#1b1b1e] text-[15px]">{f.fullName || f.username}</h4>
@@ -276,15 +278,16 @@ export default function Social() {
                searchResults.length === 0 ? <p className="text-[#7c7483] text-sm text-center">{t.social.noResults}</p> :
                searchResults.map(u => (
                 <div key={u.uid} className="bg-white p-4 rounded-[1.25rem] flex items-center gap-4 shadow-[0_8px_32px_rgba(0,0,0,0.03)] border border-[#efedf1]/80">
-                  <Link href={`/profile/${u.uid}`} className="cursor-pointer hover:opacity-80 transition-opacity">
-                    <Image 
-                      src={u.photoURL || '/placeholder-avatar.png'}
-                      width={56} height={56} alt={`${u.username}`}
-                      className="w-14 h-14 rounded-full object-cover bg-gray-200"
+                  <Link href={`/profile/${u.uid}`} className="cursor-pointer hover:opacity-80 transition-opacity block">
+                    <UserAvatar 
+                      photoURL={u.photoURL}
+                      activeFrame={u.activeFrame}
+                      username={u.fullName || u.username}
+                      size={56}
                     />
                   </Link>
                   <div className="flex-1">
-                    <h4 className="font-bold text-[#1b1b1e] text-[15px]">{u.username}</h4>
+                    <h4 className="font-bold text-[#1b1b1e] text-[15px]">{u.fullName || u.username}</h4>
                   </div>
                   <button onClick={() => handleSendRequest(u)} className="bg-[#310065]/10 text-[#310065] px-4 py-2 rounded-xl text-[10px] font-bold uppercase tracking-widest active:scale-95">
                     {t.social.add}
@@ -304,11 +307,11 @@ export default function Social() {
                requests.map(req => (
                 <div key={req.id} className="bg-white p-4 rounded-[1.25rem] flex flex-col gap-4 shadow-[0_8px_32px_rgba(0,0,0,0.03)] border border-[#efedf1]/80">
                   <div className="flex items-center gap-4">
-                    <Link href={`/profile/${req.senderId}`} className="cursor-pointer hover:opacity-80 transition-opacity">
-                      <Image 
-                        src={req.senderAvatar || '/placeholder-avatar.png'}
-                        width={48} height={48} alt="Avatar"
-                        className="w-12 h-12 rounded-full object-cover bg-gray-200"
+                    <Link href={`/profile/${req.senderId}`} className="cursor-pointer hover:opacity-80 transition-opacity block">
+                      <UserAvatar 
+                        photoURL={req.senderAvatar}
+                        username={req.senderName}
+                        size={48}
                       />
                     </Link>
                     <div className="flex-1">
@@ -343,11 +346,11 @@ export default function Social() {
                  
                  return (
                   <div key={d.id} className="bg-white p-4 flex gap-4 items-center rounded-[1.25rem] shadow-[0_8px_32px_rgba(0,0,0,0.03)] border border-[#efedf1]/80">
-                    <Link href={`/profile/${opponentId}`} className="cursor-pointer hover:opacity-80 transition-opacity">
-                      <Image 
-                        src={opponentAvatar || '/placeholder-avatar.png'}
-                        width={48} height={48} alt="Avatar"
-                        className="w-12 h-12 rounded-xl object-cover bg-gray-200"
+                    <Link href={`/profile/${opponentId}`} className="cursor-pointer hover:opacity-80 transition-opacity block">
+                      <UserAvatar 
+                        photoURL={opponentAvatar}
+                        username={opponentName}
+                        size={48}
                       />
                     </Link>
                     <div className="flex-1">

@@ -23,6 +23,7 @@ import { DuelQuestion } from '@/lib/duel/models';
 import { runTransaction, doc } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 import PowerUpsBar from '@/components/game/PowerUpsBar';
+import FramePowerButton from '@/components/game/FramePowerButton';
 import { toast } from 'sonner';
 
 const PERSEVERANCE_VERSES = [
@@ -734,33 +735,39 @@ export default function JweBibLaPlay() {
           </button>
         )}
 
-        <PowerUpsBar 
-          onPowerUsed={handlePowerUsed}
-          onSkip={async () => {
-            if (!user) {
-              toast.error("Ou dwe konekte pou w sote kesyon!");
-              return;
-            }
-            if (hearts <= 0) {
-              toast.error("Ou pa gen ase kè pou sote kesyon sa a!");
-              return;
-            }
-            const newHearts = hearts - 1;
-            setHearts(newHearts);
-            await consumeJweHeart(user.uid).catch(console.error);
-            toast.info("Ou sote kesyon an. -1 Kè");
-            nextQuestion();
-          }}
+        <div className="flex flex-col items-end gap-2">
+          <FramePowerButton 
+            onPowerUsed={handlePowerUsed} 
+            disabled={isAnswered || isGameOver} 
+          />
+          <PowerUpsBar 
+            onPowerUsed={handlePowerUsed}
+            onSkip={async () => {
+              if (!user) {
+                toast.error("Ou dwe konekte pou w sote kesyon!");
+                return;
+              }
+              if (hearts <= 0) {
+                toast.error("Ou pa gen ase kè pou sote kesyon sa a!");
+                return;
+              }
+              const newHearts = hearts - 1;
+              setHearts(newHearts);
+              await consumeJweHeart(user.uid).catch(console.error);
+              toast.info("Ou sote kesyon an. -1 Kè");
+              nextQuestion();
+            }}
 
-          onReport={() => {
-            toast.success("Mèsi! Nou resevwa rapò w la.");
-          }}
-          isProcessing={isProcessingPower}
-          setIsProcessing={setIsProcessingPower}
-          disabled={isAnswered || isGameOver}
-          activePowerUps={activePowerUps}
-          heartsCount={hearts}
-        />
+            onReport={() => {
+              toast.success("Mèsi! Nou resevwa rapò w la.");
+            }}
+            isProcessing={isProcessingPower}
+            setIsProcessing={setIsProcessingPower}
+            disabled={isAnswered || isGameOver}
+            activePowerUps={activePowerUps}
+            heartsCount={hearts}
+          />
+        </div>
       </main>
     </div>
   );
