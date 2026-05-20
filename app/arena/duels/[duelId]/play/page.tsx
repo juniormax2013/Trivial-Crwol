@@ -17,6 +17,7 @@ import { useDevilTrap } from '@/hooks/useDevilTrap';
 import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
 import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
 import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
+import { canUseFramePower } from '@/lib/game/frame-powers';
 
 type PhaseType = 'loading' | 'ready' | 'question' | 'feedback' | 'round_done' | 'error';
 
@@ -51,9 +52,12 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
     isDevilActive,
     revealedOptions,
     shuffledOptions,
+    devilState,
     triggerDevilTrap,
     revealOption,
-    resetDevilTrap
+    resetDevilTrap,
+    devilDefeat,
+    devilCelebrate,
   } = useDevilTrap();
 
   // Power-ups state
@@ -124,8 +128,8 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
       }
 
       // Lógica de Poderes Pasivos de Marcos
-      const isFire = user?.activeFrame === 'fire' || user?.activeFrame === 'fire_frame';
-      const isCrown = user?.activeFrame === 'crown' || user?.activeFrame === 'crow_frame';
+      const isFire  = canUseFramePower(user?.activeFrame, user?.level ?? 1) && (user?.activeFrame === 'fire'  || user?.activeFrame === 'fire_frame');
+      const isCrown = canUseFramePower(user?.activeFrame, user?.level ?? 1) && (user?.activeFrame === 'crown' || user?.activeFrame === 'crow_frame' || user?.activeFrame === 'crown_frame');
       
       if ((isFire || isCrown) && questionIndex < 5) {
         // 1. Ocultar 2 opciones incorrectas automáticamente
@@ -231,7 +235,7 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
     }
 
     let points = calculateAnswerPoints(correct, responseTimeMs, timeLimit);
-    const isGoldOrCrown = user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame';
+    const isGoldOrCrown = canUseFramePower(user?.activeFrame, user?.level ?? 1) && (user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame');
     if (isGoldOrCrown) {
       points *= 2;
     }
@@ -257,6 +261,12 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
       setCorrectCount((c) => c + 1);
       setTotalScore((s) => s + points);
     }
+    // Trigger devil reaction
+    if (isDevilActive) {
+      if (correct) devilDefeat();
+      else devilCelebrate();
+    }
+
     setPhase('feedback');
 
     setTimeout(() => advance([...answers, answer]), 1500);
@@ -582,7 +592,7 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
         )}
 
         <div className="h-8" />
-        <DevilTrapOverlay isActive={isDevilActive} />
+        <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} />
       </div>
     );
   }

@@ -14,7 +14,11 @@ export interface FramePowerDef {
   id: FramePowerId;
   name: string;
   description: string;
+  /** Short bullets shown in the store card */
+  powerBullets: string[];
   icon: string;
+  /** Minimum user level required to activate frame powers in-game */
+  minLevel: number;
   /** IDs of per-question effects applied passively each round */
   effects: string[];
   /** Whether this frame doubles coins & crowns at end of game */
@@ -22,49 +26,66 @@ export interface FramePowerDef {
 }
 
 export const FRAME_POWERS: Record<string, FramePowerDef> = {
-  // ── Fire Frame ──────────────────────────────────────────────────
-  // Per question: removes 2 wrong answers + grants a second chance
-  fire: {
-    id: 'fire',
-    name: 'Marco de Fuego',
-    description:
-      'Elimina 2 respuestas incorrectas por pregunta y otorga una segunda oportunidad si fallas.',
-    icon: '/assets/store/frames/fire-frame.png',
-    effects: ['removeTwo', 'secondChance'],
-    hasDoubleRewards: false,
-  },
-
-  // ── Gold Frame ──────────────────────────────────────────────────
-  // End-game: doubles all coins & crowns earned
+  // ── Gold Frame ── Nivel mínimo: 10
   gold: {
     id: 'gold',
     name: 'Marco Dorado',
     description: 'Duplica las monedas y coronas obtenidas al finalizar la partida.',
-    icon: '/assets/store/frames/gold-frame.png',
+    powerBullets: [
+      '💰 Duplica monedas al finalizar',
+      '👑 Duplica coronas al finalizar',
+    ],
+    icon: '/assets/store/frames/gold.png',
+    minLevel: 10,
     effects: [],
     hasDoubleRewards: true,
   },
 
-  // ── Crow Frame ─────────────────────────────────────────────────
-  // Combines Fire + Gold: per-question help AND end-game doubling
-  crow: {
-    id: 'crow',
-    name: 'Marco Crow',
-    description:
-      'Combina Fire y Gold: elimina 2 respuestas incorrectas, da segunda oportunidad y duplica recompensas al final.',
-    icon: '/assets/store/frames/crow-frame.png',
+  // ── Fire Frame ── Nivel mínimo: 15
+  fire: {
+    id: 'fire',
+    name: 'Marco de Fuego',
+    description: 'Elimina 2 respuestas incorrectas por pregunta y otorga una segunda oportunidad si fallas.',
+    powerBullets: [
+      '🔥 Elimina 2 respuestas incorrectas',
+      '🛡️ Segunda oportunidad si fallas',
+    ],
+    icon: '/assets/store/frames/fire.png',
+    minLevel: 15,
+    effects: ['removeTwo', 'secondChance'],
+    hasDoubleRewards: false,
+  },
+
+  // ── Crown Frame ── Nivel mínimo: 30
+  crown: {
+    id: 'crown',
+    name: 'Marco Corona',
+    description: 'Combina Fire y Gold: elimina 2 respuestas incorrectas, da segunda oportunidad y duplica recompensas al final.',
+    powerBullets: [
+      '🔥 Elimina 2 respuestas incorrectas',
+      '🛡️ Segunda oportunidad si fallas',
+      '💰 Duplica monedas y coronas al final',
+    ],
+    icon: '/assets/store/frames/crown.png',
+    minLevel: 30,
     effects: ['removeTwo', 'secondChance'],
     hasDoubleRewards: true,
   },
 
-  // ── Crown Frame (legacy / existing) ────────────────────────────
-  crown: {
-    id: 'crown',
-    name: 'Pouvwa Kouwòn',
-    description: 'Retire 2 repons epi ba ou yon 2yèm chans!',
-    icon: '/assets/store/frames/crown-frame.png',
+  // ── Crow Frame (alias legacy → crown) ──
+  crow: {
+    id: 'crow',
+    name: 'Marco Corona',
+    description: 'Combina Fire y Gold: elimina 2 respuestas incorrectas, da segunda oportunidad y duplica recompensas al final.',
+    powerBullets: [
+      '🔥 Elimina 2 respuestas incorrectas',
+      '🛡️ Segunda oportunidad si fallas',
+      '💰 Duplica monedas y coronas al final',
+    ],
+    icon: '/assets/store/frames/crown.png',
+    minLevel: 30,
     effects: ['removeTwo', 'secondChance'],
-    hasDoubleRewards: false,
+    hasDoubleRewards: true,
   },
 };
 
@@ -75,12 +96,30 @@ export const getFramePower = (
   frameId: string | null | undefined
 ): FramePowerDef | null => {
   if (!frameId) return null;
-  return FRAME_POWERS[frameId] ?? null;
+  const aliases: Record<string, string> = {
+    gold_frame:  'gold',
+    fire_frame:  'fire',
+    crown_frame: 'crown',
+    crow_frame:  'crown',
+  };
+  const normalized = aliases[frameId] ?? frameId;
+  return FRAME_POWERS[normalized] ?? null;
+};
+
+/**
+ * Returns true if the user's level meets the frame's minLevel requirement.
+ */
+export const canUseFramePower = (
+  frameId: string | null | undefined,
+  userLevel: number
+): boolean => {
+  const power = getFramePower(frameId);
+  if (!power) return false;
+  return userLevel >= power.minLevel;
 };
 
 /**
  * Returns the list of per-question effect IDs for a given frame.
- * These are applied automatically at the start of each question.
  */
 export const getFrameInGameEffects = (
   frameId: string | null | undefined
@@ -89,8 +128,7 @@ export const getFrameInGameEffects = (
 };
 
 /**
- * Returns true if the equipped frame doubles coins & crowns at
- * the end of the game session.
+ * Returns true if the equipped frame doubles coins & crowns at end of game.
  */
 export const frameHasDoubleRewards = (
   frameId: string | null | undefined

@@ -328,5 +328,23 @@ service cloud.firestore {
       allow write: if isAdmin();
     }
 
+    // =========================
+    // 🤖 BIBLE AI ASSISTANT
+    // =========================
+
+    // AI conversations — solo el dueño puede leer/escribir
+    match /ai_conversations/{userId}/sessions/{sessionId} {
+      allow read, write: if isOwner(userId);
+
+      match /messages/{messageId} {
+        allow read, write: if isOwner(userId);
+      }
+    }
+
+    // AI daily usage — solo el dueño puede leer/incrementar
+    match /ai_usage/{userId}/daily/{dateId} {
+      allow read, write: if isOwner(userId);
+    }
+
   }
 }

@@ -55,9 +55,12 @@ export default function BibleLessonPlay() {
     isDevilActive,
     revealedOptions,
     shuffledOptions,
+    devilState,
     triggerDevilTrap,
     revealOption,
-    resetDevilTrap
+    resetDevilTrap,
+    devilDefeat,
+    devilCelebrate,
   } = useDevilTrap();
 
   const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
@@ -255,10 +258,12 @@ export default function BibleLessonPlay() {
       setCorrectCount(prev => prev + 1);
       if (currentQuestion.question_type === 'multiple_choice' && isDevilActive) {
         setDevilDefeatedCount(prev => prev + 1);
+        devilDefeat();
       }
       // Soft audio or haptic success indicator can trigger here
     } else {
       // Answer Incorrect: consume a heart and add question to spaced repetition database
+      if (isDevilActive) devilCelebrate();
       try {
         const updatedHearts = await consumeHeart(user!.uid);
         setHearts(updatedHearts.heartsRemaining);
@@ -746,7 +751,7 @@ export default function BibleLessonPlay() {
         </div>
       )}
 
-      <DevilTrapOverlay isActive={isDevilActive} />
+      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} />
     </div>
   );
 }

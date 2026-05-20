@@ -32,6 +32,7 @@ import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings
 import { useDevilTrap } from '@/hooks/useDevilTrap';
 import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
 import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
+import { canUseFramePower } from '@/lib/game/frame-powers';
 
 const PERSEVERANCE_VERSES = [
   { text: "Men, moun ki va kenbe fèm jouk sa kaba, se li ki va sove.", ref: "MATYE 24:13" },
@@ -97,9 +98,12 @@ export default function JweBibLaPlay() {
     isDevilActive,
     revealedOptions,
     shuffledOptions,
+    devilState,
     triggerDevilTrap,
     revealOption,
-    resetDevilTrap
+    resetDevilTrap,
+    devilDefeat,
+    devilCelebrate,
   } = useDevilTrap();
 
   const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
@@ -124,6 +128,9 @@ export default function JweBibLaPlay() {
 
     if (correct && isDevilActive) {
       setDevilDefeatedCount(prev => prev + 1);
+      devilDefeat();
+    } else if (!correct && isDevilActive) {
+      devilCelebrate();
     }
 
     if (!correct) {
@@ -182,7 +189,7 @@ export default function JweBibLaPlay() {
       setIsGameOver(true);
       setIsWin(true);
       if (user) {
-        const isGoldOrCrown = user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame';
+        const isGoldOrCrown = canUseFramePower(user?.activeFrame, user?.level ?? 1) && (user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame');
         if (isGoldOrCrown) {
           toast.success("Rekonpans Doub x2 👑");
         }
@@ -221,8 +228,8 @@ export default function JweBibLaPlay() {
       }
 
       if (user?.activeFrame) {
-        const isFire = user.activeFrame === 'fire' || user.activeFrame === 'fire_frame';
-        const isCrown = user.activeFrame === 'crown' || user.activeFrame === 'crow_frame';
+        const isFire  = canUseFramePower(user.activeFrame, user.level ?? 1) && (user.activeFrame === 'fire'  || user.activeFrame === 'fire_frame');
+        const isCrown = canUseFramePower(user.activeFrame, user.level ?? 1) && (user.activeFrame === 'crown' || user.activeFrame === 'crow_frame' || user.activeFrame === 'crown_frame');
         
         if ((isFire || isCrown) && currentIndex < 5) {
           if (q) {
@@ -927,7 +934,7 @@ export default function JweBibLaPlay() {
           />
         </div>
       </main>
-      <DevilTrapOverlay isActive={isDevilActive} />
+      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} />
     </div>
   );
 }

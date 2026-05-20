@@ -96,9 +96,12 @@ export default function ChallengePlayView({ question, onComplete, onClose }: Cha
     isDevilActive,
     revealedOptions,
     shuffledOptions,
+    devilState,
     triggerDevilTrap,
     revealOption,
-    resetDevilTrap
+    resetDevilTrap,
+    devilDefeat,
+    devilCelebrate,
   } = useDevilTrap();
 
   const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
@@ -156,6 +159,10 @@ export default function ChallengePlayView({ question, onComplete, onClose }: Cha
     if (timerRef.current) clearInterval(timerRef.current);
     setIsAnswerCorrect(correct);
     setPhase('feedback');
+    if (isDevilActive) {
+      if (correct) devilDefeat();
+      else devilCelebrate();
+    }
     if (correct) {
       fireSuccessConfetti();
     }
@@ -535,7 +542,7 @@ export default function ChallengePlayView({ question, onComplete, onClose }: Cha
           animation: shake 0.5s ease-in-out;
         }
       `}</style>
-      <DevilTrapOverlay isActive={isDevilActive} />
+      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} />
     </div>
   );
 }

@@ -17,6 +17,7 @@ import { useAuthContext } from '@/components/auth/AuthProvider';
 import { consumePower } from '@/lib/store/repository';
 import PowerUpsBar from '@/components/game/PowerUpsBar';
 import { toast } from 'sonner';
+import { canUseFramePower } from '@/lib/game/frame-powers';
 
 export default function Gameplay() {
   const { user } = useAuthContext();
@@ -67,7 +68,7 @@ export default function Gameplay() {
         toast.error("Movèz repons!");
       }
     } else {
-      const isGoldOrCrown = user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame';
+      const isGoldOrCrown = canUseFramePower(user?.activeFrame, user?.level ?? 1) && (user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame');
       toast.success(isGoldOrCrown ? "Bòn repons! (Rekonpans Doub x2 👑)" : "Bòn repons!");
     }
   };
@@ -81,8 +82,8 @@ export default function Gameplay() {
 
   useEffect(() => {
     if (user?.activeFrame) {
-      const isFire = user.activeFrame === 'fire' || user.activeFrame === 'fire_frame';
-      const isCrown = user.activeFrame === 'crown' || user.activeFrame === 'crow_frame';
+      const isFire  = canUseFramePower(user.activeFrame, user.level ?? 1) && (user.activeFrame === 'fire'  || user.activeFrame === 'fire_frame');
+      const isCrown = canUseFramePower(user.activeFrame, user.level ?? 1) && (user.activeFrame === 'crown' || user.activeFrame === 'crow_frame' || user.activeFrame === 'crown_frame');
       
       if (isFire || isCrown) {
         // Ocultar 2 opciones incorrectas automáticamente

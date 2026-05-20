@@ -23,6 +23,7 @@ import { toast } from 'sonner';
 import { useDevilTrap } from '@/hooks/useDevilTrap';
 import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
 import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
+import { canUseFramePower } from '@/lib/game/frame-powers';
 
 const QUESTION_TIME_LIMIT = 20; // seconds per question
 const FEEDBACK_DURATION_MS = 1600; // show correct/wrong for this long
@@ -84,9 +85,12 @@ export default function DailyChallengePlayPage() {
     isDevilActive,
     revealedOptions,
     shuffledOptions,
+    devilState,
     triggerDevilTrap,
     revealOption,
-    resetDevilTrap
+    resetDevilTrap,
+    devilDefeat,
+    devilCelebrate,
   } = useDevilTrap();
 
   // Timer refs to prevent stale closures
@@ -179,7 +183,8 @@ export default function DailyChallengePlayPage() {
       if (q) {
         if (user?.activeFrame) {
           const isFire = user.activeFrame === 'fire' || user.activeFrame === 'fire_frame';
-          const isCrown = user.activeFrame === 'crown' || user.activeFrame === 'crow_frame';
+          const isCrown = canUseFramePower(user.activeFrame, user.level ?? 1) && (user.activeFrame === 'crown' || user.activeFrame === 'crow_frame' || user.activeFrame === 'crown_frame');
+         const isFire  = canUseFramePower(user.activeFrame, user.level ?? 1) && (user.activeFrame === 'fire'  || user.activeFrame === 'fire_frame');
           
           // Remove 2 incorrect answers
           // Fire frame and Crown frame only do it for the first 5 questions.
@@ -191,7 +196,7 @@ export default function DailyChallengePlayPage() {
         
         // Second chance is ONLY for Crown frame, and only for the first 5 questions
         if (user?.activeFrame) {
-          const isCrown = user.activeFrame === 'crown' || user.activeFrame === 'crow_frame';
+          const isCrown = canUseFramePower(user.activeFrame, user.level ?? 1) && (user.activeFrame === 'crown' || user.activeFrame === 'crow_frame' || user.activeFrame === 'crown_frame');
           if (isCrown && qIndex < 5) {
             newHasSecondChance = true;
             newActivePowerUps.push('secondChance');
@@ -282,7 +287,7 @@ export default function DailyChallengePlayPage() {
       }
 
       let pointsEarned = calculateAnswerPoints(isCorrect, responseTimeMs, gameConfig);
-      const isGoldOrCrown = user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame';
+      const isGoldOrCrown = canUseFramePower(user?.activeFrame, user?.level ?? 1) && (user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame');
       if (isGoldOrCrown) {
          pointsEarned *= 2;
       }
@@ -303,6 +308,15 @@ export default function DailyChallengePlayPage() {
           fireChallengeSuccessConfetti();
         } else {
           setRcConfig(prev => prev ? { ...prev, status: 'lost' } : null);
+        }
+      }
+
+      // Trigger devil reaction based on answer
+      if (isDevilActive) {
+        if (isCorrect) {
+          devilDefeat();
+        } else {
+          devilCelebrate();
         }
       }
 
@@ -364,7 +378,7 @@ export default function DailyChallengePlayPage() {
       status: 'completed' as const,
     };
 
-    const isGoldOrCrown = user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame';
+    const isGoldOrCrown = canUseFramePower(user?.activeFrame, user?.level ?? 1) && (user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame');
     
     // Calculate Random Challenge Multiplier
     const challengeMultiplier = rcConfig?.status === 'won' ? 3 : rcConfig?.status === 'lost' ? 0.5 : 1;
@@ -653,7 +667,7 @@ export default function DailyChallengePlayPage() {
           />
         </div>
       </main>
-      <DevilTrapOverlay isActive={isDevilActive} />
+      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} />
     </div>
   );
 }

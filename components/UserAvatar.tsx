@@ -9,10 +9,35 @@ interface UserAvatarProps {
   photoURL?: string | null;
   activeFrame?: string | null;
   username?: string;
-  size?: number; // default: 48
+  size?: number;
   className?: string;
   animate?: boolean;
 }
+
+// Normaliza cualquier variante de ID al nombre del PNG
+function normalizeFrameId(activeFrame?: string | null): string | null {
+  if (!activeFrame) return null;
+  const aliases: Record<string, string> = {
+    gold_frame:  'gold',
+    fire_frame:  'fire',
+    crown_frame: 'crown',
+    crow_frame:  'crown',
+  };
+  return aliases[activeFrame] ?? activeFrame;
+}
+
+// Animaciones CSS especiales por frame
+const FRAME_ANIMATIONS: Record<string, string> = {
+  fire:    'animate-fire-pulse',
+  crown:   'animate-crown-glow',
+  legend:  'animate-pulse',
+  victory: '',
+  angel:   '',
+  sky:     '',
+  nature:  '',
+  glory:   'animate-pulse',
+  gold:    '',
+};
 
 export default function UserAvatar({
   photoURL,
@@ -20,40 +45,21 @@ export default function UserAvatar({
   username,
   size = 48,
   className = '',
-  animate = true
+  animate = true,
 }: UserAvatarProps) {
-  const isGoldFrame = activeFrame === 'gold';
-  const isFireFrame = activeFrame === 'fire';
-  const isCrownFrame = activeFrame === 'crown';
-  const isDefaultFrame = !isGoldFrame && !isFireFrame && !isCrownFrame;
+  const frameId = normalizeFrameId(activeFrame);
   const hasFrame = true;
-  
-  // Outer size styling
-  const sizeStyles = {
-    width: `${size}px`,
-    height: `${size}px`,
-  };
 
-  // If a frame is active, the profile image needs to be inset perfectly within the cutout (approx 76% of total size)
-  const imageSizeStyles = hasFrame
-    ? {
-        width: '76%',
-        height: '76%',
-      }
-    : {
-        width: '100%',
-        height: '100%',
-      };
+  const sizeStyles = { width: `${size}px`, height: `${size}px` };
+  const imageSizeStyles = { width: '76%', height: '76%' };
+  const avatarClass = 'rounded-[22%]';
 
-  const avatarClass = hasFrame ? 'rounded-[22%]' : 'rounded-full';
-
-  // Render the core profile image or the placeholder
   const renderAvatarContent = () => {
     if (photoURL) {
       return (
         <Image
           src={photoURL}
-          alt={username || "User avatar"}
+          alt={username || 'User avatar'}
           width={size}
           height={size}
           className={`object-cover w-full h-full transition-all duration-300 ${avatarClass}`}
@@ -61,42 +67,31 @@ export default function UserAvatar({
         />
       );
     }
-
-    // Elegant fallback showing the first letter or standard icon
     const fallbackLetter = username ? username.charAt(0).toUpperCase() : '';
-
     return (
-      <div 
-        className={`w-full h-full flex items-center justify-center bg-gradient-to-tr from-[#ede7f6] to-[#f3e5f5] text-[#310065] font-black transition-all duration-300 ${
-          hasFrame ? 'rounded-[22%] text-lg' : 'rounded-full text-base'
-        }`}
-        style={{ fontSize: hasFrame ? `${size * 0.35}px` : `${size * 0.4}px` }}
+      <div
+        className={`w-full h-full flex items-center justify-center bg-gradient-to-tr from-[#ede7f6] to-[#f3e5f5] text-[#310065] font-black ${avatarClass}`}
+        style={{ fontSize: `${size * 0.35}px` }}
       >
-        {fallbackLetter ? (
-          fallbackLetter
-        ) : (
+        {fallbackLetter || (
           <User style={{ width: '50%', height: '50%' }} className="text-[#310065]/40" />
         )}
       </div>
     );
   };
 
-  // Outer container motion wrapper
   const containerContent = (
-    <div 
-      className={`relative flex items-center justify-center ${className}`}
-      style={sizeStyles}
-    >
-      {/* Avatar Image container (inset if frame is active) */}
-      <div 
+    <div className={`relative flex items-center justify-center ${className}`} style={sizeStyles}>
+      {/* Foto/avatar */}
+      <div
         className="flex items-center justify-center overflow-hidden transition-all duration-300"
         style={imageSizeStyles}
       >
         {renderAvatarContent()}
       </div>
 
-      {/* Basic Default Frame ("Kadr Defo") SVG Overlay */}
-      {isDefaultFrame && (
+      {/* Frame por defecto (sin frame activo) */}
+      {!frameId && (
         <div className="absolute inset-0 w-full h-full pointer-events-none z-10 select-none">
           <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
             <defs>
@@ -111,49 +106,27 @@ export default function UserAvatar({
         </div>
       )}
 
-      {/* Premium Gold Frame Overlay */}
-      {isGoldFrame && (
-        <div className="absolute inset-0 w-full h-full pointer-events-none z-10 select-none">
+      {/* Frame dinámico — funciona para cualquier ID que exista en /assets/store/frames/ */}
+      {frameId && (
+        <div
+          className={`absolute inset-0 w-full h-full pointer-events-none z-10 select-none ${
+            FRAME_ANIMATIONS[frameId] ?? ''
+          }`}
+        >
           <Image
-            src="/assets/store/frames/gold.png"
-            alt="Gold frame"
+            src={`/assets/store/frames/${frameId}.png`}
+            alt={`${frameId} frame`}
             width={size}
             height={size}
-            className="w-full h-full object-contain filter drop-shadow-[0_4px_12px_rgba(203,167,47,0.45)]"
+            className="w-full h-full object-contain filter drop-shadow-[0_4px_12px_rgba(0,0,0,0.18)]"
             priority
           />
-          {/* Elegant shine effect */}
-          <div className="absolute inset-0 rounded-[14%] overflow-hidden opacity-90 pointer-events-none">
-            <div className="absolute top-0 -left-[100%] w-1/2 h-full bg-gradient-to-r from-transparent via-white/40 to-transparent skew-x-[-25deg] animate-[shine_3s_infinite_ease-in-out]" />
-          </div>
-        </div>
-      )}
-
-      {/* Premium Fire Frame Overlay */}
-      {isFireFrame && (
-        <div className="absolute inset-0 w-full h-full pointer-events-none z-10 select-none animate-fire-pulse">
-          <Image
-            src="/assets/store/frames/fire.png"
-            alt="Fire frame"
-            width={size}
-            height={size}
-            className="w-full h-full object-contain"
-            priority
-          />
-        </div>
-      )}
-
-      {/* Premium Crown Frame Overlay */}
-      {isCrownFrame && (
-        <div className="absolute inset-0 w-full h-full pointer-events-none z-10 select-none animate-crown-glow">
-          <Image
-            src="/assets/store/frames/crown.png"
-            alt="Crown frame"
-            width={size}
-            height={size}
-            className="w-full h-full object-contain"
-            priority
-          />
+          {/* Brillo animado solo para gold */}
+          {frameId === 'gold' && (
+            <div className="absolute inset-0 rounded-[14%] overflow-hidden opacity-90 pointer-events-none">
+              <div className="absolute top-0 -left-[100%] w-1/2 h-full bg-gradient-to-r from-transparent via-white/40 to-transparent skew-x-[-25deg] animate-[shine_3s_infinite_ease-in-out]" />
+            </div>
+          )}
         </div>
       )}
     </div>
@@ -174,4 +147,3 @@ export default function UserAvatar({
 
   return containerContent;
 }
-

@@ -19,8 +19,10 @@ import {
   Palette,
   Clock,
   LayoutGrid,
-  Settings2
+  Settings2,
+  Lock
 } from 'lucide-react';
+import { getFramePower, canUseFramePower } from '@/lib/game/frame-powers';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { buyResource, buyPower, buyCosmetic, equipCosmetic } from '@/lib/store/repository';
 import { getStoreItems, StoreItem } from '@/lib/store/admin-repository';
@@ -438,7 +440,7 @@ export default function StoreOverlay() {
                               </div>
                               <div className="grid grid-cols-2 sm:grid-cols-3 gap-5">
                                 {type === 'frames' && (() => {
-                                  const isDefaultActive = !user.activeFrame || !['gold', 'fire', 'crown'].includes(user.activeFrame);
+                                  const isDefaultActive = !user.activeFrame;
                                   return (
                                     <button 
 
@@ -492,25 +494,32 @@ export default function StoreOverlay() {
                                 {catItems.map(item => {
                                   const isOwned = type === 'frames' ? ownedFrames.includes(item.itemId) : ownedAvatars.includes(item.itemId);
                                   const isActive = type === 'frames' ? user.activeFrame === item.itemId : user.activeAvatar === item.itemId;
+                                  // Frame power lock
+                                  const framePowerDef = type === 'frames' ? getFramePower(item.itemId) : null;
+                                  const userLevel = user.level ?? 1;
+                                  const isPowerLocked = framePowerDef ? !canUseFramePower(item.itemId, userLevel) : false;
+                                  const levelsNeeded = framePowerDef ? Math.max(0, framePowerDef.minLevel - userLevel) : 0;
                                   return (
                                     <button 
                                       key={item.id}
                                       onClick={() => setItemDetailsModal({show: true, item})}
-                                      className={`relative border-2 rounded-2xl p-6 flex flex-col items-center gap-4 transition-all active:scale-[0.98] group ${
+                                      className={`relative border-2 rounded-2xl p-4 flex flex-col items-center gap-3 transition-all active:scale-[0.98] group ${
                                         isActive 
                                           ? 'bg-[#310065]/5 border-[#310065] shadow-sm' 
                                           : 'bg-white border-black/5 hover:border-[#310065]/20 shadow-sm hover:shadow-md'
                                       }`}
                                     >
+                                      {/* Active check */}
                                       {isActive && (
-                                        <div className="absolute top-4 right-4 w-5 h-5 bg-green-500 rounded-full flex items-center justify-center text-white shadow-lg z-10 border-2 border-white scale-110">
+                                        <div className="absolute top-3 right-3 w-5 h-5 bg-green-500 rounded-full flex items-center justify-center text-white shadow-lg z-10 border-2 border-white">
                                           <Check size={10} strokeWidth={4}/>
                                         </div>
                                       )}
-                                      <div className="relative w-20 h-20">
+                                      {/* Frame image */}
+                                      <div className="relative w-16 h-16">
                                         <div className="absolute inset-0 bg-white rounded-2xl shadow-inner border border-black/[0.03]" />
                                         <div 
-                                          className="absolute inset-0 m-2 group-hover:scale-110 transition-transform duration-500"
+                                          className="absolute inset-0 m-1.5 group-hover:scale-110 transition-transform duration-500"
                                           style={{
                                             backgroundImage: `url(${item.icon})`,
                                             backgroundSize: 'contain',
@@ -519,15 +528,41 @@ export default function StoreOverlay() {
                                           }}
                                         />
                                       </div>
-                                      <div className="text-center mt-2">
-                                        <p className={`font-black text-sm leading-tight mb-1 ${isActive ? 'text-[#310065]' : 'text-[#1b1b1e]'}`}>{item.name}</p>
-                                        <p className="text-gray-400 text-[10px] mb-3 leading-snug font-medium line-clamp-2 px-1">{getItemDescription(item)}</p>
+                                      {/* Name */}
+                                      <p className={`font-black text-sm leading-tight text-center ${isActive ? 'text-[#310065]' : 'text-[#1b1b1e]'}`}>{item.name}</p>
+                                      {/* Power bullets (only for power frames) */}
+                                      {framePowerDef && framePowerDef.powerBullets.length > 0 && (
+                                        <div className="w-full bg-[#f5f3f7] rounded-xl p-2.5 space-y-1">
+                                          {framePowerDef.powerBullets.map((bullet, i) => (
+                                            <p key={i} className="text-[10px] font-bold text-[#1b1b1e]/80 leading-snug">{bullet}</p>
+                                          ))}
+                                        </div>
+                                      )}
+                                      {/* Lock badge if level requirement not met */}
+                                      {framePowerDef && isPowerLocked && (
+                                        <div className="w-full flex items-center gap-1.5 bg-amber-50 border border-amber-200 rounded-xl px-2.5 py-1.5">
+                                          <Lock size={11} className="text-amber-600 shrink-0" />
+                                          <p className="text-[10px] font-black text-amber-700 leading-tight">
+                                            Poderes bloqueados · Nivel {framePowerDef.minLevel} (+{levelsNeeded} niveles)
+                                          </p>
+                                        </div>
+                                      )}
+                                      {framePowerDef && !isPowerLocked && (
+                                        <div className="w-full flex items-center gap-1.5 bg-green-50 border border-green-200 rounded-xl px-2.5 py-1.5">
+                                          <Check size={11} className="text-green-600 shrink-0" />
+                                          <p className="text-[10px] font-black text-green-700 leading-tight">
+                                            Poderes activos · Nivel {userLevel}
+                                          </p>
+                                        </div>
+                                      )}
+                                      {/* Buy / equip footer */}
+                                      <div className="w-full">
                                         {isOwned ? (
                                           <span className={`text-[10px] font-bold uppercase tracking-wider ${isActive ? 'text-[#310065]/60' : 'text-gray-400'}`}>
                                             {isActive ? 'Ekipe' : 'Mete li'}
                                           </span>
                                         ) : (
-                                          <div className="flex items-center justify-center gap-3 bg-gray-50 px-4 py-1.5 rounded-2xl border border-black/5 mt-2">
+                                          <div className="flex items-center justify-center gap-3 bg-gray-50 px-4 py-1.5 rounded-2xl border border-black/5">
                                             <div className="flex items-center gap-1.5">
                                               <div className="w-3.5 h-3.5 relative"><Image src={assets.coin} alt="Coin" fill className="object-contain" /></div>
                                               <span className="text-[#cba72f] font-black text-xs">{item.cost.toLocaleString()}</span>
@@ -732,11 +767,16 @@ export default function StoreOverlay() {
       {/* Item Details Modal */}
       <AnimatePresence>
         {itemDetailsModal.show && itemDetailsModal.item && (() => {
-          const item = itemDetailsModal.item;
+          const item = itemDetailsModal.item!;
           const isCosmetic = item.type === 'frames' || item.type === 'avatars';
           const isPower = item.type === 'powers';
           const isOwned = isCosmetic ? (item.type === 'frames' ? ownedFrames.includes(item.itemId) : ownedAvatars.includes(item.itemId)) : false;
           const isActive = isCosmetic ? (item.type === 'frames' ? user.activeFrame === item.itemId : user.activeAvatar === item.itemId) : false;
+          // Frame power data
+          const framePowerDef = item.type === 'frames' ? getFramePower(item.itemId) : null;
+          const userLevel = user.level ?? 1;
+          const isPowerLocked = framePowerDef ? !canUseFramePower(item.itemId, userLevel) : false;
+          const levelsNeeded = framePowerDef ? Math.max(0, framePowerDef.minLevel - userLevel) : 0;
 
           return (
           <motion.div
@@ -752,12 +792,13 @@ export default function StoreOverlay() {
               exit={{ scale: 0.95, opacity: 0, y: 50 }}
               transition={{ type: 'spring', damping: 25, stiffness: 300 }}
               onClick={e => e.stopPropagation()}
-              className="bg-white rounded-2xl p-8 w-full max-w-sm relative shadow-xl overflow-hidden"
+              className="bg-white rounded-3xl p-6 w-full max-w-sm relative shadow-2xl overflow-hidden"
             >
-               {/* Modal content */}
+               {/* Glow bg */}
                <div className="absolute -top-20 -left-20 w-40 h-40 bg-[#310065]/[0.02] rounded-full blur-3xl animate-pulse" />
-               <div className="relative z-10 flex flex-col items-center">
-                 <div className="w-24 h-24 relative mb-6">
+               <div className="relative z-10 flex flex-col items-center gap-4">
+                 {/* Frame image */}
+                 <div className="w-24 h-24 relative">
                    <div className="absolute inset-0 bg-[#310065]/5 rounded-3xl rotate-6" />
                    <div className="absolute inset-0 bg-white rounded-3xl shadow-xl border border-black/[0.05]" />
                    <div 
@@ -770,8 +811,55 @@ export default function StoreOverlay() {
                      }}
                    />
                  </div>
-                 <h2 className="text-center text-2xl font-black text-[#1b1b1e] tracking-tight mb-2">{item.name}</h2>
-                 <p className="text-center text-gray-500 font-medium mb-8 text-sm px-4">{getItemDescription(item)}</p>
+
+                 {/* Title */}
+                 <h2 className="text-center text-2xl font-black text-[#1b1b1e] tracking-tight">{item.name}</h2>
+
+                 {/* Description */}
+                 <p className="text-center text-gray-500 font-medium text-sm px-2 leading-relaxed">
+                   {framePowerDef ? framePowerDef.description : getItemDescription(item)}
+                 </p>
+
+                 {/* Power bullets — only for frames with powers */}
+                 {framePowerDef && framePowerDef.powerBullets.length > 0 && (
+                   <div className="w-full bg-[#f5f3f7] rounded-2xl p-4 space-y-2">
+                     <p className="text-[10px] font-black uppercase tracking-widest text-[#310065] mb-3">Poderes del frame</p>
+                     {framePowerDef.powerBullets.map((bullet, i) => (
+                       <div key={i} className="flex items-center gap-2">
+                         <span className="text-[13px]">{bullet.split(' ')[0]}</span>
+                         <p className="text-[12px] font-bold text-[#1b1b1e]/80 leading-snug">{bullet.slice(bullet.indexOf(' ') + 1)}</p>
+                       </div>
+                     ))}
+                   </div>
+                 )}
+
+                 {/* Level lock / unlock badge */}
+                 {framePowerDef && isPowerLocked && (
+                   <div className="w-full flex items-center gap-3 bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3">
+                     <div className="w-9 h-9 bg-amber-100 rounded-xl flex items-center justify-center shrink-0">
+                       <Lock size={16} className="text-amber-600" />
+                     </div>
+                     <div>
+                       <p className="text-[11px] font-black text-amber-700 leading-tight">Poderes bloqueados</p>
+                       <p className="text-[10px] font-medium text-amber-600 mt-0.5">
+                         Necesitas nivel <span className="font-black">{framePowerDef.minLevel}</span> · Te faltan <span className="font-black">{levelsNeeded}</span> niveles (estás en nivel {userLevel})
+                       </p>
+                     </div>
+                   </div>
+                 )}
+                 {framePowerDef && !isPowerLocked && (
+                   <div className="w-full flex items-center gap-3 bg-green-50 border border-green-200 rounded-2xl px-4 py-3">
+                     <div className="w-9 h-9 bg-green-100 rounded-xl flex items-center justify-center shrink-0">
+                       <Check size={16} className="text-green-600" />
+                     </div>
+                     <div>
+                       <p className="text-[11px] font-black text-green-700 leading-tight">Poderes activos</p>
+                       <p className="text-[10px] font-medium text-green-600 mt-0.5">
+                         Nivel {userLevel} ≥ nivel mínimo {framePowerDef.minLevel} ✓
+                       </p>
+                     </div>
+                   </div>
+                 )}
                  
                  <div className="flex flex-col w-full gap-3">
                    {isOwned ? (

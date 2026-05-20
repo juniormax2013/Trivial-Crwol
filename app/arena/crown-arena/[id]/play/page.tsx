@@ -64,9 +64,12 @@ export default function CrownArenaPlayPage() {
     isDevilActive,
     revealedOptions,
     shuffledOptions,
+    devilState,
     triggerDevilTrap,
     revealOption,
-    resetDevilTrap
+    resetDevilTrap,
+    devilDefeat,
+    devilCelebrate,
   } = useDevilTrap();
 
   const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
@@ -209,6 +212,12 @@ export default function CrownArenaPlayPage() {
         return;
       }
       setStreak(0);
+    }
+
+    // Trigger devil reaction
+    if (isDevilActive) {
+      if (isRight) devilDefeat();
+      else devilCelebrate();
     }
 
     setSelectedOption(optionId || 'TIMEOUT');
@@ -659,7 +668,7 @@ export default function CrownArenaPlayPage() {
            ))}
         </div>
       </footer>
-      <DevilTrapOverlay isActive={isDevilActive} />
+      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} />
     </div>
   );
 }

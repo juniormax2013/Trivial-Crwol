@@ -46,27 +46,34 @@ export default function Profile() {
     async function fetchData() {
       if (!user) return;
       
+      // Fetch season & progress independently — permission errors won't block the rest
       try {
-        const [activeSeason, cats] = await Promise.all([
-          getActiveSeason(),
-          getCategories(true)
-        ]);
-
+        const activeSeason = await getActiveSeason();
         if (activeSeason) {
           setSeason(activeSeason);
-          const userProgress = await getUserProgress(user.uid, activeSeason.id);
-          setProgress(userProgress);
+          try {
+            const userProgress = await getUserProgress(user.uid, activeSeason.id);
+            setProgress(userProgress);
+          } catch (progressErr) {
+            console.warn('Could not load battle pass progress:', progressErr);
+          }
         }
+      } catch (seasonErr) {
+        console.warn('Could not load battle pass season (check Firestore rules for battle_pass_seasons):', seasonErr);
+      }
 
+      // Fetch categories independently
+      try {
+        const cats = await getCategories(true);
         if (user.favoriteCategoryId) {
           const cat = cats.find(c => c.id === user.favoriteCategoryId);
           if (cat) setCategoryName(cat.name);
         }
-      } catch (err) {
-        console.error('Error fetching profile extra data:', err);
-      } finally {
-        setIsDataLoading(false);
+      } catch (catErr) {
+        console.warn('Could not load categories:', catErr);
       }
+
+      setIsDataLoading(false);
     }
 
     if (!loading && user) {

@@ -22,7 +22,8 @@ import {
   ChevronRight,
   Info,
   ShoppingBag,
-  Crown
+  Crown,
+  Brain
 } from 'lucide-react';
 import { useT } from '@/lib/i18n/context';
 import { useNotifications } from '@/hooks/useNotifications';
@@ -113,6 +114,7 @@ export default function HomeDashboard() {
   const [friends, setFriends] = useState<AppUserModel[]>([]);
   const [showExplanation, setShowExplanation] = useState(false);
   const [activeSummaryTab, setActiveSummaryTab] = useState<'me' | 'friends'>('me');
+  const [aiBibleEnabled, setAiBibleEnabled] = useState(true);
 
 
   // Daily Verse calculation
@@ -135,6 +137,13 @@ export default function HomeDashboard() {
   useEffect(() => {
     document.title = t.nav.home;
   }, [t.nav.home]);
+
+  // Load Bible AI config (lightweight — just the enabled flag)
+  useEffect(() => {
+    import('@/lib/bible-ai/repository').then(({ getBibleAIConfig }) => {
+      getBibleAIConfig().then(cfg => setAiBibleEnabled(cfg.aiBibleEnabled));
+    });
+  }, []);
 
 
   // Fetch data
@@ -672,6 +681,37 @@ export default function HomeDashboard() {
         )}
 
       </main>
+
+      {/* BIBLE AI FAB — Floating above BottomNav */}
+      {aiBibleEnabled && (
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8, y: 20 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ delay: 0.5, type: 'spring', stiffness: 300, damping: 20 }}
+          className="fixed bottom-[90px] right-4 z-[55]"
+        >
+          <Link href="/bible-ai">
+            <motion.button
+              whileHover={{ scale: 1.08, y: -2 }}
+              whileTap={{ scale: 0.93 }}
+              className="relative flex items-center gap-2 pl-3 pr-4 py-3 bg-gradient-to-br from-[#cba72f] to-[#e9c349] rounded-2xl shadow-[0_8px_24px_rgba(203,167,47,0.4)] text-[#310065]"
+            >
+              {/* Pulse ring */}
+              <motion.div
+                className="absolute inset-0 rounded-2xl bg-[#e9c349]/40"
+                animate={{ scale: [1, 1.15, 1], opacity: [0.6, 0, 0.6] }}
+                transition={{ duration: 2.5, repeat: Infinity, ease: 'easeInOut' }}
+              />
+              <div className="relative w-7 h-7 bg-[#310065]/10 rounded-xl flex items-center justify-center">
+                <BookOpen size={16} strokeWidth={2.5} className="text-[#310065]" />
+              </div>
+              <span className="relative text-[12px] font-black tracking-tight whitespace-nowrap">
+                Asistente Bíblico
+              </span>
+            </motion.button>
+          </Link>
+        </motion.div>
+      )}
 
       <BottomNav activeTab="home" />
 
