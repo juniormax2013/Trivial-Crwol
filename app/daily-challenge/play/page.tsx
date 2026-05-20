@@ -182,9 +182,8 @@ export default function DailyChallengePlayPage() {
       
       if (q) {
         if (user?.activeFrame) {
-          const isFire = user.activeFrame === 'fire' || user.activeFrame === 'fire_frame';
           const isCrown = canUseFramePower(user.activeFrame, user.level ?? 1) && (user.activeFrame === 'crown' || user.activeFrame === 'crow_frame' || user.activeFrame === 'crown_frame');
-         const isFire  = canUseFramePower(user.activeFrame, user.level ?? 1) && (user.activeFrame === 'fire'  || user.activeFrame === 'fire_frame');
+          const isFire  = canUseFramePower(user.activeFrame, user.level ?? 1) && (user.activeFrame === 'fire'  || user.activeFrame === 'fire_frame');
           
           // Remove 2 incorrect answers
           // Fire frame and Crown frame only do it for the first 5 questions.

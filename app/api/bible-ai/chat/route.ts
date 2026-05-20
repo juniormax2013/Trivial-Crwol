@@ -39,7 +39,7 @@ function parseAIResponse(text: string): {
   const bibleReferences: BibleReference[] = [];
   const suggestedQuestions: string[] = [];
 
-  const refsMatch = text.match(/\[REFS:(.*?)\]/s);
+  const refsMatch = text.match(/\[REFS:([\s\S]*?)\]/);
   if (refsMatch) {
     answer = answer.replace(refsMatch[0], '').trim();
     const refs = refsMatch[1].split(',').map(r => r.trim());
@@ -55,7 +55,7 @@ function parseAIResponse(text: string): {
     });
   }
 
-  const sugMatch = text.match(/\[SUGERIDAS:(.*?)\]/s);
+  const sugMatch = text.match(/\[SUGERIDAS:([\s\S]*?)\]/);
   if (sugMatch) {
     answer = answer.replace(sugMatch[0], '').trim();
     const questions = sugMatch[1].split('|').map(q => q.trim()).filter(Boolean);
