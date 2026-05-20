@@ -16,7 +16,9 @@ import {
   CheckCircle2,
   Info,
   Heart,
-  Download as DownloadIcon
+  Download as DownloadIcon,
+  Flame,
+  Sparkles
 } from 'lucide-react';
 import { AdminGuard } from '@/components/auth/AdminGuard';
 import { 
@@ -119,6 +121,26 @@ export default function GameEnginePage() {
     }));
   };
 
+  const updateDevilTrapSetting = (key: string, value: any) => {
+    setConfig(prev => ({
+      ...prev,
+      devilTrap: {
+        ...(prev.devilTrap || { spawnProbability: 0.15 }),
+        [key]: value
+      }
+    }));
+  };
+
+  const updateSpecialChallengeSetting = (key: string, value: any) => {
+    setConfig(prev => ({
+      ...prev,
+      specialChallenge: {
+        ...(prev.specialChallenge || { spawnProbability: 0.50 }),
+        [key]: value
+      }
+    }));
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen bg-[#faf9fc] flex items-center justify-center">
@@ -134,28 +156,29 @@ export default function GameEnginePage() {
     <AdminGuard>
       <div className="bg-[#faf9fc] text-[#1b1b1e] min-h-screen font-sans pb-20">
         {/* Header */}
-        <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl border-b border-[#310065]/5 px-6 h-16 flex items-center justify-between shadow-sm">
-          <div className="flex items-center gap-4">
+        <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl border-b border-[#310065]/5 px-4 sm:px-6 h-16 flex items-center justify-between shadow-sm">
+          <div className="flex items-center gap-2 sm:gap-4">
             <Link href="/admin/dashboard" className="p-2 -ml-2 rounded-full hover:bg-[#310065]/5 transition-colors">
               <ArrowLeft className="w-6 h-6 text-[#310065]" />
             </Link>
-            <h1 className="font-serif font-black text-xl text-[#310065]">Motor de Juego</h1>
+            <h1 className="font-serif font-black text-lg sm:text-xl text-[#310065] truncate max-w-[120px] sm:max-w-none">Motor de Juego</h1>
           </div>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
             <button 
               onClick={handleReset}
-              className="flex items-center gap-2 px-4 py-2 rounded-full font-bold text-[12px] text-[#310065]/60 hover:text-[#310065] hover:bg-[#310065]/5 transition-all uppercase tracking-widest"
+              className="flex items-center gap-1 sm:gap-2 px-2 sm:px-4 py-2 rounded-full font-bold text-[11px] sm:text-[12px] text-[#310065]/60 hover:text-[#310065] hover:bg-[#310065]/5 transition-all uppercase tracking-widest"
+              title="Restablecer valores predeterminados"
             >
               <RefreshCcw className="w-4 h-4" />
-              Restablecer
+              <span className="hidden sm:inline">Restablecer</span>
             </button>
             <button 
               onClick={handleSave}
               disabled={saving}
-              className="flex items-center gap-2 px-6 py-2.5 bg-[#310065] text-white rounded-full font-bold text-[13px] hover:bg-[#4a0099] active:scale-95 transition-all shadow-lg shadow-[#310065]/20 disabled:opacity-50"
+              className="flex items-center gap-1 sm:gap-2 px-4 sm:px-6 py-2 sm:py-2.5 bg-[#310065] text-white rounded-full font-bold text-[12px] sm:text-[13px] hover:bg-[#4a0099] active:scale-95 transition-all shadow-lg shadow-[#310065]/20 disabled:opacity-50"
             >
               {saving ? <Loader2 className="w-4 h-4 animate-spin" /> : <Save className="w-4 h-4" />}
-              Guardar Cambios
+              <span>{saving ? 'Guardando...' : 'Guardar'}</span>
             </button>
           </div>
         </header>
@@ -234,8 +257,8 @@ export default function GameEnginePage() {
                     ))}
                   </div>
 
-                  <div className="grid grid-cols-2 gap-6">
-                    <div className="space-y-4 col-span-2">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div className="space-y-4 sm:col-span-2">
                       <label className="text-[12px] font-bold text-[#310065] uppercase tracking-wider flex items-center gap-2">
                         <Clock className="w-3.5 h-3.5" />
                         Tiempo por Pregunta (Segundos)
@@ -317,7 +340,7 @@ export default function GameEnginePage() {
                   </div>
                 </div>
 
-                <div className="p-6 grid grid-cols-2 gap-6">
+                <div className="p-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label className="text-[12px] font-bold text-[#310065]/60 block">PUNTOS BASE (POR CORRECTA)</label>
                     <input 
@@ -359,7 +382,7 @@ export default function GameEnginePage() {
                     />
                   </div>
 
-                  <div className="space-y-2">
+                  <div className="space-y-2 sm:col-span-2">
                     <label className="text-[12px] font-bold text-[#310065]/60 block">PENALIZACIÓN ERROR (MONEDAS)</label>
                     <input 
                       type="number" 
@@ -398,6 +421,72 @@ export default function GameEnginePage() {
                         }`}
                       />
                     </button>
+                  </div>
+                </div>
+              </section>
+
+              {/* Eventos Especiales Config */}
+              <section className="bg-white rounded-3xl border border-[#310065]/5 shadow-sm overflow-hidden">
+                <div className="p-6 border-b border-[#310065]/5 flex items-center justify-between bg-[#310065]/[0.02]">
+                  <div className="flex items-center gap-3">
+                    <Sparkles className="w-5 h-5 text-[#310065]" />
+                    <h2 className="font-bold text-[#310065]">Probabilidades de Eventos Especiales</h2>
+                  </div>
+                </div>
+
+                <div className="p-6 space-y-8">
+                  {/* Trampa del Diablo */}
+                  <div className="space-y-4">
+                    <div className="flex justify-between items-center">
+                      <label className="text-[12px] font-bold text-[#310065] uppercase tracking-wider flex items-center gap-2">
+                        <Flame className="w-4 h-4 text-red-500 fill-red-500/20" />
+                        Probabilidad de Trampa del Diablo
+                      </label>
+                      <span className="px-3 py-1 bg-red-50 text-red-700 font-extrabold text-[12px] rounded-lg border border-red-100">
+                        {Math.round((config.devilTrap?.spawnProbability ?? 0.15) * 100)}%
+                      </span>
+                    </div>
+                    <input 
+                      type="range" 
+                      min="0" 
+                      max="1" 
+                      step="0.05"
+                      value={config.devilTrap?.spawnProbability ?? 0.15}
+                      onChange={(e) => updateDevilTrapSetting('spawnProbability', parseFloat(e.target.value))}
+                      className="w-full accent-red-600"
+                    />
+                    <div className="flex justify-between text-[11px] font-bold text-[#1b1b1e]/40">
+                      <span>0% (Desactivado)</span>
+                      <span>50%</span>
+                      <span>100% (Siempre activo)</span>
+                    </div>
+                  </div>
+
+                  {/* Reto Especial */}
+                  <div className="space-y-4">
+                    <div className="flex justify-between items-center">
+                      <label className="text-[12px] font-bold text-[#310065] uppercase tracking-wider flex items-center gap-2">
+                        <Sparkles className="w-4 h-4 text-amber-500 fill-amber-500/20" />
+                        Probabilidad de Reto Especial (50% actual)
+                      </label>
+                      <span className="px-3 py-1 bg-amber-50 text-amber-700 font-extrabold text-[12px] rounded-lg border border-amber-100">
+                        {Math.round((config.specialChallenge?.spawnProbability ?? 0.50) * 100)}%
+                      </span>
+                    </div>
+                    <input 
+                      type="range" 
+                      min="0" 
+                      max="1" 
+                      step="0.05"
+                      value={config.specialChallenge?.spawnProbability ?? 0.50}
+                      onChange={(e) => updateSpecialChallengeSetting('spawnProbability', parseFloat(e.target.value))}
+                      className="w-full accent-amber-500"
+                    />
+                    <div className="flex justify-between text-[11px] font-bold text-[#1b1b1e]/40">
+                      <span>0% (Desactivado)</span>
+                      <span>50%</span>
+                      <span>100% (Siempre activo)</span>
+                    </div>
                   </div>
                 </div>
               </section>

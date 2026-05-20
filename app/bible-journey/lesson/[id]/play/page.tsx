@@ -24,6 +24,10 @@ import {
   completeBibleLesson 
 } from '@/lib/bible/repository';
 import { toast } from 'sonner';
+import { useDevilTrap } from '@/hooks/useDevilTrap';
+import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
+import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
+import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
 
 export default function BibleLessonPlay() {
   const params = useParams();
@@ -46,6 +50,20 @@ export default function BibleLessonPlay() {
   const [matchedPairs, setMatchedPairs] = useState<Record<string, string>>({}); // Maps Left -> Right
   const [failedMatch, setFailedMatch] = useState<boolean>(false);
 
+  // Devil Trap Hook
+  const {
+    isDevilActive,
+    revealedOptions,
+    shuffledOptions,
+    triggerDevilTrap,
+    revealOption,
+    resetDevilTrap
+  } = useDevilTrap();
+
+  const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
+  const [devilSpawnedCount, setDevilSpawnedCount] = useState(0);
+  const [devilDefeatedCount, setDevilDefeatedCount] = useState(0);
+
   // Interaction State
   const [isChecked, setIsChecked] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
@@ -55,7 +73,15 @@ export default function BibleLessonPlay() {
   const [isFailedOut, setIsFailedOut] = useState(false); // Hearts = 0
 
   // Timer
-  const startTimeRef = useRef<number>(Date.now());
+  const startTimeRef = useRef<number>(0);
+
+  useEffect(() => {
+    startTimeRef.current = Date.now();
+    (async () => {
+      const gc = await getGameEngineConfig();
+      setEngineConfig(gc);
+    })();
+  }, []);
 
   const questions = lesson?.questions || [];
   const currentQuestion = questions[currentIdx];
@@ -73,12 +99,25 @@ export default function BibleLessonPlay() {
     setIsChecked(false);
     setShowHint(false);
 
+    if (currentQuestion.question_type === 'multiple_choice' && devilSpawnedCount < 5 && devilDefeatedCount < 2) {
+      const devilProb = engineConfig?.devilTrap?.spawnProbability ?? 0.15;
+      const willSpawn = Math.random() < devilProb;
+      if (willSpawn) {
+        triggerDevilTrap(currentQuestion.options || [], true);
+        setDevilSpawnedCount(prev => prev + 1);
+      } else {
+        triggerDevilTrap(currentQuestion.options || [], false);
+      }
+    } else {
+      resetDevilTrap();
+    }
+
     if (currentQuestion.question_type === 'order_events' && currentQuestion.ordered_events) {
       // Shuffle ordered list for play start
       const shuffled = [...currentQuestion.ordered_events].sort(() => Math.random() - 0.5);
       setOrderedList(shuffled);
     }
-  }, [currentIdx, currentQuestion]);
+  }, [currentIdx, currentQuestion, triggerDevilTrap, resetDevilTrap, engineConfig, devilSpawnedCount, devilDefeatedCount]);
 
   // Load Initial Hearts
   useEffect(() => {
@@ -214,6 +253,9 @@ export default function BibleLessonPlay() {
 
     if (isAnswerCorrect) {
       setCorrectCount(prev => prev + 1);
+      if (currentQuestion.question_type === 'multiple_choice' && isDevilActive) {
+        setDevilDefeatedCount(prev => prev + 1);
+      }
       // Soft audio or haptic success indicator can trigger here
     } else {
       // Answer Incorrect: consume a heart and add question to spaced repetition database
@@ -317,9 +359,18 @@ export default function BibleLessonPlay() {
 
             {currentQuestion.hint && (
               <button 
-                onClick={() => setShowHint(!showHint)}
+                onClick={() => {
+                  if (isDevilActive) {
+                    toast.error("Pouvwa yo bloke pandan dyab la la! 😈");
+                    return;
+                  }
+                  setShowHint(!showHint);
+                }}
+                disabled={isDevilActive}
                 className={`w-9 h-9 rounded-2xl flex items-center justify-center shadow-sm border active:scale-95 transition-all ${
-                  showHint 
+                  isDevilActive
+                    ? 'opacity-50 grayscale bg-gray-50 border-gray-100 cursor-not-allowed'
+                    : showHint 
                     ? 'bg-amber-100 border-amber-300 text-amber-600' 
                     : 'bg-white border-purple-100/40 text-[#310065]/60 hover:bg-purple-50/50'
                 }`}
@@ -355,7 +406,14 @@ export default function BibleLessonPlay() {
                   }`}>
                     {letter}
                   </div>
-                  <span className="font-extrabold text-[#1b1b1e]/85 leading-snug">{opt}</span>
+                  <DevilTrapOptionText
+                    isDevilActive={isDevilActive}
+                    optionId={letter}
+                    isRevealed={revealedOptions.includes(opt)}
+                    onReveal={() => revealOption(opt)}
+                    originalText={opt}
+                    language="es"
+                  />
                 </button>
               );
             })}
@@ -688,6 +746,7 @@ export default function BibleLessonPlay() {
         </div>
       )}
 
+      <DevilTrapOverlay isActive={isDevilActive} />
     </div>
   );
 }

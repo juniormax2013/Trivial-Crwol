@@ -208,7 +208,9 @@ export function calculateNewMonthlyStreak(userData: UserChallengeData): number {
 export async function completeDailyChallenge(
   uid: string,
   session: DailyChallengeSession,
-  userData: UserChallengeData
+  userData: UserChallengeData,
+  isDoubled: boolean = false,
+  challengeMultiplier: number = 1
 ): Promise<DailyChallengeResult> {
   const { challenge, answers, questions } = session;
   const config = await getGameEngineConfig();
@@ -216,8 +218,21 @@ export async function completeDailyChallenge(
 
   const { score, correctAnswers, wrongAnswers, accuracyPercent } =
     calculateSessionScore(answers);
-  const { xpEarned, coinsEarned, gemsEarned, crownsEarned } =
+  
+  let { xpEarned, coinsEarned, gemsEarned, crownsEarned } =
     calculateEarnedRewards(challenge, answers, questions.length, dcConfig);
+    
+  if (challengeMultiplier !== 1) {
+    xpEarned = Math.ceil(xpEarned * challengeMultiplier);
+    coinsEarned = Math.ceil(coinsEarned * challengeMultiplier);
+    gemsEarned = Math.ceil(gemsEarned * challengeMultiplier);
+    crownsEarned = Math.ceil(crownsEarned * challengeMultiplier);
+  }
+
+  if (isDoubled) {
+    coinsEarned *= 2;
+    crownsEarned *= 2;
+  }
   const newStreak = calculateNewStreak(userData);
   const newBestStreak = Math.max(newStreak, userData.bestStreak || 0);
   const newMonthlyStreak = calculateNewMonthlyStreak(userData);

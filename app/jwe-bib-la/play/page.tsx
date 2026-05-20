@@ -19,12 +19,19 @@ import {
 import { useAuth } from '@/hooks/useAuth';
 import { ALL_DUEL_QUESTIONS } from '@/lib/duel/seed';
 import { consumeJweEnergy, consumeJweHeart, grantJweRewards } from '@/lib/user/repository';
+import { RandomChallengeModal, fireChallengeSuccessConfetti } from '@/components/play/RandomChallengeModal';
+import ChallengePlayView from '@/components/play/ChallengePlayView';
+import { getRandomChallengeQuestion } from '@/lib/challenge/seed';
+import type { ChallengeQuestion } from '@/lib/challenge/models';
 import { DuelQuestion } from '@/lib/duel/models';
 import { runTransaction, doc } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 import PowerUpsBar from '@/components/game/PowerUpsBar';
-import FramePowerButton from '@/components/game/FramePowerButton';
 import { toast } from 'sonner';
+import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
+import { useDevilTrap } from '@/hooks/useDevilTrap';
+import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
+import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
 
 const PERSEVERANCE_VERSES = [
   { text: "Men, moun ki va kenbe fèm jouk sa kaba, se li ki va sove.", ref: "MATYE 24:13" },
@@ -64,8 +71,18 @@ export default function JweBibLaPlay() {
   // Power-ups state
   const [activePowerUps, setActivePowerUps] = useState<string[]>([]);
   const [hiddenOptionIds, setHiddenOptionIds] = useState<string[]>([]);
-  const [showHint, setShowHint] = useState(false);
   const [hasSecondChance, setHasSecondChance] = useState(false);
+  const [showHint, setShowHint] = useState(false);
+  
+  // Random Challenge State
+  const [rcConfig, setRcConfig] = useState<{
+    hasChallenge: boolean;
+    questionIndex: number;
+    status: 'pending' | 'accepted' | 'rejected' | 'won' | 'lost' | null;
+    showModal: boolean;
+  } | null>(null);
+  const [challengeQuestion, setChallengeQuestion] = useState<ChallengeQuestion | null>(null);
+  const [showChallengePlay, setShowChallengePlay] = useState(false);
   
   // Timer state
   const [timeLeft, setTimeLeft] = useState(20);
@@ -74,6 +91,20 @@ export default function JweBibLaPlay() {
   
   const [randomVerse, setRandomVerse] = useState(PERSEVERANCE_VERSES[0]);
   const [embers, setEmbers] = useState<{ left: string; size: string; opacity: number; duration: string; delay: string }[]>([]);
+
+  // Devil Trap Hook
+  const {
+    isDevilActive,
+    revealedOptions,
+    shuffledOptions,
+    triggerDevilTrap,
+    revealOption,
+    resetDevilTrap
+  } = useDevilTrap();
+
+  const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
+  const [devilSpawnedCount, setDevilSpawnedCount] = useState(0);
+  const [devilDefeatedCount, setDevilDefeatedCount] = useState(0);
 
   const currentQuestion = questions[currentIndex];
 
@@ -91,8 +122,12 @@ export default function JweBibLaPlay() {
     const correct = optionId === currentQuestion.correctOptionId;
     setIsCorrect(correct);
 
+    if (correct && isDevilActive) {
+      setDevilDefeatedCount(prev => prev + 1);
+    }
+
     if (!correct) {
-      if (hasSecondChance && optionId !== 'TIMEOUT') {
+      if (hasSecondChance && optionId !== 'TIMEOUT' && !isDevilActive) {
         toast.success("Chans an dezyèm itilize! Ou sove.");
         setHasSecondChance(false);
         setActivePowerUps(prev => prev.filter(p => p !== 'secondChance'));
@@ -115,17 +150,49 @@ export default function JweBibLaPlay() {
         }, 1200);
         return;
       }
+    } else {
+      // Correct answer
+      if (rcConfig?.status === 'accepted' && rcConfig.questionIndex === currentIndex) {
+        setRcConfig(prev => prev ? { ...prev, status: 'won' } : null);
+        fireChallengeSuccessConfetti();
+      }
     }
-  }, [isAnswered, isGameOver, currentQuestion, hasSecondChance, hearts, user]);
+    // Check if lost random challenge
+    if (!correct && rcConfig?.status === 'accepted' && rcConfig.questionIndex === currentIndex) {
+        setRcConfig(prev => prev ? { ...prev, status: 'lost' } : null);
+    }
+  }, [isAnswered, isGameOver, currentQuestion, hasSecondChance, hearts, user, rcConfig, currentIndex, isDevilActive]);
+
+  const handleAcceptChallenge = useCallback(() => {
+    setRcConfig(prev => prev ? { ...prev, showModal: false, status: 'accepted' } : null);
+    setShowChallengePlay(true);
+  }, []);
+
+  const handleRejectChallenge = useCallback(() => {
+    setRcConfig(prev => prev ? { ...prev, showModal: false, status: 'rejected' } : null);
+  }, []);
+
+  const handleChallengeComplete = useCallback((isCorrect: boolean) => {
+    setShowChallengePlay(false);
+    setRcConfig(prev => prev ? { ...prev, status: isCorrect ? 'won' : 'lost' } : null);
+    setTimeLeft(20); // Reset standard timer to 20s
+  }, []);
   const nextQuestion = useCallback(async () => {
     if (currentIndex >= 6) {
       setIsGameOver(true);
       setIsWin(true);
-      if (user) await grantJweRewards(user.uid);
+      if (user) {
+        const isGoldOrCrown = user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame';
+        if (isGoldOrCrown) {
+          toast.success("Rekonpans Doub x2 👑");
+        }
+        const challengeMultiplier = rcConfig?.status === 'won' ? 3 : rcConfig?.status === 'lost' ? 0.5 : 1;
+        await grantJweRewards(user.uid, isGoldOrCrown, challengeMultiplier);
+      }
       return;
     }
     setCurrentIndex(prev => prev + 1);
-  }, [currentIndex, user]);
+  }, [currentIndex, user, rcConfig]);
 
   // ── Reset timer on new question ───────────────────────────
   useEffect(() => {
@@ -134,12 +201,52 @@ export default function JweBibLaPlay() {
       setSelectedOption(null);
       setIsAnswered(false);
       setIsCorrect(false);
-      setHiddenOptionIds([]);
+      
+      const newActivePowerUps: string[] = [];
+      let newHiddenOptionIds: string[] = [];
+      let newHasSecondChance = false;
+
+      const q = questions[currentIndex];
+      if (q && devilSpawnedCount < 5 && devilDefeatedCount < 2) {
+        const devilProb = engineConfig?.devilTrap?.spawnProbability ?? 0.15;
+        const willSpawn = Math.random() < devilProb;
+        if (willSpawn) {
+          triggerDevilTrap(q.options, true);
+          setDevilSpawnedCount(prev => prev + 1);
+        } else {
+          triggerDevilTrap(q.options, false);
+        }
+      } else {
+        resetDevilTrap();
+      }
+
+      if (user?.activeFrame) {
+        const isFire = user.activeFrame === 'fire' || user.activeFrame === 'fire_frame';
+        const isCrown = user.activeFrame === 'crown' || user.activeFrame === 'crow_frame';
+        
+        if ((isFire || isCrown) && currentIndex < 5) {
+          if (q) {
+             const wrongOptions = q.options.filter(o => o.id !== q.correctOptionId);
+             newHiddenOptionIds = shuffle(wrongOptions).slice(0, 2).map(o => o.id);
+          }
+        }
+
+        if (isCrown && currentIndex < 5) {
+          newHasSecondChance = true;
+          newActivePowerUps.push('secondChance');
+        }
+      }
+
+      setActivePowerUps(newActivePowerUps);
+      setHiddenOptionIds(newHiddenOptionIds);
+      setHasSecondChance(newHasSecondChance);
       setShowHint(false);
-      setActivePowerUps([]);
-      setHasSecondChance(false);
+
+      if (rcConfig?.hasChallenge && rcConfig.questionIndex === currentIndex && rcConfig.status === 'pending') {
+        setRcConfig(prev => prev ? { ...prev, showModal: true } : null);
+      }
     }
-  }, [currentIndex, isLoading, questions.length]);
+  }, [currentIndex, isLoading, questions.length, questions, user?.activeFrame, rcConfig?.hasChallenge, rcConfig?.questionIndex, rcConfig?.status, triggerDevilTrap, engineConfig, devilSpawnedCount, devilDefeatedCount]);
 
   const handlePowerUsed = useCallback((powerId: string) => {
     setActivePowerUps(prev => {
@@ -190,40 +297,53 @@ export default function JweBibLaPlay() {
   // Initialize game
   useEffect(() => {
     if (user && questions.length === 0 && !isGameOver && !isInitializing.current) {
-      // Wait if the user profile is completely empty or just initialized
       if (user.jweEnergy === undefined) return;
       
       isInitializing.current = true;
-      const currentHearts = user.jweHearts ?? 0;
-      const currentEnergy = user.jweEnergy ?? 0;
-
-
-      // Check for energy before starting (7 energy per session)
-      if (currentEnergy < 7) {
-        // Only set game over if we've genuinely checked and found no energy
-        setIsGameOver(true);
-        setIsWin(false);
-        setIsLoading(false);
-        return;
-      }
-
-      setHearts(5); // Start each session with full hearts
-      setEnergy(currentEnergy);
-
-      // Select 7 random HT questions and shuffle their options
-      const htPool = ALL_DUEL_QUESTIONS.filter(q => q.language === 'ht');
-      const selected = shuffle(htPool).slice(0, 7).map(q => ({
-        ...q,
-        options: shuffle(q.options)
-      }));
       
-      setQuestions(selected);
-      setIsLoading(false);
-
-      // Consume 7 energy for the entire session at once using a transaction
-      // Removed setTimeout to avoid race condition with useEffect cleanup
-      const consumeEnergy = async () => {
+      const initGame = async () => {
         try {
+          const gc = await getGameEngineConfig();
+          setEngineConfig(gc);
+
+          const currentHearts = user.jweHearts ?? 0;
+          const currentEnergy = user.jweEnergy ?? 0;
+
+          if (currentEnergy < 7) {
+            setIsGameOver(true);
+            setIsWin(false);
+            setIsLoading(false);
+            return;
+          }
+
+          setHearts(5);
+          setEnergy(currentEnergy);
+          setDevilSpawnedCount(0);
+          setDevilDefeatedCount(0);
+
+          const htPool = ALL_DUEL_QUESTIONS.filter(q => q.language === 'ht');
+          const selected = shuffle(htPool).slice(0, 7).map(q => ({
+            ...q,
+            options: shuffle(q.options)
+          }));
+          
+          setQuestions(selected);
+          
+          const specialChallengeProb = gc.specialChallenge?.spawnProbability ?? 0.50;
+          const hasChallenge = Math.random() < specialChallengeProb;
+          setRcConfig({
+            hasChallenge,
+            questionIndex: hasChallenge ? Math.floor(Math.random() * selected.length) : -1,
+            status: 'pending',
+            showModal: false
+          });
+          if (hasChallenge) {
+            const randomChQ = getRandomChallengeQuestion('ht');
+            setChallengeQuestion(randomChQ);
+          }
+
+          setIsLoading(false);
+
           await runTransaction(db, async (transaction) => {
             const userDocRef = doc(db, 'users', user.uid);
             const userSnap = await transaction.get(userDocRef);
@@ -239,20 +359,21 @@ export default function JweBibLaPlay() {
             
             transaction.update(userDocRef, {
               jweEnergy: currentBalance - 7,
-              jweHearts: 5, // Refill hearts to 5 at the start of every session
+              jweHearts: 5,
               updatedAt: new Date().toISOString()
             });
           });
           
           setEnergy(prev => prev - 7);
-          setHearts(5); // Ensure local state reflects the refill
+          setHearts(5);
         } catch (error) {
           console.error('Deduction failed:', error);
           setIsGameOver(true);
+          setIsLoading(false);
         }
       };
 
-      consumeEnergy();
+      initGame();
     }
   }, [user, questions.length, isGameOver]);
 
@@ -275,7 +396,9 @@ export default function JweBibLaPlay() {
       isGameOver || 
       isAnswered || 
       questions.length === 0 || 
-      activePowerUps.includes('freezeTime');
+      activePowerUps.includes('freezeTime') ||
+      rcConfig?.showModal ||
+      showChallengePlay;
 
     if (shouldStopTimer) {
       return;
@@ -294,7 +417,7 @@ export default function JweBibLaPlay() {
 
     // Cleanup on unmount or dependency change
     return clearCurrentTimer;
-  }, [isLoading, isGameOver, isAnswered, currentIndex, questions.length, activePowerUps]);
+  }, [isLoading, isGameOver, isAnswered, currentIndex, questions.length, activePowerUps, rcConfig?.showModal, showChallengePlay]);
 
   // Handle timeout
   useEffect(() => {
@@ -335,20 +458,38 @@ export default function JweBibLaPlay() {
               <p className="text-[#4a4452] mb-8 max-w-[300px] font-sans">
                 Felisitasyon! Ou reponn tout kesyon yo kòrèkteman.
               </p>
-              <div className="bg-[#f2f2f7] rounded-[2rem] p-8 shadow-inner w-full max-w-[320px] mb-8 border border-[#310065]/5">
-                <h3 className="text-[12px] font-black text-[#7c7483] uppercase tracking-widest mb-6">Rekonpans Ou</h3>
+              <div className="bg-[#f2f2f7] rounded-[2rem] p-8 shadow-inner w-full max-w-[320px] mb-8 border border-[#310065]/5 relative overflow-hidden">
+                {/* Random Challenge Indicator */}
+                {(rcConfig?.status === 'won') && (
+                  <div className="absolute top-0 right-0 bg-emerald-100 text-emerald-800 text-[9px] font-bold px-2 py-0.5 rounded-bl-lg border-b border-l border-emerald-200">
+                    ⚡ Reto (x3)
+                  </div>
+                )}
+                {(rcConfig?.status === 'lost') && (
+                  <div className="absolute top-0 right-0 bg-red-100 text-red-800 text-[9px] font-bold px-2 py-0.5 rounded-bl-lg border-b border-l border-red-200">
+                    ❌ Reto (x0.5)
+                  </div>
+                )}
+                {/* Gold Frame Indicator */}
+                {user && (user.activeFrame === 'gold' || user.activeFrame === 'crown' || user.activeFrame === 'gold_frame' || user.activeFrame === 'crow_frame') && (
+                  <div className={`absolute ${rcConfig?.status === 'won' || rcConfig?.status === 'lost' ? 'top-5 right-0 rounded-bl-lg border-t' : 'top-0 right-0 rounded-bl-lg'} bg-amber-100 text-amber-800 text-[9px] font-bold px-2 py-0.5 border-b border-l border-amber-200`}>
+                    👑 Bonus (x2)
+                  </div>
+                )}
+
+                <h3 className="text-[12px] font-black text-[#7c7483] uppercase tracking-widest mb-6 mt-2">Rekonpans Ou</h3>
                 <div className="grid grid-cols-3 gap-4">
                   <div className="flex flex-col items-center gap-1 text-[#310065]">
                     <CrownIcon className="text-[#cba72f] fill-[#ffe088]" size={24} />
-                    <span className="font-bold">3</span>
+                    <span className="font-bold">{Math.ceil(3 * (rcConfig?.status === 'won' ? 3 : rcConfig?.status === 'lost' ? 0.5 : 1) * ((user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame') ? 2 : 1))}</span>
                   </div>
                   <div className="flex flex-col items-center gap-1 text-[#310065]">
                     <div className="w-6 h-6 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-[10px] font-black italic border border-blue-200">XP</div>
-                    <span className="font-bold">25</span>
+                    <span className="font-bold">{Math.ceil(25 * (rcConfig?.status === 'won' ? 3 : rcConfig?.status === 'lost' ? 0.5 : 1))}</span>
                   </div>
                   <div className="flex flex-col items-center gap-1 text-[#310065]">
                     <div className="w-6 h-6 rounded-full bg-yellow-100 text-[#735c00] flex items-center justify-center text-[12px] font-black border border-yellow-200">$</div>
-                    <span className="font-bold">7</span>
+                    <span className="font-bold">{Math.ceil(7 * (rcConfig?.status === 'won' ? 3 : rcConfig?.status === 'lost' ? 0.5 : 1) * ((user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame') ? 2 : 1))}</span>
                   </div>
                 </div>
               </div>
@@ -623,6 +764,18 @@ export default function JweBibLaPlay() {
 
   return (
     <div className="bg-[#faf9fc] text-[#1b1b1e] min-h-screen flex flex-col font-sans relative">
+      <RandomChallengeModal 
+        isOpen={!!rcConfig?.showModal} 
+        onAccept={handleAcceptChallenge} 
+        onReject={handleRejectChallenge} 
+      />
+      {showChallengePlay && challengeQuestion && (
+        <ChallengePlayView
+          question={challengeQuestion}
+          onComplete={handleChallengeComplete}
+          onClose={() => setShowChallengePlay(false)}
+        />
+      )}
       <div className="fixed inset-0 -z-10 pointer-events-none opacity-[0.1]">
         <div className="absolute top-0 left-0 w-full h-full bg-[#310065] blur-[150px] rounded-full scale-150"></div>
       </div>
@@ -718,7 +871,16 @@ export default function JweBibLaPlay() {
                 <div className={labelClass}>
                   {String.fromCharCode(65 + idx)}
                 </div>
-                <span className="text-[17px] font-bold flex-grow">{option.text}</span>
+                <span className="text-[17px] font-bold flex-grow">
+                  <DevilTrapOptionText
+                    isDevilActive={isDevilActive}
+                    optionId={String.fromCharCode(65 + idx)}
+                    isRevealed={revealedOptions.includes(option.id)}
+                    onReveal={() => revealOption(option.id)}
+                    originalText={option.text}
+                    language="ht"
+                  />
+                </span>
                 {isAnswered && isCorrectOption && <CheckCircle2 className="w-6 h-6" />}
               </button>
             );
@@ -736,10 +898,6 @@ export default function JweBibLaPlay() {
         )}
 
         <div className="flex flex-col items-end gap-2">
-          <FramePowerButton 
-            onPowerUsed={handlePowerUsed} 
-            disabled={isAnswered || isGameOver} 
-          />
           <PowerUpsBar 
             onPowerUsed={handlePowerUsed}
             onSkip={async () => {
@@ -763,12 +921,13 @@ export default function JweBibLaPlay() {
             }}
             isProcessing={isProcessingPower}
             setIsProcessing={setIsProcessingPower}
-            disabled={isAnswered || isGameOver}
+            disabled={isAnswered || isGameOver || isDevilActive}
             activePowerUps={activePowerUps}
             heartsCount={hearts}
           />
         </div>
       </main>
+      <DevilTrapOverlay isActive={isDevilActive} />
     </div>
   );
 }

@@ -32,6 +32,12 @@ export interface GameEngineConfig {
   pwa?: {
     showInstallPrompt: boolean;
   };
+  devilTrap?: {
+    spawnProbability: number;
+  };
+  specialChallenge?: {
+    spawnProbability: number;
+  };
   updatedAt: string;
 }
 
@@ -70,6 +76,12 @@ export const DEFAULT_GAME_ENGINE_CONFIG: GameEngineConfig = {
   },
   pwa: {
     showInstallPrompt: false,
+  },
+  devilTrap: {
+    spawnProbability: 0.15,
+  },
+  specialChallenge: {
+    spawnProbability: 0.50,
   },
   updatedAt: new Date().toISOString()
 };

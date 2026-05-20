@@ -35,6 +35,24 @@ const assets = {
   storeBag: '/assets/store/ui/store-bag.png'
 };
 
+const getItemDescription = (item: StoreItem): string => {
+  if (item.description && item.description.trim() !== '') return item.description;
+  if (item.type !== 'frames') return "Okenn deskripsyon";
+
+  const nameLower = item.name.toLowerCase();
+  if (nameLower.includes('fire')) {
+    return "Elimina automáticamente 2 respuestas incorrectas por pregunta, y te da una segunda oportunidad si fallas la primera.";
+  }
+  if (nameLower.includes('gold')) {
+    return "Duplica las monedas y coronas ganadas al finalizar la partida de forma automática.";
+  }
+  if (nameLower.includes('crow')) {
+    return "Combina los efectos: elimina 2 respuestas incorrectas, te da una segunda oportunidad y duplica las recompensas al final.";
+  }
+  
+  return "Okenn deskripsyon";
+};
+
 export default function StoreOverlay() {
   const { user } = useAuthContext();
   const [isOpen, setIsOpen] = useState(false);
@@ -54,6 +72,7 @@ export default function StoreOverlay() {
     item: StoreItem | null;
     onConfirm: ((currencyType: 'coin' | 'crown', cost: number) => void) | null;
   }>({ show: false, item: null, onConfirm: null });
+  const [itemDetailsModal, setItemDetailsModal] = useState<{show: boolean, item: StoreItem | null}>({show: false, item: null});
   const scrollRef = useRef<HTMLDivElement>(null);
 
   // Listen for global event
@@ -306,17 +325,17 @@ export default function StoreOverlay() {
                       <motion.div 
                         initial={{ opacity: 0, y: 20 }} 
                         animate={{ opacity: 1, y: 0 }} 
-                        className="grid grid-cols-2 gap-4"
+                        className="grid grid-cols-2 sm:grid-cols-3 gap-5"
                       >
                         {(groupedItems[activeTab === 'Energy' ? 'energy' : 'hearts'] || []).map(p => (
                           <button 
                             key={p.id}
                             onClick={() => handleBuyResource(p)}
                             disabled={isProcessing}
-                            className="bg-white rounded-[2rem] p-5 border border-black/[0.04] shadow-sm hover:shadow-xl hover:scale-[1.02] active:scale-95 transition-all text-center flex flex-col items-center group relative overflow-hidden"
+                            className="bg-white rounded-2xl p-6 border border-black/5 shadow-sm hover:shadow-md hover:border-[#310065]/20 active:scale-[0.98] transition-all text-center flex flex-col items-center group relative overflow-hidden"
                           >
                             {/* Opaque White Background for Icon Container */}
-                            <div className="relative w-20 h-20 mb-4 z-10">
+                            <div className="relative w-20 h-20 mb-5 z-10">
                               <div className="absolute inset-0 bg-white rounded-2xl shadow-[0_8px_20px_rgba(0,0,0,0.06)] border border-black/[0.03]" />
                               <div 
                                 className="absolute inset-0 m-2 group-hover:scale-110 transition-transform duration-500"
@@ -357,14 +376,15 @@ export default function StoreOverlay() {
                       <motion.div 
                         initial={{ opacity: 0, y: 20 }} 
                         animate={{ opacity: 1, y: 0 }} 
-                        className="grid grid-cols-2 gap-4"
+                        className="grid grid-cols-2 sm:grid-cols-3 gap-5"
                       >
                         {(groupedItems.powers || []).map(p => (
-                          <div 
+                          <button 
                             key={p.id} 
-                            className="bg-white rounded-[2rem] p-5 border border-black/[0.04] shadow-sm flex flex-col items-center group hover:shadow-xl transition-all relative text-center"
+                            onClick={() => setItemDetailsModal({show: true, item: p})}
+                            className="bg-white rounded-2xl p-6 border border-black/5 shadow-sm flex flex-col items-center group hover:shadow-md hover:border-[#310065]/20 transition-all active:scale-[0.98] relative text-center"
                           >
-                            <div className="relative w-20 h-20 mb-4">
+                            <div className="relative w-20 h-20 mb-5">
                               <div className="absolute inset-0 bg-white rounded-2xl shadow-[0_8px_20px_rgba(0,0,0,0.06)] border border-black/[0.03]" />
                               <div 
                                 className="absolute inset-0 m-2 group-hover:scale-110 transition-transform duration-500"
@@ -380,26 +400,18 @@ export default function StoreOverlay() {
                             <h3 className="text-[#1b1b1e] font-black text-sm tracking-tight leading-tight mb-1">{p.name}</h3>
                             <p className="text-gray-400 text-[10px] mb-4 leading-snug font-medium line-clamp-2 px-2">{p.description}</p>
                             
-                            <button 
-                              onClick={() => handleBuyPower(p)}
-                              disabled={isProcessing}
-                              className="w-full flex items-center justify-center gap-4 bg-[#310065] text-white py-3 rounded-2xl font-black text-xs hover:bg-[#4a148c] shadow-lg shadow-[#310065]/10 active:scale-95 transition-all"
-                            >
-                              <div className="flex items-center gap-1">
-                                <div className="w-4 h-4 relative">
-                                  <Image src={assets.coin} alt="Coin" fill className="object-contain" />
-                                </div>
-                                <span>{p.cost.toLocaleString()}</span>
+                            <div className="flex items-center justify-center gap-3 bg-gray-50 px-4 py-1.5 rounded-2xl border border-black/5 mt-auto">
+                              <div className="flex items-center gap-1.5">
+                                <div className="w-3.5 h-3.5 relative"><Image src={assets.coin} alt="Coin" fill className="object-contain" /></div>
+                                <span className="text-[#cba72f] font-black text-xs">{p.cost.toLocaleString()}</span>
                               </div>
-                              <div className="w-px h-3 bg-white/20" />
-                              <div className="flex items-center gap-1">
-                                <div className="w-4 h-4 relative">
-                                  <Image src={assets.crown} alt="Crown" fill className="object-contain" />
-                                </div>
-                                <span>{Math.ceil(p.cost / 2).toLocaleString()}</span>
+                              <div className="w-px h-3 bg-black/10" />
+                              <div className="flex items-center gap-1.5">
+                                <div className="w-3.5 h-3.5 relative"><Image src={assets.crown} alt="Crown" fill className="object-contain" /></div>
+                                <span className="text-[#310065] font-black text-xs">{Math.ceil(p.cost / 2).toLocaleString()}</span>
                               </div>
-                            </button>
-                          </div>
+                            </div>
+                          </button>
                         ))}
                       </motion.div>
                     )}
@@ -424,11 +436,12 @@ export default function StoreOverlay() {
                                   <h2 className="text-[#1b1b1e] font-black text-xl tracking-tight uppercase">{type === 'frames' ? 'Kadr Pwofil' : 'Avatar'}</h2>
                                 </div>
                               </div>
-                              <div className="grid grid-cols-2 gap-4">
+                              <div className="grid grid-cols-2 sm:grid-cols-3 gap-5">
                                 {type === 'frames' && (() => {
                                   const isDefaultActive = !user.activeFrame || !['gold', 'fire', 'crown'].includes(user.activeFrame);
                                   return (
                                     <button 
+
                                       onClick={async () => {
                                         if (isProcessing) return;
                                         try {
@@ -441,10 +454,10 @@ export default function StoreOverlay() {
                                           setIsProcessing(false);
                                         }
                                       }}
-                                      className={`relative border-2 rounded-[2rem] p-5 flex flex-col items-center gap-3 transition-all active:scale-95 group ${
+                                      className={`relative border-2 rounded-2xl p-6 flex flex-col items-center gap-4 transition-all active:scale-[0.98] group ${
                                         isDefaultActive 
-                                          ? 'bg-[#310065] border-[#310065] shadow-xl shadow-[#310065]/20' 
-                                          : 'bg-white border-black/[0.03] hover:border-[#310065]/20 shadow-sm'
+                                          ? 'bg-[#310065]/5 border-[#310065] shadow-sm' 
+                                          : 'bg-white border-black/5 hover:border-[#310065]/20 shadow-sm hover:shadow-md'
                                       }`}
                                     >
                                       {isDefaultActive && (
@@ -468,8 +481,8 @@ export default function StoreOverlay() {
                                         </div>
                                       </div>
                                       <div className="text-center">
-                                        <p className={`font-black text-xs leading-tight mb-1 ${isDefaultActive ? 'text-white' : 'text-[#1b1b1e]'}`}>Kadr Defo</p>
-                                        <span className={`text-[10px] font-black uppercase tracking-wider ${isDefaultActive ? 'text-white/60' : 'text-[#310065]'}`}>
+                                        <p className={`font-black text-sm leading-tight mb-1 ${isDefaultActive ? 'text-[#310065]' : 'text-[#1b1b1e]'}`}>Kadr Defo</p>
+                                        <span className={`text-[10px] font-bold uppercase tracking-wider ${isDefaultActive ? 'text-[#310065]/60' : 'text-gray-400'}`}>
                                           {isDefaultActive ? 'Ekipe' : 'Mete li'}
                                         </span>
                                       </div>
@@ -482,11 +495,11 @@ export default function StoreOverlay() {
                                   return (
                                     <button 
                                       key={item.id}
-                                      onClick={() => handleBuyCosmetic(item)}
-                                      className={`relative border-2 rounded-[2rem] p-5 flex flex-col items-center gap-3 transition-all active:scale-95 group ${
+                                      onClick={() => setItemDetailsModal({show: true, item})}
+                                      className={`relative border-2 rounded-2xl p-6 flex flex-col items-center gap-4 transition-all active:scale-[0.98] group ${
                                         isActive 
-                                          ? 'bg-[#310065] border-[#310065] shadow-xl shadow-[#310065]/20' 
-                                          : 'bg-white border-black/[0.03] hover:border-[#310065]/20 shadow-sm'
+                                          ? 'bg-[#310065]/5 border-[#310065] shadow-sm' 
+                                          : 'bg-white border-black/5 hover:border-[#310065]/20 shadow-sm hover:shadow-md'
                                       }`}
                                     >
                                       {isActive && (
@@ -506,22 +519,23 @@ export default function StoreOverlay() {
                                           }}
                                         />
                                       </div>
-                                      <div className="text-center">
-                                        <p className={`font-black text-xs leading-tight mb-1 ${isActive ? 'text-white' : 'text-[#1b1b1e]'}`}>{item.name}</p>
+                                      <div className="text-center mt-2">
+                                        <p className={`font-black text-sm leading-tight mb-1 ${isActive ? 'text-[#310065]' : 'text-[#1b1b1e]'}`}>{item.name}</p>
+                                        <p className="text-gray-400 text-[10px] mb-3 leading-snug font-medium line-clamp-2 px-1">{getItemDescription(item)}</p>
                                         {isOwned ? (
-                                          <span className={`text-[10px] font-black uppercase tracking-wider ${isActive ? 'text-white/60' : 'text-[#310065]'}`}>
+                                          <span className={`text-[10px] font-bold uppercase tracking-wider ${isActive ? 'text-[#310065]/60' : 'text-gray-400'}`}>
                                             {isActive ? 'Ekipe' : 'Mete li'}
                                           </span>
                                         ) : (
-                                          <div className="flex items-center justify-center gap-3 bg-[#f8f7fc] px-3 py-1 rounded-full border border-black/[0.03] mt-1">
-                                            <div className="flex items-center gap-1">
-                                              <div className="w-3 h-3 relative"><Image src={assets.coin} alt="Coin" fill className="object-contain" /></div>
-                                              <span className="text-[#cba72f] font-black text-[11px]">{item.cost.toLocaleString()}</span>
+                                          <div className="flex items-center justify-center gap-3 bg-gray-50 px-4 py-1.5 rounded-2xl border border-black/5 mt-2">
+                                            <div className="flex items-center gap-1.5">
+                                              <div className="w-3.5 h-3.5 relative"><Image src={assets.coin} alt="Coin" fill className="object-contain" /></div>
+                                              <span className="text-[#cba72f] font-black text-xs">{item.cost.toLocaleString()}</span>
                                             </div>
-                                            <div className="w-px h-2 bg-black/10" />
-                                            <div className="flex items-center gap-1">
-                                              <div className="w-3 h-3 relative"><Image src={assets.crown} alt="Crown" fill className="object-contain" /></div>
-                                              <span className="text-[#310065] font-black text-[11px]">{Math.ceil(item.cost / 2).toLocaleString()}</span>
+                                            <div className="w-px h-3 bg-black/10" />
+                                            <div className="flex items-center gap-1.5">
+                                              <div className="w-3.5 h-3.5 relative"><Image src={assets.crown} alt="Crown" fill className="object-contain" /></div>
+                                              <span className="text-[#310065] font-black text-xs">{Math.ceil(item.cost / 2).toLocaleString()}</span>
                                             </div>
                                           </div>
                                         )}
@@ -539,11 +553,11 @@ export default function StoreOverlay() {
                     {/* Inventory */}
                     {activeTab === 'Inventory' && (
                       <motion.div initial={{ opacity: 0, scale: 0.98 }} animate={{ opacity: 1, scale: 1 }} className="space-y-10">
-                        <div className="bg-white rounded-[3rem] p-10 border border-black/[0.04] shadow-sm text-center relative overflow-hidden group">
+                        <div className="bg-white rounded-2xl p-10 border border-black/5 shadow-sm text-center relative overflow-hidden group">
                            <div className="absolute top-0 right-0 p-6 opacity-5 rotate-12 group-hover:rotate-0 transition-transform duration-1000">
                               <Briefcase size={120} />
                            </div>
-                           <div className="w-20 h-20 bg-[#f8f7fc] rounded-3xl flex items-center justify-center mx-auto mb-6 text-[#310065] shadow-inner border border-black/[0.03]">
+                           <div className="w-20 h-20 bg-gray-50 rounded-2xl flex items-center justify-center mx-auto mb-6 text-[#310065] border border-black/5">
                               <Briefcase size={32} strokeWidth={2.5} />
                            </div>
                            <h2 className="text-3xl font-black text-[#1b1b1e] mb-2 tracking-tight">SA OU GENYEN</h2>
@@ -555,14 +569,14 @@ export default function StoreOverlay() {
                               <div className="w-1.5 h-6 bg-[#310065] rounded-full" />
                               <h3 className="font-black text-xl text-[#1b1b1e] tracking-tight">Pouvwa Aktif</h3>
                            </div>
-                           <div className="grid grid-cols-2 gap-4">
+                           <div className="grid grid-cols-2 sm:grid-cols-3 gap-5">
                               {(groupedItems.powers || []).map(p => {
                                 const qty = (inventory[p.itemId] || 0) + (p.itemId === 'hintBible' ? (inventory['hint'] || 0) : 0);
                                 if (qty <= 0) return null;
                                 return (
-                                  <div key={p.id} className="bg-white rounded-[2rem] p-5 border border-black/[0.04] shadow-sm flex flex-col items-center group hover:shadow-lg transition-all text-center">
-                                    <div className="relative w-20 h-20 mb-4">
-                                      <div className="absolute inset-0 bg-[#f8f7fc] rounded-2xl shadow-inner border border-black/[0.03]" />
+                                  <div key={p.id} className="bg-white rounded-2xl p-6 border border-black/5 shadow-sm flex flex-col items-center group hover:shadow-md transition-all text-center">
+                                    <div className="relative w-20 h-20 mb-5">
+                                      <div className="absolute inset-0 bg-gray-50 rounded-2xl border border-black/5" />
                                       <div 
                                         className="absolute inset-0 m-2 group-hover:scale-110 transition-transform duration-500"
                                         style={{
@@ -588,13 +602,13 @@ export default function StoreOverlay() {
                                   <div className="w-1.5 h-6 bg-[#310065] rounded-full" />
                                   <h3 className="font-black text-xl text-[#1b1b1e] tracking-tight">Koleksyon Look</h3>
                                </div>
-                               <div className="flex gap-4 overflow-x-auto no-scrollbar pb-6 pt-2">
+                               <div className="flex gap-5 overflow-x-auto no-scrollbar pb-6 pt-2">
                                   {[...ownedFrames, ...ownedAvatars].map(id => {
                                     const item = items.find(i => i.itemId === id);
                                     if (!item) return null;
                                     const isActive = user.activeFrame === id || user.activeAvatar === id;
                                     return (
-                                      <div key={id} className={`flex-shrink-0 w-28 h-28 rounded-[2rem] border-2 flex items-center justify-center relative group transition-all ${isActive ? 'bg-[#310065] border-[#310065] shadow-xl shadow-[#310065]/20' : 'bg-white border-black/[0.04] shadow-sm'}`}>
+                                      <div key={id} className={`flex-shrink-0 w-32 h-32 rounded-2xl border-2 flex items-center justify-center relative group transition-all ${isActive ? 'bg-[#310065]/5 border-[#310065] shadow-sm' : 'bg-white border-black/5 shadow-sm'}`}>
                                         <div className="relative w-20 h-20">
                                           <div className={`absolute inset-0 bg-white rounded-2xl ${isActive ? 'shadow-lg' : 'shadow-inner'}`} />
                                           <div 
@@ -636,15 +650,15 @@ export default function StoreOverlay() {
             onClick={() => setConfirmModal({ show: false, item: null, onConfirm: null })}
           >
             <motion.div
-              initial={{ scale: 0.9, opacity: 0, y: 100 }}
+              initial={{ scale: 0.95, opacity: 0, y: 50 }}
               animate={{ scale: 1, opacity: 1, y: 0 }}
-              exit={{ scale: 0.9, opacity: 0, y: 100 }}
+              exit={{ scale: 0.95, opacity: 0, y: 50 }}
               transition={{ type: 'spring', damping: 25, stiffness: 300 }}
               onClick={e => e.stopPropagation()}
-              className="bg-white rounded-[3rem] p-10 w-full max-w-sm relative shadow-2xl overflow-hidden"
+              className="bg-white rounded-2xl p-8 w-full max-w-sm relative shadow-xl overflow-hidden"
             >
               {/* Animated Background Pulse */}
-              <div className="absolute -top-20 -left-20 w-40 h-40 bg-[#310065]/[0.03] rounded-full blur-3xl animate-pulse" />
+              <div className="absolute -top-20 -left-20 w-40 h-40 bg-[#310065]/[0.02] rounded-full blur-3xl animate-pulse" />
               
               <div className="relative z-10 flex flex-col items-center">
                 <div className="w-24 h-24 relative mb-8">
@@ -715,6 +729,96 @@ export default function StoreOverlay() {
         )}
       </AnimatePresence>
 
+      {/* Item Details Modal */}
+      <AnimatePresence>
+        {itemDetailsModal.show && itemDetailsModal.item && (() => {
+          const item = itemDetailsModal.item;
+          const isCosmetic = item.type === 'frames' || item.type === 'avatars';
+          const isPower = item.type === 'powers';
+          const isOwned = isCosmetic ? (item.type === 'frames' ? ownedFrames.includes(item.itemId) : ownedAvatars.includes(item.itemId)) : false;
+          const isActive = isCosmetic ? (item.type === 'frames' ? user.activeFrame === item.itemId : user.activeAvatar === item.itemId) : false;
+
+          return (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[700] bg-black/60 backdrop-blur-md flex items-end sm:items-center justify-center p-6"
+            onClick={() => setItemDetailsModal({ show: false, item: null })}
+          >
+            <motion.div
+              initial={{ scale: 0.95, opacity: 0, y: 50 }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              exit={{ scale: 0.95, opacity: 0, y: 50 }}
+              transition={{ type: 'spring', damping: 25, stiffness: 300 }}
+              onClick={e => e.stopPropagation()}
+              className="bg-white rounded-2xl p-8 w-full max-w-sm relative shadow-xl overflow-hidden"
+            >
+               {/* Modal content */}
+               <div className="absolute -top-20 -left-20 w-40 h-40 bg-[#310065]/[0.02] rounded-full blur-3xl animate-pulse" />
+               <div className="relative z-10 flex flex-col items-center">
+                 <div className="w-24 h-24 relative mb-6">
+                   <div className="absolute inset-0 bg-[#310065]/5 rounded-3xl rotate-6" />
+                   <div className="absolute inset-0 bg-white rounded-3xl shadow-xl border border-black/[0.05]" />
+                   <div 
+                     className="absolute inset-0 m-3"
+                     style={{
+                       backgroundImage: `url(${item.icon})`,
+                       backgroundSize: 'contain',
+                       backgroundRepeat: 'no-repeat',
+                       backgroundPosition: 'center'
+                     }}
+                   />
+                 </div>
+                 <h2 className="text-center text-2xl font-black text-[#1b1b1e] tracking-tight mb-2">{item.name}</h2>
+                 <p className="text-center text-gray-500 font-medium mb-8 text-sm px-4">{getItemDescription(item)}</p>
+                 
+                 <div className="flex flex-col w-full gap-3">
+                   {isOwned ? (
+                     isActive ? (
+                        <div className="w-full py-4 rounded-2xl bg-gray-100 text-gray-400 font-black text-sm uppercase tracking-widest text-center">
+                          Ekipe deja
+                        </div>
+                     ) : (
+                        <button
+                          onClick={async () => {
+                            setItemDetailsModal({show: false, item: null});
+                            handleBuyCosmetic(item);
+                          }}
+                          className="w-full py-4 rounded-2xl bg-[#310065] text-white font-black text-sm uppercase tracking-widest hover:bg-[#4a148c] transition-all active:scale-95 shadow-xl shadow-[#310065]/20"
+                        >
+                          Mete li
+                        </button>
+                     )
+                   ) : (
+                      <button
+                        onClick={() => {
+                          setItemDetailsModal({show: false, item: null});
+                          if (isPower) {
+                            handleBuyPower(item);
+                          } else {
+                            handleBuyCosmetic(item);
+                          }
+                        }}
+                        className="w-full py-4 rounded-2xl bg-[#310065] text-white font-black text-sm uppercase tracking-widest hover:bg-[#4a148c] transition-all active:scale-95 shadow-xl shadow-[#310065]/20"
+                      >
+                        Achte
+                      </button>
+                   )}
+                   <button
+                     onClick={() => setItemDetailsModal({ show: false, item: null })}
+                     className="w-full py-4 mt-2 rounded-2xl bg-gray-50 text-gray-400 font-black text-sm uppercase tracking-widest hover:bg-gray-100 transition-all active:scale-95"
+                   >
+                     Fèmen
+                   </button>
+                 </div>
+               </div>
+            </motion.div>
+          </motion.div>
+          );
+        })()}
+      </AnimatePresence>
+
       {/* Success Modal - Ultra Premium Style */}
       <AnimatePresence>
         {successModal.show && (
@@ -725,9 +829,9 @@ export default function StoreOverlay() {
             className="fixed inset-0 z-[800] bg-[#310065]/90 backdrop-blur-xl flex items-center justify-center p-6"
           >
             <motion.div 
-              initial={{ scale: 0.8, opacity: 0, rotate: -5 }}
-              animate={{ scale: 1, opacity: 1, rotate: 0 }}
-              className="bg-white rounded-[4rem] p-12 max-w-sm w-full flex flex-col items-center text-center shadow-[0_40px_100px_rgba(0,0,0,0.5)] border border-white/20 relative overflow-hidden"
+              initial={{ scale: 0.9, opacity: 0, y: 10 }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              className="bg-white rounded-2xl p-10 max-w-sm w-full flex flex-col items-center text-center shadow-2xl relative overflow-hidden"
             >
               {/* Celebration background elements */}
               <div className="absolute top-0 inset-x-0 h-2 bg-gradient-to-r from-amber-400 via-[#310065] to-amber-400" />

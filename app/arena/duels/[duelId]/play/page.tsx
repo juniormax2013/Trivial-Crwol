@@ -11,9 +11,12 @@ import { getQuestionsByIds } from '@/lib/duel/seed';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useT, useLanguage } from '@/lib/i18n/context';
 import PowerUpsBar from '@/components/game/PowerUpsBar';
-import FramePowerButton from '@/components/game/FramePowerButton';
 import { toast } from 'sonner';
 import { X } from 'lucide-react';
+import { useDevilTrap } from '@/hooks/useDevilTrap';
+import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
+import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
+import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
 
 type PhaseType = 'loading' | 'ready' | 'question' | 'feedback' | 'round_done' | 'error';
 
@@ -31,6 +34,7 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
   const [questionIndex, setQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<DuelAnswer[]>([]);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
+  const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [timeLeft, setTimeLeft] = useState(20);
   const [phase, setPhase] = useState<PhaseType>('loading');
@@ -39,7 +43,19 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
   const [correctCount, setCorrectCount] = useState(0);
   const [questionStartTime, setQuestionStartTime] = useState<number>(Date.now());
   const [isProcessingPower, setIsProcessingPower] = useState(false);
+  const [devilSpawnedCount, setDevilSpawnedCount] = useState(0);
+  const [devilDefeatedCount, setDevilDefeatedCount] = useState(0);
   
+  // Devil Trap Hook
+  const {
+    isDevilActive,
+    revealedOptions,
+    shuffledOptions,
+    triggerDevilTrap,
+    revealOption,
+    resetDevilTrap
+  } = useDevilTrap();
+
   // Power-ups state
   const [activePowerUps, setActivePowerUps] = useState<string[]>([]);
   const [hiddenOptionIds, setHiddenOptionIds] = useState<string[]>([]);
@@ -48,12 +64,16 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
 
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
-  // ── Load duel & current round ──────────────────────────────────
+  // ── Initial Data Fetch ─────────────────────────────────────
   useEffect(() => {
     (async () => {
-      const d = await getDuelById(duelId);
+      const [d, gc] = await Promise.all([
+        getDuelById(duelId),
+        getGameEngineConfig()
+      ]);
       if (!d) { setPhase('error'); return; }
-
+      
+      setEngineConfig(gc);
       const vs = getDuelViewState(d, DEMO_UID);
       if (!vs.isMyTurn) {
         // Not the user's turn — redirect back to detail
@@ -88,11 +108,47 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
       setTimeLeft(duel?.turnTimeLimitSeconds ?? 20);
       setQuestionStartTime(Date.now());
       setActivePowerUps([]);
-      setHiddenOptionIds([]);
+
+      const currentQ = questions[questionIndex];
+      if (currentQ && devilSpawnedCount < 5 && devilDefeatedCount < 2) {
+        const devilProb = engineConfig?.devilTrap?.spawnProbability ?? 0.15;
+        const willSpawn = Math.random() < devilProb;
+        if (willSpawn) {
+          triggerDevilTrap(currentQ.options, true);
+          setDevilSpawnedCount(prev => prev + 1);
+        } else {
+          triggerDevilTrap(currentQ.options, false);
+        }
+      } else {
+        resetDevilTrap();
+      }
+
+      // Lógica de Poderes Pasivos de Marcos
+      const isFire = user?.activeFrame === 'fire' || user?.activeFrame === 'fire_frame';
+      const isCrown = user?.activeFrame === 'crown' || user?.activeFrame === 'crow_frame';
+      
+      if ((isFire || isCrown) && questionIndex < 5) {
+        // 1. Ocultar 2 opciones incorrectas automáticamente
+        if (currentQ) {
+          const wrongOptions = currentQ.options.filter(o => o.id !== currentQ.correctOptionId);
+          const toHide = [...wrongOptions].sort(() => 0.5 - Math.random()).slice(0, 2).map(o => o.id);
+          setHiddenOptionIds(toHide);
+        }
+      } else {
+        setHiddenOptionIds([]);
+      }
+
+      if (isCrown && questionIndex < 5) {
+        // 2. Dar segunda oportunidad pasiva automáticamente solo para Crown en las primeras 5
+        setHasSecondChance(true);
+        setActivePowerUps(['secondChance']);
+      } else {
+        setHasSecondChance(false);
+      }
+
       setShowHint(false);
-      setHasSecondChance(false);
     }
-  }, [phase, questionIndex, duel?.turnTimeLimitSeconds]);
+  }, [phase, questionIndex, duel?.turnTimeLimitSeconds, user?.activeFrame, questions, triggerDevilTrap, engineConfig, devilSpawnedCount, devilDefeatedCount, resetDevilTrap]);
 
   // ── Timer ──────────────────────────────────────────────────────
   useEffect(() => {
@@ -132,6 +188,8 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
     setAnswers([]);
     setTotalScore(0);
     setCorrectCount(0);
+    setDevilSpawnedCount(0);
+    setDevilDefeatedCount(0);
     setQuestionStartTime(Date.now());
     setPhase('question');
   };
@@ -143,8 +201,11 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
     const responseTimeMs = Date.now() - questionStartTime;
     const q = questions[questionIndex];
     const correct = optionId === q.correctOptionId;
+    if (correct && isDevilActive) {
+      setDevilDefeatedCount(prev => prev + 1);
+    }
     
-    if (!correct && hasSecondChance) {
+    if (!correct && hasSecondChance && !isDevilActive) {
       toast.success("Chans an dezyèm itilize! Ou sove.");
       setHasSecondChance(false);
       setActivePowerUps(prev => prev.filter(p => p !== 'secondChance'));
@@ -169,10 +230,18 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
       return;
     }
 
-    const points = calculateAnswerPoints(correct, responseTimeMs, timeLimit);
+    let points = calculateAnswerPoints(correct, responseTimeMs, timeLimit);
+    const isGoldOrCrown = user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame';
+    if (isGoldOrCrown) {
+      points *= 2;
+    }
 
     setSelectedOption(optionId);
     setIsCorrect(correct);
+    
+    if (correct && isGoldOrCrown) {
+      toast.success("Rekonpans Doub x2 👑");
+    }
 
     const answer: DuelAnswer = {
       questionId: q.id,
@@ -483,7 +552,14 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
                   }`}>
                     {opt.id.toUpperCase()}
                   </span>
-                  {opt.text}
+                  <DevilTrapOptionText
+                    isDevilActive={isDevilActive}
+                    optionId={opt.id.toUpperCase()}
+                    isRevealed={revealedOptions.includes(opt.id)}
+                    onReveal={() => revealOption(opt.id)}
+                    originalText={opt.text}
+                    language={userLanguage}
+                  />
                 </button>
               );
             })}
@@ -492,11 +568,6 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
 
         {phase === 'question' && (
           <div className="px-5 mt-auto pb-6 pb-safe">
-            <FramePowerButton
-              onPowerUsed={handlePowerUsed}
-              isProcessing={isProcessingPower}
-              disabled={phase !== 'question'}
-            />
             <PowerUpsBar 
               onPowerUsed={handlePowerUsed}
               onReport={() => {
@@ -504,13 +575,14 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
               }}
               isProcessing={isProcessingPower}
               setIsProcessing={setIsProcessingPower}
-              disabled={phase !== 'question'}
+              disabled={phase !== 'question' || isDevilActive}
               activePowerUps={activePowerUps}
             />
           </div>
         )}
 
         <div className="h-8" />
+        <DevilTrapOverlay isActive={isDevilActive} />
       </div>
     );
   }

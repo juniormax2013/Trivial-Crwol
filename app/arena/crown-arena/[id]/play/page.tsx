@@ -31,6 +31,10 @@ import { DuelQuestion } from '@/lib/duel/models';
 import { calculateAnswerPoints } from '@/lib/duel/service';
 import Image from 'next/image';
 import { toast } from 'sonner';
+import { useDevilTrap } from '@/hooks/useDevilTrap';
+import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
+import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
+import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
 
 type GamePhase = 'loading' | 'preparing' | 'playing' | 'syncing' | 'finished';
 
@@ -54,6 +58,20 @@ export default function CrownArenaPlayPage() {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [lastPoints, setLastPoints] = useState(0);
   const [startTime, setStartTime] = useState(0);
+
+  // Devil Trap Hook
+  const {
+    isDevilActive,
+    revealedOptions,
+    shuffledOptions,
+    triggerDevilTrap,
+    revealOption,
+    resetDevilTrap
+  } = useDevilTrap();
+
+  const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
+  const [devilSpawnedCount, setDevilSpawnedCount] = useState(0);
+  const [devilDefeatedCount, setDevilDefeatedCount] = useState(0);
 
   // Power-ups state
   const [activePowerUps, setActivePowerUps] = useState<string[]>([]);
@@ -93,6 +111,13 @@ export default function CrownArenaPlayPage() {
   }, [user, room, roomId]);
 
   // 1. Initial Load & Subscription
+  useEffect(() => {
+    (async () => {
+      const gc = await getGameEngineConfig();
+      setEngineConfig(gc);
+    })();
+  }, []);
+
   useEffect(() => {
     if (!user || !roomId) return;
 
@@ -158,6 +183,9 @@ export default function CrownArenaPlayPage() {
     if (timerRef.current) clearInterval(timerRef.current);
 
     const isRight = optionId === q.correctOptionId;
+    if (isRight && isDevilActive) {
+      setDevilDefeatedCount(prev => prev + 1);
+    }
     const responseTime = Date.now() - startTime;
     
     // Points calculation
@@ -172,7 +200,7 @@ export default function CrownArenaPlayPage() {
       setStreak(s => s + 1);
       setCorrectCount(c => c + 1);
     } else {
-      if (hasSecondChance) {
+      if (hasSecondChance && !isDevilActive) {
         toast.success("Chans an dezyèm itilize! Ou sove.");
         setHasSecondChance(false);
         setActivePowerUps(prev => prev.filter(p => p !== 'secondChance'));
@@ -208,7 +236,7 @@ export default function CrownArenaPlayPage() {
         handleFinish(newScore);
       }
     }, 1800);
-  }, [selectedOption, user, room, questions, currentIdx, startTime, streak, hasSecondChance, roomId, score, handleFinish]);
+  }, [selectedOption, user, room, questions, currentIdx, startTime, streak, hasSecondChance, roomId, score, handleFinish, isDevilActive]);
 
   const handleTimeout = useCallback(() => {
     console.log('[ARENA] Timeout callback triggered');
@@ -271,8 +299,22 @@ export default function CrownArenaPlayPage() {
       setHiddenOptionIds([]);
       setShowHint(false);
       setHasSecondChance(false);
+
+      const q = questions[currentIdx];
+      if (q && devilSpawnedCount < 5 && devilDefeatedCount < 2) {
+        const devilProb = engineConfig?.devilTrap?.spawnProbability ?? 0.15;
+        const willSpawn = Math.random() < devilProb;
+        if (willSpawn) {
+          triggerDevilTrap(q.options, true);
+          setDevilSpawnedCount(prev => prev + 1);
+        } else {
+          triggerDevilTrap(q.options, false);
+        }
+      } else {
+        resetDevilTrap();
+      }
     }
-  }, [phase, currentIdx, selectedOption]);
+  }, [phase, currentIdx, selectedOption, questions, triggerDevilTrap, engineConfig, devilSpawnedCount, devilDefeatedCount, resetDevilTrap]);
 
   // 4. Timer Logic
   useEffect(() => {
@@ -568,7 +610,14 @@ export default function CrownArenaPlayPage() {
                   }`}>
                     {opt.id.toUpperCase()}
                   </span>
-                  {opt.text}
+                  <DevilTrapOptionText
+                    isDevilActive={isDevilActive}
+                    optionId={opt.id.toUpperCase()}
+                    isRevealed={revealedOptions.includes(opt.id)}
+                    onReveal={() => revealOption(opt.id)}
+                    originalText={opt.text}
+                    language={userLanguage}
+                  />
                 </div>
               </button>
             );
@@ -584,7 +633,7 @@ export default function CrownArenaPlayPage() {
               }}
               isProcessing={isProcessingPower}
               setIsProcessing={setIsProcessingPower}
-              disabled={selectedOption !== null}
+              disabled={selectedOption !== null || isDevilActive}
               activePowerUps={activePowerUps}
             />
           </div>
@@ -610,6 +659,6 @@ export default function CrownArenaPlayPage() {
            ))}
         </div>
       </footer>
+      <DevilTrapOverlay isActive={isDevilActive} />
     </div>
   );
-}

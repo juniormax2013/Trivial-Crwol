@@ -73,15 +73,25 @@ export const onDuelUpdate = firestore.document("duels/{duelId}").onUpdate(async 
                     const userData = userSnap.data() || {};
                     const currentTotalCorrect = userData.totalCorrectAnswers || 0;
                     const currentTotalPlayed = userData.totalQuestionsPlayed || 0;
+                    const activeFrame = userData.activeFrame || null;
 
                     const newTotalCorrect = currentTotalCorrect + correctAnswers;
                     const newTotalPlayed = currentTotalPlayed + totalQuestionsPlayed;
                     const accuracyRate = newTotalPlayed > 0 ? (newTotalCorrect / newTotalPlayed) : 0;
 
+                    // Si el usuario tiene el marco gold o crown (Crow Frame), duplicamos monedas y coronas ganadas
+                    let finalCoins = coins;
+                    let finalCrowns = crowns;
+                    if (activeFrame === 'gold' || activeFrame === 'crown') {
+                        finalCoins = coins * 2;
+                        finalCrowns = crowns * 2;
+                        console.log(`[Duel Rewards] Doubling rewards for user ${uid} due to activeFrame: ${activeFrame}. Base coins: ${coins}, base crowns: ${crowns}. Final coins: ${finalCoins}, final crowns: ${finalCrowns}`);
+                    }
+
                     const updateData: admin.firestore.UpdateData<admin.firestore.DocumentData> = {
                         xp: admin.firestore.FieldValue.increment(xp),
-                        coins: admin.firestore.FieldValue.increment(coins),
-                        crowns: admin.firestore.FieldValue.increment(crowns),
+                        coins: admin.firestore.FieldValue.increment(finalCoins),
+                        crowns: admin.firestore.FieldValue.increment(finalCrowns),
                         totalGames: admin.firestore.FieldValue.increment(1),
                         totalCorrectAnswers: admin.firestore.FieldValue.increment(correctAnswers),
                         totalQuestionsPlayed: admin.firestore.FieldValue.increment(totalQuestionsPlayed),

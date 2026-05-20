@@ -360,13 +360,18 @@ export async function consumeJweHeart(uid: string): Promise<void> {
  * JWE BIB LA: GRANT FIXED REWARDS
  * Rewards: 3 crowns, 25 XP, 7 coins
  */
-export async function grantJweRewards(uid: string): Promise<void> {
+export async function grantJweRewards(uid: string, isDoubled: boolean = false, challengeMultiplier: number = 1): Promise<void> {
   try {
+    const multiplier = isDoubled ? 2 : 1;
+    const baseCrowns = Math.ceil(3 * challengeMultiplier);
+    const baseXp = Math.ceil(25 * challengeMultiplier);
+    const baseCoins = Math.ceil(7 * challengeMultiplier);
+    
     const userRef = doc(db, COLLECTION_NAME, uid);
     await updateDoc(userRef, {
-      crowns: increment(3),
-      xp: increment(25),
-      coins: increment(7),
+      crowns: increment(baseCrowns * multiplier),
+      xp: increment(baseXp),
+      coins: increment(baseCoins * multiplier),
       updatedAt: new Date().toISOString()
     });
   } catch (error) {

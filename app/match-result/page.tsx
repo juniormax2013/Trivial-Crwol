@@ -62,7 +62,7 @@ export default function MatchResult() {
         }
 
         const rounds = await getRoundsForDuel(duelId);
-        const res = buildDuelResult(duel, rounds, user.uid);
+        const res = buildDuelResult(duel, rounds, user.uid, user.activeFrame);
         setResult(res);
       } catch (err: any) {
         console.error('Error loading result:', err);
@@ -207,7 +207,9 @@ export default function MatchResult() {
                 <div className="flex-1">
                   <div className="flex justify-between items-end mb-2.5">
                     <span className="text-[15px] font-bold text-[#1b1b1e]">Experiencia</span>
-                    <span className="text-[13px] font-extrabold text-[#310065] bg-[#eddcff] px-2.5 py-0.5 rounded-full">+{result.xpEarned} XP</span>
+                    <div className="flex flex-col items-end">
+                      <span className="text-[13px] font-extrabold text-[#310065] bg-[#eddcff] px-2.5 py-0.5 rounded-full">+{result.xpEarned} XP</span>
+                    </div>
                   </div>
                   <div className="h-2.5 w-full bg-[#efedf1] rounded-full overflow-hidden shadow-inner">
                     <div className="h-full bg-gradient-to-r from-[#7345b6] to-[#310065] rounded-full" style={{ width: isWin ? '100%' : '50%' }}></div>
@@ -227,10 +229,18 @@ export default function MatchResult() {
                     <span className="text-[22px] font-serif font-black text-[#735c00] leading-none">{result.crownsEarned}</span>
                     <Crown className="text-[#cba72f] w-5 h-5 fill-[#ffe088]" strokeWidth={2} />
                   </div>
+                  {user && (user.activeFrame === 'gold' || user.activeFrame === 'crown' || user.activeFrame === 'gold_frame' || user.activeFrame === 'crow_frame') && (
+                    <p className="text-[10px] text-amber-600 font-bold mt-1">Base: {result.crownsEarned / 2} | Bonus: +{result.crownsEarned / 2}</p>
+                  )}
                 </div>
                 {result.coinsEarned > 0 && (
-                  <div className="bg-gradient-to-r from-[#cba72f] to-[#735c00] text-white px-3.5 py-1.5 rounded-xl text-[10px] font-black uppercase tracking-widest shadow-[0_4px_12px_rgba(115,92,0,0.3)] shrink-0 z-10 border border-[#ffe088]/30">
-                    +{result.coinsEarned} Monedas
+                  <div className="flex flex-col items-end shrink-0 z-10">
+                    <div className="bg-gradient-to-r from-[#cba72f] to-[#735c00] text-white px-3.5 py-1.5 rounded-xl text-[10px] font-black uppercase tracking-widest shadow-[0_4px_12px_rgba(115,92,0,0.3)] border border-[#ffe088]/30">
+                      +{result.coinsEarned} Monedas
+                    </div>
+                    {user && (user.activeFrame === 'gold' || user.activeFrame === 'crown' || user.activeFrame === 'gold_frame' || user.activeFrame === 'crow_frame') && (
+                      <span className="text-[9px] text-amber-600 font-bold mt-1">Base: {result.coinsEarned / 2} | Bonus: +{result.coinsEarned / 2}</span>
+                    )}
                   </div>
                 )}
               </div>

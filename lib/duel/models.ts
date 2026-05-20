@@ -99,6 +99,7 @@ export interface DuelParticipant {
   correctAnswers: number;
   status: 'pending' | 'accepted' | 'declined';
   completed: boolean;
+  challengeOutcome?: 'won' | 'lost' | 'rejected';
 }
 
 // ─── Main Duel Document ──────────────────────────────────────────
@@ -119,6 +120,10 @@ export interface DuelModel {
   isTie: boolean;
   /** Round number of the current active tiebreaker, undefined when no tie yet */
   tiebreakerRoundNumber?: number;
+  /** Random Challenge configuration */
+  hasRandomChallenge?: boolean;
+  challengeRoundIndex?: number;
+  challengeQuestionIndex?: number;
   language: string;
   difficulty: Difficulty;
   selectedCategories: string[];

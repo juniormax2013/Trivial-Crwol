@@ -142,22 +142,47 @@ export function getOutcome(duel: DuelModel, uid: string): DuelOutcome {
 
 export function calculateDuelRewards(
   duel: DuelModel,
-  uid: string
+  uid: string,
+  activeFrame?: string | null
 ): { xp: number; coins: number; crowns: number } {
   const outcome = getOutcome(duel, uid);
   const base = duel.rewardConfig;
 
   if (outcome === 'pending') return { xp: 0, coins: 0, crowns: 0 };
 
+  let rewards = { xp: 0, coins: 0, crowns: 0 };
+
   switch (outcome) {
     case 'win':
-      return { xp: base.xp, coins: base.coins, crowns: base.crowns };
+      rewards = { xp: base.xp, coins: base.coins, crowns: base.crowns };
+      break;
     case 'tie':
-      return { xp: Math.floor(base.xp * 0.5), coins: Math.floor(base.coins * 0.5), crowns: Math.floor(base.crowns * 0.3) };
+      rewards = { xp: Math.floor(base.xp * 0.5), coins: Math.floor(base.coins * 0.5), crowns: Math.floor(base.crowns * 0.3) };
+      break;
     case 'loss':
     default:
-      return { xp: Math.floor(base.xp * 0.2), coins: Math.floor(base.coins * 0.2), crowns: 0 };
+      rewards = { xp: Math.floor(base.xp * 0.2), coins: Math.floor(base.coins * 0.2), crowns: 0 };
+      break;
   }
+
+  const participant = duel.participants[uid];
+  if (participant?.challengeOutcome === 'won') {
+    rewards.xp *= 3;
+    rewards.coins *= 3;
+    rewards.crowns *= 3;
+  } else if (participant?.challengeOutcome === 'lost') {
+    rewards.xp = Math.ceil(rewards.xp * 0.5);
+    rewards.coins = Math.ceil(rewards.coins * 0.5);
+    rewards.crowns = Math.ceil(rewards.crowns * 0.5);
+  }
+
+  // Si el marco es gold o crown (Crow Frame), duplicamos monedas y coronas ganadas
+  if (activeFrame === 'gold' || activeFrame === 'crown') {
+    rewards.coins = rewards.coins * 2;
+    rewards.crowns = rewards.crowns * 2;
+  }
+
+  return rewards;
 }
 
 // ─── Score calculation ───────────────────────────────────────────
@@ -180,7 +205,8 @@ export function calculateAnswerPoints(
 export function buildDuelResult(
   duel: DuelModel,
   rounds: DuelRound[],
-  uid: string
+  uid: string,
+  activeFrame?: string | null
 ): DuelResult {
   const outcome = getOutcome(duel, uid);
   if (outcome === 'pending') {
@@ -190,7 +216,7 @@ export function buildDuelResult(
   const others = getOtherParticipants(duel, uid);
   const primaryOpponent = others[0] || { uid: '?', name: 'Desconocido', avatarUrl: '', score: 0, correctAnswers: 0 };
 
-  const rewards = calculateDuelRewards(duel, uid);
+  const rewards = calculateDuelRewards(duel, uid, activeFrame);
 
   return {
     duelId: duel.id,

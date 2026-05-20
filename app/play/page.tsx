@@ -8,7 +8,6 @@ import * as motion from 'motion/react-client';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { consumePower } from '@/lib/store/repository';
 import PowerUpsBar from '@/components/game/PowerUpsBar';
-import FramePowerButton from '@/components/game/FramePowerButton';
 import { toast } from 'sonner';
 export default function Play() {
   const { user, loading: authLoading } = useAuthContext();
@@ -57,7 +56,8 @@ export default function Play() {
         toast.error("Movèz repons!");
       }
     } else {
-      toast.success("Bòn repons!");
+      const isGoldOrCrown = user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame';
+      toast.success(isGoldOrCrown ? "Bòn repons! (Rekonpans Doub x2 👑)" : "Bòn repons!");
     }
   };
 
@@ -67,6 +67,28 @@ export default function Play() {
       return () => clearTimeout(timerId);
     }
   }, [timeLeft]);
+
+  useEffect(() => {
+    if (user?.activeFrame) {
+      const isFire = user.activeFrame === 'fire' || user.activeFrame === 'fire_frame';
+      const isCrown = user.activeFrame === 'crown' || user.activeFrame === 'crow_frame';
+      
+      // Since this is a mock page with only 1 question, we'll assume index is 0 (so < 5 applies)
+      if (isFire || isCrown) {
+        // Ocultar 2 opciones incorrectas automáticamente
+        const incorrects = options.filter(o => !o.isCorrect).map(o => o.id);
+        const shuffled = incorrects.sort(() => 0.5 - Math.random());
+        setRemovedOptions(shuffled.slice(0, 2));
+      }
+
+      if (isCrown) {
+        // Activar la segunda oportunidad de forma pasiva solo para Crown
+        setHasSecondChance(true);
+        setActivePowerUps(['secondChance']);
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [authLoading, user?.activeFrame]);
 
   const dashoffset = 264 - (264 * (timeLeft / 15));
 
@@ -212,10 +234,6 @@ export default function Play() {
         </div>
 
         <div className="mt-auto px-4 pb-6">
-          <FramePowerButton 
-            onPowerUsed={handlePowerUsed}
-            isProcessing={isProcessingPower}
-          />
           <PowerUpsBar 
             onPowerUsed={handlePowerUsed}
             isProcessing={isProcessingPower}

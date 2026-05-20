@@ -16,7 +16,6 @@ import {
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { consumePower } from '@/lib/store/repository';
 import PowerUpsBar from '@/components/game/PowerUpsBar';
-import FramePowerButton from '@/components/game/FramePowerButton';
 import { toast } from 'sonner';
 
 export default function Gameplay() {
@@ -68,7 +67,8 @@ export default function Gameplay() {
         toast.error("Movèz repons!");
       }
     } else {
-      toast.success("Bòn repons!");
+      const isGoldOrCrown = user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame';
+      toast.success(isGoldOrCrown ? "Bòn repons! (Rekonpans Doub x2 👑)" : "Bòn repons!");
     }
   };
 
@@ -78,6 +78,27 @@ export default function Gameplay() {
       return () => clearTimeout(timerId);
     }
   }, [timeLeft, isTimeFrozen]);
+
+  useEffect(() => {
+    if (user?.activeFrame) {
+      const isFire = user.activeFrame === 'fire' || user.activeFrame === 'fire_frame';
+      const isCrown = user.activeFrame === 'crown' || user.activeFrame === 'crow_frame';
+      
+      if (isFire || isCrown) {
+        // Ocultar 2 opciones incorrectas automáticamente
+        const incorrects = options.filter(o => !o.isCorrect).map(o => o.id);
+        const shuffled = incorrects.sort(() => 0.5 - Math.random());
+        setRemovedOptions(shuffled.slice(0, 2));
+      }
+
+      if (isCrown) {
+        // Activar la segunda oportunidad de forma pasiva solo para Crown
+        setHasSecondChance(true);
+        setActivePowerUps(['secondChance']);
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user?.activeFrame]);
 
   const dashoffset = 276 - (276 * (timeLeft / 15));
 
@@ -221,10 +242,6 @@ export default function Gameplay() {
 
         {/* Wildcards (Comodines) */}
         <div className="mt-auto px-4 pb-6">
-          <FramePowerButton 
-            onPowerUsed={handlePowerUsed}
-            isProcessing={isProcessingPower}
-          />
           <PowerUpsBar 
             onPowerUsed={handlePowerUsed}
             isProcessing={isProcessingPower}

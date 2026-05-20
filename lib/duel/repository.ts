@@ -563,6 +563,9 @@ export async function createDuel(
     winnerIds: [],
     loserIds: [],
     isTie: false,
+    hasRandomChallenge: Math.random() < 0.5,
+    challengeRoundIndex: Math.floor(Math.random() * totalRounds) + 1,
+    challengeQuestionIndex: Math.floor(Math.random() * 3), // assuming at least 3 questions per round
     language,
     difficulty,
     selectedCategories: categories,

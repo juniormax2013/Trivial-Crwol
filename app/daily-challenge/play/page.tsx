@@ -4,7 +4,7 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { BookOpen, X, CheckCircle2, XCircle, Loader2 } from 'lucide-react';
 import { getTodayChallenge, getChallengeQuestions, getUserDailyChallengeData, DEMO_USER_UID } from '@/lib/daily-challenge/repository';
-import { getGameEngineConfig } from '@/lib/admin/settings-repository';
+import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
 import { calculateAnswerPoints, completeDailyChallenge } from '@/lib/daily-challenge/service';
 import type {
   DailyChallengeModel,
@@ -14,9 +14,15 @@ import type {
 } from '@/lib/daily-challenge/models';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useT, useLanguage } from '@/lib/i18n/context';
+import { RandomChallengeModal, fireChallengeSuccessConfetti } from '@/components/play/RandomChallengeModal';
+import ChallengePlayView from '@/components/play/ChallengePlayView';
+import { getRandomChallengeQuestion } from '@/lib/challenge/seed';
+import type { ChallengeQuestion } from '@/lib/challenge/models';
 import PowerUpsBar from '@/components/game/PowerUpsBar';
-import FramePowerButton from '@/components/game/FramePowerButton';
 import { toast } from 'sonner';
+import { useDevilTrap } from '@/hooks/useDevilTrap';
+import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
+import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
 
 const QUESTION_TIME_LIMIT = 20; // seconds per question
 const FEEDBACK_DURATION_MS = 1600; // show correct/wrong for this long
@@ -42,6 +48,7 @@ export default function DailyChallengePlayPage() {
   const [questions, setQuestions] = useState<QuestionModel[]>([]);
   const [userData, setUserData] = useState<UserChallengeData | null>(null);
   const [gameConfig, setGameConfig] = useState<any>(null);
+  const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
 
   const { user, loading: authLoading } = useAuthContext();
 
@@ -52,6 +59,8 @@ export default function DailyChallengePlayPage() {
   const [selectedOptionId, setSelectedOptionId] = useState<string | null>(null);
   const [timeLeft, setTimeLeft] = useState(QUESTION_TIME_LIMIT);
   const [errorMsg, setErrorMsg] = useState('');
+  const [devilSpawnedCount, setDevilSpawnedCount] = useState(0);
+  const [devilDefeatedCount, setDevilDefeatedCount] = useState(0);
 
   // ── Power-ups state ──────────────────────────────────────────
   const [activePowerUps, setActivePowerUps] = useState<string[]>([]);
@@ -59,6 +68,26 @@ export default function DailyChallengePlayPage() {
   const [showHint, setShowHint] = useState(false);
   const [hasSecondChance, setHasSecondChance] = useState(false);
   const [isProcessingPower, setIsProcessingPower] = useState(false);
+
+  // Random Challenge State
+  const [rcConfig, setRcConfig] = useState<{
+    hasChallenge: boolean;
+    questionIndex: number;
+    status: 'pending' | 'accepted' | 'rejected' | 'won' | 'lost' | null;
+    showModal: boolean;
+  } | null>(null);
+  const [challengeQuestion, setChallengeQuestion] = useState<ChallengeQuestion | null>(null);
+  const [showChallengePlay, setShowChallengePlay] = useState(false);
+
+  // Devil Trap Hook
+  const {
+    isDevilActive,
+    revealedOptions,
+    shuffledOptions,
+    triggerDevilTrap,
+    revealOption,
+    resetDevilTrap
+  } = useDevilTrap();
 
   // Timer refs to prevent stale closures
   const timerRef = useRef<NodeJS.Timeout | null>(null);
@@ -95,6 +124,24 @@ export default function DailyChallengePlayPage() {
         setQuestions(qs);
         setUserData(ud);
         setGameConfig(gc.dailyChallenge);
+        setEngineConfig(gc);
+        setDevilSpawnedCount(0);
+        setDevilDefeatedCount(0);
+        
+        // Initialize Random Challenge
+        const specialChallengeProb = gc.specialChallenge?.spawnProbability ?? 0.50;
+        const hasChallenge = Math.random() < specialChallengeProb;
+        setRcConfig({
+          hasChallenge,
+          questionIndex: hasChallenge ? Math.floor(Math.random() * qs.length) : -1,
+          status: 'pending',
+          showModal: false
+        });
+        if (hasChallenge) {
+          const randomChQ = getRandomChallengeQuestion(language);
+          setChallengeQuestion(randomChQ);
+        }
+
         questionStartTimeRef.current = Date.now();
         setPhase('answering');
       } catch {
@@ -110,17 +157,70 @@ export default function DailyChallengePlayPage() {
     if (phase === 'answering') {
       setTimeLeft(QUESTION_TIME_LIMIT);
       questionStartTimeRef.current = Date.now();
-      setActivePowerUps([]);
-      setHiddenOptionIds([]);
+      
+      const newActivePowerUps: string[] = [];
+      let newHiddenOptionIds: string[] = [];
+      let newHasSecondChance = false;
+
+      const q = questions[qIndex];
+      if (q && devilSpawnedCount < 5 && devilDefeatedCount < 2) {
+        const devilProb = engineConfig?.devilTrap?.spawnProbability ?? 0.15;
+        const willSpawn = Math.random() < devilProb;
+        if (willSpawn) {
+          triggerDevilTrap(q.options, true);
+          setDevilSpawnedCount(prev => prev + 1);
+        } else {
+          triggerDevilTrap(q.options, false);
+        }
+      } else {
+        resetDevilTrap();
+      }
+      
+      if (q) {
+        if (user?.activeFrame) {
+          const isFire = user.activeFrame === 'fire' || user.activeFrame === 'fire_frame';
+          const isCrown = user.activeFrame === 'crown' || user.activeFrame === 'crow_frame';
+          
+          // Remove 2 incorrect answers
+          // Fire frame and Crown frame only do it for the first 5 questions.
+          if ((isFire || isCrown) && qIndex < 5) {
+             const wrongOptions = q.options.filter(o => o.id !== q.correctOptionId);
+             newHiddenOptionIds = [...wrongOptions].sort(() => 0.5 - Math.random()).slice(0, 2).map(o => o.id);
+          }
+        }
+        
+        // Second chance is ONLY for Crown frame, and only for the first 5 questions
+        if (user?.activeFrame) {
+          const isCrown = user.activeFrame === 'crown' || user.activeFrame === 'crow_frame';
+          if (isCrown && qIndex < 5) {
+            newHasSecondChance = true;
+            newActivePowerUps.push('secondChance');
+          }
+        }
+      }
+
+      setActivePowerUps(newActivePowerUps);
+      setHiddenOptionIds(newHiddenOptionIds);
+      setHasSecondChance(newHasSecondChance);
       setShowHint(false);
+
+      // Check if this question is the Random Challenge
+      if (rcConfig?.hasChallenge && rcConfig.questionIndex === qIndex && rcConfig.status === 'pending') {
+        setRcConfig(prev => prev ? { ...prev, showModal: true } : null);
+      }
     }
-  }, [phase, qIndex]);
+  }, [phase, qIndex, questions, user?.activeFrame, rcConfig?.hasChallenge, rcConfig?.questionIndex, rcConfig?.status, triggerDevilTrap, engineConfig]);
 
   // ── Timer (only runs during 'answering' phase) ─────────────
   useEffect(() => {
-    if (phase !== 'answering') {
+    if (phase !== 'answering' || rcConfig?.showModal || showChallengePlay) {
       if (timerRef.current) clearInterval(timerRef.current);
       return;
+    }
+
+    // Since we unpause after modal, we need to adjust start time
+    if (!timerRef.current) {
+      questionStartTimeRef.current = Date.now() - ((QUESTION_TIME_LIMIT - timeLeft) * 1000);
     }
 
     if (activePowerUps.includes('freezeTime')) {
@@ -143,17 +243,21 @@ export default function DailyChallengePlayPage() {
       if (timerRef.current) clearInterval(timerRef.current);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [phase, qIndex, activePowerUps]);
+  }, [phase, qIndex, activePowerUps, rcConfig?.showModal, showChallengePlay, devilSpawnedCount, devilDefeatedCount, triggerDevilTrap, engineConfig]);
 
   // ── Record an answer ───────────────────────────────────────
-  const recordAnswer = useCallback(
+  const recordAnswer: (optionId: string | null, question: QuestionModel) => void = useCallback(
     (optionId: string | null, question: QuestionModel) => {
       if (timerRef.current) clearInterval(timerRef.current);
 
       const responseTimeMs = Date.now() - questionStartTimeRef.current;
       const isCorrect = optionId === question.correctOptionId;
 
-      if (!isCorrect && hasSecondChance && optionId !== null) {
+      if (isCorrect && isDevilActive) {
+        setDevilDefeatedCount(prev => prev + 1);
+      }
+
+      if (!isCorrect && hasSecondChance && optionId !== null && !isDevilActive) {
         toast.success("Chans an dezyèm itilize! Ou sove.");
         setHasSecondChance(false);
         setActivePowerUps(prev => prev.filter(p => p !== 'secondChance'));
@@ -167,7 +271,7 @@ export default function DailyChallengePlayPage() {
             setTimeLeft((prev) => {
               if (prev <= 1) {
                 clearInterval(timerRef.current!);
-                handleTimeout();
+                recordAnswer(null, question);
                 return 0;
               }
               return prev - 1;
@@ -177,7 +281,11 @@ export default function DailyChallengePlayPage() {
         return;
       }
 
-      const pointsEarned = calculateAnswerPoints(isCorrect, responseTimeMs, gameConfig);
+      let pointsEarned = calculateAnswerPoints(isCorrect, responseTimeMs, gameConfig);
+      const isGoldOrCrown = user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame';
+      if (isGoldOrCrown) {
+         pointsEarned *= 2;
+      }
 
       const answer: SessionAnswer = {
         questionId: question.id,
@@ -187,12 +295,22 @@ export default function DailyChallengePlayPage() {
         responseTimeMs,
         pointsEarned,
       };
+      
+      // Handle Random Challenge Outcome
+      if (rcConfig?.status === 'accepted' && rcConfig.questionIndex === qIndex) {
+        if (isCorrect) {
+          setRcConfig(prev => prev ? { ...prev, status: 'won' } : null);
+          fireChallengeSuccessConfetti();
+        } else {
+          setRcConfig(prev => prev ? { ...prev, status: 'lost' } : null);
+        }
+      }
 
       setSelectedOptionId(optionId);
       setAnswers((prev) => [...prev, answer]);
       setPhase('feedback');
     },
-    [gameConfig, hasSecondChance, activePowerUps]
+    [qIndex, questions, gameConfig, user, activePowerUps, hasSecondChance, isDevilActive, rcConfig?.status, rcConfig?.questionIndex]
   );
 
   // ── Handle timeout (no answer selected) ───────────────────
@@ -246,10 +364,20 @@ export default function DailyChallengePlayPage() {
       status: 'completed' as const,
     };
 
-    const result = await completeDailyChallenge(user.uid, session, userData);
+    const isGoldOrCrown = user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame';
+    
+    // Calculate Random Challenge Multiplier
+    const challengeMultiplier = rcConfig?.status === 'won' ? 3 : rcConfig?.status === 'lost' ? 0.5 : 1;
+    
+    const result = await completeDailyChallenge(user.uid, session, userData, isGoldOrCrown, challengeMultiplier);
 
     // Pass result through sessionStorage to result page
-    sessionStorage.setItem('daily_challenge_result', JSON.stringify(result));
+    // Attach challenge info so result page can show it
+    const finalResult = {
+      ...result,
+      challengeOutcome: rcConfig?.status
+    };
+    sessionStorage.setItem('daily_challenge_result', JSON.stringify(finalResult));
     router.push('/daily-challenge/result');
   };
 
@@ -285,6 +413,23 @@ export default function DailyChallengePlayPage() {
   const handleReport = () => {
     toast.success("Mèsi! Nou resevwa rapò w la.");
   };
+
+  const handleAcceptChallenge = useCallback(() => {
+    setRcConfig(prev => prev ? { ...prev, showModal: false, status: 'accepted' } : null);
+    setShowChallengePlay(true);
+  }, []);
+
+  const handleRejectChallenge = useCallback(() => {
+    setRcConfig(prev => prev ? { ...prev, showModal: false, status: 'rejected' } : null);
+  }, []);
+
+  const handleChallengeComplete = useCallback((isCorrect: boolean) => {
+    setShowChallengePlay(false);
+    setRcConfig(prev => prev ? { ...prev, status: isCorrect ? 'won' : 'lost' } : null);
+    // Reset timer to full limit for the standard question since they spent their time on the challenge
+    setTimeLeft(QUESTION_TIME_LIMIT);
+    questionStartTimeRef.current = Date.now();
+  }, []);
 
   // ── RENDER: Loading ────────────────────────────────────────
   if (phase === 'loading' || phase === 'finishing') {
@@ -323,6 +468,19 @@ export default function DailyChallengePlayPage() {
 
   return (
     <div className="bg-[#faf9fc] text-[#1b1b1e] min-h-screen flex flex-col font-sans selection:bg-[#eddcff] relative">
+      <RandomChallengeModal 
+        isOpen={!!rcConfig?.showModal} 
+        onAccept={handleAcceptChallenge} 
+        onReject={handleRejectChallenge} 
+      />
+
+      {showChallengePlay && challengeQuestion && (
+        <ChallengePlayView
+          question={challengeQuestion}
+          onComplete={handleChallengeComplete}
+          onClose={() => setShowChallengePlay(false)}
+        />
+      )}
 
       {/* Background Decorations */}
       <div className="fixed inset-0 -z-10 pointer-events-none overflow-hidden opacity-[0.12]">
@@ -455,7 +613,14 @@ export default function DailyChallengePlayPage() {
                   </span>
                 </div>
                 <span className={`text-[16px] font-semibold flex-grow ${textClass}`}>
-                  {option.text}
+                  <DevilTrapOptionText
+                    isDevilActive={isDevilActive}
+                    optionId={OPTION_LETTERS[option.id] ?? option.id.toUpperCase()}
+                    isRevealed={revealedOptions.includes(option.id)}
+                    onReveal={() => revealOption(option.id)}
+                    originalText={option.text}
+                    language={language}
+                  />
                 </span>
                 {showFeedback && Icon && (
                   <Icon className="w-5 h-5 text-white shrink-0 ml-2" strokeWidth={2} />
@@ -478,20 +643,17 @@ export default function DailyChallengePlayPage() {
         )}
 
         <div className="flex flex-col items-end gap-2">
-          <FramePowerButton 
-            onPowerUsed={handlePowerUsed} 
-            disabled={phase !== 'answering'} 
-          />
           <PowerUpsBar 
             onPowerUsed={handlePowerUsed}
             onReport={handleReport}
             isProcessing={isProcessingPower}
             setIsProcessing={setIsProcessingPower}
-            disabled={phase !== 'answering'}
+            disabled={phase !== 'answering' || isDevilActive}
             activePowerUps={activePowerUps}
           />
         </div>
       </main>
+      <DevilTrapOverlay isActive={isDevilActive} />
     </div>
   );
 }

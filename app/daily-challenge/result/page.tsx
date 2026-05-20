@@ -17,8 +17,10 @@ import {
 } from 'lucide-react';
 import { getMotivationalMessage, getCountdownToMidnight } from '@/lib/daily-challenge/service';
 import type { DailyChallengeResult } from '@/lib/daily-challenge/models';
+import { useAuthContext } from '@/components/auth/AuthProvider';
 
 export default function DailyChallengeResultPage() {
+  const { user } = useAuthContext();
   const router = useRouter();
   const [result, setResult] = useState<DailyChallengeResult | null>(null);
   const [countdown, setCountdown] = useState('');
@@ -138,8 +140,26 @@ export default function DailyChallengeResultPage() {
         </div>
 
         {/* Rewards earned */}
-        <div className="bg-white rounded-[1.5rem] p-6 shadow-[0_2px_12px_rgba(0,0,0,0.04)] border border-[#310065]/5">
-          <p className="text-[10px] font-bold text-[#7c7483] uppercase tracking-widest mb-4">
+        <div className="bg-white rounded-[1.5rem] p-6 shadow-[0_2px_12px_rgba(0,0,0,0.04)] border border-[#310065]/5 relative overflow-hidden">
+          {/* Random Challenge Indicator */}
+          {((result as any).challengeOutcome === 'won') && (
+             <div className="absolute top-0 right-0 bg-emerald-100 text-emerald-800 text-[10px] font-bold px-3 py-1 rounded-bl-xl border-b border-l border-emerald-200 z-10">
+               ⚡ Reto Superado (x3)
+             </div>
+          )}
+          {((result as any).challengeOutcome === 'lost') && (
+             <div className="absolute top-0 right-0 bg-red-100 text-red-800 text-[10px] font-bold px-3 py-1 rounded-bl-xl border-b border-l border-red-200 z-10">
+               ❌ Reto Fallido (x0.5)
+             </div>
+          )}
+          {/* Gold Frame Indicator */}
+          {user && (user.activeFrame === 'gold' || user.activeFrame === 'crown' || user.activeFrame === 'gold_frame' || user.activeFrame === 'crow_frame') && (
+            <div className={`absolute ${((result as any).challengeOutcome === 'won' || (result as any).challengeOutcome === 'lost') ? 'top-6 right-0 rounded-bl-xl border-t' : 'top-0 right-0 rounded-bl-xl'} bg-amber-100 text-amber-800 text-[10px] font-bold px-3 py-1 border-b border-l border-amber-200 z-10`}>
+              👑 Bonus x2 Activo
+            </div>
+          )}
+          
+          <p className="text-[10px] font-bold text-[#7c7483] uppercase tracking-widest mb-4 mt-2">
             Recompensas obtenidas
           </p>
           <div className="space-y-3.5">
@@ -151,7 +171,9 @@ export default function DailyChallengeResultPage() {
                   </div>
                   <span className="font-semibold text-[#1b1b1e] text-[15px]">Experiencia</span>
                 </div>
-                <span className="font-black text-[#4a148c] text-[16px]">+{result.xpEarned} XP</span>
+                <div className="text-right">
+                  <span className="font-black text-[#4a148c] text-[16px]">+{result.xpEarned} XP</span>
+                </div>
               </div>
             )}
 
@@ -165,7 +187,14 @@ export default function DailyChallengeResultPage() {
                     </div>
                     <span className="font-semibold text-[#1b1b1e] text-[15px]">Monedas</span>
                   </div>
-                  <span className="font-black text-[#735c00] text-[16px]">+{result.coinsEarned}</span>
+                  <div className="text-right">
+                    <span className="font-black text-[#735c00] text-[16px]">+{result.coinsEarned}</span>
+                    {user && (user.activeFrame === 'gold' || user.activeFrame === 'crown' || user.activeFrame === 'gold_frame' || user.activeFrame === 'crow_frame') && (
+                      <div className="text-[10px] text-amber-600 font-bold tracking-wide mt-0.5">
+                        Base: {result.coinsEarned / 2} | Bonus: +{result.coinsEarned / 2}
+                      </div>
+                    )}
+                  </div>
                 </div>
               </>
             )}
@@ -180,7 +209,9 @@ export default function DailyChallengeResultPage() {
                     </div>
                     <span className="font-semibold text-[#1b1b1e] text-[15px]">Gemas</span>
                   </div>
-                  <span className="font-black text-blue-700 text-[16px]">+{result.gemsEarned}</span>
+                  <div className="text-right">
+                    <span className="font-black text-blue-700 text-[16px]">+{result.gemsEarned}</span>
+                  </div>
                 </div>
               </>
             )}
