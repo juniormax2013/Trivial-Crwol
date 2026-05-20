@@ -662,3 +662,4 @@ export default function CrownArenaPlayPage() {
       <DevilTrapOverlay isActive={isDevilActive} />
     </div>
   );
+}
