@@ -55,8 +55,8 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="ht" className={`${notoSerif.variable} ${manrope.variable}`}>
       <head>
-        {/* Enable both light and dark mode */}
-        <meta name="color-scheme" content="light dark" />
+        {/* Enable only light mode */}
+        <meta name="color-scheme" content="light" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         
         {/* Status Bar Styling: 'default' provides dark text on a white background on iOS */}
@@ -79,7 +79,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
                 <LanguageSyncer />
                 
                 {/* Main Content Container with Safe Area Handling */}
-                <div className="w-full bg-white text-[#1b1b1e] relative min-h-[100dvh] overflow-x-hidden flex flex-col flex-1">
+                <div className="w-full bg-[var(--background)] text-[var(--foreground)] relative min-h-[100dvh] overflow-x-hidden flex flex-col flex-1">
                   {children}
                 </div>
                 

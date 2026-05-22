@@ -7,6 +7,7 @@ import { Home, Swords, Crown, Users, UserCircle, Menu, X, Shield } from 'lucide-
 import { useT } from '@/lib/i18n/context';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { motion, AnimatePresence } from 'framer-motion';
+import UserAvatar from '@/components/UserAvatar';
 
 interface BottomNavProps {
   activeTab: 'home' | 'play' | 'ranking' | 'social' | 'profile' | 'aliados';
@@ -130,29 +131,18 @@ export default function BottomNav({ activeTab, showTriggerButton = true }: Botto
                 {/* Avatar + Nombre */}
                 <div className="flex items-center gap-3 mb-4 relative z-10">
                   <div className="relative shrink-0">
-                    <div className="w-[56px] h-[56px] rounded-2xl overflow-hidden
-                                    bg-white/20 border-2 border-white/20 shadow-lg">
-                      {user?.photoURL ? (
-                        <Image
-                          src={user.photoURL}
-                          alt="Foto de perfil"
-                          width={56}
-                          height={56}
-                          className="object-cover w-full h-full"
-                          referrerPolicy="no-referrer"
-                        />
-                      ) : (
-                        <div className="w-full h-full flex items-center justify-center
-                                        text-white font-black text-2xl">
-                          {displayName[0]?.toUpperCase() ?? 'U'}
-                        </div>
-                      )}
-                    </div>
+                    <UserAvatar
+                      photoURL={user?.photoURL}
+                      activeFrame={user?.activeFrame}
+                      username={displayName}
+                      size={56}
+                      animate={true}
+                    />
                     {/* Badge de nivel */}
                     <div className="absolute -bottom-1.5 -right-1.5
                                     bg-[#e9c349] text-[#310065] text-[9px] font-black
                                     w-5 h-5 rounded-lg flex items-center justify-center
-                                    border-2 border-[#310065] shadow-md">
+                                    border-2 border-[#310065] shadow-md z-20">
                       {user?.level || 1}
                     </div>
                   </div>

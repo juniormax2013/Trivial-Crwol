@@ -117,34 +117,13 @@ export default function HomeDashboard() {
   const [friends, setFriends] = useState<AppUserModel[]>([]);
   const [showExplanation, setShowExplanation] = useState(false);
   const [activeSummaryTab, setActiveSummaryTab] = useState<'me' | 'friends'>('me');
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const isDarkMode = false;
   const [aiBibleEnabled, setAiBibleEnabled] = useState(true);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
-    const storedTheme = window.localStorage.getItem('bc_theme');
-    const prefersDark = window.matchMedia?.('(prefers-color-scheme: dark)').matches;
-
-    if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
-      document.documentElement.classList.add('dark');
-      setIsDarkMode(true);
-    } else {
-      document.documentElement.classList.remove('dark');
-      setIsDarkMode(false);
-    }
+    document.documentElement.classList.remove('dark');
   }, []);
-
-  const toggleTheme = () => {
-    const nextMode = !isDarkMode;
-    setIsDarkMode(nextMode);
-    if (nextMode) {
-      document.documentElement.classList.add('dark');
-      window.localStorage.setItem('bc_theme', 'dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-      window.localStorage.setItem('bc_theme', 'light');
-    }
-  };
 
 
   // Daily Verse calculation
@@ -290,10 +269,10 @@ export default function HomeDashboard() {
   });
 
   return (
-    <div className="bg-surface text-[#1c1c1e] min-h-screen pb-8 font-sans selection:bg-[#eddcff] overflow-x-hidden">
+    <div className="bg-[radial-gradient(circle_at_top_left,_rgba(203,167,47,0.12),_transparent_24%),radial-gradient(circle_at_bottom_right,_rgba(49,0,101,0.12),_transparent_28%),var(--background)] text-[var(--foreground)] min-h-screen pb-8 font-sans selection:bg-[#eddcff] overflow-x-hidden">
       
       {/* TOP NAVIGATION BAR - Premium iOS Style */}
-      <nav className="fixed top-0 w-full z-[60] bg-white/75 dark:bg-slate-950/80 backdrop-blur-xl shadow-[0_4px_30px_rgba(49,0,101,0.02)] pt-safe">
+      <nav className="fixed top-0 w-full z-[60] bg-white/80 dark:bg-slate-950/80 backdrop-blur-xl shadow-[0_12px_30px_-14px_rgba(15,23,42,0.18)] border border-slate-200/60 dark:border-slate-800/60 pt-safe">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-3">
           
           {/* Botón de menú lateral */}
@@ -344,15 +323,7 @@ export default function HomeDashboard() {
               <ShoppingBag size={20} strokeWidth={2.5} className="group-hover:rotate-12 transition-transform duration-300" />
             </motion.button>
 
-            <motion.button
-              whileHover={{ scale: 1.05, y: -1 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={toggleTheme}
-              aria-label="Alternar tema oscuro/claro"
-              className="w-11 h-11 rounded-2xl border border-[#310065]/10 bg-surface-container-low hover:bg-surface-container dark:bg-slate-900 dark:hover:bg-slate-800 transition-colors flex items-center justify-center text-[#310065] dark:text-slate-100"
-            >
-              {isDarkMode ? <Sun size={18} /> : <Moon size={18} />}
-            </motion.button>
+
           </div>
         </div>
       </nav>
@@ -361,7 +332,7 @@ export default function HomeDashboard() {
         
         {/* 1. TOP HERO SLIDESHOW */}
         <section className="px-3 sm:px-5">
-          <div className="relative h-56 sm:h-72 md:h-80 w-full rounded-[2.5rem] sm:rounded-[3.5rem] overflow-hidden shadow-[0_30px_60px_-15px_rgba(49,0,101,0.3)] group bg-white">
+          <div className="relative h-56 sm:h-72 md:h-80 w-full rounded-[2.5rem] sm:rounded-[3.5rem] overflow-hidden shadow-[0_40px_80px_-30px_rgba(49,0,101,0.18)] group bg-[rgba(255,255,255,0.92)] dark:bg-slate-950/95 border border-white/10 dark:border-slate-800/70">
             <AnimatePresence mode="wait">
               <motion.div 
                 key={currentSlide}
@@ -446,7 +417,7 @@ export default function HomeDashboard() {
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.99 }}
             onClick={() => setShowExplanation(true)}
-            className="bg-surface-container-lowest rounded-[2rem] sm:rounded-[3rem] shadow-[0_20px_50px_rgba(0,0,0,0.04)] p-6 sm:p-10 space-y-6 sm:space-y-8 relative overflow-hidden group cursor-pointer border border-amber-400/10"
+            className="bg-[rgba(255,255,255,0.87)] dark:bg-slate-950/90 rounded-[2rem] sm:rounded-[3rem] shadow-[0_24px_80px_-42px_rgba(15,23,42,0.12)] p-6 sm:p-10 space-y-6 sm:space-y-8 relative overflow-hidden group cursor-pointer border border-slate-200/60 dark:border-slate-700/60"
           >
             {/* Pulsing gold border decoration */}
             <motion.div 
@@ -505,7 +476,7 @@ export default function HomeDashboard() {
 
         {/* 4. WEEKLY SUMMARY & ACTIVITY - Unified Toggle Section */}
         <section className="px-3 sm:px-5">
-          <div className="bg-surface-container-lowest rounded-[2rem] sm:rounded-[2.5rem] p-5 sm:p-8 shadow-[0_10px_30px_rgba(0,0,0,0.03)] border border-black/5 space-y-6 sm:space-y-8 relative overflow-hidden">
+          <div className="bg-[rgba(255,255,255,0.86)] dark:bg-slate-950/90 rounded-[2rem] sm:rounded-[2.5rem] p-5 sm:p-8 shadow-[0_24px_80px_-48px_rgba(15,23,42,0.12)] border border-slate-200/60 dark:border-slate-700/50 space-y-6 sm:space-y-8 relative overflow-hidden">
             {/* TAB SWITCHER - Premium segmented control */}
             <div className="flex p-1.5 bg-surface-container-low rounded-[1.8rem] relative">
               <motion.div 

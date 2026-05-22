@@ -105,7 +105,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen w-full relative flex flex-col items-center justify-center p-4 sm:p-6 font-sans selection:bg-[#eddcff] overflow-hidden bg-[#11002c]">
+    <div className="min-h-screen w-full relative flex flex-col items-center justify-center p-4 sm:p-6 font-sans selection:bg-[#eddcff] overflow-hidden bg-[radial-gradient(circle_at_top_left,rgba(203,167,47,0.12),transparent_22%),radial-gradient(circle_at_bottom_right,rgba(49,0,101,0.12),transparent_26%),var(--background)]">
       
       {/* Background Image & Ambient Illumination */}
       <div className="absolute inset-0 z-[-10]">
@@ -113,11 +113,10 @@ export default function LoginPage() {
           src="/images/jwe-bib-la/bible-bg.png" 
           alt="Bible Background" 
           fill 
-          className="object-cover opacity-20 brightness-75 contrast-125 select-none pointer-events-none"
+          className="object-cover opacity-10 brightness-90 contrast-110 select-none pointer-events-none"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#11002c]/85 via-[#310065]/90 to-[#4a148c]/95 mix-blend-multiply" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_30%,#11002c_85%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-slate-100/40 dark:from-slate-900/20 dark:to-slate-950/70" />
       </div>
 
       {/* Floating Wisdom Particles */}
@@ -149,10 +148,10 @@ export default function LoginPage() {
 
       {/* Login Card Panel */}
       <motion.main 
-        initial={{ opacity: 0, y: 30 }}
+        initial={false}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-        className="w-full max-w-sm z-10 space-y-6 sm:space-y-8 bg-white/85 backdrop-blur-2xl border border-white/20 p-6 sm:p-8 rounded-[2.5rem] shadow-[0_24px_50px_rgba(17,0,44,0.4)] relative overflow-hidden"
+        className="w-full max-w-sm z-10 space-y-6 sm:space-y-8 bg-[rgba(255,255,255,0.85)] dark:bg-[rgba(15,23,42,0.92)] backdrop-blur-3xl border border-white/15 dark:border-slate-700/60 p-6 sm:p-8 rounded-[2.5rem] shadow-[0_30px_60px_-20px_rgba(15,23,42,0.25)] relative overflow-hidden"
       >
         {/* Soft Golden Glow Accent */}
         <div className="absolute -top-24 -right-24 w-48 h-48 bg-[#e9c349]/10 rounded-full blur-[40px] pointer-events-none" />
@@ -163,12 +162,12 @@ export default function LoginPage() {
           <motion.div 
             whileHover={{ scale: 1.08, rotate: [0, -2, 2, 0] }}
             transition={{ type: "spring", stiffness: 450, damping: 15 }}
-            className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-tr from-[#310065] to-[#4a148c] rounded-[1.5rem] shadow-[0_8px_24px_rgba(49,0,101,0.3)] border border-white/10 mb-2 cursor-pointer"
+            className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-tr from-[#310065] to-[#4a148c] rounded-[1.5rem] shadow-[0_12px_30px_rgba(49,0,101,0.25)] border border-white/15 mb-2"
           >
-            <span className="font-serif text-3xl font-black text-white select-none drop-shadow-[0_2px_4px_rgba(0,0,0,0.15)]">BC</span>
+            <span className="font-serif text-3xl font-black text-white select-none drop-shadow-[0_2px_4px_rgba(0,0,0,0.12)]">BC</span>
           </motion.div>
-          <h1 className="font-serif text-3xl font-black text-[#310065] tracking-tight">Bible Crown</h1>
-          <p className="text-[#564e5c] font-bold text-[14px]">
+          <h1 className="font-serif text-3xl font-black text-[#0f172a] dark:text-white tracking-tight">Bible Crown</h1>
+          <p className="text-[#475569] dark:text-slate-300 font-semibold text-[14px] leading-tight">
             {t.auth.tagline}
           </p>
         </div>
@@ -186,15 +185,15 @@ export default function LoginPage() {
           
           {/* Email Input */}
           <motion.div 
-            initial={{ opacity: 0, x: -10 }}
+            initial={false}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.1 }}
             className="space-y-1.5 px-1"
           >
-            <label className="text-[11px] font-black text-[#564e5c] uppercase tracking-widest ml-1">{t.auth.email}</label>
+            <label className="text-[11px] font-black text-[#475569] dark:text-slate-400 uppercase tracking-widest ml-1">{t.auth.email}</label>
             <div className="relative group">
               <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-                <Mail className="w-5 h-5 text-[#cdc3d4] group-focus-within:text-[#310065] transition-colors" />
+                <Mail className="w-5 h-5 text-[#9ca3af] group-focus-within:text-[#310065] transition-colors" />
               </div>
               <input 
                 type="email"
@@ -202,25 +201,25 @@ export default function LoginPage() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder={t.auth.placeholders.email}
-                className="w-full pl-12 pr-6 py-4 bg-white/90 border border-black/[0.04] rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.01)] focus:outline-none focus:ring-2 focus:ring-[#310065]/10 focus:border-[#310065] transition-all text-[#1b1b1e] font-semibold placeholder:text-[#cdc3d4]"
+                className="w-full pl-12 pr-6 py-4 bg-white/90 dark:bg-slate-900/80 border border-slate-200/70 dark:border-slate-700/70 rounded-2xl shadow-[0_2px_8px_rgba(15,23,42,0.08)] focus:outline-none focus:ring-2 focus:ring-[#310065]/10 focus:border-[#310065] transition-all text-[#0f172a] dark:text-slate-100 font-semibold placeholder:text-slate-400"
               />
             </div>
           </motion.div>
 
           {/* Password Input */}
           <motion.div 
-            initial={{ opacity: 0, x: -10 }}
+            initial={false}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2 }}
             className="space-y-1.5 px-1"
           >
             <div className="flex justify-between items-end mb-0.5 pr-1">
-              <label className="text-[11px] font-black text-[#564e5c] uppercase tracking-widest ml-1">{t.auth.password}</label>
+              <label className="text-[11px] font-black text-[#475569] dark:text-slate-400 uppercase tracking-widest ml-1">{t.auth.password}</label>
               <Link href="/forgot-password" className="text-[#310065] text-[12px] font-bold hover:underline transition-all">{t.auth.forgotPassword}</Link>
             </div>
             <div className="relative group">
               <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-                <Lock className="w-5 h-5 text-[#cdc3d4] group-focus-within:text-[#310065] transition-colors" />
+                <Lock className="w-5 h-5 text-[#9ca3af] group-focus-within:text-[#310065] transition-colors" />
               </div>
               <input 
                 type={showPassword ? "text" : "password"}
@@ -228,12 +227,12 @@ export default function LoginPage() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder={t.auth.placeholders.password}
-                className="w-full pl-12 pr-12 py-4 bg-white/90 border border-black/[0.04] rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.01)] focus:outline-none focus:ring-2 focus:ring-[#310065]/10 focus:border-[#310065] transition-all text-[#1b1b1e] font-semibold placeholder:text-[#cdc3d4]"
+                className="w-full pl-12 pr-12 py-4 bg-white/90 dark:bg-slate-900/80 border border-slate-200/70 dark:border-slate-700/70 rounded-2xl shadow-[0_2px_8px_rgba(15,23,42,0.08)] focus:outline-none focus:ring-2 focus:ring-[#310065]/10 focus:border-[#310065] transition-all text-[#0f172a] dark:text-slate-100 font-semibold placeholder:text-slate-400"
               />
               <button 
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute inset-y-0 right-0 pr-4 flex items-center text-[#cdc3d4] hover:text-[#310065] transition-colors"
+                className="absolute inset-y-0 right-0 pr-4 flex items-center text-[#9ca3af] hover:text-[#310065] transition-colors"
                 title={showPassword ? "Ocultar" : "Mostrar"}
               >
                 {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
@@ -243,7 +242,7 @@ export default function LoginPage() {
 
           {/* Submit Button */}
           <motion.button 
-            initial={{ opacity: 0, y: 10 }}
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
             whileHover={{ scale: 1.02 }}
@@ -264,15 +263,15 @@ export default function LoginPage() {
         </form>
 
         {/* Divider */}
-        <div className="relative flex items-center px-2 relative z-10">
-          <div className="flex-grow border-t border-[#1b1b1e]/10"></div>
-          <span className="mx-4 text-[#7c7483] text-[11px] font-bold uppercase tracking-widest">{t.auth.orContinueWith}</span>
-          <div className="flex-grow border-t border-[#1b1b1e]/10"></div>
+        <div className="flex items-center px-2 relative z-10">
+          <div className="flex-grow border-t border-slate-300/40 dark:border-slate-600/40" />
+          <span className="mx-4 text-slate-500 dark:text-slate-400 text-[11px] font-bold uppercase tracking-widest">{t.auth.orContinueWith}</span>
+          <div className="flex-grow border-t border-slate-300/40 dark:border-slate-600/40" />
         </div>
 
         {/* Social Buttons */}
         <motion.div 
-          initial={{ opacity: 0, y: 10 }}
+          initial={false}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
           className="grid grid-cols-2 gap-3 relative z-10"
@@ -283,17 +282,17 @@ export default function LoginPage() {
             type="button"
             onClick={handleGoogleLogin}
             disabled={isLoading}
-            className="flex items-center justify-center gap-2.5 py-4 bg-white border border-[#1b1b1e]/5 rounded-2xl shadow-[0_2px_8px_rgba(0,0,0,0.02)] hover:bg-[#f5f3f7] transition-all disabled:opacity-50 cursor-pointer"
+            className="flex items-center justify-center gap-2.5 py-4 bg-white border border-slate-200/70 rounded-2xl shadow-[0_10px_25px_-14px_rgba(15,23,42,0.15)] hover:bg-slate-50 transition-all disabled:opacity-50 cursor-pointer"
           >
             <Chrome className="w-5 h-5 text-[#241a00]" />
-            <span className="text-[14px] font-bold text-[#1b1b1e]">Google</span>
+            <span className="text-[14px] font-bold text-[#0f172a]">Google</span>
           </motion.button>
           <motion.button 
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             type="button"
             disabled={isLoading}
-            className="flex items-center justify-center gap-2.5 py-4 bg-[#1b1b1e] rounded-2xl shadow-[0_8px_20px_rgba(0,0,0,0.1)] hover:bg-black transition-all disabled:opacity-50 cursor-pointer"
+            className="flex items-center justify-center gap-2.5 py-4 bg-slate-950 text-white rounded-2xl shadow-[0_10px_25px_-14px_rgba(15,23,42,0.22)] hover:bg-slate-900 transition-all disabled:opacity-50 cursor-pointer"
           >
             <Apple className="w-5 h-5 text-white" fill="currentColor" />
             <span className="text-[14px] font-bold text-white">Apple</span>
@@ -301,7 +300,7 @@ export default function LoginPage() {
         </motion.div>
 
         {/* Footer */}
-        <p className="text-center text-[#564e5c] text-[14px] font-semibold pt-2 relative z-10">
+        <p className="text-center text-[#475569] dark:text-slate-400 text-[14px] font-semibold pt-2 relative z-10">
           {t.auth.noAccount}{' '}
           <Link href="/register" className="text-[#310065] font-black hover:underline uppercase tracking-widest text-[13px] transition-all">{t.auth.register}</Link>
         </p>

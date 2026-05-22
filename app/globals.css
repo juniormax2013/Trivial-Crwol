@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@variant dark (.never-dark &);
 
 @theme {
   --color-primary: #310065;
@@ -29,38 +30,25 @@
 }
 
 :root {
-  color-scheme: light dark;
-  --background: #ffffff;
-  --foreground: #1b1b1e;
-  --surface: #faf9fc;
+  color-scheme: light;
+  --background: #f7f5ff;
+  --foreground: #0f172a;
+  --surface: #ffffff;
   --surface-container-lowest: #ffffff;
-  --surface-container-low: #f5f3f7;
-  --surface-container: #efedf1;
-  --surface-container-high: #e9e7eb;
-  --on-surface: #1b1b1e;
-  --on-surface-variant: #4a4452;
-  --outline: #7c7483;
-  --outline-variant: #cdc3d4;
+  --surface-container-low: #f5f3ff;
+  --surface-container: #eef0ff;
+  --surface-container-high: #f1f3ff;
+  --on-surface: #0f172a;
+  --on-surface-variant: #475569;
+  --outline: #94a3b8;
+  --outline-variant: #cbd5e1;
 }
 
-html.dark {
-  color-scheme: dark;
-  --background: #09090b;
-  --foreground: #f8fafc;
-  --surface: #111827;
-  --surface-container-lowest: #111827;
-  --surface-container-low: #1f2937;
-  --surface-container: #374151;
-  --surface-container-high: #4b5563;
-  --on-surface: #f8fafc;
-  --on-surface-variant: #d1d5db;
-  --outline: #9ca3af;
-  --outline-variant: #6b7280;
-}
+
 
 html {
   background-color: var(--background);
-  color-scheme: light dark;
+  color-scheme: light;
   /* Use scroll-padding-top to account for fixed headers if needed */
   scroll-padding-top: 5rem; 
 }
@@ -68,12 +56,16 @@ html {
 body {
   background-color: var(--background);
   color: var(--foreground);
+  background-image:
+    radial-gradient(circle at top left, rgba(203,167,47,0.13), transparent 25%),
+    radial-gradient(circle at bottom right, rgba(49,0,101,0.13), transparent 28%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 70rem 70rem, 80rem 80rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* WhatsApp-like scroll behavior - stable and white */
   overscroll-behavior-y: auto; 
   min-height: 100vh;
-  /* Ensure the background is consistent across the viewport */
   background: var(--background);
 }
 
@@ -86,10 +78,7 @@ input, textarea, select {
   color: #310065;
 }
 
-html.dark ::selection {
-  background-color: #4f46e5;
-  color: #f8fafc;
-}
+
 
 /* Safe Area Utilities */
 .pt-safe {
