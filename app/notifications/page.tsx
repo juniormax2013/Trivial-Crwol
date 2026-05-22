@@ -14,7 +14,7 @@ import {
 
 export default function Notifications() {
   return (
-    <div className="bg-[#faf9fc] text-[#1b1b1e] min-h-screen pb-32 font-sans selection:bg-[#eddcff]">
+    <div className="bg-[#faf9fc] text-[#1b1b1e] min-h-screen pb-8 font-sans selection:bg-[#eddcff]">
       
       {/* TopAppBar */}
       <nav className="fixed top-0 w-full z-50 bg-[#faf9fc]/80 backdrop-blur-2xl">

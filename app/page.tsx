@@ -14,6 +14,8 @@ import {
   Trophy,
   BookOpen,
   Bell,
+  Moon,
+  Sun,
   User,
   Calendar,
   Bookmark,
@@ -23,7 +25,8 @@ import {
   Info,
   ShoppingBag,
   Crown,
-  Brain
+  Brain,
+  Menu
 } from 'lucide-react';
 import { useT } from '@/lib/i18n/context';
 import { useNotifications } from '@/hooks/useNotifications';
@@ -114,7 +117,34 @@ export default function HomeDashboard() {
   const [friends, setFriends] = useState<AppUserModel[]>([]);
   const [showExplanation, setShowExplanation] = useState(false);
   const [activeSummaryTab, setActiveSummaryTab] = useState<'me' | 'friends'>('me');
+  const [isDarkMode, setIsDarkMode] = useState(false);
   const [aiBibleEnabled, setAiBibleEnabled] = useState(true);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const storedTheme = window.localStorage.getItem('bc_theme');
+    const prefersDark = window.matchMedia?.('(prefers-color-scheme: dark)').matches;
+
+    if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
+      document.documentElement.classList.add('dark');
+      setIsDarkMode(true);
+    } else {
+      document.documentElement.classList.remove('dark');
+      setIsDarkMode(false);
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    const nextMode = !isDarkMode;
+    setIsDarkMode(nextMode);
+    if (nextMode) {
+      document.documentElement.classList.add('dark');
+      window.localStorage.setItem('bc_theme', 'dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+      window.localStorage.setItem('bc_theme', 'light');
+    }
+  };
 
 
   // Daily Verse calculation
@@ -260,42 +290,25 @@ export default function HomeDashboard() {
   });
 
   return (
-    <div className="bg-surface text-[#1c1c1e] min-h-screen pb-32 font-sans selection:bg-[#eddcff] overflow-x-hidden">
+    <div className="bg-surface text-[#1c1c1e] min-h-screen pb-8 font-sans selection:bg-[#eddcff] overflow-x-hidden">
       
       {/* TOP NAVIGATION BAR - Premium iOS Style */}
-      <nav className="fixed top-0 w-full z-[60] bg-white/75 backdrop-blur-xl shadow-[0_4px_30px_rgba(49,0,101,0.02)] pt-safe">
+      <nav className="fixed top-0 w-full z-[60] bg-white/75 dark:bg-slate-950/80 backdrop-blur-xl shadow-[0_4px_30px_rgba(49,0,101,0.02)] pt-safe">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-3">
           
-          {/* Profile & XP Section */}
-          <div className="flex items-center gap-3">
-            <Link href="/profile" className="relative group">
-              <UserAvatar
-                photoURL={user?.photoURL}
-                activeFrame={user?.activeFrame}
-                username={user?.username}
-                size={44}
-              />
-              <motion.div 
-                whileHover={{ scale: 1.1 }}
-                className="absolute -bottom-1 -right-1 bg-[#310065] text-white text-[10px] font-black w-6 h-6 rounded-lg flex items-center justify-center border-2 border-white shadow-md z-20"
-              >
-                {user?.level || 1}
-              </motion.div>
-            </Link>
-            
-            <div className="flex flex-col gap-1.5">
-              <div className="flex items-center gap-1.5">
-                <span className="text-[10px] font-black text-[#310065] tracking-widest leading-none">XP</span>
-                <span className="text-[11px] font-bold text-gray-400 tabular-nums leading-none">{user?.xp || 0}</span>
-              </div>
-              <div className="h-2 w-12 sm:w-16 bg-surface-container-low rounded-full overflow-hidden shadow-inner">
-                <div 
-                  className="h-full bg-gradient-to-r from-[#310065] to-[#7b1fa2] rounded-full"
-                  style={{ width: `${Math.min(100, (user?.xp || 0) % 100)}%` }}
-                />
-              </div>
-            </div>
-          </div>
+          {/* Botón de menú lateral */}
+          <motion.button
+            whileHover={{ scale: 1.06 }}
+            whileTap={{ scale: 0.92 }}
+            onClick={() => window.dispatchEvent(new CustomEvent('open-sidenav'))}
+            aria-label="Abrir menú de navegación"
+            className="w-11 h-11 rounded-2xl
+                       bg-[#310065]/[0.06] hover:bg-[#310065]/[0.10]
+                       flex items-center justify-center
+                       text-[#310065] transition-colors duration-200"
+          >
+            <Menu size={22} strokeWidth={2.5} />
+          </motion.button>
 
           {/* Currency & Stats */}
           <div className="flex items-center gap-2">
@@ -329,6 +342,16 @@ export default function HomeDashboard() {
               className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-[#310065] to-[#4a148c] text-white flex items-center justify-center shadow-lg shadow-[#310065]/20 group"
             >
               <ShoppingBag size={20} strokeWidth={2.5} className="group-hover:rotate-12 transition-transform duration-300" />
+            </motion.button>
+
+            <motion.button
+              whileHover={{ scale: 1.05, y: -1 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={toggleTheme}
+              aria-label="Alternar tema oscuro/claro"
+              className="w-11 h-11 rounded-2xl border border-[#310065]/10 bg-surface-container-low hover:bg-surface-container dark:bg-slate-900 dark:hover:bg-slate-800 transition-colors flex items-center justify-center text-[#310065] dark:text-slate-100"
+            >
+              {isDarkMode ? <Sun size={18} /> : <Moon size={18} />}
             </motion.button>
           </div>
         </div>
@@ -688,7 +711,7 @@ export default function HomeDashboard() {
           initial={{ opacity: 0, scale: 0.8, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ delay: 0.5, type: 'spring', stiffness: 300, damping: 20 }}
-          className="fixed bottom-[90px] right-4 z-[55]"
+          className="fixed bottom-6 right-4 z-[55]"
         >
           <Link href="/bible-ai">
             <motion.button
@@ -713,7 +736,7 @@ export default function HomeDashboard() {
         </motion.div>
       )}
 
-      <BottomNav activeTab="home" />
+      <BottomNav activeTab="home" showTriggerButton={false} />
 
 
       {/* VERSE EXPLANATION MODAL */}

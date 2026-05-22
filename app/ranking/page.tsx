@@ -18,6 +18,7 @@ import { AppUserModel } from '@/lib/user/models';
 import { getTopUsersByXP } from '@/lib/user/repository';
 import { useT } from '@/lib/i18n/context';
 import BottomNav from '@/components/BottomNav';
+import BackButton from '@/components/BackButton';
 import UserAvatar from '@/components/UserAvatar';
 
 export default function Ranking() {
@@ -70,18 +71,13 @@ export default function Ranking() {
   const userRank = user ? topUsers.findIndex(u => u.uid === user.uid) + 1 : 0;
 
   return (
-    <div className="bg-gradient-to-b from-[#fdfbfd] via-[#faf8fb] to-[#fdfbfd] text-[#1b1b1e] min-h-screen pb-40 font-sans selection:bg-[#eddcff]">
+    <div className="bg-gradient-to-b from-[#fdfbfd] via-[#faf8fb] to-[#fdfbfd] text-[#1b1b1e] min-h-screen pb-32 font-sans selection:bg-[#eddcff]">
       
       {/* TopAppBar */}
       <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-purple-100/30 pt-safe shadow-[0_2px_20px_rgba(49,0,101,0.02)]">
         <div className="flex justify-between items-center w-full px-6 py-4 max-w-screen-xl mx-auto">
           <div className="flex items-center gap-3">
-            <UserAvatar
-              photoURL={user?.photoURL}
-              activeFrame={getPlayerFrame(user)}
-              username={user?.fullName || user?.username}
-              size={40}
-            />
+            <BackButton />
             <h1 className="text-[19px] font-black text-[#310065] tracking-tighter uppercase font-serif">Bible Crown</h1>
           </div>
           <div className="flex items-center gap-1.5 bg-[#f5f3f7] px-3 py-1.5 rounded-full border border-purple-100/40">
@@ -233,7 +229,7 @@ export default function Ranking() {
       </main>
 
       {/* Fixed User Status */}
-      <div className="fixed bottom-[96px] left-1/2 -translate-x-1/2 w-[calc(100%-2.5rem)] max-w-screen-xl px-6 py-4 bg-gradient-to-r from-[#210047] via-[#310065] to-[#4a148c] rounded-[2rem] shadow-[0_16px_36px_rgba(49,0,101,0.35)] z-40 border border-white/10 backdrop-blur-md">
+      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 w-[calc(100%-2.5rem)] max-w-screen-xl px-6 py-4 bg-gradient-to-r from-[#210047] via-[#310065] to-[#4a148c] rounded-[2rem] shadow-[0_16px_36px_rgba(49,0,101,0.35)] z-40 border border-white/10 backdrop-blur-md">
         <div className="flex items-center gap-4">
           <span className="font-serif font-black text-[#ffe088] text-[24px] tracking-tight">#{userRank > 0 ? userRank : "—"}</span>
           <UserAvatar
@@ -262,7 +258,7 @@ export default function Ranking() {
         </div>
       </div>
 
-      <BottomNav activeTab="ranking" />
+      <BottomNav activeTab="ranking" showTriggerButton={false} />
 
     </div>
   );

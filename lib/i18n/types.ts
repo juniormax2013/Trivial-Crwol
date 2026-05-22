@@ -70,6 +70,7 @@ export interface Translations {
     alerts: string;
     profile: string;
     social: string;
+    aliados: string;
   };
 
   // ---------- DASHBOARD ----------
@@ -568,6 +569,111 @@ export interface Translations {
       hint: string;
       freeze: string;
       secondChance: string;
+    };
+  };
+
+  // ---------- ALLIES ----------
+  allies: {
+    pageTitle: string;
+    equipBtn: string;
+    rarityEpic: string;
+    rarityRare: string;
+    allies: {
+      david:   { power: string };
+      ester:   { power: string };
+      salomon: { power: string };
+      moises:  { power: string };
+    };
+  };
+
+  // ---------- STORE ----------
+  store: {
+    title: string;
+    subtitle: string;
+    energy: string;
+    heart: string;
+    power: string;
+    kadr: string;
+    avatar: string;
+    tabEnergy: string;
+    tabHearts: string;
+    tabPowers: string;
+    tabProfile: string;
+    tabInventory: string;
+    loading: string;
+    seeAll: string;
+    profileFrames: string;
+    defaultFrame: string;
+    equipped: string;
+    equip: string;
+    active: string;
+    inventoryTitle: string;
+    inventorySubtitle: string;
+    activePowers: string;
+    lookCollection: string;
+    confirmTitle: string;
+    confirmDesc: string;
+    coinsLabel: string;
+    crownsLabel: string;
+    cancel: string;
+    successTitle: string;
+    successDesc: string;
+    thanksLabel: string;
+    close: string;
+    buy: string;
+    levelsNeeded: string;
+    activePowersText: string;
+    lockDetailText: string;
+    activeDetailText: string;
+    powerBulletTitle: string;
+    alreadyEquipped: string;
+    noCoins: string;
+    noCrowns: string;
+    purchaseError: string;
+    equipSuccess: string;
+    equipError: string;
+    description: {
+      fire: string;
+      gold: string;
+      crow: string;
+      noDesc: string;
+    };
+    frameNames: {
+      default: string;
+      fire: string;
+      gold: string;
+      crow: string;
+    };
+    frameBullets: {
+      gold1: string;
+      gold2: string;
+      fire1: string;
+      fire2: string;
+      crown1: string;
+      crown2: string;
+      crown3: string;
+    };
+    packs: {
+      e1: string;
+      e1Desc: string;
+      e2: string;
+      e2Desc: string;
+      e3: string;
+      e3Desc: string;
+      h1: string;
+      h1Desc: string;
+      h2: string;
+      h2Desc: string;
+      h3: string;
+      h3Desc: string;
+      removeTwo: string;
+      removeTwoDesc: string;
+      hintBible: string;
+      hintBibleDesc: string;
+      secondChance: string;
+      secondChanceDesc: string;
+      freezeTime: string;
+      freezeTimeDesc: string;
     };
   };
 }

@@ -40,6 +40,7 @@ import { TournamentRepository } from '@/lib/tournament/repository';
 import { Tournament } from '@/lib/tournament/models';
 import { useT } from '@/lib/i18n/context';
 import BottomNav from '@/components/BottomNav';
+import BackButton from '@/components/BackButton';
 
 export default function Arena() {
   const { user, loading } = useAuthContext();
@@ -80,14 +81,12 @@ export default function Arena() {
   }
 
   return (
-    <div className="bg-white text-[#1b1b1e] min-h-screen pb-32 font-sans selection:bg-[#eddcff]">
+    <div className="bg-white text-[#1b1b1e] min-h-screen pb-8 font-sans selection:bg-[#eddcff]">
       
       {/* TopAppBar */}
       <header className="fixed top-0 w-full z-50 bg-white shadow-sm flex items-center justify-between px-6 py-4 pt-safe">
         <div className="flex items-center gap-4">
-          <button className="text-[#310065] hover:bg-[#eddcff] transition-colors p-2 -ml-2 rounded-full active:scale-95">
-            <Menu className="w-6 h-6" />
-          </button>
+          <BackButton href="/" />
           <h1 className="font-serif text-xl font-black text-[#310065] leading-none">Bible <br/> Crown</h1>
         </div>
         <div className="flex items-center gap-2">
@@ -490,7 +489,7 @@ export default function Arena() {
 
       </main>
 
-      <BottomNav activeTab="play" />
+      <BottomNav activeTab="play" showTriggerButton={false} />
       
     </div>
   );

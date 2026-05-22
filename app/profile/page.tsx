@@ -27,6 +27,7 @@ import { useAuthContext } from '@/components/auth/AuthProvider';
 import UserAvatar from '@/components/UserAvatar';
 import { useT } from '@/lib/i18n/context';
 import BottomNav from '@/components/BottomNav';
+import BackButton from '@/components/BackButton';
 import { getActiveSeason, getUserProgress } from '@/lib/battle-pass/repository';
 import { BattlePassSeasonModel, UserBattlePassProgressModel } from '@/lib/battle-pass/models';
 import { getCategories } from '@/lib/category/repository';
@@ -97,12 +98,12 @@ export default function Profile() {
   };
 
   return (
-    <div className="bg-[#faf9fc] text-[#1b1b1e] min-h-screen pb-32 font-sans selection:bg-[#eddcff]">
+    <div className="bg-[#faf9fc] text-[#1b1b1e] min-h-screen pb-8 font-sans selection:bg-[#eddcff]">
       
       {/* TopAppBar */}
       <header className="fixed top-0 w-full z-50 flex justify-between items-center px-4 h-16 bg-white border-b border-black/[0.03] pt-safe">
         <div className="flex items-center gap-4">
-          <Menu className="text-[#310065] w-6 h-6 cursor-pointer" />
+          <BackButton href="/" />
         </div>
         <h1 className="font-serif font-bold text-lg text-[#310065]">{t.profile.title}</h1>
         <div className="flex items-center gap-4">
@@ -320,7 +321,7 @@ export default function Profile() {
         </section>
       </main>
 
-      <BottomNav activeTab="profile" />
+      <BottomNav activeTab="profile" showTriggerButton={false} />
     </div>
   );
 }

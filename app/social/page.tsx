@@ -25,6 +25,7 @@ import { QrShowModal } from '@/components/social/QrShowModal';
 import { useT } from '@/lib/i18n/context';
 import { AppUserModel } from '@/lib/user/models';
 import BottomNav from '@/components/BottomNav';
+import BackButton from '@/components/BackButton';
 import dynamic from 'next/dynamic';
 import UserAvatar from '@/components/UserAvatar';
 
@@ -152,12 +153,12 @@ export default function Social() {
   const onlineFriendsCount = friends.filter(isUserOnline).length;
 
   return (
-    <div className="bg-white text-[#1b1b1e] min-h-screen pb-32 font-sans selection:bg-[#eddcff]">
+    <div className="bg-white text-[#1b1b1e] min-h-screen pb-8 font-sans selection:bg-[#eddcff]">
       
       {/* TopAppBar */}
       <header className="fixed top-0 w-full z-50 bg-white border-b border-black/[0.03] flex justify-between items-center px-6 h-20 pt-safe">
         <div className="flex items-center gap-3">
-          <Users className="text-[#310065] w-[26px] h-[26px]" />
+          <BackButton />
           <h1 className="font-serif text-[22px] tracking-tight font-bold text-[#310065]">{t.social.title}</h1>
         </div>
         <div className="flex items-center gap-3">
@@ -386,7 +387,7 @@ export default function Social() {
         }} 
       />
 
-      <BottomNav activeTab="social" />
+      <BottomNav activeTab="social" showTriggerButton={false} />
 
     </div>
   );

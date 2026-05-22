@@ -28,6 +28,7 @@ import { buyResource, buyPower, buyCosmetic, equipCosmetic } from '@/lib/store/r
 import { getStoreItems, StoreItem } from '@/lib/store/admin-repository';
 import { toast } from 'sonner';
 import { motion, AnimatePresence } from 'motion/react';
+import { useT } from '@/lib/i18n/context';
 
 // --- ASSETS ---
 const assets = {
@@ -37,26 +38,96 @@ const assets = {
   storeBag: '/assets/store/ui/store-bag.png'
 };
 
-const getItemDescription = (item: StoreItem): string => {
-  if (item.description && item.description.trim() !== '') return item.description;
-  if (item.type !== 'frames') return "Okenn deskripsyon";
-
-  const nameLower = item.name.toLowerCase();
-  if (nameLower.includes('fire')) {
-    return "Elimina automáticamente 2 respuestas incorrectas por pregunta, y te da una segunda oportunidad si fallas la primera.";
-  }
-  if (nameLower.includes('gold')) {
-    return "Duplica las monedas y coronas ganadas al finalizar la partida de forma automática.";
-  }
-  if (nameLower.includes('crow')) {
-    return "Combina los efectos: elimina 2 respuestas incorrectas, te da una segunda oportunidad y duplica las recompensas al final.";
+const getItemName = (item: StoreItem, t: any): string => {
+  const id = item.itemId;
+  if (id === 'e1') return t.store.packs.e1;
+  if (id === 'e2') return t.store.packs.e2;
+  if (id === 'e3') return t.store.packs.e3;
+  if (id === 'h1') return t.store.packs.h1;
+  if (id === 'h2') return t.store.packs.h2;
+  if (id === 'h3') return t.store.packs.h3;
+  
+  if (id === 'removeTwo') return t.store.packs.removeTwo;
+  if (id === 'hintBible') return t.store.packs.hintBible;
+  if (id === 'secondChance') return t.store.packs.secondChance;
+  if (id === 'freezeTime') return t.store.packs.freezeTime;
+  
+  if (item.type === 'frames') {
+    const nameLower = item.name.toLowerCase();
+    if (nameLower.includes('fire')) return t.store.frameNames.fire;
+    if (nameLower.includes('gold')) return t.store.frameNames.gold;
+    if (nameLower.includes('crow') || nameLower.includes('crown')) return t.store.frameNames.crow;
   }
   
-  return "Okenn deskripsyon";
+  return item.name;
+};
+
+const getItemDescription = (item: StoreItem, t: any): string => {
+  const id = item.itemId;
+  if (id === 'e1') return t.store.packs.e1Desc;
+  if (id === 'e2') return t.store.packs.e2Desc;
+  if (id === 'e3') return t.store.packs.e3Desc;
+  if (id === 'h1') return t.store.packs.h1Desc;
+  if (id === 'h2') return t.store.packs.h2Desc;
+  if (id === 'h3') return t.store.packs.h3Desc;
+  
+  if (id === 'removeTwo') return t.store.packs.removeTwoDesc;
+  if (id === 'hintBible') return t.store.packs.hintBibleDesc;
+  if (id === 'secondChance') return t.store.packs.secondChanceDesc;
+  if (id === 'freezeTime') return t.store.packs.freezeTimeDesc;
+  
+  if (item.type === 'frames') {
+    const nameLower = item.name.toLowerCase();
+    if (nameLower.includes('fire')) return t.store.description.fire;
+    if (nameLower.includes('gold')) return t.store.description.gold;
+    if (nameLower.includes('crow') || nameLower.includes('crown')) return t.store.description.crow;
+    return t.store.description.noDesc;
+  }
+  
+  if (item.description && item.description.trim() !== '') {
+    return item.description;
+  }
+  
+  return t.store.description.noDesc;
+};
+
+const getFrameBullets = (frameId: string, t: any): string[] => {
+  const aliases: Record<string, string> = {
+    gold_frame:  'gold',
+    fire_frame:  'fire',
+    crown_frame: 'crown',
+    crow_frame:  'crown',
+  };
+  const normalized = aliases[frameId] ?? frameId;
+  if (normalized === 'gold') {
+    return [t.store.frameBullets.gold1, t.store.frameBullets.gold2];
+  }
+  if (normalized === 'fire') {
+    return [t.store.frameBullets.fire1, t.store.frameBullets.fire2];
+  }
+  if (normalized === 'crown' || normalized === 'crow') {
+    return [t.store.frameBullets.crown1, t.store.frameBullets.crown2, t.store.frameBullets.crown3];
+  }
+  return [];
+};
+
+const formatWithBoldName = (text: string, name: string) => {
+  const parts = text.split('{name}');
+  if (parts.length === 2) {
+    return (
+      <>
+        {parts[0]}
+        <span className="text-[#310065] font-black">{name}</span>
+        {parts[1]}
+      </>
+    );
+  }
+  return text.replace('{name}', name);
 };
 
 export default function StoreOverlay() {
   const { user } = useAuthContext();
+  const t = useT();
   const [isOpen, setIsOpen] = useState(false);
   const [activeTab, setActiveTab] = useState('Energy');
 
@@ -138,16 +209,16 @@ export default function StoreOverlay() {
       if (isProcessing) return;
       const balance = currencyType === 'coin' ? currentCoins : currentCrowns;
       if (balance < cost) {
-        toast.error(currencyType === 'coin' ? 'Ou pa gen ase kòb.' : 'Ou pa gen ase kouwòn.');
+        toast.error(currencyType === 'coin' ? t.store.noCoins : t.store.noCrowns);
         return;
       }
       try {
         setIsProcessing(true);
         const resType = storeItem.type === 'energy' ? 'energy' : 'heart';
         await buyResource(user!.uid, resType, storeItem.amount || 0, cost, currencyType);
-        setSuccessModal({show: true, type: storeItem.type === 'energy' ? 'Enèji' : 'Kè', name: `+${storeItem.amount}`});
+        setSuccessModal({show: true, type: storeItem.type === 'energy' ? t.store.energy : t.store.heart, name: `+${storeItem.amount}`});
       } catch (e: any) {
-        toast.error(e.message || 'Erè nan acha a.');
+        toast.error(e.message || t.store.purchaseError);
       } finally {
         setIsProcessing(false);
       }
@@ -159,15 +230,15 @@ export default function StoreOverlay() {
       if (isProcessing) return;
       const balance = currencyType === 'coin' ? currentCoins : currentCrowns;
       if (balance < cost) {
-        toast.error(currencyType === 'coin' ? 'Ou pa gen ase kòb.' : 'Ou pa gen ase kouwòn.');
+        toast.error(currencyType === 'coin' ? t.store.noCoins : t.store.noCrowns);
         return;
       }
       try {
         setIsProcessing(true);
         await buyPower(user!.uid, storeItem.itemId, 1, cost, currencyType);
-        setSuccessModal({show: true, type: 'Pouvwa', name: storeItem.name});
+        setSuccessModal({show: true, type: t.store.power, name: getItemName(storeItem, t)});
       } catch (e: any) {
-        toast.error(e.message || 'Erè nan acha a.');
+        toast.error(e.message || t.store.purchaseError);
       } finally {
         setIsProcessing(false);
       }
@@ -183,9 +254,9 @@ export default function StoreOverlay() {
       try {
         setIsProcessing(true);
         await equipCosmetic(user!.uid, cosmeticType, storeItem.itemId);
-        toast.success(`${storeItem.name} ekipe.`);
+        toast.success(t.store.equipSuccess.replace('{name}', getItemName(storeItem, t)));
       } catch (e: any) {
-        toast.error(e.message);
+        toast.error(e.message || t.store.equipError);
       } finally {
         setIsProcessing(false);
       }
@@ -196,16 +267,16 @@ export default function StoreOverlay() {
     showConfirmModal(storeItem, async (currencyType, cost) => {
       const balance = currencyType === 'coin' ? currentCoins : currentCrowns;
       if (balance < cost) {
-        toast.error(currencyType === 'coin' ? 'Ou pa gen ase kòb.' : 'Ou pa gen ase kouwòn.');
+        toast.error(currencyType === 'coin' ? t.store.noCoins : t.store.noCrowns);
         return;
       }
       try {
         setIsProcessing(true);
         await buyCosmetic(user!.uid, cosmeticType, storeItem.itemId, cost, currencyType);
         await equipCosmetic(user!.uid, cosmeticType, storeItem.itemId);
-        setSuccessModal({show: true, type: storeItem.type === 'frames' ? 'Kadr' : 'Avatar', name: storeItem.name});
+        setSuccessModal({show: true, type: storeItem.type === 'frames' ? t.store.kadr : t.store.avatar, name: getItemName(storeItem, t)});
       } catch (e: any) {
-        toast.error(e.message || 'Erè nan acha a.');
+        toast.error(e.message || t.store.purchaseError);
       } finally {
         setIsProcessing(false);
       }
@@ -258,8 +329,8 @@ export default function StoreOverlay() {
                     <ShoppingBag className="text-white" size={20} />
                   </div>
                   <div className="flex flex-col justify-center">
-                    <p className="text-[#310065] text-[10px] font-black uppercase tracking-[0.15em] opacity-80 leading-tight">Wayòm Bondye</p>
-                    <p className="text-gray-400 text-[9px] font-bold uppercase tracking-wider">Koleksyon Sentespri</p>
+                    <p className="text-[#310065] text-[10px] font-black uppercase tracking-[0.15em] opacity-80 leading-tight">{t.store.title}</p>
+                    <p className="text-gray-400 text-[9px] font-bold uppercase tracking-wider">{t.store.subtitle}</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
@@ -280,12 +351,11 @@ export default function StoreOverlay() {
               <div className="max-w-4xl mx-auto">
                 <nav className="flex gap-1.5 overflow-x-auto no-scrollbar pb-2 p-1 bg-black/5 rounded-[1.5rem] w-fit">
                   {[
-
-                    { id: 'Energy', label: 'Enèji', icon: Zap },
-                    { id: 'Hearts', label: 'Vi', icon: Heart },
-                    { id: 'Powers', label: 'Pouvwa', icon: Shield },
-                    { id: 'Profile', label: 'Look', icon: Palette },
-                    { id: 'Inventory', label: 'Sak ou', icon: Briefcase }
+                    { id: 'Energy', label: t.store.tabEnergy, icon: Zap },
+                    { id: 'Hearts', label: t.store.tabHearts, icon: Heart },
+                    { id: 'Powers', label: t.store.tabPowers, icon: Shield },
+                    { id: 'Profile', label: t.store.tabProfile, icon: Palette },
+                    { id: 'Inventory', label: t.store.tabInventory, icon: Briefcase }
                   ].map(tab => {
                     const isActive = activeTab === tab.id;
                     return (
@@ -316,7 +386,7 @@ export default function StoreOverlay() {
                       <Loader2 className="w-12 h-12 animate-spin text-[#310065] opacity-20" />
                       <ShoppingBag className="absolute inset-0 m-auto text-[#310065] w-5 h-5" />
                     </div>
-                    <p className="text-gray-400 font-bold uppercase tracking-widest text-[10px] mt-6">Chaje Boutik la...</p>
+                    <p className="text-gray-400 font-bold uppercase tracking-widest text-[10px] mt-6">{t.store.loading}</p>
                   </div>
                 ) : (
                   <>
@@ -350,8 +420,8 @@ export default function StoreOverlay() {
                               />
                             </div>
                             
-                            <h3 className="text-[#1b1b1e] font-black text-sm tracking-tight leading-tight mb-1">{p.name}</h3>
-                            <p className="text-gray-400 text-[10px] mb-4 font-bold uppercase tracking-wider">{p.amount} {activeTab === 'Energy' ? 'Enèji' : 'Vi'}</p>
+                            <h3 className="text-[#1b1b1e] font-black text-sm tracking-tight leading-tight mb-1">{getItemName(p, t)}</h3>
+                            <p className="text-gray-400 text-[10px] mb-4 font-bold uppercase tracking-wider">{p.amount} {activeTab === 'Energy' ? t.store.energy : t.store.heart}</p>
                             
                             <div className="w-full flex items-center justify-center gap-4 bg-[#f8f7fc] group-hover:bg-[#310065] group-hover:text-white py-3 rounded-2xl font-black text-xs transition-colors border border-black/[0.03] shadow-inner">
                               <div className="flex items-center gap-1">
@@ -399,8 +469,8 @@ export default function StoreOverlay() {
                               />
                             </div>
 
-                            <h3 className="text-[#1b1b1e] font-black text-sm tracking-tight leading-tight mb-1">{p.name}</h3>
-                            <p className="text-gray-400 text-[10px] mb-4 leading-snug font-medium line-clamp-2 px-2">{p.description}</p>
+                            <h3 className="text-[#1b1b1e] font-black text-sm tracking-tight leading-tight mb-1">{getItemName(p, t)}</h3>
+                            <p className="text-gray-400 text-[10px] mb-4 leading-snug font-medium line-clamp-2 px-2">{getItemDescription(p, t)}</p>
                             
                             <div className="flex items-center justify-center gap-3 bg-gray-50 px-4 py-1.5 rounded-2xl border border-black/5 mt-auto">
                               <div className="flex items-center gap-1.5">
@@ -435,7 +505,7 @@ export default function StoreOverlay() {
                                   <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${type === 'frames' ? 'bg-amber-50 text-amber-600' : 'bg-purple-50 text-purple-600'}`}>
                                     {type === 'frames' ? <LayoutGrid size={20} /> : <User size={20} />}
                                   </div>
-                                  <h2 className="text-[#1b1b1e] font-black text-xl tracking-tight uppercase">{type === 'frames' ? 'Kadr Pwofil' : 'Avatar'}</h2>
+                                  <h2 className="text-[#1b1b1e] font-black text-xl tracking-tight uppercase">{type === 'frames' ? t.store.profileFrames : t.store.avatar}</h2>
                                 </div>
                               </div>
                               <div className="grid grid-cols-2 sm:grid-cols-3 gap-5">
@@ -449,9 +519,9 @@ export default function StoreOverlay() {
                                         try {
                                           setIsProcessing(true);
                                           await equipCosmetic(user.uid, 'frame', null);
-                                          toast.success(`Kadr Defo ekipe.`);
+                                          toast.success(t.store.equipSuccess.replace('{name}', t.store.defaultFrame));
                                         } catch (e: any) {
-                                          toast.error(e.message || 'Erè nan ekipe.');
+                                          toast.error(e.message || t.store.equipError);
                                         } finally {
                                           setIsProcessing(false);
                                         }
@@ -483,9 +553,9 @@ export default function StoreOverlay() {
                                         </div>
                                       </div>
                                       <div className="text-center">
-                                        <p className={`font-black text-sm leading-tight mb-1 ${isDefaultActive ? 'text-[#310065]' : 'text-[#1b1b1e]'}`}>Kadr Defo</p>
+                                        <p className={`font-black text-sm leading-tight mb-1 ${isDefaultActive ? 'text-[#310065]' : 'text-[#1b1b1e]'}`}>{t.store.defaultFrame}</p>
                                         <span className={`text-[10px] font-bold uppercase tracking-wider ${isDefaultActive ? 'text-[#310065]/60' : 'text-gray-400'}`}>
-                                          {isDefaultActive ? 'Ekipe' : 'Mete li'}
+                                          {isDefaultActive ? t.store.equipped : t.store.equip}
                                         </span>
                                       </div>
                                     </button>
@@ -529,11 +599,11 @@ export default function StoreOverlay() {
                                         />
                                       </div>
                                       {/* Name */}
-                                      <p className={`font-black text-sm leading-tight text-center ${isActive ? 'text-[#310065]' : 'text-[#1b1b1e]'}`}>{item.name}</p>
+                                      <p className={`font-black text-sm leading-tight text-center ${isActive ? 'text-[#310065]' : 'text-[#1b1b1e]'}`}>{getItemName(item, t)}</p>
                                       {/* Power bullets (only for power frames) */}
-                                      {framePowerDef && framePowerDef.powerBullets.length > 0 && (
+                                      {framePowerDef && getFrameBullets(item.itemId, t).length > 0 && (
                                         <div className="w-full bg-[#f5f3f7] rounded-xl p-2.5 space-y-1">
-                                          {framePowerDef.powerBullets.map((bullet, i) => (
+                                          {getFrameBullets(item.itemId, t).map((bullet, i) => (
                                             <p key={i} className="text-[10px] font-bold text-[#1b1b1e]/80 leading-snug">{bullet}</p>
                                           ))}
                                         </div>
@@ -543,7 +613,9 @@ export default function StoreOverlay() {
                                         <div className="w-full flex items-center gap-1.5 bg-amber-50 border border-amber-200 rounded-xl px-2.5 py-1.5">
                                           <Lock size={11} className="text-amber-600 shrink-0" />
                                           <p className="text-[10px] font-black text-amber-700 leading-tight">
-                                            Poderes bloqueados · Nivel {framePowerDef.minLevel} (+{levelsNeeded} niveles)
+                                            {t.store.levelsNeeded
+                                              .replace('{minLevel}', String(framePowerDef.minLevel))
+                                              .replace('{levels}', String(levelsNeeded))}
                                           </p>
                                         </div>
                                       )}
@@ -551,7 +623,7 @@ export default function StoreOverlay() {
                                         <div className="w-full flex items-center gap-1.5 bg-green-50 border border-green-200 rounded-xl px-2.5 py-1.5">
                                           <Check size={11} className="text-green-600 shrink-0" />
                                           <p className="text-[10px] font-black text-green-700 leading-tight">
-                                            Poderes activos · Nivel {userLevel}
+                                            {t.store.activePowersText.replace('{level}', String(userLevel))}
                                           </p>
                                         </div>
                                       )}
@@ -559,7 +631,7 @@ export default function StoreOverlay() {
                                       <div className="w-full">
                                         {isOwned ? (
                                           <span className={`text-[10px] font-bold uppercase tracking-wider ${isActive ? 'text-[#310065]/60' : 'text-gray-400'}`}>
-                                            {isActive ? 'Ekipe' : 'Mete li'}
+                                            {isActive ? t.store.equipped : t.store.equip}
                                           </span>
                                         ) : (
                                           <div className="flex items-center justify-center gap-3 bg-gray-50 px-4 py-1.5 rounded-2xl border border-black/5">
@@ -594,35 +666,35 @@ export default function StoreOverlay() {
                            </div>
                            <div className="w-20 h-20 bg-gray-50 rounded-2xl flex items-center justify-center mx-auto mb-6 text-[#310065] border border-black/5">
                               <Briefcase size={32} strokeWidth={2.5} />
-                           </div>
-                           <h2 className="text-3xl font-black text-[#1b1b1e] mb-2 tracking-tight">SA OU GENYEN</h2>
-                           <p className="text-gray-400 font-bold uppercase tracking-widest text-[10px]">Tout resous ak pouvwa ou kolekte</p>
-                        </div>
+                            </div>
+                            <h2 className="text-3xl font-black text-[#1b1b1e] mb-2 tracking-tight">{t.store.inventoryTitle}</h2>
+                            <p className="text-gray-400 font-bold uppercase tracking-widest text-[10px]">{t.store.inventorySubtitle}</p>
+                         </div>
 
-                        <div className="space-y-8">
-                           <div className="flex items-center gap-2 px-1">
-                              <div className="w-1.5 h-6 bg-[#310065] rounded-full" />
-                              <h3 className="font-black text-xl text-[#1b1b1e] tracking-tight">Pouvwa Aktif</h3>
-                           </div>
-                           <div className="grid grid-cols-2 sm:grid-cols-3 gap-5">
-                              {(groupedItems.powers || []).map(p => {
-                                const qty = (inventory[p.itemId] || 0) + (p.itemId === 'hintBible' ? (inventory['hint'] || 0) : 0);
-                                if (qty <= 0) return null;
-                                return (
-                                  <div key={p.id} className="bg-white rounded-2xl p-6 border border-black/5 shadow-sm flex flex-col items-center group hover:shadow-md transition-all text-center">
-                                    <div className="relative w-20 h-20 mb-5">
-                                      <div className="absolute inset-0 bg-gray-50 rounded-2xl border border-black/5" />
-                                      <div 
-                                        className="absolute inset-0 m-2 group-hover:scale-110 transition-transform duration-500"
-                                        style={{
-                                          backgroundImage: `url(${p.icon})`,
-                                          backgroundSize: 'contain',
-                                          backgroundRepeat: 'no-repeat',
-                                          backgroundPosition: 'center'
-                                        }}
-                                      />
-                                    </div>
-                                    <h3 className="text-[#1b1b1e] font-black text-sm tracking-tight mb-3">{p.name}</h3>
+                         <div className="space-y-8">
+                            <div className="flex items-center gap-2 px-1">
+                               <div className="w-1.5 h-6 bg-[#310065] rounded-full" />
+                               <h3 className="font-black text-xl text-[#1b1b1e] tracking-tight">{t.store.activePowers}</h3>
+                            </div>
+                            <div className="grid grid-cols-2 sm:grid-cols-3 gap-5">
+                               {(groupedItems.powers || []).map(p => {
+                                 const qty = (inventory[p.itemId] || 0) + (p.itemId === 'hintBible' ? (inventory['hint'] || 0) : 0);
+                                 if (qty <= 0) return null;
+                                 return (
+                                   <div key={p.id} className="bg-white rounded-2xl p-6 border border-black/5 shadow-sm flex flex-col items-center group hover:shadow-md transition-all text-center">
+                                     <div className="relative w-20 h-20 mb-5">
+                                       <div className="absolute inset-0 bg-gray-50 rounded-2xl border border-black/5" />
+                                       <div 
+                                         className="absolute inset-0 m-2 group-hover:scale-110 transition-transform duration-500"
+                                         style={{
+                                           backgroundImage: `url(${p.icon})`,
+                                           backgroundSize: 'contain',
+                                           backgroundRepeat: 'no-repeat',
+                                           backgroundPosition: 'center'
+                                         }}
+                                       />
+                                     </div>
+                                     <h3 className="text-[#1b1b1e] font-black text-sm tracking-tight mb-3">{getItemName(p, t)}</h3>
                                     <div className="bg-[#310065] text-white font-black px-5 py-2 flex items-center justify-center rounded-2xl text-lg shadow-lg shadow-[#310065]/20">
                                       {qty}
                                     </div>
@@ -635,7 +707,7 @@ export default function StoreOverlay() {
                              <>
                                <div className="flex items-center gap-2 px-1 pt-8">
                                   <div className="w-1.5 h-6 bg-[#310065] rounded-full" />
-                                  <h3 className="font-black text-xl text-[#1b1b1e] tracking-tight">Koleksyon Look</h3>
+                                  <h3 className="font-black text-xl text-[#1b1b1e] tracking-tight">{t.store.lookCollection}</h3>
                                </div>
                                <div className="flex gap-5 overflow-x-auto no-scrollbar pb-6 pt-2">
                                   {[...ownedFrames, ...ownedAvatars].map(id => {
@@ -710,8 +782,10 @@ export default function StoreOverlay() {
                   />
                 </div>
 
-                <h2 className="text-center text-2xl font-black text-[#1b1b1e] tracking-tight mb-2">Èske w konfime?</h2>
-                <p className="text-center text-gray-500 font-medium mb-8 text-sm px-4">Ou pral achte <span className="text-[#310065] font-black">{confirmModal.item.name}</span>. Chwazi kijan ou vle peye:</p>
+                <h2 className="text-center text-2xl font-black text-[#1b1b1e] tracking-tight mb-2">{t.store.confirmTitle}</h2>
+                <p className="text-center text-gray-500 font-medium mb-8 text-sm px-4">
+                  {formatWithBoldName(t.store.confirmDesc, getItemName(confirmModal.item, t))}
+                </p>
 
                 <div className="flex flex-col w-full gap-3">
                   <button
@@ -728,7 +802,7 @@ export default function StoreOverlay() {
                       <div className="w-5 h-5 relative">
                         <Image src={assets.coin} alt="Coin" fill className="object-contain" />
                       </div>
-                      <span className="text-lg">{confirmModal.item.cost.toLocaleString()} Pyès</span>
+                      <span className="text-lg">{confirmModal.item.cost.toLocaleString()} {t.store.coinsLabel}</span>
                     </div>
                   </button>
 
@@ -746,7 +820,7 @@ export default function StoreOverlay() {
                       <div className="w-5 h-5 relative">
                         <Image src={assets.crown} alt="Crown" fill className="object-contain" />
                       </div>
-                      <span className="text-lg">{Math.ceil(confirmModal.item.cost / 2).toLocaleString()} Kouwòn</span>
+                      <span className="text-lg">{Math.ceil(confirmModal.item.cost / 2).toLocaleString()} {t.store.crownsLabel}</span>
                     </div>
                   </button>
 
@@ -755,7 +829,7 @@ export default function StoreOverlay() {
                     disabled={isProcessing}
                     className="w-full py-4 mt-2 rounded-2xl bg-gray-50 text-gray-400 font-black text-sm uppercase tracking-widest hover:bg-gray-100 transition-all active:scale-95"
                   >
-                    Anile
+                    {t.store.cancel}
                   </button>
                 </div>
               </div>
@@ -813,18 +887,18 @@ export default function StoreOverlay() {
                  </div>
 
                  {/* Title */}
-                 <h2 className="text-center text-2xl font-black text-[#1b1b1e] tracking-tight">{item.name}</h2>
+                 <h2 className="text-center text-2xl font-black text-[#1b1b1e] tracking-tight">{getItemName(item, t)}</h2>
 
                  {/* Description */}
                  <p className="text-center text-gray-500 font-medium text-sm px-2 leading-relaxed">
-                   {framePowerDef ? framePowerDef.description : getItemDescription(item)}
+                   {getItemDescription(item, t)}
                  </p>
 
                  {/* Power bullets — only for frames with powers */}
-                 {framePowerDef && framePowerDef.powerBullets.length > 0 && (
+                 {framePowerDef && getFrameBullets(item.itemId, t).length > 0 && (
                    <div className="w-full bg-[#f5f3f7] rounded-2xl p-4 space-y-2">
-                     <p className="text-[10px] font-black uppercase tracking-widest text-[#310065] mb-3">Poderes del frame</p>
-                     {framePowerDef.powerBullets.map((bullet, i) => (
+                     <p className="text-[10px] font-black uppercase tracking-widest text-[#310065] mb-3">{t.store.powerBulletTitle}</p>
+                     {getFrameBullets(item.itemId, t).map((bullet, i) => (
                        <div key={i} className="flex items-center gap-2">
                          <span className="text-[13px]">{bullet.split(' ')[0]}</span>
                          <p className="text-[12px] font-bold text-[#1b1b1e]/80 leading-snug">{bullet.slice(bullet.indexOf(' ') + 1)}</p>
@@ -840,9 +914,14 @@ export default function StoreOverlay() {
                        <Lock size={16} className="text-amber-600" />
                      </div>
                      <div>
-                       <p className="text-[11px] font-black text-amber-700 leading-tight">Poderes bloqueados</p>
+                       <p className="text-[11px] font-black text-amber-700 leading-tight">
+                         {t.store.levelsNeeded.split(' · ')[0]}
+                       </p>
                        <p className="text-[10px] font-medium text-amber-600 mt-0.5">
-                         Necesitas nivel <span className="font-black">{framePowerDef.minLevel}</span> · Te faltan <span className="font-black">{levelsNeeded}</span> niveles (estás en nivel {userLevel})
+                         {t.store.lockDetailText
+                           .replace('{minLevel}', String(framePowerDef.minLevel))
+                           .replace('{levels}', String(levelsNeeded))
+                           .replace('{userLevel}', String(userLevel))}
                        </p>
                      </div>
                    </div>
@@ -853,9 +932,13 @@ export default function StoreOverlay() {
                        <Check size={16} className="text-green-600" />
                      </div>
                      <div>
-                       <p className="text-[11px] font-black text-green-700 leading-tight">Poderes activos</p>
+                       <p className="text-[11px] font-black text-green-700 leading-tight">
+                         {t.store.activePowersText.split(' · ')[0]}
+                       </p>
                        <p className="text-[10px] font-medium text-green-600 mt-0.5">
-                         Nivel {userLevel} ≥ nivel mínimo {framePowerDef.minLevel} ✓
+                         {t.store.activeDetailText
+                           .replace('{minLevel}', String(framePowerDef.minLevel))
+                           .replace('{userLevel}', String(userLevel))}
                        </p>
                      </div>
                    </div>
@@ -865,7 +948,7 @@ export default function StoreOverlay() {
                    {isOwned ? (
                      isActive ? (
                         <div className="w-full py-4 rounded-2xl bg-gray-100 text-gray-400 font-black text-sm uppercase tracking-widest text-center">
-                          Ekipe deja
+                          {t.store.alreadyEquipped}
                         </div>
                      ) : (
                         <button
@@ -875,7 +958,7 @@ export default function StoreOverlay() {
                           }}
                           className="w-full py-4 rounded-2xl bg-[#310065] text-white font-black text-sm uppercase tracking-widest hover:bg-[#4a148c] transition-all active:scale-95 shadow-xl shadow-[#310065]/20"
                         >
-                          Mete li
+                          {t.store.equip}
                         </button>
                      )
                    ) : (
@@ -890,14 +973,14 @@ export default function StoreOverlay() {
                         }}
                         className="w-full py-4 rounded-2xl bg-[#310065] text-white font-black text-sm uppercase tracking-widest hover:bg-[#4a148c] transition-all active:scale-95 shadow-xl shadow-[#310065]/20"
                       >
-                        Achte
+                        {t.store.buy}
                       </button>
                    )}
                    <button
                      onClick={() => setItemDetailsModal({ show: false, item: null })}
                      className="w-full py-4 mt-2 rounded-2xl bg-gray-50 text-gray-400 font-black text-sm uppercase tracking-widest hover:bg-gray-100 transition-all active:scale-95"
                    >
-                     Fèmen
+                     {t.store.close}
                    </button>
                  </div>
                </div>
@@ -934,18 +1017,18 @@ export default function StoreOverlay() {
                 </div>
               </div>
 
-              <h2 className="text-[36px] font-black text-[#1b1b1e] mb-4 tracking-tighter leading-none">KONFIME!</h2>
+              <h2 className="text-[36px] font-black text-[#1b1b1e] mb-4 tracking-tighter leading-none">{t.store.successTitle}</h2>
               <div className="h-1 w-12 bg-amber-400 rounded-full mb-6" />
               
               <p className="text-gray-500 font-bold mb-12 text-lg leading-relaxed px-4">
-                Ou debloke <span className="text-[#310065] font-black">{successModal.name}</span> ak siksè nan Wayòm nan.
+                {formatWithBoldName(t.store.successDesc, successModal.name)}
               </p>
 
               <button 
                 onClick={() => setSuccessModal({show: false, type: '', name: ''})}
                 className="w-full bg-[#310065] text-white font-black py-6 rounded-[2rem] transition-all hover:shadow-[0_20px_40px_rgba(49,0,101,0.4)] active:scale-95 text-sm uppercase tracking-[0.2em] relative group overflow-hidden"
               >
-                <span className="relative z-10">MÈSI BONDYE</span>
+                <span className="relative z-10">{t.store.thanksLabel}</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
               </button>
             </motion.div>

@@ -75,7 +75,7 @@ export default function Settings() {
    */
 
   return (
-    <div className="bg-[#faf9fc] text-[#1b1b1e] min-h-screen pb-32 font-sans selection:bg-[#eddcff]">
+    <div className="bg-[#faf9fc] text-[#1b1b1e] min-h-screen pb-8 font-sans selection:bg-[#eddcff]">
       
       {/* TopAppBar */}
       <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 h-16 bg-white border-b border-[#310065]/5 pt-safe">

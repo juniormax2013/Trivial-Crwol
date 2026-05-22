@@ -17,7 +17,7 @@ export default function Dashboard() {
   const pendingDuelsCount = duelInvitations.length;
 
   return (
-    <div className="flex flex-col min-h-screen bg-white pb-24">
+    <div className="flex flex-col min-h-screen bg-white pb-8">
       {/* TopAppBar */}
       <nav className="sticky top-0 w-full z-40 bg-white pt-safe">
         <div className="flex justify-between items-center w-full px-6 py-4">
@@ -173,7 +173,7 @@ export default function Dashboard() {
         </section>
       </main>
 
-      <BottomNav activeTab="home" />
+      <BottomNav activeTab="home" showTriggerButton={false} />
     </div>
   );
 }

@@ -53,10 +53,10 @@ import StoreOverlay from '@/components/store/StoreOverlay';
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
-    <html lang="ht" className={`${notoSerif.variable} ${manrope.variable}`} style={{ colorScheme: 'light' }}>
+    <html lang="ht" className={`${notoSerif.variable} ${manrope.variable}`}>
       <head>
-        {/* Force Light Mode Appearance */}
-        <meta name="color-scheme" content="light" />
+        {/* Enable both light and dark mode */}
+        <meta name="color-scheme" content="light dark" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         
         {/* Status Bar Styling: 'default' provides dark text on a white background on iOS */}
@@ -71,7 +71,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
         {/* Prevent zoom on focus in iOS */}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
       </head>
-      <body className="font-sans bg-white text-[#1b1b1e] flex flex-col min-h-screen selection:bg-[#eddcff] overflow-x-hidden" suppressHydrationWarning>
+      <body className="font-sans bg-[var(--background)] text-[var(--foreground)] flex flex-col min-h-screen selection:bg-[#eddcff] overflow-x-hidden" suppressHydrationWarning>
         <LanguageProvider>
           <AuthProvider>
             <AuthGuard>

@@ -1,0 +1,99 @@
+{
+  "source": "/mnt/data/ghostwriter_images/generated/a_high_detail_mobile_game_ui_screen_dark_navy_bla_1.png",
+  "screen_size": [
+    941,
+    1672
+  ],
+  "assets": [
+    {
+      "file": "featured_jesus_card.png",
+      "crop_box": [
+        30,
+        200,
+        912,
+        688
+      ]
+    },
+    {
+      "file": "ally_jesus_portrait.png",
+      "crop_box": [
+        35,
+        205,
+        470,
+        683
+      ]
+    },
+    {
+      "file": "ally_ester_card.png",
+      "crop_box": [
+        30,
+        760,
+        463,
+        1123
+      ]
+    },
+    {
+      "file": "ally_ester_portrait.png",
+      "crop_box": [
+        32,
+        760,
+        260,
+        1123
+      ]
+    },
+    {
+      "file": "ally_david_card.png",
+      "crop_box": [
+        475,
+        760,
+        906,
+        1123
+      ]
+    },
+    {
+      "file": "ally_david_portrait.png",
+      "crop_box": [
+        475,
+        760,
+        735,
+        1123
+      ]
+    },
+    {
+      "file": "ally_salomon_card.png",
+      "crop_box": [
+        31,
+        1136,
+        463,
+        1504
+      ]
+    },
+    {
+      "file": "ally_salomon_portrait.png",
+      "crop_box": [
+        33,
+        1136,
+        265,
+        1504
+      ]
+    },
+    {
+      "file": "ally_moises_card.png",
+      "crop_box": [
+        475,
+        1136,
+        906,
+        1504
+      ]
+    },
+    {
+      "file": "ally_moises_portrait.png",
+      "crop_box": [
+        475,
+        1136,
+        735,
+        1504
+      ]
+    }
+  ]
+}
