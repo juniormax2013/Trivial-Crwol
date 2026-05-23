@@ -1,0 +1,75 @@
+{
+  "character": "devil",
+  "displayName": "Diablo Elegante",
+  "stateMachineName": "DevilStateMachine",
+  "defaultState": "idle",
+  "actions": {
+    "idle": {
+      "type": "state",
+      "value": 0,
+      "description": "Estado de respiración y espera en bucle."
+    },
+    "pensando": {
+      "type": "state",
+      "value": 1,
+      "description": "Análisis táctico del oponente."
+    },
+    "victoria": {
+      "type": "state",
+      "value": 2,
+      "description": "Celebración de burla porque el usuario perdió."
+    },
+    "derrota": {
+      "type": "state",
+      "value": 3,
+      "description": "Derrotado y humillado porque el usuario ganó."
+    },
+    "aparecer_humo": {
+      "type": "state",
+      "value": 4,
+      "description": "Invocación en pantalla con efecto de humo."
+    },
+    "desaparecer_humo": {
+      "type": "state",
+      "value": 5,
+      "description": "Escape de pantalla desvaneciéndose en humo."
+    },
+    "saludo": {
+      "type": "trigger",
+      "value": "saludo",
+      "description": "Reverencia caballerosa al iniciar."
+    },
+    "risa_malvada": {
+      "type": "trigger",
+      "value": "risa_malvada",
+      "description": "Risa malvada por respuesta incorrecta."
+    },
+    "ataque": {
+      "type": "trigger",
+      "value": "ataque",
+      "description": "Lanzamiento de poder oscuro."
+    },
+    "sorprendido": {
+      "type": "trigger",
+      "value": "sorprendido",
+      "description": "Alarma por destreza del usuario."
+    },
+    "enojo": {
+      "type": "boolean",
+      "value": "isEnraged",
+      "description": "Rabia persistente por racha del usuario."
+    }
+  },
+  "eventMappings": {
+    "user_answer_wrong": "risa_malvada",
+    "user_lost_game": "victoria",
+    "user_won_game": "derrota",
+    "devil_power_activated": "ataque",
+    "user_two_correct_answers": "sorprendido",
+    "app_loading": "pensando",
+    "user_correct_streak": "enojo",
+    "devil_enter_screen": "aparecer_humo",
+    "devil_exit_screen": "desaparecer_humo",
+    "default_state": "idle"
+  }
+}

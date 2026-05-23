@@ -1,0 +1,3 @@
+// Rive Character Animation File Placeholder.
+// Reemplaza este archivo con el binario exportado real de Rive (.riv) que contiene la State Machine: "DevilStateMachine".
+// Acciones requeridas en el archivo .riv: idle, pensado, victoria, derrota, aparecer_humo, desaparecer_humo, saludo, risa_malvada, ataque, sorprendido, enojo.

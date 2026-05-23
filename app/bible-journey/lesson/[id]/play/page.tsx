@@ -50,12 +50,13 @@ export default function BibleLessonPlay() {
   const [matchedPairs, setMatchedPairs] = useState<Record<string, string>>({}); // Maps Left -> Right
   const [failedMatch, setFailedMatch] = useState<boolean>(false);
 
-  // Devil Trap Hook
   const {
     isDevilActive,
+    devilMode,
     revealedOptions,
     shuffledOptions,
     devilState,
+    devilEvent,
     triggerDevilTrap,
     revealOption,
     resetDevilTrap,
@@ -103,13 +104,10 @@ export default function BibleLessonPlay() {
     setShowHint(false);
 
     if (currentQuestion.question_type === 'multiple_choice' && devilSpawnedCount < 5 && devilDefeatedCount < 2) {
-      const devilProb = engineConfig?.devilTrap?.spawnProbability ?? 0.15;
-      const willSpawn = Math.random() < devilProb;
-      if (willSpawn) {
-        triggerDevilTrap(currentQuestion.options || [], true);
+      const wasDevilActiveBefore = isDevilActive;
+      const spawned = triggerDevilTrap(currentQuestion.options || [], false, engineConfig?.devilTrap);
+      if (spawned && !wasDevilActiveBefore) {
         setDevilSpawnedCount(prev => prev + 1);
-      } else {
-        triggerDevilTrap(currentQuestion.options || [], false);
       }
     } else {
       resetDevilTrap();
@@ -120,7 +118,7 @@ export default function BibleLessonPlay() {
       const shuffled = [...currentQuestion.ordered_events].sort(() => Math.random() - 0.5);
       setOrderedList(shuffled);
     }
-  }, [currentIdx, currentQuestion, triggerDevilTrap, resetDevilTrap, engineConfig, devilSpawnedCount, devilDefeatedCount]);
+  }, [currentIdx, currentQuestion, triggerDevilTrap, resetDevilTrap, engineConfig, devilSpawnedCount, devilDefeatedCount, isDevilActive]);
 
   // Load Initial Hearts
   useEffect(() => {
@@ -751,7 +749,7 @@ export default function BibleLessonPlay() {
         </div>
       )}
 
-      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} />
+      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} devilMode={devilMode ?? undefined} devilEvent={devilEvent ?? undefined} />
     </div>
   );
 }

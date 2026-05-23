@@ -1,8 +1,9 @@
 'use client';
 
 import React from 'react';
-import CharacterTestScreen from '@/src/screens/CharacterTestScreen';
+import DevilEmotionTestScreen from '@/src/screens/DevilEmotionTestScreen';
 
 export default function TestCharacterPage() {
-  return <CharacterTestScreen />;
+  return <DevilEmotionTestScreen />;
 }
+

@@ -50,9 +50,11 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
   // Devil Trap Hook
   const {
     isDevilActive,
+    devilMode,
     revealedOptions,
     shuffledOptions,
     devilState,
+    devilEvent,
     triggerDevilTrap,
     revealOption,
     resetDevilTrap,
@@ -115,13 +117,10 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
 
       const currentQ = questions[questionIndex];
       if (currentQ && devilSpawnedCount < 5 && devilDefeatedCount < 2) {
-        const devilProb = engineConfig?.devilTrap?.spawnProbability ?? 0.15;
-        const willSpawn = Math.random() < devilProb;
-        if (willSpawn) {
-          triggerDevilTrap(currentQ.options, true);
+        const wasDevilActiveBefore = isDevilActive;
+        const spawned = triggerDevilTrap(currentQ.options, false, engineConfig?.devilTrap);
+        if (spawned && !wasDevilActiveBefore) {
           setDevilSpawnedCount(prev => prev + 1);
-        } else {
-          triggerDevilTrap(currentQ.options, false);
         }
       } else {
         resetDevilTrap();
@@ -152,7 +151,7 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
 
       setShowHint(false);
     }
-  }, [phase, questionIndex, duel?.turnTimeLimitSeconds, user?.activeFrame, questions, triggerDevilTrap, engineConfig, devilSpawnedCount, devilDefeatedCount, resetDevilTrap]);
+  }, [phase, questionIndex, duel?.turnTimeLimitSeconds, user?.activeFrame, questions, triggerDevilTrap, engineConfig, devilSpawnedCount, devilDefeatedCount, resetDevilTrap, isDevilActive]);
 
   // ── Timer ──────────────────────────────────────────────────────
   useEffect(() => {
@@ -569,6 +568,7 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
                     onReveal={() => revealOption(opt.id)}
                     originalText={opt.text}
                     language={userLanguage}
+                    devilMode={devilMode ?? undefined}
                   />
                 </button>
               );
@@ -592,7 +592,7 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
         )}
 
         <div className="h-8" />
-        <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} />
+        <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} devilMode={devilMode ?? undefined} devilEvent={devilEvent ?? undefined} />
       </div>
     );
   }

@@ -34,6 +34,15 @@ export interface GameEngineConfig {
   };
   devilTrap?: {
     spawnProbability: number;
+    observerModeEnabled?: boolean;
+    observerModeAppearanceChance?: number;
+    observerModeCanReactToPlayer?: boolean;
+    observerModeCanLeaveAfterGoodStreak?: boolean;
+    observerModeGoodStreakToLeave?: number;
+    powerModeWeight?: number;
+    observerModeWeight?: number;
+    correctAnswersToDefeat?: number;
+    wrongAnswersToWin?: number;
   };
   specialChallenge?: {
     spawnProbability: number;
@@ -79,6 +88,15 @@ export const DEFAULT_GAME_ENGINE_CONFIG: GameEngineConfig = {
   },
   devilTrap: {
     spawnProbability: 0.15,
+    observerModeEnabled: true,
+    observerModeAppearanceChance: 0.20,
+    observerModeCanReactToPlayer: true,
+    observerModeCanLeaveAfterGoodStreak: false,
+    observerModeGoodStreakToLeave: 5,
+    powerModeWeight: 50,
+    observerModeWeight: 50,
+    correctAnswersToDefeat: 2,
+    wrongAnswersToWin: 3,
   },
   specialChallenge: {
     spawnProbability: 0.50,

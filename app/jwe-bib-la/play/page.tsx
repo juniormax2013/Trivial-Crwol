@@ -98,9 +98,11 @@ export default function JweBibLaPlay() {
   // Devil Trap Hook
   const {
     isDevilActive,
+    devilMode,
     revealedOptions,
     shuffledOptions,
     devilState,
+    devilEvent,
     triggerDevilTrap,
     revealOption,
     resetDevilTrap,
@@ -216,17 +218,21 @@ export default function JweBibLaPlay() {
       let newHasSecondChance = false;
 
       const q = questions[currentIndex];
-      if (q && devilSpawnedCount < 5 && devilDefeatedCount < 2) {
-        const devilProb = engineConfig?.devilTrap?.spawnProbability ?? 0.15;
-        const willSpawn = Math.random() < devilProb;
-        if (willSpawn) {
-          triggerDevilTrap(q.options, true);
+      
+      // Si la partida tiene un Reto Especial programado, el diablo tiene terminantemente prohibido aparecer en toda la partida
+      const isDevilAllowedInMatch = !rcConfig?.hasChallenge;
+
+      const canTriggerDevil = q && devilSpawnedCount < 5 && devilDefeatedCount < 2 && isDevilAllowedInMatch;
+
+      if (canTriggerDevil) {
+        const wasDevilActiveBefore = isDevilActive;
+        const spawned = triggerDevilTrap(q.options, false, engineConfig?.devilTrap);
+        if (spawned && !wasDevilActiveBefore) {
           setDevilSpawnedCount(prev => prev + 1);
-        } else {
-          triggerDevilTrap(q.options, false);
         }
       } else {
-        resetDevilTrap();
+        // Si no está permitido el diablo o no se triggeró, nos aseguramos de ocultarlo por completo con humo
+        resetDevilTrap(true);
       }
 
       if (user?.activeFrame) {
@@ -252,10 +258,11 @@ export default function JweBibLaPlay() {
       setShowHint(false);
 
       if (rcConfig?.hasChallenge && rcConfig.questionIndex === currentIndex && rcConfig.status === 'pending') {
+        resetDevilTrap(true);
         setRcConfig(prev => prev ? { ...prev, showModal: true } : null);
       }
     }
-  }, [currentIndex, isLoading, questions.length, questions, user?.activeFrame, rcConfig?.hasChallenge, rcConfig?.questionIndex, rcConfig?.status, triggerDevilTrap, engineConfig, devilSpawnedCount, devilDefeatedCount]);
+  }, [currentIndex, isLoading, questions.length, questions, user?.activeFrame, rcConfig?.hasChallenge, rcConfig?.questionIndex, rcConfig?.status, triggerDevilTrap, engineConfig, devilSpawnedCount, devilDefeatedCount, isDevilActive, resetDevilTrap]);
 
   const handlePowerUsed = useCallback((powerId: string) => {
     setActivePowerUps(prev => {
@@ -938,7 +945,7 @@ export default function JweBibLaPlay() {
           />
         </div>
       </main>
-      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} />
+      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} devilMode={devilMode ?? undefined} devilEvent={devilEvent ?? undefined} />
     </div>
   );
 }

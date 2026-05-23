@@ -37,6 +37,14 @@ export default function GameEnginePage() {
   const [isResettingEnergy, setIsResettingEnergy] = useState(false);
   const [activeDuelTab, setActiveDuelTab] = useState<'easy' | 'medium' | 'hard'>('easy');
 
+  // Cálculos dinámicos de pesos proporcionales del Diablo
+  const powerWeight = config.devilTrap?.powerModeWeight ?? 50;
+  const observerWeight = config.devilTrap?.observerModeWeight ?? 50;
+  const obsEnabled = config.devilTrap?.observerModeEnabled ?? true;
+  const totalWeight = powerWeight + (obsEnabled ? observerWeight : 0);
+  const powerPercent = totalWeight > 0 ? Math.round((powerWeight / totalWeight) * 100) : 100;
+  const observerPercent = totalWeight > 0 && obsEnabled ? Math.round((observerWeight / totalWeight) * 100) : 0;
+
   useEffect(() => {
     loadConfig();
   }, []);
@@ -435,12 +443,12 @@ export default function GameEnginePage() {
                 </div>
 
                 <div className="p-6 space-y-8">
-                  {/* Trampa del Diablo */}
+                  {/* Probabilidad General de Aparición del Diablo */}
                   <div className="space-y-4">
                     <div className="flex justify-between items-center">
                       <label className="text-[12px] font-bold text-[#310065] uppercase tracking-wider flex items-center gap-2">
-                        <Flame className="w-4 h-4 text-red-500 fill-red-500/20" />
-                        Probabilidad de Trampa del Diablo
+                        <Flame className="w-4 h-4 text-red-500 fill-red-500/20 animate-pulse" />
+                        Probabilidad General de Aparición del Diablo
                       </label>
                       <span className="px-3 py-1 bg-red-50 text-red-700 font-extrabold text-[12px] rounded-lg border border-red-100">
                         {Math.round((config.devilTrap?.spawnProbability ?? 0.15) * 100)}%
@@ -460,6 +468,196 @@ export default function GameEnginePage() {
                       <span>50%</span>
                       <span>100% (Siempre activo)</span>
                     </div>
+                  </div>
+
+                  {/* Ajustes de Combate del Diablo (POWER_MODE) */}
+                  <div className="pt-4 border-t border-slate-100 space-y-4">
+                    <h3 className="text-xs font-black text-[#310065]/70 uppercase tracking-widest flex items-center gap-2">
+                      <Flame className="w-3.5 h-3.5 text-red-500 animate-pulse" />
+                      Ajustes de POWER_MODE (Combate de Cartas)
+                    </h3>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      {/* correctAnswersToDefeat */}
+                      <div className="flex items-center justify-between p-4 bg-[#faf9fc] rounded-2xl border border-[#310065]/5">
+                        <div className="max-w-[70%]">
+                          <h4 className="font-bold text-[#310065] text-xs uppercase tracking-wider">Aciertos para vencerlo</h4>
+                          <p className="text-[10px] text-[#1b1b1e]/60 leading-tight">Respuestas correctas acumuladas necesarias para derrotar al diablo.</p>
+                        </div>
+                        <input 
+                          type="number" 
+                          min="1"
+                          max="5"
+                          value={config.devilTrap?.correctAnswersToDefeat ?? 2}
+                          onChange={(e) => updateDevilTrapSetting('correctAnswersToDefeat', parseInt(e.target.value))}
+                          className="w-14 bg-white border border-[#310065]/10 rounded-xl px-2 py-2 font-black text-center focus:ring-2 focus:ring-red-500 outline-none text-[#310065]"
+                        />
+                      </div>
+
+                      {/* wrongAnswersToWin */}
+                      <div className="flex items-center justify-between p-4 bg-[#faf9fc] rounded-2xl border border-[#310065]/5">
+                        <div className="max-w-[70%]">
+                          <h4 className="font-bold text-[#310065] text-xs uppercase tracking-wider">Fallos para que gane</h4>
+                          <p className="text-[10px] text-[#1b1b1e]/60 leading-tight">Errores acumulados para que el diablo gane la trampa.</p>
+                        </div>
+                        <input 
+                          type="number" 
+                          min="1"
+                          max="5"
+                          value={config.devilTrap?.wrongAnswersToWin ?? 3}
+                          onChange={(e) => updateDevilTrapSetting('wrongAnswersToWin', parseInt(e.target.value))}
+                          className="w-14 bg-white border border-[#310065]/10 rounded-xl px-2 py-2 font-black text-center focus:ring-2 focus:ring-red-500 outline-none text-[#310065]"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Configuración de Modo Observador del Diablo */}
+                  <div className="pt-4 border-t border-slate-100 space-y-5">
+                    <h3 className="text-xs font-black text-[#310065]/70 uppercase tracking-widest flex items-center gap-2">
+                      <Sparkles className="w-3.5 h-3.5 text-cyan-500 animate-pulse" />
+                      Ajustes de OBSERVER_MODE (Diablo Observador)
+                    </h3>
+
+                    {/* Habilitar / Deshabilitar */}
+                    <div className="flex items-center justify-between p-4 bg-[#faf9fc] rounded-2xl border border-[#310065]/5">
+                      <div>
+                        <h4 className="font-bold text-[#310065] text-sm">Habilitar Diablo Observador</h4>
+                        <p className="text-[12px] text-[#1b1b1e]/60">Permite que el diablo aparezca de fondo sin activar trampas de cartas tapadas.</p>
+                      </div>
+                      <button
+                        onClick={() => updateDevilTrapSetting('observerModeEnabled', !config.devilTrap?.observerModeEnabled)}
+                        className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none ${
+                          config.devilTrap?.observerModeEnabled ? 'bg-cyan-600' : 'bg-gray-200'
+                        }`}
+                      >
+                        <span
+                          className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                            config.devilTrap?.observerModeEnabled ? 'translate-x-6' : 'translate-x-1'
+                          }`}
+                        />
+                      </button>
+                    </div>
+
+                    {/* Distribución Dinámica de Modos */}
+                    <div className="bg-[#310065]/[0.02] border border-[#310065]/5 rounded-3xl p-5 space-y-4">
+                      <div className="space-y-1">
+                        <h4 className="font-bold text-[#310065] text-xs uppercase tracking-widest">Distribución de Modos por Partida</h4>
+                        <p className="text-[11px] text-slate-400">Si el diablo decide aparecer en la partida, los pesos definen cuál de los dos modos se le asignará en exclusiva.</p>
+                      </div>
+
+                      {/* Gráfico Proporcional en Caliente */}
+                      <div className="h-6 w-full rounded-full bg-slate-100 overflow-hidden flex font-black text-[9px] text-white tracking-widest uppercase">
+                        <div 
+                          className="bg-gradient-to-r from-red-500 to-orange-500 flex items-center justify-center transition-all duration-500" 
+                          style={{ width: `${powerPercent}%` }}
+                          title={`Modo Poder: ${powerPercent}%`}
+                        >
+                          {powerPercent > 12 && `Poder (${powerPercent}%)`}
+                        </div>
+                        <div 
+                          className="bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center transition-all duration-500" 
+                          style={{ width: `${observerPercent}%` }}
+                          title={`Modo Observador: ${observerPercent}%`}
+                        >
+                          {observerPercent > 12 && `Observador (${observerPercent}%)`}
+                        </div>
+                      </div>
+
+                      {/* Slider Peso Modo Poder */}
+                      <div className="space-y-2 pt-2">
+                        <div className="flex justify-between items-center text-[12px] font-bold text-[#310065]">
+                          <span>Peso del Modo Poder (POWER_MODE)</span>
+                          <span className="bg-red-50 border border-red-100 text-red-700 px-2 py-0.5 rounded-lg text-[11px]">
+                            {powerWeight} (Proporción: {powerPercent}%)
+                          </span>
+                        </div>
+                        <input 
+                          type="range"
+                          min="0"
+                          max="100"
+                          step="5"
+                          value={powerWeight}
+                          onChange={(e) => updateDevilTrapSetting('powerModeWeight', parseInt(e.target.value))}
+                          className="w-full accent-red-500"
+                        />
+                      </div>
+
+                      {/* Slider Peso Modo Observador */}
+                      {obsEnabled ? (
+                        <div className="space-y-2">
+                          <div className="flex justify-between items-center text-[12px] font-bold text-[#310065]">
+                            <span>Peso del Modo Observador (OBSERVER_MODE)</span>
+                            <span className="bg-cyan-50 border border-cyan-100 text-cyan-700 px-2 py-0.5 rounded-lg text-[11px]">
+                              {observerWeight} (Proporción: {observerPercent}%)
+                            </span>
+                          </div>
+                          <input 
+                            type="range"
+                            min="0"
+                            max="100"
+                            step="5"
+                            value={observerWeight}
+                            onChange={(e) => updateDevilTrapSetting('observerModeWeight', parseInt(e.target.value))}
+                            className="w-full accent-cyan-500"
+                          />
+                        </div>
+                      ) : (
+                        <div className="p-3 bg-slate-50 border border-slate-100 rounded-xl text-[11px] text-slate-400 font-semibold text-center italic">
+                          El Modo Observador está deshabilitado. Toda irrupción se forzará al Modo Poder (100% de peso).
+                        </div>
+                      )}
+                    </div>
+
+                    {config.devilTrap?.observerModeEnabled && (
+                      <>
+                        {/* Probabilidad de Aparición */}
+                        <div className="space-y-3">
+                          <div className="flex justify-between items-center">
+                            <label className="text-[12px] font-bold text-[#310065]/80 uppercase tracking-wider flex items-center gap-1.5">
+                              Probabilidad de Aparición (Observador)
+                            </label>
+                            <span className="px-3 py-1 bg-cyan-50 text-cyan-700 font-extrabold text-[12px] rounded-lg border border-cyan-100">
+                              {Math.round((config.devilTrap?.observerModeAppearanceChance ?? 0.20) * 100)}%
+                            </span>
+                          </div>
+                          <input 
+                            type="range" 
+                            min="0" 
+                            max="1" 
+                            step="0.05"
+                            value={config.devilTrap?.observerModeAppearanceChance ?? 0.20}
+                            onChange={(e) => updateDevilTrapSetting('observerModeAppearanceChance', parseFloat(e.target.value))}
+                            className="w-full accent-cyan-600"
+                          />
+                          <div className="flex justify-between text-[11px] font-bold text-[#1b1b1e]/40">
+                            <span>0% (Desactivado)</span>
+                            <span>50%</span>
+                            <span>100% (Siempre activo)</span>
+                          </div>
+                        </div>
+
+                        {/* Reaccionar al Jugador */}
+                        <div className="flex items-center justify-between p-4 bg-[#faf9fc] rounded-2xl border border-[#310065]/5">
+                          <div>
+                            <h4 className="font-bold text-[#310065] text-sm">Gesticular y Reaccionar visualmente</h4>
+                            <p className="text-[12px] text-[#1b1b1e]/60">El diablo cambiará de expresión ante aciertos, fallos y rachas.</p>
+                          </div>
+                          <button
+                            onClick={() => updateDevilTrapSetting('observerModeCanReactToPlayer', !config.devilTrap?.observerModeCanReactToPlayer)}
+                            className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none ${
+                              config.devilTrap?.observerModeCanReactToPlayer ? 'bg-cyan-600' : 'bg-gray-200'
+                            }`}
+                          >
+                            <span
+                              className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                                config.devilTrap?.observerModeCanReactToPlayer ? 'translate-x-6' : 'translate-x-1'
+                              }`}
+                            />
+                          </button>
+                        </div>
+                      </>
+                    )}
                   </div>
 
                   {/* Reto Especial */}

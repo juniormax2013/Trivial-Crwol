@@ -62,9 +62,11 @@ export default function CrownArenaPlayPage() {
   // Devil Trap Hook
   const {
     isDevilActive,
+    devilMode,
     revealedOptions,
     shuffledOptions,
     devilState,
+    devilEvent,
     triggerDevilTrap,
     revealOption,
     resetDevilTrap,
@@ -312,19 +314,16 @@ export default function CrownArenaPlayPage() {
 
       const q = questions[currentIdx];
       if (q && devilSpawnedCount < 5 && devilDefeatedCount < 2) {
-        const devilProb = engineConfig?.devilTrap?.spawnProbability ?? 0.15;
-        const willSpawn = Math.random() < devilProb;
-        if (willSpawn) {
-          triggerDevilTrap(q.options, true);
+        const wasDevilActiveBefore = isDevilActive;
+        const spawned = triggerDevilTrap(q.options, false, engineConfig?.devilTrap);
+        if (spawned && !wasDevilActiveBefore) {
           setDevilSpawnedCount(prev => prev + 1);
-        } else {
-          triggerDevilTrap(q.options, false);
         }
       } else {
         resetDevilTrap();
       }
     }
-  }, [phase, currentIdx, selectedOption, questions, triggerDevilTrap, engineConfig, devilSpawnedCount, devilDefeatedCount, resetDevilTrap]);
+  }, [phase, currentIdx, selectedOption, questions, triggerDevilTrap, engineConfig, devilSpawnedCount, devilDefeatedCount, resetDevilTrap, isDevilActive]);
 
   // 4. Timer Logic
   useEffect(() => {
@@ -627,6 +626,7 @@ export default function CrownArenaPlayPage() {
                     onReveal={() => revealOption(opt.id)}
                     originalText={opt.text}
                     language={userLanguage}
+                    devilMode={devilMode ?? undefined}
                   />
                 </div>
               </button>
@@ -669,7 +669,7 @@ export default function CrownArenaPlayPage() {
            ))}
         </div>
       </footer>
-      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} />
+      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} devilMode={devilMode ?? undefined} devilEvent={devilEvent ?? undefined} />
     </div>
   );
 }

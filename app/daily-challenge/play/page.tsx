@@ -83,9 +83,11 @@ export default function DailyChallengePlayPage() {
   // Devil Trap Hook
   const {
     isDevilActive,
+    devilMode,
     revealedOptions,
     shuffledOptions,
     devilState,
+    devilEvent,
     triggerDevilTrap,
     revealOption,
     resetDevilTrap,
@@ -167,17 +169,21 @@ export default function DailyChallengePlayPage() {
       let newHasSecondChance = false;
 
       const q = questions[qIndex];
-      if (q && devilSpawnedCount < 5 && devilDefeatedCount < 2) {
-        const devilProb = engineConfig?.devilTrap?.spawnProbability ?? 0.15;
-        const willSpawn = Math.random() < devilProb;
-        if (willSpawn) {
-          triggerDevilTrap(q.options, true);
+      
+      // Si la partida tiene un Reto Especial programado, el diablo tiene terminantemente prohibido aparecer en toda la partida
+      const isDevilAllowedInMatch = !rcConfig?.hasChallenge;
+
+      const canTriggerDevil = q && devilSpawnedCount < 5 && devilDefeatedCount < 2 && isDevilAllowedInMatch;
+
+      if (canTriggerDevil) {
+        const wasDevilActiveBefore = isDevilActive;
+        const spawned = triggerDevilTrap(q.options, false, engineConfig?.devilTrap);
+        if (spawned && !wasDevilActiveBefore) {
           setDevilSpawnedCount(prev => prev + 1);
-        } else {
-          triggerDevilTrap(q.options, false);
         }
       } else {
-        resetDevilTrap();
+        // Si no está permitido el diablo o no se triggeró, nos aseguramos de ocultarlo por completo con humo
+        resetDevilTrap(true);
       }
       
       if (q) {
@@ -210,10 +216,11 @@ export default function DailyChallengePlayPage() {
 
       // Check if this question is the Random Challenge
       if (rcConfig?.hasChallenge && rcConfig.questionIndex === qIndex && rcConfig.status === 'pending') {
+        resetDevilTrap(true);
         setRcConfig(prev => prev ? { ...prev, showModal: true } : null);
       }
     }
-  }, [phase, qIndex, questions, user?.activeFrame, rcConfig?.hasChallenge, rcConfig?.questionIndex, rcConfig?.status, triggerDevilTrap, engineConfig]);
+  }, [phase, qIndex, questions, user?.activeFrame, rcConfig?.hasChallenge, rcConfig?.questionIndex, rcConfig?.status, triggerDevilTrap, resetDevilTrap, engineConfig, devilSpawnedCount, devilDefeatedCount, isDevilActive]);
 
   // ── Timer (only runs during 'answering' phase) ─────────────
   useEffect(() => {
@@ -633,6 +640,7 @@ export default function DailyChallengePlayPage() {
                     onReveal={() => revealOption(option.id)}
                     originalText={option.text}
                     language={language}
+                    devilMode={devilMode ?? undefined}
                   />
                 </span>
                 {showFeedback && Icon && (
@@ -666,7 +674,7 @@ export default function DailyChallengePlayPage() {
           />
         </div>
       </main>
-      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} />
+      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} devilMode={devilMode ?? undefined} devilEvent={devilEvent ?? undefined} />
     </div>
   );
 }

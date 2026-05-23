@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState, useRef } from 'react';
 import type { DevilAnimState } from '@/hooks/useDevilTrap';
+import DevilCharacter from '@/src/components/DevilCharacter';
 
 // ─── Background image remover ──────────────────────────────────────────────
 // Removes the white background from the devil PNG using flood-fill on client.
@@ -138,25 +139,17 @@ const DEVIL_CSS = `
     60%     { transform: scaleY(0.98) scaleX(1.02) translateY(-2px) rotate(1deg); }
   }
 
-  /* WALK — horizontal march with vertical bounce */
+  /* WALK — horizontal march with vertical bounce (suavizado y lento en la esquina) */
   @keyframes devil-walk-pos {
     0%   { right: 8px; }
-    25%  { right: 30%; }
-    50%  { right: 55%; }
-    75%  { right: 30%; }
+    50%  { right: 12%; }
     100% { right: 8px; }
   }
   @keyframes devil-walk-body {
-    0%,100% { transform: translateY(0)   rotate(0deg)   scaleX(1); }
-    10%      { transform: translateY(-5px) rotate(-2deg)  scaleX(1); }
-    20%      { transform: translateY(0)   rotate(0deg)   scaleX(1); }
-    30%      { transform: translateY(-5px) rotate(2deg)   scaleX(1); }
-    40%      { transform: translateY(0)   rotate(0deg)   scaleX(-1); }
-    50%      { transform: translateY(-5px) rotate(-2deg)  scaleX(-1); }
-    60%      { transform: translateY(0)   rotate(0deg)   scaleX(-1); }
-    70%      { transform: translateY(-5px) rotate(2deg)   scaleX(-1); }
-    80%      { transform: translateY(0)   rotate(0deg)   scaleX(1); }
-    90%      { transform: translateY(-5px) rotate(-2deg)  scaleX(1); }
+    0%,100% { transform: translateY(0)   rotate(0deg); }
+    25%      { transform: translateY(-2px) rotate(-0.5deg); }
+    50%      { transform: translateY(0)   rotate(0deg); }
+    75%      { transform: translateY(-2px) rotate(0.5deg); }
   }
 
   /* TAUNT — lean in, vibrate, show malice */
@@ -229,9 +222,16 @@ function getBubbleText(state: DevilAnimState): string {
 interface DevilTrapOverlayProps {
   isActive: boolean;
   devilState?: DevilAnimState;
+  devilMode?: 'POWER_MODE' | 'OBSERVER_MODE';
+  devilEvent?: string | null;
 }
 
-export default function DevilTrapOverlay({ isActive, devilState = 'idle' }: DevilTrapOverlayProps) {
+export default function DevilTrapOverlay({ 
+  isActive, 
+  devilState = 'idle',
+  devilMode = 'POWER_MODE',
+  devilEvent = null
+}: DevilTrapOverlayProps) {
   const [embers, setEmbers] = useState<Ember[]>([]);
   const [fireBursts, setFireBursts] = useState<{ id: number; left: number; bottom: number }[]>([]);
   const cssInjected = useRef(false);
@@ -303,7 +303,7 @@ export default function DevilTrapOverlay({ isActive, devilState = 'idle' }: Devi
       pointerEvents: 'none',
     };
     if (devilState === 'walk') {
-      return { ...base, right: '8px', animation: 'devil-walk-pos 5s ease-in-out forwards' };
+      return { ...base, right: '8px', animation: 'devil-walk-pos 12s ease-in-out infinite' };
     }
     return { ...base, right: '8px' };
   };
@@ -327,6 +327,16 @@ export default function DevilTrapOverlay({ isActive, devilState = 'idle' }: Devi
 
   return (
     <>
+      {/* Badge de Diablo Observando en OBSERVER_MODE */}
+      {isActive && devilMode === 'OBSERVER_MODE' && (
+        <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-[50] animate-bounce pointer-events-none">
+          <div className="bg-slate-900/95 dark:bg-slate-950/98 text-cyan-400 border border-cyan-500/30 text-xs font-black uppercase tracking-widest px-5 py-2.5 rounded-2xl shadow-2xl flex items-center gap-2.5 backdrop-blur-md">
+            <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-ping shrink-0" />
+            <span>El diablo está observando la partida</span>
+          </div>
+        </div>
+      )}
+
       {/* Screen shake div — only on appear */}
       {devilState === 'appear' && (
         <div
@@ -335,14 +345,12 @@ export default function DevilTrapOverlay({ isActive, devilState = 'idle' }: Devi
         />
       )}
 
-      {/* Background fiery ambient overlay */}
+      {/* Background fiery ambient overlay deshabilitado para evitar alterar el fondo del juego */}
       <div
         className="fixed inset-0 pointer-events-none z-0 transition-all duration-1000"
         style={{
-          background: devilState === 'defeat'
-            ? 'linear-gradient(to top, rgba(30,10,10,0.3), transparent)'
-            : 'linear-gradient(to top, rgba(127,0,0,0.55), rgba(0,0,0,0.7), transparent)',
-          backdropFilter: devilState === 'defeat' ? 'brightness(0.9)' : 'brightness(0.72) contrast(1.12)',
+          background: 'transparent',
+          backdropFilter: 'none',
         }}
       />
 
@@ -396,16 +404,22 @@ export default function DevilTrapOverlay({ isActive, devilState = 'idle' }: Devi
             }}
           />
 
-          {/* Devil PNG — only CSS transforms applied, image unchanged */}
+          {/* Nuevo Renderizado Animado Premium con las 11 ilustraciones del diablo */}
           <div
-            className={`relative ${charSize} overflow-visible flex items-center justify-center`}
-            style={charStyle()}
+            className="relative overflow-visible flex items-center justify-center"
           >
-            <TransparentImage
-              src="/images/devil_avatar.png"
-              alt="Devil Trap Character"
-              className="w-full h-full object-contain transition-all duration-300"
-              style={{ filter: dropShadow() }}
+            <DevilCharacter
+              event={
+                devilEvent ? devilEvent :
+                devilState === 'appear' ? 'devil_enter_screen' :
+                devilState === 'celebrate' ? 'user_answer_wrong' :
+                devilState === 'defeat' ? 'user_won_against_devil' :
+                devilState === 'taunt' ? 'devil_power_activated' :
+                devilState === 'walk' ? 'devil_power_activated' :
+                devilState === 'idle' ? 'devil_idle' :
+                'devil_idle'
+              }
+              size={200}
             />
           </div>
 

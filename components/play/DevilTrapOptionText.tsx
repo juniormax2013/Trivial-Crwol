@@ -9,6 +9,7 @@ interface DevilTrapOptionTextProps {
   onReveal: () => void;
   originalText: string;
   language?: string; // 'es' | 'ht' | 'fr'
+  devilMode?: 'POWER_MODE' | 'OBSERVER_MODE';
 }
 
 export default function DevilTrapOptionText({
@@ -18,19 +19,20 @@ export default function DevilTrapOptionText({
   onReveal,
   originalText,
   language = 'es',
+  devilMode = 'POWER_MODE',
 }: DevilTrapOptionTextProps) {
   const [animateReveal, setAnimateReveal] = useState(false);
 
   useEffect(() => {
-    if (isRevealed && isDevilActive) {
+    if (isRevealed && isDevilActive && devilMode !== 'OBSERVER_MODE') {
       setAnimateReveal(true);
       const timer = setTimeout(() => setAnimateReveal(false), 800);
       return () => clearTimeout(timer);
     }
-  }, [isRevealed, isDevilActive]);
+  }, [isRevealed, isDevilActive, devilMode]);
 
-  // If the trap is not active, just render the original text
-  if (!isDevilActive) {
+  // If the trap is not active or we are in OBSERVER_MODE, just render the original text
+  if (!isDevilActive || devilMode === 'OBSERVER_MODE') {
     return <span className="transition-all duration-300">{originalText}</span>;
   }
 

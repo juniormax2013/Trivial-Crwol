@@ -13,9 +13,6 @@ import {
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { ChallengeQuestion, ChallengeOption } from '@/lib/challenge/models';
-import { useDevilTrap } from '@/hooks/useDevilTrap';
-import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
-import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
 import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
 
 interface ChallengePlayViewProps {
@@ -91,19 +88,6 @@ export default function ChallengePlayView({ question, onComplete, onClose }: Cha
   const [isAnswerCorrect, setIsAnswerCorrect] = useState(false);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Devil Trap Hook
-  const {
-    isDevilActive,
-    revealedOptions,
-    shuffledOptions,
-    devilState,
-    triggerDevilTrap,
-    revealOption,
-    resetDevilTrap,
-    devilDefeat,
-    devilCelebrate,
-  } = useDevilTrap();
-
   const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
 
   useEffect(() => {
@@ -122,17 +106,7 @@ export default function ChallengePlayView({ question, onComplete, onClose }: Cha
     }
   }, [question]);
 
-  // Devil Trap Trigger on Question Change
-  useEffect(() => {
-    if (phase === 'answering') {
-      if (question.questionType === 'multiple_choice' && question.options) {
-        const devilProb = engineConfig?.devilTrap?.spawnProbability ?? 0.15;
-        triggerDevilTrap(question.options, false, devilProb);
-      } else {
-        resetDevilTrap();
-      }
-    }
-  }, [question, phase, triggerDevilTrap, resetDevilTrap, engineConfig]);
+
 
   // Fire confetti animation
   const fireSuccessConfetti = () => {
@@ -159,10 +133,6 @@ export default function ChallengePlayView({ question, onComplete, onClose }: Cha
     if (timerRef.current) clearInterval(timerRef.current);
     setIsAnswerCorrect(correct);
     setPhase('feedback');
-    if (isDevilActive) {
-      if (correct) devilDefeat();
-      else devilCelebrate();
-    }
     if (correct) {
       fireSuccessConfetti();
     }
@@ -366,14 +336,7 @@ export default function ChallengePlayView({ question, onComplete, onClose }: Cha
                         <div className="w-8 h-8 rounded-lg bg-[#3a0875] border border-[#7345b6]/30 flex items-center justify-center shrink-0 font-extrabold text-amber-300">
                           {letter}
                         </div>
-                        <DevilTrapOptionText
-                          isDevilActive={isDevilActive}
-                          optionId={letter}
-                          isRevealed={revealedOptions.includes(opt.id)}
-                          onReveal={() => revealOption(opt.id)}
-                          originalText={opt.text}
-                          language={lang}
-                        />
+                        <span>{opt.text}</span>
                       </button>
                     );
                   })}
@@ -542,7 +505,6 @@ export default function ChallengePlayView({ question, onComplete, onClose }: Cha
           animation: shake 0.5s ease-in-out;
         }
       `}</style>
-      <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} />
     </div>
   );
 }

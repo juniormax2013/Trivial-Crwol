@@ -37,7 +37,8 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
     const isPublicRoute = pathname === '/login' || 
                           pathname === '/register' || 
                           pathname === '/forgot-password' ||
-                          pathname === '/admin';
+                          pathname === '/admin' ||
+                          pathname === '/test-character';
 
     const isMockAdmin = typeof window !== 'undefined' && localStorage.getItem('bc_mock_admin') === 'true';
     const isAdminDashboard = pathname?.startsWith('/admin/dashboard');
@@ -49,7 +50,7 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
           sessionStorage.setItem('auth_redirect_path', pathname);
         }
         router.push('/login');
-      } else if (firebaseUser && isPublicRoute && pathname !== '/admin') {
+      } else if (firebaseUser && isPublicRoute && pathname !== '/admin' && pathname !== '/test-character') {
         // Check if we have a saved path to return to
         const savedPath = typeof window !== 'undefined' ? sessionStorage.getItem('auth_redirect_path') : null;
         
@@ -69,7 +70,8 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
   const isPublicRoute = pathname === '/login' || 
                         pathname === '/register' || 
                         pathname === '/forgot-password' ||
-                        pathname === '/admin';
+                        pathname === '/admin' ||
+                        pathname === '/test-character';
 
   if (loading && !forcedLoading && !isPublicRoute) {
     return (
