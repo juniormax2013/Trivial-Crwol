@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Home, Swords, Crown, Users, UserCircle, Menu, X, Shield } from 'lucide-react';
@@ -8,6 +8,7 @@ import { useT } from '@/lib/i18n/context';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { motion, AnimatePresence } from 'framer-motion';
 import UserAvatar from '@/components/UserAvatar';
+import { usePathname } from 'next/navigation';
 
 interface BottomNavProps {
   activeTab: 'home' | 'play' | 'ranking' | 'social' | 'profile' | 'aliados';
@@ -18,7 +19,12 @@ interface BottomNavProps {
 export default function BottomNav({ activeTab, showTriggerButton = true }: BottomNavProps) {
   const t = useT();
   const { user } = useAuthContext();
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+
+  // Ref para datos de touch (no necesitan re-render)
+  const touchStartX = useRef<number | null>(null);
+  const touchStartY = useRef<number | null>(null);
 
   // Escucha el evento global para que cualquier página pueda abrir el panel
   useEffect(() => {
@@ -26,6 +32,55 @@ export default function BottomNav({ activeTab, showTriggerButton = true }: Botto
     window.addEventListener('open-sidenav', handler);
     return () => window.removeEventListener('open-sidenav', handler);
   }, []);
+
+  // ── Swipe desde el borde izquierdo para abrir el menú ──────────────
+  useEffect(() => {
+    // No activar durante pantallas de juego activo (evita conflictos con gestos del juego)
+    const isGameScreen = pathname?.includes('/play');
+    if (isGameScreen) return;
+
+    const EDGE_ZONE = 30;     // px desde el borde izquierdo para iniciar el gesto
+    const MIN_SWIPE_X = 60;   // px mínimos hacia la derecha para considerar swipe válido
+    const MAX_SWIPE_Y = 60;   // px máximos verticales (si supera esto, es scroll, no swipe)
+
+    const onTouchStart = (e: TouchEvent) => {
+      const touch = e.touches[0];
+      // Solo registrar si el dedo empieza dentro de la zona de borde izquierdo
+      if (touch.clientX <= EDGE_ZONE) {
+        touchStartX.current = touch.clientX;
+        touchStartY.current = touch.clientY;
+      } else {
+        touchStartX.current = null;
+        touchStartY.current = null;
+      }
+    };
+
+    const onTouchEnd = (e: TouchEvent) => {
+      if (touchStartX.current === null || touchStartY.current === null) return;
+      if (isOpen) return; // El menú ya está abierto, no hacer nada
+
+      const touch = e.changedTouches[0];
+      const deltaX = touch.clientX - touchStartX.current;
+      const deltaY = Math.abs(touch.clientY - touchStartY.current);
+
+      // Validar: movimiento horizontal suficiente Y movimiento vertical pequeño
+      if (deltaX >= MIN_SWIPE_X && deltaY <= MAX_SWIPE_Y) {
+        setIsOpen(true);
+      }
+
+      // Resetear
+      touchStartX.current = null;
+      touchStartY.current = null;
+    };
+
+    document.addEventListener('touchstart', onTouchStart, { passive: true });
+    document.addEventListener('touchend', onTouchEnd, { passive: true });
+
+    return () => {
+      document.removeEventListener('touchstart', onTouchStart);
+      document.removeEventListener('touchend', onTouchEnd);
+    };
+  }, [isOpen, pathname]);
 
   const navItems = [
     { id: 'home',    label: t.nav.home,    icon: Home,       href: '/'          },

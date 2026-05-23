@@ -81,7 +81,7 @@ export async function POST(req: NextRequest) {
 
     // 2. Parse request
     const body = await req.json();
-    const { message } = body;
+    const { message, language } = body;
 
     if (!message || typeof message !== 'string' || message.trim().length === 0) {
       return NextResponse.json(
@@ -103,8 +103,25 @@ export async function POST(req: NextRequest) {
     // 4. Search biblical context for RAG (pure in-memory — no Firestore)
     const bibleContext = searchBibleContext(message);
 
-    // 5. Build prompt with context
-    const promptWithContext = `CONTEXTO BÍBLICO RELEVANTE:\n${bibleContext}\n\n---\n\nPREGUNTA DEL USUARIO:\n${message}`;
+    // Mapeo estructurado del idioma requerido de salida
+    const languageNames: Record<string, string> = {
+      es: 'Español (Spanish)',
+      en: 'Inglés (English)',
+      fr: 'Francés (French)',
+      ht: 'Criollo haitiano (Haitian Creole)'
+    };
+    const targetLanguage = languageNames[language] || 'Español (Spanish)';
+
+    // 5. Build prompt with context and strict language directive
+    const promptWithContext = `IDIOMA OBLIGATORIO DE RESPUESTA: Debes responder OBLIGATORIAMENTE en el idioma ${targetLanguage}. Toda tu respuesta (incluyendo explicaciones, referencias bíblicas y preguntas sugeridas al final) debe estar redactada en este idioma sin excepción.
+
+CONTEXTO BÍBLICO RELEVANTE:
+${bibleContext}
+
+---
+
+PREGUNTA DEL USUARIO:
+${message}`;
 
     // 6. Call Gemini API (server-side only)
     const ai = new GoogleGenAI({ apiKey });

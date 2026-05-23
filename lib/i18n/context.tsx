@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
 import { Language, Translations } from './types';
 import { ht } from './translations/ht';
 import { es } from './translations/es';
@@ -67,13 +67,15 @@ export function useLanguage() {
 }
 
 export function useSyncUserLanguage(userLanguage?: string) {
-  const { setLanguage, language, isLoaded } = useLanguage();
+  const { setLanguage, isLoaded } = useLanguage();
+  const hasSynced = useRef(false);
   
   useEffect(() => {
-    if (isLoaded && userLanguage && userLanguage !== language) {
+    if (isLoaded && userLanguage && !hasSynced.current && !localStorage.getItem('app-language')) {
        if (userLanguage === 'es' || userLanguage === 'ht' || userLanguage === 'fr') {
          setLanguage(userLanguage as Language);
+         hasSynced.current = true;
        }
     }
-  }, [userLanguage, isLoaded, language, setLanguage]);
+  }, [userLanguage, isLoaded, setLanguage]);
 }

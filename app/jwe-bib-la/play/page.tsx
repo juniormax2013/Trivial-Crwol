@@ -17,6 +17,7 @@ import {
   Clock
 } from 'lucide-react';
 import { useAuth } from '@/hooks/useAuth';
+import { useLanguage } from '@/lib/i18n/context';
 import { ALL_DUEL_QUESTIONS } from '@/lib/duel/seed';
 import { consumeJweEnergy, consumeJweHeart, grantJweRewards } from '@/lib/user/repository';
 import { RandomChallengeModal, fireChallengeSuccessConfetti } from '@/components/play/RandomChallengeModal';
@@ -54,6 +55,7 @@ function shuffle<T>(array: T[]): T[] {
 
 export default function JweBibLaPlay() {
   const { user } = useAuth();
+  const { language: userLanguage } = useLanguage();
   const router = useRouter();
   
   // Game state
@@ -328,8 +330,10 @@ export default function JweBibLaPlay() {
           setDevilSpawnedCount(0);
           setDevilDefeatedCount(0);
 
-          const htPool = ALL_DUEL_QUESTIONS.filter(q => q.language === 'ht');
-          const selected = shuffle(htPool).slice(0, 7).map(q => ({
+          // Use user's selected language; fall back to 'ht' if no questions available
+          const langPool = ALL_DUEL_QUESTIONS.filter(q => q.language === userLanguage);
+          const questionPool = langPool.length >= 7 ? langPool : ALL_DUEL_QUESTIONS.filter(q => q.language === 'ht');
+          const selected = shuffle(questionPool).slice(0, 7).map(q => ({
             ...q,
             options: shuffle(q.options)
           }));
@@ -345,7 +349,7 @@ export default function JweBibLaPlay() {
             showModal: false
           });
           if (hasChallenge) {
-            const randomChQ = getRandomChallengeQuestion('ht');
+            const randomChQ = getRandomChallengeQuestion(userLanguage);
             setChallengeQuestion(randomChQ);
           }
 

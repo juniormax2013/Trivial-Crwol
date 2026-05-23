@@ -106,6 +106,93 @@ export function useAuth(): AuthContextType {
   useEffect(() => {
     let unsubscribeProfile: (() => void) | null = null;
 
+    // ── MOCK USER BYPASS FOR DEVELOPMENT AND TESTING ──
+    if (process.env.NODE_ENV === 'development' && typeof window !== 'undefined' && localStorage.getItem('bc_mock_user') === 'true') {
+      const mockUser: AppUserModel = {
+        uid: "mock-user-id",
+        email: "mock-user@example.com",
+        username: "PeregrinoNoble",
+        firstName: "Noble",
+        lastName: "Peregrino",
+        fullName: "Noble Peregrino",
+        photoURL: null,
+        provider: "password",
+        bio: "Explorador de la palabra de Dios.",
+        favoriteVerse: "Filipenses 4:13",
+        favoriteCategoryId: "history",
+        country: "AR",
+        role: "user",
+        status: "active",
+        level: 5,
+        xp: 450,
+        coins: 100,
+        gems: 20,
+        crowns: 2,
+        streakDays: 4,
+        bestStreak: 10,
+        totalGames: 15,
+        totalWins: 10,
+        totalLosses: 5,
+        totalCorrectAnswers: 75,
+        totalWrongAnswers: 25,
+        accuracyRate: 75,
+        lastLoginAt: new Date().toISOString(),
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString(),
+        jweEnergy: 28,
+        jweHearts: 5,
+        lastJweResetDate: new Date().toISOString().split('T')[0],
+        inventory: {},
+        ownedFrames: [],
+        ownedAvatars: [],
+        activeFrame: null,
+        activeAvatar: null,
+        settings: {
+          language: 'es',
+          allowNotifications: true,
+          pushNotifications: true,
+          allowFriendRequests: true,
+          allowChallengeInvites: true,
+          answerFeedbackSound: true,
+          dailyChallengeNotifications: true,
+          devotionalNotifications: false,
+          duelNotifications: true,
+          hapticsEnabled: true,
+          isProfilePublic: true,
+          menuSoundEffects: true,
+          rewardNotifications: true,
+          showActivityStatus: true,
+          showOnLeaderboards: true,
+          soundEnabled: true,
+          tournamentNotifications: true,
+          vibrationEnabled: true,
+        }
+      };
+      
+      const mockFirebaseUser = {
+        uid: "mock-user-id",
+        email: "mock-user@example.com",
+        displayName: "Noble Peregrino",
+        photoURL: null,
+        providerId: "firebase",
+        emailVerified: true,
+        isAnonymous: false,
+        metadata: {},
+        providerData: [],
+        tenantId: null,
+        delete: async () => {},
+        getIdToken: async () => "mock-token",
+        getIdTokenResult: async () => ({} as any),
+        reload: async () => {},
+        toJSON: () => ({})
+      } as unknown as FirebaseUser;
+
+      setFirebaseUser(mockFirebaseUser);
+      setAppUser(mockUser);
+      setLoading(false);
+      return;
+    }
+
     const unsubscribeAuth = onAuthStateChanged(auth, async (firebaseUser: FirebaseUser | null) => {
       setFirebaseUser(firebaseUser);
       

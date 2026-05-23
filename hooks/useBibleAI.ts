@@ -3,6 +3,7 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { AIMessage, VoiceState, BibleAIConfig } from '@/lib/bible-ai/types';
+import { useLanguage } from '@/lib/i18n/context';
 import {
   getBibleAIConfig,
   getUserDailyUsage,
@@ -29,56 +30,109 @@ interface UseBibleAIReturn {
   clearMessages: () => void;
 }
 
-// ── Default messages ───────────────────────────────────────────
+// ── Default messages per language ───────────────────────────────────
 
-const WELCOME_MESSAGE: AIMessage = {
-  id: 'welcome',
-  role: 'assistant',
-  content:
-    'Hola, soy tu Asistente Bíblico. Puedes preguntarme sobre libros, personajes, versículos, historias o enseñanzas de la Biblia. 🙏',
-  mode: 'text',
-  createdAt: new Date().toISOString(),
-  suggestedQuestions: [
-    '¿Quién fue Moisés?',
-    'Explícame Juan 3:16',
-    '¿Qué enseña el Salmo 23?',
-  ],
+const WELCOME_MESSAGES: Record<string, AIMessage> = {
+  es: {
+    id: 'welcome',
+    role: 'assistant',
+    content:
+      'Hola, soy tu Asistente Bíblico. Puedes preguntarme sobre libros, personajes, versículos, historias o enseñanzas de la Biblia. 🙏',
+    mode: 'text',
+    createdAt: new Date().toISOString(),
+    suggestedQuestions: [
+      '¿Quién fue Moisés?',
+      'Explícame Juan 3:16',
+      '¿Qué enseña el Salmo 23?',
+    ],
+  },
+  en: {
+    id: 'welcome',
+    role: 'assistant',
+    content:
+      'Hello, I am your Bible Assistant. You can ask me about books, characters, verses, stories or teachings from the Bible. 🙏',
+    mode: 'text',
+    createdAt: new Date().toISOString(),
+    suggestedQuestions: [
+      'Who was Moses?',
+      'Explain John 3:16',
+      'What does Psalm 23 teach?',
+    ],
+  },
+  fr: {
+    id: 'welcome',
+    role: 'assistant',
+    content:
+      'Bonjour, je suis votre assistant biblique. Vous pouvez me poser des questions sur les livres, les personnages, les versets, les histoires ou les enseignements de la Bible. 🙏',
+    mode: 'text',
+    createdAt: new Date().toISOString(),
+    suggestedQuestions: [
+      'Qui était Moïse ?',
+      'Expliquez-moi Jean 3:16',
+      'Qu\'enseigne le Psaume 23 ?',
+    ],
+  },
+  ht: {
+    id: 'welcome',
+    role: 'assistant',
+    content:
+      'Bonjou, mwen se Asistan Bib ou. Ou kapab poze m kesyon sou liv, pèsonaj, vèsè, istwa oswa ansèyman ki nan Bib la. 🙏',
+    mode: 'text',
+    createdAt: new Date().toISOString(),
+    suggestedQuestions: [
+      'Ki moun Moyiz te ye?',
+      'Esplike m Jan 3:16',
+      'Kisa Sòm 23 anseye?',
+    ],
+  },
 };
 
 // ── Hook ───────────────────────────────────────────────────────
 
 export function useBibleAI(): UseBibleAIReturn {
   const { user } = useAuthContext();
-  const [messages, setMessages] = useState<AIMessage[]>([WELCOME_MESSAGE]);
+  const { language } = useLanguage();
+  
+  const [messages, setMessages] = useState<AIMessage[]>([]);
   const [voiceState, setVoiceState] = useState<VoiceState>('idle');
   const [isLoading, setIsLoading] = useState(false);
   const [config, setConfig] = useState<BibleAIConfig | null>(null);
   const [conversationId, setConversationId] = useState<string | null>(null);
   const [usageInfo, setUsageInfo] = useState<{ questionsUsedToday: number; dailyLimit: number } | null>(null);
-  // Preferred language for voice input (auto-detected or user-selected)
-  const [selectedLanguage, setSelectedLanguage] = useState<string>(
-    navigator?.language?.split('-')[0] || 'es'
-  );
+  
+  // Preferred language for voice input & chat responses (synchronized with global app i18n)
+  const [selectedLanguage, setSelectedLanguage] = useState<string>('es');
 
   const recognitionRef = useRef<any>(null);
   const synthRef = useRef<SpeechSynthesisUtterance | null>(null);
+
+  // Sync selectedLanguage with global i18n language
+  useEffect(() => {
+    if (language) {
+      setSelectedLanguage(language);
+    }
+  }, [language]);
 
   // Load config on mount
   useEffect(() => {
     getBibleAIConfig().then(setConfig);
   }, []);
 
-  // Update welcome message if config has custom greeting
+  // Set initial welcome message based on selected language and custom config
   useEffect(() => {
-    if (config?.aiWelcomeMessage) {
+    const defaultWelcome = WELCOME_MESSAGES[selectedLanguage] || WELCOME_MESSAGES.es;
+    
+    // Only update initial welcome message if there is only 1 message or the list is empty (avoids wiping active chats)
+    if (messages.length <= 1) {
       setMessages([
         {
-          ...WELCOME_MESSAGE,
-          content: config.aiWelcomeMessage,
+          ...defaultWelcome,
+          content: config?.aiWelcomeMessage || defaultWelcome.content,
+          createdAt: new Date().toISOString(),
         },
       ]);
     }
-  }, [config?.aiWelcomeMessage]);
+  }, [selectedLanguage, config?.aiWelcomeMessage]);
 
   // ── Send message ─────────────────────────────────────────────
 
@@ -113,10 +167,15 @@ export function useBibleAI(): UseBibleAIReturn {
           const usage = await getUserDailyUsage(user.uid);
           const limit = config?.aiDailyLimit ?? 20;
           if (usage.questionsUsedToday >= limit) {
+            const warningText = selectedLanguage === 'en' ? `You have reached the limit of ${limit} questions per day. Come back tomorrow! 🙏` :
+                                selectedLanguage === 'fr' ? `Vous avez atteint la limite de ${limit} questions par jour. Revenez demain ! 🙏` :
+                                selectedLanguage === 'ht' ? `Ou rive nan limit ${limit} kesyon pou chak jou. Tounen demen! 🙏` :
+                                `Has alcanzado el límite de ${limit} preguntas por día. ¡Vuelve mañana para seguir aprendiendo! 🙏`;
+
             const limitMsg: AIMessage = {
               id: `limit-${Date.now()}`,
               role: 'assistant',
-              content: `Has alcanzado el límite de ${limit} preguntas por día. ¡Vuelve mañana para seguir aprendiendo! 🙏`,
+              content: warningText,
               mode,
               createdAt: new Date().toISOString(),
             };
@@ -131,7 +190,7 @@ export function useBibleAI(): UseBibleAIReturn {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             message: text,
-            language: navigator.language?.split('-')[0] || 'es',
+            language: selectedLanguage,
           }),
         });
 
@@ -141,7 +200,7 @@ export function useBibleAI(): UseBibleAIReturn {
           const errorMsg: AIMessage = {
             id: `err-${Date.now()}`,
             role: 'assistant',
-            content: data.message || 'Ocurrió un error. Intenta de nuevo.',
+            content: data.message || (selectedLanguage === 'en' ? 'An error occurred. Try again.' : 'Ocurrió un error. Intenta de nuevo.'),
             mode,
             createdAt: new Date().toISOString(),
           };
@@ -167,7 +226,7 @@ export function useBibleAI(): UseBibleAIReturn {
           try {
             let convId = conversationId;
             if (!convId) {
-              convId = await createConversation(user.uid, navigator.language?.split('-')[0] || 'es');
+              convId = await createConversation(user.uid, selectedLanguage);
               setConversationId(convId);
             }
             await saveMessage(user.uid, convId, { role: 'user', content: text, mode });
@@ -188,10 +247,14 @@ export function useBibleAI(): UseBibleAIReturn {
         }
       } catch (err) {
         console.error('Bible AI error:', err);
+        const errMsgText = selectedLanguage === 'en' ? 'Connection error. Check your internet and try again.' :
+                            selectedLanguage === 'fr' ? 'Erreur de connexion. Vérifiez votre connexion et réessayez.' :
+                            selectedLanguage === 'ht' ? 'Erreur koneksyon. Tcheke entènèt ou epi reyezi.' :
+                            'Error de conexión. Verifica tu internet e intenta de nuevo.';
         const errMsg: AIMessage = {
           id: `err-${Date.now()}`,
           role: 'assistant',
-          content: 'Error de conexión. Verifica tu internet e intenta de nuevo.',
+          content: errMsgText,
           mode,
           createdAt: new Date().toISOString(),
         };
@@ -201,8 +264,9 @@ export function useBibleAI(): UseBibleAIReturn {
         setIsLoading(false);
       }
     },
-    [isLoading, user?.uid, conversationId, config]
+    [isLoading, user?.uid, conversationId, config, selectedLanguage]
   );
+
 
 
   // ── Language detection (from text content) ───────────────────
@@ -399,13 +463,16 @@ export function useBibleAI(): UseBibleAIReturn {
   }, []);
 
   const clearMessages = useCallback(() => {
+    const defaultWelcome = WELCOME_MESSAGES[selectedLanguage] || WELCOME_MESSAGES.es;
     setMessages([
-      config?.aiWelcomeMessage
-        ? { ...WELCOME_MESSAGE, content: config.aiWelcomeMessage }
-        : WELCOME_MESSAGE,
+      {
+        ...defaultWelcome,
+        content: config?.aiWelcomeMessage || defaultWelcome.content,
+        createdAt: new Date().toISOString(),
+      },
     ]);
     setConversationId(null);
-  }, [config?.aiWelcomeMessage]);
+  }, [config?.aiWelcomeMessage, selectedLanguage]);
 
   return {
     messages,

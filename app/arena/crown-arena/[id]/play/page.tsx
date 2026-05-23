@@ -154,16 +154,16 @@ export default function CrownArenaPlayPage() {
     if (room && phase === 'loading') {
       console.log('[PLAY] Room loaded, status:', room.status, 'questionIds:', room.questionIds?.length);
       
-      // Get questions by IDs stored in the session
       // Get questions by IDs stored in the session, using user's language if available
       const allQs = (room.questionIds || []).map(id => {
-        // Find translation in user's language
+        // Find translation in user's language first
         const translated = ALL_DUEL_QUESTIONS.find(q => q.id === id && q.language === userLanguage);
-        // Fallback to any language if not found (usually 'ht')
-        return translated || ALL_DUEL_QUESTIONS.find(q => q.id === id);
+        // Fallback to 'ht', then any language if not found
+        const fallbackHt = ALL_DUEL_QUESTIONS.find(q => q.id === id && q.language === 'ht');
+        return translated || fallbackHt || ALL_DUEL_QUESTIONS.find(q => q.id === id);
       }).filter(Boolean) as DuelQuestion[];
       
-      console.log('[PLAY] Questions resolved from pool:', allQs.length);
+      console.log('[PLAY] Questions resolved from pool:', allQs.length, 'lang:', userLanguage);
 
       if (allQs.length === 0) {
         console.error('[PLAY] No questions found for IDs:', room.questionIds);
@@ -175,7 +175,8 @@ export default function CrownArenaPlayPage() {
       setQuestions(allQs);
       setPhase('preparing');
     }
-  }, [room, phase, router]);
+  // userLanguage added so questions reload in the correct language
+  }, [room, phase, router, userLanguage]);
 
 
   const submitAnswer = useCallback((optionId: string | null) => {
