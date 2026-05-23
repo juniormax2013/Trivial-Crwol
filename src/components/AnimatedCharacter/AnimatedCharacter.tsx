@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { useRive, useStateMachineInput } from '@rive-app/react-canvas';
 import Image from 'next/image';
 import { useCharacterAction, GameEvent } from '../../hooks/useCharacterAction';
-import { Sparkles, Flame, HelpCircle } from 'lucide-react';
+import { Sparkles, Flame } from 'lucide-react';
 
 interface AnimatedCharacterProps {
   event: GameEvent;
@@ -19,7 +19,6 @@ export default function AnimatedCharacter({
 }: AnimatedCharacterProps) {
   // 1. Obtener la acción activa y el mapeo a través del Hook de Rive
   const {
-    characterName,
     stateMachineName,
     currentAction,
     triggerEvent,
@@ -114,10 +113,15 @@ export default function AnimatedCharacter({
               />
             </div>
             
-            {/* Aviso informativo flotante del Fallback */}
-            <div className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-[#310065]/10 dark:bg-white/10 px-3 py-1 rounded-full border border-[#310065]/5 dark:border-white/5 flex items-center gap-1.5 backdrop-blur-md">
-              <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-ping" />
-              <span className="text-[9px] font-black text-[#310065] dark:text-white uppercase tracking-widest">Mock Rive Activo</span>
+            {/* Aviso informativo de archivo Rive pendiente */}
+            <div className="absolute bottom-3 left-4 right-4 bg-amber-500/10 border border-amber-500/20 px-3 py-2.5 rounded-2xl flex flex-col items-center justify-center gap-0.5 backdrop-blur-md text-center">
+              <span className="text-[9px] font-black text-[#310065] dark:text-[#f59e0b] uppercase tracking-widest flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-ping" />
+                Rive file pendiente
+              </span>
+              <span className="text-[8px] font-bold text-slate-500 dark:text-slate-400">
+                agrega devil.riv en assets/characters/devil/devil.riv
+              </span>
             </div>
           </div>
         ) : (
