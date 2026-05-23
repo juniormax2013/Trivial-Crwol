@@ -98,3 +98,11 @@ export function useCharacterAction(character: CharacterType = 'devil'): UseChara
     getAllActions,
   };
 }
+
+/**
+ * Traduce un evento de juego (GameEvent) a la acción correspondiente del diablo.
+ * getDevilActionFromGameEvent("user_answer_wrong") -> "risa_malvada"
+ */
+export function getDevilActionFromGameEvent(event: GameEvent): string {
+  return devilConfig.eventMappings[event] || 'idle';
+}
