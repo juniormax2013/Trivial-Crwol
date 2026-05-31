@@ -1,9 +1,10 @@
 'use client';
 
 import { motion, AnimatePresence } from 'framer-motion';
-import { AlertTriangle, Zap, X, Swords } from 'lucide-react';
+import { AlertTriangle, Zap, Swords } from 'lucide-react';
 import { useEffect } from 'react';
 import confetti from 'canvas-confetti';
+import { useLanguage } from '@/lib/i18n/context';
 
 interface RandomChallengeModalProps {
   isOpen: boolean;
@@ -11,7 +12,37 @@ interface RandomChallengeModalProps {
   onReject: () => void;
 }
 
+const TRANSLATIONS: Record<string, Record<string, string>> = {
+  es: {
+    title: '¡Reto Aleatorio!',
+    description: 'Has sido elegido para un desafío de alto riesgo.',
+    winText: 'Si aciertas: RECOMPENSAS x3',
+    failText: 'Si fallas: PIERDES LA MITAD',
+    accept: 'Aceptar Reto',
+    reject: 'Rechazar (Miedoso)'
+  },
+  ht: {
+    title: 'Defi Aleatwa!',
+    description: 'Ou te chwazi pou yon defi ki gen anpil risk.',
+    winText: 'Si w jwenn li: REKONPANS x3',
+    failText: 'Si w rate: OU PÈDI MWATYE',
+    accept: 'Aksepte Defi',
+    reject: 'Refize (Lach)'
+  },
+  fr: {
+    title: 'Défi Aléatoire !',
+    description: 'Vous avez été choisi pour un défi à haut risque.',
+    winText: 'Si vous réussissez : RÉCOMPENSES x3',
+    failText: 'Si vous échouez : VOUS PERDEZ LA MOITIÉ',
+    accept: 'Accepter le Défi',
+    reject: 'Refuser (Peur)'
+  }
+};
+
 export function RandomChallengeModal({ isOpen, onAccept, onReject }: RandomChallengeModalProps) {
+  const { language } = useLanguage();
+  const t = TRANSLATIONS[language] || TRANSLATIONS.es;
+
   useEffect(() => {
     if (isOpen) {
       // Optional: Play a sound effect or trigger haptic feedback here
@@ -50,21 +81,21 @@ export function RandomChallengeModal({ isOpen, onAccept, onReject }: RandomChall
               </motion.div>
               
               <h2 className="text-3xl font-black text-white mb-2 tracking-tight uppercase">
-                ¡Reto Aleatorio!
+                {t.title}
               </h2>
               
               <p className="text-[#d7baff] font-medium mb-6 text-sm">
-                Has sido elegido para un desafío de alto riesgo.
+                {t.description}
               </p>
               
               <div className="w-full bg-[#1b1b1e]/40 rounded-2xl p-4 mb-8">
                 <div className="flex items-center gap-3 text-emerald-400 mb-3 font-bold">
                   <Zap className="w-5 h-5 fill-emerald-400" />
-                  <span>Si aciertas: RECOMPENSAS x3</span>
+                  <span>{t.winText}</span>
                 </div>
                 <div className="flex items-center gap-3 text-red-400 font-bold">
                   <AlertTriangle className="w-5 h-5" />
-                  <span>Si fallas: PIERDES LA MITAD</span>
+                  <span>{t.failText}</span>
                 </div>
               </div>
               
@@ -73,13 +104,13 @@ export function RandomChallengeModal({ isOpen, onAccept, onReject }: RandomChall
                   onClick={onAccept}
                   className="w-full h-14 rounded-xl bg-gradient-to-r from-[#e9c349] to-[#cba72f] text-[#310065] font-black text-lg uppercase tracking-wide shadow-lg active:scale-95 transition-transform"
                 >
-                  Aceptar Reto
+                  {t.accept}
                 </button>
                 <button
                   onClick={onReject}
                   className="w-full h-12 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-sm uppercase tracking-wide transition-colors"
                 >
-                  Rechazar (Miedoso)
+                  {t.reject}
                 </button>
               </div>
             </div>

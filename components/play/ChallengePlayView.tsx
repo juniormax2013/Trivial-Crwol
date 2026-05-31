@@ -29,6 +29,7 @@ const TIMER_CIRCUMFERENCE = 2 * Math.PI * TIMER_RADIUS;
 const TRANSLATIONS: Record<string, Record<string, string>> = {
   es: {
     title: '¡Reto Especial!',
+    rewardsInfo: 'Recompensas x3 / Pérdida x0.5',
     timeUp: '¡Tiempo agotado!',
     correct: '¡Correcto!',
     incorrect: '¡Incorrecto!',
@@ -42,6 +43,7 @@ const TRANSLATIONS: Record<string, Record<string, string>> = {
   },
   ht: {
     title: 'Reto Espesyal!',
+    rewardsInfo: 'Rekonpans x3 / Pèdi x0.5',
     timeUp: 'Tan an fini!',
     correct: 'Kòrèk!',
     incorrect: 'Enkòrèk!',
@@ -55,6 +57,7 @@ const TRANSLATIONS: Record<string, Record<string, string>> = {
   },
   fr: {
     title: 'Défi Spécial !',
+    rewardsInfo: 'Récompenses x3 / Perte x0.5',
     timeUp: 'Temps écoulé !',
     correct: 'Correct !',
     incorrect: 'Incorrect !',
@@ -270,7 +273,7 @@ export default function ChallengePlayView({ question, onComplete, onClose }: Cha
                   {t.title}
                 </span>
                 <span className="text-xs font-bold text-amber-300">
-                  Recompensas x3 / Pérdida x0.5
+                  {t.rewardsInfo}
                 </span>
               </div>
             </div>
