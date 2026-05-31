@@ -97,6 +97,10 @@ service cloud.firestore {
       match /bible_achievements/{achievementId} {
         allow read, write: if isOwner(uid) || isAdmin();
       }
+
+      match /fcmTokens/{tokenId} {
+        allow read, write: if isOwner(uid) || isAdmin();
+      }
     }
 
     // ===================================
@@ -318,6 +322,10 @@ service cloud.firestore {
     match /daily_challenges/{challengeId} {
       allow read: if isSignedIn();
       allow write: if isAdmin();
+    }
+
+    match /dailyChallengeStatus/{userId} {
+      allow read, write: if isOwner(userId) || isAdmin();
     }
 
     // =========================

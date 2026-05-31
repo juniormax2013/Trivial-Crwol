@@ -2,6 +2,8 @@
 
 import React, { createContext, useContext, ReactNode } from 'react';
 import { useAuth, AuthContextType } from '@/hooks/useAuth';
+import { usePushNotifications } from '@/hooks/usePushNotifications';
+import PwaInstallBanner from '@/components/play/PwaInstallBanner';
 
 /**
  * AUTH CONTEXT
@@ -13,10 +15,12 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
  */
 export function AuthProvider({ children }: { children: ReactNode }) {
   const auth = useAuth();
+  const { showIosPwaBanner } = usePushNotifications(auth.user?.uid);
 
   return (
     <AuthContext.Provider value={auth}>
       {children}
+      {showIosPwaBanner && <PwaInstallBanner />}
     </AuthContext.Provider>
   );
 }

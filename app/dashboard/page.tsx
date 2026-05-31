@@ -6,15 +6,43 @@ import Link from 'next/link';
 import { Crown, Flame, Play, Calendar, Swords, Share2, Book, Landmark, Droplet, Heart } from 'lucide-react';
 import BottomNav from '@/components/BottomNav';
 import { useAuthContext } from '@/components/auth/AuthProvider';
-import { useT } from '@/lib/i18n/context';
+import { useT, useLanguage } from '@/lib/i18n/context';
 import { useNotifications } from '@/hooks/useNotifications';
 import NotificationIcon from '@/components/notifications/NotificationIcon';
+import { usePushNotifications } from '@/hooks/usePushNotifications';
+
+const NOTIF_TRANSLATIONS: Record<string, { title: string; desc: string; button: string }> = {
+  es: {
+    title: "Activar Notificaciones",
+    desc: "Recibe avisos al instante cuando te desafíen o tu reto diario esté listo.",
+    button: "Activar"
+  },
+  en: {
+    title: "Enable Notifications",
+    desc: "Get instant alerts when you are challenged or your daily challenge is ready.",
+    button: "Enable"
+  },
+  fr: {
+    title: "Activer les notifications",
+    desc: "Recevez des alertes instantanées lorsque vous êtes défié ou que votre défi est prêt.",
+    button: "Activer"
+  },
+  ht: {
+    title: "Aktive Notifikasyon",
+    desc: "Resevwa avètisman imedyatman lè yo ba w yon defi oswa defi w la pare.",
+    button: "Aktive"
+  }
+};
 
 export default function Dashboard() {
   const { user } = useAuthContext();
   const t = useT();
+  const { language } = useLanguage();
   const { duelInvitations } = useNotifications();
   const pendingDuelsCount = duelInvitations.length;
+
+  const { permission, requestPermission } = usePushNotifications(user?.uid);
+  const nTrans = NOTIF_TRANSLATIONS[language] || NOTIF_TRANSLATIONS.es;
 
   return (
     <div className="flex flex-col min-h-screen bg-white pb-8">
@@ -49,6 +77,27 @@ export default function Dashboard() {
       </nav>
 
       <main className="px-6 pt-6 space-y-8">
+        {/* Push Notification Permission Prompt Card */}
+        {permission === 'default' && (
+          <div className="bg-white rounded-[24px] p-5 shadow-[0_8px_32px_rgba(0,0,0,0.06)] border border-[#0F172A]/5 flex items-center justify-between gap-4 animate-fade-in">
+            <div className="flex items-start gap-3.5">
+              <div className="w-10 h-10 rounded-full bg-[#0A84FF]/10 flex items-center justify-center text-[#0A84FF] font-semibold text-lg shrink-0 animate-pulse">
+                🔔
+              </div>
+              <div className="space-y-0.5">
+                <h4 className="text-[#0F172A] font-extrabold text-[15px] tracking-tight">{nTrans.title}</h4>
+                <p className="text-[#64748B] text-[12px] font-medium leading-normal">{nTrans.desc}</p>
+              </div>
+            </div>
+            <button
+              onClick={() => requestPermission()}
+              className="px-4 py-2.5 bg-[#0A84FF] text-white font-bold text-[13px] rounded-xl hover:opacity-95 active:scale-[0.97] transition-all shrink-0 shadow-sm"
+            >
+              {nTrans.button}
+            </button>
+          </div>
+        )}
+
         {/* Greeting & Streak */}
         <section className="flex justify-between items-end">
           <div>

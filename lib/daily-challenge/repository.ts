@@ -16,7 +16,7 @@ import {
 } from './models';
 import { getMockDailyChallenge, MOCK_QUESTIONS, getTodayDateKey } from './seed';
 import { db } from '@/lib/firebase';
-import { doc, getDoc, updateDoc, collection, addDoc, serverTimestamp, query, where, limit, getDocs } from 'firebase/firestore';
+import { doc, getDoc, setDoc, updateDoc, collection, addDoc, serverTimestamp, query, where, limit, getDocs } from 'firebase/firestore';
 
 // ---------------------------------------------------------------
 // CONFIGURATION
@@ -215,6 +215,29 @@ export async function updateUserRewardsAndStreak(
     });
   } catch (error) {
     console.error('[DailyChallenge] Error updating user profile:', error);
+  }
+}
+
+/**
+ * Save daily challenge status document for FCM scheduler triggers.
+ */
+export async function updateDailyChallengeStatus(uid: string): Promise<void> {
+  if (isMockMode() || !uid || !db) return;
+  try {
+    const lastPlayedAt = new Date();
+    const nextAvailableAt = new Date();
+    // Schedule next challenge availability to tomorrow at 00:00:00 midnight
+    nextAvailableAt.setHours(24, 0, 0, 0);
+
+    await setDoc(doc(db, 'dailyChallengeStatus', uid), {
+      lastPlayedAt,
+      nextAvailableAt,
+      reminderSent: false,
+      updatedAt: serverTimestamp(),
+    }, { merge: true });
+    console.log('Daily challenge notification status updated in Firestore.');
+  } catch (error) {
+    console.error('[DailyChallenge] Error updating dailyChallengeStatus document:', error);
   }
 }
 

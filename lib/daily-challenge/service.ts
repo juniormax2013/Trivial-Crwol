@@ -18,6 +18,7 @@ import {
   getTodayDateKey,
   saveChallengeResult,
   updateUserRewardsAndStreak,
+  updateDailyChallengeStatus,
 } from './repository';
 import { getGameEngineConfig } from '../admin/settings-repository';
 
@@ -281,6 +282,9 @@ export async function completeDailyChallenge(
     totalWrongAnswers: newTotalWrong,
     accuracyRate: newAccuracyRate,
   });
+
+  // Save/reset notification availability status in Firestore
+  await updateDailyChallengeStatus(uid);
 
   return {
     challengeId: challenge.id,

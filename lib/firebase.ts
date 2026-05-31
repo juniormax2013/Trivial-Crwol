@@ -70,3 +70,11 @@ if (process.env.NODE_ENV === 'development' && process.env.NEXT_PUBLIC_USE_FIREBA
     }
 }
 
+import { getMessaging, isSupported } from "firebase/messaging";
+export const getClientMessaging = async () => {
+    if (typeof window === 'undefined') return null;
+    const supported = await isSupported();
+    return supported ? getMessaging(app) : null;
+};
+
+
