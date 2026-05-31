@@ -3,6 +3,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import type { JesusAnimState } from '@/hooks/useJesusTrap';
 import JesusCharacter from '@/src/components/JesusCharacter';
+import { useT } from '@/lib/i18n/context';
 
 const JESUS_CSS = `
   /* Resplandor celestial */
@@ -31,17 +32,17 @@ const JESUS_CSS = `
   }
 `;
 
-function getJesusBubbleText(state: JesusAnimState): string {
+function getJesusBubbleText(state: JesusAnimState, t: any): string {
   switch (state) {
-    case 'appear':      return 'La paz sea contigo. ✨';
-    case 'greeting':    return 'No temas, yo te guiaré. 🌟';
-    case 'blessing':    return 'Recibe mi bendición. ☀️';
-    case 'celebrating': return '¡Excelente respuesta! 💛';
-    case 'compassion':  return 'Ten paz, sigue adelante. 🌱';
-    case 'revealing':   return 'He aquí la verdad. 🔍';
-    case 'protecting':  return 'El mal no prevalecerá. 🛡️';
-    case 'victory':     return '¡Victoria gloriosa! 🎉';
-    default:            return 'Sigue adelante. ✨';
+    case 'appear':      return t.jesus.appear;
+    case 'greeting':    return t.jesus.greeting;
+    case 'blessing':    return t.jesus.blessing;
+    case 'celebrating': return t.jesus.celebrating;
+    case 'compassion':  return t.jesus.compassion;
+    case 'revealing':   return t.jesus.revealing;
+    case 'protecting':  return t.jesus.protecting;
+    case 'victory':     return t.jesus.victory;
+    default:            return t.jesus.default;
   }
 }
 
@@ -57,6 +58,7 @@ export default function JesusTrapOverlay({
   jesusEvent = null,
 }: JesusTrapOverlayProps) {
   const cssInjected = useRef(false);
+  const t = useT();
 
   useEffect(() => {
     if (cssInjected.current) return;
@@ -123,7 +125,7 @@ export default function JesusTrapOverlay({
           className="mt-1 bg-amber-500/90 text-white border border-amber-300/30 text-[9px] uppercase font-black tracking-widest px-3.5 py-1.5 rounded-full shadow-[0_4px_12px_rgba(251,191,36,0.3)] backdrop-blur-sm whitespace-nowrap"
           style={{ animation: 'jesus-bubble-bounce 2s ease-in-out infinite' }}
         >
-          {getJesusBubbleText(jesusState)}
+          {getJesusBubbleText(jesusState, t)}
         </div>
       </div>
     </div>

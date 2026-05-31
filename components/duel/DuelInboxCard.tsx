@@ -11,6 +11,7 @@ import { useState, useEffect } from 'react';
 import { toast } from 'sonner';
 
 import { useAuthContext } from '@/components/auth/AuthProvider';
+import { useT } from '@/lib/i18n/context';
 
 interface DuelInboxCardProps {
   duel: DuelModel;
@@ -20,6 +21,7 @@ interface DuelInboxCardProps {
 
 export default function DuelInboxCard({ duel, onAction, showActions = true }: DuelInboxCardProps) {
   const { user } = useAuthContext();
+  const t = useT();
   const DEMO_UID = user?.uid || 'unknown-user';
   const [mounted, setMounted] = useState(false);
   const [isLoading, setIsLoading] = useState<'accept' | 'decline' | null>(null);
@@ -29,7 +31,7 @@ export default function DuelInboxCard({ duel, onAction, showActions = true }: Du
   }, []);
 
   const vs = getDuelViewState(duel, DEMO_UID);
-  const statusInfo = getDuelStatusLabel(duel, DEMO_UID);
+  const statusInfo = getDuelStatusLabel(duel, DEMO_UID, t);
 
   const canAccept = 
     duel.status === 'pending' && 
@@ -45,10 +47,10 @@ export default function DuelInboxCard({ duel, onAction, showActions = true }: Du
     try {
       const updated = await acceptDuel(duel.id, DEMO_UID);
       onAction?.(updated);
-      toast.success("¡Invitación aceptada!");
+      toast.success(t.duel.toastAcceptSuccess);
     } catch (error: any) {
       console.error("Error accepting duel in card:", error);
-      toast.error(error.message || "Error al aceptar el duelo.");
+      toast.error(error.message || t.duel.toastAcceptError);
     } finally {
       setIsLoading(null);
     }
@@ -61,10 +63,10 @@ export default function DuelInboxCard({ duel, onAction, showActions = true }: Du
     try {
       const updated = await declineDuel(duel.id, DEMO_UID);
       onAction?.(updated);
-      toast.info("Invitación rechazada.");
+      toast.info(t.duel.toastDeclineSuccess);
     } catch (error: any) {
       console.error("Error declining duel in card:", error);
-      toast.error(error.message || "Error al rechazar el duelo.");
+      toast.error(error.message || t.duel.toastDeclineError);
     } finally {
       setIsLoading(null);
     }
@@ -97,8 +99,8 @@ export default function DuelInboxCard({ duel, onAction, showActions = true }: Du
         />
         <span className="text-[10px] text-[#cdc3d4] font-semibold">
           {mounted && (duel.status === 'pending'
-            ? formatTimeUntil(duel.expiresAt)
-            : formatTimeAgo(duel.lastActionAt))}
+            ? formatTimeUntil(duel.expiresAt, t)
+            : formatTimeAgo(duel.lastActionAt, t))}
         </span>
       </div>
 
@@ -154,15 +156,15 @@ export default function DuelInboxCard({ duel, onAction, showActions = true }: Du
 
       {/* Names */}
       <div className="flex justify-between mb-3">
-        <span className="text-[11px] font-bold text-[#310065] truncate max-w-[100px]">Tú</span>
+        <span className="text-[11px] font-bold text-[#310065] truncate max-w-[100px]">{t.duel.youLabel}</span>
         <span className="text-[11px] font-bold text-[#7c7483] truncate max-w-[120px] text-right">
-          {vs.opponentName}{otherParticipantsCount > 1 ? ' y otros' : ''}
+          {vs.opponentName}{otherParticipantsCount > 1 ? t.duel.andOthers : ''}
         </span>
       </div>
 
       {/* Round progress pills */}
       <div className="flex items-center gap-1 mb-4">
-        <span className="text-[10px] text-[#cdc3d4] font-semibold mr-1">Ronda</span>
+        <span className="text-[10px] text-[#cdc3d4] font-semibold mr-1">{t.duel.round}</span>
         {Array.from({ length: duel.totalRounds }, (_, i) => {
           const round = i + 1;
           const isComplete = round < duel.currentRound;
@@ -189,7 +191,7 @@ export default function DuelInboxCard({ duel, onAction, showActions = true }: Du
       <div className="flex items-center gap-1.5 mb-4">
         <Crown className="w-3.5 h-3.5 text-[#cba72f] fill-[#ffe088]" strokeWidth={1} />
         <span className="text-[11px] font-black text-[#735c00]">
-          {duel.rewardConfig.crowns} coronas · {duel.rewardConfig.xp} XP
+          {duel.rewardConfig.crowns} {t.profile.crowns.toLowerCase()} · {duel.rewardConfig.xp} XP
         </span>
       </div>
 
@@ -202,7 +204,7 @@ export default function DuelInboxCard({ duel, onAction, showActions = true }: Du
             className="flex-1 py-3 rounded-[1rem] border border-[#1b1b1e]/10 text-[#7c7483] font-bold text-[13px] hover:bg-[#f5f3f7] transition-colors flex items-center justify-center gap-1.5 disabled:opacity-50"
           >
             <XCircle className="w-4 h-4" />
-            {isLoading === 'decline' ? 'Rechazando…' : 'Rechazar'}
+            {isLoading === 'decline' ? t.duel.decliningLabel : t.duel.declineLabel}
           </button>
           <button
             onClick={handleAccept}
@@ -210,25 +212,25 @@ export default function DuelInboxCard({ duel, onAction, showActions = true }: Du
             className="flex-[2] py-3 rounded-[1rem] bg-[#310065] text-white font-bold text-[13px] hover:bg-[#4a148c] transition-colors flex items-center justify-center gap-1.5 shadow-[0_4px_12px_rgba(49,0,101,0.25)] disabled:opacity-50"
           >
             <CheckCircle2 className="w-4 h-4" />
-            {isLoading === 'accept' ? 'Aceptando…' : 'Aceptar duelo'}
+            {isLoading === 'accept' ? t.duel.acceptingLabel : t.duel.acceptLabel}
           </button>
         </div>
       ) : (
         <div className="flex items-center justify-between">
           {isMyTurn && (
             <span className="text-[11px] font-black text-emerald-600 uppercase tracking-wider animate-pulse">
-              ¡Es tu turno!
+              ¡{t.duel.yourTurn}!
             </span>
           )}
           <div className="ml-auto flex items-center gap-1 text-[#4a148c] group-hover:gap-2 transition-all">
             <span className="text-[13px] font-bold">
               {vs.ctaType === 'play'
-                ? 'Jugar'
+                ? t.duel.playLabel
                 : vs.ctaType === 'wait'
-                ? 'Ver duelo'
+                ? t.duel.viewDuel
                 : vs.ctaType === 'accept'
-                ? 'Ver'
-                : 'Ver resultados'}
+                ? t.duel.viewLabel
+                : t.duel.viewResults}
             </span>
             <ArrowRight className="w-4 h-4" />
           </div>

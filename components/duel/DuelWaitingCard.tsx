@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { useT } from '@/lib/i18n/context';
 
 interface DuelWaitingCardProps {
   opponentName: string;
@@ -11,8 +12,10 @@ interface DuelWaitingCardProps {
 export default function DuelWaitingCard({
   opponentName,
   opponentAvatar,
-  message = 'Esperando que tu rival juegue…',
+  message,
 }: DuelWaitingCardProps) {
+  const t = useT();
+  const displayMessage = message || t.duel.waitingOpponent;
   return (
     <div className="bg-white rounded-[2rem] p-8 border border-[#1b1b1e]/5 shadow-[0_4px_20px_rgba(0,0,0,0.04)] flex flex-col items-center text-center">
       {/* Avatar with pulsing ring */}
@@ -30,10 +33,10 @@ export default function DuelWaitingCard({
       </div>
 
       <h4 className="font-serif text-[18px] font-bold text-[#310065] mb-2">
-        Turno de {opponentName.split(' ')[0]}
+        {t.duel.turnOf.replace('{name}', opponentName.split(' ')[0])}
       </h4>
       <p className="text-[#7c7483] text-[13px] font-medium leading-relaxed mb-4 max-w-[200px]">
-        {message}
+        {displayMessage}
       </p>
 
       {/* Animated dots */}

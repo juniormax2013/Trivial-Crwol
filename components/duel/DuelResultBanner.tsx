@@ -1,12 +1,14 @@
 'use client';
 
 import { DuelResult } from '@/lib/duel/models';
+import { useT } from '@/lib/i18n/context';
 
 interface DuelResultBannerProps {
   result: DuelResult;
 }
 
 export default function DuelResultBanner({ result }: DuelResultBannerProps) {
+  const t = useT();
   const isWin  = result.outcome === 'win';
   const isTie  = result.outcome === 'tie';
 
@@ -14,22 +16,22 @@ export default function DuelResultBanner({ result }: DuelResultBannerProps) {
     win: {
       gradient: 'from-emerald-700 via-emerald-600 to-teal-500',
       emoji: '👑',
-      title: '¡Victoria!',
-      subtitle: 'Has dominado este duelo',
+      title: t.duel.victoryTitle,
+      subtitle: t.duel.victorySubtitle,
       glow: 'shadow-[0_20px_60px_rgba(16,185,129,0.35)]',
     },
     tie: {
       gradient: 'from-[#310065] via-[#4a148c] to-[#6d27c4]',
       emoji: '🤝',
-      title: 'Empate honorable',
-      subtitle: 'Dos rivales igualmente sabios',
+      title: t.duel.tieTitle,
+      subtitle: t.duel.tieSubtitle,
       glow: 'shadow-[0_20px_60px_rgba(74,20,140,0.35)]',
     },
     loss: {
       gradient: 'from-[#3d3555] via-[#5a4f70] to-[#7c7483]',
       emoji: '📖',
-      title: 'Derrota',
-      subtitle: 'Cada batalla es una lección',
+      title: t.duel.defeatTitle,
+      subtitle: t.duel.defeatSubtitle,
       glow: 'shadow-[0_20px_60px_rgba(60,50,90,0.25)]',
     },
   };
@@ -55,7 +57,7 @@ export default function DuelResultBanner({ result }: DuelResultBannerProps) {
         {/* Score */}
         <div className="flex items-center gap-6 mb-4">
           <div className="text-center">
-            <p className="text-[10px] font-black uppercase tracking-widest text-white/50 mb-1">Tú</p>
+            <p className="text-[10px] font-black uppercase tracking-widest text-white/50 mb-1">{t.duel.youLabel}</p>
             <p className="font-serif font-black text-[40px] leading-none">{result.finalScore.mine}</p>
           </div>
           <div className="text-white/30 font-bold text-[18px]">vs</div>
@@ -69,9 +71,9 @@ export default function DuelResultBanner({ result }: DuelResultBannerProps) {
 
         {/* Accuracy */}
         <div className="flex items-center gap-4 text-[13px] font-semibold text-white/70">
-          <span>✓ {result.correctAnswers.mine} correctas</span>
+          <span>✓ {t.duel.correctAnswersCount.replace('{count}', String(result.correctAnswers.mine))}</span>
           <span>·</span>
-          <span>vs rival: {result.correctAnswers.theirs}</span>
+          <span>{t.duel.vsRivalCount.replace('{count}', String(result.correctAnswers.theirs))}</span>
         </div>
       </div>
     </div>

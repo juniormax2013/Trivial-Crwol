@@ -49,6 +49,19 @@ export default function NewDuelPage() {
   const [mounted, setMounted] = useState(false);
   const [step, setStep] = useState<1 | 2>(1);
 
+  const getLocalizedCatName = (cat: any) => {
+    if (language === 'es') return cat.nameES || cat.name;
+    if (language === 'fr') return cat.nameFR || cat.name;
+    return cat.name;
+  };
+
+  const getLocalizedDifficultyLabel = (key: Difficulty) => {
+    if (key === 'easy') return t.duel.easy;
+    if (key === 'medium') return t.duel.medium;
+    if (key === 'hard') return t.duel.hard;
+    return key;
+  };
+
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -140,10 +153,10 @@ export default function NewDuelPage() {
           </button>
           <div>
             <p className="text-[10px] font-black uppercase tracking-widest text-[#7c7483]">
-              Paso {step} de 2
+              {t.duel.step} {step} {t.duel.ofText} 2
             </p>
             <h1 className="font-serif text-[20px] font-black text-[#310065] leading-tight">
-              {step === 1 ? 'Elige tus rivales' : 'Configura el duelo'}
+              {step === 1 ? t.duel.chooseRivals : t.duel.configureDuel}
             </h1>
           </div>
         </div>
@@ -164,7 +177,7 @@ export default function NewDuelPage() {
           <section className="mt-4">
             <div className="flex items-center justify-between mb-5">
               <p className="text-[#7c7483] text-[14px] font-medium">
-                Selecciona hasta 4 guerreros
+                {t.duel.selectUpTo4}
               </p>
               <span className="text-[12px] font-bold text-[#310065] px-3 py-1 bg-white border border-[#310065]/10 rounded-full shadow-sm">
                 {selectedOpponents.length} / 4
@@ -245,7 +258,7 @@ export default function NewDuelPage() {
               disabled={selectedOpponents.length === 0}
               className="w-full mt-6 py-4 rounded-[1.25rem] bg-[#310065] text-white font-bold text-[17px] shadow-[0_8px_20px_rgba(49,0,101,0.2)] hover:bg-[#4a148c] transition-all disabled:opacity-40 active:scale-[0.99]"
             >
-              Continuar ({selectedOpponents.length})
+              {t.duel.continueWithCount.replace('{n}', selectedOpponents.length.toString())}
             </button>
           </section>
         )}
@@ -257,7 +270,7 @@ export default function NewDuelPage() {
             {/* Participants recap */}
             <div className="bg-white rounded-[1.75rem] p-4 border border-[#1b1b1e]/5">
               <div className="flex items-center justify-between mb-3">
-                <p className="text-[13px] font-bold text-[#7c7483] uppercase tracking-wider">Rivales invitados</p>
+                <p className="text-[13px] font-bold text-[#7c7483] uppercase tracking-wider">{t.duel.invitedRivals}</p>
                 <Swords className="w-4 h-4 text-[#cdc3d4]" />
               </div>
               <div className="flex flex-wrap gap-3">
@@ -275,7 +288,7 @@ export default function NewDuelPage() {
             {/* Categories */}
             <div>
               <div className="flex items-center justify-between mb-3">
-                <h3 className="font-serif text-[18px] font-bold text-[#310065]">Categorías</h3>
+                <h3 className="font-serif text-[18px] font-bold text-[#310065]">{t.duel.categories}</h3>
                 <label className="flex items-center gap-2 cursor-pointer bg-[#f5f3f7] px-3 py-1.5 rounded-full hover:bg-[#eddcff] transition-colors">
                   <input 
                     type="checkbox" 
@@ -283,13 +296,13 @@ export default function NewDuelPage() {
                     onChange={(e) => setIsRandomCategories(e.target.checked)} 
                     className="w-4 h-4 rounded text-[#310065] border-gray-300 focus:ring-[#310065] cursor-pointer" 
                   />
-                  <span className="text-[12px] font-bold text-[#310065]">Aleatorio</span>
+                  <span className="text-[12px] font-bold text-[#310065]">{t.duel.random}</span>
                 </label>
               </div>
               <p className="text-[12px] text-[#7c7483] font-medium mb-3">
                 {isRandomCategories 
-                  ? 'El sistema seleccionará 3 categorías al azar.' 
-                  : 'Selecciona al menos 1 (se jugará 1 ronda por categoría)'}
+                  ? t.duel.randomDesc 
+                  : t.duel.selectAtLeast1}
               </p>
               <div className={`grid grid-cols-3 gap-3 transition-opacity duration-300 ${isRandomCategories ? 'opacity-40 pointer-events-none grayscale' : 'opacity-100'}`}>
                 {DUEL_CATEGORIES.map((cat) => {
@@ -306,7 +319,7 @@ export default function NewDuelPage() {
                     >
                       <span className="text-2xl">{cat.icon}</span>
                       <span className={`text-[11px] font-bold ${isSelected ? 'text-[#310065]' : 'text-[#7c7483]'}`}>
-                        {cat.name}
+                        {getLocalizedCatName(cat)}
                       </span>
                     </button>
                   );
@@ -316,7 +329,7 @@ export default function NewDuelPage() {
 
             {/* Difficulty */}
             <div>
-              <h3 className="font-serif text-[18px] font-bold text-[#310065] mb-3">Dificultad</h3>
+              <h3 className="font-serif text-[18px] font-bold text-[#310065] mb-3">{t.duel.difficulty}</h3>
               <div className="space-y-2">
                 {DIFFICULTY_OPTIONS.map((opt) => {
                   const isSelected = difficulty === opt.key;
@@ -338,11 +351,11 @@ export default function NewDuelPage() {
                     >
                       <div className="flex items-center gap-3">
                         <div className={`w-3 h-3 rounded-full ${dotMap[opt.color]} ${isSelected ? '' : 'opacity-30'}`} />
-                        <span className="font-bold text-[15px] text-[#1b1b1e]">{opt.label}</span>
+                        <span className="font-bold text-[15px] text-[#1b1b1e]">{getLocalizedDifficultyLabel(opt.key)}</span>
                       </div>
                       <div className="flex flex-col items-end gap-0.5">
-                        <span className="text-[11px] font-bold text-[#7c7483]">{opt.questions} preguntas</span>
-                        <span className="text-[11px] text-[#7c7483]">{opt.time}s por pregunta</span>
+                        <span className="text-[11px] font-bold text-[#7c7483]">{opt.questions} {t.duel.questions}</span>
+                        <span className="text-[11px] text-[#7c7483]">{opt.time}s {t.duel.secondsPerQuestion}</span>
                       </div>
                     </button>
                   );
@@ -352,17 +365,17 @@ export default function NewDuelPage() {
 
             {/* Rewards preview */}
             <div className="bg-[#ffe088]/20 rounded-[1.75rem] p-5 border border-[#cba72f]/20">
-              <h4 className="font-bold text-[#735c00] text-[13px] uppercase tracking-wider mb-3">Recompensas por victoria</h4>
+              <h4 className="font-bold text-[#735c00] text-[13px] uppercase tracking-wider mb-3">{t.duel.victoryRewards}</h4>
               <div className="flex items-center gap-6">
                 <div className="flex items-center gap-1.5">
                   <Crown className="w-4 h-4 text-[#cba72f] fill-[#ffe088]" strokeWidth={1} />
-                  <span className="font-black text-[#735c00] text-[16px]">{DIFFICULTY_REWARDS[difficulty].crowns} coronas</span>
+                  <span className="font-black text-[#735c00] text-[16px]">{DIFFICULTY_REWARDS[difficulty].crowns} {t.profile.crowns}</span>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <span className="font-black text-[#735c00] text-[16px]">{DIFFICULTY_REWARDS[difficulty].xp} XP</span>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  <span className="font-black text-[#735c00] text-[16px]">{DIFFICULTY_REWARDS[difficulty].coins} monedas</span>
+                  <span className="font-black text-[#735c00] text-[16px]">{DIFFICULTY_REWARDS[difficulty].coins} {t.store.coinsLabel}</span>
                 </div>
               </div>
             </div>
@@ -373,7 +386,7 @@ export default function NewDuelPage() {
               className="w-full py-4 rounded-[1.25rem] bg-gradient-to-r from-[#310065] to-[#4a148c] text-white font-bold text-[17px] shadow-[0_8px_20px_rgba(49,0,101,0.2)] hover:opacity-90 transition-all disabled:opacity-40 active:scale-[0.99] flex items-center justify-center gap-2"
             >
               <Swords className="w-5 h-5" />
-              {isSubmitting ? 'Enviando desafío…' : 'Enviar desafío'}
+              {isSubmitting ? t.duel.sendingChallenge : t.duel.sendChallenge}
             </button>
           </section>
         )}

@@ -22,6 +22,7 @@ import DuelWaitingCard from '@/components/duel/DuelWaitingCard';
 import DuelStatusBadge from '@/components/duel/DuelStatusBadge';
 import { DuelModel, DuelRound } from '@/lib/duel/models';
 import { getDuelById, getRoundsForDuel, acceptDuel, declineDuel, startDuel, subscribeToDuelById } from '@/lib/duel/repository';
+import { DUEL_CATEGORIES } from '@/lib/duel/seed';
 import {
   getDuelViewState,
   getDuelStatusLabel,
@@ -33,9 +34,12 @@ import {
 } from '@/lib/duel/service';
 
 import { useAuthContext } from '@/components/auth/AuthProvider';
+import { useT, useLanguage } from '@/lib/i18n/context';
 
 export default function DuelDetailPage({ params }: { params: Promise<{ duelId: string }> }) {
   const { user } = useAuthContext();
+  const { language } = useLanguage();
+  const t = useT();
   const DEMO_UID = user?.uid || 'unknown-user';
   const { duelId } = use(params);
   const router = useRouter();
@@ -73,10 +77,10 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
     try {
       const updated = await acceptDuel(duel.id, DEMO_UID);
       setDuel(updated);
-      toast.success("¡Te has unido al duelo!");
+      toast.success(language === 'es' ? "¡Te has unido al duelo!" : language === 'fr' ? "Vous avez rejoint le duel !" : "Ou rantre nan diyèl la!");
     } catch (error: any) {
       console.error("Error accepting duel:", error);
-      toast.error(error.message || "No se pudo aceptar el duelo. Inténtalo de nuevo.");
+      toast.error(error.message || (language === 'es' ? "No se pudo aceptar el duelo. Inténtalo de nuevo." : language === 'fr' ? "Impossible d'accepter le duel. Réessayez." : "Nou pa ka asepte diyèl la. Eseye ankò."));
     } finally {
       setActionLoading(null);
     }
@@ -88,11 +92,11 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
     try {
       const updated = await declineDuel(duel.id, DEMO_UID);
       setDuel(updated);
-      toast.info("Has rechazado la invitación.");
+      toast.info(language === 'es' ? "Has rechazado la invitación." : language === 'fr' ? "Vous avez refusé l'invitation." : "Ou refize envitasyon an.");
       router.push('/arena/duels');
     } catch (error: any) {
       console.error("Error declining duel:", error);
-      toast.error(error.message || "No se pudo rechazar el duelo.");
+      toast.error(error.message || (language === 'es' ? "No se pudo rechazar el duelo." : language === 'fr' ? "Impossible de refuser le duel." : "Nou pa ka refize diyèl la."));
     } finally {
       setActionLoading(null);
     }
@@ -104,10 +108,10 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
     try {
       const updated = await startDuel(duel.id);
       setDuel(updated);
-      toast.success("¡El duelo ha comenzado!");
+      toast.success(language === 'es' ? "¡El duelo ha comenzado!" : language === 'fr' ? "Le duel a commencé !" : "Diyèl la kòmanse!");
     } catch (error: any) {
       console.error("Error starting duel:", error);
-      toast.error(error.message || "No se pudo iniciar el duelo.");
+      toast.error(error.message || (language === 'es' ? "No se pudo iniciar el duelo." : language === 'fr' ? "Impossible de démarrer le duel." : "Nou pa ka kòmanse diyèl la."));
     } finally {
       setActionLoading(null);
     }
@@ -125,14 +129,14 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
     return (
       <div className="bg-[#faf9fc] min-h-screen flex flex-col items-center justify-center gap-4 px-6 text-center">
         <AlertCircle className="w-12 h-12 text-[#cdc3d4]" />
-        <h2 className="font-serif text-[22px] font-bold text-[#310065]">Duelo no encontrado</h2>
-        <Link href="/arena/duels" className="text-[#4a148c] font-bold">Volver a Arena</Link>
+        <h2 className="font-serif text-[22px] font-bold text-[#310065]">{t.duel.duelNotFound}</h2>
+        <Link href="/arena/duels" className="text-[#4a148c] font-bold">{t.duel.backToArena}</Link>
       </div>
     );
   }
 
   const vs = getDuelViewState(duel, DEMO_UID);
-  const statusInfo = getDuelStatusLabel(duel, DEMO_UID);
+  const statusInfo = getDuelStatusLabel(duel, DEMO_UID, t);
   const outcome = getOutcome(duel, DEMO_UID);
 
   const me = duel.participants[DEMO_UID];
@@ -166,7 +170,7 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
               vs. {vs.opponentName}
             </p>
             <h1 className="font-serif text-[20px] font-black text-[#310065] leading-tight">
-              Duelo Multijugador
+              {t.duel.multiplayerDuel}
             </h1>
           </div>
           <DuelStatusBadge label={statusInfo.label} color={statusInfo.color} pulse={isActive && vs.isMyTurn} />
@@ -199,25 +203,35 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
               </div>
               <div>
                 <p className="font-bold text-[#1b1b1e] text-[15px]">{duel.participants[duel.createdBy]?.name || 'Un guerrero'}</p>
-                <p className="text-[12px] text-[#7c7483]">te invitó a un duelo {formatTimeAgo(duel.createdAt)}</p>
+                <p className="text-[12px] text-[#7c7483]">{t.duel.invitedYou} {formatTimeAgo(duel.createdAt)}</p>
               </div>
             </div>
 
             <div className="bg-[#faf9fc] rounded-[1.25rem] p-4 mb-5 space-y-2">
               <div className="flex justify-between">
-                <span className="text-[12px] text-[#7c7483]">Participantes</span>
-                <span className="text-[12px] font-bold text-[#1b1b1e]">{Object.keys(duel.participants).length} jugadores</span>
+                <span className="text-[12px] text-[#7c7483]">{t.dashboard.participants}</span>
+                <span className="text-[12px] font-bold text-[#1b1b1e]">{Object.keys(duel.participants).length} {language === 'es' ? "jugadores" : language === 'fr' ? "joueurs" : "jwè"}</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-[12px] text-[#7c7483]">Categorías</span>
-                <span className="text-[12px] font-bold text-[#1b1b1e]">{duel.selectedCategories.join(', ')}</span>
+                <span className="text-[12px] text-[#7c7483]">{t.duel.categories}</span>
+                <span className="text-[12px] font-bold text-[#1b1b1e]">
+                  {duel.selectedCategories.map(catId => {
+                    const cat = DUEL_CATEGORIES.find(c => c.id === catId);
+                    if (!cat) return catId;
+                    return language === 'es' ? (cat.nameES || cat.name) : language === 'fr' ? (cat.nameFR || cat.name) : cat.name;
+                  }).join(', ')}
+                </span>
               </div>
               <div className="flex justify-between">
-                <span className="text-[12px] text-[#7c7483]">Dificultad</span>
-                <span className="text-[12px] font-bold text-[#1b1b1e] capitalize">{duel.difficulty}</span>
+                <span className="text-[12px] text-[#7c7483]">{t.duel.difficulty}</span>
+                <span className="text-[12px] font-bold text-[#1b1b1e]">
+                  {duel.difficulty === 'easy' ? t.duel.easy : duel.difficulty === 'medium' ? t.duel.medium : t.duel.hard}
+                </span>
               </div>
               <div className="flex justify-between">
-                <span className="text-[12px] text-[#7c7483]">Expira en</span>
+                <span className="text-[12px] text-[#7c7483]">
+                  {language === 'es' ? "Expira en" : language === 'fr' ? "Expire le" : "Ekspire nan"}
+                </span>
                 <span className="text-[12px] font-bold text-amber-600">{formatTimeUntil(duel.expiresAt)}</span>
               </div>
             </div>
@@ -229,7 +243,7 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
                 className="flex-1 py-3 rounded-[1rem] border border-[#1b1b1e]/10 text-[#7c7483] font-bold text-[14px] flex items-center justify-center gap-1.5 hover:bg-[#f5f3f7] transition-colors disabled:opacity-50"
               >
                 <XCircle className="w-4 h-4" />
-                {actionLoading === 'decline' ? 'Rechazando…' : 'Rechazar'}
+                {actionLoading === 'decline' ? (language === 'es' ? 'Rechazando…' : language === 'fr' ? 'Refus en cours...' : 'Ap refize...') : (language === 'es' ? 'Rechazar' : language === 'fr' ? 'Refuser' : 'Refize')}
               </button>
               <button
                 onClick={handleAccept}
@@ -237,7 +251,7 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
                 className="flex-[2] py-3 rounded-[1rem] bg-[#310065] text-white font-bold text-[14px] flex items-center justify-center gap-1.5 shadow-[0_4px_12px_rgba(49,0,101,0.25)] hover:bg-[#4a148c] transition-colors disabled:opacity-50"
               >
                 <CheckCircle2 className="w-4 h-4" />
-                {actionLoading === 'accept' ? 'Aceptando…' : 'Unirse al duelo'}
+                {actionLoading === 'accept' ? (language === 'es' ? 'Aceptando…' : language === 'fr' ? 'Acceptation...' : 'Ap asepte...') : (language === 'es' ? 'Unirse al duelo' : language === 'fr' ? 'Rejoindre' : 'Rantre nan diyèl')}
               </button>
             </div>
           </div>
@@ -250,9 +264,9 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
               opponentName={vs.opponentName}
               opponentAvatar={vs.opponentAvatar}
               message={
-                isSent ? "Esperando que los invitados respondan para iniciar..." : 
-                isAccepted ? "¡Aceptaste! Esperando que el creador inicie el duelo..." :
-                "El duelo está en curso. Esperando que sea tu turno..."
+                isSent ? t.duel.waitingGuests : 
+                isAccepted ? t.duel.waitingCreator :
+                t.duel.waitingTurn
               }
             />
 
@@ -260,7 +274,7 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
             <div className="bg-white rounded-[1.5rem] p-5 border border-[#1b1b1e]/5 shadow-sm">
               <div className="flex items-center justify-between mb-4">
                 <h4 className="text-[12px] font-black uppercase tracking-widest text-[#7c7483]">
-                  Estado de los jugadores
+                  {t.duel.playerStatus}
                 </h4>
                 {isSent && Object.values(duel.participants).some(p => p.uid !== DEMO_UID && p.status === 'accepted') && (
                   <button
@@ -268,7 +282,7 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
                     disabled={actionLoading !== null}
                     className="text-[11px] font-black uppercase tracking-widest text-[#4a148c] bg-[#eddcff] px-3 py-1.5 rounded-full hover:bg-[#4a148c] hover:text-white transition-all disabled:opacity-50"
                   >
-                    {actionLoading === 'start' ? 'Iniciando...' : 'Iniciar ahora'}
+                    {actionLoading === 'start' ? (language === 'es' ? 'Iniciando...' : language === 'fr' ? 'Démarrage...' : 'Ap kòmanse...') : t.duel.startNow}
                   </button>
                 )}
               </div>
@@ -279,20 +293,20 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
                       <div className="w-8 h-8 rounded-full overflow-hidden border border-[#1b1b1e]/10">
                         <Image src={p.avatarUrl} alt={p.name} width={32} height={32} className="w-full h-full object-cover" unoptimized />
                       </div>
-                      <span className="text-[13px] font-bold text-[#1b1b1e]">{p.name} {p.uid === DEMO_UID ? '(Tú)' : ''}</span>
+                      <span className="text-[13px] font-bold text-[#1b1b1e]">{p.name} {p.uid === DEMO_UID ? `(${language === 'es' ? 'Tú' : language === 'fr' ? 'Toi' : 'Ou'})` : ''}</span>
                     </div>
                     <div className="flex items-center gap-1.5">
                       {p.status === 'accepted' ? (
                         <span className="text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full flex items-center gap-1">
-                          <CheckCircle2 className="w-3 h-3" /> Aceptó
+                          <CheckCircle2 className="w-3 h-3" /> {t.duel.acceptedStatus}
                         </span>
                       ) : p.status === 'declined' ? (
                         <span className="text-[10px] font-bold text-red-600 bg-red-50 px-2 py-0.5 rounded-full flex items-center gap-1">
-                          <XCircle className="w-3 h-3" /> Rechazó
+                          <XCircle className="w-3 h-3" /> {t.duel.declinedStatus}
                         </span>
                       ) : (
                         <span className="text-[10px] font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full flex items-center gap-1 animate-pulse">
-                          <Clock className="w-3 h-3" /> Pendiente
+                          <Clock className="w-3 h-3" /> {t.duel.pendingStatus}
                         </span>
                       )}
                     </div>
@@ -301,16 +315,15 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
               </div>
               {isSent && !Object.values(duel.participants).some(p => p.uid !== DEMO_UID && p.status === 'accepted') && (
                 <p className="mt-4 text-[11px] text-[#7c7483] text-center italic">
-                  Podrás iniciar el duelo en cuanto alguien acepte.
+                  {t.duel.canStartWhenAccepted}
                 </p>
               )}
             </div>
           </div>
         )}
-
-        {/* ── ACTIVE: your turn → CTA to play ── */}
+               {/* ── ACTIVE: your turn → CTA to play ── */}
         {isActive && vs.isMyTurn && (
-          <div className={`rounded-[2rem] p-6 text-white shadow-[0_8px_32px_rgba(49,0,101,0.2)] ${
+          <div className={`rounded-[2rem] p-6 text-white shadow-[0_8px_32px_rgba(49,0,101,0.25)] ${
             duel.tiebreakerRoundNumber
               ? 'bg-gradient-to-br from-amber-500 to-orange-500'
               : 'bg-gradient-to-br from-[#310065] to-[#4a148c]'
@@ -320,21 +333,21 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
               <span className={`text-[11px] font-black uppercase tracking-widest ${
                 duel.tiebreakerRoundNumber ? 'text-yellow-100' : 'text-emerald-300'
               }`}>
-                {duel.tiebreakerRoundNumber ? '⚡ ¡Muerte Súbita!' : '¡Tu turno!'}
+                {duel.tiebreakerRoundNumber ? t.duel.suddenDeathLabel : `¡${t.duel.yourTurn}!`}
               </span>
             </div>
             <h3 className="font-serif text-[22px] font-black mb-1">
-              {duel.tiebreakerRoundNumber ? 'Desempate — 1 pregunta' : `Ronda ${duel.currentRound}`}
+              {duel.tiebreakerRoundNumber ? t.duel.tiebreakerOneQuestion : `${t.duel.round} ${duel.currentRound}`}
             </h3>
             <p className="text-white/70 text-[13px] font-medium mb-6">
-              Todos juegan al mismo tiempo. ¡Asegura tu ventaja!
+              {t.duel.sameTimePlayDesc}
             </p>
             <Link
               href={`/arena/duels/${duelId}/play`}
               className="flex items-center justify-center gap-2 w-full py-4 bg-white rounded-[1.25rem] text-[#310065] font-bold text-[17px] shadow-[0_4px_12px_rgba(255,255,255,0.2)] hover:opacity-90 transition-all active:scale-[0.99]"
             >
               <Play className="w-5 h-5 fill-[#310065]" />
-              {duel.tiebreakerRoundNumber ? '⚡ Jugar desempate' : 'Jugar ahora'}
+              {duel.tiebreakerRoundNumber ? t.duel.playTiebreakerBtn : t.duel.playNow}
             </Link>
           </div>
         )}
@@ -342,7 +355,7 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
         {/* ── ROUNDS BREAKDOWN (always show if active/done) ── */}
         {(isDone || isActive) && rounds.length > 0 && (
           <div className="bg-white rounded-[2rem] p-6 border border-[#1b1b1e]/5">
-            <h3 className="font-serif text-[18px] font-bold text-[#310065] mb-4">Rondas</h3>
+            <h3 className="font-serif text-[18px] font-bold text-[#310065] mb-4">{t.duel.rounds}</h3>
             <div className="space-y-3">
               {rounds.map((r) => {
                 const myScore = r.playerScores[DEMO_UID] || 0;
@@ -358,7 +371,7 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
                     <div>
                       <p className="font-bold text-[#1b1b1e] text-[14px] flex items-center gap-1.5">
                         {r.isTiebreakerRound && <span className="text-amber-500 text-[12px]">⚡</span>}
-                        {r.isTiebreakerRound ? 'Desempate' : `Ronda ${r.roundNumber}`}
+                        {r.isTiebreakerRound ? t.duel.tiebreakerLabel : `${t.duel.round} ${r.roundNumber}`}
                       </p>
                       <p className="text-[11px] text-[#7c7483]">{r.categoryName}</p>
                     </div>
@@ -367,17 +380,17 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
                         <span className={`font-serif font-black text-[18px] ${iWon ? 'text-[#310065]' : 'text-[#7c7483]'}`}>
                           {myScore}
                         </span>
-                        <span className="text-[#cdc3d4] text-[12px]">vs</span>
+                        <span className="text-[#cdc3d4] text-[12px]">{t.duel.vs.toLowerCase()}</span>
                         <span className={`font-serif font-black text-[18px] ${!iWon && !tied ? 'text-[#310065]' : 'text-[#7c7483]'}`}>
                           {topOtherScore}
                         </span>
                         <span className={`text-[10px] font-black px-2 py-0.5 rounded-full ${iWon ? 'bg-emerald-50 text-emerald-700' : tied ? 'bg-[#f5f3f7] text-[#7c7483]' : 'bg-red-50 text-red-600'}`}>
-                          {iWon ? 'WON' : tied ? 'TIE' : 'LOST'}
+                          {iWon ? t.duel.wonStatus : tied ? t.duel.tieStatus : t.duel.lostStatus}
                         </span>
                       </div>
                     ) : (
                       <span className="text-[11px] text-[#cdc3d4] font-semibold flex items-center gap-1">
-                        <Clock className="w-3 h-3" /> En curso
+                        <Clock className="w-3 h-3" /> {t.duel.inProgress}
                       </span>
                     )}
                   </div>
@@ -394,13 +407,13 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
             outcome === 'tie'  ? 'bg-gradient-to-br from-[#310065] to-[#4a148c]' :
                                  'bg-gradient-to-br from-[#3d3555] to-[#7c7483]'
           }`}>
-            <p className="text-[11px] font-black uppercase tracking-widest opacity-70 mb-2">Resultado final</p>
+            <p className="text-[11px] font-black uppercase tracking-widest opacity-70 mb-2">{t.duel.finalOutcome}</p>
             <h3 className="font-serif text-[28px] font-black mb-1">
-              {outcome === 'win' ? '¡Victoria!' : outcome === 'tie' ? '¡Empate honorable!' : 'Fin del duelo'}
+              {outcome === 'win' ? t.duel.victoryTitle : outcome === 'tie' ? t.duel.tieOutcomeBanner : t.duel.defeatTitle}
             </h3>
             <div className="flex flex-col gap-1 mb-5">
               <p className="text-white/70 text-[13px] font-medium">
-                Puntuación final: <span className="text-white font-bold">{vs.myScore} pts</span>
+                {t.duel.finalScore}: <span className="text-white font-bold">{vs.myScore} pts</span>
               </p>
               {isDone && (
                 <div className="flex items-center gap-3 mt-1">
@@ -425,13 +438,13 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
                 href="/arena/duels/new"
                 className="flex-1 py-3 bg-white/20 rounded-[1rem] font-bold text-[14px] text-center hover:bg-white/30 transition-colors flex items-center justify-center gap-1.5"
               >
-                <RotateCcw className="w-4 h-4" /> Revancha
+                <RotateCcw className="w-4 h-4" /> {t.duel.rematch}
               </Link>
               <Link
                 href="/arena/duels"
                 className="flex-1 py-3 bg-white rounded-[1rem] font-bold text-[14px] text-center hover:opacity-90 transition-all flex items-center justify-center gap-1.5 text-[#310065]"
               >
-                <Swords className="w-4 h-4" /> Ver duelos
+                <Swords className="w-4 h-4" /> {t.duel.backToDuels}
               </Link>
             </div>
           </div>
@@ -442,19 +455,19 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
           <div className="bg-white rounded-[2rem] p-6 border border-[#1b1b1e]/5 flex flex-col items-center text-center">
             <AlertCircle className="w-10 h-10 text-[#cdc3d4] mb-3" />
             <h3 className="font-serif text-[18px] font-bold text-[#310065] mb-2">
-              {duel.status === 'expired' ? 'Duelo expirado' :
-               duel.status === 'declined' ? 'Duelo rechazado' : 'Duelo cancelado'}
+              {duel.status === 'expired' ? t.duel.duelExpired :
+               duel.status === 'declined' ? t.duel.duelDeclined : t.duel.duelCancelled}
             </h3>
             <p className="text-[#7c7483] text-[13px] mb-5">
-              {duel.status === 'expired' ? 'El tiempo para responder ha terminado.' :
-               duel.status === 'declined' ? 'Tu rival rechazó el desafío.' :
-               'Este duelo fue cancelado.'}
+              {duel.status === 'expired' ? t.duel.expiredDesc :
+               duel.status === 'declined' ? t.duel.declinedDesc :
+               t.duel.cancelledDesc}
             </p>
             <Link
               href="/arena/duels/new"
               className="bg-[#310065] text-white px-6 py-3 rounded-full font-bold text-[14px]"
             >
-              Nuevo desafío
+              {t.duel.newChallenge}
             </Link>
           </div>
         )}

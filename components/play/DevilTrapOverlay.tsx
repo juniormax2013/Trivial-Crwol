@@ -3,6 +3,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import type { DevilAnimState } from '@/hooks/useDevilTrap';
 import DevilCharacter from '@/src/components/DevilCharacter';
+import { useT } from '@/lib/i18n/context';
 
 // ─── Background image remover ──────────────────────────────────────────────
 // Removes the white background from the devil PNG using flood-fill on client.
@@ -207,14 +208,14 @@ const DEVIL_CSS = `
 interface Ember { id: number; left: number; size: number; delay: number; duration: number; }
 
 // ─── State config ──────────────────────────────────────────────────────────
-function getBubbleText(state: DevilAnimState): string {
+function getBubbleText(state: DevilAnimState, t: any): string {
   switch (state) {
-    case 'appear':    return '¡Aquí estoy! 😈';
-    case 'walk':      return '¡Ja ja ja! 🔥';
-    case 'taunt':     return '¡Trampa activada! 😏';
-    case 'celebrate': return '¡MUAJAJA! 🎉';
-    case 'defeat':    return '¡Nooo! 😱';
-    default:          return '¡Muajaja! 😈';
+    case 'appear':    return t.devil.appear;
+    case 'walk':      return t.devil.walk;
+    case 'taunt':     return t.devil.taunt;
+    case 'celebrate': return t.devil.celebrate;
+    case 'defeat':    return t.devil.defeat;
+    default:          return t.devil.default;
   }
 }
 
@@ -232,6 +233,7 @@ export default function DevilTrapOverlay({
   devilMode = 'POWER_MODE',
   devilEvent = null
 }: DevilTrapOverlayProps) {
+  const t = useT();
   const [embers, setEmbers] = useState<Ember[]>([]);
   const [fireBursts, setFireBursts] = useState<{ id: number; left: number; bottom: number }[]>([]);
   const cssInjected = useRef(false);
@@ -332,7 +334,7 @@ export default function DevilTrapOverlay({
         <div className="fixed top-4 left-1/2 transform -translate-x-1/2 z-[50] animate-bounce pointer-events-none">
           <div className="bg-slate-900/95 dark:bg-slate-950/98 text-cyan-400 border border-cyan-500/30 text-xs font-black uppercase tracking-widest px-5 py-2.5 rounded-2xl shadow-2xl flex items-center gap-2.5 backdrop-blur-md">
             <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-ping shrink-0" />
-            <span>El diablo está observando la partida</span>
+            <span>{t.devil.observerModeActive}</span>
           </div>
         </div>
       )}
@@ -429,7 +431,7 @@ export default function DevilTrapOverlay({
               className="mt-1 bg-red-950/95 text-red-200 border border-red-500/30 text-[9px] uppercase font-black tracking-widest px-3 py-1 rounded-full shadow-[0_4px_12px_rgba(0,0,0,0.5)] backdrop-blur-sm whitespace-nowrap"
               style={{ animation: 'bubble-bounce 1.8s ease-in-out infinite' }}
             >
-              {getBubbleText(devilState)}
+              {getBubbleText(devilState, t)}
             </div>
           )}
         </div>

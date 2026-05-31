@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Swords } from 'lucide-react';
+import { useT } from '@/lib/i18n/context';
 
 interface DuelPlayerHeaderProps {
   player1Name: string;
@@ -35,6 +36,8 @@ export default function DuelPlayerHeader({
   labelRight,
   participantsCount = 2,
 }: DuelPlayerHeaderProps) {
+  const t = useT();
+  const displayLabelLeft = labelLeft === 'Tú' ? t.duel.youLabel : labelLeft;
   const p2Label = labelRight ?? player2Name.split(' ')[0];
   const otherOpponentsCount = participantsCount - 2;
 
@@ -44,7 +47,7 @@ export default function DuelPlayerHeader({
       <div className="flex justify-center mb-4">
         <div className="flex items-center gap-1.5 bg-[#eddcff]/60 px-4 py-1.5 rounded-full">
           <span className="text-[10px] font-black text-[#4a148c] uppercase tracking-widest">
-            {participantsCount > 2 ? 'Duelo Grupal' : 'Duelo 1vs1'} · Ronda {currentRound} de {totalRounds}
+            {participantsCount > 2 ? t.duel.groupDuel : t.duel.soloDuel} · {t.duel.round} {currentRound} {t.duel.ofText} {totalRounds}
           </span>
         </div>
       </div>
@@ -75,7 +78,7 @@ export default function DuelPlayerHeader({
             </div>
           )}
           <span className="text-[11px] font-bold text-[#7c7483] mb-1 truncate max-w-[80px] text-center">
-            {labelLeft}
+            {displayLabelLeft}
           </span>
           <span className="font-serif font-black text-[32px] text-[#310065] leading-none">
             {player1Score}
@@ -134,7 +137,7 @@ export default function DuelPlayerHeader({
             )}
           </div>
           <span className="text-[11px] font-bold text-[#7c7483] mb-1 truncate max-w-[80px] text-center">
-            {p2Label}{otherOpponentsCount > 0 ? ' y otros' : ''}
+            {p2Label}{otherOpponentsCount > 0 ? t.duel.andOthers : ''}
           </span>
           <span className="font-serif font-black text-[32px] text-[#310065] leading-none">
             {player2Score}

@@ -94,36 +94,37 @@ export function getDuelViewState(duel: DuelModel, uid: string): DuelViewState {
 
 export function getDuelStatusLabel(
   duel: DuelModel,
-  uid: string
+  uid: string,
+  t?: any
 ): { label: string; color: 'purple' | 'gold' | 'green' | 'red' | 'grey' } {
   switch (duel.status) {
     case 'pending':
       if (isCreatedByUser(duel, uid)) {
-        return { label: 'Esperando respuestas', color: 'gold' };
+        return { label: t ? t.duel.waitingGuests : 'Esperando respuestas', color: 'gold' };
       }
       if (duel.participants[uid]?.status === 'accepted') {
-        return { label: 'Aceptado, esperando inicio', color: 'gold' };
+        return { label: t ? t.duel.waitingCreator : 'Aceptado, esperando inicio', color: 'gold' };
       }
-      return { label: 'Desafío recibido', color: 'purple' };
+      return { label: t ? t.duel.challengeReceived : 'Desafío recibido', color: 'purple' };
     case 'active':
       return isUserTurn(duel, uid)
-        ? { label: '¡Tu turno!', color: 'green' }
-        : { label: 'Esperando otros', color: 'grey' };
+        ? { label: t ? t.duel.yourTurn : '¡Tu turno!', color: 'green' }
+        : { label: t ? t.duel.waitingOpponent : 'Esperando otros', color: 'grey' };
     case 'completed':
       const outcome = getOutcome(duel, uid);
       return outcome === 'win'
-        ? { label: '¡Victoria!', color: 'gold' }
+        ? { label: t ? t.duel.victory : '¡Victoria!', color: 'gold' }
         : outcome === 'tie'
-        ? { label: 'Empate', color: 'purple' }
-        : { label: 'Finalizado', color: 'grey' };
+        ? { label: t ? t.duel.tieStatus : 'Empate', color: 'purple' }
+        : { label: t ? t.duel.completed : 'Finalizado', color: 'grey' };
     case 'expired':
-      return { label: 'Expirado', color: 'grey' };
+      return { label: t ? t.duel.expired : 'Expirado', color: 'grey' };
     case 'declined':
-      return { label: 'Rechazado', color: 'red' };
+      return { label: t ? t.duel.declined : 'Rechazado', color: 'red' };
     case 'cancelled':
-      return { label: 'Cancelado', color: 'grey' };
+      return { label: t ? t.duel.cancelled : 'Cancelado', color: 'grey' };
     default:
-      return { label: 'Desconocido', color: 'grey' };
+      return { label: t ? t.duel.unknown : 'Desconocido', color: 'grey' };
   }
 }
 
@@ -246,28 +247,42 @@ export function buildDuelResult(
 
 // ─── Time helpers ────────────────────────────────────────────────
 
-export function formatTimeAgo(isoString: string): string {
+export function formatTimeAgo(isoString: string, t?: any): string {
   const diffMs = Date.now() - new Date(isoString).getTime();
   const diffMins = Math.floor(diffMs / 60_000);
-  if (diffMins < 1) return 'Ahora mismo';
-  if (diffMins < 60) return `Hace ${diffMins} min`;
+  if (diffMins < 1) return t ? t.duel.timeAgoNow : 'Ahora mismo';
+  if (diffMins < 60) return t ? t.duel.timeAgoMin.replace('{n}', String(diffMins)) : `Hace ${diffMins} min`;
   const diffHrs = Math.floor(diffMins / 60);
-  if (diffHrs < 24) return `Hace ${diffHrs} h`;
+  if (diffHrs < 24) return t ? t.duel.timeAgoHour.replace('{n}', String(diffHrs)) : `Hace ${diffHrs} h`;
   const diffDays = Math.floor(diffHrs / 24);
+  if (t) {
+    return diffDays === 1
+      ? t.duel.timeAgoDay.replace('{n}', '1')
+      : t.duel.timeAgoDays.replace('{n}', String(diffDays));
+  }
   return `Hace ${diffDays} día${diffDays !== 1 ? 's' : ''}`;
 }
 
-export function formatTimeUntil(isoString: string): string {
+export function formatTimeUntil(isoString: string, t?: any): string {
   const diffMs = new Date(isoString).getTime() - Date.now();
-  if (diffMs <= 0) return 'Expirado';
+  if (diffMs <= 0) return t ? t.duel.timeUntilExpired : 'Expirado';
   const diffHrs = Math.floor(diffMs / 3600_000);
   const diffMins = Math.floor((diffMs % 3600_000) / 60_000);
   if (diffHrs >= 24) {
     const days = Math.floor(diffHrs / 24);
+    if (t) {
+      return days === 1
+        ? t.duel.timeUntilDays.replace('{n}', '1')
+        : t.duel.timeUntilDaysPlural.replace('{n}', String(days));
+    }
     return `${days}d restante${days !== 1 ? 's' : ''}`;
   }
-  if (diffHrs >= 1) return `${diffHrs}h ${diffMins}m restante`;
-  return `${diffMins} min restante`;
+  if (diffHrs >= 1) {
+    return t
+      ? t.duel.timeUntilHourMin.replace('{h}', String(diffHrs)).replace('{m}', String(diffMins))
+      : `${diffHrs}h ${diffMins}m restante`;
+  }
+  return t ? t.duel.timeUntilMin.replace('{m}', String(diffMins)) : `${diffMins} min restante`;
 }
 
 // ─── Filter helpers ──────────────────────────────────────────────
