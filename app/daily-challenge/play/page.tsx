@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
-import { BookOpen, X, CheckCircle2, XCircle, Loader2 } from 'lucide-react';
+import { BookOpen, X, CheckCircle2, XCircle, Loader2, Shield, Sparkles } from 'lucide-react';
 import { getTodayChallenge, getChallengeQuestions, getUserDailyChallengeData, DEMO_USER_UID } from '@/lib/daily-challenge/repository';
 import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
 import { calculateAnswerPoints, completeDailyChallenge } from '@/lib/daily-challenge/service';
@@ -24,6 +24,10 @@ import { useDevilTrap } from '@/hooks/useDevilTrap';
 import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
 import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
 import { canUseFramePower } from '@/lib/game/frame-powers';
+import { useJesusTrap } from '@/hooks/useJesusTrap';
+import JesusTrapOverlay from '@/components/play/JesusTrapOverlay';
+import { getJesusSettings } from '@/src/data/jesusSettings';
+
 
 const QUESTION_TIME_LIMIT = 20; // seconds per question
 const FEEDBACK_DURATION_MS = 1600; // show correct/wrong for this long
@@ -93,7 +97,35 @@ export default function DailyChallengePlayPage() {
     resetDevilTrap,
     devilDefeat,
     devilCelebrate,
+    setDevilEvent,
+    setDevilState,
   } = useDevilTrap();
+
+  // Jesus Trap Hook
+  const {
+    isJesusActive,
+    jesusState,
+    jesusEvent,
+    revealUsesRemaining,
+    protectionUsesRemaining,
+    secondChanceUsesRemaining,
+    evaluateJesusAppearance,
+    useRevealCorrectAnswer,
+    useDivineProtection,
+    useSecondChance,
+    reactToCorrectAnswer,
+    reactToWrongAnswer,
+    triggerVictory,
+    triggerDefeat,
+    resetMatchState: resetJesusMatchState,
+  } = useJesusTrap({
+    isDevilActive,
+    devilState,
+    setDevilEvent,
+    setDevilState,
+    resetDevilTrap,
+  });
+
 
   // Timer refs to prevent stale closures
   const timerRef = useRef<NodeJS.Timeout | null>(null);
@@ -185,6 +217,12 @@ export default function DailyChallengePlayPage() {
         // Si no está permitido el diablo o no se triggeró, nos aseguramos de ocultarlo por completo con humo
         resetDevilTrap(true);
       }
+
+      // Evaluar aparición de Jesús en esta pregunta
+      if (q && isDevilAllowedInMatch) {
+        evaluateJesusAppearance('classic', qIndex === 0);
+      }
+
       
       if (q) {
         if (user?.activeFrame) {
@@ -253,8 +291,43 @@ export default function DailyChallengePlayPage() {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase, qIndex, activePowerUps, rcConfig?.showModal, showChallengePlay, devilSpawnedCount, devilDefeatedCount, triggerDevilTrap, engineConfig]);
+
+  // ── AUTOMATIC HELP FROM JESUS ──
+  useEffect(() => {
+    if (phase !== 'answering' || !isJesusActive) return;
+
+    // 1. Proteger automáticamente si el Diablo está activo
+    if (isDevilActive && protectionUsesRemaining > 0 && getJesusSettings().canProtectAgainstDevil) {
+      const timer = setTimeout(() => {
+        const success = useDivineProtection();
+        if (success) {
+          toast.success("😇 ¡Jesús te protege automáticamente! La trampa del Diablo ha sido desactivada.");
+        }
+      }, 1000); // 1s delay for visual feedback/appearance animation first
+      return () => clearTimeout(timer);
+    }
+
+    // 2. Revelar automáticamente la respuesta si no está el Diablo
+    if (!isDevilActive && revealUsesRemaining > 0 && getJesusSettings().canRevealCorrectAnswer) {
+      const timer = setTimeout(() => {
+        const success = useRevealCorrectAnswer();
+        if (success) {
+          toast.success("😇 ¡Jesús ilumina el camino! Respuesta correcta revelada automáticamente.");
+          setShowHint(true);
+        }
+      }, 1000); // 1s delay for visual feedback/appearance animation first
+      return () => clearTimeout(timer);
+    }
+  }, [
+    phase,
+    isJesusActive,
+    isDevilActive,
+    protectionUsesRemaining,
+    revealUsesRemaining,
+    useDivineProtection,
+    useRevealCorrectAnswer
+  ]);
 
   // ── Record an answer ───────────────────────────────────────
   const recordAnswer: (optionId: string | null, question: QuestionModel) => void = useCallback(
@@ -268,10 +341,17 @@ export default function DailyChallengePlayPage() {
         setDevilDefeatedCount(prev => prev + 1);
       }
 
-      if (!isCorrect && hasSecondChance && optionId !== null && !isDevilActive) {
-        toast.success("Chans an dezyèm itilize! Ou sove.");
-        setHasSecondChance(false);
-        setActivePowerUps(prev => prev.filter(p => p !== 'secondChance'));
+      const canUseJesusSecondChance = !isCorrect && optionId !== null && isJesusActive && secondChanceUsesRemaining > 0 && getJesusSettings().canGrantSecondChance;
+
+      if (!isCorrect && (hasSecondChance || canUseJesusSecondChance) && optionId !== null && !isDevilActive) {
+        if (canUseJesusSecondChance) {
+          useSecondChance();
+          toast.success("¡Segunda Oportunidad celestial! Jesús te protege.");
+        } else {
+          toast.success("Chans an dezyèm itilize! Ou sove.");
+          setHasSecondChance(false);
+          setActivePowerUps(prev => prev.filter(p => p !== 'secondChance'));
+        }
         setSelectedOptionId(null);
         // Reset timer if it was a real attempt
         setTimeLeft(QUESTION_TIME_LIMIT);
@@ -326,11 +406,20 @@ export default function DailyChallengePlayPage() {
         }
       }
 
+      // Reacción de Jesús
+      if (isJesusActive) {
+        if (isCorrect) {
+          reactToCorrectAnswer();
+        } else {
+          reactToWrongAnswer();
+        }
+      }
+
       setSelectedOptionId(optionId);
       setAnswers((prev) => [...prev, answer]);
       setPhase('feedback');
     },
-    [qIndex, questions, gameConfig, user, activePowerUps, hasSecondChance, isDevilActive, rcConfig?.status, rcConfig?.questionIndex]
+    [qIndex, questions, gameConfig, user, activePowerUps, hasSecondChance, isDevilActive, isJesusActive, secondChanceUsesRemaining, rcConfig?.status, rcConfig?.questionIndex, useSecondChance, reactToCorrectAnswer, reactToWrongAnswer]
   );
 
   // ── Handle timeout (no answer selected) ───────────────────
@@ -373,6 +462,18 @@ export default function DailyChallengePlayPage() {
   // ── Finish game ────────────────────────────────────────────
   const handleFinish = async () => {
     if (!challenge || !userData || !user?.uid) return;
+
+    if (isJesusActive) {
+      const correctCount = answers.filter(a => a.isCorrect).length;
+      const won = correctCount >= questions.length * 0.6;
+      if (won) {
+        triggerVictory();
+      } else {
+        triggerDefeat();
+      }
+      await new Promise(resolve => setTimeout(resolve, 2000));
+    }
+
     setPhase('finishing');
 
     const session = {
@@ -663,6 +764,41 @@ export default function DailyChallengePlayPage() {
           </div>
         )}
 
+        {/* Panel de Poderes de Jesús */}
+        {isJesusActive && phase === 'answering' && (
+          <div className="flex justify-center gap-3 w-full mb-4 animate-in fade-in slide-in-from-bottom-2 duration-300">
+            {revealUsesRemaining > 0 && getJesusSettings().canRevealCorrectAnswer && (
+              <button
+                onClick={() => {
+                  const success = useRevealCorrectAnswer();
+                  if (success) {
+                    toast.success("¡Poder divino! Revelando respuesta...");
+                    setShowHint(true);
+                  }
+                }}
+                className="flex items-center gap-2 px-4 py-2.5 bg-amber-100 hover:bg-amber-200 text-amber-800 rounded-full font-bold text-[12px] shadow-sm border border-amber-200/50 active:scale-95 transition-all"
+              >
+                <Sparkles className="w-4 h-4 text-amber-500" />
+                <span>Revelar Respuesta ({revealUsesRemaining})</span>
+              </button>
+            )}
+            {isDevilActive && protectionUsesRemaining > 0 && getJesusSettings().canProtectAgainstDevil && (
+              <button
+                onClick={() => {
+                  const success = useDivineProtection();
+                  if (success) {
+                    toast.success("¡Barrera divina! Trampa del Diablo desactivada.");
+                  }
+                }}
+                className="flex items-center gap-2 px-4 py-2.5 bg-sky-100 hover:bg-sky-200 text-sky-800 rounded-full font-bold text-[12px] shadow-sm border border-sky-200/50 active:scale-95 transition-all"
+              >
+                <Shield className="w-4 h-4 text-sky-500" />
+                <span>Proteger del Diablo ({protectionUsesRemaining})</span>
+              </button>
+            )}
+          </div>
+        )}
+
         <div className="flex flex-col items-end gap-2">
           <PowerUpsBar 
             onPowerUsed={handlePowerUsed}
@@ -675,6 +811,7 @@ export default function DailyChallengePlayPage() {
         </div>
       </main>
       <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} devilMode={devilMode ?? undefined} devilEvent={devilEvent ?? undefined} />
+      <JesusTrapOverlay isActive={isJesusActive} jesusState={jesusState} jesusEvent={jesusEvent} />
     </div>
   );
 }

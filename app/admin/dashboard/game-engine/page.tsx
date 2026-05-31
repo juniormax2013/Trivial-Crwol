@@ -29,8 +29,10 @@ import {
   DEFAULT_GAME_ENGINE_CONFIG
 } from '@/lib/admin/settings-repository';
 import { resetAllUsersEnergy } from '@/lib/user/repository';
+import { DEFAULT_JESUS_SETTINGS } from '@/src/data/jesusSettings';
 
 export default function GameEnginePage() {
+
   const [config, setConfig] = useState<GameEngineConfig>(DEFAULT_GAME_ENGINE_CONFIG);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
@@ -148,6 +150,17 @@ export default function GameEnginePage() {
       }
     }));
   };
+
+  const updateJesusSetting = (key: string, value: any) => {
+    setConfig(prev => ({
+      ...prev,
+      jesusSettings: {
+        ...(prev.jesusSettings || DEFAULT_JESUS_SETTINGS),
+        [key]: value
+      }
+    }));
+  };
+
 
   if (loading) {
     return (
@@ -687,6 +700,155 @@ export default function GameEnginePage() {
                     </div>
                   </div>
                 </div>
+              </section>
+
+              {/* Configuración de Jesús (Contraparte Divina) */}
+              <section className="bg-white rounded-3xl border border-[#310065]/5 shadow-sm overflow-hidden">
+                <div className="p-6 border-b border-[#310065]/5 flex items-center justify-between bg-blue-50/20">
+                  <div className="flex items-center gap-3">
+                    <Sparkles className="w-5 h-5 text-[#0A84FF]" />
+                    <h2 className="font-bold text-[#0F172A]">Ajustes de Jesús (Aliado Divino)</h2>
+                  </div>
+                  <button
+                    onClick={() => updateJesusSetting('enabled', !config.jesusSettings?.enabled)}
+                    className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none ${
+                      config.jesusSettings?.enabled ? 'bg-[#0A84FF]' : 'bg-gray-200'
+                    }`}
+                  >
+                    <span
+                      className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                        config.jesusSettings?.enabled ? 'translate-x-6' : 'translate-x-1'
+                      }`}
+                    />
+                  </button>
+                </div>
+
+                {config.jesusSettings?.enabled && (
+                  <div className="p-6 space-y-6">
+                    {/* Probabilidad de Aparición */}
+                    <div className="space-y-4">
+                      <div className="flex justify-between items-center">
+                        <label className="text-[12px] font-bold text-[#0F172A] uppercase tracking-wider flex items-center gap-2">
+                          <Sparkles className="w-4 h-4 text-[#0A84FF]" />
+                          Probabilidad de Aparición de Jesús
+                        </label>
+                        <span className="px-3 py-1 bg-blue-50 text-[#0A84FF] font-extrabold text-[12px] rounded-lg border border-blue-100">
+                          {config.jesusSettings?.appearanceChance ?? 25}%
+                        </span>
+                      </div>
+                      <input 
+                        type="range" 
+                        min="0" 
+                        max="100" 
+                        step="5"
+                        value={config.jesusSettings?.appearanceChance ?? 25}
+                        onChange={(e) => updateJesusSetting('appearanceChance', parseInt(e.target.value))}
+                        className="w-full accent-[#0A84FF]"
+                      />
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                      {/* Cooldown Questions */}
+                      <div className="flex items-center justify-between p-4 bg-[#faf9fc] rounded-2xl border border-[#310065]/5">
+                        <div className="max-w-[70%]">
+                          <h4 className="font-bold text-[#0F172A] text-xs uppercase tracking-wider">Cooldown de Preguntas</h4>
+                          <p className="text-[10px] text-[#64748B] leading-tight">Preguntas de espera antes de volver a aparecer.</p>
+                        </div>
+                        <input 
+                          type="number" 
+                          min="1"
+                          max="10"
+                          value={config.jesusSettings?.cooldownQuestions ?? 2}
+                          onChange={(e) => updateJesusSetting('cooldownQuestions', parseInt(e.target.value))}
+                          className="w-14 bg-white border border-gray-200 rounded-xl px-2 py-2 font-black text-center focus:ring-2 focus:ring-[#0A84FF] outline-none text-[#0F172A]"
+                        />
+                      </div>
+
+                      {/* Max activations */}
+                      <div className="flex items-center justify-between p-4 bg-[#faf9fc] rounded-2xl border border-[#310065]/5">
+                        <div className="max-w-[70%]">
+                          <h4 className="font-bold text-[#0F172A] text-xs uppercase tracking-wider">Máx apariciones por partida</h4>
+                          <p className="text-[10px] text-[#64748B] leading-tight">Número máximo de apariciones de Jesús.</p>
+                        </div>
+                        <input 
+                          type="number" 
+                          min="1"
+                          max="5"
+                          value={config.jesusSettings?.maxActivationsPerMatch ?? 2}
+                          onChange={(e) => updateJesusSetting('maxActivationsPerMatch', parseInt(e.target.value))}
+                          className="w-14 bg-white border border-gray-200 rounded-xl px-2 py-2 font-black text-center focus:ring-2 focus:ring-[#0A84FF] outline-none text-[#0F172A]"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Poderes Toggles */}
+                    <div className="pt-4 border-t border-slate-100 space-y-3">
+                      <h3 className="text-xs font-black text-[#0F172A]/70 uppercase tracking-widest">Poderes y Ayudas Divinas</h3>
+                      
+                      <div className="space-y-2">
+                        {/* Revelar Respuesta */}
+                        <div className="flex items-center justify-between p-3 bg-[#faf9fc] rounded-xl border border-gray-100">
+                          <div>
+                            <span className="text-xs font-bold text-[#0F172A]">Revelar respuesta correcta ({config.jesusSettings?.revealUsesPerMatch} usos)</span>
+                            <p className="text-[9px] text-[#64748B]">Ilumina la respuesta correcta con glow dorado.</p>
+                          </div>
+                          <button
+                            onClick={() => updateJesusSetting('canRevealCorrectAnswer', !config.jesusSettings?.canRevealCorrectAnswer)}
+                            className={`relative inline-flex h-5 w-10 items-center rounded-full transition-colors focus:outline-none ${
+                              config.jesusSettings?.canRevealCorrectAnswer ? 'bg-[#0A84FF]' : 'bg-gray-200'
+                            }`}
+                          >
+                            <span
+                              className={`inline-block h-3.5 w-3.5 transform rounded-full bg-white transition-transform ${
+                                config.jesusSettings?.canRevealCorrectAnswer ? 'translate-x-5' : 'translate-x-1'
+                              }`}
+                            />
+                          </button>
+                        </div>
+
+                        {/* Proteger del Diablo */}
+                        <div className="flex items-center justify-between p-3 bg-[#faf9fc] rounded-xl border border-gray-100">
+                          <div>
+                            <span className="text-xs font-bold text-[#0F172A]">Protección contra el Diablo ({config.jesusSettings?.protectionUsesPerMatch} usos)</span>
+                            <p className="text-[9px] text-[#64748B]">Bloquea o cancela el efecto oscuro de tapar respuestas del Diablo.</p>
+                          </div>
+                          <button
+                            onClick={() => updateJesusSetting('canProtectAgainstDevil', !config.jesusSettings?.canProtectAgainstDevil)}
+                            className={`relative inline-flex h-5 w-10 items-center rounded-full transition-colors focus:outline-none ${
+                              config.jesusSettings?.canProtectAgainstDevil ? 'bg-[#0A84FF]' : 'bg-gray-200'
+                            }`}
+                          >
+                            <span
+                              className={`inline-block h-3.5 w-3.5 transform rounded-full bg-white transition-transform ${
+                                config.jesusSettings?.canProtectAgainstDevil ? 'translate-x-5' : 'translate-x-1'
+                              }`}
+                            />
+                          </button>
+                        </div>
+
+                        {/* Segunda Oportunidad */}
+                        <div className="flex items-center justify-between p-3 bg-[#faf9fc] rounded-xl border border-gray-100">
+                          <div>
+                            <span className="text-xs font-bold text-[#0F172A]">Segunda Oportunidad</span>
+                            <p className="text-[9px] text-[#64748B]">Otorga al jugador una segunda oportunidad al fallar.</p>
+                          </div>
+                          <button
+                            onClick={() => updateJesusSetting('canGrantSecondChance', !config.jesusSettings?.canGrantSecondChance)}
+                            className={`relative inline-flex h-5 w-10 items-center rounded-full transition-colors focus:outline-none ${
+                              config.jesusSettings?.canGrantSecondChance ? 'bg-[#0A84FF]' : 'bg-gray-200'
+                            }`}
+                          >
+                            <span
+                              className={`inline-block h-3.5 w-3.5 transform rounded-full bg-white transition-transform ${
+                                config.jesusSettings?.canGrantSecondChance ? 'translate-x-5' : 'translate-x-1'
+                              }`}
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </section>
 
             </div>

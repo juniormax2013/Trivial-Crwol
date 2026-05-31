@@ -1,5 +1,6 @@
 import { db } from '@/lib/firebase';
 import { doc, getDoc, setDoc, updateDoc, Transaction } from 'firebase/firestore';
+import { type JesusSettings, DEFAULT_JESUS_SETTINGS } from '@/src/data/jesusSettings';
 
 export interface DifficultySetting {
   timeLimit: number;
@@ -44,6 +45,7 @@ export interface GameEngineConfig {
     correctAnswersToDefeat?: number;
     wrongAnswersToWin?: number;
   };
+  jesusSettings?: JesusSettings;
   specialChallenge?: {
     spawnProbability: number;
   };
@@ -98,6 +100,7 @@ export const DEFAULT_GAME_ENGINE_CONFIG: GameEngineConfig = {
     correctAnswersToDefeat: 2,
     wrongAnswersToWin: 3,
   },
+  jesusSettings: DEFAULT_JESUS_SETTINGS,
   specialChallenge: {
     spawnProbability: 0.50,
   },

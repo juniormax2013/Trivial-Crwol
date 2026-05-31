@@ -259,5 +259,7 @@ export function useDevilTrap() {
     resetDevilTrap,
     devilDefeat,
     devilCelebrate,
+    setDevilEvent,
+    setDevilState,
   };
 }
