@@ -11,7 +11,6 @@ import {
   Square,
   BookOpen,
   Trash2,
-  Globe,
 } from 'lucide-react';
 import { useBibleAI } from '@/hooks/useBibleAI';
 import BibleAIAvatar from '@/components/bible-ai/BibleAIAvatar';
@@ -25,6 +24,69 @@ const LANGUAGES = [
   { code: 'fr', flag: '🇫🇷', label: 'Français' },
   { code: 'ht', flag: '🇭🇹', label: 'Kreyòl' },
 ];
+
+const TRANSLATIONS: Record<string, Record<string, string>> = {
+  es: {
+    assistantTitle: 'Asistente Bíblico',
+    notAvailable: 'No disponible',
+    listening: '🎤 Escuchando...',
+    thinking: '💭 Pensando...',
+    responding: ' Respondiendo...',
+    active: 'IA Bíblica activa',
+    todayLimit: 'hoy',
+    notAvailableDesc: 'El Asistente Bíblico no está disponible en este momento. Por favor intenta más tarde.',
+    placeholder: 'Pregunta cualquier cosa sobre la Biblia',
+    voiceListening: '🎤 Escuchando en {lang} — toca para detener',
+    voiceSpeaking: '🔊 Hablando — toca el cuadrado para detener',
+    voiceIdle: '🎙 Habla en {lang} · botón micrófono',
+    browserNoSupport: 'Tu navegador no soporta reconocimiento de voz. Usa Chrome o Safari.'
+  },
+  en: {
+    assistantTitle: 'Bible Assistant',
+    notAvailable: 'Not available',
+    listening: '🎤 Listening...',
+    thinking: '💭 Thinking...',
+    responding: ' Responding...',
+    active: 'Biblical AI active',
+    todayLimit: 'today',
+    notAvailableDesc: 'The Bible Assistant is not available at this moment. Please try again later.',
+    placeholder: 'Ask anything about the Bible',
+    voiceListening: '🎤 Listening in {lang} — tap to stop',
+    voiceSpeaking: '🔊 Speaking — tap the square to stop',
+    voiceIdle: '🎙 Speak in {lang} · microphone button',
+    browserNoSupport: 'Your browser does not support speech recognition. Use Chrome or Safari.'
+  },
+  fr: {
+    assistantTitle: 'Assistant Biblique',
+    notAvailable: 'Non disponible',
+    listening: '🎤 Écoute...',
+    thinking: '💭 Pensée...',
+    responding: ' Réponse...',
+    active: 'IA Biblique active',
+    todayLimit: 'aujourd\'hui',
+    notAvailableDesc: 'L\'assistant biblique n\'est pas disponible pour le moment. Veuillez réessayer plus tard.',
+    placeholder: 'Posez n\'importe quelle question sur la Bible',
+    voiceListening: '🎤 Écoute en {lang} — appuyez pour arrêter',
+    voiceSpeaking: '🔊 Parole — appuyez sur le carré pour arrêter',
+    voiceIdle: '🎙 Parlez en {lang} · bouton micro',
+    browserNoSupport: 'Votre navigateur ne prend pas en charge la reconnaissance vocale. Utilisez Chrome ou Safari.'
+  },
+  ht: {
+    assistantTitle: 'Asistan Bib',
+    notAvailable: 'Pa disponib',
+    listening: '🎤 Ap tande...',
+    thinking: '💭 Ap panse...',
+    responding: ' Ap reponn...',
+    active: 'IA Bib la aktif',
+    todayLimit: 'jodi a',
+    notAvailableDesc: 'Asistan Bib la pa disponib nan moman sa a. Tanpri reyezi pita.',
+    placeholder: 'Poze nenpòt kesyon sou Bib la',
+    voiceListening: '🎤 Ap tande nan {lang} — manyen pou kanpe',
+    voiceSpeaking: '🔊 Ap pale — manyen kare a pou kanpe',
+    voiceIdle: '🎙 Pale nan {lang} · bouton mikwofòn',
+    browserNoSupport: 'Navigatè w la pa sipòte rekonesans vwa. Sèvi ak Chrome oswa Safari.'
+  }
+};
 
 export default function BibleAIPage() {
   const router = useRouter();
@@ -91,6 +153,7 @@ export default function BibleAIPage() {
   };
 
   const currentLang = LANGUAGES.find(l => l.code === selectedLanguage) ?? LANGUAGES[0];
+  const t = TRANSLATIONS[selectedLanguage] || TRANSLATIONS.es;
   const isVoiceActive = voiceState === 'listening';
   const isAIDisabled = config && !config.aiBibleEnabled;
   const isVoiceEnabled = config?.aiVoiceEnabled !== false;
@@ -123,18 +186,18 @@ export default function BibleAIPage() {
 
           <div className="text-center">
             <h1 className="text-[15px] font-black text-[#310065] tracking-tight">
-              Asistente Bíblico
+              {t.assistantTitle}
             </h1>
             <p className="text-[10px] font-bold text-[#7c7483] uppercase tracking-widest">
               {isAIDisabled
-                ? 'No disponible'
+                ? t.notAvailable
                 : voiceState === 'listening'
-                ? '🎤 Escuchando...'
+                ? t.listening
                 : voiceState === 'thinking' || voiceState === 'transcribing'
-                ? '💭 Pensando...'
+                ? t.thinking
                 : voiceState === 'speaking'
-                ? '🔊 Respondiendo...'
-                : 'IA Bíblica activa'}
+                ? t.responding
+                : t.active}
             </p>
           </div>
 
@@ -156,7 +219,7 @@ export default function BibleAIPage() {
               />
             </div>
             <span className="text-[10px] font-bold text-[#7c7483] whitespace-nowrap">
-              {usageInfo.questionsUsedToday}/{usageInfo.dailyLimit} hoy
+              {usageInfo.questionsUsedToday}/{usageInfo.dailyLimit} {t.todayLimit}
             </span>
           </div>
         )}
@@ -173,11 +236,10 @@ export default function BibleAIPage() {
             </div>
             <div>
               <h2 className="text-[18px] font-black text-[#310065] mb-2">
-                No disponible
+                {t.notAvailable}
               </h2>
               <p className="text-[14px] text-[#7c7483] font-medium leading-relaxed">
-                El Asistente Bíblico no está disponible en este momento. Por favor
-                intenta más tarde.
+                {t.notAvailableDesc}
               </p>
             </div>
           </div>
@@ -188,10 +250,10 @@ export default function BibleAIPage() {
               <BibleAIAvatar voiceState={voiceState} disabled={isAIDisabled || false} />
               <div className="mt-10 text-center space-y-1">
                 <h2 className="text-[20px] font-black text-[#310065] tracking-tight">
-                  Asistente Bíblico
+                  {t.assistantTitle}
                 </h2>
                 <p className="text-[13px] font-medium text-[#7c7483]">
-                  Pregunta cualquier cosa sobre la Biblia
+                  {t.placeholder}
                 </p>
               </div>
             </div>
@@ -343,10 +405,10 @@ export default function BibleAIPage() {
             {isVoiceEnabled && (
               <p className="text-center text-[10px] font-bold text-[#7c7483] uppercase tracking-widest">
                 {isVoiceActive
-                  ? `🎤 Escuchando en ${currentLang.label} — toca para detener`
+                  ? t.voiceListening.replace('{lang}', currentLang.label)
                   : voiceState === 'speaking'
-                  ? '🔊 Hablando — toca el cuadrado para detener'
-                  : `🎙 Habla en ${currentLang.label} · botón micrófono`}
+                  ? t.voiceSpeaking
+                  : t.voiceIdle.replace('{lang}', currentLang.label)}
               </p>
             )}
           </div>

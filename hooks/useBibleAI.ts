@@ -414,8 +414,12 @@ export function useBibleAI(): UseBibleAIReturn {
       (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
 
     if (!SpeechRecognition) {
-      alert('Tu navegador no soporta reconocimiento de voz. Usa Chrome o Safari.');
-      return;
+    const alertMsg = selectedLanguage === 'en' ? 'Your browser does not support speech recognition. Use Chrome or Safari.' :
+                     selectedLanguage === 'fr' ? 'Votre navigateur ne prend pas en charge la reconnaissance vocale. Utilisez Chrome ou Safari.' :
+                     selectedLanguage === 'ht' ? 'Navigatè w la pa sipòte rekonesans vwa. Sèvi ak Chrome oswa Safari.' :
+                     'Tu navegador no soporta reconocimiento de voz. Usa Chrome o Safari.';
+    alert(alertMsg);
+    return;
     }
 
     // Map language codes to BCP-47 with best STT locale
