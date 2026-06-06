@@ -86,7 +86,7 @@ export default function DailyChallengeIntroPage() {
     return (
       <div className="min-h-screen bg-[#faf9fc] flex flex-col">
         <header className="px-6 pt-safe pb-4 bg-white shadow-sm border-b border-[#1b1b1e]/5">
-          <Link href="/" className="inline-flex items-center gap-2 text-[#310065] font-semibold text-[14px]">
+          <Link href="/arena" className="inline-flex items-center gap-2 text-[#310065] font-semibold text-[14px]">
             <ArrowLeft className="w-5 h-5" strokeWidth={2.5} />
             {t.common.back}
           </Link>
@@ -112,7 +112,7 @@ export default function DailyChallengeIntroPage() {
             </div>
           )}
           <Link
-            href="/"
+            href="/arena"
             className="w-full max-w-sm py-3.5 bg-[#310065] text-white font-bold rounded-2xl text-center text-[14px] uppercase tracking-wide hover:bg-[#4a148c] transition-colors"
           >
             {t.daily.backHome}
@@ -141,7 +141,7 @@ export default function DailyChallengeIntroPage() {
     return (
       <div className="min-h-screen bg-[#faf9fc] flex flex-col">
         <header className="px-6 pt-safe pb-4 bg-white shadow-sm border-b border-[#1b1b1e]/5">
-          <Link href="/" className="inline-flex items-center gap-2 text-[#310065] font-semibold text-[14px]">
+          <Link href="/arena" className="inline-flex items-center gap-2 text-[#310065] font-semibold text-[14px]">
             <ArrowLeft className="w-5 h-5" strokeWidth={2.5} />
             {t.common.back}
           </Link>
@@ -149,7 +149,7 @@ export default function DailyChallengeIntroPage() {
         <main className="flex-1 flex flex-col items-center justify-center px-6 text-center gap-4">
           <p className="font-serif text-2xl font-bold text-[#1b1b1e]">{t.daily.subtitle}</p>
           <p className="text-[#7c7483] text-[15px]">{t.daily.alreadyDoneDesc}</p>
-          <Link href="/" className="text-[#310065] font-semibold text-[14px] underline underline-offset-4">
+          <Link href="/arena" className="text-[#310065] font-semibold text-[14px] underline underline-offset-4">
             {t.daily.backHome}
           </Link>
         </main>
@@ -177,7 +177,7 @@ export default function DailyChallengeIntroPage() {
 
         <div className="relative z-10 px-6 pt-safe pb-10">
           <Link
-            href="/"
+            href="/arena"
             className="inline-flex items-center gap-1.5 text-white/60 hover:text-white transition-colors mb-8 text-[13px] font-semibold"
           >
             <ArrowLeft className="w-4 h-4" strokeWidth={2.5} />

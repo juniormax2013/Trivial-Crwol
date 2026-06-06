@@ -226,7 +226,7 @@ export default function JweBibLaPlay() {
 
       if (canTriggerDevil) {
         const wasDevilActiveBefore = isDevilActive;
-        const spawned = triggerDevilTrap(q.options, false, engineConfig?.devilTrap);
+        const spawned = triggerDevilTrap(q.options, false, engineConfig?.devilTrap, false);
         if (spawned && !wasDevilActiveBefore) {
           setDevilSpawnedCount(prev => prev + 1);
         }
@@ -800,7 +800,7 @@ export default function JweBibLaPlay() {
 
       <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/80 backdrop-blur-xl">
         <div className="flex justify-between items-center px-6 py-4 max-w-screen-xl mx-auto">
-          <Link href="/arena" className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors">
+          <Link href="/play" className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors">
             <X className="w-6 h-6 text-[#310065]" />
           </Link>
           <div className="flex items-center gap-4">
@@ -939,7 +939,7 @@ export default function JweBibLaPlay() {
             }}
             isProcessing={isProcessingPower}
             setIsProcessing={setIsProcessingPower}
-            disabled={isAnswered || isGameOver || isDevilActive}
+            disabled={isAnswered || isGameOver}
             activePowerUps={activePowerUps}
             heartsCount={hearts}
           />

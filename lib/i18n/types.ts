@@ -71,7 +71,9 @@ export interface Translations {
     profile: string;
     social: string;
     aliados: string;
+    savedVerses: string;
   };
+
 
   // ---------- DASHBOARD ----------
   dashboard: {
@@ -139,7 +141,14 @@ export interface Translations {
     understandWord: string;
     me: string;
     friendsTab: string;
+    assistantTooltip: string;
+    noSavedVerses: string;
+    savedVersesDesc: string;
+    savedAtLabel: string;
+    deleteText: string;
   };
+
+
 
   // ---------- HOME SLIDESHOW ----------
   home: {
@@ -362,7 +371,29 @@ export interface Translations {
     timeUntilDaysPlural: string;
     timeUntilHourMin: string;
     timeUntilMin: string;
+    duelVs: string;
+    tiebreakerDesc: string;
+    questionsAndSeconds: string;
+    receivedTab: string;
+    sentTab: string;
+    activeTabLabel: string;
+    historyTab: string;
+    newBtn: string;
+    noReceivedDuels: string;
+    noReceivedDuelsDesc: string;
+    noSentDuels: string;
+    noSentDuelsDesc: string;
+    noActiveDuels: string;
+    noActiveDuelsDesc: string;
+    noHistoryDuels: string;
+    noHistoryDuelsDesc: string;
+    createDuelBtn: string;
+    noOpponentsAvailable: string;
+    levelLabel: string;
   };
+
+
+
 
   // ---------- RANKING ----------
   ranking: {

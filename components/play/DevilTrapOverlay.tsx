@@ -124,12 +124,12 @@ const DEVIL_CSS = `
     90%  { transform: translate(3px,3px)  rotate(0deg); }
   }
 
-  /* APPEAR — slide in from left with bounce */
+  /* APPEAR — slide in from right with bounce */
   @keyframes devil-appear {
-    0%   { transform: translateX(-200px) rotate(-15deg) scale(0.6); opacity: 0; }
-    55%  { transform: translateX(18px)  rotate(4deg) scale(1.08); opacity: 1; }
-    75%  { transform: translateX(-8px)   rotate(-2deg)  scale(0.97); }
-    90%  { transform: translateX(5px)  rotate(1deg) scale(1.02); }
+    0%   { transform: translateX(200px) rotate(15deg) scale(0.6); opacity: 0; }
+    55%  { transform: translateX(-18px)  rotate(-4deg) scale(1.08); opacity: 1; }
+    75%  { transform: translateX(8px)   rotate(2deg)  scale(0.97); }
+    90%  { transform: translateX(-5px)  rotate(-1deg) scale(1.02); }
     100% { transform: translateX(0)     rotate(0deg)  scale(1);    opacity: 1; }
   }
 
@@ -142,9 +142,9 @@ const DEVIL_CSS = `
 
   /* WALK — horizontal march with vertical bounce (suavizado y lento en la esquina) */
   @keyframes devil-walk-pos {
-    0%   { left: 8px; }
-    50%  { left: 12%; }
-    100% { left: 8px; }
+    0%   { right: 8px; }
+    50%  { right: 12%; }
+    100% { right: 8px; }
   }
   @keyframes devil-walk-body {
     0%,100% { transform: translateY(0)   rotate(0deg); }
@@ -182,7 +182,7 @@ const DEVIL_CSS = `
     35%  { transform: scale(0.78) rotate(-5deg) translateX(-8px) translateY(10px); opacity: 0.7; }
     55%  { transform: scale(0.65) rotate(4deg)  translateX(3px)  translateY(18px); opacity: 0.45; }
     75%  { transform: scale(0.5)  rotate(-2deg) translateX(-5px) translateY(26px); opacity: 0.25; }
-    100% { transform: scale(0.3)  rotate(0deg)  translateX(-100px) translateY(40px); opacity: 0; }
+    100% { transform: scale(0.3)  rotate(0deg)  translateX(100px) translateY(40px); opacity: 0; }
   }
 
   /* Aura glow pulse */
@@ -305,9 +305,9 @@ export default function DevilTrapOverlay({
       pointerEvents: 'none',
     };
     if (devilState === 'walk') {
-      return { ...base, left: '8px', animation: 'devil-walk-pos 12s ease-in-out infinite' };
+      return { ...base, right: '8px', animation: 'devil-walk-pos 12s ease-in-out infinite' };
     }
-    return { ...base, left: '8px' };
+    return { ...base, right: '8px' };
   };
 
   // Aura color varies per state
@@ -421,7 +421,7 @@ export default function DevilTrapOverlay({
                 devilState === 'idle' ? 'devil_idle' :
                 'devil_idle'
               }
-              size={200}
+              size={140}
             />
           </div>
 

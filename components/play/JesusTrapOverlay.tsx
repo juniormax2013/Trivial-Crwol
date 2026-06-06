@@ -116,7 +116,7 @@ export default function JesusTrapOverlay({
               jesusState === 'disappearing' ? 'jesus_disappear' :
               'jesus_idle'
             }
-            size={215}
+            size={145}
           />
         </div>
 

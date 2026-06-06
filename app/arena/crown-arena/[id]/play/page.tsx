@@ -315,7 +315,7 @@ export default function CrownArenaPlayPage() {
       const q = questions[currentIdx];
       if (q && devilSpawnedCount < 5 && devilDefeatedCount < 2) {
         const wasDevilActiveBefore = isDevilActive;
-        const spawned = triggerDevilTrap(q.options, false, engineConfig?.devilTrap);
+        const spawned = triggerDevilTrap(q.options, false, engineConfig?.devilTrap, false);
         if (spawned && !wasDevilActiveBefore) {
           setDevilSpawnedCount(prev => prev + 1);
         }
@@ -643,7 +643,7 @@ export default function CrownArenaPlayPage() {
               }}
               isProcessing={isProcessingPower}
               setIsProcessing={setIsProcessingPower}
-              disabled={selectedOption !== null || isDevilActive}
+              disabled={selectedOption !== null}
               activePowerUps={activePowerUps}
             />
           </div>

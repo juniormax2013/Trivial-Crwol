@@ -1,14 +1,36 @@
 'use client';
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { useDevilEmotion } from '../../hooks/useDevilEmotion';
 import type { DevilGameEvent } from '../../data/devilEmotionMap';
+import Devil3D from '../devil/Devil3D';
+import { type Devil3DAction, devil3DAnimationMap } from '@/src/config/devil3DAnimations';
+
+// ─────────────────────────────────────────────────────────────────────────────
+// CONFIGURACIÓN DE RENDERIZADO DEL DIABLO (2D vs 3D)
+// Cambia a '2d' si deseas volver temporalmente al sprite original
+// ─────────────────────────────────────────────────────────────────────────────
+const DEVIL_RENDER_MODE: '2d' | '3d' = '3d';
+
+// Mapeo canónico: nombre de archivo de ilustración original ➔ acción semántica 3D
+const FILENAME_TO_3D_ACTION: Record<string, Devil3DAction> = {
+  'devil_idle.png': 'idle',
+  'devil_aparecer_humo.png': 'appear',
+  'devil_desaparecer_humo.png': 'disappear',
+  'devil_risa_malvada.png': 'evilLaugh',
+  'devil_victoria.png': 'evilLaugh',
+  'devil_derrota.png': 'crouch',
+  'devil_ataque.png': 'attack',
+  'devil_sorprendido.png': 'crouch',
+  'devil_pensando.png': 'idle',
+  'devil_enojo.png': 'crouch',
+  'devil_saludo.png': 'appear',
+};
 
 // ─────────────────────────────────────────────────────────────────────────────
 // CSS DE ANIMACIONES — inyectado una sola vez en el <head>
 // ─────────────────────────────────────────────────────────────────────────────
-
 const DEVIL_CHARACTER_CSS = `
   /* Entrada suave */
   @keyframes devil-img-in {
@@ -51,6 +73,13 @@ const DEVIL_CHARACTER_CSS = `
     100% { transform: translate(var(--tx), var(--ty)) scale(0); opacity: 0; }
   }
 
+  /* Efecto de humo purpúreo para 3D */
+  @keyframes smoke-puff-3d {
+    0%   { transform: scale(0.35); opacity: 0; filter: blur(4px); }
+    30%  { opacity: 0.9; filter: blur(2px); }
+    100% { transform: scale(1.4); opacity: 0; filter: blur(16px); }
+  }
+
   .devil-char-enter {
     animation: devil-img-in 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
   }
@@ -63,11 +92,10 @@ const DEVIL_CHARACTER_CSS = `
   .devil-char-attack {
     animation: devil-attack-burst 0.65s ease-in-out forwards;
   }
+  .devil-smoke-overlay {
+    animation: smoke-puff-3d 1.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
 `;
-
-// ─────────────────────────────────────────────────────────────────────────────
-// PARTÍCULAS DE FUEGO (solo en ataque)
-// ─────────────────────────────────────────────────────────────────────────────
 
 const FIRE_PARTICLES = Array.from({ length: 8 }, (_, i) => ({
   id: i,
@@ -77,24 +105,12 @@ const FIRE_PARTICLES = Array.from({ length: 8 }, (_, i) => ({
   emoji: ['🔥', '✨', '💥', '⚡'][i % 4],
 }));
 
-// ─────────────────────────────────────────────────────────────────────────────
-// PROPS
-// ─────────────────────────────────────────────────────────────────────────────
-
 interface DevilCharacterProps {
-  /** Evento de juego — determina qué imagen se muestra */
   event: DevilGameEvent | string;
-  /** Tamaño en píxeles (cuadrado). Por defecto: 280 */
   size?: number;
-  /** Clase CSS adicional para el contenedor raíz */
   className?: string;
-  /** Muestra badge de evento debajo del personaje */
   showEventBadge?: boolean;
 }
-
-// ─────────────────────────────────────────────────────────────────────────────
-// COMPONENTE
-// ─────────────────────────────────────────────────────────────────────────────
 
 export default function DevilCharacter({
   event,
@@ -103,6 +119,8 @@ export default function DevilCharacter({
   showEventBadge = false,
 }: DevilCharacterProps) {
   const cssInjected = useRef(false);
+  const [activeAction3D, setActiveAction3D] = useState<Devil3DAction>('idle');
+  const [showSmoke, setShowSmoke] = useState(false);
 
   const {
     currentImage,
@@ -114,12 +132,27 @@ export default function DevilCharacter({
     triggerEvent,
   } = useDevilEmotion(event);
 
-  // Sync: cuando la prop event cambia externamente, re-trigger
+  // Sincronizar evento de entrada y mapear a acción 3D
   useEffect(() => {
     triggerEvent(event);
   }, [event, triggerEvent]);
 
-  // Inyectar CSS de animaciones una sola vez
+  // Actualizar la acción 3D activa al cambiar la ilustración 2D resuelta
+  useEffect(() => {
+    if (DEVIL_RENDER_MODE === '3d') {
+      const targetAction = FILENAME_TO_3D_ACTION[currentFilename] || 'idle';
+      setActiveAction3D(targetAction);
+
+      // Disparar humo en aparición
+      if (targetAction === 'appear') {
+        setShowSmoke(true);
+        const smokeTimer = setTimeout(() => setShowSmoke(false), 1400);
+        return () => clearTimeout(smokeTimer);
+      }
+    }
+  }, [currentFilename]);
+
+  // Inyectar CSS una sola vez
   useEffect(() => {
     if (cssInjected.current) return;
     cssInjected.current = true;
@@ -129,12 +162,20 @@ export default function DevilCharacter({
     document.head.appendChild(style);
   }, []);
 
-  // Determinar clase de animación activa
+  const handleActionComplete = (finishedAction: Devil3DAction) => {
+    // No retornar a idle automáticamente; mantener el fotograma final de la animación hasta una nueva acción.
+  };
+
   const animClass = isShaking
     ? 'devil-char-shake'
     : isAttacking
     ? 'devil-char-attack'
     : 'devil-char-breathe';
+
+  // Si está desmontado
+  const isHidden = false;
+
+  if (isHidden) return null;
 
   return (
     <div
@@ -154,7 +195,7 @@ export default function DevilCharacter({
         }}
       />
 
-      {/* Partículas de fuego (solo en ataque) */}
+      {/* Partículas de fuego en ataque */}
       {isAttacking && FIRE_PARTICLES.map((p) => (
         <span
           key={p.id}
@@ -172,39 +213,63 @@ export default function DevilCharacter({
         </span>
       ))}
 
-      {/* Imagen del diablo */}
-      <div
-        className={`relative transition-opacity duration-300 ${animClass}`}
-        style={{
-          width: size,
-          height: size,
-          opacity: isTransitioning ? 0 : 1,
-        }}
-      >
-        <Image
-          key={currentImage} // fuerza re-mount con animación de entrada en cada cambio
-          src={currentImage}
-          alt={`Diablo: ${currentEvent}`}
-          fill
-          className="object-contain devil-char-enter"
-          priority
-          onError={() => {
-            console.error(
-              `[DevilCharacter] ❌ Imagen no encontrada: "${currentImage}". ` +
-              `Verifica que el archivo existe en: public${currentImage}`
-            );
+      {/* Humo 3D Overlay */}
+      {showSmoke && (
+        <div 
+          className="absolute inset-0 z-30 pointer-events-none rounded-full flex items-center justify-center"
+          style={{ width: size, height: size }}
+        >
+          <div 
+            className="w-[85%] h-[85%] bg-gradient-to-tr from-purple-800/40 via-[#ef4444]/25 to-transparent rounded-full devil-smoke-overlay"
+          />
+        </div>
+      )}
+
+      {/* Renderizado Condicional: 3D vs 2D */}
+      {DEVIL_RENDER_MODE === '3d' ? (
+        <div 
+          className="relative flex items-center justify-center"
+          style={{ width: size, height: size }}
+        >
+          <Devil3D 
+            action={activeAction3D} 
+            size={size} 
+            onActionComplete={handleActionComplete} 
+          />
+        </div>
+      ) : (
+        <div
+          className={`relative transition-opacity duration-300 ${animClass}`}
+          style={{
+            width: size,
+            height: size,
+            opacity: isTransitioning ? 0 : 1,
           }}
-        />
-      </div>
+        >
+          <Image
+            key={currentImage}
+            src={currentImage}
+            alt={`Diablo: ${currentEvent}`}
+            fill
+            className="object-contain devil-char-enter"
+            priority
+            onError={() => {
+              console.error(
+                `[DevilCharacter] ❌ Imagen no encontrada: "${currentImage}".`
+              );
+            }}
+          />
+        </div>
+      )}
 
       {/* Badge de evento (opcional) */}
       {showEventBadge && (
-        <div className="mt-2 flex flex-col items-center gap-1">
+        <div className="mt-2 flex flex-col items-center gap-1 z-20">
           <span className="text-[10px] font-black uppercase tracking-widest text-red-400 bg-red-950/60 border border-red-800/40 rounded-full px-3 py-0.5">
-            {currentEvent}
+            {DEVIL_RENDER_MODE === '3d' ? `3D: ${activeAction3D}` : currentEvent}
           </span>
           <span className="text-[9px] text-slate-500 font-mono">
-            {currentFilename}
+            {DEVIL_RENDER_MODE === '3d' ? devil3DAnimationMap[activeAction3D].split('/').pop() : currentFilename}
           </span>
         </div>
       )}

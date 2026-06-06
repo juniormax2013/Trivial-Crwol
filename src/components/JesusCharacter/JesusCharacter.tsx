@@ -1,9 +1,31 @@
 'use client';
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { useJesusEmotion } from '../../hooks/useJesusEmotion';
 import type { JesusGameEvent } from '../../data/jesusEmotionMap';
+import Jesus3D from '../jesus/Jesus3D';
+import { type Jesus3DAction, jesus3DAnimationMap } from '@/src/config/jesus3DAnimations';
+
+// ─────────────────────────────────────────────────────────────────────────────
+// CONFIGURACIÓN DE RENDERIZADO DE JESÚS (2D vs 3D)
+// ─────────────────────────────────────────────────────────────────────────────
+const JESUS_RENDER_MODE: '2d' | '3d' = '3d';
+
+const FILENAME_TO_3D_ACTION: Record<string, Jesus3DAction> = {
+  'bendicion.png': 'appear',
+  'idle_sereno.png': 'idle',
+  'saludo_al_jugador.png': 'appear',
+  'bendicion_inicio.png': 'power',
+  'celebracion_acierto.png': 'clap',
+  'compasion_fallo.png': 'idle',
+  'revelar_respuesta.png': 'power',
+  'proteccion_contra_diablo.png': 'power',
+  'sabiduria_divina.png': 'power',
+  'autoridad_santa.png': 'power',
+  'victoria_gloriosa.png': 'clap',
+  'desaparecer_en_luz.png': 'idle',
+};
 
 const JESUS_CHARACTER_CSS = `
   /* Entrada celestial */
@@ -39,6 +61,13 @@ const JESUS_CHARACTER_CSS = `
     100% { transform: translate(var(--tx), var(--ty)) scale(0) rotate(180deg); opacity: 0; }
   }
 
+  /* Efecto destello de luz celestial */
+  @keyframes light-flare-3d {
+    0%   { transform: scale(0.4); opacity: 0; filter: blur(5px); }
+    40%  { opacity: 0.95; filter: blur(2px); }
+    100% { transform: scale(1.35); opacity: 0; filter: blur(14px); }
+  }
+
   .jesus-char-enter {
     animation: jesus-img-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
@@ -50,6 +79,9 @@ const JESUS_CHARACTER_CSS = `
   }
   .jesus-char-protect {
     animation: jesus-shield 0.8s ease-in-out infinite;
+  }
+  .jesus-light-overlay {
+    animation: light-flare-3d 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   }
 `;
 
@@ -69,10 +101,8 @@ interface JesusCharacterProps {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// COMPONENTE AUXILIAR TRANSPARENT IMAGE
-// Remueve dinámicamente el fondo blanco/grisáceo de las ilustraciones de Jesús.
+// COMPONENTE AUXILIAR TRANSPARENT IMAGE (SOLO PARA MODO 2D)
 // ─────────────────────────────────────────────────────────────────────────────
-
 interface TransparentImageProps {
   src: string;
   alt: string;
@@ -182,6 +212,8 @@ export default function JesusCharacter({
   showEventBadge = false,
 }: JesusCharacterProps) {
   const cssInjected = useRef(false);
+  const [activeAction3D, setActiveAction3D] = useState<Jesus3DAction>('idle');
+  const [showLightFlare, setShowLightFlare] = useState(false);
 
   const {
     currentImage,
@@ -193,10 +225,27 @@ export default function JesusCharacter({
     triggerEvent,
   } = useJesusEmotion(event);
 
+  // Sincronizar evento de entrada y mapear a acción 3D
   useEffect(() => {
     triggerEvent(event);
   }, [event, triggerEvent]);
 
+  // Actualizar la acción 3D activa al cambiar la ilustración 2D resuelta
+  useEffect(() => {
+    if (JESUS_RENDER_MODE === '3d') {
+      const targetAction = FILENAME_TO_3D_ACTION[currentFilename] || 'idle';
+      setActiveAction3D(targetAction);
+
+      // Disparar destello de luz en aparición
+      if (targetAction === 'appear') {
+        setShowLightFlare(true);
+        const timer = setTimeout(() => setShowLightFlare(false), 1500);
+        return () => clearTimeout(timer);
+      }
+    }
+  }, [currentFilename]);
+
+  // Inyectar CSS una sola vez
   useEffect(() => {
     if (cssInjected.current) return;
     cssInjected.current = true;
@@ -206,11 +255,20 @@ export default function JesusCharacter({
     document.head.appendChild(style);
   }, []);
 
+  const handleActionComplete = (finishedAction: Jesus3DAction) => {
+    // No retornar a idle automáticamente; mantener el fotograma final de la animación hasta una nueva acción.
+  };
+
   const animClass = isProtecting
     ? 'jesus-char-protect'
     : isGlowing
     ? 'jesus-char-glow'
     : 'jesus-char-breathe';
+
+  // Si está desmontado
+  const isHidden = false;
+
+  if (isHidden) return null;
 
   return (
     <div
@@ -248,31 +306,56 @@ export default function JesusCharacter({
         </span>
       ))}
 
-      {/* Imagen de Jesús procesada para quitar fondo */}
-      <div
-        className={`relative transition-all duration-300 ${animClass}`}
-        style={{
-          width: size,
-          height: size,
-          opacity: isTransitioning ? 0 : 1,
-        }}
-      >
-        <TransparentImage
-          key={currentImage}
-          src={currentImage}
-          alt={`Jesús: ${currentEvent}`}
-          className="w-full h-full object-contain jesus-char-enter"
-        />
-      </div>
+      {/* Capa de destello de luz para el modo 3D */}
+      {showLightFlare && (
+        <div 
+          className="absolute inset-0 z-30 pointer-events-none rounded-full flex items-center justify-center"
+          style={{ width: size, height: size }}
+        >
+          <div 
+            className="w-[85%] h-[85%] bg-gradient-to-tr from-amber-300/40 via-yellow-100/20 to-transparent rounded-full jesus-light-overlay"
+          />
+        </div>
+      )}
+
+      {/* Renderizado Condicional: 3D vs 2D */}
+      {JESUS_RENDER_MODE === '3d' ? (
+        <div 
+          className="relative flex items-center justify-center"
+          style={{ width: size, height: size }}
+        >
+          <Jesus3D 
+            action={activeAction3D} 
+            size={size} 
+            onActionComplete={handleActionComplete} 
+          />
+        </div>
+      ) : (
+        <div
+          className={`relative transition-all duration-300 ${animClass}`}
+          style={{
+            width: size,
+            height: size,
+            opacity: isTransitioning ? 0 : 1,
+          }}
+        >
+          <TransparentImage
+            key={currentImage}
+            src={currentImage}
+            alt={`Jesús: ${currentEvent}`}
+            className="w-full h-full object-contain jesus-char-enter"
+          />
+        </div>
+      )}
 
       {/* Badge de evento (opcional) */}
       {showEventBadge && (
-        <div className="mt-2 flex flex-col items-center gap-1">
+        <div className="mt-2 flex flex-col items-center gap-1 z-20">
           <span className="text-[10px] font-black uppercase tracking-widest text-amber-500 bg-amber-950/20 border border-amber-500/20 rounded-full px-3 py-0.5">
-            {currentEvent}
+            {JESUS_RENDER_MODE === '3d' ? `3D: ${activeAction3D}` : currentEvent}
           </span>
           <span className="text-[9px] text-slate-400 font-mono">
-            {currentFilename}
+            {JESUS_RENDER_MODE === '3d' ? jesus3DAnimationMap[activeAction3D].split('/').pop() : currentFilename}
           </span>
         </div>
       )}

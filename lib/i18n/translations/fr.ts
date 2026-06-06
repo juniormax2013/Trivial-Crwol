@@ -69,7 +69,9 @@ export const fr: Translations = {
     profile: 'Profil',
     social: 'Social',
     aliados: 'Alliés',
+    savedVerses: 'Mes Versets',
   },
+
 
   dashboard: {
     welcomeBack: 'Bon retour',
@@ -136,7 +138,14 @@ export const fr: Translations = {
     understandWord: 'Comprendre la Parole',
     me: 'Moi',
     friendsTab: 'Amis',
+    assistantTooltip: "Si vous avez des questions, je suis là pour qu'on en discute",
+    noSavedVerses: "Aucun verset enregistré",
+    savedVersesDesc: "Les versets bibliques que vous enregistrez apparaîtront ici.",
+    savedAtLabel: "Enregistré le",
+    deleteText: "Supprimer",
   },
+
+
 
   home: {
     greeting: 'Bonjour',
@@ -353,7 +362,29 @@ export const fr: Translations = {
     timeUntilDaysPlural: '{n}j restants',
     timeUntilHourMin: '{h}h {m}m restant',
     timeUntilMin: '{m} min restant',
+    duelVs: 'Duel vs.',
+    tiebreakerDesc: '1 question · Le premier qui répond correctement gagne !',
+    questionsAndSeconds: '{count} questions · {seconds}s par question',
+    receivedTab: 'Reçus',
+    sentTab: 'Envoyés',
+    activeTabLabel: 'Actifs',
+    historyTab: 'Historique',
+    newBtn: 'Nouveau',
+    noReceivedDuels: 'Aucun défi reçu',
+    noReceivedDuelsDesc: 'Quand quelqu\'un vous défie, cela apparaîtra ici.',
+    noSentDuels: 'Aucun défi envoyé',
+    noSentDuelsDesc: 'Envoyez un défi à un ami et il apparaîtra ici.',
+    noActiveDuels: 'Aucun duel actif',
+    noActiveDuelsDesc: 'Acceptez un défi ou créez-en un nouveau pour commencer.',
+    noHistoryDuels: 'Aucun historique',
+    noHistoryDuelsDesc: 'Les duels terminés, expirés ou refusés apparaîtront ici.',
+    createDuelBtn: 'Créer un duel',
+    noOpponentsAvailable: 'Aucun autre guerrier disponible pour le moment.',
+    levelLabel: 'Niveau',
   },
+
+
+
 
   ranking: {
     title: 'Classement',

@@ -54,8 +54,23 @@ export function usePushNotifications(userId: string | null | undefined) {
     }
 
     try {
-      // Request permission
-      const userPermission = await Notification.requestPermission();
+      // Request permission using a hybrid promise/callback approach for full browser compatibility
+      let userPermission: NotificationPermission;
+      try {
+        const p = Notification.requestPermission();
+        if (p && typeof p.then === 'function') {
+          userPermission = await p;
+        } else {
+          userPermission = await new Promise<NotificationPermission>((resolve) => {
+            Notification.requestPermission(resolve);
+          });
+        }
+      } catch (e) {
+        userPermission = await new Promise<NotificationPermission>((resolve) => {
+          Notification.requestPermission(resolve);
+        });
+      }
+
       setPermission(userPermission);
 
       if (userPermission !== 'granted') {
@@ -72,6 +87,24 @@ export function usePushNotifications(userId: string | null | undefined) {
 
       // Register the service worker explicitly for FCM
       const registration = await navigator.serviceWorker.register('/firebase-messaging-sw.js');
+      
+      // Wait for the service worker to become active if it isn't already
+      if (!registration.active) {
+        await new Promise<void>((resolve) => {
+          const worker = registration.installing || registration.waiting;
+          if (worker) {
+            const stateChangeHandler = () => {
+              if (worker.state === 'activated') {
+                worker.removeEventListener('statechange', stateChangeHandler);
+                resolve();
+              }
+            };
+            worker.addEventListener('statechange', stateChangeHandler);
+          } else {
+            resolve();
+          }
+        });
+      }
       
       // Request token with VAPID Key
       const vapidKey = process.env.NEXT_PUBLIC_FIREBASE_VAPID_KEY;
@@ -98,9 +131,13 @@ export function usePushNotifications(userId: string | null | undefined) {
   useEffect(() => {
     if (!userId) return;
 
-    // Check if permission is already granted
-    if (typeof window !== 'undefined' && 'Notification' in window && Notification.permission === 'granted') {
-      requestPermissionAndRegister();
+    if (typeof window !== 'undefined' && 'Notification' in window) {
+      const currentPermission = Notification.permission;
+      // Si ya está concedido (para registrar token) o si aún no se ha solicitado ('default'),
+      // se inicia la solicitud y registro de notificaciones de manera automática.
+      if (currentPermission === 'granted' || currentPermission === 'default') {
+        requestPermissionAndRegister();
+      }
     }
   }, [userId, requestPermissionAndRegister]);
 

@@ -31,6 +31,7 @@ import { updateUser } from '@/lib/user/repository';
 import { UserSettingsModel } from '@/lib/user/models';
 import { useT, useLanguage } from '@/lib/i18n/context';
 import { Language } from '@/lib/i18n/types';
+import { usePushNotifications } from '@/hooks/usePushNotifications';
 
 // Language choosing is removed as the system is strictly Haitian Creole.
 
@@ -41,6 +42,9 @@ export default function Settings() {
   const { language, setLanguage } = useLanguage();
   const [isUpdating, setIsUpdating] = useState(false);
   const [showLangPicker, setShowLangPicker] = useState(false);
+  
+  // Hook de notificaciones push para solicitar permisos y registrar token
+  const { requestPermission } = usePushNotifications(user?.uid);
 
   if (loading) {
     return (
@@ -58,6 +62,23 @@ export default function Settings() {
   const handleToggle = async (key: keyof UserSettingsModel) => {
     setIsUpdating(true);
     try {
+      // Si el usuario intenta activar las notificaciones y estaban apagadas, solicitamos permiso
+      if (key === 'allowNotifications' && !user.settings.allowNotifications) {
+        await requestPermission();
+        if (typeof window !== 'undefined' && 'Notification' in window) {
+          if (Notification.permission === 'denied') {
+            alert("Las notificaciones están bloqueadas en tu navegador o dispositivo. Por favor, ve a los ajustes de tu navegador y permítelas manualmente para poder activarlas.");
+            setIsUpdating(false);
+            return;
+          }
+          if (Notification.permission !== 'granted') {
+            // Si el permiso no fue concedido (ej. cancelado), no activamos el toggle
+            setIsUpdating(false);
+            return;
+          }
+        }
+      }
+
       const newSettings = { 
         ...user.settings, 
         [key]: !user.settings[key] 
@@ -80,9 +101,18 @@ export default function Settings() {
       {/* TopAppBar */}
       <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 h-16 bg-white border-b border-[#310065]/5 pt-safe">
         <div className="flex items-center gap-4">
-          <Link href="/profile" className="p-2 -ml-2 rounded-full hover:bg-[#310065]/5 transition-colors active:scale-95 duration-150">
+          <button 
+            onClick={() => {
+              if (typeof window !== 'undefined' && window.history.length > 1) {
+                router.back();
+              } else {
+                router.push('/profile');
+              }
+            }}
+            className="p-2 -ml-2 rounded-full hover:bg-[#310065]/5 transition-colors active:scale-95 duration-150"
+          >
             <ArrowLeft className="w-6 h-6 text-[#310065]" strokeWidth={2.5} />
-          </Link>
+          </button>
           <h1 className="font-serif font-black tracking-tight text-[#1b1b1e] text-[22px]">{t.settings.title}</h1>
         </div>
         <div className="flex items-center">

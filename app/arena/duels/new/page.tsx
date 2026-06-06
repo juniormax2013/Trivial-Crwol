@@ -186,7 +186,7 @@ export default function NewDuelPage() {
             {loading ? (
               <div className="flex justify-center p-8"><div className="w-8 h-8 rounded-full border-4 border-[#e9c349] border-t-transparent animate-spin"></div></div>
             ) : realOpponents.length === 0 ? (
-              <div className="text-center text-[#7c7483] p-8">No hay otros guerreros disponibles en este momento.</div>
+              <div className="text-center text-[#7c7483] p-8">{t.duel.noOpponentsAvailable}</div>
             ) : (
             <div className="space-y-3">
               {realOpponents.map((opp) => {
@@ -212,26 +212,27 @@ export default function NewDuelPage() {
                   >
                     <div className="relative shrink-0">
                       <Link 
-                        href={`/profile/${opp.uid}`} 
-                        onClick={(e) => e.stopPropagation()} 
-                        className="block w-14 h-14 rounded-full overflow-hidden border-2 border-[#4a148c]/10 hover:opacity-80 transition-opacity"
-                      >
-                        <Image
-                          src={opp.photoURL || ('https://api.dicebear.com/9.x/notionists/svg?seed=' + opp.username)}
-                          alt={opp.fullName || opp.username}
-                          width={56} height={56}
-                          className="w-full h-full object-cover"
-                          unoptimized
-                        />
-                      </Link>
-                      {isOnline && (
-                        <div className="absolute bottom-0 right-0 w-4 h-4 bg-green-500 border-2 border-white rounded-full z-10 shadow-sm pointer-events-none" title="En línea ahora"></div>
-                      )}
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <p className="font-bold text-[#1b1b1e] text-[16px] truncate">{opp.fullName || opp.username}</p>
-                      <div className="flex items-center gap-3 mt-0.5">
-                        <span className="text-[11px] text-[#7c7483] font-semibold">Nivel {opp.level || 1}</span>
+                      href={`/profile/${opp.uid}`} 
+                      onClick={(e) => e.stopPropagation()} 
+                      className="block w-14 h-14 rounded-full overflow-hidden border-2 border-[#4a148c]/10 hover:opacity-80 transition-opacity"
+                    >
+                      <Image
+                        src={opp.photoURL || ('https://api.dicebear.com/9.x/notionists/svg?seed=' + opp.username)}
+                        alt={opp.fullName || opp.username}
+                        width={56} height={56}
+                        className="w-full h-full object-cover"
+                        unoptimized
+                      />
+                    </Link>
+                    {isOnline && (
+                      <div className="absolute bottom-0 right-0 w-4 h-4 bg-green-500 border-2 border-white rounded-full z-10 shadow-sm pointer-events-none" title="En línea ahora"></div>
+                    )}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="font-bold text-[#1b1b1e] text-[16px] truncate">{opp.fullName || opp.username}</p>
+                    <div className="flex items-center gap-3 mt-0.5">
+                      <span className="text-[11px] text-[#7c7483] font-semibold">{t.duel.levelLabel} {opp.level || 1}</span>
+
                         <div className="flex items-center gap-1">
                           <Crown className="w-3 h-3 text-[#cba72f] fill-[#ffe088]" strokeWidth={1} />
                           <span className="text-[11px] font-bold text-[#735c00]">

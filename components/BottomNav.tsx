@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Home, Swords, Crown, Users, UserCircle, Menu, X, Shield } from 'lucide-react';
+import { Home, Swords, Crown, Users, UserCircle, Menu, X, Shield, LogOut, Bookmark } from 'lucide-react';
 import { useT } from '@/lib/i18n/context';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -11,20 +11,23 @@ import UserAvatar from '@/components/UserAvatar';
 import { usePathname } from 'next/navigation';
 
 interface BottomNavProps {
-  activeTab: 'home' | 'play' | 'ranking' | 'social' | 'profile' | 'aliados';
+  activeTab: 'home' | 'play' | 'ranking' | 'social' | 'profile' | 'aliados' | 'saved-verses';
   /** Si false, no se renderiza el botón flotante fijo (la página gestiona su propio trigger) */
   showTriggerButton?: boolean;
+  isAssistantTooltipVisible?: boolean;
 }
 
-export default function BottomNav({ activeTab, showTriggerButton = true }: BottomNavProps) {
+export default function BottomNav({
+ 
+  activeTab, 
+  showTriggerButton = true,
+  isAssistantTooltipVisible = false 
+}: BottomNavProps) {
   const t = useT();
-  const { user } = useAuthContext();
+  const { user, signOut } = useAuthContext();
+
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
-
-  // Ref para datos de touch (no necesitan re-render)
-  const touchStartX = useRef<number | null>(null);
-  const touchStartY = useRef<number | null>(null);
 
   // Escucha el evento global para que cualquier página pueda abrir el panel
   useEffect(() => {
@@ -33,91 +36,48 @@ export default function BottomNav({ activeTab, showTriggerButton = true }: Botto
     return () => window.removeEventListener('open-sidenav', handler);
   }, []);
 
-  // ── Swipe desde el borde izquierdo para abrir el menú ──────────────
-  useEffect(() => {
-    // No activar durante pantallas de juego activo (evita conflictos con gestos del juego)
-    const isGameScreen = pathname?.includes('/play');
-    if (isGameScreen) return;
-
-    const EDGE_ZONE = 30;     // px desde el borde izquierdo para iniciar el gesto
-    const MIN_SWIPE_X = 60;   // px mínimos hacia la derecha para considerar swipe válido
-    const MAX_SWIPE_Y = 60;   // px máximos verticales (si supera esto, es scroll, no swipe)
-
-    const onTouchStart = (e: TouchEvent) => {
-      const touch = e.touches[0];
-      // Solo registrar si el dedo empieza dentro de la zona de borde izquierdo
-      if (touch.clientX <= EDGE_ZONE) {
-        touchStartX.current = touch.clientX;
-        touchStartY.current = touch.clientY;
-      } else {
-        touchStartX.current = null;
-        touchStartY.current = null;
-      }
-    };
-
-    const onTouchEnd = (e: TouchEvent) => {
-      if (touchStartX.current === null || touchStartY.current === null) return;
-      if (isOpen) return; // El menú ya está abierto, no hacer nada
-
-      const touch = e.changedTouches[0];
-      const deltaX = touch.clientX - touchStartX.current;
-      const deltaY = Math.abs(touch.clientY - touchStartY.current);
-
-      // Validar: movimiento horizontal suficiente Y movimiento vertical pequeño
-      if (deltaX >= MIN_SWIPE_X && deltaY <= MAX_SWIPE_Y) {
-        setIsOpen(true);
-      }
-
-      // Resetear
-      touchStartX.current = null;
-      touchStartY.current = null;
-    };
-
-    document.addEventListener('touchstart', onTouchStart, { passive: true });
-    document.addEventListener('touchend', onTouchEnd, { passive: true });
-
-    return () => {
-      document.removeEventListener('touchstart', onTouchStart);
-      document.removeEventListener('touchend', onTouchEnd);
-    };
-  }, [isOpen, pathname]);
-
   const navItems = [
-    { id: 'home',    label: t.nav.home,    icon: Home,       href: '/'          },
-    { id: 'play',    label: t.nav.play,    icon: Swords,     href: '/arena'     },
-    { id: 'ranking', label: t.nav.ranking, icon: Crown,      href: '/ranking'   },
-    { id: 'social',  label: t.nav.social,  icon: Users,      href: '/social'    },
-    { id: 'aliados', label: t.nav.aliados, icon: Shield,     href: '/aliados'   },
-    { id: 'profile', label: t.nav.profile, icon: UserCircle, href: '/profile'   },
+    { id: 'home',         label: t.nav.home,         icon: Home,       href: '/'              },
+    { id: 'play',         label: t.nav.play,         icon: Swords,     href: '/arena'         },
+    { id: 'ranking',      label: t.nav.ranking,      icon: Crown,      href: '/ranking'       },
+    { id: 'saved-verses', label: t.nav.savedVerses,  icon: Bookmark,   href: '/saved-verses'  },
+    { id: 'social',       label: t.nav.social,       icon: Users,      href: '/social'        },
+    { id: 'aliados',      label: t.nav.aliados,      icon: Shield,     href: '/aliados'       },
+    { id: 'profile',      label: t.nav.profile,      icon: UserCircle, href: '/profile'       },
   ] as const;
+
 
   const xpProgress = Math.min(100, (user?.xp || 0) % 100);
   const displayName = user?.firstName || user?.fullName?.split(' ')[0] || user?.username || '—';
 
   return (
     <>
-      {/* ── Botón fijo superior-derecha (solo si showTriggerButton === true) ── */}
+      {/* ── Botón fijo en el medio inferior (solo si showTriggerButton === true) ── */}
       {showTriggerButton && (
         <motion.button
           id="sidenav-toggle"
           aria-label="Abrir menú de navegación"
           aria-expanded={isOpen}
-          whileHover={{ scale: 1.06 }}
+          whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.92 }}
           onClick={() => setIsOpen(true)}
-          className="fixed top-4 right-4 z-[65]
-                     w-10 h-10 rounded-2xl
-                     bg-white/90 backdrop-blur-md
-                     border border-[#310065]/10
-                     shadow-[0_4px_16px_rgba(49,0,101,0.12)]
+          initial={{ x: "-50%", y: 0 }}
+          animate={{ 
+            x: isAssistantTooltipVisible ? "calc(-50% - 90px)" : "-50%",
+            y: 0 
+          }}
+          transition={{ type: 'spring', stiffness: 300, damping: 25 }}
+          className="fixed bottom-6 left-1/2 z-[60]
+                     w-12 h-12 rounded-full
+                     bg-[#310065] text-white
+                     shadow-[0_8px_24px_rgba(49,0,101,0.3)]
                      flex items-center justify-center
-                     text-[#310065]
-                     transition-shadow hover:shadow-[0_6px_20px_rgba(49,0,101,0.2)]"
-          style={{ marginTop: 'env(safe-area-inset-top, 0px)' }}
+                     transition-shadow hover:shadow-[0_12px_30px_rgba(49,0,101,0.4)]"
         >
           <Menu size={20} strokeWidth={2.5} />
         </motion.button>
       )}
+
 
       <AnimatePresence>
         {isOpen && (
@@ -314,6 +274,25 @@ export default function BottomNav({ activeTab, showTriggerButton = true }: Botto
                 })}
               </div>
 
+              {/* Botón de Cerrar Sesión */}
+              <div className="px-3 py-2 border-t border-black/[0.04] shrink-0">
+                <button
+                  onClick={async () => {
+                    setIsOpen(false);
+                    await signOut();
+                  }}
+                  className="w-full flex items-center gap-4 px-4 py-3 rounded-2xl
+                             hover:bg-red-50 text-red-600 font-bold text-[14px]
+                             transition-colors duration-200 select-none group"
+                >
+                  <div className="w-10 h-10 rounded-xl flex items-center justify-center
+                                  bg-red-50 group-hover:bg-red-100 shrink-0 transition-colors">
+                    <LogOut className="w-[18px] h-[18px] text-red-600" strokeWidth={2.3} />
+                  </div>
+                  <span>{t.auth.signOut}</span>
+                </button>
+              </div>
+
               {/* Footer */}
               <div className="px-5 py-4 border-t border-black/[0.04] shrink-0">
                 <p className="text-[10px] font-bold text-gray-300 uppercase tracking-[0.22em] text-center">
@@ -321,6 +300,7 @@ export default function BottomNav({ activeTab, showTriggerButton = true }: Botto
                 </p>
               </div>
             </motion.nav>
+
           </>
         )}
       </AnimatePresence>

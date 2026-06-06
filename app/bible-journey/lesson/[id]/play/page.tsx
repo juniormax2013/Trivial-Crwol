@@ -105,7 +105,7 @@ export default function BibleLessonPlay() {
 
     if (currentQuestion.question_type === 'multiple_choice' && devilSpawnedCount < 5 && devilDefeatedCount < 2) {
       const wasDevilActiveBefore = isDevilActive;
-      const spawned = triggerDevilTrap(currentQuestion.options || [], false, engineConfig?.devilTrap);
+      const spawned = triggerDevilTrap(currentQuestion.options || [], false, engineConfig?.devilTrap, false);
       if (spawned && !wasDevilActiveBefore) {
         setDevilSpawnedCount(prev => prev + 1);
       }
@@ -698,7 +698,7 @@ export default function BibleLessonPlay() {
               <button
                 onClick={() => {
                   setShowExitConfirm(false);
-                  router.push('/bible-journey/map');
+                  router.push('/play');
                 }}
                 className="flex-1 py-3.5 bg-white hover:bg-red-50 text-red-600 rounded-xl font-black text-xs uppercase tracking-wider border border-purple-100 shadow-sm"
               >
@@ -738,7 +738,7 @@ export default function BibleLessonPlay() {
                 Ir a Repaso Diario (+1 Corazón)
               </button>
               <button
-                onClick={() => router.push('/bible-journey')}
+                onClick={() => router.push('/play')}
                 className="w-full py-4 px-6 bg-white hover:bg-purple-50 text-[#310065] rounded-2xl flex items-center justify-center font-black text-xs uppercase tracking-widest border border-purple-100 shadow-sm"
               >
                 Volver al Panel Principal

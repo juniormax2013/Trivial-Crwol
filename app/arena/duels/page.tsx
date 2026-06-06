@@ -1,29 +1,31 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Plus, Swords, Inbox, Send, Activity, Clock } from 'lucide-react';
 import DuelInboxCard from '@/components/duel/DuelInboxCard';
 import { DuelModel } from '@/lib/duel/models';
-import { getDuelsForUser, subscribeToDuelsForUser } from '@/lib/duel/repository';
+import { subscribeToDuelsForUser } from '@/lib/duel/repository';
 import { filterDuelsByTab } from '@/lib/duel/service';
 import { useAuthContext } from '@/components/auth/AuthProvider';
+import { useT } from '@/lib/i18n/context';
 
 type Tab = 'received' | 'sent' | 'active' | 'history';
 
-const TABS: { key: Tab; label: string; icon: typeof Inbox }[] = [
-  { key: 'received', label: 'Recibidos', icon: Inbox },
-  { key: 'sent',     label: 'Enviados',  icon: Send },
-  { key: 'active',   label: 'Activos',   icon: Activity },
-  { key: 'history',  label: 'Historial', icon: Clock },
-];
-
 export default function DuelCenterPage() {
   const { user } = useAuthContext();
+  const t = useT();
   const userId = user?.uid || 'unknown-user';
   const [activeTab, setActiveTab] = useState<Tab>('received');
   const [allDuels, setAllDuels] = useState<DuelModel[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+
+  const TABS = [
+    { key: 'received', label: t.duel.receivedTab, icon: Inbox },
+    { key: 'sent',     label: t.duel.sentTab,  icon: Send },
+    { key: 'active',   label: t.duel.activeTabLabel,   icon: Activity },
+    { key: 'history',  label: t.duel.historyTab, icon: Clock },
+  ] as const;
 
   useEffect(() => {
     if (userId === 'unknown-user') {
@@ -52,22 +54,23 @@ export default function DuelCenterPage() {
 
   const emptyMessages: Record<Tab, { title: string; body: string }> = {
     received: {
-      title: 'Sin desafíos recibidos',
-      body: 'Cuando alguien te rete a un duelo aparecerá aquí.',
+      title: t.duel.noReceivedDuels,
+      body: t.duel.noReceivedDuelsDesc,
     },
     sent: {
-      title: 'Sin desafíos enviados',
-      body: 'Envía un desafío a un amigo y aparecerá aquí.',
+      title: t.duel.noSentDuels,
+      body: t.duel.noSentDuelsDesc,
     },
     active: {
-      title: 'Sin duelos activos',
-      body: 'Acepta un desafío o crea uno nuevo para empezar.',
+      title: t.duel.noActiveDuels,
+      body: t.duel.noActiveDuelsDesc,
     },
     history: {
-      title: 'Sin historial',
-      body: 'Los duelos completados, expirados o rechazados aparecerán aquí.',
+      title: t.duel.noHistoryDuels,
+      body: t.duel.noHistoryDuelsDesc,
     },
   };
+
 
   return (
     <div className="bg-[#faf9fc] text-[#1b1b1e] min-h-screen pb-24 font-sans selection:bg-[#eddcff]">
@@ -85,7 +88,7 @@ export default function DuelCenterPage() {
             <div>
               <p className="text-[10px] font-black uppercase tracking-widest text-[#7c7483]">Arena</p>
               <h1 className="font-serif text-[20px] font-black text-[#310065] leading-tight">
-                Duelos
+                {t.dashboard.duels}
               </h1>
             </div>
           </div>
@@ -95,7 +98,7 @@ export default function DuelCenterPage() {
             className="flex items-center gap-1.5 bg-[#310065] text-white px-4 py-2 rounded-full font-bold text-[13px] shadow-[0_4px_12px_rgba(49,0,101,0.25)] hover:bg-[#4a148c] transition-colors active:scale-95"
           >
             <Plus className="w-4 h-4" />
-            Nuevo
+            {t.duel.newBtn}
           </Link>
         </div>
 
@@ -157,10 +160,11 @@ export default function DuelCenterPage() {
                 href="/arena/duels/new"
                 className="mt-6 bg-[#310065] text-white px-6 py-3 rounded-full font-bold text-[14px] shadow-[0_4px_12px_rgba(49,0,101,0.25)] hover:bg-[#4a148c] transition-all active:scale-95"
               >
-                Crear un duelo
+                {t.duel.createDuelBtn}
               </Link>
             )}
           </div>
+
         ) : (
           <div className="space-y-4 mt-4">
             {displayedDuels.map((duel) => (

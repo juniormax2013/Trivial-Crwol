@@ -209,7 +209,7 @@ export default function DailyChallengePlayPage() {
 
       if (canTriggerDevil) {
         const wasDevilActiveBefore = isDevilActive;
-        const spawned = triggerDevilTrap(q.options, false, engineConfig?.devilTrap);
+        const spawned = triggerDevilTrap(q.options, false, engineConfig?.devilTrap, isJesusActive);
         if (spawned && !wasDevilActiveBefore) {
           setDevilSpawnedCount(prev => prev + 1);
         }
@@ -611,13 +611,14 @@ export default function DailyChallengePlayPage() {
 
       {/* ── TOP BAR ── */}
       <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/80 backdrop-blur-2xl border-b border-[#310065]/5">
-        <div className="flex items-center px-6 h-16 max-w-screen-sm mx-auto w-full gap-3">
+        <div className="flex items-center px-6 h-16 max-w-screen-sm mx-auto w-full gap-4">
           <button
-            onClick={() => router.push('/daily-challenge')}
-            className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/60 transition-colors active:scale-95"
+            onClick={() => router.push('/arena')}
+            className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/60 transition-colors active:scale-95 shrink-0"
           >
             <X className="w-5 h-5 text-[#310065]" strokeWidth={2.5} />
           </button>
+
 
           {/* Progress bar */}
           <div className="flex-1 space-y-1">
@@ -636,42 +637,21 @@ export default function DailyChallengePlayPage() {
               />
             </div>
           </div>
+
+          {/* New Compact Header Timer */}
+          <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-[#310065]/5 shadow-sm shrink-0">
+            <span
+              className="text-[14px] font-bold tabular-nums"
+              style={{ color: timerColor }}
+            >
+              {phase === 'feedback' ? '✓' : `${timeLeft}s`}
+            </span>
+          </div>
         </div>
       </header>
 
       {/* ── MAIN ── */}
-      <main className="flex-grow pt-[88px] pb-12 px-5 flex flex-col max-w-[480px] mx-auto w-full relative z-10">
-
-        {/* Timer */}
-        <div className="relative w-24 h-24 mx-auto mb-8 flex items-center justify-center">
-          <svg className="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 96 96">
-            <circle
-              cx="48" cy="48" r={TIMER_RADIUS}
-              fill="transparent" stroke="#e9e7eb" strokeWidth="6"
-            />
-            <circle
-              cx="48" cy="48" r={TIMER_RADIUS}
-              fill="transparent"
-              stroke={timerColor}
-              strokeWidth="6"
-              strokeDasharray={TIMER_CIRCUMFERENCE}
-              strokeDashoffset={phase === 'feedback' ? TIMER_CIRCUMFERENCE : timerDashOffset}
-              strokeLinecap="round"
-              className="transition-all duration-1000 ease-linear drop-shadow-[0_0_8px_rgba(203,167,47,0.4)]"
-            />
-          </svg>
-          <div className="flex flex-col items-center justify-center">
-            <span
-              className="text-[32px] font-serif font-black leading-none transition-colors duration-300"
-              style={{ color: timerColor }}
-            >
-              {phase === 'feedback' ? '✓' : timeLeft}
-            </span>
-            <span className="text-[8px] font-black text-[#7c7483] uppercase tracking-[0.1em]">
-              {phase === 'feedback' ? '' : t.duel.seg || 'seg'}
-            </span>
-          </div>
-        </div>
+      <main className="flex-grow pt-[80px] pb-12 px-5 flex flex-col max-w-[480px] mx-auto w-full relative z-10">
 
         {/* Question Card */}
         <div className="bg-white rounded-[2.5rem] px-7 py-9 shadow-[0_4px_24px_rgba(0,0,0,0.03)] mb-7 relative overflow-hidden border border-[#1b1b1e]/5">
@@ -805,7 +785,7 @@ export default function DailyChallengePlayPage() {
             onReport={handleReport}
             isProcessing={isProcessingPower}
             setIsProcessing={setIsProcessingPower}
-            disabled={phase !== 'answering' || isDevilActive}
+            disabled={phase !== 'answering'}
             activePowerUps={activePowerUps}
           />
         </div>

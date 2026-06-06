@@ -65,7 +65,9 @@ export const es: Translations = {
     profile: 'Perfil',
     social: 'Social',
     aliados: 'Aliados',
+    savedVerses: 'Mis Versículos',
   },
+
   dashboard: {
     welcomeBack: 'Bienvenido de nuevo',
     hello: 'Hola',
@@ -131,7 +133,14 @@ export const es: Translations = {
     understandWord: 'Comprender la Palabra',
     me: 'Yo',
     friendsTab: 'Amigos',
+    assistantTooltip: 'Si tienes cualquier pregunta estoy aquí para que hablemos',
+    noSavedVerses: 'No tienes versículos guardados',
+    savedVersesDesc: 'Los versículos bíblicos que guardes aparecerán aquí.',
+    savedAtLabel: 'Guardado el',
+    deleteText: 'Eliminar',
   },
+
+
 
   home: {
     greeting: 'Hola',
@@ -339,7 +348,29 @@ export const es: Translations = {
     timeUntilDaysPlural: '{n}d restantes',
     timeUntilHourMin: '{h}h {m}m restante',
     timeUntilMin: '{m} min restante',
+    duelVs: 'Duelo vs.',
+    tiebreakerDesc: '1 pregunta · ¡El primero que acierte gana!',
+    questionsAndSeconds: '{count} preguntas · {seconds}s por pregunta',
+    receivedTab: 'Recibidos',
+    sentTab: 'Enviados',
+    activeTabLabel: 'Activos',
+    historyTab: 'Historial',
+    newBtn: 'Nuevo',
+    noReceivedDuels: 'Sin desafíos recibidos',
+    noReceivedDuelsDesc: 'Cuando alguien te rete a un duelo aparecerá aquí.',
+    noSentDuels: 'Sin desafíos enviados',
+    noSentDuelsDesc: 'Envía un desafío a un amigo y aparecerá aquí.',
+    noActiveDuels: 'Sin duelos activos',
+    noActiveDuelsDesc: 'Acepta un desafío o crea uno nuevo para empezar.',
+    noHistoryDuels: 'Sin historial',
+    noHistoryDuelsDesc: 'Los duelos completados, expirados o rechazados aparecerán aquí.',
+    createDuelBtn: 'Crear un duelo',
+    noOpponentsAvailable: 'No hay otros guerreros disponibles en este momento.',
+    levelLabel: 'Nivel',
   },
+
+
+
   ranking: {
     title: 'Clasificación',
     global: 'Mundial',

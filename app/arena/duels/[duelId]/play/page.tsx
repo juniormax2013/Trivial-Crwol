@@ -118,7 +118,7 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
       const currentQ = questions[questionIndex];
       if (currentQ && devilSpawnedCount < 5 && devilDefeatedCount < 2) {
         const wasDevilActiveBefore = isDevilActive;
-        const spawned = triggerDevilTrap(currentQ.options, false, engineConfig?.devilTrap);
+        const spawned = triggerDevilTrap(currentQ.options, false, engineConfig?.devilTrap, false);
         if (spawned && !wasDevilActiveBefore) {
           setDevilSpawnedCount(prev => prev + 1);
         }
@@ -427,7 +427,7 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
             <ArrowLeft className="w-5 h-5" />
           </Link>
           <div>
-            <p className="text-[10px] font-black uppercase tracking-widest text-[#7c7483]">Duelo vs. {vs.opponentName}</p>
+            <p className="text-[10px] font-black uppercase tracking-widest text-[#7c7483]">{t.duel.duelVs} {vs.opponentName}</p>
             <h1 className="font-serif text-[20px] font-black text-[#310065]">
               {isTiebreaker ? `⚡ ${t.duel.suddenDeath}` : `${t.duel.round} ${currentRound.roundNumber}`}
             </h1>
@@ -462,9 +462,12 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
           <h2 className="font-serif text-[26px] font-black text-[#310065] mb-2">{currentRound.categoryName}</h2>
           <p className={`text-[14px] font-medium mb-8 ${isTiebreaker ? 'text-amber-600 font-bold' : 'text-[#7c7483]'}`}>
             {isTiebreaker
-              ? '1 pregunta · ¡El primero que acierte gana!'
-              : `${questions.length} preguntas · ${timeLimit}s por pregunta`}
+              ? t.duel.tiebreakerDesc
+              : t.duel.questionsAndSeconds
+                  .replace('{count}', String(questions.length))
+                  .replace('{seconds}', String(timeLimit))}
           </p>
+
           <button
             onClick={startPlaying}
             className={`w-full max-w-[320px] py-4 text-white rounded-[1.25rem] font-bold text-[17px] hover:opacity-90 transition-all active:scale-[0.99] ${
@@ -585,7 +588,7 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
               }}
               isProcessing={isProcessingPower}
               setIsProcessing={setIsProcessingPower}
-              disabled={phase !== 'question' || isDevilActive}
+              disabled={phase !== 'question'}
               activePowerUps={activePowerUps}
             />
           </div>

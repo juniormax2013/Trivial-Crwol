@@ -83,26 +83,35 @@ export function useJesusTrap(devilTrap?: UseJesusTrapProps) {
    * Evalúa la aparición probabilística de Jesús al inicio de una pregunta
    */
   const evaluateJesusAppearance = useCallback((gameMode: string, isFirstQuestion = false): boolean => {
-    const settings = getJesusSettings();
-    if (!settings.enabled) return false;
+    if (devilTrap?.isDevilActive) {
+      setIsJesusActive(false);
+      setJesusState('hidden');
+      setJesusEvent(null);
+      return false;
+    }
+    // Valores fijos
+    const appearanceChance = 50;
+    const cooldownQuestions = 2;
+    const maxActivationsPerMatch = 2;
+    const reactOnAppear = true;
 
     // Verificar cooldown y activaciones máximas
-    if (questionsSinceLastActive < settings.cooldownQuestions) {
+    if (questionsSinceLastActive < cooldownQuestions) {
       setQuestionsSinceLastActive(prev => prev + 1);
       return false;
     }
-    if (activationsThisMatch >= settings.maxActivationsPerMatch) {
+    if (activationsThisMatch >= maxActivationsPerMatch) {
       return false;
     }
 
     const rand = Math.random() * 100;
-    if (rand < settings.appearanceChance) {
+    if (rand < appearanceChance) {
       setIsJesusActive(true);
       setActivationsThisMatch(prev => prev + 1);
       setQuestionsSinceLastActive(0);
 
       // Si es la primera pregunta, dar la bendición inicial
-      if (isFirstQuestion && settings.reactOnAppear) {
+      if (isFirstQuestion && reactOnAppear) {
         setJesusState('blessing');
         setJesusEvent('jesus_blessing_start');
         scheduleState('idle', 2000, 'jesus_idle');
@@ -188,10 +197,6 @@ export function useJesusTrap(devilTrap?: UseJesusTrapProps) {
 
     setJesusState('celebrating');
     setJesusEvent('jesus_celebrate_correct');
-
-    if (settings.autoReturnToIdle) {
-      scheduleState('idle', 1800, 'jesus_idle');
-    }
   }, [isJesusActive]);
 
   /**
@@ -204,10 +209,6 @@ export function useJesusTrap(devilTrap?: UseJesusTrapProps) {
 
     setJesusState('compassion');
     setJesusEvent('jesus_compassion_wrong');
-
-    if (settings.autoReturnToIdle) {
-      scheduleState('idle', 1800, 'jesus_idle');
-    }
   }, [isJesusActive]);
 
   /**

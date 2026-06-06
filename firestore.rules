@@ -354,5 +354,10 @@ service cloud.firestore {
       allow read, write: if isOwner(userId);
     }
 
+    // PixelLab History — solo administradores
+    match /pixellab_history/{docId} {
+      allow read, write: if isAdmin();
+    }
+
   }
 }

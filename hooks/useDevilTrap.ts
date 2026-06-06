@@ -30,56 +30,30 @@ export function useDevilTrap() {
   const triggerDevilTrap = useCallback((
     originalOptions: any[], 
     force = false, 
-    configOrProbability?: number | any
+    configOrProbability?: number | any,
+    isJesusActive = false
   ) => {
+    if (isJesusActive) {
+      setIsDevilActive(false);
+      setDevilMode(null);
+      setDevilState('hidden');
+      return false;
+    }
     let shouldTrigger = false;
 
-    let spawnProb = 0.15;
+    let spawnProb = 0.50; // Fijo al 50%
     let obsEnabled = true;
-    let powerW = 50;
-    let observerW = 50;
+    let powerW = 0;
+    let observerW = 100;
     let correctToDefeat = 2;
     let wrongToWin = 3;
-
-    if (typeof configOrProbability === 'number') {
-      spawnProb = configOrProbability;
-      obsEnabled = false;
-      powerW = 100;
-      observerW = 0;
-    } else if (configOrProbability && typeof configOrProbability === 'object') {
-      spawnProb = configOrProbability.spawnProbability ?? 0.15;
-      obsEnabled = configOrProbability.observerModeEnabled ?? true;
-      powerW = configOrProbability.powerModeWeight ?? 50;
-      observerW = configOrProbability.observerModeWeight ?? 50;
-      correctToDefeat = configOrProbability.correctAnswersToDefeat ?? 2;
-      wrongToWin = configOrProbability.wrongAnswersToWin ?? 3;
-    } else {
-      const local = typeof window !== 'undefined' ? localStorage.getItem('devil_settings') : null;
-      const settings = local ? JSON.parse(local) : null;
-      spawnProb = settings?.appearanceChance ?? 0.15;
-      obsEnabled = settings?.observerModeEnabled ?? true;
-      powerW = settings?.powerModeWeight ?? 50;
-      observerW = settings?.observerModeWeight ?? 50;
-      correctToDefeat = settings?.correctAnswersToDefeat ?? 2;
-      wrongToWin = settings?.wrongAnswersToWin ?? 3;
-    }
 
     setCorrectAnswersToDefeat(correctToDefeat);
     setWrongAnswersToWin(wrongToWin);
 
-    // 1. Determinar / fijar el modo exclusivo de la partida si no está definido
-    let currentMatchMode = devilModeForMatch;
-    if (!currentMatchMode) {
-      const activeObsW = obsEnabled ? observerW : 0;
-      const totalW = powerW + activeObsW;
-      if (totalW > 0) {
-        const rand = Math.random() * totalW;
-        currentMatchMode = rand < powerW ? 'POWER_MODE' : 'OBSERVER_MODE';
-      } else {
-        currentMatchMode = 'POWER_MODE';
-      }
-      setDevilModeForMatch(currentMatchMode);
-    }
+    // 1. Determinar / fijar el modo exclusivo de la partida (Forzado a OBSERVER_MODE para eliminar el poder de bloquear)
+    const currentMatchMode = 'OBSERVER_MODE' as const;
+    setDevilModeForMatch('OBSERVER_MODE');
 
     // 2. Decidir si el diablo irrumpe en la pregunta actual
     // Si el diablo ya apareció en esta partida en cualquier modo y sigue activo, se mantiene en pantalla de forma fija
@@ -107,7 +81,7 @@ export function useDevilTrap() {
         // En modo observador, solo realiza la animación de aparición y se queda observando de fondo en idle
         if (devilState === 'hidden' || devilState === 'defeat' || devilState === 'celebrate') {
           setDevilState('appear');
-          scheduleState('idle', 1200);
+          scheduleState('idle', 10000);
         } else {
           setDevilState('idle');
         }
@@ -158,33 +132,17 @@ export function useDevilTrap() {
     setMatchCorrectStreak(newCorrectStreak);
     setMatchWrongStreak(0);
 
-    // Regla del usuario: 3 aciertos -> devil_sorprendido, 4 aciertos -> devil_enojo
-    if (newCorrectStreak === 3) {
-      setDevilEvent('user_answer_correct'); // devil_sorprendido
-    } else if (newCorrectStreak === 4) {
-      setDevilEvent('user_correct_streak'); // devil_enojo
-    } else {
-      setDevilEvent(null);
-    }
-
-    if (devilMode === 'OBSERVER_MODE') {
+    if (newCorrectStreak >= 2) {
+      setDevilEvent('devil_exit_screen');
       setDevilState('defeat');
-      // En modo observador el diablo no se retira, vuelve a idle tras 2 segundos
-      scheduleState('idle', 2000);
+      scheduleState('hidden', 10000);
+      setTimeout(() => {
+        setIsDevilActive(false);
+        setDevilMode(null);
+      }, 10000);
     } else {
-      // En POWER_MODE el diablo se oculta en humo y se desactiva SI se alcanza correctAnswersToDefeat
-      if (newCorrectStreak >= correctAnswersToDefeat) {
-        setDevilState('defeat');
-        scheduleState('hidden', 1800);
-        setTimeout(() => {
-          setIsDevilActive(false);
-          setDevilMode(null);
-        }, 1800);
-      } else {
-        // Si no se alcanza, permanece y vuelve a caminar para seguir bloqueando
-        setDevilState('defeat');
-        scheduleState('walk', 2000);
-      }
+      setDevilEvent('user_answer_correct');
+      setDevilState('defeat');
     }
   }, [devilMode, matchCorrectStreak, correctAnswersToDefeat]);
 
@@ -205,7 +163,6 @@ export function useDevilTrap() {
 
     if (devilMode === 'OBSERVER_MODE') {
       setDevilState('celebrate');
-      scheduleState('idle', 2000);
     } else {
       // En POWER_MODE se retira en humo si se alcanza wrongAnswersToWin (diablo gana)
       if (newWrongStreak >= wrongAnswersToWin) {
@@ -216,8 +173,8 @@ export function useDevilTrap() {
           setDevilMode(null);
         }, 2000);
       } else {
+        // Permanece celebrando en pose de celebrate
         setDevilState('celebrate');
-        scheduleState('walk', 2000);
       }
     }
   }, [devilMode, matchWrongStreak, wrongAnswersToWin]);

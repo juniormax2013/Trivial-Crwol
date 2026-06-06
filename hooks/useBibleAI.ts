@@ -127,12 +127,13 @@ export function useBibleAI(): UseBibleAIReturn {
       setMessages([
         {
           ...defaultWelcome,
-          content: config?.aiWelcomeMessage || defaultWelcome.content,
+          content: defaultWelcome.content,
           createdAt: new Date().toISOString(),
         },
       ]);
     }
-  }, [selectedLanguage, config?.aiWelcomeMessage]);
+  }, [selectedLanguage]);
+
 
   // ── Send message ─────────────────────────────────────────────
 
@@ -471,12 +472,13 @@ export function useBibleAI(): UseBibleAIReturn {
     setMessages([
       {
         ...defaultWelcome,
-        content: config?.aiWelcomeMessage || defaultWelcome.content,
+        content: defaultWelcome.content,
         createdAt: new Date().toISOString(),
       },
     ]);
     setConversationId(null);
-  }, [config?.aiWelcomeMessage, selectedLanguage]);
+  }, [selectedLanguage]);
+
 
   return {
     messages,

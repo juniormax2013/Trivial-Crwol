@@ -119,11 +119,31 @@ export default function HomeDashboard() {
   const [activeSummaryTab, setActiveSummaryTab] = useState<'me' | 'friends'>('me');
   const isDarkMode = false;
   const [aiBibleEnabled, setAiBibleEnabled] = useState(true);
+  const [showAiTooltip, setShowAiTooltip] = useState(false);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
     document.documentElement.classList.remove('dark');
   }, []);
+
+  // Control visible timer for AI assistant tooltip FAB
+  useEffect(() => {
+    if (!aiBibleEnabled) return;
+    
+    const showTimer = setTimeout(() => {
+      setShowAiTooltip(true);
+    }, 1500);
+
+    const hideTimer = setTimeout(() => {
+      setShowAiTooltip(false);
+    }, 8500);
+
+    return () => {
+      clearTimeout(showTimer);
+      clearTimeout(hideTimer);
+    };
+  }, [aiBibleEnabled]);
+
 
 
   // Daily Verse calculation
@@ -268,7 +288,54 @@ export default function HomeDashboard() {
     month: 'long' 
   });
 
+  const handleShare = async () => {
+    const textToShare = `"${currentVerse.text}" — ${currentVerse.reference}`;
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          text: textToShare,
+        });
+        toast.success(t.dashboard.verseShared);
+      } catch (err) {
+        console.warn('Share cancelled or failed:', err);
+      }
+    } else {
+      const encodedText = encodeURIComponent(textToShare);
+      window.open(`https://api.whatsapp.com/send?text=${encodedText}`, '_blank');
+      toast.success(t.dashboard.verseShared);
+    }
+  };
+
+  const handleSave = () => {
+
+    try {
+      const saved = localStorage.getItem('saved_verses');
+      const list = saved ? JSON.parse(saved) : [];
+      
+      const exists = list.some((item: any) => item.text === currentVerse.text && item.reference === currentVerse.reference);
+      if (exists) {
+        toast.info(language === 'es' ? 'Este versículo ya está guardado.' : language === 'fr' ? 'Ce verset est déjà enregistré.' : 'Vèsè sa a deja sove.');
+        return;
+      }
+      
+      list.push({
+        text: currentVerse.text,
+        reference: currentVerse.reference,
+        explanation: currentVerse.explanation,
+        savedAt: new Date().toISOString(),
+      });
+      
+      localStorage.setItem('saved_verses', JSON.stringify(list));
+      toast.success(t.dashboard.verseSaved);
+    } catch (err) {
+      console.error('Failed to save verse:', err);
+      toast.error('Error al guardar el versículo');
+    }
+  };
+
   return (
+
+
     <div className="bg-[radial-gradient(circle_at_top_left,_rgba(203,167,47,0.12),_transparent_24%),radial-gradient(circle_at_bottom_right,_rgba(49,0,101,0.12),_transparent_28%),var(--background)] text-[var(--foreground)] min-h-screen pb-8 font-sans selection:bg-[#eddcff] overflow-x-hidden">
       
       {/* TOP NAVIGATION BAR - Premium iOS Style */}
@@ -457,19 +524,18 @@ export default function HomeDashboard() {
               </div>
 
               <motion.button 
-                whileHover={{ scale: 1.02 }}
+                whileHover={{ scale: 1.02, y: -1 }}
                 whileTap={{ scale: 0.98 }}
                 onClick={(e) => {
                   e.stopPropagation();
                   setShowExplanation(true);
                 }}
-                className="mt-6 sm:mt-10 w-full py-4 sm:py-5 px-6 sm:px-8 bg-gradient-to-r from-[#310065] to-[#4a148c] text-white rounded-[2rem] sm:rounded-[2.5rem] flex items-center justify-center gap-3 font-black text-[12px] uppercase tracking-widest shadow-lg shadow-[#310065]/20 group/btn"
+                className="mt-6 py-2.5 px-5 bg-gradient-to-r from-[#310065] to-[#4a148c] text-white rounded-full flex items-center justify-center gap-2 font-bold text-[13px] shadow-[0_4px_12px_rgba(49,0,101,0.2)] hover:opacity-95 transition-all self-center sm:self-start w-fit group"
               >
-                <div className="w-8 h-8 rounded-xl bg-white/10 flex items-center justify-center group-hover/btn:rotate-12 transition-transform duration-300">
-                  <Info size={18} strokeWidth={2.5} />
-                </div>
+                <Info size={16} strokeWidth={2.5} className="group-hover:rotate-12 transition-transform duration-300" />
                 <span>{t.dashboard.understandWord}</span>
               </motion.button>
+
             </div>
           </motion.div>
         </section>
@@ -682,32 +748,50 @@ export default function HomeDashboard() {
           initial={{ opacity: 0, scale: 0.8, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ delay: 0.5, type: 'spring', stiffness: 300, damping: 20 }}
-          className="fixed bottom-6 right-4 z-[55]"
+          className="fixed bottom-6 right-4 z-[55] flex items-center gap-3"
         >
+          {/* Tooltip con el mensaje personalizado */}
+          <AnimatePresence>
+            {showAiTooltip && (
+              <motion.div
+                initial={{ opacity: 0, x: 15, scale: 0.9 }}
+                animate={{ opacity: 1, x: 0, scale: 1 }}
+                exit={{ opacity: 0, x: 15, scale: 0.9 }}
+                transition={{ type: 'spring', damping: 25, stiffness: 300 }}
+                className="relative bg-white text-[#0f172a] text-[11px] font-bold px-4 py-2.5 rounded-2xl
+                           shadow-[0_8px_30px_rgba(0,0,0,0.12)] border border-[#1b1b1e]/5 max-w-[210px] leading-snug"
+              >
+                {t.dashboard.assistantTooltip}
+                {/* Pico del tooltip apuntando al FAB */}
+                <div className="absolute right-[-6px] top-1/2 -translate-y-1/2 w-3 h-3 bg-white border-r border-t border-[#1b1b1e]/5 rotate-45" />
+              </motion.div>
+            )}
+          </AnimatePresence>
+
+
           <Link href="/bible-ai">
             <motion.button
               whileHover={{ scale: 1.08, y: -2 }}
               whileTap={{ scale: 0.93 }}
-              className="relative flex items-center gap-2 pl-3 pr-4 py-3 bg-gradient-to-br from-[#cba72f] to-[#e9c349] rounded-2xl shadow-[0_8px_24px_rgba(203,167,47,0.4)] text-[#310065]"
+              className="relative w-12 h-12 rounded-full bg-gradient-to-br from-[#cba72f] to-[#e9c349] 
+                         shadow-[0_8px_24px_rgba(203,167,47,0.4)] text-[#310065] flex items-center justify-center shrink-0"
+              aria-label="Asistente Bíblico"
             >
               {/* Pulse ring */}
               <motion.div
-                className="absolute inset-0 rounded-2xl bg-[#e9c349]/40"
-                animate={{ scale: [1, 1.15, 1], opacity: [0.6, 0, 0.6] }}
+                className="absolute inset-0 rounded-full bg-[#e9c349]/40"
+                animate={{ scale: [1, 1.25, 1], opacity: [0.6, 0, 0.6] }}
                 transition={{ duration: 2.5, repeat: Infinity, ease: 'easeInOut' }}
               />
-              <div className="relative w-7 h-7 bg-[#310065]/10 rounded-xl flex items-center justify-center">
-                <BookOpen size={16} strokeWidth={2.5} className="text-[#310065]" />
-              </div>
-              <span className="relative text-[12px] font-black tracking-tight whitespace-nowrap">
-                Asistente Bíblico
-              </span>
+              <Brain size={20} strokeWidth={2.5} className="relative z-10 text-[#310065]" />
             </motion.button>
           </Link>
         </motion.div>
       )}
 
-      <BottomNav activeTab="home" showTriggerButton={false} />
+
+      <BottomNav activeTab="home" showTriggerButton={true} isAssistantTooltipVisible={showAiTooltip} />
+
 
 
       {/* VERSE EXPLANATION MODAL */}
@@ -773,20 +857,22 @@ export default function HomeDashboard() {
 
                 <div className="flex gap-4 pt-4">
                   <button 
-                    onClick={() => toast.success(t.dashboard.verseSaved)}
+                    onClick={handleSave}
                     className="flex-1 py-5 px-6 bg-[#f2f2f7] text-[#310065] rounded-3xl flex items-center justify-center gap-3 font-black text-xs uppercase tracking-widest active:scale-95 transition-all"
                   >
                     <Bookmark size={18} strokeWidth={2.5} />
                     {t.dashboard.save}
                   </button>
 
-                  <button 
-                    onClick={() => toast.success(t.dashboard.verseShared)}
+
+                   <button 
+                    onClick={handleShare}
                     className="flex-1 py-5 px-6 bg-[#310065] text-white rounded-3xl flex items-center justify-center gap-3 font-black text-xs uppercase tracking-widest shadow-xl shadow-[#310065]/20 active:scale-95 transition-all"
                   >
                     <Share2 size={18} strokeWidth={2.5} />
                     {t.dashboard.share}
                   </button>
+
                 </div>
               </div>
             </motion.div>

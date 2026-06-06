@@ -69,7 +69,9 @@ export const ht: Translations = {
     profile: 'Pwofil',
     social: 'Sosyal',
     aliados: 'Alyé yo',
+    savedVerses: 'Vèsè M yo',
   },
+
 
   dashboard: {
     welcomeBack: 'Byenveni ankò',
@@ -136,7 +138,14 @@ export const ht: Translations = {
     understandWord: 'Konprann Pawòl la',
     me: 'Mwen',
     friendsTab: 'Zanmi',
+    assistantTooltip: 'Si w gen nenpòt keksyon, mwen la pou nou pale',
+    noSavedVerses: 'Pa gen vèsè sove',
+    savedVersesDesc: 'Vèsè Labib ou sove yo ap parèt isit la.',
+    savedAtLabel: 'Sove nan dat',
+    deleteText: 'Efase',
   },
+
+
 
   home: {
     greeting: 'Sak ou',
@@ -353,7 +362,29 @@ export const ht: Translations = {
     timeUntilDaysPlural: '{n}j ki rete',
     timeUntilHourMin: '{h}h {m}m ki rete',
     timeUntilMin: '{m} min ki rete',
+    duelVs: 'Diyèl kont',
+    tiebreakerDesc: '1 keksyon · Premye moun ki reponn kòrèk la genyen !',
+    questionsAndSeconds: '{count} keksyon · {seconds}s pa keksyon',
+    receivedTab: 'Resevwa',
+    sentTab: 'Voye',
+    activeTabLabel: 'Aktif',
+    historyTab: 'Istorik',
+    newBtn: 'Nouvo',
+    noReceivedDuels: 'Pa gen defi resevwa',
+    noReceivedDuelsDesc: 'Lè yon moun envite w nan yon diyèl, l ap parèt la.',
+    noSentDuels: 'Pa gen defi voye',
+    noSentDuelsDesc: 'Voye yon defi bay yon zanmi epi l ap parèt la.',
+    noActiveDuels: 'Pa gen diyèl aktif',
+    noActiveDuelsDesc: 'Aksepte yon defi oswa kreye yon nouvo pou w kòmanse.',
+    noHistoryDuels: 'Pa gen istorik',
+    noHistoryDuelsDesc: 'Diyèl ki fini, ki ekspire oswa ki refize yo ap parèt la.',
+    createDuelBtn: 'Kreye yon diyèl',
+    noOpponentsAvailable: 'Pa gen lòt jwè ki disponib kounye a.',
+    levelLabel: 'Nivo',
   },
+
+
+
 
   ranking: {
     title: 'Klasman',
