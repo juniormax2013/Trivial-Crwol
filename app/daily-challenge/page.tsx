@@ -51,7 +51,7 @@ export default function DailyChallengeIntroPage() {
     ]);
     setChallenge(ch);
     setUserData(ud);
-    setStatus(getChallengeAvailabilityStatus(ch, ud, user.uid));
+    setStatus(getChallengeAvailabilityStatus(ch, ud, user.uid, user.email));
   };
 
   useEffect(() => {

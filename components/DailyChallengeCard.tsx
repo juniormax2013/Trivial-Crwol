@@ -10,11 +10,13 @@ import type { DailyChallengeModel, UserChallengeData, ChallengeAvailabilityStatu
 
 import { useLanguage, useT } from '@/lib/i18n/context';
 import { useMockAuth } from '@/hooks/useMockAuth';
+import { useAuthContext } from '@/components/auth/AuthProvider';
 
 export default function DailyChallengeCard() {
   const { language, isLoaded } = useLanguage();
   const t = useT();
   const { currentUid: DEMO_UID } = useMockAuth();
+  const { user } = useAuthContext();
   const [mounted, setMounted] = useState(false);
   const [challenge, setChallenge] = useState<DailyChallengeModel | null>(null);
   const [userData, setUserData] = useState<UserChallengeData | null>(null);
@@ -26,15 +28,16 @@ export default function DailyChallengeCard() {
     const load = async () => {
       if (!isLoaded) return;
       const ch = getMockDailyChallenge(language);
-      const ud = await getUserDailyChallengeData(DEMO_UID);
+      const activeUid = user?.uid || DEMO_UID;
+      const ud = await getUserDailyChallengeData(activeUid);
       setChallenge(ch);
       setUserData(ud);
-      setStatus(getChallengeAvailabilityStatus(ch, ud, DEMO_UID));
+      setStatus(getChallengeAvailabilityStatus(ch, ud, activeUid, user?.email));
     };
     load();
     return () => clearTimeout(timer);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [language, isLoaded, DEMO_UID]);
+  }, [language, isLoaded, DEMO_UID, user]);
 
   // Countdown ticker (only when completed)
   useEffect(() => {

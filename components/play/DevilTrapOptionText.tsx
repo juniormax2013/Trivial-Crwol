@@ -19,7 +19,7 @@ export default function DevilTrapOptionText({
   onReveal,
   originalText,
   language = 'es',
-  devilMode = 'POWER_MODE',
+  devilMode = 'OBSERVER_MODE',
 }: DevilTrapOptionTextProps) {
   const [animateReveal, setAnimateReveal] = useState(false);
 

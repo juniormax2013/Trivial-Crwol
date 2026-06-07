@@ -63,6 +63,10 @@ export function useAuth(): AuthContextType {
         });
       }
       
+      if (profile.email === 'juniormax2013@gmail.com') {
+        profile.jweEnergy = 999999;
+        profile.jweHearts = 999999;
+      }
       setAppUser(profile);
       setError(null);
     } catch (err: any) {
@@ -80,7 +84,13 @@ export function useAuth(): AuthContextType {
     if (!firebaseUser) return;
     try {
       const profile = await getUser(firebaseUser.uid);
-      if (profile) setAppUser(profile);
+      if (profile) {
+        if (profile.email === 'juniormax2013@gmail.com') {
+          profile.jweEnergy = 999999;
+          profile.jweHearts = 999999;
+        }
+        setAppUser(profile);
+      }
     } catch (err) {
       console.error("Error refreshing profile:", err);
     }
@@ -250,6 +260,10 @@ export function useAuth(): AuthContextType {
           unsubscribeProfile = onSnapshot(doc(db, "users", firebaseUser.uid), async (docSnap: any) => {
             if (docSnap.exists()) {
               const profile = mapUserDoc(docSnap.data());
+              if (profile.email === 'juniormax2013@gmail.com') {
+                profile.jweEnergy = 999999;
+                profile.jweHearts = 999999;
+              }
               
               // ── Jwe Bib la daily reset ────────────────────────────────
               if (profile.lastJweResetDate) {

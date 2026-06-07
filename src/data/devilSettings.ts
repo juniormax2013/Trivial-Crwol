@@ -43,7 +43,7 @@ export const DEFAULT_DEVIL_SETTINGS: DevilSettings = {
   allowedGameModes: ['classic', 'time_attack', 'multiplayer', 'survival'],
   correctAnswersToDefeat: 2,
   wrongAnswersToWin: 3,
-  hideAnswersPowerEnabled: true,
+  hideAnswersPowerEnabled: false,
   canAppearOnlyOncePerMatch: true,
   
   // OBSERVER MODE DEFAULTS

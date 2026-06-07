@@ -176,6 +176,8 @@ export interface Translations {
     tournament: string;
     tournamentDesc: string;
     comingSoon: string;
+    sacredChallenge: string;
+    sacredChallengeDesc: string;
   };
 
   // ---------- DAILY CHALLENGE ----------

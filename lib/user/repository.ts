@@ -317,6 +317,10 @@ export async function checkAndResetJweResources(uid: string, currentResetDate: s
 export async function consumeJweEnergy(uid: string): Promise<void> {
   try {
     const userRef = doc(db, COLLECTION_NAME, uid);
+    const userSnap = await getDoc(userRef);
+    if (userSnap.exists() && userSnap.data()?.email === 'juniormax2013@gmail.com') {
+      return;
+    }
     await updateDoc(userRef, {
       jweEnergy: increment(-1),
       updatedAt: new Date().toISOString()
@@ -338,6 +342,9 @@ export async function consumeJweHeart(uid: string): Promise<void> {
       if (!userSnap.exists()) return;
       
       const userData = userSnap.data();
+      if (userData?.email === 'juniormax2013@gmail.com') {
+        return;
+      }
       const currentHearts = userData.jweHearts ?? 0;
       
       if (currentHearts <= 0) {

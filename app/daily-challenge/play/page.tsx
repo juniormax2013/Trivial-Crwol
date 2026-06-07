@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
-import { BookOpen, X, CheckCircle2, XCircle, Loader2, Shield, Sparkles } from 'lucide-react';
+import { BookOpen, X, CheckCircle2, XCircle, Loader2, Shield, Sparkles, AlertTriangle } from 'lucide-react';
 import { getTodayChallenge, getChallengeQuestions, getUserDailyChallengeData, DEMO_USER_UID } from '@/lib/daily-challenge/repository';
 import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
 import { calculateAnswerPoints, completeDailyChallenge } from '@/lib/daily-challenge/service';
@@ -27,6 +27,7 @@ import { canUseFramePower } from '@/lib/game/frame-powers';
 import { useJesusTrap } from '@/hooks/useJesusTrap';
 import JesusTrapOverlay from '@/components/play/JesusTrapOverlay';
 import { getJesusSettings } from '@/src/data/jesusSettings';
+import { playCorrectSound, playWrongSound } from '@/lib/game/audio';
 
 
 const QUESTION_TIME_LIMIT = 20; // seconds per question
@@ -73,6 +74,7 @@ export default function DailyChallengePlayPage() {
   const [showHint, setShowHint] = useState(false);
   const [hasSecondChance, setHasSecondChance] = useState(false);
   const [isProcessingPower, setIsProcessingPower] = useState(false);
+  const [showExitConfirm, setShowExitConfirm] = useState(false);
 
   // Random Challenge State
   const [rcConfig, setRcConfig] = useState<{
@@ -262,7 +264,7 @@ export default function DailyChallengePlayPage() {
 
   // ── Timer (only runs during 'answering' phase) ─────────────
   useEffect(() => {
-    if (phase !== 'answering' || rcConfig?.showModal || showChallengePlay) {
+    if (phase !== 'answering' || rcConfig?.showModal || showChallengePlay || showExitConfirm) {
       if (timerRef.current) clearInterval(timerRef.current);
       return;
     }
@@ -291,7 +293,7 @@ export default function DailyChallengePlayPage() {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [phase, qIndex, activePowerUps, rcConfig?.showModal, showChallengePlay, devilSpawnedCount, devilDefeatedCount, triggerDevilTrap, engineConfig]);
+  }, [phase, qIndex, activePowerUps, rcConfig?.showModal, showChallengePlay, showExitConfirm, devilSpawnedCount, devilDefeatedCount, triggerDevilTrap, engineConfig]);
 
   // ── AUTOMATIC HELP FROM JESUS ──
   useEffect(() => {
@@ -376,6 +378,13 @@ export default function DailyChallengePlayPage() {
       const isGoldOrCrown = canUseFramePower(user?.activeFrame, user?.level ?? 1) && (user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame');
       if (isGoldOrCrown) {
          pointsEarned *= 2;
+      }
+
+      // Audio feedback
+      if (isCorrect) {
+        playCorrectSound();
+      } else {
+        playWrongSound();
       }
 
       const answer: SessionAnswer = {
@@ -613,7 +622,7 @@ export default function DailyChallengePlayPage() {
       <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/80 backdrop-blur-2xl border-b border-[#310065]/5">
         <div className="flex items-center px-6 h-16 max-w-screen-sm mx-auto w-full gap-4">
           <button
-            onClick={() => router.push('/arena')}
+            onClick={() => setShowExitConfirm(true)}
             className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/60 transition-colors active:scale-95 shrink-0"
           >
             <X className="w-5 h-5 text-[#310065]" strokeWidth={2.5} />
@@ -792,6 +801,45 @@ export default function DailyChallengePlayPage() {
       </main>
       <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} devilMode={devilMode ?? undefined} devilEvent={devilEvent ?? undefined} />
       <JesusTrapOverlay isActive={isJesusActive} jesusState={jesusState} jesusEvent={jesusEvent} />
+      
+      {showExitConfirm && (
+        <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4 backdrop-blur-sm">
+          <div className="bg-white w-full max-w-md rounded-[2.5rem] p-8 text-center border border-white/20 shadow-2xl relative flex flex-col items-center gap-6 animate-scale-in">
+            <div className="w-16 h-16 bg-red-100 text-red-600 rounded-3xl flex items-center justify-center shadow-inner">
+              <AlertTriangle size={32} />
+            </div>
+            
+            <div className="space-y-2">
+              <h3 className="text-xl font-serif font-black text-[#310065] italic">
+                {language === 'ht' ? 'Èske ou vle kite jwèt la?' : '¿De verdad quieres salir?'}
+              </h3>
+              <p className="text-[12px] font-semibold text-[#1b1b1e]/60 leading-relaxed max-w-[90%] mx-auto">
+                {language === 'ht' 
+                  ? 'Si ou pati kounye a, ou pral pèdi pwogrè pou defi jounen an. Pa abandone!'
+                  : 'Si te retiras ahora, perderás el progreso del desafío de hoy. ¡No te rindas!'}
+              </p>
+            </div>
+
+            <div className="flex gap-4 w-full pt-2">
+              <button
+                onClick={() => setShowExitConfirm(false)}
+                className="flex-1 py-4 bg-gradient-to-r from-amber-400 to-[#e9c349] text-[#310065] rounded-2xl font-black text-xs uppercase tracking-widest shadow-md hover:scale-105 active:scale-95 transition-transform"
+              >
+                {language === 'ht' ? 'KONTINYE JWE' : 'SEGUIR JUGANDO'}
+              </button>
+              <button
+                onClick={() => {
+                  setShowExitConfirm(false);
+                  router.push('/daily-challenge');
+                }}
+                className="flex-1 py-4 bg-[#f5f3f7] hover:bg-red-50 text-red-600 rounded-2xl font-black text-xs uppercase tracking-widest border border-transparent shadow-sm hover:scale-105 active:scale-95 transition-transform"
+              >
+                {language === 'ht' ? 'KITE JWÈT LA' : 'SALIR'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

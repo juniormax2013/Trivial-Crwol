@@ -171,6 +171,8 @@ export const ht: Translations = {
     tournament: 'Tounwa',
     tournamentDesc: 'Konpete nan arèn nan',
     comingSoon: 'Byento disponib',
+    sacredChallenge: 'Defi Sakre',
+    sacredChallengeDesc: 'Defye lafwa w poukont ou oswa ak yon zanmi an tan reyèl',
   },
 
   daily: {

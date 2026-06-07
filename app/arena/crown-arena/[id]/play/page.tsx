@@ -35,6 +35,7 @@ import { useDevilTrap } from '@/hooks/useDevilTrap';
 import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
 import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
 import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
+import { playCorrectSound, playWrongSound } from '@/lib/game/audio';
 
 type GamePhase = 'loading' | 'preparing' | 'playing' | 'syncing' | 'finished';
 
@@ -226,6 +227,13 @@ export default function CrownArenaPlayPage() {
     setSelectedOption(optionId || 'TIMEOUT');
     setIsCorrect(isRight);
     setLastPoints(points);
+
+    // Audio feedback
+    if (isRight) {
+      playCorrectSound();
+    } else {
+      playWrongSound();
+    }
 
     // Update progress in Firestore
     const newScore = score + points;

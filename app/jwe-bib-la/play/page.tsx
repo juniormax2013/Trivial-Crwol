@@ -13,6 +13,7 @@ import {
   Crown as CrownIcon,
   ChevronRight,
   AlertCircle,
+  AlertTriangle,
   Flame,
   Clock
 } from 'lucide-react';
@@ -70,6 +71,7 @@ export default function JweBibLaPlay() {
   const [isWin, setIsWin] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [isProcessingPower, setIsProcessingPower] = useState(false);
+  const [showExitConfirm, setShowExitConfirm] = useState(false);
   
   // Power-ups state
   const [activePowerUps, setActivePowerUps] = useState<string[]>([]);
@@ -91,6 +93,7 @@ export default function JweBibLaPlay() {
   const [timeLeft, setTimeLeft] = useState(20);
   const isInitializing = useRef(false);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const lastInitializedIndexRef = useRef<number>(-1);
   
   const [randomVerse, setRandomVerse] = useState(PERSEVERANCE_VERSES[0]);
   const [embers, setEmbers] = useState<{ left: string; size: string; opacity: number; duration: string; delay: string }[]>([]);
@@ -208,6 +211,11 @@ export default function JweBibLaPlay() {
   // ── Reset timer on new question ───────────────────────────
   useEffect(() => {
     if (!isLoading && !isGameOver && questions.length > 0) {
+      if (lastInitializedIndexRef.current === currentIndex) {
+        return;
+      }
+      lastInitializedIndexRef.current = currentIndex;
+
       setTimeLeft(20);
       setSelectedOption(null);
       setIsAnswered(false);
@@ -369,6 +377,9 @@ export default function JweBibLaPlay() {
             if (!userSnap.exists()) return;
             
             const userData = userSnap.data();
+            if (userData?.email === 'juniormax2013@gmail.com') {
+              return;
+            }
             const currentBalance = userData.jweEnergy ?? 0;
             
             if (currentBalance < 7) {
@@ -382,8 +393,13 @@ export default function JweBibLaPlay() {
             });
           });
           
-          setEnergy(prev => prev - 7);
-          setHearts(5);
+          if (user.email === 'juniormax2013@gmail.com') {
+            setEnergy(999999);
+            setHearts(999999);
+          } else {
+            setEnergy(prev => prev - 7);
+            setHearts(5);
+          }
         } catch (error) {
           console.error('Deduction failed:', error);
           setIsGameOver(true);
@@ -416,7 +432,8 @@ export default function JweBibLaPlay() {
       questions.length === 0 || 
       activePowerUps.includes('freezeTime') ||
       rcConfig?.showModal ||
-      showChallengePlay;
+      showChallengePlay ||
+      showExitConfirm;
 
     if (shouldStopTimer) {
       return;
@@ -435,7 +452,7 @@ export default function JweBibLaPlay() {
 
     // Cleanup on unmount or dependency change
     return clearCurrentTimer;
-  }, [isLoading, isGameOver, isAnswered, currentIndex, questions.length, activePowerUps, rcConfig?.showModal, showChallengePlay]);
+  }, [isLoading, isGameOver, isAnswered, currentIndex, questions.length, activePowerUps, rcConfig?.showModal, showChallengePlay, showExitConfirm]);
 
   // Handle timeout
   useEffect(() => {
@@ -800,9 +817,12 @@ export default function JweBibLaPlay() {
 
       <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/80 backdrop-blur-xl">
         <div className="flex justify-between items-center px-6 py-4 max-w-screen-xl mx-auto">
-          <Link href="/play" className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors">
+          <button 
+            onClick={() => setShowExitConfirm(true)} 
+            className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors"
+          >
             <X className="w-6 h-6 text-[#310065]" />
-          </Link>
+          </button>
           <div className="flex items-center gap-4">
             <div className="flex items-center bg-red-50 px-3 py-1.5 rounded-full border border-red-100">
               <Heart className="w-4 h-4 text-red-500 fill-red-500 mr-1.5" />
@@ -897,6 +917,7 @@ export default function JweBibLaPlay() {
                     onReveal={() => revealOption(option.id)}
                     originalText={option.text}
                     language="ht"
+                    devilMode={devilMode ?? undefined}
                   />
                 </span>
                 {isAnswered && isCorrectOption && <CheckCircle2 className="w-6 h-6" />}
@@ -946,6 +967,45 @@ export default function JweBibLaPlay() {
         </div>
       </main>
       <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} devilMode={devilMode ?? undefined} devilEvent={devilEvent ?? undefined} />
+      
+      {showExitConfirm && (
+        <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4 backdrop-blur-sm">
+          <div className="bg-white w-full max-w-md rounded-[2.5rem] p-8 text-center border border-white/20 shadow-2xl relative flex flex-col items-center gap-6 animate-scale-in">
+            <div className="w-16 h-16 bg-red-100 text-red-600 rounded-3xl flex items-center justify-center shadow-inner">
+              <AlertTriangle size={32} />
+            </div>
+            
+            <div className="space-y-2">
+              <h3 className="text-xl font-serif font-black text-[#310065] italic">
+                {userLanguage === 'ht' ? 'Èske ou vle kite jwèt la?' : '¿De verdad quieres salir?'}
+              </h3>
+              <p className="text-[12px] font-semibold text-[#1b1b1e]/60 leading-relaxed max-w-[90%] mx-auto">
+                {userLanguage === 'ht' 
+                  ? 'Si ou pati kounye a, ou pral pèdi tout pwogrè ak enèji ou te envesti nan pati sa a. Pa abandone!'
+                  : 'Si te retiras a mitad de camino, perderás todo el progreso y la energía invertidos en esta partida. ¡No te rindas!'}
+              </p>
+            </div>
+
+            <div className="flex gap-4 w-full pt-2">
+              <button
+                onClick={() => setShowExitConfirm(false)}
+                className="flex-1 py-4 bg-gradient-to-r from-amber-400 to-[#e9c349] text-[#310065] rounded-2xl font-black text-xs uppercase tracking-widest shadow-md hover:scale-105 active:scale-95 transition-transform"
+              >
+                {userLanguage === 'ht' ? 'KONTINYE JWE' : 'SEGUIR JUGANDO'}
+              </button>
+              <button
+                onClick={() => {
+                  setShowExitConfirm(false);
+                  router.push('/arena');
+                }}
+                className="flex-1 py-4 bg-[#f5f3f7] hover:bg-red-50 text-red-600 rounded-2xl font-black text-xs uppercase tracking-widest border border-transparent shadow-sm hover:scale-105 active:scale-95 transition-transform"
+              >
+                {userLanguage === 'ht' ? 'KITE JWÈT LA' : 'SALIR'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

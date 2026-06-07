@@ -28,6 +28,7 @@ import { useDevilTrap } from '@/hooks/useDevilTrap';
 import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
 import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
 import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
+import { playCorrectSound, playWrongSound } from '@/lib/game/audio';
 
 export default function BibleLessonPlay() {
   const params = useParams();
@@ -253,6 +254,7 @@ export default function BibleLessonPlay() {
     setIsChecked(true);
 
     if (isAnswerCorrect) {
+      playCorrectSound();
       setCorrectCount(prev => prev + 1);
       if (currentQuestion.question_type === 'multiple_choice' && isDevilActive) {
         setDevilDefeatedCount(prev => prev + 1);
@@ -260,6 +262,7 @@ export default function BibleLessonPlay() {
       }
       // Soft audio or haptic success indicator can trigger here
     } else {
+      playWrongSound();
       // Answer Incorrect: consume a heart and add question to spaced repetition database
       if (isDevilActive) devilCelebrate();
       try {
@@ -416,6 +419,7 @@ export default function BibleLessonPlay() {
                     onReveal={() => revealOption(opt)}
                     originalText={opt}
                     language="es"
+                    devilMode={devilMode ?? undefined}
                   />
                 </button>
               );
@@ -698,7 +702,7 @@ export default function BibleLessonPlay() {
               <button
                 onClick={() => {
                   setShowExitConfirm(false);
-                  router.push('/play');
+                  router.push('/bible-journey');
                 }}
                 className="flex-1 py-3.5 bg-white hover:bg-red-50 text-red-600 rounded-xl font-black text-xs uppercase tracking-wider border border-purple-100 shadow-sm"
               >
@@ -738,7 +742,7 @@ export default function BibleLessonPlay() {
                 Ir a Repaso Diario (+1 Corazón)
               </button>
               <button
-                onClick={() => router.push('/play')}
+                onClick={() => router.push('/bible-journey')}
                 className="w-full py-4 px-6 bg-white hover:bg-purple-50 text-[#310065] rounded-2xl flex items-center justify-center font-black text-xs uppercase tracking-widest border border-purple-100 shadow-sm"
               >
                 Volver al Panel Principal

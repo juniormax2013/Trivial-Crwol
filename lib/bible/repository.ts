@@ -251,6 +251,19 @@ export async function completeBibleLesson(
  * GET USER BIBLE HEARTS WITH TIME-BASED AUTO REFILLS
  */
 export async function getUserHearts(uid: string): Promise<UserHearts> {
+  try {
+    const userDoc = await getDoc(doc(db, "users", uid));
+    if (userDoc.exists() && userDoc.data()?.email === 'juniormax2013@gmail.com') {
+      return {
+        heartsRemaining: 999999,
+        maxHearts: 999999,
+        lastRefillTime: new Date().toISOString()
+      };
+    }
+  } catch (e) {
+    console.error("Error checking special user email:", e);
+  }
+
   const defaultState: UserHearts = {
     heartsRemaining: 5,
     maxHearts: 5,
@@ -304,6 +317,14 @@ export async function getUserHearts(uid: string): Promise<UserHearts> {
  */
 export async function consumeHeart(uid: string): Promise<UserHearts> {
   try {
+    const userDoc = await getDoc(doc(db, "users", uid));
+    if (userDoc.exists() && userDoc.data()?.email === 'juniormax2013@gmail.com') {
+      return {
+        heartsRemaining: 999999,
+        maxHearts: 999999,
+        lastRefillTime: new Date().toISOString()
+      };
+    }
     const docRef = doc(db, "users", uid, HEARTS_COLLECTION, "state");
     const currentState = await getUserHearts(uid);
 

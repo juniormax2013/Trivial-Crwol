@@ -10,6 +10,8 @@ import { consumePower } from '@/lib/store/repository';
 import PowerUpsBar from '@/components/game/PowerUpsBar';
 import { toast } from 'sonner';
 import { canUseFramePower } from '@/lib/game/frame-powers';
+import { playCorrectSound, playWrongSound } from '@/lib/game/audio';
+
 export default function Play() {
   const { user, loading: authLoading } = useAuthContext();
   const [timeLeft, setTimeLeft] = useState(15);
@@ -54,9 +56,11 @@ export default function Play() {
         toast.error("Movèz repons! Men ou gen Dezyèm Chans. Eseye ankò!");
         setSelectedOption(null); // allow selecting again
       } else {
+        playWrongSound();
         toast.error("Movèz repons!");
       }
     } else {
+      playCorrectSound();
       const isGoldOrCrown = canUseFramePower(user?.activeFrame, user?.level ?? 1) && (user?.activeFrame === 'gold' || user?.activeFrame === 'crown' || user?.activeFrame === 'gold_frame' || user?.activeFrame === 'crow_frame');
       toast.success(isGoldOrCrown ? "Bòn repons! (Rekonpans Doub x2 👑)" : "Bòn repons!");
     }

@@ -18,6 +18,7 @@ import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
 import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
 import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
 import { canUseFramePower } from '@/lib/game/frame-powers';
+import { playCorrectSound, playWrongSound } from '@/lib/game/audio';
 
 type PhaseType = 'loading' | 'ready' | 'question' | 'feedback' | 'round_done' | 'error';
 
@@ -241,6 +242,13 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
 
     setSelectedOption(optionId);
     setIsCorrect(correct);
+
+    // Audio feedback
+    if (correct) {
+      playCorrectSound();
+    } else {
+      playWrongSound();
+    }
     
     if (correct && isGoldOrCrown) {
       toast.success("Rekonpans Doub x2 👑");

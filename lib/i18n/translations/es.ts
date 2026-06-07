@@ -165,6 +165,8 @@ export const es: Translations = {
     tournament: 'Torneo',
     tournamentDesc: 'Compite en la arena',
     comingSoon: 'Próximamente',
+    sacredChallenge: 'Reto Sagrado',
+    sacredChallengeDesc: 'Desafía tu fe solo o con un amigo en tiempo real',
   },
   daily: {
     title: 'Desafío del día',

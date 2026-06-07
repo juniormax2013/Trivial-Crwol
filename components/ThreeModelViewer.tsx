@@ -18,6 +18,7 @@ export default function ThreeModelViewer({ modelPath }: ThreeModelViewerProps) {
     if (!containerRef.current) return;
 
     const container = containerRef.current;
+    container.innerHTML = '';
     const width = container.clientWidth || 500;
     const height = container.clientHeight || 400;
 

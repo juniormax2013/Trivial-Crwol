@@ -30,7 +30,8 @@ import {
   UserCircle,
   Loader2,
   Heart,
-  Calendar
+  Calendar,
+  Globe
 } from 'lucide-react';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useState, useEffect } from 'react';
@@ -38,13 +39,14 @@ import { getDuelsForUser, subscribeToDuelsForUser } from '@/lib/duel/repository'
 import { filterDuelsByTab } from '@/lib/duel/service';
 import { TournamentRepository } from '@/lib/tournament/repository';
 import { Tournament } from '@/lib/tournament/models';
-import { useT } from '@/lib/i18n/context';
+import { useT, useLanguage } from '@/lib/i18n/context';
 import BottomNav from '@/components/BottomNav';
 import BackButton from '@/components/BackButton';
 
 export default function Arena() {
   const { user, loading } = useAuthContext();
   const t = useT();
+  const { language } = useLanguage();
   const [pendingCount, setPendingCount] = useState(0);
   const [activeTournaments, setActiveTournaments] = useState<Tournament[]>([]);
   const [tournamentsLoading, setTournamentsLoading] = useState(true);
@@ -218,9 +220,7 @@ export default function Arena() {
               <h3 className="font-serif text-[26px] font-bold text-[#310065] leading-tight">{t.play.title}</h3>
               <p className="text-[#7c7483] font-medium text-[13px] mt-1">{t.play.subtitle}</p>
             </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          </div>          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             
             {/* Daily Challenge (Defi Jounen an) */}
             <Link
@@ -255,7 +255,7 @@ export default function Arena() {
                 </div>
               </div>
             </Link>
-
+ 
             {/* Jwe Bib la */}
             <Link
               href="/jwe-bib-la/play"
@@ -291,6 +291,40 @@ export default function Arena() {
               </div>
             </Link>
 
+            {/* Reto Sagrado (Sacred Challenge) */}
+            <Link
+              href="/reto-sagrado"
+              className="block relative overflow-hidden rounded-[2rem] bg-white p-6 border border-[#d2e3fc] shadow-[0_8px_32px_rgba(10,132,255,0.05)] group hover:shadow-[0_12px_40px_rgba(10,132,255,0.1)] transition-all active:scale-[0.99] h-full"
+            >
+              <div className="absolute right-0 top-0 w-24 h-24 bg-[#0A84FF]/10 blur-[30px] rounded-full -mr-12 -mt-12 group-hover:bg-[#0A84FF]/20 transition-colors"></div>
+              
+              <div className="relative z-10 flex flex-col h-full">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#0A84FF] to-[#0066cc] flex items-center justify-center shadow-lg shadow-[#0A84FF]/20 -rotate-3 group-hover:rotate-0 transition-transform">
+                    <Shield className="w-7 h-7 text-white" />
+                  </div>
+                  <div>
+                    <h4 className="font-black text-[18px] text-[#0F172A] mb-0.5">{t.play.sacredChallenge}</h4>
+                    <div className="bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-blue-200 inline-block">
+                      {t.arena.available}
+                    </div>
+                  </div>
+                </div>
+                <p className="text-[#64748B] text-[13px] font-medium mb-4 flex-grow">
+                  {t.play.sacredChallengeDesc}
+                </p>
+                <div className="flex items-center justify-between mt-auto">
+                  <div className="flex items-center gap-2">
+                    <Sparkles size={14} className="text-[#0A84FF]" />
+                    <span className="text-[11px] font-bold text-[#64748B]">{t.arena.playersRange}</span>
+                  </div>
+                  <div className="bg-[#f0f6ff] p-2 rounded-lg group-hover:bg-[#0A84FF] group-hover:text-white transition-all text-[#0A84FF]">
+                    <ChevronRight size={20} />
+                  </div>
+                </div>
+              </div>
+            </Link>
+ 
           </div>
         </section>
 

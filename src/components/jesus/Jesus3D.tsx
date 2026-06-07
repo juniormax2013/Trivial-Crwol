@@ -59,6 +59,7 @@ export default function Jesus3D({
     if (!containerRef.current) return;
 
     const container = containerRef.current;
+    container.innerHTML = '';
     const width = container.clientWidth || size;
     const height = container.clientHeight || size;
 

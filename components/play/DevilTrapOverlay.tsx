@@ -230,7 +230,7 @@ interface DevilTrapOverlayProps {
 export default function DevilTrapOverlay({ 
   isActive, 
   devilState = 'idle',
-  devilMode = 'POWER_MODE',
+  devilMode = 'OBSERVER_MODE',
   devilEvent = null
 }: DevilTrapOverlayProps) {
   const t = useT();

@@ -171,6 +171,8 @@ export const fr: Translations = {
     tournament: 'Tournoi',
     tournamentDesc: 'Participez dans l\'arène',
     comingSoon: 'Bientôt disponible',
+    sacredChallenge: 'Défi Sacré',
+    sacredChallengeDesc: 'Défiez votre foi en solo ou avec un ami en temps réel',
   },
 
   daily: {
