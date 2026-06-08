@@ -33,20 +33,30 @@ export default function ArenaInvitationListener() {
     if (!invitation || actionLoading) return;
     setActionLoading('accept');
     try {
-      // 1. Join the arena session
-      await joinArenaSession(invitation.arenaId, {
-        uid: user!.uid,
-        displayName: user!.fullName || user!.username || 'Guerrero',
-        photoURL: user!.photoURL || null
-      });
-      
-      // 2. Update invitation status
-      await updateArenaInvitationStatus(invitation.id, 'accepted');
-      
-      // 3. Clear local state and redirect
-      setInvitation(null);
-      router.push(`/arena/crown-arena/${invitation.arenaId}/lobby`);
-      toast.success('Te has unido a la batalla');
+      if (invitation.gameMode === 'reto_sagrado') {
+        // 1. Update invitation status
+        await updateArenaInvitationStatus(invitation.id, 'accepted');
+        
+        // 2. Clear local state and redirect
+        setInvitation(null);
+        router.push(`/reto-sagrado/play?multiplayer=true&opponent=${invitation.hostId}`);
+        toast.success('Te has unido al Reto Sagrado');
+      } else {
+        // 1. Join the arena session
+        await joinArenaSession(invitation.arenaId, {
+          uid: user!.uid,
+          displayName: user!.fullName || user!.username || 'Guerrero',
+          photoURL: user!.photoURL || null
+        });
+        
+        // 2. Update invitation status
+        await updateArenaInvitationStatus(invitation.id, 'accepted');
+        
+        // 3. Clear local state and redirect
+        setInvitation(null);
+        router.push(`/arena/crown-arena/${invitation.arenaId}/lobby`);
+        toast.success('Te has unido a la batalla');
+      }
     } catch (e: any) {
       console.error(e);
       toast.error('No se pudo unir a la sala: ' + e.message);
@@ -105,11 +115,11 @@ export default function ArenaInvitationListener() {
             </div>
 
             <h2 className="font-serif text-[24px] font-black text-[#310065] mb-2 leading-tight">
-              ¡Batalla Real!
+              {invitation.gameMode === 'reto_sagrado' ? 'Reto Sagrado' : '¡Batalla Real!'}
             </h2>
             
             <p className="text-[15px] text-[#7c7483] font-medium px-4 mb-8">
-              <strong className="text-[#310065]">{invitation.hostName}</strong> te ha invitado a unirte a su sala en <strong className="text-[#310065]">Crown Arena</strong>.
+              <strong className="text-[#310065]">{invitation.hostName}</strong> te ha invitado a unirte a su sala en <strong className="text-[#310065]">{invitation.gameMode === 'reto_sagrado' ? 'Reto Sagrado' : 'Crown Arena'}</strong>.
             </p>
 
             <div className="flex flex-col gap-3 w-full">

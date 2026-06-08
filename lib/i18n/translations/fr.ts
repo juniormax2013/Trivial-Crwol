@@ -787,5 +787,14 @@ export const fr: Translations = {
     protecting: 'Le mal ne l\'emportera pas. 🛡️',
     victory: 'Victoire glorieuse ! 🎉',
     default: 'Va de l\'avant. ✨',
+  },
+  locks: {
+    levelRequiredTitle: 'Niveau {level} Requis',
+    levelRequiredDesc: 'Vous devez atteindre le niveau {level} pour déverrouiller ce mode de jeu.',
+    alliesLockedTitle: 'Alliés Verrouillés',
+    alliesLockedDesc: 'La section des Alliés se déverrouille au niveau 10. Continuez à jouer pour monter de niveau !',
+    lockedBadge: 'Verrouillé',
+    unlockedByAdmin: 'Accès spécial accordé par l\'Administrateur',
+    backBtn: 'Retour',
   }
 };

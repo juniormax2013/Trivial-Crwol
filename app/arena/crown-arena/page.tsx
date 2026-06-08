@@ -138,7 +138,7 @@ export default function CrownArenaSetup() {
       <header className="fixed top-0 w-full z-50 bg-white border-b border-[#1b1b1e]/5 pt-safe">
         <div className="flex items-center gap-4 px-6 py-4 max-w-screen-xl mx-auto">
           <button 
-            onClick={() => router.back()}
+            onClick={() => router.push('/arena')}
             className="w-10 h-10 rounded-full bg-white shadow-sm border border-[#1b1b1e]/5 flex items-center justify-center text-[#310065] hover:bg-[#eddcff] transition-colors active:scale-95"
           >
             <ArrowLeft className="w-5 h-5" />

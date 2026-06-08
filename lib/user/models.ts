@@ -112,6 +112,14 @@ export interface AppUserModel {
   // Settings (Nested for easy access)
   settings: UserSettingsModel;
   
+  // Custom access overrides by Admin
+  customAccess?: {
+    allies?: boolean;
+    dailyChallenge?: boolean;
+    bibleJourney?: boolean;
+    sacredChallenge?: boolean;
+  };
+  
   // Optional Ranking info
   ranking?: number;
 }

@@ -4,9 +4,10 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Shield, Sparkles, Crown, Timer } from 'lucide-react';
+import { X, Shield, Sparkles, Crown, Timer, Lock } from 'lucide-react';
 import { useLanguage, useT } from '@/lib/i18n/context';
 import { Translations } from '@/lib/i18n/types';
+import { useAuthContext } from '@/components/auth/AuthProvider';
 
 // ─────────────────────────────────────────────────────────────────
 // DATOS DE PERSONAJES
@@ -220,10 +221,61 @@ function AllyModal({ ally, equipBtn, onClose }: { ally: AllyData; equipBtn: stri
 // ─────────────────────────────────────────────────────────────────
 export default function AliadosPage() {
   const router = useRouter();
+  const { user, loading } = useAuthContext();
   const [activeAlly, setActiveAlly] = useState<AllyData | null>(null);
   const { language } = useLanguage();
   const t = useT();
   const alliesData = getAlliesData(t);
+
+  // Loading state
+  if (loading) {
+    return (
+      <div className="fixed inset-0 flex items-center justify-center bg-[#f5ede0]">
+        <div className="w-8 h-8 border-4 border-[#0A84FF] border-t-transparent rounded-full animate-spin" />
+      </div>
+    );
+  }
+
+  // Check locks
+  const isAdmin = user?.role === 'super_admin' || user?.email === 'juniormax2013@gmail.com';
+  const isLocked = !user || (!isAdmin && (user.level ?? 0) < 10 && !user.customAccess?.allies);
+
+  if (isLocked) {
+    return (
+      <div className="fixed inset-0 flex items-center justify-center p-4 bg-[#f5ede0]">
+        <div className="w-full max-w-md bg-white rounded-[24px] shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-gray-100 p-8 flex flex-col items-center text-center">
+          {/* Lock Icon */}
+          <div className="w-16 h-16 rounded-full bg-[#0A84FF]/10 flex items-center justify-center text-[#0A84FF] mb-6">
+            <Lock size={28} strokeWidth={2.5} />
+          </div>
+
+          {/* Title */}
+          <h2 className="text-[#0F172A] font-extrabold text-2xl tracking-tight mb-3">
+            {t.locks.alliesLockedTitle}
+          </h2>
+
+          {/* Description */}
+          <p className="text-[#64748B] text-sm leading-relaxed mb-6">
+            {t.locks.alliesLockedDesc}
+          </p>
+
+          {/* Level Info Badge */}
+          <div className="inline-flex items-center gap-2 bg-[#0A84FF]/5 text-[#0A84FF] font-semibold text-xs uppercase tracking-wider px-4 py-2 rounded-full mb-8">
+            <Lock size={12} />
+            <span>{t.locks.levelRequiredTitle.replace('{level}', '10')}</span>
+          </div>
+
+          {/* Back Button */}
+          <button
+            onClick={() => router.back()}
+            className="w-full py-3.5 bg-[#0A84FF] hover:bg-[#0A84FF]/90 text-white font-bold rounded-2xl transition-all duration-200 shadow-md shadow-[#0A84FF]/20 active:scale-[0.98] text-[15px]"
+          >
+            {t.locks.backBtn}
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   // Imagen según el idioma configurado en la app
   const screenImage = (language === 'fr' || language === 'ht')

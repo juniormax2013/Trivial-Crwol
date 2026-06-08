@@ -812,4 +812,13 @@ export interface Translations {
     victory: string;
     default: string;
   };
+  locks: {
+    levelRequiredTitle: string;
+    levelRequiredDesc: string;
+    alliesLockedTitle: string;
+    alliesLockedDesc: string;
+    lockedBadge: string;
+    unlockedByAdmin: string;
+    backBtn: string;
+  };
 }

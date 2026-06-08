@@ -506,10 +506,12 @@ export async function finishArenaGame(arenaId: string): Promise<void> {
 export async function sendArenaInvitations(
   arenaId: string,
   host: { uid: string; name: string; avatar: string | null },
-  receiverUids: string[]
-): Promise<void> {
+  receiverUids: string[],
+  gameMode: 'crown_arena' | 'reto_sagrado' = 'crown_arena'
+): Promise<string[]> {
   const batch = writeBatch(db);
   const now = new Date().toISOString();
+  const invitationIds: string[] = [];
 
   receiverUids.forEach(uid => {
     const invRef = doc(collection(db, 'arenaInvitations'));
@@ -521,12 +523,15 @@ export async function sendArenaInvitations(
       hostAvatar: host.avatar,
       receiverId: uid,
       status: 'pending',
-      createdAt: now
+      createdAt: now,
+      gameMode
     };
     batch.set(invRef, invitation);
+    invitationIds.push(invRef.id);
   });
 
   await batch.commit();
+  return invitationIds;
 }
 
 /**

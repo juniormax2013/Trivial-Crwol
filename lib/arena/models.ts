@@ -88,4 +88,5 @@ export interface ArenaInvitation {
   receiverId: string;
   status: 'pending' | 'accepted' | 'declined';
   createdAt: string;
+  gameMode?: 'crown_arena' | 'reto_sagrado';
 }

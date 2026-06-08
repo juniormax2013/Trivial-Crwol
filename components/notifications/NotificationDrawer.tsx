@@ -40,14 +40,20 @@ export default function NotificationDrawer() {
     if (!user || actionLoading) return;
     setActionLoading(invitation.id);
     try {
-      await joinArenaSession(invitation.arenaId, {
-        uid: user.uid,
-        displayName: user.fullName || user.username || 'Guerrero',
-        photoURL: user.photoURL || null
-      });
-      await updateArenaInvitationStatus(invitation.id, 'accepted');
-      router.push(`/arena/crown-arena/${invitation.arenaId}/lobby`);
-      toast.success('¡Te has unido a la batalla!');
+      if (invitation.gameMode === 'reto_sagrado') {
+        await updateArenaInvitationStatus(invitation.id, 'accepted');
+        router.push(`/reto-sagrado/play?multiplayer=true&opponent=${invitation.hostId}`);
+        toast.success('¡Te has unido al Reto Sagrado!');
+      } else {
+        await joinArenaSession(invitation.arenaId, {
+          uid: user.uid,
+          displayName: user.fullName || user.username || 'Guerrero',
+          photoURL: user.photoURL || null
+        });
+        await updateArenaInvitationStatus(invitation.id, 'accepted');
+        router.push(`/arena/crown-arena/${invitation.arenaId}/lobby`);
+        toast.success('¡Te has unido a la batalla!');
+      }
       onClose();
     } catch (e: any) {
       toast.error('Error: ' + e.message);
@@ -203,9 +209,9 @@ export default function NotificationDrawer() {
                             unoptimized
                           />
                         </div>
-                        <div className="flex-1 min-w-0">
+                         <div className="flex-1 min-w-0">
                           <h3 className="font-bold text-[#310065] truncate">
-                            Crown Arena
+                            {inv.gameMode === 'reto_sagrado' ? 'Reto Sagrado' : 'Crown Arena'}
                           </h3>
                           <p className="text-sm text-gray-600">
                             <strong>{inv.hostName}</strong> te desafió

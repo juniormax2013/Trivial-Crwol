@@ -66,7 +66,24 @@ export default function AdminLogin() {
     setError('');
     setIsSubmitting(true);
     try {
-      const userCredential = await signInWithPopup(auth, googleProvider);
+      const { Capacitor } = await import('@capacitor/core');
+      let userCredential;
+
+      if (Capacitor.isNativePlatform()) {
+        const { GoogleSignIn } = await import('@capawesome/capacitor-google-sign-in');
+        const { GoogleAuthProvider, signInWithCredential } = await import('firebase/auth');
+        
+        const result = await GoogleSignIn.signIn();
+        if (result.idToken) {
+          const credential = GoogleAuthProvider.credential(result.idToken);
+          userCredential = await signInWithCredential(auth, credential);
+        } else {
+          throw new Error("Missing idToken from native sign-in");
+        }
+      } else {
+        userCredential = await signInWithPopup(auth, googleProvider);
+      }
+
       const idTokenResult = await userCredential.user.getIdTokenResult();
       
       const isAdmin = idTokenResult.claims.admin === true || 

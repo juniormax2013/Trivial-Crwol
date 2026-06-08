@@ -89,7 +89,23 @@ export default function LoginPage() {
     setIsLoading(true);
     setError(null);
     try {
-      await signInWithPopup(auth, googleProvider);
+      const { Capacitor } = await import('@capacitor/core');
+      
+      if (Capacitor.isNativePlatform()) {
+        const { GoogleSignIn } = await import('@capawesome/capacitor-google-sign-in');
+        const { GoogleAuthProvider, signInWithCredential } = await import('firebase/auth');
+        
+        const result = await GoogleSignIn.signIn();
+        if (result.idToken) {
+          const credential = GoogleAuthProvider.credential(result.idToken);
+          await signInWithCredential(auth, credential);
+        } else {
+          throw new Error("Missing idToken from native sign-in");
+        }
+      } else {
+        await signInWithPopup(auth, googleProvider);
+      }
+
       const savedPath = typeof window !== 'undefined' ? sessionStorage.getItem('auth_redirect_path') : null;
       if (savedPath) {
         sessionStorage.removeItem('auth_redirect_path');
@@ -98,6 +114,7 @@ export default function LoginPage() {
         router.push('/');
       }
     } catch (err: any) {
+      console.error("Google login error:", err);
       setError(t.auth.errors.googleFailed);
     } finally {
       setIsLoading(false);

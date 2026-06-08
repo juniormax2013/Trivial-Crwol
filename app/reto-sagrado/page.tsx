@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
@@ -23,11 +23,23 @@ import { useLanguage, useT } from '@/lib/i18n/context';
 import { getFriendsList } from '@/lib/social/repository';
 import { AppUserModel } from '@/lib/user/models';
 import { toast } from 'sonner';
+import { sendArenaInvitations } from '@/lib/arena/repository';
+import { db } from '@/lib/firebase';
+import { doc, onSnapshot } from 'firebase/firestore';
 
 export default function RetoSagradoLobby() {
   const { user } = useAuthContext();
   const { language, isLoaded } = useLanguage();
   const router = useRouter();
+  const unsubRef = useRef<(() => void) | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (unsubRef.current) {
+        unsubRef.current();
+      }
+    };
+  }, []);
   const t = useT();
 
   const [mode, setMode] = useState<'solo' | 'friend'>('solo');
@@ -110,13 +122,25 @@ export default function RetoSagradoLobby() {
     }
   }, [user?.uid, mode]);
 
-  const handleSendInvitation = (friend: AppUserModel) => {
+  const handleSendInvitation = async (friend: AppUserModel) => {
     if (invitedUids.has(friend.uid)) return;
+    if (!user) return;
     
     setInvitingUid(friend.uid);
     
-    // Simulate premium network delay
-    setTimeout(() => {
+    try {
+      const dummyArenaId = `sacred_${user.uid}_${Date.now()}`;
+      const invitationIds = await sendArenaInvitations(
+        dummyArenaId,
+        {
+          uid: user.uid,
+          name: user.fullName || user.username || 'Noble Peregrino',
+          avatar: user.photoURL || null
+        },
+        [friend.uid],
+        'reto_sagrado'
+      );
+
       setInvitingUid(null);
       setInvitedUids(prev => new Set([...prev, friend.uid]));
       toast.success(
@@ -125,18 +149,47 @@ export default function RetoSagradoLobby() {
           : `Invitación enviada a ${friend.fullName} ✓`
       );
 
-      // If friend is online, simulate them accepting and launching game after 2.5s
-      if (friend.isOnline) {
-        setTimeout(() => {
-          toast.info(
-            language === 'ht'
-              ? `${friend.fullName} aksepte envitasyn an! N ap kòmanse...`
-              : `${friend.fullName} ha aceptado tu invitación. ¡Comenzando partida!`
-          );
-          router.push(`/reto-sagrado/play?multiplayer=true&opponent=${friend.uid}`);
-        }, 2200);
+      if (invitationIds.length > 0) {
+        const invDocRef = doc(db, 'arenaInvitations', invitationIds[0]);
+        const unsub = onSnapshot(invDocRef, (snap) => {
+          const data = snap.data();
+          if (data) {
+            if (data.status === 'accepted') {
+              toast.info(
+                language === 'ht'
+                  ? `${friend.fullName} aksepte envitasyn an! N ap kòmanse...`
+                  : `${friend.fullName} ha aceptado tu invitación. ¡Comenzando partida!`
+              );
+              unsub();
+              if (unsubRef.current === unsub) unsubRef.current = null;
+              router.push(`/reto-sagrado/play?multiplayer=true&opponent=${friend.uid}`);
+            } else if (data.status === 'declined') {
+              toast.error(
+                language === 'ht'
+                  ? `${friend.fullName} refize envitasyn an.`
+                  : `${friend.fullName} ha rechazado tu invitación.`
+              );
+              unsub();
+              if (unsubRef.current === unsub) unsubRef.current = null;
+              setInvitedUids(prev => {
+                const updated = new Set(prev);
+                updated.delete(friend.uid);
+                return updated;
+              });
+            }
+          }
+        });
+        unsubRef.current = unsub;
       }
-    }, 1200);
+    } catch (e: any) {
+      console.error(e);
+      setInvitingUid(null);
+      toast.error(
+        language === 'ht'
+          ? `Espas la pa ka voye envitasyn: ${e.message}`
+          : `No se pudo enviar la invitación: ${e.message}`
+      );
+    }
   };
 
   const filteredFriends = friends.filter(f => {

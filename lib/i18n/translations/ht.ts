@@ -787,5 +787,14 @@ export const ht: Translations = {
     protecting: 'Mal la pap genyen. 🛡️',
     victory: 'Viktwa glorye! 🎉',
     default: 'Kontinye pi devan. ✨',
+  },
+  locks: {
+    levelRequiredTitle: 'Nivo {level} Rekòmande',
+    levelRequiredDesc: 'Ou bezwen rive nan nivo {level} pou debloke mòd jwèt sa a.',
+    alliesLockedTitle: 'Alye yo Bloke',
+    alliesLockedDesc: 'Seksyon Alye yo ap debloke lè ou rive nan nivo 10. Kontinye jwe pou monte nivo!',
+    lockedBadge: 'Bloke',
+    unlockedByAdmin: 'Aksè espesyal Administratè a bay',
+    backBtn: 'Retounen',
   }
 };

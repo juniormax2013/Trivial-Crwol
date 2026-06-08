@@ -59,6 +59,14 @@
         { "fieldPath": "status", "order": "ASCENDING" },
         { "fieldPath": "createdAt", "order": "DESCENDING" }
       ]
+    },
+    {
+      "collectionGroup": "dailyChallengeStatus",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "reminderSent", "order": "ASCENDING" },
+        { "fieldPath": "nextAvailableAt", "order": "ASCENDING" }
+      ]
     }
   ],
   "fieldOverrides": [

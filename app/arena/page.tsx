@@ -31,10 +31,12 @@ import {
   Loader2,
   Heart,
   Calendar,
-  Globe
+  Globe,
+  Lock
 } from 'lucide-react';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { getDuelsForUser, subscribeToDuelsForUser } from '@/lib/duel/repository';
 import { filterDuelsByTab } from '@/lib/duel/service';
 import { TournamentRepository } from '@/lib/tournament/repository';
@@ -47,9 +49,22 @@ export default function Arena() {
   const { user, loading } = useAuthContext();
   const t = useT();
   const { language } = useLanguage();
+  const router = useRouter();
   const [pendingCount, setPendingCount] = useState(0);
   const [activeTournaments, setActiveTournaments] = useState<Tournament[]>([]);
   const [tournamentsLoading, setTournamentsLoading] = useState(true);
+  const [lockedModeInfo, setLockedModeInfo] = useState<{ requiredLevel: number; modeName: string } | null>(null);
+
+  const handleGameModeClick = (e: React.MouseEvent, path: string, requiredLevel: number, bypassKey: 'dailyChallenge' | 'bibleJourney' | 'sacredChallenge', modeName: string) => {
+    e.preventDefault();
+    const isAdmin = user?.role === 'super_admin' || user?.email === 'juniormax2013@gmail.com';
+    const isModeLocked = !user || (!isAdmin && (user.level ?? 0) < requiredLevel && !user.customAccess?.[bypassKey]);
+    if (isModeLocked) {
+      setLockedModeInfo({ requiredLevel, modeName });
+    } else {
+      router.push(path);
+    }
+  };
 
   useEffect(() => {
     if (user?.uid) {
@@ -223,107 +238,176 @@ export default function Arena() {
           </div>          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             
             {/* Daily Challenge (Defi Jounen an) */}
-            <Link
-              href="/daily-challenge"
-              className="block relative overflow-hidden rounded-[2rem] bg-white p-6 border border-[#ffe088]/40 shadow-[0_8px_32px_rgba(233,195,73,0.08)] group hover:shadow-[0_12px_40px_rgba(233,195,73,0.15)] transition-all active:scale-[0.99] h-full"
-            >
-              <div className="absolute right-0 top-0 w-24 h-24 bg-[#ffe088]/20 blur-[30px] rounded-full -mr-12 -mt-12 group-hover:bg-[#ffe088]/30 transition-colors"></div>
-              
-              <div className="relative z-10 flex flex-col h-full">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#ffe088] to-[#cba72f] flex items-center justify-center shadow-lg shadow-[#cba72f]/20 -rotate-3 group-hover:rotate-0 transition-transform">
-                    <Calendar className="w-7 h-7 text-[#735c00]" />
-                  </div>
-                  <div>
-                    <h4 className="font-black text-[18px] text-[#310065] mb-0.5">{t.daily.title}</h4>
-                    <div className="bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-emerald-200 inline-block">
-                      {t.arena.available}
+            {(() => {
+              const isAdmin = user?.role === 'super_admin' || user?.email === 'juniormax2013@gmail.com';
+              const isDailyLocked = !user || (!isAdmin && (user.level ?? 0) < 1 && !user.customAccess?.dailyChallenge);
+              const isDailyBypassed = !!user?.customAccess?.dailyChallenge;
+              return (
+                <Link
+                  href="/daily-challenge"
+                  onClick={(e) => handleGameModeClick(e, '/daily-challenge', 1, 'dailyChallenge', t.daily.title)}
+                  className={`block relative overflow-hidden rounded-[2rem] p-6 border transition-all h-full ${
+                    isDailyLocked
+                      ? 'bg-gray-50 border-gray-200 opacity-60 grayscale cursor-pointer'
+                      : 'bg-white border-[#ffe088]/40 shadow-[0_8px_32px_rgba(233,195,73,0.08)] group hover:shadow-[0_12px_40px_rgba(233,195,73,0.15)] active:scale-[0.99]'
+                  }`}
+                >
+                  <div className="absolute right-0 top-0 w-24 h-24 bg-[#ffe088]/20 blur-[30px] rounded-full -mr-12 -mt-12 group-hover:bg-[#ffe088]/30 transition-colors"></div>
+                  
+                  <div className="relative z-10 flex flex-col h-full">
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#ffe088] to-[#cba72f] flex items-center justify-center shadow-lg shadow-[#cba72f]/20 -rotate-3 group-hover:rotate-0 transition-transform">
+                        <Calendar className="w-7 h-7 text-[#735c00]" />
+                      </div>
+                      <div>
+                        <h4 className="font-black text-[18px] text-[#310065] mb-0.5">{t.daily.title}</h4>
+                        <div className="flex items-center gap-1.5">
+                          {isDailyLocked ? (
+                            <span className="bg-red-50 text-red-600 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-red-100 inline-flex items-center gap-1">
+                              <Lock size={9} /> Lvl 1
+                            </span>
+                          ) : isDailyBypassed ? (
+                            <span className="bg-[#0A84FF]/10 text-[#0A84FF] px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-[#0A84FF]/20 inline-flex items-center gap-1">
+                              ★ Admin
+                            </span>
+                          ) : (
+                            <span className="bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-emerald-200 inline-block">
+                              {t.arena.available}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                    <p className="text-[#7c7483] text-[13px] font-medium mb-4 flex-grow">
+                      {t.daily.subtitle}
+                    </p>
+                    <div className="flex items-center justify-between mt-auto">
+                      <div className="flex items-center gap-2">
+                        <Flame size={14} className="text-[#ff6b00] fill-[#ff6b00]" />
+                        <span className="text-[11px] font-bold text-[#7c7483]">{t.daily.alreadyDoneDesc}</span>
+                      </div>
+                      <div className="bg-[#faf9fc] p-2 rounded-lg group-hover:bg-[#cba72f] group-hover:text-white transition-all text-[#cba72f]">
+                        <ChevronRight size={20} />
+                      </div>
                     </div>
                   </div>
-                </div>
-                <p className="text-[#7c7483] text-[13px] font-medium mb-4 flex-grow">
-                  {t.daily.subtitle}
-                </p>
-                <div className="flex items-center justify-between mt-auto">
-                  <div className="flex items-center gap-2">
-                    <Flame size={14} className="text-[#ff6b00] fill-[#ff6b00]" />
-                    <span className="text-[11px] font-bold text-[#7c7483]">{t.daily.alreadyDoneDesc}</span>
-                  </div>
-                  <div className="bg-[#faf9fc] p-2 rounded-lg group-hover:bg-[#cba72f] group-hover:text-white transition-all text-[#cba72f]">
-                    <ChevronRight size={20} />
-                  </div>
-                </div>
-              </div>
-            </Link>
+                </Link>
+              );
+            })()}
  
             {/* Jwe Bib la */}
-            <Link
-              href="/jwe-bib-la/play"
-              className="block relative overflow-hidden rounded-[2rem] bg-white p-6 border border-[#eddcff] shadow-[0_8px_32px_rgba(49,0,101,0.05)] group hover:shadow-[0_12px_40px_rgba(49,0,101,0.1)] transition-all active:scale-[0.99] h-full"
-            >
-              <div className="absolute right-0 top-0 w-24 h-24 bg-[#eddcff]/30 blur-[30px] rounded-full -mr-12 -mt-12 group-hover:bg-[#eddcff]/50 transition-colors"></div>
-              
-              <div className="relative z-10 flex flex-col h-full">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="w-14 h-14 rounded-2xl bg-[#310065] flex items-center justify-center shadow-lg shadow-[#310065]/20 rotate-3 group-hover:rotate-0 transition-transform">
-                    <Flame className="w-7 h-7 text-[#ffe088] fill-[#ffe088]" />
-                  </div>
-                  <div>
-                    <h4 className="font-black text-[18px] text-[#310065] mb-0.5">{t.dashboard.bibleGame}</h4>
-                    <div className="flex items-center gap-2">
-                      <Zap size={12} className="text-[#cba72f] fill-[#ffe088]" />
-                      <span className="text-[11px] font-bold text-[#7c7483]">{user?.jweEnergy ?? 0} {t.dashboard.energy}</span>
+            {(() => {
+              const isAdmin = user?.role === 'super_admin' || user?.email === 'juniormax2013@gmail.com';
+              const isBibleLocked = !user || (!isAdmin && (user.level ?? 0) < 3 && !user.customAccess?.bibleJourney);
+              const isBibleBypassed = !!user?.customAccess?.bibleJourney;
+              return (
+                <Link
+                  href="/jwe-bib-la/play"
+                  onClick={(e) => handleGameModeClick(e, '/jwe-bib-la/play', 3, 'bibleJourney', t.dashboard.bibleGame)}
+                  className={`block relative overflow-hidden rounded-[2rem] p-6 border transition-all h-full ${
+                    isBibleLocked
+                      ? 'bg-gray-50 border-gray-200 opacity-60 grayscale cursor-pointer'
+                      : 'bg-white border-[#eddcff] shadow-[0_8px_32px_rgba(49,0,101,0.05)] group hover:shadow-[0_12px_40px_rgba(49,0,101,0.1)] transition-all active:scale-[0.99]'
+                  }`}
+                >
+                  <div className="absolute right-0 top-0 w-24 h-24 bg-[#eddcff]/30 blur-[30px] rounded-full -mr-12 -mt-12 group-hover:bg-[#eddcff]/50 transition-colors"></div>
+                  
+                  <div className="relative z-10 flex flex-col h-full">
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="w-14 h-14 rounded-2xl bg-[#310065] flex items-center justify-center shadow-lg shadow-[#310065]/20 rotate-3 group-hover:rotate-0 transition-transform">
+                        <Flame className="w-7 h-7 text-[#ffe088] fill-[#ffe088]" />
+                      </div>
+                      <div>
+                        <h4 className="font-black text-[18px] text-[#310065] mb-0.5">{t.dashboard.bibleGame}</h4>
+                        <div className="flex items-center gap-2">
+                          <Zap size={12} className="text-[#cba72f] fill-[#ffe088]" />
+                          <span className="text-[11px] font-bold text-[#7c7483]">{user?.jweEnergy ?? 0} {t.dashboard.energy}</span>
+                          {isBibleLocked ? (
+                            <span className="bg-red-50 text-red-600 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-red-100 inline-flex items-center gap-1 ml-1">
+                              <Lock size={9} /> Lvl 3
+                            </span>
+                          ) : isBibleBypassed ? (
+                            <span className="bg-[#0A84FF]/10 text-[#0A84FF] px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-[#0A84FF]/20 inline-flex items-center gap-1 ml-1">
+                              ★ Admin
+                            </span>
+                          ) : null}
+                        </div>
+                      </div>
+                    </div>
+                    <p className="text-[#7c7483] text-[13px] font-medium mb-4 flex-grow">
+                      {t.arena.bibleGameDesc}
+                    </p>
+                    <div className="flex items-center justify-between mt-auto">
+                      <div className="flex items-center gap-2 text-red-500">
+                        <Heart size={14} className="fill-red-500" />
+                        <span className="text-[11px] font-bold">{t.arena.heartsLabel}: {user?.jweHearts ?? 0}</span>
+                      </div>
+                      <div className="bg-[#f5f3f7] p-2 rounded-lg group-hover:bg-[#310065] group-hover:text-white transition-all text-[#310065]">
+                        <ChevronRight size={20} />
+                      </div>
                     </div>
                   </div>
-                </div>
-                <p className="text-[#7c7483] text-[13px] font-medium mb-4 flex-grow">
-                  {t.arena.bibleGameDesc}
-                </p>
-                <div className="flex items-center justify-between mt-auto">
-                  <div className="flex items-center gap-2 text-red-500">
-                    <Heart size={14} className="fill-red-500" />
-                    <span className="text-[11px] font-bold">{t.arena.heartsLabel}: {user?.jweHearts ?? 0}</span>
-                  </div>
-                  <div className="bg-[#f5f3f7] p-2 rounded-lg group-hover:bg-[#310065] group-hover:text-white transition-all text-[#310065]">
-                    <ChevronRight size={20} />
-                  </div>
-                </div>
-              </div>
-            </Link>
+                </Link>
+              );
+            })()}
 
             {/* Reto Sagrado (Sacred Challenge) */}
-            <Link
-              href="/reto-sagrado"
-              className="block relative overflow-hidden rounded-[2rem] bg-white p-6 border border-[#d2e3fc] shadow-[0_8px_32px_rgba(10,132,255,0.05)] group hover:shadow-[0_12px_40px_rgba(10,132,255,0.1)] transition-all active:scale-[0.99] h-full"
-            >
-              <div className="absolute right-0 top-0 w-24 h-24 bg-[#0A84FF]/10 blur-[30px] rounded-full -mr-12 -mt-12 group-hover:bg-[#0A84FF]/20 transition-colors"></div>
-              
-              <div className="relative z-10 flex flex-col h-full">
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#0A84FF] to-[#0066cc] flex items-center justify-center shadow-lg shadow-[#0A84FF]/20 -rotate-3 group-hover:rotate-0 transition-transform">
-                    <Shield className="w-7 h-7 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-black text-[18px] text-[#0F172A] mb-0.5">{t.play.sacredChallenge}</h4>
-                    <div className="bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-blue-200 inline-block">
-                      {t.arena.available}
+            {(() => {
+              const isAdmin = user?.role === 'super_admin' || user?.email === 'juniormax2013@gmail.com';
+              const isSacredLocked = !user || (!isAdmin && (user.level ?? 0) < 5 && !user.customAccess?.sacredChallenge);
+              const isSacredBypassed = !!user?.customAccess?.sacredChallenge;
+              return (
+                <Link
+                  href="/reto-sagrado"
+                  onClick={(e) => handleGameModeClick(e, '/reto-sagrado', 5, 'sacredChallenge', t.play.sacredChallenge)}
+                  className={`block relative overflow-hidden rounded-[2rem] p-6 border transition-all h-full ${
+                    isSacredLocked
+                      ? 'bg-gray-50 border-gray-200 opacity-60 grayscale cursor-pointer'
+                      : 'bg-white border-[#d2e3fc] shadow-[0_8px_32px_rgba(10,132,255,0.05)] group hover:shadow-[0_12px_40px_rgba(10,132,255,0.1)] active:scale-[0.99]'
+                  }`}
+                >
+                  <div className="absolute right-0 top-0 w-24 h-24 bg-[#0A84FF]/10 blur-[30px] rounded-full -mr-12 -mt-12 group-hover:bg-[#0A84FF]/20 transition-colors"></div>
+                  
+                  <div className="relative z-10 flex flex-col h-full">
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#0A84FF] to-[#0066cc] flex items-center justify-center shadow-lg shadow-[#0A84FF]/20 -rotate-3 group-hover:rotate-0 transition-transform">
+                        <Shield className="w-7 h-7 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-black text-[18px] text-[#0F172A] mb-0.5">{t.play.sacredChallenge}</h4>
+                        <div className="flex items-center gap-1.5">
+                          {isSacredLocked ? (
+                            <span className="bg-red-50 text-red-600 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-red-100 inline-flex items-center gap-1">
+                              <Lock size={9} /> Lvl 5
+                            </span>
+                          ) : isSacredBypassed ? (
+                            <span className="bg-[#0A84FF]/10 text-[#0A84FF] px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-[#0A84FF]/20 inline-flex items-center gap-1">
+                              ★ Admin
+                            </span>
+                          ) : (
+                            <span className="bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-emerald-200 inline-block">
+                              {t.arena.available}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                    <p className="text-[#64748B] text-[13px] font-medium mb-4 flex-grow">
+                      {t.play.sacredChallengeDesc}
+                    </p>
+                    <div className="flex items-center justify-between mt-auto">
+                      <div className="flex items-center gap-2">
+                        <Sparkles size={14} className="text-[#0A84FF]" />
+                        <span className="text-[11px] font-bold text-[#64748B]">{t.arena.playersRange}</span>
+                      </div>
+                      <div className="bg-[#f0f6ff] p-2 rounded-lg group-hover:bg-[#0A84FF] group-hover:text-white transition-all text-[#0A84FF]">
+                        <ChevronRight size={20} />
+                      </div>
                     </div>
                   </div>
-                </div>
-                <p className="text-[#64748B] text-[13px] font-medium mb-4 flex-grow">
-                  {t.play.sacredChallengeDesc}
-                </p>
-                <div className="flex items-center justify-between mt-auto">
-                  <div className="flex items-center gap-2">
-                    <Sparkles size={14} className="text-[#0A84FF]" />
-                    <span className="text-[11px] font-bold text-[#64748B]">{t.arena.playersRange}</span>
-                  </div>
-                  <div className="bg-[#f0f6ff] p-2 rounded-lg group-hover:bg-[#0A84FF] group-hover:text-white transition-all text-[#0A84FF]">
-                    <ChevronRight size={20} />
-                  </div>
-                </div>
-              </div>
-            </Link>
+                </Link>
+              );
+            })()}
  
           </div>
         </section>
@@ -524,6 +608,35 @@ export default function Arena() {
       </main>
 
       <BottomNav activeTab="play" showTriggerButton={false} />
+
+      {lockedModeInfo && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/40 backdrop-blur-md animate-fade-in">
+          <div className="w-full max-w-sm bg-white rounded-3xl p-6 shadow-xl border border-gray-100 flex flex-col items-center text-center animate-scale-up">
+            {/* Lock Icon */}
+            <div className="w-14 h-14 rounded-full bg-[#0A84FF]/10 flex items-center justify-center text-[#0A84FF] mb-4">
+              <Lock size={24} strokeWidth={2.5} />
+            </div>
+
+            {/* Title */}
+            <h3 className="text-[#0F172A] font-extrabold text-lg tracking-tight mb-2">
+              {t.locks.levelRequiredTitle.replace('{level}', String(lockedModeInfo.requiredLevel))}
+            </h3>
+
+            {/* Description */}
+            <p className="text-[#64748B] text-xs leading-relaxed mb-5">
+              {t.locks.levelRequiredDesc.replace('{level}', String(lockedModeInfo.requiredLevel))}
+            </p>
+
+            {/* Close Button */}
+            <button
+              onClick={() => setLockedModeInfo(null)}
+              className="w-full py-3 bg-[#0A84FF] hover:bg-[#0A84FF]/90 text-white font-bold rounded-xl transition-colors text-[14px]"
+            >
+              {t.locks.backBtn}
+            </button>
+          </div>
+        </div>
+      )}
       
     </div>
   );

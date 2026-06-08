@@ -357,3 +357,159 @@ export const sendTestPushNotification = onCall(async (request: CallableRequest) 
     throw new HttpsError("internal", error.message || "Error al enviar la notificación de prueba.");
   }
 });
+
+// -----------------------------------------------------------------
+// TRANSLATIONS CONFIGURATION FOR ARENA/SACRED INVITATIONS
+// -----------------------------------------------------------------
+const ARENA_INVITATION_TRANSLATIONS: Record<string, Record<string, { title: string; body: string }>> = {
+  crown_arena: {
+    es: {
+      title: "¡Desafío en Crown Arena!",
+      body: "Has recibido una invitación de {senderName} para unirte a Crown Arena."
+    },
+    en: {
+      title: "Crown Arena Challenge!",
+      body: "You received an invitation from {senderName} to join Crown Arena."
+    },
+    fr: {
+      title: "Défi dans Crown Arena !",
+      body: "Vous avez reçu une invitation de {senderName} pour rejoindre Crown Arena."
+    },
+    ht: {
+      title: "Defi nan Crown Arena!",
+      body: "Ou resevwa yon envitasyon nan men {senderName} pou w rantre nan Crown Arena."
+    }
+  },
+  reto_sagrado: {
+    es: {
+      title: "¡Reto Sagrado!",
+      body: "{senderName} te ha desafiado a una partida de Reto Sagrado."
+    },
+    en: {
+      title: "Sacred Challenge!",
+      body: "{senderName} has challenged you to a Sacred Challenge match."
+    },
+    fr: {
+      title: "Défi Sacré !",
+      body: "{senderName} vous a défié pour une partie de Défi Sacré."
+    },
+    ht: {
+      title: "Defi Sakre!",
+      body: "{senderName} envite w nan yon jwèt Defi Sakre."
+    }
+  }
+};
+
+function getArenaInvitationTranslation(gameMode: string, lang: string, senderName: string) {
+  const mode = gameMode === "reto_sagrado" ? "reto_sagrado" : "crown_arena";
+  const modeTranslations = ARENA_INVITATION_TRANSLATIONS[mode];
+  const t = modeTranslations[lang] || modeTranslations.es;
+  return {
+    title: t.title,
+    body: t.body.replace("{senderName}", senderName)
+  };
+}
+
+// -----------------------------------------------------------------
+// 4. FIRESTORE TRIGGER: NEW ARENA / SACRED INVITATION CREATED
+// -----------------------------------------------------------------
+export const onArenaInvitationCreated = v1.firestore
+  .document("arenaInvitations/{invitationId}")
+  .onCreate(async (snap, context) => {
+    const invData = snap.data();
+    if (!invData) return null;
+
+    const invitationId = context.params.invitationId;
+    const hostId = invData.hostId;
+    const receiverId = invData.receiverId;
+    const gameMode = invData.gameMode || "crown_arena";
+    const arenaId = invData.arenaId;
+
+    try {
+      // 1. Fetch host name
+      const hostSnap = await db.collection("users").doc(hostId).get();
+      const hostName = hostSnap.exists 
+        ? (hostSnap.data()?.fullName || hostSnap.data()?.username || "Noble Peregrino") 
+        : "Un oponente";
+
+      // 2. Fetch receiver profile to get their preferred language
+      const receiverSnap = await db.collection("users").doc(receiverId).get();
+      const receiverLang = receiverSnap.exists 
+        ? (receiverSnap.data()?.settings?.language || "es") 
+        : "es";
+
+      // 3. Fetch active FCM tokens for the receiver
+      const tokensSnap = await db
+        .collection("users")
+        .doc(receiverId)
+        .collection("fcmTokens")
+        .where("active", "==", true)
+        .get();
+
+      if (tokensSnap.empty) {
+        console.log(`[Arena Invitation Notification] Receiver ${receiverId} has no active FCM tokens.`);
+        return null;
+      }
+
+      const tokens = tokensSnap.docs.map(doc => doc.data().token);
+      const text = getArenaInvitationTranslation(gameMode, receiverLang, hostName);
+
+      // Define redirect link based on gameMode
+      const linkUrl = gameMode === "reto_sagrado"
+        ? "https://trivial-app-bcrown.web.app/reto-sagrado"
+        : "https://trivial-app-bcrown.web.app/arena";
+
+      // Build multicast message payload
+      const message: admin.messaging.MulticastMessage = {
+        tokens,
+        notification: {
+          title: text.title,
+          body: text.body,
+        },
+        data: {
+          type: "arena_invitation",
+          screen: gameMode === "reto_sagrado" ? "reto_sagrado" : "crown_arena",
+          invitationId: String(invitationId),
+          arenaId: String(arenaId),
+          hostId: String(hostId),
+          receiverId: String(receiverId)
+        },
+        webpush: {
+          notification: {
+            title: text.title,
+            body: text.body,
+            icon: "/icons/icon-192x192.png",
+            click_action: linkUrl,
+          },
+          fcmOptions: {
+            link: linkUrl,
+          }
+        }
+      };
+
+      const response = await admin.messaging().sendEachForMulticast(message);
+      console.log(`[Arena Invitation Notification] Multicast push sent for invitation ${invitationId}. Success count: ${response.successCount}`);
+      
+      // Clean up stale/invalid tokens
+      if (response.failureCount > 0) {
+        const batch = db.batch();
+        response.responses.forEach((resp, idx) => {
+          if (!resp.success && resp.error) {
+            const code = resp.error.code;
+            if (code === "messaging/invalid-registration-token" || code === "messaging/registration-token-not-registered") {
+              const badToken = tokens[idx];
+              const badTokenId = badToken.replace(/[^a-zA-Z0-9]/g, "_").slice(-100);
+              const tokenDocRef = db.collection("users").doc(receiverId).collection("fcmTokens").doc(badTokenId);
+              batch.update(tokenDocRef, { active: false, updatedAt: admin.firestore.FieldValue.serverTimestamp() });
+            }
+          }
+        });
+        await batch.commit();
+      }
+
+    } catch (error) {
+      console.error(`[Arena Invitation Notification] Error processing invitation notification for ${invitationId}:`, error);
+    }
+    return null;
+  });
+

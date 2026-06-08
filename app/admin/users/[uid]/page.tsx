@@ -84,6 +84,19 @@ export default function AdminUserDetailPage() {
   };
 
   /**
+   * HANDLE TOGGLE ACCESS OVERRIDE
+   */
+  const handleToggleAccess = async (key: 'allies' | 'dailyChallenge' | 'bibleJourney' | 'sacredChallenge') => {
+    if (!user) return;
+    const currentAccess = user.customAccess || {};
+    const newAccess = {
+      ...currentAccess,
+      [key]: !currentAccess[key]
+    };
+    await handleUpdate({ customAccess: newAccess });
+  };
+
+  /**
    * HANDLE DELETE
    */
   const handleDelete = async () => {
@@ -249,7 +262,7 @@ export default function AdminUserDetailPage() {
               Tribunal Real
             </h3>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
               
               {/* Role & Status Card */}
               <div className="bg-white rounded-[2.5rem] p-8 shadow-sm border border-[#310065]/5 space-y-6">
@@ -350,6 +363,39 @@ export default function AdminUserDetailPage() {
                 <div className="p-4 bg-[#735c00]/5 rounded-2xl flex items-center gap-3 border border-[#735c00]/10">
                    <ShieldAlert className="w-5 h-5 text-[#735c00]" />
                    <p className="text-[12px] font-medium text-[#735c00]">Puedes usar valores negativos para deducir recursos.</p>
+                </div>
+              </div>
+
+              {/* Special Game Access Overrides Card */}
+              <div className="bg-white rounded-[2.5rem] p-8 shadow-sm border border-[#310065]/5 space-y-6">
+                <h4 className="text-[11px] font-black uppercase tracking-widest text-[#7c7483] opacity-60">Privilegios de Acceso (Bypass)</h4>
+                
+                <div className="space-y-4">
+                  {[
+                    { key: 'allies' as const, label: 'Acceso a Aliados', desc: 'Evita requerir nivel 10' },
+                    { key: 'dailyChallenge' as const, label: 'Desafío Diario', desc: 'Evita requerir nivel 1' },
+                    { key: 'bibleJourney' as const, label: 'Jugar a la Biblia', desc: 'Evita requerir nivel 3' },
+                    { key: 'sacredChallenge' as const, label: 'Reto Sagrado', desc: 'Evita requerir nivel 5' }
+                  ].map((mode) => (
+                    <div key={mode.key} className="flex items-center justify-between py-2 border-b border-[#310065]/5 last:border-0">
+                      <div>
+                        <p className="font-bold text-[14px] text-[#1b1b1e]">{mode.label}</p>
+                        <p className="text-xs text-[#7c7483]">{mode.desc}</p>
+                      </div>
+                      <button
+                        onClick={() => handleToggleAccess(mode.key)}
+                        className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none ${
+                          user.customAccess?.[mode.key] ? 'bg-[#0A84FF]' : 'bg-gray-200'
+                        }`}
+                      >
+                        <span
+                          className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                            user.customAccess?.[mode.key] ? 'translate-x-6' : 'translate-x-1'
+                          }`}
+                        />
+                      </button>
+                    </div>
+                  ))}
                 </div>
               </div>
 

@@ -766,6 +766,15 @@ export const es: Translations = {
     protecting: 'El mal no prevalecerá. 🛡️',
     victory: '¡Victoria gloriosa! 🎉',
     default: 'Sigue adelante. ✨',
+  },
+  locks: {
+    levelRequiredTitle: 'Nivel {level} Requerido',
+    levelRequiredDesc: 'Necesitas alcanzar el nivel {level} para desbloquear este modo de juego.',
+    alliesLockedTitle: 'Aliados Bloqueados',
+    alliesLockedDesc: 'La sección de Aliados se desbloquea al alcanzar el nivel 10. ¡Sigue jugando para subir de nivel!',
+    lockedBadge: 'Bloqueado',
+    unlockedByAdmin: 'Acceso especial concedido por Administrador',
+    backBtn: 'Volver',
   }
 };
 
