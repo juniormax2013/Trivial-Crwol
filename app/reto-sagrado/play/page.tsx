@@ -26,6 +26,29 @@ import { playCorrectSound, playWrongSound } from '@/lib/game/audio';
 import { grantJweRewards } from '@/lib/user/repository';
 import { toast } from 'sonner';
 
+/** Small animated progress bar shown after answering — signals auto-advance in 1.5s */
+function AutoAdvanceBar({ language }: { language: string }) {
+  return (
+    <div className="w-full flex flex-col items-center gap-2 py-3">
+      <div className="w-full h-1 bg-[#e3e2e6] rounded-full overflow-hidden">
+        <div
+          className="h-full bg-[#0A84FF] rounded-full"
+          style={{ animation: 'autoAdvanceProgress 1.5s linear forwards' }}
+        />
+      </div>
+      <span className="text-[11px] font-semibold text-[#64748B]">
+        {language === 'ht' ? 'Pwochen kesyon...' : language === 'fr' ? 'Question suivante...' : 'Siguiente pregunta...'}
+      </span>
+      <style>{`
+        @keyframes autoAdvanceProgress {
+          from { width: 0%; }
+          to   { width: 100%; }
+        }
+      `}</style>
+    </div>
+  );
+}
+
 export default function RetoSagradoPlay() {
   const { user } = useAuthContext();
   const { language, isLoaded } = useLanguage();
@@ -48,6 +71,9 @@ export default function RetoSagradoPlay() {
   const [showTypeAnnouncement, setShowTypeAnnouncement] = useState(true);
 
   const currentQuestion = questions[currentIdx];
+
+  // Ref to always have the latest handleNext (avoids stale closure in auto-advance)
+  const handleNextRef = useRef<() => void>(() => {});
 
   // Initialize questions
   useEffect(() => {
@@ -119,6 +145,15 @@ export default function RetoSagradoPlay() {
     setIsCorrect(false);
   }, [currentIdx, currentQuestion]);
 
+  // Auto-advance to next question after 1.5s (only when answered and still has hearts)
+  useEffect(() => {
+    if (!isAnswered || hearts <= 0 || isGameOver) return;
+    const timer = setTimeout(() => {
+      handleNextRef.current();
+    }, 1500);
+    return () => clearTimeout(timer);
+  }, [isAnswered, hearts, isGameOver]);
+
   const handleOrderChange = (index: number, direction: 'up' | 'down') => {
     if (isAnswered) return;
     const newIndex = direction === 'up' ? index - 1 : index + 1;
@@ -131,7 +166,8 @@ export default function RetoSagradoPlay() {
     setOrderedItems(list);
   };
 
-  const handleCheckAnswer = () => {
+  // optionOverride: used when called directly from an option click (state not updated yet)
+  const handleCheckAnswer = (optionOverride?: string) => {
     if (isAnswered || !currentQuestion) return;
 
     let correct = false;
@@ -140,18 +176,23 @@ export default function RetoSagradoPlay() {
       const answers = currentQuestion.correctAnswer as string[];
       correct = orderedItems.every((val, i) => val === answers[i]);
     } else {
-      correct = selectedOption === currentQuestion.correctAnswer;
+      const chosen = optionOverride ?? selectedOption;
+      correct = chosen === currentQuestion.correctAnswer;
+      // Also reflect the selection visually when called from option click
+      if (optionOverride) setSelectedOption(optionOverride);
     }
 
     setIsAnswered(true);
     setIsCorrect(correct);
 
     if (correct) {
-      playCorrectSound();
+      // Defer audio so React renders the answer state immediately
+      setTimeout(() => playCorrectSound(), 0);
       setScore(prev => prev + 1);
       toast.success(language === 'ht' ? 'Bravo! Bon repons' : '¡Excelente! Respuesta correcta');
     } else {
-      playWrongSound();
+      // Defer audio so React renders the answer state immediately
+      setTimeout(() => playWrongSound(), 0);
       const newHearts = hearts - 1;
       setHearts(newHearts);
       toast.error(
@@ -189,6 +230,9 @@ export default function RetoSagradoPlay() {
       setCurrentIdx(nextIdx);
     }
   };
+
+  // Keep the ref always up-to-date with the latest handleNext
+  handleNextRef.current = handleNext;
 
   // Render SVG illustrations inside image questions
   const renderImageIllustration = (type?: string) => {
@@ -505,7 +549,7 @@ export default function RetoSagradoPlay() {
                 <button 
                   key={option}
                   disabled={isAnswered}
-                  onClick={() => setSelectedOption(option)}
+                  onClick={() => handleCheckAnswer(option)}
                   className={btnClass}
                 >
                   <div className={labelClass}>
@@ -535,23 +579,22 @@ export default function RetoSagradoPlay() {
         )}
 
         {/* Dynamic Action Buttons */}
-        {!isAnswered ? (
-          <button 
-            onClick={handleCheckAnswer}
-            disabled={currentQuestion?.type !== 'order_events' && !selectedOption}
-            className="w-full bg-[#0A84FF] text-white py-5 rounded-[1.5rem] font-black uppercase tracking-widest flex items-center justify-center gap-2 shadow-lg shadow-[#0A84FF]/20 hover:scale-105 active:scale-95 transition-transform disabled:opacity-50 disabled:pointer-events-none"
-          >
-            <span>{language === 'ht' ? 'Tcheke Repons' : 'Comprobar'}</span>
-            <Check size={20} />
-          </button>
+        {currentQuestion?.type === 'order_events' ? (
+          // order_events: user must arrange items first, then confirm manually
+          !isAnswered ? (
+            <button 
+              onClick={() => handleCheckAnswer()}
+              className="w-full bg-[#0A84FF] text-white py-5 rounded-[1.5rem] font-black uppercase tracking-widest flex items-center justify-center gap-2 shadow-lg shadow-[#0A84FF]/20 hover:scale-105 active:scale-95 transition-transform"
+            >
+              <span>{language === 'ht' ? 'Tcheke Lòd' : language === 'fr' ? 'Vérifier l\'ordre' : 'Comprobar orden'}</span>
+              <Check size={20} />
+            </button>
+          ) : (
+            <AutoAdvanceBar language={language} />
+          )
         ) : (
-          <button 
-            onClick={handleNext}
-            className="w-full bg-[#0A84FF] text-white py-5 rounded-[1.5rem] font-black uppercase tracking-widest flex items-center justify-center gap-2 shadow-lg shadow-[#0A84FF]/25 hover:scale-105 active:scale-95 transition-transform"
-          >
-            <span>{currentIdx >= questions.length - 1 ? (language === 'ht' ? 'Fini Jwèt' : 'Finalizar') : (language === 'ht' ? 'Kesyon Pwochen' : 'Siguiente')}</span>
-            <ChevronRight size={20} />
-          </button>
+          // All other types: auto-check on option click, only show progress after answering
+          isAnswered && <AutoAdvanceBar language={language} />
         )}
       </main>
 
