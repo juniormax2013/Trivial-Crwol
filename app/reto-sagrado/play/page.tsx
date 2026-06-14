@@ -25,10 +25,12 @@ import {
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useLanguage, useT } from '@/lib/i18n/context';
 import { getSacredQuestions, SacredQuestion } from '@/lib/reto-sagrado/questions';
+import { progressSyncQueue } from '@/lib/cache/answers-queue';
+import { getCachedSacredQuestionsByIds, saveSacredQuestionsToCache, getCachedSacredQuestions } from '@/lib/game/questionCache';
 import { playCorrectSound, playWrongSound } from '@/lib/game/audio';
 import { grantJweRewards, saveGamePlay, checkAndQualifyReferral } from '@/lib/user/repository';
 import { toast } from 'sonner';
-import { collection, doc, setDoc, onSnapshot } from 'firebase/firestore';
+import { collection, doc, setDoc, onSnapshot, getDoc } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 
 /** Small animated progress bar shown after answering — signals auto-advance in 1.5s */
@@ -221,13 +223,12 @@ export default function RetoSagradoPlay() {
   // Update progress in Firestore whenever player progress changes
   useEffect(() => {
     if (!user || !isMultiplayer || !roomId) return;
-    const playerRef = doc(db, `reto_sagrado_rooms/${roomId}/players`, user.uid);
-    setDoc(playerRef, {
-      score: score,
-      currentQuestion: currentIdx + 1,
-      isFinished: isGameOver,
-      updatedAt: new Date().toISOString()
-    }, { merge: true }).catch(console.error);
+    
+    progressSyncQueue.enqueue('reto_sagrado', roomId, user.uid, score, currentIdx + 1, isGameOver);
+    
+    if (isGameOver) {
+      progressSyncQueue.forceFlush(roomId, user.uid).catch(console.error);
+    }
   }, [user, isMultiplayer, roomId, score, currentIdx, isGameOver]);
 
   const hasSavedHistory = useRef(false);
@@ -278,71 +279,98 @@ export default function RetoSagradoPlay() {
     if (!isLoaded || isInitializing.current) return;
     isInitializing.current = true;
 
-    // Get all combined questions for the selected language
-    let combined = getSacredQuestions((language === 'es' || language === 'fr' || language === 'ht') ? language : 'es');
-    
-    if (isMultiplayer) {
-      if (!roomId) return;
-      // Fetch the room document to get the synchronized question IDs
-      const roomRef = doc(db, `reto_sagrado_rooms/${roomId}`);
-      const unsubscribe = onSnapshot(roomRef, (snap) => {
-        const data = snap.data();
-        if (data && data.questionIds && data.questionIds.length > 0) {
-          const syncedIds = data.questionIds as string[];
-          const resolvedQuestions = syncedIds.map(id => combined.find(q => q.id === id)).filter(Boolean) as SacredQuestion[];
-          
-          if (resolvedQuestions.length > 0) {
-            setQuestions(resolvedQuestions);
-            setIsLoading(false);
-          } else {
-            // Fallback if resolvedQuestions is empty for some reason
-            const easyPool = combined.filter(q => q.difficulty === 'easy' || !q.difficulty);
-            const mediumPool = combined.filter(q => q.difficulty === 'medium');
-            const hardPool = combined.filter(q => q.difficulty === 'hard');
-            const selectedEasy = [...easyPool].sort(() => Math.random() - 0.5).slice(0, 15);
-            const selectedMedium = [...mediumPool].sort(() => Math.random() - 0.5).slice(0, 15);
-            const selectedHard = [...hardPool].sort(() => Math.random() - 0.5).slice(0, 20);
-            selectedEasy.sort((a, b) => a.type.localeCompare(b.type));
-            selectedMedium.sort((a, b) => a.type.localeCompare(b.type));
-            selectedHard.sort((a, b) => a.type.localeCompare(b.type));
-            setQuestions([...selectedEasy, ...selectedMedium, ...selectedHard]);
-            setIsLoading(false);
+    const initQuestions = async () => {
+      const activeLang = (language === 'es' || language === 'fr' || language === 'ht') ? language : 'es';
+      let combined = await getSacredQuestions(activeLang);
+
+      if (isMultiplayer) {
+        if (!roomId) return;
+        try {
+          // Fetch the room document to get the synchronized question IDs once (no listener to avoid reset bug)
+          const roomRef = doc(db, `reto_sagrado_rooms/${roomId}`);
+          const snap = await getDoc(roomRef);
+          const data = snap.data();
+          if (data && data.questionIds && data.questionIds.length > 0) {
+            const syncedIds = data.questionIds as string[];
+            
+            // Intentar obtener de IndexedDB primero
+            let resolvedQuestions = await getCachedSacredQuestionsByIds(syncedIds, activeLang);
+            
+            // Fallback a combined si faltan en caché
+            if (resolvedQuestions.length < syncedIds.length) {
+              const fallback = syncedIds.map(id => combined.find(q => q.id === id)).filter(Boolean) as SacredQuestion[];
+              resolvedQuestions = syncedIds.map(id => resolvedQuestions.find(q => q.id === id) || fallback.find(q => q.id === id)).filter(Boolean) as SacredQuestion[];
+              
+              // Guardar en caché local para offline
+              if (resolvedQuestions.length > 0) {
+                await saveSacredQuestionsToCache(resolvedQuestions).catch(console.error);
+              }
+            }
+
+            if (resolvedQuestions.length > 0) {
+              setQuestions(resolvedQuestions);
+              setIsLoading(false);
+            } else {
+              // Fallback de seguridad
+              const easyPool = combined.filter(q => q.difficulty === 'easy' || !q.difficulty);
+              const selectedEasy = [...easyPool].sort(() => Math.random() - 0.5).slice(0, 15);
+              setQuestions(selectedEasy);
+              setIsLoading(false);
+            }
           }
+        } catch (error) {
+          console.error('[RETO_SAGRADO] Error loading room questions:', error);
+          toast.error("Error al cargar la sala de juego");
         }
-      });
-      return () => unsubscribe();
-    } else {
-      // Determine number of questions based on difficulty
-      const diff = searchParams.get('difficulty') || 'easy';
-      let questionCount = 10;
-      if (diff === 'medium') questionCount = 20;
-      else if (diff === 'hard') questionCount = 30;
+      } else {
+        // Modo un jugador
+        try {
+          // Primero intentamos buscar en IndexedDB si ya tenemos guardadas preguntas del tipo e idioma
+          let resolvedQuestions = await getCachedSacredQuestions(activeLang);
+          if (resolvedQuestions.length === 0) {
+            // Guardar asíncronamente en cache
+            saveSacredQuestionsToCache(combined).catch(console.error);
+            resolvedQuestions = combined;
+          }
 
-      // Distribute among different types
-      const allTypes = ['multiple_choice', 'true_false', 'complete_sentence', 'trick_question', 'order_events', 'image_question'];
-      const activeTypes = [...allTypes].sort(() => Math.random() - 0.5);
-      
-      let perType = 2;
-      if (questionCount === 20) perType = 4;
-      else if (questionCount === 30) perType = 6;
-      
-      const chosen: SacredQuestion[] = [];
-      for (const t of activeTypes) {
-        const ofType = combined.filter(q => q.type === t);
-        if (ofType.length > 0) {
-          const shuffledOfType = [...ofType].sort(() => Math.random() - 0.5).slice(0, perType);
-          chosen.push(...shuffledOfType);
+          // Determine number of questions based on difficulty
+          const diff = searchParams.get('difficulty') || 'easy';
+          let questionCount = 10;
+          if (diff === 'medium') questionCount = 20;
+          else if (diff === 'hard') questionCount = 30;
+
+          // Distribute among different types
+          const allTypes = ['multiple_choice', 'true_false', 'complete_sentence', 'trick_question', 'order_events', 'image_question'];
+          const activeTypes = [...allTypes].sort(() => Math.random() - 0.5);
+          
+          let perType = 2;
+          if (questionCount === 20) perType = 4;
+          else if (questionCount === 30) perType = 6;
+          
+          const chosen: SacredQuestion[] = [];
+          for (const t of activeTypes) {
+            const ofType = resolvedQuestions.filter((q: SacredQuestion) => q.type === t);
+            if (ofType.length > 0) {
+              const shuffledOfType = [...ofType].sort(() => Math.random() - 0.5).slice(0, perType);
+              chosen.push(...shuffledOfType);
+            }
+            if (chosen.length >= questionCount) break;
+          }
+
+          const finalSelection = chosen.slice(0, questionCount);
+          // Sort to group identical types together
+          finalSelection.sort((a, b) => a.type.localeCompare(b.type));
+
+          setQuestions(finalSelection);
+          setIsLoading(false);
+        } catch (error) {
+          console.error('[RETO_SAGRADO] Error initializing questions:', error);
+          setIsLoading(false);
         }
-        if (chosen.length >= questionCount) break;
       }
+    };
 
-      const finalSelection = chosen.slice(0, questionCount);
-      // Sort to group identical types together
-      finalSelection.sort((a, b) => a.type.localeCompare(b.type));
-
-      setQuestions(finalSelection);
-      setIsLoading(false);
-    }
+    initQuestions();
   }, [language, isMultiplayer, roomId, isLoaded]);
 
   // Set up order_events items when entering an ordering question

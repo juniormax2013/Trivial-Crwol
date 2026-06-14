@@ -25,6 +25,8 @@ import {
   updatePlayerProgress,
   completeArenaMatch
 } from '@/lib/arena/repository';
+import { progressSyncQueue } from '@/lib/cache/answers-queue';
+import { getCachedDuelQuestionsByIds, saveDuelQuestionsToCache } from '@/lib/game/questionCache';
 import { ArenaSession, ArenaPlayer } from '@/lib/arena/models';
 import { ALL_DUEL_QUESTIONS } from '@/lib/duel/seed';
 import { DuelQuestion } from '@/lib/duel/models';
@@ -93,6 +95,9 @@ export default function CrownArenaPlayPage() {
     const roomToUse = currentRoom || room;
     if (!user || !roomToUse) return;
     
+    // Flush any pending progress updates immediately
+    await progressSyncQueue.forceFlush(roomId, user.uid);
+
     // Check if everyone is finished
     const activePlayers = roomToUse.players.filter((p: ArenaPlayer) => p.status !== 'left');
     
@@ -168,26 +173,49 @@ export default function CrownArenaPlayPage() {
     if (room && phase === 'loading') {
       console.log('[PLAY] Room loaded, status:', room.status, 'questionIds:', room.questionIds?.length);
       
-      // Get questions by IDs stored in the session, using user's language if available
-      const allQs = (room.questionIds || []).map(id => {
-        // Find translation in user's language first
-        const translated = ALL_DUEL_QUESTIONS.find(q => q.id === id && q.language === userLanguage);
-        // Fallback to 'ht', then any language if not found
-        const fallbackHt = ALL_DUEL_QUESTIONS.find(q => q.id === id && q.language === 'ht');
-        return translated || fallbackHt || ALL_DUEL_QUESTIONS.find(q => q.id === id);
-      }).filter(Boolean) as DuelQuestion[];
-      
-      console.log('[PLAY] Questions resolved from pool:', allQs.length, 'lang:', userLanguage);
+      const fetchQuestions = async () => {
+        try {
+          // Intentar resolver desde IndexedDB primero
+          let resolvedQs = await getCachedDuelQuestionsByIds(room.questionIds || [], userLanguage);
+          
+          // Fallback al array bundleado si no están en caché
+          if (resolvedQs.length < (room.questionIds || []).length) {
+            console.log('[PLAY] Some questions missing from cache, resolving from memory bundle...');
+            const fallbackQs = (room.questionIds || []).map(id => {
+              const translated = ALL_DUEL_QUESTIONS.find(q => q.id === id && q.language === userLanguage);
+              const fallbackHt = ALL_DUEL_QUESTIONS.find(q => q.id === id && q.language === 'ht');
+              return translated || fallbackHt || ALL_DUEL_QUESTIONS.find(q => q.id === id);
+            }).filter(Boolean) as DuelQuestion[];
 
-      if (allQs.length === 0) {
-        console.error('[PLAY] No questions found for IDs:', room.questionIds);
-        toast.error("No se pudieron cargar las preguntas");
-        setTimeout(() => router.push('/arena/crown-arena'), 2000);
-        return;
-      }
+            // Combinar para completar
+            resolvedQs = (room.questionIds || []).map(id => {
+              return resolvedQs.find(q => q.id === id) || fallbackQs.find(q => q.id === id);
+            }).filter(Boolean) as DuelQuestion[];
 
-      setQuestions(allQs);
-      setPhase('preparing');
+            // Guardar en caché para usos futuros
+            if (resolvedQs.length > 0) {
+              await saveDuelQuestionsToCache(resolvedQs).catch(console.error);
+            }
+          }
+
+          console.log('[PLAY] Questions resolved:', resolvedQs.length, 'lang:', userLanguage);
+
+          if (resolvedQs.length === 0) {
+            console.error('[PLAY] No questions found for IDs:', room.questionIds);
+            toast.error("No se pudieron cargar las preguntas");
+            setTimeout(() => router.push('/arena/crown-arena'), 2000);
+            return;
+          }
+
+          setQuestions(resolvedQs);
+          setPhase('preparing');
+        } catch (error) {
+          console.error('[PLAY] Error resolving questions:', error);
+          toast.error("Error al cargar las preguntas");
+        }
+      };
+
+      fetchQuestions();
     }
   // userLanguage added so questions reload in the correct language
   }, [room, phase, router, userLanguage]);
@@ -246,9 +274,10 @@ export default function CrownArenaPlayPage() {
       playWrongSound();
     }
 
-    // Update progress in Firestore
+    // Update progress in Firestore via sync queue
     const newScore = score + points;
-    updatePlayerProgress(roomId, user.uid, newScore, currentIdx + 1, currentIdx + 1 === questions.length);
+    const isFinished = currentIdx + 1 === questions.length;
+    progressSyncQueue.enqueue('crown_arena', roomId, user.uid, newScore, currentIdx + 1, isFinished);
 
     // Auto-advance
     setTimeout(() => {

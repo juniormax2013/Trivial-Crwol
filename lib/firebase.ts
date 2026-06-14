@@ -4,7 +4,7 @@
 
 import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
-import { getFirestore } from "firebase/firestore";
+import { getFirestore, enableIndexedDbPersistence } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 /**
@@ -47,6 +47,16 @@ export const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfi
 // Export common services
 export const auth = getAuth(app);
 export const db = getFirestore(app);
+
+if (typeof window !== 'undefined') {
+  enableIndexedDbPersistence(db).catch((err) => {
+    if (err.code === 'failed-precondition') {
+      console.warn('Firestore persistence failed-precondition (multiple tabs)');
+    } else if (err.code === 'unimplemented') {
+      console.warn('Firestore persistence unimplemented');
+    }
+  });
+}
 export const storage = getStorage(app);
 export const googleProvider = new GoogleAuthProvider();
 googleProvider.setCustomParameters({

@@ -1,7 +1,3 @@
-import { ALL_QUESTIONS_ES } from '../duel/questionsES';
-import { ALL_QUESTIONS_FR } from '../duel/questionsFR_standardized';
-import { ALL_QUESTIONS_HT } from '../duel/questionsHT_standardized';
-
 export interface SacredQuestion {
   id: string;
   type: 'multiple_choice' | 'true_false' | 'complete_sentence' | 'order_events' | 'image_question' | 'trick_question';
@@ -15,13 +11,20 @@ export interface SacredQuestion {
   difficulty?: 'easy' | 'medium' | 'hard';
 }
 
-export function getSacredQuestions(lang: 'es' | 'ht' | 'fr'): SacredQuestion[] {
+export async function getSacredQuestions(lang: 'es' | 'ht' | 'fr'): Promise<SacredQuestion[]> {
   const custom = SACRED_QUESTIONS.filter(q => q.language === lang);
 
   let duelSource: any[] = [];
-  if (lang === 'es') duelSource = ALL_QUESTIONS_ES;
-  else if (lang === 'fr') duelSource = ALL_QUESTIONS_FR;
-  else if (lang === 'ht') duelSource = ALL_QUESTIONS_HT;
+  if (lang === 'es') {
+    const mod = await import('../duel/questionsES');
+    duelSource = mod.ALL_QUESTIONS_ES;
+  } else if (lang === 'fr') {
+    const mod = await import('../duel/questionsFR_standardized');
+    duelSource = mod.ALL_QUESTIONS_FR;
+  } else if (lang === 'ht') {
+    const mod = await import('../duel/questionsHT_standardized');
+    duelSource = mod.ALL_QUESTIONS_HT;
+  }
 
   const converted: SacredQuestion[] = duelSource.map((dq, index) => {
     const originalOptions = dq.options.map((o: any) => o.text);

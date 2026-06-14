@@ -149,6 +149,8 @@ export default function RetoSagradoLobby() {
 
   const searchParams = useSearchParams();
   const roomParam = searchParams.get('room');
+  const lang = ((userLanguage as string) === 'fr' || (userLanguage as string) === 'es' || (userLanguage as string) === 'en' || (userLanguage as string) === 'ht') ? (userLanguage as 'fr' | 'es' | 'en' | 'ht') : 'es';
+  const localT = LOBBY_TRANSLATIONS[lang];
 
   const [mode, setMode] = useState<'solo' | 'friend'>('solo');
   const [difficulty, setDifficulty] = useState<'easy' | 'medium' | 'hard'>('easy');
@@ -165,8 +167,33 @@ export default function RetoSagradoLobby() {
     }
   }, [roomParam]);
 
-  const lang = ((userLanguage as string) === 'fr' || (userLanguage as string) === 'es' || (userLanguage as string) === 'en' || (userLanguage as string) === 'ht') ? (userLanguage as 'fr' | 'es' | 'en' | 'ht') : 'es';
-  const localT = LOBBY_TRANSLATIONS[lang];
+  // Auto-join guest to Reto Sagrado room if joining via URL link
+  useEffect(() => {
+    if (roomParam && user && isLoaded) {
+      const joinRoom = async () => {
+        try {
+          const guestPlayerRef = doc(db, `reto_sagrado_rooms/${roomParam}/players`, user.uid);
+          const defaultName = lang === 'es' ? 'Noble Peregrino' : lang === 'fr' ? 'Noble Pèlerin' : 'Nòb Pèleren';
+          await setDoc(guestPlayerRef, {
+            id: user.uid,
+            userId: user.uid,
+            name: user.fullName || user.username || defaultName,
+            avatarUrl: user.photoURL || null,
+            status: 'ready',
+            score: 0,
+            currentQuestion: 1,
+            isFinished: false,
+            joinedAt: new Date().toISOString()
+          }, { merge: true });
+          console.log(`[LOBBY] Guest auto-joined Reto Sagrado room: ${roomParam}`);
+        } catch (error) {
+          console.error('[LOBBY] Error auto-joining guest to Reto Sagrado:', error);
+        }
+      };
+      
+      joinRoom();
+    }
+  }, [roomParam, user, isLoaded, lang]);
 
   if (!isLoaded) {
     return (
@@ -363,7 +390,7 @@ export default function RetoSagradoLobby() {
     if (!activeRoomId || !user) return;
     try {
       // Generate question IDs synchronically for both players
-      const combined = getSacredQuestions((userLanguage === 'es' || userLanguage === 'fr' || userLanguage === 'ht') ? userLanguage : 'es');
+      const combined = await getSacredQuestions((userLanguage === 'es' || userLanguage === 'fr' || userLanguage === 'ht') ? userLanguage : 'es');
       const easyPool = combined.filter(q => q.difficulty === 'easy' || !q.difficulty);
       const mediumPool = combined.filter(q => q.difficulty === 'medium');
       const hardPool = combined.filter(q => q.difficulty === 'hard');

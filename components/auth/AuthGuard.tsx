@@ -47,7 +47,7 @@ export function AuthGuard({ children }: { children: React.ReactNode }) {
       if (!firebaseUser && !isPublicRoute && !(isAdminDashboard && isMockAdmin)) {
         // Save the current path to return to after login/restoration
         if (typeof window !== 'undefined' && pathname && pathname !== '/' && pathname !== '/login') {
-          sessionStorage.setItem('auth_redirect_path', pathname);
+          sessionStorage.setItem('auth_redirect_path', window.location.pathname + window.location.search);
         }
         router.push('/login');
       } else if (firebaseUser && isPublicRoute && pathname !== '/admin' && pathname !== '/test-character') {

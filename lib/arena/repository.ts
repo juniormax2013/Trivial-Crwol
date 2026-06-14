@@ -82,6 +82,7 @@ export async function createArenaSession(
     streak: 0,
     totalResponseTime: 0,
     lastAnswerCorrect: false,
+    isFinished: false,
     joinedAt: now
   };
 
@@ -93,7 +94,7 @@ export async function createArenaSession(
 /**
  * Selects 20 questions: 7 Easy, 7 Medium, 6 Hard
  */
-async function selectProgressiveQuestions(categoryIds: string[], language: string): Promise<string[]> {
+export async function selectProgressiveQuestions(categoryIds: string[], language: string): Promise<string[]> {
   const isRandom = categoryIds.includes('random');
   
   // If random, we can pick a few categories to keep it diverse but focused
@@ -188,6 +189,7 @@ export async function joinArenaSession(
     streak: 0,
     totalResponseTime: 0,
     lastAnswerCorrect: false,
+    isFinished: false,
     joinedAt: now
   };
 
