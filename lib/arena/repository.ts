@@ -482,9 +482,16 @@ export async function completeArenaMatch(arenaId: string): Promise<void> {
   try {
     await completeMatchFn({ arenaId });
   } catch (error: any) {
-    console.error('Error in completeArenaMatch:', error);
-    toast.error('Error al finalizar la partida: ' + (error.message || 'Error desconocido'));
-    throw error;
+    console.error('Error in completeArenaMatch, trying client-side fallback:', error);
+    // Fallback directly to marking the game status as finished client-side
+    try {
+      await finishArenaGame(arenaId);
+      console.log('Client-side fallback finishArenaGame succeeded.');
+    } catch (fallbackError: any) {
+      console.error('Fallback finishArenaGame failed too:', fallbackError);
+      toast.error('Error al finalizar la partida: ' + (error.message || 'Error desconocido'));
+      throw error;
+    }
   }
 }
 

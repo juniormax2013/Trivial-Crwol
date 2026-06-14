@@ -21,6 +21,7 @@ import {
   updateDailyChallengeStatus,
 } from './repository';
 import { getGameEngineConfig } from '../admin/settings-repository';
+import { getLevelFromXp } from '../user/repository';
 
 // ---------------------------------------------------------------
 // AVAILABILITY LOGIC
@@ -271,6 +272,9 @@ export async function completeDailyChallenge(
   const totalAnswers = newTotalCorrect + newTotalWrong;
   const newAccuracyRate = totalAnswers > 0 ? Math.round((newTotalCorrect / totalAnswers) * 100) : 0;
 
+  const newXp = (userData.xp || 0) + xpEarned;
+  const newLevel = getLevelFromXp(newXp);
+
   // Update user stats
   await updateUserRewardsAndStreak(uid, {
     lastDailyChallengeDate: today,
@@ -279,7 +283,8 @@ export async function completeDailyChallenge(
     bestStreak: newBestStreak,
     monthlyStreakDays: newMonthlyStreak,
     bestMonthlyStreak: newBestMonthlyStreak,
-    xp: (userData.xp || 0) + xpEarned,
+    xp: newXp,
+    level: newLevel,
     coins: (userData.coins || 0) + coinsEarned,
     gems: (userData.gems || 0) + gemsEarned,
     crowns: (userData.crowns || 0) + crownsEarned,
@@ -314,12 +319,46 @@ export async function completeDailyChallenge(
 // UI HELPERS
 // ---------------------------------------------------------------
 
-export function getMotivationalMessage(accuracyPercent: number): string {
-  if (accuracyPercent === 100) return 'Pafè! Ou metrize Pawòl Bondye a. 🏆';
-  if (accuracyPercent >= 80) return 'Ekselan! Konesans biblik ou solid. ✨';
-  if (accuracyPercent >= 60) return 'Bon travay! Kontinye grandi nan Pawòl la. 📖';
-  if (accuracyPercent >= 40) return 'Ou sou bon chemen! Pa abandone. 💪';
-  return 'Sajès kòmanse ak imilite. Kontinye pratike! 🙏';
+export function getMotivationalMessage(accuracyPercent: number, lang: string = 'ht'): string {
+  const messages: Record<string, { perfect: string; excellent: string; good: string; path: string; tryAgain: string }> = {
+    es: {
+      perfect: '¡Perfecto! Has dominado la Palabra de Dios. 🏆',
+      excellent: '¡Excelente! Tu conocimiento bíblico es sólido. ✨',
+      good: '¡Buen trabajo! Sigue creciendo en la Palabra. 📖',
+      path: '¡Vas por buen camino! No te rindas. 💪',
+      tryAgain: 'La sabiduría comienza con la humildad. ¡Sigue practicando! 🙏'
+    },
+    en: {
+      perfect: 'Perfect! You have mastered the Word of God. 🏆',
+      excellent: 'Excellent! Your biblical knowledge is solid. ✨',
+      good: 'Good job! Keep growing in the Word. 📖',
+      path: 'You are on the right track! Don\'t give up. 💪',
+      tryAgain: 'Wisdom begins with humility. Keep practicing! 🙏'
+    },
+    fr: {
+      perfect: 'Parfait ! Vous maîtrisez la Parole de Dieu. 🏆',
+      excellent: 'Excellent ! Votre connaissance biblique est solide. ✨',
+      good: 'Bon travail ! Continuez à grandir dans la Parole. 📖',
+      path: 'Vous êtes sur la bonne voie ! N\'abandonnez pas. 💪',
+      tryAgain: 'La sagesse commence par l\'humilité. Continuez à vous entraîner ! 🙏'
+    },
+    ht: {
+      perfect: 'Pafè! Ou metrize Pawòl Bondye a. 🏆',
+      excellent: 'Ekselan! Konesans biblik ou solid. ✨',
+      good: 'Bon travay! Kontinye grandi nan Pawòl la. 📖',
+      path: 'Ou sou bon chemen! Pa abandone. 💪',
+      tryAgain: 'Sajès kòmanse ak imilite. Kontinye pratike! 🙏'
+    }
+  };
+
+  const activeLang = messages[lang] ? lang : 'ht';
+  const set = messages[activeLang];
+
+  if (accuracyPercent === 100) return set.perfect;
+  if (accuracyPercent >= 80) return set.excellent;
+  if (accuracyPercent >= 60) return set.good;
+  if (accuracyPercent >= 40) return set.path;
+  return set.tryAgain;
 }
 
 export function getDifficultyLabel(difficulty: 'easy' | 'medium' | 'hard'): string {

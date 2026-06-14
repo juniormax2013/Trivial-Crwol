@@ -1,0 +1,11 @@
+# ignore heavy 3D GLB assets from functions package
+**/*.glb
+public/models/**
+public/assets/**
+aliados_assets_pack/**
+Assets image/**
+assets/**
+**/node_modules/**
+.git/**
+.next/**
+.firebase/**

@@ -72,10 +72,15 @@ export default function NewDuelPage() {
   useEffect(() => {
     async function fetchPlayers() {
       try {
-        const { listAllUsers } = await import('@/lib/user/repository');
+        const { listAllUsers, getLevelFromXp } = await import('@/lib/user/repository');
         const users = await listAllUsers(50);
+        // Map users to include calculated levels
+        const mappedUsers = users.map(u => ({
+          ...u,
+          level: getLevelFromXp(u.xp)
+        }));
         // Exclude current user and only show active ones
-        const available = users.filter(u => u.uid !== user?.uid && u.status === 'active');
+        const available = mappedUsers.filter(u => u.uid !== user?.uid && u.status === 'active');
         setRealOpponents(available);
       } catch (err) {
         console.error('Failed to load opponents', err);

@@ -70,9 +70,14 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
   const [hasSecondChance, setHasSecondChance] = useState(false);
 
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const lastInitializedIndexRef = useRef<number>(-1);
+  const isInitializing = useRef(false);
 
   // ── Initial Data Fetch ─────────────────────────────────────
   useEffect(() => {
+    if (isInitializing.current) return;
+    isInitializing.current = true;
+
     (async () => {
       const [d, gc] = await Promise.all([
         getDuelById(duelId),
@@ -112,6 +117,11 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
   // ── Reset timer on new question ───────────────────────────
   useEffect(() => {
     if (phase === 'question') {
+      if (lastInitializedIndexRef.current === questionIndex) {
+        return;
+      }
+      lastInitializedIndexRef.current = questionIndex;
+
       setTimeLeft(duel?.turnTimeLimitSeconds ?? 20);
       setQuestionStartTime(Date.now());
       setActivePowerUps([]);

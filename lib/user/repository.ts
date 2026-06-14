@@ -23,8 +23,23 @@ import {
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { db, storage } from "@/lib/firebase";
 import { AppUserModel, DEFAULT_USER_SETTINGS, INITIAL_USER_STATS } from "./models";
+import { ReferralCodeDoc, ReferralRelationDoc, ReferralStats, REFERRAL_REWARDS } from "./referralModels";
 
 const COLLECTION_NAME = "users";
+
+/**
+ * Calculate player level from cumulative XP using a geometric progression.
+ * Each level requires double the XP of the previous level:
+ * Niv 1 -> 2: 1000 XP
+ * Niv 2 -> 3: 2000 XP
+ * Niv 3 -> 4: 4000 XP
+ * ...
+ * Formula: Level = floor(log2(XP / 1000 + 1)) + 1
+ */
+export function getLevelFromXp(xp: number): number {
+  if (!xp || xp <= 0) return 1;
+  return Math.floor(Math.log2(xp / 1000 + 1)) + 1;
+}
 
 /**
  * HELPER: MAP USER DOCUMENT TO FULL MODEL
@@ -241,8 +256,12 @@ export async function updateUserStats(
       const userData = userSnap.data() as AppUserModel;
 
       // 2. LOGIC AND CALCULATIONS
+      const newXp = (userData.xp || 0) + stats.xp;
+      const newLevel = getLevelFromXp(newXp);
+
       const updateData: any = {
-        xp: (userData.xp || 0) + stats.xp,
+        xp: newXp,
+        level: newLevel,
         coins: (userData.coins || 0) + stats.coins,
         crowns: (userData.crowns || 0) + stats.crowns,
         totalGames: (userData.totalGames || 0) + 1,
@@ -375,11 +394,23 @@ export async function grantJweRewards(uid: string, isDoubled: boolean = false, c
     const baseCoins = Math.ceil(7 * challengeMultiplier);
     
     const userRef = doc(db, COLLECTION_NAME, uid);
-    await updateDoc(userRef, {
-      crowns: increment(baseCrowns * multiplier),
-      xp: increment(baseXp),
-      coins: increment(baseCoins * multiplier),
-      updatedAt: new Date().toISOString()
+    await runTransaction(db, async (transaction) => {
+      const userSnap = await transaction.get(userRef);
+      if (!userSnap.exists()) {
+        throw new Error(`User document not found for uid: ${uid}`);
+      }
+      const userData = userSnap.data() as AppUserModel;
+      
+      const newXp = (userData.xp || 0) + baseXp;
+      const newLevel = getLevelFromXp(newXp);
+      
+      transaction.update(userRef, {
+        crowns: (userData.crowns || 0) + (baseCrowns * multiplier),
+        xp: newXp,
+        level: newLevel,
+        coins: (userData.coins || 0) + (baseCoins * multiplier),
+        updatedAt: new Date().toISOString()
+      });
     });
   } catch (error) {
     console.error("Error granting Jwe rewards:", error);
@@ -447,5 +478,261 @@ export async function resetAllUsersEnergy(): Promise<void> {
   } catch (error) {
     console.error("Error resetting all users energy:", error);
     throw error;
+  }
+}
+
+/**
+ * SAVE A COMPLETED GAME TO USER GAME HISTORY
+ */
+export async function saveGamePlay(
+  uid: string,
+  record: {
+    gameMode: 'reto_sagrado' | 'jwe_bib_la' | 'daily_challenge';
+    score: number;
+    outcome: 'win' | 'loss' | 'tie';
+    opponentName?: string;
+    opponentScore?: number;
+  }
+): Promise<void> {
+  try {
+    const newRecord = {
+      ...record,
+      createdAt: new Date().toISOString(),
+    };
+    if (typeof window !== 'undefined' && (!process.env.NEXT_PUBLIC_FIREBASE_API_KEY || !db)) {
+      const unifiedKey = `bible_crown_game_history_${uid}`;
+      const uniRaw = localStorage.getItem(unifiedKey);
+      const uniHistory = uniRaw ? JSON.parse(uniRaw) : [];
+      uniHistory.unshift(newRecord);
+      localStorage.setItem(unifiedKey, JSON.stringify(uniHistory));
+      return;
+    }
+    const historyRef = collection(db, `users/${uid}/game_history`);
+    const docRef = doc(historyRef);
+    await setDoc(docRef, newRecord);
+  } catch (error) {
+    console.error("Error saving game history record:", error);
+  }
+}
+
+/**
+ * GET USER GAME HISTORY FOR THE LAST 7 DAYS
+ */
+export async function getRecentGameHistory(uid: string): Promise<any[]> {
+  try {
+    if (typeof window !== 'undefined' && (!process.env.NEXT_PUBLIC_FIREBASE_API_KEY || !db)) {
+      const unifiedKey = `bible_crown_game_history_${uid}`;
+      const uniRaw = localStorage.getItem(unifiedKey);
+      return uniRaw ? JSON.parse(uniRaw) : [];
+    }
+    const historyRef = collection(db, `users/${uid}/game_history`);
+    const q = query(
+      historyRef,
+      orderBy("createdAt", "desc"),
+      limit(50)
+    );
+    const snapshot = await getDocs(q);
+    return snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+  } catch (error) {
+    console.warn("Error getting recent game history:", error);
+    return [];
+  }
+}
+
+// ---------------------------------------------------------------
+// REFERRAL SYSTEM FUNCTIONS
+// ---------------------------------------------------------------
+
+/**
+ * Genera o recupera un código de referido único para el usuario.
+ * Si ya existe, lo devuelve sin crear uno nuevo.
+ */
+export async function getOrCreateReferralCode(uid: string): Promise<string> {
+  try {
+    const userRef = doc(db, "users", uid);
+    const userSnap = await getDoc(userRef);
+    if (!userSnap.exists()) throw new Error("User not found");
+    const userData = userSnap.data() as AppUserModel;
+
+    // Si ya tiene código, devolver el existente
+    if (userData.referralCode) return userData.referralCode;
+
+    // Generar nuevo código único: 8 chars alfanuméricos en mayúsculas
+    const chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+    let code = "";
+    for (let i = 0; i < 8; i++) {
+      code += chars.charAt(Math.floor(Math.random() * chars.length));
+    }
+
+    const now = new Date().toISOString();
+    const codeDoc: ReferralCodeDoc = { code, uid, createdAt: now };
+
+    // Guardar en referralCodes/{code} y en el perfil del usuario
+    const batch = writeBatch(db);
+    batch.set(doc(db, "referralCodes", code), codeDoc);
+    batch.update(userRef, { referralCode: code, updatedAt: now });
+    await batch.commit();
+
+    return code;
+  } catch (error) {
+    console.error("Error getting/creating referral code:", error);
+    throw error;
+  }
+}
+
+/**
+ * Aplica un código de referido al momento del registro.
+ * Valida que el código exista, que no sea auto-referido y que
+ * el usuario no haya sido referido antes.
+ */
+export async function applyReferralOnRegister(
+  newUserId: string,
+  code: string
+): Promise<void> {
+  try {
+    // 1. Resolver a quién pertenece el código
+    const codeSnap = await getDoc(doc(db, "referralCodes", code));
+    if (!codeSnap.exists()) {
+      console.warn("Referral code not found:", code);
+      return;
+    }
+    const codeData = codeSnap.data() as ReferralCodeDoc;
+
+    // 2. Evitar auto-referido
+    if (codeData.uid === newUserId) {
+      console.warn("Self-referral attempt blocked");
+      return;
+    }
+
+    // 3. Verificar que este usuario no haya sido referido antes
+    const existingReferral = await getDoc(doc(db, "referrals", newUserId));
+    if (existingReferral.exists()) {
+      console.warn("User already has a referral record");
+      return;
+    }
+
+    const now = new Date().toISOString();
+    const relation: ReferralRelationDoc = {
+      referredUid: newUserId,
+      referrerUid: codeData.uid,
+      status: "registered",
+      createdAt: now,
+    };
+
+    // 4. Guardar relación y marcar al nuevo usuario con referredBy
+    const batch = writeBatch(db);
+    batch.set(doc(db, "referrals", newUserId), relation);
+    batch.update(doc(db, "users", newUserId), {
+      referredBy: codeData.uid,
+      updatedAt: now,
+    });
+    // Incrementar contador de registrados en el referidor
+    batch.update(doc(db, "users", codeData.uid), {
+      "referralStats.registeredCount": increment(1),
+      updatedAt: now,
+    });
+    await batch.commit();
+  } catch (error) {
+    console.error("Error applying referral on register:", error);
+  }
+}
+
+/**
+ * Verifica y califica un referido cuando completa su primera partida.
+ * Solo dispara si: el usuario fue referido Y no está aún calificado.
+ * Tras calificar, entrega recompensas progresivas al referidor.
+ */
+export async function checkAndQualifyReferral(
+  referredUid: string,
+  firstGameId?: string
+): Promise<void> {
+  try {
+    // Verificar si el usuario fue referido
+    const referralSnap = await getDoc(doc(db, "referrals", referredUid));
+    if (!referralSnap.exists()) return;
+
+    const referral = referralSnap.data() as ReferralRelationDoc;
+    // Ya está calificado, no hacer nada
+    if (referral.status === "qualified") return;
+
+    const now = new Date().toISOString();
+    const referrerUid = referral.referrerUid;
+
+    // Obtener el perfil del referidor para conocer el nivel actual
+    const referrerSnap = await getDoc(doc(db, "users", referrerUid));
+    if (!referrerSnap.exists()) return;
+    const referrerData = referrerSnap.data() as AppUserModel;
+
+    const currentStats: ReferralStats = referrerData.referralStats ?? {
+      registeredCount: 0,
+      qualifiedCount: 0,
+      claimedLevels: [],
+    };
+
+    const newQualifiedCount = (currentStats.qualifiedCount ?? 0) + 1;
+
+    // Determinar las recompensas desbloqueadas (niveles nuevos)
+    const batch = writeBatch(db);
+
+    // Marcar el referido como calificado
+    batch.update(doc(db, "referrals", referredUid), {
+      status: "qualified",
+      qualifiedAt: now,
+      ...(firstGameId ? { firstGameId } : {}),
+    });
+
+    // Marcar primera partida completada en el referido
+    batch.update(doc(db, "users", referredUid), {
+      firstGameCompleted: true,
+      updatedAt: now,
+    });
+
+    // Calcular recompensas acumuladas por niveles nuevos desbloqueados
+    const claimedLevels = currentStats.claimedLevels ?? [];
+    let totalCoins = 0;
+    let totalGems = 0;
+    let totalCrowns = 0;
+    let totalEnergy = 0;
+    const newFrames: string[] = [];
+    const newClaimed: number[] = [...claimedLevels];
+
+    for (const reward of REFERRAL_REWARDS) {
+      if (
+        newQualifiedCount >= reward.requiredQualified &&
+        !claimedLevels.includes(reward.level)
+      ) {
+        totalCoins += reward.coins;
+        totalGems += reward.gems;
+        totalCrowns += reward.crowns;
+        totalEnergy += reward.jweEnergy;
+        if (reward.frameId) newFrames.push(reward.frameId);
+        newClaimed.push(reward.level);
+      }
+    }
+
+    // Actualizar perfil del referidor con recompensas y stats
+    const referrerUpdate: Record<string, any> = {
+      "referralStats.qualifiedCount": newQualifiedCount,
+      "referralStats.claimedLevels": newClaimed,
+      updatedAt: now,
+    };
+    if (totalCoins > 0) referrerUpdate.coins = increment(totalCoins);
+    if (totalGems > 0) referrerUpdate.gems = increment(totalGems);
+    if (totalCrowns > 0) referrerUpdate.crowns = increment(totalCrowns);
+    if (totalEnergy > 0) referrerUpdate.jweEnergy = increment(totalEnergy);
+    if (newFrames.length > 0) {
+      const existingFrames = referrerData.ownedFrames ?? [];
+      referrerUpdate.ownedFrames = [...new Set([...existingFrames, ...newFrames])];
+    }
+
+    batch.update(doc(db, "users", referrerUid), referrerUpdate);
+
+    await batch.commit();
+
+    console.log(
+      `Referral qualified: ${referredUid} → ${referrerUid}. New level count: ${newQualifiedCount}`
+    );
+  } catch (error) {
+    console.error("Error qualifying referral:", error);
   }
 }

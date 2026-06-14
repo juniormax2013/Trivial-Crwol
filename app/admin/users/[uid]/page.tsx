@@ -28,7 +28,7 @@ import {
   X
 } from 'lucide-react';
 import { AdminGuard } from '@/components/auth/AdminGuard';
-import { getUser, updateUser, deleteUser } from '@/lib/user/repository';
+import { getUser, updateUser, deleteUser, getLevelFromXp } from '@/lib/user/repository';
 import { AppUserModel, UserRole, UserStatus } from '@/lib/user/models';
 
 export default function AdminUserDetailPage() {
@@ -180,7 +180,7 @@ export default function AdminUserDetailPage() {
                 </div>
                 
                 <div className="flex flex-wrap items-center justify-center md:justify-start gap-3">
-                  <span className="px-4 py-1.5 bg-[#4a148c] text-white rounded-full font-black text-[10px] uppercase tracking-widest shadow-sm">Nivel {user.level}</span>
+                  <span className="px-4 py-1.5 bg-[#4a148c] text-white rounded-full font-black text-[10px] uppercase tracking-widest shadow-sm">Nivel {getLevelFromXp(user.xp)}</span>
                   <span className="px-4 py-1.5 bg-[#f5f3f7] text-[#310065] rounded-full font-black text-[10px] uppercase tracking-widest border border-[#310065]/10">{user.role.replace('_', ' ')}</span>
                   <span className={`px-4 py-1.5 rounded-full font-black text-[10px] uppercase tracking-widest border ${user.status === 'active' ? 'bg-emerald-50 text-emerald-700 border-emerald-100' : 'bg-red-50 text-red-700 border-red-100'}`}>{user.status}</span>
                 </div>
@@ -216,7 +216,7 @@ export default function AdminUserDetailPage() {
                 <Target className="w-5 h-5 text-[#310065]" />
                 <span className="text-[10px] font-black text-[#7c7483] uppercase tracking-widest">Precisión</span>
               </div>
-              <p className="font-serif text-3xl font-black">{user.accuracyRate}%</p>
+              <p className="font-serif text-3xl font-black">{Math.round(user.accuracyRate || 0)}%</p>
             </div>
             <div className="bg-[#f5f3f7] p-6 rounded-[2rem] space-y-2 border border-[#310065]/5">
               <div className="flex items-center justify-between">

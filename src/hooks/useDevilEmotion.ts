@@ -117,7 +117,7 @@ export function useDevilEmotion(
         `Verifica que el archivo existe en public${currentImage}`
       );
     };
-    img.src = currentImage;
+    img.src = encodeURI(currentImage);
   }, [currentImage]);
 
   return {

@@ -22,7 +22,7 @@ import {
   AlertTriangle
 } from 'lucide-react';
 import { AdminGuard } from '@/components/auth/AdminGuard';
-import { listAllUsers, searchUsers, deleteUser } from '@/lib/user/repository';
+import { listAllUsers, searchUsers, deleteUser, getLevelFromXp } from '@/lib/user/repository';
 import { AppUserModel } from '@/lib/user/models';
 
 export default function AdminUsersPage() {
@@ -327,7 +327,7 @@ export default function AdminUsersPage() {
                               {u.role === 'super_admin' ? <Shield className="w-4 h-4" strokeWidth={2.5} /> : <User className="w-4 h-4" />}
                             </div>
                             <div>
-                              <p className="text-[13px] font-black text-[#1b1b1e]">Nivel {u.level || 1}</p>
+                              <p className="text-[13px] font-black text-[#1b1b1e]">Nivel {getLevelFromXp(u.xp)}</p>
                               <p className="text-[11px] font-bold text-[#7c7483] uppercase tracking-widest">{(u.role || 'user').replace('_', ' ')}</p>
                             </div>
                           </div>

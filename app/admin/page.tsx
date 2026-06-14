@@ -16,7 +16,7 @@ import {
   Chrome
 } from 'lucide-react';
 import { auth, googleProvider } from '@/lib/firebase';
-import { signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
+import { signInWithEmailAndPassword, signInWithPopup, signInWithRedirect } from 'firebase/auth';
 
 export default function AdminLogin() {
   const [email, setEmail] = useState('');
@@ -66,22 +66,16 @@ export default function AdminLogin() {
     setError('');
     setIsSubmitting(true);
     try {
-      const { Capacitor } = await import('@capacitor/core');
       let userCredential;
-
-      if (Capacitor.isNativePlatform()) {
-        const { GoogleSignIn } = await import('@capawesome/capacitor-google-sign-in');
-        const { GoogleAuthProvider, signInWithCredential } = await import('firebase/auth');
-        
-        const result = await GoogleSignIn.signIn();
-        if (result.idToken) {
-          const credential = GoogleAuthProvider.credential(result.idToken);
-          userCredential = await signInWithCredential(auth, credential);
-        } else {
-          throw new Error("Missing idToken from native sign-in");
-        }
-      } else {
+      try {
         userCredential = await signInWithPopup(auth, googleProvider);
+      } catch (popupErr: any) {
+        if (popupErr.code === 'auth/popup-blocked') {
+          await signInWithRedirect(auth, googleProvider);
+          return; // Detiene la ejecución aquí ya que la redirección tomará el control
+        } else {
+          throw popupErr;
+        }
       }
 
       const idTokenResult = await userCredential.user.getIdTokenResult();

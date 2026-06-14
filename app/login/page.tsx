@@ -18,6 +18,7 @@ import {
 import { 
   signInWithEmailAndPassword, 
   signInWithPopup,
+  signInWithRedirect,
 } from 'firebase/auth';
 import { auth, googleProvider } from '@/lib/firebase';
 import { useT, useLanguage } from '@/lib/i18n/context';
@@ -86,24 +87,18 @@ export default function LoginPage() {
    * GOOGLE LOGIN
    */
   const handleGoogleLogin = async () => {
-    setIsLoading(true);
     setError(null);
+    setIsLoading(true);
     try {
-      const { Capacitor } = await import('@capacitor/core');
-      
-      if (Capacitor.isNativePlatform()) {
-        const { GoogleSignIn } = await import('@capawesome/capacitor-google-sign-in');
-        const { GoogleAuthProvider, signInWithCredential } = await import('firebase/auth');
-        
-        const result = await GoogleSignIn.signIn();
-        if (result.idToken) {
-          const credential = GoogleAuthProvider.credential(result.idToken);
-          await signInWithCredential(auth, credential);
-        } else {
-          throw new Error("Missing idToken from native sign-in");
-        }
-      } else {
+      try {
         await signInWithPopup(auth, googleProvider);
+      } catch (popupErr: any) {
+        if (popupErr.code === 'auth/popup-blocked') {
+          await signInWithRedirect(auth, googleProvider);
+          return; // Detiene la ejecución aquí ya que la redirección tomará el control
+        } else {
+          throw popupErr;
+        }
       }
 
       const savedPath = typeof window !== 'undefined' ? sessionStorage.getItem('auth_redirect_path') : null;

@@ -87,6 +87,7 @@ export default function CrownArenaPlayPage() {
   const [isProcessingPower, setIsProcessingPower] = useState(false);
 
   const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const lastInitializedIndexRef = useRef<number>(-1);
 
   const handleFinish = useCallback(async (finalScore: number, currentRoom?: ArenaSession & { players: ArenaPlayer[] }) => {
     const roomToUse = currentRoom || room;
@@ -116,6 +117,14 @@ export default function CrownArenaPlayPage() {
     }
   }, [user, room, roomId]);
 
+  const handleFinishRef = useRef(handleFinish);
+  const phaseRef = useRef(phase);
+
+  useEffect(() => {
+    handleFinishRef.current = handleFinish;
+    phaseRef.current = phase;
+  }, [handleFinish, phase]);
+
   // 1. Initial Load & Subscription
   useEffect(() => {
     (async () => {
@@ -142,10 +151,12 @@ export default function CrownArenaPlayPage() {
 
       // Check if local user is already finished
       const me = updatedRoom.players.find((p: ArenaPlayer) => p.id === user.uid);
-      if (me?.isFinished && phase !== 'finished') {
-        setPhase('finished');
-        // Still call handleFinish to trigger global check if needed
-        handleFinish(me.score || 0, updatedRoom);
+      if (me?.isFinished) {
+        if (phaseRef.current !== 'finished') {
+          setPhase('finished');
+        }
+        // Always run the finish check to see if all players have completed
+        handleFinishRef.current(me.score || 0, updatedRoom);
       }
     });
 
@@ -313,6 +324,11 @@ export default function CrownArenaPlayPage() {
   // 3. Reset timer on new question
   useEffect(() => {
     if (phase === 'playing' && !selectedOption) {
+      if (lastInitializedIndexRef.current === currentIdx) {
+        return;
+      }
+      lastInitializedIndexRef.current = currentIdx;
+
       setTimeLeft(20);
       setStartTime(Date.now());
       setActivePowerUps([]);

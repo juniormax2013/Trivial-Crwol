@@ -32,6 +32,7 @@ export default function TournamentPlay() {
   
   // Timer Reference
   const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const isInitializing = useRef(false);
 
   // Initialize and Fetch Questions
   useEffect(() => {
@@ -40,6 +41,8 @@ export default function TournamentPlay() {
       router.replace('/arena/tournaments');
       return;
     }
+    if (isInitializing.current) return;
+    isInitializing.current = true;
 
     const initRound = async () => {
       try {

@@ -35,6 +35,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { getFriendsList } from '@/lib/social/repository';
 import { DuelModel } from '@/lib/duel/models';
 import { AppUserModel } from '@/lib/user/models';
+import { getRecentGameHistory } from '@/lib/user/repository';
 import { toast } from 'sonner';
 import { DAILY_VERSES } from '@/lib/daily-verse/data';
 import { useLanguage } from '@/lib/i18n/context';
@@ -43,38 +44,154 @@ import UserAvatar from '@/components/UserAvatar';
 
 
 
-function ActivityCard({ duel, currentUserId }: { duel: DuelModel, currentUserId: string }) {
+const gameModeNames: Record<string, Record<string, string>> = {
+  arena: {
+    es: 'Crown Arena',
+    en: 'Crown Arena',
+    fr: 'Crown Arena',
+    ht: 'Crown Arena'
+  },
+  reto_sagrado: {
+    es: 'Reto Sagrado',
+    en: 'Sacred Challenge',
+    fr: 'Défi Sacré',
+    ht: 'Reto Sagrado'
+  },
+  jwe_bib_la: {
+    es: 'Jwe Bib La',
+    en: 'Jwe Bib La',
+    fr: 'Jwe Bib La',
+    ht: 'Jwe Bib La'
+  },
+  daily_challenge: {
+    es: 'Desafío Diario',
+    en: 'Daily Challenge',
+    fr: 'Défi Quotidien',
+    ht: 'Defi Chak Jou'
+  }
+};
+
+const outcomeLabels: Record<string, Record<string, string>> = {
+  win: {
+    es: 'Victoria',
+    en: 'Victory',
+    fr: 'Victoire',
+    ht: 'Viktwa'
+  },
+  loss: {
+    es: 'Derrota',
+    en: 'Defeat',
+    fr: 'Défaite',
+    ht: 'Defèt'
+  },
+  tie: {
+    es: 'Empate',
+    en: 'Tie',
+    fr: 'Égalité',
+    ht: 'Egalite'
+  }
+};
+
+function ActivityCard({ 
+  duel, 
+  currentUserId,
+  activity 
+}: { 
+  duel?: DuelModel; 
+  currentUserId?: string;
+  activity?: any;
+}) {
   const t = useT();
   const { language } = useLanguage();
-  const isWinner = duel.winnerIds.includes(currentUserId);
-  const isLoser = duel.loserIds.includes(currentUserId);
-  const isTie = duel.isTie;
+  const lang = (language === 'es' || language === 'fr' || language === 'ht' || language === 'en') ? language : 'es';
+
+  let resolvedActivity: any = null;
+  if (activity) {
+    resolvedActivity = activity;
+  } else if (duel && currentUserId) {
+    const isWinner = duel.winnerIds.includes(currentUserId);
+    const isLoser = duel.loserIds.includes(currentUserId);
+    const isTie = duel.isTie;
+    const opponentId = duel.participantIds.find(id => id !== currentUserId);
+    const opponentName = duel.participants[opponentId || '']?.name || t.common.opponent;
+    resolvedActivity = {
+      id: duel.id,
+      type: 'arena',
+      outcome: isWinner ? 'win' : isLoser ? 'loss' : 'tie',
+      createdAt: duel.createdAt,
+      score: duel.participants[currentUserId]?.score ?? 0,
+      opponentName,
+      original: duel
+    };
+  }
+
+  if (!resolvedActivity) return null;
   
-  const opponentId = duel.participantIds.find(id => id !== currentUserId);
-  const opponent = duel.participants[opponentId || '']?.name || t.common.opponent;
+  const isWin = resolvedActivity.outcome === 'win';
+  const isLoss = resolvedActivity.outcome === 'loss';
+  const isTie = resolvedActivity.outcome === 'tie';
+
+  const modeName = gameModeNames[resolvedActivity.type]?.[lang] || resolvedActivity.type;
+  const outcomeLabel = outcomeLabels[resolvedActivity.outcome]?.[lang] || resolvedActivity.outcome;
 
   let resultLabel = '';
   let resultColor = '';
   let cardBg = 'bg-surface-container-lowest hover:bg-surface-container-low';
 
-  if (duel.status === 'completed') {
-    if (isWinner) {
+  if (resolvedActivity.type === 'arena') {
+    const opponent = resolvedActivity.opponentName || t.common.opponent;
+    if (isWin) {
       resultLabel = `${t.duel.victory} ${t.duel.vs} ${opponent}`;
       resultColor = 'text-amber-600';
       cardBg = 'bg-gradient-to-r from-amber-500/[0.03] to-transparent hover:from-amber-500/[0.06] border-amber-200/30';
-    } else if (isLoser) {
+    } else if (isLoss) {
       resultLabel = `${t.duel.defeat} ${t.duel.vs} ${opponent}`;
       resultColor = 'text-red-600';
-    } else if (isTie) {
+    } else {
       resultLabel = `${t.social.tie} ${t.duel.vs} ${opponent}`;
       resultColor = 'text-blue-600';
     }
   } else {
-    resultLabel = t.duel.pending;
-    resultColor = 'text-gray-500';
+    if (resolvedActivity.opponentName) {
+      const opponent = resolvedActivity.opponentName;
+      if (isWin) {
+        resultLabel = `${modeName}: ${t.duel.victory} vs ${opponent}`;
+        resultColor = 'text-amber-600';
+        cardBg = 'bg-gradient-to-r from-amber-500/[0.03] to-transparent hover:from-amber-500/[0.06] border-amber-200/30';
+      } else if (isLoss) {
+        resultLabel = `${modeName}: ${t.duel.defeat} vs ${opponent}`;
+        resultColor = 'text-red-600';
+      } else {
+        resultLabel = `${modeName}: ${t.social.tie} vs ${opponent}`;
+        resultColor = 'text-blue-600';
+      }
+    } else {
+      resultLabel = `${modeName}: ${outcomeLabel} (${resolvedActivity.score} pts)`;
+      if (isWin) {
+        resultColor = 'text-amber-600';
+        cardBg = 'bg-gradient-to-r from-amber-500/[0.03] to-transparent hover:from-amber-500/[0.06] border-amber-200/30';
+      } else {
+        resultColor = 'text-red-600';
+      }
+    }
   }
 
   const locale = language === 'ht' ? 'ht-HT' : language === 'es' ? 'es-ES' : 'fr-FR';
+
+  const renderModeIcon = () => {
+    switch (resolvedActivity.type) {
+      case 'arena':
+        return <Crown size={16} className="text-[#310065]" />;
+      case 'reto_sagrado':
+        return <Swords size={16} className="text-[#0A84FF]" />;
+      case 'jwe_bib_la':
+        return <BookOpen size={16} className="text-purple-600" />;
+      case 'daily_challenge':
+        return <Calendar size={16} className="text-emerald-600" />;
+      default:
+        return <Trophy size={16} className="text-slate-600" />;
+    }
+  };
 
   return (
     <motion.div 
@@ -82,20 +199,25 @@ function ActivityCard({ duel, currentUserId }: { duel: DuelModel, currentUserId:
       whileTap={{ scale: 0.99 }}
       className={`relative flex items-center justify-between p-4 rounded-2xl shadow-sm border border-black/[0.02] transition-all duration-300 ${cardBg}`}
     >
-      {isWinner && (
+      {isWin && (
         <div className="absolute -top-2 -left-2 bg-gradient-to-r from-amber-400 to-[#e9c349] p-1 rounded-xl shadow-md rotate-[-12deg] border-2 border-white flex items-center justify-center z-10">
           <Crown size={10} className="fill-[#310065] text-[#310065]" />
         </div>
       )}
       
       <div className="flex items-center gap-3">
-        <div className={`w-10 h-10 rounded-2xl flex items-center justify-center font-black shadow-inner text-sm ${isWinner ? 'bg-amber-100 text-[#735c00]' : 'bg-surface-container-low text-primary'}`}>
-          {opponent.charAt(0).toUpperCase()}
+        <div className={`w-10 h-10 rounded-2xl flex items-center justify-center font-black shadow-inner ${
+          resolvedActivity.type === 'arena' ? 'bg-amber-100 text-[#735c00]' :
+          resolvedActivity.type === 'reto_sagrado' ? 'bg-blue-100 text-blue-600' :
+          resolvedActivity.type === 'jwe_bib_la' ? 'bg-purple-100 text-purple-600' :
+          'bg-emerald-100 text-emerald-600'
+        }`}>
+          {renderModeIcon()}
         </div>
         <div>
           <p className={`text-xs font-black tracking-tight ${resultColor}`}>{resultLabel}</p>
           <p className="text-[9px] text-gray-400 font-bold uppercase tracking-wider mt-0.5">
-            {new Date(duel.createdAt).toLocaleDateString(locale, { weekday: 'short', day: 'numeric', month: 'short' })}
+            {new Date(resolvedActivity.createdAt).toLocaleDateString(locale, { weekday: 'short', day: 'numeric', month: 'short' })}
           </p>
         </div>
       </div>
@@ -120,6 +242,18 @@ export default function HomeDashboard() {
   const isDarkMode = false;
   const [aiBibleEnabled, setAiBibleEnabled] = useState(true);
   const [showAiTooltip, setShowAiTooltip] = useState(false);
+  const [otherGames, setOtherGames] = useState<any[]>([]);
+
+  // Load other games history
+  useEffect(() => {
+    if (!user) return;
+    getRecentGameHistory(user.uid).then(history => {
+      const last7Days = new Date();
+      last7Days.setDate(last7Days.getDate() - 7);
+      const filtered = history.filter((g: any) => new Date(g.createdAt) >= last7Days);
+      setOtherGames(filtered);
+    }).catch(console.error);
+  }, [user]);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -228,11 +362,49 @@ export default function HomeDashboard() {
   }, [user]);
 
   const weeklyStats = useMemo(() => {
-    const wins = userDuels.filter(d => d.status === 'completed' && d.winnerIds.includes(user?.uid || '')).length;
-    const losses = userDuels.filter(d => d.status === 'completed' && d.loserIds.includes(user?.uid || '')).length;
-    const total = userDuels.length;
-    return { wins, losses, total };
-  }, [userDuels, user?.uid]);
+    const arenaWins = userDuels.filter(d => d.status === 'completed' && d.winnerIds.includes(user?.uid || '')).length;
+    const arenaLosses = userDuels.filter(d => d.status === 'completed' && d.loserIds.includes(user?.uid || '')).length;
+    const arenaTotal = userDuels.length;
+
+    const otherWins = otherGames.filter(g => g.outcome === 'win').length;
+    const otherLosses = otherGames.filter(g => g.outcome === 'loss').length;
+    const otherTotal = otherGames.length;
+
+    return {
+      wins: arenaWins + otherWins,
+      losses: arenaLosses + otherLosses,
+      total: arenaTotal + otherTotal
+    };
+  }, [userDuels, otherGames, user?.uid]);
+
+  const recentActivities = useMemo(() => {
+    const list: any[] = [];
+    userDuels.forEach(d => {
+      const opponentId = d.participantIds.find(id => id !== user?.uid);
+      const opponentName = d.participants[opponentId || '']?.name || '';
+      list.push({
+        id: d.id,
+        type: 'arena',
+        outcome: d.winnerIds.includes(user?.uid || '') ? 'win' : d.loserIds.includes(user?.uid || '') ? 'loss' : 'tie',
+        createdAt: d.createdAt,
+        score: d.participants[user?.uid || '']?.score ?? 0,
+        opponentName,
+        original: d
+      });
+    });
+    otherGames.forEach(g => {
+      list.push({
+        id: g.id,
+        type: g.gameMode,
+        outcome: g.outcome,
+        createdAt: g.createdAt,
+        score: g.score,
+        opponentName: g.opponentName,
+        original: g
+      });
+    });
+    return list.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+  }, [userDuels, otherGames, user?.uid]);
 
   const friendsWeeklyStats = useMemo(() => {
     // Calculate from recent duels (last 7 days)
@@ -610,16 +782,15 @@ export default function HomeDashboard() {
 
                     <div className="space-y-3 pt-2">
                       <p className="text-[9px] font-black text-[#310065]/30 uppercase tracking-[0.2em] px-1">{t.dashboard.lastResult}</p>
-                      {userDuels.length > 0 ? (
-                        userDuels.slice(0, 3).map(duel => (
-                          <ActivityCard key={duel.id} duel={duel} currentUserId={user?.uid || ''} />
+                      {recentActivities.length > 0 ? (
+                        recentActivities.slice(0, 5).map(activity => (
+                          <ActivityCard key={activity.id} activity={activity} />
                         ))
                       ) : (
                         <div className="py-12 text-center bg-surface-container-low/50 rounded-[2.5rem] border border-dashed border-gray-200">
                           <Trophy size={32} className="text-gray-200 mx-auto mb-3" />
                           <p className="text-gray-400 text-[10px] font-black uppercase tracking-widest">{t.dashboard.noDuels}</p>
                         </div>
-
                       )}
                     </div>
                   </div>

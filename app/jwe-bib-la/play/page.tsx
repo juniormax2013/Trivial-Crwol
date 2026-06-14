@@ -20,7 +20,7 @@ import {
 import { useAuth } from '@/hooks/useAuth';
 import { useLanguage } from '@/lib/i18n/context';
 import { ALL_DUEL_QUESTIONS } from '@/lib/duel/seed';
-import { consumeJweEnergy, consumeJweHeart, grantJweRewards } from '@/lib/user/repository';
+import { consumeJweEnergy, consumeJweHeart, grantJweRewards, saveGamePlay, checkAndQualifyReferral } from '@/lib/user/repository';
 import { RandomChallengeModal, fireChallengeSuccessConfetti } from '@/components/play/RandomChallengeModal';
 import ChallengePlayView from '@/components/play/ChallengePlayView';
 import { getRandomChallengeQuestion } from '@/lib/challenge/seed';
@@ -54,10 +54,92 @@ function shuffle<T>(array: T[]): T[] {
 }
 
 
+const PLAY_TRANSLATIONS = {
+  es: {
+    wonTitle: "¡Ganaste!",
+    wonDesc: "¡Felicidades! Respondiste todas las preguntas correctamente.",
+    rewardsTitle: "Tus Recompensas",
+    continueBtn: "CONTINUAR",
+    lostDesc: "¡Buena suerte para la próxima sesión de juego!",
+    questionProgress: "Pregunta {n} de 7",
+    loadingQuestion: "Cargando pregunta...",
+    nextQuestion: "Siguiente Pregunta",
+    finishGame: "Terminar Juego",
+    loginToSkip: "Debes iniciar sesión para saltar preguntas",
+    noHeartsToSkip: "No tienes suficientes vidas para saltar esta pregunta",
+    skippedAlert: "Pregunta saltada. Perdiste 1 vida.",
+    thanksReport: "¡Gracias! Hemos recibido tu reporte.",
+    exitTitle: "¿De verdad quieres salir?",
+    exitDesc: "Si te retiras ahora, perderás tu progreso en esta partida. ¡No te rindas!",
+    keepPlaying: "SEGUIR JUGANDO",
+    exitBtn: "SALIR",
+  },
+  ht: {
+    wonTitle: "Ou Genyen!",
+    wonDesc: "Felisitasyon! Ou reponn tout kesyon yo kòrèkteman.",
+    rewardsTitle: "Rekonpans Ou",
+    continueBtn: "KONTINYE",
+    lostDesc: "Bon chans pou pwochen sesyon jwèt la!",
+    questionProgress: "Kesyon {n} sou 7",
+    loadingQuestion: "Chaje kesyon...",
+    nextQuestion: "Kesyon Pwochèn",
+    finishGame: "Fini Jwèt la",
+    loginToSkip: "Ou dwe konekte pou sote kesyon",
+    noHeartsToSkip: "Ou pa gen ase lavi pou sote kesyon sa a",
+    skippedAlert: "Kesyon sote. Ou pèdi 1 lavi.",
+    thanksReport: "Mèsi! Nou resevwa rapò w la.",
+    exitTitle: "Èske ou vle kite jwèt la?",
+    exitDesc: "Si ou pati kounye a, ou pral pèdi pwogrè pou jwèt sa a. Pa abandone!",
+    keepPlaying: "KONTINYE JWE",
+    exitBtn: "KITE JWÈT LA",
+  },
+  fr: {
+    wonTitle: "Vous avez gagné !",
+    wonDesc: "Félicitations ! Vous avez répondu correctement à toutes les questions.",
+    rewardsTitle: "Vos Récompenses",
+    continueBtn: "CONTINUER",
+    lostDesc: "Bonne chance pour la prochaine session de jeu !",
+    questionProgress: "Question {n} sur 7",
+    loadingQuestion: "Chargement de la question...",
+    nextQuestion: "Question Suivante",
+    finishGame: "Finir le jeu",
+    loginToSkip: "Vous devez vous connecter pour sauter des questions",
+    noHeartsToSkip: "Vous n'avez pas assez de vies pour sauter cette question",
+    skippedAlert: "Question sautée. Vous avez perdu 1 vie.",
+    thanksReport: "Merci ! Nous avons reçu votre rapport.",
+    exitTitle: "Voulez-vous vraiment quitter ?",
+    exitDesc: "Si vous partez maintenant, vous perdrez votre progression. N'abandonnez pas !",
+    keepPlaying: "CONTINUER À JOUER",
+    exitBtn: "QUITTER",
+  },
+  en: {
+    wonTitle: "You Won!",
+    wonDesc: "Congratulations! You answered all questions correctly.",
+    rewardsTitle: "Your Rewards",
+    continueBtn: "CONTINUE",
+    lostDesc: "Good luck for the next game session!",
+    questionProgress: "Question {n} of 7",
+    loadingQuestion: "Loading question...",
+    nextQuestion: "Next Question",
+    finishGame: "Finish Game",
+    loginToSkip: "You must log in to skip questions",
+    noHeartsToSkip: "You do not have enough lives to skip this question",
+    skippedAlert: "Question skipped. You lost 1 life.",
+    thanksReport: "Thank you! We have received your report.",
+    exitTitle: "Do you really want to leave?",
+    exitDesc: "If you leave now, you will lose your progress in this match. Don't give up!",
+    keepPlaying: "KEEP PLAYING",
+    exitBtn: "EXIT",
+  }
+};
+
 export default function JweBibLaPlay() {
   const { user } = useAuth();
   const { language: userLanguage } = useLanguage();
   const router = useRouter();
+  
+  const lang = ((userLanguage as string) === 'fr' || (userLanguage as string) === 'es' || (userLanguage as string) === 'en' || (userLanguage as string) === 'ht') ? (userLanguage as 'fr' | 'es' | 'en' | 'ht') : 'ht';
+  const localT = PLAY_TRANSLATIONS[lang];
   
   // Game state
   const [questions, setQuestions] = useState<DuelQuestion[]>([]);
@@ -202,6 +284,8 @@ export default function JweBibLaPlay() {
         }
         const challengeMultiplier = rcConfig?.status === 'won' ? 3 : rcConfig?.status === 'lost' ? 0.5 : 1;
         await grantJweRewards(user.uid, isGoldOrCrown, challengeMultiplier);
+        // Calificar referido si aplica (primera partida completada)
+        await checkAndQualifyReferral(user.uid);
       }
       return;
     }
@@ -317,6 +401,19 @@ export default function JweBibLaPlay() {
       setEmbers(newEmbers);
     }
   }, [isGameOver]);
+
+  const hasSavedHistory = useRef(false);
+  useEffect(() => {
+    if (isGameOver && user && !hasSavedHistory.current) {
+      hasSavedHistory.current = true;
+      const outcome = isWin ? 'win' : 'loss';
+      saveGamePlay(user.uid, {
+        gameMode: 'jwe_bib_la',
+        score: currentIndex, // Number of questions correctly answered (current index represents progress)
+        outcome
+      }).catch(e => console.error("Error saving jwe-bib-la history:", e));
+    }
+  }, [isGameOver, user, isWin, currentIndex]);
 
   // Initialize game
   useEffect(() => {
@@ -488,10 +585,10 @@ export default function JweBibLaPlay() {
                 <CheckCircle2 size={48} />
               </div>
               <h1 className="text-[32px] font-black text-[#310065] mb-2 uppercase tracking-tighter">
-                Ou Genyen!
+                {localT.wonTitle}
               </h1>
               <p className="text-[#4a4452] mb-8 max-w-[300px] font-sans">
-                Felisitasyon! Ou reponn tout kesyon yo kòrèkteman.
+                {localT.wonDesc}
               </p>
               <div className="bg-[#f2f2f7] rounded-[2rem] p-8 shadow-inner w-full max-w-[320px] mb-8 border border-[#310065]/5 relative overflow-hidden">
                 {/* Random Challenge Indicator */}
@@ -512,7 +609,7 @@ export default function JweBibLaPlay() {
                   </div>
                 )}
 
-                <h3 className="text-[12px] font-black text-[#7c7483] uppercase tracking-widest mb-6 mt-2">Rekonpans Ou</h3>
+                <h3 className="text-[12px] font-black text-[#7c7483] uppercase tracking-widest mb-6 mt-2">{localT.rewardsTitle}</h3>
                 <div className="grid grid-cols-3 gap-4">
                   <div className="flex flex-col items-center gap-1 text-[#310065]">
                     <CrownIcon className="text-[#cba72f] fill-[#ffe088]" size={24} />
@@ -533,7 +630,7 @@ export default function JweBibLaPlay() {
                 onClick={() => router.push('/arena')}
                 className="premium-game-btn w-full max-w-[260px] py-4.5 text-[#f2e6cf] font-black text-[18px] tracking-[0.25em] transition-all hover:scale-105 active:scale-95 z-40 mb-12 shadow-[0_15px_30px_rgba(0,0,0,0.5)]"
               >
-                KONTINYE
+                {localT.continueBtn}
               </button>
             </div>
           ) : (
@@ -647,7 +744,7 @@ export default function JweBibLaPlay() {
               </div>
 
               <h1 className="text-[24px] sm:text-[30px] font-bold text-[#310065] mb-6 max-w-[320px] leading-tight z-30 uppercase tracking-tighter">
-                Bon chans pou pwochen sesyon jwèt la!
+                {localT.lostDesc}
               </h1>
               
               <div className="verse-card-premium w-full max-w-[360px] p-8 mb-10 z-30">
@@ -672,7 +769,7 @@ export default function JweBibLaPlay() {
                 onClick={() => router.push('/arena')}
                 className="premium-game-btn w-full max-w-[260px] py-4.5 text-white font-black text-[18px] tracking-[0.25em] transition-all hover:scale-105 active:scale-95 z-40 mb-12 shadow-xl shadow-[#310065]/20"
               >
-                KONTINYE
+                {localT.continueBtn}
               </button>
             </div>
           )}
@@ -850,7 +947,7 @@ export default function JweBibLaPlay() {
       <main className="flex-grow pt-24 pb-12 px-6 flex flex-col max-w-[480px] mx-auto w-full">
         <div className="mb-8 space-y-2">
           <div className="flex justify-between items-end">
-            <span className="text-[10px] font-black tracking-[0.2em] text-[#cdc3d4] uppercase">Kesyon {currentIndex + 1} sou 7</span>
+            <span className="text-[10px] font-black tracking-[0.2em] text-[#cdc3d4] uppercase">{localT.questionProgress.replace('{n}', (currentIndex + 1).toString())}</span>
             <span className="text-[12px] font-bold text-[#310065]">{Math.round(((currentIndex + 1) / 7) * 100)}%</span>
           </div>
           <div className="h-1.5 w-full bg-[#e3e2e6] rounded-full overflow-hidden">
@@ -866,7 +963,7 @@ export default function JweBibLaPlay() {
             <BookOpen size={120} />
           </div>
           <p className="text-[24px] font-serif font-bold text-[#1b1b1e] leading-tight text-center relative z-10">
-            {currentQuestion ? currentQuestion.questionText : 'Chaje kesyon...'}
+            {currentQuestion ? currentQuestion.questionText : localT.loadingQuestion}
           </p>
         </div>
 
@@ -916,7 +1013,7 @@ export default function JweBibLaPlay() {
                     isRevealed={revealedOptions.includes(option.id)}
                     onReveal={() => revealOption(option.id)}
                     originalText={option.text}
-                    language="ht"
+                    language={lang}
                     devilMode={devilMode ?? undefined}
                   />
                 </span>
@@ -931,7 +1028,7 @@ export default function JweBibLaPlay() {
             onClick={nextQuestion}
             className="mt-auto w-full bg-[#310065] text-white py-5 rounded-[1.5rem] font-black uppercase tracking-widest flex items-center justify-center gap-2 shadow-xl shadow-[#310065]/20 animate-in fade-in slide-in-from-bottom-4"
           >
-            {currentIndex >= 6 ? 'Fini Jwèt la' : 'Kesyon Pwochèn'}
+            {currentIndex >= 6 ? localT.finishGame : localT.nextQuestion}
             <ChevronRight size={20} />
           </button>
         )}
@@ -941,22 +1038,22 @@ export default function JweBibLaPlay() {
             onPowerUsed={handlePowerUsed}
             onSkip={async () => {
               if (!user) {
-                toast.error("Ou dwe konekte pou w sote kesyon!");
+                toast.error(localT.loginToSkip);
                 return;
               }
               if (hearts <= 0) {
-                toast.error("Ou pa gen ase kè pou sote kesyon sa a!");
+                toast.error(localT.noHeartsToSkip);
                 return;
               }
               const newHearts = hearts - 1;
               setHearts(newHearts);
               await consumeJweHeart(user.uid).catch(console.error);
-              toast.info("Ou sote kesyon an. -1 Kè");
+              toast.info(localT.skippedAlert);
               nextQuestion();
             }}
 
             onReport={() => {
-              toast.success("Mèsi! Nou resevwa rapò w la.");
+              toast.success(localT.thanksReport);
             }}
             isProcessing={isProcessingPower}
             setIsProcessing={setIsProcessingPower}
@@ -977,12 +1074,10 @@ export default function JweBibLaPlay() {
             
             <div className="space-y-2">
               <h3 className="text-xl font-serif font-black text-[#310065] italic">
-                {userLanguage === 'ht' ? 'Èske ou vle kite jwèt la?' : '¿De verdad quieres salir?'}
+                {localT.exitTitle}
               </h3>
               <p className="text-[12px] font-semibold text-[#1b1b1e]/60 leading-relaxed max-w-[90%] mx-auto">
-                {userLanguage === 'ht' 
-                  ? 'Si ou pati kounye a, ou pral pèdi tout pwogrè ak enèji ou te envesti nan pati sa a. Pa abandone!'
-                  : 'Si te retiras a mitad de camino, perderás todo el progreso y la energía invertidos en esta partida. ¡No te rindas!'}
+                {localT.exitDesc}
               </p>
             </div>
 
@@ -991,7 +1086,7 @@ export default function JweBibLaPlay() {
                 onClick={() => setShowExitConfirm(false)}
                 className="flex-1 py-4 bg-gradient-to-r from-amber-400 to-[#e9c349] text-[#310065] rounded-2xl font-black text-xs uppercase tracking-widest shadow-md hover:scale-105 active:scale-95 transition-transform"
               >
-                {userLanguage === 'ht' ? 'KONTINYE JWE' : 'SEGUIR JUGANDO'}
+                {localT.keepPlaying}
               </button>
               <button
                 onClick={() => {
@@ -1000,7 +1095,7 @@ export default function JweBibLaPlay() {
                 }}
                 className="flex-1 py-4 bg-[#f5f3f7] hover:bg-red-50 text-red-600 rounded-2xl font-black text-xs uppercase tracking-widest border border-transparent shadow-sm hover:scale-105 active:scale-95 transition-transform"
               >
-                {userLanguage === 'ht' ? 'KITE JWÈT LA' : 'SALIR'}
+                {localT.exitBtn}
               </button>
             </div>
           </div>

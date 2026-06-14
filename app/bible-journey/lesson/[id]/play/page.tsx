@@ -79,6 +79,7 @@ export default function BibleLessonPlay() {
 
   // Timer
   const startTimeRef = useRef<number>(0);
+  const lastInitializedIndexRef = useRef<number>(-1);
 
   useEffect(() => {
     startTimeRef.current = Date.now();
@@ -94,6 +95,10 @@ export default function BibleLessonPlay() {
   // Initialize ordered events or matching structures for specific question types
   useEffect(() => {
     if (!currentQuestion) return;
+    if (lastInitializedIndexRef.current === currentIdx) {
+      return;
+    }
+    lastInitializedIndexRef.current = currentIdx;
     
     // Reset inputs
     setSelectedOption('');

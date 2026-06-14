@@ -302,8 +302,8 @@ export default function Arena() {
               const isBibleBypassed = !!user?.customAccess?.bibleJourney;
               return (
                 <Link
-                  href="/jwe-bib-la/play"
-                  onClick={(e) => handleGameModeClick(e, '/jwe-bib-la/play', 3, 'bibleJourney', t.dashboard.bibleGame)}
+                  href="/jwe-bib-la"
+                  onClick={(e) => handleGameModeClick(e, '/jwe-bib-la', 3, 'bibleJourney', t.dashboard.bibleGame)}
                   className={`block relative overflow-hidden rounded-[2rem] p-6 border transition-all h-full ${
                     isBibleLocked
                       ? 'bg-gray-50 border-gray-200 opacity-60 grayscale cursor-pointer'

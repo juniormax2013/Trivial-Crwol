@@ -31,6 +31,14 @@ export default function CrownArenaResultPage() {
 
   const [room, setRoom] = useState<ArenaSession & { players: ArenaPlayer[] } | null>(null);
   const [loading, setLoading] = useState(true);
+  const [showFallbackRewards, setShowFallbackRewards] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowFallbackRewards(true);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     if (!roomId) return;
@@ -75,7 +83,7 @@ export default function CrownArenaResultPage() {
     : { crowns: 10, xp: 100, coins: 5 };
 
   const myRewards = serverRewards || localRewards;
-  const areRewardsDistributed = !!serverRewards;
+  const areRewardsDistributed = !!serverRewards || showFallbackRewards;
 
   return (
     <div className="bg-[#faf9fc] text-[#1b1b1e] min-h-screen pb-safe font-sans overflow-x-hidden">

@@ -79,6 +79,11 @@ service cloud.firestore {
         allow create: if isOwner(uid) || isAdmin();
       }
 
+      match /game_history/{historyId} {
+        allow read: if isOwner(uid) || isAdmin();
+        allow write: if isOwner(uid) || isAdmin();
+      }
+
       // =========================
       // 📖 CAMINO DE LA BIBLIA (BIBLE JOURNEY)
       // =========================
@@ -100,6 +105,22 @@ service cloud.firestore {
 
       match /fcmTokens/{tokenId} {
         allow read, write: if isOwner(uid) || isAdmin();
+      }
+    }
+
+    // ===================================
+    // ⚔️ RETO SAGRADO ROOMS
+    // ===================================
+    match /reto_sagrado_rooms/{roomId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn();
+      allow update: if isSignedIn();
+      allow delete: if isAdmin();
+
+      match /players/{userId} {
+        allow read: if isSignedIn();
+        allow create, update: if isOwner(userId);
+        allow delete: if isAdmin();
       }
     }
 
@@ -357,6 +378,33 @@ service cloud.firestore {
     // PixelLab History — solo administradores
     match /pixellab_history/{docId} {
       allow read, write: if isAdmin();
+    }
+
+    // =========================
+    // 🔗 REFERRAL SYSTEM
+    // =========================
+
+    // referralCodes/{code} — any signed-in user can read to resolve a code;
+    // only a signed-in user can create their own code document.
+    match /referralCodes/{code} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && request.resource.data.uid == request.auth.uid;
+      allow update, delete: if isAdmin();
+    }
+
+    // referrals/{referredUid} — the referred user creates this doc on registration;
+    // the referred user can read their own record; update only allowed for marking
+    // as qualified (status field); the referrer is NOT allowed to directly write.
+    match /referrals/{referredUid} {
+      allow read: if isSignedIn() && (
+        request.auth.uid == referredUid ||
+        (resource != null && resource.data.referrerUid == request.auth.uid) ||
+        isAdmin()
+      );
+      allow create: if isSignedIn() && request.resource.data.referredUid == request.auth.uid;
+      // Allow the referred user to update only their own referral status
+      allow update: if isSignedIn() && request.auth.uid == referredUid;
+      allow delete: if isAdmin();
     }
 
   }

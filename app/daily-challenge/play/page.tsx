@@ -6,6 +6,7 @@ import { BookOpen, X, CheckCircle2, XCircle, Loader2, Shield, Sparkles, AlertTri
 import { getTodayChallenge, getChallengeQuestions, getUserDailyChallengeData, DEMO_USER_UID } from '@/lib/daily-challenge/repository';
 import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
 import { calculateAnswerPoints, completeDailyChallenge } from '@/lib/daily-challenge/service';
+import { checkAndQualifyReferral } from '@/lib/user/repository';
 import type {
   DailyChallengeModel,
   QuestionModel,
@@ -129,9 +130,10 @@ export default function DailyChallengePlayPage() {
   });
 
 
-  // Timer refs to prevent stale closures
+  const isInitializing = useRef(false);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const questionStartTimeRef = useRef<number>(Date.now());
+  const lastInitializedIndexRef = useRef<number>(-1);
 
   // ── Load data on mount ─────────────────────────────────────
   useEffect(() => {
@@ -140,7 +142,8 @@ export default function DailyChallengePlayPage() {
       router.replace('/login');
       return;
     }
-    if (!isLoaded) return;
+    if (!isLoaded || isInitializing.current) return;
+    isInitializing.current = true;
 
     const init = async () => {
       try {
@@ -195,6 +198,11 @@ export default function DailyChallengePlayPage() {
   // ── Reset timer on new question ───────────────────────────
   useEffect(() => {
     if (phase === 'answering') {
+      if (lastInitializedIndexRef.current === qIndex) {
+        return;
+      }
+      lastInitializedIndexRef.current = qIndex;
+
       setTimeLeft(QUESTION_TIME_LIMIT);
       questionStartTimeRef.current = Date.now();
       
@@ -500,6 +508,9 @@ export default function DailyChallengePlayPage() {
     const challengeMultiplier = rcConfig?.status === 'won' ? 3 : rcConfig?.status === 'lost' ? 0.5 : 1;
     
     const result = await completeDailyChallenge(user.uid, session, userData, isGoldOrCrown, challengeMultiplier);
+
+    // Calificar referido si aplica (primera partida completada)
+    checkAndQualifyReferral(user.uid).catch(e => console.error("Error qualifying referral:", e));
 
     // Pass result through sessionStorage to result page
     // Attach challenge info so result page can show it

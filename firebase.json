@@ -29,7 +29,10 @@
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      "public/models/**",
+      "public/assets/**",
+      "assets/**"
     ]
   },
   "emulators": {

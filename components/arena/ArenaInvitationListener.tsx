@@ -13,10 +13,15 @@ import {
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useNotifications } from '@/hooks/useNotifications';
 import { toast } from 'sonner';
+import { doc, setDoc } from 'firebase/firestore';
+import { db } from '@/lib/firebase';
+import { useT, useLanguage } from '@/lib/i18n/context';
 
 export default function ArenaInvitationListener() {
   const { user } = useAuthContext();
   const router = useRouter();
+  const t = useT();
+  const { language } = useLanguage();
 
   const { arenaInvitations } = useNotifications();
   const [invitation, setInvitation] = useState<ArenaInvitation | null>(null);
@@ -37,15 +42,37 @@ export default function ArenaInvitationListener() {
         // 1. Update invitation status
         await updateArenaInvitationStatus(invitation.id, 'accepted');
         
-        // 2. Clear local state and redirect
+        // Register guest player inside the room players list in Firestore
+        const guestPlayerRef = doc(db, `reto_sagrado_rooms/${invitation.arenaId}/players`, user!.uid);
+        const defaultName = language === 'es' ? 'Noble Peregrino' : language === 'fr' ? 'Noble Pèlerin' : 'Nòb Pèleren';
+        await setDoc(guestPlayerRef, {
+          id: user!.uid,
+          userId: user!.uid,
+          name: user!.fullName || user!.username || defaultName,
+          avatarUrl: user!.photoURL || null,
+          status: 'ready',
+          score: 0,
+          currentQuestion: 1,
+          isFinished: false,
+          joinedAt: new Date().toISOString()
+        });
+
+        // 2. Clear local state and redirect to lobby wait list
         setInvitation(null);
-        router.push(`/reto-sagrado/play?multiplayer=true&opponent=${invitation.hostId}`);
-        toast.success('Te has unido al Reto Sagrado');
+        const successReto = language === 'es' 
+          ? 'Te has unido al Reto Sagrado' 
+          : language === 'fr' 
+            ? 'Vous avez rejoint le Défi Sacré' 
+            : 'Ou rantre nan Defi Sakre a';
+        toast.success(successReto);
+        // We will pass room parameter to reto-sagrado lobby page so it sets activeRoomId and shows wait list
+        router.push(`/reto-sagrado?room=${invitation.arenaId}`);
       } else {
         // 1. Join the arena session
+        const defaultName = language === 'es' ? 'Guerrero' : language === 'fr' ? 'Guerrier' : 'Gèrye';
         await joinArenaSession(invitation.arenaId, {
           uid: user!.uid,
-          displayName: user!.fullName || user!.username || 'Guerrero',
+          displayName: user!.fullName || user!.username || defaultName,
           photoURL: user!.photoURL || null
         });
         
@@ -55,11 +82,21 @@ export default function ArenaInvitationListener() {
         // 3. Clear local state and redirect
         setInvitation(null);
         router.push(`/arena/crown-arena/${invitation.arenaId}/lobby`);
-        toast.success('Te has unido a la batalla');
+        const successBattle = language === 'es' 
+          ? 'Te has unido a la batalla' 
+          : language === 'fr' 
+            ? 'Vous avez rejoint la bataille' 
+            : 'Ou rantre nan batay la';
+        toast.success(successBattle);
       }
     } catch (e: any) {
       console.error(e);
-      toast.error('No se pudo unir a la sala: ' + e.message);
+      const errorMsg = language === 'es' 
+        ? 'No se pudo unir a la sala: ' 
+        : language === 'fr' 
+          ? 'Impossible de rejoindre la salle : ' 
+          : 'Pa kapab rantre nan chanm nan : ';
+      toast.error(errorMsg + e.message);
     } finally {
       setActionLoading(null);
     }
@@ -78,6 +115,16 @@ export default function ArenaInvitationListener() {
       setActionLoading(null);
     }
   };
+
+  const gameModeTitle = invitation ? (invitation.gameMode === 'reto_sagrado' ? t.play.sacredChallenge : t.crownArena.invitationTitle) : '';
+  const gameModeName = invitation ? (invitation.gameMode === 'reto_sagrado' ? t.play.sacredChallenge : 'Crown Arena') : '';
+  const invitationSubtitleText = invitation ? t.crownArena.invitationSubtitle.replace('Crown Arena', gameModeName) : '';
+
+  const realTimeDuelLabel = language === 'es' 
+    ? 'Duelo en Tiempo Real' 
+    : language === 'fr' 
+      ? 'Duel en Temps Réel' 
+      : 'Diyèl an Tan Reyèl';
 
   return (
     <AnimatePresence>
@@ -115,11 +162,11 @@ export default function ArenaInvitationListener() {
             </div>
 
             <h2 className="font-serif text-[24px] font-black text-[#310065] mb-2 leading-tight">
-              {invitation.gameMode === 'reto_sagrado' ? 'Reto Sagrado' : '¡Batalla Real!'}
+              {gameModeTitle}
             </h2>
             
             <p className="text-[15px] text-[#7c7483] font-medium px-4 mb-8">
-              <strong className="text-[#310065]">{invitation.hostName}</strong> te ha invitado a unirte a su sala en <strong className="text-[#310065]">{invitation.gameMode === 'reto_sagrado' ? 'Reto Sagrado' : 'Crown Arena'}</strong>.
+              <strong className="text-[#310065]">{invitation.hostName}</strong> {invitationSubtitleText}
             </p>
 
             <div className="flex flex-col gap-3 w-full">
@@ -133,7 +180,7 @@ export default function ArenaInvitationListener() {
                 ) : (
                   <>
                     <CheckCircle2 className="w-5 h-5" />
-                    ¡Aceptar Desafío!
+                    {t.crownArena.acceptInvitation}
                   </>
                 )}
               </button>
@@ -144,13 +191,13 @@ export default function ArenaInvitationListener() {
                 className="w-full py-4 rounded-2xl bg-[#f5f3f7] text-[#7c7483] font-bold text-[14px] flex items-center justify-center gap-2 hover:bg-[#eddcff] hover:text-[#310065] transition-all disabled:opacity-50"
               >
                 <XCircle className="w-4 h-4" /> 
-                {actionLoading === 'decline' ? '...' : 'Rechazar ahora'}
+                {actionLoading === 'decline' ? '...' : t.crownArena.declineInvitation}
               </button>
             </div>
             
             <div className="mt-8 flex items-center gap-2 text-[11px] font-bold text-[#7c7483] uppercase tracking-widest opacity-40">
               <Users className="w-3 h-3" />
-              <span>Duelo en Tiempo Real</span>
+              <span>{realTimeDuelLabel}</span>
             </div>
           </motion.div>
         </div>

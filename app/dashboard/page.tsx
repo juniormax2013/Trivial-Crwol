@@ -10,6 +10,7 @@ import { useT, useLanguage } from '@/lib/i18n/context';
 import { useNotifications } from '@/hooks/useNotifications';
 import NotificationIcon from '@/components/notifications/NotificationIcon';
 import { usePushNotifications } from '@/hooks/usePushNotifications';
+import { getLevelFromXp } from '@/lib/user/repository';
 
 const NOTIF_TRANSLATIONS: Record<string, { title: string; desc: string; button: string }> = {
   es: {
@@ -60,7 +61,7 @@ export default function Dashboard() {
               />
             </div>
             <div className="flex flex-col">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-zinc-500">{t.profile.level} {user?.level || 1}</span>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-zinc-500">{t.profile.level} {getLevelFromXp(user?.xp ?? 0)}</span>
               <span className="text-xs font-bold text-primary">{user?.xp || 0} XP</span>
             </div>
           </div>

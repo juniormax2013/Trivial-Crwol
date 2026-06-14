@@ -15,7 +15,7 @@ import {
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useState, useEffect } from 'react';
 import { AppUserModel } from '@/lib/user/models';
-import { getTopUsersByXP } from '@/lib/user/repository';
+import { getTopUsersByXP, getLevelFromXp } from '@/lib/user/repository';
 import { useT } from '@/lib/i18n/context';
 import BottomNav from '@/components/BottomNav';
 import BackButton from '@/components/BackButton';
@@ -122,7 +122,7 @@ export default function Ranking() {
                   />
                 </Link>
                 <div className="absolute -bottom-2.5 left-1/2 -translate-x-1/2 bg-slate-400 text-white text-[9px] font-black px-2 py-[2px] rounded-full uppercase tracking-tighter shadow-sm border-2 border-white whitespace-nowrap z-20">
-                  {t.ranking.level} {rank2.level}
+                  {t.ranking.level} {getLevelFromXp(rank2.xp)}
                 </div>
               </div>
               <div className="text-center mt-1">
@@ -152,7 +152,7 @@ export default function Ranking() {
                   />
                 </Link>
                 <div className="absolute -bottom-2.5 left-1/2 -translate-x-1/2 bg-[#735c00] text-white text-[10px] font-black px-2.5 py-0.5 rounded-full uppercase tracking-widest shadow-lg border-2 border-white whitespace-nowrap z-20">
-                  {t.ranking.level} {rank1.level}
+                  {t.ranking.level} {getLevelFromXp(rank1.xp)}
                 </div>
               </div>
               <div className="text-center mt-1">
@@ -179,7 +179,7 @@ export default function Ranking() {
                   />
                 </Link>
                 <div className="absolute -bottom-2.5 left-1/2 -translate-x-1/2 bg-[#b56e29] text-white text-[9px] font-black px-2 py-[2px] rounded-full uppercase tracking-tighter shadow-sm border-2 border-white whitespace-nowrap z-20">
-                  {t.ranking.level} {rank3.level}
+                  {t.ranking.level} {getLevelFromXp(rank3.xp)}
                 </div>
               </div>
               <div className="text-center mt-1">
@@ -212,7 +212,7 @@ export default function Ranking() {
               />
               <div className="flex-1 min-w-0">
                 <p className="font-extrabold text-[15px] text-[#1b1b1e] truncate group-hover:text-[#310065] transition-colors">{player.firstName || player.username}</p>
-                <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-0.5 truncate">{t.ranking.level} {player.level}</p>
+                <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-0.5 truncate">{t.ranking.level} {getLevelFromXp(player.xp)}</p>
               </div>
               <div className="text-right">
                 <p className="font-serif font-black text-[#310065] text-[18px] leading-tight">{player.xp}</p>

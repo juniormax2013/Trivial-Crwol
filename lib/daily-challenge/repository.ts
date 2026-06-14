@@ -174,6 +174,8 @@ export async function getUserDailyChallengeData(
  * ⚠️ TODO (Security): This MUST move to a Cloud Function to prevent
  * client-side manipulation of rewards.
  */
+import { saveGamePlay } from '@/lib/user/repository';
+
 export async function saveChallengeResult(
   uid: string,
   result: UserDailyChallengeHistory
@@ -184,11 +186,27 @@ export async function saveChallengeResult(
     const history: UserDailyChallengeHistory[] = raw ? JSON.parse(raw) : [];
     history.unshift(result);
     localStorage.setItem(key, JSON.stringify(history));
+    // Save to unified mock history as well
+    const unifiedKey = `bible_crown_game_history_${uid}`;
+    const uniRaw = localStorage.getItem(unifiedKey);
+    const uniHistory = uniRaw ? JSON.parse(uniRaw) : [];
+    uniHistory.unshift({
+      gameMode: 'daily_challenge',
+      score: result.score,
+      outcome: result.score >= 3 ? 'win' : 'loss',
+      createdAt: new Date().toISOString()
+    });
+    localStorage.setItem(unifiedKey, JSON.stringify(uniHistory));
     return;
   }
 
   try {
     await addDoc(collection(db, `users/${uid}/daily_challenge_history`), result);
+    await saveGamePlay(uid, {
+      gameMode: 'daily_challenge',
+      score: result.score,
+      outcome: result.score >= 3 ? 'win' : 'loss'
+    });
   } catch (error) {
     console.error('[DailyChallenge] Error saving history:', error);
   }

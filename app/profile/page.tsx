@@ -21,8 +21,15 @@ import {
   Home,
   Crown,
   Users,
-  Lock
+  Lock,
+  Link2,
+  Copy,
+  Share2,
+  Gift,
+  ChevronRight,
+  CheckCircle2
 } from 'lucide-react';
+import { toast } from 'sonner';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import UserAvatar from '@/components/UserAvatar';
 import { useT } from '@/lib/i18n/context';
@@ -32,6 +39,8 @@ import { getActiveSeason, getUserProgress } from '@/lib/battle-pass/repository';
 import { BattlePassSeasonModel, UserBattlePassProgressModel } from '@/lib/battle-pass/models';
 import { getCategories } from '@/lib/category/repository';
 import { CategoryModel } from '@/lib/category/models';
+import { getOrCreateReferralCode, getLevelFromXp } from '@/lib/user/repository';
+import { REFERRAL_REWARDS } from '@/lib/user/referralModels';
 import { useEffect, useState } from 'react';
 
 export default function Profile() {
@@ -43,6 +52,38 @@ export default function Profile() {
   const [progress, setProgress] = useState<UserBattlePassProgressModel | null>(null);
   const [categoryName, setCategoryName] = useState<string>('');
   const [isDataLoading, setIsDataLoading] = useState(true);
+  const [referralCode, setReferralCode] = useState<string | null>(user?.referralCode ?? null);
+  const [isGeneratingCode, setIsGeneratingCode] = useState(false);
+
+  const handleGetReferralCode = async () => {
+    if (!user) return;
+    setIsGeneratingCode(true);
+    try {
+      const code = await getOrCreateReferralCode(user.uid);
+      setReferralCode(code);
+    } catch (e) {
+      console.error(e);
+    } finally {
+      setIsGeneratingCode(false);
+    }
+  };
+
+  const referralLink = typeof window !== 'undefined' && referralCode
+    ? `${window.location.origin}/register?ref=${referralCode}`
+    : null;
+
+  const langLabels = {
+    es: { title: 'Programa de Referidos', btn: 'Crear link de referido', copy: 'Copiar link', share: 'Compartir', registered: 'Registrados', qualified: 'Calificados', progress: 'Progreso hacia recompensas', rewardTitle: 'Recompensas por nivel', linkCopied: '¡Link copiado!', firstGame: 'El referido califica al completar su primera partida.' },
+    en: { title: 'Referral Program', btn: 'Create referral link', copy: 'Copy link', share: 'Share', registered: 'Registered', qualified: 'Qualified', progress: 'Progress toward rewards', rewardTitle: 'Level Rewards', linkCopied: 'Link copied!', firstGame: 'Referral qualifies upon completing their first game.' },
+    fr: { title: 'Programme de Parrainage', btn: 'Créer un lien de parrainage', copy: 'Copier le lien', share: 'Partager', registered: 'Inscrits', qualified: 'Qualifiés', progress: 'Progression vers les récompenses', rewardTitle: 'Récompenses par niveau', linkCopied: 'Lien copié!', firstGame: 'Le filleul est qualifié après sa première partie.' },
+    ht: { title: 'Pwogram Referans', btn: 'Kreye lyen referans', copy: 'Kopye lyen', share: 'Pataje', registered: 'Anregistre', qualified: 'Kalifyé', progress: 'Pwogrè vè rekonpans', rewardTitle: 'Rekonpans pa nivo', linkCopied: 'Lyen kopye!', firstGame: 'Moun referan an kalifyé apre premye pati li.' },
+  };
+  const lang = (user?.settings?.language ?? 'es') as keyof typeof langLabels;
+  const rl = langLabels[lang] ?? langLabels.es;
+
+  const qualifiedCount = user?.referralStats?.qualifiedCount ?? 0;
+  const registeredCount = user?.referralStats?.registeredCount ?? 0;
+  const claimedLevels = user?.referralStats?.claimedLevels ?? [];
   useEffect(() => {
     async function fetchData() {
       if (!user) return;
@@ -150,7 +191,7 @@ export default function Profile() {
               {user.firstName ? `${user.firstName} ${user.lastName}` : (user.fullName || user.username)}
             </h2>
             <div className="flex items-center justify-center gap-2 mt-1.5">
-              <span className="bg-[#4a148c]/10 text-[#310065] font-bold px-3 py-0.5 rounded-full text-[11px] uppercase tracking-wider">{t.profile.level} {user.level || 1}</span>
+              <span className="bg-[#4a148c]/10 text-[#310065] font-bold px-3 py-0.5 rounded-full text-[11px] uppercase tracking-wider">{t.profile.level} {getLevelFromXp(user.xp)}</span>
               <span className="text-[#4a4452] text-[14px] font-medium">{(user.xp || 0) >= 1000 ? `${((user.xp || 0) / 1000).toFixed(1)}k` : (user.xp || 0)} XP</span>
             </div>
           </div>
@@ -165,7 +206,7 @@ export default function Profile() {
         {/* Quick Stats Row (Bento Style) */}
         <section className="grid grid-cols-3 gap-3">
           <div className="bg-[#f5f3f7] p-4 rounded-[1.5rem] flex flex-col items-center justify-center text-center">
-            <span className="text-[#310065] font-serif text-[26px] font-black leading-none">{user.accuracyRate || 0}%</span>
+            <span className="text-[#310065] font-serif text-[26px] font-black leading-none">{Math.round(user.accuracyRate || 0)}%</span>
             <span className="text-[10px] uppercase font-bold text-[#4a4452] tracking-widest mt-2">{t.profile.accuracy}</span>
           </div>
           <div className="bg-[#4a148c] text-[#b889ff] p-4 rounded-[1.5rem] flex flex-col items-center justify-center text-center shadow-[0_8px_20px_rgba(74,20,140,0.15)]">
@@ -302,6 +343,120 @@ export default function Profile() {
                 <p className="text-[9px] uppercase font-bold text-[#4a4452] tracking-wider mb-0.5">{t.profile.language}</p>
                 <p className="text-[14px] font-bold text-[#1b1b1e] uppercase">{user.settings.language}</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Referral Card */}
+        <section className="bg-white rounded-[2rem] p-6 shadow-[0_2px_20px_rgba(0,0,0,0.06)] border border-[#310065]/5 space-y-5">
+          {/* Header */}
+          <div className="flex items-center gap-3">
+            <div className="bg-[#310065]/10 p-3 rounded-2xl">
+              <Gift className="text-[#310065] w-5 h-5" />
+            </div>
+            <div>
+              <p className="text-[10px] uppercase font-bold text-[#4a4452] tracking-[0.2em]">Bible Crown</p>
+              <h2 className="text-[17px] font-bold text-[#1b1b1e]">{rl.title}</h2>
+            </div>
+          </div>
+
+          {/* Stats Row */}
+          <div className="grid grid-cols-2 gap-3">
+            <div className="bg-[#f5f3f7] rounded-2xl p-4 text-center">
+              <p className="text-2xl font-black text-[#310065]">{registeredCount}</p>
+              <p className="text-[11px] font-bold text-[#4a4452] mt-0.5">{rl.registered}</p>
+            </div>
+            <div className="bg-[#f5f3f7] rounded-2xl p-4 text-center">
+              <p className="text-2xl font-black text-emerald-600">{qualifiedCount}</p>
+              <p className="text-[11px] font-bold text-[#4a4452] mt-0.5">{rl.qualified}</p>
+            </div>
+          </div>
+
+          {/* Progress bar toward next level */}
+          {(() => {
+            const nextReward = REFERRAL_REWARDS.find(r => !claimedLevels.includes(r.level));
+            if (!nextReward) return null;
+            const pct = Math.min(100, Math.round((qualifiedCount / nextReward.requiredQualified) * 100));
+            return (
+              <div className="space-y-1.5">
+                <div className="flex justify-between text-[11px] font-bold text-[#4a4452]">
+                  <span>{rl.progress} — Niv. {nextReward.level}</span>
+                  <span className="text-[#310065]">{qualifiedCount}/{nextReward.requiredQualified}</span>
+                </div>
+                <div className="h-2 bg-[#f5f3f7] rounded-full overflow-hidden">
+                  <div className="h-full bg-gradient-to-r from-[#310065] to-[#7c43bd] rounded-full transition-all duration-700" style={{ width: `${pct}%` }} />
+                </div>
+              </div>
+            );
+          })()}
+
+          {/* Referral Link / Generate Button */}
+          {referralCode ? (
+            <div className="bg-[#f5f3f7] rounded-2xl p-4 space-y-3">
+              <p className="text-[11px] font-bold text-[#4a4452] uppercase tracking-wide">Tu código</p>
+              <div className="flex items-center gap-2">
+                <code className="flex-1 text-[13px] font-black text-[#310065] bg-white px-3 py-2 rounded-xl border border-[#310065]/10 truncate">{referralCode}</code>
+                <button
+                  id="copy-referral-code"
+                  onClick={async () => {
+                    if (referralLink) {
+                      await navigator.clipboard.writeText(referralLink);
+                      toast.success(rl.linkCopied);
+                    }
+                  }}
+                  className="bg-[#310065] text-white p-2.5 rounded-xl hover:bg-[#4a148c] transition-colors flex-shrink-0"
+                >
+                  <Copy className="w-4 h-4" />
+                </button>
+                {typeof navigator !== 'undefined' && 'share' in navigator && (
+                  <button
+                    id="share-referral-link"
+                    onClick={() => {
+                      if (referralLink) {
+                        navigator.share({ title: 'Bible Crown', text: 'Únete usando mi link de referido', url: referralLink });
+                      }
+                    }}
+                    className="bg-[#7c43bd] text-white p-2.5 rounded-xl hover:bg-[#310065] transition-colors flex-shrink-0"
+                  >
+                    <Share2 className="w-4 h-4" />
+                  </button>
+                )}
+              </div>
+              <p className="text-[11px] text-[#4a4452] font-medium">{rl.firstGame}</p>
+            </div>
+          ) : (
+            <button
+              id="generate-referral-link"
+              onClick={handleGetReferralCode}
+              disabled={isGeneratingCode}
+              className="w-full py-4 bg-[#310065] text-white font-black text-[14px] rounded-2xl flex items-center justify-center gap-2 hover:bg-[#4a148c] transition-colors disabled:opacity-50 shadow-[0_4px_16px_rgba(49,0,101,0.25)]"
+            >
+              {isGeneratingCode ? <Loader2 className="w-4 h-4 animate-spin" /> : <Link2 className="w-4 h-4" />}
+              {rl.btn}
+            </button>
+          )}
+
+          {/* Rewards List */}
+          <div className="space-y-2">
+            <p className="text-[11px] font-bold text-[#4a4452] uppercase tracking-widest">{rl.rewardTitle}</p>
+            <div className="space-y-2 max-h-48 overflow-y-auto pr-1">
+              {REFERRAL_REWARDS.map(r => {
+                const claimed = claimedLevels.includes(r.level);
+                const unlocked = qualifiedCount >= r.requiredQualified;
+                return (
+                  <div key={r.level} className={`flex items-center gap-3 p-3 rounded-xl transition-colors ${claimed ? 'bg-emerald-50 border border-emerald-200' : unlocked ? 'bg-[#f5f3f7] border border-[#310065]/10' : 'bg-[#f5f3f7]/50'}`}>
+                    <div className={`w-8 h-8 rounded-full flex items-center justify-center text-[12px] font-black flex-shrink-0 ${
+                      claimed ? 'bg-emerald-500 text-white' : unlocked ? 'bg-[#310065] text-white' : 'bg-[#cdc3d4] text-white'
+                    }`}>
+                      {claimed ? <CheckCircle2 className="w-4 h-4" /> : r.level}
+                    </div>
+                    <p className={`text-[12px] font-semibold flex-1 leading-snug ${claimed ? 'text-emerald-700' : 'text-[#4a4452]'}`}>
+                      {r.rewardDescription[lang] ?? r.rewardDescription.es}
+                    </p>
+                    {!claimed && !unlocked && <Lock className="w-3.5 h-3.5 text-[#cdc3d4] flex-shrink-0" />}
+                  </div>
+                );
+              })}
             </div>
           </div>
         </section>

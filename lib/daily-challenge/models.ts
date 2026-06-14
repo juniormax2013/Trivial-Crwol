@@ -120,6 +120,7 @@ export interface UserChallengeData {
   monthlyStreakDays?: number;
   bestMonthlyStreak?: number;
   xp: number;
+  level?: number;
   coins: number;
   gems: number;
   crowns: number;

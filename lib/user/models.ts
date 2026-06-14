@@ -1,3 +1,5 @@
+import { ReferralStats } from './referralModels';
+
 // ---------------------------------------------------------------
 // USER MODULE — DATA MODELS
 // ---------------------------------------------------------------
@@ -122,6 +124,12 @@ export interface AppUserModel {
   
   // Optional Ranking info
   ranking?: number;
+
+  // Referral System
+  referralCode?: string;
+  referredBy?: string;
+  firstGameCompleted?: boolean;
+  referralStats?: ReferralStats;
 }
 
 /**
@@ -170,4 +178,10 @@ export const INITIAL_USER_STATS = {
   ownedAvatars: [],
   activeFrame: null,
   activeAvatar: null,
+  referralStats: {
+    registeredCount: 0,
+    qualifiedCount: 0,
+    claimedLevels: [],
+  },
 };
+

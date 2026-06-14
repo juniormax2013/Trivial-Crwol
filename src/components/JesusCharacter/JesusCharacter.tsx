@@ -4,8 +4,17 @@ import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { useJesusEmotion } from '../../hooks/useJesusEmotion';
 import type { JesusGameEvent } from '../../data/jesusEmotionMap';
-import Jesus3D from '../jesus/Jesus3D';
+import dynamic from 'next/dynamic';
 import { type Jesus3DAction, jesus3DAnimationMap } from '@/src/config/jesus3DAnimations';
+
+const Jesus3D = dynamic(() => import('../jesus/Jesus3D'), {
+  ssr: false,
+  loading: () => (
+    <div className="absolute inset-0 flex items-center justify-center bg-transparent pointer-events-none">
+      <div className="w-6 h-6 border-2 border-amber-500 border-t-transparent rounded-full animate-spin" />
+    </div>
+  ),
+});
 
 // ─────────────────────────────────────────────────────────────────────────────
 // CONFIGURACIÓN DE RENDERIZADO DE JESÚS (2D vs 3D)
@@ -184,7 +193,7 @@ function TransparentImage({ src, alt, className, style }: TransparentImageProps)
     };
 
     img.onload = processImage;
-    img.src = src;
+    img.src = encodeURI(src);
     if (img.complete) processImage();
     return () => { active = false; };
   }, [src]);

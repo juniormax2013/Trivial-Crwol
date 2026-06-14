@@ -24,7 +24,7 @@ import {
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import UserAvatar from '@/components/UserAvatar';
 import { AppUserModel } from '@/lib/user/models';
-import { getUser } from '@/lib/user/repository';
+import { getUser, getLevelFromXp } from '@/lib/user/repository';
 import { 
   checkFriendshipStatus, 
   getFriendsList, 
@@ -187,7 +187,7 @@ export default function PublicProfile({ params }: { params: Promise<{ uid: strin
               {profile.fullName || profile.username}
             </h2>
             <div className="flex items-center justify-center gap-2 mt-1.5">
-              <span className="bg-[#4a148c]/10 text-[#310065] font-bold px-3 py-0.5 rounded-full text-[11px] uppercase tracking-wider">Nivel {profile.level}</span>
+              <span className="bg-[#4a148c]/10 text-[#310065] font-bold px-3 py-0.5 rounded-full text-[11px] uppercase tracking-wider">Nivel {getLevelFromXp(profile.xp)}</span>
               <span className="text-[#4a4452] text-[14px] font-medium">{profile.xp >= 1000 ? `${(profile.xp / 1000).toFixed(1)}k` : profile.xp} XP</span>
             </div>
           </div>
@@ -258,7 +258,7 @@ export default function PublicProfile({ params }: { params: Promise<{ uid: strin
         {/* Quick Stats Row (Bento Style) */}
         <section className="grid grid-cols-3 gap-3">
           <div className="bg-[#f5f3f7] p-4 rounded-[1.5rem] flex flex-col items-center justify-center text-center">
-            <span className="text-[#310065] font-serif text-[26px] font-black leading-none">{profile.accuracyRate || 0}%</span>
+            <span className="text-[#310065] font-serif text-[26px] font-black leading-none">{Math.round(profile.accuracyRate || 0)}%</span>
             <span className="text-[10px] uppercase font-bold text-[#4a4452] tracking-widest mt-2">Precisión</span>
           </div>
           <div className="bg-[#4a148c] text-[#b889ff] p-4 rounded-[1.5rem] flex flex-col items-center justify-center text-center shadow-[0_8px_20px_rgba(74,20,140,0.15)]">

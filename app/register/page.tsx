@@ -1,8 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { 
   User, 
   Mail, 
@@ -19,14 +19,21 @@ import {
   updateProfile 
 } from 'firebase/auth';
 import { auth } from '@/lib/firebase';
-import { createUser } from '@/lib/user/repository';
+import { createUser, applyReferralOnRegister } from '@/lib/user/repository';
 import { useT, useLanguage } from '@/lib/i18n/context';
 
-export default function RegisterPage() {
+function RegisterForm() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const t = useT();
   const { language } = useLanguage();
   const [step, setStep] = useState(1);
+  const [referralCode, setReferralCode] = useState<string | null>(null);
+
+  useEffect(() => {
+    const ref = searchParams.get('ref');
+    if (ref) setReferralCode(ref.toUpperCase());
+  }, [searchParams]);
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -83,6 +90,11 @@ export default function RegisterPage() {
         provider: 'password',
         language,
       });
+
+      // 3b. Apply referral code if present
+      if (referralCode) {
+        await applyReferralOnRegister(user.uid, referralCode);
+      }
       
       // 4. Redirect to home or intended destination
       const savedPath = typeof window !== 'undefined' ? sessionStorage.getItem('auth_redirect_path') : null;
@@ -302,5 +314,13 @@ export default function RegisterPage() {
 
       </main>
     </div>
+  );
+}
+
+export default function RegisterPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-[#faf9fc]" />}>
+      <RegisterForm />
+    </Suspense>
   );
 }

@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { 
   X, 
   CheckCircle2, 
@@ -17,17 +18,112 @@ import {
   Award,
   Zap,
   Bookmark,
-  Sparkles
+  Sparkles,
+  Trophy,
+  Star
 } from 'lucide-react';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useLanguage, useT } from '@/lib/i18n/context';
 import { getSacredQuestions, SacredQuestion } from '@/lib/reto-sagrado/questions';
 import { playCorrectSound, playWrongSound } from '@/lib/game/audio';
-import { grantJweRewards } from '@/lib/user/repository';
+import { grantJweRewards, saveGamePlay, checkAndQualifyReferral } from '@/lib/user/repository';
 import { toast } from 'sonner';
+import { collection, doc, setDoc, onSnapshot } from 'firebase/firestore';
+import { db } from '@/lib/firebase';
 
 /** Small animated progress bar shown after answering — signals auto-advance in 1.5s */
-function AutoAdvanceBar({ language }: { language: string }) {
+const SACRED_TRANSLATIONS: Record<string, any> = {
+  es: {
+    nextQuestion: "Siguiente pregunta...",
+    victory: "¡Victoria!",
+    defeat: "¡Derrota!",
+    tie: "¡Empate!",
+    gameOver: "Fin del Juego",
+    winDesc: "¡Felicitaciones! Has superado el Reto Sagrado.",
+    lostDesc: "¡Sigue practicando la palabra para vencer la próxima vez!",
+    resultsTitle: "RESULTADOS DE LA PARTIDA",
+    questions: "Aciertos",
+    xp: "XP",
+    crowns: "Coronas",
+    continueBtn: "CONTINUAR",
+    nextRound: "SIGUIENTE RONDA",
+    imReady: "¡Estoy Listo!",
+    checkOrder: "Comprobar orden",
+    questionProgress: (current: number, total: number) => `Pregunta ${current} de ${total}`,
+    exitTitle: "¿De verdad quieres salir?",
+    exitDesc: "Si te retiras ahora, perderás el progreso actual del Reto Sagrado. ¡No te rindas!",
+    keepPlaying: "SEGUIR JUGANDO",
+    exitBtn: "SALIR",
+  },
+  en: {
+    nextQuestion: "Next question...",
+    victory: "Victory!",
+    defeat: "Defeat!",
+    tie: "Tie!",
+    gameOver: "Game Over",
+    winDesc: "Congratulations! You have overcome the Sacred Challenge.",
+    lostDesc: "Keep practicing the word to win next time!",
+    resultsTitle: "MATCH RESULTS",
+    questions: "Correct",
+    xp: "XP",
+    crowns: "Crowns",
+    continueBtn: "CONTINUE",
+    nextRound: "NEXT ROUND",
+    imReady: "I'm Ready",
+    checkOrder: "Check order",
+    questionProgress: (current: number, total: number) => `Question ${current} of ${total}`,
+    exitTitle: "Do you really want to leave?",
+    exitDesc: "If you leave now, you will lose the current progress of the Sacred Challenge. Don't give up!",
+    keepPlaying: "KEEP PLAYING",
+    exitBtn: "EXIT",
+  },
+  fr: {
+    nextQuestion: "Question suivante...",
+    victory: "Victoire !",
+    defeat: "Défaite !",
+    tie: "Égalité !",
+    gameOver: "Fin du Jeu",
+    winDesc: "Félicitations ! Vous avez surmonté le Défi Sacré.",
+    lostDesc: "Continuez à pratiquer la parole pour vaincre la prochaine fois !",
+    resultsTitle: "RÉSULTATS DE LA PARTIE",
+    questions: "Succès",
+    xp: "XP",
+    crowns: "Couronnes",
+    continueBtn: "CONTINUER",
+    nextRound: "PROCHAIN ROUND",
+    imReady: "Je suis prêt",
+    checkOrder: "Vérifier l'ordre",
+    questionProgress: (current: number, total: number) => `Question ${current} sur ${total}`,
+    exitTitle: "Voulez-vous vraiment quitter ?",
+    exitDesc: "Si vous partez maintenant, vous perdrez la progression actuelle du Défi Sacré. N'abandonnez pas !",
+    keepPlaying: "CONTINUER À JOUER",
+    exitBtn: "QUITTER",
+  },
+  ht: {
+    nextQuestion: "Pwochen kesyon...",
+    victory: "Ou Genyen!",
+    defeat: "Ou Pèdi!",
+    tie: "Egalite!",
+    gameOver: "Jwèt Fini!",
+    winDesc: "Felisitasyon! Ou pase tès sagrado sa a.",
+    lostDesc: "Pran kouraj, eseye ankò pou w vin pi fò!",
+    resultsTitle: "REZILTA PATI AN",
+    questions: "Kesyon",
+    xp: "XP",
+    crowns: "Kouwòn",
+    continueBtn: "KONTINYE",
+    nextRound: "PWOCHÈN WON",
+    imReady: "Mwen Pare",
+    checkOrder: "Tcheke Lòd",
+    questionProgress: (current: number, total: number) => `Kesyon ${current} sou ${total}`,
+    exitTitle: "Èske ou vle kite jwèt la?",
+    exitDesc: "Si ou pati kounye a, ou pral pèdi tout pwogrè ak enèji ou te envesti nan pati sa a. Pa abandone!",
+    keepPlaying: "KONTINYE JWE",
+    exitBtn: "KITE JWÈT LA",
+  }
+};
+
+function AutoAdvanceBar({ text }: { text: string }) {
   return (
     <div className="w-full flex flex-col items-center gap-2 py-3">
       <div className="w-full h-1 bg-[#e3e2e6] rounded-full overflow-hidden">
@@ -37,7 +133,7 @@ function AutoAdvanceBar({ language }: { language: string }) {
         />
       </div>
       <span className="text-[11px] font-semibold text-[#64748B]">
-        {language === 'ht' ? 'Pwochen kesyon...' : language === 'fr' ? 'Question suivante...' : 'Siguiente pregunta...'}
+        {text}
       </span>
       <style>{`
         @keyframes autoAdvanceProgress {
@@ -56,6 +152,9 @@ export default function RetoSagradoPlay() {
   const searchParams = useSearchParams();
   const isMultiplayer = searchParams.get('multiplayer') === 'true';
 
+  const lang = ((language as string) === 'fr' || (language as string) === 'es' || (language as string) === 'en' || (language as string) === 'ht') ? (language as 'fr' | 'es' | 'en' | 'ht') : 'es';
+  const localT = SACRED_TRANSLATIONS[lang];
+
   // Game state
   const [questions, setQuestions] = useState<SacredQuestion[]>([]);
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -72,34 +171,146 @@ export default function RetoSagradoPlay() {
 
   const currentQuestion = questions[currentIdx];
 
+  // Syncing to Firestore for multiplayer
+  const [opponentsProgress, setOpponentsProgress] = useState<Record<string, { name: string; avatarUrl: string; score: number; currentQuestion: number; isFinished: boolean }>>({});
+  const roomId = searchParams.get('room');
+
+  // Initial lobby join & status listener for multiplayer rooms
+  useEffect(() => {
+    if (!isLoaded || !user || !isMultiplayer || !roomId) return;
+
+    const playerRef = doc(db, `reto_sagrado_rooms/${roomId}/players`, user.uid);
+    const now = new Date().toISOString();
+
+    // Set initial player record in room
+    setDoc(playerRef, {
+      id: user.uid,
+      userId: user.uid,
+      name: user.fullName || user.username || 'Guerrero',
+      avatarUrl: user.photoURL || `https://api.dicebear.com/9.x/notionists/svg?seed=${user.uid}`,
+      score: 0,
+      currentQuestion: 1,
+      isFinished: false,
+      updatedAt: now
+    }, { merge: true }).catch(console.error);
+
+    // Subscribe to all players in the room
+    const roomPlayersRef = collection(db, `reto_sagrado_rooms/${roomId}/players`);
+    const unsubscribe = onSnapshot(roomPlayersRef, (snap) => {
+      const progresses: Record<string, any> = {};
+      snap.docs.forEach(doc => {
+        const data = doc.data();
+        if (data.id !== user.uid) {
+          progresses[data.id] = {
+            name: data.name || 'Rival',
+            avatarUrl: data.avatarUrl || `https://api.dicebear.com/9.x/notionists/svg?seed=${data.id}`,
+            score: data.score || 0,
+            currentQuestion: data.currentQuestion || 0,
+            isFinished: data.isFinished || false
+          };
+        }
+      });
+      setOpponentsProgress(progresses);
+    }, (error) => {
+      console.error("Error subscribing to reto_sagrado_room players:", error);
+    });
+
+    return () => unsubscribe();
+  }, [isLoaded, user, isMultiplayer, roomId]);
+
+  // Update progress in Firestore whenever player progress changes
+  useEffect(() => {
+    if (!user || !isMultiplayer || !roomId) return;
+    const playerRef = doc(db, `reto_sagrado_rooms/${roomId}/players`, user.uid);
+    setDoc(playerRef, {
+      score: score,
+      currentQuestion: currentIdx + 1,
+      isFinished: isGameOver,
+      updatedAt: new Date().toISOString()
+    }, { merge: true }).catch(console.error);
+  }, [user, isMultiplayer, roomId, score, currentIdx, isGameOver]);
+
+  const hasSavedHistory = useRef(false);
+  useEffect(() => {
+    if (isGameOver && user && !hasSavedHistory.current) {
+      hasSavedHistory.current = true;
+      let outcome: 'win' | 'loss' | 'tie' = 'win';
+      let opponentName = '';
+      let opponentScore = 0;
+
+      const opponentIds = Object.keys(opponentsProgress);
+      if (opponentIds.length > 0) {
+        const op = opponentsProgress[opponentIds[0]];
+        opponentName = op.name;
+        opponentScore = op.score;
+
+        if (score > opponentScore) {
+          outcome = 'win';
+        } else if (score < opponentScore) {
+          outcome = 'loss';
+        } else {
+          outcome = 'tie';
+        }
+      } else {
+        outcome = (score >= 3 && hearts > 0) ? 'win' : 'loss';
+      }
+
+      saveGamePlay(user.uid, {
+        gameMode: 'reto_sagrado',
+        score,
+        outcome,
+        opponentName: opponentName || undefined,
+        opponentScore: opponentName ? opponentScore : undefined
+      }).catch(e => console.error("Error saving reto sagrado history:", e));
+
+      // Calificar referido si aplica (primera partida completada)
+      checkAndQualifyReferral(user.uid).catch(e => console.error("Error qualifying referral:", e));
+    }
+  }, [isGameOver, user, score, opponentsProgress, hearts]);
+
   // Ref to always have the latest handleNext (avoids stale closure in auto-advance)
   const handleNextRef = useRef<() => void>(() => {});
 
+  const isInitializing = useRef(false);
+
   // Initialize questions
   useEffect(() => {
-    if (!isLoaded) return;
+    if (!isLoaded || isInitializing.current) return;
+    isInitializing.current = true;
 
     // Get all combined questions for the selected language
     let combined = getSacredQuestions((language === 'es' || language === 'fr' || language === 'ht') ? language : 'es');
     
     if (isMultiplayer) {
-      // 1. Separate pools by difficulty
-      const easyPool = combined.filter(q => q.difficulty === 'easy' || !q.difficulty);
-      const mediumPool = combined.filter(q => q.difficulty === 'medium');
-      const hardPool = combined.filter(q => q.difficulty === 'hard');
-
-      // 2. Select quantities: 15 easy, 15 medium, 20 hard
-      const selectedEasy = [...easyPool].sort(() => Math.random() - 0.5).slice(0, 15);
-      const selectedMedium = [...mediumPool].sort(() => Math.random() - 0.5).slice(0, 15);
-      const selectedHard = [...hardPool].sort(() => Math.random() - 0.5).slice(0, 20);
-
-      // 3. Group by type within each difficulty level to preserve transition announcements
-      selectedEasy.sort((a, b) => a.type.localeCompare(b.type));
-      selectedMedium.sort((a, b) => a.type.localeCompare(b.type));
-      selectedHard.sort((a, b) => a.type.localeCompare(b.type));
-
-      // 4. Concatenate to maintain Easy -> Medium -> Hard progression
-      setQuestions([...selectedEasy, ...selectedMedium, ...selectedHard]);
+      if (!roomId) return;
+      // Fetch the room document to get the synchronized question IDs
+      const roomRef = doc(db, `reto_sagrado_rooms/${roomId}`);
+      const unsubscribe = onSnapshot(roomRef, (snap) => {
+        const data = snap.data();
+        if (data && data.questionIds && data.questionIds.length > 0) {
+          const syncedIds = data.questionIds as string[];
+          const resolvedQuestions = syncedIds.map(id => combined.find(q => q.id === id)).filter(Boolean) as SacredQuestion[];
+          
+          if (resolvedQuestions.length > 0) {
+            setQuestions(resolvedQuestions);
+            setIsLoading(false);
+          } else {
+            // Fallback if resolvedQuestions is empty for some reason
+            const easyPool = combined.filter(q => q.difficulty === 'easy' || !q.difficulty);
+            const mediumPool = combined.filter(q => q.difficulty === 'medium');
+            const hardPool = combined.filter(q => q.difficulty === 'hard');
+            const selectedEasy = [...easyPool].sort(() => Math.random() - 0.5).slice(0, 15);
+            const selectedMedium = [...mediumPool].sort(() => Math.random() - 0.5).slice(0, 15);
+            const selectedHard = [...hardPool].sort(() => Math.random() - 0.5).slice(0, 20);
+            selectedEasy.sort((a, b) => a.type.localeCompare(b.type));
+            selectedMedium.sort((a, b) => a.type.localeCompare(b.type));
+            selectedHard.sort((a, b) => a.type.localeCompare(b.type));
+            setQuestions([...selectedEasy, ...selectedMedium, ...selectedHard]);
+            setIsLoading(false);
+          }
+        }
+      });
+      return () => unsubscribe();
     } else {
       // Determine number of questions based on difficulty
       const diff = searchParams.get('difficulty') || 'easy';
@@ -130,9 +341,9 @@ export default function RetoSagradoPlay() {
       finalSelection.sort((a, b) => a.type.localeCompare(b.type));
 
       setQuestions(finalSelection);
+      setIsLoading(false);
     }
-    setIsLoading(false);
-  }, [language, searchParams, isMultiplayer]);
+  }, [language, isMultiplayer, roomId, isLoaded]);
 
   // Set up order_events items when entering an ordering question
   useEffect(() => {
@@ -215,12 +426,10 @@ export default function RetoSagradoPlay() {
     if (isLast) {
       setIsGameOver(true);
       if (user?.uid && score > 0) {
-        // Grant some rewards on finish
-        try {
-          await grantJweRewards(user.uid, false, 1.5);
-        } catch (e) {
-          console.error(e);
-        }
+        // Grant some rewards on finish asynchronously to prevent UI freezing
+        grantJweRewards(user.uid, false, 1.5).catch(e => {
+          console.error("Error granting sacred challenge rewards:", e);
+        });
       }
     } else {
       const nextQuestion = questions[nextIdx];
@@ -274,7 +483,54 @@ export default function RetoSagradoPlay() {
 
   // GAME OVER / SUMMARY SCREEN
   if (isGameOver) {
-    const isWin = score >= 3 && hearts > 0;
+    // If multiplayer, compute vs opponent stats
+    let isWin = score >= 3 && hearts > 0;
+    let opponentName = '';
+    let opponentScore = 0;
+    let opponentFinished = false;
+    let hasOpponent = false;
+
+    const opponentIds = Object.keys(opponentsProgress);
+    if (opponentIds.length > 0) {
+      hasOpponent = true;
+      const op = opponentsProgress[opponentIds[0]];
+      opponentName = op.name;
+      opponentScore = op.score;
+      opponentFinished = op.isFinished;
+
+      // In multiplayer, win condition is getting more points/correct answers
+      if (score > opponentScore) {
+        isWin = true;
+      } else if (score < opponentScore) {
+        isWin = false;
+      } else {
+        // Tie
+        isWin = false; // Evaluated below
+      }
+    }
+
+    const isTie = hasOpponent && score === opponentScore;
+    const titleText = isTie 
+      ? localT.tie 
+      : isWin 
+        ? localT.victory 
+        : hasOpponent 
+          ? localT.defeat 
+          : localT.gameOver;
+
+    const descText = isTie
+      ? (language === 'ht' ? 'Ou fè menm pwen ak advèsè w la!' : language === 'fr' ? 'Égalité parfaite avec votre adversaire !' : '¡Empate perfecto con tu oponente!')
+      : isWin 
+        ? (language === 'ht' ? 'Felisitasyon! Ou bat advèsè w la!' : language === 'fr' ? 'Félicitations ! Vous avez battu votre adversaire !' : '¡Felicidades! Has vencido a tu oponente.')
+        : hasOpponent
+          ? (language === 'ht' ? 'Pran kouraj, advèsè w la fè plis pwen fwa sa a.' : language === 'fr' ? 'Votre adversaire a obtenu plus de points cette fois.' : 'Tu oponente obtuvo más puntos esta vez. ¡Sigue practicando!')
+          : localT.lostDesc;
+
+    // Premium rewards calculations
+    const xpRewarded = isTie ? 30 : isWin ? 60 : 15;
+    const crownsRewarded = isWin ? 3 : 0;
+    const coinsRewarded = isTie ? 5 : isWin ? 10 : 2;
+
     return (
       <div className="min-h-screen relative flex flex-col items-center justify-center px-6 text-center py-12 overflow-hidden bg-white pt-safe pb-safe">
         {/* Decorative ambient glow */}
@@ -282,40 +538,71 @@ export default function RetoSagradoPlay() {
 
         <div className="w-full max-w-md bg-white/80 backdrop-blur-md p-10 rounded-[3rem] border border-[#0A84FF]/10 shadow-2xl flex flex-col items-center">
           <div className={`w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 border ${
-            isWin 
-              ? 'bg-green-50 text-green-600 border-green-100' 
-              : 'bg-red-50 text-red-600 border-red-100'
+            isTie
+              ? 'bg-amber-50 text-amber-600 border-amber-100'
+              : isWin 
+                ? 'bg-green-50 text-green-600 border-green-100' 
+                : 'bg-red-50 text-red-600 border-red-100'
           }`}>
             <Award size={48} />
           </div>
 
           <h1 className="text-[32px] font-black text-[#0f172a] mb-2 uppercase tracking-tighter">
-            {isWin ? (language === 'ht' ? 'Ou Genyen!' : '¡Victoria!') : (language === 'ht' ? 'Jwèt Fini!' : 'Fin del Juego')}
+            {titleText}
           </h1>
           
           <p className="text-[#64748B] mb-8 text-[14px] font-medium max-w-[280px]">
-            {isWin 
-              ? (language === 'ht' ? 'Felisitasyon! Ou pase tès sagrado sa a.' : '¡Felicitaciones! Has superado el Reto Sagrado.')
-              : (language === 'ht' ? 'Pran kouraj, eseye ankò pou w vin pi fò!' : '¡Sigue practicando la palabra para vencer la próxima vez!')}
+            {descText}
           </p>
+
+          {/* Opponent score comparison card if multiplayer */}
+          {hasOpponent && (
+            <div className="bg-[#f8fafc] rounded-[2rem] p-6 shadow-inner w-full mb-6 border border-[#0A84FF]/5 space-y-4">
+              <h3 className="text-[10px] font-black text-[#64748B] uppercase tracking-widest">
+                {language === 'ht' ? 'KONSÈY PWEN RIVAL' : language === 'fr' ? 'COMPARAISON DES POINTS' : 'COMPARACIÓN DE PUNTOS'}
+              </h3>
+              
+              <div className="flex items-center justify-between px-4">
+                <div className="flex flex-col items-center gap-1.5">
+                  <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[#0A84FF]">
+                    <img src={user?.photoURL || `https://api.dicebear.com/9.x/notionists/svg?seed=${user?.uid}`} alt="Tú" className="w-full h-full object-cover" />
+                  </div>
+                  <span className="text-xs font-black text-[#0F172A] truncate max-w-[70px]">{language === 'ht' ? 'Ou' : language === 'fr' ? 'Vous' : 'Tú'}</span>
+                  <span className="text-lg font-extrabold text-[#0A84FF]">{score}</span>
+                </div>
+
+                <div className="text-xs font-black text-[#64748B] px-3 py-1 bg-white rounded-full border border-slate-100 shadow-sm">
+                  VS
+                </div>
+
+                <div className="flex flex-col items-center gap-1.5">
+                  <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-slate-200">
+                    <img src={Object.values(opponentsProgress)[0]?.avatarUrl} alt="Opponent" className="w-full h-full object-cover" />
+                  </div>
+                  <span className="text-xs font-black text-[#64748B] truncate max-w-[70px]">{opponentName}</span>
+                  <span className="text-lg font-extrabold text-slate-500">{opponentScore}</span>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* Reward cards */}
           <div className="bg-[#f8fafc] rounded-[2rem] p-6 shadow-inner w-full mb-8 border border-[#0A84FF]/5">
             <h3 className="text-[10px] font-black text-[#64748B] uppercase tracking-widest mb-4">
-              {language === 'ht' ? 'REZILTA PATI AN' : 'RESULTADOS DE LA PARTIDA'}
+              {localT.resultsTitle}
             </h3>
             <div className="grid grid-cols-3 gap-4">
               <div className="flex flex-col items-center gap-1 text-[#0f172a]">
-                <span className="text-[10px] font-bold text-[#64748B] uppercase">{language === 'ht' ? 'Kesyon' : 'Aciertos'}</span>
-                <span className="font-extrabold text-[18px] text-[#0A84FF]">{score} / {questions.length}</span>
+                <span className="text-[10px] font-bold text-[#64748B] uppercase">{language === 'ht' ? 'Lajan' : language === 'fr' ? 'Monnaies' : 'Monedas'}</span>
+                <span className="font-extrabold text-[18px] text-amber-600">+{coinsRewarded}</span>
               </div>
               <div className="flex flex-col items-center gap-1 text-[#0f172a]">
-                <span className="text-[10px] font-bold text-[#64748B] uppercase">XP</span>
-                <span className="font-extrabold text-[18px] text-[#0A84FF]">{isWin ? '+50' : '+15'}</span>
+                <span className="text-[10px] font-bold text-[#64748B] uppercase">{localT.xp}</span>
+                <span className="font-extrabold text-[18px] text-[#0A84FF]">+{xpRewarded}</span>
               </div>
               <div className="flex flex-col items-center gap-1 text-[#0f172a]">
-                <span className="text-[10px] font-bold text-[#64748B] uppercase">{language === 'ht' ? 'Kouwòn' : 'Coronas'}</span>
-                <span className="font-extrabold text-[18px] text-amber-500">{isWin ? '+2' : '0'}</span>
+                <span className="text-[10px] font-bold text-[#64748B] uppercase">{localT.crowns}</span>
+                <span className="font-extrabold text-[18px] text-amber-500">+{crownsRewarded}</span>
               </div>
             </div>
           </div>
@@ -324,7 +611,7 @@ export default function RetoSagradoPlay() {
             onClick={() => router.push('/reto-sagrado')}
             className="w-full bg-[#0A84FF] text-white py-5 rounded-[1.5rem] font-black uppercase tracking-widest flex items-center justify-center gap-2 shadow-lg shadow-[#0A84FF]/25 hover:scale-105 active:scale-95 transition-transform"
           >
-            {language === 'ht' ? 'KONTINYE' : 'CONTINUAR'}
+            {localT.continueBtn}
           </button>
         </div>
       </div>
@@ -395,7 +682,21 @@ export default function RetoSagradoPlay() {
 
   if (showTypeAnnouncement && currentQuestion) {
     return (
-      <div className="min-h-screen bg-[#faf9fc] flex flex-col items-center justify-center px-6 text-center py-12">
+      <div className="min-h-screen bg-[#faf9fc] flex flex-col items-center justify-center px-6 text-center py-12 relative">
+        {/* Retrocede al Lobby si es la primera pregunta, o muestra modal de salida */}
+        <button 
+          onClick={() => {
+            if (currentIdx === 0) {
+              router.push('/reto-sagrado');
+            } else {
+              setShowExitConfirm(true);
+            }
+          }} 
+          className="absolute top-6 left-6 w-10 h-10 rounded-full bg-white border border-[#1b1b1e]/5 flex items-center justify-center hover:bg-slate-100 transition-colors shadow-sm active:scale-95"
+        >
+          <X className="w-5 h-5 text-[#1b1b1e]" />
+        </button>
+
         <div className="w-full max-w-md bg-white p-10 rounded-[3rem] border border-[#0A84FF]/10 shadow-2xl flex flex-col items-center gap-6 animate-scale-in">
           <div className="w-16 h-16 rounded-2xl bg-blue-50 text-[#0A84FF] flex items-center justify-center shadow-inner animate-pulse">
             <Sparkles size={32} />
@@ -403,7 +704,7 @@ export default function RetoSagradoPlay() {
           
           <div className="space-y-2">
             <span className="text-[10px] font-black tracking-[0.2em] text-[#64748B] uppercase">
-              {language === 'ht' ? 'PWOCHÈN WON' : 'SIGUIENTE RONDA'}
+              {localT.nextRound}
             </span>
             <h2 className="text-[28px] font-serif font-black text-[#0f172a] leading-tight">
               {getTypeTitle(currentQuestion.type)}
@@ -417,10 +718,47 @@ export default function RetoSagradoPlay() {
             onClick={() => setShowTypeAnnouncement(false)}
             className="w-full bg-[#0A84FF] text-white py-5 rounded-[1.5rem] font-black uppercase tracking-widest flex items-center justify-center gap-2 shadow-lg shadow-[#0A84FF]/25 hover:scale-105 active:scale-95 transition-transform mt-4"
           >
-            <span>{language === 'ht' ? 'Mwen Pare' : '¡Estoy Listo!'}</span>
+            <span>{localT.imReady}</span>
             <ChevronRight size={20} />
           </button>
         </div>
+
+        {showExitConfirm && (
+          <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4 backdrop-blur-sm">
+            <div className="bg-white w-full max-w-md rounded-[2.5rem] p-8 text-center border border-white/20 shadow-2xl relative flex flex-col items-center gap-6 animate-scale-in">
+              <div className="w-16 h-16 bg-red-100 text-red-600 rounded-3xl flex items-center justify-center shadow-inner">
+                <AlertTriangle size={32} />
+              </div>
+              
+              <div className="space-y-2">
+                <h3 className="text-xl font-serif font-black text-[#310065] italic">
+                  {localT.exitTitle}
+                </h3>
+                <p className="text-[12px] font-semibold text-[#1b1b1e]/60 leading-relaxed max-w-[90%] mx-auto">
+                  {localT.exitDesc}
+                </p>
+              </div>
+
+              <div className="flex gap-4 w-full pt-2">
+                <button
+                  onClick={() => setShowExitConfirm(false)}
+                  className="flex-1 py-4 bg-gradient-to-r from-amber-400 to-[#e9c349] text-[#310065] rounded-2xl font-black text-xs uppercase tracking-widest shadow-md hover:scale-105 active:scale-95 transition-transform"
+                >
+                  {localT.keepPlaying}
+                </button>
+                <button
+                  onClick={() => {
+                    setShowExitConfirm(false);
+                    router.push('/reto-sagrado');
+                  }}
+                  className="flex-1 py-4 bg-[#f5f3f7] hover:bg-red-50 text-red-600 rounded-2xl font-black text-xs uppercase tracking-widest border border-transparent shadow-sm hover:scale-105 active:scale-95 transition-transform"
+                >
+                  {localT.exitBtn}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     );
   }
@@ -432,32 +770,68 @@ export default function RetoSagradoPlay() {
       </div>
 
       {/* Header */}
-      <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/80 backdrop-blur-xl border-b border-[#0A84FF]/5">
-        <div className="flex justify-between items-center px-6 py-4 max-w-screen-md mx-auto">
-          <button 
-            onClick={() => setShowExitConfirm(true)} 
-            className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors"
-          >
-            <X className="w-6 h-6 text-[#1b1b1e]" />
-          </button>
-          
-          <div className="flex items-center gap-4">
-            <div className="flex items-center bg-red-50 px-3.5 py-1.5 rounded-full border border-red-100">
-              <span className="text-[13px] font-black text-red-600 flex items-center gap-1.5">
-                ❤️ {hearts}
+      <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/85 backdrop-blur-xl border-b border-[#0A84FF]/5">
+        <div className="flex flex-col px-6 py-4 max-w-screen-md mx-auto gap-3">
+          <div className="flex justify-between items-center w-full">
+            <button 
+              onClick={() => setShowExitConfirm(true)} 
+              className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors"
+            >
+              <X className="w-6 h-6 text-[#1b1b1e]" />
+            </button>
+            
+            <div className="flex items-center gap-2">
+              <span className="bg-[#0A84FF]/10 text-[#0A84FF] text-[10px] font-black tracking-widest px-3 py-1.5 rounded-full border border-[#0A84FF]/25 shadow-sm uppercase">
+                {isMultiplayer ? (language === 'ht' ? 'Batay an tan reyèl' : language === 'fr' ? 'Bataille en temps réel' : 'Batalla en tiempo real') : 'Reto Sagrado'}
               </span>
             </div>
+
+            <div className="flex items-center gap-4">
+              <div className="flex items-center bg-red-50 px-3.5 py-1.5 rounded-full border border-red-100 shadow-sm">
+                <span className="text-[13px] font-black text-red-600 flex items-center gap-1.5">
+                  ❤️ {hearts}
+                </span>
+              </div>
+            </div>
           </div>
+
+          {/* Live Leaderboard Strip if multiplayer */}
+          {isMultiplayer && (
+            <div className="flex gap-2 overflow-x-auto pb-1 no-scrollbar animate-in slide-in-from-top duration-300">
+              {/* Local Player */}
+              <div className="flex items-center gap-2 px-3 py-1.5 rounded-full border bg-[#0A84FF] text-white border-[#0A84FF] shadow-sm shrink-0">
+                <div className="w-5 h-5 rounded-full overflow-hidden border border-white/35">
+                  <img src={user?.photoURL || `https://api.dicebear.com/9.x/notionists/svg?seed=${user?.uid}`} alt="Tú" className="w-full h-full object-cover" />
+                </div>
+                <span className="text-[11px] font-bold truncate max-w-[65px]">{language === 'ht' ? 'Ou' : language === 'fr' ? 'Vous' : 'Tú'}</span>
+                <span className="text-[11px] font-black">{score}</span>
+              </div>
+
+              {/* Opponents */}
+              {Object.entries(opponentsProgress).map(([opId, op]) => (
+                <div key={opId} className="flex items-center gap-2 px-3 py-1.5 rounded-full border bg-white text-[#64748B] border-[#1b1b1e]/5 shadow-sm shrink-0">
+                  <div className="w-5 h-5 rounded-full overflow-hidden border border-slate-200">
+                    <img src={op.avatarUrl} alt={op.name} className="w-full h-full object-cover" />
+                  </div>
+                  <span className="text-[11px] font-bold truncate max-w-[65px]">{op.name.split(' ')[0]}</span>
+                  <span className="text-[11px] font-black text-[#0f172a]">{op.score}</span>
+                  {op.isFinished && (
+                    <span className="text-[9px] font-black text-green-500 uppercase tracking-tighter ml-1">✓</span>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </header>
 
       {/* Gameplay Container */}
-      <main className="flex-grow pt-24 pb-12 px-6 flex flex-col max-w-[480px] mx-auto w-full">
+      <main className={`flex-grow ${isMultiplayer ? 'pt-36' : 'pt-24'} pb-12 px-6 flex flex-col max-w-[480px] mx-auto w-full`}>
         {/* Progress Bar */}
         <div className="mb-6 space-y-2">
           <div className="flex justify-between items-end">
             <span className="text-[10px] font-black tracking-[0.2em] text-[#64748B] uppercase">
-              {language === 'ht' ? `Kesyon ${currentIdx + 1} sou ${questions.length}` : `Pregunta ${currentIdx + 1} de ${questions.length}`}
+              {localT.questionProgress(currentIdx + 1, questions.length)}
             </span>
             <span className="text-[12px] font-bold text-[#0A84FF]">
               {Math.round(((currentIdx + (isAnswered ? 1 : 0)) / questions.length) * 100)}%
@@ -586,15 +960,15 @@ export default function RetoSagradoPlay() {
               onClick={() => handleCheckAnswer()}
               className="w-full bg-[#0A84FF] text-white py-5 rounded-[1.5rem] font-black uppercase tracking-widest flex items-center justify-center gap-2 shadow-lg shadow-[#0A84FF]/20 hover:scale-105 active:scale-95 transition-transform"
             >
-              <span>{language === 'ht' ? 'Tcheke Lòd' : language === 'fr' ? 'Vérifier l\'ordre' : 'Comprobar orden'}</span>
+              <span>{localT.checkOrder}</span>
               <Check size={20} />
             </button>
           ) : (
-            <AutoAdvanceBar language={language} />
+            <AutoAdvanceBar text={localT.nextQuestion} />
           )
         ) : (
           // All other types: auto-check on option click, only show progress after answering
-          isAnswered && <AutoAdvanceBar language={language} />
+          isAnswered && <AutoAdvanceBar text={localT.nextQuestion} />
         )}
       </main>
 
@@ -608,12 +982,10 @@ export default function RetoSagradoPlay() {
             
             <div className="space-y-2">
               <h3 className="text-xl font-serif font-black text-[#310065] italic">
-                {language === 'ht' ? 'Èske ou vle kite jwèt la?' : '¿De verdad quieres salir?'}
+                {localT.exitTitle}
               </h3>
               <p className="text-[12px] font-semibold text-[#1b1b1e]/60 leading-relaxed max-w-[90%] mx-auto">
-                {language === 'ht' 
-                  ? 'Si ou pati kounye a, ou pral pèdi tout pwogrè ak enèji ou te envesti nan pati sa a. Pa abandone!'
-                  : 'Si te retiras ahora, perderás el progreso actual del Reto Sagrado. ¡No te rindas!'}
+                {localT.exitDesc}
               </p>
             </div>
 
@@ -622,7 +994,7 @@ export default function RetoSagradoPlay() {
                 onClick={() => setShowExitConfirm(false)}
                 className="flex-1 py-4 bg-gradient-to-r from-amber-400 to-[#e9c349] text-[#310065] rounded-2xl font-black text-xs uppercase tracking-widest shadow-md hover:scale-105 active:scale-95 transition-transform"
               >
-                {language === 'ht' ? 'KONTINYE JWE' : 'SEGUIR JUGANDO'}
+                {localT.keepPlaying}
               </button>
               <button
                 onClick={() => {
@@ -631,7 +1003,7 @@ export default function RetoSagradoPlay() {
                 }}
                 className="flex-1 py-4 bg-[#f5f3f7] hover:bg-red-50 text-red-600 rounded-2xl font-black text-xs uppercase tracking-widest border border-transparent shadow-sm hover:scale-105 active:scale-95 transition-transform"
               >
-                {language === 'ht' ? 'KITE JWÈT LA' : 'SALIR'}
+                {localT.exitBtn}
               </button>
             </div>
           </div>

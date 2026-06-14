@@ -4,8 +4,17 @@ import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { useDevilEmotion } from '../../hooks/useDevilEmotion';
 import type { DevilGameEvent } from '../../data/devilEmotionMap';
-import Devil3D from '../devil/Devil3D';
+import dynamic from 'next/dynamic';
 import { type Devil3DAction, devil3DAnimationMap } from '@/src/config/devil3DAnimations';
+
+const Devil3D = dynamic(() => import('../devil/Devil3D'), {
+  ssr: false,
+  loading: () => (
+    <div className="absolute inset-0 flex items-center justify-center bg-transparent pointer-events-none">
+      <div className="w-6 h-6 border-2 border-[#0A84FF] border-t-transparent rounded-full animate-spin" />
+    </div>
+  ),
+});
 
 // ─────────────────────────────────────────────────────────────────────────────
 // CONFIGURACIÓN DE RENDERIZADO DEL DIABLO (2D vs 3D)
