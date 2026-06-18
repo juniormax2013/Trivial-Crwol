@@ -25,11 +25,7 @@ export default function BackButton({ href, className = '' }: BackButtonProps) {
   const router = useRouter();
 
   const handleBack = () => {
-    if (href) {
-      router.push(href);
-    } else {
-      router.back();
-    }
+    router.push(href || '/');
   };
 
   return (

@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import { 
   Users, 
   QrCode, 
@@ -13,12 +14,13 @@ import {
   Sparkles, 
   UserPlus, 
   Home, 
-  UserCircle,
+  UserCircle, 
   Loader2,
   Swords,
   Crown,
   Check,
-  X
+  X,
+  MessageSquare
 } from 'lucide-react';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { QrShowModal } from '@/components/social/QrShowModal';
@@ -49,6 +51,7 @@ const QrScannerModal = dynamic(
 type Tab = 'buscar' | 'amigos' | 'peticiones' | 'duelos';
 
 export default function Social() {
+  const router = useRouter();
   const { user, firebaseUser, loading } = useAuthContext();
   const t = useT();
   const [activeTab, setActiveTab] = useState<Tab>('amigos');
@@ -261,9 +264,26 @@ export default function Social() {
                       <h4 className="font-bold text-[#1b1b1e] text-[15px]">{f.fullName || f.username}</h4>
                       <p className="text-[11px] text-[#7c7483] font-medium mt-0.5">{t.ranking.level} {f.level} • {f.country}</p>
                     </div>
-                    <Link href={`/match-setup?opponentId=${f.uid}`} className="bg-[#310065] text-white px-5 py-2.5 rounded-xl text-[10px] font-bold uppercase tracking-widest active:scale-95 transition-transform">
-                      {t.duel.challengeFriend}
-                    </Link>
+                    <div className="flex gap-2 shrink-0">
+                      <button
+                        onClick={async () => {
+                          const { createOrGetPrivateChat } = await import('@/lib/chat/chatService');
+                          try {
+                            const chatId = await createOrGetPrivateChat(user!.uid, f.uid);
+                            router.push(`/chat?id=${chatId}`);
+                          } catch (e) {
+                            alert('Error al iniciar el chat');
+                          }
+                        }}
+                        className="bg-[#0A84FF] text-white p-2.5 rounded-xl flex items-center justify-center active:scale-95 transition-transform"
+                        title="Chat"
+                      >
+                        <MessageSquare className="w-4 h-4" />
+                      </button>
+                      <Link href={`/match-setup?opponentId=${f.uid}`} className="bg-[#310065] text-white px-4 py-2.5 rounded-xl text-[10px] font-bold uppercase tracking-widest active:scale-95 transition-transform flex items-center justify-center">
+                        {t.duel.challengeFriend}
+                      </Link>
+                    </div>
                   </div>
                 ))}
               </div>

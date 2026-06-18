@@ -244,13 +244,30 @@ export default function PublicProfile({ params }: { params: Promise<{ uid: strin
             )}
 
             {friendshipStatus === 'friends' && (
-              <button 
-                onClick={handleSendChallenge}
-                className="w-full py-4 bg-[#ba1a1a] text-white font-black text-[14px] uppercase tracking-widest rounded-2xl flex items-center justify-center gap-3 shadow-lg shadow-[#ba1a1a]/20 hover:scale-[1.02] active:scale-[0.98] transition-all"
-              >
-                <Swords className="w-5 h-5" fill="currentColor" />
-                Retar a Duelo
-              </button>
+              <div className="flex flex-col sm:flex-row gap-3 w-full">
+                <button 
+                  onClick={handleSendChallenge}
+                  className="flex-1 py-4 bg-[#ba1a1a] text-white font-black text-[14px] uppercase tracking-widest rounded-2xl flex items-center justify-center gap-3 shadow-lg shadow-[#ba1a1a]/20 hover:scale-[1.02] active:scale-[0.98] transition-all"
+                >
+                  <Swords className="w-5 h-5" fill="currentColor" />
+                  Retar a Duelo
+                </button>
+                <button 
+                  onClick={async () => {
+                    const { createOrGetPrivateChat } = await import('@/lib/chat/chatService');
+                    const { toast } = await import('sonner');
+                    try {
+                      const chatId = await createOrGetPrivateChat(currentUser.uid, targetUid);
+                      router.push(`/chat?id=${chatId}`);
+                    } catch (e) {
+                      toast.error('Error al iniciar el chat');
+                    }
+                  }}
+                  className="flex-1 py-4 bg-[#0A84FF] text-white font-black text-[14px] uppercase tracking-widest rounded-2xl flex items-center justify-center gap-3 shadow-lg shadow-[#0A84FF]/20 hover:scale-[1.02] active:scale-[0.98] transition-all"
+                >
+                  Mensaje
+                </button>
+              </div>
             )}
           </section>
         )}

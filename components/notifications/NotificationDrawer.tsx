@@ -13,22 +13,24 @@ import {
   Filter,
   Inbox,
   CheckCircle2,
-  XCircle
+  XCircle,
+  MessageCircle
 } from 'lucide-react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useNotifications } from '@/hooks/useNotifications';
 import { ArenaInvitation } from '@/lib/arena/models';
 import { DuelModel } from '@/lib/duel/models';
+import { ChatRoom } from '@/lib/chat/chatTypes';
 import { updateArenaInvitationStatus, joinArenaSession } from '@/lib/arena/repository';
 import { acceptDuel, declineDuel } from '@/lib/duel/repository';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { toast } from 'sonner';
 
-type FilterType = 'all' | 'arena' | 'duel';
+type FilterType = 'all' | 'arena' | 'duel' | 'chats';
 
 export default function NotificationDrawer() {
-  const { arenaInvitations, duelInvitations, totalCount, isDrawerOpen, setDrawerOpen } = useNotifications();
+  const { arenaInvitations, duelInvitations, unreadChatRooms, totalCount, isDrawerOpen, setDrawerOpen } = useNotifications();
   const isOpen = isDrawerOpen;
   const onClose = () => setDrawerOpen(false);
   const { user } = useAuthContext();
@@ -101,9 +103,10 @@ export default function NotificationDrawer() {
     }
   };
 
-  const filteredArena = filter === 'duel' ? [] : arenaInvitations;
-  const filteredDuel = filter === 'arena' ? [] : duelInvitations;
-  const hasNotifications = filteredArena.length > 0 || filteredDuel.length > 0;
+  const filteredArena = filter === 'duel' || filter === 'chats' ? [] : arenaInvitations;
+  const filteredDuel = filter === 'arena' || filter === 'chats' ? [] : duelInvitations;
+  const filteredChats = filter === 'arena' || filter === 'duel' ? [] : unreadChatRooms;
+  const hasNotifications = filteredArena.length > 0 || filteredDuel.length > 0 || filteredChats.length > 0;
 
   return (
     <AnimatePresence>
@@ -168,6 +171,13 @@ export default function NotificationDrawer() {
                 label="Duelos" 
                 icon={<Swords className="w-3.5 h-3.5" />}
                 count={duelInvitations.length}
+              />
+              <FilterButton 
+                active={filter === 'chats'} 
+                onClick={() => setFilter('chats')} 
+                label="Mensajes" 
+                icon={<MessageCircle className="w-3.5 h-3.5" />}
+                count={unreadChatRooms.length}
               />
             </div>
 
@@ -303,6 +313,49 @@ export default function NotificationDrawer() {
                       </motion.div>
                     );
                   })}
+
+                  {/* Unread Chats */}
+                  {filteredChats.map((chat) => {
+                    const isEmoji = chat.lastMessage.startsWith('[animated-emoji:');
+                    const previewText = isEmoji ? 'Envió un emoji animado' : chat.lastMessage;
+                    
+                    return (
+                      <motion.div
+                        layout
+                        key={chat.id}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        onClick={() => {
+                          router.push(`/chat?id=${chat.id}`);
+                          onClose();
+                        }}
+                        className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 relative overflow-hidden cursor-pointer hover:bg-slate-50 transition-all flex flex-col"
+                      >
+                        <div className="absolute top-0 right-0 p-3">
+                          <div className="w-8 h-8 rounded-lg bg-[#0A84FF]/10 flex items-center justify-center">
+                            <MessageCircle className="w-4 h-4 text-[#0A84FF]" />
+                          </div>
+                        </div>
+
+                        <div className="flex items-start gap-4">
+                          <div className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center border border-blue-100 text-2xl select-none">
+                            💬
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <h3 className="font-bold text-[#310065] truncate uppercase tracking-tight text-sm">
+                              Mensaje Nuevo
+                            </h3>
+                            <p className="text-xs text-gray-500 truncate mt-0.5 max-w-[85%] font-medium">
+                              "{previewText}"
+                            </p>
+                            <div className="flex items-center gap-1 mt-2 text-[9px] text-[#0A84FF] uppercase font-bold tracking-wider">
+                              <span>Toca para responder</span>
+                            </div>
+                          </div>
+                        </div>
+                      </motion.div>
+                    );
+                  })}
                 </>
               )}
             </div>
@@ -320,6 +373,7 @@ export default function NotificationDrawer() {
   );
 }
 
+// Render filter button in drawer tab
 function FilterButton({ active, onClick, label, icon, count }: any) {
   return (
     <button

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useAuthContext } from '@/components/auth/AuthProvider';
@@ -26,7 +26,8 @@ import {
   ShoppingBag,
   Crown,
   Brain,
-  Menu
+  Menu,
+  MessageCircle
 } from 'lucide-react';
 import { useT } from '@/lib/i18n/context';
 import { useNotifications } from '@/hooks/useNotifications';
@@ -229,6 +230,7 @@ function ActivityCard({
 }
 
 export default function HomeDashboard() {
+  const router = useRouter();
   const { user } = useAuthContext();
   const t = useT();
   const { unreadCount, setDrawerOpen } = useNotifications();
@@ -243,6 +245,60 @@ export default function HomeDashboard() {
   const [aiBibleEnabled, setAiBibleEnabled] = useState(true);
   const [showAiTooltip, setShowAiTooltip] = useState(false);
   const [otherGames, setOtherGames] = useState<any[]>([]);
+
+  // Drag and drop gesture state for Chat & AI opening
+  const [showTargets, setShowTargets] = useState(false);
+  const [activeTarget, setActiveTarget] = useState<'chat' | 'ai' | null>(null);
+  const longPressTimer = useRef<NodeJS.Timeout | null>(null);
+
+  const handlePointerDown = () => {
+    longPressTimer.current = setTimeout(() => {
+      setShowAiTooltip(false);
+      setShowTargets(true);
+      if (navigator.vibrate) navigator.vibrate(50);
+    }, 450);
+  };
+
+  const handlePointerUp = () => {
+    if (longPressTimer.current) {
+      clearTimeout(longPressTimer.current);
+    }
+    // If they were not dragging or targets weren't shown, treat as normal click to chat
+    if (!showTargets) {
+      router.push('/chat');
+    }
+  };
+
+  const handleDrag = (event: any, info: any) => {
+    const dragX = info.offset.x;
+    const dragY = info.offset.y;
+
+    if (dragY < -30 && Math.abs(dragY) > Math.abs(dragX)) {
+      setActiveTarget('chat');
+      setShowTargets(true);
+    } else if (dragX < -30 && Math.abs(dragX) > Math.abs(dragY)) {
+      setActiveTarget('ai');
+      setShowTargets(true);
+    } else {
+      setActiveTarget(null);
+    }
+  };
+
+  const handleDragEnd = (event: any, info: any) => {
+    if (longPressTimer.current) {
+      clearTimeout(longPressTimer.current);
+    }
+    
+    if (showTargets) {
+      if (activeTarget === 'chat') {
+        router.push('/chat');
+      } else if (activeTarget === 'ai') {
+        router.push('/bible-ai');
+      }
+    }
+    setShowTargets(false);
+    setActiveTarget(null);
+  };
 
   // Load other games history
   useEffect(() => {
@@ -562,10 +618,28 @@ export default function HomeDashboard() {
               <ShoppingBag size={20} strokeWidth={2.5} className="group-hover:rotate-12 transition-transform duration-300" />
             </motion.button>
 
-
+            {/* Campana de Notificaciones - iOS Style */}
+            <motion.button
+              whileHover={{ scale: 1.06, y: -1 }}
+              whileTap={{ scale: 0.92 }}
+              onClick={() => setDrawerOpen(true)}
+              aria-label="Ver notificaciones y mensajes"
+              className="w-12 h-12 rounded-2xl relative shadow-sm border border-slate-200/50 dark:border-slate-800/50 ml-2
+                         bg-[#310065]/[0.06] hover:bg-[#310065]/[0.10]
+                         flex items-center justify-center
+                         text-[#310065] transition-colors duration-200"
+            >
+              <Bell size={22} strokeWidth={2.5} />
+              {unreadCount > 0 && (
+                <span className="absolute -top-1 -right-1 min-w-[20px] h-5 px-1 bg-red-500 text-white rounded-full flex items-center justify-center text-[10px] font-black border-2 border-white animate-pulse">
+                  {unreadCount}
+                </span>
+              )}
+            </motion.button>
           </div>
         </div>
       </nav>
+
 
       <main className="pt-16 sm:pt-20 max-w-2xl mx-auto space-y-5 sm:space-y-6">
         
@@ -923,7 +997,7 @@ export default function HomeDashboard() {
         >
           {/* Tooltip con el mensaje personalizado */}
           <AnimatePresence>
-            {showAiTooltip && (
+            {showAiTooltip && !showTargets && (
               <motion.div
                 initial={{ opacity: 0, x: 15, scale: 0.9 }}
                 animate={{ opacity: 1, x: 0, scale: 1 }}
@@ -939,27 +1013,77 @@ export default function HomeDashboard() {
             )}
           </AnimatePresence>
 
+          {/* Target Zones: Chat (Arriba) y AI (Izquierda) */}
+          <AnimatePresence>
+            {showTargets && (
+              <>
+                {/* Chat con amigos (ARRIBA) */}
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.5, y: 20 }}
+                  animate={{ 
+                    opacity: 1, 
+                    scale: activeTarget === 'chat' ? 1.25 : 1, 
+                    y: -68,
+                    x: 0
+                  }}
+                  exit={{ opacity: 0, scale: 0.5, y: 20 }}
+                  className={`absolute right-0 w-12 h-12 rounded-full flex flex-col items-center justify-center text-white shadow-lg transition-all z-40 ${
+                    activeTarget === 'chat' 
+                      ? 'bg-[#0A84FF] shadow-[#0A84FF]/40 ring-4 ring-[#0A84FF]/20' 
+                      : 'bg-[#310065] shadow-[#310065]/20'
+                  }`}
+                >
+                  <MessageCircle size={18} />
+                </motion.div>
 
-          <Link href="/bible-ai">
-            <motion.button
-              whileHover={{ scale: 1.08, y: -2 }}
-              whileTap={{ scale: 0.93 }}
-              className="relative w-12 h-12 rounded-full bg-gradient-to-br from-[#cba72f] to-[#e9c349] 
-                         shadow-[0_8px_24px_rgba(203,167,47,0.4)] text-[#310065] flex items-center justify-center shrink-0"
-              aria-label="Asistente Bíblico"
-            >
-              {/* Pulse ring */}
+                {/* AI Assistant (IZQUIERDA) */}
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.5, x: 20 }}
+                  animate={{ 
+                    opacity: 1, 
+                    scale: activeTarget === 'ai' ? 1.25 : 1, 
+                    x: -68,
+                    y: 0
+                  }}
+                  exit={{ opacity: 0, scale: 0.5, x: 20 }}
+                  className={`absolute right-0 w-12 h-12 rounded-full flex flex-col items-center justify-center text-white shadow-lg transition-all z-40 ${
+                    activeTarget === 'ai' 
+                      ? 'bg-[#0A84FF] shadow-[#0A84FF]/40 ring-4 ring-[#0A84FF]/20' 
+                      : 'bg-[#310065] shadow-[#310065]/20'
+                  }`}
+                >
+                  <Brain size={18} />
+                </motion.div>
+              </>
+            )}
+          </AnimatePresence>
+
+          <motion.button
+            drag
+            dragConstraints={{ top: -120, bottom: 50, left: -120, right: 50 }}
+            dragElastic={0.4}
+            dragSnapToOrigin={true}
+            onDrag={handleDrag}
+            onDragEnd={handleDragEnd}
+            onPointerDown={handlePointerDown}
+            onPointerUp={handlePointerUp}
+            whileHover={{ scale: 1.08 }}
+            className="relative w-12 h-12 rounded-full bg-gradient-to-br from-[#cba72f] to-[#e9c349] 
+                       shadow-[0_8px_24px_rgba(203,167,47,0.4)] text-[#310065] flex items-center justify-center shrink-0 z-50 cursor-grab active:cursor-grabbing"
+            aria-label="Asistente de Chat / IA"
+          >
+            {/* Pulse ring */}
+            {!showTargets && (
               <motion.div
                 className="absolute inset-0 rounded-full bg-[#e9c349]/40"
                 animate={{ scale: [1, 1.25, 1], opacity: [0.6, 0, 0.6] }}
                 transition={{ duration: 2.5, repeat: Infinity, ease: 'easeInOut' }}
               />
-              <Brain size={20} strokeWidth={2.5} className="relative z-10 text-[#310065]" />
-            </motion.button>
-          </Link>
+            )}
+            <MessageCircle size={20} strokeWidth={2.5} className="relative z-10 text-[#310065]" />
+          </motion.button>
         </motion.div>
       )}
-
 
       <BottomNav activeTab="home" showTriggerButton={true} isAssistantTooltipVisible={showAiTooltip} />
 

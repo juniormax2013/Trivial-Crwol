@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Home, Swords, Crown, Users, UserCircle, Menu, X, Shield, LogOut, Bookmark } from 'lucide-react';
-import { useT } from '@/lib/i18n/context';
+import { useT, useLanguage } from '@/lib/i18n/context';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { motion, AnimatePresence } from 'framer-motion';
 import UserAvatar from '@/components/UserAvatar';
@@ -47,7 +47,47 @@ export default function BottomNav({
   ] as const;
 
 
-  const xpProgress = Math.min(100, (user?.xp || 0) % 100);
+  const { language } = useLanguage();
+
+  // Helper to calculate XP required for a level (matching geometric progression in backend)
+  // Formula: L = floor(log2(xp / 1000 + 1)) + 1 -> xp = 1000 * (2^(L-1) - 1)
+  const getXpRequiredForLevel = (lvl: number) => {
+    if (lvl <= 1) return 0;
+    return 1000 * (Math.pow(2, lvl - 1) - 1);
+  };
+
+  const currentXp = user?.xp || 0;
+  // Calculate level from XP directly using the formula to ensure consistency
+  const computedLevel = Math.floor(Math.log2(currentXp / 1000 + 1)) + 1;
+  const currentLevel = Math.max(1, computedLevel);
+  const nextLevel = currentLevel + 1;
+
+  const xpMinForCurrentLevel = getXpRequiredForLevel(currentLevel);
+  const xpMinForNextLevel = getXpRequiredForLevel(nextLevel);
+
+  const xpProgressWithinLevel = Math.max(0, currentXp - xpMinForCurrentLevel);
+  const xpRequiredForThisLevel = xpMinForNextLevel - xpMinForCurrentLevel;
+
+  // Percentage for the progress bar
+  const xpProgressPercent = xpRequiredForThisLevel > 0 
+    ? Math.min(100, Math.max(0, (xpProgressWithinLevel / xpRequiredForThisLevel) * 100))
+    : 0;
+
+  const xpRemaining = Math.max(0, xpMinForNextLevel - currentXp);
+
+  // Helper text based on selected language
+  const getXpRemainingText = (xpVal: number, nextLvl: number) => {
+    switch (language) {
+      case 'es':
+        return `Faltan ${xpVal.toLocaleString()} XP para el nivel ${nextLvl}`;
+      case 'fr':
+        return `Il manque ${xpVal.toLocaleString()} XP pour le niveau ${nextLvl}`;
+      case 'ht':
+      default:
+        return `Manke ${xpVal.toLocaleString()} XP pou nivo ${nextLvl}`;
+    }
+  };
+
   const displayName = user?.firstName || user?.fullName?.split(' ')[0] || user?.username || '—';
 
   return (
@@ -176,21 +216,24 @@ export default function BottomNav({
                 <div className="relative z-10 space-y-1.5">
                   <div className="flex items-center justify-between">
                     <span className="text-[9px] font-black text-white/50 uppercase tracking-[0.18em]">
-                      Progreso de nivel
+                      {language === 'es' ? 'Progreso de nivel' : language === 'fr' ? 'Progrès de niveau' : 'Pwogrè nivo'}
                     </span>
                     <span className="text-[10px] font-bold text-[#e9c349]">
-                      {xpProgress}<span className="text-white/40">/100 XP</span>
+                      {xpProgressWithinLevel.toLocaleString()}<span className="text-white/40">/{xpRequiredForThisLevel.toLocaleString()} XP</span>
                     </span>
                   </div>
                   <div className="h-2 w-full bg-white/10 rounded-full overflow-hidden shadow-inner">
                     <motion.div
                       initial={{ width: 0 }}
-                      animate={{ width: `${xpProgress}%` }}
+                      animate={{ width: `${xpProgressPercent}%` }}
                       transition={{ delay: 0.25, duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
                       className="h-full bg-gradient-to-r from-[#e9c349] to-[#cba72f] rounded-full
                                  shadow-[0_0_8px_rgba(233,195,73,0.5)]"
                     />
                   </div>
+                  <p className="text-[9.5px] font-semibold text-white/70 text-right mt-1">
+                    {getXpRemainingText(xpRemaining, nextLevel)}
+                  </p>
                 </div>
               </div>
 

@@ -15,6 +15,7 @@ import {
   RotateCcw,
   AlertCircle,
   Loader2,
+  MessageCircle,
 } from 'lucide-react';
 import { toast } from 'sonner';
 import DuelPlayerHeader from '@/components/duel/DuelPlayerHeader';
@@ -173,7 +174,25 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
               {t.duel.multiplayerDuel}
             </h1>
           </div>
-          <DuelStatusBadge label={statusInfo.label} color={statusInfo.color} pulse={isActive && vs.isMyTurn} />
+          <div className="flex items-center gap-2">
+            <button
+              onClick={async () => {
+                const { createMatchChat } = await import('@/lib/chat/chatService');
+                const opponentId = vs.opponentId;
+                try {
+                  const chatId = await createMatchChat(duelId, [DEMO_UID, opponentId]);
+                  router.push(`/chat?id=${chatId}`);
+                } catch (e) {
+                  toast.error('Error al abrir el chat de partida');
+                }
+              }}
+              className="w-10 h-10 rounded-full bg-white border border-[#1b1b1e]/5 shadow-sm flex items-center justify-center text-[#0A84FF] hover:bg-blue-50 transition-colors active:scale-95 shrink-0"
+              title="Chat de partida"
+            >
+              <MessageCircle className="w-5 h-5" />
+            </button>
+            <DuelStatusBadge label={statusInfo.label} color={statusInfo.color} pulse={isActive && vs.isMyTurn} />
+          </div>
         </div>
       </header>
 
