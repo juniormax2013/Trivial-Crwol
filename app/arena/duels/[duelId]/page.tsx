@@ -18,6 +18,9 @@ import {
   MessageCircle,
 } from 'lucide-react';
 import { toast } from 'sonner';
+import { collection, query, orderBy, limit, onSnapshot } from 'firebase/firestore';
+import { db } from '@/lib/firebase';
+import { getTimestampMs } from '@/lib/chat/chatService';
 import DuelPlayerHeader from '@/components/duel/DuelPlayerHeader';
 import DuelWaitingCard from '@/components/duel/DuelWaitingCard';
 import DuelStatusBadge from '@/components/duel/DuelStatusBadge';
@@ -49,6 +52,53 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
   const [rounds, setRounds] = useState<DuelRound[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [actionLoading, setActionLoading] = useState<'accept' | 'decline' | 'start' | null>(null);
+  const [unreadMessages, setUnreadMessages] = useState(0);
+
+  useEffect(() => {
+    if (!duelId) return;
+    const chatId = `match_${duelId}`;
+    const messagesRef = collection(db, "chats", chatId, "messages");
+    const q = query(messagesRef, orderBy("createdAt", "desc"), limit(20));
+
+    const unsubscribe = onSnapshot(q, {
+      next: (snapshot: any) => {
+        const lastReadString = localStorage.getItem('last_read_chats') || '{}';
+        const lastReadMap = JSON.parse(lastReadString);
+        const lastReadTime = lastReadMap[chatId] || 0;
+
+        let count = 0;
+        snapshot.forEach((doc: any) => {
+          const data = doc.data();
+          if (data.senderId !== DEMO_UID && !data.deleted) {
+            const msgTime = getTimestampMs(data.createdAt) || Date.now();
+            if (msgTime > lastReadTime) {
+              count++;
+            }
+          }
+        });
+        setUnreadMessages(count);
+      },
+      error: (err) => {
+        if (err.code === 'permission-denied') {
+          console.warn('Chat no inicializado aún o sin permisos de lectura para esta sala de chat.');
+        } else {
+          console.error('Error en snapshot de chat:', err);
+        }
+      }
+    });
+
+    const handleChatRead = (e: any) => {
+      if (e.detail?.chatId === chatId) {
+        setUnreadMessages(0);
+      }
+    };
+    window.addEventListener('chat-read', handleChatRead);
+
+    return () => {
+      unsubscribe();
+      window.removeEventListener('chat-read', handleChatRead);
+    };
+  }, [duelId, DEMO_UID]);
 
   useEffect(() => {
     let unsubscribe: (() => void) | undefined;
@@ -175,22 +225,29 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
             </h1>
           </div>
           <div className="flex items-center gap-2">
-            <button
-              onClick={async () => {
-                const { createMatchChat } = await import('@/lib/chat/chatService');
-                const opponentId = vs.opponentId;
-                try {
-                  const chatId = await createMatchChat(duelId, [DEMO_UID, opponentId]);
-                  router.push(`/chat?id=${chatId}`);
-                } catch (e) {
-                  toast.error('Error al abrir el chat de partida');
-                }
-              }}
-              className="w-10 h-10 rounded-full bg-white border border-[#1b1b1e]/5 shadow-sm flex items-center justify-center text-[#0A84FF] hover:bg-blue-50 transition-colors active:scale-95 shrink-0"
-              title="Chat de partida"
-            >
-              <MessageCircle className="w-5 h-5" />
-            </button>
+            <div className="relative">
+              <button
+                onClick={async () => {
+                  const { createMatchChat } = await import('@/lib/chat/chatService');
+                  const opponentId = vs.opponentId;
+                  try {
+                    const chatId = await createMatchChat(duelId, [DEMO_UID, opponentId]);
+                    router.push(`/chat?id=${chatId}`);
+                  } catch (e) {
+                    toast.error('Error al abrir el chat de partida');
+                  }
+                }}
+                className="w-10 h-10 rounded-full bg-white border border-[#1b1b1e]/5 shadow-sm flex items-center justify-center text-[#0A84FF] hover:bg-blue-50 transition-colors active:scale-95 shrink-0"
+                title="Chat de partida"
+              >
+                <MessageCircle className="w-5 h-5" />
+              </button>
+              {unreadMessages > 0 && (
+                <span className="absolute top-0 right-0 bg-red-500 text-white text-[9px] font-black w-4.5 h-4.5 rounded-full flex items-center justify-center border-2 border-white shadow-sm leading-none animate-bounce">
+                  {unreadMessages}
+                </span>
+              )}
+            </div>
             <DuelStatusBadge label={statusInfo.label} color={statusInfo.color} pulse={isActive && vs.isMyTurn} />
           </div>
         </div>
@@ -212,6 +269,44 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
           totalRounds={duel.totalRounds}
           participantsCount={Object.keys(duel.participants).length}
         />
+
+        {/* Prominent Match Chat CTA */}
+        <div className="bg-white rounded-[1.5rem] p-4 border border-[#1b1b1e]/5 shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex items-center justify-between gap-3">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-[#0A84FF] shrink-0 relative">
+              <MessageCircle className="w-5 h-5" />
+              {unreadMessages > 0 && (
+                <span className="absolute top-0 right-0 bg-red-500 text-white text-[9px] font-black w-4 h-4 rounded-full flex items-center justify-center border border-white shadow-sm leading-none">
+                  {unreadMessages}
+                </span>
+              )}
+            </div>
+            <div>
+              <h4 className="text-[13px] font-bold text-[#0F172A]">
+                {language === 'es' ? 'Chat de la Partida' : language === 'fr' ? 'Chat du Match' : 'Chat match la'}
+              </h4>
+              <p className="text-[11px] text-[#64748B]">
+                {language === 'es' ? 'Envía mensajes y emojis en tiempo real con tu rival' : language === 'fr' ? 'Envoyez des messages en temps réel à votre adversaire' : 'Voye mesaj an tan reyèl ak advèsè w la'}
+              </p>
+            </div>
+          </div>
+          <button
+            onClick={async () => {
+              const { createMatchChat } = await import('@/lib/chat/chatService');
+              const opponentId = vs.opponentId;
+              try {
+                const chatId = await createMatchChat(duelId, [DEMO_UID, opponentId]);
+                router.push(`/chat?id=${chatId}`);
+              } catch (e) {
+                toast.error(language === 'es' ? 'Error al abrir el chat' : 'Error');
+              }
+            }}
+            className="px-4 py-2 bg-[#0A84FF] hover:bg-blue-600 text-white rounded-full text-[12px] font-bold shadow-sm transition-colors active:scale-95 shrink-0"
+          >
+            {language === 'es' ? 'Abrir Chat' : language === 'fr' ? 'Ouvrir' : 'Ouvri Chat'}
+          </button>
+        </div>
+
 
         {/* ── RECEIVED: Accept / Decline ── */}
         {isReceived && (

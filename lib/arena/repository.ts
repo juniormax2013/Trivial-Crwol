@@ -16,7 +16,8 @@ import {
   writeBatch,
   getDoc,
   limit,
-  orderBy
+  orderBy,
+  arrayUnion
 } from 'firebase/firestore';
 import { db, functions } from '@/lib/firebase';
 import { httpsCallable } from 'firebase/functions';
@@ -198,6 +199,24 @@ export async function joinArenaSession(
     currentPlayersCount: increment(1),
     updatedAt: now
   });
+
+  // Automatically add player to chat participants if the chat exists
+  try {
+    const chatRef = doc(db, 'chats', `match_${arenaId}`);
+    const chatSnap = await getDoc(chatRef);
+    if (chatSnap.exists()) {
+      const chatData = chatSnap.data();
+      const participants = chatData.participants || [];
+      if (!participants.includes(user.uid)) {
+        await updateDoc(chatRef, {
+          participants: arrayUnion(user.uid),
+          updatedAt: serverTimestamp()
+        });
+      }
+    }
+  } catch (e) {
+    console.warn('Could not update chat participants on join:', e);
+  }
 }
 
 /**

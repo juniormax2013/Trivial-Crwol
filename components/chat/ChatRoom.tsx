@@ -47,6 +47,8 @@ export default function ChatRoom({ chatId, onBack }: ChatRoomProps) {
         blocked[doc.id] = true;
       });
       setBlockedUsers(blocked);
+    }, (error) => {
+      console.error("Error subscribing to blocked users:", error);
     });
     return () => unsub();
   }, [user?.uid]);
@@ -174,7 +176,10 @@ export default function ChatRoom({ chatId, onBack }: ChatRoomProps) {
   };
 
   return (
-    <div className="flex flex-col h-full bg-[#F8F9FA] rounded-3xl overflow-hidden shadow-sm border border-black/5">
+    <div 
+      className="flex flex-col h-full bg-[#F8F9FA] shadow-sm border border-black/5"
+      style={{ borderRadius: 'inherit', overflow: 'hidden', transform: 'translate3d(0,0,0)', isolation: 'isolate' }}
+    >
       {/* Header */}
       <header className="px-6 py-4 bg-white border-b border-black/5 flex items-center justify-between shrink-0">
         <div className="flex items-center gap-3">
@@ -182,12 +187,16 @@ export default function ChatRoom({ chatId, onBack }: ChatRoomProps) {
             <h2 className="text-[#0F172A] font-black text-[16px] tracking-tight">
               {chatId === 'global_main' 
                 ? (language === 'es' ? 'Chat Global' : language === 'fr' ? 'Chat Global' : 'Chat Global')
+                : chatId.startsWith('clan_')
+                ? (language === 'es' ? 'Chat del Clan 🛡️' : language === 'fr' ? 'Chat du Clan 🛡️' : 'Chat Klan an 🛡️')
                 : (language === 'es' ? 'Sala de Chat' : language === 'fr' ? 'Salon de Chat' : 'Chanm Chat')
               }
             </h2>
             <p className="text-[10px] text-[#64748B] font-bold uppercase tracking-wider mt-0.5">
               {chatId === 'global_main' 
                 ? (language === 'es' ? 'Toda la hermandad' : language === 'fr' ? 'Toute la communauté' : 'Tout kominote a')
+                : chatId.startsWith('clan_')
+                ? (language === 'es' ? 'Solo para miembros' : language === 'fr' ? 'Membres uniquement' : 'Manm sèlman')
                 : (language === 'es' ? 'Privado/Partida' : language === 'fr' ? 'Privé/Match' : 'Prive/Match')
               }
             </p>

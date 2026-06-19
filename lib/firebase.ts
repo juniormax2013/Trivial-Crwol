@@ -49,13 +49,25 @@ export const auth = getAuth(app);
 export const db = getFirestore(app);
 
 if (typeof window !== 'undefined') {
-  enableIndexedDbPersistence(db).catch((err) => {
-    if (err.code === 'failed-precondition') {
-      console.warn('Firestore persistence failed-precondition (multiple tabs)');
-    } else if (err.code === 'unimplemented') {
-      console.warn('Firestore persistence unimplemented');
-    }
-  });
+  const isLocal = window.location.hostname === 'localhost' || 
+                  window.location.hostname === '127.0.0.1' || 
+                  window.location.hostname.startsWith('192.168.');
+                  
+  if (isLocal) {
+    // Programmatically clear Firestore IndexedDB cache to fix the internal assertion failed crash
+    const { clearIndexedDbPersistence } = require('firebase/firestore');
+    clearIndexedDbPersistence(db).catch((err: any) => {
+      console.warn('Could not clear Firestore IndexedDB persistence:', err);
+    });
+  } else if (process.env.NODE_ENV !== 'development') {
+    enableIndexedDbPersistence(db).catch((err) => {
+      if (err.code === 'failed-precondition') {
+        console.warn('Firestore persistence failed-precondition (multiple tabs)');
+      } else if (err.code === 'unimplemented') {
+        console.warn('Firestore persistence unimplemented');
+      }
+    });
+  }
 }
 export const storage = getStorage(app);
 export const googleProvider = new GoogleAuthProvider();

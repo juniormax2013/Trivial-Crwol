@@ -27,7 +27,8 @@ import {
   Crown,
   Brain,
   Menu,
-  MessageCircle
+  MessageCircle,
+  Users
 } from 'lucide-react';
 import { useT } from '@/lib/i18n/context';
 import { useNotifications } from '@/hooks/useNotifications';
@@ -42,6 +43,7 @@ import { DAILY_VERSES } from '@/lib/daily-verse/data';
 import { useLanguage } from '@/lib/i18n/context';
 import { useRouter } from 'next/navigation';
 import UserAvatar from '@/components/UserAvatar';
+import ChatRoom from '@/components/chat/ChatRoom';
 
 
 
@@ -233,7 +235,7 @@ export default function HomeDashboard() {
   const router = useRouter();
   const { user } = useAuthContext();
   const t = useT();
-  const { unreadCount, setDrawerOpen } = useNotifications();
+  const { unreadCount, unreadChatRooms, setDrawerOpen } = useNotifications();
   const [activeTournaments, setActiveTournaments] = useState<Tournament[]>([]);
   const [currentSlide, setCurrentSlide] = useState(0);
   const [userDuels, setUserDuels] = useState<DuelModel[]>([]);
@@ -245,6 +247,7 @@ export default function HomeDashboard() {
   const [aiBibleEnabled, setAiBibleEnabled] = useState(true);
   const [showAiTooltip, setShowAiTooltip] = useState(false);
   const [otherGames, setOtherGames] = useState<any[]>([]);
+  const [isChatOpen, setIsChatOpen] = useState(false);
 
   // Drag and drop gesture state for Chat & AI opening
   const [showTargets, setShowTargets] = useState(false);
@@ -265,7 +268,11 @@ export default function HomeDashboard() {
     }
     // If they were not dragging or targets weren't shown, treat as normal click to chat
     if (!showTargets) {
-      router.push('/chat');
+      if (user?.clanId) {
+        setIsChatOpen(true);
+      } else {
+        router.push('/chat');
+      }
     }
   };
 
@@ -291,7 +298,7 @@ export default function HomeDashboard() {
     
     if (showTargets) {
       if (activeTarget === 'chat') {
-        router.push('/chat');
+        router.push('/chat?id=global_main');
       } else if (activeTarget === 'ai') {
         router.push('/bible-ai');
       }
@@ -931,6 +938,52 @@ export default function HomeDashboard() {
           </div>
         </section>
 
+        {/* CLANS AND GRUPS SECTION */}
+        <section className="px-3 sm:px-5">
+          {(() => {
+            const clanTitle = language === 'es' ? 'Clanes y Grupos' : language === 'fr' ? 'Clans et Groupes' : language === 'ht' ? 'Klan ak Gwoup' : 'Clans & Groups';
+            const clanDesc = language === 'es' ? 'Únete a un clan o crea el tuyo para sumar poder y dominar junto a otros fotógrafos y sabios.' : language === 'fr' ? 'Rejoignez un clan ou créez le vôtre pour accumuler de la puissance et dominer ensemble.' : language === 'ht' ? 'Antre nan yon klan oswa kreye pa ou pou ajoute pouvwa ak domine ansanm.' : 'Join a clan or create your own to gain power and dominate together.';
+            const exploreText = language === 'es' ? 'Explorar Clanes' : language === 'fr' ? 'Explorer les Clans' : language === 'ht' ? 'Eksplore Klan yo' : 'Explore Clans';
+            const statusText = language === 'es' ? 'Disponible' : language === 'fr' ? 'Disponible' : language === 'ht' ? 'Disponib' : 'Available';
+            
+            return (
+              <motion.div
+                whileHover={{ y: -2 }}
+                className="bg-white dark:bg-slate-950/90 rounded-[2rem] sm:rounded-[2.5rem] p-6 sm:p-8 shadow-[0_24px_80px_-48px_rgba(15,23,42,0.12)] border border-slate-200/60 dark:border-slate-800/50 relative overflow-hidden group"
+              >
+                <div className="absolute right-0 top-0 w-32 h-32 bg-[#0A84FF]/5 blur-[40px] rounded-full -mr-16 -mt-16 group-hover:bg-[#0A84FF]/10 transition-colors pointer-events-none" />
+                
+                <div className="relative z-10 flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#0A84FF] to-[#0066cc] flex items-center justify-center shadow-lg shadow-[#0A84FF]/20 flex-shrink-0">
+                      <Users className="w-7 h-7 text-white" />
+                    </div>
+                    <div className="space-y-1">
+                      <div className="flex items-center gap-2">
+                        <h3 className="text-lg font-black text-[#0F172A] dark:text-white tracking-tight">{clanTitle}</h3>
+                        <span className="bg-emerald-50 text-emerald-600 dark:bg-emerald-950/30 dark:text-emerald-400 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-emerald-100 dark:border-emerald-900/50">
+                          {statusText}
+                        </span>
+                      </div>
+                      <p className="text-[#64748B] dark:text-slate-400 text-xs sm:text-sm font-medium leading-relaxed max-w-md">
+                        {clanDesc}
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <Link
+                    href="/clans"
+                    className="py-3 px-6 bg-[#0A84FF] text-white rounded-2xl flex items-center justify-center gap-2 font-black text-xs uppercase tracking-widest shadow-md shadow-[#0A84FF]/10 hover:bg-[#0A84FF]/95 hover:shadow-lg active:scale-95 transition-all w-full sm:w-auto text-center"
+                  >
+                    <span>{exploreText}</span>
+                    <ChevronRight size={14} strokeWidth={3} />
+                  </Link>
+                </div>
+              </motion.div>
+            );
+          })()}
+        </section>
+
         {/* 5. ACTIVE TOURNAMENTS (Only if any) */}
         {activeTournaments.length > 0 && (
           <section className="px-3 sm:px-4">
@@ -1081,6 +1134,11 @@ export default function HomeDashboard() {
               />
             )}
             <MessageCircle size={20} strokeWidth={2.5} className="relative z-10 text-[#310065]" />
+            {unreadChatRooms.length > 0 && (
+              <span className="absolute -top-1.5 -right-1.5 bg-red-500 text-white text-[9px] font-black w-5 h-5 rounded-full flex items-center justify-center border-2 border-white shadow-md z-[60] leading-none animate-bounce">
+                {unreadChatRooms.length}
+              </span>
+            )}
           </motion.button>
         </motion.div>
       )}
@@ -1174,6 +1232,21 @@ export default function HomeDashboard() {
           </div>
         )}
       </AnimatePresence>
+      {/* Clan Chat Pop-up Modal on Home */}
+      {isChatOpen && user?.clanId && (
+        <div className="fixed inset-0 z-[120] flex items-center justify-center bg-black/40 backdrop-blur-sm p-4 animate-in fade-in duration-200" onClick={() => setIsChatOpen(false)}>
+          <div 
+            className="w-full max-w-2xl bg-white h-[88vh] max-h-[850px] shadow-2xl flex flex-col animate-in zoom-in-95 duration-200"
+            style={{ borderRadius: '48px', overflow: 'hidden', transform: 'translate3d(0, 0, 0)', isolation: 'isolate' }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <ChatRoom 
+              chatId={`clan_${user.clanId}`} 
+              onBack={() => setIsChatOpen(false)} 
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 }

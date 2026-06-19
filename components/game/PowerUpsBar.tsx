@@ -18,6 +18,7 @@ interface PowerUpsBarProps {
   disabled?: boolean;
   activePowerUps?: string[];
   heartsCount?: number;
+  extraActions?: React.ReactNode;
 }
 
 const POWER_UPS = [
@@ -52,7 +53,8 @@ export default function PowerUpsBar({
   setIsProcessing,
   disabled = false,
   activePowerUps = [],
-  heartsCount
+  heartsCount,
+  extraActions
 }: PowerUpsBarProps) {
   const { user } = useAuthContext();
   const t = useT();
@@ -104,7 +106,7 @@ export default function PowerUpsBar({
   return (
     <div className="w-full mt-auto relative">
       {/* Shield Icon Button to Trigger Powerups Panel */}
-      <div className="flex justify-start">
+      <div className="flex items-center gap-3 justify-start">
         <button
           onClick={() => setShowPowers(!showPowers)}
           className={`flex items-center gap-2 px-3.5 py-2 rounded-full border text-[11px] font-black uppercase tracking-wider transition-all shadow-md active:scale-95 ${
@@ -116,6 +118,7 @@ export default function PowerUpsBar({
           <Shield className={`w-4 h-4 ${showPowers ? 'text-white' : 'text-[#310065]'}`} fill={showPowers ? 'currentColor' : 'none'} />
           <span>{t.store.tabPowers}</span>
         </button>
+        {extraActions}
       </div>
       
       {/* Expandable Panel - Compacted and aligned to the left side to avoid characters on the right */}

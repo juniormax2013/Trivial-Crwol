@@ -130,6 +130,10 @@ export interface AppUserModel {
   referredBy?: string;
   firstGameCompleted?: boolean;
   referralStats?: ReferralStats;
+
+  // Clan System
+  clanId?: string;
+  clanRole?: 'founder' | 'admin' | 'moderator' | 'member';
 }
 
 /**

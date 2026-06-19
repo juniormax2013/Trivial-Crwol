@@ -19,7 +19,7 @@ function ChatPageContent() {
   const chatId = searchParams.get('id') || 'global_main';
 
   const handleBack = () => {
-    router.push('/');
+    router.back();
   };
 
   if (loading) {
@@ -55,7 +55,7 @@ function ChatPageContent() {
 
   return (
     <div className="flex flex-col h-screen bg-[#F8F9FA] pb-20">
-      <div className="flex-1 max-w-4xl w-full mx-auto p-4 md:p-6 flex flex-col overflow-hidden h-full">
+      <div className="flex-1 max-w-md w-full mx-auto p-4 flex flex-col overflow-hidden h-full">
         <ChatRoom 
           chatId={chatId}
           onBack={handleBack}

@@ -12,6 +12,8 @@ interface UserAvatarProps {
   size?: number;
   className?: string;
   animate?: boolean;
+  round?: boolean;
+  hideFrame?: boolean;
 }
 
 // Normaliza cualquier variante de ID al nombre del PNG
@@ -46,13 +48,15 @@ export default function UserAvatar({
   size = 48,
   className = '',
   animate = true,
+  round = false,
+  hideFrame = false,
 }: UserAvatarProps) {
   const frameId = normalizeFrameId(activeFrame);
-  const hasFrame = true;
+  const hasFrame = !hideFrame;
 
   const sizeStyles = { width: `${size}px`, height: `${size}px` };
-  const imageSizeStyles = { width: '76%', height: '76%' };
-  const avatarClass = 'rounded-[22%]';
+  const imageSizeStyles = hideFrame ? { width: '100%', height: '100%' } : { width: '76%', height: '76%' };
+  const avatarClass = round ? 'rounded-full' : 'rounded-[22%]';
 
   const renderAvatarContent = () => {
     if (photoURL) {
@@ -91,7 +95,7 @@ export default function UserAvatar({
       </div>
 
       {/* Frame por defecto (sin frame activo) */}
-      {!frameId && (
+      {!hideFrame && !frameId && (
         <div className="absolute inset-0 w-full h-full pointer-events-none z-10 select-none">
           <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
             <defs>
@@ -100,14 +104,23 @@ export default function UserAvatar({
                 <stop offset="100%" stopColor="#cbd5e1" />
               </linearGradient>
             </defs>
-            <rect x="3" y="3" width="94" height="94" rx="22" stroke="url(#defaultFrameGrad)" strokeWidth="3.5" />
-            <rect x="6" y="6" width="88" height="88" rx="19" stroke="#ffffff" strokeOpacity="0.8" strokeWidth="1" />
+            {round ? (
+              <>
+                <circle cx="50" cy="50" r="45" stroke="url(#defaultFrameGrad)" strokeWidth="3.5" />
+                <circle cx="50" cy="50" r="41" stroke="#ffffff" strokeOpacity="0.8" strokeWidth="1" />
+              </>
+            ) : (
+              <>
+                <rect x="3" y="3" width="94" height="94" rx="22" stroke="url(#defaultFrameGrad)" strokeWidth="3.5" />
+                <rect x="6" y="6" width="88" height="88" rx="19" stroke="#ffffff" strokeOpacity="0.8" strokeWidth="1" />
+              </>
+            )}
           </svg>
         </div>
       )}
 
       {/* Frame dinámico — funciona para cualquier ID que exista en /assets/store/frames/ */}
-      {frameId && (
+      {!hideFrame && frameId && (
         <div
           className={`absolute inset-0 w-full h-full pointer-events-none z-10 select-none ${
             FRAME_ANIMATIONS[frameId] ?? ''

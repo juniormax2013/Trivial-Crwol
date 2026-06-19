@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, use } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, AlertCircle } from 'lucide-react';
+import { ArrowLeft, AlertCircle, MessageCircle } from 'lucide-react';
 import { DuelModel, DuelRound, DuelQuestion, DuelAnswer } from '@/lib/duel/models';
 import { getDuelById, getRoundsForDuel, submitRoundAnswers } from '@/lib/duel/repository';
 import { getDuelViewState, calculateAnswerPoints } from '@/lib/duel/service';
@@ -11,7 +11,11 @@ import { getQuestionsByIds } from '@/lib/duel/seed';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useT, useLanguage } from '@/lib/i18n/context';
 import PowerUpsBar from '@/components/game/PowerUpsBar';
+import ChatRoom from '@/components/chat/ChatRoom';
 import { toast } from 'sonner';
+import { collection, query, orderBy, limit, onSnapshot } from 'firebase/firestore';
+import { db } from '@/lib/firebase';
+import { getTimestampMs } from '@/lib/chat/chatService';
 import { X } from 'lucide-react';
 import { useDevilTrap } from '@/hooks/useDevilTrap';
 import DevilTrapOverlay from '@/components/play/DevilTrapOverlay';
@@ -19,6 +23,7 @@ import DevilTrapOptionText from '@/components/play/DevilTrapOptionText';
 import { getGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
 import { canUseFramePower } from '@/lib/game/frame-powers';
 import { playCorrectSound, playWrongSound } from '@/lib/game/audio';
+import { motion } from 'motion/react';
 
 type PhaseType = 'loading' | 'ready' | 'question' | 'feedback' | 'round_done' | 'error';
 
@@ -47,6 +52,54 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
   const [isProcessingPower, setIsProcessingPower] = useState(false);
   const [devilSpawnedCount, setDevilSpawnedCount] = useState(0);
   const [devilDefeatedCount, setDevilDefeatedCount] = useState(0);
+  const [isChatOpen, setIsChatOpen] = useState(false);
+  const [unreadMessages, setUnreadMessages] = useState(0);
+
+  useEffect(() => {
+    if (!duelId) return;
+    const chatId = `match_${duelId}`;
+    const messagesRef = collection(db, "chats", chatId, "messages");
+    const q = query(messagesRef, orderBy("createdAt", "desc"), limit(20));
+
+    const unsubscribe = onSnapshot(q, {
+      next: (snapshot: any) => {
+        const lastReadString = localStorage.getItem('last_read_chats') || '{}';
+        const lastReadMap = JSON.parse(lastReadString);
+        const lastReadTime = lastReadMap[chatId] || 0;
+
+        let count = 0;
+        snapshot.forEach((doc: any) => {
+          const data = doc.data();
+          if (data.senderId !== DEMO_UID && !data.deleted) {
+            const msgTime = getTimestampMs(data.createdAt) || Date.now();
+            if (msgTime > lastReadTime) {
+              count++;
+            }
+          }
+        });
+        setUnreadMessages(count);
+      },
+      error: (err) => {
+        if (err.code === 'permission-denied') {
+          console.warn('Chat no inicializado aún o sin permisos de lectura para esta sala de chat.');
+        } else {
+          console.error('Error en snapshot de chat:', err);
+        }
+      }
+    });
+
+    const handleChatRead = (e: any) => {
+      if (e.detail?.chatId === chatId) {
+        setUnreadMessages(0);
+      }
+    };
+    window.addEventListener('chat-read', handleChatRead);
+
+    return () => {
+      unsubscribe();
+      window.removeEventListener('chat-read', handleChatRead);
+    };
+  }, [duelId, DEMO_UID]);
   
   // Devil Trap Hook
   const {
@@ -430,6 +483,22 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
         <p className="text-[#cdc3d4] text-[13px] font-medium mt-2">
           {t.duel.waitingRival}
         </p>
+        <button
+          onClick={async () => {
+            const { createMatchChat } = await import('@/lib/chat/chatService');
+            const opponentId = duel ? Object.keys(duel.participants).find(id => id !== DEMO_UID) || '' : '';
+            try {
+              const chatId = await createMatchChat(duelId, [DEMO_UID, opponentId]);
+              router.push(`/chat?id=${chatId}`);
+            } catch (e) {
+              toast.error('Error al abrir el chat');
+            }
+          }}
+          className="mt-6 flex items-center gap-2 bg-[#0A84FF] hover:bg-blue-600 text-white px-5 py-3 rounded-full font-bold text-[14px] shadow-sm transition-all active:scale-95"
+        >
+          <MessageCircle className="w-4 h-4" />
+          {userLanguage === 'es' ? 'Chat de la Partida' : userLanguage === 'fr' ? 'Chat de Match' : 'Chat match la'}
+        </button>
       </div>
     );
   }
@@ -450,6 +519,21 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
               {isTiebreaker ? `⚡ ${t.duel.suddenDeath}` : `${t.duel.round} ${currentRound.roundNumber}`}
             </h1>
           </div>
+          <button
+            onClick={async () => {
+              const { createMatchChat } = await import('@/lib/chat/chatService');
+              try {
+                const chatId = await createMatchChat(duelId, [DEMO_UID, vs.opponentId]);
+                router.push(`/chat?id=${chatId}`);
+              } catch (e) {
+                toast.error(userLanguage === 'es' ? 'Error al abrir el chat' : 'Error');
+              }
+            }}
+            className="w-10 h-10 rounded-full bg-white border border-[#1b1b1e]/5 shadow-sm flex items-center justify-center text-[#0A84FF] hover:bg-blue-50 transition-colors active:scale-95 shrink-0 ml-auto"
+            title="Chat de partida"
+          >
+            <MessageCircle className="w-5 h-5" />
+          </button>
         </header>
 
         <div className="flex-1 flex flex-col items-center justify-center px-6 text-center">
@@ -503,21 +587,24 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
 
   // ── QUESTION SCREEN ──────────────────────────────────────────
   if ((phase === 'question' || phase === 'feedback') && q) {
+    const vs = duel ? getDuelViewState(duel, DEMO_UID) : null;
     return (
       <div className="bg-[#faf9fc] min-h-screen flex flex-col font-sans pt-safe">
 
         {/* Top bar with timer */}
-        <div className="px-5 pt-5 pb-3 space-y-3">
+        <div className="px-5 pt-16 pb-3 space-y-3">
           <div className="flex items-center justify-between">
             <span className="text-[11px] font-black text-[#7c7483] uppercase tracking-widest">
               {questionIndex + 1} / {questions.length}
             </span>
-            <div className={`w-10 h-10 rounded-full flex items-center justify-center font-black text-[16px] border-4 transition-colors ${
-              timeLeft > 10 ? 'border-[#4a148c] text-[#310065]' :
-              timeLeft > 5 ? 'border-amber-400 text-amber-600' :
-              'border-red-400 text-red-600 animate-pulse'
-            }`}>
-              {timeLeft}
+            <div className="flex items-center gap-3">
+              <div className={`w-10 h-10 rounded-full flex items-center justify-center font-black text-[16px] border-4 transition-colors ${
+                timeLeft > 10 ? 'border-[#4a148c] text-[#310065]' :
+                timeLeft > 5 ? 'border-amber-400 text-amber-600' :
+                'border-red-400 text-red-600 animate-pulse'
+              }`}>
+                {timeLeft}
+              </div>
             </div>
           </div>
 
@@ -597,6 +684,7 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
           </div>
         </div>
 
+        {/* Power Ups Bar (Left Side) */}
         {phase === 'question' && (
           <div className="px-5 mt-auto pb-6 pb-safe">
             <PowerUpsBar 
@@ -612,8 +700,52 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
           </div>
         )}
 
-        <div className="h-8" />
+        {/* Draggable Floating Chat Button (Opposite side to Powers, same height) */}
+        {vs && (
+          <motion.div 
+            drag
+            dragMomentum={false}
+            dragConstraints={{ left: -350, right: 20, top: -650, bottom: 20 }}
+            className="fixed bottom-[calc(env(safe-area-inset-bottom)+1.5rem)] right-5 z-40 cursor-grab active:cursor-grabbing select-none touch-none"
+          >
+            <div className="relative">
+              <button
+                onClick={async () => {
+                  const { createMatchChat } = await import('@/lib/chat/chatService');
+                  try {
+                    await createMatchChat(duelId, [DEMO_UID, vs.opponentId]);
+                  } catch (e) {
+                    console.error("Error creating chat room:", e);
+                  }
+                  setIsChatOpen(true);
+                }}
+                className="w-14 h-14 rounded-full bg-white border border-[#1b1b1e]/10 shadow-lg flex items-center justify-center text-[#0A84FF] active:scale-95 transition-transform"
+                title="Chat de partida"
+              >
+                <MessageCircle className="w-7 h-7" />
+              </button>
+              {unreadMessages > 0 && (
+                <span className="absolute -top-1 -right-1 bg-red-500 text-white text-[9px] font-black w-4.5 h-4.5 rounded-full flex items-center justify-center border-2 border-white shadow-sm leading-none animate-bounce">
+                  {unreadMessages}
+                </span>
+              )}
+            </div>
+          </motion.div>
+        )}
+
         <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} devilMode={devilMode ?? undefined} devilEvent={devilEvent ?? undefined} />
+
+        {/* Floating slide-up chat drawer */}
+        {isChatOpen && (
+          <div className="fixed inset-0 z-[100] flex items-end justify-center bg-black/40 backdrop-blur-sm animate-in fade-in duration-200">
+            <div className="w-full max-w-lg bg-white rounded-t-[2.5rem] h-[60vh] flex flex-col shadow-2xl animate-in slide-in-from-bottom duration-300">
+              <div className="w-12 h-1.5 bg-gray-200 rounded-full mx-auto my-3 shrink-0" />
+              <div className="flex-1 overflow-hidden relative pb-safe">
+                <ChatRoom chatId={`match_${duelId}`} onBack={() => setIsChatOpen(false)} />
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     );
   }

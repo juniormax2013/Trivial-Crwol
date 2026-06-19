@@ -1,4 +1,4 @@
-export type ChatType = 'global' | 'private' | 'match';
+export type ChatType = 'global' | 'private' | 'match' | 'clan';
 
 export interface ChatUser {
   uid: string;

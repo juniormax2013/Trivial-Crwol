@@ -64,12 +64,12 @@ export function NotificationProvider({ children }: { children: ReactNode }) {
     });
 
     // Subscribe to User Chats
-    const unsubChats = subscribeToUserChats(user.uid, (chats) => {
+    const unsubChats = subscribeToUserChats(user.uid, user.clanId, (chats) => {
       const lastReadString = localStorage.getItem('last_read_chats') || '{}';
       const lastReadMap = JSON.parse(lastReadString);
 
       const unreadList = chats.filter(chat => {
-        if (chat.type === 'private' && chat.lastMessage && chat.lastMessageSenderId !== user.uid) {
+        if ((chat.type === 'private' || chat.type === 'clan') && chat.lastMessage && chat.lastMessageSenderId !== user.uid) {
           const lastMessageMs = getTimestampMs(chat.lastMessageAt);
           const lastReadMs = lastReadMap[chat.id] || 0;
           return lastMessageMs > lastReadMs;

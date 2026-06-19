@@ -5,10 +5,10 @@ import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useLanguage } from '@/lib/i18n/context';
 import { subscribeToUserChats, getTimestampMs } from '@/lib/chat/chatService';
 import { ChatRoom } from '@/lib/chat/chatTypes';
-import { doc, getDoc } from 'firebase/firestore';
+import { doc, getDoc, collection, query, orderBy, limit, onSnapshot } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 import UserAvatar from '@/components/UserAvatar';
-import { MessageSquare, ShieldAlert, Swords, Globe } from 'lucide-react';
+import { MessageSquare, ShieldAlert, Swords, Globe, Users } from 'lucide-react';
 
 interface ChatListProps {
   onSelectChat: (chatId: string) => void;
@@ -19,11 +19,11 @@ export default function ChatList({ onSelectChat, selectedChatId }: ChatListProps
   const { user } = useAuthContext();
   const { language } = useLanguage();
   const [rooms, setRooms] = useState<ChatRoom[]>([]);
-  const [activeTab, setActiveTab] = useState<'all' | 'private' | 'global'>('all');
+  const [activeTab, setActiveTab] = useState<'all' | 'private' | 'global' | 'clan'>('all');
 
   useEffect(() => {
     if (!user?.uid) return;
-    const unsub = subscribeToUserChats(user.uid, (chats) => {
+    const unsub = subscribeToUserChats(user.uid, user.clanId, (chats) => {
       // Filter out match rooms so they are only accessible in-game
       const filteredChats = chats.filter(c => c.type !== 'match');
       
@@ -41,10 +41,29 @@ export default function ChatList({ onSelectChat, selectedChatId }: ChatListProps
           lastMessageAt: new Date(),
         });
       }
+
+      // Add mocked clan chat if user has a clan and it isn't returned from Firestore yet
+      if (user.clanId) {
+        const clanChatId = `clan_${user.clanId}`;
+        const hasClan = updatedChats.some(c => c.id === clanChatId);
+        if (!hasClan) {
+          updatedChats.unshift({
+            id: clanChatId,
+            type: 'clan',
+            participants: [],
+            createdAt: new Date(),
+            updatedAt: new Date(),
+            lastMessage: language === 'es' ? 'Chat de los miembros' : language === 'fr' ? 'Chat des membres' : 'Chat manm yo',
+            lastMessageSenderId: '',
+            lastMessageAt: new Date(),
+          });
+        }
+      }
+
       setRooms(updatedChats);
     });
     return () => unsub();
-  }, [user?.uid]);
+  }, [user?.uid, user?.clanId, language]);
 
   const filteredRooms = rooms.filter((room) => {
     if (activeTab === 'all') return true;
@@ -59,8 +78,15 @@ export default function ChatList({ onSelectChat, selectedChatId }: ChatListProps
         return language === 'es' ? 'Privados' : language === 'fr' ? 'Privés' : 'Prive';
       case 'global':
         return language === 'es' ? 'Global' : language === 'fr' ? 'Global' : 'Global';
+      case 'clan':
+        return language === 'es' ? 'Clan' : language === 'fr' ? 'Clan' : 'Klan';
     }
   };
+
+  const tabOptions: ('all' | 'private' | 'global' | 'clan')[] = ['all', 'private', 'global'];
+  if (user?.clanId) {
+    tabOptions.push('clan');
+  }
 
   return (
     <div className="flex flex-col h-full bg-white rounded-3xl border border-black/5 overflow-hidden shadow-sm">
@@ -71,7 +97,7 @@ export default function ChatList({ onSelectChat, selectedChatId }: ChatListProps
         </h1>
         {/* iOS style Segmented Control */}
         <div className="flex gap-1 bg-gray-50 p-1 rounded-2xl border border-black/[0.03]">
-          {(['all', 'private', 'global'] as const).map((tab) => (
+          {tabOptions.map((tab) => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
@@ -124,6 +150,7 @@ function ChatRoomItem({ room, currentUserId, isSelected, onClick }: ChatRoomItem
   const [resolvedName, setResolvedName] = useState(room.displayName || '');
   const [resolvedAvatar, setResolvedAvatar] = useState(room.photoURL || '');
   const [loading, setLoading] = useState(room.type === 'private');
+  const [unreadCount, setUnreadCount] = useState(0);
 
   useEffect(() => {
     if (room.type !== 'private') return;
@@ -149,9 +176,55 @@ function ChatRoomItem({ room, currentUserId, isSelected, onClick }: ChatRoomItem
     fetchUser();
   }, [room, currentUserId]);
 
+  // Real-time unread messages count subscription
+  useEffect(() => {
+    if (!currentUserId || !room.id) return;
+    
+    const messagesRef = collection(db, "chats", room.id, "messages");
+    const q = query(messagesRef, orderBy("createdAt", "desc"), limit(20));
+
+    const unsubscribe = onSnapshot(q, {
+      next: (snapshot: any) => {
+        const lastReadString = localStorage.getItem('last_read_chats') || '{}';
+        const lastReadMap = JSON.parse(lastReadString);
+        const lastReadTime = lastReadMap[room.id] || 0;
+
+        let count = 0;
+        snapshot.forEach((doc: any) => {
+          const data = doc.data();
+          if (data.senderId !== currentUserId && !data.deleted) {
+            const msgTime = getTimestampMs(data.createdAt) || Date.now();
+            if (msgTime > lastReadTime) {
+              count++;
+            }
+          }
+        });
+        setUnreadCount(count);
+      },
+      error: () => {
+        // Silent permission warning
+      }
+    });
+
+    const handleChatRead = (e: any) => {
+      if (e.detail?.chatId === room.id) {
+        setUnreadCount(0);
+      }
+    };
+    window.addEventListener('chat-read', handleChatRead);
+
+    return () => {
+      unsubscribe();
+      window.removeEventListener('chat-read', handleChatRead);
+    };
+  }, [room.id, currentUserId]);
+
   const getTitle = () => {
     if (room.type === 'global') {
       return language === 'es' ? 'Chat Global 👑' : language === 'fr' ? 'Chat Global 👑' : 'Chat Global 👑';
+    }
+    if (room.type === 'clan') {
+      return language === 'es' ? 'Chat del Clan 🛡️' : language === 'fr' ? 'Chat du Clan 🛡️' : 'Chat Klan an 🛡️';
     }
     if (room.type === 'match') {
       return language === 'es' ? 'Chat de Partida ⚔️' : language === 'fr' ? 'Chat de Match ⚔️' : 'Chat Jwèt ⚔️';
@@ -161,6 +234,7 @@ function ChatRoomItem({ room, currentUserId, isSelected, onClick }: ChatRoomItem
 
   const getIcon = () => {
     if (room.type === 'global') return <Globe className="w-5 h-5 text-purple-500" />;
+    if (room.type === 'clan') return <Users className="w-5 h-5 text-[#0A84FF]" />;
     if (room.type === 'match') return <Swords className="w-5 h-5 text-amber-500" />;
     return null;
   };
@@ -200,9 +274,16 @@ function ChatRoomItem({ room, currentUserId, isSelected, onClick }: ChatRoomItem
             </span>
           )}
         </div>
-        <p className="text-[12px] text-gray-400 font-medium truncate">
-          {room.lastMessage || (language === 'es' ? 'Sin mensajes aún' : language === 'fr' ? 'Pas encore de messages' : 'Pa gen mesaj ankò')}
-        </p>
+        <div className="flex justify-between items-center">
+          <p className="text-[12px] text-gray-400 font-medium truncate flex-1 mr-2">
+            {room.lastMessage || (language === 'es' ? 'Sin mensajes aún' : language === 'fr' ? 'Pas encore de messages' : 'Pa gen mesaj ankò')}
+          </p>
+          {unreadCount > 0 && (
+            <span className="bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shrink-0 min-w-[20px] text-center shadow-sm animate-pulse">
+              {unreadCount}
+            </span>
+          )}
+        </div>
       </div>
     </button>
   );

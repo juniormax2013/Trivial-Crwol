@@ -16,7 +16,7 @@ import {
   where
 } from "firebase/firestore";
 import { db } from "@/lib/firebase";
-import { ChatUser, ChatMessage, ChatRoom } from "./chatTypes";
+import { ChatUser, ChatMessage, ChatRoom, ChatType } from "./chatTypes";
 
 /**
  * Creates or retrieves a private chatroom between two users.
@@ -68,6 +68,17 @@ export async function createMatchChat(
       lastMessageSenderId: "",
       lastMessageAt: null,
     });
+  } else {
+    const data = snapshot.data();
+    const existingParticipants = data.participants || [];
+    const hasNew = participantIds.some(id => !existingParticipants.includes(id));
+    if (hasNew) {
+      const merged = Array.from(new Set([...existingParticipants, ...participantIds]));
+      await updateDoc(chatRef, {
+        participants: merged,
+        updatedAt: serverTimestamp()
+      });
+    }
   }
 
   return chatId;
@@ -110,12 +121,14 @@ export async function sendMessage(
   if (!exists) {
     // Determine participants: for global_main it's empty, for private it's the two users
     let participants: string[] = [];
-    let type = 'global';
+    let type: ChatType = 'global';
     if (chatId.startsWith('private_')) {
       participants = chatId.replace('private_', '').split('_');
       type = 'private';
     } else if (chatId.startsWith('match_')) {
       type = 'match';
+    } else if (chatId.startsWith('clan_')) {
+      type = 'clan';
     }
 
     batch.set(chatRef, {
@@ -166,6 +179,8 @@ export function subscribeToMessages(
       .reverse();
 
     callback(messages);
+  }, (error) => {
+    console.error("Error subscribing to messages:", error);
   });
 }
 
@@ -189,8 +204,19 @@ export function getTimestampMs(val: any): number {
  */
 export function subscribeToUserChats(
   userId: string,
-  callback: (chats: ChatRoom[]) => void
+  clanIdOrCallback: string | null | undefined | ((chats: ChatRoom[]) => void),
+  callback?: (chats: ChatRoom[]) => void
 ) {
+  let clanId: string | null | undefined = undefined;
+  let realCallback: (chats: ChatRoom[]) => void;
+
+  if (typeof clanIdOrCallback === 'function') {
+    realCallback = clanIdOrCallback;
+  } else {
+    clanId = clanIdOrCallback;
+    realCallback = callback!;
+  }
+
   const chatsRef = collection(db, "chats");
 
   // Query only chats where the user is a participant
@@ -201,14 +227,19 @@ export function subscribeToUserChats(
   );
 
   const globalDocRef = doc(db, "chats", "global_main");
+  const clanDocRef = clanId ? doc(db, "chats", `clan_${clanId}`) : null;
 
   let privateRooms: ChatRoom[] = [];
   let globalRoom: ChatRoom | null = null;
+  let clanRoom: ChatRoom | null = null;
 
   const triggerCallback = () => {
     const combined = [...privateRooms];
     if (globalRoom) {
       combined.push(globalRoom);
+    }
+    if (clanRoom) {
+      combined.push(clanRoom);
     }
     // Sort combined by updatedAt descending
     combined.sort((a, b) => {
@@ -216,7 +247,7 @@ export function subscribeToUserChats(
       const bTime = getTimestampMs(b.updatedAt);
       return bTime - aTime;
     });
-    callback(combined);
+    realCallback(combined);
   };
 
   const unsubPrivate = onSnapshot(privateQuery, (snapshot) => {
@@ -243,9 +274,27 @@ export function subscribeToUserChats(
     console.error("Error subscribing to global chat:", err);
   });
 
+  let unsubClan = () => {};
+  if (clanDocRef) {
+    unsubClan = onSnapshot(clanDocRef, (docSnap) => {
+      if (docSnap.exists()) {
+        clanRoom = {
+          id: docSnap.id,
+          ...docSnap.data()
+        } as ChatRoom;
+      } else {
+        clanRoom = null;
+      }
+      triggerCallback();
+    }, (err) => {
+      console.error("Error subscribing to clan chat:", err);
+    });
+  }
+
   return () => {
     unsubPrivate();
     unsubGlobal();
+    unsubClan();
   };
 }
 

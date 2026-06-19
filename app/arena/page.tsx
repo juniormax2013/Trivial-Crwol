@@ -235,7 +235,8 @@ export default function Arena() {
               <h3 className="font-serif text-[26px] font-bold text-[#310065] leading-tight">{t.play.title}</h3>
               <p className="text-[#7c7483] font-medium text-[13px] mt-1">{t.play.subtitle}</p>
             </div>
-          </div>          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             
             {/* Daily Challenge (Defi Jounen an) */}
             {(() => {
@@ -399,6 +400,49 @@ export default function Arena() {
                       <div className="flex items-center gap-2">
                         <Sparkles size={14} className="text-[#0A84FF]" />
                         <span className="text-[11px] font-bold text-[#64748B]">{t.arena.playersRange}</span>
+                      </div>
+                      <div className="bg-[#f0f6ff] p-2 rounded-lg group-hover:bg-[#0A84FF] group-hover:text-white transition-all text-[#0A84FF]">
+                        <ChevronRight size={20} />
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })()}
+
+            {/* Clanes y Grupos */}
+            {(() => {
+              const clanTitle = language === 'es' ? 'Clanes y Grupos' : language === 'fr' ? 'Clans et Groupes' : language === 'ht' ? 'Klan ak Gwoup' : 'Clans & Groups';
+              const clanDesc = language === 'es' ? 'Únete a un clan o crea el tuyo para sumar poder y dominar la tabla.' : language === 'fr' ? 'Rejoignez un clan ou créez le vôtre pour accumuler de la puissance.' : language === 'ht' ? 'Antre nan yon klan oswa kreye pa ou pou ajoute pouvwa.' : 'Join a clan or create your own to gain power and dominate.';
+              const availableText = language === 'es' ? 'Disponible' : language === 'fr' ? 'Disponible' : language === 'ht' ? 'Disponib' : 'Available';
+              return (
+                <Link
+                  href="/clans"
+                  className="block relative overflow-hidden rounded-[2rem] p-6 border bg-white border-[#d2e3fc] shadow-[0_8px_32px_rgba(10,132,255,0.05)] group hover:shadow-[0_12px_40px_rgba(10,132,255,0.1)] active:scale-[0.99] transition-all h-full"
+                >
+                  <div className="absolute right-0 top-0 w-24 h-24 bg-[#0A84FF]/10 blur-[30px] rounded-full -mr-12 -mt-12 group-hover:bg-[#0A84FF]/20 transition-colors"></div>
+                  
+                  <div className="relative z-10 flex flex-col h-full">
+                    <div className="flex items-center gap-4 mb-4">
+                      <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#0A84FF] to-[#0066cc] flex items-center justify-center shadow-lg shadow-[#0A84FF]/20 -rotate-3 group-hover:rotate-0 transition-transform">
+                        <Users className="w-7 h-7 text-white" />
+                      </div>
+                      <div>
+                        <h4 className="font-black text-[18px] text-[#0F172A] mb-0.5">{clanTitle}</h4>
+                        <div className="flex items-center gap-1.5">
+                          <span className="bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-emerald-200 inline-block">
+                            {availableText}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <p className="text-[#64748B] text-[13px] font-medium mb-4 flex-grow">
+                      {clanDesc}
+                    </p>
+                    <div className="flex items-center justify-between mt-auto">
+                      <div className="flex items-center gap-2">
+                        <Users size={14} className="text-[#0A84FF]" />
+                        <span className="text-[11px] font-bold text-[#64748B]">{language === 'es' ? 'Sistema de Clanes' : 'Clans System'}</span>
                       </div>
                       <div className="bg-[#f0f6ff] p-2 rounded-lg group-hover:bg-[#0A84FF] group-hover:text-white transition-all text-[#0A84FF]">
                         <ChevronRight size={20} />

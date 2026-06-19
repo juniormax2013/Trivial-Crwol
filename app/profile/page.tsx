@@ -81,6 +81,34 @@ export default function Profile() {
   const lang = (user?.settings?.language ?? 'es') as keyof typeof langLabels;
   const rl = langLabels[lang] ?? langLabels.es;
 
+  const clanTranslations = {
+    es: {
+      myClan: "Mi Clan",
+      browseClans: "Explorar Clanes",
+      createClanActive: "Crear mi Clan",
+      createClanLocked: "Crear Clan (Nivel 7 requerido)",
+    },
+    en: {
+      myClan: "My Clan",
+      browseClans: "Explore Clans",
+      createClanActive: "Create my Clan",
+      createClanLocked: "Create Clan (Level 7 required)",
+    },
+    fr: {
+      myClan: "Mon Clan",
+      browseClans: "Explorer les Clans",
+      createClanActive: "Créer mon Clan",
+      createClanLocked: "Créer Clan (Niveau 7 requis)",
+    },
+    ht: {
+      myClan: "Klan Mwen",
+      browseClans: "Eksplore Klan yo",
+      createClanActive: "Kreye Klan Mwen",
+      createClanLocked: "Kreye Klan (Nivo 7 obligatwa)",
+    }
+  };
+  const ct = clanTranslations[lang] ?? clanTranslations.es;
+
   const qualifiedCount = user?.referralStats?.qualifiedCount ?? 0;
   const registeredCount = user?.referralStats?.registeredCount ?? 0;
   const claimedLevels = user?.referralStats?.claimedLevels ?? [];
@@ -458,6 +486,49 @@ export default function Profile() {
                 );
               })}
             </div>
+          </div>
+        </section>
+
+        {/* Clan / Group Section */}
+        <section className="bg-white rounded-[2rem] p-6 shadow-[0_2px_20px_rgba(0,0,0,0.06)] border border-black/[0.03] space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="bg-[#0A84FF]/10 p-3 rounded-2xl">
+              <Users className="text-[#0A84FF] w-5 h-5" />
+            </div>
+            <div>
+              <p className="text-[10px] uppercase font-bold text-[#64748B] tracking-[0.2em]">PhotoArte Studio</p>
+              <h2 className="text-[17px] font-bold text-[#0F172A]">
+                {lang === 'es' ? 'Clanes y Grupos' : lang === 'fr' ? 'Clans et Groupes' : lang === 'ht' ? 'Klan ak Gwoup' : 'Clans & Groups'}
+              </h2>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            {user.clanId ? (
+              <Link href={`/clans?id=${user.clanId}`} className="w-full py-4 bg-[#0A84FF] text-white font-black text-[14px] uppercase tracking-widest rounded-2xl flex items-center justify-center hover:bg-[#0A84FF]/90 transition-colors active:scale-[0.99] shadow-sm gap-2">
+                <Users className="w-4 h-4" />
+                {ct.myClan}
+              </Link>
+            ) : (
+              <>
+                <Link href="/clans" className="w-full py-4 bg-white border border-[#0A84FF]/20 text-[#0A84FF] font-black text-[14px] uppercase tracking-widest rounded-2xl flex items-center justify-center hover:bg-[#0A84FF]/5 transition-colors active:scale-[0.99] shadow-sm gap-2">
+                  <Users className="w-4 h-4" />
+                  {ct.browseClans}
+                </Link>
+
+                {getLevelFromXp(user.xp) >= 7 || user.email === 'juniormax2013@gmail.com' ? (
+                  <Link href="/clans/create" className="w-full py-4 bg-[#0A84FF] text-white font-black text-[14px] uppercase tracking-widest rounded-2xl flex items-center justify-center hover:bg-[#0A84FF]/90 transition-colors active:scale-[0.99] shadow-sm gap-2">
+                    <CheckCircle2 className="w-4 h-4" />
+                    {ct.createClanActive}
+                  </Link>
+                ) : (
+                  <div className="w-full py-4 bg-gray-100 border border-gray-200 text-gray-400 font-black text-[14px] uppercase tracking-widest rounded-2xl flex items-center justify-center gap-2 cursor-not-allowed select-none">
+                    <Lock className="w-4 h-4 text-gray-400" />
+                    {ct.createClanLocked}
+                  </div>
+                )}
+              </>
+            )}
           </div>
         </section>
 

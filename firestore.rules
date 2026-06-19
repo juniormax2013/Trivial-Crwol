@@ -34,6 +34,13 @@ service cloud.firestore {
         );
     }
 
+    function isClanMember(chatId) {
+      return isSignedIn() &&
+        exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('clanId', '') != '' &&
+        chatId == 'clan_' + get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('clanId', '');
+    }
+
     // ===================================
     // 📂 COLLECTION GROUP RULES
     // ===================================
@@ -412,18 +419,46 @@ service cloud.firestore {
     }
 
     // ===================================
+    // 🛡️ CLAN SYSTEM RULES
+    // ===================================
+    match /clans/{clanId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn();
+      allow update: if isSignedIn();
+      allow delete: if isSignedIn() && (resource.data.creatorId == request.auth.uid || isAdmin());
+    }
+
+    match /clanRequests/{requestId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn() && request.resource.data.uid == request.auth.uid;
+      allow update: if isSignedIn();
+      allow delete: if isSignedIn();
+    }
+
+    match /clanInvitations/{invitationId} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn();
+      allow update: if isSignedIn();
+      allow delete: if isSignedIn();
+    }
+
+    // ===================================
     // 💬 CHATS & MESSAGES SYSTEM
     // ===================================
     match /chats/{chatId} {
       allow read: if isSignedIn() && (
         resource == null ||
         resource.data.type == 'global' ||
-        request.auth.uid in resource.data.participants
+        request.auth.uid in resource.data.participants ||
+        isClanMember(chatId) ||
+        (chatId.matches('match_.*') && exists(/databases/$(database)/documents/arenas/$(chatId.split('match_')[1])/players/$(request.auth.uid)))
       );
 
       allow create: if isSignedIn() && (
         request.resource.data.type == 'global' ||
-        request.auth.uid in request.resource.data.participants
+        request.auth.uid in request.resource.data.participants ||
+        isClanMember(chatId) ||
+        (chatId.matches('match_.*') && exists(/databases/$(database)/documents/arenas/$(chatId.split('match_')[1])/players/$(request.auth.uid)))
       ) && request.resource.data.keys().hasOnly([
         "type",
         "participants",
@@ -436,9 +471,13 @@ service cloud.firestore {
 
       allow update: if isSignedIn() && (
         resource.data.type == 'global' ||
-        request.auth.uid in resource.data.participants
+        request.auth.uid in resource.data.participants ||
+        isClanMember(chatId) ||
+        (chatId.matches('match_.*') && exists(/databases/$(database)/documents/arenas/$(chatId.split('match_')[1])/players/$(request.auth.uid)))
       ) && (
         resource.data.type == 'global' ||
+        resource.data.type == 'clan' ||
+        resource.data.type == 'match' ||
         request.resource.data.participants == resource.data.participants
       );
 
@@ -448,23 +487,27 @@ service cloud.firestore {
         allow read: if isSignedIn() && (
           chatId == 'global_main' ||
           chatId.matches('private_.*' + request.auth.uid + '.*') ||
+          isClanMember(chatId) ||
           (
             exists(/databases/$(database)/documents/chats/$(chatId)) && (
               get(/databases/$(database)/documents/chats/$(chatId)).data.type == 'global' ||
               request.auth.uid in get(/databases/$(database)/documents/chats/$(chatId)).data.participants
             )
-          )
+          ) ||
+          (chatId.matches('match_.*') && exists(/databases/$(database)/documents/arenas/$(chatId.split('match_')[1])/players/$(request.auth.uid)))
         );
 
         allow create: if isSignedIn() && (
           chatId == 'global_main' ||
           chatId.matches('private_.*' + request.auth.uid + '.*') ||
+          isClanMember(chatId) ||
           (
             exists(/databases/$(database)/documents/chats/$(chatId)) && (
               get(/databases/$(database)/documents/chats/$(chatId)).data.type == 'global' ||
               request.auth.uid in get(/databases/$(database)/documents/chats/$(chatId)).data.participants
             )
-          )
+          ) ||
+          (chatId.matches('match_.*') && exists(/databases/$(database)/documents/arenas/$(chatId.split('match_')[1])/players/$(request.auth.uid)))
         )
           && request.resource.data.senderId == request.auth.uid
           && request.resource.data.text is string
@@ -484,12 +527,14 @@ service cloud.firestore {
         allow update: if isSignedIn() && (
           chatId == 'global_main' ||
           chatId.matches('private_.*' + request.auth.uid + '.*') ||
+          isClanMember(chatId) ||
           (
             exists(/databases/$(database)/documents/chats/$(chatId)) && (
               get(/databases/$(database)/documents/chats/$(chatId)).data.type == 'global' ||
               request.auth.uid in get(/databases/$(database)/documents/chats/$(chatId)).data.participants
             )
-          )
+          ) ||
+          (chatId.matches('match_.*') && exists(/databases/$(database)/documents/arenas/$(chatId.split('match_')[1])/players/$(request.auth.uid)))
         )
           && resource.data.senderId == request.auth.uid
           && request.resource.data.diff(resource.data).affectedKeys().hasOnly([

@@ -15,11 +15,17 @@ import {
   Flame,
   Star,
   Shield,
-  Zap as ZapIcon
+  Zap as ZapIcon,
+  MessageCircle
 } from 'lucide-react';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useT, useLanguage } from '@/lib/i18n/context';
 import PowerUpsBar from '@/components/game/PowerUpsBar';
+import ChatRoom from '@/components/chat/ChatRoom';
+import { motion } from 'motion/react';
+import { collection, query, orderBy, limit, onSnapshot } from 'firebase/firestore';
+import { db } from '@/lib/firebase';
+import { getTimestampMs } from '@/lib/chat/chatService';
 import { 
   subscribeToArenaRoom, 
   updatePlayerProgress,
@@ -61,6 +67,54 @@ export default function CrownArenaPlayPage() {
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [lastPoints, setLastPoints] = useState(0);
   const [startTime, setStartTime] = useState(0);
+  const [isChatOpen, setIsChatOpen] = useState(false);
+  const [unreadMessages, setUnreadMessages] = useState(0);
+
+  useEffect(() => {
+    if (!roomId || !user) return;
+    const chatId = `match_${roomId}`;
+    const messagesRef = collection(db, "chats", chatId, "messages");
+    const q = query(messagesRef, orderBy("createdAt", "desc"), limit(20));
+
+    const unsubscribe = onSnapshot(q, {
+      next: (snapshot: any) => {
+        const lastReadString = localStorage.getItem('last_read_chats') || '{}';
+        const lastReadMap = JSON.parse(lastReadString);
+        const lastReadTime = lastReadMap[chatId] || 0;
+
+        let count = 0;
+        snapshot.forEach((doc: any) => {
+          const data = doc.data();
+          if (data.senderId !== user.uid && !data.deleted) {
+            const msgTime = getTimestampMs(data.createdAt) || Date.now();
+            if (msgTime > lastReadTime) {
+              count++;
+            }
+          }
+        });
+        setUnreadMessages(count);
+      },
+      error: (err) => {
+        if (err.code === 'permission-denied') {
+          console.warn('Chat no inicializado aún o sin permisos de lectura para esta sala de chat.');
+        } else {
+          console.error('Error en snapshot de chat:', err);
+        }
+      }
+    });
+
+    const handleChatRead = (e: any) => {
+      if (e.detail?.chatId === chatId) {
+        setUnreadMessages(0);
+      }
+    };
+    window.addEventListener('chat-read', handleChatRead);
+
+    return () => {
+      unsubscribe();
+      window.removeEventListener('chat-read', handleChatRead);
+    };
+  }, [roomId, user]);
 
   // Devil Trap Hook
   const {
@@ -472,6 +526,23 @@ export default function CrownArenaPlayPage() {
               <p className="text-white/70 font-medium">{t.crownArena.waitingOthers}</p>
             </div>
 
+            <button
+              onClick={async () => {
+                const { createMatchChat } = await import('@/lib/chat/chatService');
+                const playerIds = room.players.map(p => p.id);
+                try {
+                  const chatId = await createMatchChat(roomId, playerIds);
+                  router.push(`/chat?id=${chatId}`);
+                } catch (e) {
+                  toast.error('Error al abrir el chat');
+                }
+              }}
+              className="w-full py-4 bg-[#0A84FF] hover:bg-blue-600 text-white rounded-[1.25rem] font-bold text-[15px] flex items-center justify-center gap-2 transition-all active:scale-95 shadow-md"
+            >
+              <MessageCircle className="w-5 h-5" />
+              Chat de la Sala
+            </button>
+
             <div className="space-y-4 max-h-[40vh] overflow-y-auto pr-2 custom-scrollbar">
               {room.players.map((p) => (
                 <div key={p.id} className="flex items-center gap-4 bg-white/5 p-4 rounded-2xl border border-white/10">
@@ -533,7 +604,7 @@ export default function CrownArenaPlayPage() {
     <div className="bg-[#faf9fc] text-[#1b1b1e] min-h-screen flex flex-col font-sans overflow-hidden">
       
       {/* HUD Header */}
-      <header className="px-6 pt-safe pb-4 bg-white shadow-sm space-y-4 z-10 relative">
+      <header className="px-6 pt-[calc(env(safe-area-inset-top)+3.5rem)] pb-4 bg-white shadow-sm space-y-4 z-10 relative">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
             <div className="w-10 h-10 rounded-xl bg-white shadow-sm border border-[#1b1b1e]/5 flex items-center justify-center text-[#310065]">
@@ -547,9 +618,11 @@ export default function CrownArenaPlayPage() {
             </div>
           </div>
 
-          <div className="flex items-center gap-2 px-4 py-2 bg-[#ffe088]/20 rounded-full border border-[#ffe088]/30">
-            <Star className="w-4 h-4 text-[#cba72f] fill-[#cba72f]" />
-            <span className="font-black text-[#735c00] text-[15px]">{score}</span>
+          <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 px-4 py-2 bg-[#ffe088]/20 rounded-full border border-[#ffe088]/30">
+              <Star className="w-4 h-4 text-[#cba72f] fill-[#cba72f]" />
+              <span className="font-black text-[#735c00] text-[15px]">{score}</span>
+            </div>
           </div>
         </div>
 
@@ -722,7 +795,52 @@ export default function CrownArenaPlayPage() {
            ))}
         </div>
       </footer>
+
+      {/* Draggable Floating Chat Button (Opposite side, aligned with footer) */}
+      <motion.div 
+        drag
+        dragMomentum={false}
+        dragConstraints={{ left: -350, right: 20, top: -650, bottom: 20 }}
+        className="fixed bottom-[calc(env(safe-area-inset-bottom)+1rem)] right-5 z-40 cursor-grab active:cursor-grabbing select-none touch-none"
+      >
+        <div className="relative">
+          <button
+            onClick={async () => {
+              const { createMatchChat } = await import('@/lib/chat/chatService');
+              const playerIds = room.players.map(p => p.id);
+              try {
+                await createMatchChat(roomId, playerIds);
+              } catch (e) {
+                console.error("Error creating chat room:", e);
+              }
+              setIsChatOpen(true);
+            }}
+            className="w-14 h-14 rounded-full bg-white border border-[#1b1b1e]/10 shadow-lg flex items-center justify-center text-[#0A84FF] active:scale-95 transition-transform"
+            title="Chat de partida"
+          >
+            <MessageCircle className="w-7 h-7" />
+          </button>
+          {unreadMessages > 0 && (
+            <span className="absolute -top-1 -right-1 bg-red-500 text-white text-[9px] font-black w-4.5 h-4.5 rounded-full flex items-center justify-center border-2 border-white shadow-sm leading-none animate-bounce">
+              {unreadMessages}
+            </span>
+          )}
+        </div>
+      </motion.div>
+
       <DevilTrapOverlay isActive={isDevilActive} devilState={devilState} devilMode={devilMode ?? undefined} devilEvent={devilEvent ?? undefined} />
+
+      {/* Floating slide-up chat drawer */}
+      {isChatOpen && (
+        <div className="fixed inset-0 z-[100] flex items-end justify-center bg-black/40 backdrop-blur-sm animate-in fade-in duration-200">
+          <div className="w-full max-w-lg bg-white rounded-t-[2.5rem] h-[60vh] flex flex-col shadow-2xl animate-in slide-in-from-bottom duration-300">
+            <div className="w-12 h-1.5 bg-gray-200 rounded-full mx-auto my-3 shrink-0" />
+            <div className="flex-1 overflow-hidden relative pb-safe">
+              <ChatRoom chatId={`match_${roomId}`} onBack={() => setIsChatOpen(false)} />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
