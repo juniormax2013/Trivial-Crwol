@@ -225,6 +225,11 @@ export default function ClansPage() {
   const [isEditingRole, setIsEditingRole] = useState(false);
   const [updatingRole, setUpdatingRole] = useState(false);
   const [isChatOpen, setIsChatOpen] = useState(false);
+  const [activeTab, setActiveTab] = useState<'info' | 'events'>('info');
+  const [activeEvent, setActiveEvent] = useState<any>(null);
+  const [clanEventScore, setClanEventScore] = useState<any>(null);
+  const [myEventStats, setMyEventStats] = useState<any>(null);
+  const [myClanRank, setMyClanRank] = useState<any>(null);
 
   useEffect(() => {
     setIsEditingRole(false);
@@ -232,6 +237,19 @@ export default function ClansPage() {
 
   const lang = (user?.settings?.language ?? 'es') as keyof typeof translations;
   const t = translations[lang] ?? translations.es;
+
+  // Localized active event details if activeEvent exists
+  const activeEventTitle = activeEvent
+    ? (lang === 'fr' ? (activeEvent.titleFR || activeEvent.title)
+      : lang === 'ht' ? (activeEvent.titleHT || activeEvent.title)
+      : (activeEvent.titleES || activeEvent.title))
+    : '';
+
+  const activeEventDescription = activeEvent
+    ? (lang === 'fr' ? (activeEvent.descriptionFR || activeEvent.description)
+      : lang === 'ht' ? (activeEvent.descriptionHT || activeEvent.description)
+      : (activeEvent.descriptionES || activeEvent.description))
+    : '';
 
   // Load all clans
   const fetchClans = async () => {
@@ -278,6 +296,21 @@ export default function ClansPage() {
       fetchClans();
     }
   }, [user, authLoading, directId]);
+
+  useEffect(() => {
+    if (selectedClan?.id && user?.uid) {
+      import('@/lib/clan/eventsRepository').then(({ getActiveClanEvent, getClanEventScore, getUserClanEventStats, getMyClanEventRank }) => {
+        getActiveClanEvent().then((evt) => {
+          if (evt) {
+            setActiveEvent(evt);
+            getClanEventScore(evt.id, selectedClan.id).then(setClanEventScore);
+            getUserClanEventStats(evt.id, user.uid).then(setMyEventStats);
+            getMyClanEventRank(evt.id, selectedClan.id).then(setMyClanRank);
+          }
+        });
+      });
+    }
+  }, [selectedClan?.id, user?.uid]);
 
   if (authLoading || !user) {
     return (
@@ -443,16 +476,47 @@ export default function ClansPage() {
             </div>
           </section>
 
-          {/* Welcome Message Card (Visible only to members) */}
-          {isMember && selectedClan.welcomeMessage && (
-            <section className="bg-[#0A84FF]/5 rounded-[24px] p-5 border border-[#0A84FF]/10 space-y-2 relative overflow-hidden">
-              <div className="flex items-center gap-2 text-[#0A84FF]">
-                <MessageSquare className="w-5 h-5 fill-current" />
-                <h3 className="font-bold text-sm">{t.welcomeTitle}</h3>
-              </div>
-              <p className="text-sm text-[#0F172A] leading-relaxed italic">&quot;{selectedClan.welcomeMessage}&quot;</p>
-            </section>
+          {/* Segmented Control / Tabs */}
+          {isMember && (
+            <div className="flex bg-white p-1 rounded-2xl border border-black/[0.03] shadow-sm">
+              <button
+                onClick={() => setActiveTab('info')}
+                className={`flex-1 py-3 text-center text-xs font-bold rounded-xl transition-all ${
+                  activeTab === 'info'
+                    ? 'bg-[#0A84FF] text-white shadow-sm'
+                    : 'text-[#64748B] hover:text-[#0F172A]'
+                }`}
+              >
+                {lang === 'es' ? 'Información' : lang === 'fr' ? 'Informations' : lang === 'ht' ? 'Enfòmasyon' : 'Information'}
+              </button>
+              <button
+                onClick={() => setActiveTab('events')}
+                className={`flex-1 py-3 text-center text-xs font-bold rounded-xl transition-all flex items-center justify-center gap-1.5 ${
+                  activeTab === 'events'
+                    ? 'bg-[#0A84FF] text-white shadow-sm'
+                    : 'text-[#64748B] hover:text-[#0F172A]'
+                }`}
+              >
+                <span>{lang === 'es' ? 'Eventos' : lang === 'fr' ? 'Événements' : lang === 'ht' ? 'Evènman yo' : 'Events'}</span>
+                {activeEvent && (
+                  <span className="w-2 h-2 rounded-full bg-red-500 animate-ping"></span>
+                )}
+              </button>
+            </div>
           )}
+
+          {(!isMember || activeTab === 'info') && (
+            <>
+              {/* Welcome Message Card (Visible only to members) */}
+              {isMember && selectedClan.welcomeMessage && (
+                <section className="bg-[#0A84FF]/5 rounded-[24px] p-5 border border-[#0A84FF]/10 space-y-2 relative overflow-hidden">
+                  <div className="flex items-center gap-2 text-[#0A84FF]">
+                    <MessageSquare className="w-5 h-5 fill-current" />
+                    <h3 className="font-bold text-sm">{t.welcomeTitle}</h3>
+                  </div>
+                  <p className="text-sm text-[#0F172A] leading-relaxed italic">&quot;{selectedClan.welcomeMessage}&quot;</p>
+                </section>
+              )}
 
           {/* ── ADMIN PANEL BANNER ── visible solo a founder/admin/moderator */}
           {isMember && ['founder', 'admin', 'moderator'].includes(user.clanRole || '') && (
@@ -556,6 +620,97 @@ export default function ClansPage() {
               )}
             </div>
           </section>
+
+            </>
+          )}
+
+          {/* Events Tab Content */}
+          {isMember && activeTab === 'events' && (
+            <div className="space-y-6 animate-in fade-in duration-300">
+              {activeEvent ? (
+                <div className="bg-white rounded-[24px] border border-black/[0.03] shadow-sm p-6 space-y-6">
+                  {/* Event Meta */}
+                  <div className="flex items-start gap-4">
+                    <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#0A84FF] to-blue-600 flex items-center justify-center shadow-md">
+                      <Crown className="w-7 h-7 text-white" />
+                    </div>
+                    <div>
+                      <span className="bg-[#0A84FF]/10 text-[#0A84FF] px-2.5 py-0.5 rounded-full text-[9px] font-black uppercase tracking-wider border border-[#0A84FF]/20">
+                        {lang === 'es' ? 'Evento Activo' : lang === 'fr' ? 'Événement Actif' : lang === 'ht' ? 'Evènman Aktif' : 'Active Event'}
+                      </span>
+                      <h4 className="font-bold text-lg text-[#0F172A] mt-1">{activeEventTitle}</h4>
+                      <p className="text-xs text-[#64748B] mt-0.5">
+                        {lang === 'es' ? 'Tiempo restante' : lang === 'fr' ? 'Temps restant' : lang === 'ht' ? 'Tan ki rete' : 'Time left'}: {Math.max(0, Math.ceil((new Date(activeEvent.endAt).getTime() - Date.now()) / (1000 * 60 * 60 * 24)))}d
+                      </p>
+                    </div>
+                  </div>
+
+                  <p className="text-sm text-[#0F172A] leading-relaxed">{activeEventDescription}</p>
+
+                  <div className="grid grid-cols-2 gap-3 pt-2">
+                    <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex flex-col items-center text-center">
+                      <span className="text-[10px] font-bold text-[#64748B] uppercase tracking-wider">
+                        {lang === 'es' ? 'Puntos del clan' : lang === 'fr' ? 'Points du clan' : lang === 'ht' ? 'Pwen klan' : 'Clan Points'}
+                      </span>
+                      <span className="text-lg font-black text-[#0A84FF] mt-1">
+                        {clanEventScore?.totalPoints?.toLocaleString() || 0}
+                      </span>
+                    </div>
+                    <div className="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex flex-col items-center text-center">
+                      <span className="text-[10px] font-bold text-[#64748B] uppercase tracking-wider">
+                        {lang === 'es' ? 'Ranking actual' : lang === 'fr' ? 'Classement actuel' : lang === 'ht' ? 'Klasman' : 'Current Rank'}
+                      </span>
+                      <span className="text-lg font-black text-[#0F172A] mt-1">
+                        {myClanRank ? `#${myClanRank.position}` : 'N/A'}
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="bg-[#0A84FF]/5 p-4 rounded-2xl border border-[#0A84FF]/10 text-center">
+                    <span className="text-[10px] font-bold text-[#0A84FF] uppercase tracking-wider">
+                      {lang === 'es' ? 'Mi contribución' : lang === 'fr' ? 'Ma contribution' : lang === 'ht' ? 'Kontribisyon m' : 'My Contribution'}
+                    </span>
+                    <p className="text-xl font-black text-[#0F172A] mt-0.5">
+                      {myEventStats?.points?.toLocaleString() || 0} pts
+                    </p>
+                  </div>
+
+                  {/* CTA Buttons */}
+                  <div className="space-y-2 pt-2">
+                    <button
+                      onClick={() => router.push(`/clan/events/${activeEvent.id}`)}
+                      className="w-full py-4 bg-[#0A84FF] hover:bg-[#0A84FF]/90 text-white font-bold text-[14px] uppercase tracking-widest rounded-2xl shadow-md transition-all active:scale-[0.99] flex items-center justify-center gap-2"
+                    >
+                      <Plus className="w-5 h-5" />
+                      {lang === 'es' ? 'Jugar evento' : lang === 'fr' ? 'Jouer l\'événement' : lang === 'ht' ? 'Jwe evènman' : 'Play Event'}
+                    </button>
+                    
+                    <div className="grid grid-cols-2 gap-2">
+                      <button
+                        onClick={() => router.push(`/clan/events/${activeEvent.id}/ranking`)}
+                        className="py-3 bg-slate-100 hover:bg-slate-200 text-[#0F172A] font-bold text-[12px] uppercase rounded-xl transition-all"
+                      >
+                        {lang === 'es' ? 'Ver ranking' : lang === 'fr' ? 'Classement' : lang === 'ht' ? 'Klasman' : 'Ranking'}
+                      </button>
+                      <button
+                        onClick={() => router.push(`/clan/events/${activeEvent.id}/rewards`)}
+                        className="py-3 bg-slate-100 hover:bg-slate-200 text-[#0F172A] font-bold text-[12px] uppercase rounded-xl transition-all"
+                      >
+                        {lang === 'es' ? 'Recompensas' : lang === 'fr' ? 'Récompenses' : lang === 'ht' ? 'Kado yo' : 'Rewards'}
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div className="bg-white rounded-[24px] p-8 text-center border border-black/[0.03] shadow-sm">
+                  <Activity className="w-10 h-10 text-[#64748B]/30 mx-auto mb-3" />
+                  <p className="text-sm text-[#64748B] font-medium">
+                    {lang === 'es' ? 'No hay eventos de clan activos en este momento.' : lang === 'fr' ? 'Aucun événement de clan actif.' : lang === 'ht' ? 'Pa gen evènman klan kounye a.' : 'No active clan events at this time.'}
+                  </p>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Actions Button */}
           <section className="pt-4">

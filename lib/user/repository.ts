@@ -499,17 +499,27 @@ export async function saveGamePlay(
       ...record,
       createdAt: new Date().toISOString(),
     };
+    
+    // Clean undefined fields to avoid Firebase setDoc() crash
+    const cleanedRecord: any = {};
+    Object.keys(newRecord).forEach((key) => {
+      const val = (newRecord as any)[key];
+      if (val !== undefined) {
+        cleanedRecord[key] = val;
+      }
+    });
+
     if (typeof window !== 'undefined' && (!process.env.NEXT_PUBLIC_FIREBASE_API_KEY || !db)) {
       const unifiedKey = `bible_crown_game_history_${uid}`;
       const uniRaw = localStorage.getItem(unifiedKey);
       const uniHistory = uniRaw ? JSON.parse(uniRaw) : [];
-      uniHistory.unshift(newRecord);
+      uniHistory.unshift(cleanedRecord);
       localStorage.setItem(unifiedKey, JSON.stringify(uniHistory));
       return;
     }
     const historyRef = collection(db, `users/${uid}/game_history`);
     const docRef = doc(historyRef);
-    await setDoc(docRef, newRecord);
+    await setDoc(docRef, cleanedRecord);
   } catch (error) {
     console.error("Error saving game history record:", error);
   }

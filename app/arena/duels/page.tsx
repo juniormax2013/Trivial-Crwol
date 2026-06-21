@@ -8,6 +8,9 @@ import { DuelModel } from '@/lib/duel/models';
 import { subscribeToDuelsForUser } from '@/lib/duel/repository';
 import { filterDuelsByTab } from '@/lib/duel/service';
 import { useAuthContext } from '@/components/auth/AuthProvider';
+import { subscribeGameEngineConfig, GameEngineConfig } from '@/lib/admin/settings-repository';
+import { useRouter } from 'next/navigation';
+import { toast } from 'sonner';
 import { useT } from '@/lib/i18n/context';
 
 type Tab = 'received' | 'sent' | 'active' | 'history';
@@ -19,6 +22,8 @@ export default function DuelCenterPage() {
   const [activeTab, setActiveTab] = useState<Tab>('received');
   const [allDuels, setAllDuels] = useState<DuelModel[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
+  const router = useRouter();
 
   const TABS = [
     { key: 'received', label: t.duel.receivedTab, icon: Inbox },
@@ -37,8 +42,20 @@ export default function DuelCenterPage() {
       setAllDuels(duels);
       setIsLoading(false);
     });
-    return () => unsubscribe();
-  }, [userId]);
+    
+    const unsubscribeConfig = subscribeGameEngineConfig((config) => {
+      setEngineConfig(config);
+      if (config.disabledGameModes?.duelArena) {
+        toast.error(t.play?.modeDisabled || 'El modo Arena de Duelos está desactivado.');
+        router.replace('/arena');
+      }
+    });
+
+    return () => {
+      unsubscribe();
+      unsubscribeConfig();
+    };
+  }, [userId, router, t]);
 
   const handleDuelAction = (updatedDuel: DuelModel) => {
     setAllDuels((prev) =>

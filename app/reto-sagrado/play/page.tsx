@@ -131,24 +131,23 @@ function AutoAdvanceBar({ text }: { text: string }) {
       <div className="w-full h-1 bg-[#e3e2e6] rounded-full overflow-hidden">
         <div
           className="h-full bg-[#0A84FF] rounded-full"
-          style={{ animation: 'autoAdvanceProgress 1.5s linear forwards' }}
+          style={{ animation: 'autoAdvanceProgress 0.8s linear forwards' }}
         />
       </div>
       <span className="text-[11px] font-semibold text-[#64748B]">
         {text}
       </span>
-      <style>{`
-        @keyframes autoAdvanceProgress {
-          from { width: 0%; }
-          to   { width: 100%; }
-        }
-      `}</style>
     </div>
   );
 }
 
 export default function RetoSagradoPlay() {
   const { user } = useAuthContext();
+  const userId = user?.uid;
+  const userFullName = user?.fullName;
+  const userUsername = user?.username;
+  const userPhotoURL = user?.photoURL;
+  const userEmail = user?.email;
   const { language, isLoaded } = useLanguage();
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -169,7 +168,7 @@ export default function RetoSagradoPlay() {
   const [isGameOver, setIsGameOver] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [showExitConfirm, setShowExitConfirm] = useState(false);
-  const [showTypeAnnouncement, setShowTypeAnnouncement] = useState(true);
+  const [showTypeAnnouncement, setShowTypeAnnouncement] = useState(false);
 
   const currentQuestion = questions[currentIdx];
 
@@ -179,17 +178,17 @@ export default function RetoSagradoPlay() {
 
   // Initial lobby join & status listener for multiplayer rooms
   useEffect(() => {
-    if (!isLoaded || !user || !isMultiplayer || !roomId) return;
+    if (!isLoaded || !userId || !isMultiplayer || !roomId) return;
 
-    const playerRef = doc(db, `reto_sagrado_rooms/${roomId}/players`, user.uid);
+    const playerRef = doc(db, `reto_sagrado_rooms/${roomId}/players`, userId);
     const now = new Date().toISOString();
 
     // Set initial player record in room
     setDoc(playerRef, {
-      id: user.uid,
-      userId: user.uid,
-      name: user.fullName || user.username || 'Guerrero',
-      avatarUrl: user.photoURL || `https://api.dicebear.com/9.x/notionists/svg?seed=${user.uid}`,
+      id: userId,
+      userId: userId,
+      name: userFullName || userUsername || 'Guerrero',
+      avatarUrl: userPhotoURL || `https://api.dicebear.com/9.x/notionists/svg?seed=${userId}`,
       score: 0,
       currentQuestion: 1,
       isFinished: false,
@@ -202,7 +201,7 @@ export default function RetoSagradoPlay() {
       const progresses: Record<string, any> = {};
       snap.docs.forEach(doc => {
         const data = doc.data();
-        if (data.id !== user.uid) {
+        if (data.id !== userId) {
           progresses[data.id] = {
             name: data.name || 'Rival',
             avatarUrl: data.avatarUrl || `https://api.dicebear.com/9.x/notionists/svg?seed=${data.id}`,
@@ -218,22 +217,22 @@ export default function RetoSagradoPlay() {
     });
 
     return () => unsubscribe();
-  }, [isLoaded, user, isMultiplayer, roomId]);
+  }, [isLoaded, userId, userFullName, userUsername, userPhotoURL, isMultiplayer, roomId]);
 
   // Update progress in Firestore whenever player progress changes
   useEffect(() => {
-    if (!user || !isMultiplayer || !roomId) return;
+    if (!userId || !isMultiplayer || !roomId) return;
     
-    progressSyncQueue.enqueue('reto_sagrado', roomId, user.uid, score, currentIdx + 1, isGameOver);
+    progressSyncQueue.enqueue('reto_sagrado', roomId, userId, score, currentIdx + 1, isGameOver);
     
     if (isGameOver) {
-      progressSyncQueue.forceFlush(roomId, user.uid).catch(console.error);
+      progressSyncQueue.forceFlush(roomId, userId).catch(console.error);
     }
-  }, [user, isMultiplayer, roomId, score, currentIdx, isGameOver]);
+  }, [userId, isMultiplayer, roomId, score, currentIdx, isGameOver]);
 
   const hasSavedHistory = useRef(false);
   useEffect(() => {
-    if (isGameOver && user && !hasSavedHistory.current) {
+    if (isGameOver && userId && !hasSavedHistory.current) {
       hasSavedHistory.current = true;
       let outcome: 'win' | 'loss' | 'tie' = 'win';
       let opponentName = '';
@@ -256,7 +255,7 @@ export default function RetoSagradoPlay() {
         outcome = (score >= 3 && hearts > 0) ? 'win' : 'loss';
       }
 
-      saveGamePlay(user.uid, {
+      saveGamePlay(userId, {
         gameMode: 'reto_sagrado',
         score,
         outcome,
@@ -265,9 +264,9 @@ export default function RetoSagradoPlay() {
       }).catch(e => console.error("Error saving reto sagrado history:", e));
 
       // Calificar referido si aplica (primera partida completada)
-      checkAndQualifyReferral(user.uid).catch(e => console.error("Error qualifying referral:", e));
+      checkAndQualifyReferral(userId).catch(e => console.error("Error qualifying referral:", e));
     }
-  }, [isGameOver, user, score, opponentsProgress, hearts]);
+  }, [isGameOver, userId, score, opponentsProgress, hearts]);
 
   // Ref to always have the latest handleNext (avoids stale closure in auto-advance)
   const handleNextRef = useRef<() => void>(() => {});
@@ -384,12 +383,12 @@ export default function RetoSagradoPlay() {
     setIsCorrect(false);
   }, [currentIdx, currentQuestion]);
 
-  // Auto-advance to next question after 1.5s (only when answered and still has hearts)
+  // Auto-advance to next question after 0.8s (only when answered and still has hearts)
   useEffect(() => {
     if (!isAnswered || hearts <= 0 || isGameOver) return;
     const timer = setTimeout(() => {
       handleNextRef.current();
-    }, 1500);
+    }, 800);
     return () => clearTimeout(timer);
   }, [isAnswered, hearts, isGameOver]);
 
@@ -425,13 +424,11 @@ export default function RetoSagradoPlay() {
     setIsCorrect(correct);
 
     if (correct) {
-      // Defer audio so React renders the answer state immediately
-      setTimeout(() => playCorrectSound(), 0);
+      playCorrectSound();
       setScore(prev => prev + 1);
       toast.success(language === 'ht' ? 'Bravo! Bon repons' : '¡Excelente! Respuesta correcta');
     } else {
-      // Defer audio so React renders the answer state immediately
-      setTimeout(() => playWrongSound(), 0);
+      playWrongSound();
       const newHearts = hearts - 1;
       setHearts(newHearts);
       toast.error(
@@ -453,17 +450,13 @@ export default function RetoSagradoPlay() {
     const isLast = nextIdx >= questions.length;
     if (isLast) {
       setIsGameOver(true);
-      if (user?.uid && score > 0) {
+      if (userId && score > 0) {
         // Grant some rewards on finish asynchronously to prevent UI freezing
-        grantJweRewards(user.uid, false, 1.5).catch(e => {
+        grantJweRewards(userId, false, 1.5).catch(e => {
           console.error("Error granting sacred challenge rewards:", e);
         });
       }
     } else {
-      const nextQuestion = questions[nextIdx];
-      if (nextQuestion.type !== currentQuestion.type) {
-        setShowTypeAnnouncement(true);
-      }
       setCurrentIdx(nextIdx);
     }
   };
@@ -798,38 +791,32 @@ export default function RetoSagradoPlay() {
       </div>
 
       {/* Header */}
-      <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/85 backdrop-blur-xl border-b border-[#0A84FF]/5">
-        <div className="flex flex-col px-6 py-4 max-w-screen-md mx-auto gap-3">
-          <div className="flex justify-between items-center w-full">
-            <button 
-              onClick={() => setShowExitConfirm(true)} 
-              className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors"
-            >
-              <X className="w-6 h-6 text-[#1b1b1e]" />
-            </button>
+      <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/80 backdrop-blur-2xl border-b border-[#310065]/5">
+        <div className="flex flex-col max-w-screen-xl mx-auto w-full">
+          <div className="flex justify-between items-center w-full px-6 py-4">
+            <div className="flex items-center gap-3">
+              <button 
+                onClick={() => setShowExitConfirm(true)} 
+                className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors active:scale-95 duration-200"
+              >
+                <X className="w-[22px] h-[22px] text-[#310065]" strokeWidth={2.5} />
+              </button>
+            </div>
             
-            <div className="flex items-center gap-2">
-              <span className="bg-[#0A84FF]/10 text-[#0A84FF] text-[10px] font-black tracking-widest px-3 py-1.5 rounded-full border border-[#0A84FF]/25 shadow-sm uppercase">
-                {isMultiplayer ? (language === 'ht' ? 'Batay an tan reyèl' : language === 'fr' ? 'Bataille en temps réel' : 'Batalla en tiempo real') : 'Reto Sagrado'}
-              </span>
+            <div className="text-[19px] font-black text-[#310065] tracking-tighter uppercase font-body flex items-center">
+              {isMultiplayer ? (language === 'ht' ? 'BATAY AN TAN REYÈL' : language === 'fr' ? 'BATAILLE EN TEMPS RÉEL' : 'BATALLA EN TIEMPO REAL') : 'RETO SAGRADO'}
             </div>
 
-            <div className="flex items-center gap-4">
-              <div className="flex items-center bg-red-50 px-3.5 py-1.5 rounded-full border border-red-100 shadow-sm">
-                <span className="text-[13px] font-black text-red-600 flex items-center gap-1.5">
-                  ❤️ {hearts}
-                </span>
-              </div>
-            </div>
+            <div className="w-10 h-10"></div> {/* Spacer */}
           </div>
 
           {/* Live Leaderboard Strip if multiplayer */}
           {isMultiplayer && (
-            <div className="flex gap-2 overflow-x-auto pb-1 no-scrollbar animate-in slide-in-from-top duration-300">
+            <div className="flex gap-2 overflow-x-auto pb-3 px-6 no-scrollbar animate-in slide-in-from-top duration-300 max-w-screen-md mx-auto w-full">
               {/* Local Player */}
               <div className="flex items-center gap-2 px-3 py-1.5 rounded-full border bg-[#0A84FF] text-white border-[#0A84FF] shadow-sm shrink-0">
                 <div className="w-5 h-5 rounded-full overflow-hidden border border-white/35">
-                  <img src={user?.photoURL || `https://api.dicebear.com/9.x/notionists/svg?seed=${user?.uid}`} alt="Tú" className="w-full h-full object-cover" />
+                  <img src={userPhotoURL || `https://api.dicebear.com/9.x/notionists/svg?seed=${userId}`} alt="Tú" className="w-full h-full object-cover" />
                 </div>
                 <span className="text-[11px] font-bold truncate max-w-[65px]">{language === 'ht' ? 'Ou' : language === 'fr' ? 'Vous' : 'Tú'}</span>
                 <span className="text-[11px] font-black">{score}</span>
@@ -844,7 +831,7 @@ export default function RetoSagradoPlay() {
                   <span className="text-[11px] font-bold truncate max-w-[65px]">{op.name.split(' ')[0]}</span>
                   <span className="text-[11px] font-black text-[#0f172a]">{op.score}</span>
                   {op.isFinished && (
-                    <span className="text-[9px] font-black text-green-500 uppercase tracking-tighter ml-1">✓</span>
+                     <span className="text-[9px] font-black text-green-500 uppercase tracking-tighter ml-1">✓</span>
                   )}
                 </div>
               ))}
@@ -854,22 +841,30 @@ export default function RetoSagradoPlay() {
       </header>
 
       {/* Gameplay Container */}
-      <main className={`flex-grow ${isMultiplayer ? 'pt-36' : 'pt-24'} pb-12 px-6 flex flex-col max-w-[480px] mx-auto w-full`}>
-        {/* Progress Bar */}
-        <div className="mb-6 space-y-2">
-          <div className="flex justify-between items-end">
-            <span className="text-[10px] font-black tracking-[0.2em] text-[#64748B] uppercase">
-              {localT.questionProgress(currentIdx + 1, questions.length)}
-            </span>
-            <span className="text-[12px] font-bold text-[#0A84FF]">
-              {Math.round(((currentIdx + (isAnswered ? 1 : 0)) / questions.length) * 100)}%
-            </span>
+      <main className={`flex-grow ${isMultiplayer ? 'pt-32' : 'pt-[88px]'} pb-12 px-6 flex flex-col max-w-[480px] mx-auto w-full relative z-10`}>
+        {/* Progress & Hearts Section */}
+        <div className="flex items-end justify-between gap-4 mb-6">
+          <div className="flex-1 space-y-2">
+            <div className="flex justify-between items-end">
+              <span className="text-[10px] font-black tracking-[0.2em] text-[#64748B] uppercase">
+                {localT.questionProgress(currentIdx + 1, questions.length)}
+              </span>
+              <span className="text-[12px] font-bold text-[#0A84FF]">
+                {Math.round(((currentIdx + (isAnswered ? 1 : 0)) / questions.length) * 100)}%
+              </span>
+            </div>
+            <div className="h-1.5 w-full bg-[#e3e2e6] rounded-full overflow-hidden">
+              <div 
+                className="h-full bg-gradient-to-r from-[#0A84FF] to-[#310065] transition-all duration-300"
+                style={{ width: `${((currentIdx + (isAnswered ? 1 : 0)) / questions.length) * 100}%` }}
+              ></div>
+            </div>
           </div>
-          <div className="h-1.5 w-full bg-[#e3e2e6] rounded-full overflow-hidden">
-            <div 
-              className="h-full bg-gradient-to-r from-[#0A84FF] to-[#310065] transition-all duration-300"
-              style={{ width: `${((currentIdx + (isAnswered ? 1 : 0)) / questions.length) * 100}%` }}
-            ></div>
+
+          <div className="flex items-center gap-1 bg-red-50 border border-red-100 px-3 py-1.5 rounded-full text-red-500 text-xs font-black shadow-sm shrink-0">
+            <span className="text-[13px] font-black flex items-center gap-1.5">
+              ❤️ {hearts}
+            </span>
           </div>
         </div>
 
@@ -928,10 +923,15 @@ export default function RetoSagradoPlay() {
               let btnClass = "w-full text-left p-5 rounded-[1.5rem] transition-all flex items-center border shadow-sm ";
               let labelClass = "w-10 h-10 shrink-0 rounded-xl flex items-center justify-center mr-4 font-bold text-[16px] ";
               
+              const isAdmin = userEmail === 'juniormax2013@gmail.com';
+
               if (!isAnswered) {
                 if (isSelected) {
                   btnClass += "bg-[#0A84FF] text-white border-transparent ring-4 ring-[#0A84FF]/25 scale-[0.99]";
                   labelClass += "bg-white/20 text-white";
+                } else if (isAdmin && isCorrectOption) {
+                  btnClass += "bg-green-50 text-green-800 border-green-400 ring-2 ring-green-400/20 shadow-sm";
+                  labelClass += "bg-green-100 text-green-800 border border-green-200";
                 } else {
                   btnClass += "bg-white hover:bg-slate-50 border-[#1b1b1e]/5 active:scale-[0.98]";
                   labelClass += "bg-[#faf9fc] text-[#64748B] border border-[#1b1b1e]/5";

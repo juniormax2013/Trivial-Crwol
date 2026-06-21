@@ -28,7 +28,10 @@ import type {
   ChallengeAvailabilityStatus,
 } from '@/lib/daily-challenge/models';
 import { useAuthContext } from '@/components/auth/AuthProvider';
+import GameModeHeader from '@/components/GameModeHeader';
 import { useT, useLanguage } from '@/lib/i18n/context';
+import { toast } from 'sonner';
+import { subscribeGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
 
 const IS_DEV = process.env.NODE_ENV === 'development';
 
@@ -41,6 +44,23 @@ export default function DailyChallengeIntroPage() {
   const [userData, setUserData] = useState<UserChallengeData | null>(null);
   const [status, setStatus] = useState<ChallengeAvailabilityStatus>('loading');
   const [resetting, setResetting] = useState(false);
+  const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
+
+  useEffect(() => {
+    const unsubscribe = subscribeGameEngineConfig((config) => {
+      setEngineConfig(config);
+    });
+    return () => unsubscribe();
+  }, []);
+
+  useEffect(() => {
+    if (engineConfig && !authLoading && user) {
+      if (engineConfig.disabledGameModes?.dailyChallenge) {
+        toast.error(t.play.modeDisabled || 'Este modo de juego está temporalmente desactivado.');
+        router.replace('/arena');
+      }
+    }
+  }, [engineConfig, user, authLoading, router, t]);
 
   const load = async () => {
     if (!user?.uid) return;
@@ -85,12 +105,11 @@ export default function DailyChallengeIntroPage() {
   if (status === 'completed') {
     return (
       <div className="min-h-screen bg-[#faf9fc] flex flex-col">
-        <header className="px-6 pt-safe pb-4 bg-white shadow-sm border-b border-[#1b1b1e]/5">
-          <Link href="/arena" className="inline-flex items-center gap-2 text-[#310065] font-semibold text-[14px]">
-            <ArrowLeft className="w-5 h-5" strokeWidth={2.5} />
-            {t.common.back}
-          </Link>
-        </header>
+        <GameModeHeader 
+          title={t.daily.title} 
+          subtitle={t.daily.subtitle}
+          icon={<Flame className="w-5 h-5 text-[#cba72f] fill-[#ffe088]" strokeWidth={2} />} 
+        />
         <main className="flex-1 flex flex-col items-center justify-center px-6 text-center gap-6">
           <div className="w-24 h-24 rounded-full bg-emerald-100 flex items-center justify-center">
             <CheckCircle2 className="w-12 h-12 text-emerald-600 fill-emerald-600/20" strokeWidth={1.5} />
@@ -140,12 +159,11 @@ export default function DailyChallengeIntroPage() {
   if (status === 'no_challenge' || status === 'unavailable') {
     return (
       <div className="min-h-screen bg-[#faf9fc] flex flex-col">
-        <header className="px-6 pt-safe pb-4 bg-white shadow-sm border-b border-[#1b1b1e]/5">
-          <Link href="/arena" className="inline-flex items-center gap-2 text-[#310065] font-semibold text-[14px]">
-            <ArrowLeft className="w-5 h-5" strokeWidth={2.5} />
-            {t.common.back}
-          </Link>
-        </header>
+        <GameModeHeader 
+          title={t.daily.title} 
+          subtitle={t.daily.subtitle}
+          icon={<Flame className="w-5 h-5 text-[#cba72f] fill-[#ffe088]" strokeWidth={2} />} 
+        />
         <main className="flex-1 flex flex-col items-center justify-center px-6 text-center gap-4">
           <p className="font-serif text-2xl font-bold text-[#1b1b1e]">{t.daily.subtitle}</p>
           <p className="text-[#7c7483] text-[15px]">{t.daily.alreadyDoneDesc}</p>
@@ -169,47 +187,11 @@ export default function DailyChallengeIntroPage() {
   return (
     <div className="min-h-screen bg-[#faf9fc] flex flex-col font-sans selection:bg-[#eddcff]">
       {/* ── HEADER ── */}
-      <div className="relative overflow-hidden">
-        {/* Purple gradient hero */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#310065] via-[#4a148c] to-[#7345b6]" />
-        <div className="absolute top-0 right-0 w-64 h-64 bg-[#cba72f] rounded-full blur-[100px] -mr-24 -mt-24 opacity-15 pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-48 h-48 bg-[#d7baff] rounded-full blur-[80px] -ml-20 -mb-20 opacity-20 pointer-events-none" />
-
-        <div className="relative z-10 px-6 pt-safe pb-10">
-          <Link
-            href="/arena"
-            className="inline-flex items-center gap-1.5 text-white/60 hover:text-white transition-colors mb-8 text-[13px] font-semibold"
-          >
-            <ArrowLeft className="w-4 h-4" strokeWidth={2.5} />
-            {t.common.back}
-          </Link>
-
-          {/* Icon */}
-          <div className="w-16 h-16 rounded-[1.25rem] bg-[#e9c349]/20 border border-[#e9c349]/30 flex items-center justify-center mb-5">
-            <Flame className="w-8 h-8 text-[#e9c349] fill-[#e9c349]/40" />
-          </div>
-
-          {/* Label */}
-          <div className="flex items-center gap-2 mb-3">
-            <span className="text-[10px] font-bold text-[#e9c349] uppercase tracking-[0.25em]">
-              {t.daily.title}
-            </span>
-            {challenge && (
-              <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${diffColor}`}>
-                {diffLabel}
-              </span>
-            )}
-          </div>
-
-          {/* Title */}
-          <h1 className="font-serif text-3xl font-black text-white leading-tight mb-2">
-            {challenge?.title ?? t.daily.title}
-          </h1>
-          <p className="text-white/60 text-[14px] leading-relaxed">
-            {challenge?.description}
-          </p>
-        </div>
-      </div>
+      <GameModeHeader 
+        title={challenge?.title ?? t.daily.title} 
+        subtitle={t.daily.subtitle}
+        icon={<Flame className="w-5 h-5 text-[#cba72f] fill-[#ffe088]" strokeWidth={2} />} 
+      />
 
       {/* ── BODY ── */}
       <main className="flex-1 px-6 py-8 max-w-lg mx-auto w-full space-y-6">

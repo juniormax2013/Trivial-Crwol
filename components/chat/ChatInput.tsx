@@ -73,7 +73,7 @@ export default function ChatInput({ onSendMessage, disabled = false }: ChatInput
   const isButtonDisabled = !text.trim() || text.length > maxLength || isSending || cooldown || disabled;
 
   return (
-    <form onSubmit={handleSend} className="p-4 bg-white border-t border-black/5 flex flex-col gap-2 relative z-40">
+    <div className="px-4 py-3 bg-transparent relative z-40 pb-safe">
       {/* iOS Style Floating Emoji Picker Sheet */}
       {showEmojiPicker && (
         <>
@@ -81,17 +81,17 @@ export default function ChatInput({ onSendMessage, disabled = false }: ChatInput
             className="fixed inset-0 z-30" 
             onClick={() => setShowEmojiPicker(false)}
           />
-          <div className="absolute bottom-full left-4 mb-2 p-1 bg-white/95 backdrop-blur-xl border border-black/5 rounded-2xl shadow-xl z-40 animate-in slide-in-from-bottom-2 duration-150 w-[270px]">
+          <div className="absolute bottom-full left-4 mb-2 p-1.5 bg-white/95 dark:bg-[#1c1c1e]/95 backdrop-blur-xl border border-[#310065]/5 dark:border-white/10 rounded-[24px] shadow-xl z-40 animate-in slide-in-from-bottom-2 duration-150 w-[270px]">
             <div className="grid grid-cols-8 gap-0.5">
               {ANIMATED_EMOJIS.map((item) => (
                 <button
                   key={item.id}
                   type="button"
                   onClick={() => handleEmojiSelect(item.id)}
-                  className="flex items-center justify-center w-8 h-8 rounded-full hover:bg-black/5 active:scale-90 transition-all duration-150"
+                  className="flex items-center justify-center w-8 h-8 rounded-full hover:bg-black/5 dark:hover:bg-white/10 active:scale-90 transition-all duration-150"
                   title={language === 'es' ? item.labelEs : language === 'fr' ? item.labelFr : item.labelHt}
                 >
-                  <AnimatedEmoji id={item.id} size={18} />
+                  <AnimatedEmoji id={item.id} size={22} />
                 </button>
               ))}
             </div>
@@ -99,53 +99,51 @@ export default function ChatInput({ onSendMessage, disabled = false }: ChatInput
         </>
       )}
 
-      <div className="flex items-center gap-2">
-        <button
-          type="button"
-          disabled={disabled || isSending}
-          onClick={() => setShowEmojiPicker(!showEmojiPicker)}
-          className={`w-11 h-11 rounded-full flex items-center justify-center transition-all duration-200 ${
-            showEmojiPicker 
-              ? 'bg-[#0A84FF]/10 text-[#0A84FF] scale-95' 
-              : 'bg-gray-50 hover:bg-gray-100 text-[#64748B] hover:text-[#0F172A]'
-          }`}
-        >
-          <Smile className="w-5.5 h-5.5" />
-        </button>
+      <form onSubmit={handleSend} className="flex items-end gap-2.5">
+        <div className="flex-1 flex flex-col bg-white dark:bg-[#1c1c1e] rounded-[24px] shadow-sm border border-[#310065]/5 dark:border-white/10 overflow-hidden">
+          <input
+            type="text"
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            disabled={disabled || isSending}
+            maxLength={maxLength}
+            placeholder={getPlaceholder()}
+            className="w-full bg-transparent border-none focus:outline-none focus:ring-0 text-[14.5px] text-[#310065] dark:text-white placeholder-[#94a3b8] dark:placeholder-[#71717a] px-4 pt-3 pb-1"
+          />
+          <div className="flex items-center justify-between px-2 pb-1">
+              <div className="flex items-center gap-1 text-[#94a3b8] dark:text-[#71717a]">
+                <button
+                  type="button"
+                  onClick={() => setShowEmojiPicker(!showEmojiPicker)}
+                  className={`p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10 hover:text-[#7a3ce3] dark:hover:text-[#E3D5FF] transition-colors ${showEmojiPicker ? 'text-[#7a3ce3] dark:text-[#E3D5FF] bg-black/5 dark:bg-white/10' : ''}`}
+                >
+                  <Smile className="w-5 h-5" />
+                </button>
+             </div>
+             {text.length > 0 && (
+                <span className={`text-[10px] font-bold pr-2 ${text.length > 450 ? 'text-red-500' : 'text-gray-400'}`}>
+                  {text.length} / {maxLength}
+                </span>
+             )}
+          </div>
+        </div>
 
-        <input
-          type="text"
-          value={text}
-          onChange={(e) => setText(e.target.value)}
-          disabled={disabled || isSending}
-          maxLength={maxLength}
-          placeholder={getPlaceholder()}
-          className="flex-1 px-4 py-3 rounded-full bg-gray-50 border border-black/5 focus:outline-none focus:border-[#0A84FF] focus:bg-white text-[14px] text-[#0F172A] placeholder-gray-400 transition-all"
-        />
         <button
           type="submit"
           disabled={isButtonDisabled}
-          className={`w-11 h-11 rounded-full flex items-center justify-center transition-all ${
+          className={`w-[44px] h-[44px] rounded-full flex items-center justify-center transition-all shrink-0 ${
             isButtonDisabled
-              ? 'bg-gray-100 text-gray-400'
-              : 'bg-[#0A84FF] text-white shadow-lg shadow-[#0A84FF]/25 hover:scale-105 active:scale-95'
+              ? 'bg-white dark:bg-[#2c2c2e] text-[#94a3b8] dark:text-[#71717a] border border-[#310065]/5 dark:border-white/5 shadow-sm'
+              : 'bg-gradient-to-tr from-[#9b51e0] to-[#7a3ce3] text-white shadow-lg shadow-[#7a3ce3]/30 hover:scale-105 active:scale-95'
           }`}
         >
           {isSending ? (
-            <Loader2 className="w-4 h-4 animate-spin" />
+            <Loader2 className="w-5 h-5 animate-spin" />
           ) : (
-            <Send className="w-4 h-4" />
+            <Send className="w-[20px] h-[20px] ml-0.5" strokeWidth={2.5} />
           )}
         </button>
-      </div>
-
-      {text.length > 0 && (
-        <div className="flex justify-end px-2">
-          <span className={`text-[10px] font-bold ${text.length > 450 ? 'text-red-500' : 'text-gray-400'}`}>
-            {text.length} / {maxLength}
-          </span>
-        </div>
-      )}
-    </form>
+      </form>
+    </div>
   );
 }

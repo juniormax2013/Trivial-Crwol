@@ -13,8 +13,11 @@ import {
   BookOpen,
   ShieldAlert
 } from 'lucide-react';
-import { useAuthContext } from '@/components/auth/AuthProvider';
 import { useLanguage } from '@/lib/i18n/context';
+import { useAuthContext } from '@/components/auth/AuthProvider';
+import { toast } from 'sonner';
+import { subscribeGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
+import GameModeHeader from '@/components/GameModeHeader';
 
 const LOBBY_TRANSLATIONS: Record<string, any> = {
   es: {
@@ -63,9 +66,31 @@ export default function JweBibLaLobby() {
   const { user } = useAuthContext();
   const { language: userLanguage, isLoaded } = useLanguage();
   const router = useRouter();
+  const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
 
   const lang = ((userLanguage as string) === 'fr' || (userLanguage as string) === 'es' || (userLanguage as string) === 'en' || (userLanguage as string) === 'ht') ? (userLanguage as 'fr' | 'es' | 'en' | 'ht') : 'ht';
   const localT = LOBBY_TRANSLATIONS[lang];
+
+  useEffect(() => {
+    const unsubscribe = subscribeGameEngineConfig((config) => {
+      setEngineConfig(config);
+    });
+    return () => unsubscribe();
+  }, []);
+
+  useEffect(() => {
+    if (engineConfig && user) {
+      if (engineConfig.disabledGameModes?.bibleJourney) {
+        const msg = 
+          lang === 'es' ? 'Este modo de juego está temporalmente desactivado.' :
+          lang === 'fr' ? 'Ce mode de jeu est temporairement désactivé.' :
+          lang === 'ht' ? 'Mòd jwèt sa a tanporèman dezaktive.' :
+          'This game mode is temporarily disabled.';
+        toast.error(msg);
+        router.replace('/arena');
+      }
+    }
+  }, [engineConfig, user, router, lang]);
 
   if (!isLoaded) {
     return (
@@ -83,22 +108,14 @@ export default function JweBibLaLobby() {
       </div>
 
       {/* Header */}
-      <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/80 backdrop-blur-xl border-b border-[#310065]/5">
-        <div className="flex justify-between items-center px-6 py-4 max-w-screen-md mx-auto">
-          <Link href="/arena" className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors">
-            <X className="w-6 h-6 text-[#1b1b1e]" />
-          </Link>
-          <div className="flex items-center gap-2">
-            <span className="bg-[#eddcff] text-[#4a148c] text-[10px] font-black tracking-widest px-3.5 py-1.5 rounded-full border border-[#310065]/10 shadow-sm uppercase">
-              {localT.title}
-            </span>
-          </div>
-          <div className="w-10 h-10"></div> {/* Spacer */}
-        </div>
-      </header>
+      <GameModeHeader 
+        title={localT.title}
+        subtitle="Modo Desafío 7 Preguntas"
+        icon={<BookOpen className="w-5 h-5 text-[#cba72f] fill-[#ffe088]" strokeWidth={2} />}
+      />
 
       {/* Main Content */}
-      <main className="flex-grow pt-24 px-6 max-w-[480px] mx-auto w-full flex flex-col">
+      <main className="flex-grow pt-8 px-6 max-w-[480px] mx-auto w-full flex flex-col">
         {/* Banner Card */}
         <div className="bg-gradient-to-br from-[#310065] to-[#7345b6] rounded-[2.5rem] p-8 text-white shadow-xl relative overflow-hidden mb-8 border border-white/10">
           <div className="absolute -right-12 -bottom-12 w-44 h-44 bg-white/5 blur-2xl rounded-full pointer-events-none"></div>

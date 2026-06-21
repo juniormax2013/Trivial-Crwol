@@ -14,7 +14,7 @@ import {
 import { ChatMessage } from '@/lib/chat/chatTypes';
 import ChatInput from './ChatInput';
 import UserAvatar from '@/components/UserAvatar';
-import { MoreVertical, ShieldAlert, Ban, Trash2, ArrowDown, ChevronUp, X } from 'lucide-react';
+import { MoreVertical, ShieldAlert, Ban, Trash2, ArrowDown, ChevronUp, X, ArrowLeft, Search, CheckCheck } from 'lucide-react';
 import { toast } from 'sonner';
 import { doc, onSnapshot, collection } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
@@ -33,9 +33,49 @@ export default function ChatRoom({ chatId, onBack }: ChatRoomProps) {
   const [blockedUsers, setBlockedUsers] = useState<Record<string, boolean>>({});
   const [limitCount, setLimitCount] = useState(30);
   const [activeMenuId, setActiveMenuId] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [isSearchActive, setIsSearchActive] = useState(false);
   
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const messagesContainerRef = useRef<HTMLDivElement>(null);
+  const lastMessageIdRef = useRef<string | null>(null);
+
+  useEffect(() => {
+    if (messages.length === 0) return;
+    const latest = messages[messages.length - 1];
+    
+    // If it's a new message, not from me, and not the same as we checked last
+    if (latest && latest.senderId !== user?.uid && latest.id !== lastMessageIdRef.current) {
+      // Check if it's recent (within last 10 seconds) to avoid playing chime for old messages during load
+      const msgTime = getTimestampMs(latest.createdAt) || Date.now();
+      if (Date.now() - msgTime < 10000) {
+        // Play a nice message sound
+        try {
+          const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+          if (AudioContextClass) {
+            const ctx = new AudioContextClass();
+            const now = ctx.currentTime;
+            
+            const osc = ctx.createOscillator();
+            const gain = ctx.createGain();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(698.46, now); // F5
+            gain.gain.setValueAtTime(0.08, now);
+            gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.15);
+            osc.connect(gain);
+            gain.connect(ctx.destination);
+            osc.start(now);
+            osc.stop(now + 0.2);
+          }
+        } catch (e) {
+          console.warn("Failed to play chat sound:", e);
+        }
+      }
+    }
+    if (latest) {
+      lastMessageIdRef.current = latest.id;
+    }
+  }, [messages, user?.uid]);
 
   // Subscribe to blocked users
   useEffect(() => {
@@ -72,7 +112,7 @@ export default function ChatRoom({ chatId, onBack }: ChatRoomProps) {
     window.dispatchEvent(new CustomEvent('chat-read', { detail: { chatId } }));
   }, [chatId, messages]);
 
-  // Filter messages dynamically in the render cycle (handles blocked users & 24h expiration)
+  // Filter messages dynamically in the render cycle (handles blocked users & 24h expiration & search)
   const visibleMessages = useMemo(() => {
     const twentyFourHoursAgo = Date.now() - 24 * 60 * 60 * 1000;
     return messages.filter((msg) => {
@@ -82,12 +122,19 @@ export default function ChatRoom({ chatId, onBack }: ChatRoomProps) {
       
       const msgTime = getTimestampMs(msg.createdAt);
       // Keep pending local messages (which temporarily have no timestamp yet)
-      if (!msgTime) return true;
+      if (msgTime && msgTime < twentyFourHoursAgo) return false;
+
+      // Filter by search query
+      if (searchQuery.trim() !== '') {
+        const query = searchQuery.toLowerCase();
+        const textMatch = msg.text?.toLowerCase().includes(query);
+        const nameMatch = msg.senderName?.toLowerCase().includes(query);
+        if (!textMatch && !nameMatch) return false;
+      }
       
-      // Filter out messages older than 24 hours (temporary daily clearing)
-      return msgTime >= twentyFourHoursAgo;
+      return true;
     });
-  }, [messages, blockedUsers]);
+  }, [messages, blockedUsers, searchQuery]);
 
   const scrollToBottom = () => {
     setTimeout(() => {
@@ -177,179 +224,215 @@ export default function ChatRoom({ chatId, onBack }: ChatRoomProps) {
 
   return (
     <div 
-      className="flex flex-col h-full bg-[#F8F9FA] shadow-sm border border-black/5"
-      style={{ borderRadius: 'inherit', overflow: 'hidden', transform: 'translate3d(0,0,0)', isolation: 'isolate' }}
+      className="flex flex-col h-full bg-[#faf9fc] dark:bg-black relative overflow-hidden transition-colors"
+      style={{ borderRadius: 'inherit', transform: 'translate3d(0,0,0)', isolation: 'isolate' }}
     >
+      {/* Background Decorations */}
+      <div className="absolute inset-0 z-0 pointer-events-none opacity-[0.4]">
+        <div className="absolute top-[10%] left-[5%] text-[24px] text-[#e3d5ff] rotate-45 select-none">✦</div>
+        <div className="absolute top-[30%] right-[10%] text-[32px] text-[#e3d5ff] rotate-12 select-none">✦</div>
+        <div className="absolute bottom-[20%] left-[15%] text-[28px] text-[#e3d5ff] -rotate-12 select-none">✦</div>
+        <div className="absolute bottom-[40%] right-[5%] text-[20px] text-[#e3d5ff] rotate-45 select-none">✦</div>
+      </div>
+
       {/* Header */}
-      <header className="px-6 py-4 bg-white border-b border-black/5 flex items-center justify-between shrink-0">
+      <header className="px-4 py-3 bg-transparent flex items-center justify-between shrink-0 relative z-10 mt-2">
         <div className="flex items-center gap-3">
           <div>
-            <h2 className="text-[#0F172A] font-black text-[16px] tracking-tight">
+            <h2 className="text-[#310065] dark:text-white font-black text-[17px] tracking-tight leading-tight">
               {chatId === 'global_main' 
                 ? (language === 'es' ? 'Chat Global' : language === 'fr' ? 'Chat Global' : 'Chat Global')
                 : chatId.startsWith('clan_')
-                ? (language === 'es' ? 'Chat del Clan 🛡️' : language === 'fr' ? 'Chat du Clan 🛡️' : 'Chat Klan an 🛡️')
+                ? (language === 'es' ? 'Chat del Clan' : language === 'fr' ? 'Chat du Clan' : 'Chat Klan an')
                 : (language === 'es' ? 'Sala de Chat' : language === 'fr' ? 'Salon de Chat' : 'Chanm Chat')
               }
             </h2>
-            <p className="text-[10px] text-[#64748B] font-bold uppercase tracking-wider mt-0.5">
-              {chatId === 'global_main' 
-                ? (language === 'es' ? 'Toda la hermandad' : language === 'fr' ? 'Toute la communauté' : 'Tout kominote a')
-                : chatId.startsWith('clan_')
-                ? (language === 'es' ? 'Solo para miembros' : language === 'fr' ? 'Membres uniquement' : 'Manm sèlman')
-                : (language === 'es' ? 'Privado/Partida' : language === 'fr' ? 'Privé/Match' : 'Prive/Match')
-              }
-            </p>
+            <div className="flex items-center gap-1.5 mt-0.5">
+              <div className="w-2 h-2 rounded-full bg-emerald-500"></div>
+              <p className="text-[13px] text-[#7c7483] dark:text-[#a19aa8] font-medium">
+                {language === 'es' ? 'En línea' : language === 'fr' ? 'En ligne' : 'An liy'}
+              </p>
+            </div>
           </div>
         </div>
         
-        <div className="flex items-center gap-2">
-          {messages.length >= limitCount && (
-            <button 
-              onClick={() => setLimitCount(prev => prev + 30)}
-              className="flex items-center gap-1 text-[11px] font-bold text-[#0A84FF] hover:opacity-80 bg-blue-50 px-3 py-1.5 rounded-full transition-all"
-            >
-              <ChevronUp className="w-3.5 h-3.5" />
-              {language === 'es' ? 'Cargar más' : language === 'fr' ? 'Charger plus' : 'Chaje plis'}
-            </button>
-          )}
-
+        <div className="flex items-center gap-1 text-[#310065] dark:text-[#E3D5FF]">
+          <button 
+            onClick={() => setIsSearchActive(!isSearchActive)}
+            className={`w-10 h-10 flex items-center justify-center rounded-full transition-all active:scale-95 ${isSearchActive ? 'bg-white dark:bg-[#1c1c1e] shadow-sm' : 'hover:bg-white/50 dark:hover:bg-white/10'}`}
+          >
+            <Search className="w-[24px] h-[24px]" strokeWidth={2} />
+          </button>
+          <button className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/50 dark:hover:bg-white/10 active:scale-95 transition-all">
+            <MoreVertical className="w-[24px] h-[24px]" strokeWidth={2} />
+          </button>
           {onBack && (
             <button 
               onClick={onBack} 
-              className="w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-500 flex items-center justify-center transition-all shadow-sm"
-              title={language === 'es' ? 'Cerrar' : language === 'fr' ? 'Fermer' : 'Fèmen'}
+              className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/50 dark:hover:bg-white/10 active:scale-95 transition-all"
             >
-              <X className="w-4.5 h-4.5" />
+              <X className="w-[26px] h-[26px]" strokeWidth={2} />
             </button>
           )}
         </div>
       </header>
 
+      {/* Search Bar */}
+      {isSearchActive && (
+        <div className="px-4 py-2 bg-transparent relative z-10 animate-in slide-in-from-top-2">
+          <div className="relative">
+            <Search className="w-4 h-4 absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 dark:text-gray-500" />
+            <input 
+              type="text" 
+              autoFocus
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder={language === 'es' ? 'Buscar mensajes o usuarios...' : language === 'fr' ? 'Rechercher...' : 'Chèche...'}
+              className="w-full pl-10 pr-10 py-3 rounded-[20px] bg-white dark:bg-[#1c1c1e] border border-[#310065]/5 dark:border-white/10 text-[14.5px] text-[#0f172a] dark:text-white focus:outline-none focus:ring-2 focus:ring-[#7a3ce3]/20 shadow-sm transition-all"
+            />
+            {searchQuery && (
+              <button 
+                onClick={() => setSearchQuery('')}
+                className="absolute right-3 top-1/2 -translate-y-1/2 p-1.5 rounded-full hover:bg-gray-100 dark:hover:bg-white/10 text-gray-400 dark:text-gray-300 transition-colors"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            )}
+          </div>
+        </div>
+      )}
+
       {/* Messages */}
       <div 
         ref={messagesContainerRef}
-        className="flex-1 overflow-y-auto px-6 py-4 space-y-4"
+        className="flex-1 overflow-y-auto px-5 py-4 space-y-6 relative z-10"
       >
+        {messages.length >= limitCount && (
+          <div className="flex justify-center mb-4">
+            <button 
+              onClick={() => setLimitCount(prev => prev + 30)}
+              className="flex items-center gap-1 text-[12px] font-bold text-[#7a3ce3] hover:bg-white bg-white/50 border border-[#7a3ce3]/10 px-4 py-2 rounded-full transition-all shadow-sm"
+            >
+              <ChevronUp className="w-4 h-4" />
+              {language === 'es' ? 'Cargar más' : language === 'fr' ? 'Charger plus' : 'Chaje plis'}
+            </button>
+          </div>
+        )}
+        
         {visibleMessages.map((msg) => {
-          const isOwn = msg.senderId === user?.uid;
+          const isMe = msg.senderId === user?.uid;
           const isMenuOpen = activeMenuId === msg.id;
 
           return (
-            <div 
-              key={msg.id}
-              className={`flex items-start gap-2.5 group ${isOwn ? 'flex-row-reverse' : ''}`}
-            >
-              {/* Avatar */}
-              <div className="shrink-0 mt-1">
-                <UserAvatar 
-                  photoURL={msg.senderAvatar}
-                  username={msg.senderName}
-                  size={32}
-                />
-              </div>
-
-              {/* Message Bubble Container */}
-              <div className="max-w-[70%] space-y-1 relative group">
-                {!isOwn && (
-                  <p className="text-[11px] font-bold text-[#64748B] ml-1">
+            <div key={msg.id} className={`flex ${isMe ? 'justify-end' : 'justify-start'} w-full`}>
+              <div className={`flex flex-col max-w-[85%] ${isMe ? 'items-end' : 'items-start'} gap-1 relative group/msg`}>
+                
+                {/* Sender Name */}
+                {!isMe && (
+                  <span className="text-[12px] font-bold text-[#7c7483] dark:text-[#a19aa8] ml-2 tracking-wide uppercase">
                     {msg.senderName}
-                  </p>
+                  </span>
                 )}
+                
+                {/* Message Bubble container */}
+                <div className="relative group/bubble flex items-end gap-2">
+                  {/* Avatar (Left side, only if not me) */}
+                  {!isMe && (
+                    <div className="shrink-0 mb-1 z-10">
+                      <UserAvatar 
+                        photoURL={msg.senderAvatar} 
+                        username={msg.senderName} 
+                        size={32}
+                      />
+                    </div>
+                  )}
 
-                {(() => {
-                  const emojiId = !msg.deleted ? msg.text.match(/^\[animated-emoji:(.+)\]$/)?.[1] : null;
-                  
-                  if (emojiId) {
-                    return (
-                      <div className="flex flex-col items-center py-1.5 px-2 relative group/emoji">
-                        <AnimatedEmoji id={emojiId} size={56} />
-                        <div className={`text-[8.5px] mt-1 font-bold text-[#64748B] opacity-0 group-hover/emoji:opacity-100 transition-opacity`}>
-                          {formatMessageTime(msg.createdAt)}
-                        </div>
+                  {/* Bubble */}
+                  <div 
+                    className={`
+                      px-4 py-3 shadow-sm relative break-words break-all
+                      ${isMe 
+                        ? 'bg-gradient-to-br from-[#310065] to-[#7a3ce3] text-white rounded-[24px] rounded-br-[8px]' 
+                        : 'bg-white dark:bg-[#1c1c1e] border border-black/5 dark:border-white/5 text-[#0F172A] dark:text-[#e2e8f0] rounded-[24px] rounded-bl-[8px]'
+                      }
+                    `}
+                    style={{ wordBreak: 'break-word', overflowWrap: 'break-word' }}
+                  >
+                    {msg.deleted ? (
+                      <span className="italic opacity-70">
+                        {language === 'es' 
+                          ? 'Este mensaje ha sido eliminado' 
+                          : language === 'fr' 
+                          ? 'Ce message a été supprimé' 
+                          : 'Mesaj sa a efase'}
+                      </span>
+                    ) : (
+                      <div className={`text-[15px] font-medium leading-[1.4] whitespace-pre-wrap`}>
+                        {msg.text}
                       </div>
-                    );
-                  }
-
-                  return (
+                    )}
                     <div 
-                      className={`px-4 py-2.5 rounded-3xl text-[13.5px] leading-relaxed shadow-sm relative ${
-                        msg.deleted
-                          ? 'bg-gray-100 text-gray-400 italic'
-                          : isOwn
-                          ? 'bg-[#0A84FF] text-white rounded-tr-none'
-                          : 'bg-white text-[#0F172A] rounded-tl-none border border-black/5'
+                      className={`text-[10px] font-bold tracking-wider uppercase mt-1 flex items-center justify-end gap-1 ${
+                        isMe ? 'text-white/70' : 'text-[#7c7483]/60 dark:text-[#a19aa8]/60'
                       }`}
                     >
-                      {msg.deleted ? (
-                        <span>
-                          {language === 'es' 
-                            ? 'Este mensaje ha sido eliminado' 
-                            : language === 'fr' 
-                            ? 'Ce message a été supprimé' 
-                            : 'Mesaj sa a efase'}
-                        </span>
-                      ) : (
-                        <span>{msg.text}</span>
-                      )}
-
-                      {/* Time Badge inside/below bubble */}
-                      <div className={`text-[8.5px] mt-1 text-right font-medium ${isOwn ? 'text-white/70' : 'text-gray-400'}`}>
-                        {formatMessageTime(msg.createdAt)}
-                      </div>
+                      {formatMessageTime(msg.createdAt)}
+                      {isMe && <CheckCheck className="w-[14px] h-[14px]" strokeWidth={2.5} />}
                     </div>
-                  );
-                })()}
-              </div>
+                  </div>
 
-              {/* Options Menu for non-deleted messages */}
-              {!msg.deleted && (
-                <div className="relative align-middle self-center">
-                  <button 
-                    onClick={() => setActiveMenuId(isMenuOpen ? null : msg.id)}
-                    className="p-1 rounded-full hover:bg-black/5 text-gray-400 opacity-0 group-hover:opacity-100 focus:opacity-100 transition-opacity"
-                  >
-                    <MoreVertical className="w-3.5 h-3.5" />
-                  </button>
+                  {/* Menu Button */}
+                  <div className={`
+                    absolute top-1/2 -translate-y-1/2 transition-all duration-200 
+                    ${isMe ? '-left-10' : '-right-10'}
+                    ${isMenuOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-95 pointer-events-none group-hover/msg:opacity-100 group-hover/msg:scale-100 group-hover/msg:pointer-events-auto'}
+                  `}>
+                    <button 
+                      onClick={() => setActiveMenuId(isMenuOpen ? null : msg.id)}
+                      className="p-1.5 rounded-full bg-white dark:bg-[#2c2c2e] text-[#7c7483] dark:text-[#a19aa8] hover:text-[#310065] dark:hover:text-[#E3D5FF] shadow-sm border border-black/5 dark:border-white/5"
+                    >
+                      <MoreVertical className="w-4 h-4" />
+                    </button>
 
-                  {isMenuOpen && (
-                    <>
-                      <div 
-                        className="fixed inset-0 z-10" 
-                        onClick={() => setActiveMenuId(null)}
-                      />
-                      <div className="absolute right-0 bottom-full mb-1 z-20 bg-white border border-black/5 rounded-2xl shadow-xl py-1 min-w-[120px] overflow-hidden">
-                        {isOwn ? (
-                          <button
+                    {/* Dropdown Menu */}
+                    {isMenuOpen && (
+                      <div className={`
+                        absolute top-0 z-50 min-w-[160px] bg-white dark:bg-[#2c2c2e] rounded-2xl shadow-[0_8px_30px_rgba(49,0,101,0.12)] dark:shadow-black/50 border border-[#310065]/5 dark:border-white/10 overflow-hidden
+                        ${isMe ? 'right-10 origin-top-right' : 'left-10 origin-top-left'}
+                        animate-in zoom-in-95 duration-200
+                      `}>
+                        {isMe ? (
+                          <button 
                             onClick={() => { handleDelete(msg.id); setActiveMenuId(null); }}
-                            className="w-full px-3 py-2 text-left text-[12px] font-bold text-red-500 hover:bg-red-50 flex items-center gap-1.5"
+                            className="w-full flex items-center gap-2 px-4 py-3 text-sm font-bold text-red-500 hover:bg-red-50 dark:hover:bg-red-500/10 transition-colors"
                           >
-                            <Trash2 className="w-3.5 h-3.5" />
+                            <Trash2 className="w-4 h-4" />
                             {language === 'es' ? 'Eliminar' : language === 'fr' ? 'Supprimer' : 'Efase'}
                           </button>
                         ) : (
                           <>
-                            <button
+                            <button 
                               onClick={() => { handleReport(msg.id); setActiveMenuId(null); }}
-                              className="w-full px-3 py-2 text-left text-[12px] font-bold text-amber-600 hover:bg-amber-50 flex items-center gap-1.5"
+                              className="w-full flex items-center gap-2 px-4 py-3 text-sm font-bold text-[#310065] dark:text-[#E3D5FF] hover:bg-[#faf9fc] dark:hover:bg-[#3a3a3c] transition-colors"
                             >
-                              <ShieldAlert className="w-3.5 h-3.5" />
-                              {language === 'es' ? 'Reportar' : language === 'fr' ? 'Signaler' : 'Rapòte'}
+                              <ShieldAlert className="w-4 h-4" />
+                              {language === 'es' ? 'Reportar' : language === 'fr' ? 'Signaler' : 'Rapò'}
                             </button>
-                            <button
+                            <div className="h-px w-full bg-black/5 dark:bg-white/5" />
+                            <button 
                               onClick={() => { handleBlock(msg.senderId, msg.senderName); setActiveMenuId(null); }}
-                              className="w-full px-3 py-2 text-left text-[12px] font-bold text-red-600 hover:bg-red-50 flex items-center gap-1.5"
+                              className="w-full flex items-center gap-2 px-4 py-3 text-sm font-bold text-red-500 hover:bg-red-50 dark:hover:bg-red-500/10 transition-colors"
                             >
-                              <Ban className="w-3.5 h-3.5" />
+                              <Ban className="w-4 h-4" />
                               {language === 'es' ? 'Bloquear' : language === 'fr' ? 'Bloquer' : 'Bloke'}
                             </button>
                           </>
                         )}
                       </div>
-                    </>
-                  )}
+                    )}
+                  </div>
                 </div>
-              )}
+              </div>
             </div>
           );
         })}

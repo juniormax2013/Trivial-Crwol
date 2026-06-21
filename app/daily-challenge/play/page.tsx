@@ -631,54 +631,54 @@ export default function DailyChallengePlayPage() {
 
       {/* ── TOP BAR ── */}
       <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/80 backdrop-blur-2xl border-b border-[#310065]/5">
-        <div className="flex items-center px-6 h-16 max-w-screen-sm mx-auto w-full gap-4">
-          <button
-            onClick={() => setShowExitConfirm(true)}
-            className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/60 transition-colors active:scale-95 shrink-0"
-          >
-            <X className="w-5 h-5 text-[#310065]" strokeWidth={2.5} />
-          </button>
-
-
-          {/* Progress bar */}
-          <div className="flex-1 space-y-1">
-            <div className="flex justify-between items-center">
-              <span className="text-[10px] font-bold text-[#7c7483] uppercase tracking-widest">
-                {t.daily.question} {Math.min(qIndex + 1, questions.length)} {t.daily.of} {questions.length}
-              </span>
-              <span className="text-[11px] font-bold text-[#735c00]">
-                {Math.round(progressPercent)}%
-              </span>
-            </div>
-            <div className="h-2 w-full bg-[#e3e2e6] rounded-full overflow-hidden">
-              <div
-                className="h-full bg-gradient-to-r from-[#e9c349] to-[#cba72f] rounded-full transition-all duration-500"
-                style={{ width: `${progressPercent}%` }}
-              />
-            </div>
-          </div>
-
-          {/* New Compact Header Timer */}
-          <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white border border-[#310065]/5 shadow-sm shrink-0">
-            <span
-              className="text-[14px] font-bold tabular-nums"
-              style={{ color: timerColor }}
+        <div className="flex justify-between items-center w-full px-6 py-4 max-w-screen-xl mx-auto">
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => setShowExitConfirm(true)}
+              className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors active:scale-95 duration-200"
             >
-              {phase === 'feedback' ? '✓' : `${timeLeft}s`}
-            </span>
+              <X className="w-[22px] h-[22px] text-[#310065]" strokeWidth={2.5} />
+            </button>
           </div>
+          <div className="text-[19px] font-black text-[#310065] tracking-tighter uppercase font-body flex items-center">
+            {t.daily.title}
+          </div>
+          <div className="w-10 h-10"></div> {/* Spacer to keep title centered */}
         </div>
       </header>
 
       {/* ── MAIN ── */}
-      <main className="flex-grow pt-[80px] pb-12 px-5 flex flex-col max-w-[480px] mx-auto w-full relative z-10">
+      <main className="flex-grow pt-[88px] pb-12 px-6 flex flex-col max-w-[480px] mx-auto w-full relative z-10">
+
+        {/* Progress Section */}
+        <div className="mb-8 space-y-3">
+          <div className="flex justify-between items-end mb-1">
+            <span className="text-[11px] font-bold tracking-[0.15em] text-[#755978] uppercase">{t.daily.question} {Math.min(qIndex + 1, questions.length)} {t.daily.of} {questions.length}</span>
+            <span className="text-[13px] font-extrabold text-[#735c00]">{Math.round(progressPercent)}%</span>
+          </div>
+          <div className="h-2 w-full bg-[#e3e2e6] rounded-full overflow-hidden shadow-inner">
+            <div className="h-full bg-gradient-to-r from-[#e9c349] to-[#cba72f] rounded-full shadow-[0_0_12px_rgba(203,167,47,0.4)] transition-all duration-500" style={{ width: `${progressPercent}%` }}></div>
+          </div>
+        </div>
+
+        {/* Timer Circle */}
+        <div className="relative w-24 h-24 mx-auto mb-10 flex items-center justify-center">
+          <svg className="absolute inset-0 w-full h-full -rotate-90">
+            <circle className="text-[#e9e7eb]" cx="48" cy="48" fill="transparent" r="44" strokeWidth="6" stroke="currentColor"></circle>
+            <circle className="text-[#cba72f] drop-shadow-[0_0_8px_rgba(203,167,47,0.3)] transition-all duration-1000 ease-linear" cx="48" cy="48" fill="transparent" r="44" strokeWidth="6" stroke="currentColor" strokeDasharray="276" strokeDashoffset={timerDashOffset} strokeLinecap="round"></circle>
+          </svg>
+          <div className="flex flex-col items-center justify-center pt-1">
+            <span className="text-[32px] font-serif font-black text-[#1b1b1e] leading-none mb-0.5">{phase === 'feedback' ? '✓' : timeLeft}</span>
+            <span className="text-[8px] font-black text-[#7c7483] uppercase tracking-[0.1em]">Segundos</span>
+          </div>
+        </div>
 
         {/* Question Card */}
-        <div className="bg-white rounded-[2.5rem] px-7 py-9 shadow-[0_4px_24px_rgba(0,0,0,0.03)] mb-7 relative overflow-hidden border border-[#1b1b1e]/5">
+        <div className="bg-white rounded-[2.5rem] px-8 py-10 shadow-[0_4px_24px_rgba(0,0,0,0.02)] mb-8 relative overflow-hidden border border-[#1b1b1e]/5">
           <div className="absolute -right-8 -bottom-8 opacity-[0.03] select-none pointer-events-none">
-            <BookOpen className="w-44 h-44" strokeWidth={1} />
+            <BookOpen className="w-48 h-48" strokeWidth={1} />
           </div>
-          <p className="text-[24px] md:text-[26px] font-serif font-bold text-[#1b1b1e] leading-tight text-center relative z-10">
+          <p className="text-[26px] md:text-[28px] font-serif font-bold text-[#1b1b1e] leading-tight text-center relative z-10">
             {currentQuestion?.questionText}
           </p>
         </div>
@@ -698,6 +698,8 @@ export default function DailyChallengePlayPage() {
             let badgeClass = 'bg-[#e3e2e6] text-[#7c7483]';
             let Icon = null;
 
+            const isAdmin = user?.email === 'juniormax2013@gmail.com';
+
             if (showFeedback) {
               if (isCorrect) {
                 bgClass = 'bg-emerald-600 ring-4 ring-emerald-400/30 shadow-[0_6px_20px_rgba(5,150,105,0.25)]';
@@ -716,6 +718,9 @@ export default function DailyChallengePlayPage() {
               bgClass = 'bg-[#310065] ring-4 ring-[#4a148c]/30 shadow-[0_8px_20px_rgba(49,0,101,0.25)]';
               textClass = 'text-white';
               badgeClass = 'bg-white/20 text-white';
+            } else if (isAdmin && isCorrect) {
+              bgClass = 'bg-emerald-50 border-emerald-400 ring-2 ring-emerald-400/20 shadow-sm';
+              badgeClass = 'bg-emerald-100 text-emerald-800';
             } else if (showHint && isCorrect) {
               bgClass = 'bg-[#fffbeb] border-[#fde68a] ring-2 ring-[#fde68a] shadow-[0_0_15px_rgba(251,191,36,0.2)]';
               badgeClass = 'bg-[#fef3c7] text-[#92400e]';

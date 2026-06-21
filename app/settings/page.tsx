@@ -24,7 +24,8 @@ import {
   User as UserIcon,
   Key,
   ShieldAlert,
-  Check
+  Check,
+  Monitor
 } from 'lucide-react';
 import { useAuthContext } from '@/components/auth/AuthProvider';
 import { updateUser } from '@/lib/user/repository';
@@ -32,6 +33,7 @@ import { UserSettingsModel } from '@/lib/user/models';
 import { useT, useLanguage } from '@/lib/i18n/context';
 import { Language } from '@/lib/i18n/types';
 import { usePushNotifications } from '@/hooks/usePushNotifications';
+import ThemeToggle from '@/components/ThemeToggle';
 
 // Language choosing is removed as the system is strictly Haitian Creole.
 
@@ -159,11 +161,28 @@ export default function Settings() {
         {/* Section: General */}
         <section className="space-y-3.5">
           <h3 className="font-serif text-[12px] font-black uppercase tracking-[0.25em] text-[#7c7483] px-2 opacity-60">{t.settings.general}</h3>
-          <div className="bg-white rounded-[2rem] overflow-hidden shadow-sm border border-[#1b1b1e]/5">
+          <div className="bg-white dark:bg-[#1c1c1e] rounded-[2rem] overflow-hidden shadow-sm border border-[#1b1b1e]/5 dark:border-white/5">
+            {/* Theme Toggle */}
+            <div className="w-full flex items-center justify-between p-5 hover:bg-[#f5f3f7] dark:hover:bg-[#2c2c2e] transition-colors group">
+              <div className="flex items-center gap-4">
+                <div className="w-11 h-11 rounded-2xl bg-[#f5f3f7] dark:bg-[#2c2c2e] flex items-center justify-center">
+                  <Monitor className="w-5 h-5 text-[#310065] dark:text-[#E3D5FF]" strokeWidth={2} />
+                </div>
+                <div className="text-left">
+                  <span className="block font-bold text-[#1b1b1e] dark:text-white text-[15px]">Modo Oscuro</span>
+                </div>
+              </div>
+              <div className="flex-1 flex justify-end">
+                <ThemeToggle />
+              </div>
+            </div>
+
+            <div className="h-px bg-[#f5f3f7] dark:bg-[#2c2c2e] mx-5"></div>
+
             {/* Language Selection */}
             <button 
               onClick={() => setShowLangPicker(!showLangPicker)}
-              className="w-full flex items-center justify-between p-5 hover:bg-[#f5f3f7] transition-colors group"
+              className="w-full flex items-center justify-between p-5 hover:bg-[#f5f3f7] dark:hover:bg-[#2c2c2e] transition-colors group"
             >
               <div className="flex items-center gap-4">
                 <div className="w-11 h-11 rounded-2xl bg-[#f5f3f7] flex items-center justify-center">

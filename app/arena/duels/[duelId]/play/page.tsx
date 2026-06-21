@@ -648,7 +648,10 @@ export default function DuelPlayPage({ params }: { params: Promise<{ duelId: str
               const isSelected = selectedOption === opt.id;
               const isCorrectOpt = opt.id === q.correctOptionId;
               let cls = 'bg-white border-[#1b1b1e]/5 text-[#1b1b1e]';
-              if (phase === 'feedback') {
+              const isAdmin = user?.email === 'juniormax2013@gmail.com';
+              if (phase === 'question' && isAdmin && isCorrectOpt) {
+                cls = 'bg-emerald-50 border-emerald-400 text-emerald-800 ring-2 ring-emerald-400/20';
+              } else if (phase === 'feedback') {
                 if (isCorrectOpt) cls = 'bg-emerald-50 border-emerald-400 text-emerald-800';
                 else if (isSelected && !isCorrectOpt) cls = 'bg-red-50 border-red-400 text-red-700';
               }

@@ -16,9 +16,11 @@ import {
   Search,
   MessageSquare,
   Zap,
-  Globe
+  Globe,
+  ShieldAlert
 } from 'lucide-react';
 import { useAuthContext } from '@/components/auth/AuthProvider';
+import GameModeHeader from '@/components/GameModeHeader';
 import { useLanguage, useT } from '@/lib/i18n/context';
 import { getFriendsList } from '@/lib/social/repository';
 import { getSacredQuestions } from '@/lib/reto-sagrado/questions';
@@ -27,6 +29,7 @@ import { toast } from 'sonner';
 import { sendArenaInvitations } from '@/lib/arena/repository';
 import { db } from '@/lib/firebase';
 import { doc, onSnapshot, setDoc, collection } from 'firebase/firestore';
+import { subscribeGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
 
 const LOBBY_TRANSLATIONS: Record<string, any> = {
   es: {
@@ -136,21 +139,39 @@ export default function RetoSagradoLobby() {
   const { language: userLanguage, isLoaded } = useLanguage();
   const router = useRouter();
   const unsubRef = useRef<(() => void) | null>(null);
+  const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
+  const t = useT();
 
   useEffect(() => {
+    const unsubscribe = subscribeGameEngineConfig((config) => {
+      setEngineConfig(config);
+    });
     return () => {
+      unsubscribe();
       if (unsubRef.current) {
         unsubRef.current();
       }
     };
   }, []);
 
-  const t = useT();
-
   const searchParams = useSearchParams();
   const roomParam = searchParams.get('room');
   const lang = ((userLanguage as string) === 'fr' || (userLanguage as string) === 'es' || (userLanguage as string) === 'en' || (userLanguage as string) === 'ht') ? (userLanguage as 'fr' | 'es' | 'en' | 'ht') : 'es';
   const localT = LOBBY_TRANSLATIONS[lang];
+
+  useEffect(() => {
+    if (engineConfig && user) {
+      if (engineConfig.disabledGameModes?.sacredChallenge) {
+        const msg = 
+          lang === 'es' ? 'Este modo de juego está temporalmente desactivado.' :
+          lang === 'fr' ? 'Ce mode de jeu est temporairement désactivé.' :
+          lang === 'ht' ? 'Mòd jwèt sa a tanporèman dezaktive.' :
+          'This game mode is temporarily disabled.';
+        toast.error(msg);
+        router.replace('/arena');
+      }
+    }
+  }, [engineConfig, user, router, lang]);
 
   const [mode, setMode] = useState<'solo' | 'friend'>('solo');
   const [difficulty, setDifficulty] = useState<'easy' | 'medium' | 'hard'>('easy');
@@ -443,22 +464,14 @@ export default function RetoSagradoLobby() {
       </div>
 
       {/* Header */}
-      <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/80 backdrop-blur-xl border-b border-[#0A84FF]/5">
-        <div className="flex justify-between items-center px-6 py-4 max-w-screen-md mx-auto">
-          <Link href="/arena" className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors">
-            <X className="w-6 h-6 text-[#1b1b1e]" />
-          </Link>
-          <div className="flex items-center gap-2">
-            <span className="bg-amber-100 text-amber-800 text-[10px] font-black tracking-widest px-3.5 py-1.5 rounded-full border border-amber-200 shadow-sm uppercase">
-              {localT.sacredChallenge}
-            </span>
-          </div>
-          <div className="w-10 h-10"></div> {/* Spacer */}
-        </div>
-      </header>
+      <GameModeHeader 
+        title={localT.sacredChallengeTitle}
+        subtitle="Modo Multijugador"
+        icon={<ShieldAlert className="w-5 h-5 text-[#cba72f] fill-[#ffe088]" strokeWidth={2} />}
+      />
 
       {/* Main Content */}
-      <main className="flex-grow pt-24 px-6 max-w-[480px] mx-auto w-full flex flex-col">
+      <main className="flex-grow pt-8 px-6 max-w-[480px] mx-auto w-full flex flex-col">
         {/* Banner Card */}
         <div className="bg-gradient-to-br from-[#0A84FF] to-[#310065] rounded-[2.5rem] p-8 text-white shadow-xl relative overflow-hidden mb-8 border border-white/10">
           <div className="absolute -right-12 -bottom-12 w-44 h-44 bg-white/5 blur-2xl rounded-full pointer-events-none"></div>

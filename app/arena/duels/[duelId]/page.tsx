@@ -53,6 +53,50 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
   const [isLoading, setIsLoading] = useState(true);
   const [actionLoading, setActionLoading] = useState<'accept' | 'decline' | 'start' | null>(null);
   const [unreadMessages, setUnreadMessages] = useState(0);
+  const [showTurnNotification, setShowTurnNotification] = useState(false);
+  const [prevIsMyTurn, setPrevIsMyTurn] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    if (!duel) return;
+    const vsState = getDuelViewState(duel, DEMO_UID);
+    if (prevIsMyTurn === false && vsState.isMyTurn === true) {
+      // Synthesize high-quality iOS double chime sound
+      try {
+        const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+        if (AudioContextClass) {
+          const ctx = new AudioContextClass();
+          const now = ctx.currentTime;
+          
+          const osc1 = ctx.createOscillator();
+          const gain1 = ctx.createGain();
+          osc1.type = 'sine';
+          osc1.frequency.setValueAtTime(783.99, now);
+          gain1.gain.setValueAtTime(0.12, now);
+          gain1.gain.exponentialRampToValueAtTime(0.0001, now + 0.3);
+          osc1.connect(gain1);
+          gain1.connect(ctx.destination);
+          osc1.start(now);
+          osc1.stop(now + 0.35);
+
+          const osc2 = ctx.createOscillator();
+          const gain2 = ctx.createGain();
+          osc2.type = 'sine';
+          osc2.frequency.setValueAtTime(1046.50, now + 0.12);
+          gain2.gain.setValueAtTime(0.15, now + 0.12);
+          gain2.gain.exponentialRampToValueAtTime(0.0001, now + 0.12 + 0.4);
+          osc2.connect(gain2);
+          gain2.connect(ctx.destination);
+          osc2.start(now + 0.12);
+          osc2.stop(now + 0.12 + 0.45);
+        }
+      } catch (e) {
+        console.warn("Failed to play turn chime:", e);
+      }
+
+      setShowTurnNotification(true);
+    }
+    setPrevIsMyTurn(vsState.isMyTurn);
+  }, [duel, DEMO_UID, prevIsMyTurn]);
 
   useEffect(() => {
     if (!duelId) return;
@@ -585,6 +629,63 @@ export default function DuelDetailPage({ params }: { params: Promise<{ duelId: s
             </Link>
           </div>
         )}
+
+        {/* Highly visible turn notification overlay */}
+        {showTurnNotification && (() => {
+          const turnTranslations = {
+            es: {
+              title: "¡Tu Turno de Jugar! ⚔️",
+              body: "Tu oponente ha terminado su ronda. Es momento de demostrar tus conocimientos.",
+              btn: "Empezar a jugar",
+              close: "Cerrar"
+            },
+            fr: {
+              title: "À votre tour ! ⚔️",
+              body: "Votre adversaire a terminé sa manche. C'est le moment de répondre.",
+              btn: "Jouer maintenant",
+              close: "Fermer"
+            },
+            ht: {
+              title: "Se Tou Pa W! ⚔️",
+              body: "Advèsè w la fini manch li. Se moman pou w jwe kounye a.",
+              btn: "Jwe kounye a",
+              close: "Fèmen"
+            }
+          };
+          const langKey = (language === 'fr' || language === 'ht') ? language : 'es';
+          const tTurn = turnTranslations[langKey];
+
+          return (
+            <div className="fixed inset-0 z-[200] flex items-center justify-center bg-black/50 backdrop-blur-md p-6 animate-in fade-in duration-200">
+              <div className="w-full max-w-sm bg-white rounded-[24px] shadow-2xl border border-gray-100 p-6 flex flex-col items-center text-center animate-in zoom-in-95 duration-300">
+                <div className="w-16 h-16 rounded-full bg-blue-50 flex items-center justify-center text-[#0A84FF] mb-4 animate-bounce">
+                  <Swords className="w-8 h-8" />
+                </div>
+                <h3 className="font-serif text-[22px] font-black text-[#0F172A] mb-2 leading-tight">
+                  {tTurn.title}
+                </h3>
+                <p className="text-[14px] text-[#64748B] mb-6 leading-relaxed">
+                  {tTurn.body}
+                </p>
+                <button
+                  onClick={() => {
+                    setShowTurnNotification(false);
+                    router.push(`/arena/duels/${duelId}/play`);
+                  }}
+                  className="w-full py-4 bg-[#0A84FF] hover:bg-blue-600 text-white rounded-full font-bold text-[16px] shadow-[0_4px_12px_rgba(10,132,255,0.3)] transition-all active:scale-[0.98]"
+                >
+                  {tTurn.btn}
+                </button>
+                <button
+                  onClick={() => setShowTurnNotification(false)}
+                  className="mt-3 text-[13px] font-bold text-[#64748B] hover:text-[#0F172A]"
+                >
+                  {tTurn.close}
+                </button>
+              </div>
+            </div>
+          );
+        })()}
 
       </main>
     </div>

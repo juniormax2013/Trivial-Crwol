@@ -36,8 +36,19 @@ export default function AdminLogin() {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       const idTokenResult = await userCredential.user.getIdTokenResult();
       
-      const isAdmin = idTokenResult.claims.admin === true || 
-                      ['super_admin', 'editor', 'reviewer'].includes(idTokenResult.claims.role as string);
+      let isAdmin = idTokenResult.claims.admin === true || 
+                    ['super_admin', 'editor', 'reviewer'].includes(idTokenResult.claims.role as string);
+
+      if (!isAdmin) {
+        const { doc, getDoc } = await import('firebase/firestore');
+        const { db } = await import('@/lib/firebase');
+        const userDocRef = doc(db, 'users', userCredential.user.uid);
+        const userDoc = await getDoc(userDocRef);
+        if (userDoc.exists()) {
+          const userData = userDoc.data();
+          isAdmin = ['super_admin', 'editor', 'reviewer', 'moderator'].includes(userData?.role);
+        }
+      }
 
       if (isAdmin) {
         router.push('/admin/dashboard');
@@ -80,8 +91,19 @@ export default function AdminLogin() {
 
       const idTokenResult = await userCredential.user.getIdTokenResult();
       
-      const isAdmin = idTokenResult.claims.admin === true || 
-                      ['super_admin', 'editor', 'reviewer'].includes(idTokenResult.claims.role as string);
+      let isAdmin = idTokenResult.claims.admin === true || 
+                    ['super_admin', 'editor', 'reviewer'].includes(idTokenResult.claims.role as string);
+
+      if (!isAdmin) {
+        const { doc, getDoc } = await import('firebase/firestore');
+        const { db } = await import('@/lib/firebase');
+        const userDocRef = doc(db, 'users', userCredential.user.uid);
+        const userDoc = await getDoc(userDocRef);
+        if (userDoc.exists()) {
+          const userData = userDoc.data();
+          isAdmin = ['super_admin', 'editor', 'reviewer', 'moderator'].includes(userData?.role);
+        }
+      }
 
       if (isAdmin) {
         router.push('/admin/dashboard');

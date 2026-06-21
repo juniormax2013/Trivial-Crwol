@@ -121,6 +121,11 @@ export default function AdminDashboard() {
             Tournaments
           </Link>
 
+          <Link href="/admin/dashboard/clan-events" className="flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 text-[#7c7483] hover:text-[#310065] hover:bg-[#310065]/5 font-semibold text-[13px]">
+            <Users className="w-5 h-5" strokeWidth={2} />
+            Clan Events
+          </Link>
+
           <Link href="/admin/dashboard/bible-ai" className="flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 text-[#7c7483] hover:text-[#310065] hover:bg-[#310065]/5 font-semibold text-[13px]">
             <Brain className="w-5 h-5" strokeWidth={2} />
             Bible AI

@@ -1,5 +1,5 @@
 import { db } from '@/lib/firebase';
-import { doc, getDoc, setDoc, updateDoc, Transaction } from 'firebase/firestore';
+import { doc, getDoc, setDoc, updateDoc, Transaction, onSnapshot } from 'firebase/firestore';
 import { type JesusSettings, DEFAULT_JESUS_SETTINGS } from '@/src/data/jesusSettings';
 
 export interface DifficultySetting {
@@ -49,6 +49,14 @@ export interface GameEngineConfig {
   specialChallenge?: {
     spawnProbability: number;
   };
+  disabledGameModes?: {
+    dailyChallenge?: boolean;
+    bibleJourney?: boolean;
+    sacredChallenge?: boolean;
+    crownArena?: boolean;
+    duelArena?: boolean;
+  };
+  gameModeOrder?: string[];
   updatedAt: string;
 }
 
@@ -104,6 +112,20 @@ export const DEFAULT_GAME_ENGINE_CONFIG: GameEngineConfig = {
   specialChallenge: {
     spawnProbability: 0.50,
   },
+  disabledGameModes: {
+    dailyChallenge: false,
+    bibleJourney: false,
+    sacredChallenge: false,
+    crownArena: false,
+    duelArena: false,
+  },
+  gameModeOrder: [
+    'crownArena',
+    'dailyChallenge',
+    'bibleJourney',
+    'sacredChallenge',
+    'duelArena'
+  ],
   updatedAt: new Date().toISOString()
 };
 
@@ -148,4 +170,22 @@ export async function updateGameEngineConfig(config: GameEngineConfig): Promise<
 export async function resetGameEngineConfig(): Promise<GameEngineConfig> {
   await updateGameEngineConfig(DEFAULT_GAME_ENGINE_CONFIG);
   return DEFAULT_GAME_ENGINE_CONFIG;
+}
+
+/**
+ * SUBSCRIBE TO GAME ENGINE CONFIG
+ * Listens to the current settings in real-time.
+ */
+export function subscribeGameEngineConfig(onUpdate: (config: GameEngineConfig) => void): () => void {
+  const docRef = doc(db, COLLECTION_NAME, DOCUMENT_ID);
+  return onSnapshot(docRef, (snap) => {
+    if (snap.exists()) {
+      onUpdate({ ...DEFAULT_GAME_ENGINE_CONFIG, ...snap.data() } as GameEngineConfig);
+    } else {
+      onUpdate(DEFAULT_GAME_ENGINE_CONFIG);
+    }
+  }, (err) => {
+    console.error("Error subscribing to game engine config:", err);
+    onUpdate(DEFAULT_GAME_ENGINE_CONFIG);
+  });
 }

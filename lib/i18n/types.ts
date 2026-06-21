@@ -178,6 +178,7 @@ export interface Translations {
     comingSoon: string;
     sacredChallenge: string;
     sacredChallengeDesc: string;
+    modeDisabled: string;
   };
 
   // ---------- DAILY CHALLENGE ----------
@@ -820,5 +821,44 @@ export interface Translations {
     lockedBadge: string;
     unlockedByAdmin: string;
     backBtn: string;
+  };
+  clanEvents: {
+    title: string;
+    battleOfClans: string;
+    wisdomCup: string;
+    clanNeedsHelp: string;
+    playToEarnPoints: string;
+    myContribution: string;
+    clanPoints: string;
+    globalRanking: string;
+    timeLeft: string;
+    enterEvent: string;
+    playEvent: string;
+    viewRanking: string;
+    rewards: string;
+    selectDifficulty: string;
+    easyDesc: string;
+    normalDesc: string;
+    hardDesc: string;
+    claimReward: string;
+    eventEnded: string;
+    mustJoinClan: string;
+    needMorePoints: string;
+    rankingOfClans: string;
+    rewardsByPosition: string;
+    yourClanPosition: string;
+    currentPoints: string;
+    pointsToNext: string;
+    projectedReward: string;
+    projectedRewardLabel: string;
+    seeFullRanking: string;
+    top1: string;
+    top2to5: string;
+    top6to20: string;
+    participation: string;
+    leaderClan: string;
+    myClan: string;
+    upcoming: string;
+    rewardClaimedSuccess: string;
   };
 }

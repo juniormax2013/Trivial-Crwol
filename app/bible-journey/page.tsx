@@ -7,6 +7,7 @@ import { useAuthContext } from '@/components/auth/AuthProvider';
 import { Flame, Heart, Check, BookOpen, Crown, Lock, Home, RotateCcw, UserCircle, Play, Loader2 } from 'lucide-react';
 import { getUserBibleProgress, getBibleStreak, getUserHearts, UserBibleProgress } from '@/lib/bible/repository';
 import { BIBLE_LESSONS } from '@/lib/bible/data';
+import GameModeHeader from '@/components/GameModeHeader';
 
 export default function BibleJourneyDashboard() {
   const { user } = useAuthContext();
@@ -115,26 +116,23 @@ export default function BibleJourneyDashboard() {
       <div className="w-full max-w-md bg-white min-h-screen relative shadow-[0_0_50px_rgba(49,0,101,0.03)] overflow-hidden pb-20">
         
         {/* Top Navigation / Header */}
-        <header className="sticky top-0 z-50 bg-white/85 backdrop-blur-md px-6 py-4 flex justify-between items-center shadow-[0_4px_30px_rgba(49,0,101,0.02)] border-none">
-          <button 
-            className="w-10 h-10 rounded-[1.25rem] bg-[#f5f3f7] flex items-center justify-center text-[#310065] hover:bg-[#ede7f6] active:scale-95 transition-all duration-300 shadow-sm"
-            onClick={() => router.push('/')}
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-          </button>
-          <div className="flex items-center gap-3">
-            {/* Vidas (Corazones) */}
-            <div className="flex items-center gap-1.5 bg-[#fff0f3] px-3.5 py-2 rounded-full border border-[#ffe0e6]/40 shadow-sm">
-              <Heart className="w-4 h-4 text-[#ff2d55] fill-[#ff2d55]" />
-              <span className="text-[#ff2d55] font-black text-[13px] font-mono">{hearts}</span>
+        <GameModeHeader 
+          title="El Viaje de Fe"
+          subtitle="Modo Historia"
+          icon={<BookOpen className="w-5 h-5 text-[#310065] fill-[#310065]/20" strokeWidth={2} />}
+          backHref="/"
+        >
+          <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1 bg-[#fff0f3] px-2.5 py-1 rounded-full border border-[#ffe0e6]/40 shadow-sm">
+              <Heart className="w-3.5 h-3.5 text-[#ff2d55] fill-[#ff2d55]" />
+              <span className="text-[#ff2d55] font-black text-[11px] font-mono">{hearts}</span>
             </div>
-            {/* Racha (Llamas) */}
-            <div className="flex items-center gap-1.5 bg-amber-50 px-3.5 py-2 rounded-full border border-amber-100/40 shadow-sm">
-              <Flame className="w-4 h-4 text-[#cba72f] fill-[#ffe088]" />
-              <span className="text-[#735c00] font-black text-[13px] font-mono">{streakDays}</span>
+            <div className="flex items-center gap-1 bg-amber-50 px-2.5 py-1 rounded-full border border-amber-100/40 shadow-sm">
+              <Flame className="w-3.5 h-3.5 text-[#cba72f] fill-[#ffe088]" />
+              <span className="text-[#735c00] font-black text-[11px] font-mono">{streakDays}</span>
             </div>
           </div>
-        </header>
+        </GameModeHeader>
 
         {/* Contenido Principal - Roadmap */}
         <main className="relative w-full overflow-y-auto no-scrollbar" style={{ height: 'calc(100vh - 140px)' }}>

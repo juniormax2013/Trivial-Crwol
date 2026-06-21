@@ -120,6 +120,8 @@ export interface AppUserModel {
     dailyChallenge?: boolean;
     bibleJourney?: boolean;
     sacredChallenge?: boolean;
+    crownArena?: boolean;
+    duelArena?: boolean;
   };
   
   // Optional Ranking info

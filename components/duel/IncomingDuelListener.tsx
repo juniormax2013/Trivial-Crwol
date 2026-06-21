@@ -23,8 +23,37 @@ export default function IncomingDuelListener() {
   useEffect(() => {
     // Find the first pending duel invitation that isn't ignored
     const newIncoming = duelInvitations.find(d => !ignoredIds.has(d.id));
+    if (newIncoming && !incomingDuel) {
+      // Vibrate strongly! (e.g. 400ms vibration, 100ms pause, 400ms vibration, 100ms pause, 400ms vibration)
+      if (typeof navigator !== 'undefined' && navigator.vibrate) {
+        navigator.vibrate([400, 100, 400, 100, 400]);
+      }
+      // Play a premium attention-grabbing iOS invitation chime
+      try {
+        const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
+        if (AudioContextClass) {
+          const ctx = new AudioContextClass();
+          const now = ctx.currentTime;
+          const notes = [349.23, 440.00, 523.25, 659.25]; // F4, A4, C5, E5
+          notes.forEach((freq, index) => {
+            const osc = ctx.createOscillator();
+            const gain = ctx.createGain();
+            osc.type = 'sine';
+            osc.frequency.setValueAtTime(freq, now + index * 0.05);
+            gain.gain.setValueAtTime(0.12, now + index * 0.05);
+            gain.gain.exponentialRampToValueAtTime(0.0001, now + index * 0.05 + 0.5);
+            osc.connect(gain);
+            gain.connect(ctx.destination);
+            osc.start(now + index * 0.05);
+            osc.stop(now + index * 0.05 + 0.6);
+          });
+        }
+      } catch (e) {
+        console.warn("Failed to play invitation sound:", e);
+      }
+    }
     setIncomingDuel(newIncoming || null);
-  }, [duelInvitations, ignoredIds]);
+  }, [duelInvitations, ignoredIds, incomingDuel]);
 
   const handleAccept = async () => {
     if (!incomingDuel || !user || actionLoading) return;

@@ -20,7 +20,7 @@ const Devil3D = dynamic(() => import('../devil/Devil3D'), {
 // CONFIGURACIÓN DE RENDERIZADO DEL DIABLO (2D vs 3D)
 // Cambia a '2d' si deseas volver temporalmente al sprite original
 // ─────────────────────────────────────────────────────────────────────────────
-const DEVIL_RENDER_MODE: '2d' | '3d' = '3d';
+const DEVIL_RENDER_MODE: '2d' | '3d' = '2d';
 
 // Mapeo canónico: nombre de archivo de ilustración original ➔ acción semántica 3D
 const FILENAME_TO_3D_ACTION: Record<string, Devil3DAction> = {

@@ -912,26 +912,53 @@ export default function JweBibLaPlay() {
         <div className="absolute top-0 left-0 w-full h-full bg-[#310065] blur-[150px] rounded-full scale-150"></div>
       </div>
 
-      <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/80 backdrop-blur-xl">
-        <div className="flex justify-between items-center px-6 py-4 max-w-screen-xl mx-auto">
-          <button 
-            onClick={() => setShowExitConfirm(true)} 
-            className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors"
-          >
-            <X className="w-6 h-6 text-[#310065]" />
-          </button>
-          <div className="flex items-center gap-4">
-            <div className="flex items-center bg-red-50 px-3 py-1.5 rounded-full border border-red-100">
-              <Heart className="w-4 h-4 text-red-500 fill-red-500 mr-1.5" />
-              <span className="text-[13px] font-black text-red-600">{hearts}</span>
+      <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/80 backdrop-blur-2xl border-b border-[#310065]/5">
+        <div className="flex justify-between items-center w-full px-6 py-4 max-w-screen-xl mx-auto">
+          <div className="flex items-center gap-3">
+            <button 
+              onClick={() => setShowExitConfirm(true)} 
+              className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors active:scale-95 duration-200"
+            >
+              <X className="w-[22px] h-[22px] text-[#310065]" strokeWidth={2.5} />
+            </button>
+          </div>
+          <div className="text-[19px] font-black text-[#310065] tracking-tighter uppercase font-body flex items-center">
+            JWE BIB LA
+          </div>
+          <div className="w-10 h-10"></div> {/* Spacer to keep title centered */}
+        </div>
+      </header>
+
+      <main className="flex-grow pt-[88px] pb-12 px-6 flex flex-col max-w-[480px] mx-auto w-full relative z-10">
+        <div className="mb-8 flex flex-col gap-3">
+          <div className="flex justify-between items-end">
+            <span className="text-[11px] font-bold tracking-[0.15em] text-[#755978] uppercase">{localT.questionProgress.replace('{n}', (currentIndex + 1).toString())}</span>
+            <span className="text-[13px] font-extrabold text-[#735c00]">
+              {Math.round(((currentIndex + (isAnswered ? 1 : 0)) / questions.length) * 100)}%
+            </span>
+          </div>
+          <div className="h-2 w-full bg-[#e3e2e6] rounded-full overflow-hidden shadow-inner">
+            <div 
+              className="h-full bg-gradient-to-r from-[#e9c349] to-[#cba72f] rounded-full shadow-[0_0_12px_rgba(203,167,47,0.4)] transition-all duration-300"
+              style={{ width: `${((currentIndex + (isAnswered ? 1 : 0)) / questions.length) * 100}%` }}
+            ></div>
+          </div>
+          
+          <div className="flex justify-between items-center mt-1">
+            <div className="flex items-center gap-3">
+              <div className="flex items-center bg-red-50 px-3 py-1.5 rounded-full border border-red-100 shadow-sm">
+                <Heart className="w-4 h-4 text-red-500 fill-red-500 mr-1.5" />
+                <span className="text-[13px] font-black text-red-600">{hearts}</span>
+              </div>
+              <div className="flex items-center bg-[#ffe088]/30 px-3 py-1.5 rounded-full border border-[#cba72f]/20 shadow-sm">
+                <Zap className="w-4 h-4 text-[#cba72f] fill-[#ffe088] mr-1.5" />
+                <span className="text-[13px] font-black text-[#735c00]">{energy}</span>
+              </div>
             </div>
-            <div className="flex items-center bg-[#ffe088]/30 px-3 py-1.5 rounded-full border border-[#cba72f]/20">
-              <Zap className="w-4 h-4 text-[#cba72f] fill-[#ffe088] mr-1.5" />
-              <span className="text-[13px] font-black text-[#735c00]">{energy}</span>
-            </div>
+            
             {/* Timer Display */}
             {!isAnswered && !isGameOver && (
-              <div className={`flex items-center px-3 py-1.5 rounded-full border ${
+              <div className={`flex items-center px-3 py-1.5 rounded-full border shadow-sm ${
                 timeLeft > 5 ? 'bg-white border-[#310065]/10' : 'bg-red-50 border-red-200 animate-pulse'
               }`}>
                 <Clock className={`w-4 h-4 mr-1.5 ${timeLeft > 5 ? 'text-[#310065]' : 'text-red-500'}`} />
@@ -940,21 +967,6 @@ export default function JweBibLaPlay() {
                 </span>
               </div>
             )}
-          </div>
-        </div>
-      </header>
-
-      <main className="flex-grow pt-24 pb-12 px-6 flex flex-col max-w-[480px] mx-auto w-full">
-        <div className="mb-8 space-y-2">
-          <div className="flex justify-between items-end">
-            <span className="text-[10px] font-black tracking-[0.2em] text-[#cdc3d4] uppercase">{localT.questionProgress.replace('{n}', (currentIndex + 1).toString())}</span>
-            <span className="text-[12px] font-bold text-[#310065]">{Math.round(((currentIndex + 1) / 7) * 100)}%</span>
-          </div>
-          <div className="h-1.5 w-full bg-[#e3e2e6] rounded-full overflow-hidden">
-            <div 
-              className="h-full bg-gradient-to-r from-[#4a148c] to-[#310065] transition-all duration-300"
-              style={{ width: `${((currentIndex + 1) / 7) * 100}%` }}
-            ></div>
           </div>
         </div>
 
@@ -977,13 +989,20 @@ export default function JweBibLaPlay() {
             
             if (hiddenOptionIds.includes(option.id)) return null;
 
+            const isAdmin = user?.email === 'juniormax2013@gmail.com';
+
             if (!isAnswered) {
-              btnClass += "bg-[#f5f3f7] hover:bg-[#eddcff]/30 border-transparent active:scale-[0.98]";
-              labelClass += "bg-[#e3e2e6] text-[#7c7483]";
-              
-              if (showHint && isCorrectOption) {
-                btnClass += " ring-2 ring-[#cba72f] shadow-[0_0_15px_rgba(203,167,47,0.3)]";
-                labelClass = "w-10 h-10 shrink-0 rounded-xl flex items-center justify-center mr-4 font-bold text-[16px] bg-[#ffe088] text-[#735c00]";
+              if (isAdmin && isCorrectOption) {
+                btnClass += "bg-green-50 text-green-800 border-green-400 ring-2 ring-green-400/20 shadow-sm";
+                labelClass = "w-10 h-10 shrink-0 rounded-xl flex items-center justify-center mr-4 font-bold text-[16px] bg-green-100 text-green-800 border border-green-200";
+              } else {
+                btnClass += "bg-[#f5f3f7] hover:bg-[#eddcff]/30 border-transparent active:scale-[0.98]";
+                labelClass += "bg-[#e3e2e6] text-[#7c7483]";
+                
+                if (showHint && isCorrectOption) {
+                  btnClass += " ring-2 ring-[#cba72f] shadow-[0_0_15px_rgba(203,167,47,0.3)]";
+                  labelClass = "w-10 h-10 shrink-0 rounded-xl flex items-center justify-center mr-4 font-bold text-[16px] bg-[#ffe088] text-[#735c00]";
+                }
               }
             } else if (isCorrectOption) {
               btnClass += "bg-green-500 text-white border-green-400 shadow-green-200 ring-4 ring-green-500/20";

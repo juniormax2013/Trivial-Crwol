@@ -310,37 +310,48 @@ export default function BibleLessonPlay() {
   return (
     <div className="min-h-screen bg-[#faf9fc] flex flex-col justify-between text-[#1b1b1e] antialiased select-none font-sans relative">
       
-      {/* 1. TOP HEADER PROGRESS & HEARTS */}
-      <header className="px-4 py-4 border-b border-purple-100/40 bg-white/80 backdrop-blur-md sticky top-0 z-40 flex items-center justify-between shadow-[0_2px_15px_rgba(49,0,101,0.02)]">
-        <button 
-          onClick={handleExitLesson}
-          className="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center hover:bg-gray-100 active:scale-95 transition-all text-gray-500 border border-gray-100"
-        >
-          <X size={16} strokeWidth={2.5} />
-        </button>
-
-        {/* Dynamic Green Progress Bar */}
-        <div className="flex-1 mx-4 space-y-1">
-          <div className="flex justify-between items-center text-[8px] font-black text-[#1b1b1e]/40 uppercase tracking-widest">
-            <span>{lesson.title}</span>
-            <span>{currentIdx + 1} de {questions.length}</span>
+      {/* 1. TOP HEADER */}
+      <header className="fixed top-0 w-full z-50 bg-[#faf9fc]/80 backdrop-blur-2xl border-b border-[#310065]/5">
+        <div className="flex justify-between items-center w-full px-6 py-4 max-w-screen-xl mx-auto">
+          <div className="flex items-center gap-3">
+            <button 
+              onClick={handleExitLesson}
+              className="w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#eddcff]/50 transition-colors active:scale-95 duration-200"
+            >
+              <X className="w-[22px] h-[22px] text-[#310065]" strokeWidth={2.5} />
+            </button>
           </div>
-          <div className="h-2 w-full bg-gray-100 rounded-full overflow-hidden shadow-inner">
-            <div 
-              className="h-full bg-gradient-to-r from-green-500 to-emerald-400 rounded-full shadow-[0_0_6px_rgba(34,197,94,0.4)] transition-all duration-500"
-              style={{ width: `${progressPercent}%` }}
-            />
+          <div className="text-[19px] font-black text-[#310065] tracking-tighter uppercase font-body flex items-center">
+            BIBLE JOURNEY
           </div>
-        </div>
-
-        <div className="flex items-center gap-1 bg-red-50 border border-red-100 px-3 py-1.5 rounded-full text-red-500 text-xs font-black shadow-sm">
-          <Heart size={14} fill="currentColor" className="animate-bounce" />
-          <span className="tabular-nums font-bold">{hearts}/5</span>
+          <div className="w-10 h-10"></div> {/* Spacer to keep title centered */}
         </div>
       </header>
 
       {/* 2. MAIN INTERACTIVE CARD FEED */}
-      <main className="flex-grow max-w-xl mx-auto w-full px-4 pt-6 pb-28 flex flex-col justify-center gap-4">
+      <main className="flex-grow pt-[88px] pb-28 px-6 flex flex-col max-w-xl mx-auto w-full relative z-10 gap-4">
+        
+        {/* Progress & Hearts Section */}
+        <div className="flex items-end justify-between gap-4 mb-4">
+          {/* Dynamic Green Progress Bar */}
+          <div className="flex-1 space-y-2">
+            <div className="flex justify-between items-end mb-1">
+              <span className="text-[11px] font-bold tracking-[0.15em] text-[#755978] uppercase">{lesson.title}</span>
+              <span className="text-[13px] font-extrabold text-[#735c00]">{currentIdx + 1} de {questions.length}</span>
+            </div>
+            <div className="h-2 w-full bg-[#e3e2e6] rounded-full overflow-hidden shadow-inner">
+              <div 
+                className="h-full bg-gradient-to-r from-green-500 to-emerald-400 rounded-full shadow-[0_0_12px_rgba(34,197,94,0.4)] transition-all duration-500"
+                style={{ width: `${progressPercent}%` }}
+              />
+            </div>
+          </div>
+
+          <div className="flex items-center gap-1 bg-red-50 border border-red-100 px-3 py-1.5 rounded-full text-red-500 text-xs font-black shadow-sm shrink-0">
+            <Heart size={14} fill="currentColor" className="animate-bounce" />
+            <span className="tabular-nums font-bold">{hearts}/5</span>
+          </div>
+        </div>
         
         {/* HINT OVERLAY CARD */}
         {showHint && currentQuestion.hint && (
@@ -400,6 +411,8 @@ export default function BibleLessonPlay() {
             {currentQuestion.question_type === 'multiple_choice' && currentQuestion.options?.map((opt, idx) => {
               const letter = String.fromCharCode(65 + idx); // A, B, C, D
               const isSel = selectedOption === opt;
+              const isAdmin = user?.email === 'juniormax2013@gmail.com';
+              const isCorrectAnswer = opt === currentQuestion.correct_answer;
               
               return (
                 <button
@@ -409,11 +422,13 @@ export default function BibleLessonPlay() {
                   className={`w-full p-4 rounded-2xl flex items-center gap-4 text-left border-2 font-bold text-xs uppercase tracking-wide transition-all shadow-sm ${
                     isSel 
                       ? 'border-amber-400 bg-amber-50/30 text-[#310065]' 
+                      : isAdmin && isCorrectAnswer
+                      ? 'border-emerald-500 bg-emerald-50/30 text-emerald-700 shadow-[0_0_10px_rgba(16,185,129,0.2)] animate-pulse'
                       : 'border-purple-100/30 hover:border-purple-200/50 text-[#1b1b1e]/80 hover:bg-purple-50/30'
                   } active:scale-98`}
                 >
                   <div className={`w-8 h-8 rounded-full border-2 flex items-center justify-center shrink-0 ${
-                    isSel ? 'border-amber-500 bg-amber-400 text-white font-black' : 'border-purple-100 text-purple-300'
+                    isSel ? 'border-amber-500 bg-amber-400 text-white font-black' : isAdmin && isCorrectAnswer ? 'border-emerald-500 bg-emerald-500 text-white font-black' : 'border-purple-100 text-purple-300'
                   }`}>
                     {letter}
                   </div>
@@ -435,6 +450,8 @@ export default function BibleLessonPlay() {
               <div className="grid grid-cols-2 gap-4">
                 {['Verdadero', 'Falso'].map((opt, idx) => {
                   const isSel = selectedOption === opt;
+                  const isAdmin = user?.email === 'juniormax2013@gmail.com';
+                  const isCorrectAnswer = opt === currentQuestion.correct_answer;
                   return (
                     <button
                       key={idx}
@@ -443,6 +460,8 @@ export default function BibleLessonPlay() {
                       className={`py-8 px-4 rounded-2xl flex flex-col items-center justify-center gap-3 border-2 font-black uppercase tracking-wider text-sm transition-all shadow-sm ${
                         isSel 
                           ? 'border-amber-400 bg-amber-50/30 text-[#310065]' 
+                          : isAdmin && isCorrectAnswer
+                          ? 'border-emerald-500 bg-emerald-50/30 text-emerald-700 shadow-[0_0_10px_rgba(16,185,129,0.2)] animate-pulse'
                           : 'border-purple-100/30 hover:border-purple-200/50 text-[#1b1b1e]/80 hover:bg-purple-50/30'
                       } active:scale-95`}
                     >
@@ -468,6 +487,8 @@ export default function BibleLessonPlay() {
                 <div className="flex flex-wrap justify-center gap-3 pt-2 max-w-sm">
                   {currentQuestion.options?.map((opt, idx) => {
                     const isSel = fillBlankWord === opt;
+                    const isAdmin = user?.email === 'juniormax2013@gmail.com';
+                    const isCorrectAnswer = opt === currentQuestion.correct_answer;
                     return (
                       <button
                         key={idx}
@@ -476,6 +497,8 @@ export default function BibleLessonPlay() {
                         className={`py-3 px-5 rounded-2xl border-2 font-black text-xs uppercase tracking-wider shadow-sm transition-all ${
                           isSel 
                             ? 'border-amber-400 bg-amber-400 text-white shadow-md' 
+                            : isAdmin && isCorrectAnswer
+                            ? 'border-emerald-500 bg-emerald-50/30 text-emerald-700 shadow-[0_0_10px_rgba(16,185,129,0.2)] animate-pulse'
                             : 'border-purple-100/30 bg-white text-[#1b1b1e]/75 hover:bg-purple-50/20 active:scale-95'
                         }`}
                       >
@@ -596,6 +619,8 @@ export default function BibleLessonPlay() {
                   {currentQuestion.options?.map((opt, idx) => {
                     const letter = String.fromCharCode(65 + idx);
                     const isSel = selectedOption === opt;
+                    const isAdmin = user?.email === 'juniormax2013@gmail.com';
+                    const isCorrectAnswer = opt === currentQuestion.correct_answer;
                     return (
                       <button
                         key={idx}
@@ -604,11 +629,13 @@ export default function BibleLessonPlay() {
                         className={`w-full p-4 rounded-2xl flex items-center gap-4 text-left border-2 font-bold text-[11px] uppercase tracking-wider transition-all shadow-sm ${
                           isSel 
                             ? 'border-amber-400 bg-amber-50/30 text-[#310065]' 
+                            : isAdmin && isCorrectAnswer
+                            ? 'border-emerald-500 bg-emerald-50/30 text-emerald-700 shadow-[0_0_10px_rgba(16,185,129,0.2)] animate-pulse'
                             : 'border-purple-100/30 hover:border-purple-200/50 text-[#1b1b1e]/80 hover:bg-purple-50/30'
                         } active:scale-98`}
                       >
                         <div className={`w-6 h-6 rounded-full border-2 flex items-center justify-center shrink-0 ${
-                          isSel ? 'border-amber-500 bg-amber-400 text-white font-black text-[9px]' : 'border-purple-100 text-purple-300 text-[9px]'
+                          isSel ? 'border-amber-500 bg-amber-400 text-white font-black text-[9px]' : isAdmin && isCorrectAnswer ? 'border-emerald-500 bg-emerald-500 text-white font-black text-[9px]' : 'border-purple-100 text-purple-300 text-[9px]'
                         }`}>
                           {letter}
                         </div>

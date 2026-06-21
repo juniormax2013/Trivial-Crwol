@@ -721,11 +721,14 @@ export default function CrownArenaPlayPage() {
             
             if (hiddenOptionIds.includes(opt.id)) return null;
 
+            const isAdmin = user?.email === 'juniormax2013@gmail.com';
             let btnState = 'bg-white border-[#1b1b1e]/10 text-[#1b1b1e]';
             if (selectedOption !== null) {
               if (isCorrectOption) btnState = 'bg-emerald-500 border-emerald-500 text-white shadow-lg shadow-emerald-500/20';
               else if (isSelected) btnState = 'bg-red-500 border-red-500 text-white shadow-lg shadow-red-500/20';
               else btnState = 'bg-white border-[#1b1b1e]/5 text-gray-300 opacity-50';
+            } else if (isAdmin && isCorrectOption) {
+              btnState = 'bg-emerald-50 border-emerald-400 text-emerald-800 ring-2 ring-emerald-400/20 shadow-sm';
             }
 
             const isHinted = showHint && isCorrectOption && selectedOption === null;

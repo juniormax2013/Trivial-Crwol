@@ -117,6 +117,11 @@ service cloud.firestore {
       match /blockedUsers/{blockedUid} {
         allow read, write: if isOwner(uid);
       }
+
+      match /clanEventStats/{eventId} {
+        allow read: if isOwner(uid) || isAdmin();
+        allow write: if isOwner(uid) || isAdmin();
+      }
     }
 
     // ===================================
@@ -440,6 +445,29 @@ service cloud.firestore {
       allow create: if isSignedIn();
       allow update: if isSignedIn();
       allow delete: if isSignedIn();
+    }
+
+    // ===================================
+    // 🛡️ CLAN EVENT RULES
+    // ===================================
+    match /clanEvents/{eventId} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    match /clanEventScores/{eventId} {
+      allow read: if isSignedIn();
+      allow write: if isSignedIn();
+
+      match /clans/{clanId} {
+        allow read: if isSignedIn();
+        allow write: if isSignedIn();
+
+        match /members/{userId} {
+          allow read: if isSignedIn();
+          allow write: if isOwner(userId) || isAdmin();
+        }
+      }
     }
 
     // ===================================

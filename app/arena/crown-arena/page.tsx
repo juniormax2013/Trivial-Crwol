@@ -23,6 +23,7 @@ import { DUEL_CATEGORIES } from '@/lib/duel/seed';
 import { createArenaSession, sendArenaInvitations } from '@/lib/arena/repository';
 import { getFriendsList } from '@/lib/social/repository';
 import { AppUserModel } from '@/lib/user/models';
+import { subscribeGameEngineConfig, GameEngineConfig } from '@/lib/admin/settings-repository';
 import Image from 'next/image';
 import { toast } from 'sonner';
 
@@ -46,6 +47,7 @@ export default function CrownArenaSetup() {
   const [maxPlayers, setMaxPlayers] = useState(4);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errorDetails, setErrorDetails] = useState<string | null>(null);
+  const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
 
   // Friends & Invitations Logic
   const [friends, setFriends] = useState<AppUserModel[]>([]);
@@ -81,7 +83,15 @@ export default function CrownArenaSetup() {
 
   useEffect(() => {
     setMounted(true);
-  }, []);
+    const unsubscribe = subscribeGameEngineConfig((config) => {
+      setEngineConfig(config);
+      if (config.disabledGameModes?.crownArena) {
+        toast.error(t.play?.modeDisabled || 'El modo Crown Arena está desactivado.');
+        router.replace('/arena');
+      }
+    });
+    return () => unsubscribe();
+  }, [router, t]);
 
   const handleCreateRoom = async () => {
     if (!user || isSubmitting) return;

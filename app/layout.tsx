@@ -49,14 +49,13 @@ import InstallPrompt from '@/components/pwa/InstallPrompt';
 import { Toaster } from 'sonner';
 import NotificationDrawer from '@/components/notifications/NotificationDrawer';
 import StoreOverlay from '@/components/store/StoreOverlay';
+import { ThemeProvider } from '@/components/ThemeProvider';
 
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="ht" className={`${notoSerif.variable} ${manrope.variable}`}>
       <head>
-        {/* Enable only light mode */}
-        <meta name="color-scheme" content="light" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         
         {/* Status Bar Styling: 'default' provides dark text on a white background on iOS */}
@@ -76,20 +75,27 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
           <AuthProvider>
             <AuthGuard>
               <NotificationProvider>
-                <LanguageSyncer />
-                
-                {/* Main Content Container with Safe Area Handling */}
-                <div className="w-full bg-[var(--background)] text-[var(--foreground)] relative min-h-[100dvh] overflow-x-hidden flex flex-col flex-1">
-                  {children}
-                </div>
-                
-                <NotificationDrawer />
-                <IncomingDuelListener />
-                <ArenaInvitationListener />
-                <StoreOverlay />
-                <SWRegistration />
-                <InstallPrompt />
-                <Toaster richColors position="top-center" />
+                <ThemeProvider
+                  attribute="class"
+                  defaultTheme="system"
+                  enableSystem
+                  disableTransitionOnChange
+                >
+                  <LanguageSyncer />
+                  
+                  {/* Main Content Container with Safe Area Handling */}
+                  <div className="w-full bg-[var(--background)] text-[var(--foreground)] relative min-h-[100dvh] overflow-x-hidden flex flex-col flex-1">
+                    {children}
+                  </div>
+                  
+                  <NotificationDrawer />
+                  <IncomingDuelListener />
+                  <ArenaInvitationListener />
+                  <StoreOverlay />
+                  <SWRegistration />
+                  <InstallPrompt />
+                  <Toaster richColors position="top-center" />
+                </ThemeProvider>
               </NotificationProvider>
             </AuthGuard>
           </AuthProvider>

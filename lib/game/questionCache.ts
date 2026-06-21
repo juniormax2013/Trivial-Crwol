@@ -7,13 +7,15 @@
 
 import { DuelQuestion } from '@/lib/duel/models';
 import { SacredQuestion } from '@/lib/reto-sagrado/questions';
+import { CategoryModel } from '@/lib/category/models';
 
 // ─── Constants ──────────────────────────────────────────────────
 
 const DB_NAME = 'bible_crown_cache';
-const DB_VERSION = 2;
+const DB_VERSION = 3;
 const STORE_DUEL_QUESTIONS = 'duel_questions';
 const STORE_SACRED_QUESTIONS = 'sacred_questions';
+const STORE_CATEGORIES = 'categories';
 const STORE_METADATA = 'cache_metadata';
 
 const METADATA_KEY_VERSION = 'questionBankVersion';
@@ -60,6 +62,11 @@ export function openQuestionCacheDB(): Promise<IDBDatabase> {
       return;
     }
 
+    const timeout = setTimeout(() => {
+      console.warn('[QuestionCache] ⚠️ IndexedDB open request timed out. Falling back.');
+      reject(new Error('IndexedDB open timeout'));
+    }, 2000); // 2 seconds safety timeout
+
     const request = indexedDB.open(DB_NAME, DB_VERSION);
 
     request.onupgradeneeded = (event) => {
@@ -84,6 +91,11 @@ export function openQuestionCacheDB(): Promise<IDBDatabase> {
         sacredStore.createIndex('lang_type', ['language', 'type'], { unique: false });
       }
 
+      // Categories store
+      if (!db.objectStoreNames.contains(STORE_CATEGORIES)) {
+        db.createObjectStore(STORE_CATEGORIES, { keyPath: 'id' });
+      }
+
       // Metadata store (version, sync timestamps)
       if (!db.objectStoreNames.contains(STORE_METADATA)) {
         db.createObjectStore(STORE_METADATA, { keyPath: 'key' });
@@ -93,19 +105,23 @@ export function openQuestionCacheDB(): Promise<IDBDatabase> {
     };
 
     request.onsuccess = (event) => {
+      clearTimeout(timeout);
       dbInstance = (event.target as IDBOpenDBRequest).result;
       console.log('[QuestionCache] ✅ IndexedDB connected (version:', DB_VERSION, ')');
       resolve(dbInstance);
     };
 
     request.onerror = (event) => {
+      clearTimeout(timeout);
       const err = (event.target as IDBOpenDBRequest).error;
       console.error('[QuestionCache] ❌ Failed to open IndexedDB:', err);
       reject(err);
     };
 
     request.onblocked = () => {
+      clearTimeout(timeout);
       console.warn('[QuestionCache] ⚠️ IndexedDB upgrade blocked. Close other tabs.');
+      reject(new Error('IndexedDB upgrade blocked'));
     };
   });
 }
@@ -567,11 +583,12 @@ export async function clearQuestionCache(): Promise<void> {
   try {
     const db = await openQuestionCacheDB();
     const tx = db.transaction(
-      [STORE_DUEL_QUESTIONS, STORE_SACRED_QUESTIONS, STORE_METADATA],
+      [STORE_DUEL_QUESTIONS, STORE_SACRED_QUESTIONS, STORE_CATEGORIES, STORE_METADATA],
       'readwrite'
     );
     tx.objectStore(STORE_DUEL_QUESTIONS).clear();
     tx.objectStore(STORE_SACRED_QUESTIONS).clear();
+    tx.objectStore(STORE_CATEGORIES).clear();
     tx.objectStore(STORE_METADATA).clear();
 
     return new Promise((resolve, reject) => {
@@ -586,3 +603,106 @@ export async function clearQuestionCache(): Promise<void> {
     console.error('[QuestionCache] clearQuestionCache error:', err);
   }
 }
+
+/**
+ * Saves categories to IndexedDB cache.
+ */
+export async function saveCategoriesToCache(categories: CategoryModel[]): Promise<void> {
+  if (categories.length === 0) return;
+  return new Promise(async (resolve, reject) => {
+    try {
+      const db = await openQuestionCacheDB();
+      const tx = db.transaction(STORE_CATEGORIES, 'readwrite');
+      const store = tx.objectStore(STORE_CATEGORIES);
+      categories.forEach((cat) => {
+        store.put(cat);
+      });
+      tx.oncomplete = () => {
+        console.log(`[QuestionCache] ✅ ${categories.length} categories saved to cache.`);
+        resolve();
+      };
+      tx.onerror = () => reject(tx.error);
+    } catch (err) {
+      reject(err);
+    }
+  });
+}
+
+/**
+ * Gets all cached categories from IndexedDB.
+ */
+export async function getCachedCategories(): Promise<CategoryModel[]> {
+  try {
+    const db = await openQuestionCacheDB();
+    return new Promise((resolve, reject) => {
+      const tx = db.transaction(STORE_CATEGORIES, 'readonly');
+      const store = tx.objectStore(STORE_CATEGORIES);
+      const results: CategoryModel[] = [];
+      const req = store.openCursor();
+      req.onsuccess = (event) => {
+        const cursor = (event.target as IDBRequest<IDBCursorWithValue>).result;
+        if (cursor) {
+          results.push(cursor.value as CategoryModel);
+          cursor.continue();
+        } else {
+          // Sort by order asc
+          results.sort((a, b) => (a.order || 0) - (b.order || 0));
+          resolve(results);
+        }
+      };
+      req.onerror = () => reject(req.error);
+    });
+  } catch (err) {
+    console.error('[QuestionCache] getCachedCategories error:', err);
+    return [];
+  }
+}
+
+/**
+ * Deletes a category from IndexedDB cache.
+ */
+export async function deleteCachedCategory(id: string): Promise<void> {
+  try {
+    await runTransaction<undefined>(STORE_CATEGORIES, 'readwrite', (store) => {
+      return store.delete(id) as IDBRequest<undefined>;
+    });
+    console.log(`[QuestionCache] Category ${id} deleted from cache.`);
+  } catch (err) {
+    console.error('[QuestionCache] deleteCachedCategory error:', err);
+  }
+}
+
+/**
+ * Deletes a question from IndexedDB cache.
+ */
+export async function deleteCachedQuestion(id: string, store: 'duel' | 'sacred' = 'duel'): Promise<void> {
+  const storeName = store === 'duel' ? STORE_DUEL_QUESTIONS : STORE_SACRED_QUESTIONS;
+  try {
+    await runTransaction<undefined>(storeName, 'readwrite', (s) => {
+      return s.delete(id) as IDBRequest<undefined>;
+    });
+    console.log(`[QuestionCache] Question ${id} deleted from cache store ${storeName}.`);
+  } catch (err) {
+    console.error('[QuestionCache] deleteCachedQuestion error:', err);
+  }
+}
+
+/**
+ * Saves a single question to IndexedDB cache.
+ */
+export async function saveQuestionToCache(
+  question: DuelQuestion | SacredQuestion,
+  store: 'duel' | 'sacred' = 'duel'
+): Promise<void> {
+  const storeName = store === 'duel' ? STORE_DUEL_QUESTIONS : STORE_SACRED_QUESTIONS;
+  try {
+    await runTransaction<IDBValidKey>(storeName, 'readwrite', (s) => {
+      const now = Date.now();
+      return s.put({ ...question, cachedAt: now });
+    });
+    console.log(`[QuestionCache] Question ${question.id} saved to cache store ${storeName}.`);
+  } catch (err) {
+    console.error('[QuestionCache] saveQuestionToCache error:', err);
+  }
+}
+

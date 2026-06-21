@@ -18,7 +18,9 @@ import {
   Heart,
   Download as DownloadIcon,
   Flame,
-  Sparkles
+  Sparkles,
+  ArrowUp,
+  ArrowDown
 } from 'lucide-react';
 import { AdminGuard } from '@/components/auth/AdminGuard';
 import { 
@@ -149,6 +151,29 @@ export default function GameEnginePage() {
         ...(prev.jesusSettings || DEFAULT_JESUS_SETTINGS),
         [key]: value
       }
+    }));
+  };
+
+  const updateDisabledGameModeSetting = (key: 'dailyChallenge' | 'bibleJourney' | 'sacredChallenge' | 'crownArena' | 'duelArena', value: boolean) => {
+    setConfig(prev => ({
+      ...prev,
+      disabledGameModes: {
+        ...(prev.disabledGameModes || { dailyChallenge: false, bibleJourney: false, sacredChallenge: false, crownArena: false, duelArena: false }),
+        [key]: value
+      }
+    }));
+  };
+
+  const moveGameMode = (index: number, direction: 'up' | 'down') => {
+    const newOrder = [...(config.gameModeOrder || DEFAULT_GAME_ENGINE_CONFIG.gameModeOrder!)];
+    if (direction === 'up' && index > 0) {
+      [newOrder[index], newOrder[index - 1]] = [newOrder[index - 1], newOrder[index]];
+    } else if (direction === 'down' && index < newOrder.length - 1) {
+      [newOrder[index], newOrder[index + 1]] = [newOrder[index + 1], newOrder[index]];
+    }
+    setConfig(prev => ({
+      ...prev,
+      gameModeOrder: newOrder
     }));
   };
 
@@ -434,6 +459,70 @@ export default function GameEnginePage() {
                       />
                     </button>
                   </div>
+                </div>
+              </section>
+
+              {/* Game Modes Status Config */}
+              <section className="bg-white rounded-3xl border border-[#310065]/5 shadow-sm overflow-hidden">
+                <div className="p-6 border-b border-[#310065]/5 flex items-center justify-between bg-[#310065]/[0.02]">
+                  <div className="flex items-center gap-3">
+                    <Zap className="w-5 h-5 text-[#310065]" />
+                    <div>
+                      <h2 className="font-bold text-[#310065] text-sm sm:text-base">Modos de Juego / Game Modes / Modes de Jeu</h2>
+                      <p className="text-[11px] text-[#1b1b1e]/40 font-medium">Activa o desactiva la visibilidad de los modos de juego en la interfaz de los jugadores.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-6 space-y-4">
+                  {(config.gameModeOrder || DEFAULT_GAME_ENGINE_CONFIG.gameModeOrder!).map((modeKey, index, array) => (
+                    <div key={modeKey} className="flex items-center justify-between p-4 bg-[#faf9fc] rounded-2xl border border-[#310065]/5">
+                      <div className="flex items-center gap-4 flex-1">
+                        <div className="flex flex-col gap-1">
+                          <button 
+                            onClick={() => moveGameMode(index, 'up')}
+                            disabled={index === 0}
+                            className="p-1 rounded bg-[#310065]/5 hover:bg-[#310065]/10 disabled:opacity-30 transition-colors"
+                          >
+                            <ArrowUp className="w-3 h-3 text-[#310065]" />
+                          </button>
+                          <button 
+                            onClick={() => moveGameMode(index, 'down')}
+                            disabled={index === array.length - 1}
+                            className="p-1 rounded bg-[#310065]/5 hover:bg-[#310065]/10 disabled:opacity-30 transition-colors"
+                          >
+                            <ArrowDown className="w-3 h-3 text-[#310065]" />
+                          </button>
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-[#310065] text-sm">
+                            {modeKey === 'dailyChallenge' ? 'Desafío Diario / Daily Challenge / Défi du jour' :
+                             modeKey === 'bibleJourney' ? 'Jugar Biblia / Bible Game / Jouer à la Bible' :
+                             modeKey === 'sacredChallenge' ? 'Reto Sagrado / Sacred Challenge / Défi Sacré' :
+                             modeKey === 'crownArena' ? 'Crown Arena' :
+                             modeKey === 'duelArena' ? 'Arena de Duelos / Duel Arena / Arène de Duel' : modeKey}
+                          </h3>
+                          <p className="text-[11px] text-[#1b1b1e]/60">
+                            {config.disabledGameModes?.[modeKey as keyof typeof config.disabledGameModes]
+                              ? '❌ Desactivado para jugadores / Disabled / Désactivé' 
+                              : '✅ Activo para jugadores / Active / Actif'}
+                          </p>
+                        </div>
+                      </div>
+                      <button
+                        onClick={() => updateDisabledGameModeSetting(modeKey as any, !config.disabledGameModes?.[modeKey as keyof typeof config.disabledGameModes])}
+                        className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:outline-none shrink-0 ${
+                          !config.disabledGameModes?.[modeKey as keyof typeof config.disabledGameModes] ? 'bg-[#310065]' : 'bg-gray-200'
+                        }`}
+                      >
+                        <span
+                          className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                            !config.disabledGameModes?.[modeKey as keyof typeof config.disabledGameModes] ? 'translate-x-6' : 'translate-x-1'
+                          }`}
+                        />
+                      </button>
+                    </div>
+                  ))}
                 </div>
               </section>
 

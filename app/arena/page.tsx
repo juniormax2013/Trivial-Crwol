@@ -44,6 +44,9 @@ import { Tournament } from '@/lib/tournament/models';
 import { useT, useLanguage } from '@/lib/i18n/context';
 import BottomNav from '@/components/BottomNav';
 import BackButton from '@/components/BackButton';
+import { getActiveArenaClanEvent, getClanEventScore, getMyClanEventRank, ClanEventModel } from '@/lib/clan/eventsRepository';
+import { toast } from 'sonner';
+import { subscribeGameEngineConfig, type GameEngineConfig } from '@/lib/admin/settings-repository';
 
 export default function Arena() {
   const { user, loading } = useAuthContext();
@@ -55,9 +58,29 @@ export default function Arena() {
   const [tournamentsLoading, setTournamentsLoading] = useState(true);
   const [lockedModeInfo, setLockedModeInfo] = useState<{ requiredLevel: number; modeName: string } | null>(null);
 
-  const handleGameModeClick = (e: React.MouseEvent, path: string, requiredLevel: number, bypassKey: 'dailyChallenge' | 'bibleJourney' | 'sacredChallenge', modeName: string) => {
+  const [activeEvent, setActiveEvent] = useState<ClanEventModel | null>(null);
+  const [clanEventScore, setClanEventScore] = useState<any>(null);
+  const [clanEventRank, setClanEventRank] = useState<any>(null);
+  const [engineConfig, setEngineConfig] = useState<GameEngineConfig | null>(null);
+
+  useEffect(() => {
+    const unsubscribe = subscribeGameEngineConfig((config) => {
+      setEngineConfig(config);
+    });
+    return () => unsubscribe();
+  }, []);
+
+  const handleGameModeClick = (e: React.MouseEvent, path: string, requiredLevel: number, bypassKey: 'dailyChallenge' | 'bibleJourney' | 'sacredChallenge' | 'crownArena' | 'duelArena', modeName: string) => {
     e.preventDefault();
     const isAdmin = user?.role === 'super_admin' || user?.email === 'juniormax2013@gmail.com';
+    
+    // Check if disabled by admin
+    const isModeDisabled = engineConfig?.disabledGameModes?.[bypassKey] === true;
+    if (isModeDisabled) {
+      toast.error(t.play.modeDisabled || 'Este modo de juego está temporalmente desactivado.');
+      return;
+    }
+
     const isModeLocked = !user || (!isAdmin && (user.level ?? 0) < requiredLevel && !user.customAccess?.[bypassKey]);
     if (isModeLocked) {
       setLockedModeInfo({ requiredLevel, modeName });
@@ -89,6 +112,20 @@ export default function Arena() {
       });
   }, []);
 
+  useEffect(() => {
+    if (user?.uid) {
+      getActiveArenaClanEvent().then((evt) => {
+        if (evt) {
+          setActiveEvent(evt);
+          if (user.clanId) {
+            getClanEventScore(evt.id, user.clanId).then(setClanEventScore);
+            getMyClanEventRank(evt.id, user.clanId).then(setClanEventRank);
+          }
+        }
+      });
+    }
+  }, [user?.uid, user?.clanId]);
+
   if (loading) {
     return (
       <div className="min-h-screen bg-[#faf9fc] flex items-center justify-center">
@@ -98,7 +135,7 @@ export default function Arena() {
   }
 
   return (
-    <div className="bg-white text-[#1b1b1e] min-h-screen pb-8 font-sans selection:bg-[#eddcff]">
+    <div className="bg-[#faf8ff] text-[#0F172A] min-h-screen pb-8 font-sans selection:bg-[#eddcff]">
       
       {/* TopAppBar */}
       <header className="fixed top-0 w-full z-50 bg-white shadow-sm flex items-center justify-between px-6 py-4 pt-safe">
@@ -160,369 +197,359 @@ export default function Arena() {
           </section>
         )}
 
-        {/* Crown Arena — NEW FEATURE */}
-        <section>
-          <div className="flex justify-between items-end mb-4 px-1">
-            <div>
-              <h3 className="font-serif text-[26px] font-bold text-[#310065] leading-tight">{t.crownArena.title}</h3>
-              <p className="text-[#7c7483] font-medium text-[13px] mt-1">{t.crownArena.subtitle}</p>
-            </div>
-            <div className="bg-[#ffe088] text-[#735c00] px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest animate-pulse border border-[#cba72f]/30">{t.arena.live}</div>
-          </div>
-
-          <Link
-            href="/arena/crown-arena"
-            className="block relative overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-[#4a148c] via-[#310065] to-[#1b003a] p-8 text-white shadow-2xl group hover:scale-[1.01] transition-all active:scale-[0.99] border border-white/10"
-          >
-            {/* Animated particles background (CSS only) */}
-            <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
-              <div className="absolute top-0 left-10 w-32 h-32 bg-white rounded-full blur-[80px] animate-pulse"></div>
-              <div className="absolute bottom-10 right-10 w-40 h-40 bg-[#ffe088] rounded-full blur-[100px] animate-pulse"></div>
-            </div>
-
-            <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
-              <div className="flex items-center gap-6">
-                <div className="w-20 h-20 rounded-[2rem] bg-gradient-to-br from-[#ffe088] to-[#cba72f] flex items-center justify-center shadow-[0_12px_24px_rgba(233,195,73,0.4)] rotate-6 group-hover:rotate-0 transition-transform duration-500">
-                  <Crown className="w-10 h-10 text-[#310065] fill-[#310065]" />
-                </div>
-                <div>
-                  <h4 className="font-serif text-[28px] font-black text-white leading-tight mb-1 drop-shadow-md">
-                    Crown Arena
-                  </h4>
-                  <p className="text-white/70 text-[14px] font-medium max-w-[240px]">
-                    {t.arena.marathonDesc}
-                  </p>
-                </div>
+        {/* Clan Event Active Banner */}
+        {activeEvent && (
+          <section className="animate-in fade-in duration-500">
+            <div className="flex justify-between items-end mb-4 px-1">
+              <div>
+                <h3 className="font-serif text-[26px] font-bold text-[#310065] leading-tight">
+                  {(t as any).clanEvents?.battleOfClans || 'Batalla de Clanes'}
+                </h3>
+                <p className="text-[#7c7483] font-medium text-[13px] mt-1">
+                  {(t as any).clanEvents?.playToEarnPoints || 'Juega para sumar puntos a tu clan'}
+                </p>
               </div>
-
-              <div className="flex flex-col items-center gap-3">
-                <div className="flex items-center gap-2 bg-white/20 px-5 py-2.5 rounded-2xl border border-white/10">
-                  <Users className="w-5 h-5 text-[#ffe088]" />
-                  <span className="text-[14px] font-black">{t.arena.playersRange}</span>
-                </div>
-                <button className="flex items-center gap-2 text-[#e9c349] font-black uppercase tracking-[0.2em] text-[12px] group-hover:gap-4 transition-all">
-                  {t.arena.enterNow} <ArrowRight className="w-5 h-5" />
-                </button>
+              <div className="bg-[#0A84FF] text-white px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest animate-pulse border border-[#0A84FF]/20">
+                {(t as any).clanEvents?.wisdomCup || 'Copa de Sabiduría Bíblica'}
               </div>
             </div>
 
-            <div className="mt-8 pt-6 border-t border-white/10 flex items-center justify-between">
-              <div className="flex items-center gap-6">
-                <div className="flex items-center gap-2">
-                  <Zap className="w-4 h-4 text-[#ffe088] fill-[#ffe088]" />
-                  <span className="text-[12px] font-bold text-[#ffe088] tracking-wide">+500 XP</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Flame className="w-4 h-4 text-[#ff6b00] fill-[#ff6b00]" />
-                  <span className="text-[12px] font-bold text-white tracking-wide">{t.arena.streakBonus}</span>
-                </div>
+            <div
+              onClick={() => {
+                if (!user?.clanId) {
+                  toast.error((t as any).clanEvents?.mustJoinClan || 'Debes pertenecer a un clan para participar');
+                } else {
+                  router.push(`/clan/events/${activeEvent.id}`);
+                }
+              }}
+              style={{ background: 'linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #3b82f6 100%)' }}
+              className="cursor-pointer block relative overflow-hidden rounded-[2.5rem] p-8 text-white shadow-2xl group hover:scale-[1.01] transition-all active:scale-[0.99] border border-white/10"
+            >
+              <div className="absolute inset-0 z-0 opacity-25 pointer-events-none">
+                <div className="absolute top-0 right-10 w-44 h-44 bg-[#0A84FF] rounded-full blur-[80px]" />
+                <div className="absolute bottom-10 left-10 w-40 h-40 bg-[#ffe088] rounded-full blur-[100px]" />
               </div>
-              <div className="flex -space-x-3">
-                {[1,2,3,4].map(i => (
-                  <div key={i} className="w-8 h-8 rounded-full border-2 border-[#310065] bg-gray-200 overflow-hidden">
-                    <Image src={`https://api.dicebear.com/9.x/notionists/svg?seed=user${i}`} alt="user" width={32} height={32} unoptimized />
+
+              <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+                <div className="flex items-center gap-6">
+                  <div className="w-20 h-20 rounded-[2rem] bg-gradient-to-br from-[#0A84FF] to-blue-600 flex items-center justify-center shadow-[0_12px_24px_rgba(10,132,255,0.3)] rotate-6 group-hover:rotate-0 transition-transform duration-500">
+                    <Swords className="w-10 h-10 text-white" />
                   </div>
-                ))}
+                  <div>
+                    <span className="bg-[#0A84FF]/20 text-[#0A84FF] px-2.5 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider mb-2 inline-block border border-[#0A84FF]/30">
+                      {(t as any).clanEvents?.clanNeedsHelp || 'Tu clan necesita tu ayuda'}
+                    </span>
+                    <h4 className="font-serif text-[28px] font-black text-white leading-tight mb-1 drop-shadow-md">
+                      {activeEvent.title}
+                    </h4>
+                    <p className="text-white/70 text-[14px] font-medium max-w-[320px]">
+                      {activeEvent.description}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex flex-col items-center md:items-end gap-3 shrink-0">
+                  {user?.clanId && clanEventScore && (
+                    <div className="text-right">
+                      <div className="text-[12px] text-white/60 font-bold uppercase tracking-wider">
+                        {(t as any).clanEvents?.clanPoints || 'Puntos del clan'}
+                      </div>
+                      <div className="text-[28px] font-serif font-black text-[#ffe088] drop-shadow-sm">
+                        {clanEventScore.totalPoints?.toLocaleString()} pts
+                      </div>
+                      {clanEventRank && (
+                        <div className="text-[12px] font-bold text-white/95 bg-white/10 px-3 py-1 rounded-full border border-white/10 mt-1 inline-block">
+                          🏆 Rank #{clanEventRank.position}
+                        </div>
+                      )}
+                    </div>
+                  )}
+                  <button className="flex items-center gap-2 text-[#ffe088] font-black uppercase tracking-[0.2em] text-[12px] group-hover:gap-4 transition-all">
+                    {(t as any).clanEvents?.enterEvent || 'Entrar al evento'} <ArrowRight className="w-5 h-5" />
+                  </button>
+                </div>
+              </div>
+
+              <div className="mt-8 pt-6 border-t border-white/10 flex items-center justify-between">
+                <div className="flex items-center gap-6">
+                  <div className="flex items-center gap-2">
+                    <Clock className="w-4 h-4 text-[#ffe088]" />
+                    <span className="text-[12px] font-bold text-[#ffe088] tracking-wide">
+                      {(t as any).clanEvents?.timeLeft || 'Tiempo restante'}: {Math.max(0, Math.ceil((new Date(activeEvent.endAt).getTime() - Date.now()) / (1000 * 60 * 60 * 24)))}d
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
-          </Link>
-        </section>
+          </section>
+        )}
 
-        {/* Game Modes Section */}
+        {/* Game Modes Section - Premium iOS Style */}
         <section>
-          <div className="flex justify-between items-end mb-6 px-1">
+          <div className="flex items-center gap-2 mb-6 px-2 mt-4">
+            <Sparkles className="w-6 h-6 text-[#310065]" />
             <div>
-              <h3 className="font-serif text-[26px] font-bold text-[#310065] leading-tight">{t.play.title}</h3>
-              <p className="text-[#7c7483] font-medium text-[13px] mt-1">{t.play.subtitle}</p>
+              <h3 className="font-serif text-[22px] font-black text-[#310065] leading-tight">
+                {language === 'es' ? '¡Bienvenido!' : language === 'fr' ? 'Bienvenue !' : language === 'ht' ? 'Byenveni!' : 'Welcome!'}
+              </h3>
+              <p className="text-[#64748B] font-medium text-[13px] mt-0.5">
+                {language === 'es' ? 'Elige un modo y pon a prueba tus conocimientos.' : language === 'fr' ? 'Choisissez un mode et testez vos connaissances.' : language === 'ht' ? 'Chwazi yon mòd epi teste konesans ou.' : 'Choose a mode and test your knowledge.'}
+              </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 gap-4 px-1">
             
-            {/* Daily Challenge (Defi Jounen an) */}
             {(() => {
               const isAdmin = user?.role === 'super_admin' || user?.email === 'juniormax2013@gmail.com';
-              const isDailyLocked = !user || (!isAdmin && (user.level ?? 0) < 1 && !user.customAccess?.dailyChallenge);
-              const isDailyBypassed = !!user?.customAccess?.dailyChallenge;
-              return (
-                <Link
-                  href="/daily-challenge"
-                  onClick={(e) => handleGameModeClick(e, '/daily-challenge', 1, 'dailyChallenge', t.daily.title)}
-                  className={`block relative overflow-hidden rounded-[2rem] p-6 border transition-all h-full ${
-                    isDailyLocked
-                      ? 'bg-gray-50 border-gray-200 opacity-60 grayscale cursor-pointer'
-                      : 'bg-white border-[#ffe088]/40 shadow-[0_8px_32px_rgba(233,195,73,0.08)] group hover:shadow-[0_12px_40px_rgba(233,195,73,0.15)] active:scale-[0.99]'
-                  }`}
-                >
-                  <div className="absolute right-0 top-0 w-24 h-24 bg-[#ffe088]/20 blur-[30px] rounded-full -mr-12 -mt-12 group-hover:bg-[#ffe088]/30 transition-colors"></div>
-                  
-                  <div className="relative z-10 flex flex-col h-full">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#ffe088] to-[#cba72f] flex items-center justify-center shadow-lg shadow-[#cba72f]/20 -rotate-3 group-hover:rotate-0 transition-transform">
-                        <Calendar className="w-7 h-7 text-[#735c00]" />
-                      </div>
-                      <div>
-                        <h4 className="font-black text-[18px] text-[#310065] mb-0.5">{t.daily.title}</h4>
-                        <div className="flex items-center gap-1.5">
-                          {isDailyLocked ? (
-                            <span className="bg-red-50 text-red-600 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-red-100 inline-flex items-center gap-1">
-                              <Lock size={9} /> Lvl 1
-                            </span>
-                          ) : isDailyBypassed ? (
-                            <span className="bg-[#0A84FF]/10 text-[#0A84FF] px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-[#0A84FF]/20 inline-flex items-center gap-1">
-                              ★ Admin
-                            </span>
-                          ) : (
-                            <span className="bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-emerald-200 inline-block">
-                              {t.arena.available}
-                            </span>
-                          )}
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-[#7c7483] text-[13px] font-medium mb-4 flex-grow">
-                      {t.daily.subtitle}
-                    </p>
-                    <div className="flex items-center justify-between mt-auto">
-                      <div className="flex items-center gap-2">
-                        <Flame size={14} className="text-[#ff6b00] fill-[#ff6b00]" />
-                        <span className="text-[11px] font-bold text-[#7c7483]">{t.daily.alreadyDoneDesc}</span>
-                      </div>
-                      <div className="bg-[#faf9fc] p-2 rounded-lg group-hover:bg-[#cba72f] group-hover:text-white transition-all text-[#cba72f]">
-                        <ChevronRight size={20} />
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })()}
- 
-            {/* Jwe Bib la */}
-            {(() => {
-              const isAdmin = user?.role === 'super_admin' || user?.email === 'juniormax2013@gmail.com';
-              const isBibleLocked = !user || (!isAdmin && (user.level ?? 0) < 3 && !user.customAccess?.bibleJourney);
-              const isBibleBypassed = !!user?.customAccess?.bibleJourney;
-              return (
-                <Link
-                  href="/jwe-bib-la"
-                  onClick={(e) => handleGameModeClick(e, '/jwe-bib-la', 3, 'bibleJourney', t.dashboard.bibleGame)}
-                  className={`block relative overflow-hidden rounded-[2rem] p-6 border transition-all h-full ${
-                    isBibleLocked
-                      ? 'bg-gray-50 border-gray-200 opacity-60 grayscale cursor-pointer'
-                      : 'bg-white border-[#eddcff] shadow-[0_8px_32px_rgba(49,0,101,0.05)] group hover:shadow-[0_12px_40px_rgba(49,0,101,0.1)] transition-all active:scale-[0.99]'
-                  }`}
-                >
-                  <div className="absolute right-0 top-0 w-24 h-24 bg-[#eddcff]/30 blur-[30px] rounded-full -mr-12 -mt-12 group-hover:bg-[#eddcff]/50 transition-colors"></div>
-                  
-                  <div className="relative z-10 flex flex-col h-full">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-14 h-14 rounded-2xl bg-[#310065] flex items-center justify-center shadow-lg shadow-[#310065]/20 rotate-3 group-hover:rotate-0 transition-transform">
-                        <Flame className="w-7 h-7 text-[#ffe088] fill-[#ffe088]" />
-                      </div>
-                      <div>
-                        <h4 className="font-black text-[18px] text-[#310065] mb-0.5">{t.dashboard.bibleGame}</h4>
-                        <div className="flex items-center gap-2">
-                          <Zap size={12} className="text-[#cba72f] fill-[#ffe088]" />
-                          <span className="text-[11px] font-bold text-[#7c7483]">{user?.jweEnergy ?? 0} {t.dashboard.energy}</span>
-                          {isBibleLocked ? (
-                            <span className="bg-red-50 text-red-600 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-red-100 inline-flex items-center gap-1 ml-1">
-                              <Lock size={9} /> Lvl 3
-                            </span>
-                          ) : isBibleBypassed ? (
-                            <span className="bg-[#0A84FF]/10 text-[#0A84FF] px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-[#0A84FF]/20 inline-flex items-center gap-1 ml-1">
-                              ★ Admin
-                            </span>
-                          ) : null}
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-[#7c7483] text-[13px] font-medium mb-4 flex-grow">
-                      {t.arena.bibleGameDesc}
-                    </p>
-                    <div className="flex items-center justify-between mt-auto">
-                      <div className="flex items-center gap-2 text-red-500">
-                        <Heart size={14} className="fill-red-500" />
-                        <span className="text-[11px] font-bold">{t.arena.heartsLabel}: {user?.jweHearts ?? 0}</span>
-                      </div>
-                      <div className="bg-[#f5f3f7] p-2 rounded-lg group-hover:bg-[#310065] group-hover:text-white transition-all text-[#310065]">
-                        <ChevronRight size={20} />
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })()}
+              const order = engineConfig?.gameModeOrder || [
+                'crownArena',
+                'dailyChallenge',
+                'bibleJourney',
+                'sacredChallenge',
+                'duelArena'
+              ];
+              
+              const fullOrder = [...order, 'clans'];
 
-            {/* Reto Sagrado (Sacred Challenge) */}
-            {(() => {
-              const isAdmin = user?.role === 'super_admin' || user?.email === 'juniormax2013@gmail.com';
-              const isSacredLocked = !user || (!isAdmin && (user.level ?? 0) < 5 && !user.customAccess?.sacredChallenge);
-              const isSacredBypassed = !!user?.customAccess?.sacredChallenge;
-              return (
-                <Link
-                  href="/reto-sagrado"
-                  onClick={(e) => handleGameModeClick(e, '/reto-sagrado', 5, 'sacredChallenge', t.play.sacredChallenge)}
-                  className={`block relative overflow-hidden rounded-[2rem] p-6 border transition-all h-full ${
-                    isSacredLocked
-                      ? 'bg-gray-50 border-gray-200 opacity-60 grayscale cursor-pointer'
-                      : 'bg-white border-[#d2e3fc] shadow-[0_8px_32px_rgba(10,132,255,0.05)] group hover:shadow-[0_12px_40px_rgba(10,132,255,0.1)] active:scale-[0.99]'
-                  }`}
-                >
-                  <div className="absolute right-0 top-0 w-24 h-24 bg-[#0A84FF]/10 blur-[30px] rounded-full -mr-12 -mt-12 group-hover:bg-[#0A84FF]/20 transition-colors"></div>
-                  
-                  <div className="relative z-10 flex flex-col h-full">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#0A84FF] to-[#0066cc] flex items-center justify-center shadow-lg shadow-[#0A84FF]/20 -rotate-3 group-hover:rotate-0 transition-transform">
-                        <Shield className="w-7 h-7 text-white" />
-                      </div>
-                      <div>
-                        <h4 className="font-black text-[18px] text-[#0F172A] mb-0.5">{t.play.sacredChallenge}</h4>
-                        <div className="flex items-center gap-1.5">
-                          {isSacredLocked ? (
-                            <span className="bg-red-50 text-red-600 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-red-100 inline-flex items-center gap-1">
-                              <Lock size={9} /> Lvl 5
-                            </span>
-                          ) : isSacredBypassed ? (
-                            <span className="bg-[#0A84FF]/10 text-[#0A84FF] px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-[#0A84FF]/20 inline-flex items-center gap-1">
-                              ★ Admin
-                            </span>
-                          ) : (
-                            <span className="bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-emerald-200 inline-block">
-                              {t.arena.available}
-                            </span>
-                          )}
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-[#64748B] text-[13px] font-medium mb-4 flex-grow">
-                      {t.play.sacredChallengeDesc}
-                    </p>
-                    <div className="flex items-center justify-between mt-auto">
-                      <div className="flex items-center gap-2">
-                        <Sparkles size={14} className="text-[#0A84FF]" />
-                        <span className="text-[11px] font-bold text-[#64748B]">{t.arena.playersRange}</span>
-                      </div>
-                      <div className="bg-[#f0f6ff] p-2 rounded-lg group-hover:bg-[#0A84FF] group-hover:text-white transition-all text-[#0A84FF]">
-                        <ChevronRight size={20} />
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })()}
+              return fullOrder.map((key, index) => {
+                const isLastOdd = index === fullOrder.length - 1 && fullOrder.length % 2 !== 0;
+                // Base classes for the card - min height to fit extra options
+                const cardClasses = `bg-white rounded-[24px] p-5 flex flex-col items-center text-center shadow-[0_4px_20px_rgba(49,0,101,0.04)] hover:shadow-[0_8px_30px_rgba(49,0,101,0.08)] transition-all active:scale-[0.98] border border-white min-h-[220px] ${isLastOdd ? 'col-span-2 w-full max-w-[200px] justify-self-center' : ''}`;
+                
+                // Icon wrapper classes
+                const iconWrapperClasses = "w-[64px] h-[64px] rounded-full flex items-center justify-center mb-3 relative shrink-0";
 
-            {/* Clanes y Grupos */}
-            {(() => {
-              const clanTitle = language === 'es' ? 'Clanes y Grupos' : language === 'fr' ? 'Clans et Groupes' : language === 'ht' ? 'Klan ak Gwoup' : 'Clans & Groups';
-              const clanDesc = language === 'es' ? 'Únete a un clan o crea el tuyo para sumar poder y dominar la tabla.' : language === 'fr' ? 'Rejoignez un clan ou créez le vôtre pour accumuler de la puissance.' : language === 'ht' ? 'Antre nan yon klan oswa kreye pa ou pou ajoute pouvwa.' : 'Join a clan or create your own to gain power and dominate.';
-              const availableText = language === 'es' ? 'Disponible' : language === 'fr' ? 'Disponible' : language === 'ht' ? 'Disponib' : 'Available';
-              return (
-                <Link
-                  href="/clans"
-                  className="block relative overflow-hidden rounded-[2rem] p-6 border bg-white border-[#d2e3fc] shadow-[0_8px_32px_rgba(10,132,255,0.05)] group hover:shadow-[0_12px_40px_rgba(10,132,255,0.1)] active:scale-[0.99] transition-all h-full"
-                >
-                  <div className="absolute right-0 top-0 w-24 h-24 bg-[#0A84FF]/10 blur-[30px] rounded-full -mr-12 -mt-12 group-hover:bg-[#0A84FF]/20 transition-colors"></div>
-                  
-                  <div className="relative z-10 flex flex-col h-full">
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#0A84FF] to-[#0066cc] flex items-center justify-center shadow-lg shadow-[#0A84FF]/20 -rotate-3 group-hover:rotate-0 transition-transform">
-                        <Users className="w-7 h-7 text-white" />
+                if (key === 'clans') {
+                  const clanTitle = language === 'es' ? 'Clanes y Grupos' : language === 'fr' ? 'Clans et Groupes' : language === 'ht' ? 'Klan ak Gwoup' : 'Clans & Groups';
+                  const clanDesc = language === 'es' ? 'Únete a un clan o crea el tuyo para sumar poder y dominar la tabla.' : language === 'fr' ? 'Rejoignez un clan ou créez le vôtre pour accumuler de la puissance.' : language === 'ht' ? 'Antre nan yon klan oswa kreye pa ou pou ajoute pouvwa.' : 'Join a clan or create your own to gain power and dominate.';
+                  return (
+                    <Link key="clans" href="/clans" className={cardClasses}>
+                      <div className={`${iconWrapperClasses} bg-blue-50`}>
+                        <Users className="w-8 h-8 text-[#0A84FF] fill-[#0A84FF]/20" />
+                        <Sparkles className="w-3 h-3 text-[#0A84FF]/40 absolute top-0 right-1" />
+                        <Sparkles className="w-2 h-2 text-[#0A84FF]/40 absolute bottom-1 left-0" />
                       </div>
-                      <div>
-                        <h4 className="font-black text-[18px] text-[#0F172A] mb-0.5">{clanTitle}</h4>
-                        <div className="flex items-center gap-1.5">
-                          <span className="bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-widest border border-emerald-200 inline-block">
-                            {availableText}
+                      <h4 className="font-bold text-[14px] text-[#310065] leading-snug mb-1">
+                        {clanTitle}
+                      </h4>
+                      <p className="text-[10px] text-[#64748B] mb-3 line-clamp-2 leading-relaxed px-1">
+                        {clanDesc}
+                      </p>
+                      <div className="flex flex-col gap-1.5 mt-auto w-full items-center">
+                        <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                          <span className="text-[#0A84FF] text-[9px] font-bold uppercase tracking-wider bg-[#0A84FF]/10 px-2 py-0.5 rounded-full border border-[#0A84FF]/20 flex items-center gap-1">
+                            <Users size={10} /> {language === 'es' ? 'Sistema' : 'System'}
                           </span>
                         </div>
                       </div>
-                    </div>
-                    <p className="text-[#64748B] text-[13px] font-medium mb-4 flex-grow">
-                      {clanDesc}
-                    </p>
-                    <div className="flex items-center justify-between mt-auto">
-                      <div className="flex items-center gap-2">
-                        <Users size={14} className="text-[#0A84FF]" />
-                        <span className="text-[11px] font-bold text-[#64748B]">{language === 'es' ? 'Sistema de Clanes' : 'Clans System'}</span>
-                      </div>
-                      <div className="bg-[#f0f6ff] p-2 rounded-lg group-hover:bg-[#0A84FF] group-hover:text-white transition-all text-[#0A84FF]">
-                        <ChevronRight size={20} />
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              );
+                    </Link>
+                  );
+                }
+
+                const isDisabled = engineConfig?.disabledGameModes?.[key as keyof typeof engineConfig.disabledGameModes] === true;
+                if (isDisabled) return null;
+
+                switch (key) {
+                  case 'crownArena':
+                    return (
+                      <Link
+                        key="crownArena"
+                        href="/arena/crown-arena"
+                        onClick={(e) => handleGameModeClick(e, '/arena/crown-arena', 0, 'crownArena', t.crownArena?.title || 'Crown Arena')}
+                        className={cardClasses}
+                      >
+                        <div className={`${iconWrapperClasses} bg-[#fffbf0]`}>
+                          <Crown className="w-8 h-8 text-[#e9c349] fill-[#ffe088]" />
+                          <Sparkles className="w-3 h-3 text-[#e9c349]/40 absolute top-0 right-1" />
+                          <Sparkles className="w-2 h-2 text-[#e9c349]/40 absolute bottom-1 left-0" />
+                        </div>
+                        <h4 className="font-bold text-[14px] text-[#310065] leading-snug mb-1">
+                          {t.crownArena?.title || 'Crown Arena'}
+                        </h4>
+                        <p className="text-[10px] text-[#64748B] mb-3 line-clamp-2 leading-relaxed px-1">
+                          {t.arena.marathonDesc}
+                        </p>
+                        <div className="flex flex-col gap-1.5 mt-auto w-full items-center">
+                          <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                            <span className="text-[#cba72f] text-[9px] font-bold uppercase tracking-wider bg-[#ffe088]/20 px-2 py-0.5 rounded-full border border-[#ffe088]/40 flex items-center gap-1">
+                              <Users size={10} /> {t.arena.playersRange}
+                            </span>
+                          </div>
+                        </div>
+                      </Link>
+                    );
+
+                  case 'dailyChallenge': {
+                    const isDailyLocked = !user || (!isAdmin && (user.level ?? 0) < 1 && !user.customAccess?.dailyChallenge);
+                    const isDailyBypassed = !!user?.customAccess?.dailyChallenge;
+                    return (
+                      <Link
+                        key="dailyChallenge"
+                        href="/daily-challenge"
+                        onClick={(e) => handleGameModeClick(e, '/daily-challenge', 1, 'dailyChallenge', t.daily.title)}
+                        className={`${cardClasses} ${isDailyLocked ? 'opacity-70 grayscale hover:shadow-[0_4px_20px_rgba(49,0,101,0.04)] cursor-pointer' : ''}`}
+                      >
+                        <div className={`${iconWrapperClasses} bg-[#f5f0ff]`}>
+                          <Calendar className="w-8 h-8 text-[#7a49a5] fill-[#e6d5ff]" />
+                          <Sparkles className="w-3 h-3 text-[#7a49a5]/40 absolute top-0 right-1" />
+                        </div>
+                        <h4 className="font-bold text-[14px] text-[#310065] leading-snug mb-1 line-clamp-2">
+                          {t.daily.title}
+                        </h4>
+                        <p className="text-[10px] text-[#64748B] mb-3 line-clamp-2 leading-relaxed px-1">
+                          {t.daily.subtitle}
+                        </p>
+                        <div className="flex flex-col gap-1.5 mt-auto w-full items-center">
+                          <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                            <span className="text-[#ff6b00] text-[9px] font-bold uppercase tracking-wider bg-[#ff6b00]/10 px-2 py-0.5 rounded-full border border-[#ff6b00]/20 flex items-center gap-1">
+                              <Flame size={10} className="fill-[#ff6b00]" /> {t.daily.alreadyDoneDesc}
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                            {isDailyLocked ? (
+                              <span className="text-red-500 text-[9px] font-bold uppercase tracking-wider bg-red-50 px-2 py-0.5 rounded-full border border-red-100 flex items-center gap-1">
+                                <Lock size={9} /> Lvl 1
+                              </span>
+                            ) : isDailyBypassed ? (
+                              <span className="text-[#0A84FF] text-[9px] font-bold uppercase tracking-wider bg-[#0A84FF]/10 px-2 py-0.5 rounded-full border border-[#0A84FF]/20 flex items-center gap-1">
+                                ★ Admin
+                              </span>
+                            ) : null}
+                          </div>
+                        </div>
+                      </Link>
+                    );
+                  }
+
+                  case 'bibleJourney': {
+                    const isBibleLocked = !user || (!isAdmin && (user.level ?? 0) < 3 && !user.customAccess?.bibleJourney);
+                    const isBibleBypassed = !!user?.customAccess?.bibleJourney;
+                    return (
+                      <Link
+                        key="bibleJourney"
+                        href="/jwe-bib-la"
+                        onClick={(e) => handleGameModeClick(e, '/jwe-bib-la', 3, 'bibleJourney', t.dashboard.bibleGame)}
+                        className={`${cardClasses} ${isBibleLocked ? 'opacity-70 grayscale hover:shadow-[0_4px_20px_rgba(49,0,101,0.04)] cursor-pointer' : ''}`}
+                      >
+                        <div className={`${iconWrapperClasses} bg-[#f4eaff]`}>
+                          <BookOpen className="w-8 h-8 text-[#5f2b96] fill-[#c8a2ff]" />
+                          <Sparkles className="w-3 h-3 text-[#5f2b96]/40 absolute top-0 right-1" />
+                        </div>
+                        <h4 className="font-bold text-[14px] text-[#310065] leading-snug mb-1 line-clamp-2">
+                          {t.dashboard.bibleGame}
+                        </h4>
+                        <p className="text-[10px] text-[#64748B] mb-3 line-clamp-2 leading-relaxed px-1">
+                          {t.arena.bibleGameDesc}
+                        </p>
+                        <div className="flex flex-col gap-1.5 mt-auto w-full items-center">
+                          <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                            <span className="text-[#cba72f] text-[9px] font-bold uppercase tracking-wider bg-[#ffe088]/20 px-2 py-0.5 rounded-full border border-[#ffe088]/40 flex items-center gap-1">
+                              <Zap size={10} className="fill-[#cba72f]" /> {user?.jweEnergy ?? 0}
+                            </span>
+                            <span className="text-red-500 text-[9px] font-bold uppercase tracking-wider bg-red-50 px-2 py-0.5 rounded-full border border-red-100 flex items-center gap-1">
+                              <Heart size={10} className="fill-red-500" /> {user?.jweHearts ?? 0}
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                            {isBibleLocked ? (
+                              <span className="text-red-500 text-[9px] font-bold uppercase tracking-wider bg-red-50 px-2 py-0.5 rounded-full border border-red-100 flex items-center gap-1">
+                                <Lock size={9} /> Lvl 3
+                              </span>
+                            ) : isBibleBypassed ? (
+                              <span className="text-[#0A84FF] text-[9px] font-bold uppercase tracking-wider bg-[#0A84FF]/10 px-2 py-0.5 rounded-full border border-[#0A84FF]/20 flex items-center gap-1">
+                                ★ Admin
+                              </span>
+                            ) : null}
+                          </div>
+                        </div>
+                      </Link>
+                    );
+                  }
+
+                  case 'sacredChallenge': {
+                    const isSacredLocked = !user || (!isAdmin && (user.level ?? 0) < 5 && !user.customAccess?.sacredChallenge);
+                    const isSacredBypassed = !!user?.customAccess?.sacredChallenge;
+                    return (
+                      <Link
+                        key="sacredChallenge"
+                        href="/reto-sagrado"
+                        onClick={(e) => handleGameModeClick(e, '/reto-sagrado', 5, 'sacredChallenge', t.play.sacredChallenge)}
+                        className={`${cardClasses} ${isSacredLocked ? 'opacity-70 grayscale hover:shadow-[0_4px_20px_rgba(49,0,101,0.04)] cursor-pointer' : ''}`}
+                      >
+                        <div className={`${iconWrapperClasses} bg-[#f0f6ff]`}>
+                          <Shield className="w-8 h-8 text-[#2563eb] fill-[#93c5fd]" />
+                          <Sparkles className="w-3 h-3 text-[#2563eb]/40 absolute top-0 right-1" />
+                        </div>
+                        <h4 className="font-bold text-[14px] text-[#310065] leading-snug mb-1 line-clamp-2">
+                          {t.play.sacredChallenge}
+                        </h4>
+                        <p className="text-[10px] text-[#64748B] mb-3 line-clamp-2 leading-relaxed px-1">
+                          {t.play.sacredChallengeDesc}
+                        </p>
+                        <div className="flex flex-col gap-1.5 mt-auto w-full items-center">
+                          <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                            <span className="text-[#0A84FF] text-[9px] font-bold uppercase tracking-wider bg-[#0A84FF]/10 px-2 py-0.5 rounded-full border border-[#0A84FF]/20 flex items-center gap-1">
+                              <Sparkles size={10} /> {t.arena.playersRange}
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                            {isSacredLocked ? (
+                              <span className="text-red-500 text-[9px] font-bold uppercase tracking-wider bg-red-50 px-2 py-0.5 rounded-full border border-red-100 flex items-center gap-1">
+                                <Lock size={9} /> Lvl 5
+                              </span>
+                            ) : isSacredBypassed ? (
+                              <span className="text-[#0A84FF] text-[9px] font-bold uppercase tracking-wider bg-[#0A84FF]/10 px-2 py-0.5 rounded-full border border-[#0A84FF]/20 flex items-center gap-1">
+                                ★ Admin
+                              </span>
+                            ) : null}
+                          </div>
+                        </div>
+                      </Link>
+                    );
+                  }
+
+                  case 'duelArena':
+                    return (
+                      <Link
+                        key="duelArena"
+                        href="/arena/duels"
+                        onClick={(e) => handleGameModeClick(e, '/arena/duels', 0, 'duelArena', t.duel?.title || 'Duelos')}
+                        className={cardClasses}
+                      >
+                        <div className={`${iconWrapperClasses} bg-[#fcf5ff]`}>
+                          <Swords className="w-8 h-8 text-[#6b21a8] fill-[#d8b4fe]" />
+                          <Sparkles className="w-3 h-3 text-[#6b21a8]/40 absolute top-0 right-1" />
+                        </div>
+                        <h4 className="font-bold text-[14px] text-[#310065] leading-snug mb-1 line-clamp-2">
+                          {t.duel?.title || 'Duelos'}
+                        </h4>
+                        <p className="text-[10px] text-[#64748B] mb-3 line-clamp-2 leading-relaxed px-1">
+                          {t.arena.duelsSubtitle}
+                        </p>
+                        <div className="flex flex-col gap-1.5 mt-auto w-full items-center">
+                          <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                            <span className="text-[#6b21a8] text-[9px] font-bold uppercase tracking-wider bg-[#f5f0ff] px-2 py-0.5 rounded-full border border-[#eaddff] flex items-center gap-1">
+                              <Crown size={10} className="fill-[#6b21a8]" /> {t.arena.winReward}
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                            {pendingCount > 0 ? (
+                              <span className="text-white text-[9px] font-bold uppercase tracking-wider bg-red-500 px-2 py-0.5 rounded-full shadow-sm flex items-center gap-1">
+                                <Zap size={9} className="fill-white" /> {pendingCount} Pendiente
+                              </span>
+                            ) : null}
+                          </div>
+                        </div>
+                      </Link>
+                    );
+
+                  default:
+                    return null;
+                }
+              });
             })()}
- 
+
           </div>
-        </section>
-
-
-        {/* Duelos Section &mdash; Entry */}
-        <section>
-          <div className="flex justify-between items-end mb-4 px-1">
-            <div>
-              <h3 className="font-serif text-[26px] font-bold text-[#310065] leading-tight">{t.duel.title}</h3>
-              <p className="text-[#7c7483] font-medium text-[13px] mt-1">{t.arena.duelsSubtitle}</p>
-            </div>
-            <Link href="/arena/duels" className="text-[#4a148c] font-bold text-[13px] flex items-center gap-1 group">
-              {t.common.seeAll} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </Link>
-          </div>
-
-          <Link
-            href="/arena/duels"
-            className="block relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-[#1b003a] to-[#310065] p-6 border border-[#4a148c]/40 shadow-[0_8px_32px_rgba(49,0,101,0.18)] group hover:shadow-[0_12px_40px_rgba(49,0,101,0.28)] transition-all active:scale-[0.99]"
-          >
-            {/* BG decoration */}
-            <div className="absolute inset-0 opacity-10">
-              <Swords className="absolute -right-6 -top-6 w-40 h-40 text-white rotate-12" strokeWidth={0.8} />
-            </div>
-
-            <div className="relative z-10 flex items-start justify-between">
-              <div className="flex-1">
-                {pendingCount > 0 && (
-                  <div className="inline-flex items-center gap-1.5 bg-[#ffe088]/20 border border-[#cba72f]/30 px-3 py-1 rounded-full mb-4">
-                    <Zap className="w-3 h-3 text-[#ffe088] fill-[#ffe088]" />
-                    <span className="text-[9px] font-black text-[#ffe088] uppercase tracking-[0.15em]">
-                      {pendingCount} {pendingCount === 1 ? t.arena.pendingOne : t.arena.pendingMultiple}
-                    </span>
-                  </div>
-                )}
-
-                <h4 className="font-serif text-[24px] font-black text-white leading-tight mb-2">
-                  {pendingCount > 0 ? t.arena.duelInbox : t.arena.duelArena}
-                </h4>
-                <p className="text-white/60 text-[13px] font-medium mb-5">
-                  {pendingCount > 0 
-                    ? `${t.arena.pendingDuels.replace('{n}', String(pendingCount))}`
-                    : t.arena.findOpponents}
-                </p>
-
-                {/* Mini player chips */}
-                {pendingCount > 0 && (
-                  <div className="flex items-center gap-2 flex-wrap">
-                    <div className="flex items-center gap-2 bg-[#ffe088]/20 rounded-full px-3 py-1.5 border border-[#cba72f]/30">
-                      <Swords className="w-3.5 h-3.5 text-[#ffe088]" />
-                      <span className="text-[11px] font-bold text-white">{t.arena.yourTurn}</span>
-                    </div>
-                  </div>
-                )}
-              </div>
-
-              {/* Arrow CTA */}
-              <div className="w-12 h-12 rounded-2xl bg-white/10 border border-white/10 flex items-center justify-center ml-4 mt-1 group-hover:bg-[#e9c349] group-hover:border-[#cba72f] transition-all shrink-0">
-                <ChevronRight className="w-5 h-5 text-white group-hover:text-[#310065] transition-colors" />
-              </div>
-            </div>
-
-            {/* Bottom reward strip */}
-            <div className="relative z-10 mt-5 pt-4 border-t border-white/10 flex items-center gap-4">
-              <div className="flex items-center gap-1.5">
-                <Crown className="w-4 h-4 text-[#ffe088] fill-[#ffe088]/60" strokeWidth={1} />
-                <span className="text-[12px] font-bold text-[#ffe088]">{t.arena.winReward}</span>
-              </div>
-            </div>
-          </Link>
         </section>
 
         {/* Torneos Activos */}

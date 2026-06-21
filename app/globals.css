@@ -44,11 +44,23 @@
   --outline-variant: #cbd5e1;
 }
 
-
+.dark {
+  color-scheme: dark;
+  --background: #000000;
+  --foreground: #ffffff;
+  --surface: #1c1c1e;
+  --surface-container-lowest: #000000;
+  --surface-container-low: #1c1c1e;
+  --surface-container: #2c2c2e;
+  --surface-container-high: #3a3a3c;
+  --on-surface: #ffffff;
+  --on-surface-variant: #ebebf5;
+  --outline: #38383a;
+  --outline-variant: #48484a;
+}
 
 html {
   background-color: var(--background);
-  color-scheme: light;
   /* Use scroll-padding-top to account for fixed headers if needed */
   scroll-padding-top: 5rem; 
 }
@@ -70,7 +82,11 @@ body {
 }
 
 input, textarea, select {
-  color-scheme: normal;
+  color-scheme: light;
+}
+
+.dark input, .dark textarea, .dark select {
+  color-scheme: dark;
 }
 
 ::selection {
@@ -120,9 +136,7 @@ img {
   color: #310065;
 }
 
-input, textarea, select {
-  color-scheme: light !important;
-}
+/* Remove force light scheme from inputs */
 
 /* Premium Profile Frame Animations */
 @keyframes shine {
@@ -163,6 +177,11 @@ input, textarea, select {
 
 .animate-crown-glow {
   animation: crown-glow 3s infinite ease-in-out;
+}
+
+@keyframes autoAdvanceProgress {
+  from { width: 0%; }
+  to   { width: 100%; }
 }
 
 
